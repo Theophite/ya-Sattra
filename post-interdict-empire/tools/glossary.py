@@ -1,0 +1,1481 @@
+#!/usr/bin/env python3
+"""
+Post-Interdict Empire Glossary
+
+A fast lookup tool for setting terminology. Use this BEFORE RAG searches
+when you need quick definitions or to verify term existence.
+
+Data is loaded from glossary_data.yaml. Edit that file directly using str_replace
+by matching entry markers: # ═══ Entry Name ═══ through # ─── end Entry Name ───
+
+SETUP
+=====
+    cp /mnt/project/glossary.py /home/claude/
+    cp /mnt/project/glossary_data.yaml /home/claude/
+
+COMMANDS
+========
+    glossary.py lookup <term>           Exact match lookup
+    glossary.py search <query>          Search across all fields
+    glossary.py category <category>     List all entries (caste/location/organization/concept)
+    glossary.py random [category]       Get a random entry (optionally from specific category)
+    glossary.py caste-feature <f> <v>   Find castes by feature value
+    glossary.py caste-compare <c1> <c2> Compare two castes
+    glossary.py caste-trait <trait>     Find castes with specific trait
+    glossary.py scene-setup <location>  Get location details for scene writing
+    glossary.py location-tree <loc>     Show location hierarchy
+    glossary.py scan <filepath> [-v]    Scan document for all glossary terms (canonicity check)
+    glossary.py scan-text [-v]          Scan piped text (cat doc.txt | glossary.py scan-text)
+
+VALIDATION
+==========
+    python3 -c "import yaml; yaml.safe_load(open('glossary_data.yaml')); print('Valid!')"
+
+ADDING ENTRIES
+==============
+Entries are alphabetical within category sections. To insert, find the preceding
+entry's end marker and use str_replace:
+
+    old_str="  # ─── end Serrulata ───\\n\\n  # ═══ Springheel ═══"
+    new_str=\"\"\"  # ─── end Serrulata ───
+
+  # ═══ Sewer-Fishers ═══
+  Sewer-Fishers:
+    category: caste
+    short: "Description."
+    ...
+  # ─── end Sewer-Fishers ───
+
+  # ═══ Springheel ═══\"\"\"
+
+ENTRY TEMPLATES
+===============
+Caste:
+    # ═══ Name ═══
+    Name:
+      category: caste
+      short: "One-line description."
+      details: |
+        Optional longer description.
+      rag_pointer: "Source Document"
+      related: [Term1, Term2]
+      caste_features:
+        morphology: baseline|modified|divergent|merged|parasitic|variable
+        scale: tiny|small|baseline|tall|giant|variable
+        compulsion: triggers|susceptible|immune|unknown
+        lifespan: reduced|baseline|extended|variable
+        cognition: baseline|enhanced|specialized|reduced|semi
+        population: extinct|remnant|rare|common|majority
+        physical_traits: ["trait one", "trait two"]
+        original_function: "designed purpose"
+        current_role: "current purpose"
+        distribution: ["location one"]
+        health_issues: ["issue one"]
+        special: ["unique characteristic"]
+    # ─── end Name ───
+
+Location:
+    # ═══ Name ═══
+    Name:
+      category: location
+      short: "One-line description."
+      rag_pointer: "Source Document"
+      related: [Term1, Term2]
+      location_features:
+        level: site|neighborhood|district|city|territory
+        location_type: settlement|infrastructure|commercial|religious|administrative|residential|industrial|underground|educational|polity
+        parent: Parent Location
+        children: [Child1, Child2]
+        controlling_entity: "Who runs it"
+        population: "~50,000"
+        primary_function: "Main purpose"
+    # ─── end Name ───
+
+Organization/Concept:
+    # ═══ Name ═══
+    Name:
+      category: organization  (or: concept)
+      short: "One-line description."
+      details: "Optional longer description."
+      rag_pointer: "Source Document"
+      related: [Term1, Term2]
+    # ─── end Name ───
+
+COMMON ERRORS
+=============
+    "Unknown Compulsion value: variable" -> Use: triggers|susceptible|immune|unknown
+    "Unknown Lifespan value: unknown"    -> Use: reduced|baseline|extended|variable
+    YAML parse error                     -> Check 2-space indent, quote strings with colons
+    Entry not found after adding         -> Verify marker format: ═══ and ───
+
+OUTPUT
+======
+    cp /home/claude/glossary_data.yaml /mnt/user-data/outputs/
+"""
+
+import sys
+import yaml
+from pathlib import Path
+from dataclasses import dataclass, field
+from typing import Optional, List, Dict, Any
+from difflib import get_close_matches
+from enum import Enum
+
+
+# =============================================================================
+# CASTE FEATURE SCHEMA
+# =============================================================================
+
+class Morphology(Enum):
+    """Body plan relative to unmodified humans."""
+    BASELINE = "baseline"
+    MODIFIED_HUMANOID = "modified"
+    DIVERGENT = "divergent"
+    MERGED = "merged"
+    PARASITIC = "parasitic"
+    VARIABLE = "variable"
+
+
+class Scale(Enum):
+    """Size relative to baseline humans (~1.7m)."""
+    TINY = "tiny"
+    SMALL = "small"
+    BASELINE = "baseline"
+    TALL = "tall"
+    GIANT = "giant"
+    VARIABLE = "variable"
+
+
+class Compulsion(Enum):
+    """Relationship to Compulsion mechanism."""
+    TRIGGERS = "triggers"
+    SUSCEPTIBLE = "susceptible"
+    IMMUNE = "immune"
+    UNKNOWN = "unknown"
+
+
+class Lifespan(Enum):
+    """Life expectancy category."""
+    REDUCED = "reduced"
+    BASELINE = "baseline"
+    EXTENDED = "extended"
+    VARIABLE = "variable"
+
+
+class Cognition(Enum):
+    """Cognitive modification status."""
+    BASELINE = "baseline"
+    ENHANCED = "enhanced"
+    SPECIALIZED = "specialized"
+    REDUCED = "reduced"
+    SEMI_SENTIENT = "semi"
+
+
+class Population(Enum):
+    """Approximate population scale."""
+    EXTINCT = "extinct"
+    REMNANT = "remnant"
+    RARE = "rare"
+    COMMON = "common"
+    MAJORITY = "majority"
+
+
+@dataclass
+class CasteFeatures:
+    """Structured properties of an engineered caste."""
+    morphology: Morphology
+    scale: Scale
+    compulsion: Compulsion
+    lifespan: Lifespan
+    cognition: Cognition
+    population: Population
+    
+    physical_traits: List[str] = field(default_factory=list)
+    original_function: str = ""
+    current_role: str = ""
+    distribution: List[str] = field(default_factory=list)
+    interfertile_with: List[str] = field(default_factory=list)
+    health_issues: List[str] = field(default_factory=list)
+    lifespan_note: str = ""
+    special: List[str] = field(default_factory=list)
+
+
+# =============================================================================
+# LOCATION FEATURE SCHEMA
+# =============================================================================
+
+class Level(Enum):
+    """Hierarchical position in location tree."""
+    TERRITORY = "territory"
+    CITY = "city"
+    DISTRICT = "district"
+    NEIGHBORHOOD = "neighborhood"
+    SITE = "site"
+
+
+class LocationType(Enum):
+    """Functional character of location."""
+    POLITY = "polity"
+    SETTLEMENT = "settlement"
+    ADMINISTRATIVE = "administrative"
+    INDUSTRIAL = "industrial"
+    COMMERCIAL = "commercial"
+    RESIDENTIAL = "residential"
+    RELIGIOUS = "religious"
+    MILITARY = "military"
+    ARCOLOGY = "arcology"
+    INFRASTRUCTURE = "infrastructure"
+    GEOGRAPHIC = "geographic"
+    GROUPING = "grouping"
+    EDUCATIONAL = "educational"
+    UNDERGROUND = "underground"
+    MONUMENT = "monument"
+
+
+@dataclass
+class LocationFeatures:
+    """Structured properties of a location."""
+    level: Level
+    location_type: LocationType
+    
+    parent: str = ""
+    children: List[str] = field(default_factory=list)
+    member_of: str = ""
+    aliases: List[str] = field(default_factory=list)
+    
+    controlling_entity: str = ""
+    population: str = ""
+    primary_function: str = ""
+    castes_present: List[str] = field(default_factory=list)
+    
+    temporal_effects: str = ""
+    hazards: List[str] = field(default_factory=list)
+    notable_features: List[str] = field(default_factory=list)
+    
+    borders: Dict[str, List[str]] = field(default_factory=dict)
+    real_world_anchor: str = ""
+
+
+@dataclass
+class AestheticFeatures:
+    """Visual and material culture details for a location or culture."""
+    visual_vocabulary: List[str] = field(default_factory=list)
+    materials: List[str] = field(default_factory=list)
+    colors: List[str] = field(default_factory=list)
+    sensory: List[str] = field(default_factory=list)
+    intention: str = ""
+    environment: str = ""
+    key_elements: List[str] = field(default_factory=list)
+    construction: str = ""
+
+
+@dataclass
+class GlossaryEntry:
+    term: str
+    category: str
+    short: str
+    details: str = ""
+    rag_pointer: str = ""
+    related: List[str] = field(default_factory=list)
+    aliases: List[str] = field(default_factory=list)
+    caste_features: Optional[CasteFeatures] = None
+    location_features: Optional[LocationFeatures] = None
+    aesthetic_features: Optional[AestheticFeatures] = None
+    local_aesthetic: str = ""
+
+
+# =============================================================================
+# YAML LOADING
+# =============================================================================
+
+def str_to_enum(enum_class, value):
+    """Convert string to enum value."""
+    if value is None:
+        return None
+    value = str(value).lower()
+    for member in enum_class:
+        if member.value == value:
+            return member
+    raise ValueError(f"Unknown {enum_class.__name__} value: {value}")
+
+
+def load_caste_features(data: dict) -> CasteFeatures:
+    """Load CasteFeatures from YAML dict."""
+    return CasteFeatures(
+        morphology=str_to_enum(Morphology, data.get('morphology')),
+        scale=str_to_enum(Scale, data.get('scale')),
+        compulsion=str_to_enum(Compulsion, data.get('compulsion')),
+        lifespan=str_to_enum(Lifespan, data.get('lifespan')),
+        cognition=str_to_enum(Cognition, data.get('cognition')),
+        population=str_to_enum(Population, data.get('population')),
+        physical_traits=data.get('physical_traits', []),
+        original_function=data.get('original_function', ''),
+        current_role=data.get('current_role', ''),
+        distribution=data.get('distribution', []),
+        interfertile_with=data.get('interfertile_with', []),
+        health_issues=data.get('health_issues', []),
+        lifespan_note=data.get('lifespan_note', ''),
+        special=data.get('special', [])
+    )
+
+
+def load_location_features(data: dict) -> LocationFeatures:
+    """Load LocationFeatures from YAML dict."""
+    return LocationFeatures(
+        level=str_to_enum(Level, data.get('level')),
+        location_type=str_to_enum(LocationType, data.get('location_type')),
+        parent=data.get('parent', ''),
+        children=data.get('children', []),
+        member_of=data.get('member_of', ''),
+        aliases=data.get('aliases', []),
+        controlling_entity=data.get('controlling_entity', ''),
+        population=data.get('population', ''),
+        primary_function=data.get('primary_function', ''),
+        castes_present=data.get('castes_present', []),
+        temporal_effects=data.get('temporal_effects', ''),
+        hazards=data.get('hazards', []),
+        notable_features=data.get('notable_features', []),
+        borders=data.get('borders', {}),
+        real_world_anchor=data.get('real_world_anchor', '')
+    )
+
+
+def load_aesthetic_features(data: dict) -> AestheticFeatures:
+    """Load AestheticFeatures from YAML dict."""
+    return AestheticFeatures(
+        visual_vocabulary=data.get('visual_vocabulary', []),
+        materials=data.get('materials', []),
+        colors=data.get('colors', []),
+        sensory=data.get('sensory', []),
+        intention=data.get('intention', ''),
+        environment=data.get('environment', ''),
+        key_elements=data.get('key_elements', []),
+        construction=data.get('construction', '')
+    )
+
+
+def load_entry(term: str, data: dict) -> GlossaryEntry:
+    """Load a single GlossaryEntry from YAML dict."""
+    caste_features = None
+    location_features = None
+    aesthetic_features = None
+    
+    if 'caste_features' in data:
+        caste_features = load_caste_features(data['caste_features'])
+    
+    if 'location_features' in data:
+        location_features = load_location_features(data['location_features'])
+    
+    if 'aesthetic_features' in data:
+        aesthetic_features = load_aesthetic_features(data['aesthetic_features'])
+    
+    return GlossaryEntry(
+        term=term,
+        category=data.get('category', ''),
+        short=data.get('short', ''),
+        details=data.get('details', ''),
+        rag_pointer=data.get('rag_pointer', ''),
+        related=data.get('related', []),
+        aliases=data.get('aliases', []),
+        caste_features=caste_features,
+        location_features=location_features,
+        aesthetic_features=aesthetic_features,
+        local_aesthetic=data.get('local_aesthetic', '')
+    )
+
+
+def load_glossary(yaml_path: Path = None) -> Dict[str, GlossaryEntry]:
+    """Load all glossary entries from YAML file."""
+    if yaml_path is None:
+        yaml_path = Path(__file__).parent / "glossary_data.yaml"
+    
+    with open(yaml_path, 'r', encoding='utf-8') as f:
+        data = yaml.safe_load(f)
+    
+    entries = {}
+    for term, entry_data in data.get('entries', {}).items():
+        entry = load_entry(term, entry_data)
+        entries[term.lower()] = entry
+    
+    return entries
+
+
+# =============================================================================
+# GLOBAL ENTRIES - Loaded on import
+# =============================================================================
+
+ENTRIES: Dict[str, GlossaryEntry] = {}
+
+def _init_entries():
+    """Initialize entries from YAML file."""
+    global ENTRIES
+    try:
+        ENTRIES = load_glossary()
+    except Exception as e:
+        print(f"Warning: Could not load glossary_data.yaml: {e}", file=sys.stderr)
+        ENTRIES = {}
+
+_init_entries()
+
+
+# =============================================================================
+# QUERY FUNCTIONS
+# =============================================================================
+
+def lookup(term: str) -> Optional[GlossaryEntry]:
+    """Look up a term directly, including by alias."""
+    # Direct lookup first
+    entry = ENTRIES.get(term.lower())
+    if entry:
+        return entry
+    
+    # Check aliases (both top-level and location_features.aliases)
+    term_lower = term.lower()
+    for entry in ENTRIES.values():
+        # Check top-level aliases
+        if entry.aliases:
+            for alias in entry.aliases:
+                if alias.lower() == term_lower:
+                    return entry
+        # Check location_features.aliases
+        if entry.location_features and entry.location_features.aliases:
+            for alias in entry.location_features.aliases:
+                if alias.lower() == term_lower:
+                    return entry
+    
+    return None
+
+
+def search(query: str) -> List[GlossaryEntry]:
+    """Search terms, shorts, and details for query string."""
+    query_lower = query.lower()
+    results = []
+    for entry in ENTRIES.values():
+        if (query_lower in entry.term.lower() or
+            query_lower in entry.short.lower() or
+            query_lower in entry.details.lower()):
+            results.append(entry)
+    return results
+
+
+def category(cat: str) -> List[GlossaryEntry]:
+    """Get all entries in a category."""
+    return [e for e in ENTRIES.values() if e.category.lower() == cat.lower()]
+
+
+def related(term: str) -> List[GlossaryEntry]:
+    """Get an entry and all its related entries."""
+    entry = lookup(term)
+    if not entry:
+        return []
+    results = [entry]
+    for rel in entry.related:
+        rel_entry = lookup(rel)
+        if rel_entry:
+            results.append(rel_entry)
+    return results
+
+
+def check(term: str) -> Dict[str, Any]:
+    """Check if term exists, return entry and similar terms if not."""
+    entry = lookup(term)
+    if entry:
+        return {"exists": True, "entry": entry, "similar": []}
+    
+    all_terms = [e.term for e in ENTRIES.values()]
+    similar = get_close_matches(term, all_terms, n=5, cutoff=0.4)
+    return {"exists": False, "entry": None, "similar": similar}
+
+
+import random as _random
+
+def random_entry(cat: str = None, weighted: bool = True) -> Optional[GlossaryEntry]:
+    """
+    Get a random glossary entry.
+    
+    Args:
+        cat: Optional category filter (caste, location, organization, concept, etc.)
+        weighted: If True, favor entries with richer content
+    
+    Returns:
+        A random GlossaryEntry, or None if no entries match
+    """
+    entries = list(ENTRIES.values())
+    
+    if cat:
+        entries = [e for e in entries if e.category.lower() == cat.lower()]
+    
+    if not entries:
+        return None
+    
+    if weighted:
+        # Weight by richness: entries with more content are more interesting
+        weights = []
+        for e in entries:
+            weight = 1.0
+            if e.details:
+                weight += len(e.details) / 100
+            if e.related:
+                weight += len(e.related) * 0.5
+            if e.rag_pointer:
+                weight += 1.0
+            if e.caste_features or e.location_features:
+                weight += 1.5
+            weights.append(weight)
+        
+        return _random.choices(entries, weights=weights, k=1)[0]
+    else:
+        return _random.choice(entries)
+
+
+# =============================================================================
+# CASTE-SPECIFIC QUERIES
+# =============================================================================
+
+def caste_by_feature(feature: str, value: str) -> List[GlossaryEntry]:
+    """Find castes by a specific feature value."""
+    results = []
+    for entry in ENTRIES.values():
+        if not entry.caste_features:
+            continue
+        cf = entry.caste_features
+        feature_lower = feature.lower()
+        
+        if feature_lower == "morphology" and cf.morphology.value == value.lower():
+            results.append(entry)
+        elif feature_lower == "scale" and cf.scale.value == value.lower():
+            results.append(entry)
+        elif feature_lower == "compulsion" and cf.compulsion.value == value.lower():
+            results.append(entry)
+        elif feature_lower == "lifespan" and cf.lifespan.value == value.lower():
+            results.append(entry)
+        elif feature_lower == "cognition" and cf.cognition.value == value.lower():
+            results.append(entry)
+        elif feature_lower == "population" and cf.population.value == value.lower():
+            results.append(entry)
+    
+    return results
+
+
+def caste_by_trait(trait: str) -> List[GlossaryEntry]:
+    """Find castes with a trait in physical_traits or special."""
+    trait_lower = trait.lower()
+    results = []
+    for entry in ENTRIES.values():
+        if not entry.caste_features:
+            continue
+        cf = entry.caste_features
+        for t in cf.physical_traits + cf.special:
+            if trait_lower in t.lower():
+                results.append(entry)
+                break
+    return results
+
+
+def caste_compare(caste1: str, caste2: str) -> Dict[str, Any]:
+    """Compare two castes side by side."""
+    e1 = lookup(caste1)
+    e2 = lookup(caste2)
+    
+    if not e1 or not e1.caste_features:
+        return {"error": f"'{caste1}' not found or not a caste"}
+    if not e2 or not e2.caste_features:
+        return {"error": f"'{caste2}' not found or not a caste"}
+    
+    cf1 = e1.caste_features
+    cf2 = e2.caste_features
+    
+    return {
+        "caste1": e1.term,
+        "caste2": e2.term,
+        "comparison": {
+            "morphology": (cf1.morphology.value, cf2.morphology.value),
+            "scale": (cf1.scale.value, cf2.scale.value),
+            "compulsion": (cf1.compulsion.value, cf2.compulsion.value),
+            "lifespan": (cf1.lifespan.value, cf2.lifespan.value),
+            "cognition": (cf1.cognition.value, cf2.cognition.value),
+            "population": (cf1.population.value, cf2.population.value),
+        },
+        "original_function": (cf1.original_function, cf2.original_function),
+        "current_role": (cf1.current_role, cf2.current_role),
+    }
+
+
+# =============================================================================
+# MULTI-WORD TERM EXTRACTION
+# =============================================================================
+
+def get_multi_word_terms() -> set:
+    """
+    Extract all multi-word terms from the glossary.
+    
+    Returns a set of lowercase term names that contain spaces or hyphens.
+    This is used by input_check.py to find glossary terms in user text.
+    """
+    _init_entries()
+    multi_word = set()
+    for term in ENTRIES.keys():
+        # Include terms with spaces or hyphens (multi-word terms)
+        if ' ' in term or '-' in term:
+            multi_word.add(term.lower())
+    return multi_word
+
+
+def get_all_terms() -> set:
+    """
+    Get all glossary term names (lowercase).
+    
+    Returns a set of all term names for quick membership testing.
+    """
+    _init_entries()
+    return {term.lower() for term in ENTRIES.keys()}
+
+
+# =============================================================================
+# DOCUMENT SCANNING FOR CANONICITY CHECKS
+# =============================================================================
+
+import re
+
+def _build_term_patterns() -> List[tuple]:
+    """Build regex patterns for all glossary terms, sorted by length (longest first)."""
+    patterns = []
+    for term, entry in ENTRIES.items():
+        # Escape special regex chars and build word-boundary pattern
+        escaped = re.escape(term)
+        # Allow for hyphen/space variation (e.g., "ya-Sattra" matches "ya Sattra")
+        escaped = escaped.replace(r'\ ', r'[\s\-]').replace(r'\-', r'[\s\-]')
+        pattern = re.compile(r'\b' + escaped + r'\b', re.IGNORECASE)
+        patterns.append((term, pattern, entry))
+    
+    # Sort by term length descending so longer terms match first
+    patterns.sort(key=lambda x: -len(x[0]))
+    return patterns
+
+
+def scan_document(text: str, include_counts: bool = True) -> Dict[str, Any]:
+    """
+    Scan document text for all glossary terms.
+    
+    Returns:
+        {
+            "found": {term: {"entry": GlossaryEntry, "count": int, "contexts": [str]}},
+            "by_category": {category: [terms]},
+            "stats": {"total_terms": int, "unique_terms": int, ...},
+            "potential_issues": [str]  # Terms that look canonical but aren't in glossary
+        }
+    """
+    patterns = _build_term_patterns()
+    found = {}
+    matched_spans = []  # Track matched positions to avoid double-counting
+    
+    for term, pattern, entry in patterns:
+        matches = list(pattern.finditer(text))
+        if not matches:
+            continue
+        
+        # Filter out matches that overlap with already-matched longer terms
+        valid_matches = []
+        for m in matches:
+            overlaps = False
+            for start, end in matched_spans:
+                if not (m.end() <= start or m.start() >= end):
+                    overlaps = True
+                    break
+            if not overlaps:
+                valid_matches.append(m)
+                matched_spans.append((m.start(), m.end()))
+        
+        if valid_matches:
+            # Extract context snippets (30 chars before/after)
+            contexts = []
+            for m in valid_matches[:3]:  # Limit to 3 examples
+                start = max(0, m.start() - 30)
+                end = min(len(text), m.end() + 30)
+                snippet = text[start:end].replace('\n', ' ')
+                if start > 0:
+                    snippet = '...' + snippet
+                if end < len(text):
+                    snippet = snippet + '...'
+                contexts.append(snippet)
+            
+            found[term] = {
+                "entry": entry,
+                "count": len(valid_matches),
+                "contexts": contexts
+            }
+    
+    # Organize by category
+    by_category = {}
+    for term, data in found.items():
+        cat = data["entry"].category
+        if cat not in by_category:
+            by_category[cat] = []
+        by_category[cat].append(term)
+    
+    # Sort each category alphabetically
+    for cat in by_category:
+        by_category[cat].sort()
+    
+    # Compute stats
+    stats = {
+        "total_terms": sum(d["count"] for d in found.values()),
+        "unique_terms": len(found),
+        "by_category": {cat: len(terms) for cat, terms in by_category.items()}
+    }
+    
+    # Look for potential issues: capitalized multi-word phrases that look like proper nouns
+    # but aren't in the glossary
+    potential_issues = _find_potential_terms(text, found)
+    
+    return {
+        "found": found,
+        "by_category": by_category,
+        "stats": stats,
+        "potential_issues": potential_issues
+    }
+
+
+def _find_potential_terms(text: str, found: Dict) -> List[str]:
+    """Find capitalized phrases that might be undefined terms."""
+    # Pattern for capitalized phrases that look like proper nouns
+    # e.g., "Bureau of Something", "The Something", "ya-Something"
+    patterns = [
+        r'\b(Bureau of (?:the )?[A-Z][a-z]+)\b',
+        r'\b(Institute of (?:the )?[A-Z][a-z]+)\b', 
+        r'\b(ya-[A-Z][a-z]+)\b',
+        r'\b(es-[A-Z][a-z]+)\b',
+        r'\b([A-Z][a-z]+ (?:Caste|Quarter|District|Parish|Guild|House|Household))\b',
+        r'\b((?:First|Second|Third|Fourth|Fifth|Sixth|Seventh|Eighth) [A-Z][a-z]+)\b',
+    ]
+    
+    found_lower = {t.lower() for t in found.keys()}
+    all_terms_lower = {t.lower() for t in ENTRIES.keys()}
+    
+    potential = set()
+    for pattern in patterns:
+        for m in re.finditer(pattern, text):
+            term = m.group(1)
+            if term.lower() not in all_terms_lower:
+                potential.add(term)
+    
+    return sorted(potential)
+
+
+def format_scan_report(result: Dict[str, Any], verbose: bool = False) -> str:
+    """Format scan results as a readable report."""
+    lines = []
+    lines.append("=" * 70)
+    lines.append("  GLOSSARY TERM SCAN REPORT")
+    lines.append("=" * 70)
+    
+    # Stats summary
+    stats = result["stats"]
+    lines.append(f"\n  SUMMARY")
+    lines.append(f"  {'─' * 40}")
+    lines.append(f"  Total term occurrences: {stats['total_terms']}")
+    lines.append(f"  Unique terms found: {stats['unique_terms']}")
+    lines.append("")
+    
+    # By category
+    lines.append(f"  BY CATEGORY")
+    lines.append(f"  {'─' * 40}")
+    for cat, count in sorted(stats["by_category"].items()):
+        lines.append(f"  {cat:20} {count:4} terms")
+    lines.append("")
+    
+    # Detailed listing by category
+    if verbose:
+        for cat in ["caste", "location", "organization", "concept"]:
+            if cat not in result["by_category"]:
+                continue
+            terms = result["by_category"][cat]
+            lines.append(f"\n  {cat.upper()} ({len(terms)})")
+            lines.append(f"  {'─' * 40}")
+            for term in terms:
+                data = result["found"][term]
+                count = data["count"]
+                lines.append(f"  • {term} ({count}x)")
+                if data["contexts"]:
+                    lines.append(f"      â""─ \"{data['contexts'][0]}\"")
+    else:
+        # Compact listing
+        for cat in ["caste", "location", "organization", "concept"]:
+            if cat not in result["by_category"]:
+                continue
+            terms = result["by_category"][cat]
+            lines.append(f"  {cat.upper()}: {', '.join(terms[:10])}")
+            if len(terms) > 10:
+                lines.append(f"      ... and {len(terms) - 10} more")
+    
+    # Potential issues
+    if result["potential_issues"]:
+        lines.append(f"\n  ⚠️  POTENTIAL UNDEFINED TERMS")
+        lines.append(f"  {'─' * 40}")
+        lines.append("  These look like setting terms but aren't in the glossary:")
+        for term in result["potential_issues"][:15]:
+            lines.append(f"  • {term}")
+        if len(result["potential_issues"]) > 15:
+            lines.append(f"  ... and {len(result['potential_issues']) - 15} more")
+    
+    lines.append("")
+    lines.append("=" * 70)
+    return "\n".join(lines)
+
+
+def scan_file(filepath: str) -> Dict[str, Any]:
+    """Scan a file for glossary terms."""
+    with open(filepath, 'r', encoding='utf-8') as f:
+        text = f.read()
+    return scan_document(text)
+
+
+# =============================================================================
+# LOCATION-SPECIFIC QUERIES
+# =============================================================================
+
+def location_lookup(name: str) -> Optional[GlossaryEntry]:
+    """Look up location by name or alias."""
+    entry = lookup(name)
+    if entry and entry.category == "location":
+        return entry
+    
+    name_lower = name.lower()
+    for entry in ENTRIES.values():
+        if entry.category != "location":
+            continue
+        if not entry.location_features:
+            continue
+        for alias in entry.location_features.aliases:
+            if alias.lower() == name_lower:
+                return entry
+    return None
+
+
+def locations_by_level(level: str) -> List[GlossaryEntry]:
+    """Get all locations at a given hierarchical level."""
+    try:
+        level_enum = str_to_enum(Level, level)
+    except ValueError:
+        return []
+    
+    return [e for e in ENTRIES.values()
+            if e.location_features and e.location_features.level == level_enum]
+
+
+def locations_by_type(loc_type: str) -> List[GlossaryEntry]:
+    """Get all locations of a given type."""
+    try:
+        type_enum = str_to_enum(LocationType, loc_type)
+    except ValueError:
+        return []
+    
+    return [e for e in ENTRIES.values()
+            if e.location_features and e.location_features.location_type == type_enum]
+
+
+def locations_with_caste(caste: str) -> List[GlossaryEntry]:
+    """Find locations where a caste is present."""
+    caste_lower = caste.lower()
+    results = []
+    for entry in ENTRIES.values():
+        if not entry.location_features:
+            continue
+        for c in entry.location_features.castes_present:
+            if caste_lower in c.lower():
+                results.append(entry)
+                break
+    return results
+
+
+def adjacent_to(location_name: str) -> List[GlossaryEntry]:
+    """Find all locations adjacent to the given location."""
+    entry = location_lookup(location_name)
+    if not entry or not entry.location_features:
+        return []
+    
+    adjacent = set()
+    for direction, locs in entry.location_features.borders.items():
+        for loc in locs:
+            adjacent.add(loc)
+    
+    results = []
+    for loc_name in adjacent:
+        loc_entry = location_lookup(loc_name)
+        if loc_entry:
+            results.append(loc_entry)
+    return results
+
+
+def neighbors(location_name: str, direction: str = None) -> Dict[str, List[str]]:
+    """Get neighbors in a specific direction or all directions."""
+    entry = location_lookup(location_name)
+    if not entry or not entry.location_features:
+        return {"error": f"Location '{location_name}' not found"}
+    
+    borders = entry.location_features.borders
+    if direction:
+        return {direction: borders.get(direction, [])}
+    return dict(borders)
+
+
+def location_tree(name: str, depth: int = 2) -> Dict[str, Any]:
+    """Get location hierarchy tree."""
+    entry = location_lookup(name)
+    if not entry:
+        return {"error": f"Location '{name}' not found"}
+    
+    lf = entry.location_features
+    result = {
+        "name": entry.term,
+        "level": lf.level.value if lf else None,
+        "type": lf.location_type.value if lf else None,
+        "population": lf.population if lf else None,
+        "borders": dict(lf.borders) if lf else {},
+        "children": []
+    }
+    
+    if depth > 0 and lf and lf.children:
+        for child_name in lf.children:
+            child_entry = location_lookup(child_name)
+            if child_entry:
+                child_lf = child_entry.location_features
+                result["children"].append({
+                    "name": child_entry.term,
+                    "level": child_lf.level.value if child_lf else None,
+                    "type": child_lf.location_type.value if child_lf else None
+                })
+    
+    return result
+
+
+# =============================================================================
+# FORMATTING
+# =============================================================================
+
+def format_entry(entry: GlossaryEntry, verbose: bool = False) -> str:
+    """Format an entry for display. If verbose=True, include aesthetic features."""
+    lines = [f"\n{'=' * 60}"]
+    lines.append(f"  {entry.term.upper()}  [{entry.category}]")
+    lines.append(f"{'=' * 60}")
+    lines.append(f"\n{entry.short}")
+    
+    if entry.details:
+        lines.append(f"\n{entry.details}")
+    
+    if entry.rag_pointer:
+        lines.append(f"\n  RAG: {entry.rag_pointer}")
+    
+    if entry.related:
+        lines.append(f"\nðŸ”— Related: {', '.join(entry.related)}")
+    
+    if entry.caste_features:
+        cf = entry.caste_features
+        lines.append(f"\n--- Caste Features ---")
+        lines.append(f"  Morphology: {cf.morphology.value}")
+        lines.append(f"  Scale: {cf.scale.value}")
+        lines.append(f"  Compulsion: {cf.compulsion.value}")
+        lines.append(f"  Lifespan: {cf.lifespan.value}")
+        lines.append(f"  Cognition: {cf.cognition.value}")
+        lines.append(f"  Population: {cf.population.value}")
+        
+        if cf.original_function:
+            lines.append(f"  Original function: {cf.original_function}")
+        if cf.current_role:
+            lines.append(f"  Current role: {cf.current_role}")
+        if cf.lifespan_note:
+            lines.append(f"  Lifespan note: {cf.lifespan_note}")
+        if cf.physical_traits:
+            lines.append(f"  Physical traits:")
+            for trait in cf.physical_traits:
+                lines.append(f"    • {trait}")
+        if cf.special:
+            lines.append(f"  Special:")
+            for s in cf.special:
+                lines.append(f"    • {s}")
+    
+    if entry.location_features:
+        lf = entry.location_features
+        lines.append(f"\n--- Location Features ---")
+        if lf.real_world_anchor:
+            lines.append(f"    Real World: {lf.real_world_anchor}")
+        lines.append(f"  Level: {lf.level.value}")
+        lines.append(f"  Type: {lf.location_type.value}")
+        if lf.parent:
+            lines.append(f"  Parent: {lf.parent}")
+        if lf.population:
+            lines.append(f"  Population: {lf.population}")
+        if lf.controlling_entity:
+            lines.append(f"  Controller: {lf.controlling_entity}")
+        if lf.primary_function:
+            lines.append(f"  Function: {lf.primary_function}")
+        if lf.temporal_effects:
+            lines.append(f"  Temporal: {lf.temporal_effects}")
+        if lf.children:
+            lines.append(f"  Children: {', '.join(lf.children[:5])}")
+            if len(lf.children) > 5:
+                lines.append(f"    ... and {len(lf.children) - 5} more")
+        if lf.borders:
+            lines.append(f"  Borders:")
+            for d, locs in lf.borders.items():
+                lines.append(f"    {d}: {', '.join(locs)}")
+    
+    # Local aesthetic (simple instantiation note - always show for locations)
+    if entry.local_aesthetic:
+        lines.append(f"\n--- Local Aesthetic ---")
+        lines.append(f"  {entry.local_aesthetic}")
+    
+    # Aesthetic features (verbose mode)
+    if verbose and entry.aesthetic_features:
+        af = entry.aesthetic_features
+        lines.append(f"\n--- Aesthetic Features ---")
+        if af.intention:
+            lines.append(f"  Intention: \"{af.intention}\"")
+        if af.environment:
+            lines.append(f"  Environment: {af.environment}")
+        if af.construction:
+            lines.append(f"  Construction: {af.construction}")
+        if af.visual_vocabulary:
+            lines.append(f"  Visual References:")
+            for v in af.visual_vocabulary:
+                lines.append(f"    - {v}")
+        if af.materials:
+            lines.append(f"  Materials:")
+            for m in af.materials:
+                lines.append(f"    - {m}")
+        if af.colors:
+            lines.append(f"  Colors:")
+            for c in af.colors:
+                lines.append(f"    - {c}")
+        if af.sensory:
+            lines.append(f"  Sensory:")
+            for s in af.sensory:
+                lines.append(f"    - {s}")
+        if af.key_elements:
+            lines.append(f"  Key Elements:")
+            for k in af.key_elements:
+                lines.append(f"    - {k}")
+    
+    lines.append(f"{'=' * 60}\n")
+    return "\n".join(lines)
+
+
+# =============================================================================
+# CLI
+# =============================================================================
+
+def print_help():
+    print("""
+Post-Interdict Empire Glossary
+
+Data file: glossary_data.yaml
+Schema: GLOSSARY_SCHEMA.md
+
+Commands:
+    lookup <term> [-v]         - Look up a specific term (-v for aesthetics)
+    search <query>             - Search all entries for query string
+    category <category>        - List all entries in category
+    check <term>               - Check if term exists, suggest similar
+    related <term>             - Get term and its related entries
+    aesthetics                 - List all entries with aesthetic data
+    
+    caste-feature <feat> <val> - Find castes by feature value
+    caste-trait <trait>        - Find castes with trait in description
+    caste-compare <c1> <c2>    - Compare two castes side by side
+    
+    location-tree <name>       - Show location hierarchy
+    scene-setup <location> [-v]- Get scene setup info (-v for aesthetics)
+    locations-by-level <lvl>   - List all locations at level
+    locations-by-type <type>   - List all locations of type
+    locations-with-caste <c>   - Find locations where caste present
+    adjacent-to <location>     - Find adjacent locations
+    neighbors <loc> [dir]      - Get neighbors in direction
+
+Examples:
+    python glossary.py lookup Highborn
+    python glossary.py caste-feature compulsion triggers
+    python glossary.py scene-setup "Medina Quarter"
+    python glossary.py location-tree ya-Sattra
+""")
+
+
+def main():
+    if len(sys.argv) < 2:
+        print_help()
+        return
+    
+    cmd = sys.argv[1].lower()
+    
+    if cmd in ["help", "--help", "-h"]:
+        print_help()
+        return
+    
+    if cmd == "location-tree" and len(sys.argv) >= 3:
+        name = " ".join(sys.argv[2:])
+        result = location_tree(name)
+        if "error" in result:
+            print(f"Error: {result['error']}")
+        else:
+            print(f"\n{'=' * 60}")
+            print(f"  LOCATION TREE: {result['name'].upper()}")
+            print(f"{'=' * 60}")
+            print(f"\n  Level: {result['level']}")
+            print(f"  Type: {result['type']}")
+            if result['population']:
+                print(f"  Population: {result['population']}")
+            if result['borders']:
+                print(f"\n  Borders:")
+                for direction, locs in result['borders'].items():
+                    print(f"    {direction}: {', '.join(locs)}")
+            if result['children']:
+                print(f"\n  Contains ({len(result['children'])} locations):")
+                for child in result['children']:
+                    print(f"    • {child['name']} [{child['level']}/{child['type']}]")
+            print(f"{'=' * 60}")
+        return
+    
+    if cmd == "locations-by-level" and len(sys.argv) >= 3:
+        level = sys.argv[2]
+        results = locations_by_level(level)
+        if results:
+            print(f"\n{level.upper()} locations ({len(results)}):\n")
+            for entry in results:
+                print(f"  • {entry.term}: {entry.short[:50]}...")
+        else:
+            print(f"No locations at level '{level}'")
+        return
+    
+    if cmd == "locations-by-type" and len(sys.argv) >= 3:
+        loc_type = sys.argv[2]
+        results = locations_by_type(loc_type)
+        if results:
+            print(f"\n{loc_type.upper()} locations ({len(results)}):\n")
+            for entry in results:
+                print(f"  • {entry.term}: {entry.short[:50]}...")
+        else:
+            print(f"No locations of type '{loc_type}'")
+        return
+    
+    if cmd == "locations-with-caste" and len(sys.argv) >= 3:
+        caste = " ".join(sys.argv[2:])
+        results = locations_with_caste(caste)
+        if results:
+            print(f"\nLocations with {caste} present ({len(results)}):\n")
+            for entry in results:
+                print(f"  • {entry.term}")
+        else:
+            print(f"No locations found with '{caste}'")
+        return
+    
+    if cmd == "adjacent-to" and len(sys.argv) >= 3:
+        name = " ".join(sys.argv[2:])
+        results = adjacent_to(name)
+        if results:
+            print(f"\nLocations adjacent to '{name}' ({len(results)}):\n")
+            for entry in results:
+                lf = entry.location_features
+                ltype = lf.location_type.value if lf else "?"
+                print(f"  • {entry.term} [{ltype}]")
+        else:
+            entry = location_lookup(name)
+            if entry:
+                print(f"No border information for '{name}'")
+            else:
+                print(f"Location '{name}' not found")
+        return
+    
+    if cmd == "neighbors" and len(sys.argv) >= 3:
+        name = sys.argv[2]
+        direction = sys.argv[3] if len(sys.argv) >= 4 else None
+        result = neighbors(name, direction)
+        if "error" in result:
+            print(f"Error: {result['error']}")
+        else:
+            print(f"\nNeighbors of '{name}':\n")
+            for dir_name, locs in result.items():
+                print(f"  {dir_name}: {', '.join(locs)}")
+        return
+    
+    if cmd == "scene-setup" and len(sys.argv) >= 3:
+        name = " ".join(sys.argv[2:])
+        entry = location_lookup(name)
+        if not entry:
+            print(f"Location '{name}' not found")
+            return
+        
+        lf = entry.location_features
+        print(f"\n{'=' * 60}")
+        print(f"  SCENE SETUP: {entry.term.upper()}")
+        print(f"{'=' * 60}")
+        print(f"\n{entry.short}")
+        if entry.details:
+            print(f"\n{entry.details}")
+        
+        # Show real world anchor prominently
+        if lf and lf.real_world_anchor:
+            print(f"\n  ðŸŒ REAL WORLD: {lf.real_world_anchor}")
+        
+        rag_docs = []
+        if entry.rag_pointer:
+            for doc in entry.rag_pointer.split(','):
+                doc = doc.strip()
+                if doc and doc not in rag_docs:
+                    rag_docs.append(doc)
+        
+        ancestors = []
+        if lf and lf.parent:
+            parent = location_lookup(lf.parent)
+            while parent:
+                ancestors.append(parent.term)
+                if parent.rag_pointer:
+                    for doc in parent.rag_pointer.split(','):
+                        doc = doc.strip()
+                        if doc and doc not in rag_docs:
+                            rag_docs.append(doc)
+                parent_lf = parent.location_features
+                if parent_lf and parent_lf.parent:
+                    parent = location_lookup(parent_lf.parent)
+                else:
+                    break
+        
+        if ancestors:
+            print(f"\n  HIERARCHY: {' → '.join(reversed(ancestors))} → {entry.term}")
+        
+        if rag_docs:
+            print(f"\n  📚 RAG DOCUMENTS TO PULL:")
+            for i, doc in enumerate(rag_docs, 1):
+                print(f"     {i}. project_knowledge_search(\"{doc}\")")
+        
+        if lf and lf.castes_present:
+            print(f"\n  👥 CASTES PRESENT: {', '.join(lf.castes_present)}")
+        
+        if lf and lf.borders:
+            print(f"\n  🚪 EXITS:")
+            for direction, locations in lf.borders.items():
+                print(f"     {direction}: {', '.join(locations)}")
+        
+        if lf and lf.children:
+            print(f"\n  📍 SUB-LOCATIONS:")
+            for child in lf.children:
+                child_entry = location_lookup(child)
+                if child_entry and child_entry.location_features:
+                    ctype = child_entry.location_features.location_type.value
+                    print(f"     • {child} [{ctype}]")
+                else:
+                    print(f"     • {child}")
+        
+        if lf:
+            if lf.hazards:
+                print(f"\n  ⚠️ HAZARDS: {', '.join(lf.hazards)}")
+            if lf.temporal_effects:
+                print(f"\n  ⏰ TEMPORAL: {lf.temporal_effects}")
+        
+        # Show local aesthetic if present
+        if entry.local_aesthetic:
+            print(f"\n  ðŸŽ¨ LOCAL AESTHETIC:")
+            print(f"     {entry.local_aesthetic}")
+        
+        # Show this entry's own aesthetic_features if present
+        if entry.aesthetic_features:
+            af = entry.aesthetic_features
+            print(f"\n  ðŸŽ¨ AESTHETIC VOCABULARY:")
+            print(f"     Intention: \"{af.intention}\"")
+            if af.visual_vocabulary:
+                print(f"     Visual references: {', '.join([v.split(':')[0] for v in af.visual_vocabulary[:4]])}")
+            if af.materials:
+                print(f"     Materials: {', '.join([m.split('(')[0].strip() for m in af.materials[:3]])}")
+            if af.colors:
+                print(f"     Colors: {', '.join([c.split('(')[0].strip() for c in af.colors[:3]])}")
+        # Otherwise show parent's aesthetic vocabulary
+        elif lf and lf.parent:
+            parent_entry = location_lookup(lf.parent)
+            while parent_entry:
+                if parent_entry.aesthetic_features:
+                    af = parent_entry.aesthetic_features
+                    print(f"\n  ðŸŽ¨ PARENT AESTHETIC ({parent_entry.term}):")
+                    print(f"     Intention: \"{af.intention}\"")
+                    if af.visual_vocabulary:
+                        print(f"     Visual vocabulary: {', '.join([v.split(':')[0] for v in af.visual_vocabulary[:3]])}")
+                    break
+                parent_lf = parent_entry.location_features
+                if parent_lf and parent_lf.parent:
+                    parent_entry = location_lookup(parent_lf.parent)
+                else:
+                    break
+        
+        print(f"\n{'=' * 60}")
+        return
+    
+    if cmd == "caste-feature" and len(sys.argv) >= 4:
+        feature = sys.argv[2]
+        value = sys.argv[3]
+        results = caste_by_feature(feature, value)
+        if results:
+            print(f"\nCastes with {feature}={value} ({len(results)}):\n")
+            for entry in results:
+                print(f"  • {entry.term}: {entry.short[:50]}...")
+        else:
+            print(f"No castes found with {feature}={value}")
+        return
+    
+    if cmd == "caste-trait" and len(sys.argv) >= 3:
+        trait = " ".join(sys.argv[2:])
+        results = caste_by_trait(trait)
+        if results:
+            print(f"\nCastes with trait '{trait}' ({len(results)}):\n")
+            for entry in results:
+                print(f"  • {entry.term}: {entry.short[:50]}...")
+        else:
+            print(f"No castes found with trait '{trait}'")
+        return
+    
+    if cmd == "caste-compare" and len(sys.argv) >= 4:
+        c1 = sys.argv[2]
+        c2 = sys.argv[3]
+        result = caste_compare(c1, c2)
+        if "error" in result:
+            print(f"Error: {result['error']}")
+        else:
+            print(f"\n{'=' * 60}")
+            print(f"  COMPARING: {result['caste1']} vs {result['caste2']}")
+            print(f"{'=' * 60}\n")
+            for feat, (v1, v2) in result['comparison'].items():
+                match = "âÃƒ…""" if v1 == v2 else "â‰ "
+                print(f"  {feat:15} {v1:15} {match} {v2}")
+            print(f"\n  Original function:")
+            print(f"    {result['caste1']}: {result['original_function'][0]}")
+            print(f"    {result['caste2']}: {result['original_function'][1]}")
+            print(f"\n  Current role:")
+            print(f"    {result['caste1']}: {result['current_role'][0]}")
+            print(f"    {result['caste2']}: {result['current_role'][1]}")
+            print(f"{'=' * 60}")
+        return
+    
+    # Random command - can work with or without argument
+    if cmd == "random":
+        cat = sys.argv[2] if len(sys.argv) >= 3 else None
+        entry = random_entry(cat=cat)
+        if entry:
+            print(f"\n{'=' * 60}")
+            print(f"  RANDOM: {entry.term}")
+            print(f"{'=' * 60}")
+            print(format_entry(entry))
+        else:
+            if cat:
+                print(f"No entries found in category '{cat}'")
+            else:
+                print("No entries found")
+        return
+    
+    # Aesthetics command - list all entries with aesthetic data
+    if cmd == "aesthetics":
+        entries_with_aesthetics = [e for e in ENTRIES.values() if e.aesthetic_features]
+        if entries_with_aesthetics:
+            print(f"\nEntries with aesthetic data ({len(entries_with_aesthetics)}):\n")
+            for entry in sorted(entries_with_aesthetics, key=lambda e: e.term):
+                af = entry.aesthetic_features
+                intention = f' - "{af.intention}"' if af.intention else ""
+                print(f"  {entry.term} [{entry.category}]{intention}")
+        else:
+            print("No entries with aesthetic data found")
+        return
+    
+    if len(sys.argv) < 3:
+        print(f"Error: {cmd} requires an argument")
+        return
+    
+    # Check for -v/--verbose flag
+    verbose = "-v" in sys.argv or "--verbose" in sys.argv
+    args = [a for a in sys.argv[2:] if not a.startswith("-")]
+    arg = " ".join(args)
+    
+    if cmd == "lookup":
+        entry = lookup(arg)
+        if not entry:
+            entry = location_lookup(arg)
+        if entry:
+            print(format_entry(entry, verbose=verbose))
+        else:
+            result = check(arg)
+            print(f"Term '{arg}' not found.")
+            if result["similar"]:
+                print(f"Similar: {', '.join(result['similar'])}")
+    
+    elif cmd == "search":
+        results = search(arg)
+        if results:
+            print(f"Found {len(results)} results for '{arg}':\n")
+            for entry in results[:10]:
+                print(f"  • {entry.term} [{entry.category}]: {entry.short[:50]}...")
+        else:
+            print(f"No results for '{arg}'")
+    
+    elif cmd == "category":
+        results = category(arg)
+        if results:
+            print(f"\n{arg.upper()} ({len(results)} entries):\n")
+            for entry in sorted(results, key=lambda e: e.term):
+                print(f"  • {entry.term}: {entry.short[:50]}...")
+        else:
+            print(f"No entries in category '{arg}'")
+    
+    elif cmd == "check":
+        result = check(arg)
+        if result["exists"]:
+            print(f"âÃƒ…"" '{arg}' exists")
+            print(format_entry(result["entry"]))
+        else:
+            print(f"✗ '{arg}' not found")
+            if result["similar"]:
+                print(f"  Did you mean: {', '.join(result['similar'])}")
+    
+    elif cmd == "related":
+        results = related(arg)
+        if results:
+            print(f"'{arg}' and related terms:\n")
+            for entry in results:
+                print(format_entry(entry))
+        else:
+            print(f"Term '{arg}' not found")
+    
+    elif cmd == "scan":
+        # Check for -v/--verbose flag
+        verbose = "-v" in sys.argv or "--verbose" in sys.argv
+        # Get filepath (skip flags)
+        filepath = None
+        for a in sys.argv[2:]:
+            if not a.startswith("-"):
+                filepath = a
+                break
+        
+        if not filepath:
+            print("Error: scan requires a filepath")
+            print("Usage: glossary.py scan <filepath> [-v|--verbose]")
+            return
+        
+        try:
+            result = scan_file(filepath)
+            print(format_scan_report(result, verbose=verbose))
+        except FileNotFoundError:
+            print(f"Error: File not found: {filepath}")
+        except Exception as e:
+            print(f"Error scanning file: {e}")
+    
+    elif cmd == "scan-text":
+        # Read from stdin for piped content
+        import sys as sys_mod
+        if sys_mod.stdin.isatty():
+            print("Error: scan-text reads from stdin")
+            print("Usage: cat document.txt | glossary.py scan-text [-v]")
+            return
+        text = sys_mod.stdin.read()
+        verbose = "-v" in sys.argv or "--verbose" in sys.argv
+        result = scan_document(text)
+        print(format_scan_report(result, verbose=verbose))
+    
+    else:
+        print(f"Unknown command: {cmd}")
+
+
+if __name__ == "__main__":
+    main()
