@@ -142,21 +142,60 @@ def load_cache():
     return {"glossary": {}, "characters": {}, "notes": []}
 
 def save_cache(cache):
-    """Save the session cache."""
-    with open(CACHE_FILE, 'w') as f:
-        json.dump(cache, f, indent=2)
+    """Save the session cache.
+
+    Returns:
+        bool: True if save succeeded, False otherwise.
+    """
+    try:
+        with open(CACHE_FILE, 'w', encoding='utf-8') as f:
+            json.dump(cache, f, indent=2)
+        return True
+    except PermissionError:
+        print(f"ERROR: Permission denied writing cache: {CACHE_FILE}", file=sys.stderr)
+        return False
+    except TypeError as e:
+        print(f"ERROR: Failed to serialize cache to JSON: {e}", file=sys.stderr)
+        return False
+    except IOError as e:
+        print(f"ERROR: Failed to write cache file: {CACHE_FILE}", file=sys.stderr)
+        print(f"  Details: {e}", file=sys.stderr)
+        return False
 
 def load_seen():
-    """Load set of terms we've already processed."""
+    """Load set of terms we've already processed.
+
+    Returns:
+        set: Set of previously seen terms, or empty set on error.
+    """
     if os.path.exists(SEEN_FILE):
-        with open(SEEN_FILE) as f:
-            return set(line.strip() for line in f if line.strip())
+        try:
+            with open(SEEN_FILE, 'r', encoding='utf-8') as f:
+                return set(line.strip() for line in f if line.strip())
+        except PermissionError:
+            print(f"Warning: Permission denied reading seen file: {SEEN_FILE}", file=sys.stderr)
+        except UnicodeDecodeError as e:
+            print(f"Warning: Encoding error reading seen file: {e}", file=sys.stderr)
+        except IOError as e:
+            print(f"Warning: Failed to read seen file: {e}", file=sys.stderr)
     return set()
 
 def save_seen(seen):
-    """Save the seen terms set."""
-    with open(SEEN_FILE, 'w') as f:
-        f.write('\n'.join(sorted(seen)))
+    """Save the seen terms set.
+
+    Returns:
+        bool: True if save succeeded, False otherwise.
+    """
+    try:
+        with open(SEEN_FILE, 'w', encoding='utf-8') as f:
+            f.write('\n'.join(sorted(seen)))
+        return True
+    except PermissionError:
+        print(f"Warning: Permission denied writing seen file: {SEEN_FILE}", file=sys.stderr)
+        return False
+    except IOError as e:
+        print(f"Warning: Failed to write seen file: {e}", file=sys.stderr)
+        return False
 
 def show_cache():
     """Display current cache contents for context recovery."""
@@ -175,17 +214,27 @@ def show_cache():
             if entry and entry.location_features:
                 lf = entry.location_features
                 
-                # Show path/ancestry
+                # Show path/ancestry (with cycle detection)
                 ancestors = []
+                MAX_ANCESTRY_DEPTH = 20  # Prevent infinite loops from circular references
                 if lf.parent:
                     parent = G.location_lookup(lf.parent)
-                    while parent:
+                    seen_locations = set()
+                    depth = 0
+                    while parent and depth < MAX_ANCESTRY_DEPTH:
+                        if parent.term in seen_locations:
+                            print(f"Warning: Circular location reference detected at {parent.term}", file=sys.stderr)
+                            break
+                        seen_locations.add(parent.term)
                         ancestors.append(parent.term)
                         parent_lf = parent.location_features
                         if parent_lf and parent_lf.parent:
                             parent = G.location_lookup(parent_lf.parent)
                         else:
                             break
+                        depth += 1
+                    if depth >= MAX_ANCESTRY_DEPTH:
+                        print(f"Warning: Maximum ancestry depth reached, possible circular reference", file=sys.stderr)
                 if ancestors:
                     output.append(f"  PATH: {' → '.join(reversed(ancestors))} → {entry.term}")
                 
@@ -344,11 +393,18 @@ def set_scene(scene_text):
                     if doc and doc not in rag_docs:
                         rag_docs.append(doc)
             
-            # Add parent docs
+            # Add parent docs (with cycle detection)
             ancestors = []
+            MAX_ANCESTRY_DEPTH = 20  # Prevent infinite loops from circular references
             if lf.parent:
                 parent = G.location_lookup(lf.parent)
-                while parent:
+                seen_locations = set()
+                depth = 0
+                while parent and depth < MAX_ANCESTRY_DEPTH:
+                    if parent.term in seen_locations:
+                        print(f"Warning: Circular location reference detected at {parent.term}", file=sys.stderr)
+                        break
+                    seen_locations.add(parent.term)
                     ancestors.append(parent.term)
                     if parent.rag_pointer:
                         for doc in parent.rag_pointer.split(','):
@@ -360,6 +416,9 @@ def set_scene(scene_text):
                         parent = G.location_lookup(parent_lf.parent)
                     else:
                         break
+                    depth += 1
+                if depth >= MAX_ANCESTRY_DEPTH:
+                    print(f"Warning: Maximum ancestry depth reached, possible circular reference", file=sys.stderr)
             
             if ancestors:
                 print(f"\n  PATH: {' → '.join(reversed(ancestors))} → {entry.term}")
@@ -982,16 +1041,32 @@ def main():
         print(f"\nRAG NEEDED: {', '.join(sorted(unmatched))}")
     
     # Imperial roots
-    r = subprocess.run(['python3', f'{D}/imperial_roots.py', 'find', text], 
-                      capture_output=True, text=True, cwd=D)
     roots = []
     root_seen = set()
-    for ln in r.stdout.split('\n'):
-        if ':' in ln and ln.strip().startswith(('-', '“', '•')):
-            key = ln.strip().split(':')[0]
-            if key not in root_seen:
-                roots.append(ln.strip())
-                root_seen.add(key)
+    try:
+        r = subprocess.run(
+            ['python3', f'{D}/imperial_roots.py', 'find', text],
+            capture_output=True,
+            text=True,
+            cwd=D,
+            timeout=30  # Prevent hanging indefinitely
+        )
+        if r.returncode != 0 and r.stderr:
+            print(f"Warning: imperial_roots.py returned error: {r.stderr.strip()}", file=sys.stderr)
+        for ln in r.stdout.split('\n'):
+            if ':' in ln and ln.strip().startswith(('-', '"', '•')):
+                parts = ln.strip().split(':', 1)  # Split only on first colon for safety
+                if parts:
+                    key = parts[0]
+                    if key not in root_seen:
+                        roots.append(ln.strip())
+                        root_seen.add(key)
+    except FileNotFoundError:
+        print("Warning: python3 or imperial_roots.py not found, skipping root lookup", file=sys.stderr)
+    except subprocess.TimeoutExpired:
+        print("Warning: imperial_roots.py timed out, skipping root lookup", file=sys.stderr)
+    except OSError as e:
+        print(f"Warning: Failed to run imperial_roots.py: {e}", file=sys.stderr)
     
     if roots:
         print("\nROOTS:")

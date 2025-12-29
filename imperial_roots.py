@@ -85,25 +85,65 @@ _cache: Dict[str, Any] = {}
 
 
 def load_data() -> Dict[str, Any]:
-    """Load and cache YAML data."""
+    """Load and cache YAML data.
+
+    Returns:
+        dict: Loaded data with 'morphemes', 'compounds', and 'raw' keys.
+
+    Raises:
+        SystemExit: If data file is missing or cannot be parsed.
+    """
     if _cache:
         return _cache
-    
+
     if not os.path.exists(DATA_FILE):
-        print(f"ERROR: Data file not found: {DATA_FILE}")
-        print("Run: cp /mnt/project/imperial_roots_data.yaml /home/claude/")
+        print(f"ERROR: Data file not found: {DATA_FILE}", file=sys.stderr)
+        print("Run: cp /mnt/project/imperial_roots_data.yaml /home/claude/", file=sys.stderr)
         sys.exit(1)
-    
-    with open(DATA_FILE, 'r', encoding='utf-8') as f:
-        data = yaml.safe_load(f)
+
+    try:
+        with open(DATA_FILE, 'r', encoding='utf-8') as f:
+            data = yaml.safe_load(f)
+    except yaml.YAMLError as e:
+        print(f"ERROR: Failed to parse YAML file: {DATA_FILE}", file=sys.stderr)
+        print(f"  Details: {e}", file=sys.stderr)
+        sys.exit(1)
+    except PermissionError:
+        print(f"ERROR: Permission denied reading: {DATA_FILE}", file=sys.stderr)
+        sys.exit(1)
+    except UnicodeDecodeError as e:
+        print(f"ERROR: Encoding error reading YAML file: {DATA_FILE}", file=sys.stderr)
+        print(f"  Details: {e}", file=sys.stderr)
+        sys.exit(1)
+    except IOError as e:
+        print(f"ERROR: Failed to read data file: {DATA_FILE}", file=sys.stderr)
+        print(f"  Details: {e}", file=sys.stderr)
+        sys.exit(1)
+
+    if data is None:
+        print(f"ERROR: YAML file is empty: {DATA_FILE}", file=sys.stderr)
+        sys.exit(1)
     
     # Build unified morpheme index
     morphemes = {}
-    
+
     for category in ['particles', 'suffixes', 'roots', 'class_vii', 'emperor_specific', 'jargon']:
         if category not in data:
             continue
-        for key, entry in data[category].items():
+        category_data = data[category]
+        # Validate category data is a dict
+        if not isinstance(category_data, dict):
+            print(f"Warning: Category '{category}' is not a dict, skipping", file=sys.stderr)
+            continue
+        for key, entry in category_data.items():
+            # Skip null entries
+            if entry is None:
+                print(f"Warning: Null entry for key '{key}' in category '{category}', skipping", file=sys.stderr)
+                continue
+            # Validate entry is a dict
+            if not isinstance(entry, dict):
+                print(f"Warning: Entry for '{key}' is not a dict, skipping", file=sys.stderr)
+                continue
             # Normalize category names
             cat_norm = {
                 'particles': 'particle',
@@ -123,19 +163,31 @@ def load_data() -> Dict[str, Any]:
             clean_form = entry.get('form', key).replace('-', '').lower()
             if clean_form != key.lower():
                 morphemes[clean_form] = m
-    
+
     # Build compounds index
     compounds = {}
     if 'compounds' in data:
-        for key, entry in data['compounds'].items():
-            c = Morpheme(
-                form=key,
-                description=entry.get('gloss', ''),
-                category='compound',
-                components=entry.get('components'),
-                gloss=entry.get('gloss'),
-            )
-            compounds[key.lower()] = c
+        compounds_data = data['compounds']
+        # Validate compounds data is a dict
+        if not isinstance(compounds_data, dict):
+            print(f"Warning: 'compounds' section is not a dict, skipping", file=sys.stderr)
+        else:
+            for key, entry in compounds_data.items():
+                # Skip null entries
+                if entry is None:
+                    print(f"Warning: Null entry for compound '{key}', skipping", file=sys.stderr)
+                    continue
+                if not isinstance(entry, dict):
+                    print(f"Warning: Compound entry '{key}' is not a dict, skipping", file=sys.stderr)
+                    continue
+                c = Morpheme(
+                    form=key,
+                    description=entry.get('gloss', ''),
+                    category='compound',
+                    components=entry.get('components'),
+                    gloss=entry.get('gloss'),
+                )
+                compounds[key.lower()] = c
     
     _cache['morphemes'] = morphemes
     _cache['compounds'] = compounds

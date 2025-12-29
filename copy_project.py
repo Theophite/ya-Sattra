@@ -147,50 +147,110 @@ def fix_mojibake(text):
 
 
 def copy_file_with_fixes(src, dst, dry_run=False):
-    """Copy a file, applying mojibake fixes to text files."""
-    
+    """Copy a file, applying mojibake fixes to text files.
+
+    Returns:
+        int: Number of fixes applied, or -1 on error.
+    """
     # Determine if this is a text file we should process
     text_extensions = {".py", ".md", ".txt", ".json", ".yaml", ".yml", ".toml", ".rst"}
     _, ext = os.path.splitext(src)
     is_text = ext.lower() in text_extensions
-    
+
     if dry_run:
         print(f"  {src} -> {dst}" + (" [text, will fix]" if is_text else " [binary, copy only]"))
         return 0
-    
+
+    # Ensure destination directory exists
+    dst_dir = os.path.dirname(dst)
+    if dst_dir:
+        try:
+            os.makedirs(dst_dir, exist_ok=True)
+        except PermissionError:
+            print(f"ERROR: Permission denied creating directory: {dst_dir}", file=sys.stderr)
+            return -1
+        except OSError as e:
+            print(f"ERROR: Failed to create directory: {dst_dir}", file=sys.stderr)
+            print(f"  Details: {e}", file=sys.stderr)
+            return -1
+
     if is_text:
         try:
             with open(src, "r", encoding="utf-8") as f:
                 content = f.read()
-            
+
             fixed_content, fixes = fix_mojibake(content)
-            
+
             with open(dst, "w", encoding="utf-8") as f:
                 f.write(fixed_content)
-            
+
             return fixes
         except UnicodeDecodeError:
             # Fall back to binary copy if UTF-8 decode fails
-            shutil.copy2(src, dst)
+            try:
+                shutil.copy2(src, dst)
+            except (PermissionError, IOError, shutil.Error) as e:
+                print(f"ERROR: Failed to copy file {src}: {e}", file=sys.stderr)
+                return -1
             return 0
+        except FileNotFoundError:
+            print(f"ERROR: Source file not found: {src}", file=sys.stderr)
+            return -1
+        except PermissionError as e:
+            print(f"ERROR: Permission denied: {e}", file=sys.stderr)
+            return -1
+        except IOError as e:
+            print(f"ERROR: I/O error copying {src} to {dst}: {e}", file=sys.stderr)
+            return -1
     else:
         # Binary copy for non-text files
-        shutil.copy2(src, dst)
+        try:
+            shutil.copy2(src, dst)
+        except FileNotFoundError:
+            print(f"ERROR: Source file not found: {src}", file=sys.stderr)
+            return -1
+        except PermissionError as e:
+            print(f"ERROR: Permission denied: {e}", file=sys.stderr)
+            return -1
+        except (IOError, shutil.Error) as e:
+            print(f"ERROR: Failed to copy {src} to {dst}: {e}", file=sys.stderr)
+            return -1
         return 0
 
 
 def find_project_files(extensions):
-    """Find all files with given extensions in /mnt/project/"""
+    """Find all files with given extensions in /mnt/project/
+
+    Returns:
+        list: Sorted list of matching file paths, or empty list on error.
+    """
     project_dir = "/mnt/project"
     files = []
-    
-    for entry in os.listdir(project_dir):
+
+    try:
+        entries = os.listdir(project_dir)
+    except FileNotFoundError:
+        print(f"ERROR: Project directory not found: {project_dir}", file=sys.stderr)
+        return []
+    except PermissionError:
+        print(f"ERROR: Permission denied accessing: {project_dir}", file=sys.stderr)
+        return []
+    except OSError as e:
+        print(f"ERROR: Failed to list directory: {project_dir}", file=sys.stderr)
+        print(f"  Details: {e}", file=sys.stderr)
+        return []
+
+    for entry in entries:
         path = os.path.join(project_dir, entry)
-        if os.path.isfile(path):
-            _, ext = os.path.splitext(entry)
-            if ext.lower() in extensions:
-                files.append(path)
-    
+        try:
+            if os.path.isfile(path):
+                _, ext = os.path.splitext(entry)
+                if ext.lower() in extensions:
+                    files.append(path)
+        except OSError:
+            # Skip files we can't stat
+            continue
+
     return sorted(files)
 
 
@@ -208,36 +268,51 @@ def main():
     args = parser.parse_args()
     
     # Ensure destination exists
-    os.makedirs(args.dest, exist_ok=True)
-    
+    try:
+        os.makedirs(args.dest, exist_ok=True)
+    except PermissionError:
+        print(f"ERROR: Permission denied creating destination directory: {args.dest}", file=sys.stderr)
+        return 1
+    except OSError as e:
+        print(f"ERROR: Failed to create destination directory: {args.dest}", file=sys.stderr)
+        print(f"  Details: {e}", file=sys.stderr)
+        return 1
+
     # Determine which files to copy
     if args.files:
         src_files = [os.path.join("/mnt/project", f) for f in args.files]
     else:
         extensions = set(e if e.startswith(".") else "." + e for e in args.ext)
         src_files = find_project_files(extensions)
-    
+
     if not src_files:
         print("No files found to copy.")
-        return
-    
+        return 0
+
     print(f"{'Would copy' if args.dry_run else 'Copying'} {len(src_files)} files:")
-    
+
     total_fixes = 0
+    errors = 0
     for src in src_files:
         filename = os.path.basename(src)
         dst = os.path.join(args.dest, filename)
         fixes = copy_file_with_fixes(src, dst, dry_run=args.dry_run)
-        
-        if not args.dry_run:
+
+        if fixes == -1:
+            errors += 1
+        elif not args.dry_run:
             status = f" ({fixes} fixes)" if fixes > 0 else ""
             print(f"  {filename}{status}")
-        
-        total_fixes += fixes
-    
+            total_fixes += fixes
+
     if not args.dry_run:
-        print(f"\nDone. {total_fixes} total mojibake sequences fixed.")
+        if errors > 0:
+            print(f"\nCompleted with {errors} error(s). {total_fixes} total mojibake sequences fixed.", file=sys.stderr)
+            return 1
+        else:
+            print(f"\nDone. {total_fixes} total mojibake sequences fixed.")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main() or 0)

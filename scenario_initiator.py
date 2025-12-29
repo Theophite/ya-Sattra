@@ -128,9 +128,20 @@ def get_random_word(category=None, weighted=True):
         from input_check import SPECIAL_TERMS
         term = random.choice(list(SPECIAL_TERMS))
         return (term.title(), None)
-    
-    # Get all entries
-    entries = list(G.ENTRIES.values())
+
+    # Get all entries - validate glossary structure first
+    try:
+        if not hasattr(G, 'ENTRIES') or G.ENTRIES is None:
+            print("Warning: Glossary ENTRIES not available, using fallback", file=sys.stderr)
+            from input_check import SPECIAL_TERMS
+            term = random.choice(list(SPECIAL_TERMS))
+            return (term.title(), None)
+        entries = list(G.ENTRIES.values())
+    except (AttributeError, TypeError) as e:
+        print(f"Warning: Error accessing glossary entries: {e}", file=sys.stderr)
+        from input_check import SPECIAL_TERMS
+        term = random.choice(list(SPECIAL_TERMS))
+        return (term.title(), None)
     
     # Filter by category if specified
     if category:
@@ -518,17 +529,43 @@ Brief sketches of characters who appear but aren't central:
 
 [Space for tracking what actually happens in play.]
 """
-    
-    with open(filename, 'w') as f:
-        f.write(content)
-    
+
+    # Ensure directory exists
+    file_dir = os.path.dirname(filename)
+    if file_dir:
+        try:
+            os.makedirs(file_dir, exist_ok=True)
+        except PermissionError:
+            print(f"ERROR: Permission denied creating directory: {file_dir}", file=sys.stderr)
+            return None
+        except OSError as e:
+            print(f"ERROR: Failed to create directory: {file_dir}", file=sys.stderr)
+            print(f"  Details: {e}", file=sys.stderr)
+            return None
+
+    # Write scenario file
+    try:
+        with open(filename, 'w', encoding='utf-8') as f:
+            f.write(content)
+    except PermissionError:
+        print(f"ERROR: Permission denied writing scenario file: {filename}", file=sys.stderr)
+        return None
+    except IOError as e:
+        print(f"ERROR: Failed to write scenario file: {filename}", file=sys.stderr)
+        print(f"  Details: {e}", file=sys.stderr)
+        return None
+
     return filename
 
 
 def initialize_scenario_cache(name, filename, card_name, term):
-    """Initialize the session cache for a new scenario."""
+    """Initialize the session cache for a new scenario.
+
+    Returns:
+        dict: The initialized cache, or None if write failed.
+    """
     cache_file = '/home/claude/session_cache.json'
-    
+
     cache = {
         "scenario_name": name,
         "scenario_file": filename,
@@ -543,10 +580,32 @@ def initialize_scenario_cache(name, filename, card_name, term):
         "rag_summaries": {},
         "rag_rerun": []
     }
-    
-    with open(cache_file, 'w') as f:
-        json.dump(cache, f, indent=2)
-    
+
+    # Ensure directory exists
+    cache_dir = os.path.dirname(cache_file)
+    if cache_dir:
+        try:
+            os.makedirs(cache_dir, exist_ok=True)
+        except OSError as e:
+            print(f"ERROR: Failed to create cache directory: {cache_dir}", file=sys.stderr)
+            print(f"  Details: {e}", file=sys.stderr)
+            return None
+
+    # Write cache file
+    try:
+        with open(cache_file, 'w', encoding='utf-8') as f:
+            json.dump(cache, f, indent=2)
+    except PermissionError:
+        print(f"ERROR: Permission denied writing cache file: {cache_file}", file=sys.stderr)
+        return None
+    except TypeError as e:
+        print(f"ERROR: Failed to serialize cache to JSON: {e}", file=sys.stderr)
+        return None
+    except IOError as e:
+        print(f"ERROR: Failed to write cache file: {cache_file}", file=sys.stderr)
+        print(f"  Details: {e}", file=sys.stderr)
+        return None
+
     return cache
 
 
@@ -625,10 +684,17 @@ def main():
                 name = f"The {card_short} and the {term}"
             
             filename = create_scenario_file(name, card_name, meaning, is_reversed, term, entry)
+            if filename is None:
+                print("Failed to create scenario file. Aborting.", file=sys.stderr)
+                return
+
             cache = initialize_scenario_cache(name, filename, card_name, term)
-            
+            if cache is None:
+                print("Warning: Scenario file created but cache initialization failed.", file=sys.stderr)
+
             print(f"\n✔ Created: {filename}")
-            print(f"✔ Initialized session cache")
+            if cache is not None:
+                print(f"✔ Initialized session cache")
             print(f"\nNext steps:")
             print(f"  1. Read the prompt below")
             print(f"  2. Search project knowledge for relevant documents")
