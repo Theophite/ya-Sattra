@@ -211,6 +211,56 @@ entries:
         - "formal dress: dozens of long scarves wrapped into architectural structures"
   # ─── end Avouvar ───
 
+  # ═══ Vesztraëlin Terminal Alpha ═══
+  Vesztraëlin Terminal Alpha:
+    category: location
+    short: "Avouvar autofactory terminal producing armor alloys and pressure-rated tubes."
+    details: |
+      LOCATION: Garrison District, Asovoë. Vesztraëlin territory.
+      
+      OUTPUTS: Armor alloy ingots (Warborn-grade, stops penetrators), pressure-rated 
+      tubes (pneumatic/hydraulic systems).
+      
+      CHARACTER: Autofactory terminal, not conventional manufacturing. Production 
+      follows Medial schedules—may run for years, then stop for a decade. When 
+      active, Vesztraëlin experiences sudden wealth; when silent, that wealth 
+      evaporates.
+    related: [Avouvar, Asovoë, Droëvan Primary Terminal]
+  # ─── end Vesztraëlin Terminal Alpha ───
+
+  # ═══ Droëvan Primary Terminal ═══
+  Droëvan Primary Terminal:
+    category: location
+    short: "Avouvar autofactory terminal producing electromagnetic components essential to all Asovoë railguns."
+    details: |
+      LOCATION: Garrison District, Asovoë. Droëvan territory.
+      
+      OUTPUTS: Capacitors (railgun grade), electromagnets (various sizes), charging 
+      systems, power storage units.
+      
+      CHARACTER: Essential for railgun maintenance throughout Asovoë. When this 
+      terminal stops, everyone's weapons degrade. The critical vulnerability of 
+      both feuding houses—they depend on Droëvan production whether they admit it 
+      or not.
+    related: [Avouvar, Asovoë, Vesztraëlin Terminal Alpha, Culverin]
+  # ─── end Droëvan Primary Terminal ───
+
+  # ═══ Czernaël Factor-House ═══
+  Czernaël Factor-House:
+    category: organization
+    short: "Avouvar trade interface—where autofactory goods meet the outside world."
+    details: |
+      LOCATION: San Juan Islands.
+      
+      PRODUCTS: Armor alloy (sized for non-Avouvar customers), weapon components 
+      (adapted for larger hands), authentication certificates.
+      
+      CHARACTER: Where Avouvar goods meet the outside world. Akama are the primary 
+      customers—their warriors wear Warborn-grade armor bought through Czernaël 
+      intermediaries. Significant markup. Neutral in the Vesztraëlin-Droëvan feud.
+    related: [Avouvar, Asovoë, Akama, Thousand Kingdoms]
+  # ─── end Czernaël Factor-House ───
+
   # ═══ Beamcrawler ═══
   Beamcrawler:
     category: caste
@@ -1395,7 +1445,6 @@ entries:
   Technical Castes:
     category: caste
     short: Engineered lineages forming a translation cascade for incomprehensible knowledge.
-    aliases: [Technical Caste]
     details: ""
     rag_pointer: The Technical Castes and Far Ib
     related: [Jargon, Mutterers, Archons, Medial Castes]
@@ -1559,7 +1608,7 @@ entries:
     short: Combat-specialized castes with rapid regeneration and severe metabolic dysfunction.
     details: ""
     rag_pointer: Castes of Mankind, Bureau of the Sword
-    related: [Bureau of the Sword, Ironbone Warborn, The Blink]
+    related: [Bureau of the Sword, Ironbone Warborn, The Blink, Hall of Mothers]
     caste_features:
       morphology: modified
       scale: giant
@@ -2164,6 +2213,27 @@ entries:
       real_world_anchor: "Central Valley (within ya-Don)"
   # ─── end Aureate Enclave ───
 
+  # ═══ Beamcaster ═══
+  Beamcaster:
+    category: equipment
+    short: Plasma sidearm, standard Warborn issue.
+    details: |
+      Pre-Interdict weapon firing superheated plasma from magnetic containment. The violet 
+      glow visible through the barrel housing is plasma held in suspension until discharge.
+      
+      CHARACTERISTICS: Matte black casing, brutal simplicity, chevron venting pattern. 
+      Ergonomics assume hands larger than baseline human. Devastating at close range—
+      what infantry see in the moment before a Warborn kills them at conversational distance.
+      
+      PRODUCTION: Furnaces, ya-Don. Process inherited rather than understood. Not 
+      archaeotech salvage but continuous (if mysterious) manufacture.
+      
+      AVAILABILITY: Standard issue for Warborn cohorts; extremely rare in civilian hands. 
+      A Colonel-Hereditary might inherit one as a status symbol. Authentication systems 
+      prevent unauthorized use.
+    related: [Warborn, Furnaces, Culverin]
+  # ─── end Beamcaster ───
+
   # ═══ Black Door ═══
   Black Door:
     category: location
@@ -2221,74 +2291,6 @@ entries:
         - Unknown defensive capabilities
       real_world_anchor: "Unknown (Pre-Interdict)"
   # ─── end City of Glass ───
-
-  # ═══ Cloud Temple ═══
-  Cloud Temple:
-    category: location
-    short: "Technical Caste facility in the Ib Mountains—Cloud Temple Band headquarters with quantum link to Far Ib."
-    details: |
-      One of the few Technical Caste installations maintaining functional connection to 
-      Far Ib. Built for consciousness that no longer exists in its designed form—acoustic 
-      chambers for parallel communication in the Jargon, biological support systems for 
-      bodies already half-merged with infrastructure. The Band has adapted it imperfectly 
-      for human occupation.
-      
-      The quantum computer occupies a central chamber, suspended in liquid helium maintained 
-      by cooling systems predating human occupation. Crystal-and-brass mechanism sustains 
-      entanglement with Far Ib, producing acoustic output through thousands of horns arrayed 
-      across chamber walls. The original design assumed Technical Caste cognition: parallel 
-      processing across the full frequency spectrum, communication through sung mathematical 
-      proofs. Current listeners improvise interpretation through multiple frameworks.
-      
-      When the Band found Cloud Temple, a feral Mutterer choir had been maintaining its 
-      systems for unknown duration—compulsive optimization preserving infrastructure that 
-      Imperial knowledge can no longer understand. The communication cannot be repaired if 
-      damaged. No one understands the mechanism well enough to fix it.
-    rag_pointer: "The Cloud Temple Band, The Technical Castes and Far Ib"
-    related: [Cloud Temple Band, Kelso Senna, Far Ib, Archons, Technical Castes, Mutterers]
-    location_features:
-      level: site
-      location_type: military
-      parent: Ib Mountains
-      controlling_entity: Cloud Temple Band
-      population: 40-50 permanent garrison
-      primary_function: Band headquarters, Far Ib communication
-      castes_present:
-        - Near-Baseline
-        - Serrulata
-        - Warborn
-        - Astal
-        - Ranga
-      notable_features:
-        - Quantum communication array
-        - Technical Caste architecture
-        - Feral Mutterer history
-      real_world_anchor: "Southern Sierra Nevada (Ib Mountains)"
-    aesthetic_features:
-      intention: "Built for minds that no longer exist. The architecture assumes understanding that cannot be recovered."
-      environment: "High Sierra Nevada, remote facility above treeline. Cold, thin air, isolation. The Ib Mountains are themselves a liminal zone—Technical Caste territory, contaminated in ways that differ from the Malpais or the Dead Cities."
-      construction: "Technical Caste architecture adapted for human use. Original chambers assumed non-human movement patterns: corridors spiral rather than run straight, acoustically sensitive spaces designed for Jargon communication, biological support systems for organisms merging with infrastructure. The Band has carved living quarters from chambers whose original purpose is unknown, installed conventional military infrastructure where Technical Caste equipment has failed."
-      visual_vocabulary:
-        - "Technical Caste wrongness: corridors that spiral, ceilings at wrong heights, floors that slope at awkward angles"
-        - "Acoustic chambers: thousands of brass horns arrayed across walls, frequency-specific, designed for parallel processing"
-        - "Liquid helium suspension: crystal-and-brass quantum mechanism, frost on chamber walls, constant low thrum"
-        - "Human adaptation: rope guides through echolocating passages, wood and canvas partitions in vast chambers, electric lights where original illumination failed"
-      materials:
-        - "Technical Caste construction: materials that look like stone but aren't, grey substance harder than granite"
-        - "Acoustic brass: thousands of horns, tarnished but functional"
-        - "Human additions: timber framing, canvas, salvaged Imperial equipment"
-        - "Frost and condensation: cooling systems create perpetual cold in central chambers"
-      colors:
-        - "Grey Technical Caste pseudo-stone (dominant)"
-        - "Tarnished brass of acoustic arrays"
-        - "Frost white in cooling chambers"
-        - "Warm amber of human-installed electric lighting"
-      sensory:
-        - "Constant low thrum from quantum systems"
-        - "Cold air from helium cooling"
-        - "Acoustic strangeness: sounds carry unexpectedly, echoes from wrong directions"
-        - "Smell of ozone and machine oil from maintained systems"
-  # ─── end Cloud Temple ───
 
   # ═══ Coolant District ═══
   Coolant District:
@@ -2475,29 +2477,7 @@ entries:
       borders:
         across_canyon: [Near Wall]
       real_world_anchor: "Glen Canyon (Ganat proper, government-side wall)"
-    local_aesthetic: |
-      Power carved from stone. Lower levels: bureaucratic warrens—Cappadocian-scale underground 
-      administration, aggressively lit with Dawn Party aesthetic of transparency through illumination. 
-      Electric bulbs every few feet, exposed wiring on ceramic insulators, transformer boxes humming at 
-      junctions. Nothing hidden because power is free and hiding costs political capital. Endless tunnels 
-      connecting offices, meeting rooms, archive storage. Spiral ramps connect levels rather than discrete 
-      stairs. A petitioner might spend hours navigating the three-dimensional maze.
-      
-      Mid-level: the Senate Chamber, circular, 80 feet in diameter, revolutionary reliefs carved 3-4 
-      inches deep over monarchical scenes—the originals faintly visible underneath, palimpsest politics. 
-      Art Nouveau figures at Gaudí scale: 20-25 feet tall, robes flowing, hair like flames. The chamber 
-      itself is Earthship logic: thermal mass carved from living rock, natural temperature regulation, 
-      the canyon breathing through ventilation shafts.
-      
-      Higher: Hereditary Debtors' quarter, former slave quarters now valuable real estate—transformed, 
-      expanded, decorated with Art Nouveau carved facades and stained glass. The bitter irony made 
-      beautiful: the children of slaves living better than their owners' grandchildren.
-      
-      Atop it all: the Cathedral, massive sandstone structure on the canyon rim. 1890s Southwest 
-      territorial architecture meeting carved grandeur—adobe and vigas above, carved stone below, the 
-      Patriarch's seat partially overhanging the cliff, visible from across the canyon. Revolutionary 
-      broadcasting equipment incongruously modern against Art Nouveau facades covering every accessible 
-      surface: flowing curves, figurative scenes, relief work 2-3 feet from the wall.
+    local_aesthetic: "Power carved from stone. Lower levels: bureaucratic warrens, aggressively lit—electric bulbs every few feet, Dawn aesthetic of transparency through illumination, nothing hidden. Endless tunnels connecting offices, meeting rooms, archive storage. A petitioner might spend hours navigating. Mid-level: the Senate Chamber, circular, 80 feet in diameter, revolutionary reliefs carved 3-4 inches deep over monarchical scenes (the originals faintly visible underneath). Higher: Hereditary Debtors' quarter, former slave quarters now valuable real estate—transformed, expanded, decorated. Atop it all: the Cathedral, massive sandstone structure on the canyon rim, partially overhanging, visible from across the canyon. Art Nouveau facades carved on every accessible surface: flowing curves, figurative scenes, relief work 2-3 feet from the wall."
   # ─── end Far Wall ───
 
   # ═══ Bureaucratic Warrens ═══
@@ -2574,6 +2554,32 @@ entries:
       real_world_anchor: "Glen Canyon (Far Wall rim, overhanging)"
     local_aesthetic: "Sultanate grandeur serving revolutionary religion. Massive sandstone structure on the canyon rim—300 feet long, 150 wide, four stories tall, built from quarried blocks assembled at the edge. The western face partially overhangs the cliff, visible from across the canyon, from the Near Wall markets, from the Dam. A statement of power that worked for monarchy and now serves Patriarch Kaleb. Carved decoration covers every surface: geometric patterns, figurative scenes, flowing Art Nouveau curves in salmon sandstone. Inside, revolutionary broadcasting equipment—the Patriarch's voice carried to every settlement with a receiver. The palace became cathedral; the Sultana's chambers became offices for religious administration; power changed hands but the building still dominates."
   # ─── end The Cathedral ───
+
+  # ═══ Falx ═══
+  Falx:
+    category: equipment
+    short: Heavy curved blade weapon, standard Warborn close-combat armament.
+    details: |
+      When culverins and beamcasters aren't enough, when the fighting closes to arm's 
+      length, Warborn carry the falx: a forward-curving blade designed to shear through 
+      armor and the bodies wearing it.
+      
+      DESIGN: Single-edged blade curving forward, edge on the inner curve. The blade 
+      widens toward the tip, concentrating mass where it impacts. Guard and pommel 
+      carry geometric bronze inlay in Inner City patterns. Leather-wrapped grip sized 
+      for hands twice baseline scale. Not powered—just steel and the strength of a 
+      2.7-meter soldier swinging it.
+      
+      MANUFACTURE: Furnaces production for standard-issue variants. Higher-quality 
+      examples are guild work—Master Kavek Ossoreth's workshop produces perhaps a 
+      dozen ceremonial falxes yearly for officers and house guards.
+      
+      TACTICAL USE: The falx exists for the moments when infantry lines meet, when 
+      doorways must be forced, when something needs to die and precision doesn't 
+      matter. Warborn train in paired culverin-and-falx drills: fire until contact, 
+      then draw and cut. A full-force swing can bisect a baseline human in ceramic armor.
+    related: [Warborn, Furnaces, Culverin, Beamcaster]
+  # ─── end Falx ───
 
   # ═══ First Whorl ═══
   First Whorl:
@@ -2700,10 +2706,38 @@ entries:
   # ═══ Furnaces ═══
   Furnaces:
     category: location
-    short: Pre-Interdict industrial complex at the heart of ya-Don.
-    details: "2 square miles, ~80,000 workforce. Production facilities: Crucible, Lattice Hall, Primary Deposition, Biological Cultivation. Inner rings have increasing temperature and restricted access."
+    short: Pre-Interdict industrial complex at the heart of ya-Don—the Empire's only source of new complex technology.
+    details: |
+      Two square miles, ~80,000 workforce across three shifts. The only facility in the Empire 
+      capable of producing new complex technology. Temperature increases toward the center; 
+      inner sections require heat-adapted castes (Ashrat).
+      
+      PRIMARY OUTPUTS:
+      - Culverins: Electromagnetic infantry weapons. Produced in the Crucible (material prep) 
+        and Lattice Hall (crystalline matrices via Mutterer choir). Authentication systems 
+        built in at manufacture.
+      - Lectors: Computational/authentication devices. Inner ring production, most restricted. 
+        Requires Mutterer intervention, Verethani involvement, mysterious thermal regimes.
+      - Beamcasters: Plasma sidearms, standard Warborn issue. Pre-Interdict design, 
+        production process inherited rather than understood.
+      - Power armor components: For Warborn and specialist applications. Repairs and 
+        replacement parts; complete suits are archaeotech inheritance.
+      - Biological illumination: Two hundred tanks of bioluminescent organisms for Imperial 
+        lighting. Five tanks have died in recorded history; those capabilities are lost forever.
+      - Electronic components: Resistors, capacitors, semiconductors. The closest thing to 
+        conventional manufacturing.
+      - Cooling systems: Heat-exchange components under es-Vorath patent.
+      
+      STRUCTURE: Outer ring (storage, admin, preliminary processing), middle ring (culverin 
+      lines, component fabrication, illumination), inner ring (lector production, Mutterer 
+      chambers, ancient systems). Workers learn the geography without understanding the logic.
+      
+      CONTROL: Furnace Board (three patent families, four major guilds, Bureau of the Rod). 
+      Order of St. Akhmet holds absolute leverage—a strike shuts down the Empire's only 
+      source of new complex technology. This has happened twice; both times the Empire 
+      capitulated within weeks.
     rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [ya-Don, Order of St. Akhmet]
+    related: [ya-Don, Order of St. Akhmet, Culverin, Beamcaster, Lector, Bureau of the Rod]
     location_features:
       level: district
       location_type: industrial
@@ -2711,12 +2745,15 @@ entries:
       children:
         - Crucible
         - Lattice Hall
+        - Primary Deposition
+        - Biological Cultivation
       controlling_entity: Order of St. Akhmet / Furnace Board
       population: ~80,000 workforce
-      primary_function: Manufacturing
+      primary_function: Complex technology manufacturing
       hazards:
-        - Extreme heat
+        - Extreme heat (increases toward center)
         - Restricted access zones
+        - Processes requiring Mutterer intervention
       real_world_anchor: "Central Valley (ya-Don center)"
   # ─── end Furnaces ───
 
@@ -2833,93 +2870,51 @@ entries:
     aesthetic_features:
       intention: "The Republic made this. See who did what. WE did this—specific kilit, named, identifiable."
       environment: "500-foot salmon-colored Navajo sandstone canyon. Cross-bedding visible—diagonal lines from ancient desert dunes, winds that blew before humans. River at bottom moderates temperature. Canyon creates shade and breeze. Summer 10-15° cooler than surrounding desert; winter sheltered from wind."
-      construction: |
-        The canyon walls are carved. This is the first thing visitors see: 500 feet of salmon sandstone covered 
-        in Art Nouveau figurative sculpture at monumental scale. Figures 20-25 feet tall stand in relief 2-3 feet 
-        from the wall—thousands of them, covering both canyon faces, robes flowing rather than hanging straight, 
-        hair like flames or water, faces individualized. Each carving signed by its maker, kilit territory visible 
-        in style differences. The effect is Angkor Wat meets Gaudí's Sagrada Familia: figurative density in organic 
-        flowing curves covering an entire canyon.
-        
-        Behind the carved facades: Cappadocian-scale underground cities honeycomb the rock. Warrens extend hundreds 
-        of meters into sandstone, ventilation shafts rising to surface, multi-level chambers connected by Guggenheim-
-        style spiral ramps. Space created by subtraction—you carve to build, you remove to make room.
-        
-        Threading through it all: Antediluvian infrastructure predating the carving. The Dam anchors the complex, 
-        but grey conduits run through bedrock throughout the canyon, chambers of unknown purpose occasionally 
-        intersected by new excavation. Workers build around what they find; nobody damages what still functions.
-        
-        At the canyon rim: 1890s Southwest territorial architecture caps the carved sandstone—flat-roofed adobe 
-        with parapeted edges, vigas protruding, earthship thermal mass logic. Where surface meets underground, 
-        two building traditions meet. Early electrification runs everywhere: exposed copper wiring on ceramic 
-        insulators, carbon-filament bulbs in pressed-glass fixtures, transformer boxes humming, the aesthetic 
-        of power made visible throughout a city that never sleeps because power is free.
+      construction: "Petra meets Cappadocia meets Gaudí. Cities carved INTO cliff faces—interior space created by subtraction. Underground warrens extend hundreds of meters into the rock: tunnels branching, vertical shafts connecting levels, three-dimensional maze comprehensible to residents and disorienting to visitors. The Dam adds Antediluvian mystery: grey material harder than granite, smooth, impervious to weathering."
       visual_vocabulary:
         - "Petra: Treasury and Monastery carved into canyon walls, cities approached through narrow canyons opening into carved grandeur"
-        - "Cappadocia/Derinkuyu: Underground cities for climate control—but Ganat's scale is monumental, warrens extending hundreds of meters into rock, ventilation shafts rising to surface, multi-level chambers connected by spiral ramps"
+        - "Cappadocia/Derinkuyu: Underground cities carved for climate control, but Ganat adds monumental carved art to functional underground living"
         - "Gaudí's Sagrada Familia: Art Nouveau facades covering entire canyon walls—20-25 foot figures in organic flowing curves, robes flowing not hanging, hair like flames or water"
         - "Angkor Wat/Khajuraho: Figurative density—thousands of carved figures in relief 2-3 feet from the wall"
-        - "Art Nouveau guild emphasis: Each piece identifiable by maker, craft integrated with art, Guimard Metro entrances and Gaudi tiles"
-        - "1890s Southwest Territorial: Flat-roofed adobe on canyon rim, vigas (log beams) protruding, parapeted edges, Santa Fe organic curves meeting carved sandstone"
-        - "Pueblo/Mesa Verde: Cliff dwellings integrated into rock faces, communal labor visible in construction"
-        - "Earthship logic: Thermal mass construction, earth-bermed dwellings, buildings breathing with temperature cycles, organic curves following natural contours"
-        - "Guggenheim spiral: Continuous ramp access between levels, flowing rather than stepped, the spiral as both circulation and architecture"
-        - "Early electrification aesthetic: Exposed wiring on ceramic insulators, glass-and-brass fixtures, transformer boxes at junctions, the infrastructure of power made visible and beautiful"
-        - "Antediluvian mystery: Grey material harder than granite threading through the sandstone—conduits, chambers, infrastructure that predates carving and still functions"
+        - "Art Nouveau guild emphasis: Each piece identifiable by maker, craft integrated with art, rejection of anonymity"
+        - "Old West frontier: Electric lights as civilization marker, competitive display of which establishment has better lighting"
       materials:
         - "salmon Navajo sandstone: soft enough to carve with hand tools, durable once carved, beautiful in smooth curves and flowing organic forms"
         - "desert varnish: iron and manganese oxide streaks from water seepage, dark lines running down weathered walls like permanent rain"
         - "stained glass: wealthy cave-homes with vast panels lit from behind, glowing both day and night"
-        - "copper cladding: verdigris green against warm sandstone, organic doorway frames in Art Nouveau curves"
-        - "adobe on canyon rim: sun-dried brick, plastered smooth, ochre-cream color complementing sandstone below"
-        - "vigas: log beams protruding through adobe walls, canales (drain spouts) channeling rare rain"
+        - "copper cladding: verdigris green against warm sandstone, organic doorway frames"
         - "the Dam itself: grey Antediluvian material harder than granite, smooth to the touch, impervious to weathering—NOT sandstone"
-        - "Antediluvian conduits in warrens: same grey material appearing in tunnel walls, sometimes carrying unknown substances, sometimes humming with power"
-        - "early electrical hardware: ceramic insulators, copper wiring with cloth insulation, pressed-glass globes, brass fittings green with age"
       colors:
         - "salmon and cream sandstone (dominant—horizontal layers of red, rust-orange, cream, tan)"
-        - "perpetual electric light against orange rock at night—amber carbon-filament glow"
-        - "teal from copper compounds (expensive, semi-permanent, kilit marker)"
-        - "rust-orange from iron oxide (cheap, common, territorial marker)"
-        - "stained glass glowing from wealthy cave-homes—blues, greens, golds"
+        - "perpetual electric light against orange rock at night"
+        - "teal from copper compounds (expensive, semi-permanent)"
+        - "rust-orange from iron oxide"
+        - "stained glass glowing from wealthy cave-homes"
         - "verdigris copper cladding against warm stone"
-        - "adobe ochre-cream on canyon rim"
-        - "grey Antediluvian material threading through warm sandstone"
       sensory:
         - "river sound constant at lower levels"
-        - "perpetual electric hum—turbines never stop, transformers buzz at junctions"
-        - "canyon echoes—voices carry, layer, create cacophony in the warrens"
-        - "the smell: hot metal, chemicals, sawdust, human sweat, machine oil, ozone from electrical equipment"
-        - "dramatic temperature shift between sun and shade, between surface and deep warrens"
-        - "hookah dens and drinking clubs: tobacco smoke, cannabis haze, political argument echoing off carved sandstone"
-        - "the slight vibration near Antediluvian conduits—something running through them still"
-        - "carbon-filament bulb flicker in older installations"
-        - "wheatpaste posters layering every flat surface near tunnel junctions—kilit recruitment, political rallies, work opportunities, the walls a palimpsest of community needs"
+        - "perpetual electric hum—turbines never stop"
+        - "canyon echoes—voices carry, layer, create cacophony"
+        - "the smell: hot metal, chemicals, sawdust, human sweat, machine oil, ozone"
+        - "dramatic temperature shift between sun and shade"
+        - "hookah dens and drinking clubs: tobacco smoke, cannabis haze, political argument"
       key_elements:
-        - "carved canyon walls: THE defining feature—500 feet of salmon sandstone covered in Art Nouveau figurative sculpture, thousands of 20-25 foot figures in flowing curves, each signed by its carver, kilit territories visible in style"
-        - "the Dam: grey Antediluvian material, turbines that never stop, power too cheap to meter—the city's heart and mystery"
-        - "revolutionary palimpsest: Sultana Ulayah receiving tribute re-carved as collective assemblies, new imagery 2-3 inches deeper than monarchical scenes, the original forms faintly visible underneath"
-        - "working-class warrens: Cappadocian scale—tunnels branching through sandstone, chambers carved every 20 feet, electric bulbs every 10 feet, spiral ramps connecting levels, ventilation shafts rising to surface"
-        - "Antediluvian conduits: grey material threading through warren walls, predating the carving, some still carrying power or unknown substances, rooms built around infrastructure nobody understands"
-        - "stained glass cave-homes: wealthy residences with massive panels visible from across the canyon, glowing day and night"
-        - "canyon-rim adobe: 1890s Territorial style buildings capping the sandstone, vigas and parapets, where surface construction meets underground city"
-        - "Senate Chamber: 80-foot circular room carved from sandstone, tiered seating, revolutionary reliefs covering the walls"
-        - "early electrical infrastructure: exposed wiring as decoration, transformer stations as landmarks, the visible machinery of free power"
-        - "Guggenheim spirals: continuous ramp access threading through the warrens, organic flow rather than discrete stairs"
+        - "the Dam: grey Antediluvian material, turbines that never stop, power too cheap to meter"
+        - "working-class warrens: tunnels branching through sandstone, chambers carved every 20 feet, electric bulbs every 10 feet, bright salmon-colored stone visible constantly"
+        - "Art Nouveau facades: 20-25 foot carved figures in flowing curves covering both canyon walls, kilit signatures identifying who carved what"
+        - "stained glass cave-homes: wealthy residences with massive panels visible from across the canyon"
+        - "Senate Chamber: 80-foot circular room carved from sandstone, tiered seating, revolutionary reliefs carved over monarchical scenes"
         - "perpetual illumination: the city never sleeps because power is free, streets and tunnels and warrens lit continuously"
+        - "revolutionary palimpsest: new imagery carved 2-3 inches deeper over monarchical scenes, the original forms faintly visible underneath"
   # ─── end Ganat proper ───
 
   # ═══ Ghaur-Dan ═══
   Ghaur-Dan:
     category: location
     short: Akama settlement known for message poles.
-    details: |
-      Home of the Astals, who carve message poles spiraling up buildings to forty feet. 
-      Bottom sections for children, higher for adults, highest contain messages no one 
-      has read in generations. Warborn cannot read the poles—text too small. One of the 
-      larger permanent Akama settlements in the Thousand Kingdoms.
+    details: Home of the Astals, who carve message poles spiraling up buildings to forty feet. Bottom sections for children, higher for adults, highest contain messages no one has read in generations. Warborn cannot read the poles—text too small.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Thousand Kingdoms, Akama, Astal]
+    related: [Thousand Kingdoms, Akama]
     location_features:
       level: city
       location_type: settlement
@@ -2927,11 +2922,10 @@ entries:
       primary_function: Settlement
       castes_present:
         - Akama
-        - Astal
       notable_features:
-        - Message poles (40 feet, spiral text)
+        - Message poles
         - Astal culture
-      real_world_anchor: "Near Bend, Oregon (high desert, eastern Cascade foothills)"
+      real_world_anchor: "Columbia Basin (Akama territory)"
   # ─── end Ghaur-Dan ───
 
   # ═══ Ghemar-yan ═══
@@ -2982,81 +2976,50 @@ entries:
   # ═══ Khesh-Dalan ═══
   Khesh-Dalan:
     category: location
-    short: "Revolutionary ethics in Antediluvian ruins—Akama settlement atop archaeological treasure."
+    short: "Revolutionary Akama experiment on Ganat's northern frontier."
     details: |
-      Settlement attempting to integrate Akama population with Republican structures, 
-      built unknowingly atop one of the richest Antediluvian archaeological sites in 
-      the eastern territories. The village of perhaps three hundred Akama—former 
-      Thirteen-Hawks who chose settlement over raiding—occupies what appears to be 
-      unremarkable grassland near a dry wash called Khesh Creek.
-      
-      Beneath the surface: an Antediluvian complex of unknown extent. Initial exploration 
-      revealed intact structures, functional or near-functional technology, materials 
-      that defy easy categorization. The discovery creates an ethical dilemma that 
-      defines the settlement's current crisis.
-      
-      Headman Dranakh Nine-Hawk must decide whether to notify Republican authorities 
-      (which would bring archaeologists, administrators, probably displacement) or 
-      attempt independent excavation (illegal, dangerous, potentially lucrative). 
-      Captain Sekh of the Cloud Temple Band has offered support—Senna wants archaeotech 
-      for purposes Sekh cannot fully explain. The Republican Guard patrol visits monthly; 
-      time pressure compounds every consideration.
-      
-      The village itself demonstrates successful integration: Akama children learning 
-      Republican literacy alongside traditional skills, kilit governance adapting to 
-      accommodate Akama consensus practices, felt tents standing beside adobe structures.
-    rag_pointer: "The Republic of Ganat"
-    related: [Ganat, Akama, Thousand Kingdoms, Cloud Temple Band]
+      Settlement attempting to integrate Akama population with Republican structures. 
+      One of the location guides in the Ganat documentation alongside Ganat proper, 
+      Taho, High Junction, Ghemar-yan, and March of Keth-Amran.
+    rag_pointer: The Republic of Ganat
+    related: [Ganat, Akama, Thousand Kingdoms]
     location_features:
       level: city
       location_type: settlement
       parent: Ganat
-      population: ~300
       primary_function: Frontier settlement, Akama integration
       castes_present:
         - Akama
         - Serrulata
-      notable_features:
-        - Antediluvian complex beneath village
-        - Thirteen-Hawk Akama settlement
-        - Integration experiment
       borders:
         north: [Thousand Kingdoms]
       real_world_anchor: "Near Rexburg, Idaho (northern Ganati frontier)"
     aesthetic_features:
-      intention: "Can Akama become citizens? And what lies beneath—and around—the answer?"
-      environment: "Northern Ganati frontier at 5,000 feet, high plateau where the Teph River (formerly Henrys Fork) cuts through. The village occupies gentle slopes above Khesh Creek—a dry wash running water only during spring melt. Unremarkable landscape hiding remarkable secrets. Cold winters, hot summers, the constant wind of open country."
-      construction: "The settlement occupies pre-Interdict structures with utilities that still function mysteriously. Hybrid additions: Akama felt tents (properly called ger, circular, portable) alongside Republican adobe structures (permanent, thick-walled, flat-roofed). The Antediluvian buildings themselves are incomprehensible—materials that look like stone but aren't, seamless joints, rooms whose proportions feel wrong. Villagers have adapted them as best they can, adding timber partitions, hanging felt for insulation, treating the alien architecture as given terrain rather than constructed space."
+      intention: "Can Akama become citizens? The experiment continues."
+      environment: "Northern Ganati frontier near Thousand Kingdoms border. High desert grassland where Akama pastoral traditions meet Republican governance structures."
+      construction: "Hybrid: Akama felt tents alongside Republican adobe structures. Kilit meeting halls. Schools. The experiment visible in mixed architectural vocabulary—neither fully Akama nor fully Ganati."
       visual_vocabulary:
-        - "Antediluvian ruins as living space: villagers occupying structures built for unknown purposes by unknown builders"
-        - "Archaeological density visible everywhere: turn over a rock, find a device; dig a latrine, uncover a conduit"
-        - "Ganat frontier additions: adobe walls, flat roofs, narrow windows against summer heat"
-        - "Thousand Kingdoms portable: felt tents with painted door-frames, destrier paddocks"
-        - "Integration visible: three architectural traditions (Antediluvian, Ganati, Akama) in uneasy proximity"
+        - "Ganat frontier: adobe, kilit governance, schools"
+        - "Thousand Kingdoms influence: felt tents, Akama markers"
+        - "Integration experiment: two visual vocabularies in dialogue"
       materials:
-        - "Antediluvian construction: grey pseudo-stone, metalloceramic, unknown composites, surfaces that don't weather"
-        - "artifacts everywhere: palm-sized objects of unfamiliar materials, markings no one can read, some still powered"
-        - "adobe brick (Ganati tradition, locally made)"
-        - "felt over timber frame (Akama ger construction)"
+        - "adobe (Ganati tradition)"
+        - "felt tents (Akama tradition)"
+        - "kilit markers (Republican governance)"
       colors:
-        - "grey Antediluvian materials (dominant in ruins)"
-        - "tan adobe against brown grassland"
-        - "felt white and cream (Akama)"
-        - "rust-orange territorial markers (diagonal slashes on tents)"
-        - "mysterious internal lighting in some Antediluvian structures (amber, source unknown)"
+        - "tan adobe (Ganati)"
+        - "rust-orange and teal (Akama territorial markers)"
+        - "kilit-maintained surfaces (Republican)"
       sensory:
-        - "two languages: Ganati trade-tongue and Akama dialects in constant code-switching"
-        - "destrier smell from paddocks downwind"
-        - "constant wind across open grassland"
-        - "inside Antediluvian structures: wrong acoustics, air that tastes different, the hum of systems nobody maintains"
-        - "the disorientation of living in spaces designed for other bodies"
+        - "two languages: Ganati trade-tongue and Akama dialects"
+        - "the tension of integration: two ways of life learning coexistence"
+        - "frontier wind, grassland sounds"
       key_elements:
-        - "Dranakh Nine-Hawk (headman, former raider, faces impossible choice)"
-        - "Captain Sekh (Cloud Temple Band liaison, offers dangerous support)"
-        - "Antediluvian complex (wealth and danger, the settlement IS the ruins)"
-        - "Republican Guard patrol (monthly visits, the clock ticking)"
-        - "artifacts in every pocket (children find them playing, adults find them digging)"
-        - "the schoolhouse (integration working, or seeming to)"
+        - "Akama felt tents alongside Republican structures"
+        - "kilit governance attempting to include Akama members"
+        - "schools teaching Republican literacy"
+        - "the border with Thousand Kingdoms visible to north"
+        - "the integration experiment: success and failure both visible"
   # ─── end Khesh-Dalan ───
 
   # ═══ Great Stairs ═══
@@ -4591,17 +4554,6 @@ entries:
       level: district
       location_type: commercial
       parent: Taho
-      aliases:
-        - First Terrace
-        - Second Terrace
-        - Third Terrace
-        - Fourth Terrace
-        - Fifth Terrace
-        - First Terraces
-        - Second Terraces
-        - Third Terraces
-        - Fourth Terraces
-        - Fifth Terraces
       children:
         - Great Stairs
         - Coppersmith Collective Plaza
@@ -4990,27 +4942,7 @@ entries:
       borders:
         across_canyon: [Far Wall]
       real_world_anchor: "Glen Canyon (Ganat proper, road-side wall)"
-    local_aesthetic: |
-      Petra made vertical—commerce at bottom, wealth ascending into light. Lower levels: covered bazaars 
-      carved into salmon sandstone, opening onto streets along the canyon floor. Early electrification 
-      aesthetic: exposed copper wiring on ceramic insulators, carbon-filament bulbs in pressed-glass globes, 
-      transformer boxes humming at junction points. Electric lights blaze constantly (the spaces would be 
-      dark otherwise). Crowded, noisy, fragrant with food and spices and human density.
-      
-      Higher up: wealthy cave-homes carved close enough to the canyon face to install vast stained glass 
-      windows. Massive panels showing geometric patterns or figurative scenes, lit from behind by electric 
-      light, glowing day and night—visible from across the canyon, announcing wealth through beauty. Art 
-      Nouveau decoration in carved sandstone: flowing curves at Gaudí scale, organic doorways with verdigris 
-      copper cladding, figures 20-25 feet tall in relief from the wall.
-      
-      At the canyon rim: 1890s Southwest territorial architecture—flat-roofed adobe buildings with parapeted 
-      edges, vigas (log beams) protruding, earthship-style thermal mass construction. Where surface meets 
-      carved sandstone, two building traditions meet: adobe on top, carved stone below, spiral ramps 
-      connecting them.
-      
-      Terraces provide outdoor space: irrigated gardens, gathering areas, lookout points. Staircases and 
-      spiral ramps lit every 20 feet. The deeper you live, the poorer you are—but even the deepest have 
-      light and sanitation. Cappadocian depth with Ganati brightness.
+    local_aesthetic: "Petra made vertical—commerce at bottom, wealth ascending into light. Lower levels: covered bazaars carved into salmon sandstone, opening onto streets along the canyon floor. Electric lights blaze constantly (the spaces would be dark otherwise). Crowded, noisy, fragrant with food and spices and human density. Higher up: wealthy cave-homes carved close enough to the canyon face to install vast stained glass windows. Massive panels showing geometric patterns or figurative scenes, lit from behind, glowing day and night—visible from across the canyon, announcing wealth through beauty. Art Nouveau decoration in carved sandstone: flowing curves, organic doorways with copper cladding. Terraces provide outdoor space: irrigated gardens, gathering areas, lookout points. Staircases lit every 20 feet. The deeper you live, the poorer you are—but even the deepest have light and sanitation."
   # ─── end Near Wall ───
 
   # ═══ Canyon Floor Markets ═══
@@ -5826,6 +5758,8 @@ entries:
       children:
         - Monastery of the Silent Song
         - Azure Chamber
+        - Hall of Mothers
+        - Lineal Vaults
       castes_present:
         - Highborn
         - Aureate
@@ -5855,6 +5789,89 @@ entries:
       primary_function: Satara meetings
       real_world_anchor: "Inner City arcology (Second Whorl)"
   # ─── end Azure Chamber ───
+
+  # ═══ Hall of Mothers ═══
+  Hall of Mothers:
+    category: location
+    short: "Warborn cloning facility in the Second Whorl—where cohorts are decanted and raised."
+    details: |
+      Primary production site for Imperial Warborn. Designed for an Empire that expected to 
+      populate stars; currently operates at perhaps three percent of capacity.
+      
+      THE APPROACH: A bronze corridor runs four hundred feet without variation—bronze walls, 
+      bronze floor tiles two feet square, bronze ceiling ten feet overhead. The shadowless 
+      twilight of the Second Whorl makes the passage feel longer than it is.
+      
+      THE ATRIUM: Ceiling rises two hundred feet. Floor extends five hundred feet in every 
+      direction. Art Deco maternal statues—sixty feet tall, bronze, faces reduced to geometric 
+      planes—stand at intervals around the perimeter. They hold infants in stylized poses, or 
+      cradle abstract shapes that might represent genetic helices, or extend hands toward empty 
+      space where something has been removed. No inscriptions identify them. No one remembers 
+      who they represent. The atrium was designed as a receiving space for thousands of new 
+      parents collecting children. Now a few Creche functionaries cross the bronze floor at 
+      any given time, footsteps echoing off walls three hundred feet away.
+      
+      VAT CHAMBERS: Radial wings branch from the central atrium, each dedicated to different 
+      cloneline categories. Warborn wing closest to military liaison offices. Each wing contains 
+      rows of cloning vats—cylindrical bronze vessels eight feet tall, four feet diameter, 
+      arranged in ranks of twenty. Pre-Interdict technology, processes poorly understood by 
+      current operators. The vats hum at frequencies below human hearing, producing vibrations 
+      felt in teeth rather than sounds heard with ears.
+      
+      THE CRÈCHES: Beyond the vat chambers. Lower ceilings (twelve feet rather than two hundred), 
+      warmer lighting (panels simulating diurnal cycles), furniture scaled for children. Cohort-mates 
+      share dormitories, classrooms, training facilities. Crèche nurses—often themselves clones from 
+      lines designed for childcare—remain with cohorts for their entire developmental period.
+    rag_pointer: Bureau of the Sword, Castes of Mankind
+    related: [Warborn, Second Whorl, Bureau of the Creche, Institute of Restricted Castes, Lineal Vaults]
+    location_features:
+      level: site
+      location_type: infrastructure
+      parent: Second Whorl
+      controller: Bureau of the Creche
+      primary_function: Warborn production and early training
+      castes_present:
+        - Warborn (produced here)
+        - Creche administrators
+        - Medical staff
+        - Crèche nurses (cloned childcare specialists)
+      notable_features:
+        - 400-foot bronze approach corridor
+        - 200-foot atrium with 60-foot Art Deco maternal statues
+        - Cylindrical bronze cloning vats (8 ft tall, 4 ft diameter, ranks of 20)
+        - Cohort-specific crèche wings
+        - Operates at ~3% designed capacity
+      real_world_anchor: "Inner City arcology (Second Whorl)"
+  # ─── end Hall of Mothers ───
+
+  # ═══ Lineal Vaults ═══
+  Lineal Vaults:
+    category: location
+    short: "Cryogenic archive adjacent to Hall of Mothers containing genetic templates for all certified clonelines."
+    details: |
+      The original sequences for every certified cloneline are preserved here against degradation. 
+      A fortress of absolute sterility guarded by Sword sentinels. Periodic "genetic refresh" is 
+      required for long-running clonelines—the Vaults provide reference templates to correct drift 
+      that accumulates across generations of cloning. This creates dependency: even clonelines 
+      without supplement requirements need periodic correction from Vault-preserved originals. 
+      The Creche controls the Vaults. The Creche therefore controls every cloneline's long-term viability.
+    rag_pointer: Bureau of the Creche, Castes of Mankind
+    related: [Hall of Mothers, Bureau of the Creche, Second Whorl, clonelines]
+    location_features:
+      level: site
+      location_type: infrastructure
+      parent: Second Whorl
+      controller: Bureau of the Creche
+      primary_function: Genetic template preservation
+      castes_present:
+        - Sword sentinels (guards)
+        - Creche archivists
+      notable_features:
+        - Cryogenic storage
+        - Absolute sterility protocols
+        - Reference templates for all certified clonelines
+      real_world_anchor: "Inner City arcology (Second Whorl)"
+  # ─── end Lineal Vaults ───
 
   # ═══ Senate Chamber ═══
   Senate Chamber:
@@ -6055,7 +6072,7 @@ entries:
     short: Largest city in the Republic, commercial gateway to the Empire.
     details: |
       700,000 inhabitants on granite slopes above Lake Tahoe, 6,200-6,800 feet elevation. 
-      Controls Taho Pass—the only crossing for hundreds of miles. Blazes with electric 
+      Controls Truckee Pass—the only crossing for hundreds of miles. Blazes with electric 
       light at night; competitive philanthropy makes power nearly free. Dusk merchant kilits 
       dominate commerce; Dawn arch-curate governs religion. Port District at lake level, 
       Merchant Terraces climbing in five levels, Upper City at summit with Academy and Cathedral.
@@ -6078,7 +6095,7 @@ entries:
       notable_features:
         - Competitive electric lighting
         - Granite architecture
-        - Taho Pass control
+        - Truckee Pass control
         - Pre-Interdict Academy buildings
       borders:
         east: [Ganat proper]
@@ -6293,8 +6310,6 @@ entries:
       level: district
       location_type: infrastructure
       parent: Ganat proper
-      aliases:
-        - Industrial District
       children:
         - Working-Class Warrens
         - Tyrant's Walk
@@ -6304,25 +6319,7 @@ entries:
         - 24-hour industrial operation
         - Working-class warrens
       real_world_anchor: "Glen Canyon (Ganat proper)"
-    local_aesthetic: |
-      Antediluvian mystery amid carved sandstone. The Dam itself is grey material—NOT sandstone, NOT any 
-      stone Republicans understand. Harder than granite, smooth to the touch, showing no weathering despite 
-      unknown age. Perhaps it stored water. Perhaps it generated power. Perhaps it was something else entirely. 
-      
-      The turbines inside are modern—re-engineered decades before the Revolution, spinning continuously, 
-      generating power too cheap to meter. But the structure they're mounted in is ancient, incomprehensible. 
-      Conduits of the same grey material thread outward from the Dam through the surrounding sandstone—some 
-      carry power (the electrical infrastructure taps into these), some carry unknown substances, some simply 
-      hum with unidentifiable purpose. Workers carving new chambers occasionally break through into these 
-      conduits and must build around them; nobody wants to damage infrastructure that still functions.
-      
-      Workshops carved into surrounding sandstone operate 24 hours: hammers on metal, electric saws, looms 
-      clacking, the constant background of turbines and flowing water. The smell: hot metal, chemicals, 
-      sawdust, human sweat, machine oil, ozone from electrical equipment. Working-class warrens honeycomb 
-      the rock—tunnels branching from the Dam into the cliff, chambers carved every 20 feet, bright salmon 
-      sandstone visible under perpetual electric light. Spiral ramps connect levels, Guggenheim-style 
-      continuous access rather than discrete stairs. The warrens feel organic, unplanned, grown rather 
-      than built—but everyone knows who carved which chamber.
+    local_aesthetic: "Antediluvian mystery amid carved sandstone. The Dam itself is grey material—NOT sandstone, NOT any stone Republicans understand. Harder than granite, smooth to the touch, showing no weathering despite unknown age. Perhaps it stored water. Perhaps it generated power. Perhaps it was something else entirely. The turbines inside are modern—re-engineered decades before the Revolution, spinning continuously, generating power too cheap to meter. Workshops carved into surrounding sandstone operate 24 hours: hammers on metal, electric saws, looms clacking, the constant background of turbines and flowing water. The smell: hot metal, chemicals, sawdust, human sweat, machine oil, ozone. Working-class warrens honeycomb the rock around it—tunnels branching from the Dam into the cliff, chambers carved every 20 feet, bright salmon sandstone visible under electric light."
   # ─── end The Dam ───
 
   # ═══ Working-Class Warrens ═══
@@ -6347,34 +6344,8 @@ entries:
         - Organic expansion
         - Perpetual electric lighting
         - Three-dimensional maze
-        - Wheatpaste poster culture
       real_world_anchor: "Glen Canyon (Ganat proper, surrounding the Dam)"
-    local_aesthetic: |
-      Cappadocia-scale underground living with perpetual electric light. Main tunnels 8 feet high, 6 feet 
-      wide, running 150 feet through salmon-colored sandstone. Every 20 feet, a chamber carved off: 12 by 
-      10 feet, 7 feet high, home to a family of four or five. Electric bulbs every 10 feet—bright amber 
-      from carbon filaments, the salmon stone visible constantly, exposed copper wiring on ceramic insulators. 
-      Carved shelves, sleeping platforms, ventilation shafts cut to surface 100 feet above.
-      
-      Spiral ramps connect levels—Guggenheim-style continuous access flowing between floors rather than 
-      discrete staircases. The ramps are carved into the sandstone, worn smooth by generations of feet. 
-      Multiple families share tunnels. Children play in corridors. Cooking in communal areas carved larger.
-      
-      Wheatpaste posters layer every flat surface near tunnel junctions. Kilit recruitment: "Stonecutters' 
-      Fraternal Collective Needs Apprentices—Training Provided." Political advocacy: "Dawn Coalition Rally, 
-      Far Wall Plaza, Seventh-Day." Event announcements, work opportunities, housing exchanges, missing 
-      persons. New posters paste over old; the layers build up until someone scrapes them down and the 
-      cycle begins again. The salmon sandstone beneath is stained with flour paste and paper residue. 
-      Reading the walls tells you what matters this week.
-      
-      The warrens connect—tunnels branch, vertical shafts connect levels, shortcuts carved between previously 
-      separate systems. No comprehensive map exists. Navigation by landmark: 'Turn left at the blue mark,' 
-      'Go down two levels at the shaft near the weaving collective.' Some residents go weeks without seeing sky.
-      
-      Throughout the warrens, grey Antediluvian conduits thread through the sandstone—infrastructure predating 
-      the carving, built into bedrock before anyone carved here. Workers build around these conduits; nobody 
-      damages what still functions. Some carry power, some hum with unknown purpose. The warrens feel carved 
-      out of something already inhabited by older systems.
+    local_aesthetic: "Cappadocia-style underground living with electric light. Main tunnels 8 feet high, 6 feet wide, running 150 feet through salmon-colored sandstone. Every 20 feet, a chamber carved off: 12 by 10 feet, 7 feet high, home to a family of four or five. Electric bulbs every 10 feet—bright, the salmon stone visible constantly. Carved shelves, sleeping platforms, ventilation shafts cut to surface 100 feet above. Multiple families share tunnels. Children play in corridors. Cooking in communal areas carved larger. The warrens connect—tunnels branch, vertical shafts connect levels, shortcuts carved between previously separate systems. No map exists. Navigation by landmark: 'Turn left at the blue mark,' 'Go down two levels at the shaft near the weaving collective.' Some residents go weeks without seeing sky."
   # ─── end Working-Class Warrens ───
 
   # ═══ Tyrant's Walk ═══
@@ -7673,8 +7644,6 @@ entries:
       level: city
       location_type: settlement
       parent: Undying Empire
-      aliases:
-        - ya-Sattran
       children:
         - Inner City
         - Medina Quarter
@@ -8983,40 +8952,6 @@ entries:
     related: [White Sheet, Grey Sheet, Bureau of the Lens]
   # ─── end Black Sheet ───
 
-  # ═══ Cloud Temple Band ═══
-  Cloud Temple Band:
-    category: organization
-    short: "Kelso Senna's military-political organization—mercenary company receiving directives from dying Archons."
-    details: |
-      Approximately two thousand affiliated fighters across regional networks, with a 
-      permanent garrison of forty to fifty at Cloud Temple. Commands through Senna's 
-      original deserter cohort plus Efet Khamos (logistics, likely successor), Blue 
-      Tuft (Astal saboteur), Mokhsa-9 (Warborn operations), and Berem Tso (senior 
-      advisor, institutional memory).
-      
-      The Band emerged from the Yarangar campaign—Senna's desertion after executing 
-      a superior who ordered Ranga atrocities. The Sultanate hired them to train 
-      insurgents; in 963 RRH, they executed the decapitation strike. After Senna's 
-      brief tenure as Minister of War, the Band withdrew to Cloud Temple.
-      
-      The facility's quantum computer, suspended in liquid helium, maintains entanglement 
-      with Far Ib. The Archon designated "the Mouth"—least modified, capable of limited 
-      baseline communication—transmits through thousands of acoustic horns. Requests 
-      include Mutterer acquisition for Far Ib, ya-Sattra intelligence gathering, and 
-      references to operations the Band cannot fully understand.
-      
-      The Band's strategic significance exceeds its military capabilities: proof that 
-      Imperial authority has limits, that alternatives exist, that soldiers of different 
-      castes can fight together effectively. Funded by mercenary contracts, Ganati 
-      donations, radical Penitent contributions, and Rasma Dhal-Setil's unauthorized 
-      payments through Ministry confederates.
-      
-      The deepest problem: no one knows what the Band is for. The Far Ib entity's 
-      objectives may diverge from human interests in ways undetectable until catastrophic.
-    rag_pointer: "The Cloud Temple Band"
-    related: [Kelso Senna, Far Ib, Archons, Ganat, Rasma Dhal-Setil, Technical Castes]
-  # ─── end Cloud Temple Band ───
-
   # ═══ Dawn Party ═══
   Dawn Party:
     category: organization
@@ -9074,41 +9009,6 @@ entries:
     related: [Ganat, Kilit, Senate]
   # ─── end Kilit-zem-kilitam ───
 
-  # ═══ Kelso Senna ═══
-  Kelso Senna:
-    category: person
-    short: "Revolutionary leader commanding the Cloud Temple Band—Imperial deserter who assassinated Sultana Ulayah."
-    details: |
-      Approximately fifty years old, baseline human, physically unremarkable except for 
-      the way other people orient toward him. Commands through clarity rather than 
-      charisma: sees situations simply, decides quickly, communicates decisions in terms 
-      that leave no room for ambiguity. This simplicity is not stupidity—he recognizes 
-      complexity and delegates it to those better equipped to handle nuance.
-      
-      Deserted the Imperial military during the Yarangar campaign after executing a 
-      superior who had ordered atrocities against a Ranga village. The execution was 
-      not decision but reflex—the recognition that he could not obey followed immediately 
-      by action. The initial desertion attracted others; the core of the Cloud Temple 
-      Band formed around this nucleus.
-      
-      The Sultanate hired Senna's company to train Ranga insurgents. In 963 Record of 
-      the Red Hawk, the Band executed the decapitation strike—Senna personally killed 
-      Sultana Ulayah. Served briefly as Republic's Minister of War, found revolutionary 
-      politics unsuited to his temperament, withdrew to the Ib Mountains.
-      
-      Now commands from Cloud Temple, a Technical Caste facility maintaining quantum 
-      communication with Far Ib. Maintains sole complete knowledge of the Archons' 
-      transmissions, sharing interpretations rather than raw content. His moral 
-      architecture is straightforward: will not order atrocities, tolerate slavery, 
-      or serve causes requiring cruelty. These are not negotiable positions but 
-      simply who he is.
-      
-      Dawn Consul Rasma Dhal-Setil routes unauthorized payments to the Band through 
-      confederates in multiple Ministries. The Bureau of the Lens knows. They are waiting.
-    rag_pointer: "The Cloud Temple Band, The Republic of Ganat"
-    related: [Cloud Temple Band, Ganat, Rasma Dhal-Setil, Far Ib, Archons]
-  # ─── end Kelso Senna ───
-
   # ═══ Patriarch Kaleb ═══
   Patriarch Kaleb:
     category: person
@@ -9142,59 +9042,133 @@ entries:
   # ═══ Datho Kel el-Marwen ═══
   Datho Kel el-Marwen:
     category: person
-    short: "Dusk Consul of the Republic of Ganat—archaeotech broker with readable face and hidden debts."
+    short: "Dusk Consul of the Republic of Ganat—represents commercial interests and Imperial accommodation."
     details: |
-      Fifty-eight years old, Serrulata, the Dusk Consul selected through cross-selection 
-      where each party picks the opposing party's most moderate candidate. Built an 
-      archaeotech brokerage connecting marcher territory salvage to Imperial buyers—
-      created wealth but also debts to merchant houses that constrain his options.
-      
-      The 'Kel el-' prefix indicates Imperial descent, family origins in Imperial territory 
-      before migration to Ganat. His face shows every emotion—colleagues read him easily, 
-      which they mistake for susceptibility. They miss that fear and compliance are not 
-      the same thing. His risk tolerance has been increasing as his position becomes 
-      more constrained.
-      
-      The Bureau of the Lens has approached him four times over eleven years. The current 
-      approach offers debt relief in exchange for information about Rasma Dhal-Setil's 
-      unauthorized payments to the Cloud Temple Band. Datho has not yet decided whether 
-      to cooperate, refuse, or warn Rasma—each option destroys something he values.
-      
-      Widely liked and not widely respected. Pleasant company, remembers names and 
-      birthdays, builds relationships through genuine warmth. His reputation is that 
-      of a man with negotiable values—not very corrupt, just pragmatic enough to make 
-      governance possible.
+      Selected through cross-selection mechanism where each party picks the opposing 
+      party's most moderate candidate. The 'Kel el-' prefix indicates Imperial descent, 
+      suggesting family origins in Imperial territory before migration to Ganat. 
+      Represents Dusk Party's merchant interests and preference for peaceful Imperial 
+      relations.
     rag_pointer: "The Republic of Ganat"
-    related: [Ganat, Dusk Party, Kilit, Bureau of the Lens, Rasma Dhal-Setil]
+    related: [Ganat, Dusk Party, Kilit]
   # ─── end Datho Kel el-Marwen ───
 
-  # ═══ Yula Keth-Amran ═══
-  Yula Keth-Amran:
-    category: person
-    short: "Rasma Dhal-Setil's partner—personal secretary, radical Dawn politics, nineteen years younger."
+  # ═══ Dam Workers' Armorers Assembly ═══
+  Dam Workers' Armorers Assembly:
+    category: organization
+    short: "Dawn-aligned cooperative producing mass-manufactured weapons inside the Dam."
     details: |
-      Thirty-one years old, Serrulata, officially Rasma's "personal secretary," actually 
-      her partner of seven years. Daughter of a textile factor in Taho, she rejected her 
-      family's commercial moderatism during Academy years, fell in with student radical 
-      circles, and emerged as committed revolutionary whose politics align with Dawn's 
-      left wing rather than its Orthodox establishment.
+      LOCATION: Inside the Dam itself, Ganat proper. Workshops occupy chambers carved 
+      from the Dam's internal structure, directly connected to the turbine halls. The 
+      hum of generators is constant.
       
-      Considerably more radical than Rasma herself. Where Rasma delivers Orthodox 
-      Confessions to elite congregations, Yula attends radical assemblies. Where Rasma 
-      negotiates with established kilits, Yula maintains connections with frontier 
-      revolutionaries and student activists. The relationship creates both political 
-      asset (access to constituencies Rasma cannot reach directly) and liability 
-      (association with positions Rasma cannot publicly endorse).
+      PRODUCTS: Machine-turned rifle barrels (consistent bore), standardized cartridge 
+      cases, bayonets (triangular, socket-mount), uniform fittings.
       
-      The age gap (nineteen years) and power differential draw occasional comment. 
-      Yula dismisses such concerns with the observation that she pursued Rasma, not 
-      the reverse, and that revolutionary politics should concern itself with power 
-      structures that actually oppress rather than consensual relationships between 
-      adults. Rasma says less publicly, which some interpret as discomfort and others 
-      as characteristic reticence.
-    rag_pointer: "The Republic of Ganat"
-    related: [Rasma Dhal-Setil, Ganat, Dawn Party, Taho]
-  # ─── end Yula Keth-Amran ───
+      CHARACTER: Syndicalist cooperative, Dawn-aligned. Quality varies by shift committee. 
+      Free power means experimentation is cheap—failed designs cost only labor.
+    related: [Ganat, Dawn Party, Khen-Masot Rifle Works]
+  # ─── end Dam Workers' Armorers Assembly ───
+
+  # ═══ House Tal-Omir ═══
+  House Tal-Omir:
+    category: organization
+    short: "Old merchant family producing quality weapons for Ganati merchant guards."
+    details: |
+      LOCATION: Merchant Terraces, Taho—workshops overlooking the harbor, three 
+      generations in the same building. You can see the caravan routes from the 
+      finishing room.
+      
+      PRODUCTS: Tal-Omir rifle (.40 caliber, blued steel, walnut stock), carbines 
+      (caravan guard variant), matched officer pistol pairs, presentation weapons 
+      (engraved, for diplomacy).
+      
+      CHARACTER: Compound name indicates kilit-zem-kilitam descent. Higher prices, 
+      better quality. Their guards carry their own weapons—a statement of confidence.
+    related: [Ganat, Dusk Party, Taho]
+  # ─── end House Tal-Omir ───
+
+  # ═══ Khen-Masot Rifle Works ═══
+  Khen-Masot Rifle Works:
+    category: organization
+    short: "Primary weapons manufacturer supplying Republican Guard infantry—compound name, neutral politics."
+    details: |
+      LOCATION: Near Wall, Ganat proper. Workshops carved into sandstone, powered 
+      by Dam transmission lines.
+      
+      PRODUCTS: Infantry rifle (.40 caliber, Guard standard), replacement parts 
+      (standardized), training rifles (reduced charge).
+      
+      CHARACTER: Compound name indicates old merchant family, but Khen-Masot maintains 
+      careful neutrality—they supply the Guard regardless of which parties hold the 
+      Consulates. Their contracts predate the Revolution. Politically, they donate to 
+      both parties and attend neither's functions.
+    related: [Ganat, Dam Workers' Armorers Assembly, Near Wall]
+  # ─── end Khen-Masot Rifle Works ───
+
+  # ═══ Taho Metalworkers' Collective ═══
+  Taho Metalworkers' Collective:
+    category: organization
+    short: "Dawn-aligned syndicalist cooperative producing dragoon equipment and reverse-engineered culverins."
+    details: |
+      LOCATION: Industrial terraces, Taho—former textile mills converted after the 
+      Yarangar War. The looms are gone; the power connections remain.
+      
+      PRODUCTS: Culverin components (seventy percent domestic manufacture), 
+      reverse-engineered rail carbines, charging equipment.
+      
+      CHARACTER: Their reverse-engineered rail weapons don't require Imperial 
+      authentication—the critical breakthrough that gives Ganati dragoons parity 
+      with Imperial forces.
+    related: [Ganat, Dawn Party, Culverin, Taho]
+  # ─── end Taho Metalworkers' Collective ───
+
+  # ═══ Ghesam Optical ═══
+  Ghesam Optical:
+    category: organization
+    short: "Ganati precision optics manufacturer—irreplaceable expertise in rifle scopes and ranging equipment."
+    details: |
+      Location: Near Wall, Ganat proper. Sefka Ghesam, proprietor.
+      
+      PRODUCTS: Rifle scopes (4x magnification), artillery ranging equipment, 
+      signal mirrors (heliograph quality), binoculars (field grade).
+      
+      CHARACTER: Single-name family (no kilit marker, but wealthy anyway). Forty 
+      workers, irreplaceable expertise. Waiting list for military contracts. 
+      Politically neutral—everyone needs optics.
+    related: [Ganat]
+  # ─── end Ghesam Optical ───
+
+  # ═══ House Kel el-Marwen (Salvage Division) ═══
+  House Kel el-Marwen (Salvage Division):
+    category: organization
+    short: "The Dusk Consul's family business—captured Imperial equipment refurbishment."
+    details: |
+      Location: Vegas Springs.
+      
+      PRODUCTS: Refurbished Imperial rifles, captured ammunition (sorted by caliber), 
+      Imperial armor (ceramic plates, fitted to Serrulata frames), authentication 
+      bypass services.
+      
+      CHARACTER: Every border action produces salvage. The 'el-' particle marks 
+      ancient Imperial descent—family predates the Sultanate. Dusk-aligned, naturally.
+    related: [Ganat, Dusk Party, Datho Kel el-Marwen, Vegas Springs]
+  # ─── end House Kel el-Marwen (Salvage Division) ───
+
+  # ═══ High Junction Armorers' Congress ═══
+  High Junction Armorers' Congress:
+    category: organization
+    short: "Frontier cooperative producing cold-weather military equipment."
+    details: |
+      Location: High Junction, northern frontier.
+      
+      PRODUCTS: Cold-weather gear (insulated, layered), cavalry equipment (saddles, 
+      tack), portable field forges, local ammunition production.
+      
+      CHARACTER: Six years of grid power transformed this garrison town from 
+      isolated outpost to manufacturing center. Dawn-aligned, supplies frontier kilits.
+    related: [Ganat, Dawn Party, High Junction]
+  # ─── end High Junction Armorers' Congress ───
 
   # ═══ Destrier ═══
   Destrier:
@@ -9235,6 +9209,125 @@ entries:
     related: [Akama, Thousand Kingdoms, Ganat, Bureau of the Creche]
   # ─── end Destrier ───
 
+  # ═══ Gouge ═══
+  Gouge:
+    category: concept
+    short: "Akama cavalry weapon—sickle-curved blade on long handle for striking down during destrier's descent."
+    details: |
+      The signature weapon of destrier cavalry. Shaped like a sickle on a long handle, but 
+      instead of completing the crescent, the curve terminates in a point. The point leads, 
+      striking first on the descent.
+      
+      GEOMETRY: Point enters target, then the curve follows through. Both outer edges are 
+      sharpened, so as you drop and the point buries, the widening blade carves outward 
+      through whatever you've hit. The curve routes around bone and armor rather than 
+      catching on it. Opens the wound as it passes. Heavy enough that the descent does 
+      the work—you aim the point and let gravity and the destrier's drop handle the rest.
+      
+      TACTICS: Destriers pick at the edges of formations rather than charging into them. 
+      The gouge hooks soldiers from the periphery, catches on shields and armor, drags 
+      men out of position. During the destrier's leap, you're briefly three meters above 
+      your enemy; the gouge's reach and curve let you strike downward and pull. The 
+      momentum of the destrier does the rest.
+      
+      COMBAT ARC: Coming in at a shallow arc—twenty degrees off horizontal—there's a 
+      window where you're above someone. The gouge reaches down past the destrier's 
+      shoulder, below its trajectory. Point first, angled toward the ground. Your target 
+      is under you as you pass. The curve doesn't fight your forward momentum, it uses it.
+      
+      AESTHETICS: Looks agricultural—like a harvest tool handed to something terrible. 
+      Maybe intentional (Akama aesthetics), maybe evolved from what worked. Gouges tell 
+      stories through notched edges and replaced hafts.
+      
+      MANUFACTURERS: Dzoragh Ironhand (traditional, distinctive blood-channel fuller), 
+      Vurda Eleven-Sage Blade-Works (legendary master quality, months-long wait, heirloom 
+      pieces), village smiths (adequate for most cavalry work).
+    rag_pointer: "The Thousand Kingdoms: Overview, Guide - Military Conflict and Violence"
+    related: [Destrier, Akama, Thousand Kingdoms]
+  # ─── end Gouge ───
+
+  # ═══ Dzoragh Ironhand ═══
+  Dzoragh Ironhand:
+    category: person
+    short: "Akama master smith, third generation—travels between Malpais villages with mobile forge."
+    details: |
+      LOCATION: Mobile forge, Malpais villages.
+      
+      PRODUCTS: Destrier tack (harness, saddle frames), gouges with distinctive 
+      blood-channel fuller, sabers (single-edge, moderate curve), spearheads and lance tips.
+      
+      CHARACTER: Third generation. His gouges are identifiable by the fuller design—
+      a channel that routes blood away from the grip. Traditional smithing methods 
+      passed down through family.
+    related: [Akama, Thousand Kingdoms, Gouge, Grandmother Vurda Eleven-Sage]
+  # ─── end Dzoragh Ironhand ───
+
+  # ═══ Grandmother Vurda Eleven-Sage ═══
+  Grandmother Vurda Eleven-Sage:
+    category: person
+    short: "Legendary Akama bladesmith—seventy-three years old, no apprentice matches her work."
+    details: |
+      LOCATION: Southern Malpais.
+      
+      PRODUCTS: Gouges (master quality, months-long wait), sabers (pattern-welded, 
+      exceptional edge retention), daggers (ceremonial and functional), lance heads 
+      (for khans only).
+      
+      CHARACTER: Her gouges are heirlooms passed between generations. The waiting 
+      list is measured in years. She has trained apprentices, but none match her work. 
+      When she dies, something irreplaceable leaves the world.
+    related: [Akama, Thousand Kingdoms, Gouge, Dzoragh Ironhand]
+  # ─── end Grandmother Vurda Eleven-Sage ───
+
+  # ═══ Khorat the Deserter ═══
+  Khorat the Deserter:
+    category: person
+    short: "Ganati Republican Guard deserter now producing rifles for the Akama with captured Imperial tooling."
+    details: |
+      LOCATION: Thavek district, Ogon.
+      
+      PRODUCTS: Hunting rifle (.38 caliber, accurate to 400 yards), carbine (cavalry 
+      length), heavy rifle (.50 caliber).
+      
+      CHARACTER: Quality approaches Republican standards. Uses captured Imperial 
+      tooling. Doesn't talk about his past—something drove him to leave the Guard 
+      and settle among people who were recently enemies. The Akama don't ask.
+    related: [Akama, Thousand Kingdoms, Ganat]
+  # ─── end Khorat the Deserter ───
+
+  # ═══ Imek Stone-Foot ═══
+  Imek Stone-Foot:
+    category: person
+    short: "Akama armorer who purchased Avouvar coil-winder—first Akama-repairable electromagnetic weapons."
+    details: |
+      LOCATION: Thavek district, Ogon.
+      
+      PRODUCTS: Light rail carbine (Imek-pattern, recent development), portable 
+      capacitor packs, coil assemblies for weapon repair.
+      
+      CHARACTER: Revolutionary development. Before Imek's purchase, Akama electromagnetic 
+      weapons required Avouvar or Imperial technicians for repair. Now the Thousand 
+      Kingdoms can maintain their own rail weapons. The strategic implications are 
+      still unfolding.
+    related: [Akama, Thousand Kingdoms, Culverin, Avouvar]
+  # ─── end Imek Stone-Foot ───
+
+  # ═══ Gorvan Salvage ═══
+  Gorvan Salvage:
+    category: organization
+    short: "Akama captured equipment evaluation and authentication bypass operation."
+    details: |
+      LOCATION: Ogon harbor district.
+      
+      PRODUCTS: Authentication bypass (Imperial weapons), equipment evaluation and 
+      certification, parts harvesting from damaged equipment.
+      
+      CHARACTER: Gorvan himself handles the neural-lock bypass—the delicate work of 
+      convincing Imperial weapons they're being held by authorized users. His apprentices 
+      do the rest. If it was captured, they can tell you if it works.
+    related: [Akama, Thousand Kingdoms, Culverin, Ogon]
+  # ─── end Gorvan Salvage ───
+
   # ═══ Dinar ═══
   Dinar:
     category: concept
@@ -9258,6 +9351,78 @@ entries:
     rag_pointer: "The Republic of Ganat"
     related: [Ganat, Serrulata]
   # ─── end Maguey-silk ───
+
+  # ═══ Master Kavek Ossoreth ═══
+  Master Kavek Ossoreth:
+    category: person
+    short: "Armorers' Guild master, third generation—rifles for specific battalions, contracts going back centuries."
+    details: |
+      LOCATION: Medina Quarter, ya-Sattra.
+      
+      PRODUCTS: Kavek-pattern chemical rifle (.42 caliber, brass furniture), carbines 
+      (shortened cavalry variant), heavy rifles (.55 caliber, tripod-mounted).
+      
+      CHARACTER: His workshop produces perhaps forty rifles yearly. Quality excellent 
+      but availability limited. Family contracts with specific battalions going back 
+      centuries—he won't sell to units outside traditional relationships.
+    related: [Armorers' Guild, Medina Quarter, Journeyman Thess Morain, Journeyman Torven Garris]
+  # ─── end Master Kavek Ossoreth ───
+
+  # ═══ Journeyman Thess Morain ═══
+  Journeyman Thess Morain:
+    category: person
+    short: "Precision components craftsman—'should have made master a decade ago; politics.'"
+    details: |
+      LOCATION: Seventh Terrace, ya-Sattra—a cramped workshop overlooking the 
+      pneumatic hub, rented from a minor Aureate family.
+      
+      PRODUCTS: Rifle sights (adjustable windage), trigger assemblies, barrel linings 
+      (extends service life).
+      
+      CHARACTER: Works alone—no apprentices, no assistants. His sights are worth their 
+      weight in silver. Should have made master a decade ago, but guild politics 
+      blocked his advancement. Doesn't talk about it.
+    related: [Armorers' Guild, Master Kavek Ossoreth, Seventh Terrace]
+  # ─── end Journeyman Thess Morain ───
+
+  # ═══ Journeyman Torven Garris ═══
+  Journeyman Torven Garris:
+    category: person
+    short: "Mobile field repair armorer—no fixed workshop, works from a cart, soldiers know his name."
+    details: |
+      LOCATION: Based in the Iron Yards, ya-Sattra, but travels with regiments. His 
+      cart has been to the Yarangar border and back three times.
+      
+      PRODUCTS: Emergency repairs, parts fabrication from salvage, bore conversions 
+      between calibers.
+      
+      CHARACTER: Goes where the work is. When a regiment is in the field and weapons 
+      break, they send for Torven. No fixed workshop—just a cart, tools, and thirty 
+      years of experience knowing what can be fixed and what can't.
+    related: [Armorers' Guild, Iron Yards, Master Kavek Ossoreth]
+  # ─── end Journeyman Torven Garris ───
+
+  # ═══ Armorers' Guild ═══
+  Armorers' Guild:
+    category: organization
+    short: "Imperial guild producing chemical-propellant small arms—extreme quality variance between craftsmen."
+    details: |
+      Guild monopoly on small arms production in Imperial territory. Unlike the Furnaces 
+      (which produce culverins, beamcasters, and other complex technology), the Armorers' 
+      Guild produces chemical-propellant weapons through traditional craft methods.
+      
+      QUALITY VARIANCE: Extreme. Master Kavek Ossoreth produces forty rifles yearly of 
+      excellent quality. Apprentice workshops produce adequate weapons cheaply. The guild 
+      credential guarantees authenticity, not quality.
+      
+      WHAT THEY DON'T MAKE: Culverins, beamcasters, power armor—those are Furnace 
+      production. The guild produces rifles, pistols, and edged weapons.
+      
+      CONTRAST WITH GANATI PRODUCTION: Republican kilits use industrial methods—machine 
+      tools, standardized parts, assembly lines. Guild production remains craft-based, 
+      one weapon at a time.
+    related: [Master Kavek Ossoreth, Journeyman Thess Morain, Journeyman Torven Garris, Furnaces]
+  # ─── end Armorers' Guild ───
 
   # ═══ Marcher Territories ═══
   Marcher Territories:
@@ -9814,6 +9979,34 @@ entries:
     rag_pointer: Castes of Mankind, The Aureate System
     related: [Highborn, Near-Baseline]
   # ─── end Compulsion ───
+
+  # ═══ Culverin ═══
+  Culverin:
+    category: equipment
+    short: Electromagnetic acceleration weapon—a railgun scaled for infantry use.
+    details: |
+      Standard Imperial infantry weapon for units facing armored opposition. Magnetic 
+      acceleration propels ferromagnetic penetrators at velocities that punch through 
+      armor, walls, and most cover.
+      
+      VISUAL IDENTIFICATION: Copper coils visible through barrel shroud (the acceleration 
+      stage). Magazine feeds penetrators; optic is standard because culverin velocities 
+      require precision aiming—no walking fire onto a target.
+      
+      IMPERIAL MANUFACTURE: Produced at the Furnaces in ya-Don. Geometric line-work on 
+      receiver echoes Inner City aesthetic. Authentication system built in at manufacture 
+      prevents unauthorized use—the weapon will not fire for someone it doesn't recognize.
+      
+      GANATI MANUFACTURE: Reverse-engineered by Republican armorers. Receivers produced by 
+      salvage collectives, assembled by manufacturing kilits like Taho Metalworkers' 
+      Collective. Critically: no authentication system. Same killing power without the 
+      neural lock.
+      
+      AVOUVAR USE: Original Warborn railguns (60kg, massive recoil) mounted on fixed 
+      emplacements, crewed by teams of three. Both feuding houses trade fire across the 
+      disputed corridor with these weapons.
+    related: [Furnaces, Warborn, Beamcaster, Taho Metalworkers' Collective]
+  # ─── end Culverin ───
 
   # ═══ Homiletic Names ═══
   Homiletic Names:

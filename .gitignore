@@ -1,1 +1,29 @@
-**/.DS_Store
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+env/
+venv/
+
+# Session/cache files
+session_cache.json
+seen_terms.txt
+
+# Generated archives
+*.zip
+
+# Temporary files
+*.tmp
+*.bak

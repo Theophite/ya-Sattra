@@ -4,25 +4,25 @@
 
 The project knowledge contains two types of documents: this comprehensive Index providing summary information across all topics, and standalone documents offering detailed treatments of specific subjects. The Index is organized into eight major domains. Most writing produced in this project will be added to the RAG system, which creates obligations around consistency, retrievability, and avoiding redundancy.
 
-**If you need to name a character,** consult the naming conventions document for their culture: Imperial Naming Conventions, Akama Naming Conventions, or Ganati Naming Conventions. The master Naming Conventions document provides quick cross-reference when working across multiple cultures.
+**If you need to name a character,** consult the name generator for their culture: Name Generator - Imperial, Name Generator - Akama, or Name Generator - Ganati.
 
-**If you need to describe a place,** consult Aesthetics for materials, colors, and sensory details. Then consult the specific location document if one exists.
+**If you need to describe a place,** consult Guide - Visual Design and Architecture for materials, colors, and sensory details. Then consult the specific location document if one exists.
 
-**If you need to write dialogue,** consult The Imperial Language for register differences, authentication constraints, and what cannot be said in formal speech.
+**If you need to write dialogue,** consult Language - Imperial Grammar and Registers for register differences, authentication constraints, and what cannot be said in formal speech.
 
-**If you need to understand a caste,** consult Castes of Mankind for type specimens showing typical members. For specific castes with dedicated documents, consult those for deeper detail.
+**If you need to understand a caste,** consult Caste - Type Specimens Catalog for examples showing typical members. For specific castes with dedicated documents (Sewer-Fishers, Technical Castes), consult those for deeper detail.
 
-**If you need to write an in-universe document,** consult In-Universe Documents for templates and examples of circumlocution, then The Imperial Language for grammatical constraints.
+**If you need to write an in-universe document,** consult Templates - In-Universe Documents for examples of circumlocution, then Language - Imperial Grammar and Registers for grammatical constraints.
 
-**If you need to create a new institution,** consult the relevant Bureau document first to understand jurisdictional boundaries, then The Satara, the Bureaux, and Imperial Government for how institutions relate to each other.
+**If you need to create a new institution,** consult the relevant Bureau document first to understand jurisdictional boundaries, then Government - Satara and Bureaus for how institutions relate to each other.
 
-**If you need to write fiction,** consult Writing Stories in the Post-Interdict Empire for style guidance and Stories from the Empire for tone and voice models.
+**If you need to write fiction,** consult Guide - Writing Stories for style guidance and Examples - Story Vignettes for tone and voice models.
 
-**If you need to understand how something works economically,** consult The Economy for trade and currency, The Aureate System for patents, or the relevant location document for local economic conditions.
+**If you need to understand how something works economically,** consult System - Economy and Currency for trade and currency, System - Aureate Patents and Aristocracy for patents, or the relevant location document for local economic conditions.
 
-**If you need to introduce religious elements,** consult The Oracle Cult for theology and practice. For ya-Tsatsa specifically, consult Ya-Tsatsa: Comprehensive Reference. For ya-Don's industrial religion, consult Ya-Don: Comprehensive Reference.
+**If you need to introduce religious elements,** consult Religion - Oracle Cult for theology and practice. For ya-Tsatsa specifically, consult City - Ya-Tsatsa (Oracle Cult Center). For ya-Don's industrial religion, consult City - Ya-Don (Industrial Center).
 
-**If you need to write about the Emperor or First Whorl,** consult The Emperor for the nature of Imperial authority and missives, The First Whorl for temporal mechanics and daily life, and Household es-Tariq for how communication works across millennia.
+**If you need to write about the Emperor or First Whorl,** consult Mysteries - The Emperor and the Singularity for what the Emperor actually is (missives, vel-kerith, phenomenology), Government - Satara and Bureaus for the Emperor's constitutional role, Ya-Sattra - Inner City Arcology for temporal mechanics and occultant experience, and Guide - Writing Inner City for tone and style guidance.
 
 ---
 
@@ -41,56 +41,90 @@ The project knowledge contains two types of documents: this comprehensive Index 
 
 ## **Standalone Documents**
 
-The following standalone documents exist and provide depth beyond Index summaries. Documents marked **(PDF)** are in the project files; others are in the knowledge base.
+Documents are organized by category prefix for easy navigation. Documents marked **(PDF)** are supplementary project files.
 
-### **Caste & Biology**
+### **Guides**
 
-* **Castes of Mankind** — Type specimens for approximately thirty castes through individual examples  
-* **Sickly Caste Overview** (PDF) — Detailed biology, harvesting protocols, Companion care  
-* **Gilded Petals Caste Overview** (PDF) — History, biology, legal status, criminal connections  
-* **Ta-Kefyeh Overview** (PDF) — Biology, culture, host relationships, legal status
+* **Guide - Writing Stories** — Narrative techniques, style guidance, common mistakes to avoid
+* **Guide - Writing Inner City** — Tone and style for Inner City scenes, First Whorl atmosphere, Emperor missive structure, temporal phenomena
+* **Guide - Visual Design and Architecture** — Materials, colors, sensory vocabulary, architecture by location and time horizon
 
-### **Bureaux & Government**
+### **Name Generators**
 
-* **Imperial Bureaux Overview** (PDF) — Bureau summaries and overview  
-* **The Satara, the Bureaus, and Imperial Government** — Complete Satara member profiles, Charter politics  
-* **Bureau of the Lens: Complete Documentation** — All seven Institutes, information distribution, internal culture  
-* **Bureau of the Rod Overview** (PDF) — Infrastructure management, Mutterer dependence, key personnel  
-* **Institutes of the Bureau of the Creche** (PDF) — Seven Institutes with original and modern functions
+* **Name Generator - Imperial** — Phonology, particles, Aureate conventions, Tsatsan variants
+* **Name Generator - Akama** — Throat-focused phonology, astrological names, epithet templates
+* **Name Generator - Ganati** — Ejectives, compound surnames, kilit markers
 
-### **Organizations**
+### **Government & Bureaus**
 
-* **The Companions Guild** — Complete institutional documentation, political relationships, hidden knowledge  
-* **The Hanged Men** — Knot structure, all seven leaders, crew descriptions, territory  
-* **The Aureate System** — Patent mechanics, Bureau distribution, wealth stratification
+* **Government - Satara and Bureaus** — Complete Satara member profiles, Charter politics, Bureau summaries, Emperor's constitutional role (Standing Orders, Reserved Powers)
+* **Mysteries - The Emperor and the Singularity** — What the Emperor actually is, the inner/outer structure, missives, vel-kerith, hapax terminology, the Young One; the Inanis (fragments of transcended intelligences); the Eighth Oracle's false mathematics and the Technical Caste refusal; the Kelso Senna phenomenon; the Foreigners and the Three Mandates
+* **Bureau - Lens (Information)** — All seven Institutes, information distribution, internal culture
+* **Bureau - Sword (Military)** — Institute structure, academy culture, auxiliary relations
 
-### **Geography**
+### **Systems**
 
-* **The Inner City** — Four Whorls, temporal effects, key locations  
-* **The Medina Quarter: A Comprehensive Guide** — Commercial district, governance, neighborhoods  
-* **The Ridge: Comprehensive Summary** — Three infrastructure families, technical economy, political position  
-* **The Iron Yards** — Salvage Guild, Pipefitters Union, criminal economics  
-* **Ya-Tsatsa: Comprehensive Reference** — Oracle societies, the Presence, key families including the Ezh Dhol  
-* **Ya-Don / A Primer on the Guilds of ya-Don** — Furnaces, union-church merger, industrial culture  
-* **Ganat and the Yarangar War** — Republic structure, Dawn/Dusk politics, military situation  
-* **Asovoë and the Avouvar** — Radioactive city, seventeen precincts, immortal politics  
-* **The Thousand Kingdoms: Overview** — Akama culture, Junta of Ogon, frontier territories  
-* **The Cloud Temple Band** — Revolutionary mercenary company, structure and operations
+* **System - Economy and Currency** — Trade systems, currency, wage scales, regional economic variations
+* **System - Aureate Patents and Aristocracy** — Patent mechanics, authentication keys, Bureau distribution, wealth stratification
+* **System - Education and Examinations** — Seven-Cornered Examination, provincial academies, student life
 
-### **Households & Characters**
+### **Religion**
 
-* **Household es-Tariq: Custodians of Imperial Secrecy** (PDF) — Lens Aureates, redaction patents  
-* **Household Galen: Ridge-Line Scriptoria** (PDF) — Intelligence brokers, Grey Sheet distribution  
-* **House es-Thabit Family Dossier** (PDF) — Creche Aureates, sterilization patent, succession crisis  
-* **Plague Crisis Summary** (PDF) — Current epidemic, faction responses, Hanged Men politics
+* **Religion - Oracle Cult** — Theology, household practice, Bureau ceremonies, regional variations
+* **Religion - Penitent Church** — Hierarchy, the Plea liturgy, Imperial and Ganati contexts, parish profiles
 
-### **Reference**
+### **Castes & Species**
 
-* **Naming Conventions** — Phonology, particles, regional variations  
-* **Aesthetics** — Materials, colors, architecture by location  
-* **The Oracle Cult** — Theology, household practice, caste variations  
-* **Writing Stories in the Post-Interdict Empire** — Narrative techniques, style guidance  
-* **Stories from the Empire (Vignettes Collection)** — Approximately 37 narrative examples demonstrating tone and voice
+* **Caste - Type Specimens Catalog** — Approximately thirty castes through individual examples
+* **Caste - Sewer-Fishers** — Biology, cognitive architecture, clan organization, Technical Caste inheritance
+* **Caste - Technical Castes and Far Ib** — Historical context, the caste gradient, current Far Ib status
+
+* **Species - Many (Colonial Polychaete Banker)** — Biological architecture, cognitive system, banking function
+* **Species - Ta-Kefyeh (Parasitic Riders)** — Biology, host relationships, legal status, shtetl culture
+
+### **Guilds & Organizations**
+
+* **Guild - Companions (Physicians)** — Institutional documentation, Mutterer management, political relationships
+* **Organization - Cloud Temple Band** — Revolutionary mercenary company, Far Ib connection, leadership profiles
+
+### **Ya-Sattra Locations**
+
+* **Ya-Sattra - Inner City Arcology** — Four Whorls including complete First Whorl coverage, temporal mechanics, named locations, occultant experience, daily rhythms
+* **Ya-Sattra District - Antediluvian Quarter** — Aureate estates, hereditary servants, self-maintaining infrastructure
+* **Ya-Sattra District - Medina Quarter** — Commercial district, guild neighborhoods, Bureau presence
+* **Ya-Sattra District - Middens** — Seven tenements, complete Hanged Men coverage (Knot leadership, all crews, history), sewer-fisher clans
+* **Ya-Sattra District - Iron Yards** — Salvage Guild, Pipefitters Union, criminal economics
+* **Ya-Sattra District - Ridge** — Sideways arcology, three zones, adapted architecture
+
+### **Cities**
+
+* **City - Ya-Don (Industrial Center)** — Furnaces, union-church merger, sixteen districts, industrial culture
+* **City - Ya-Tsatsa (Oracle Cult Center)** — The Presence, systematic opacity, software production, key families
+
+### **Regions**
+
+* **Region - Republic of Ganat** — Consular dyarchy, kilit system, five settlements, character dossiers
+* **Region - Thousand Kingdoms (Akama)** — Akama culture, Junta of Ogon, frontier territories, warband organization
+* **Region - Asovoe and the Avouvar** — Radioactive city, seventeen precincts, immortal politics, house profiles
+* **Region - Puget Sound Refugee Castes** — Völërath, Szkovërin, Draëthen; ten thousand years of exile
+
+### **Templates & Examples**
+
+* **Templates - In-Universe Documents** — Authenticated wires, circumlocution examples, paper annex templates
+* **Examples - Story Vignettes** — Approximately 37 narrative pieces demonstrating tone and voice
+
+### **Other**
+
+* **Language - Imperial Grammar and Registers** — Morphological roots, register marking, authentication, what cannot be said
+* **Culture - Imperial Media and Entertainment** — Available media forms, censorship dynamics, foreign influence
+* **Scenario - Lattice Translator** — Active scenario document with timeline and political context
+
+### **Supplementary PDFs**
+
+* **Household es-Tariq** (PDF) — Lens Aureates, redaction patents, First Whorl correspondence
+* **Household Galen** (PDF) — Intelligence brokers, Grey Sheet distribution
+* **Esthabit Family Dossier** (PDF) — Creche Aureates, sterilization patent, succession crisis
+* **Plague Crisis Summary** (PDF) — Current epidemic, faction responses, institutional dysfunction
 
 ---
 
@@ -396,7 +430,7 @@ Most content produced in this project will be added to the knowledge base for fu
 
 **Gilded Petals** — Outlawed courtesan caste whose sub-dermal vesicles release pheromones inducing suggestibility. Officially sterilized (approximately 12% remain secretly fertile), suffering bone-leaching genetics requiring expensive medical maintenance. Fewer than 200 survive. *Standalone document available.*
 
-**Hanged Men** — Militia-gang formed from Malpais War veterans who refused demobilization. Control water distribution and protection rackets through the Fen family Knot. Seven seats governing water control (Lockworks), enforcement (Chain-Men), extraction (Iron Yards Boys), intelligence (Night Watch), and finances (Counting House). *Standalone document available.*
+**Hanged Men** — Militia-gang formed from Malpais War veterans who refused demobilization. Control water distribution and protection rackets through the Fen family Knot. Seven seats governing water control (Lockworks), enforcement (Chain-Men), extraction (Iron Yards Boys), intelligence (Night Watch), and finances (Counting House). *Complete coverage in the Middens document.*
 
 **Highborn** — Ruling castes whose polyphonic vocal resonance triggers Compulsion in other castes. Their privilege derives not from a power they possess but from an engineered neurological weakness in all non-Highborn populations. Multiple lineages exist with extreme physical variation, from athletically exaggerated to ethereally elongated (up to nine feet). Genetics are fragile from prolonged inbreeding.
 
@@ -430,7 +464,7 @@ Most content produced in this project will be added to the knowledge base for fu
 
 **Medial Castes** — Middle tier of Technical Castes serving as translation interface between Archons and baseline humans.
 
-**Middens** — Poorest district in ya-Sattra's Rotten Quarter, controlled by Hanged Men. Seven tenement buildings rising from partially flooded foundations, each with distinct character. Covered in the Hanged Men standalone document.
+**Middens** — Poorest district in ya-Sattra's Rotten Quarter. Seven tenement buildings rising from partially flooded foundations, each with distinct character. Complete coverage of the Hanged Men organization, sewer-fisher clans, and the Valve-Saint Parish.
 
 **Mutterers** — Neurologically reduced Technical Caste descendants, approximately one meter tall with oversized eyes. Retain complete technical knowledge but lack executive function—they cannot initiate actions, only respond to situations. Compulsively optimize any technology they encounter and constantly vocalize their cognitive processes. Form distributed consciousness called "choirs" when grouped together.
 
@@ -564,14 +598,14 @@ The setting's visual culture reflects technological stagnation, material scarcit
 
 **The Emperor**
 
-The Emperor is a deliberately mysterious figure whose nature is encoded in grammatical constraints rather than explicit description. This document describes the grammatical anomalies of the Emperor-word, the unique first-person pronoun, and what these constraints imply about the Emperor's nature. It catalogs what has emerged in missives over millennia and describes the vel-kerith orders. Consult it when writing scenes involving Imperial authority, missives, or characters interpreting the Emperor's communications.
+The Emperor is a deliberately mysterious figure whose nature is encoded in grammatical constraints rather than explicit description. The Mysteries document describes what the Emperor actually is—the inner experiencing thing wrapped in the governance apparatus—what he perceives through his "windows" (the garden, the court), the vel-kerith orders, and the Young One who appeared with something burning. The Government document covers his constitutional role: the Standing Orders, Reserved Powers, and why the Satara cannot access him. Consult Mysteries for phenomenology and missive content, Government for political mechanics.
 
-* Creating lore: The nature of Imperial authority, what the Emperor perceives, the relationship between inner experiencing thing and outer apparatus  
-* Writing fiction: Scenes involving Imperial missives, characters interpreting the Emperor's communications, the vel-kerith orders
+* Creating lore: What the Emperor perceives, the relationship between inner thing and outer apparatus, the Young One and the burning object  
+* Writing fiction: Scenes involving Imperial missives, characters interpreting the Emperor's communications, the vel-kerith orders, hapax terminology
 
 **The First Whorl**
 
-The innermost administrative zone operates under severe temporal compression, where bureaucrats age decades while centuries pass outside. This document explains temporal compression mechanics at different depths, describes named locations within the Whorl, and catalogs temporal phenomena including self-encounters and fixed shadows. It describes the Black Door, what happens when it opens, and profiles specific occultants including Tariq. Consult it when writing any scene set in the First Whorl or involving occultants.
+The innermost administrative zone operates under severe temporal compression, where bureaucrats age decades while centuries pass outside. First Whorl content is now fully integrated into the Inner City Arcology document. It explains temporal compression mechanics at different depths, describes named locations within the Whorl, and catalogs temporal phenomena including self-encounters and fixed shadows. It describes the Black Door, what happens when it opens, and profiles specific occultants including Tariq. Consult Inner City Arcology when writing any scene set in the First Whorl or involving occultants. Consult Guide - Writing Inner City for tone and style.
 
 * Creating lore: Temporal compression mechanics, what locations exist within the Whorl, how ancient infrastructure functions  
 * Writing fiction: Any scene set in the First Whorl, self-encounters, fixed shadows, the Black Door, occultant daily life
