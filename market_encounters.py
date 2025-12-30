@@ -6,7 +6,7 @@ FOR USE IN THINKING BLOCK ONLY. Run this script to generate encounter ideas,
 then synthesize the results into natural prose for the actual response.
 Do not output the raw generator results to the user.
 
-Generates random encounters for Fourth Whorl market scenes—the Terrace market
+Generates random encounters for Fourth Whorl market scenesâ€”the Terrace market
 Rivan passes on his commute, guild shops, food vendors, the commerce that
 fills the enclosed arcology.
 
@@ -56,7 +56,7 @@ FOOD_VENDORS = [
     Vendor(
         "A flatbread seller with a portable griddle",
         "Flatbread charring at the edges, sold in stacks of six",
-        "Half-obol for a stack—cheaper than baking your own fuel",
+        "Half-obol for a stackâ€”cheaper than baking your own fuel",
         "gray"
     ),
     Vendor(
@@ -68,7 +68,7 @@ FOOD_VENDORS = [
     Vendor(
         "A noodle stall sending steam into the bronze air",
         "Noodles with fish, noodles with vegetables, noodles with both",
-        "Quarter-obol a bowl. No seating—eat standing or carry it.",
+        "Quarter-obol a bowl. No seatingâ€”eat standing or carry it.",
         "gray"
     ),
     Vendor(
@@ -92,7 +92,7 @@ FOOD_VENDORS = [
     Vendor(
         "A grilled-meat cart working the morning crowd",
         "Goat on skewers, peppered and charred",
-        "Eighth-obol per skewer. No license—the vendor moves when gendarmes appear.",
+        "Eighth-obol per skewer. No licenseâ€”the vendor moves when gendarmes appear.",
         "gray"
     ),
     Vendor(
@@ -106,13 +106,13 @@ FOOD_VENDORS = [
 GUILD_SHOPS = [
     Vendor(
         "A Clothiers' Guild shop with the seven-pointed star above its door",
-        "Maguey-silk in bolts—cream, ochre, rust, teal, indigo",
+        "Maguey-silk in boltsâ€”cream, ochre, rust, teal, indigo",
         "Prices chalked on slate. The teal costs twice the ochre.",
         "white"
     ),
     Vendor(
         "The copper-workers' display, vessels stacked to the ceiling",
-        "Bowls, cups, plates in various stages of oxidation—red-gold to full green patina",
+        "Bowls, cups, plates in various stages of oxidationâ€”red-gold to full green patina",
         "Three obols for a decent bowl. The green ones are 'antique.'",
         "white"
     ),
@@ -160,7 +160,7 @@ ARCHAEOTECH_VENDORS = [
 TEXTILE_AND_GOODS = [
     Vendor(
         "A temporary stall selling wool from the eastern territories",
-        "Rough-woven fabric in natural colors—cream, grey, brown",
+        "Rough-woven fabric in natural colorsâ€”cream, grey, brown",
         "Half the price of guild cloth. Half the quality.",
         "gray"
     ),
@@ -230,7 +230,7 @@ FOREIGN_TRADERS = [
     ),
     MarketCharacter(
         "A trader from ya-Don, the accent obvious",
-        "Selling something from a case—jewelry, maybe, or small tools",
+        "Selling something from a caseâ€”jewelry, maybe, or small tools",
         "Provincial goods for provincial prices."
     ),
     MarketCharacter(
@@ -275,23 +275,23 @@ PHYSICAL_DETAILS = [
     "A bronze column rises through the market, its geometric patterns worn smooth at hand-height. "
     "Above, an awning in ochre canvas provides shade that doesn't quite reach the ground.",
     
-    "The ceiling is lost in golden haze—orb-fixtures casting light that has no source you can see. "
+    "The ceiling is lost in golden hazeâ€”orb-fixtures casting light that has no source you can see. "
     "Banners hang from sky-bridges fifty feet up, teal and burgundy with geometric patterns.",
     
     "Buildings crowd between the ancient columns, never quite touching them. The gap is five feet, "
-    "maybe ten—enough for people to pass, enough for the columns to be maintained. Someone is "
+    "maybe tenâ€”enough for people to pass, enough for the columns to be maintained. Someone is "
     "polishing one now, standing on a ladder, the bronze gleaming where the cloth touches.",
     
     "A sky-bridge crosses overhead, its underside decorated with carved reliefs too high to read. "
-    "People cross it—silhouettes against the golden light—heading somewhere Rivan has never been.",
+    "People cross itâ€”silhouettes against the golden lightâ€”heading somewhere Rivan has never been.",
     
     "The floor is bronze tile, warped slightly from millennia of thermal cycling, worn into paths "
     "where generations have walked the same routes. The path to the junction is visible in the polish.",
     
-    "An industrial building hums somewhere nearby—the sound of presses, machinery, something being made. "
+    "An industrial building hums somewhere nearbyâ€”the sound of presses, machinery, something being made. "
     "The sound is constant. You stop hearing it after a while.",
     
-    "The Terrace market isn't a building—it's a section of the Fourth Whorl where stalls accumulate. "
+    "The Terrace market isn't a buildingâ€”it's a section of the Fourth Whorl where stalls accumulate. "
     "The boundaries are informal, marked by where vendors set up and where they don't.",
 ]
 
@@ -302,16 +302,16 @@ AMBIENT_DETAILS = [
     "Ten thousand conversations at once, a murmur that never stops. Hammering from repair stalls. "
     "The sizzle of cooking. Footsteps on bronze, thousands of footsteps, a continuous rustling.",
     
-    "A vendor calls out prices in a singsong pattern—three for an obol, two for an obol—the words "
+    "A vendor calls out prices in a singsong patternâ€”three for an obol, two for an obolâ€”the words "
     "blurring into rhythm. Someone else is arguing, their voice rising, then subsiding.",
     
     "The crowd flows around obstacles like water. A dropped crate causes an eddy; people adjust "
     "without looking, their bodies knowing the rhythm of the market.",
     
-    "A gust of warm air from a ventilation grille—the Rod's climate systems still function, mostly. "
+    "A gust of warm air from a ventilation grilleâ€”the Rod's climate systems still function, mostly. "
     "The temperature stays constant. The humidity does not.",
     
-    "Someone is playing music somewhere—a string instrument, something with a drone. "
+    "Someone is playing music somewhereâ€”a string instrument, something with a drone. "
     "The sound comes from above, maybe from a sky-bridge platform. It stops, then starts again.",
     
     "The morning rush is building. In an hour the market will be crowded. Now there's still room "
@@ -323,7 +323,7 @@ AMBIENT_DETAILS = [
 
 TIME_EFFECTS = {
     "dawn": "The market is quiet. Vendors set up stalls, arranging goods in patterns refined over years. "
-            "The orb-lights are dimmer now—simulating dawn, though no sun rises here.",
+            "The orb-lights are dimmer nowâ€”simulating dawn, though no sun rises here.",
     
     "morning": "The morning crowd fills the passages between stalls. Clerks buy breakfast before heading "
                "to the inner whorls. The flatbread sellers are busiest now.",
@@ -402,7 +402,7 @@ def format_encounter(encounter: MarketEncounter) -> str:
     if encounter.characters:
         lines.append("\n--- CHARACTERS ---")
         for c in encounter.characters:
-            lines.append(f"\n• {c.description}")
+            lines.append(f"\nâ€¢ {c.description}")
             lines.append(f"  Activity: {c.activity}")
             if c.notes:
                 lines.append(f"  Notes: {c.notes}")
