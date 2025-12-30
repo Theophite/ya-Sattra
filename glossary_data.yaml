@@ -1309,18 +1309,19 @@ entries:
       current_role: "deep infrastructure maintenance, salvage"
       distribution:
         - "ya-Sattra Middens only"
-        - "five clans: Venn, Hasket, Cho, Sarn, Benru"
+        - "six clans: Loak, Venn, Hasket, Cho, Sarn, Benru"
       special:
         - "SECRET ancestry—must perform confusion around machinery"
         - "mathematical intuitions about systems no one officially understands"
         - "family shrines include technical death records as education"
         - "children study failure modes, learn to recognize catastrophic warnings"
+        - "Loak clan operates Lift-3 and Merra's kitchen (vertical transport, food/intel)"
         - "Cho clan maintains Lockworks (water distribution)"
-        - "Sarn clan operates at crushing depths"
-        - "Venn clan specialized in high-altitude rigging"
-        - "Hasket clan has stevedore fosterings (mixed heritage)"
-        - "Benru clan handles salvage trade"
-        - "intermarriage with orbital castes causing fertility crisis"
+        - "Sarn clan operates at crushing depths, trades with deep populations"
+        - "Venn clan specialized in high-altitude rigging, toll-avoidance infrastructure"
+        - "Hasket clan has stevedore fosterings (mixed heritage), aquaculture"
+        - "Benru clan is ONLY registered clan, handles brokerage/documentation"
+        - "intermarriage with orbital castes (Cho-Fen) causing fertility crisis"
   # ─── end Sewer-Fishers ───
 
   # ═══ Sickly ═══
@@ -1478,7 +1479,7 @@ entries:
         - false statements linguistically impossible in Jargon
         - "refused Eighth Testament's flawed mathematics"
         - sterilized as punishment
-        - "SEWER-FISHERS: hidden descendants in ya-Sattra Middens, five clans maintain secret ancestry"
+        - "SEWER-FISHERS: hidden descendants in ya-Sattra Middens, six clans maintain secret ancestry"
   # ─── end Technical Castes ───
 
   # ═══ Verethani ═══
