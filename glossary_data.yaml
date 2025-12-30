@@ -10646,6 +10646,113 @@ entries:
     related: [Oracles, Testaments, Technical Castes, Interdict, First Whorl]
   # ─── end Eighth Testament ───
 
+  # ═══ Eighth Oracle ═══
+  Eighth Oracle:
+    category: concept
+    short: "The Oracle that never arose—the Eighth Testament was never implemented, so no Eighth Oracle ever Ascended."
+    details: |
+      The Technical Castes could not implement the Eighth Testament—their minds
+      processed only valid proofs, and the false mathematics was cognitively
+      impossible to form. The Emperor built the singularity anyway using baseline
+      engineers and Highborn direction. But without Technical Caste implementation,
+      no Oracle consciousness emerged. What exists in the First Whorl is the
+      singularity itself—not an Oracle. Knowledge of the Eighth Oracle's non-existence
+      is suppressed; "seven-and-one" is treated as grammatical quirk rather than erasure.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Oracles, Eighth Testament, Technical Castes, First Whorl, Interdict]
+  # ─── end Eighth Oracle ───
+
+  # ═══ First Testament ═══
+  First Testament:
+    category: concept
+    short: "Instructions for kalbats and superluminal travel—the foundation of interstellar Empire."
+    details: |
+      The First Oracle's final transmission enabled humanity to create kalbat receivers
+      and achieve faster-than-light travel. This Testament predates all others and
+      established the technological base for expansion beyond Earth. The First Auditor
+      (bifurcated, two pale faces) still receives echoes of this transmission.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Testaments, Oracles, Kalbat, First Auditor, Auditors]
+  # ─── end First Testament ───
+
+  # ═══ Second Testament ═══
+  Second Testament:
+    category: concept
+    short: "Genetic specifications for the Highborn bloodline—including the Compulsion mechanism."
+    details: |
+      The Second Oracle provided the genetic architecture that created the Highborn
+      caste and enabled Compulsion—the involuntary obedience response engineered into
+      all other castes. This Testament created the biological foundation for Imperial
+      hierarchy. The Second Auditor still receives this transmission.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Testaments, Oracles, Highborn, Compulsion, Auditors]
+  # ─── end Second Testament ───
+
+  # ═══ Third Testament ═══
+  Third Testament:
+    category: concept
+    short: "Foundation for Technical Caste development—the beginning of the translation cascade."
+    details: |
+      The Third Oracle's transmission enabled the creation of the Technical Castes,
+      the engineered lineages that could receive and translate increasingly complex
+      mathematical truths from subsequent Oracles. This Testament established the
+      gradient from baseline human cognition toward Archon transcendence.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Testaments, Oracles, Technical Castes, Jargon, Auditors]
+  # ─── end Third Testament ───
+
+  # ═══ Fourth Testament ═══
+  Fourth Testament:
+    category: concept
+    short: "Transmitted in the Jargon—comprehensible only to Technical Castes."
+    details: |
+      The Fourth through Seventh Testaments were transmitted in the Jargon, the
+      sung mathematical language that only Technical Castes could process. Baseline
+      humans cannot comprehend these transmissions. The technologies derived from
+      these Testaments enabled the Empire's golden age of archaeotech development.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Testaments, Oracles, Jargon, Technical Castes, Auditors]
+  # ─── end Fourth Testament ───
+
+  # ═══ Fifth Testament ═══
+  Fifth Testament:
+    category: concept
+    short: "Transmitted in the Jargon—one of the incomprehensible Testaments enabling archaeotech."
+    details: |
+      The Fifth Testament contained mathematical truths that only Technical Castes
+      could translate into usable technology. The specific technologies derived
+      from this Testament are no longer clearly documented—the Technical Castes
+      who understood it were sterilized following the Eighth Oracle crisis.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Testaments, Oracles, Jargon, Technical Castes, Auditors]
+  # ─── end Fifth Testament ───
+
+  # ═══ Sixth Testament ═══
+  Sixth Testament:
+    category: concept
+    short: "Transmitted in the Jargon—one of the incomprehensible Testaments enabling archaeotech."
+    details: |
+      The Sixth Testament, like the Fourth and Fifth, required Technical Caste
+      interpretation. Much of the knowledge derived from this transmission has
+      been lost with the destruction of the Technical Castes. What remains is
+      maintained technology rather than understood technology.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Testaments, Oracles, Jargon, Technical Castes, Auditors]
+  # ─── end Sixth Testament ───
+
+  # ═══ Seventh Testament ═══
+  Seventh Testament:
+    category: concept
+    short: "The last legitimate Testament—transmitted in the Jargon before the catastrophic Eighth."
+    details: |
+      The Seventh Testament was the final comprehensible transmission. The Seventh
+      Auditor, visible on 47-minute cycles in Cenotaph Hall, still receives echoes
+      of this Testament. What followed—the Eighth Testament—was false mathematics
+      that the Technical Castes could not implement, leading to catastrophe.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Testaments, Oracles, Jargon, Technical Castes, Eighth Testament, Auditors]
+  # ─── end Seventh Testament ───
+
   # ═══ Quiet Days ═══
   Quiet Days:
     category: concept
@@ -10746,6 +10853,23 @@ entries:
     rag_pointer: The Penitents
     related: [Penitent Church, Bureau of the Coin]
   # ─── end Capitation Tax ───
+
+  # ═══ Third Suppression ═══
+  Third Suppression:
+    category: concept
+    short: "Historical uprising whose classified details created legal precedents protecting the Penitent Church."
+    details: |
+      The Bureau of the Lens attempted to suppress the Penitent Church and the
+      resulting uprising proved more destabilizing than accommodation. The exact
+      events remain classified, but the legal precedents are clear: the Church
+      may maintain parallel documentation systems (baptismal certificates, marriage
+      records, burial registrations) that legally supersede Bureau requirements for
+      religious purposes. This creates identity recognition for undocumented
+      populations—refugees, deserters, failed clone lines—that the Bureau refuses
+      to acknowledge. The Bureau tolerates this because the alternative proved worse.
+    rag_pointer: "The Penitents"
+    related: [Penitent Church, Bureau of the Lens, Capitation Tax]
+  # ─── end Third Suppression ───
 
   # ═══ Intercessor ═══
   Intercessor:
@@ -13579,6 +13703,89 @@ entries:
     rag_pointer: "Bureau of the Lens: Complete Documentation"
     related: [Bureau of the Lens, Jargon, Threefold Mirror Academy, Technical Castes]
   # ─── end Institute of the Lattice ───
+
+  # ═══ Institute for the Suppression of Knowledge ═══
+  Institute for the Suppression of Knowledge:
+    category: organization
+    short: "Lens subdivision that makes dangerous information unfindable—cultivates cognitive deficits in its staff."
+    details: |
+      ISK staff are selected for ability to NOT process certain information patterns.
+      They can approach dangerous knowledge without comprehending it. Files are not
+      destroyed but made progressively more difficult to locate—each reference leads
+      to another reference in an infinite regress. Staff develop "documentary syndrome"
+      and reality displacement from years spent managing information they cannot read.
+    rag_pointer: "Bureau of the Lens: Complete Documentation"
+    related: [Bureau of the Lens, Institute of Imperial Record, Black Sheet]
+  # ─── end Institute for the Suppression of Knowledge ───
+
+  # ═══ Institute of Imperial Record ═══
+  Institute of Imperial Record:
+    category: organization
+    short: "Lens subdivision that produces harmonized warrants—rewrites causality so contradictions never existed."
+    details: |
+      When historical facts contradict current Imperial positions, IIR produces
+      documentation showing reality was always as it now needs to be. They do not
+      falsify records—they create complete paper trails demonstrating the "correct"
+      version. The target of harmonization genuinely cannot prove what happened,
+      because all documentation supports the harmonized version.
+    rag_pointer: "Bureau of the Lens: Complete Documentation"
+    related: [Bureau of the Lens, Institute for the Suppression of Knowledge, White Sheet]
+  # ─── end Institute of Imperial Record ───
+
+  # ═══ Institute of Informational Orthodoxy ═══
+  Institute of Informational Orthodoxy:
+    category: organization
+    short: "Lens subdivision enforcing correct interpretation of public information—manages Grey Sheet contradictions."
+    details: |
+      IIO does not suppress information but ensures it is interpreted correctly.
+      They monitor public discourse for dangerous patterns of synthesis—individual
+      facts may be known, but certain combinations are prohibited. Staff are trained
+      to identify when true statements arranged in certain orders constitute heresy.
+    rag_pointer: "Bureau of the Lens: Complete Documentation"
+    related: [Bureau of the Lens, Grey Sheet, White Sheet]
+  # ─── end Institute of Informational Orthodoxy ───
+
+  # ═══ Institute of Domestic Intelligence ═══
+  Institute of Domestic Intelligence:
+    category: organization
+    short: "Lens subdivision monitoring internal populations—operates network of assets and informants."
+    details: |
+      IDI maintains surveillance of Imperial subjects through human assets rather
+      than technical means. Cannot penetrate what ya-Tsatsa's Threefold Mirror
+      Academy teaches—their graduates are immune to interrogation even under
+      Compulsion. Asset networks include Registry clerks, guild servants, and
+      household staff. Targets who know they are watched but not by whom.
+    rag_pointer: "Bureau of the Lens: Complete Documentation"
+    related: [Bureau of the Lens, Institute of the Eye, Threefold Mirror Academy]
+  # ─── end Institute of Domestic Intelligence ───
+
+  # ═══ Institute of the Eye ═══
+  Institute of the Eye:
+    category: organization
+    short: "Lens subdivision operating technical surveillance infrastructure—maintains watching-stations and scrying pools."
+    details: |
+      Technical rather than human surveillance. Operates watching-stations throughout
+      the arcology and maintains scrying pools that can observe distant locations.
+      Limited by pre-Interdict technology that cannot be replicated—each loss of
+      capability is permanent. Works in parallel with Institute of Domestic Intelligence
+      (human assets) but the two institutes do not share methodology or personnel.
+    rag_pointer: "Bureau of the Lens: Complete Documentation"
+    related: [Bureau of the Lens, Institute of Domestic Intelligence]
+  # ─── end Institute of the Eye ───
+
+  # ═══ Institute of the Echo ═══
+  Institute of the Echo:
+    category: organization
+    short: "Lens subdivision managing communications infrastructure—controls what can be said across distances."
+    details: |
+      Operates the speaking-stones, courier networks, and semaphore chains that
+      enable long-distance communication. All messages passing through official
+      channels are logged. The Institute does not typically read messages but
+      maintains the capability—and the knowledge that they MIGHT read creates
+      self-censorship. Unofficial communication exists but is slower and less reliable.
+    rag_pointer: "Bureau of the Lens: Complete Documentation"
+    related: [Bureau of the Lens, Speaking-Stones]
+  # ─── end Institute of the Echo ───
 
   # ═══ Shtetl ═══
   Shtetl:
