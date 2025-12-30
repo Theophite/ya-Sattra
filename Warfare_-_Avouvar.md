@@ -24,7 +24,7 @@ The Avouvar organize military forces by house rather than centralized command. E
 
 ### House Forces
 
-Vesztraëlin and Droëvan each field several hundred fighters equipped with autofactory-produced alloys, conventional firearms, and fixed railgun emplacements. House forces answer to matriarchal leadership; coordination between houses happens through Chancery precedent rather than unified command.
+Vesztraëlin and Droëvan each field several hundred fighters equipped with autofactory-produced alloys, conventional firearms, and fixed railgun emplacements. House forces answer to their house leadership—matriarchs, patriarchs, or elder councils depending on the house; coordination between houses happens through Chancery precedent rather than unified command.
 
 ### The Feud Structure
 
@@ -107,7 +107,7 @@ Lavoëran provides most medical care. Houses that fall behind on tribute find cl
 
 ## Consistency Requirements
 
-- House forces answer to matriarchal leadership, not centralized command
+- House forces answer to house leadership (matriarchs, patriarchs, or councils), not centralized command
 - The Chancery constrains violence through precedent, not law
 - Railguns are too heavy for Avouvar to carry—fixed emplacements only
 - Inherited power armor sized for Warborn cannot be used

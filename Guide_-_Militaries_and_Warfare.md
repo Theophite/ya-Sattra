@@ -447,7 +447,7 @@ The distinction between professional Guard and kilit militia reflects different 
 
 The Avouvar organize military forces by house rather than centralized command. Each house maintains fighters equipped from autofactory production and inherited arsenals.
 
-**House Forces**: VesztraÃ«lin and DroÃ«van each field several hundred fighters equipped with autofactory-produced alloys, conventional firearms, and fixed railgun emplacements. House forces answer to matriarchal leadership; coordination between houses happens through Chancery precedent rather than unified command.
+**House Forces**: VesztraÃ«lin and DroÃ«van each field several hundred fighters equipped with autofactory-produced alloys, conventional firearms, and fixed railgun emplacements. House forces answer to their house leadershipâ€"matriarchs, patriarchs, or elder councils depending on the house; coordination between houses happens through Chancery precedent rather than unified command.
 
 **The Feud Structure**: The millennia-long VesztraÃ«lin-DroÃ«van conflict operates under Chancery constraintsâ€”certain acts prohibited (killing children, destroying infrastructure), certain targets protected, violence channeled into forms both houses recognize. The architecture of dispute keeps conflict contained while ensuring it continues.
 
