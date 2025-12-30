@@ -9,6 +9,7 @@ glossary_terms:
   - Intercessor
   - Valve-Saint Parish
   - Capitation Tax
+  - Third Suppression
 
 guidance:
   - "The Penitent Church is NOT the Oracle Cult - Oracle Cult is state religion, Penitentism is 'discouraged belief'"

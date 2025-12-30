@@ -7,11 +7,16 @@ glossary_terms:
   - Oracles
   - Testaments
   - Eighth Testament
+  - Eighth Oracle
+  - First Testament
+  - Second Testament
+  - Third Testament
   - Interdict
   - Kalbats
   - Technical Castes
   - Quiet Days
   - Sevenfold Silence
+  - Auditors
 
 guidance:
   - "Information-theoretic salvation: lives precomputed by Oracles, encoded on black hole event horizons - you are RECORDED, therefore eternal"
