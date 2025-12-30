@@ -1,3 +1,30 @@
+---
+title: Imperial Media and Entertainment
+type: reference
+parent: null
+glossary_terms:
+  - Bureau of the Lens
+  - White Sheet
+  - Grey Sheet
+  - Institute of the Echo
+  - Penitent Church
+  - Highborn
+
+guidance:
+  - "Exhaustion as policy - Lens maintains formal authority but apparatus is exhausted, fines generate revenue, suppression creates martyrs"
+  - "Elaborate Lens condemnations function as ENDORSEMENTS - perfunctory notice = forgettable, three paragraphs of denunciation = exceptional"
+  - "Real limits: no mocking Emperor directly, no questioning Interdict's justice, no suggesting Empire has already ended - even exhausted censors will kill"
+  - "White Sheet is bland by design - sophisticated readers decode careful phrasings, conspicuous omissions, juxtaposition of 'unrelated' stories"
+  - "Grey Sheet: classified intelligence that DELIBERATELY leaks, IDI shapes what 'secret' knowledge circulates"
+  - "Same script produces radically different experiences - traditional vs reformist staging of The Last Dusk in Asovoë demonstrates interpretive divergence"
+  - "Feast of Reflection: annual Church observance that's closest thing to licensed misrule, Church standards differ from Bureau's"
+
+see_also:
+  - Bureau - Lens (Information).md
+  - Ya-Sattra District - Medina - Entertainment.md
+  - Religion - Penitent Church.md
+---
+
 # **Imperial Media and Entertainment**
 
 *A Setting Guide*

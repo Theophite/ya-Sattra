@@ -1,3 +1,28 @@
+---
+title: Food Culture by Polity
+type: reference
+parent: null
+glossary_terms:
+  - Manna
+  - Marru
+  - Oracle Cult
+  - Republic of Ganat
+  - Thousand Kingdoms
+
+guidance:
+  - "Imperial cuisine triad: MARRU (fermented wheat paste with honey vinegar and bread mold), FERMENTED GREENS (sour contrast), FRESH HERBS (brightness, used as dish component not garnish)"
+  - "Manna for the devout is most virtuous food - thin crisp scrolls, mushroomy-savory with pandan notes, eaten alone (ascetic) or softened in broth (contemplative)"
+  - "Ya-Sattran sophistication means knowing when to STOP - few elements, each distinct, clarity over abundance"
+  - "Labor castes need 4x baseline calories - fermented greens become digestive necessity, fat is calorie density, marru by the ladleful"
+  - "The communal pot never stops simmering - base is barley/lentil porridge, contributions earn meal portions, stew layers ingredients for different biologies"
+  - "Industrial vendors serve by CALORIC VALUE not dish name - order '4000' and receive whatever combination adds up"
+
+see_also:
+  - Religion - Oracle Cult.md
+  - Caste - Labor Castes.md
+  - Region - Republic of Ganat.md
+---
+
 # Food Culture by Polity
 
 ---

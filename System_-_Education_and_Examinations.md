@@ -1,3 +1,29 @@
+---
+title: Education and the Seven-Cornered Examination
+type: reference
+parent: null
+glossary_terms:
+  - Seven-Cornered Examination
+  - Bureau
+  - Aureate
+  - Penitent Church
+  - Capitation Tax
+
+guidance:
+  - "Empire maintains NO centralized educational system - urban education through Aureate patronage, provincial through Penitent Church"
+  - "Provincial students travel to ya-Sattra, sit for Examination, discover everything they learned was approximately correct but PRECISELY wrong, and fail"
+  - "Tutor-clerk tradition: Bureau clerks returning to provinces take on individual students, carry institutional knowledge back - creates GEOGRAPHIC CLUSTERING"
+  - "Each Bureau administers OWN variant testing same seven virtues differently - Rod emphasizes Insight/Endeavour, Scale weights Adjudication heavily, Lens tests Reflection for classification suitability"
+  - "Seven Corners: Dominion, Obligation, Adjudication, Insight, Endeavour, Reflection, Order"
+  - "Examination still tests ANACHRONISTIC material (interstellar protocols, fleet coordination) - creates artificial barriers, maintains fiction Interdict is temporary"
+  - "Candidates expressing heterodox views about Eighth Oracle, questioning caste, or suggesting Interdict might be permanent - FAIL regardless of analytical ability"
+
+see_also:
+  - Government - Satara and Bureaus.md
+  - Religion - Penitent Church.md
+  - System - Aureate Patents and Aristocracy.md
+---
+
 # **Education and the Seven-Cornered Examination**
 
 # **Executive Summary**

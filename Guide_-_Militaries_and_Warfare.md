@@ -1,3 +1,31 @@
+---
+title: Militaries and Warfare
+type: guide
+parent: null
+glossary_terms:
+  - Bureau of the Sword
+  - Warborn
+  - Colonels-Hereditary
+  - Compulsion
+  - Highborn
+  - Hanged Men
+  - Chain-Men
+  - Gendarmes
+
+guidance:
+  - "Contest was between equals (Aureate houses) with RULES both benefited from - weapons had limited capacity, strange targeting, authentication requirements"
+  - "War was downward force projection against inferiors - assumed system was valid and target was deviation, weapons designed against populations that devolved to gunpowder"
+  - "The Great Disagreement was NEITHER Contest nor War - both sides reached for capabilities (theorem-predators, consistency-dissolvers) where physical reality was downstream of mathematical"
+  - "Compulsion carries BILATERAL obligation - cannot command beyond capacity without damaging both commander and commanded"
+  - "Three Bureau cultures: Old Sword (Warborn supremacists, terror doctrine), New Sword (combined arms, 'wars won by logistics not giants'), Proprietary Force (Colonels-Hereditary, conquest for encomiendas)"
+  - "The Chain-Men don't have complex desires - want to keep taking what they want, cancer means forever is maybe five more years"
+
+see_also:
+  - Bureau - Sword (Military).md
+  - Caste - Warborn.md
+  - Organization - Hanged Men.md
+---
+
 # Military Conflict and Interpersonal Violence in the Post-Interdict Empire
 
 This document covers organized violence in the settingâ€”from imperial campaigns to street-level enforcement, from aristocratic Contest to criminal protection rackets.
