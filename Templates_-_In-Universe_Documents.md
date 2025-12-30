@@ -1,4 +1,27 @@
-# **Bureau of the Lens â€” Institute for Theological Education**
+---
+title: In-Universe Document Templates
+type: templates
+parent: null
+glossary_terms:
+  - Bureau of the Lens
+  - Highborn
+  - Compulsion
+  - Dominion
+
+guidance:
+  - "These are EXAMPLE documents showing in-universe writing styles - instructional materials, Bureau publications, etc."
+  - "Highborn instruction: children who discover Compulsion naturally 'almost always become monsters' - testing confirms others are hollow"
+  - "Teaching must happen BEFORE discovery - afterward is too late, evidence of obedience cannot be unlearned"
+  - "Case Archive 9801: warlord who discovered technique at age 9 commanded 250 people to kill themselves - not evil, simply didn't understand they were real"
+  - "In-universe tone: direct, clinical, emphasizes stakes clearly ('you will be killed' is a promise not a threat)"
+
+see_also:
+  - Caste - Highborn.md
+  - Guide - Writing Stories.md
+  - Bureau - Lens (Information).md
+---
+
+# **Bureau of the Lens — Institute for Theological Education**
 
 ## **On Sacred Command and Its Obligations**
 

@@ -1,3 +1,30 @@
+---
+title: Story Vignettes Collection
+type: examples
+parent: null
+glossary_terms:
+  - Interdict
+  - Bureau
+  - Aureate
+  - Technical Castes
+  - Highborn
+
+guidance:
+  - "~37 narrative pieces demonstrating tone, voice, and moral handling - NOT reference material for facts"
+  - "Recurring theme: MAINTAINED FICTIONS - characters sustain systems they know are broken, understand what they're doing"
+  - "Recurring theme: INHERITANCE AS BURDEN - plasma lances kill wielders, patents require procedures no one understands"
+  - "Recurring theme: GAP BETWEEN OFFICIAL AND ACTUAL - Empire claims sovereignty over all human space, controls three cities"
+  - "Recurring theme: BIOLOGY AS SOCIAL POSITION - class engineered into bodies, not merely economic/political"
+  - "Recurring theme: COMPETENCE UNDER CONSTRAINT - characters trapped not by stupidity but by systems"
+  - "Principle: START WITH WORK - most vignettes begin with someone doing their job, strangeness emerges through work"
+  - "The horror is that the system WORKS AS DESIGNED - modifications produce intended results"
+
+see_also:
+  - Guide - Writing Stories.md
+  - Guide - Writing Inner City.md
+  - Scenario - Lattice Translator.md
+---
+
 # **Vignettes Collection: A RAG Guide to Storytelling in the Post-Interdict Empire**
 
 ## **Executive Summary**
