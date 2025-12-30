@@ -1,3 +1,32 @@
+---
+title: Sewer-Fishers - Comprehensive Analysis
+type: reference
+parent: null
+glossary_terms:
+  - Sewer-Fishers
+  - Technical Castes
+  - Mutterers
+  - Penitent Church
+  - Bureau of the Creche
+  - Salvage Guild
+  - Pipefitters Union
+  - Hanged Men
+
+guidance:
+  - "Sewer-fishers are TECHNICAL CASTE DESCENDANTS - slip-joint articulation, cartilaginous bones, void-black eyes, 25-30cm passage capability"
+  - "Infant muttering (0-9 months) is neotenous Technical Caste trait - mathematical patterns through motor-vocal overflow before executive function develops"
+  - "50% infant mortality - fragile skull structure, failed transition from muttering, infants not named until muttering ceases"
+  - "Cognitive architecture processes math as IMMEDIATE SENSORY EXPERIENCE - feel when systems are unbalanced, perceive patterns without calculation"
+  - "NO FORMAL CASTE REGISTRATION - legally invisible, all transactions technically flow through Benru clan (the only registered clan)"
+  - "Clans specialize by niche: Loaks (vertical transport), Sarns (deep pumping), Venns (high-altitude), Chos (water), Haskets (heavy labor), Benrus (brokerage)"
+  - "Bureau of the Creche DESTROYED the genetic records that would confirm Technical ancestry - permanent surveillance without possible resolution"
+
+see_also:
+  - Caste - Sewer-Fishers - Overview.md
+  - Caste - Technical Castes - Overview.md
+  - Ya-Sattra District - Middens - Overview.md
+---
+
 # **Sewer-Fishers: A Comprehensive Analysis of Technical Caste Descendants in Imperial Society**
 
 ## **Biological Architecture**

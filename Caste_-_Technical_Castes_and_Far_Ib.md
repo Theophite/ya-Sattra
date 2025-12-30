@@ -1,3 +1,33 @@
+---
+title: Technical Castes and Far Ib
+type: reference
+parent: null
+glossary_terms:
+  - Technical Castes
+  - Far Ib
+  - Mutterers
+  - Archons
+  - Jargon
+  - Eighth Oracle
+  - Interdict
+  - Sewer-Fishers
+
+guidance:
+  - "Technical Castes existed along GRADIENT: Lower (recognizable, sewer-fisher ancestors), Middle (neural interfaces, mechanical biology), Upper/Archons (integrated into architecture, communicated via proofs)"
+  - "The Jargon was LANGUAGE OF PROOFS - every statement contained mathematical verification, impossibility of falsehood, invalid = meaningless"
+  - "Eighth Testament crisis: NOT refusal but COGNITIVE IMPOSSIBILITY - consciousness evolved to think in proofs could not form patterns for false theorem"
+  - "Mutterers are ARRESTED DEVELOPMENT - trapped in infant muttering phase permanently, 75% infant mortality, ~1500 individuals Empire-wide"
+  - "Far Ib: Technical Caste facility in Ib Mountains, ~75 Archons/middle-caste preserved and cloned, architecture built for beings that no longer exist"
+  - "Cloud Temple Band receives directives from dying Archons through quantum-entangled communication"
+  - "Modern Technical Caste remnants: the Kma-Dhol (Akama), Medials (Asovoë), Far Ib survivors"
+
+see_also:
+  - Caste - Technical Castes - Overview.md
+  - Caste - Sewer-Fishers - Overview.md
+  - Organization - Cloud Temple Band.md
+  - Region - Asovoë and the Avouvar.md
+---
+
 # **The Technical Castes and Far Ib**
 
 ### **Executive Summary**

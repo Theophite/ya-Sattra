@@ -1,3 +1,43 @@
+---
+title: Caste Type Specimens Catalog
+type: reference
+parent: null
+glossary_terms:
+  - Highborn
+  - Warborn
+  - Compulsion
+  - Ironback
+  - Redback
+  - Springheel
+  - Beamcrawler
+  - Ductworker
+  - Orevet
+  - Ashrat
+  - Karst
+  - Serrulata
+  - Völërath
+  - Szkovërin
+  - Draëthen
+  - Ranga
+  - Astal
+
+guidance:
+  - "Type specimens are ORDINARY PEOPLE - not heroes or villains, but individuals navigating the world they were engineered to inhabit"
+  - "Highborn three phenotypes: Elongated (8+ feet, fragile bones), Optimized (uncanny valley perfection), Integrated (born incomplete, require installation)"
+  - "Warborn lifespan ~40 years - cancer is inevitable, the Blink is real (one moment standing, next moment collapsed), Chain-Men are Warborn-labor crosses"
+  - "Labor castes: Ironback (joints stiffen with age), Redback (binary failure), Springheel (tendon tears at 45), Beamcrawler (light-blind), Ductworker (cannot stand upright)"
+  - "Compulsion theology: commanding beyond capacity DAMAGES both parties, improper use is worse than rape"
+  - "Völërath are DIMINISHED Highborn - cannot Compel but remember they once could, inbreeding produces spinal curvature/joint failure/hearing loss"
+  - "Each entry RESTATES essential biological facts so it can stand alone - cross-references are minimal"
+
+see_also:
+  - Caste - Highborn.md
+  - Caste - Warborn.md
+  - Caste - Labor Castes.md
+  - Caste - Colonist Castes.md
+  - Region - Puget Sound Refugee Castes.md
+---
+
 # **Castes of Mankind**
 
 # **Caste Type Specimens: A Catalog of Individuals**
