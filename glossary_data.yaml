@@ -2527,7 +2527,7 @@ entries:
       AVAILABILITY: Standard issue for Warborn cohorts; extremely rare in civilian hands. 
       A Colonel-Hereditary might inherit one as a status symbol. Authentication systems 
       prevent unauthorized use.
-    related: [Warborn, Furnaces, Culverin]
+    related: [Weapon, Warborn, Furnaces, Culverin]
   # ─── end Beamcaster ───
 
   # ═══ Black Door ═══
@@ -8246,7 +8246,7 @@ entries:
     related: [Inner City, Bureau of the Rod, Lineal Vaults, The Mint]
     location_features:
       level: neighborhood
-      location_type: industrial-administrative
+      location_type: industrial
       parent: Inner City
       temporal_effects: Mild distortion
       borders:
@@ -11890,7 +11890,7 @@ entries:
       Vurda Eleven-Sage Blade-Works (legendary master quality, months-long wait, heirloom 
       pieces), village smiths (adequate for most cavalry work).
     rag_pointer: "The Thousand Kingdoms: Overview, Guide - Military Conflict and Violence"
-    related: [Destrier, Akama, Thousand Kingdoms]
+    related: [Weapon, Destrier, Akama, Thousand Kingdoms, Warband]
   # ─── end Gouge ───
 
   # ═══ Dzoragh Ironhand ═══
@@ -13209,6 +13209,132 @@ entries:
     related: [Yarangar, Ranga, ya-Sattra]
   # ─── end bloodfruit ───
 
+  # ═══ Weapon ═══
+  Weapon:
+    category: concept
+    short: |
+      Tools of violence—from Antediluvian wunderwaffen to village-forged blades, each shaped by the context of its creation.
+    details: |
+      Weapons in the post-Interdict setting reflect the fractured inheritance of Antediluvian 
+      technology. Contest weapons carry behavioral constraints that made sense in eternal 
+      civilizations. War weapons assume orbital bombardment eliminated resistance first. Modern
+      production fills gaps with chemical propellants and forged steel.
+      
+      The Furnaces of ya-Don produce advanced technology: culverins, beamcasters, power armor.
+      The Armorer's Guild handles conventional production across sixteen different bore sizes.
+      Village smiths sustain infinite production of traditional weapons. Each source operates
+      under different constraints, creating equipment that rarely standardizes.
+      
+      Authentication remains a critical distinction. Culverins require monthly re-keying to
+      Aureate genetic markers. Contest weapons recognize principals and champions. Captured
+      equipment must be bypassed before use. The Republic's reverse-engineering aims to build
+      weapons that never had authentication in the first place.
+    rag_pointer: "Warfare: Core"
+    related: [Culverin, Beamcaster, Gouge, Contest, Armorers' Guild, Furnaces, Salvage Guild]
+  # ─── end Weapon ───
+
+  # ═══ Gendarmes ═══
+  Gendarmes:
+    category: organization
+    short: |
+      Bureau of the Sword police force—patrol Imperial cities, maintain complex accommodations with criminal organizations.
+    details: |
+      The Institute of Civil Order handles internal policing rather than military operations.
+      Gendarmes patrol in pairs, investigate reported crimes, and maintain complex 
+      accommodations with criminal organizations: territories where gendarmes don't patrol 
+      without reason, incidents not investigated thoroughly, understandings keeping violence 
+      within acceptable limits.
+      
+      They're not soldiers—actual military guards the Inner City—but they wear Sword uniforms 
+      and carry Bureau authority. Their relationship with the Hanged Men and other criminal 
+      organizations involves negotiated boundaries rather than constant enforcement.
+      
+      Twenty years patrolling teaches which laws to enforce and which to ignore. Arrest 
+      numbers may be mediocre while territory remains stable. That's the actual job.
+    rag_pointer: "Warfare: Imperial"
+    related: [Bureau of the Sword, Hanged Men, Chain-Men, Medina Quarter, ya-Sattra]
+  # ─── end Gendarmes ───
+
+  # ═══ Caste Levy ═══
+  Caste Levy:
+    category: concept
+    short: |
+      Imperial military units segregated by caste—contract soldiers filling gaps that Warborn cannot.
+    details: |
+      Formed after the Compact acknowledged that the Empire needs more than Warborn to 
+      function. Levy units are segregated by caste to manage biological and equipment 
+      diversity—an all-Ironback heavy infantry company has consistent supply needs, while 
+      mixed units create impossible logistics.
+      
+      Contract soldiers sign five-year terms. Pay is poor but steady; veterans' organizations 
+      provide reliable paths into guilds and merchant houses afterward. Officers assigned to 
+      caste levy units rank below Warborn commands but above auxiliaries and Colonel-Hereditary 
+      personal staffs in prestige hierarchy.
+      
+      Miscellaneous Levies are catchall units for castes too small for their own formations, 
+      crossbreeds whose genetics don't fit categories, and the unclassified. Their survival 
+      rates sometimes exceed regulation units because adaptation has replaced rigid doctrine.
+    rag_pointer: "Warfare: Imperial"
+    related: [Bureau of the Sword, Warborn, Compact, Ironback, Springheel]
+  # ─── end Caste Levy ───
+
+  # ═══ Republican Guard ═══
+  Republican Guard:
+    category: organization
+    short: |
+      Ganat's professional military—service guarantees citizenship regardless of property ownership.
+    details: |
+      The Republic's professional military, organized around mobile cavalry and light artillery. 
+      Service guarantees voting rights regardless of property ownership—a provision transforming 
+      Ganati social mobility. A propertyless Ranga immigrant can achieve full citizenship through 
+      military service.
+      
+      Guard officers dominate government positions despite Dawn Party rarely controlling 60% of 
+      the Senate. The revolution itself was military action led by Dawn-aligned officers. 
+      Institutional culture persists even when Dawn lacks Senate supermajorities.
+      
+      Organization emphasizes mobile cavalry for rapid deployment, light artillery for fire 
+      support, and dragoons carrying captured/reverse-engineered culverins to fight Warborn. 
+      Doctrine prevents the military from becoming an instrument of internal control—cavalry 
+      proves less useful for suppressing urban unrest.
+      
+      Twenty-year soldiers train recruits hard because training keeps them alive. They file 
+      paperwork precisely because paperwork is how institutions remember. Veterans vote Dawn 
+      not from conviction but from institutional trust.
+    rag_pointer: "Warfare: Ganat"
+    related: [Ganat, Dawn Party, Dusk Party, Serrulata, Kilit, Culverin]
+  # ─── end Republican Guard ───
+
+  # ═══ Contest ═══
+  Contest:
+    category: concept
+    short: |
+      Antediluvian category of violence between equals—ritualized, constrained, with rules both parties benefit from.
+    details: |
+      Contest was what you waged against equals—other Aureate houses, rival lineages, enemies 
+      who remained peers within the eternal order regardless of enmity. Contest had rules 
+      because both parties benefited from rules existing. Contest had limits because unlimited 
+      Contest would be indistinguishable from War.
+      
+      When your civilization is eternal, when your house will exist forever, total victory is 
+      meaningless and total destruction is catastrophic. You cannot eliminate House X because 
+      House X will still exist in ten thousand years regardless of what you do today. Better to 
+      wound them, weaken them, take from them what the Contest's terms permit.
+      
+      The wunderwaffen held by modern Colonels-Hereditary were Contest weapons. Their peculiar 
+      limitations reflect constraints combining elements we would distribute across war, law, 
+      sport, art, and ritual:
+      - Limited capacity (maybe three shots before failure)
+      - Strange targeting (priorities that don't map to modern tactical logic)
+      - Authentication (weapons knew who was permitted to wield them)
+      - Termination conditions (weapons recognized victory or defeat)
+      
+      The Avouvar feuds preserve Contest logic most clearly—violence channeled into forms both 
+      houses recognize, constrained by Chancery precedent.
+    rag_pointer: "Warfare: Core"
+    related: [Weapon, Antediluvians, Chancery, Colonels-Hereditary, Asovoë]
+  # ─── end Contest ───
+
   # ═══ Armorers' Guild ═══
   Armorers' Guild:
     category: organization
@@ -14511,7 +14637,7 @@ entries:
       AVOUVAR USE: Original Warborn railguns (60kg, massive recoil) mounted on fixed 
       emplacements, crewed by teams of three. Both feuding houses trade fire across the 
       disputed corridor with these weapons.
-    related: [Furnaces, Warborn, Beamcaster, Taho Metalworkers' Collective]
+    related: [Weapon, Furnaces, Warborn, Beamcaster, Taho Metalworkers' Collective, Aureate, Ganat]
   # ─── end Culverin ───
 
   # ═══ Homiletic Names ═══
