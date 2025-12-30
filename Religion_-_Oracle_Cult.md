@@ -5,8 +5,8 @@ parent: Ya-Sattra Religions
 glossary_terms:
   - Oracle Cult
   - Oracles
-  - Testament
-  - Eighth Oracle
+  - Testaments
+  - Eighth Testament
   - Interdict
   - Kalbats
   - Technical Castes

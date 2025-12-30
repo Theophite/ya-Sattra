@@ -19,7 +19,7 @@ glossary_terms:
   - Technical Castes
   - Jargon
   - Mutterers
-  - Eighth Oracle
+  - Eighth Testament
 
 guidance:
   - "The Lens assembles ACTUAL TRUTH while maintaining PUBLIC FICTION - three parallel realities (public/classified/Black Sheet)"

@@ -7,8 +7,9 @@ glossary_terms:
   - Far Ib
   - Mutterers
   - Archons
+  - Medial Castes
   - Jargon
-  - Eighth Oracle
+  - Eighth Testament
   - Interdict
   - Sewer-Fishers
 
