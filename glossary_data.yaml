@@ -10363,6 +10363,99 @@ entries:
     related: [Satara, Bureau of the Scale, City-of-Glass Charter]
   # ─── end Bureau of the Creche ───
 
+  # ═══ Institute of Lineal Certification ═══
+  Institute of Lineal Certification:
+    category: organization
+    short: "Creche subdivision handling cloneline registration and kinship authentication—now primarily used for disinheritance."
+    details: |
+      Once the terrifying arbiter of who could legally reproduce, it now functions
+      primarily as a registry. Frequently mocked as the "Office of Disinheritance"
+      because people use it to prove they are NOT subject to a registered cloneline.
+      Handles heritable medical conditions and kinship authentication.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Creche, Cloneline]
+  # ─── end Institute of Lineal Certification ───
+
+  # ═══ Institute of Reproductive Sanction ═══
+  Institute of Reproductive Sanction:
+    category: organization
+    short: "Creche subdivision managing public birthing centers and prenatal gene therapy—powerful in compliant territories only."
+    details: |
+      Manages public birthing centers, prenatal gene therapy, and postnatal
+      developmental monitoring. Remains powerful in compliant territories like
+      the Third Whorl. Ya-Don's Penitent-aligned unions ignore its mandates
+      entirely, and outer provinces treat its inspectors as suggestions at best.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Creche, ya-Don, Penitent Church]
+  # ─── end Institute of Reproductive Sanction ───
+
+  # ═══ Institute of Genomic Licensing ═══
+  Institute of Genomic Licensing:
+    category: organization
+    short: "Creche subdivision issuing genetic product licenses—one of the last truly potent Creche Institutes."
+    details: |
+      Issues and enforces licenses for medical and agricultural genetic products:
+      crop genomes, serum templates, clone-compatible stabilizers, and biological
+      security features like infertility locks. Adjudicates disputes between
+      Aureate families over overlapping genome patents. Holds most of the
+      Bureau's remaining influence.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Creche, Aureate, Patents]
+  # ─── end Institute of Genomic Licensing ───
+
+  # ═══ Institute of Nutritional Design ═══
+  Institute of Nutritional Design:
+    category: organization
+    short: "Creche subdivision producing bulk food cultures—quietly indispensable in provinces with collapsed soil fertility."
+    details: |
+      Produces bulk food cultures, synthetic starches, and industrial yeast.
+      Controls edible biomatter patents across outer provinces where soil
+      fertility has collapsed. Unpopular but necessary—quietly indispensable.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Creche]
+  # ─── end Institute of Nutritional Design ───
+
+  # ═══ Institute of Developmental Safety ═══
+  Institute of Developmental Safety:
+    category: organization
+    short: "Creche subdivision overseeing clone crèche safety—symbolically feared but often bypassed."
+    details: |
+      Formerly the Institute of Maternal Fidelity. Oversees clone crèche safety
+      protocols, pediatric care standards, and mutation-response guidelines.
+      Symbolically feared but often bypassed by guilds and outer polities.
+      Inspectors develop back channels to achieve results when official
+      reports are ignored.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Creche, Cloneline]
+  # ─── end Institute of Developmental Safety ───
+
+  # ═══ Institute of Cognitive Integrity ═══
+  Institute of Cognitive Integrity:
+    category: organization
+    short: "Creche subdivision offering psychological support and clone dispute adjudication—understaffed and frequently ignored."
+    details: |
+      Formerly the Institute of Clone Ethics and Stability. Offers psychological
+      support for overstressed crèche personnel, evaluates clone line "decay risk,"
+      and provides low-level adjudication of clone disputes. Understaffed and
+      frequently ignored by clone blocs who police their own.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Creche, Cloneline]
+  # ─── end Institute of Cognitive Integrity ───
+
+  # ═══ Institute of Highborn Preservation ═══
+  Institute of Highborn Preservation:
+    category: organization
+    short: "Creche subdivision serving Aureate families—rejuvenation, fertility treatments, and genetic management."
+    details: |
+      Serves Aureate families with rejuvenation and fertility treatments,
+      heir-sequence backups, and the genetic management that keeps modified
+      bloodlines viable. The most exclusive Institute, serving only authenticated
+      Aureate clients. Some staff have remained biologically stable for over
+      a century through the treatments they administer.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Creche, Aureate, Highborn]
+  # ─── end Institute of Highborn Preservation ───
+
   # ═══ Bureau of the Scale ═══
   Bureau of the Scale:
     category: organization
@@ -10391,6 +10484,89 @@ entries:
     related: [Satara, Mutterers, Companions Guild]
   # ─── end Bureau of the Rod ───
 
+  # ═══ Institute of Luminescence ═══
+  Institute of Luminescence:
+    category: organization
+    short: "Rod subdivision managing energy grid distribution—the Bureau's most critical function."
+    details: |
+      Manages energy grid distribution and electrical regulation across Imperial
+      holdings, including clandestine reverse-engineering of recovered power sources.
+      The innocuous name conceals the Bureau's most critical function: keeping the
+      lights on. Reactor patents often inherited by families who don't fully
+      understand the technology they control.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Rod]
+  # ─── end Institute of Luminescence ───
+
+  # ═══ Institute of Flow ═══
+  Institute of Flow:
+    category: organization
+    short: "Rod subdivision overseeing water systems and the undercity infrastructure."
+    details: |
+      Oversees water systems and the undercity—the vast infrastructure beneath
+      Imperial cities that most citizens never see. Controls ancient fluidic
+      cooling and heat-transfer systems crucial for computational and industrial
+      operations, including the volatile Furnaces of ya-Don.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Rod, Furnaces, ya-Don]
+  # ─── end Institute of Flow ───
+
+  # ═══ Institute for Nonstandard Environments ═══
+  Institute for Nonstandard Environments:
+    category: organization
+    short: "Rod subdivision managing territories that don't fit normal Imperial categories—diplomacy in all but name."
+    details: |
+      The Rod's diplomatic corps, managing relationships with territories and
+      populations that don't fit normal Imperial categories. Envoys negotiate
+      with governments that officially don't exist, over trade agreements that
+      will never be authenticated, in languages Imperial grammar cannot acknowledge.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Rod, Ganat, Thousand Kingdoms]
+  # ─── end Institute for Nonstandard Environments ───
+
+  # ═══ Institute of Permission ═══
+  Institute of Permission:
+    category: organization
+    short: "Rod subdivision handling unallocated patents and Salvage Guild finds—gatekeepers of new technology."
+    details: |
+      Handles patents that have not been allocated and the paperwork for Salvage
+      Guild finds. When something new emerges from the ruins—an archaeotech device,
+      a forgotten capability, a recovered technique—it passes through Permission
+      before anyone can legally use it. Every decision creates winners and losers
+      among Aureate families competing for unallocated archaeotech.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Rod, Salvage Guild, Patents]
+  # ─── end Institute of Permission ───
+
+  # ═══ Institute for Technical Determinations ═══
+  Institute for Technical Determinations:
+    category: organization
+    short: "Rod subdivision adjudicating patent boundaries—decisions are political, theological, and occasionally violent."
+    details: |
+      Adjudicates the bounds of existing patents. When two families dispute whether
+      a new device falls under their competing claims, Technical Determinations rules.
+      The decisions are supposedly technical; in practice, they're political,
+      theological, and occasionally violent. Arbiters have survived assassination
+      attempts and work from undisclosed locations.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Rod, Patents, Aureate]
+  # ─── end Institute for Technical Determinations ───
+
+  # ═══ Institute of Tension ═══
+  Institute of Tension:
+    category: organization
+    short: "Rod subdivision monitoring structural integrity—Beamcrawler surveyors preventing infrastructure collapse."
+    details: |
+      Monitors structural integrity across Imperial infrastructure—the hidden
+      frameworks beneath elevated roads, the support structures of sky-bridges
+      and towers. Employs Beamcrawlers whose modified limbs allow them to assess
+      structures inaccessible to baseline humans. Reports are meticulous,
+      recommendations expensive, accuracy inconvenient for families who would
+      prefer not to pay for repairs.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Rod, Beamcrawler]
+  # ─── end Institute of Tension ───
+
   # ═══ Bureau of the Sword ═══
   Bureau of the Sword:
     category: organization
@@ -10405,6 +10581,105 @@ entries:
     related: [Satara, Warborn, Bureau of the Creche]
   # ─── end Bureau of the Sword ───
 
+  # ═══ Institute for Strategic Planning ═══
+  Institute for Strategic Planning:
+    category: organization
+    short: "Sword subdivision managing campaign design—officially writes obsolete manuals, unofficially maintains practical guides."
+    details: |
+      Manages campaign design and operational doctrine. Officially writes manuals
+      for capabilities the Empire lost millennia ago. Unofficially maintains
+      parallel practical guides—distributed through back channels to officers
+      who need them. Describes how to coordinate caste levy units with Warborn
+      shock troops, maintain supply lines, retreat without it looking like retreat.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Sword, Warborn]
+  # ─── end Institute for Strategic Planning ───
+
+  # ═══ Institute for the Study of Tactics ═══
+  Institute for the Study of Tactics:
+    category: organization
+    short: "Sword subdivision with identical responsibilities to Strategic Planning—seventy-year turf war ongoing."
+    details: |
+      Has responsibilities absolutely identical to Strategic Planning. The two
+      Institutes have been engaged in a seventy-year turf war over who handles
+      "operational planning" versus "battlefield planning." Junior officers learn
+      to submit all plans to both, using different fonts to make them seem like
+      different documents. The rivalry is absurd but productive—competition
+      drives both Institutes to think about what actually works.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Sword, Institute for Strategic Planning]
+  # ─── end Institute for the Study of Tactics ───
+
+  # ═══ Institute for Restricted Castes ═══
+  Institute for Restricted Castes:
+    category: organization
+    short: "Sword subdivision managing military caste biology—perpetual jurisdiction dispute with Creche."
+    details: |
+      Manages the biological needs of military populations—Warborn amino acid
+      supplies, Kēt supplement distribution, Ironbone calcium supplementation.
+      Fights perpetually with the Creche over who controls military biology,
+      usually losing but maintaining authority through sheer bureaucratic persistence.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Sword, Bureau of the Creche, Warborn, Ironbone]
+  # ─── end Institute for Restricted Castes ───
+
+  # ═══ Institute for Standardization ═══
+  Institute for Standardization:
+    category: organization
+    short: "Sword subdivision that once standardized Imperial units—now oversees chaos of incompatible caste formations."
+    details: |
+      Once proudly standardized Imperial units. Now oversees a chaos of
+      caste-specific formations with incompatible equipment. Its manuals still
+      describe idealized mixed units that have never actually existed. Staff
+      become expert at finding standards that can apply—cross-referencing
+      obsolete categories, citing ancient precedents.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Sword]
+  # ─── end Institute for Standardization ───
+
+  # ═══ Institute for Ordnance ═══
+  Institute for Ordnance:
+    category: organization
+    short: "Sword subdivision for weapons procurement—formal channels are archaeological curiosities, real work happens through corruption."
+    details: |
+      A bureaucratic nightmare where official channels exist primarily as
+      archaeological curiosities. Every weapon request routes through systems
+      referencing weapon types that haven't existed for centuries. The real
+      work happens through bribery, theft, and creative accounting. Imperial
+      forces remain armed despite complete inability to actually procure arms
+      through proper channels.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Sword, Colonels-Hereditary]
+  # ─── end Institute for Ordnance ───
+
+  # ═══ Institute for Civil Order ═══
+  Institute for Civil Order:
+    category: organization
+    short: "Sword subdivision managing gendarmes—near-baseline infantry doing police work in urban territories."
+    details: |
+      The gendarme branch, managing garrison duty, urban pacification, and
+      enforcement of Imperial law. Soldiers are not Warborn—they're near-baseline
+      infantry doing police work. Commanders know every gang leader in their
+      territory by name. The arrangements work through mutual understanding
+      rather than overwhelming force.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Sword, Near-Baseline]
+  # ─── end Institute for Civil Order ───
+
+  # ═══ Institute of Auxiliary Relations ═══
+  Institute of Auxiliary Relations:
+    category: organization
+    short: "Sword subdivision managing non-Imperial forces—half military administration, half diplomatic corps."
+    details: |
+      Manages relationships with forces that aren't technically Imperial but
+      fight under Imperial banners—half military administration, half diplomatic
+      corps. Liaison staff speak languages the Empire officially denies exist,
+      negotiate prisoner exchanges with the Thousand Kingdoms, and arrange
+      supply agreements with Republic-adjacent smugglers.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Sword, Thousand Kingdoms, Ganat]
+  # ─── end Institute of Auxiliary Relations ───
+
   # ═══ Bureau of the Coin ═══
   Bureau of the Coin:
     category: organization
@@ -10418,6 +10693,34 @@ entries:
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Satara, Aureate, obol]
   # ─── end Bureau of the Coin ───
+
+  # ═══ Institute for Fiscal Propriety ═══
+  Institute for Fiscal Propriety:
+    category: organization
+    short: "Coin subdivision for auditing—a weapon Aureates aim at each other rather than genuine oversight."
+    details: |
+      The Bureau's auditor. In theory, exists to ensure proper accounting and
+      prevent corruption. In practice, functions as a weapon the Aureates aim
+      at each other. When one family wants to hurt a rival, they find procedural
+      violations (which exist everywhere) and point the auditors at them.
+      Inspectors build files on their own patrons out of professional habit.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Coin, Aureate]
+  # ─── end Institute for Fiscal Propriety ───
+
+  # ═══ Institute for Expenditure ═══
+  Institute for Expenditure:
+    category: organization
+    short: "Coin subdivision disbursing budgets—the one part of Coin that actually functions as intended."
+    details: |
+      Disburses budgets to the other Bureaux. Independent because it interfaces
+      with everyone else—if one Aureate family controlled disbursement, they
+      could hold every other Bureau hostage. Career bureaucrats process budget
+      allocations according to established formulas. Boring, essential, and
+      carefully insulated from Aureate capture.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Coin, Satara]
+  # ─── end Institute for Expenditure ───
 
   # ═══ City-of-Glass Charter ═══
   City-of-Glass Charter:
