@@ -9,8 +9,8 @@ glossary_terms:
   - Archons
   - Mutterers
   - Yarangar
-  - Republic of Ganat
-  - Companion Guild
+  - Ganat
+  - Companions Guild
 
 guidance:
   - "Military-political organization from Technical Caste facility in Ib Mountains - ~2000 affiliated fighters, 40-50 permanent garrison"

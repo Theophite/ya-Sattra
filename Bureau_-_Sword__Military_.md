@@ -5,11 +5,11 @@ parent: Government - Satara and Bureaus
 glossary_terms:
   - Bureau of the Sword
   - Warborn
-  - Ironback
+  - Ironbone
   - Redback
   - Springheel
   - Colonels-Hereditary
-  - Companion Guild
+  - Companions Guild
   - Mutterers
   - Highborn
   - Charter

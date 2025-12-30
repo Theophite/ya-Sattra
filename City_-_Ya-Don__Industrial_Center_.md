@@ -10,7 +10,7 @@ glossary_terms:
   - Covenant of Saint Aureline
   - Penitent Church
   - Mutterers
-  - Companion Guild
+  - Companions Guild
   - Bureau of the Rod
   - Ashrat
   - Karst

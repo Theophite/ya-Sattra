@@ -6,7 +6,7 @@ glossary_terms:
   - Highborn
   - Warborn
   - Compulsion
-  - Ironback
+  - Ironbone
   - Redback
   - Springheel
   - Beamcrawler
