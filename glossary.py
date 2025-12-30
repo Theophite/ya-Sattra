@@ -117,7 +117,7 @@ import sys
 import yaml
 from pathlib import Path
 from dataclasses import dataclass, field
-from typing import Optional, List, Dict, Any
+from typing import Optional, List, Dict, Any, Set
 from difflib import get_close_matches
 from enum import Enum
 
@@ -253,6 +253,7 @@ class LocationFeatures:
     notable_features: List[str] = field(default_factory=list)
     
     borders: Dict[str, List[str]] = field(default_factory=dict)
+    transit: List[Dict[str, str]] = field(default_factory=list)
     real_world_anchor: str = ""
 
 
@@ -282,6 +283,7 @@ class GlossaryEntry:
     location_features: Optional[LocationFeatures] = None
     aesthetic_features: Optional[AestheticFeatures] = None
     local_aesthetic: str = ""
+    person_location: str = ""  # For category=person: where they're based
 
 
 # =============================================================================
@@ -336,6 +338,7 @@ def load_location_features(data: dict) -> LocationFeatures:
         hazards=data.get('hazards', []),
         notable_features=data.get('notable_features', []),
         borders=data.get('borders', {}),
+        transit=data.get('transit', []),
         real_world_anchor=data.get('real_world_anchor', '')
     )
 
@@ -380,7 +383,8 @@ def load_entry(term: str, data: dict) -> GlossaryEntry:
         caste_features=caste_features,
         location_features=location_features,
         aesthetic_features=aesthetic_features,
-        local_aesthetic=data.get('local_aesthetic', '')
+        local_aesthetic=data.get('local_aesthetic', ''),
+        person_location=data.get('person_location', '')
     )
 
 
@@ -763,7 +767,11 @@ def _find_potential_terms(text: str, found: Dict) -> List[str]:
 
 
 def format_scan_report(result: Dict[str, Any], verbose: bool = False) -> str:
-    """Format scan results as a readable report."""
+    """Format scan results as a readable report.
+    
+    Always shows full definitions for locations (to catch geographic errors).
+    In verbose mode, shows definitions for all categories.
+    """
     lines = []
     lines.append("=" * 70)
     lines.append("  GLOSSARY TERM SCAN REPORT")
@@ -784,27 +792,43 @@ def format_scan_report(result: Dict[str, Any], verbose: bool = False) -> str:
         lines.append(f"  {cat:20} {count:4} terms")
     lines.append("")
     
-    # Detailed listing by category
-    if verbose:
-        for cat in ["caste", "location", "organization", "concept"]:
-            if cat not in result["by_category"]:
-                continue
-            terms = result["by_category"][cat]
+    # LOCATIONS - always show full definitions (critical for geographic accuracy)
+    if "location" in result["by_category"]:
+        terms = result["by_category"]["location"]
+        lines.append(f"\n  LOCATIONS ({len(terms)}) — full definitions for geographic accuracy")
+        lines.append(f"  {'─' * 60}")
+        for term in terms:
+            data = result["found"][term]
+            entry = data["entry"]
+            count = data["count"]
+            lines.append(f"\n  • {term} ({count}x)")
+            lines.append(f"    {entry.short}")
+            # Show real-world anchor if available
+            if entry.location_features and entry.location_features.real_world_anchor:
+                lines.append(f"    📍 Real world: {entry.location_features.real_world_anchor}")
+            # Show borders if available (critical for travel/route planning)
+            if entry.location_features and entry.location_features.borders:
+                borders = entry.location_features.borders
+                border_str = ", ".join(f"{d}: {', '.join(locs)}" for d, locs in borders.items())
+                lines.append(f"    Ã°Å¸Â§Â­ Borders: {border_str}")
+    
+    # Other categories - compact or verbose
+    for cat in ["caste", "organization", "concept"]:
+        if cat not in result["by_category"]:
+            continue
+        terms = result["by_category"][cat]
+        
+        if verbose:
             lines.append(f"\n  {cat.upper()} ({len(terms)})")
             lines.append(f"  {'─' * 40}")
             for term in terms:
                 data = result["found"][term]
+                entry = data["entry"]
                 count = data["count"]
-                lines.append(f"  • {term} ({count}x)")
-                if data["contexts"]:
-                    lines.append(f"      â""─ \"{data['contexts'][0]}\"")
-    else:
-        # Compact listing
-        for cat in ["caste", "location", "organization", "concept"]:
-            if cat not in result["by_category"]:
-                continue
-            terms = result["by_category"][cat]
-            lines.append(f"  {cat.upper()}: {', '.join(terms[:10])}")
+                lines.append(f"  • {term} ({count}x): {entry.short[:70]}...")
+        else:
+            # Compact listing for non-location categories
+            lines.append(f"\n  {cat.upper()}: {', '.join(terms[:10])}")
             if len(terms) > 10:
                 lines.append(f"      ... and {len(terms) - 10} more")
     
@@ -949,6 +973,558 @@ def location_tree(name: str, depth: int = 2) -> Dict[str, Any]:
     return result
 
 
+def persons_at_location(location_name: str) -> List[GlossaryEntry]:
+    """Find all persons directly at a location (exact match)."""
+    location_lower = location_name.lower()
+    results = []
+    for entry in ENTRIES.values():
+        if entry.category == "person" and entry.person_location:
+            if entry.person_location.lower() == location_lower:
+                results.append(entry)
+    return results
+
+
+def _get_all_children(location_name: str, visited: set = None) -> List[str]:
+    """Recursively get all children locations."""
+    if visited is None:
+        visited = set()
+    
+    if location_name.lower() in visited:
+        return []
+    visited.add(location_name.lower())
+    
+    entry = location_lookup(location_name)
+    if not entry or not entry.location_features:
+        return []
+    
+    children = []
+    for child_name in entry.location_features.children:
+        children.append(child_name)
+        children.extend(_get_all_children(child_name, visited))
+    
+    return children
+
+
+def persons_in_location_tree(location_name: str) -> Dict[str, List[GlossaryEntry]]:
+    """Find all persons at a location and all its children.
+    
+    Returns dict mapping location names to lists of persons there.
+    """
+    results = {}
+    
+    # First, get persons at the main location
+    direct = persons_at_location(location_name)
+    if direct:
+        results[location_name] = direct
+    
+    # Then get all children and their persons
+    children = _get_all_children(location_name)
+    for child_name in children:
+        child_persons = persons_at_location(child_name)
+        if child_persons:
+            results[child_name] = child_persons
+    
+    return results
+
+
+# =============================================================================
+# LOCATION GRAPH PATH FINDING
+# =============================================================================
+
+def build_location_graph() -> Dict[str, Set[str]]:
+    """Build adjacency graph from location relationships.
+    
+    Edges are created from:
+    - Parent-child relationships (bidirectional)
+    - Border relationships (extract all location names)
+    
+    Returns dict mapping location names to sets of connected locations.
+    """
+    graph: Dict[str, Set[str]] = {}
+    glossary = load_glossary()
+    
+    # Get all locations
+    locations = {name: entry for name, entry in glossary.items() 
+                 if entry.category == 'location'}
+    
+    # Create case-insensitive lookup
+    name_map = {name.lower(): name for name in locations.keys()}
+    
+    def resolve_name(ref: str) -> Optional[str]:
+        """Resolve a reference to an actual location name (case-insensitive)."""
+        if not ref:
+            return None
+        return name_map.get(ref.lower())
+    
+    # Initialize all nodes
+    for name in locations:
+        graph[name] = set()
+    
+    for name, entry in locations.items():
+        lf = entry.location_features
+        if not lf:
+            continue
+        
+        # Parent-child edges (bidirectional)
+        parent_key = resolve_name(lf.parent)
+        if parent_key:
+            graph[name].add(parent_key)
+            graph[parent_key].add(name)
+        
+        for child in lf.children:
+            child_key = resolve_name(child)
+            if child_key:
+                graph[name].add(child_key)
+                graph[child_key].add(name)
+        
+        # Border edges (extract location names from all directions)
+        for direction, border_locs in lf.borders.items():
+            if isinstance(border_locs, list):
+                for loc in border_locs:
+                    loc_key = resolve_name(loc)
+                    if loc_key:
+                        graph[name].add(loc_key)
+                        graph[loc_key].add(name)
+            elif isinstance(border_locs, str):
+                loc_key = resolve_name(border_locs)
+                if loc_key:
+                    graph[name].add(loc_key)
+                    graph[loc_key].add(name)
+    
+    return graph
+
+
+def find_path(start: str, end: str, graph: Dict[str, Set[str]] = None) -> Optional[List[str]]:
+    """Find shortest path between two locations using BFS.
+    
+    Args:
+        start: Starting location name
+        end: Destination location name
+        graph: Optional pre-built graph (builds one if not provided)
+    
+    Returns:
+        List of location names forming the path, or None if no path exists.
+    """
+    if graph is None:
+        graph = build_location_graph()
+    
+    # Normalize names (case-insensitive matching)
+    name_map = {n.lower(): n for n in graph.keys()}
+    start_key = name_map.get(start.lower())
+    end_key = name_map.get(end.lower())
+    
+    if not start_key:
+        return None  # Start not found
+    if not end_key:
+        return None  # End not found
+    if start_key == end_key:
+        return [start_key]
+    
+    # BFS
+    from collections import deque
+    queue = deque([(start_key, [start_key])])
+    visited = {start_key}
+    
+    while queue:
+        current, path = queue.popleft()
+        
+        for neighbor in graph.get(current, set()):
+            if neighbor == end_key:
+                return path + [neighbor]
+            
+            if neighbor not in visited:
+                visited.add(neighbor)
+                queue.append((neighbor, path + [neighbor]))
+    
+    return None  # No path found
+
+
+def format_path(path: List[str], verbose: bool = False) -> str:
+    """Format a path for display.
+    
+    Args:
+        path: List of location names
+        verbose: If True, show relationship type between nodes
+    """
+    if not path:
+        return "No path found."
+    
+    if len(path) == 1:
+        return f"Already at {path[0]}."
+    
+    lines = [f"\n{'─' * 50}"]
+    lines.append(f"  PATH: {path[0]} → {path[-1]}")
+    lines.append(f"  Steps: {len(path) - 1}")
+    lines.append(f"{'─' * 50}\n")
+    
+    glossary = load_glossary() if verbose else {}
+    
+    for i, loc in enumerate(path):
+        if i == 0:
+            prefix = "START"
+        elif i == len(path) - 1:
+            prefix = "  END"
+        else:
+            prefix = f"   {i:2d}"
+        
+        lines.append(f"  {prefix} → {loc}")
+        
+        if verbose and i < len(path) - 1:
+            # Determine relationship to next location
+            next_loc = path[i + 1]
+            entry = glossary.get(loc)
+            
+            rel = "connected"
+            if entry and entry.location_features:
+                lf = entry.location_features
+                # Case-insensitive comparisons
+                if lf.parent and lf.parent.lower() == next_loc.lower():
+                    rel = "â†‘ parent"
+                elif any(c.lower() == next_loc.lower() for c in lf.children):
+                    rel = "â†“ child"
+                else:
+                    # Check borders
+                    for direction, locs in lf.borders.items():
+                        if isinstance(locs, list):
+                            if any(l.lower() == next_loc.lower() for l in locs):
+                                rel = f"→ {direction}"
+                                break
+                        elif isinstance(locs, str) and locs.lower() == next_loc.lower():
+                            rel = f"→ {direction}"
+                            break
+                            break
+            
+            lines.append(f"         ({rel})")
+    
+    lines.append(f"\n{'─' * 50}")
+    return "\n".join(lines)
+
+
+def graph_stats() -> Dict[str, any]:
+    """Get statistics about the location graph."""
+    graph = build_location_graph()
+    
+    # Count nodes and edges
+    nodes = len(graph)
+    edges = sum(len(neighbors) for neighbors in graph.values()) // 2
+    
+    # Find isolated nodes (no connections)
+    isolated = [name for name, neighbors in graph.items() if len(neighbors) == 0]
+    
+    # Find most connected nodes
+    by_connections = sorted(graph.items(), key=lambda x: len(x[1]), reverse=True)
+    hubs = [(name, len(neighbors)) for name, neighbors in by_connections[:10]]
+    
+    # Find graph components using BFS
+    visited = set()
+    components = []
+    
+    for start in graph:
+        if start in visited:
+            continue
+        
+        # BFS to find component
+        component = set()
+        queue = [start]
+        while queue:
+            node = queue.pop()
+            if node in visited:
+                continue
+            visited.add(node)
+            component.add(node)
+            queue.extend(graph[node] - visited)
+        
+        components.append(component)
+    
+    return {
+        "nodes": nodes,
+        "edges": edges,
+        "isolated": isolated,
+        "hubs": hubs,
+        "components": len(components),
+        "largest_component": max(len(c) for c in components) if components else 0,
+    }
+
+
+# =============================================================================
+# ENTRY INSERTION
+# =============================================================================
+
+def format_yaml_entry(name: str, data: Dict) -> str:
+    """Format a glossary entry as YAML with markers."""
+    import yaml
+    
+    lines = [f"  # ═══ {name} ═══"]
+    lines.append(f"  {name}:")
+    
+    # Format each field with proper indentation
+    for key, value in data.items():
+        if isinstance(value, str):
+            if '\n' in value or len(value) > 60:
+                # Multi-line string
+                lines.append(f"    {key}: |")
+                for line in value.strip().split('\n'):
+                    lines.append(f"      {line}")
+            else:
+                # Check if needs quoting
+                if ':' in value or value.startswith('"') or value.startswith("'"):
+                    lines.append(f'    {key}: "{value}"')
+                else:
+                    lines.append(f"    {key}: {value}")
+        elif isinstance(value, list):
+            if all(isinstance(x, str) and len(x) < 40 for x in value):
+                # Inline list
+                lines.append(f"    {key}: [{', '.join(value)}]")
+            else:
+                # Block list
+                lines.append(f"    {key}:")
+                for item in value:
+                    lines.append(f"      - {item}")
+        elif isinstance(value, dict):
+            lines.append(f"    {key}:")
+            for k, v in value.items():
+                if isinstance(v, list):
+                    lines.append(f"      {k}:")
+                    for item in v:
+                        lines.append(f"        - {item}")
+                elif isinstance(v, dict):
+                    lines.append(f"      {k}:")
+                    for k2, v2 in v.items():
+                        if isinstance(v2, list):
+                            lines.append(f"        {k2}: [{', '.join(str(x) for x in v2)}]")
+                        else:
+                            lines.append(f"        {k2}: {v2}")
+                else:
+                    lines.append(f"      {k}: {v}")
+        else:
+            lines.append(f"    {key}: {value}")
+    
+    lines.append(f"  # ─── end {name} ───")
+    return '\n'.join(lines)
+
+
+def insert_entry(name: str, data: Dict, after: str = None) -> bool:
+    """Insert a new entry into the glossary YAML file.
+    
+    Args:
+        name: Name of the new entry
+        data: Dict containing entry fields (category, short, details, etc.)
+        after: Insert after this entry name. If None, appends before final entries.
+    
+    Returns:
+        True if successful, False otherwise.
+    """
+    yaml_path = Path(__file__).parent / "glossary_data.yaml"
+    
+    with open(yaml_path, 'r') as f:
+        content = f.read()
+    
+    # Check if entry already exists
+    if f"  {name}:" in content:
+        print(f"Entry '{name}' already exists")
+        return False
+    
+    # Format the new entry
+    new_entry = format_yaml_entry(name, data)
+    
+    if after:
+        # Find the end marker of the 'after' entry
+        marker = f"  # ─── end {after} ───"
+        if marker not in content:
+            # Try case-insensitive search
+            for line in content.split('\n'):
+                if '# ─── end' in line and after.lower() in line.lower():
+                    marker = line.strip()
+                    break
+            else:
+                print(f"Could not find entry '{after}'")
+                return False
+        
+        # Insert after the marker
+        content = content.replace(marker, f"{marker}\n\n{new_entry}")
+    else:
+        # Insert before a default marker (Armorers' Guild or end of entries)
+        default_markers = [
+            "  # ═══ Armorers' Guild ═══",
+            "  # End of entries"
+        ]
+        inserted = False
+        for marker in default_markers:
+            if marker in content:
+                content = content.replace(marker, f"{new_entry}\n\n{marker}")
+                inserted = True
+                break
+        
+        if not inserted:
+            # Append before the final line
+            lines = content.rstrip().split('\n')
+            lines.insert(-1, '')
+            lines.insert(-1, new_entry)
+            content = '\n'.join(lines)
+    
+    # Validate YAML before writing
+    try:
+        import yaml
+        yaml.safe_load(content)
+    except yaml.YAMLError as e:
+        print(f"YAML validation failed: {e}")
+        return False
+    
+    with open(yaml_path, 'w') as f:
+        f.write(content)
+    
+    # Reload glossary
+    global ENTRIES
+    ENTRIES = {}
+    load_glossary()
+    
+    print(f"Inserted '{name}' successfully")
+    return True
+
+
+def bulk_insert(entries: List[Dict], after: str = None) -> int:
+    """Insert multiple entries at once.
+    
+    Args:
+        entries: List of dicts, each with 'name' key and entry data
+        after: Insert after this entry name
+    
+    Returns:
+        Number of entries successfully inserted.
+    """
+    count = 0
+    current_after = after
+    
+    for entry_data in entries:
+        name = entry_data.pop('name')
+        if insert_entry(name, entry_data, after=current_after):
+            current_after = name  # Chain insertions
+            count += 1
+    
+    return count
+
+
+def update_entry(name: str, updates: Dict) -> bool:
+    """Update fields of an existing entry using surgical text replacement.
+    
+    Args:
+        name: Name of entry to update
+        updates: Dict of fields to update (supports nested keys like 'location_features.parent')
+    
+    Returns:
+        True if successful, False otherwise.
+    """
+    import yaml
+    import re
+    
+    yaml_path = Path(__file__).parent / "glossary_data.yaml"
+    
+    with open(yaml_path, 'r') as f:
+        content = f.read()
+    
+    # Find the entry boundaries using markers
+    start_marker = f"  # ═══ {name} ═══"
+    end_marker = f"  # ─── end {name} ───"
+    
+    # Case-insensitive search for markers
+    start_idx = -1
+    end_idx = -1
+    actual_name = name
+    
+    for line_idx, line in enumerate(content.split('\n')):
+        if '# ═══' in line and name.lower() in line.lower():
+            # Extract actual name from marker
+            match = re.search(r'# ═══ (.+) ═══', line)
+            if match:
+                actual_name = match.group(1)
+                start_marker = f"  # ═══ {actual_name} ═══"
+                end_marker = f"  # ─── end {actual_name} ───"
+                start_idx = content.find(start_marker)
+                break
+    
+    if start_idx == -1:
+        # Try finding entry without markers
+        entry_line = f"  {name}:"
+        for line in content.split('\n'):
+            if line.strip().startswith(name + ':') or line.strip().startswith(f'"{name}":'):
+                entry_line = line
+                start_idx = content.find(line)
+                break
+        
+        if start_idx == -1:
+            print(f"Entry '{name}' not found")
+            return False
+    
+    end_idx = content.find(end_marker)
+    if end_idx == -1:
+        print(f"Could not find end marker for '{actual_name}'")
+        return False
+    
+    end_idx += len(end_marker)
+    
+    # Extract current entry text
+    entry_text = content[start_idx:end_idx]
+    
+    # Parse the entry (just the YAML part, not markers)
+    yaml_start = entry_text.find(f"  {actual_name}:")
+    if yaml_start == -1:
+        print(f"Could not find YAML for '{actual_name}'")
+        return False
+    
+    yaml_end = entry_text.find(f"  # ─── end")
+    entry_yaml = entry_text[yaml_start:yaml_end]
+    
+    # Parse to dict
+    try:
+        parsed = yaml.safe_load(entry_yaml)
+        entry_data = parsed[actual_name]
+    except Exception as e:
+        print(f"Failed to parse entry: {e}")
+        return False
+    
+    # Apply updates (supports dot notation for nested keys)
+    for key, value in updates.items():
+        if '.' in key:
+            parts = key.split('.')
+            target = entry_data
+            for part in parts[:-1]:
+                if part not in target:
+                    target[part] = {}
+                target = target[part]
+            target[parts[-1]] = value
+        else:
+            entry_data[key] = value
+    
+    # Format new entry
+    new_entry = format_yaml_entry(actual_name, entry_data)
+    
+    # Replace in content
+    new_content = content[:start_idx] + new_entry + content[end_idx:]
+    
+    # Validate
+    try:
+        yaml.safe_load(new_content)
+    except yaml.YAMLError as e:
+        print(f"YAML validation failed: {e}")
+        return False
+    
+    with open(yaml_path, 'w') as f:
+        f.write(new_content)
+    
+    # Reload glossary
+    global ENTRIES
+    ENTRIES = {}
+    load_glossary()
+    
+    print(f"Updated '{actual_name}'")
+    return True
+
+
+def set_parent(name: str, parent: str) -> bool:
+    """Shortcut to set location_features.parent for an entry."""
+    return update_entry(name, {'location_features.parent': parent})
+
+
 # =============================================================================
 # FORMATTING
 # =============================================================================
@@ -967,7 +1543,7 @@ def format_entry(entry: GlossaryEntry, verbose: bool = False) -> str:
         lines.append(f"\n  RAG: {entry.rag_pointer}")
     
     if entry.related:
-        lines.append(f"\nðŸ”— Related: {', '.join(entry.related)}")
+        lines.append(f"\nÃƒÆ’°Ãƒ…Ã‚Â¸”— Related: {', '.join(entry.related)}")
     
     if entry.caste_features:
         cf = entry.caste_features
@@ -999,8 +1575,10 @@ def format_entry(entry: GlossaryEntry, verbose: bool = False) -> str:
         lines.append(f"\n--- Location Features ---")
         if lf.real_world_anchor:
             lines.append(f"    Real World: {lf.real_world_anchor}")
-        lines.append(f"  Level: {lf.level.value}")
-        lines.append(f"  Type: {lf.location_type.value}")
+        if lf.level:
+            lines.append(f"  Level: {lf.level.value}")
+        if lf.location_type:
+            lines.append(f"  Type: {lf.location_type.value}")
         if lf.parent:
             lines.append(f"  Parent: {lf.parent}")
         if lf.population:
@@ -1019,6 +1597,19 @@ def format_entry(entry: GlossaryEntry, verbose: bool = False) -> str:
             lines.append(f"  Borders:")
             for d, locs in lf.borders.items():
                 lines.append(f"    {d}: {', '.join(locs)}")
+        if lf.transit:
+            lines.append(f"  Transit:")
+            for t in lf.transit:
+                route = t.get('route', '?')
+                to = t.get('to', '?')
+                ttype = t.get('type', '')
+                notes = t.get('notes', '')
+                line = f"    • {route} → {to}"
+                if ttype:
+                    line += f" [{ttype}]"
+                lines.append(line)
+                if notes and verbose:
+                    lines.append(f"      {notes}")
     
     # Local aesthetic (simple instantiation note - always show for locations)
     if entry.local_aesthetic:
@@ -1056,6 +1647,22 @@ def format_entry(entry: GlossaryEntry, verbose: bool = False) -> str:
             for k in af.key_elements:
                 lines.append(f"    - {k}")
     
+    # NPCs in this location tree (verbose mode for locations)
+    if verbose and entry.category == "location":
+        persons_tree = persons_in_location_tree(entry.term)
+        if persons_tree:
+            lines.append(f"\n--- Notable Persons ---")
+            for loc_name, persons in persons_tree.items():
+                if loc_name.lower() == entry.term.lower():
+                    # Direct persons at this location
+                    for p in persons:
+                        lines.append(f"  • {p.term}: {p.short[:60]}...")
+                else:
+                    # Persons in child locations
+                    lines.append(f"  [{loc_name}]")
+                    for p in persons:
+                        lines.append(f"    • {p.term}: {p.short[:55]}...")
+    
     lines.append(f"{'=' * 60}\n")
     return "\n".join(lines)
 
@@ -1090,12 +1697,20 @@ Commands:
     locations-with-caste <c>   - Find locations where caste present
     adjacent-to <location>     - Find adjacent locations
     neighbors <loc> [dir]      - Get neighbors in direction
+    
+    path <start> <end> [-v]    - Find shortest path between locations
+    graph-stats                - Show location graph statistics
+    graph-neighbors <loc>      - Show all graph connections for location
+    
+    insert <n> [--after <e>]   - Insert new entry (reads YAML from stdin)
+    update <n> --set k=v       - Update entry field (or pipe YAML)
+    set-parent <n> <parent>    - Shortcut to set location parent
+    scan <filepath> [-v]       - Scan file for glossary terms
 
 Examples:
     python glossary.py lookup Highborn
-    python glossary.py caste-feature compulsion triggers
-    python glossary.py scene-setup "Medina Quarter"
-    python glossary.py location-tree ya-Sattra
+    python glossary.py path "Middens" "Ogon" -v
+    python glossary.py set-parent "My Location" "Parent Location"
 """)
 
 
@@ -1213,7 +1828,7 @@ def main():
         
         # Show real world anchor prominently
         if lf and lf.real_world_anchor:
-            print(f"\n  ðŸŒ REAL WORLD: {lf.real_world_anchor}")
+            print(f"\n  ÃƒÆ’°Ãƒ…Ã‚Â¸Ãƒ…’Ãƒâ€šÃ‚Â REAL WORLD: {lf.real_world_anchor}")
         
         rag_docs = []
         if entry.rag_pointer:
@@ -1272,13 +1887,13 @@ def main():
         
         # Show local aesthetic if present
         if entry.local_aesthetic:
-            print(f"\n  ðŸŽ¨ LOCAL AESTHETIC:")
+            print(f"\n  ÃƒÆ’°Ãƒ…Ã‚Â¸Ãƒ…Ã‚Â½Ãƒâ€šÃ‚Â¨ LOCAL AESTHETIC:")
             print(f"     {entry.local_aesthetic}")
         
         # Show this entry's own aesthetic_features if present
         if entry.aesthetic_features:
             af = entry.aesthetic_features
-            print(f"\n  ðŸŽ¨ AESTHETIC VOCABULARY:")
+            print(f"\n  ÃƒÆ’°Ãƒ…Ã‚Â¸Ãƒ…Ã‚Â½Ãƒâ€šÃ‚Â¨ AESTHETIC VOCABULARY:")
             print(f"     Intention: \"{af.intention}\"")
             if af.visual_vocabulary:
                 print(f"     Visual references: {', '.join([v.split(':')[0] for v in af.visual_vocabulary[:4]])}")
@@ -1292,7 +1907,7 @@ def main():
             while parent_entry:
                 if parent_entry.aesthetic_features:
                     af = parent_entry.aesthetic_features
-                    print(f"\n  ðŸŽ¨ PARENT AESTHETIC ({parent_entry.term}):")
+                    print(f"\n  ÃƒÆ’°Ãƒ…Ã‚Â¸Ãƒ…Ã‚Â½Ãƒâ€šÃ‚Â¨ PARENT AESTHETIC ({parent_entry.term}):")
                     print(f"     Intention: \"{af.intention}\"")
                     if af.visual_vocabulary:
                         print(f"     Visual vocabulary: {', '.join([v.split(':')[0] for v in af.visual_vocabulary[:3]])}")
@@ -1340,7 +1955,7 @@ def main():
             print(f"  COMPARING: {result['caste1']} vs {result['caste2']}")
             print(f"{'=' * 60}\n")
             for feat, (v1, v2) in result['comparison'].items():
-                match = "âÃƒ…""" if v1 == v2 else "â‰ "
+                match = "âÃƒÆ’Ã†’Ãƒâ€ ’…""" if v1 == v2 else "ââââ€šÂ¬° "
                 print(f"  {feat:15} {v1:15} {match} {v2}")
             print(f"\n  Original function:")
             print(f"    {result['caste1']}: {result['original_function'][0]}")
@@ -1378,6 +1993,28 @@ def main():
                 print(f"  {entry.term} [{entry.category}]{intention}")
         else:
             print("No entries with aesthetic data found")
+        return
+    
+    # Graph stats command - no argument required
+    if cmd == "graph-stats":
+        stats = graph_stats()
+        print(f"\n{'=' * 50}")
+        print("  LOCATION GRAPH STATISTICS")
+        print(f"{'=' * 50}\n")
+        print(f"  Nodes (locations): {stats['nodes']}")
+        print(f"  Edges (connections): {stats['edges']}")
+        print(f"  Graph components: {stats['components']}")
+        print(f"  Largest component: {stats['largest_component']} nodes")
+        print(f"\n  Most connected locations:")
+        for name, count in stats['hubs']:
+            print(f"    {name}: {count} connections")
+        if stats['isolated']:
+            print(f"\n  Isolated locations ({len(stats['isolated'])}):")
+            for name in stats['isolated'][:10]:
+                print(f"    - {name}")
+            if len(stats['isolated']) > 10:
+                print(f"    ... and {len(stats['isolated']) - 10} more")
+        print(f"\n{'=' * 50}")
         return
     
     if len(sys.argv) < 3:
@@ -1422,7 +2059,7 @@ def main():
     elif cmd == "check":
         result = check(arg)
         if result["exists"]:
-            print(f"âÃƒ…"" '{arg}' exists")
+            print(f"âÃƒÆ’Ã†’Ãƒâ€ ’…"" '{arg}' exists")
             print(format_entry(result["entry"]))
         else:
             print(f"✗ '{arg}' not found")
@@ -1472,6 +2109,170 @@ def main():
         verbose = "-v" in sys.argv or "--verbose" in sys.argv
         result = scan_document(text)
         print(format_scan_report(result, verbose=verbose))
+    
+    elif cmd == "path":
+        # Find path between two locations
+        # Usage: glossary.py path "start" "end" [-v]
+        if len(args) < 2:
+            print("Error: path requires two location names")
+            print("Usage: glossary.py path <start> <end> [-v|--verbose]")
+            return
+        
+        start = args[0]
+        end = args[1]
+        
+        path = find_path(start, end)
+        if path:
+            print(format_path(path, verbose=verbose))
+        else:
+            # Check if locations exist
+            glossary = load_glossary()
+            name_map = {n.lower(): n for n in glossary.keys()}
+            start_exists = start.lower() in name_map
+            end_exists = end.lower() in name_map
+            
+            if not start_exists:
+                print(f"Location '{start}' not found.")
+                similar = [n for n in glossary.keys() if start.lower() in n.lower()][:5]
+                if similar:
+                    print(f"  Similar: {', '.join(similar)}")
+            elif not end_exists:
+                print(f"Location '{end}' not found.")
+                similar = [n for n in glossary.keys() if end.lower() in n.lower()][:5]
+                if similar:
+                    print(f"  Similar: {', '.join(similar)}")
+            else:
+                print(f"No path found between '{start}' and '{end}'.")
+                print("  (These locations may be in disconnected graph components)")
+    
+    elif cmd == "graph-neighbors":
+        # Show all graph connections for a location
+        graph = build_location_graph()
+        name_map = {n.lower(): n for n in graph.keys()}
+        loc_key = name_map.get(arg.lower())
+        
+        if not loc_key:
+            print(f"Location '{arg}' not found.")
+            return
+        
+        neighbor_set = graph.get(loc_key, set())
+        if neighbor_set:
+            print(f"\n{loc_key} has {len(neighbor_set)} graph connections:\n")
+            for n in sorted(neighbor_set):
+                print(f"  • {n}")
+        else:
+            print(f"{loc_key} has no connections in the graph.")
+    
+    elif cmd == "insert":
+        # Insert a new entry
+        # Usage: glossary.py insert <name> [--after <entry>] < entry.yaml
+        # Or: glossary.py insert <name> --category <cat> --short "description"
+        import sys as sys_mod
+        
+        if len(args) < 1:
+            print("Error: insert requires entry name")
+            print("Usage: glossary.py insert <name> [--after <entry>] < entry.yaml")
+            print("   or: glossary.py insert <name> --category <cat> --short \"desc\"")
+            return
+        
+        name = args[0]
+        after = None
+        
+        # Parse --after flag
+        if "--after" in sys.argv:
+            idx = sys.argv.index("--after")
+            if idx + 1 < len(sys.argv):
+                after = sys.argv[idx + 1]
+        
+        # Check if reading from stdin
+        if not sys_mod.stdin.isatty():
+            import yaml
+            yaml_text = sys_mod.stdin.read()
+            try:
+                data = yaml.safe_load(yaml_text)
+                if insert_entry(name, data, after=after):
+                    print(f"Entry '{name}' inserted successfully")
+            except yaml.YAMLError as e:
+                print(f"Invalid YAML: {e}")
+        else:
+            # Build entry from command line args
+            data = {}
+            
+            if "--category" in sys.argv:
+                idx = sys.argv.index("--category")
+                if idx + 1 < len(sys.argv):
+                    data["category"] = sys.argv[idx + 1]
+            
+            if "--short" in sys.argv:
+                idx = sys.argv.index("--short")
+                if idx + 1 < len(sys.argv):
+                    data["short"] = sys.argv[idx + 1]
+            
+            if "--parent" in sys.argv:
+                idx = sys.argv.index("--parent")
+                if idx + 1 < len(sys.argv):
+                    data["location_features"] = {"parent": sys.argv[idx + 1]}
+            
+            if not data.get("category") or not data.get("short"):
+                print("Error: --category and --short required when not reading from stdin")
+                return
+            
+            if insert_entry(name, data, after=after):
+                print(f"Entry '{name}' inserted successfully")
+    
+    elif cmd == "update":
+        # Update an existing entry
+        # Usage: glossary.py update <n> --set key=value [--set key2=value2]
+        # Or: glossary.py update <n> < updates.yaml
+        import sys as sys_mod
+        
+        if len(args) < 1:
+            print("Error: update requires entry name")
+            print("Usage: glossary.py update <n> --set key=value")
+            print("   or: glossary.py update <n> < updates.yaml")
+            return
+        
+        name = args[0]
+        
+        # Check if reading from stdin
+        if not sys_mod.stdin.isatty():
+            import yaml
+            yaml_text = sys_mod.stdin.read()
+            try:
+                updates = yaml.safe_load(yaml_text)
+                if update_entry(name, updates):
+                    print(f"Entry '{name}' updated successfully")
+            except yaml.YAMLError as e:
+                print(f"Invalid YAML: {e}")
+        else:
+            # Parse --set flags
+            updates = {}
+            i = 0
+            while i < len(sys.argv):
+                if sys.argv[i] == "--set" and i + 1 < len(sys.argv):
+                    kv = sys.argv[i + 1]
+                    if '=' in kv:
+                        k, v = kv.split('=', 1)
+                        updates[k] = v
+                    i += 2
+                else:
+                    i += 1
+            
+            if not updates:
+                print("Error: --set key=value required when not reading from stdin")
+                return
+            
+            if update_entry(name, updates):
+                print(f"Entry '{name}' updated successfully")
+    
+    elif cmd == "set-parent":
+        # Shortcut: glossary.py set-parent <entry> <parent>
+        if len(args) < 2:
+            print("Usage: glossary.py set-parent <entry> <parent>")
+            return
+        
+        if set_parent(args[0], args[1]):
+            print(f"Set parent of '{args[0]}' to '{args[1]}'")
     
     else:
         print(f"Unknown command: {cmd}")

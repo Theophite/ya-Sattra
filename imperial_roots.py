@@ -6,7 +6,7 @@ A fast lookup tool for Imperial morphological roots. Use this for understanding
 word construction, generating plausible names, and parsing Imperial compounds.
 
 Data is loaded from imperial_roots_data.yaml. Edit that file directly using str_replace
-by matching entry markers: # ═══ Entry Name ═══ through # ─── end Entry Name ───
+by matching entry markers: # â•â•â• Entry Name â•â•â• through # â”€â”€â”€ end Entry Name â”€â”€â”€
 
 SETUP
 =====
@@ -39,9 +39,9 @@ WORD STRUCTURE
     Terminals complete words: vel.ameth.kir.eth (the calendar)
 
 ASPECTUAL TERMINALS (for verbal constructions):
-    -eth  (pattern)   → continuous, habitual, ongoing
-    -al   (capacity)  → ability, potential, continuous capability
-    -ov   (act)       → discrete, punctual, completed instance
+    -eth  (pattern)   â†’ continuous, habitual, ongoing
+    -al   (capacity)  â†’ ability, potential, continuous capability
+    -ov   (act)       â†’ discrete, punctual, completed instance
 
 VALIDATION
 ==========
@@ -501,7 +501,7 @@ def format_morpheme(m: Morpheme, verbose: bool = True) -> str:
     if m.examples and verbose:
         lines.append("\nExamples:")
         for ex in m.examples[:5]:
-            lines.append(f"  • {ex}")
+            lines.append(f"  â€¢ {ex}")
     
     if m.related:
         lines.append(f"\nRelated: {', '.join(m.related)}")
@@ -516,7 +516,7 @@ def format_morpheme(m: Morpheme, verbose: bool = True) -> str:
 
 def format_parse(word: str, analysis: Dict, verbose: bool = True) -> str:
     """Format a parsed word for display."""
-    lines = [f"\n{'─'*50}", f"  {word}"]
+    lines = [f"\n{'â”€'*50}", f"  {word}"]
     
     if analysis.get('tense'):
         lines.append(f"  Tense: [{analysis['tense']}]")
@@ -526,22 +526,22 @@ def format_parse(word: str, analysis: Dict, verbose: bool = True) -> str:
     lines.append("\n  Components:")
     for m in analysis['morphemes']:
         marker = {
-            'particle': '◆',
-            'suffix': '○',
-            'root': '●',
-            'class_vii': '★',
-            'emperor_specific': 'âœ•',
-            'jargon': '◇',
+            'particle': 'â—†',
+            'suffix': 'â—‹',
+            'root': 'â—',
+            'class_vii': 'â˜…',
+            'emperor_specific': 'Ã¢Å“â€¢',
+            'jargon': 'â—‡',
             'unknown': '?'
         }.get(m['position'], '?')
-        lines.append(f"    {marker} {m['form']:12} → {m['meaning']}")
+        lines.append(f"    {marker} {m['form']:12} â†’ {m['meaning']}")
     
     lines.append(f"\n  Gloss: {analysis['gloss']}")
     
     if analysis['notes'] and verbose:
         lines.append("\n  Notes:")
         for note in analysis['notes']:
-            lines.append(f"    • {note}")
+            lines.append(f"    â€¢ {note}")
     
     return '\n'.join(lines)
 
@@ -584,7 +584,7 @@ def main():
                 if results:
                     print(f"No exact match for '{term}'. Similar:")
                     for key, m in results[:5]:
-                        print(f"  • {m.form}: {m.description[:50]}...")
+                        print(f"  â€¢ {m.form}: {m.description[:50]}...")
                 else:
                     print(f"No match found for '{term}'")
     
@@ -644,7 +644,7 @@ def main():
                 for root in roots:
                     m = lookup(root)
                     if m:
-                        print(f"    → {m.form}: {m.description[:50]}...")
+                        print(f"    â†’ {m.form}: {m.description[:50]}...")
         else:
             print("No recognizable roots found.")
     
@@ -722,7 +722,7 @@ def main():
                         print(f"  [{m.notes}]")
                     if m.examples:
                         for ex in m.examples[:2]:
-                            print(f"    • {ex}")
+                            print(f"    â€¢ {ex}")
                     print()
                 else:
                     desc = m.description.split('.')[0]
@@ -737,7 +737,7 @@ def main():
         for key, c in sorted(compounds.items()):
             if c.components:
                 comp_str = ' + '.join(c.components)
-                print(f"  {c.form:18} ← {comp_str}")
+                print(f"  {c.form:18} â† {comp_str}")
     
     else:
         print(f"Unknown command: {cmd}")

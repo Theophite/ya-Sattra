@@ -6,7 +6,7 @@ FOR USE IN THINKING BLOCK ONLY. Run this script to generate story ideas,
 then synthesize the results into natural prose for the actual response.
 Do not output the raw generator results to the user.
 
-Generates story seeds for the White Sheet—the Empire's only authorized news
+Generates story seeds for the White Sheetâ€”the Empire's only authorized news
 source. The Sheet determines what every other publication may print. What
 it permits becomes truth; what it forbids becomes unspeakable.
 
@@ -20,7 +20,7 @@ strategic patience. But sophisticated readers learn to decode:
 
 CRITICAL: Rivan used to work for the Institute of the Echo. He WROTE stories
 like these before Devra pulled him into the Lattice. He reads with slightly
-arch irony and professional appreciation—he knows the tricks, admires a
+arch irony and professional appreciationâ€”he knows the tricks, admires a
 well-constructed evasion, notices craft as much as content.
 
 STRUCTURE: Each edition contains THREE stories:
@@ -28,7 +28,7 @@ STRUCTURE: Each edition contains THREE stories:
 - One story generated purely from the Tarot draw (you create it)
 
 The Tarot card guides the emotional tenor of the whole edition.
-Stories should NOT fully resolve their meanings—leave ambiguity.
+Stories should NOT fully resolve their meaningsâ€”leave ambiguity.
 """
 
 import random
@@ -257,7 +257,7 @@ ECONOMIC_STORIES = [
 PLACEMENT_NOTES = [
     "Placed prominently, displacing something.",
     "Buried in the middle pages.",
-    "Adjacent to an unrelated story—the juxtaposition feels deliberate.",
+    "Adjacent to an unrelated storyâ€”the juxtaposition feels deliberate.",
     "Repeated from last week with minor changes.",
     "Given unusual length for such thin content.",
     "Formatted identically to a story from months ago about a different region.",
@@ -285,7 +285,7 @@ EDITORIAL_NOTES = [
 TAROT_STORY_SEEDS = {
     TarotMajor.FOOL: [
         "A story about a new initiative or program, presented with optimism that feels unearned",
-        "Something beginning—a project, a posting, a construction—without mention of what it replaces",
+        "Something beginningâ€”a project, a posting, a constructionâ€”without mention of what it replaces",
         "An announcement of 'fresh approaches' to old problems",
     ],
     TarotMajor.MAGICIAN: [
@@ -299,7 +299,7 @@ TAROT_STORY_SEEDS = {
         "Something about the Lattice or the Academy, carefully vague",
     ],
     TarotMajor.EMPRESS: [
-        "A story about harvests, fertility, or production—abundance language",
+        "A story about harvests, fertility, or productionâ€”abundance language",
         "The Creche announcing something about population or lineage",
         "Nurturing language applied to institutional programs",
     ],
@@ -320,21 +320,21 @@ TAROT_STORY_SEEDS = {
     ],
     TarotMajor.CHARIOT: [
         "Military success or 'progress' described in triumphant language",
-        "Movement, expansion, or advance—even if the direction is unclear",
+        "Movement, expansion, or advanceâ€”even if the direction is unclear",
         "Willpower or determination celebrated",
     ],
     TarotMajor.STRENGTH: [
-        "Endurance celebrated—surviving something difficult",
+        "Endurance celebratedâ€”surviving something difficult",
         "Patience or forbearance praised as virtue",
         "Quiet strength in the face of unnamed challenges",
     ],
     TarotMajor.HERMIT: [
         "A story about isolated communities or individuals",
-        "Withdrawal framed positively—'focusing,' 'consolidating'",
+        "Withdrawal framed positivelyâ€”'focusing,' 'consolidating'",
         "Wisdom attributed to someone removed from events",
     ],
     TarotMajor.WHEEL: [
-        "A story about cycles—seasonal, economic, historical",
+        "A story about cyclesâ€”seasonal, economic, historical",
         "Fortune changing, for better or worse",
         "Fate or destiny invoked",
     ],
@@ -349,18 +349,18 @@ TAROT_STORY_SEEDS = {
         "A different perspective offered on an old issue",
     ],
     TarotMajor.DEATH: [
-        "An ending—retirement, closure, conclusion",
+        "An endingâ€”retirement, closure, conclusion",
         "Transformation language: 'reorganization,' 'transition'",
         "Something old making way for something new",
     ],
     TarotMajor.TEMPERANCE: [
         "Balance, moderation, or patience emphasized",
-        "Mixing or combining—mergers, integrations",
+        "Mixing or combiningâ€”mergers, integrations",
         "Slow, careful progress praised",
     ],
     TarotMajor.DEVIL: [
         "Something about dependencies or constraints",
-        "Material concerns—prices, resources, debts",
+        "Material concernsâ€”prices, resources, debts",
         "Bonds that can't easily be broken",
     ],
     TarotMajor.TOWER: [
@@ -467,16 +467,16 @@ def format_edition(edition: WhiteSheetEdition) -> str:
     lines.append("WHITE SHEET EDITION")
     lines.append("=" * 75)
     
-    lines.append(f"\nðŸŽ´ TAROT: {card.name_str} ({orientation})")
+    lines.append(f"\nÃ°Å¸Å½Â´ TAROT: {card.name_str} ({orientation})")
     lines.append(f"   Meaning: {meaning}")
     lines.append(f"   (This colors the emotional tenor of Rivan's reading)")
     
     if edition.editorial_note:
-        lines.append(f"\nðŸ“° EDITION NOTE: {edition.editorial_note}")
+        lines.append(f"\nÃ°Å¸â€œÂ° EDITION NOTE: {edition.editorial_note}")
     
-    lines.append(f"\n{'─' * 75}")
+    lines.append(f"\n{'â”€' * 75}")
     lines.append("TEMPLATE STORIES (use these two)")
-    lines.append(f"{'─' * 75}")
+    lines.append(f"{'â”€' * 75}")
     
     for i, story in enumerate(edition.template_stories, 1):
         lines.append(f"\n**STORY {i}**: {story.headline}")
@@ -485,19 +485,19 @@ def format_edition(edition: WhiteSheetEdition) -> str:
         if story.placement_note:
             lines.append(f"   Placement: {story.placement_note}")
     
-    lines.append(f"\n{'─' * 75}")
+    lines.append(f"\n{'â”€' * 75}")
     lines.append("TAROT-GENERATED STORY (create this one)")
-    lines.append(f"{'─' * 75}")
+    lines.append(f"{'â”€' * 75}")
     
     seeds = TAROT_STORY_SEEDS.get(card, ["A story reflecting the card's themes"])
     lines.append(f"\n   Card: {card.name_str} ({orientation})")
     lines.append(f"   Theme: {meaning}")
     lines.append(f"\n   Possible directions:")
     for seed in seeds:
-        lines.append(f"   • {seed}")
+        lines.append(f"   â€¢ {seed}")
     
     lines.append(f"\n   CREATE a third story based on these themes.")
-    lines.append(f"   It should feel like it belongs in the Sheet—bland surface,")
+    lines.append(f"   It should feel like it belongs in the Sheetâ€”bland surface,")
     lines.append(f"   but the tarot theme colors what Rivan notices or feels about it.")
     
     lines.append("\n" + "=" * 75)
@@ -505,9 +505,9 @@ def format_edition(edition: WhiteSheetEdition) -> str:
     lines.append("- Rivan USED TO WORK FOR THE ECHO. He wrote stories like these.")
     lines.append("- He reads with slightly arch irony and professional appreciation.")
     lines.append("- He knows the tricks: the careful word choices, the meaningful omissions.")
-    lines.append("- He notices craft as much as content—admiring a well-constructed evasion.")
+    lines.append("- He notices craft as much as contentâ€”admiring a well-constructed evasion.")
     lines.append("- He's sophisticated but not paranoid; he doesn't assume conspiracy.")
-    lines.append("- The tarot card is for YOU, not for Rivan—it shapes mood, not content.")
+    lines.append("- The tarot card is for YOU, not for Rivanâ€”it shapes mood, not content.")
     lines.append("- A sentence or two about the Sheet is usually enough.")
     lines.append("=" * 75)
     
@@ -522,9 +522,9 @@ def main():
     print(format_edition(edition))
     
     # One more sample
-    print("\n\n" + "â”" * 75)
+    print("\n\n" + "Ã¢â€Â" * 75)
     print("ADDITIONAL SAMPLE")
-    print("â”" * 75)
+    print("Ã¢â€Â" * 75)
     edition = generate_edition()
     print(format_edition(edition))
 

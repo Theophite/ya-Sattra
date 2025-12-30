@@ -233,11 +233,11 @@ def format_encounter(encounter: LiftEncounter) -> str:
     lines.append("=" * 60)
     
     if encounter.namali_present:
-        lines.append("\n⚠️  NAMALI PRESENT - Is this Kef? You cannot know.\n")
+        lines.append("\nâš ï¸  NAMALI PRESENT - Is this Kef? You cannot know.\n")
     
     lines.append("\nPASSENGERS:")
     for p in encounter.passengers:
-        lines.append(f"\n• {p.description}")
+        lines.append(f"\nâ€¢ {p.description}")
         if p.bureau:
             lines.append(f"  [Bureau: {p.bureau}]")
         if p.notes:

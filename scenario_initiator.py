@@ -188,7 +188,7 @@ def format_word_result(term, entry):
         if entry.related:
             lines.append(f"  Related: {', '.join(entry.related[:5])}")
         if entry.rag_pointer:
-            lines.append(f"  → RAG: {entry.rag_pointer}")
+            lines.append(f"  â†’ RAG: {entry.rag_pointer}")
     
     return "\n".join(lines)
 
@@ -230,80 +230,80 @@ SEED TERM: {term}
 """
     
     prompt = f"""
-═══════════════════════════════════════════════════════════════════════════════
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 SCENARIO SEED
-═══════════════════════════════════════════════════════════════════════════════
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
 CARD: {card_name}
 Traditional meaning: {card_meaning}
 {reversal_note}
 {term_context}
 
-═══════════════════════════════════════════════════════════════════════════════
-INSTRUCTIONS FOR SCENARIO CREATION
-═══════════════════════════════════════════════════════════════════════════════
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+INSTRUCTIONS FOR SCENARIO CREATION (CANTILEVER METHOD)
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
-Create a sandbox scenario document that weaves these elements together.
-The card provides THEMATIC direction. The term provides CONCRETE grounding.
+PROCEED IMMEDIATELY. Do not ask for confirmation or present options. Look up the 
+seed term and related concepts using the glossary and RAG, then begin writing the 
+scenario. The user asked for a random scenario; generate it.
 
-This should be a reference document for running the scenario, not a script.
-Characters have agendas; the narrative shape describes forces in motion;
-what actually happens emerges from play.
+This template uses the CANTILEVER mechanism: each section you write constrains 
+what can follow, until the resolution is forced by accumulated weight rather 
+than invented fresh.
 
-KEY SECTIONS TO DEVELOP:
+THE PROCESS:
 
-1. OVERVIEW AND NARRATIVE SHAPE
-   - One paragraph on the central situation
-   - 2-3 paragraphs on forces in motion and how this might unfold
-   - Describe the territory, not the path through it
+1. SET YOUR SEEDS
+   - Run the --card and --seed commands shown in the template
+   - These provide thematic direction and concrete grounding
 
-2. THE PROTAGONIST
-   - Rich physical description grounded in caste and circumstance
-   - Psychological depth: wants, fears, blind spots, emotional architecture
-   - CAPABILITIES: What can they do? Be specific about skills, access, resources
-   - LIMITATIONS: What is beyond them? What requires help or luck?
-   - What they know and what they don't know
-   - PLAYING GUIDANCE: The experiential texture of being this person—
-     how their interiority filters perception, what choices feel natural,
-     what they notice first, how they handle uncertainty and anger
+2. ARTICULATE THE QUESTION AND THE GUN
+   - Central question: What does this card mean for someone in this situation?
+   - The gun: The physical thing that will force resolution
+   - These must be set before building the scenario
 
-3. KEY CHARACTERS (2-4)
-   - Full physical descriptions
-   - Their situations and pressures
-   - What they want, how they operate, how they speak
-   - INTRODUCTION SCENES: Write a brief scene sketch for each showing
-     how they first appear—where, when, what draws them to attention
+3. BUILD THE MATERIALS (before act break)
+   - Write Overview, Protagonist, Characters, Locations, Introduction
+   - After EACH section, log constraints using --constrain
+   - A constraint is a fact you've established that narrows possible resolutions
+   - Example: "Kira refuses to use Compulsion" constrains what she can do
+   - Example: "The engineers died with expressions of confusion" constrains what the wing contains
 
-4. KEY LOCATIONS (2-4)
-   - Physical description: materials, light, sound, smell, proportions
-   - What the location means and reveals about the world
-   - Who you find here, what activities belong to this space
+4. HIT THE ACT BREAK
+   - Run --act-break to see all your constraints
+   - The synthesis question appears: "How does [CARD] resolve through [GUN]?"
+   - If you've built correctly, only a narrow band of answers fit
+   - The answer should feel discovered, not invented
 
-5. THE INTRODUCTION
-   - A fully-written opening scene (400-600 words)
-   - Establish the ordinary before disrupting it
-   - Ground in sensory detail and protagonist's perspective
-   - End on a moment that demands response
+5. COMPLETE SYNTHESIS
+   - Run --synthesize with your answer
+   - Then write The Mystery and Trajectories sections
+   - These are constrained by everything above
 
-6. SUPPORTING ELEMENTS
-   - Supporting cast table (brief sketches)
-   - Food and daily life (material culture)
-   - Cross-reference guide to project documents
+THE KEY INSIGHT:
+Don't start by knowing what's in the closed wing. Start by knowing the card's
+theme, then build a protagonist whose situation embodies that theme, then
+build characters who represent different answers to the question, then
+describe the gun's location with careâ€”and by then, what's in the wing
+should be obvious. The mystery emerges from the constraints.
 
-Remember:
-- Ground the supernatural in the mundane
-- Characters have comprehensible human motivations
-- The strangeness is structural, not psychological
-- Show the world through action, not exposition
-- Write characters as people, not plot functions
+WHAT MAKES A GOOD CONSTRAINT:
+- Specific facts, not vague feelings
+- Things that rule out possibilities
+- Character decisions that have consequences
+- Physical details that must be explained
+- Relationships that create obligations
+
+BAD: "Kira has complicated feelings about her heritage"
+GOOD: "Kira has spent 17 years suppressing her voiceâ€”refuses to use Compulsion"
+
+BAD: "Something bad happened in the closed wing"
+GOOD: "Three engineers died attempting to force entryâ€”expressions showed confusion, not pain"
 
 AFTER WRITING:
 1. Run `glossary.py scan <scenario_file>` to check all terms
-2. Search RAG for any flagged terms to verify accuracy
-3. Audit invented details against established lore:
-   - Do caste capabilities match their documentation?
-   - Does location geography fit the parent region?
-   - Do institutions and economics behave consistently?
+2. Run `--act-break` to verify constraints lead to synthesis
+3. Audit invented details against established lore
 4. Revise any conflicts before play begins
 """
     return prompt
@@ -340,6 +340,36 @@ def create_scenario_file(name, card_name, card_meaning, is_reversed, term, entry
 
 {term_section}
 
+```bash
+# Initialize cantilever
+python3 input_check.py --card "{card_name.split(' (')[0]}" "{card_meaning}"
+python3 input_check.py --seed "{term}" "{entry.category if entry else 'unknown'}"
+```
+
+---
+
+## The Central Question
+
+[What does this card mean for someone in this situation? Frame it as a question the scenario explores.]
+
+*Example: "What does Judgement mean for someone selling their inheritance to foreigners?"*
+
+```bash
+python3 input_check.py --central-question "YOUR QUESTION HERE"
+```
+
+---
+
+## The Gun
+
+[The physical thing that will force resolution. Not a metaphorâ€”an actual object, place, or mechanism that embodies the card's theme and will demand the protagonist make a choice.]
+
+*The gun must be concrete. "The closed wing" not "her past." "The authentication key" not "her heritage."*
+
+```bash
+python3 input_check.py --gun "YOUR GUN HERE"
+```
+
 ---
 
 ## Overview
@@ -348,23 +378,23 @@ def create_scenario_file(name, card_name, card_meaning, is_reversed, term, entry
 
 ## The Narrative Shape
 
-[Two to three paragraphs describing the general arc without prescribing specific events. What is the situation at the start? What forces are in motion? What kinds of developments might occur? This is a sandbox—the shape describes the territory, not the path through it.]
+[Two to three paragraphs describing the territory. What forces are in motion? What might happen? This is a sandboxâ€”describe the landscape, not the path.]
 
 ---
 
 ## Context Notes
 
-[Timeline, political context, key facts needed to run this scenario. What Records are relevant? What recent events matter? What is the ambient political situation?]
+[Timeline, political context, key facts. What Records are relevant? What recent events matter?]
 
 ---
 
-## The Player Character
+## The Protagonist
 
 ### [Name]
 
-[Physical description: caste markers, age, dress, mannerisms. What does someone see when they look at this person? Ground them in specific sensory detail.]
+[Physical description: caste markers, age, dress, mannerisms. Ground them in specific sensory detail.]
 
-[Background: Where did they come from? What shaped them? What do they carry from their past? Two to three paragraphs of history and psychology.]
+[Background: Where did they come from? What shaped them? What do they carry?]
 
 ### What They Want
 
@@ -372,57 +402,63 @@ def create_scenario_file(name, card_name, card_meaning, is_reversed, term, entry
 
 ### What They Fear
 
-[The thing they work to avoid—perhaps consciously, perhaps not.]
+[The thing they work to avoidâ€”perhaps consciously, perhaps not.]
 
 ### What They Can Do
 
-[Their capabilities: skills, knowledge, physical abilities, social access. What problems can they solve? What resources can they draw on? Be specific—not "good with people" but "can read a merchant's mood from how they arrange their hands, knows the protocols for addressing a curate, has favors owed by three dock supervisors."]
+[Specific capabilities: skills, knowledge, access, resources.]
 
 ### What They Cannot Do
 
-[Their limitations: skills they lack, places they cannot access, people who won't speak to them, physical constraints. What problems are beyond them? What would require help, luck, or sacrifice?]
+[Specific limitations: what's beyond them, what requires help or luck.]
 
-### What They Know
+### What They Know / Don't Know
 
-[The scope of their knowledge. What can they access? What are they expert in? What have they learned that others don't know?]
-
-### What They Don't Know
-
-[The gaps in their understanding. Things they assume wrongly. Things they haven't thought to question. Mysteries that will unfold through play.]
+[The scope and gaps in their understanding.]
 
 ### Their Emotional Architecture
 
-[How they handle feeling. What they permit themselves. What they wall off. The texture of their inner life.]
+[How they handle feeling. What they permit. What they wall off.]
 
 ### Playing This Character
 
-[Guidance for the player on inhabiting this person. What is the general tenor of being them? How does their interiority filter their perception of events? What kinds of choices feel natural to them, and what would feel like a departure? 
+[The experiential texture of being them. How do they make decisions? What do they notice first?]
 
-This should describe the experiential texture of playing them—not what they do, but what it feels like to be them making decisions. Are they cautious or impulsive? Do they read situations through loyalty, through profit, through principle? When they're uncertain, do they act or wait? What do they notice first when entering a room? What makes them angry, and what do they do with that anger?]
+```bash
+# Log constraints from protagonist
+python3 input_check.py --constrain "PROTAGONIST FACT THAT NARROWS RESOLUTION"
+python3 input_check.py --constrain "ANOTHER CONSTRAINT"
+```
 
 ---
 
 ## Key Characters
 
-### [Name] — [Role]
+### [Name] â€” [Role]
 
-[Physical description: enough to see them. Caste, age, how they carry themselves, what makes them visually distinctive.]
+[Physical description. Caste, age, how they carry themselves.]
 
-[Their situation: what brought them here, what they're dealing with, what pressures they're under. Two paragraphs minimum.]
+[Their situation: what brought them here, what pressures they face.]
 
-**What they want:** [The thing they're pursuing.]
+**What they want:**
 
-**How they operate:** [Their methods, their style, their constraints.]
+**How they operate:**
 
-**How they speak:** [Register, verbal tics, what they avoid saying.]
+**How they speak:**
 
-**Their relationship to the protagonist:** [The history, the current dynamic, the tensions or alignments.]
+**Their relationship to the protagonist:**
 
-**Introduction:** [How they first appear in the scenario. Where, when, what they're doing, what draws them into the protagonist's attention. Write this as a brief scene sketch—a paragraph or two that could be expanded into the actual moment of introduction.]
+**How they embody or challenge the card's theme:**
+
+**Introduction:** [Brief scene sketch of how they first appear.]
+
+```bash
+python3 input_check.py --constrain "CHARACTER FACT THAT NARROWS RESOLUTION"
+```
 
 ---
 
-### [Name] — [Role]
+### [Name] â€” [Role]
 
 [Physical description.]
 
@@ -436,53 +472,44 @@ This should describe the experiential texture of playing them—not what they do
 
 **Their relationship to the protagonist:**
 
-**Introduction:**
-
----
-
-### [Name] — [Role]
-
-[Physical description.]
-
-[Their situation.]
-
-**What they want:**
-
-**How they operate:**
-
-**How they speak:**
-
-**Their relationship to the protagonist:**
+**How they embody or challenge the card's theme:**
 
 **Introduction:**
+
+```bash
+python3 input_check.py --constrain "CHARACTER FACT THAT NARROWS RESOLUTION"
+```
 
 ---
 
 ## Supporting Cast
 
-Brief sketches of characters who appear but aren't central:
-
 | Character | Role | Key Detail |
 |-----------|------|------------|
-| [Name] | [Function] | [One memorable trait, fact, or line of dialogue] |
-| [Name] | [Function] | [One memorable trait, fact, or line of dialogue] |
-| [Name] | [Function] | [One memorable trait, fact, or line of dialogue] |
+| [Name] | [Function] | [One memorable trait] |
+| [Name] | [Function] | [One memorable trait] |
 
 ---
 
 ## Key Locations
 
-### [Primary Location Name]
+### [The Gun Location]
 
-[Physical description: architecture, materials, light, sound, smell. Ground the reader in the space. What does it feel like to stand here? What are the proportions, the textures, the ambient sounds?]
+*This is where the gun lives. Describe it with careâ€”this space will host the resolution.*
 
-[What it means: why this place matters, what happens here, who controls it, what tensions run through it. What does this location reveal about the world?]
+[Physical description: architecture, materials, light, sound, smell.]
 
-[What you find here: the kinds of people, activities, objects that belong to this space. The rhythm of its use.]
+[What it means: why this place matters, what tensions run through it.]
+
+[What's actually here that will matter:]
+
+```bash
+python3 input_check.py --constrain "LOCATION FACT THAT NARROWS RESOLUTION"
+```
 
 ---
 
-### [Secondary Location Name]
+### [Secondary Location]
 
 [Physical description.]
 
@@ -490,7 +517,7 @@ Brief sketches of characters who appear but aren't central:
 
 ---
 
-### [Tertiary Location Name]
+### [Tertiary Location]
 
 [Physical description.]
 
@@ -500,23 +527,72 @@ Brief sketches of characters who appear but aren't central:
 
 ## The Introduction
 
-[A fully-written opening scene, 400-600 words, that establishes the protagonist in their situation and presents the inciting disruption. This is where play begins.]
+[A fully-written opening scene, 400-600 words. Establish the ordinary before disrupting it. End on a moment that demands response.]
 
-[Show, don't tell. Ground the reader in sensory detail and the protagonist's perspective. Establish the ordinary before disrupting it. End on a moment that demands response—a question asked, a document received, a person arriving, something noticed that changes everything.]
-
-[This section should be written as prose, not notes. It is the actual opening of play.]
+[This is prose, not notes. The actual opening of play.]
 
 ---
 
-## Food and Daily Life
+# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+# ACT BREAK â€” STOP AND SYNTHESIZE
+# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
-[What do people eat here? What are the small rituals of ordinary existence? What makes this place feel lived-in? Ground the scenario in material culture.]
+Before writing the sections below, run:
+
+```bash
+python3 input_check.py --act-break
+```
+
+This will display:
+- Your card and gun
+- All accumulated constraints
+- The synthesis question: "How does [CARD] resolve through [GUN]?"
+
+**The answer must cohere with ALL constraints.** If you've built the scenario correctly, only a narrow band of answers fit. The mystery isn't invented freshâ€”it's discovered from what you've already established.
+
+Once you have your answer:
+
+```bash
+python3 input_check.py --synthesize "YOUR SYNTHESIS ANSWER"
+```
+
+Only then proceed to the sections below.
+
+---
+
+## The Mystery
+
+[What is actually going on? This is your synthesis answer expanded. The hidden truth that the gun will reveal.]
+
+[This section answers: What does the protagonist find when they engage with the gun? What was always true but hidden? How does it force the reckoning the card demanded?]
+
+[The answer should feel inevitable given the constraintsâ€”not a twist, but a recognition.]
+
+---
+
+## Trajectories
+
+What happens if the protagonist...
+
+### ...engages with the gun directly?
+
+[What do they find? What choice does it force? What are the consequences?]
+
+### ...avoids the gun and pursues their original goal?
+
+[What do they gain? What do they lose? How does the card's theme manifest anyway?]
+
+### ...gives the gun to someone else?
+
+[What happens when another character gets what they wanted? How does that reshape the situation?]
+
+### ...tries to destroy or neutralize the gun?
+
+[Is this possible? What does the attempt cost? What does it reveal?]
 
 ---
 
 ## Cross-Reference Guide
-
-[What project documents should be consulted for deeper information on topics in this scenario?]
 
 | Topic | Document |
 |-------|----------|
@@ -558,8 +634,8 @@ Brief sketches of characters who appear but aren't central:
     return filename
 
 
-def initialize_scenario_cache(name, filename, card_name, term):
-    """Initialize the session cache for a new scenario.
+def initialize_scenario_cache(name, filename, card_name, card_meaning, term, entry):
+    """Initialize the session cache for a new scenario with cantilever fields.
 
     Returns:
         dict: The initialized cache, or None if write failed.
@@ -569,16 +645,28 @@ def initialize_scenario_cache(name, filename, card_name, term):
     cache = {
         "scenario_name": name,
         "scenario_file": filename,
-        "seed_card": card_name,
-        "seed_term": term,
-        "scene": f"Scenario: {name} (not yet started)",
+        # Cantilever mechanism
+        "card": {
+            "name": card_name.split(" (")[0],  # Remove (Reversed) if present
+            "meaning": card_meaning
+        },
+        "seed": {
+            "term": term,
+            "category": entry.category if entry else "unknown"
+        },
+        "central_question": None,
+        "gun": None,
+        "constraints": [],
+        "synthesis": None,
+        # Scene tracking
+        "scene": f"Scenario: {name} (building - before act break)",
         "events": [f"Scenario created from {card_name} + {term}"],
         "questions": [],
+        # Knowledge cache
         "glossary": {},
         "characters": {},
         "notes": [],
-        "rag_summaries": {},
-        "rag_rerun": []
+        "rag_results": {}
     }
 
     # Ensure directory exists
@@ -688,27 +776,24 @@ def main():
                 print("Failed to create scenario file. Aborting.", file=sys.stderr)
                 return
 
-            cache = initialize_scenario_cache(name, filename, card_name, term)
+            cache = initialize_scenario_cache(name, filename, card_name, meaning, term, entry)
             if cache is None:
                 print("Warning: Scenario file created but cache initialization failed.", file=sys.stderr)
 
             print(f"\n✔ Created: {filename}")
-            if cache is not None:
-                print(f"✔ Initialized session cache")
-            print(f"\nNext steps:")
-            print(f"  1. Read the prompt below")
-            print(f"  2. Search project knowledge for relevant documents")
-            print(f"  3. Fill in the scenario file")
-            print(f"  4. Run: glossary.py scan {filename}")
-            print(f"     - Verify all proper nouns are canonical")
-            print(f"     - Check for terms that need RAG lookup")
-            print(f"  5. Audit for lore accuracy:")
-            print(f"     - Cross-reference invented details against established documents")
-            print(f"     - Verify caste capabilities match their documentation")
-            print(f"     - Check location geography against parent documents")
-            print(f"     - Ensure institutions and economics behave consistently")
-            print(f"  6. Use --scene to set starting location when ready to play")
-            
+            print(f"âœ” Initialized session cache with cantilever")
+            print(f"\nCANTILEVER WORKFLOW:")
+            print(f"  1. Fill in Central Question and Gun sections first")
+            print(f"  2. Build Protagonist, Characters, Locations")
+            print(f"  3. After each section, run: input_check.py --constrain \"fact\"")
+            print(f"  4. Write Introduction")
+            print(f"  5. Run: input_check.py --act-break")
+            print(f"  6. Answer the synthesis question")
+            print(f"  7. Run: input_check.py --synthesize \"your answer\"")
+            print(f"  8. Write Mystery and Trajectories")
+            print(f"\nVERIFICATION:")
+            print(f"  â€¢ glossary.py scan {filename}")
+            print(f"  â€¢ Check invented terms against established lore")
             # Show the creative prompt
             print(generate_scenario_prompt(card_name, meaning, is_reversed, term, entry))
         else:

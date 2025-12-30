@@ -1,32 +1,40 @@
 #!/usr/bin/env python3
 """
-Scan input for glossary terms and Imperial roots. 
-Tracks seen terms and caches definitions for compaction recovery.
-Enhanced to work with structured caste and location data.
+EVERY TURN: Run this script on the user's message before writing your response.
+
+    python3 input_check.py "<user message>"
+
+This is not optional. The script tracks session state that you cannot reliably 
+reconstruct from memory. If you write substantive content without running this 
+first, you are likely to introduce continuity errors or miss constraints.
 
 Usage:
-    input_check.py "<text>"                      # Normal scan
-    input_check.py --flush "<text>"              # Reload cache (compaction recovery), then scan
-    input_check.py --scene "location name"       # Set current scene location (uses glossary lookup)
-    input_check.py --where                       # Show current scene with exits and sub-locations
+    input_check.py "<text>"                      # Normal scan (DO THIS FIRST)
+    input_check.py --flush "<text>"              # Compaction recovery, then scan
+    input_check.py --show                        # Display current cache contents
+    input_check.py --scene "location name"       # Set current scene location
+    input_check.py --where                       # Show current scene with exits
     input_check.py --go <location or direction>  # Move to adjacent location
     input_check.py --caste <caste name>          # Show detailed caste information
-    input_check.py --event "what happened"       # Log plot event or lore decision (accumulates)
-    input_check.py --question "unresolved issue" # Log open question for later (lore mode)
-    input_check.py --resolve 1                   # Remove question #1 when answered
-    input_check.py --rag Term "2-3 sentence summary"   # Cache RAG result summary
-    input_check.py --rag Term rerun              # Mark term for RAG re-run on compaction
-    input_check.py --character Name "note"       # Add a character/place note
-    input_check.py --note "text"                 # Add a general note
-    input_check.py --show                        # Display current cache contents
-    input_check.py --clear                       # Clear all cached data (fresh start)
+    input_check.py --event "what happened"       # Log plot event
+    input_check.py --question "unresolved issue" # Log open question
+    input_check.py --resolve 1                   # Remove question #1
+    input_check.py --rag Term "summary"          # Cache RAG result
+    input_check.py --rag Term rerun              # Mark for RAG re-run
+    input_check.py --character Name "note"       # Add character note
+    input_check.py --note "text"                 # Add general note
+    input_check.py --clear                       # Clear all cached data
 
-Scene Navigation:
-    --scene sets the current location and shows RAG docs to pull
-    --where shows current location with all exits and sub-locations  
-    --go moves to an adjacent location (can use direction or name)
-    --caste looks up caste details for characters encountered
-    --lookup looks up any term in the glossary
+Cantilever Mechanism (scenario creation):
+    --card "name" "meaning"                      # Set card theme
+    --seed "term" category                       # Set seed term
+    --central-question "question"                # Set THE central question
+    --gun "description"                          # Set Chekov's gun
+    --constrain "fact"                           # Log narrowing constraint
+    --act-break                                  # Trigger synthesis prompt
+    --synthesize "answer"                        # Complete synthesis
+
+The script outputs a reminder to run it next turn. Follow this instruction.
 """
 import subprocess, sys, re, os, json
 
@@ -92,8 +100,8 @@ SPECIAL_TERMS = {'patent', 'patents', 'record', 'compulsion', 'testament', 'test
                  'serrulata', 'avouvar', 'akama', 'ranga', 'springheel', 'ironbone',
                  # New caste terms
                  'ashrat', 'astal', 'karst', 'nasif', 'orevet', 'sarruk', 'pierrots',
-                 'verethani', 'draethen', 'draëthen', 'szkoverin', 'szkovërin',
-                 'volerath', 'völërath', 'kalbat', 'kalbats', 'presence', 'shtetl',
+                 'verethani', 'draethen', 'draÃ«then', 'szkoverin', 'szkovÃ«rin',
+                 'volerath', 'vÃ¶lÃ«rath', 'kalbat', 'kalbats', 'presence', 'shtetl',
                  # Inner City terms
                  'vel-kerith', 'vel-om', 'kerith-sah', 'terrace',
                  # Iron Yards terms
@@ -128,6 +136,89 @@ SEEN_FILE = '/home/claude/seen_terms.txt'
 CACHE_FILE = '/home/claude/session_cache.json'
 
 # =============================================================================
+# NEXT-TURN REMINDER
+# =============================================================================
+
+def print_next_turn_reminder():
+    """Print context-aware guidance based on current state."""
+    cache = load_cache()
+    
+    print("\n" + "â”€" * 60)
+    
+    # Detect mode and give appropriate guidance
+    has_cantilever = cache.get("card") or cache.get("gun")
+    has_synthesis = cache.get("synthesis")
+    has_scene_location = cache.get("scene_location")  # A glossary location
+    has_scene = cache.get("scene")
+    
+    if has_cantilever and not has_synthesis:
+        # SCENARIO BUILDING MODE (pre-synthesis)
+        constraints = cache.get("constraints", [])
+        print("MODE: Scenario building (pre-synthesis)")
+        print(f"  Card: {cache.get('card', {}).get('name', '?')}")
+        if cache.get("gun"):
+            print(f"  Gun: {cache['gun'][:40]}...")
+        print(f"  Constraints: {len(constraints)} logged")
+        
+        if len(constraints) < 3:
+            print(f"\n  â†’ After writing each section, run:")
+            print(f"    --constrain \"specific fact that narrows resolution\"")
+        else:
+            print(f"\n  â†’ When Introduction is complete, run:")
+            print(f"    --act-break")
+        
+    elif has_cantilever and has_synthesis:
+        # SCENARIO BUILDING MODE (post-synthesis)
+        print("MODE: Scenario building (post-synthesis)")
+        print(f"  Synthesis: {cache['synthesis'][:50]}...")
+        print(f"\n  â†’ Now write Mystery and Trajectories sections.")
+        print(f"    These are constrained by your synthesis.")
+        
+    elif has_scene_location:
+        # SCENARIO PLAY MODE
+        print("MODE: Scenario play")
+        print(f"  Scene: {cache.get('scene', '?')}")
+        events = cache.get("events", [])
+        if events:
+            print(f"  Events: {len(events)} logged")
+        print(f"\n  â†’ After significant plot developments, run:")
+        print(f"    --event \"what happened\"")
+        
+    elif has_scene and "Scenario:" in str(has_scene):
+        # SCENARIO SETUP (not yet playing)
+        print("MODE: Scenario setup")
+        print(f"  {cache['scene']}")
+        print(f"\n  â†’ Set location to begin play:")
+        print(f"    --scene \"location name\"")
+        
+    elif has_scene:
+        # LORE MODE (working on a document)
+        print("MODE: Lore creation")
+        print(f"  Working on: {cache['scene']}")
+        questions = cache.get("questions", [])
+        if questions:
+            print(f"  Open questions: {len(questions)}")
+        print(f"\n  â†’ Log decisions with --event \"Established: ...\"")
+        print(f"    Log questions with --question \"...\"")
+        
+    else:
+        # FRESH / NO MODE
+        print("MODE: Ready")
+        print(f"\n  For fiction: search 'Writing Stories' first")
+        print(f"  For lore: set working doc with --scene \"document name\"")
+        print(f"  For scenario: run scenario_initiator.py --draw")
+    
+    print("â”€" * 60)
+    print("NEXT TURN: python3 input_check.py \"<user's message>\"")
+    
+    # Generate and display turn marker for compaction detection
+    import hashlib
+    from datetime import datetime
+    marker = hashlib.md5(datetime.now().isoformat().encode()).hexdigest()[:8]
+    print(f"TURN_MARKER: {marker}")
+    print("â”€" * 60)
+
+# =============================================================================
 # CACHE MANAGEMENT
 # =============================================================================
 
@@ -139,7 +230,16 @@ def load_cache():
                 return json.load(f)
         except (json.JSONDecodeError, IOError):
             pass
-    return {"glossary": {}, "characters": {}, "notes": []}
+    return {
+        "glossary": {}, "characters": {}, "notes": [],
+        # Cantilever mechanism for scenario building
+        "card": None,           # {"name": "Judgement", "meaning": "reckoning, awakening"}
+        "seed": None,           # {"term": "Palace Hotel", "category": "location"}
+        "central_question": None,  # The thematic question
+        "gun": None,            # The Chekov's gun
+        "constraints": [],      # Accumulated constraints from each section
+        "synthesis": None       # The answer: how card resolves through gun
+    }
 
 def save_cache(cache):
     """Save the session cache.
@@ -203,7 +303,44 @@ def show_cache():
     
     output = []
     
-    # Current scene first - where are we right now
+    # Cantilever status first - this is the structural spine
+    has_cantilever = cache.get("card") or cache.get("seed") or cache.get("central_question")
+    if has_cantilever:
+        output.append("â•" * 60)
+        output.append("  CANTILEVER â€” SCENARIO BUILDING")
+        output.append("â•" * 60)
+        
+        if cache.get("card"):
+            c = cache["card"]
+            output.append(f"  CARD: {c.get('name', '?')} ({c.get('meaning', '?')})")
+        
+        if cache.get("seed"):
+            s = cache["seed"]
+            output.append(f"  SEED: {s.get('term', '?')} [{s.get('category', '?')}]")
+        
+        if cache.get("central_question"):
+            output.append(f"  CENTRAL QUESTION: {cache['central_question']}")
+        
+        if cache.get("gun"):
+            output.append(f"  GUN: {cache['gun']}")
+        
+        constraints = cache.get("constraints", [])
+        if constraints:
+            output.append(f"  CONSTRAINTS: {len(constraints)} logged")
+            for i, c in enumerate(constraints, 1):
+                output.append(f"    {i}. {c}")
+        
+        if cache.get("synthesis"):
+            output.append(f"  SYNTHESIS: âœ“ complete")
+            output.append(f"    â†’ {cache['synthesis']}")
+        elif cache.get("card") and cache.get("gun"):
+            output.append(f"  SYNTHESIS: pending")
+            output.append(f"    â†’ Run --act-break when Introduction is complete")
+        
+        output.append("â•" * 60)
+        output.append("")
+    
+    # Current scene - where are we right now
     if cache.get("scene"):
         output.append(f"CURRENT SCENE: {cache['scene']}")
         
@@ -236,7 +373,7 @@ def show_cache():
                     if depth >= MAX_ANCESTRY_DEPTH:
                         print(f"Warning: Maximum ancestry depth reached, possible circular reference", file=sys.stderr)
                 if ancestors:
-                    output.append(f"  PATH: {' → '.join(reversed(ancestors))} → {entry.term}")
+                    output.append(f"  PATH: {' â†’ '.join(reversed(ancestors))} â†’ {entry.term}")
                 
                 # Collect RAG docs
                 rag_docs = []
@@ -256,7 +393,7 @@ def show_cache():
                                 rag_docs.append(doc)
                 
                 if rag_docs:
-                    output.append(f"  📚 PULL RAG:")
+                    output.append(f"  ðŸ“š PULL RAG:")
                     for doc in rag_docs[:3]:
                         output.append(f"     project_knowledge_search(\"{doc}\")")
                 
@@ -421,31 +558,31 @@ def set_scene(scene_text):
                     print(f"Warning: Maximum ancestry depth reached, possible circular reference", file=sys.stderr)
             
             if ancestors:
-                print(f"\n  PATH: {' → '.join(reversed(ancestors))} → {entry.term}")
+                print(f"\n  PATH: {' â†’ '.join(reversed(ancestors))} â†’ {entry.term}")
             
             if rag_docs:
-                print(f"\n  📚 RAG DOCS:")
+                print(f"\n  ðŸ“š RAG DOCS:")
                 for doc in rag_docs[:3]:  # Limit to top 3
                     print(f"     project_knowledge_search(\"{doc}\")")
             
             if lf.castes_present:
-                print(f"\n  👥 CASTES: {', '.join(lf.castes_present)}")
+                print(f"\n  ðŸ‘¥ CASTES: {', '.join(lf.castes_present)}")
             
             if lf.borders:
-                print(f"\n  🚪 EXITS:")
+                print(f"\n  ðŸšª EXITS:")
                 for direction, locations in lf.borders.items():
                     print(f"     {direction}: {', '.join(locations)}")
             
             if lf.children:
-                print(f"\n  📍 HERE:")
+                print(f"\n  ðŸ“ HERE:")
                 for child in lf.children[:5]:
-                    print(f"     • {child}")
+                    print(f"     â€¢ {child}")
             
             if lf.hazards:
-                print(f"\n  ⚠️ HAZARDS: {', '.join(lf.hazards)}")
+                print(f"\n  âš ï¸ HAZARDS: {', '.join(lf.hazards)}")
             
             if lf.temporal_effects:
-                print(f"\n  ⏰ TEMPORAL: {lf.temporal_effects}")
+                print(f"\n  â° TEMPORAL: {lf.temporal_effects}")
             
             print(f"\n{'=' * 50}")
             save_cache(cache)
@@ -486,27 +623,27 @@ def show_where():
     
     if lf:
         if lf.borders:
-            print(f"\n  🚪 YOU CAN GO:")
+            print(f"\n  ðŸšª YOU CAN GO:")
             for direction, locations in lf.borders.items():
                 for loc in locations:
                     loc_entry = G.location_lookup(loc)
                     if loc_entry:
-                        print(f"     {direction} → {loc} ({loc_entry.short})")
+                        print(f"     {direction} â†’ {loc} ({loc_entry.short})")
                     else:
-                        print(f"     {direction} → {loc}")
+                        print(f"     {direction} â†’ {loc}")
         
         if lf.children:
-            print(f"\n  📍 WITHIN THIS AREA:")
+            print(f"\n  ðŸ“ WITHIN THIS AREA:")
             for child in lf.children:
                 child_entry = G.location_lookup(child)
                 if child_entry and child_entry.location_features:
                     ctype = child_entry.location_features.location_type.value
-                    print(f"     • {child} [{ctype}]")
+                    print(f"     â€¢ {child} [{ctype}]")
                 else:
-                    print(f"     • {child}")
+                    print(f"     â€¢ {child}")
         
         if lf.castes_present:
-            print(f"\n  👥 PEOPLE HERE: {', '.join(lf.castes_present)}")
+            print(f"\n  ðŸ‘¥ PEOPLE HERE: {', '.join(lf.castes_present)}")
     
     print(f"\n{'=' * 50}")
 
@@ -518,6 +655,131 @@ def add_question(question_text):
     cache["questions"].append(question_text)
     save_cache(cache)
     print(f"(question logged)")
+
+# =============================================================================
+# CANTILEVER MECHANISM
+# =============================================================================
+
+def set_card(name, meaning):
+    """Set the tarot card that provides thematic direction."""
+    cache = load_cache()
+    cache["card"] = {"name": name, "meaning": meaning}
+    save_cache(cache)
+    print(f"CARD SET: {name} ({meaning})")
+    print(f"\nAs you build each section, ask: how does this embody or challenge the theme?")
+
+def set_seed(term, category="unknown"):
+    """Set the seed term that provides concrete grounding."""
+    cache = load_cache()
+    cache["seed"] = {"term": term, "category": category}
+    save_cache(cache)
+    print(f"SEED SET: {term} [{category}]")
+
+def set_central_question(question):
+    """Set THE central thematic question the scenario explores."""
+    cache = load_cache()
+    cache["central_question"] = question
+    save_cache(cache)
+    print(f"CENTRAL QUESTION SET:")
+    print(f"  {question}")
+
+def set_gun(gun_text):
+    """Set the Chekov's gunâ€”the physical thing that will force resolution."""
+    cache = load_cache()
+    cache["gun"] = gun_text
+    save_cache(cache)
+    print(f"GUN SET: {gun_text}")
+    print(f"\nThis is what forces the synthesis. The answer lives here.")
+
+def add_constraint(constraint_text):
+    """Add a constraining fact that narrows possible resolutions."""
+    cache = load_cache()
+    if "constraints" not in cache:
+        cache["constraints"] = []
+    cache["constraints"].append(constraint_text)
+    save_cache(cache)
+    count = len(cache["constraints"])
+    print(f"(constraint #{count} added)")
+    print(f"  â†’ {constraint_text}")
+
+def run_act_break():
+    """
+    Trigger the act break. Display all constraints and require synthesis.
+    The synthesis question is: How does [CARD] resolve through [GUN]?
+    """
+    cache = load_cache()
+    
+    card = cache.get("card", {})
+    seed = cache.get("seed", {})
+    central_q = cache.get("central_question")
+    gun = cache.get("gun")
+    constraints = cache.get("constraints", [])
+    
+    print("=" * 70)
+    print("  ACT BREAK â€” SYNTHESIS REQUIRED")
+    print("=" * 70)
+    print()
+    
+    if card:
+        print(f"CARD: {card.get('name', '?')} ({card.get('meaning', '?')})")
+    else:
+        print("âš ï¸  NO CARD SET (use --card)")
+    
+    if seed:
+        print(f"SEED: {seed.get('term', '?')} [{seed.get('category', '?')}]")
+    
+    if central_q:
+        print(f"\nCENTRAL QUESTION:")
+        print(f"  {central_q}")
+    else:
+        print("\nâš ï¸  NO CENTRAL QUESTION SET (use --central-question)")
+    
+    if gun:
+        print(f"\nTHE GUN: {gun}")
+    else:
+        print("\nâš ï¸  NO GUN SET (use --gun)")
+    
+    print()
+    if constraints:
+        print("ACCUMULATED CONSTRAINTS:")
+        for i, c in enumerate(constraints, 1):
+            print(f"  {i}. {c}")
+        print()
+    else:
+        print("âš ï¸  NO CONSTRAINTS LOGGED")
+        print("   Use --constrain to log facts that narrow the resolution.")
+        print()
+    
+    print("-" * 70)
+    print("SYNTHESIS QUESTION:")
+    print()
+    if card and gun:
+        print(f"  How does {card.get('name', '[CARD]')} resolve through {gun}?")
+    else:
+        print(f"  How does [CARD THEME] resolve through [THE GUN]?")
+    print()
+    print("  The answer must cohere with ALL constraints above.")
+    print("  If you've built correctly, only a narrow band of answers fit.")
+    print("-" * 70)
+    print()
+    print("To complete synthesis:")
+    print("  --synthesize \"your answer\"")
+    print()
+
+def set_synthesis(answer_text):
+    """Record the synthesis answerâ€”how the card resolves through the gun."""
+    cache = load_cache()
+    cache["synthesis"] = answer_text
+    save_cache(cache)
+    print("=" * 70)
+    print("  SYNTHESIS COMPLETE")
+    print("=" * 70)
+    print()
+    print(f"Answer: {answer_text}")
+    print()
+    print("You may now write the Mystery and Trajectories sections.")
+    print("The answer above constrains what's possible.")
+    print("=" * 70)
 
 def go_to_location(destination):
     """Move to an adjacent location or a named location."""
@@ -609,7 +871,7 @@ def show_caste_info(caste_name):
         if cf.physical_traits:
             print(f"\n  Key traits:")
             for trait in cf.physical_traits[:5]:
-                print(f"    • {trait}")
+                print(f"    â€¢ {trait}")
         
         if cf.current_role:
             print(f"\n  Current role: {cf.current_role}")
@@ -618,10 +880,10 @@ def show_caste_info(caste_name):
             print(f"  Found in: {', '.join(cf.distribution[:3])}")
         
         if cf.health_issues:
-            print(f"\n  ⚠️ Health: {', '.join(cf.health_issues[:2])}")
+            print(f"\n  âš ï¸ Health: {', '.join(cf.health_issues[:2])}")
     
     if entry.rag_pointer:
-        print(f"\n📚 For more: project_knowledge_search(\"{entry.rag_pointer.split(',')[0].strip()}\")")
+        print(f"\nðŸ“š For more: project_knowledge_search(\"{entry.rag_pointer.split(',')[0].strip()}\")")
     
     print(f"\n{'=' * 50}")
 
@@ -648,7 +910,7 @@ def show_term_info(term):
                 # Show what we found
                 print(f"No exact entry for '{term}'. Related entries:")
                 for r in results[:5]:
-                    print(f"  • {r.term} [{r.category}]: {r.short}")
+                    print(f"  â€¢ {r.term} [{r.category}]: {r.short}")
                 return
     
     if not entry:
@@ -741,7 +1003,7 @@ def lookup_glossary_subprocess(term):
         cat_match = re.search(r'\[(\w+)\]', ln)
         if cat_match and category is None:
             category = cat_match.group(1)
-        elif category and ln.strip() and not ln.startswith('=') and not ln.startswith('→'):
+        elif category and ln.strip() and not ln.startswith('=') and not ln.startswith('â†’'):
             description = ln.strip()
             break
     
@@ -772,7 +1034,8 @@ def format_location_brief(entry):
 # MAIN
 # =============================================================================
 
-def main():
+def _main_inner():
+    """Inner main function - actual command handling."""
     args = sys.argv[1:]
     
     # Handle special commands
@@ -782,7 +1045,7 @@ def main():
     
     if '--clear' in args:
         clear_cache()
-        return
+        return False  # Don't show reminder after clear
     
     if '--where' in args:
         show_where()
@@ -884,13 +1147,103 @@ def main():
             print("Usage: input_check.py --resolve 1  (removes question #1)")
         return
     
+    # Cantilever mechanism commands
+    if '--card' in args:
+        idx = args.index('--card')
+        remaining = args[idx + 1:]
+        if len(remaining) >= 2:
+            name = remaining[0]
+            meaning = ' '.join(remaining[1:])
+            set_card(name, meaning)
+        else:
+            print("Usage: input_check.py --card \"Judgement\" \"reckoning, awakening\"")
+        return
+    
+    if '--seed' in args:
+        idx = args.index('--seed')
+        remaining = args[idx + 1:]
+        if len(remaining) >= 1:
+            term = remaining[0]
+            category = remaining[1] if len(remaining) > 1 else "unknown"
+            set_seed(term, category)
+        else:
+            print("Usage: input_check.py --seed \"Palace Hotel\" location")
+        return
+    
+    if '--central-question' in args:
+        idx = args.index('--central-question')
+        remaining = args[idx + 1:]
+        if remaining:
+            set_central_question(' '.join(remaining))
+        else:
+            print("Usage: input_check.py --central-question \"What do you owe the past?\"")
+        return
+    
+    if '--gun' in args:
+        idx = args.index('--gun')
+        remaining = args[idx + 1:]
+        if remaining:
+            set_gun(' '.join(remaining))
+        else:
+            print("Usage: input_check.py --gun \"the closed wing\"")
+        return
+    
+    if '--constrain' in args:
+        idx = args.index('--constrain')
+        remaining = args[idx + 1:]
+        if remaining:
+            add_constraint(' '.join(remaining))
+        else:
+            print("Usage: input_check.py --constrain \"Kira refuses to use Compulsion\"")
+        return
+    
+    if '--act-break' in args:
+        run_act_break()
+        return
+    
+    if '--synthesize' in args:
+        idx = args.index('--synthesize')
+        remaining = args[idx + 1:]
+        if remaining:
+            set_synthesis(' '.join(remaining))
+        else:
+            print("Usage: input_check.py --synthesize \"The wing contains records showing...\"")
+        return
+    
     # Handle --flush (compaction recovery)
     do_flush = '--flush' in args
     if do_flush:
         args.remove('--flush')
-        print("=== COMPACTION RECOVERY ===")
+        print("=" * 60)
+        print("  COMPACTION RECOVERY â€” YOUR MEMORY IS UNRELIABLE")
+        print("=" * 60)
+        print()
         show_cache()
-        print("===========================\n")
+        
+        # Recovery checklist based on state
+        cache = load_cache()
+        print("\n" + "â”€" * 60)
+        print("RECOVERY CHECKLIST:")
+        
+        rerun_terms = []
+        if cache.get("rag_results"):
+            rerun_terms = [t for t, d in cache["rag_results"].items() if d.get("rerun")]
+        
+        if rerun_terms:
+            print(f"  â–¡ Search RAG for: {', '.join(rerun_terms)}")
+        
+        if cache.get("scene_location"):
+            print(f"  â–¡ Search RAG for current scene: {cache['scene_location']}")
+        elif cache.get("scene"):
+            print(f"  â–¡ Verify current context: {cache.get('scene', '')[:40]}")
+        
+        if cache.get("card") and not cache.get("synthesis"):
+            print(f"  â–¡ Review constraints before continuing scenario build")
+        
+        print(f"  â–¡ Do NOT trust memory of proper nouns or plot points")
+        print(f"  â–¡ Ask user to confirm state if uncertain")
+        print("â”€" * 60)
+        print()
     
     text = ' '.join(args) if args else ''
     if not text.strip():
@@ -1019,7 +1372,7 @@ def main():
                 if entry.details:
                     print(f"    {entry.details}")
                 if entry.rag_pointer:
-                    print(f"    → RAG: {entry.rag_pointer.split(',')[0].strip()}")
+                    print(f"    â†’ RAG: {entry.rag_pointer.split(',')[0].strip()}")
             else:
                 print(f"  {term}: {entry.short if entry else '?'}")
                 if entry and entry.details:
@@ -1078,14 +1431,21 @@ def main():
     
     # Helpful tips based on what was found
     if location_hits and not cache.get("scene_location"):
-        print("\n💡 TIP: Use --scene <location> to set current scene and see exits/RAG docs")
+        print("\nðŸ’¡ TIP: Use --scene <location> to set current scene and see exits/RAG docs")
     elif caste_hits:
-        print("\n💡 TIP: Use --caste <name> for detailed caste info")
+        print("\nðŸ’¡ TIP: Use --caste <name> for detailed caste info")
     
     # Update seen and save cache
     seen |= words
     save_seen(seen)
     save_cache(cache)
+
+def main():
+    """Main entry point - runs command then prints next-turn reminder."""
+    result = _main_inner()
+    # Print reminder unless explicitly suppressed (e.g., after --clear)
+    if result is not False:
+        print_next_turn_reminder()
 
 if __name__ == '__main__':
     main()

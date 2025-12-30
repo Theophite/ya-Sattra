@@ -20,7 +20,7 @@ MORNING_EVENTS = {
         "Senna is at her workbench already, bent over something small. Quiet swearing.",
         "Senna is making breakfast downstairs. You smell it.",
         "Senna is getting the children dressed. She needs you to leave.",
-        "Senna is still in bedââ‚¬”unusual. She says she's fine.",
+        "Senna is still in bedÃ¢Ã¢â€šÂ¬â€unusual. She says she's fine.",
         "Senna has already left for an early errand. A note on the table.",
         "Senna is talking quietly to a neighbor at the door.",
         "The smell of coca tea brewing. Senna set some steeping before you woke.",
@@ -31,7 +31,7 @@ MORNING_EVENTS = {
     "building_sounds": [
         "The orb-lights outside are flickering on, one by one. The hum rises.",
         "Mutterers in the walls. Scratching, then a faint whirr. Fixing something.",
-        "Water rushing through pipes somewhereââ‚¬”more than usual.",
+        "Water rushing through pipes somewhereÃ¢Ã¢â€šÂ¬â€more than usual.",
         "A deep thrum from below. Machinery powering up. You've heard it before.",
         "A sound you don't recognize. Metallic. Rhythmic. Then it stops.",
         "Footsteps on the stairs. Someone going to work early.",
@@ -40,7 +40,7 @@ MORNING_EVENTS = {
     ],
     "outside": [
         "The market is already loud. Vendors setting up.",
-        "Fog today. The air is thickââ‚¬”too many bodies, too much water boiling for noodles. It has to go somewhere. Water beads on your window.",
+        "Fog today. The air is thickÃ¢Ã¢â€šÂ¬â€too many bodies, too much water boiling for noodles. It has to go somewhere. Water beads on your window.",
         "Someone is shouting in the terrace below. An argument.",
         "The bronze column across the gap is catching the morning light. Beautiful, actually.",
         "A beamcrawler hangs from a harness right outside your window, fixing one of the orbs. You can see the soles of their feet.",
@@ -82,7 +82,7 @@ def format_morning(elements):
     """Format morning elements for display."""
     lines = ["THIS MORNING:", ""]
     for element in elements:
-        lines.append(f"ââ‚¬Â¢ {element}")
+        lines.append(f"Ã¢Ã¢â€šÂ¬Ã‚Â¢ {element}")
     return "\n".join(lines)
 
 
