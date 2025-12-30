@@ -416,3 +416,34 @@ These documents were already well-structured with internal navigation. Added YAM
 **Total with front matter: 31 files**
 
 **Grand total restructured: 77 files**
+
+---
+
+## Glossary-Grounded Terminology Corrections
+
+Used `glossary.py` tool to verify canonical terminology in front matter and corrected inconsistencies.
+
+### Corrections Made:
+1. **"Eighth Oracle" → "Eighth Testament"** - The Testament is the glossary entry, not the Oracle
+   - Files corrected: Bureau_-_Lens__Information_.md, Religion_-_Oracle_Cult.md, Caste_-_Technical_Castes_and_Far_Ib.md, Region_-_Asovoe_and_the_Avouvar.md, Mysteries_-_The_Emperor_and_the_Singularity.md
+
+2. **"Medials" → "Medial Castes"** - Canonical glossary term includes "Castes"
+   - Files corrected: Caste_-_Technical_Castes_and_Far_Ib.md, Region_-_Asovoe_and_the_Avouvar.md
+
+3. **"Republic of Ganat" → "Ganat"** - Simple "Ganat" is the glossary entry
+   - Files corrected: Region_-_Republic_of_Ganat.md, Organization_-_Cloud_Temple_Band.md, Culture_-_Food_by_Polity.md, Guide_-_Visual_Design_and_Architecture.md
+
+4. **"Ironback" → "Ironbone"** - Canonical caste term
+   - Files corrected: Bureau_-_Sword__Military_.md, Caste_-_Type_Specimens_Catalog.md
+
+5. **"Companion Guild" → "Companions Guild"** - Canonical org term (with 's')
+   - Files corrected: Bureau_-_Sword__Military_.md, City_-_Ya-Don__Industrial_Center_.md, Organization_-_Cloud_Temple_Band.md
+
+6. **"Testament" → "Testaments"** - Canonical concept term (plural)
+   - Files corrected: Religion_-_Oracle_Cult.md
+
+### Methodology:
+- Used `python3 glossary.py scan <file>` to identify terms
+- Used `python3 glossary.py lookup <term>` to verify canonical forms
+- Corrected front matter glossary_terms lists to use exact glossary entries
+- Body text was NOT changed (contextual usage may differ from canonical terms)
