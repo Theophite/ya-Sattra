@@ -22,7 +22,7 @@ entries:
     short: Unclassified caste with scrambled heritage from multiple engineered lineages.
     details: ""
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Thousand Kingdoms, Junta of Ogon, Gorin Eight-Elk]
+    related: [Warband, Thousand Kingdoms, Junta of Ogon, Gorin Eight-Elk]
     caste_features:
       morphology: variable
       scale: variable
@@ -8373,7 +8373,7 @@ entries:
       redistribution. Warbands control territory through mounted combat; Kma-Dhol (40,000 
       in Ogon) operate autofactories openly.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Akama, Junta of Ogon, Ogon, Kma-Dhol, Malpais, tabanak]
+    related: [Warband, Akama, Junta of Ogon, Ogon, Kma-Dhol, Malpais, tabanak]
     location_features:
       level: territory
       location_type: polity
@@ -10167,7 +10167,7 @@ entries:
       who each partially own them. They survive not through strength but through being too
       useful to destroy and too compromised to threaten anyone.
     rag_pointer: The Companions Guild
-    related: [Sickly, Mutterers, Kalbats, Semi-Sentient, Bureau of the Rod, Bureau of the Creche, Cathedral of the Plea]
+    related: [Guild, Sickly, Mutterers, Kalbats, Semi-Sentient, Bureau of the Rod, Bureau of the Creche, Cathedral of the Plea]
   # ─── end Companions Guild ───
 
   # ═══ Hanged Men ═══
@@ -10328,7 +10328,7 @@ entries:
       Auction floor runs three-hour cycles; masters bid through coded hand signals. Controls
       sales; the Pipefitters control labor.
     rag_pointer: The Iron Yards
-    related: [Iron Yards, Salvage Dome, Pipefitters Union, Yen Tam Beneficial Society, Bureau of the Rod]
+    related: [Guild, Iron Yards, Salvage Dome, Pipefitters Union, Yen Tam Beneficial Society, Bureau of the Rod]
   # ─── end Salvage Guild ───
 
   # ═══ Yen Tam Beneficial Society ═══
@@ -10438,6 +10438,93 @@ entries:
     related: [Sewer-Fishers, Lantern-Heaps, Ridge, Penthouse Block]
   # ─── end Cho ───
 
+  # ═══ Church-Guild ═══
+  Church-Guild:
+    category: concept
+    short: "Ya-Don's fusion of labor union and religious order—work is worship, and the union is the congregation."
+    details: |
+      Ya-Don's distinctive economic institutions merge religious authority with labor power.
+      Workers join organizations that function simultaneously as trade unions, Penitent
+      parishes, and mutual aid societies. Dues fund both collective bargaining and religious
+      observance. The theological framework ("sacred labor," works-based penitence) gives
+      economic arrangements moral weight unavailable to purely secular unions.
+
+      Major Church-Guilds:
+      - Order of St. Akhmet (~40,000 members): Primary Furnace labor union, ~6M obols annual
+        revenue, controls all complex technology production
+      - Covenant of Saint Aureline (~35,000 members): Logistics cartel, ~6-8M obols annual
+        revenue, controls all cargo movement
+      - Unwritten-Axiom Parish (~4,000 members): Elite deep-section craftsmen, heterodox
+        theology treating incomprehension as sacred
+      - Cinder-Sifters (~3,000 members): Waste processing doubling as smuggling operation
+
+      The Furnace Board coordinates between Church-Guilds, Aureate families, the Bureau of
+      the Rod, and the Arch-Curacy. No party can dominate; corporatist negotiation is
+      structural.
+
+      Wages compress due to theological constraints: Forge-Master earns 700-850 obols/month
+      while journeymen earn 280-350 obols—far less inequality than comparable enterprises.
+      The es-Etaie capitation arrangement (one family pays Church tax for 40,000 workers)
+      exemplifies non-capitalist logic.
+    rag_pointer: "Ya-Don: Comprehensive Reference"
+    related:
+      - Order of St. Akhmet
+      - Covenant of Saint Aureline
+      - Unwritten-Axiom Parish
+      - Cinder-Sifters
+      - Furnace Board
+      - Sacred Labor
+      - ya-Don
+      - Penitent Church
+  # ─── end Church-Guild ───
+
+  # ═══ Warband ═══
+  Warband:
+    category: concept
+    short: "Akama military-economic unit—feeds, houses, arms members in exchange for loyalty and combat service."
+    details: |
+      The basic organizational unit of Akama society. Warbands merge military, economic, and
+      social functions: riders receive food, housing, equipment, and opportunity from their
+      Khan; in return they fight, raid, and maintain the Khan's honor. Obol conversion is
+      misleading—a rider "earning" 100 obols equivalent may be better provided than an
+      Imperial worker at 150/month because the warband supplies what he needs while the
+      Imperial must purchase everything.
+
+      Warbands scale from ~30 riders (personal retinue) to ~1,200 warriors (major Junta
+      member). Khan Ataru Blackfish exemplifies the larger end: ~800 warriors, ~70 vassals
+      controlling weir positions, commercial empire built on salmon. His annual revenue
+      equivalent of 400,000-600,000 obols flows through gambling redistribution—Ataru "loses"
+      at dice to subordinates who need resources.
+
+      Fixed tribute obligations distinguish Akama economics from charity. A vassal owes their
+      Khan regardless of fortune; bad salmon years force raiding, trading, or finding other
+      means. The Khan cannot excuse obligations without undermining the system that makes
+      obligation meaningful.
+
+      Warband membership provides:
+      - Housing (barracks when in Ogon, camps on trail)
+      - Food (communal meals)
+      - Equipment (warband issue, personalized over time)
+      - Horse (most valuable possession—gift marks favor)
+      - Opportunity (raids, trade expeditions, advancement through demonstrated capability)
+
+      Warband membership costs:
+      - Loyalty (personal, not institutional—good years produce loyalty, bad years desertion)
+      - Combat service (mounted warfare favors the young; what happens at 40?)
+      - Fortune theology acceptance (Standing in the Rain philosophy)
+    rag_pointer: "Economy: The Thousand Kingdoms"
+    related:
+      - Thousand Kingdoms
+      - Junta of Ogon
+      - Akama
+      - Ataru Blackfish
+      - Iron-Rain
+      - Imek Stone-Foot
+      - Tsoka Red Deer
+      - Grand Canal
+      - Malpais
+  # ─── end Warband ───
+
   # ═══ Many ═══
   Many:
     category: organization
@@ -10478,7 +10565,7 @@ entries:
       facilitation, and institutional memory. Maintains archives with documentation 
       from before the current calendar, written in scripts requiring specialist translation.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
-    related: [Processional Tower, Medina Quarter]
+    related: [Guild, Processional Tower, Medina Quarter]
   # ─── end Processional Guild ───
 
   # ═══ Booksellers' Guild ═══
@@ -10491,7 +10578,7 @@ entries:
       scriptoriums. Twenty-three licensed shops. Retail monopoly enforced by immediate 
       collective action against unlicensed sellers.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
-    related: ["Booksellers' Row", Medina Quarter]
+    related: [Guild, "Booksellers' Row", Medina Quarter]
   # ─── end Booksellers' Guild ───
 
   # ═══ Opticians' Guild ═══
@@ -10504,7 +10591,7 @@ entries:
       actual production is painstaking handwork. Controls monopoly on optical instruments 
       within chartered boundaries.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
-    related: [Lens-Grinders' Courtyard, Alley of Lenses, Medina Quarter]
+    related: [Guild, Lens-Grinders' Courtyard, Alley of Lenses, Medina Quarter]
   # ─── end Opticians' Guild ───
 
   # ═══ Stevedores' Guild ═══
@@ -10518,8 +10605,49 @@ entries:
       ancient agreement with Bureau of the Coin, adjusted every seven years. Controls both 
       Medina and Antediluvian waterfronts.
     rag_pointer: "The Rift: Ya-Sattra's Harbor District"
-    related: [Rift, Medina Quarter, Bureau of the Coin]
+    related: [Guild, Rift, Medina Quarter, Bureau of the Coin]
   # ─── end Stevedores' Guild ───
+
+  # ═══ Guild ═══
+  Guild:
+    category: concept
+    short: "Chartered monopolies controlling specific trades—charters designed for automated production, now operated by human hands."
+    details: |
+      Imperial trade guilds hold exclusive rights to produce or sell specific goods within
+      defined territories. Charters were granted millennia ago by authority that no longer
+      functions to revoke them, designed for automated facilities that no longer exist.
+      Human workers now perform functions designed for machines, following charter language
+      that specifies "output tolerances of 0.3%" impossible for handcraft.
+
+      Guilds are local institutions with defined territorial boundaries, unlike empire-wide
+      organizations (Salvage Guild, Companions Guild) that hold special charters. A typical
+      guild master with twelve employees might gross 8,000-12,000 obols annually. Guild
+      pricing includes monopoly markup: a guild-made shirt costs 3-4 obols and lasts years;
+      unlicensed equivalent costs 1-1.5 obols but wears out in months.
+
+      Examples by territory:
+      - Medina Quarter: Clothiers' Guild, Booksellers' Guild, Opticians' Guild
+      - Rift: Gondoliers' Guild, Stevedores' Guild
+      - Inner City: Water Guild
+      - Iron Yards: Joiners' Guild, Armorers' Guild
+
+      The Salvage Guild and Companions Guild are special cases—empire-wide charters with
+      different economic structures than local trade guilds.
+    rag_pointer: "The Economy"
+    related:
+      - Charter
+      - Clothiers' Guild
+      - Booksellers' Guild
+      - Opticians' Guild
+      - Gondoliers' Guild
+      - Stevedores' Guild
+      - Joiners' Guild
+      - Armorers' Guild
+      - Water Guild
+      - Salvage Guild
+      - Companions Guild
+      - Processional Guild
+  # ─── end Guild ───
 
   # ═══ Gondoliers' Guild ═══
   Gondoliers' Guild:
@@ -10531,7 +10659,7 @@ entries:
       in the Guild. Boats hug the shores rather than crossing the canyon's depths. 
       Serves those avoiding bridge status declarations.
     rag_pointer: "The Rift: Ya-Sattra's Harbor District"
-    related: [Rift, Gondoliers' Steps]
+    related: [Guild, Rift, Gondoliers' Steps]
   # ─── end Gondoliers' Guild ───
 
   # ═══ es-Tsay ═══
@@ -10791,7 +10919,7 @@ entries:
       Echo (internal surveillance), Lattice (Jargon mathematics, ya-Tsatsan-trained). 
       Culture: intelligent, politically cautious, professionally paranoid.
     rag_pointer: "Bureau of the Lens: Complete Documentation"
-    related: [Satara, Second Whorl, Grey Sheet, White Sheet]
+    related: [Bureau, Satara, Second Whorl, Grey Sheet, White Sheet]
   # ─── end Bureau of the Lens ───
 
   # ═══ Bureau of the Creche ═══
@@ -10805,7 +10933,7 @@ entries:
       Reproductive Sanction, Genomic Licensing, Nutritional Design, Developmental Safety, 
       Cognitive Integrity, Highborn Preservation. Conservative coalition seeks Charter reversal.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
-    related: [Satara, Bureau of the Scale, City-of-Glass Charter]
+    related: [Bureau, Satara, Bureau of the Scale, City-of-Glass Charter]
   # ─── end Bureau of the Creche ───
 
   # ═══ Bureau of the Scale ═══
@@ -10819,7 +10947,7 @@ entries:
       Testament: apply precedent exactly, truth emerges. Personal judgment is corruption. 
       Judge-Executioners, courts, registrars. Rite of the Perfect Ledger for promotion.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
-    related: [Satara, Bureau of the Creche, City-of-Glass Charter]
+    related: [Bureau, Satara, Bureau of the Creche, City-of-Glass Charter]
   # ─── end Bureau of the Scale ───
 
   # ═══ Bureau of the Rod ═══
@@ -10833,7 +10961,7 @@ entries:
       Tension (power grid), Cloister Liaison Office. Reform faction center—advocates social 
       programs and consciousness protections.
     rag_pointer: "Bureau of the Rod Overview"
-    related: [Satara, Mutterers, Companions Guild]
+    related: [Bureau, Satara, Mutterers, Companions Guild]
   # ─── end Bureau of the Rod ───
 
   # ═══ Bureau of the Sword ═══
@@ -10847,8 +10975,39 @@ entries:
       Creche-controlled supplements—perpetual jurisdiction dispute. Military commanders 
       resent Lens redaction of after-action reports.
     rag_pointer: "Bureau of the Sword"
-    related: [Satara, Warborn, Bureau of the Creche]
+    related: [Bureau, Satara, Warborn, Bureau of the Creche]
   # ─── end Bureau of the Sword ───
+
+  # ═══ Bureau ═══
+  Bureau:
+    category: concept
+    short: "Imperial administrative organs—each controls specific domain through patent-backed authority."
+    details: |
+      Six major Bureaus divide Imperial governance: the Rod (infrastructure, technology),
+      the Lens (information, surveillance), the Coin (taxation, finance), the Creche
+      (population, castes), the Scale (justice, arbitration), and the Sword (military).
+      Each Bureau operates through Institutes handling specific functions.
+
+      Bureau authority derives from Satara delegation and patent enforcement. Competition
+      between Bureaus creates jurisdictional gaps where informal arrangements flourish.
+      Bureau clerks earn 350-700 obols/month depending on seniority; temporal hazard
+      positions (Second Whorl assignments) command premiums.
+
+      The Bureaus cannot act without each other: the Rod cannot build without Creche-managed
+      labor; the Sword cannot fight without Rod-maintained equipment; the Lens cannot
+      surveil without Coin-funded operations. This interdependence prevents any single
+      Bureau from dominating.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related:
+      - Bureau of the Rod
+      - Bureau of the Lens
+      - Bureau of the Coin
+      - Bureau of the Creche
+      - Bureau of the Scale
+      - Bureau of the Sword
+      - Satara
+      - Patent
+  # ─── end Bureau ───
 
   # ═══ Bureau of the Coin ═══
   Bureau of the Coin:
@@ -10861,7 +11020,7 @@ entries:
       Corruption well-documented but rarely prosecuted because prosecution requires Coin-controlled 
       resources. Too dangerous to fight directly.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
-    related: [Satara, Aureate, obol]
+    related: [Bureau, Satara, Aureate, obol]
   # ─── end Bureau of the Coin ───
 
   # ═══ City-of-Glass Charter ═══
@@ -10902,7 +11061,7 @@ entries:
       bases, different vassals, different interests. The coordination produces stability
       without systematic governance.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Ogon, The Slab, Thousand Kingdoms, Akama, Bal Tama, Grand Canal]
+    related: [Warband, Ogon, The Slab, Thousand Kingdoms, Akama, Bal Tama, Grand Canal]
   # ─── end Junta of Ogon ───
 
   # ═══ Som es-Vol ═══
@@ -10918,7 +11077,7 @@ entries:
       was deliberately tortured into this state by his own family. Communicates through 
       written notes. The Tamas maintain deaf warband specifically because of him.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Junta of Ogon, Highborn, Compulsion, es-Vol]
+    related: [Warband, Junta of Ogon, Highborn, Compulsion, es-Vol]
   # ─── end Som es-Vol ───
 
   # ═══ Tsoka Red Deer ═══
@@ -10936,7 +11095,7 @@ entries:
       empire. They've fought three duels; Tsoka won all three. Will likely kill 
       each other eventually.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Junta of Ogon, Ogon, Ataru Blackfish]
+    related: [Warband, Junta of Ogon, Ogon, Ataru Blackfish]
   # ─── end Tsoka Red Deer ───
 
   # ═══ Ataru Blackfish ═══
@@ -10953,7 +11112,7 @@ entries:
       sculpture, supports libraries. Structural conflict with Tsoka's protection 
       contracts will likely end in one killing the other.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Junta of Ogon, Ogon, Tsoka Red Deer]
+    related: [Warband, Junta of Ogon, Ogon, Tsoka Red Deer]
   # ─── end Ataru Blackfish ───
 
   # ═══ Bal Tama ═══
@@ -10970,7 +11129,7 @@ entries:
       smoothly. Secret Penitent practice contradicts Akama values but he doesn't 
       examine contradictions. Friendly with everyone, genuinely likes Imek.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Junta of Ogon, Ogon, Tama Family]
+    related: [Warband, Junta of Ogon, Ogon, Tama Family]
   # ─── end Bal Tama ───
 
   # ═══ Iron-Rain ═══
@@ -10987,7 +11146,7 @@ entries:
       just unbeatable. Obsessed with people who rise above station through effort. 
       In relationship with Imek; they're pursuing genetic interventions to produce heir.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Junta of Ogon, Ogon, Ironbone, Warborn, Imek Stone-Foot]
+    related: [Warband, Junta of Ogon, Ogon, Ironbone, Warborn, Imek Stone-Foot]
   # ─── end Iron-Rain ───
 
   # ═══ Imek Stone-Foot ═══
@@ -11011,7 +11170,7 @@ entries:
       Mutterer choir, accumulating archaeotech. Produces light rail carbines 
       (Imek-pattern), portable capacitor packs, coil assemblies for weapon repair.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Junta of Ogon, Ogon, Iron-Rain, Vey Nine Birds, Culverin, Avouvar]
+    related: [Warband, Junta of Ogon, Ogon, Iron-Rain, Vey Nine Birds, Culverin, Avouvar]
   # ─── end Imek Stone-Foot ───
 
   # ═══ Vey Nine Birds ═══
@@ -11029,7 +11188,7 @@ entries:
       pregnancy failure rate, genetic drift. Astrological surname indicates Malpais 
       cultural roots.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Junta of Ogon, Ogon, Kma-Dhol, Imek Stone-Foot]
+    related: [Warband, Junta of Ogon, Ogon, Kma-Dhol, Imek Stone-Foot]
   # ─── end Vey Nine Birds ───
 
   # ═══ Malpais War ═══
@@ -13069,7 +13228,7 @@ entries:
       CONTRAST WITH GANATI PRODUCTION: Republican kilits use industrial methods—machine 
       tools, standardized parts, assembly lines. Guild production remains craft-based, 
       one weapon at a time.
-    related: [Master Kavek Ossoreth, Journeyman Thess Morain, Journeyman Torven Garris, Furnaces]
+    related: [Guild, Master Kavek Ossoreth, Journeyman Thess Morain, Journeyman Torven Garris, Furnaces]
   # ─── end Armorers' Guild ───
 
   # ═══ Marcher Territories ═══
@@ -13140,7 +13299,7 @@ entries:
       Republican principles but cannot be disrupted without halting eastern trade entirely. 
       Members serve life terms. Records extend back to Three Laws documenting every allocation.
     rag_pointer: The Republic of Ganat
-    related: [Vegas Springs, Ganat, Kilit, Records]
+    related: [Guild, Vegas Springs, Ganat, Kilit, Records]
   # ─── end Water Guild ───
 
   # ═══ Khalim Charter ═══
@@ -13909,7 +14068,7 @@ entries:
       work commands Aureate prices. Apprenticeship takes seven years; journeyman 
       examination requires producing a piece to master standards.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
-    related: [Joiners' Block, Medina Quarter]
+    related: [Guild, Joiners' Block, Medina Quarter]
   # ─── end Joiners' Guild ───
 
   # ═══ Ganati Enclave ═══
@@ -14182,7 +14341,7 @@ entries:
       Order's Arch-Curate can invoke theological concerns to block actions violating Penitent
       principles, though this power is rarely exercised.
     rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [ya-Don, Furnaces, Sacred Labor, Particular Confession, Ashrat, Orevet, es-Etaie, Furnace Board]
+    related: [Church-Guild, ya-Don, Furnaces, Sacred Labor, Particular Confession, Ashrat, Orevet, es-Etaie, Furnace Board]
   # ─── end Order of St. Akhmet ───
 
   # ═══ Unwritten-Axiom Parish ═══
@@ -14195,7 +14354,7 @@ entries:
       critical processes. Chamber 7-Keth-Ascending contains mummified Medials. Controls 
       lector component production; no critical technology ships without their participation.
     rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [ya-Don, Furnaces, Verethani, Furnace Board]
+    related: [Church-Guild, ya-Don, Furnaces, Verethani, Furnace Board]
   # ─── end Unwritten-Axiom Parish ───
 
   # ═══ Covenant of Saint Aureline ═══
@@ -14218,7 +14377,7 @@ entries:
       a religious figure. Many members treat religious observance as union requirement rather
       than genuine faith. Transit Chapel operations serve ~8,000 weekly attendees.
     rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [ya-Don, Furnaces, Freightyard, Furnace Board, Threshold]
+    related: [Church-Guild, ya-Don, Furnaces, Freightyard, Furnace Board, Threshold]
   # ─── end Covenant of Saint Aureline ───
 
   # ═══ Cinder-Sifters ═══
@@ -14230,7 +14389,7 @@ entries:
       and crime boss. Smuggling profits fund Church charitable operations that make the 
       Church-Guild system morally coherent. Based in the Sifting Grounds.
     rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [ya-Don, Sifting Grounds, Furnace Board]
+    related: [Church-Guild, ya-Don, Sifting Grounds, Furnace Board]
   # ─── end Cinder-Sifters ───
 
   # ═══ Furnace Board ═══
@@ -14256,7 +14415,7 @@ entries:
       technological supply; the Church needs all three to demonstrate humanity's growing wisdom.
       Real negotiations happen before formal meetings.
     rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [ya-Don, Furnaces, es-Kiral, es-Etaie, es-Vorath, Order of St. Akhmet, Arch-Curacy]
+    related: [Church-Guild, ya-Don, Furnaces, es-Kiral, es-Etaie, es-Vorath, Order of St. Akhmet, Arch-Curacy]
   # ─── end Furnace Board ───
 
   # ═══ Institute of Flow ═══
