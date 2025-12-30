@@ -2521,8 +2521,21 @@ entries:
   # ═══ Black Door ═══
   Black Door:
     category: location
-    short: Portal to Imperial Apartments in the First Whorl.
-    details: "Those who pass through are never seen again. Marks distinction between ordinary First Whorl families and 'Black Door families' whose occultants serve in Apartments."
+    short: Portal to Imperial Apartments at the deepest point of temporal compression.
+    details: |
+      At the center of the First Whorl, where compression exceeds 120:1, stands the
+      Black Door. The Door is actual black—not dark bronze, not shadow, but light-
+      absorbing absence. It has no visible hinges, no handle, no mechanism. It opens
+      when the Emperor wills it. When it opens, a name is called.
+
+      Those who pass through are never seen again. Seventeen have entered in Sri Avs
+      Tariq's 85 subjective years of service (representing ~10,200 external years).
+      Their families became permanently Aureate—not the ordinary status requiring
+      continued service, but something irrevocable. Patents secured through the Black
+      Door do not expire. Whatever transaction occurs purchases eternity.
+
+      The Antechamber of Unverified Receipt lies just outside—the final processing
+      station where missives emerge from the Imperial Apartments.
     rag_pointer: The First Whorl, The Aureate System
     related: [First Whorl, Emperor, Aureate]
     location_features:
@@ -2530,11 +2543,18 @@ entries:
       location_type: administrative
       parent: First Whorl
       controlling_entity: Emperor
-      temporal_effects: Unknown (inside Apartments)
+      temporal_effects: Unknown (inside Apartments); 120:1+ compression outside
       borders:
         outward: [First Whorl]
         inward: [Imperial Apartments]
       real_world_anchor: "Inner City arcology (First Whorl)"
+      visual:
+        - actual black (light-absorbing, not dark bronze)
+        - no hinges, no handle, no visible mechanism
+        - opens only when Emperor wills
+        - Antechamber of Unverified Receipt just outside
+        - temporal shimmer at threshold
+        - those who cross visibly slow, then disappear
   # ─── end Black Door ───
 
   # ═══ Blood-Tree ═══
@@ -2707,6 +2727,13 @@ entries:
       castes_present:
         - Avouvar
       real_world_anchor: "Fraser River delta"
+      visual:
+        - autofactory dock infrastructure scaled for absent fleets
+        - cranes and gantries at wrong proportions
+        - aurora-bright Avouvar moving across void-black structures
+        - foreign ship colors (the only non-Avouvar hues)
+        - fabric weather shelters against fog, rain, cold
+        - harbor freezing in winter (ships timing arrivals)
     aesthetic_features:
       intention: "Cargo moves when we say. The ships wait on our schedule."
       environment: "Dock facilities on the Fraser delta. Harbor freezes in winter—ships must time arrivals carefully. Fog, rain, cold. The interface between Asovoë and the outside world."
@@ -3059,6 +3086,13 @@ entries:
         outward: [Second Whorl]
         inward: [Black Door]
       real_world_anchor: "Inner City arcology"
+      visual:
+        - same bronze thesad but proportions subtly wrong
+        - shadows falling at incorrect angles
+        - light arriving before or after expected
+        - geometry that doesn't quite work
+        - floor appearing to slope toward center
+        - the Black Door at the deepest point (actual black)
     aesthetic_features:
       intention: "Time itself bends toward the center. This is where truth is authenticated."
       environment: "Temporal distortion intensifies. Light behaves strangely—shadows fall at wrong angles. Sound arrives before or after expected. The closer to the Black Door, the stronger the effects."
@@ -3111,6 +3145,13 @@ entries:
         outward: [Medina Quarter]
         inward: [Third Whorl]
       real_world_anchor: "Inner City arcology"
+      visual:
+        - bronze columns forty feet tall (patterns worn smooth)
+        - awnings in ochre and ecru between columns
+        - orb-fixtures in distant ceiling (warm golden glow)
+        - floor worn into paths by millennia of footsteps
+        - Terrace market stalls (temporary within permanent)
+        - sky-bridges crossing high above
     aesthetic_features:
       intention: "The outermost ring. Where ordinary people live in extraordinary architecture."
       environment: "Entirely interior space—no sky, but ceiling so distant it might as well be. Light from orb-fixtures. Whorl-lag minimal but noticeable over long periods. The most 'normal' part of the Inner City."
@@ -3166,6 +3207,13 @@ entries:
         - Near-Baseline
         - Ironbone
       real_world_anchor: "Central Valley (ya-Don)"
+      visual:
+        - rail lines converging on terminus
+        - loading platforms sized for standard cargo
+        - warehouses built for purpose (timber, stone, metal cladding)
+        - Weighmaster's Station (imposing stone, elevated entrance)
+        - Covenant checkpoints at every entry
+        - constant cargo movement (loading/unloading)
     aesthetic_features:
       intention: "The goods must move. Everything else follows."
       environment: "Rail lines, loading platforms, the constant activity of cargo transfer. Warehouses sized for storage, housing squeezed into remaining spaces. The rhythms follow cargo schedules rather than Furnace shifts."
@@ -3354,6 +3402,13 @@ entries:
         north: [Thousand Kingdoms]
         northwest: [Yarangar]
       real_world_anchor: "Nevada, southern Utah, parts of Colorado, Arizona, western New Mexico"
+      visual:
+        - cities carved into salmon-colored sandstone cliff faces
+        - 500-foot canyon walls with carved figures (20-25 feet tall)
+        - visible kilit signatures on all work
+        - electric lights as civilization marker
+        - the Dam (pre-Interdict, grey material, 300 feet across)
+        - adobe terraces climbing slopes
     aesthetic_features:
       intention: "We each did our part. Together we made this. You can see who did what."
       environment: "High desert canyon country. 500-foot salmon-colored Navajo sandstone walls. Summers exceed 100°F, winter nights below freezing, 10 inches precipitation annually. The canyon creates microclimate: walls provide shade, air creates breeze, river moderates temperature."
@@ -3529,6 +3584,13 @@ entries:
         - Transmitter dish
         - "Tarak's general store"
       real_world_anchor: "Portneuf River Valley, Idaho (border with Thousand Kingdoms)"
+      visual:
+        - adobe and timber frontier construction
+        - grid power infrastructure (new)
+        - neon sign on Tarak's general store (civilization marker)
+        - transmitter dish connecting to Republic
+        - small school, veterans kilit meeting hall
+        - cattle country stretching to horizon
     aesthetic_features:
       intention: "The Republic reaches here. Grid power, school, kilit. We belong."
       environment: "Portneuf River Valley—high desert pastoral land. Cattle country, small settlement in vast landscape. Grid power arrived recently; the neon sign on Tarak's store announces it."
@@ -3835,17 +3897,33 @@ entries:
   # ═══ Howling Row ═══
   Howling Row:
     category: location
-    short: "Street in ya-Tsatsa's Upper City where the whistles are strongest."
-    details: Named for the autumn gale sounds. Tsatsans trusted by the Presence often found in humble occupations here.
+    short: "Street in ya-Tsatsa's Upper City where the ceramic whistles are strongest."
+    details: |
+      Named for the autumn gale sounds when dozens of ceramic tubes mounted on rooftops
+      produce layered tones without resolution. The discordant harmonics carry patterns
+      detectable to those trained to hear them—Testament Society initiates learn to
+      perceive mathematical structure in the whistles.
+
+      Tsatsans most trusted by the Presence often found here in humble occupations:
+      a window washer, a tailor, a notary. The architecture is standard Upper City—
+      white-gray quartz diorite, no applied color, monochrome restraint—but the acoustic
+      intensity distinguishes the street. Visitors walk faster; residents walk slower.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
-    related: [ya-Tsatsa, Upper City]
+    related: [ya-Tsatsa, Upper City, Presence]
     location_features:
       level: neighborhood
       location_type: residential
       parent: Upper City
       notable_features:
         - Strongest whistle effects
+        - Presence-trusted residents
       real_world_anchor: "Point Reyes (ya-Tsatsa Upper City)"
+      visual:
+        - white-gray quartz diorite (monochrome like all ya-Tsatsa)
+        - ceramic whistle tubes mounted on rooftops and walls
+        - layered discordant tones during wind
+        - humble storefronts (tailor, notary, window washer)
+        - residents moving slowly despite acoustic intensity
   # ─── end Howling Row ───
 
   # ═══ Inner City ═══
@@ -4472,6 +4550,13 @@ entries:
       castes_present:
         - Avouvar
       real_world_anchor: "Fraser River delta"
+      visual:
+        - vast autofactory storage halls at wrong scale
+        - climate control systems running for millennia
+        - frost-white storage areas, void-black structures
+        - aurora-bright Avouvar against cold grey
+        - fabric partitions creating warm spaces in cold storage
+        - Avouvar quarters tucked into corners of refrigerated halls
     aesthetic_features:
       intention: "Food enters when we permit. The granaries are ours."
       environment: "Warehouse district—vast autofactory storage halls maintained at precise temperatures. Climate-controlled for millennia by systems no one fully understands."
@@ -4562,8 +4647,22 @@ entries:
   # ═══ Ködhegy ═══
   Ködhegy:
     category: location
-    short: Fog Hill—highest of the nine refugee villages around Szürkevíz.
-    details: 300 meters above harbor. ~400 residents. Völërath (19), Szkovërin (47), Draëthen (remainder). Three defensive gates. Fog catchment for water. Founded ~6,000 years ago.
+    short: Fog Hill—highest refugee village around Szürkevíz, 300 meters above harbor.
+    details: |
+      The oldest and highest of the nine villages, founded ~6,000 years ago when the
+      first refugees arrived. ~400 residents: 19 Völërath (the elite), 47 Szkovërin
+      (middle caste), remainder Draëthen (workers). Three defensive gates control
+      access up the single viable path.
+
+      Water comes from fog catchment—fabric nets strung across the hilltop collect
+      moisture from the marine layer that blankets the coast. The village looks down
+      on the harbor, on the other villages, on the autofactory ruins they all depend
+      upon. The view reminds everyone of the hierarchy: Ködhegy is highest, oldest,
+      most defensible.
+
+      The architecture is refugee vernacular: repurposed autofactory materials,
+      defensive orientation, steep roofs shedding constant rain. The Völërath
+      compound sits at the summit; the Draëthen quarters cluster near the lower gate.
     rag_pointer: The Volerath of Puget Sound
     related: [Szürkevíz]
     location_features:
@@ -4581,6 +4680,13 @@ entries:
         - Defensive gates
         - Hilltop position
       real_world_anchor: "Puget Sound (hill village)"
+      visual:
+        - hilltop village 300m above harbor
+        - fog catchment nets strung across summit
+        - three defensive gates on single path
+        - repurposed autofactory materials
+        - Völërath compound at summit
+        - view down on harbor and other villages
   # ─── end Ködhegy ───
 
   # ═══ Lavoëran ═══
@@ -4646,8 +4752,17 @@ entries:
   # ═══ Lopez Island ═══
   Lopez Island:
     category: location
-    short: Westerner installation in the San Juan archipelago.
-    details: The Avouvar do not go there under pain of death. Monolithic structure visible from other islands. Drydocks where maintenance occurs on identical ships.
+    short: Westerner installation—forbidden to Avouvar under pain of death.
+    details: |
+      The Avouvar do not go there. Ever. The prohibition is absolute, ancient, non-
+      negotiable. Those who violate it simply disappear.
+
+      From the other islands, the monolithic structure is visible: black, geometric,
+      scaled wrong even by Asovoë standards. Drydocks service identical ships that
+      arrive on schedules no one can predict. The Westerners come and go without
+      acknowledgment. What happens on Lopez Island, what purpose the installation
+      serves, what the Westerners are—no Avouvar knows, and the oldest ones refuse
+      to speculate.
     rag_pointer: Asovoë and the Avouvar
     related: [San Juan Factorias, Westerners]
     location_features:
@@ -4659,6 +4774,12 @@ entries:
       hazards:
         - Forbidden to Avouvar
       real_world_anchor: "San Juan Islands, Washington"
+      visual:
+        - black monolithic structure (wrong proportions)
+        - visible from other islands
+        - drydocks servicing identical ships
+        - Westerner activity (silent, unacknowledged)
+        - absolute absence of Avouvar
   # ─── end Lopez Island ───
 
   # ═══ Lower City ═══
@@ -4701,10 +4822,25 @@ entries:
   # ═══ Malpais ═══
   Malpais:
     category: location
-    short: Volcanic scablands where pastoral Akama drive cattle.
-    details: Stretches from southeast Idaho to the coast. Volcanic basalt with soil too thin for agriculture. Villages cluster wherever water runs year-round.
+    short: Volcanic scablands where pastoral Akama drive cattle across thin-soiled basalt.
+    details: |
+      Stretches from southeast Idaho to the coast—vast volcanic basalt flows with
+      soil too thin for agriculture. The land is harsh: black rock, sparse vegetation,
+      water only in scattered springs and seasonal streams. Villages cluster wherever
+      water runs year-round.
+
+      Akama bands drive cattle across this landscape, following routes their ancestors
+      established generations ago. Destriers pick their way over rock that would break
+      a horse's legs. The pastoral life here is harder than in the rich grasslands
+      north of Ogon—fewer cattle per band, longer drives between water, constant
+      movement to find grazing.
+
+      The villages are small, defensive, built from the black basalt that covers
+      everything. Camps are temporary: felt tents, portable shrines, the accumulated
+      gear that defines Akama life. The aesthetic is testimonial—every object earned,
+      every scar displayed, every piece of equipment speaking to its owner's history.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Thousand Kingdoms, Akama]
+    related: [Thousand Kingdoms, Akama, Destrier]
     location_features:
       level: district
       location_type: geographic
@@ -4719,6 +4855,13 @@ entries:
         west: [Ogon]
         south: [Ganat]
       real_world_anchor: "Cascade Range / Columbia Plateau volcanic region"
+      visual:
+        - black volcanic basalt stretching to horizon
+        - thin soil, sparse vegetation
+        - villages of dark stone at water sources
+        - felt tents and portable shrines at camps
+        - destriers picking across broken rock
+        - testimonial objects (earned gear, displayed scars)
   # ─── end Malpais ───
 
   # ═══ Manufacturing District ═══
@@ -5063,8 +5206,20 @@ entries:
   # ═══ Coppersmith Lane ═══
   Coppersmith Lane:
     category: location
-    short: "Guild street for metalworkers—copper, bronze, and brass goods."
-    details: Guild monopoly on metalworking retail within marked boundaries. Shops produce household items, decorative pieces, and architectural fittings.
+    short: "Guild street for metalworkers—shops producing copper, bronze, and brass goods."
+    details: |
+      Guild monopoly on metalworking retail within marked boundaries. Shops produce
+      household items (pots, basins, lamps), decorative pieces (geometric patterns,
+      abstract relief), and architectural fittings (door hardware, window frames,
+      ornamental brackets). The sound of hammers on metal carries from dawn to dusk.
+
+      Each shop displays samples in street-facing windows: the gleam of new copper
+      (soon to patina), polished bronze catching orb-fixture light, brass work showing
+      fine engraving. Apprentices maintain fires in rear workshops; masters work visible
+      to customers. The guild maintains quality standards; shoddy work means expulsion.
+
+      Typical Imperial guild street: specialty retail in designated area, prices higher
+      than market average but quality guaranteed, guild marks on every piece.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [Medina Quarter]
     location_features:
@@ -5073,6 +5228,13 @@ entries:
       parent: Medina Quarter
       primary_function: Metalwork retail
       real_world_anchor: "Monterey Bay basin (Medina Quarter)"
+      visual:
+        - street-facing shop windows displaying metalwork
+        - gleam of new copper, polished bronze, engraved brass
+        - sound of hammers on metal (dawn to dusk)
+        - rear workshop fires visible through doorways
+        - guild marks on every piece
+        - geometric patterns and abstract relief (Imperial aesthetic)
   # ─── end Coppersmith Lane ───
 
   # ═══ Aureate Span ═══
@@ -6018,9 +6180,22 @@ entries:
   # ═══ Monastery of the Silent Song ═══
   Monastery of the Silent Song:
     category: location
-    short: Facility housing surviving Auditor kalbats.
-    details: Seven kalbats survive here in cyclic dormancy, tended by Companions in two-year rotations. Located in the Second Whorl.
-    rag_pointer: The Companions Guild
+    short: High-walled sanctuary where the last kalbats are tended in absolute silence.
+    details: |
+      Seven kalbats survive here in cyclic dormancy, tended by Companions in two-year
+      rotations. The Monastery is a place of absolute quiet—even the hum of the arcology
+      is dampened by archaeotech acoustic baffles. Sound damages the kalbats' encoded
+      contents; silence is medical necessity, not spiritual affectation.
+
+      Located in the Second Whorl where temporal distortion runs moderate. The high walls
+      separate the Monastery from the empty plazas and colossal statues of the Seat of
+      Power. Within: softness where the rest of the Inner City is hard. Padded floors
+      absorb footsteps. Companions communicate in sign language developed over millennia.
+
+      The kalbats themselves—living records of compressed information—lie in chambers
+      where vibration cannot reach them. Their slack-jawed faces are the same as those
+      carved into ya-Tsatsa's cliffs, but these are living, waiting.
+    rag_pointer: The Companions Guild, The Inner City
     related: [Kalbats, Companions Guild, Second Whorl]
     location_features:
       level: site
@@ -6031,6 +6206,13 @@ entries:
         - Kalbats
         - Companions
       real_world_anchor: "Inner City arcology (Second Whorl)"
+      visual:
+        - high walls separating from Second Whorl plazas
+        - archaeotech acoustic baffles (absolute silence)
+        - padded floors absorbing footsteps
+        - Companions communicating in sign language
+        - chambers where kalbats lie in dormancy
+        - softness within (contrast to bronze hardness outside)
   # ─── end Monastery of the Silent Song ───
 
   # ═══ Near Wall ═══
@@ -6342,8 +6524,18 @@ entries:
   # ═══ Orcas Island ═══
   Orcas Island:
     category: location
-    short: Primary Avouvar trading installation handling most external commerce.
-    details: 80+ permanent staff. Factor-Principal Szëvalötz (173 years old) manages operations. Handles Ganati grain ships, Thousand Kingdoms traders, occasional Imperial vessels.
+    short: Primary Avouvar trading installation—80+ staff handling most external commerce.
+    details: |
+      The largest of the factorias, handling Ganati grain ships, Thousand Kingdoms
+      traders, occasional Imperial vessels. Factor-Principal Szëvalötz (173 years old)
+      manages operations with the cold patience of someone who has outlived every
+      trading partner's grandparents.
+
+      The warehouse facilities are Asovoë-scale—too large for human use, adapted
+      through fabric partitions and secondary structures. Young Avouvar staff the
+      counters, learning trade while their lifespans shorten. The goods pass through:
+      grain from Ganat, weapons components from the Furnaces, preserved foods heading
+      north, autofactory products heading south.
     rag_pointer: Asovoë and the Avouvar
     related: [San Juan Factorias, Asovoë]
     location_features:
@@ -6355,6 +6547,12 @@ entries:
       castes_present:
         - Avouvar
       real_world_anchor: "San Juan Islands, Washington"
+      visual:
+        - Asovoë-scale warehouses (too large, adapted)
+        - fabric partitions creating human-scale spaces
+        - aurora-bright Avouvar at trading counters
+        - goods from multiple cultures in transit
+        - temperate Pacific weather (grey, rainy)
   # ─── end Orcas Island ───
 
   # ═══ Pilgrim's Rest ═══
@@ -6950,6 +7148,13 @@ entries:
         northeast: [Medina Quarter]
         across_rift: [Antediluvian Quarter]
       real_world_anchor: "Monterey Bay basin (southwest)"
+      visual:
+        - salvaged thesad from collapsed arcologies (incongruously pristine)
+        - rust, patina, chemical staining on conventional metals
+        - vertical density on flooded foundations (Middens)
+        - quarried terraces filling with industry (Iron Yards)
+        - rotated arcology structure (Ridge)
+        - view always UP toward Inner City towers
     aesthetic_features:
       intention: "We do the work that costs bodies. We live where the city throws its wreckage. We make do."
       environment: "The collapsed arcologies define the geography: the Ninth Horizon Terrace fallen sideways to become the Ridge, its fall creating the quarried depression of the Iron Yards, the Middens built on flooded foundations jutting into the Rift. The view is always UP—toward the Inner City's bronze towers, the Medina's respectable bustle, the Antediluvian Quarter across the water. They can see what they're excluded from."
@@ -6990,8 +7195,19 @@ entries:
   # ═══ San Juan Factorias ═══
   San Juan Factorias:
     category: location
-    short: Avouvar trading posts south of Asovoë.
-    details: Four islands 200km south handling trade that keeps Asovoë alive. Staffed by young Avouvar on hardship duty—the mild climate accelerates aging.
+    short: Avouvar trading posts 200km south of Asovoë—where young Avouvar serve hardship duty.
+    details: |
+      Four islands handling the trade that keeps Asovoë alive. Staffed by young Avouvar
+      on hardship duty—the mild climate accelerates their aging (these latitudes shorten
+      Avouvar lifespans by 30-40%). Every Avouvar here knows their service costs years.
+
+      Orcas Island handles most external commerce. San Juan Island specializes in Akama
+      trade. Shaw Island is the quarantine station through which everything passes.
+      Lopez Island belongs to the Westerners—Avouvar do not go there.
+
+      The architecture is Asovoë vernacular scaled for wrong proportions, adapted for
+      temperate climate. Fabric shelters against rain rather than arctic cold. Aurora-
+      bright Avouvar against grey Pacific waters. Trade goods from a dozen cultures.
     rag_pointer: Asovoë and the Avouvar
     related: [Asovoë, Orcas Island, San Juan Island, Shaw Island, Lopez Island]
     location_features:
@@ -7009,13 +7225,29 @@ entries:
         north: [Asovoë]
         south: [Szürkevíz]
       real_world_anchor: "San Juan Islands (Avouvar trading posts)"
+      visual:
+        - Asovoë architecture at wrong proportions (too large)
+        - fabric shelters against temperate rain
+        - aurora-bright Avouvar against grey Pacific
+        - trade goods from dozen cultures
+        - Lopez Island monolith (forbidden, Westerner-controlled)
+        - young Avouvar on hardship duty (aging faster here)
   # ─── end San Juan Factorias ───
 
   # ═══ San Juan Island ═══
   San Juan Island:
     category: location
-    short: Avouvar factoria handling Akama trade specifically.
-    details: 50-70 staff. Factor-Principal Körateszin (141 years old) speaks Akama language and understands gambling protocols. Weapons components, armor materials, precision tools.
+    short: Avouvar factoria specialized in Akama trade—weapons, armor, precision tools.
+    details: |
+      50-70 staff handling the specialized trade with the Thousand Kingdoms. Factor-
+      Principal Körateszin (141 years old) speaks the Akama language and understands
+      their gambling protocols—necessary for any serious negotiation with Akama traders.
+
+      The goods are specific: weapons components that Akama smiths finish themselves,
+      armor materials (plates, scales, mail links), precision tools for the endless
+      repair and modification that defines Akama material culture. The Akama traders
+      arrive by destrier-caravan from inland, their mounts unable to cross the water.
+      They camp outside the factoria walls, conducting business through intermediaries.
     rag_pointer: Asovoë and the Avouvar
     related: [San Juan Factorias, Akama]
     location_features:
@@ -7027,6 +7259,12 @@ entries:
       castes_present:
         - Avouvar
       real_world_anchor: "San Juan Island, Washington"
+      visual:
+        - smaller factoria (50-70 staff)
+        - specialized goods storage (weapons, armor, tools)
+        - Akama trader camps outside walls
+        - destrier-caravans arriving from inland
+        - aurora-bright Avouvar negotiating with scarred Akama
   # ─── end San Juan Island ───
 
   # ═══ Second Whorl ═══
@@ -7189,8 +7427,16 @@ entries:
   # ═══ Shaw Island ═══
   Shaw Island:
     category: location
-    short: Quarantine station through which everything bound for Asovoë passes.
-    details: Inspects goods and people before they proceed north. The city cannot afford contamination of any kind.
+    short: Quarantine station where everything bound for Asovoë undergoes inspection.
+    details: |
+      The bottleneck through which all trade passes. Inspectors examine goods for
+      contamination—biological, chemical, temporal. People wait in isolation while
+      Avouvar evaluate whether they pose risk. The city cannot afford contamination.
+
+      The architecture is deliberately austere: holding areas, inspection chambers,
+      decontamination facilities. Avouvar staff rotate frequently to avoid the aging
+      effects of southern latitude. The waiting can take days; the inspectors show
+      no urgency. Asovoë's survival depends on what they catch here.
     rag_pointer: Asovoë and the Avouvar
     related: [San Juan Factorias, Asovoë]
     location_features:
@@ -7203,6 +7449,12 @@ entries:
       borders:
         north: [Asovoë]
       real_world_anchor: "Shaw Island, Washington"
+      visual:
+        - austere holding areas and inspection chambers
+        - decontamination facilities
+        - aurora-bright Avouvar inspectors
+        - traders waiting in isolation (days)
+        - temperate rain against Asovoë-scale architecture
   # ─── end Shaw Island ───
 
   # ═══ Sifting Grounds ═══
@@ -7358,6 +7610,13 @@ entries:
         - Dim lighting throughout
         - Bright Eyes Optical
       real_world_anchor: "Central Valley (ya-Don)"
+      visual:
+        - street lamps tuned to Orevet vision (twilight to baseline visitors)
+        - windows smaller and recessed
+        - extended overhangs creating deliberate shade
+        - muted colors (darker greens, burgundies, browns)
+        - Shrine of St. Oreli (the furnace-seer who perceived without eyes)
+        - Bright Eyes Optical with precise optical instruments
     aesthetic_features:
       intention: "We see what you cannot. Our darkness is not your darkness."
       environment: "Deliberately dim. Street lamps tuned to Orevet vision—baseline visitors experience the district as twilight even at noon. Shade is abundant; overhangs extend further than standard; the sun is unwelcome."
@@ -7698,10 +7957,22 @@ entries:
   # ═══ The Cliffs ═══
   The Cliffs:
     category: location
-    short: White-gray quartz diorite cliffs with tens of thousands of kalbat tombs.
-    details: Three hundred feet or more rising from ocean. Nearly every accessible surface carved into kalbat tombs. All faces watch the ocean. Port facilities at cliff base.
+    short: White-gray quartz diorite rising 300+ feet, every surface carved with tens of thousands of kalbat tombs.
+    details: |
+      The pale stone glows faintly in moonlight. Visible crystals—quartz catching light,
+      feldspar holding color, dark minerals creating flecks and striations. The stone
+      weathers slowly; salt spray takes centuries to soften carved detail.
+
+      Every kalbat who ever lived is buried here—all faces watching the ocean, waiting
+      for something that may or may not arrive. The oldest tombs are massive (30-foot
+      faces, mouths large enough to walk into), features blurred by millennia. Newer
+      tombs are smaller, more widely spaced—one carved every 4-5 years now.
+
+      Port facilities at the cliff base: quays on massive stone pilings, some showing
+      tool marks from unknown techniques. The Hollow Mouth—a kalbat tomb carved large
+      enough for passage—provides the main ascent to the Upper City.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
-    related: [ya-Tsatsa, Kalbats]
+    related: [ya-Tsatsa, Kalbats, Ahn-Tam]
     location_features:
       level: district
       location_type: geographic
@@ -7711,9 +7982,17 @@ entries:
         - Quartz diorite
         - Ocean-facing tombs
         - Docks at base
+        - Hollow Mouth passage
       borders:
         east: [Lower City]
       real_world_anchor: "Point Reyes (ya-Tsatsa)"
+      visual:
+        - white-gray quartz diorite glowing in moonlight
+        - tens of thousands of kalbat tomb faces
+        - oldest tombs massive (30-foot faces), features blurred
+        - newest tombs smaller, sharper edges
+        - visible crystals catching light
+        - port facilities on ancient pilings
   # ─── end The Cliffs ───
 
   # ═══ The Dam ═══
@@ -8145,10 +8424,22 @@ entries:
   # ═══ Three Cradles ═══
   Three Cradles:
     category: location
-    short: Vast craters where three Oracles achieved consciousness.
-    details: Each crater has a chapel at its rim. Surprisingly small chapels for such significant sites. Creates discomfort visitors cannot articulate.
+    short: Vast craters (~100m across) where the Third, Fifth, and Seventh Oracles achieved consciousness.
+    details: |
+      The craters' depths are irregular, their edges worn smooth by centuries of pilgrims.
+      Surprisingly small chapels stand at each rim—bronze and stone, geometric patterns,
+      no ornamentation beyond the geometry itself.
+
+      The First Cradle (Third Oracle) is most accessible, rim worn smooth by endless
+      pilgrimage. Caretaker Dho-Tam lights incense when visitors seem to want it.
+      The Second Cradle (Fifth Oracle) is where Mutterer processions begin twice yearly.
+      The Third Cradle (Seventh Oracle) is where the Threefold Mirror Academy is built,
+      structures descending from rim into the crater depths.
+
+      Pilgrims report phenomena: balls falling upward in certain spots, absolute silence
+      where there should be crowds, low subsonic vibration felt more than heard.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
-    related: [ya-Tsatsa, Oracles]
+    related: [ya-Tsatsa, Oracles, Threefold Mirror Academy, Mutterer]
     location_features:
       level: site
       location_type: religious
@@ -8156,22 +8447,49 @@ entries:
       notable_features:
         - Rim chapels
         - Oracle emergence sites
+        - Phenomena (gravity anomalies, silence)
       real_world_anchor: "Point Reyes (ya-Tsatsa Upper City)"
+      visual:
+        - vast irregular craters (~100m across)
+        - edges worn smooth by pilgrim traffic
+        - small bronze-and-stone chapels at rims
+        - geometric patterns (no other ornamentation)
+        - occasional luminescence
+        - absolute silence in spaces that should echo
   # ─── end Three Cradles ───
 
   # ═══ Threefold Mirror Academy ═══
   Threefold Mirror Academy:
     category: location
-    short: Institution preparing mathematicians for the Institute of the Lattice.
-    details: Built in the cradle of the Third Oracle. Near-universal Lattice admission rate. Teaching methods opaque to outsiders.
+    short: Institution preparing mathematicians for the Institute of the Lattice—built into the Third Cradle.
+    details: |
+      Structures extend from the Seventh Oracle's crater rim down into its irregular depths,
+      using the crater's geometry in ways outsiders cannot follow. Students move between
+      levels without apparent staircases. Sounds echo wrong. The architecture suggests
+      more interior space than the exterior should contain.
+
+      Produces 93% of Institute of the Lattice mathematicians. Three-year curriculum
+      culminating in neurological shackling—graduates cannot reveal teaching methods.
+      Admission requires living through at least two ya-Tsatsa autumns, learning to
+      sleep through the whistles, having the Dream of Lessons.
+
+      White-gray quartz diorite like all ya-Tsatsa, but the spatial impossibilities
+      distinguish it. Bronze doors with geometric patterns. No signs, no posted schedules.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
-    related: [ya-Tsatsa, Institute of the Lattice, Ezh Dhol]
+    related: [ya-Tsatsa, Institute of the Lattice, Ezh Dhol, Three Cradles]
     location_features:
       level: site
       location_type: educational
-      parent: ya-Tsatsa
+      parent: Three Cradles
       controlling_entity: Ezh Dhol family
       real_world_anchor: "Point Reyes (ya-Tsatsa)"
+      visual:
+        - structures descending from crater rim into depths
+        - impossible geometry (more space inside than outside)
+        - students moving between levels without staircases
+        - sounds echoing wrong
+        - bronze doors with geometric patterns
+        - white-gray quartz diorite (no signs, no schedules)
   # ─── end Threefold Mirror Academy ───
 
   # ═══ Terrace ═══
@@ -8221,15 +8539,22 @@ entries:
         - Orevet
         - Redback
       real_world_anchor: "Central Valley (ya-Don)"
+      visual:
+        - massive stone buildings facing inward around courtyards
+        - blank walls presenting to streets (shade architecture)
+        - Furnace glow visible down every street
+        - Furnace pipes everywhere (thesad and bronze, 6 inches to 20 feet)
+        - Cathedral of St. Akhmet (visible from most of district)
+        - shift-end culture (establishments catering to labor castes)
     aesthetic_features:
       intention: "We build for centuries. The work continues; the workers need shelter that lasts."
       environment: |
-        Adjacent to the Furnaces—their glow visible down every street, their heat shaping 
-        daily rhythms. Massive stone buildings face inward around courtyards, presenting 
+        Adjacent to the Furnaces—their glow visible down every street, their heat shaping
+        daily rhythms. Massive stone buildings face inward around courtyards, presenting
         blank walls to streets. Shadows are precious; shade is architecture.
-        
-        FURNACE PIPES RUN THROUGH EVERYTHING. Thesad and conventional bronze pipes climb 
-        walls, cross streets on brackets, dive underground, emerge from buildings. Some 
+
+        FURNACE PIPES RUN THROUGH EVERYTHING. Thesad and conventional bronze pipes climb
+        walls, cross streets on brackets, dive underground, emerge from buildings. Some
         are six inches across; some are twenty feet. The oldest Threshold buildings were 
         built AROUND the pipes—the infrastructure came first. Equipment housings squat at 
         intersections: valve assemblies, junction boxes, monitoring stations nobody opens. 
@@ -8747,6 +9072,13 @@ entries:
         north: [Thousand Kingdoms]
         beyond: [Asovoë]
       real_world_anchor: "California coast, Monterey Bay to Point Reyes"
+      visual:
+        - pre-Interdict arcologies beyond comprehension (ya-Sattra, ya-Don)
+        - human-scale additions in shadow of monuments
+        - Inner City bronze towers rising above everything
+        - Furnace glow at ya-Don
+        - white-gray quartz diorite at ya-Tsatsa
+        - Medina Quarter bustle, Rotten Quarter salvage
     aesthetic_features:
       intention: "This is how things are. This is how things have always been. The strangeness is normalized."
       environment: "Mediterranean climate but ~10°F colder than modern Earth. Monterey Bay drained to seabed (ya-Sattra), Central Valley productive farmland, Point Reyes peninsula (ya-Tsatsa). Dry summers, mild wet winters."
@@ -8803,6 +9135,13 @@ entries:
       borders:
         south: [Lower City]
       real_world_anchor: "Point Reyes (ya-Tsatsa)"
+      visual:
+        - white-gray quartz diorite streets (monochrome restraint)
+        - Three Cradles (vast craters with small rim chapels)
+        - Eight Domes with bronze geometric doors
+        - ceramic wind-whistles on rooftops (scream in autumn)
+        - absolute darkness at night (no lanterns)
+        - fog rolling through, ocean wind constant
     aesthetic_features:
       intention: "The Presence is here. Silence and waiting. The important things cannot be shown."
       environment: "High point of ya-Tsatsa peninsula. Exposed to ocean winds. Fog rolls through. Autumn gales make the ceramic wind-whistles scream. No artificial light at night—only stars, moon, occasional Cradle luminescence."
@@ -8860,10 +9199,22 @@ entries:
   # ═══ Horizon Plaza ═══
   Horizon Plaza:
     category: location
-    short: "Central plaza of ya-Tsatsa's Upper City, surrounded by the Eight Domes."
+    short: "Central plaza (~300m across) where the Eight Domes face each other across open stone."
     details: |
-      Where the ancient domes cluster. Reception hall nearby for formal proceedings. 
-      Tsatsans trusted by the Presence often found in humble occupations around the plaza.
+      Paved in the same white-gray diorite as everything else, worn into paths where
+      generations have walked between domes. No vendors set up here. No entertainment
+      occurs. Simply open—a void at the city's heart where nothing happens except
+      passage between places where things do happen.
+
+      The Overlook at the plaza's edge provides dramatic views of the cliffs below:
+      a low wall separating stone from a killing drop, the kalbat tombs descending
+      in patient ranks, the harbor visible, the ocean beyond. Old Tok, a retired
+      merchant, has watched ships from here for forty years. When asked what he sees,
+      he says he sees time. What kind? The kind that doesn't care about him.
+
+      Seven of the Eight Domes house software cooperatives. The eighth has bronze
+      doors with geometric patterns; pierrots enter it twice yearly while Mutterers
+      go in and do not come out.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [ya-Tsatsa, Upper City, Eight Domes]
     location_features:
@@ -8873,7 +9224,15 @@ entries:
       notable_features:
         - Reception hall
         - Surrounded by Eight Domes
+        - The Overlook (cliff views)
       real_world_anchor: "Point Reyes (ya-Tsatsa)"
+      visual:
+        - ~300m of white-gray diorite paving
+        - worn paths between the eight domes
+        - no vendors, no entertainment—simply open space
+        - The Overlook with low wall and killing drop
+        - cliff views, harbor, ocean beyond
+        - eighth dome with bronze geometric doors
   # ─── end Horizon Plaza ───
 
   # ═══ Upper Taho ═══
