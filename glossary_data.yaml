@@ -6141,11 +6141,11 @@ entries:
         - The Slab
         - Kma-Dhol Quarter
         - Thavek
-        - Western Canal Districts
-        - Northern Ziggurat Districts
+        - Blackfish Weirs
+        - The Barracks
         - Southeast Approach
         - Central Ogon
-        - Northeast Ziggurat District
+        - Ghol-Taram
         - Dharel's Span
       controlling_entity: Junta of Ogon
       population: ~1 million
@@ -7885,16 +7885,17 @@ entries:
       real_world_anchor: "Columbia River mouth (within Ogon)"
   # ─── end Thavek ───
 
-  # ═══ Western Canal Districts ═══
-  Western Canal Districts:
+  # ═══ Blackfish Weirs ═══
+  Blackfish Weirs:
     category: location
-    short: "Ataru Blackfish's territory—controls salmon processing infrastructure."
+    short: "Ataru Blackfish's salmon empire—weirs, smoke-houses, fixed tribute."
     details: |
       Major district of Ogon where Ataru Blackfish maintains his commercial
       empire. Contains weirs, smoke-houses, and processing infrastructure.
       Approximately seventy vassals control weir positions, paying fixed
-      tribute regardless of fortune. The district's economy centers entirely
-      on the salmon runs.
+      tribute regardless of fortune: good catch pay in fish, poor catch find
+      obols through raiding, recalcitrance pay in blood. The district's economy
+      centers entirely on the salmon runs from the Grand Canal.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Ogon, Ataru Blackfish, The Grand Canal]
     location_features:
@@ -7910,36 +7911,77 @@ entries:
         - Weirs (held by force, inherited through bloodlines)
         - Smoke-houses
         - Processing infrastructure
+        - Ganati glass sculpture collection (Ataru's)
       borders:
         east: [The Grand Canal]
       real_world_anchor: "Columbia River mouth (within Ogon)"
-  # ─── end Western Canal Districts ───
+  # ─── end Blackfish Weirs ───
 
-  # ═══ Northern Ziggurat Districts ═══
-  Northern Ziggurat Districts:
+  # ═══ The Barracks ═══
+  The Barracks:
     category: location
-    short: "Iron-Rain's informal territory and Kma-Dhol concentration zone."
+    short: "Iron-Rain's warrior territory—1,200 fighters, Kessa's bar."
     details: |
-      Northern section of Ogon containing ziggurat structures where Iron-Rain
-      maintains informal control with his 1,200 warriors. Also the primary
-      Kma-Dhol residential area, overlapping with the Kma-Dhol Quarter.
-      Vey Nine Birds operates from this district.
+      Northern section of Ogon where Iron-Rain maintains informal control with
+      his 1,200 warriors through pure physical dominance. Named for the warrior
+      encampments that dominate the district. Also overlaps with primary Kma-Dhol
+      residential areas and the Kma-Dhol Quarter where Vey Nine Birds operates.
+
+      KESSA'S: The bar where Iron-Rain drinks with his inner circle, serving as
+      his de facto headquarters. Named for its owner.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Ogon, Iron-Rain, Vey Nine Birds, Kma-Dhol Quarter]
+    related: [Ogon, Iron-Rain, Vey Nine Birds, Kma-Dhol Quarter, Kessa's]
     location_features:
       level: district
       location_type: residential
       parent: Ogon
-      primary_function: Ziggurat residential zone
+      controlling_entity: Iron-Rain
+      primary_function: Warrior encampments
+      population: ~1,200 warriors
       castes_present:
         - Akama
         - Kma-Dhol
+      children:
+        - Kessa's
       notable_features:
+        - Warrior barracks and encampments
         - Ziggurat architecture
-        - Kma-Dhol technical operations
+        - Kma-Dhol technical operations nearby
         - Compression passages (Kma-Dhol access)
       real_world_anchor: "Columbia River mouth (within Ogon)"
-  # ─── end Northern Ziggurat Districts ───
+  # ─── end The Barracks ───
+
+  # ═══ Kessa's ═══
+  Kessa's:
+    category: location
+    short: "Iron-Rain's bar—where the invulnerable giant drinks with his inner circle."
+    details: |
+      Bar in The Barracks district serving as Iron-Rain's de facto headquarters.
+      Named for its owner. Where the nearly three-meter-tall Ironbone-Warborn
+      hybrid relaxes with his closest warriors. Despite commanding through pure
+      physical dominance, Iron-Rain doesn't particularly like violence—he finds
+      most Junta business tedious and prefers drinking with his people here.
+
+      His relationship with Imek Stone-Foot and their pursuit of genetic
+      interventions to produce an heir is discussed here among trusted
+      companions. He's obsessed with people who rise above their station
+      through effort rather than genetics.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [The Barracks, Iron-Rain, Ogon, Imek Stone-Foot]
+    location_features:
+      level: site
+      location_type: commercial
+      parent: The Barracks
+      primary_function: Drinking establishment, informal headquarters
+      castes_present:
+        - Akama
+        - Ironbone-Warborn (Iron-Rain)
+      notable_features:
+        - Iron-Rain's regular presence
+        - Inner circle gathering place
+        - Informal decision-making venue
+      real_world_anchor: "Columbia River mouth (within Ogon)"
+  # ─── end Kessa's ───
 
   # ═══ Southeast Approach ═══
   Southeast Approach:
@@ -8001,31 +8043,37 @@ entries:
       real_world_anchor: "Columbia River mouth (within Ogon)"
   # ─── end Central Ogon ───
 
-  # ═══ Northeast Ziggurat District ═══
-  Northeast Ziggurat District:
+  # ═══ Ghol-Taram ═══
+  Ghol-Taram:
     category: location
-    short: "Som es-Vol's theoretical territory—broken Highborn's zone."
+    short: "Som es-Vol's desperate territory—broken Highborn's abandoned zone."
     details: |
-      Ziggurat district in Ogon's northeast nominally controlled by Som
-      es-Vol, though his control is theoretical at best. The broken Highborn
-      maintains only ~30 people in semi-permanent association. His presence
-      here keeps other powers from claiming the territory openly.
+      Northeast ziggurat district in Ogon nominally controlled by Som es-Vol,
+      though his control is theoretical at best. The name means something like
+      "desperate place" or "zone of last resort" in Akama—fitting for territory
+      claimed by a broken Highborn who maintains only ~30 people in semi-permanent
+      association. His presence here keeps other powers from claiming the territory
+      openly, but no one wants to be close enough to risk hearing him speak if
+      the gag fails.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Ogon, Som es-Vol]
+    related: [Ogon, Som es-Vol, Tama Family]
     location_features:
       level: district
       location_type: residential
       parent: Ogon
       controlling_entity: Som es-Vol (nominal)
-      primary_function: Residential zone
+      primary_function: Residential zone (avoided)
+      population: ~30 (Som's semi-permanent associates)
       castes_present:
         - Akama
-        - Highborn (one)
+        - Highborn (one, broken)
       notable_features:
         - Ziggurat architecture
         - Highborn presence (broken, contained)
+        - Generally avoided by other Junta members
+        - Tama deaf warband maintains watch
       real_world_anchor: "Columbia River mouth (within Ogon)"
-  # ─── end Northeast Ziggurat District ───
+  # ─── end Ghol-Taram ───
 
   # ═══ Dharel's Span ═══
   Dharel's Span:
@@ -10670,10 +10718,34 @@ entries:
       One of the significant powers in the Thousand Kingdoms. Formerly held
       Dharel's Span before losing it to another band. Their claim to the
       Sixth Oracle's blood through a bastard line creates hierarchy of
-      legitimacy among warbands.
+      legitimacy among warbands. Winter grounds at Torek-yan. Vassals to
+      Colonel-Hereditary es-Valent.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Thousand Kingdoms, Akama, Dharel's Span]
+    related: [Thousand Kingdoms, Akama, Dharel's Span, Torek-yan, Colonel-Hereditary es-Valent]
   # ─── end Torek Confederation ───
+
+  # ═══ Torek-yan ═══
+  Torek-yan:
+    category: location
+    short: "Torek Confederation winter grounds—es-Valent vassals."
+    details: |
+      Winter grounds of the Torek Confederation. The -yan suffix indicates
+      permanent or semi-permanent settlement, distinguishing it from the
+      mobile warband camps used during raiding season. The Torek maintain
+      nominal vassalage to Colonel-Hereditary es-Valent, acknowledging
+      Imperial authority when commercially advantageous.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Torek Confederation, Thousand Kingdoms, Colonel-Hereditary es-Valent, Northern Frontier]
+    location_features:
+      level: site
+      location_type: settlement
+      parent: Thousand Kingdoms
+      controlling_entity: Torek Confederation
+      primary_function: Winter grounds
+      castes_present:
+        - Akama
+      real_world_anchor: "Malpais scablands (Pacific Northwest interior)"
+  # ─── end Torek-yan ───
 
   # ═══ Cracked Shield Band ═══
   Cracked Shield Band:
@@ -10697,10 +10769,39 @@ entries:
       and treat their relationship with the Empire as sacred obligation.
       Claims direct descent from the Fourth Oracle through seventeen
       documented mothers. One of the few bands that maintains genuine
-      rather than opportunistic Imperial vassalage.
+      rather than opportunistic Imperial vassalage. Winter grounds at
+      Sevak-yan.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Thousand Kingdoms, Akama, Northern Frontier]
+    related: [Thousand Kingdoms, Akama, Northern Frontier, Sevak-yan]
   # ─── end Khan Sevak's Band ───
+
+  # ═══ Sevak-yan ═══
+  Sevak-yan:
+    category: location
+    short: "Khan Sevak's Band winter grounds—genuine Imperial loyalists."
+    details: |
+      Winter grounds of Khan Sevak's Band. The -yan suffix indicates
+      permanent or semi-permanent settlement. Unlike most Akama bands
+      who maintain Imperial vassalage opportunistically, the Sevak treat
+      their relationship as sacred obligation—preserving ceremonies,
+      maintaining archives, treating Imperial authority as genuine rather
+      than convenient fiction.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Khan Sevak's Band, Thousand Kingdoms, Northern Frontier]
+    location_features:
+      level: site
+      location_type: settlement
+      parent: Northern Frontier
+      controlling_entity: Khan Sevak's Band
+      primary_function: Winter grounds
+      castes_present:
+        - Akama
+      notable_features:
+        - Imperial ceremonies preserved
+        - Archives maintained
+        - Sacred obligation to Empire
+      real_world_anchor: "Northern California/Southern Oregon frontier"
+  # ─── end Sevak-yan ───
 
   # ═══ Som es-Vol ═══
   Som es-Vol:
@@ -10828,6 +10929,57 @@ entries:
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Junta of Ogon, Ogon, Kma-Dhol, Imek Stone-Foot]
   # ─── end Vey Nine Birds ───
+
+  # ═══ Colonel-Hereditary es-Valent ═══
+  Colonel-Hereditary es-Valent:
+    category: person
+    short: "Frontier commander who fostered Tsoka Red Deer for twelve years."
+    person_location: Northern Frontier
+    details: |
+      Imperial officer whose estate sits in the transitional zone where Imperial
+      sovereignty dissolves into Thousand Kingdoms independence. Fostered the
+      young Tsoka Red Deer for twelve years, teaching him Imperial institutional
+      thinking and military organization that Tsoka later applied to his Akama
+      warband. This fostering arrangement exemplifies how frontier Colonel-
+      Hereditary estates maintain elaborate relationships with Akama warbands—
+      tribute ceremonies that are actually diplomatic negotiations, tax collection
+      resembling protection money, military subordination masking strategic
+      partnerships.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Northern Frontier, Tsoka Red Deer, Thousand Kingdoms]
+  # ─── end Colonel-Hereditary es-Valent ───
+
+  # ═══ Colonel-Hereditary Vas es-Tammuz ═══
+  Colonel-Hereditary Vas es-Tammuz:
+    category: person
+    short: "Frontier officer controlling trade routes through safe passage fees—40,000 obols annually."
+    person_location: Northern Frontier
+    details: |
+      Controls trade routes through controlling safe passage fees, generating
+      forty thousand obols annually—more than orthodox taxation would yield.
+      His relationship with local Akama bands operates through "tribute
+      presentations" that are actually diplomatic summits. Exemplifies how
+      frontier Colonel-Hereditary estates generate income through arrangements
+      that would shock core Imperial administrators.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Northern Frontier, Thousand Kingdoms]
+  # ─── end Colonel-Hereditary Vas es-Tammuz ───
+
+  # ═══ Colonel-Hereditary Kess es-Verath ═══
+  Colonel-Hereditary Kess es-Verath:
+    category: person
+    short: "Frontier officer surviving through usefulness—40 soldiers, neutral ground, arbitration."
+    person_location: Northern Frontier
+    details: |
+      Her forty soldiers could barely defend against serious assault. She
+      survives by providing services no one else offers: neutral ground for
+      negotiations, arbitration that both Imperial law and Akama custom
+      recognize. Her position rests on being too useful to attack, too weak
+      to threaten. Exemplifies how some frontier estates maintain themselves
+      through institutional value rather than military force.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Northern Frontier, Thousand Kingdoms]
+  # ─── end Colonel-Hereditary Kess es-Verath ───
 
   # ═══ Malpais War ═══
   Malpais War:
