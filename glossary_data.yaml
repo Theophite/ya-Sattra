@@ -10987,7 +10987,7 @@ entries:
       indicates established lineage with kilit affiliation. Family compound in High 
       Junction.
     rag_pointer: "The Republic of Ganat"
-    related: [Ganat, Dawn Party, Kilit, High Junction]
+    related: [Serrulata, Ganat, Dawn Party, Kilit, High Junction]
   # ─── end Rasma Dhal-Setil ───
 
   # ═══ Datho Kel el-Marwen ═══
@@ -11634,11 +11634,11 @@ entries:
   # ═══ Gezu Khotan ═══
   Gezu Khotan:
     category: person
-    short: "Dawn Party intelligence factor at ya-Sattra's Ganati Factoria—Serrulata veteran, ideological venture capitalist."
+    short: "Dawn Party intelligence factor at ya-Sattra's Ganati Factoria—Nasif veteran, ideological venture capitalist."
     person_location: ya-Sattra
     details: |
       Age early 60s. Factor (intelligence officer under commercial cover) for the Dawn Party,
-      operating from the Ganati Factoria in ya-Sattra's docks. Serrulata with eastern desert
+      operating from the Ganati Factoria in ya-Sattra's docks. Nasif with eastern desert
       bloodlines—tall and upright, long neck beyond human proportion, wide golden eyes.
       Elaborate copper inlay under his eyes forming old regimental insignia of the Third
       Desert Rifles, a unit that officially ceased to exist when half joined Kelso Senna's
@@ -11677,7 +11677,7 @@ entries:
       representative. The Bureau of the Lens knows he's intelligence but can't move
       without causing diplomatic incident.
     rag_pointer: "Imperial Media and Entertainment, Ganat"
-    related: [Serrulata, ya-Sattra, Ganat, Dawn Party, Ganati Factoria, Bureau of the Lens, Penitent Church]
+    related: [Nasif, Serrulata, ya-Sattra, Ganat, Dawn Party, Ganati Factoria, Bureau of the Lens, Penitent Church]
   # ─── end Gezu Khotan ───
 
   # ═══ Grey-Patch ═══
