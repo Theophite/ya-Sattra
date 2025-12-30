@@ -10979,15 +10979,15 @@ entries:
     short: "Dawn Consul of the Republic of Ganat—revolutionary aristocrat, merchant princess who financed revolution."
     person_location: Ganat
     details: |
-      Fifty years old, Serrulata, tall and striking with copper and lapis inlay worked 
-      into her scales. Represents Dhal-Setil Mercantile, the catalog-delivery empire. 
-      Commands a bloc of eight Senate seats. Famous for the legendary ride from Ganat 
-      to Taho that ended the Revolution in the west. Practices Orthodox High-Church 
-      Penitentism in a party dominated by radical works-theology. Compound surname 
-      indicates established lineage with kilit affiliation. Family compound in High 
+      Fifty years old, Khatam, tall and striking with copper and lapis inlay worked
+      into her scales. Represents Dhal-Setil Mercantile, the catalog-delivery empire.
+      Commands a bloc of eight Senate seats. Famous for the legendary ride from Ganat
+      to Taho that ended the Revolution in the west. Practices Orthodox High-Church
+      Penitentism in a party dominated by radical works-theology. Compound surname
+      indicates established lineage with kilit affiliation. Family compound in High
       Junction.
     rag_pointer: "The Republic of Ganat"
-    related: [Serrulata, Ganat, Dawn Party, Kilit, High Junction]
+    related: [Khatam, Serrulata, Ganat, Dawn Party, Kilit, High Junction]
   # ─── end Rasma Dhal-Setil ───
 
   # ═══ Datho Kel el-Marwen ═══
@@ -11677,8 +11677,46 @@ entries:
       representative. The Bureau of the Lens knows he's intelligence but can't move
       without causing diplomatic incident.
     rag_pointer: "Imperial Media and Entertainment, Ganat"
-    related: [Nasif, Serrulata, ya-Sattra, Ganat, Dawn Party, Ganati Factoria, Bureau of the Lens, Penitent Church]
+    related: [Nasif, Serrulata, ya-Sattra, Ganat, Dawn Party, Ganati Factoria, Bureau of the Lens, Penitent Church, Rabi Eloum]
   # ─── end Gezu Khotan ───
+
+  # ═══ Rabi Eloum ═══
+  Rabi Eloum:
+    category: person
+    short: "Khotan's deputy and network handler—near-baseline operative whose cover identity has become more real than his birth name."
+    aliases: [Velar Thevamar]
+    person_location: ya-Sattra
+    details: |
+      COVER IDENTITY: Velar Thevamar, textile buyer for a consortium of Medina Quarter
+      tailors. Imperial citizen. Mid-30s, near-baseline, unremarkable appearance. The
+      name suggests established merchant family—respectable enough to open doors, not
+      prestigious enough to attract scrutiny.
+
+      BIRTH IDENTITY: Rabi Eloum. Son of a republican soldier who fought in the Ganati
+      civil war. Raised in Ganat despite holding Imperial citizenship through birthright.
+      The Eloum name appears on no Imperial records; it exists only in Dawn Party files
+      and in Gezu Khotan's private correspondence.
+
+      PROFESSIONAL CAPABILITIES: Master of disguises and accents. Carries cryptographically
+      verifiable fake Imperial IDs. Runs most of the actual network through dead drops.
+      Has operated essentially autonomously for fifteen years with only intermittent
+      handler contact.
+
+      PSYCHOLOGY: Intensely focused, intensely lonely. Experienced subtle Serrulata-
+      supremacist exclusion from Dawn Party establishment. His closest relationships
+      are with his own assets, whom he protects fiercely. His cover identity has become
+      more real than his birth identity. Gay; maintains bathhouse friendships with
+      Imperial bureaucrats he deliberately does not recruit—his only authentic social
+      space.
+
+      THE PARADOX: Rabi Eloum fights for a cause that considers him racially inferior
+      while protecting Imperial dissidents who matter more to him than his handlers do.
+      Velar Thevamar has genuine friendships with people whose government he's working
+      to destroy. The textile buyer is the truest version of himself that anyone
+      actually knows.
+    rag_pointer: "Imperial Media and Entertainment, Ganat"
+    related: [Gezu Khotan, Near-Baseline, ya-Sattra, Ganat, Dawn Party, Ganati Factoria, Medina Quarter]
+  # ─── end Rabi Eloum ───
 
   # ═══ Grey-Patch ═══
   Grey-Patch:
