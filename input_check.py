@@ -88,6 +88,19 @@ COMMON_ENGLISH = {
     'continue', 'stop', 'start', 'wait', 'watch', 'turn', 'move', 'pull', 'push',
     'speak', 'talk', 'tell', 'ask', 'answer', 'say', 'said', 'says',
     'know', 'knew', 'known', 'want', 'need', 'try', 'tried',
+    # Common sentence starters (often false positives when capitalized)
+    'finally', 'suddenly', 'slowly', 'quickly', 'carefully', 'quietly', 'silently',
+    'ahead', 'behind', 'above', 'below', 'beside', 'between', 'beyond',
+    'only', 'also', 'still', 'just', 'even', 'already', 'always', 'never',
+    'another', 'other', 'others', 'some', 'many', 'most', 'few', 'several',
+    'their', 'its', 'his', 'her', 'our', 'your', 'my',
+    'standing', 'sitting', 'waiting', 'walking', 'running', 'looking', 'watching',
+    'voices', 'sounds', 'words', 'steps', 'hands', 'eyes', 'faces',
+    'perhaps', 'maybe', 'probably', 'certainly', 'clearly', 'obviously',
+    'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty',
+    'thirty', 'forty', 'fifty', 'sixty', 'hundred', 'thousand',
+    'who', 'what', 'when', 'where', 'why', 'how', 'which',
+    'production', 'empire', 'silence', 'translation',
 }
 
 # World-specific terms that should always trigger lookup
@@ -100,8 +113,8 @@ SPECIAL_TERMS = {'patent', 'patents', 'record', 'compulsion', 'testament', 'test
                  'serrulata', 'avouvar', 'akama', 'ranga', 'springheel', 'ironbone',
                  # New caste terms
                  'ashrat', 'astal', 'karst', 'nasif', 'orevet', 'sarruk', 'pierrots',
-                 'verethani', 'draethen', 'draÃ«then', 'szkoverin', 'szkovÃ«rin',
-                 'volerath', 'vÃ¶lÃ«rath', 'kalbat', 'kalbats', 'presence', 'shtetl',
+                 'verethani', 'draethen', 'draëthen', 'szkoverin', 'szkovërin',
+                 'volerath', 'völërath', 'kalbat', 'kalbats', 'presence', 'shtetl',
                  # Inner City terms
                  'vel-kerith', 'vel-om', 'kerith-sah', 'terrace',
                  # Iron Yards terms
@@ -1228,8 +1241,8 @@ def _main_inner():
             filtered_caps.add(word)
     caps = filtered_caps
     
-    # Special terms
-    all_words_lower = set(w.lower() for w in re.findall(r'\b[a-zA-Z]+\b', text))
+    # Special terms (use Unicode-aware word matching)
+    all_words_lower = set(w.lower() for w in re.findall(r'\b\w+\b', text, re.UNICODE))
     special_hits = all_words_lower & SPECIAL_TERMS
     
     words = caps | {w.title() for w in special_hits}
