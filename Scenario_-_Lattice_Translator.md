@@ -1,3 +1,31 @@
+---
+title: Lattice Translator Scenario
+type: scenario
+parent: null
+glossary_terms:
+  - Institute of the Lattice
+  - Bureau of the Lens
+  - Jargon
+  - Interdict
+  - City-of-Glass Charter
+  - Fourth Whorl
+  - Record
+
+guidance:
+  - "The Interdict occurred at LEAST 10,000 years ago - artifacts older than most Earth civilizations"
+  - "Records cannot be grammatically sequenced - each is its own eternal present, comparing them implies perspective outside Imperial authority"
+  - "Five known unclassified Records spanning ~5,000 years: Three Laws, Resonating Word, White Birds, Black Star, Red Hawk (current, year 981)"
+  - "Everyone accepts City-of-Glass Charter NOW - debate is how to interpret/preserve it, not whether it should exist"
+  - "Inner City is ENTIRELY ENCLOSED - no sky, no outside, characters who've never left may never have seen natural light"
+  - "Compartmentalization: Lattice concepts (Trinity, Monk, Isogenist, Translator) NEVER appear outside Lattice building except in private thoughts"
+  - "Do NOT loredump - characters who live here do not explain their world to each other"
+
+see_also:
+  - Ya-Sattra - Inner City Arcology.md
+  - Bureau - Lens (Information).md
+  - Language - Imperial Grammar and Registers.md
+---
+
 # The Lattice Translator Scenario: Comprehensive Reference
 
 ## Critical Timeline Note

@@ -1,3 +1,29 @@
+---
+title: The Refugee Castes - Puget Sound
+type: reference
+parent: null
+glossary_terms:
+  - Völërath
+  - Szkovërin
+  - Draëthen
+  - Avouvar
+  - Autofactory
+  - Akama
+
+guidance:
+  - "Three castes fled ya-Tsovez 10,000 years ago: Völërath (diminished Highborn who cannot Compel), Szkovërin (furnace workers immune to heavy metals), Draëthen (engineering laborers with absolute conformity)"
+  - "They planted autofactory seeds while fleeing - including Ogon, foundation of Akama power. They COULD NOT direct what they planted (required Technical Caste capabilities)"
+  - "Völërath number ~300 total, inbreeding increasingly severe - children born with spinal curvature, joint failures, hearing loss"
+  - "Szkovërin excrete processed toxins - settlements sit on bare promontories DOWNWIND from villages, soil grey with contamination"
+  - "Akama call them 'akhavol' - those who stand with mouths open catching rain and complaining about the taste. Accurate."
+  - "Biological incompatibility means three parallel populations share territory but NOT bloodlines"
+
+see_also:
+  - Region - Asovoë and the Avouvar.md
+  - Region - Thousand Kingdoms (Akama).md
+  - Caste - Highborn.md
+---
+
 # **The Refugee Castes**
 
 *The Caste-Villages of the Puget Sound*

@@ -1,3 +1,31 @@
+---
+title: Writing the Inner City
+type: guide
+parent: null
+glossary_terms:
+  - Inner City
+  - Fourth Whorl
+  - Third Whorl
+  - Second Whorl
+  - First Whorl
+  - Black Door
+  - Whorl-Lag
+  - Highborn
+
+guidance:
+  - "Emotional register: ANCIENT, PROCEDURAL, MELANCHOLY - not horrifying, not mystical, not exciting"
+  - "Exhaustion rather than fear - everyone is tired, everyone continues anyway"
+  - "Resignation rather than despair - systems cannot be changed, Standing Orders are immutable, this is settled condition of existence"
+  - "Wonder that has become routine - clerk passing future self might nod or avoid eye contact, not gasp in shock"
+  - "Tone gradient by depth: Fourth Whorl (commercial, chaotic), Third (utilitarian, oppressive), Second (bureaucratic, melancholy, uncanny), First (exhausted, ancient, profoundly sad)"
+  - "First Whorl: near-total isolation, almost everyone Highborn, most have given up trying to connect across temporal differentials"
+
+see_also:
+  - Ya-Sattra - Inner City Arcology.md
+  - Scenario - Lattice Translator.md
+  - Mysteries - The Emperor and the Singularity.md
+---
+
 # **Writing the Inner City**
 
 ## **Overview**
