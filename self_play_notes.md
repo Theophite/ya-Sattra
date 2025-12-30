@@ -60,3 +60,26 @@ This file tracks problems encountered during the self-play scenario creation and
 | 8 | (no new terms) | Wands (tarot suit, not in glossary) |
 
 ---
+
+## Second Scenario: "The Unwritten Chord"
+
+**Card**: 3 of Wands (foresight, expansion, waiting for returns)
+**Seed**: Verethani (Highborn without Compulsion, sing in ya-Don Furnaces)
+**Setting**: ya-Don, the Furnaces, Chamber 7-Keth-Ascending
+**Turns**: 16
+
+### Validation Results
+
+| Turn | Key Terms Found |
+|------|-----------------|
+| 1 | Furnaces, Threshold (locations) |
+| 4 | Ashrat (caste) |
+| 5 | Near-Baseline (caste), Bureau of the Rod, Furnace Board, Lector (glossary) |
+| 6 | Verethani (caste) |
+| 10 | Archons, Technical Castes (castes), Interdict (concept) |
+
+**Correctly identified**: 12 setting terms
+**Scenario-specific RAG flags**: 14 invented terms
+**No new problems encountered** in second scenario
+
+---
