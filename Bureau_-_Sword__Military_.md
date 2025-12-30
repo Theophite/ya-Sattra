@@ -1,3 +1,34 @@
+---
+title: Bureau of the Sword (Military)
+type: reference
+parent: Government - Satara and Bureaus
+glossary_terms:
+  - Bureau of the Sword
+  - Warborn
+  - Ironback
+  - Redback
+  - Springheel
+  - Colonels-Hereditary
+  - Companion Guild
+  - Mutterers
+  - Highborn
+  - Charter
+
+guidance:
+  - "Institute for Strategic Planning and Institute for Study of Tactics have IDENTICAL responsibilities - 70-year turf war, officers submit to both using different fonts"
+  - "Ordnance procurement is COMPLETELY NON-FUNCTIONAL - real system runs on Companion bribes, theft, and criminal supply chains"
+  - "Archaeotech weapons (plasma lances, gravitational hammers) are PSYCHOLOGICAL TOOLS - maybe 3 shots before failure, deploy early for terror"
+  - "Empire is STRONG WITHIN CORE (two weeks from secure bases), degrades at distance"
+  - "Combined arms doctrine ACTUALLY WORKS - screen with infantry, flank with dragoons, shock with Warborn, fire superiority through massed rifles"
+  - "The doctrine isn't managing decline but MAXIMIZING CAPABILITY within constraints"
+
+see_also:
+  - Government - Satara and Bureaus.md
+  - Bureau - Lens (Information).md
+  - Caste - Warborn.md
+  - Guild - Companions (Physicians).md
+---
+
 ## **The Bureau of the Sword:**
 
 ## **Core Institutes**

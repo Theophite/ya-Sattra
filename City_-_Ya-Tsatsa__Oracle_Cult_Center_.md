@@ -1,3 +1,36 @@
+---
+title: Ya-Tsatsa - Oracle Cult Center
+type: reference
+parent: null
+glossary_terms:
+  - Ya-Tsatsa
+  - Oracle Cult
+  - Three Cradles
+  - Threefold Mirror Academy
+  - Institute of the Lattice
+  - Quiet Days
+  - Kalbat
+  - Presence
+  - Compulsion
+  - Ezh Tan
+  - Ezh Ot
+  - Ezh Dhol
+  - Yarangar
+
+guidance:
+  - "The Presence is DISTRIBUTED CONSCIOUSNESS occupying Compulsion-susceptibility circuits - steers behavior through what feels like INTUITION rather than command"
+  - "Near-zero crime despite producing most organized criminal LEADERSHIP elsewhere - emigrant criminals operate where Presence cannot reach"
+  - "Threefold Mirror Academy produces 93% of Lattice mathematicians - graduates CANNOT reveal what they learned even under Compulsion (neurological incapacity)"
+  - "Quiet Days: city silences whistles, pastoral families descend to crater slopes, 30,000 voices sing discordantly - the Presence THINKING through them"
+  - "Three Aureate families: Ezh Tan (banking, apology-loans), Ezh Ot (Akama auxiliary mustering), Ezh Dhol (Lattice patents, Academy)"
+  - "Systematic opacity toward outsiders - Imperial bureaucrats rotate through normally but NO ONE understands how city actually operates"
+
+see_also:
+  - Religion - Oracle Cult.md
+  - Bureau - Lens (Information).md
+  - Caste - Technical Castes - Overview.md
+---
+
 # **Ya-Tsatsa: Comprehensive Reference**
 
 ## **Suggested Glossary Query**

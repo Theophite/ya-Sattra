@@ -1,3 +1,31 @@
+---
+title: The Thousand Kingdoms (Akama)
+type: reference
+parent: null
+glossary_terms:
+  - Thousand Kingdoms
+  - Akama
+  - Junta of Ogon
+  - Malpais
+  - Kma-Dhol
+  - Destrier
+  - Warborn
+
+guidance:
+  - "Akama identity requires BOTH reproductive compatibility AND cultural participation - genetics alone or culture alone is insufficient"
+  - "'Standing in the rain' is organizing principle - endurance without complaint, direct aid is THEFT of sacred experience, luck is justice"
+  - "Gambling is openly rigged redistribution - everyone knows, losing is how you give resources without violating standing-in-the-rain principle"
+  - "Seven Junta tokens - cannot be destroyed or divided, method of acquisition irrelevant to legitimacy, shift between metallic/crystalline states"
+  - "The Junta is NOT a government - coordination between military powers, no laws, no bureaucracy, no monopoly on violence"
+  - "Northern Kma-Dhol operate OPENLY as recognized technical specialists with religious legitimacy - unlike their hidden Imperial counterparts"
+  - "Akama language bears NO relationship to Imperial Common - guttural, throat-focused, requires childhood development to pronounce properly"
+
+see_also:
+  - Region - Republic of Ganat.md
+  - Caste - Technical Castes - Overview.md
+  - Organization - Cloud Temple Band.md
+---
+
 ## **The Thousand Kingdoms: A RAG Navigation Guide**
 
 ### **Executive Summary**

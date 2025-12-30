@@ -254,3 +254,56 @@ These documents were already well-structured with internal navigation. Added YAM
 - Added guidance rules for Mutterer management
 - Key concepts: monastic order (not trade guild), cascades, chimes, Witness inheritance
 - Already has internal RAG Navigation section
+
+### Religion_-_Penitent_Church.md ✓
+- Key concepts: Plea liturgy, managed contradiction, Witnesses/Companions split origin
+- The Penitent Church is NOT the Oracle Cult
+
+### Religion_-_Oracle_Cult.md ✓
+- Key concepts: information-theoretic salvation, Eighth Oracle erasure
+- Technical Castes COULD NOT implement Eighth Testament (cognitive impossibility)
+
+### Bureau_-_Lens__Information_.md ✓
+- Key concepts: seven Institutes, three parallel realities, strategic confusion
+- Lattice mathematicians approach Jargon "almost certainly" safely
+
+### Bureau_-_Sword__Military_.md ✓
+- Key concepts: ordnance catastrophe, combined arms doctrine, archaeotech psychology
+- Empire is STRONG within core (two weeks from secure bases)
+
+### Government_-_Satara_and_Bureaus.md ✓
+- Master reference for Imperial governance
+- Key concepts: Standing Orders immutable, City-of-Glass Charter central conflict
+- Already has extensive internal RAG navigation
+
+### System_-_Aureate_Patents_and_Aristocracy.md ✓
+- Key concepts: patents as encrypted authentication keys, temporal depth > wealth
+- Bodies advertise status, ignorance is system architecture
+
+### System_-_Economy_and_Currency.md ✓
+- Key concepts: Kess benchmark (subsistence), three-tier market, obol standard
+- None of these systems resemble capitalism
+
+### City_-_Ya-Don__Industrial_Center_.md ✓
+- Key concepts: Church-Guild merger, Furnaces produce ALL complex technology
+- Bureau of Rod officially oversees but actually negotiates
+
+### City_-_Ya-Tsatsa__Oracle_Cult_Center_.md ✓
+- Key concepts: the Presence (distributed consciousness), Threefold Mirror Academy
+- Systematic opacity toward outsiders, near-zero crime
+
+### Region_-_Republic_of_Ganat.md ✓
+- Key concepts: consular dyarchy, kilits as economic units, 60% threshold
+- Patriarch Kaleb's works-based atonement theology
+
+### Region_-_Thousand_Kingdoms__Akama_.md ✓
+- Key concepts: standing in the rain, Junta tokens, gambling redistribution
+- Akama identity requires BOTH genetics AND cultural participation
+
+### Mysteries_-_The_Emperor_and_the_Singularity.md ✓
+- Key concepts: Emperor-word grammar, mysteries are PROVEN not uncertain
+- Engineering failures not cosmic inscrutability
+
+### Language_-_Imperial_Grammar_and_Registers.md ✓
+- Key concepts: unformability not prohibition, authentication checks form not truth
+- Social position is audible

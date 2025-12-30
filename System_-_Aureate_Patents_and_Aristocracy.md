@@ -1,3 +1,31 @@
+---
+title: The Aureate System - Patents and Aristocracy
+type: reference
+parent: null
+glossary_terms:
+  - Aureate
+  - Patent
+  - First Whorl
+  - Occultation
+  - Highborn
+  - Black Door
+  - Viewing Room
+  - es-prefix
+
+guidance:
+  - "Patents are NOT legal documents but ENCRYPTED AUTHENTICATION KEYS - self-enforcing through archaeotech, cannot be violated because technology refuses to operate without proper authentication"
+  - "Temporal depth matters MORE than wealth - pensioned family with classified Record outranks wealthy family with accessible Record"
+  - "Bodies ADVERTISE status - extreme modification (elongation, dependencies) marks ancient lineages; near-baseline bodies signal recent elevation"
+  - "Occultation creates Aureate status - bureaucrat enters First Whorl, experiences temporal distortion, family outside receives patents and 'es-' prefix"
+  - "Aureates maintain technologies they CANNOT DESCRIBE, follow procedures whose purposes are LOST - ignorance is the system's architecture"
+  - "Servants are ESSENTIAL INFRASTRUCTURE - most modified Aureates cannot exist without specialized populations engineered for interface with their biology"
+
+see_also:
+  - Government - Satara and Bureaus.md
+  - Caste - Highborn.md
+  - System - Economy and Currency.md
+---
+
 # **The Aureate System: A RAG Navigation Guide**
 
 ## **Executive Summary**

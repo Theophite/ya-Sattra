@@ -1,3 +1,33 @@
+---
+title: Republic of Ganat
+type: reference
+parent: null
+glossary_terms:
+  - Republic of Ganat
+  - Serrulata
+  - Kilit
+  - Penitent Church
+  - Kelso Senna
+  - Dawn Party
+  - Dusk Party
+  - Yarangar War
+
+guidance:
+  - "18 years old - born from revolution against Sultana Ulayah in 963. Consular dyarchy where each party selects opposing party's most MODERATE candidate"
+  - "Kilits are ECONOMIC units first - political representation derives from economic organization, not geography"
+  - "60% threshold shapes all legislation - forces cross-party coalition building, explains why passed legislation often seems incoherent"
+  - "Dawn and Dusk are NOT disciplined parties - they are consular selection coalitions, senators vote constituent kilit interests not party line"
+  - "Vote delegation is NOT corruption in Ganati culture - considered routine and acceptable. Corruption means double-sell or hollow delegations"
+  - "Serrulata 65% of population - desert adaptations (keratin scales, dark sclerae, micro-channel sweat) enable survival where unmodified humans struggle"
+  - "Patriarch Kaleb transformed Penitent theology - atonement through WORKS (infrastructure, technology, resisting oppression) rather than passive acceptance"
+
+see_also:
+  - Region - Thousand Kingdoms (Akama).md
+  - City - Ya-Don (Industrial Center).md
+  - Caste - Colonist Castes.md
+  - Religion - Penitent Church.md
+---
+
 # The Republic of Ganat: Comprehensive Reference
 
 ---

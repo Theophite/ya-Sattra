@@ -1,3 +1,32 @@
+---
+title: Mysteries of the Empire - The Emperor and the Singularity
+type: reference
+parent: null
+glossary_terms:
+  - Emperor
+  - Black Door
+  - First Whorl
+  - Inanis
+  - Eighth Oracle
+  - Interdict
+  - Technical Castes
+  - Jargon
+  - Kelso Senna
+
+guidance:
+  - "Emperor-word belongs to grammatical class of UNCOUNTABLE ABSTRACTIONS - cannot pluralize, count, or use temporal modifiers. No construction for succession exists"
+  - "Emperor's missives are filled with GRAMMATICAL ERRORS - uses constructions that violate rules of a language supposedly engineered around his nature"
+  - "Mysteries are PROVEN not uncertain - Jargon expressed mathematically certain concepts, mystery is 'this is verified AND we cannot say it'"
+  - "Mysteries are ENGINEERING FAILURES not cosmic inscrutability - someone designed this, made choices, consequences unfolded"
+  - "Question is not 'what does God want' but 'why would God even want that' - Oracle precomputed light cone, knew Technical Castes would fail, issued command anyway"
+  - "Each revelation leads to FURTHER mysteries - structure is ascending, each meaning points further up, never provide ultimate answer"
+
+see_also:
+  - Government - Satara and Bureaus.md
+  - Religion - Oracle Cult.md
+  - Language - Imperial Grammar and Registers.md
+---
+
 # **Mysteries of the Empire**
 
 This document covers phenomena that cannot be fully explainedâ€”things the Empire lives with but does not understand. The Emperor, the Inanis, the Eighth Oracle's false mathematics, the Kelso Senna phenomenon, the Foreigners who imposed the Interdict. These mysteries are connected: the singularity the Emperor maintains, the event horizons from which Inanis leak, the calculation the Archons pursue at Far Ib, the temporal distortions through which Senna moves. The connections are real. The understanding is incomplete.

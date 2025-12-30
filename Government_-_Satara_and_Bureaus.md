@@ -1,3 +1,44 @@
+---
+title: The Satara, the Bureaux, and Imperial Government
+type: reference
+parent: null
+glossary_terms:
+  - Satara
+  - Bureau of the Creche
+  - Bureau of the Coin
+  - Bureau of the Scale
+  - Bureau of the Lens
+  - Bureau of the Sword
+  - Bureau of the Rod
+  - Standing Orders
+  - City-of-Glass Charter
+  - First Whorl
+  - Second Whorl
+  - Black Door
+  - Aureate
+  - Highborn
+  - Dominion
+  - Seven-Cornered Examination
+  - Judge-Executioner
+  - Colonels-Hereditary
+
+guidance:
+  - "The Emperor does NOT rule - He maintains a naked singularity behind the Black Door, His communications reference territories that no longer exist"
+  - "Standing Orders are IMMUTABLE constitution - Satara can only interpret, not amend. Reforms require authorities that cannot be accessed"
+  - "Reserved powers (war declaration, new taxation, highest appeals, Bureau creation) belong to First Whorl - effectively impossible to obtain"
+  - "Patents and caste system CANNOT be abolished - they exist prior to Satara authority, encoded in authentication systems"
+  - "City-of-Glass Charter transferred reproductive jurisdiction from Creche to Scale - CENTRAL political conflict for 207 years"
+  - "Twelve Satara members divided between coup coalition (Creche-centered, aims to revoke Charter) and reform faction (Rod-centered)"
+  - "Each Bureau has distinct culture: Creche (conservative, hereditary), Coin (corrupt, patronage), Scale (procedural, glacial), Lens (paranoid, compartmentalized), Sword (bitter, pragmatic), Rod (progressive, technical)"
+  - "Seven-Cornered Examination tests seven virtues from first seven Oracles - structural advantages favor Aureate candidates with tutors"
+
+see_also:
+  - Bureau - Lens (Information).md
+  - Bureau - Sword (Military).md
+  - Religion - Oracle Cult.md
+  - Caste - Highborn.md
+---
+
 # **The Satara, the Bureaux, and Imperial Government**
 
 ## **RAG Navigation Guide**

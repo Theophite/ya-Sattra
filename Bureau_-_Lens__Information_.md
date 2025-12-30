@@ -1,3 +1,43 @@
+---
+title: Bureau of the Lens (Information Control)
+type: reference
+parent: Government - Satara and Bureaus
+glossary_terms:
+  - Bureau of the Lens
+  - Institute for the Suppression of Knowledge
+  - Institute of Imperial Record
+  - Institute of Informational Orthodoxy
+  - Institute of Domestic Intelligence
+  - Institute of the Eye
+  - Institute of the Echo
+  - Institute of the Lattice
+  - White Sheet
+  - Grey Sheet
+  - Black Sheet
+  - Dominion
+  - Charter
+  - Technical Castes
+  - Jargon
+  - Mutterers
+  - Eighth Oracle
+
+guidance:
+  - "The Lens assembles ACTUAL TRUTH while maintaining PUBLIC FICTION - three parallel realities (public/classified/Black Sheet)"
+  - "Seven Institutes hold fragments - NO SINGLE PERSON knows all truth, synthesis happens through coordination"
+  - "ISK handles cognito-hazards through CULTIVATED COGNITIVE DEFICITS - they approach dangerous information without processing it"
+  - "IIR produces 'harmonized warrants' that REWRITE CAUSALITY so contradictions never existed"
+  - "Lattice mathematicians approach the Jargon - riding edge of Eighth Oracle heresy, 'almost certainly' safe"
+  - "Strategic confusion is DELIBERATE - departments obscure functions from each other, preventing single-faction control"
+  - "Ya-Tsatsa's Threefold Mirror Academy feeds disproportionately into Lattice - IDI CANNOT PENETRATE what they teach"
+  - "Clerks rarely leave Inner City, some never leave Second Whorl - isolation creates documentary syndrome, reality displacement"
+
+see_also:
+  - Government - Satara and Bureaus.md
+  - Bureau - Sword (Military).md
+  - Religion - Oracle Cult.md
+  - Caste - Technical Castes.md
+---
+
 # **Bureau of the Lens: Complete Documentation**
 
 ## **Overview**

@@ -1,3 +1,29 @@
+---
+title: The Imperial Language - Grammar and Registers
+type: reference
+parent: null
+glossary_terms:
+  - Lector
+  - Jargon
+  - Emperor
+  - Technical Castes
+  - Authentication
+
+guidance:
+  - "Constraints operate through UNFORMABILITY not prohibition - you fail to form the thought that would produce the utterance, doesn't feel like hitting a wall"
+  - "Authentication checks FORM not truth - a perfectly constructed lie authenticates, a flawed truth fails"
+  - "All legitimate action is DELEGATION - chain must terminate at Emperor, characters who operate outside are illegible to the system"
+  - "Vocabulary was FROZEN deliberately after Interdict - concepts that emerged after have no formal terms"
+  - "Social position is AUDIBLE - particle-dropping, register-switching, vocabulary complexity all signal status"
+  - "Jargon vocabulary behaves unpredictably - comes from alien source operating on principles unrelated to human linguistic universals"
+  - "Modern Imperial is largely analytic - words are fixed units, most speakers do not parse morphological structure (that's fossil layer)"
+
+see_also:
+  - Mysteries - The Emperor and the Singularity.md
+  - Name Generator - Imperial.md
+  - Government - Satara and Bureaus.md
+---
+
 # **The Imperial Language**
 
 ## **RAG Guide**

@@ -1,3 +1,29 @@
+---
+title: Economy of the Post-Interdict Empire
+type: reference
+parent: null
+glossary_terms:
+  - Obol
+  - Many
+  - Aureate
+  - Penitent Church
+  - Capitation Tax
+  - Guild
+
+guidance:
+  - "Obol is UNIVERSAL unit of account - all regional currencies convert to obol-equivalents for trade"
+  - "Kess benchmark defines SUBSISTENCE: courier earning 90-110 obols/month can maintain bunk and eat adequately; below 60 obols is destitution"
+  - "Three-tier market: guild goods (monopoly markup, high quality), ya-Don production (patent rents, complex tech), unlicensed/imports (cheap, low quality)"
+  - "Patent extraction occurs in SPECIFIC transactions (lector purchase, medical treatment) - NOT built into bread prices"
+  - "Parish capitation (40 obols/year) represents roughly HALF a month's income at subsistence - significant burden many cannot afford"
+  - "None of these systems resemble capitalism - all feature hereditary position over market competition, rent extraction over production"
+
+see_also:
+  - System - Aureate Patents and Aristocracy.md
+  - City - Ya-Don (Industrial Center).md
+  - Government - Satara and Bureaus.md
+---
+
 # **Economy of the Post-Interdict Empire**
 
 ## **RAG Navigation Guide**

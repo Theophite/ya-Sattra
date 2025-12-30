@@ -1,3 +1,37 @@
+---
+title: Ya-Don - Industrial Center
+type: reference
+parent: null
+glossary_terms:
+  - Ya-Don
+  - Furnaces
+  - Order of St. Akhmet
+  - Unwritten-Axiom Parish
+  - Covenant of Saint Aureline
+  - Penitent Church
+  - Mutterers
+  - Companion Guild
+  - Bureau of the Rod
+  - Ashrat
+  - Karst
+  - Orevet
+  - Verethani
+
+guidance:
+  - "Ya-Don is Church-Guild merger - Bureau of the Rod OFFICIALLY oversees but ACTUALLY negotiates with institutions it cannot compel"
+  - "Furnaces produce ALL complex technology (lectors, lighting, electronics, weapons) - Empire cannot survive without ya-Don"
+  - "Order of St. Akhmet is PRIMARY labor union (~40,000 members) - 35% Ashrat, 30% near-baseline, 15% Orevet, 10% Redback"
+  - "Unwritten-Axiom Parish (~4,000 elite craftsmen) controls deep-section production - heterodox theology treating INCOMPREHENSION as sacred"
+  - "es-Etaie capitation arrangement funds religious freedom for ALL guildsmen - Church taxes paid collectively through patent fees"
+  - "Ya-Don accent: flatter vowels, weighted consonants, faster pace, guild jargon integration"
+
+see_also:
+  - System - Economy and Currency.md
+  - Religion - Penitent Church.md
+  - Guild - Companions (Physicians).md
+  - Bureau - Rod.md
+---
+
 # **Ya-Don: A RAG Navigation Guide**
 
 ## **Executive Summary**
