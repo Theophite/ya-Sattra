@@ -13973,10 +13973,153 @@ entries:
     category: concept
     short: "Temporal distortion effects bleeding between Whorls."
     details: |
-      Chronometer drift, memory dissonance, the persistent sensation of déjà vu called 
-      "the echo." Effects intensify toward the center. In the Second Whorl, meetings 
-      have unpredictable duration—six hours subjective might be a day outside. Senior 
+      Chronometer drift, memory dissonance, the persistent sensation of déjà vu called
+      "the echo." Effects intensify toward the center. In the Second Whorl, meetings
+      have unpredictable duration—six hours subjective might be a day outside. Senior
       bureaucrats learn to schedule by subjective duration rather than clock time.
     rag_pointer: The Inner City
     related: [Inner City, Second Whorl, The Echo, First Whorl]
   # ─── end Whorl-Lag ───
+
+  # ===========================================================================
+  # WORK (Artistic Productions)
+  # ===========================================================================
+
+  # ═══ The Redactor's Dilemma ═══
+  The Redactor's Dilemma:
+    category: work
+    short: "Satirical comedy about Bureau information management—Lens condemnation runs four paragraphs."
+    details: |
+      Currently playing at the Fourth Whorl's Threshold Theater. Three acts following
+      Sri Redactor Kemmen as he discovers that telling truth and telling lies produce
+      identical outcomes because no one reads his work carefully. The comedy escalates
+      as he attempts to satisfy impossible requirements, eventually producing a White
+      Sheet edition consisting entirely of punctuation marks, which his readers praise
+      as "the clearest issue in years."
+
+      The Bureau of the Lens condemnation calls it "a work of DELIBERATE CONFUSION
+      regarding the proper functions of Imperial information management" and runs to
+      four paragraphs—the elaborateness signaling quality to sophisticated audiences.
+    rag_pointer: Imperial Media and Entertainment
+    related: [Bureau of the Lens, White Sheet, Fourth Whorl]
+  # ─── end The Redactor's Dilemma ───
+
+  # ═══ The Verenis Troupe ═══
+  The Verenis Troupe:
+    category: organization
+    short: "Springheel acrobatic company—their signature piece recreates a construction accident in slow motion."
+    details: |
+      Operating out of the Iron Yards. Their signature piece, "The Scaffold," recreates
+      a construction accident in slow motion. Performers build an actual scaffold onstage,
+      then climb it while the structure progressively fails. The piece ends with collapse,
+      the performers having transferred to ropes that were not provided by any employer.
+
+      The program notes describe it as "celebration of Labor Caste capability." The actual
+      performance communicates something else entirely—the falls that kill their cousins
+      on construction sites, the bodies shaped for work they did not choose. If the
+      subversion stays aesthetic rather than explicit, the Lens condemnations remain
+      decorative.
+    rag_pointer: Imperial Media and Entertainment
+    related: [Springheel, Iron Yards, Labor Castes]
+  # ─── end The Verenis Troupe ───
+
+  # ═══ The Alcazar Collection ═══
+  The Alcazar Collection:
+    category: location
+    short: "Private Third Whorl museum displaying pre-Interdict materials without interpretation."
+    details: |
+      Seventeen holograms of orbital habitats, forty-three photographs of forgotten worlds,
+      music recorded during the Sixth Oracle's era. No interpretation permitted—the
+      prohibition serves obvious purposes but also creates unmediated encounter with the
+      past. Visitors wander through rooms of inexplicable beauty and must construct their
+      own meanings.
+
+      The collection's most controversial piece, Hologram Seventeen, appears to show a
+      city of impossible architecture. No one can say what it is or was, whether humans
+      built it, whether it still exists. Visitors stand before it for hours, sometimes
+      weeping. The family has refused offers to purchase it at prices that would make
+      them among the wealthiest in the Empire.
+
+      The museums attract devoted visitors who return repeatedly, building private
+      interpretations shared in whispered conversations. A subculture of pre-Interdict
+      enthusiasts develops its own vocabulary, its own theories, its own aesthetic
+      preferences. The Lens cannot police every conversation.
+    rag_pointer: Imperial Media and Entertainment
+    related: [Third Whorl, Bureau of the Lens, Interdict]
+    location_features:
+      level: site
+      location_type: cultural
+      parent: Third Whorl
+  # ─── end The Alcazar Collection ───
+
+  # ═══ The Last Dusk in Asovoë ═══
+  The Last Dusk in Asovoë:
+    category: work
+    short: "Canonical tragedy about Highborn lovers dying as ya-Tsovez falls to slave revolt."
+    details: |
+      The same script produces radically different experiences depending on staging
+      choices. Traditional productions use every theatrical tool to create transcendent
+      grief: beautiful costumes emphasizing Highborn modifications as aesthetic
+      achievements, lighting that suggests impossible architectural delicacy, an aria
+      sung with Highborn emotional manipulation techniques that make audiences weep.
+
+      Reformist productions make different choices. The slaves—who have no lines—become
+      visible, maintaining the gardens and serving the dinners in the background, their
+      presence increasingly hard to ignore as the play progresses. The Highborn costumes
+      emphasize modifications as modifications, joints bending at angles that read as
+      wrong rather than graceful. The aria is sung without emotional manipulation,
+      leaving audiences to hear what the words actually say. The ending holds on the
+      survivors rather than the dying lovers.
+
+      Neither production lies. Both interpret. The Lens condemns the reformist staging
+      for "distorting the playwright's evident intentions," and the theater posts the
+      condemnation as advertisement. The Avouvar in the diplomatic box maintain polite
+      expressions, knowing what neither version shows.
+    rag_pointer: Imperial Media and Entertainment
+    related: [Highborn, ya-Tsovez, Avouvar, Bureau of the Lens]
+  # ─── end The Last Dusk in Asovoë ───
+
+  # ═══ The First Dawn in Asovoë ═══
+  The First Dawn in Asovoë:
+    category: work
+    short: "Disappeared play asking whether the City-of-Glass answer was sufficient—playwright vanished."
+    details: |
+      A putative sequel staged once before the playwright Kerem Tal-Vostra was
+      disappeared. Set in an imagined city more like ya-Sattra than Asovoë, the play
+      concerns what to do with the last Highborn after the revolution succeeds. Four
+      factions debate: execution, exile, integration, permanent probation.
+
+      The play employs Brechtian alienation throughout—placards announcing scenes,
+      songs interrupting action, actors remaining visible when not performing. The
+      final speech asks the audience directly whether the answer given two centuries
+      ago was sufficient.
+
+      The Lens did not fine the production. They made the playwright vanish. The
+      distinction matters: mockery of dysfunction assumes dysfunction is permanent;
+      questioning whether audiences have the capacity to decide treats the current
+      order as contingent. Copies circulate through channels the Bureau monitors but
+      cannot suppress.
+    rag_pointer: Imperial Media and Entertainment
+    related: [City-of-Glass Charter, Highborn, Bureau of the Lens, ya-Sattra]
+  # ─── end The First Dawn in Asovoë ───
+
+  # ═══ The Lamentations of Sri Matrice Yeva es-Poel ═══
+  The Lamentations of Sri Matrice Yeva es-Poel:
+    category: work
+    short: "Four-hour Highborn song cycle exploring eleven generations of engineered purpose."
+    details: |
+      Composed for a specific Highborn vocalist's unique throat architecture. The cycle
+      concerns the es-Poel family's history across eleven generations, exploring what
+      it means to be engineered for purposes one did not choose. The simultaneous
+      harmonies create emotional effects baseline music cannot achieve.
+
+      Conservative listeners hear celebration of Aureate achievement. Reformist
+      listeners hear critique of the caste system embodied in a performer who can
+      only communicate with her species through servants.
+
+      The Lens does not review the Lamentations. The es-Poel patents are too valuable—
+      the family's industrial holdings create immunity that no amount of subversive
+      interpretation can overcome.
+    rag_pointer: Imperial Media and Entertainment
+    related: [Highborn, Aureate, Bureau of the Lens]
+  # ─── end The Lamentations of Sri Matrice Yeva es-Poel ───

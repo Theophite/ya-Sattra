@@ -228,31 +228,8 @@ The reformists on the Satara do not commission this entertainment or coordinate 
 
 The conservatives see this happening and cannot stop it. They can fine individual productions but cannot fine the interpretive habits audiences bring to everything they see. They can suppress individual scripts but cannot suppress the questions the scripts ask. They can maintain the legal fiction that the Empire has not changed, but they cannot prevent people from experiencing how much it has.
 
-The entertainment is not revolution. It is the soil in which revolution growsâ€”slowly, patiently, measured in generations. For the first time in recorded memory, the future might be different from the past.
+The entertainment is not revolution. It is the soil in which revolution grows—slowly, patiently, measured in generations. For the first time in recorded memory, the future might be different from the past.
 
-# **Appendix: Sample Productions**
+---
 
-## **The Redactor's Dilemma**
-
-A comedy in three acts, currently playing in the Fourth Whorl's Threshold Theater. The Lens condemnation calls it "a work of DELIBERATE CONFUSION regarding the proper functions of Imperial information management" and runs to four paragraphs. Sri Redactor Kemmen discovers that telling truth and telling lies produce identical outcomes because no one reads his work carefully. The comedy escalates as he attempts to satisfy impossible requirements, eventually producing a White Sheet edition consisting entirely of punctuation marks, which his readers praise as "the clearest issue in years."
-
-## **The Verenis Troupe**
-
-A Springheel acrobatic company operating out of the Iron Yards. Their signature piece, "The Scaffold," recreates a construction accident in slow motion. Performers build an actual scaffold onstage, then climb it while the structure progressively fails. The piece ends with collapse, the performers having transferred to ropes that were not provided by any employer. The program notes describe it as "celebration of Labor Caste capability." The actual performance communicates something else entirely.
-
-## **The Alcazar Collection**
-
-A private museum in the Third Whorl displaying pre-Interdict materials. Seventeen holograms of orbital habitats, forty-three photographs of forgotten worlds, music recorded during the Sixth Oracle's era. No interpretation permitted. The collection's most controversial piece, Hologram Seventeen, appears to show a city of impossible architecture. No one can say what it is or was, whether humans built it, whether it still exists. Visitors stand before it for hours, sometimes weeping. The family has refused offers to purchase it at prices that would make them among the wealthiest in the Empire.
-
-## **The Last Dusk in AsovoÃ«**
-
-The canonical tragedy about Highborn lovers dying as ya-Tsovez falls to slave revolt. Traditional productions employ every theatrical tool to create transcendent grief. Reformist productions use identical text with different stagingâ€”visible slaves maintaining the gardens in the background, costumes emphasizing modifications as modifications, the aria sung without emotional manipulation. The Avouvar in the diplomatic box maintain polite expressions, knowing what neither version shows.
-
-## **The First Dawn in AsovoÃ«**
-
-A putative sequel staged once before the playwright was disappeared. Set in an imagined city more like ya-Sattra than AsovoÃ«, the play concerns what to do with the last Highborn after the revolution succeeds. Four factions debate: execution, exile, integration, permanent probation. The play employs Brechtian alienation throughoutâ€”placards announcing scenes, songs interrupting action, actors remaining visible when not performing. The final speech asks the audience directly whether the answer given two centuries ago was sufficient. The Lens did not fine the production. They made the playwright vanish. Copies circulate through channels the Bureau monitors but cannot suppress.
-
-## **The Lamentations of Sri Matrice Yeva es-Poel**
-
-A four-hour song cycle composed for a specific Highborn vocalist's unique throat architecture. The cycle concerns the es-Poel family's history across eleven generations, exploring what it means to be engineered for purposes one did not choose. The simultaneous harmonies create emotional effects baseline music cannot achieve. Conservative listeners hear celebration of Aureate achievement. Reformist listeners hear critique of the caste system embodied in a performer who can only communicate with her species through servants. The Lens does not review the Lamentations. The es-Poel patents are too valuable.
-
+*For specific artistic works, productions, and performance groups, see the glossary entries under the WORK category: The Redactor's Dilemma, The Verenis Troupe, The Alcazar Collection, The Last Dusk in Asovoë, The First Dawn in Asovoë, The Lamentations of Sri Matrice Yeva es-Poel.*
