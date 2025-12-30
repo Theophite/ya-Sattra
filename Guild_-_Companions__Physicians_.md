@@ -1,3 +1,33 @@
+---
+title: The Companions Guild
+type: reference
+parent: Ya-Sattra Organizations
+glossary_terms:
+  - Companions Guild
+  - Mutterers
+  - Sickly
+  - Kalbats
+  - Witnesses
+  - Penitent Church
+  - Technical Castes
+
+guidance:
+  - "The Guild is a MONASTIC ORDER, not a trade guild - members join as initiates, advance by appointment"
+  - "Authority derives from IRREPLACEABLE EXPERTISE managing populations that would otherwise be unmanageable"
+  - "Mutterers are PEOPLE with personalities and pair bonds - they cannot STOP optimizing, that's the tragedy"
+  - "Cascades occur when Mutterer vocalizations synchronize - can strip workshops or reshape humans in minutes"
+  - "Chimes interrupt specific neural patterns - the mathematics derive from Technical Caste research"
+  - "The Guild's institutional theology DIFFERS from Church orthodoxy - archives preserve evidence Emperor committed atrocity"
+  - "Sri Companions undergo SURGICAL MODIFICATION by Mutterers without anesthetic - random 'improvements'"
+  - "Most Companions are personally Penitent but Guild and Church maintain separate structures"
+  - "Old Cloister: Mutterers roam without cascading - no one knows why, don't change anything"
+
+see_also:
+  - Caste - Technical Castes - Overview.md
+  - Religion - Penitent Church.md
+  - Ya-Sattra District - Middens - Sump-Gate.md
+---
+
 # **The Companions Guild**
 
 ## **RAG Navigation**
