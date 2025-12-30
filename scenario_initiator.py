@@ -2,16 +2,23 @@
 """
 Scenario Initiator for the Post-Interdict Empire.
 
-Draws a Tarot card and a random glossary term to seed a new scenario.
+Draws Tarot cards and random glossary terms to seed a new scenario.
 Generates a .md file with scenario framework and initializes the cache.
 
 Usage:
-    scenario_initiator.py                 # Draw card + word, show prompt
-    scenario_initiator.py --draw          # Just draw card + word (no file)
+    scenario_initiator.py                 # Single draw: 1 card + 1 word, show prompt
+    scenario_initiator.py --draw          # Multi-draw: 3 cards + 5 terms for selection
+    scenario_initiator.py --draw-single   # Old behavior: 1 card + 1 word (no file)
     scenario_initiator.py --create <name> # Create scenario file after drawing
     scenario_initiator.py --word          # Just pull a random glossary word
     scenario_initiator.py --card          # Just draw a Tarot card
     scenario_initiator.py --list-cards    # Show all available cards
+
+Multi-Draw Selection:
+    The --draw command presents 3 tarot cards and 5 glossary terms weighted
+    by category (locations preferred) and content richness. Select one card
+    + one term combination based on narrative potential, then proceed with
+    scenario generation using your selection.
 """
 
 import sys
@@ -22,11 +29,12 @@ from datetime import datetime
 from pathlib import Path
 
 # Glossary integration
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 WORKING_DIR = '/home/claude'
 PROJECT_DIR = '/mnt/project'
 GLOSSARY_AVAILABLE = False
 
-for search_dir in [WORKING_DIR, PROJECT_DIR]:
+for search_dir in [SCRIPT_DIR, WORKING_DIR, PROJECT_DIR]:
     if GLOSSARY_AVAILABLE:
         break
     if os.path.exists(search_dir) and os.path.exists(os.path.join(search_dir, 'glossary.py')):
@@ -35,7 +43,8 @@ for search_dir in [WORKING_DIR, PROJECT_DIR]:
             import glossary as G
             GLOSSARY_AVAILABLE = True
         except ImportError:
-            sys.path.remove(search_dir)
+            if search_dir in sys.path:
+                sys.path.remove(search_dir)
 
 # =============================================================================
 # TAROT DECK
@@ -102,10 +111,24 @@ def draw_card(reversed_chance=0.3):
     deck = get_full_deck()
     card_name, meaning = random.choice(deck)
     is_reversed = random.random() < reversed_chance
-    
+
     if is_reversed:
         return f"{card_name} (Reversed)", meaning, True
     return card_name, meaning, False
+
+
+def draw_multiple_cards(n=3, reversed_chance=0.3):
+    """Draw n random Tarot cards without replacement, possibly reversed."""
+    deck = get_full_deck()
+    selected = random.sample(deck, min(n, len(deck)))
+    results = []
+    for card_name, meaning in selected:
+        is_reversed = random.random() < reversed_chance
+        if is_reversed:
+            results.append((f"{card_name} (Reversed)", meaning, True))
+        else:
+            results.append((card_name, meaning, False))
+    return results
 
 
 # =============================================================================
@@ -164,7 +187,7 @@ def get_random_word(category=None, weighted=True):
 def format_word_result(term, entry):
     """Format a random word result for display."""
     lines = [f"WORD: {term}"]
-    
+
     if entry:
         lines.append(f"  Category: {entry.category}")
         lines.append(f"  {entry.short}")
@@ -177,8 +200,207 @@ def format_word_result(term, entry):
         if entry.related:
             lines.append(f"  Related: {', '.join(entry.related[:5])}")
         if entry.rag_pointer:
-            lines.append(f"  â†’ RAG: {entry.rag_pointer}")
-    
+            lines.append(f"  → RAG: {entry.rag_pointer}")
+
+    return "\n".join(lines)
+
+
+# Category weights for term selection
+# Higher weight = more likely to be drawn
+CATEGORY_WEIGHTS = {
+    "location": 3.0,      # Physical, actionable
+    "organization": 2.0,  # Characters can belong, conflict
+    "concept": 1.0,       # May need pairing with concrete element
+    "caste": 1.0,         # Provides characters but needs setting
+    "person": 0.5,        # Very specific, constraining (but included!)
+}
+
+
+def draw_weighted_terms(n=5, include_persons=True):
+    """
+    Draw n random glossary terms with category weighting.
+
+    Terms are weighted by:
+    1. Category weight (locations preferred, persons low but included)
+    2. Content richness (longer details, more related terms, has features)
+
+    Args:
+        n: Number of terms to draw
+        include_persons: If False, exclude person category entirely
+
+    Returns:
+        List of (term, entry) tuples
+    """
+    if not GLOSSARY_AVAILABLE:
+        from input_check import SPECIAL_TERMS
+        terms = random.sample(list(SPECIAL_TERMS), min(n, len(SPECIAL_TERMS)))
+        return [(t.title(), None) for t in terms]
+
+    # Get all entries
+    entries = list(G.ENTRIES.values())
+
+    # Filter persons if requested
+    if not include_persons:
+        entries = [e for e in entries if e.category.lower() != "person"]
+
+    if len(entries) < n:
+        n = len(entries)
+
+    # Calculate weights combining category weight and content richness
+    weights = []
+    for e in entries:
+        # Start with category weight
+        cat_weight = CATEGORY_WEIGHTS.get(e.category.lower(), 1.0)
+
+        # Add richness bonus
+        richness = 1.0
+        if e.details:
+            richness += min(len(e.details) / 200, 2.0)  # Cap at +2
+        if e.related:
+            richness += len(e.related) * 0.3  # Each relation adds 0.3
+        if e.rag_pointer:
+            richness += 0.5  # Has deeper documentation
+        if e.caste_features or e.location_features:
+            richness += 1.0  # Structured data = richer
+        if e.aesthetic_features:
+            richness += 0.5  # Has aesthetic detail
+
+        weights.append(cat_weight * richness)
+
+    # Draw without replacement using weighted sampling
+    selected = []
+    remaining_entries = list(entries)
+    remaining_weights = list(weights)
+
+    for _ in range(n):
+        if not remaining_entries:
+            break
+        chosen = random.choices(remaining_entries, weights=remaining_weights, k=1)[0]
+        idx = remaining_entries.index(chosen)
+        selected.append((chosen.term, chosen))
+        remaining_entries.pop(idx)
+        remaining_weights.pop(idx)
+
+    return selected
+
+
+def format_term_brief(entry, label):
+    """
+    Format a term for brief display in the selection prompt.
+
+    Shows:
+    - Name and category
+    - First sentence of description (truncated)
+    - RAG pointer if present
+    - Count of related terms
+    - Flags for aesthetic/location/notable persons
+    """
+    lines = []
+
+    # Header with label
+    lines.append(f"  [{label}] {entry.term} ({entry.category})")
+
+    # First sentence or truncated short description
+    short = entry.short.strip()
+    # Try to get first sentence
+    first_sentence = short.split('.')[0] + '.' if '.' in short else short
+    if len(first_sentence) > 70:
+        first_sentence = first_sentence[:67] + "..."
+    lines.append(f"      {first_sentence}")
+
+    # Build info line
+    info_parts = []
+
+    if entry.rag_pointer:
+        # Truncate long RAG pointers
+        rag = entry.rag_pointer
+        if len(rag) > 25:
+            rag = rag[:22] + "..."
+        info_parts.append(f"RAG: {rag}")
+
+    if entry.related:
+        info_parts.append(f"Related: {len(entry.related)} terms")
+
+    # Flags for rich content
+    flags = []
+    if entry.aesthetic_features:
+        flags.append("aesthetic features")
+    if entry.location_features:
+        flags.append("location features")
+    if entry.caste_features:
+        flags.append("caste features")
+    # Check for notable persons (for locations)
+    if entry.category.lower() == "location" and entry.location_features:
+        # This would require checking persons_at_location, skip for simplicity
+        pass
+
+    if flags:
+        info_parts.append(f"Has: {', '.join(flags)}")
+
+    if info_parts:
+        lines.append(f"      {' — '.join(info_parts)}")
+
+    return "\n".join(lines)
+
+
+def format_selection_prompt(cards, terms):
+    """
+    Format the multi-draw selection prompt.
+
+    Args:
+        cards: List of (card_name, meaning, is_reversed) tuples
+        terms: List of (term, entry) tuples
+
+    Returns:
+        Formatted string for display
+    """
+    lines = []
+
+    # Header
+    lines.append("═" * 70)
+    lines.append("SCENARIO SEED CANDIDATES — SELECT ONE CARD + ONE TERM")
+    lines.append("═" * 70)
+    lines.append("")
+
+    # Tarot draws
+    lines.append("TAROT DRAWS:")
+    card_labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']  # Support up to 8 cards
+    for i, (card_name, meaning, is_reversed) in enumerate(cards):
+        label = card_labels[i] if i < len(card_labels) else str(i + 1)
+        lines.append(f"  [{label}] {card_name}")
+        lines.append(f"      {meaning}")
+        if is_reversed:
+            lines.append("      (Blocked/internal/excessive/shadow)")
+        lines.append("")
+
+    # Term draws
+    lines.append("TERM DRAWS:")
+    for i, (term, entry) in enumerate(terms, 1):
+        if entry:
+            lines.append(format_term_brief(entry, str(i)))
+        else:
+            # Fallback for entries without full data
+            lines.append(f"  [{i}] {term}")
+            lines.append("      (No detailed entry available)")
+        lines.append("")
+
+    # Selection criteria
+    lines.append("═" * 70)
+    lines.append("SELECTION CRITERIA")
+    lines.append("═" * 70)
+    lines.append("")
+    lines.append("Evaluate combinations for:")
+    lines.append("  • Card-term resonance — Does the pairing suggest a story?")
+    lines.append("  • Actionability — Can characters do things, or is it purely conceptual?")
+    lines.append("  • Comprehensibility — How much context does a reader need?")
+    lines.append("  • Constraint quality — Does this seed constrain interestingly?")
+    lines.append("  • Thematic fertility — How many interesting directions exist?")
+    lines.append("")
+    lines.append("Select ONE card + ONE term (e.g., \"B + 3\").")
+    lines.append("Explain briefly why this combination, then proceed with scenario generation.")
+    lines.append("")
+    lines.append("═" * 70)
+
     return "\n".join(lines)
 
 
@@ -688,11 +910,20 @@ def main():
             print("No matching terms found.")
         return
     
-    # Draw both card and word
-    if '--draw' in args or '--create' in args:
+    # Multi-draw for selection (new --draw behavior)
+    if '--draw' in args and '--create' not in args:
+        # Draw 3 cards and 5 terms for selection
+        cards = draw_multiple_cards(n=3)
+        terms = draw_weighted_terms(n=5, include_persons=True)
+
+        print(f"\n{format_selection_prompt(cards, terms)}")
+        return
+
+    # Single draw (old --draw behavior, now --draw-single)
+    if '--draw-single' in args:
         card_name, meaning, is_reversed = draw_card()
         term, entry = get_random_word()
-        
+
         reversal = " [REVERSED]" if is_reversed else ""
         print(f"\n{'='*70}")
         print(f"CARD: {card_name}{reversal}")
@@ -701,39 +932,51 @@ def main():
             print("  (Blocked/internal/excessive/shadow)")
         print(f"\n{format_word_result(term, entry)}")
         print(f"{'='*70}")
-        
-        if '--create' in args:
-            # Get scenario name
-            idx = args.index('--create')
-            if idx + 1 < len(args):
-                name = " ".join(args[idx + 1:])
-            else:
-                # Generate name from card and term
-                card_short = card_name.split()[0] if " " in card_name else card_name
-                name = f"The {card_short} and the {term}"
-            
-            filename = create_scenario_file(name, card_name, meaning, is_reversed, term, entry)
-            cache = initialize_scenario_cache(name, filename, card_name, meaning, term, entry)
-            
-            print(f"\nâœ” Created: {filename}")
-            print(f"âœ” Initialized session cache with cantilever")
-            print(f"\nCANTILEVER WORKFLOW:")
-            print(f"  1. Fill in Central Question and Gun sections first")
-            print(f"  2. Build Protagonist, Characters, Locations")
-            print(f"  3. After each section, run: input_check.py --constrain \"fact\"")
-            print(f"  4. Write Introduction")
-            print(f"  5. Run: input_check.py --act-break")
-            print(f"  6. Answer the synthesis question")
-            print(f"  7. Run: input_check.py --synthesize \"your answer\"")
-            print(f"  8. Write Mystery and Trajectories")
-            print(f"\nVERIFICATION:")
-            print(f"  â€¢ glossary.py scan {filename}")
-            print(f"  â€¢ Check invented terms against established lore")
-            # Show the creative prompt
-            print(generate_scenario_prompt(card_name, meaning, is_reversed, term, entry))
+        print(generate_scenario_prompt(card_name, meaning, is_reversed, term, entry))
+        return
+
+    # Create scenario file
+    if '--create' in args:
+        card_name, meaning, is_reversed = draw_card()
+        term, entry = get_random_word()
+
+        reversal = " [REVERSED]" if is_reversed else ""
+        print(f"\n{'='*70}")
+        print(f"CARD: {card_name}{reversal}")
+        print(f"  {meaning}")
+        if is_reversed:
+            print("  (Blocked/internal/excessive/shadow)")
+        print(f"\n{format_word_result(term, entry)}")
+        print(f"{'='*70}")
+
+        # Get scenario name
+        idx = args.index('--create')
+        if idx + 1 < len(args):
+            name = " ".join(args[idx + 1:])
         else:
-            # Just show the prompt without creating file
-            print(generate_scenario_prompt(card_name, meaning, is_reversed, term, entry))
+            # Generate name from card and term
+            card_short = card_name.split()[0] if " " in card_name else card_name
+            name = f"The {card_short} and the {term}"
+
+        filename = create_scenario_file(name, card_name, meaning, is_reversed, term, entry)
+        cache = initialize_scenario_cache(name, filename, card_name, meaning, term, entry)
+
+        print(f"\n✓ Created: {filename}")
+        print(f"✓ Initialized session cache with cantilever")
+        print(f"\nCANTILEVER WORKFLOW:")
+        print(f"  1. Fill in Central Question and Gun sections first")
+        print(f"  2. Build Protagonist, Characters, Locations")
+        print(f"  3. After each section, run: input_check.py --constrain \"fact\"")
+        print(f"  4. Write Introduction")
+        print(f"  5. Run: input_check.py --act-break")
+        print(f"  6. Answer the synthesis question")
+        print(f"  7. Run: input_check.py --synthesize \"your answer\"")
+        print(f"  8. Write Mystery and Trajectories")
+        print(f"\nVERIFICATION:")
+        print(f"  • glossary.py scan {filename}")
+        print(f"  • Check invented terms against established lore")
+        # Show the creative prompt
+        print(generate_scenario_prompt(card_name, meaning, is_reversed, term, entry))
         return
     
     # Default: draw and show prompt
