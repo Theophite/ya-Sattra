@@ -36,6 +36,7 @@ python3 glossary.py caste-compare <c1> <c2>       # Side-by-side comparison
 ```bash
 python3 glossary.py scan <filepath> [-v]    # Find all glossary terms in a document
 python3 glossary.py validate-refs <file>    # Check that glossary_terms in front matter exist
+python3 glossary.py validate-entry <term>   # Check entry against its rag_pointer sources
 python3 glossary.py who-references <term>   # Find all entries that reference a term
 ```
 
@@ -60,11 +61,18 @@ python3 glossary.py expand <term> [depth]   # Recursively expand related terms
 - `lookup` finds exact entry names only
 - `search` finds terms mentioned anywhere in entries (use to check if concept exists but isn't an entry)
 
-Example: "Autofactory" has no entry but `search` shows it's mentioned in 12 entries
+Example: Some concepts are mentioned in entries but don't have their own - use `search` to find where they're documented
 
 ### `validate-refs` Command
 - Returns canonical names for valid terms (may differ from what's in file)
 - Suggests similar terms for invalid entries
+
+### `validate-entry` Command
+- **Use when adding new entries** to verify accuracy against source documents
+- Finds files matching the `rag_pointer` field
+- Searches for term mentions in those source files
+- Warns if related terms don't exist in the glossary
+- Helps prevent errors like incorrectly associating concepts (e.g., attributing Ogon to the Avouvar when it's actually Akama-controlled)
 
 ## Workflow: Verifying Terminology
 
@@ -182,8 +190,17 @@ Entry Name:
 
 ### Validation After Adding
 ```bash
+# 1. Check YAML syntax is valid
 python3 -c "import yaml; yaml.safe_load(open('glossary_data.yaml')); print('Valid!')"
+
+# 2. Validate entry content against source documents
+python3 glossary.py validate-entry "New Entry Name"
 ```
+
+**IMPORTANT**: Always run `validate-entry` on new additions to catch errors like:
+- Incorrect associations (e.g., attributing a city to the wrong faction)
+- Missing related terms that should be added
+- Misreadings of source material
 
 ## Example Outputs
 
