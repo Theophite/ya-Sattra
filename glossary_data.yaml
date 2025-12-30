@@ -20,7 +20,19 @@ entries:
   Akama:
     category: caste
     short: Unclassified caste with scrambled heritage from multiple engineered lineages.
-    details: ""
+    details: |
+      Defined by practice not genetics—someone who can breed with other Akama
+      and participates in Akama culture. Distinguishing features of multiple
+      ancestral castes have blurred into general capability. Variable morphology
+      with visible mixed heritage.
+
+      MATERIAL CULTURE: Testimonial—objects speak for individuals across mortal
+      timescales. "I was here. This happened. It mattered." Standing in the Rain
+      philosophy: life promises nothing, material culture doesn't pretend otherwise.
+      Sufficiency ("enough") is highest praise. Armor displayed outside tents shows
+      biography through patches and modifications. Damage displayed, not hidden—the
+      mended thing is more honest than the pristine. A young warrior's pristine
+      equipment testifies against him: nothing has happened to him yet.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Thousand Kingdoms, Junta of Ogon]
     caste_features:
@@ -45,6 +57,44 @@ entries:
         - defined by practice not genetics
         - Akama = someone who can breed with other Akama + participates in culture
         - distinguishing features of specific castes have blurred into general capability
+    material_culture:
+      intention: '"I was here. This happened. It mattered. Notice." Objects as testimony across mortal timescales.'
+      philosophy: |
+        Standing in the Rain: Life promises nothing. The tent doesn't promise to last forever.
+        You don't promise to survive. Material culture doesn't pretend otherwise. Sufficiency,
+        not optimization—"enough" is the highest praise. More than enough is suspicious.
+      armor_display: |
+        Armor displayed outside tents, history visible: patches, replacement plates, modifications
+        for different bodies across generations. Layered ceramic plates over destrier-leather,
+        echoing Aztec quilted cotton and obsidian weapons. The armor IS the biography.
+      objects_as_evidence: |
+        Objects speak for individuals. A khan's drinking bowl: bronze ya-Don manufacture (trophy),
+        dented from the blow that killed previous owner, rim worn from generations of lips, names
+        crossed out on base with current owner last. The bowl is a document.
+      repair_philosophy: |
+        Damage not hidden but displayed. The mended thing is more honest than the pristine.
+        A patched tent is more truthful than pristine. A young warrior's embarrassment: everything
+        too new, armor pristine with no patches—you can't fake patina. Newness testifies against
+        him: nothing has happened to him yet.
+      craftsmanship: |
+        "There is a quality to this thing. View it." Craftsmanship as testimony. Quality isn't
+        luxury; it's respect for the work. A shoddy object insults maker and user.
+      destrier_tack: |
+        Saddle old—leather cracked and reconditioned multiple times. Stirrups don't match: one
+        local ironwork, one Imperial manufacture. Tack tells you: equipment maintained across
+        generations, repaired with whatever available.
+      territorial_markers: |
+        Three colors made from autofactory waste: rust-orange (iron oxide), lime-yellow (calcium
+        from burned concrete), teal (verdigris from copper). Diagonal slashes marking human
+        presence against alien concrete. Bold application, visible brushstrokes, weathering accepted.
+      graffiti: |
+        Names carved into rocks at campsites. Marks on canyon walls. "I was here" because nothing
+        is eternal, so you leave marks. The Antediluvians didn't need to say it—everyone who
+        mattered already knew. Akama know nothing is eternal.
+      funeral_practice: |
+        Dead warrior's tent still standing, flap pinned open—spirit needs to leave. Armor displayed
+        more prominently than in life. Destrier decorated with fabric strips. Three days the camp
+        organizes around the empty tent. Then packed, distributed, strips kept as mementos.
   # ─── end Akama ───
 
   # ═══ Archons ═══
