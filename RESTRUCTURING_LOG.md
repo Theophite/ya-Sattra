@@ -372,6 +372,18 @@ These documents were already well-structured with internal navigation. Added YAM
 - Key concepts: Highborn instruction style, Compulsion teaching protocols
 - Children who discover Compulsion naturally almost always become monsters
 
+### Caste_-_Type_Specimens_Catalog.md ✓
+- Key concepts: ~30 individual type specimens, three Highborn phenotypes, Warborn cancer
+- Type specimens are ORDINARY PEOPLE navigating engineered existence
+
+### Caste_-_Sewer-Fishers.md ✓
+- Key concepts: Technical Caste descendants, 50% infant mortality, clan specializations
+- Bureau of the Creche destroyed genetic records confirming ancestry
+
+### Caste_-_Technical_Castes_and_Far_Ib.md ✓
+- Key concepts: caste gradient (Lower to Archon), Jargon as language of proofs
+- Eighth Testament: not refusal but COGNITIVE IMPOSSIBILITY
+
 ---
 
 ## Summary
@@ -400,6 +412,7 @@ These documents were already well-structured with internal navigation. Added YAM
 - Scenario: 1 file
 - Examples: 1 file
 - Templates: 1 file
-**Total with front matter: 28 files**
+- Caste source documents: 3 files (Type Specimens, Sewer-Fishers, Technical Castes)
+**Total with front matter: 31 files**
 
-**Grand total restructured: 74 files**
+**Grand total restructured: 77 files**
