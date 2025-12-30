@@ -104,7 +104,9 @@ A short-lived trader sees a plain screen. The household that commissioned it wil
 
 ### Color Against Void
 
-The Avouvar body absorbs light completely—void-black skin, dark against any background. Against this darkness, clothing becomes transcendent.
+The Avouvar body absorbs light completely—ink-black from sclera to sole, no whites of the eyes, radiomelanin turning flesh into silhouette. They stand nearly two meters tall, most of it leg, with huge barrel chests and long arms that hang forward. Heads are shaved clean (the skull slightly elongated at the back), with a single lock—the queue—bound with copper wire to indicate house affiliation.
+
+Against this darkness, clothing becomes transcendent.
 
 **Aurora dress** consists of dozens of long scarves in aurora shades:
 - Deep blues

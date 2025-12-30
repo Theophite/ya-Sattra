@@ -102,7 +102,7 @@ Ganati clothing follows regional variation:
 
 **Pastoral Plains**: Practical for movement. Destrier leather, felt, the materials that travel. But even here: decorative elements that identify band, family, trade connections.
 
-**Serrulata Scales**: The colonist caste decorates their keratin scales with geometric patterns in rust-orange, ochre, teal, or black. The decoration is individual expression within caste identity—each worker's patterns unique, the dyes absorbed into keratin for months or years. This is clothing that can't be removed, identity literally grown into the body.
+**Serrulata Scales**: The colonist caste decorates their keratin scales—1-2 inches across, overlapping like roof tiles, thicker on back and shoulders. Rust-orange and ochre dyes are permanent and affordable; teal and indigo are expensive status markers. Some press copper filigree into the scale surface (it oxidizes to verdigris over time); others set small turquoise stones (3-5mm) into individual scales. The decoration is individual expression within caste identity—each worker's patterns unique, the dyes absorbed into keratin for months or years. Serrulata typically wear minimal maguey-silk clothing—skirts, turbans, shawls—since their scales protect from sun.
 
 ---
 
@@ -135,7 +135,7 @@ Ganati kilits often organize around specific trades, and the trades produce dist
 
 **Copper work**: The canyon's copper deposits support extensive metalworking. Ganati copper vessels reach ya-Sattra markets at 4-6 obols—affordable quality that undercuts guild monopolies.
 
-**Textiles**: Maguey fiber processing, finished goods for Republican and Imperial markets. The Khen-Masot Textile Enterprise employs 300 workers, provides subsidized power to 15,000 households, and holds a Senator's seat.
+**Textiles**: Maguey fiber processing, finished goods for Republican and Imperial markets. Major textile kilits employ hundreds of workers, provide subsidized power to surrounding households, and hold Senate seats. The fabric—light, strong, breathable—commands premiums in Imperial cities.
 
 **Engineering**: The Academy produces engineers, lawyers, administrators, technical specialists. Ganati engineering graduates appear throughout the Empire, their training recognizable by its practical orientation.
 

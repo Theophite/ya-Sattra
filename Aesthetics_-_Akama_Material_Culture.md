@@ -131,7 +131,9 @@ This isn't poverty or carelessness—it's history. Each component arrived at a d
 
 ### The Destrier Itself
 
-The destrier is center of life and economy, like the Mongol horse. Prestige items are portable because the rider is mobile. The destrier's own decorations—fabric strips, painted marks, trophy attachments—extend the testimonial culture to the mount.
+The destrier is center of life and economy. A well-bred destrier sells for ~200 obols—equivalent to an adult slave, exceeding most frontier estates' annual revenue when multiplied across a band's herd. Breeding programs track lineages across 40 generations; the animal's genealogy matters as much as the rider's.
+
+The destrier's body provides its own material culture: ramified horns branching like coral offer handholds, hairless skin covered in horn-textured plates (glossy black or ruddy-brown, iridescent where the carapace thins). Riders add decorations—fabric strips woven through the horns, painted marks on the carapace, trophy attachments from significant raids.
 
 A destrier decorated after its rider's death: fabric strips in mourning colors, the tack maintained but not used, the animal a living memorial until it too dies.
 

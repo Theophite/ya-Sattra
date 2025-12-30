@@ -182,12 +182,14 @@ The pins derive meaning from shape, not precious materials. A silver pin and a b
 
 ### Pierrot Modifications
 
-The pierrots—the strange population who maintain the city's infrastructure—show their own material culture:
-- Black staining around eye sockets and lips
-- Modifications that mark them as something other than standard human
-- Equipment for maintenance work in the cliff infrastructure
+The pierrots—prototypes predating the Technical Castes, created from Mutterer zygotes—maintain the city's ancient infrastructure beneath the cliffs. They come out at night in papery jumpsuits that emerge unchanged after tunnel work. Their faces are abstracted, giving nothing away.
 
-Their material culture is functional, related to their work, separate from the broader Tsatsan aesthetic.
+Their material culture is functional:
+- Keys to doors no one else can open
+- Equipment for maintenance work in cliff infrastructure
+- The papery jumpsuits that serve as uniform and identity
+
+They enter the Eighth Dome twice yearly in procession. What they do there, no one explains.
 
 ---
 

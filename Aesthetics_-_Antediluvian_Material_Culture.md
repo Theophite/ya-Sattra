@@ -193,7 +193,7 @@ Current owners use it as a general signature, having no idea what it originally 
 
 ### Example: A Medical Instrument
 
-Sleek, featureless except for geometric markings along one edge. The instrument was designed for Technical Caste hands that no longer exist. Current physicians have adapted it with additional handles, padding, modifications that make it usable by baseline humans. The adaptations are visible—cruder materials, visible joints, obvious additions.
+Sleek, featureless except for geometric markings along one edge. The instrument was designed for Technical Castes whose modified hands no longer exist. Current physicians have adapted it with additional handles, padding, modifications that make it usable by baseline humans. The adaptations are visible—cruder materials, visible joints, obvious additions.
 
 The core instrument still works. No one knows exactly how. The modifications make it operable; the original makes it effective.
 

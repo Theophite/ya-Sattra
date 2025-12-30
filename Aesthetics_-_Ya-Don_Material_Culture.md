@@ -57,11 +57,11 @@ A character's housing announces their position:
 
 Ya-Don's workforce is caste-diverse in ways ya-Sattra is not. The Furnaces require bodies engineered for conditions baseline humans cannot survive:
 
-**Ashrat**: Grey skin ranging from pale ash (young workers, limited exposure) to deep charcoal (veterans with decades of furnace work). A permanent silicate shimmer from compounds their bodies sweat out, catching light like embedded dust. They dominate inner-ring operations where temperatures exceed baseline tolerance.
+**Ashrat**: Grey skin ranging from pale ash (young workers, limited exposure) to deep charcoal (veterans with decades of furnace work). A permanent silicate shimmer from compounds their bodies sweat out, catching light like embedded dust. They run hot, requiring constant caloric intake during shifts—six or more meals daily, bodies cannibalizing themselves within hours without food. Off-shift, they're notorious gourmands. Ashrat fatalism shapes their culture; wills are updated annually.
 
-**Karst**: Pale grey-white, the pallor of creatures that rarely see sunlight. They work the underground sections—the Depths of St. Yerren, the tunnels that no surface map shows. Their skin marks them as belonging to darkness.
+**Karst**: Pale grey-white, rarely exceeding five feet tall, barrel-chested with enormous eyes adapted for bioluminescent wavelengths. Painful in ordinary daylight. They work the underground sections—the Depths of St. Yerren, the tunnels that no surface map shows. They communicate via tap-language through rock; some have not seen sunlight in decades.
 
-**Orevet**: Near-baseline skin tones but nearly black irises with hints of deep red that flash in certain lighting. Their heat-sensing vision lets them read temperature gradients invisible to others. They monitor processes that would blind baseline eyes.
+**Orevet**: Near-baseline skin tones but nearly black irises with hints of deep red that flash in certain lighting. Their heat-sensing vision reads temperature gradients invisible to others—they see "shimmer" the way other castes read text. Outside dim environments, they wear heavy goggles that become identity markers as personal as facial features.
 
 **Serrulata**: Tan keratin scales, often decorated with geometric patterns in rust-orange, ochre, teal, or black. The scale decoration is individual expression within caste identity—each worker's patterns unique, the dyes absorbed into keratin for months or years.
 
