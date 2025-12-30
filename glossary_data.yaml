@@ -1316,12 +1316,12 @@ entries:
         - "family shrines include technical death records as education"
         - "children study failure modes, learn to recognize catastrophic warnings"
         - "Loak clan operates Lift-3 and Merra's kitchen (vertical transport, food/intel)"
-        - "Cho clan maintains Lockworks (water distribution)"
+        - "Cho clan maintains Lockworks under contract + controls Lantern-Heaps electrical + gondola"
         - "Sarn clan operates at crushing depths, trades with deep populations"
         - "Venn clan specialized in high-altitude rigging, toll-avoidance infrastructure"
-        - "Hasket clan has stevedore fosterings (mixed heritage), aquaculture"
+        - "Hasket clan has stevedore fosterings (mixed heritage), aquaculture, distillery"
         - "Benru clan is ONLY registered clan, handles brokerage/documentation"
-        - "intermarriage with orbital castes (Cho-Fen) causing fertility crisis"
+        - "Cho-Fen intermarriage causes fertility crisis (75% pregnancy failure)"
   # ─── end Sewer-Fishers ───
 
   # ═══ Sickly ═══
@@ -9951,16 +9951,64 @@ entries:
   # ═══ Cho ═══
   Cho:
     category: organization
-    short: "Sewer-fisher clan controlling Lantern-Heaps electrical monopoly and Ridge gondola."
+    short: "Sewer-fisher clan maintaining Lockworks and controlling Lantern-Heaps electrical monopoly."
     details: |
-      One of six sewer-fisher clans in the Middens. Controls electrical distribution 
-      in Lantern-Heaps—the only building with consistent power. Operates the Cho 
-      gondola connecting Lantern-Heaps to Penthouse Block, the sole direct route 
-      between Middens and Ridge. Rainbow signage marks their territory. Four obols 
-      daily for gondola passage.
-    rag_pointer: "The Middens Tenements, The Ridge: Comprehensive Summary"
-    related: [Sewer-Fishers, Lantern-Heaps, Ridge, Penthouse Block]
+      One of six sewer-fisher clans in the Middens. Hybrid sewer-fisher/Fen heritage
+      from a marriage three generations past—sometimes produces fertile crosses.
+      Maintains Lockworks water infrastructure under contract to the Knot (Hanged Men
+      control access, Cho provides technical expertise). Also controls Lantern-Heaps
+      electrical distribution and the gondola to the Ridge. Matriarch Anira Cho manages
+      Lockworks oversight; niece Riva Fen-Cho sits on the Knot council. Rainbow signage
+      marks their territory.
+    rag_pointer: "The Middens Tenements, The Ridge: Comprehensive Summary, Caste - Sewer-Fishers"
+    related: [Sewer-Fishers, Lantern-Heaps, Ridge, Lockworks, Knot, Fen]
   # ─── end Cho ───
+
+  # ═══ Hasket ═══
+  Hasket:
+    category: organization
+    short: "Sewer-fisher clan with stevedore fosterings—aquaculture, freight, and distillery."
+    details: |
+      One of six sewer-fisher clans in the Middens. Only ~20% are genetic sewer-fishers
+      ("little cousins"); ~80% are stevedore orphans ("big cousins"). Operates from
+      partially collapsed warehouse at bottom of Bright-Spire. Runs aquaculture in
+      flooded sub-basements, freight labor with Salvage Guild, and a distillery producing
+      industrial alcohol. Maintains hidden armory as communal sewer-fisher insurance.
+      Matriarch Tasme Hasket ("Little Mother") controls all resources despite standing
+      barely 145cm.
+    rag_pointer: "Caste - Sewer-Fishers, The Middens Tenements"
+    related: [Sewer-Fishers, Bright-Spire, Middens, Salvage Guild]
+  # ─── end Hasket ───
+
+  # ═══ Sarn ═══
+  Sarn:
+    category: organization
+    short: "Sewer-fisher clan operating at crushing depths—gatekeepers to deep populations."
+    details: |
+      One of six sewer-fisher clans in the Middens. Minimal surface presence at Sump-Gate;
+      real clan life in flooded tunnels below. Trade with "deep populations" of unclear
+      humanity—beings who may be Technical Caste descendants diverged beyond recognition.
+      Patriarch Vennas Sarn rarely surfaces, spending months below. Clan members speak
+      the Jargon (mathematical pressure-language) for deep communication. Their shrine
+      has NO Oracle icons—includes spirals that hurt to perceive directly.
+    rag_pointer: "Caste - Sewer-Fishers, The Middens Tenements"
+    related: [Sewer-Fishers, Sump-Gate, Middens, Jargon, Technical Castes]
+  # ─── end Sarn ───
+
+  # ═══ Venn ═══
+  Venn:
+    category: organization
+    short: "Sewer-fisher clan specialized in high-altitude rigging and toll-avoidance infrastructure."
+    details: |
+      One of six sewer-fisher clans in the Middens. Operates from distributed platforms
+      in upper Middens structures plus ropeworks in Iron Yards. Produces cables from
+      surgical sutures to dock lines. Builds ~30 unauthorized crossings between
+      structures—below threshold for violent Hanged Men response but providing toll
+      alternatives. Every rigger carries a "luck carabiner" attached to nothing.
+      Patriarch Eldin Venn; Forewoman Ressa Venn handles installations others refuse.
+    rag_pointer: "Caste - Sewer-Fishers, The Middens Tenements"
+    related: [Sewer-Fishers, Middens, Iron Yards, Hanged Men]
+  # ─── end Venn ───
 
   # ═══ Many ═══
   Many:

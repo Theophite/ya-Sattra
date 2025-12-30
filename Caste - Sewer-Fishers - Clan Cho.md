@@ -1,50 +1,55 @@
 ---
-title: Clan Cho - Keepers of the Lockworks
+title: Clan Cho - The Hybrid Engineers
 type: instance
 parent: Caste - Sewer-Fishers - Overview
 glossary_terms:
   - Sewer-Fishers
   - Cho
   - Lockworks
+  - Lantern-Heaps
   - Fen
   - Knot
-  - Rotten Quarter
+  - Ridge
+  - Hanged Men
 
 guidance:
-  - "The Chos maintain brutal hydraulic despotism - they control water for the entire Rotten Quarter"
-  - "They are caught between sewer-fisher identity and Fen political entanglement"
+  - "Cho MAINTAINS Lockworks under contract - Hanged Men CONTROL it (access, political power)"
+  - "They also have their own electrical monopoly in Lantern-Heaps + gondola to Ridge"
+  - "Hybrid sewer-fisher/Fen heritage from marriage three generations past"
   - "Cross-caste pregnancies with Fens have 75% failure rate, survivors usually sterile"
-  - "Anira knows by instinct what water is flowing anywhere in the Middens"
-  - "Pure-line members feel guilt; mixed-heritage members struggle with identity"
+  - "Rainbow signage marks Cho territory throughout Middens"
+  - "Anira knows water flow by instinct; Riva operates from Gallows 12th floor"
+  - "They bridge sewer-fisher and Fen worlds - essential but resented by both"
 
 see_also:
   - Caste - Sewer-Fishers - Overview.md
   - Caste - Sewer-Fishers - Clan Sarn.md
+  - Ya-Sattra District - Middens.md
   - Vignettes - Stillbirth.md
 ---
 
-# Clan Cho: Keepers of the Lockworks
+# Clan Cho: The Hybrid Engineers
 
-> **Location:** Within the Lockworks infrastructure complex
-> **Control:** Water distribution for entire Rotten Quarter
-> **Crew:** 60-person mixed crew maintaining valves, pumps, desalination
-> **Crisis:** Fertility collapse from Fen intermarriage attempts
+> **Locations:** Lantern-Heaps (electrical monopoly); Lockworks (maintenance contract); Gallows 12th floor (command center)
+> **Function:** Water infrastructure maintenance + electrical distribution + Ridge gondola
+> **Status:** Hybrid sewer-fisher/Fen heritage; caught between worlds
+> **Crisis:** Fertility collapse from continued Fen intermarriage attempts
 
-The Chos hold power no one can afford to challenge—and pay for it with their children.
+The Chos bridge sewer-fisher and Fen authority—essential to both, fully trusted by neither.
 
 ## Important Members
 
-**Matriarch Anira Cho** (Age 54): Skilled hydrologist managing both clan operations and Lockworks oversight. Authority derives from technical knowledge—she understands water distribution through mathematical intuition no formal engineer can match. Knows by instinct what water is flowing anywhere in the Middens.
+**Matriarch Anira Cho** (Age 54): Skilled hydrologist managing both clan operations and Lockworks maintenance. Authority derives from technical knowledge—she understands water distribution through mathematical intuition no formal engineer can match. Knows by instinct what water is flowing anywhere in the Middens. Pure-line sewer-fisher who married into the hybrid lineage.
 
-**Chief Engineer Siven Cho-Fen** (Age 38): Product of second-generation Cho-Fen intermarriage, one of the lucky fertile ones. Mixed heritage—orbital height with sewer-fisher flexibility—allows navigation of both Knot politics and tunnel infrastructure. Manages the sixty-person maintenance crew.
+**Chief Engineer Siven Cho-Fen** (Age 38): Product of second-generation Cho-Fen intermarriage, one of the lucky fertile ones. Mixed heritage—orbital height with sewer-fisher flexibility—allows navigation of both Knot politics and tunnel infrastructure. Manages the sixty-person mixed crew that maintains Lockworks.
 
-**Riva Fen-Cho** (Age 36): Sits on Knot council despite infertility. Unique biology—1.97m height with sewer-fisher traits—makes her invaluable for infrastructure requiring both reach and compression. Starting to develop arthritis. Of the Knot, loyal solely to Luka. Not well-liked elsewhere. Perpetually navigates family loyalty versus Knot obligations.
+**Riva Fen-Cho** (Age 36): Sits on the Knot council despite infertility. Unique biology—1.97m height with sewer-fisher traits—invaluable for infrastructure requiring both reach and compression. Starting to develop arthritis. Of the Knot, loyal solely to Luka. Not well-liked elsewhere. Operates from Lockworks command center on Gallows 12th floor, where maps accurately reflect the district's hydraulic reality.
 
-**Kerem Cho** (Age 29): Anira's son, pure-line sewer-fisher handling pump maintenance in deep Lockworks. Bitter about clan's Fen entanglements after watching his sister suffer three failed pregnancies. Leads traditionalist faction.
+**Kerem Cho** (Age 29): Anira's son, pure-line sewer-fisher handling pump maintenance in deep Lockworks. Bitter about clan's Fen entanglements after watching his sister suffer three failed pregnancies. Leads traditionalist faction advocating return to pure-line breeding.
 
-**Mella Cho-Fen** (Age 23): Fertility crisis casualty—survived birth but suffers chronic pain from skeletal incompatibilities. Works as clan record-keeper. Mixed heritage provides unusual pattern recognition despite physical limitations. Possibly infertile, had one stillbirth.
+**Mella Cho-Fen** (Age 23): Fertility crisis casualty—survived birth but suffers chronic pain from skeletal incompatibilities. Works as clan record-keeper. Mixed heritage provides unusual pattern recognition despite physical limitations. Possibly infertile; had one stillbirth.
 
-**Vas Cho** (Age 44): Anira's brother, manages relationships with other sewer-fisher clans. Spends effort smoothing resentments over Fen connections. Pure-line appearance helps with traditionalist clans.
+**Vas Cho** (Age 44): Anira's brother, manages relationships with other sewer-fisher clans. Spends considerable effort smoothing resentments over Fen connections. Pure-line appearance helps when negotiating with traditionalist clans.
 
 **Lira Cho** (Age 19): Shows exceptional promise in hydroengineering, groomed as Anira's successor. Recently refused proposed Fen marriage, creating political tension but earning respect from younger members.
 
@@ -54,24 +59,49 @@ The Chos hold power no one can afford to challenge—and pay for it with their c
 
 ## Family Business and Relationships
 
-The Lockworks represents both power and burden. This massive infrastructure of valves, pumps, desalination membranes, and distribution networks determines water access for the entire Rotten Quarter. The Chos maintain exclusive operational knowledge—not through secrecy but through mathematical intuitions others cannot replicate. Anira can predict system-wide effects of pressure adjustments through pattern recognition.
+**The Lockworks Contract**
 
-The sixty-person crew reflects hybrid nature. Pure-line sewer-fishers handle pump work requiring compression through narrow passages. Mixed-heritage workers manage mid-level operations where unusual reach or strength provides advantage. Few baseline humans handle surface interactions.
+The Hanged Men CONTROL the Lockworks—they determine who gets water and can shut off flow as punishment. The Chos MAINTAIN the infrastructure under contract to the Knot, providing technical expertise the Hanged Men lack. This arrangement makes the Chos essential but not powerful: they keep the system running but don't decide how it's used.
 
-Water distribution follows complex political calculations. The Knot receives priority flow—a reality breeding resentment. Salvage Guild operations get reliable supply. Households receive what remains. The Chos navigate through technical precision, maintaining brutal hydraulic despotism.
+Anira's command center monitors every pipe, every valve, every point where water can be redirected. She provides this intelligence to Riva, who sits in the Gallows command center translating technical reality into political decisions. The sixty-person maintenance crew operates throughout the Lockworks, their sewer-fisher intuitions keeping pre-Interdict systems functional.
 
-The Fen relationship creates constant internal tension. Each generation sees young Chos attempt crossing with orbital-caste partners hoping for viable offspring with advantageous traits. Reality: three-quarters pregnancy failure, near-universal sterility among survivors. Yet political pressure continues, as successful crosses like Siven and Riva provide invaluable capabilities and inject blood into the failing line.
+**The Lantern-Heaps Monopoly**
 
-Other sewer-fisher clans view Chos with suspicion bordering on hostility. Lockworks control seems like collaboration. Fen marriages appear as identity rejection. Only careful technical reciprocity maintains relationships—the Chos ensure every clan receives minimum requirements.
+Separately, the Chos control Lantern-Heaps' electrical distribution through ownership of the transformer station. This is their own power base—not contracted from anyone. The building is the only Middens structure with consistent power. Rainbow-colored lights mark Cho territory, advertising the monopoly: if you want electricity, you deal with the Chos.
 
-## Living Situation and Idiosyncrasies
+**The Ridge Gondola**
 
-The clan occupies the Lockworks complex itself, living within infrastructure they maintain. Residential spaces between massive pipes create an environment where flowing water sound never ceases. Pressure changes create harmonic frequencies clan members interpret—they know system status by sound.
+The gondola connecting Lantern-Heaps to Penthouse Block provides the sole direct route between Middens and Ridge. Four obols daily for passage. This gives the Chos influence over commerce and movement that other sewer-fisher clans lack.
 
-Living arrangement reflects fertility struggles. Dedicated wing houses pregnant women attempting cross-caste pregnancies, with medical equipment salvaged from abandoned Creche facilities. The nursery remains largely empty, unused cribs a constant reminder. Young couples occupy temporary quarters, understanding most will never produce viable offspring.
+**The Fen Connection**
 
-The clan maintains two distinct social spheres. Pure-line members gather in traditional spaces—around shrine, in maintenance tunnels. Mixed-heritage members create their own culture, sharing experiences of chronic pain, infertility, and existing between worlds. Meals bring both together, but conversation often splits along biological lines.
+A marriage three generations past created the hybrid lineage. The Chos are the only sewer-fisher clan with formal Fen connections, Riva's Knot council seat representing political integration no other clan achieved. But this comes at cost: other clans view them as collaborators, while Fens view them as useful subordinates rather than equals.
 
-The medical burden shapes culture. Anira maintains detailed records of every attempted crossing—genetic combinations, gestation, failure modes. This grim documentation serves scientific and emotional purposes, helping future couples understand risks while memorializing lost potential. Sophisticated support systems for grieving parents understand reproductive tragedy will remain common.
+## Living Situation and the Fertility Crisis
 
-Education emphasizes hydraulic engineering above all. Children learn pressure gauges before words. They understand flow dynamics through physical sensation—feeling pressure changes in bones, tasting mineral variations, hearing cavitation indicating problems.
+The clan occupies spaces in both Lantern-Heaps (upper floors with reliable lighting) and the Gallows (Riva's command center). This distributed presence reflects their bridging role—present in both sewer-fisher and Hanged Men territory.
+
+**The Fertility Tragedy**
+
+Each generation sees young Chos attempt crossing with Fen partners, hoping for offspring with advantageous traits from both lineages. Reality is brutal:
+
+- 75% pregnancy failure
+- Near-universal sterility among survivors
+- Chronic pain from skeletal incompatibilities common
+- Successful fertile crosses like Siven are rare exceptions
+
+The dedicated wing housing pregnant women attempting cross-caste pregnancies maintains medical equipment salvaged from abandoned Creche facilities. The nursery remains largely empty. Sophisticated support systems for grieving parents exist because reproductive tragedy is expected rather than exceptional.
+
+**Political Strain**
+
+The clan divides between traditionalists (led by Kerem, backed by Elder Ro) advocating return to pure-line breeding, and those who see Fen integration as the clan's future despite the biological cost. Lira's refusal of a proposed Fen marriage signals possible generational shift, but the political benefits of Fen connection make complete break unlikely.
+
+Pure-line members carry guilt about their fertility while watching hybrid relatives suffer. Mixed-heritage members struggle with identities that belong fully to neither world. Meals bring both together, but conversation often splits along biological lines.
+
+## Technical Expertise
+
+The clan maintains obsessive documentation of water infrastructure—not just current maps but historical patterns, seasonal variations, and failure modes. Children learn pressure gauges before words, understanding flow dynamics through physical sensation.
+
+Their electrical expertise is similarly deep. The transformer station requires constant adjustment; Cho engineers feel voltage fluctuations through the equipment's vibration before meters register changes.
+
+This dual infrastructure knowledge—water and electricity—makes them uniquely valuable. Lose the Chos, and both the Lockworks and Lantern-Heaps' power fail within months.
