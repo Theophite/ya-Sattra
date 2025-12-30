@@ -6,22 +6,29 @@ The ya-Sattra project uses `glossary.py` as the canonical source of truth for al
 
 The glossary is the **semantic hub** for this RAG-structured TTRPG documentation. Every front matter `glossary_terms` field should contain ONLY terms that exist in the glossary with their **canonical spelling**.
 
+## Glossary Statistics
+- ~105 organizations
+- ~238 locations
+- ~91 concepts
+- ~46 castes
+- ~20 persons
+
 ## Available Commands
 
 ### Basic Lookups
 ```bash
 python3 glossary.py lookup <term>           # Exact match (use FIRST before assuming a term exists)
-python3 glossary.py search <query>          # Search across all fields
+python3 glossary.py search <query>          # Search across all fields (finds term in any entry)
 python3 glossary.py check <term>            # Verify existence + suggest similar terms
 python3 glossary.py category <category>     # List all: caste, location, organization, concept, person
 python3 glossary.py related <term>          # Get term + all its related entries
 ```
 
-### Location Queries
+### Hierarchy Commands
 ```bash
-python3 glossary.py location-tree <name>    # Show hierarchy (parent/children)
+python3 glossary.py tree <name> [depth]     # Unified hierarchy (locations OR organizations)
+python3 glossary.py location-tree <name>    # Show location hierarchy (legacy, use tree instead)
 python3 glossary.py scene-setup <location>  # Full context for scene writing
-python3 glossary.py tree <name>             # Unified hierarchy tree (locations OR organizations)
 python3 glossary.py path <start> <end> -v   # Find path between locations
 ```
 
@@ -44,6 +51,27 @@ python3 glossary.py who-references <term>   # Find all entries that reference a 
 python3 glossary.py context-bundle <terms>  # Get definitions for comma-separated list
 python3 glossary.py expand <term> [depth]   # Recursively expand related terms
 ```
+
+## Command Behavior Notes
+
+### `tree` Command
+- Shows hierarchy based on `parent` field (locations use location_features.parent, orgs use top-level parent)
+- **Empty tree is valid**: Bureau of the Scale intentionally has NO Institutes
+- Depth parameter limits recursion (default: 3)
+
+### `expand` Command
+- Shows `↩ Term (see above)` for already-visited terms to avoid infinite loops
+- Depth parameter limits how far to follow related terms
+
+### `search` vs `lookup`
+- `lookup` finds exact entry names only
+- `search` finds terms mentioned anywhere in entries (use to check if concept exists but isn't an entry)
+
+Example: "Autofactory" has no entry but `search` shows it's mentioned in 12 entries
+
+### `validate-refs` Command
+- Returns canonical names for valid terms (may differ from what's in file)
+- Suggests similar terms for invalid entries
 
 ## Workflow: Verifying Terminology
 
@@ -69,33 +97,71 @@ python3 glossary.py check "Eighth Oracle"
 **WRONG:** Adding "Eighth Oracle" to glossary_terms
 **RIGHT:** Use `glossary.py lookup` first - the canonical term is "Eighth Testament"
 
-Other common mistakes:
-- "Ironback" → should be "Ironbone"
-- "Companion Guild" → should be "Companions Guild"
-- "Testament" (singular) → should be "Testaments"
-- "Medials" → should be "Medial Castes"
-- "Republic of Ganat" → should be "Ganat"
+Common corrections needed:
+- "Ironback" → "Ironbone"
+- "Companion Guild" → "Companions Guild"
+- "Testament" (singular) → "Testaments"
+- "Medials" → "Medial Castes"
+- "Republic of Ganat" → "Ganat"
+- "Occultant" → "Occultants" (plural)
+- "Charter" → "City-of-Glass Charter" (full name)
 
-### 2. Creating Duplicate Entries
+### 2. Sub-Concepts Without Entries
+Some concepts are mentioned in other entries but don't have their own:
+- "Dominion" is one of the Seven Virtues (use `lookup "Seven Virtues"` to see it)
+- "Autofactory" is mentioned in 12 entries but has no dedicated entry
+
+Use `search` to find where a concept is documented before assuming it needs its own entry.
+
+### 3. Creating Duplicate Entries
 When adding new entries to glossary_data.yaml, **always search first**:
 ```bash
 python3 glossary.py search "Institute of Flow"
 ```
 Creating a duplicate entry will silently overwrite the original due to YAML key semantics.
 
-### 3. Not Using the Glossary At All
+### 4. Not Using the Glossary At All
 The glossary exists to be used! Before making assumptions about setting terminology:
 ```bash
 python3 glossary.py lookup <whatever you're about to write>
 ```
 
-### 4. Missing Parent Fields for Organizations
+### 5. Missing Parent Fields for Organizations
 When adding Institute entries, include `parent` field to enable hierarchy queries:
 ```yaml
 Institute of Somatic Grace:
   category: organization
-  parent: Bureau of the Creche    # This enables org-tree queries
+  parent: Bureau of the Creche    # This enables tree queries
   short: "..."
+```
+
+## Known Glossary Gaps
+
+These terms appear in front matter but have NO glossary entries (as of this writing):
+- **Standing Orders** - immutable constitution from First Whorl
+- **Judge-Executioner** - Scale position
+- **Colonels-Hereditary** - Sword position
+- **Autofactory** - infrastructure type (mentioned in 12 entries)
+- **Sevenfold Silence** - Oracle Cult practice
+
+Either add these to the glossary OR remove from front matter.
+
+## Structural Notes
+
+### Bureaus and Institutes
+- **Bureau of the Creche**: 7 Institutes
+- **Bureau of the Coin**: 2 Institutes
+- **Bureau of the Scale**: NO Institutes (intentionally - "vast contradictory accumulation of courts")
+- **Bureau of the Lens**: 7 Institutes
+- **Bureau of the Sword**: 7 Institutes
+- **Bureau of the Rod**: 6 Institutes
+
+### Location Hierarchy
+```
+ya-Sattra (city)
+  └── District (Medina Quarter, Iron Yards, etc.)
+      └── Neighborhood (Great Bazaar, Forge Terrace, etc.)
+          └── Site (specific buildings, monuments)
 ```
 
 ## Adding New Entries
@@ -119,49 +185,50 @@ Entry Name:
 python3 -c "import yaml; yaml.safe_load(open('glossary_data.yaml')); print('Valid!')"
 ```
 
-## Hierarchical Queries
+## Example Outputs
 
-### Organization Hierarchy
-For organizations like Bureaus and Institutes:
-```bash
+### tree command
+```
 python3 glossary.py tree "Bureau of the Lens"
-# Shows: Bureau → all child Institutes
+
+Bureau of the Lens [organization]
+  └── Institute for the Suppression of Knowledge [organization]
+  └── Institute of Domestic Intelligence [organization]
+  └── Institute of Imperial Record [organization]
+  └── Institute of Informational Orthodoxy [organization]
+  └── Institute of the Echo [organization]
+  └── Institute of the Eye [organization]
+  └── Institute of the Lattice [organization]
 ```
 
-### Location Hierarchy
-```bash
-python3 glossary.py tree "ya-Sattra"
-# Shows: City → Districts → Neighborhoods → Sites
+### who-references command
+```
+python3 glossary.py who-references "Bureau of the Lens"
+
+  Has 'Bureau of the Lens' as PARENT (7):
+    • Institute of the Lattice [organization]
+    • Institute for the Suppression of Knowledge [organization]
+    ...
+
+  In RELATED field (23):
+    • Quarantine Shed [location]
+    • Satara [organization]
+    ...
 ```
 
-## Scanning Documents for Context
-
-Before writing narrative content in a location:
-```bash
-# Get full scene setup
-python3 glossary.py scene-setup "Lampblack Yards"
-
-# Or expand from a starting term
-python3 glossary.py expand "Lampblack Yards" 2
+### validate-refs command
 ```
+python3 glossary.py validate-refs Government_-_Satara_and_Bureaus.md
 
-This ensures you have correct terminology, nearby locations, relevant castes, and aesthetic vocabulary.
+  ✓ VALID (14 terms):
+    • Satara
+    • Bureau of the Creche
+    ...
 
-## Front Matter Best Practices
-
-```yaml
----
-title: "Document Title"
-type: setting_doc
-glossary_terms:
-  - Term One        # Each must be verifiable via: glossary.py lookup "Term One"
-  - Term Two
-  - Parent Location # Include hierarchy context
-guidance: |
-  Brief description of document purpose and RAG retrieval hints.
-see_also:
-  - Related_Document.md
----
+  ✗ INVALID (4 terms):
+    • Standing Orders → try: Sifting Grounds, Ganati Border, Undying Empire
+    • Dominion → try: Compulsion, Companions Guild, Semi-Sentient
+    ...
 ```
 
 ## Quick Reference: Feature Values
