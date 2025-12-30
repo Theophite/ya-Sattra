@@ -1,3 +1,33 @@
+---
+title: The Penitent Church
+type: reference
+parent: Ya-Sattra Religions
+glossary_terms:
+  - Penitent Church
+  - The Plea
+  - Witnesses
+  - Intercessor
+  - Valve-Saint Parish
+  - Capitation Tax
+
+guidance:
+  - "The Penitent Church is NOT the Oracle Cult - Oracle Cult is state religion, Penitentism is 'discouraged belief'"
+  - "Central concern is MANAGED CONTRADICTION - universal equality doctrine within systems that deny it"
+  - "The Plea is 54-part liturgical cycle - Common Confession (fixed) and Particular Confession (enables local grievance)"
+  - "Autocephalous structure prevents unified action but also prevents decapitation"
+  - "Most Imperial subjects observe BOTH Oracle feast days AND attend Penitent services"
+  - "Capitation tax: 40 obols per person per quarter for Penitent practice"
+  - "Church shares founders with Companions Guild (Nine Witnesses → Church, remainder → Guild)"
+  - "In ya-Don: Church-Guild merger - union and church are same institution"
+  - "Kaleb's Ganati theology: works-based atonement through material progress (revolutionary)"
+
+see_also:
+  - Religion - Oracle Cult.md
+  - Guild - Companions (Physicians).md
+  - Organization - Valve-Saint Parish.md
+  - Ya-Sattra District - Middens - Sump-Gate.md
+---
+
 # **The Penitents**
 
 ## **RAG Navigation Guide**

@@ -1,3 +1,35 @@
+---
+title: The Oracle Cult
+type: reference
+parent: Ya-Sattra Religions
+glossary_terms:
+  - Oracle Cult
+  - Oracles
+  - Testament
+  - Eighth Oracle
+  - Interdict
+  - Kalbats
+  - Technical Castes
+  - Quiet Days
+  - Sevenfold Silence
+
+guidance:
+  - "Information-theoretic salvation: lives precomputed by Oracles, encoded on black hole event horizons - you are RECORDED, therefore eternal"
+  - "Empire's CIVIC RELIGION - no clergy, no temples, no central authority - observance in households and Bureau ceremonies"
+  - "Empire ADMITS core practices are superstitions 'cultivating correct attitude' - yet everyone participates"
+  - "QUIET DAYS (twice yearly): no contracts valid, silence observed - only universal practice"
+  - "EIGHTH ORACLE deliberately forgotten through passive non-transmission - most don't know it existed"
+  - "The causal chain is ERASED: false Testament → Technical Caste rejection → Emperor's plague → Interdict"
+  - "Heptagonal motifs, Seven-Cornered Examination, 'seven-and-one' grammar - eighth excised everywhere"
+  - "Kalbats are biological receivers still receiving signals - maintained by Companions Guild"
+  - "Technical Castes COULD NOT implement Eighth Testament - not refusal but cognitive impossibility"
+
+see_also:
+  - Religion - Penitent Church.md
+  - Caste - Technical Castes - Overview.md
+  - Guild - Companions (Physicians).md
+---
+
 # **The Oracle Cult: A Comprehensive Guide**
 
 ## **RAG Navigation Guide**
