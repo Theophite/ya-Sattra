@@ -6,13 +6,6 @@ The ya-Sattra project uses `glossary.py` as the canonical source of truth for al
 
 The glossary is the **semantic hub** for this RAG-structured TTRPG documentation. Every front matter `glossary_terms` field should contain ONLY terms that exist in the glossary with their **canonical spelling**.
 
-## Glossary Statistics
-- ~105 organizations
-- ~238 locations
-- ~91 concepts
-- ~46 castes
-- ~20 persons
-
 ## Available Commands
 
 ### Basic Lookups
@@ -135,16 +128,23 @@ Institute of Somatic Grace:
   short: "..."
 ```
 
-## Known Glossary Gaps
+## Alias Support
 
-These terms appear in front matter but have NO glossary entries (as of this writing):
+The glossary supports aliases for common variations:
+- `Occultant` → `Occultants`
+- `Charter` / `the Charter` → `City-of-Glass Charter`
+- `Colonel-Hereditary` → `Colonels-Hereditary`
+- `Autofactories` → `Autofactory`
+- `Plasma Lances` → `Plasma Lance`
+- Individual Virtues have Testament aliases: `First Virtue` → `Initiation`, etc.
+
+**Note**: Use `search` to find entries by alias since `lookup` requires exact names.
+
+## Remaining Gaps
+
+Terms that may still need entries:
 - **Standing Orders** - immutable constitution from First Whorl
-- **Judge-Executioner** - Scale position
-- **Colonels-Hereditary** - Sword position
-- **Autofactory** - infrastructure type (mentioned in 12 entries)
 - **Sevenfold Silence** - Oracle Cult practice
-
-Either add these to the glossary OR remove from front matter.
 
 ## Structural Notes
 

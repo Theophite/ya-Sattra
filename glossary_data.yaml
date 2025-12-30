@@ -10477,6 +10477,21 @@ entries:
     related: [Satara, Bureau of the Creche, City-of-Glass Charter]
   # ─── end Bureau of the Scale ───
 
+  # ═══ Judge-Executioner ═══
+  Judge-Executioner:
+    category: concept
+    aliases: [Judge-Executioners]
+    parent: Bureau of the Scale
+    short: "Scale officials who both render verdicts and carry out sentences—combining judicial and punitive authority."
+    details: |
+      The Scale's most visible officials. Unlike other Imperial courts that separate judgment
+      from punishment, Judge-Executioners embody both functions. This reflects Third Testament
+      doctrine: the one who determines guilt must bear responsibility for consequences.
+      Selection requires the Rite of the Perfect Ledger and at least twenty years of court service.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Scale, Adjudication, Third Testament]
+  # ─── end Judge-Executioner ───
+
   # ═══ Bureau of the Rod ═══
   Bureau of the Rod:
     category: organization
@@ -10593,6 +10608,66 @@ entries:
     rag_pointer: "Bureau of the Sword"
     related: [Satara, Warborn, Bureau of the Creche]
   # ─── end Bureau of the Sword ───
+
+  # ═══ Colonels-Hereditary ═══
+  Colonels-Hereditary:
+    category: concept
+    aliases: [Colonel-Hereditary]
+    parent: Bureau of the Sword
+    short: "Aureate families maintaining frontier weapons installations—inheriting both command authority and the technology that kills them."
+    details: |
+      Hereditary military positions dating to pre-Interdict expansion. Each family holds
+      patents over specific weapons systems they can operate but cannot repair or understand.
+      Plasma lances, orbital defense coordinates, authentication keys for systems that no longer
+      exist. Many weapons harm their operators—radiological burns, neural degradation, bone
+      dissolution. The families continue their vigils because the alternative is admitting the
+      Empire has already contracted to three cities on the former California coast.
+    rag_pointer: "Story Vignettes Collection, Bureau of the Sword"
+    related: [Bureau of the Sword, Aureate, Patent, Plasma Lance]
+  # ─── end Colonels-Hereditary ───
+
+  # ═══ Tam es-Norrel ═══
+  Tam es-Norrel:
+    category: person
+    short: "Colonel-Hereditary maintaining the Plasma Garden—seventeen lances on the frontier facing the Thousand Kingdoms."
+    details: |
+      Aureate of the es-Norrel line, hereditary guardians of a plasma lance installation.
+      His mother died from radiological exposure after firing a lance to stop an Akama
+      cavalry charge. He can operate the weapons but not repair them, aim them but not
+      understand them. Commands a garrison of twenty soldiers on a frontier the Empire
+      has already written off. The lances are too dangerous to use and too valuable to abandon.
+    rag_pointer: "Story Vignettes Collection"
+    related: [Colonels-Hereditary, Plasma Lance, Thousand Kingdoms, Aureate]
+  # ─── end Tam es-Norrel ───
+
+  # ═══ Jorin es-Kallo ═══
+  Jorin es-Kallo:
+    category: person
+    short: "Hereditary Clerk of the Binary Stars Docket—maintaining precedents for courts that will never convene."
+    details: |
+      Sri Advocate, Scale Bureau Certified, Aureate of the Empire. Maintains a docket for
+      the Court of Binary Stars, an interstellar jurisdiction made meaningless by the Interdict.
+      Operates a bookshop in the Medina Quarter where no one buys books. His real income
+      comes from finding specific passages in Bureau tax codes. His pension: forty obols monthly.
+      His title: elaborate fiction perpetuated professionally.
+    rag_pointer: "Story Vignettes Collection"
+    related: [Bureau of the Scale, Aureate, Interdict]
+  # ─── end Jorin es-Kallo ───
+
+  # ═══ Ema es-Tel ═══
+  Ema es-Tel:
+    category: person
+    aliases: [Sri Custodian Ema es-Tel]
+    short: "Hereditary custodian of the es-Yatani Device—implementing patterns she cannot comprehend for purposes she cannot know."
+    details: |
+      Seventeenth in a line of es-Yatani patent holders. Operates a black Device of unknown
+      purpose through inherited procedures. Requests arrive from the First Whorl at 3 AM.
+      She implements patterns with names like "Ascending Meridian with Variant Nine."
+      Compensation arrives instantly—sometimes millions of obols. The family manual says
+      only: "ONLY PRECISION IS REQUIRED."
+    rag_pointer: "Story Vignettes Collection"
+    related: [First Whorl, Aureate, Patent]
+  # ─── end Ema es-Tel ───
 
   # ═══ Institute for Strategic Planning ═══
   Institute for Strategic Planning:
@@ -10747,6 +10822,7 @@ entries:
   # ═══ City-of-Glass Charter ═══
   City-of-Glass Charter:
     category: concept
+    aliases: [Charter, the Charter]
     short: "Constitutional document transferring reproductive jurisdiction from Creche to Scale."
     details: |
       Named for the Technical Caste site whose intervention ended the Malpais War in 772 
@@ -11105,6 +11181,97 @@ entries:
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Oracle Cult, Testaments, Seven-Cornered Examination]
   # ─── end Seven Virtues ───
+
+  # ═══ Initiation ═══
+  Initiation:
+    category: concept
+    aliases: [First Virtue]
+    short: "First of the Seven Virtues, derived from the First Testament—begin what must be done."
+    details: |
+      The virtue of beginning, of taking action when action is required. Associated with
+      the First Testament and the First Oracle. Tested in the Seven-Cornered Examination.
+      Conservative interpretation emphasizes duty; progressive emphasizes initiative.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Seven Virtues, First Testament, Oracle Cult]
+  # ─── end Initiation ───
+
+  # ═══ Dominion ═══
+  Dominion:
+    category: concept
+    aliases: [Second Virtue]
+    short: "Second of the Seven Virtues, derived from the Second Testament—rule is obligation, not privilege."
+    details: |
+      The virtue of leadership as burden. Those who command must serve those they command.
+      Associated with the Second Testament and Compulsion itself. Conservative interpretation
+      emphasizes hierarchy; progressive emphasizes responsibility to the ruled.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Seven Virtues, Second Testament, Oracle Cult, Compulsion]
+  # ─── end Dominion ───
+
+  # ═══ Adjudication ═══
+  Adjudication:
+    category: concept
+    aliases: [Third Virtue]
+    short: "Third of the Seven Virtues, derived from the Third Testament—bilateral symmetry in law."
+    details: |
+      The virtue of fair judgment. Laws must apply equally; precedent must be followed exactly.
+      Associated with the Third Testament and the Bureau of the Scale. Conservative interpretation
+      emphasizes literal precedent; progressive emphasizes underlying principles.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Seven Virtues, Third Testament, Oracle Cult, Bureau of the Scale]
+  # ─── end Adjudication ───
+
+  # ═══ Insight ═══
+  Insight:
+    category: concept
+    aliases: [Fourth Virtue]
+    short: "Fourth of the Seven Virtues, derived from the Fourth Testament—speak only what can be proven."
+    details: |
+      The virtue of verified knowledge. Claims require evidence; speculation is dangerous.
+      Associated with the Fourth Testament and the Bureau of the Lens. Conservative interpretation
+      emphasizes classification; progressive emphasizes transparency within verification.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Seven Virtues, Fourth Testament, Oracle Cult, Bureau of the Lens]
+  # ─── end Insight ───
+
+  # ═══ Endeavour ═══
+  Endeavour:
+    category: concept
+    aliases: [Fifth Virtue]
+    short: "Fifth of the Seven Virtues, derived from the Fifth Testament—work despite uncertainty."
+    details: |
+      The virtue of persistence. Continue the work even when outcomes are unclear.
+      Associated with the Fifth Testament and the Bureau of the Rod. Conservative interpretation
+      emphasizes following procedures; progressive emphasizes adaptive problem-solving.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Seven Virtues, Fifth Testament, Oracle Cult, Bureau of the Rod]
+  # ─── end Endeavour ───
+
+  # ═══ Reflection ═══
+  Reflection:
+    category: concept
+    aliases: [Sixth Virtue]
+    short: "Sixth of the Seven Virtues, derived from the Sixth Testament—contemplate before acting."
+    details: |
+      The virtue of careful consideration. Hasty action causes harm; deliberation prevents error.
+      Associated with the Sixth Testament. Conservative interpretation emphasizes tradition;
+      progressive emphasizes evidence-based reconsideration of assumptions.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Seven Virtues, Sixth Testament, Oracle Cult]
+  # ─── end Reflection ───
+
+  # ═══ Order ═══
+  Order:
+    category: concept
+    aliases: [Seventh Virtue]
+    short: "Seventh of the Seven Virtues, derived from the Seventh Testament—hierarchy maintains harmony."
+    details: |
+      The virtue of structure. Proper arrangement of society prevents chaos and suffering.
+      Associated with the Seventh Testament. The most politically contested virtue—conservative
+      interpretation emphasizes caste hierarchy; progressive emphasizes functional coordination.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Seven Virtues, Seventh Testament, Oracle Cult]
+  # ─── end Order ───
 
   # ═══ Kalbat ═══
   Kalbat:
@@ -14345,6 +14512,38 @@ entries:
     related: [Technical Castes, Arbitrary Truths, Archons]
   # ─── end Jargon ───
 
+  # ═══ Autofactory ═══
+  Autofactory:
+    category: concept
+    aliases: [Autofactories]
+    short: "Pre-Interdict autonomous manufacturing systems—still operating in Avouvar territory, producing goods no one fully understands."
+    details: |
+      Self-maintaining factories constructed before the Interdict by the Technical Castes
+      or their precursors. The Avouvar cities—Ogon, Asovoë, and surrounding settlements—
+      are built around functioning autofactory terminals. These facilities produce armor alloys,
+      electromagnetic components, and other goods that cannot be manufactured elsewhere.
+      No one living understands their full capabilities or limitations. The Avouvar trade
+      through interface houses like Czernaël Factor-House.
+    rag_pointer: "Region: Asovoë and the Avouvar"
+    related: [Avouvar, Ogon, Asovoë, Technical Castes]
+  # ─── end Autofactory ───
+
+  # ═══ Plasma Lance ═══
+  Plasma Lance:
+    category: concept
+    aliases: [Plasma Lances]
+    short: "Pre-Interdict weapons capable of carving molten canyons—maintained by Colonels-Hereditary who often die from operating them."
+    details: |
+      Twenty meters of crystallized mathematics and hostile physics. Can glass an entire
+      cavalry charge, turning targets to radioactive ash. The containment systems degrade
+      unpredictably, and firing one exposes operators to radiological backwash. The es-Norrel
+      Plasma Garden contains seventeen lances; the last firing killed Colonel-Hereditary
+      es-Norrel's mother over three months of bone dissolution. Too dangerous to use,
+      too valuable to abandon.
+    rag_pointer: "Story Vignettes Collection"
+    related: [Colonels-Hereditary, Tam es-Norrel, Aureate]
+  # ─── end Plasma Lance ───
+
   # ═══ Lector ═══
   Lector:
     category: concept
@@ -14362,6 +14561,7 @@ entries:
   # ═══ Occultants ═══
   Occultants:
     category: concept
+    aliases: [Occultant]
     short: "Highborn permanently serving in the First Whorl, sacrificed to temporal compression."
     details: |
       Aureate family members appointed to First Whorl service as the price of their 
