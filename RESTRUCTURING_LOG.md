@@ -351,3 +351,55 @@ These documents were already well-structured with internal navigation. Added YAM
 ### Culture_-_Imperial_Media_and_Entertainment.md ✓
 - Key concepts: exhaustion as policy, condemnations as endorsements, White/Grey Sheets
 - Real limits: no mocking Emperor, no questioning Interdict's justice
+
+### Region_-_Puget_Sound_Refugee_Castes.md ✓
+- Key concepts: Völërath, Szkovërin, Draëthen castes, autofactory seeds
+- Three castes fled ya-Tsovez 10,000 years ago, planted Ogon foundation
+
+### Scenario_-_Lattice_Translator.md ✓
+- Key concepts: Record system, compartmentalization, Inner City enclosure
+- Five known Records spanning ~5,000 years, debate has moved on from Charter
+
+### Guide_-_Writing_Inner_City.md ✓
+- Key concepts: emotional registers by Whorl depth, exhaustion not fear
+- Wonder that has become routine, resignation rather than despair
+
+### Examples_-_Story_Vignettes.md ✓
+- Key concepts: recurring themes (maintained fictions, inheritance as burden, biology as position)
+- Storytelling principle: start with work, strangeness emerges through work
+
+### Templates_-_In-Universe_Documents.md ✓
+- Key concepts: Highborn instruction style, Compulsion teaching protocols
+- Children who discover Compulsion naturally almost always become monsters
+
+---
+
+## Summary
+
+**Documents Created Through Splitting:**
+- Sewer-Fishers batch: 8 files
+- Technical Castes batch: 3 files
+- Middens batch: 10 files
+- Ridge batch: 7 files
+- Iron Yards batch: 6 files
+- Castes batch: 5 files
+- Medina batch: 7 files
+**Total created: 46 files**
+
+**Documents With Front Matter Added (no split):**
+- Religion: 2 files
+- Bureau: 2 files
+- Government: 1 file
+- System: 4 files
+- City: 2 files
+- Region: 4 files
+- Species: 2 files
+- Guide: 5 files
+- Culture: 2 files
+- Organization: 1 file
+- Scenario: 1 file
+- Examples: 1 file
+- Templates: 1 file
+**Total with front matter: 28 files**
+
+**Grand total restructured: 74 files**
