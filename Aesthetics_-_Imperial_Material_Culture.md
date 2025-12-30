@@ -119,7 +119,7 @@ A Fourth Whorl clerk—someone like Rivan Keloreth—carries daily:
 
 **Documents**: Authentication papers, work in progress, the unofficial notebook that never leaves the owner's possession. The papers live in a leather sleeve. The notebook is bound in cheap leather, its pages ruled by hand, its contents ranging from work notes to shopping lists.
 
-**The stylus set**: One for formal documents (good metal, comfortable grip, maintained carefully), one for rough work (cheaper, replaced when worn). The formal stylus might be inherited; an es-Yonim stylus passing through three generations develops a particular patina.
+**The stylus set**: One for formal documents (good metal, comfortable grip, maintained carefully), one for rough work (cheaper, replaced when worn). The formal stylus might be inherited; a family stylus passing through three generations develops a particular patina, the metal wearing where thumbs press, the balance becoming familiar as one's own hand.
 
 **Small comforts**: A twist of coca leaf, a sweet for afternoon energy, a cloth for wiping sweat. These cost little individually but their presence signals margin.
 
