@@ -796,7 +796,7 @@ entries:
     short: Specialized workers engineered for hazardous industrial tasks.
     details: ""
     rag_pointer: Castes of Mankind
-    related: [Beamcrawler, Ductworker, Redback, Springheel, Ironbone Labor]
+    related: [Beamcrawler, Ductworker, Redback, Springheel, Ironbone Labor, Diver]
     caste_features:
       morphology: divergent
       scale: variable
@@ -11683,6 +11683,47 @@ entries:
     related: [Ganat, Kilit, Obol]
   # ─── end Dinar ───
 
+  # ═══ Diver ═══
+  Diver:
+    category: caste
+    short: "Aquatic labor caste engineered for underwater work—approximately 40 remain in ya-Sattra."
+    details: |
+      Engineered for harbor maintenance, salvage, and underwater construction. Can hold
+      breath 9 minutes comfortably, 12 in emergencies. Eyes focus underwater without
+      distortion. Webbed hands and feet (subtle, but requires modified gloves and shoes).
+      Small ears that seal against water pressure. Faint bluish skin undertone.
+
+      So rare that Companions Guild clinics have no training in Diver physiology. Divers
+      bring folders containing everything their families accumulated about their own
+      biology—they explain their bodies to people trained for bodies that work differently.
+    rag_pointer: "Castes of Mankind"
+    related: [Labor Castes, Harbor District, Sev Kassam]
+    caste_features:
+      morphology: modified
+      scale: baseline
+      compulsion: susceptible
+      lifespan: baseline
+      cognition: baseline
+      population: remnant
+      physical_traits:
+        - "holds breath 9 minutes comfortably, 12 in emergencies"
+        - "eyes focus underwater without distortion"
+        - "webbed hands and feet (subtle, requires modified gloves/shoes)"
+        - "small ears that seal against water pressure"
+        - "faint bluish skin undertone"
+        - "lean build, approximately 5'10\""
+      original_function: underwater construction, harbor maintenance, salvage
+      current_role: piling inspection, harbor work
+      distribution:
+        - ya-Sattra (~40 individuals)
+        - scattered coastal settlements
+      health_issues:
+        - "no trained physicians—must self-advocate with accumulated family medical records"
+      special:
+        - "one of the rarest surviving castes"
+        - "Harbor Authority employs most known Divers"
+  # ─── end Diver ───
+
   # ═══ Maguey-silk ═══
   Maguey-silk:
     category: concept
@@ -12281,7 +12322,7 @@ entries:
       everything family accumulated about Diver biology—he explains his own body to people trained 
       for bodies that work differently. One of approximately 40 Divers in ya-Sattra.
     rag_pointer: "Caste Type Specimens Catalog"
-    related: [Diver, ya-Sattra, Harbor]
+    related: [Diver, ya-Sattra, Harbor District]
   # ─── end Sev Kassam ───
 
 
