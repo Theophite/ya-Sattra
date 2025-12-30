@@ -294,6 +294,40 @@ AFTER WRITING:
 2. Run `--act-break` to verify constraints lead to synthesis
 3. Audit invented details against established lore
 4. Revise any conflicts before play begins
+
+-------------------------------------------------------------------------------
+CHARACTER NAMING: USE STUBS FIRST, FILL LATER
+-------------------------------------------------------------------------------
+
+Use NAME STUBS instead of inventing names. Stubs with the same identifier
+produce the same name throughout the document.
+
+FORMAT:
+    [NAME:region:type:id]           - e.g., [NAME:imperial:professional:archivist]
+    [NAME:region:type:gender:id]    - e.g., [NAME:imperial:bureau:f:junior]
+
+The identifier (id) links references to the same character. All stubs with
+matching region:type:id get the same generated name.
+
+REGIONS AND TYPES:
+    imperial    - personal, aureate, bureau, professional, management, lower, homiletic
+    tsatsan     - personal, aureate, family, full
+    ganati      - personal, unmarked, compound, scaled
+    akama       - personal, malpais, ogon, kmadhol, astrological, epithet
+    avouvar     - personal, full, precinct
+    caste       - mutterer, astal, draethen, takefyeh, pierrot, choir
+    clone       - personal, batch, abject
+
+EXAMPLE USAGE:
+    "The archivist [NAME:imperial:professional:arch] found the document."
+    "Three days later, [NAME:imperial:professional:arch] still hadn't slept."
+    -> Both become the same name, e.g., "Avar Kalir"
+
+    "[NAME:caste:mutterer:1] and [NAME:caste:mutterer:2] worked in pairs."
+    -> Two different Mutterer names
+
+After scenario is complete:
+    python3 name_generator.py fill /home/claude/Scenario_-_<Name>.md
 """
     return prompt
 
