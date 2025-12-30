@@ -6,7 +6,7 @@ glossary_terms:
   - Manna
   - Marru
   - Oracle Cult
-  - Republic of Ganat
+  - Ganat
   - Thousand Kingdoms
 
 guidance:

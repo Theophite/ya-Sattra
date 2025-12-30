@@ -7,7 +7,7 @@ glossary_terms:
   - Black Door
   - First Whorl
   - Inanis
-  - Eighth Oracle
+  - Eighth Testament
   - Interdict
   - Technical Castes
   - Jargon
