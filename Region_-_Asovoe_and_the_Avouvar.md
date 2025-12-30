@@ -1,8 +1,33 @@
-I've read the RAG guide to the Index. Now let me write a similar navigation guide for the AsovoÃ« document.
+---
+title: Asovoë and the Avouvar
+type: reference
+parent: null
+glossary_terms:
+  - Avouvar
+  - Medials
+  - Technical Castes
+  - Jargon
+  - Eighth Oracle
+  - Westerners
+  - Autofactory
 
+guidance:
+  - "60,000 jet-black immortals in radioactive city where Fraser River meets glaciers - designed for gas giant moons with radiation belts"
+  - "Lifespans scale with contamination - hot zone elders may exceed 900 years, peripheral residents ~500"
+  - "Medials: ~75 Technical Caste beings preserved and cloned across millennia, run the autofactory, communicate only in Jargon, do not acknowledge Avouvar"
+  - "No unified state - constellation of precincts sharing contaminated homeland and external trade posts, each governs differently"
+  - "The Anointing at age 13: radionuclide pigments + hallucinogens activate radioimmunity. Not all survive; survival rate calibrates population to food supply"
+  - "Theology INVERTS Imperial position: all eight Oracles legitimate, Eighth was culmination, Technical Castes refused because humanity was unworthy"
+  - "The Second Anointing: what happens during famine winters, covered by ETERNAL SILENCE"
+  - "Westerners: anonymous traders providing bulk food, maintain demarcation line in Pacific, Avouvar do not visit Lopez Island under pain of death"
+
+see_also:
+  - Caste - Technical Castes - Overview.md
+  - Mysteries - The Emperor and the Singularity.md
+  - Religion - Oracle Cult.md
 ---
 
-# **Index to AsovoÃ«: A RAG Navigation Guide**
+# **Index to Asovoë: A RAG Navigation Guide**
 
 ## **Executive Summary**
 

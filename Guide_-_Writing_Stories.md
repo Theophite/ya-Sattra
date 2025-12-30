@@ -1,3 +1,27 @@
+---
+title: Writing Stories in the Post-Interdict Empire
+type: guide
+parent: null
+glossary_terms:
+  - Interdict
+  - Aureate
+  - Bureau
+
+guidance:
+  - "Stories work by placing specific people with specific MATERIAL CIRCUMSTANCES into situations where institutional fiction collides with lived reality"
+  - "Documentary fragment: present as fragments of larger realities (ledgers, diaries, confessions) - maintains uncertainty, reflects how people actually experience institutions"
+  - "Every character should have concrete ECONOMIC and INSTITUTIONAL pressures before they have abstract motivations"
+  - "The gap between what systems claim and what they actually do is where stories live - characters participate in maintaining fictions even knowing they don't work"
+  - "Moral complexity WITHOUT melodrama - characters whose compromises seem reasonable from inside their circumstances, never clear redemption arcs"
+  - "Concrete sensory detail does WORK - reveals character, economics, history, culture. Specific beats vague, sensory beats abstract"
+  - "Cross-context encounters reveal both contexts through contrast - neither side should be simply wrong"
+
+see_also:
+  - Guide - Visual Design and Architecture.md
+  - Language - Imperial Grammar and Registers.md
+  - Examples - Story Vignettes.md
+---
+
 # **Writing Stories in the Post-Interdict Empire**
 
 ## **Executive Summary**

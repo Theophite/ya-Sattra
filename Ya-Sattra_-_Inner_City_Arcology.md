@@ -1,3 +1,35 @@
+---
+title: Inner City Arcology
+type: reference
+parent: null
+glossary_terms:
+  - Inner City
+  - Fourth Whorl
+  - Third Whorl
+  - Second Whorl
+  - First Whorl
+  - Black Door
+  - Satara
+  - Aureate
+  - Highborn
+  - Occultant
+  - Whorl-Lag
+  - Azure Chamber
+
+guidance:
+  - "Four interlocking helices - Fourth wraps Third (terminates at 1/3 height), Third extends higher, Second spirals up AND down to vaults, First reaches apex to Black Door"
+  - "Entirely interior space - no sky, no outside. Light from orb-fixtures in distant ceilings, bronze columns 40 feet tall"
+  - "Each Whorl represents deeper Imperial power, more extreme temporal distortion, more complete separation from ordinary life"
+  - "Fourth Whorl: Great Bazaar, accessible commerce. Third: Engine Room, machinery and Bureau HQ. Second: Seat of Power, empty plazas, Azure Chamber, the 'echo'"
+  - "First Whorl: temporal compression 30:1 to 120:1 - one day inside equals months outside. Highborn occultants who will NEVER leave"
+  - "Whorl-Lag: temporal disorientation from moving between zones - senior bureaucrats live in Third to avoid daily transitions"
+
+see_also:
+  - Government - Satara and Bureaus.md
+  - System - Aureate Patents and Aristocracy.md
+  - Mysteries - The Emperor and the Singularity.md
+---
+
 ## **Suggested Glossary Query**
 
 Before using this document, run the following batch glossary lookup to load relevant terminology:

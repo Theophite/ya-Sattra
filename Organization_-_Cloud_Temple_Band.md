@@ -1,3 +1,31 @@
+---
+title: The Cloud Temple Band
+type: reference
+parent: null
+glossary_terms:
+  - Kelso Senna
+  - Technical Castes
+  - Far Ib
+  - Archons
+  - Mutterers
+  - Yarangar
+  - Republic of Ganat
+  - Companion Guild
+
+guidance:
+  - "Military-political organization from Technical Caste facility in Ib Mountains - ~2000 affiliated fighters, 40-50 permanent garrison"
+  - "Kelso Senna: deserted during Yarangar campaign after executing superior who ordered atrocities, assassinated Sultana Ulayah, served as Ganat's Minister of War"
+  - "Receives directives from dying Archons through quantum-entangled communication - the Mouth (least modified) can barely communicate with baseline humans"
+  - "Founding cohort (now 40-55) dominates command structure through PERSONAL LOYALTY not ideology - may not like each other, trust each other"
+  - "Function is ambiguous: conventional mercenary company OR interface between human politics and Technical Caste remnants - unclear which"
+  - "Rasma Dhal-Setil (Dawn Consul) makes unauthorized payments to the Band"
+
+see_also:
+  - Caste - Technical Castes - Overview.md
+  - Region - Republic of Ganat.md
+  - Region - Thousand Kingdoms (Akama).md
+---
+
 # **The Cloud Temple Band: A Comprehensive Guide**
 
 ## **RAG Navigation Guide**

@@ -1,3 +1,29 @@
+---
+title: Ta-Kefyeh - Parasitic Riders
+type: reference
+parent: null
+glossary_terms:
+  - Ta-Kefyeh
+  - Many
+  - Warborn
+  - Bureau of the Sword
+  - Auxilia
+
+guidance:
+  - "Ta-Kefyeh attach via spinal insertion - tendrils interface with host neurology, improper removal causes FATAL cerebrospinal fluid loss"
+  - "Riders receive DIRECT FEEDBACK from host sensations including pain and terror - riding unwilling host means experiencing their horror from inside"
+  - "Symbol-name convention for human contexts: geometric symbols painted on hosts, names like 'Blue Square' or 'Red Spiral'"
+  - "Most ta-Kefyeh find human SPEECH extremely difficult - they learn to write before speaking, many never progress beyond halting monosyllables"
+  - "Auxilia non-leviable: exempt from conscription, provide contractual military service, produce pharmaceuticals OUTSIDE permit raj"
+  - "Many's queue enforcers - the only truly egalitarian space in Empire, Aureates must wait behind sewer-fishers"
+  - "Parthenogenetic reproduction transmits fragmentary sensory MEMORIES - identity continues across generations"
+
+see_also:
+  - Species - Many (Colonial Polychaete Banker).md
+  - Caste - Warborn.md
+  - Ya-Sattra District - Medina - Businesses.md
+---
+
 # **The Ta-Kefyeh: A Comprehensive Guide**
 
 ## **RAG Navigation Guide**
