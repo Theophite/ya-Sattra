@@ -6140,6 +6140,13 @@ entries:
       children:
         - The Slab
         - Kma-Dhol Quarter
+        - Thavek
+        - Western Canal Districts
+        - Northern Ziggurat Districts
+        - Southeast Approach
+        - Central Ogon
+        - Northeast Ziggurat District
+        - Dharel's Span
       controlling_entity: Junta of Ogon
       population: ~1 million
       castes_present:
@@ -7850,6 +7857,215 @@ entries:
       primary_function: Governance assembly
       real_world_anchor: "Columbia River mouth (within Ogon)"
   # ─── end The Slab ───
+
+  # ═══ Thavek ═══
+  Thavek:
+    category: location
+    short: "Eastern district of Ogon—Imek Stone-Foot's territory."
+    details: |
+      One of Ogon's major districts. Controlled by Imek Stone-Foot and her
+      warband of ~300 survivors. Home to her technical operations including
+      the Avouvar coil-winder that produces Imek-pattern light rail carbines.
+      Also location of Harak Merengi's rifle workshop.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Ogon, Imek Stone-Foot, Harak Merengi]
+    location_features:
+      level: district
+      location_type: residential
+      parent: Ogon
+      controlling_entity: Imek Stone-Foot
+      primary_function: Manufacturing district
+      castes_present:
+        - Akama
+        - Kma-Dhol
+      notable_features:
+        - Coil-winder workshop (Avouvar technology)
+        - Rifle manufacturing
+        - Mutterer choir maintenance
+      real_world_anchor: "Columbia River mouth (within Ogon)"
+  # ─── end Thavek ───
+
+  # ═══ Western Canal Districts ═══
+  Western Canal Districts:
+    category: location
+    short: "Ataru Blackfish's territory—controls salmon processing infrastructure."
+    details: |
+      Major district of Ogon where Ataru Blackfish maintains his commercial
+      empire. Contains weirs, smoke-houses, and processing infrastructure.
+      Approximately seventy vassals control weir positions, paying fixed
+      tribute regardless of fortune. The district's economy centers entirely
+      on the salmon runs.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Ogon, Ataru Blackfish, The Grand Canal]
+    location_features:
+      level: district
+      location_type: commercial
+      parent: Ogon
+      controlling_entity: Ataru Blackfish
+      primary_function: Salmon processing
+      population: ~800 warriors plus commercial infrastructure
+      castes_present:
+        - Akama
+      notable_features:
+        - Weirs (held by force, inherited through bloodlines)
+        - Smoke-houses
+        - Processing infrastructure
+      borders:
+        east: [The Grand Canal]
+      real_world_anchor: "Columbia River mouth (within Ogon)"
+  # ─── end Western Canal Districts ───
+
+  # ═══ Northern Ziggurat Districts ═══
+  Northern Ziggurat Districts:
+    category: location
+    short: "Iron-Rain's informal territory and Kma-Dhol concentration zone."
+    details: |
+      Northern section of Ogon containing ziggurat structures where Iron-Rain
+      maintains informal control with his 1,200 warriors. Also the primary
+      Kma-Dhol residential area, overlapping with the Kma-Dhol Quarter.
+      Vey Nine Birds operates from this district.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Ogon, Iron-Rain, Vey Nine Birds, Kma-Dhol Quarter]
+    location_features:
+      level: district
+      location_type: residential
+      parent: Ogon
+      primary_function: Ziggurat residential zone
+      castes_present:
+        - Akama
+        - Kma-Dhol
+      notable_features:
+        - Ziggurat architecture
+        - Kma-Dhol technical operations
+        - Compression passages (Kma-Dhol access)
+      real_world_anchor: "Columbia River mouth (within Ogon)"
+  # ─── end Northern Ziggurat Districts ───
+
+  # ═══ Southeast Approach ═══
+  Southeast Approach:
+    category: location
+    short: "Tsoka Red Deer's territory—extends toward Imperial frontier."
+    details: |
+      District controlled by Tsoka Red Deer with his 643 soldiers organized
+      into seven companies. The most militarily organized zone of Ogon,
+      operating with Imperial discipline (written orders, salary payments,
+      merit-based promotion) while maintaining Akama cultural identity.
+      Trade routes to Imperial territories pass through here.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Ogon, Tsoka Red Deer, Northern Frontier]
+    location_features:
+      level: district
+      location_type: military
+      parent: Ogon
+      controlling_entity: Tsoka Red Deer
+      primary_function: Military zone, trade gateway
+      population: ~643 soldiers
+      castes_present:
+        - Akama
+      notable_features:
+        - Imperial-style military organization
+        - Trade route to Imperial territories
+        - Tribute protection contracts
+      borders:
+        south: [Northern Frontier]
+      real_world_anchor: "Columbia River mouth (within Ogon)"
+  # ─── end Southeast Approach ───
+
+  # ═══ Central Ogon ═══
+  Central Ogon:
+    category: location
+    short: "Tama Family commercial zone—gambling halls and public works."
+    details: |
+      Central district of Ogon controlled by Bal Tama and the Tama Family.
+      Contains their gambling halls (neutral ground for negotiations),
+      commercial properties, and public works infrastructure. The deaf
+      warband of 200 provides security, immune to Compulsion.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Ogon, Bal Tama, Tama Family]
+    location_features:
+      level: district
+      location_type: commercial
+      parent: Ogon
+      controlling_entity: Tama Family
+      primary_function: Commercial neutral ground
+      population: ~200 deaf warriors (security)
+      castes_present:
+        - Akama
+        - Near-Baseline (Tama Family)
+      notable_features:
+        - Gambling halls (neutral ground)
+        - Rigged dice (wealth redistribution)
+        - Deaf warband headquarters
+        - Public works
+        - Quiet Day feast locations
+      real_world_anchor: "Columbia River mouth (within Ogon)"
+  # ─── end Central Ogon ───
+
+  # ═══ Northeast Ziggurat District ═══
+  Northeast Ziggurat District:
+    category: location
+    short: "Som es-Vol's theoretical territory—broken Highborn's zone."
+    details: |
+      Ziggurat district in Ogon's northeast nominally controlled by Som
+      es-Vol, though his control is theoretical at best. The broken Highborn
+      maintains only ~30 people in semi-permanent association. His presence
+      here keeps other powers from claiming the territory openly.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Ogon, Som es-Vol]
+    location_features:
+      level: district
+      location_type: residential
+      parent: Ogon
+      controlling_entity: Som es-Vol (nominal)
+      primary_function: Residential zone
+      castes_present:
+        - Akama
+        - Highborn (one)
+      notable_features:
+        - Ziggurat architecture
+        - Highborn presence (broken, contained)
+      real_world_anchor: "Columbia River mouth (within Ogon)"
+  # ─── end Northeast Ziggurat District ───
+
+  # ═══ Dharel's Span ═══
+  Dharel's Span:
+    category: location
+    short: "Ziggurat at canal junction—nine ancestral masks on its face."
+    details: |
+      A significant ziggurat in Ogon where it meets the canal. Features
+      nine ancestral masks carved into its concrete face, the oldest perhaps
+      three hundred years weathered. Below the masks, a scene of riders
+      approaching a ford runs the length of the wall—the outcome deliberately
+      unshown, supporting multiple interpretations. Territory changes hands
+      periodically; currently held by a band claiming descent from both the
+      riders and defenders in the carving.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Ogon, Torek Confederation]
+    location_features:
+      level: site
+      location_type: residential
+      parent: Ogon
+      primary_function: Fortified position
+      notable_features:
+        - Nine ancestral masks (oldest ~300 years)
+        - Ford approach carving
+        - Strategic canal position
+      real_world_anchor: "Columbia River mouth (within Ogon)"
+    aesthetic_features:
+      intention: "We were here. Our ancestors looked out from this wall. The story continues."
+      construction: "Autofactory concrete with carved additions across centuries. Masks in heavy Akama style—broad brows, prognathous jaws, fur ruff suggested in radiating lines."
+      visual_vocabulary:
+        - "Ancestral masks: heavy orbital ridges, black pigment in eye-hollows, rust in brow grooves"
+        - "Narrative relief: riders approaching ford, defenders with backs turned, moment before contact"
+      colors:
+        - "Grey autofactory concrete"
+        - "Black pigment (eye-hollows)"
+        - "Rust (brow grooves)"
+      sensory:
+        - "Canal water sounds"
+        - "Weathered stone smell"
+        - "Touch-worn mask edges from centuries of pilgrimage"
+  # ─── end Dharel's Span ───
 
   # ═══ The Smelters ═══
   The Smelters:
@@ -10388,14 +10604,103 @@ entries:
     category: organization
     short: "Seven token-holders governing Ogon and claiming suzerainty over the Thousand Kingdoms."
     details: |
-      Meet monthly at the Slab. Vote by raised or lowered hands. Disputes resolved by 
-      trial-by-combat. Tokens trace to original Akama conquerors who took Ogon from 
-      ya-Tsovez refugees. Each token-holder controls a bloc of warbands; together they 
-      can mobilize perhaps 40,000 fighters. More important: they control salmon allocation 
+      Meet monthly at the Slab. Vote by raised or lowered hands. Disputes resolved by
+      trial-by-combat. Tokens trace to original Akama conquerors who took Ogon from
+      ya-Tsovez refugees. Each token-holder controls a bloc of warbands; together they
+      can mobilize perhaps 40,000 fighters. More important: they control salmon allocation
       from the Grand Canal.
+
+      CURRENT MEMBERS: Som es-Vol (broken Highborn), Tsoka Red Deer (institutionalist),
+      Ataru Blackfish (commercial), Bal Tama (accommodationist), Iron-Rain (Ironbone-Warborn),
+      Imek Stone-Foot (lucky survivor), Vey Nine Birds (Kma-Dhol technical).
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Ogon, The Slab, Thousand Kingdoms, Akama]
+    related: [Ogon, The Slab, Thousand Kingdoms, Akama, Som es-Vol, Tsoka Red Deer, Ataru Blackfish, Bal Tama, Iron-Rain, Imek Stone-Foot, Vey Nine Birds, Tama Family, Nine Birds Engineering Collective]
   # ─── end Junta of Ogon ───
+
+  # ═══ Tama Family ═══
+  Tama Family:
+    category: organization
+    short: "Four-hundred-year-old Ogon dynasty—shapes Junta politics through elimination rather than selection."
+    details: |
+      Imperial naming pattern (near-baseline genetics) with full Akama cultural
+      integration. Have held Junta tokens for ~35 of 70 years total, taking
+      them during stable periods, arranging to lose them during crises. Core
+      strategy: accommodate whoever rules by providing essential services,
+      maintain neutrality between factions, domesticate warrior violence through
+      liquor and weighted dice.
+
+      SINGLE RULE: Better the worst warlord than the best Highborn. During the
+      Five Highborn Crisis (25 years ago), spent most of their accumulated
+      reserves to hire multiple warbands for coordinated assassination of three
+      Highborn in a single night.
+
+      POWER BASES: Gambling halls (neutral ground, rigged dice redistributing
+      wealth to the poor), deaf warband (immunity to Compulsion), Quiet Day
+      feasts, public works. Current representative: Bal Tama.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Junta of Ogon, Ogon, Bal Tama, Highborn, Compulsion]
+  # ─── end Tama Family ───
+
+  # ═══ Nine Birds Engineering Collective ═══
+  Nine Birds Engineering Collective:
+    category: organization
+    short: "Dominant Kma-Dhol technical firm in Ogon—47 specialists controlling essential services."
+    details: |
+      Led by Vey Nine Birds. Provides structural assessment, factory-singing
+      coordination, archaeotech maintenance. Technical monopoly gives Kma-Dhol
+      population of 40,000 effective representation on the Junta.
+
+      PRIMARY CONCERN: Kma-Dhol fertility crisis—declining birth rates across
+      generations, 60% pregnancy failure rate, genetic drift from limited
+      population size. Research includes work with Imek Stone-Foot on her
+      fertility issues, hoping interventions for mixed genetics might apply
+      to Kma-Dhol reproductive challenges.
+
+      Astrological surname indicates Malpais cultural roots despite Technical
+      Caste heritage.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Kma-Dhol, Vey Nine Birds, Ogon, Imek Stone-Foot]
+  # ─── end Nine Birds Engineering Collective ───
+
+  # ═══ Torek Confederation ═══
+  Torek Confederation:
+    category: organization
+    short: "Major Akama warband claiming descent from the Sixth Oracle through bastard line."
+    details: |
+      One of the significant powers in the Thousand Kingdoms. Formerly held
+      Dharel's Span before losing it to another band. Their claim to the
+      Sixth Oracle's blood through a bastard line creates hierarchy of
+      legitimacy among warbands.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Thousand Kingdoms, Akama, Dharel's Span]
+  # ─── end Torek Confederation ───
+
+  # ═══ Cracked Shield Band ═══
+  Cracked Shield Band:
+    category: organization
+    short: "Akama warband—Orvak Three-Fingers' people."
+    details: |
+      One of the warbands operating in the Thousand Kingdoms. Known through
+      the strength-song of Orvak Three-Fingers, who killed Dhom Ironfoot in
+      single combat and held the canal-gate at Broken Glass for two days
+      against the Torek.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Thousand Kingdoms, Akama]
+  # ─── end Cracked Shield Band ───
+
+  # ═══ Khan Sevak's Band ═══
+  Khan Sevak's Band:
+    category: organization
+    short: "Frontier Akama band maintaining Imperial allegiance as core identity."
+    details: |
+      Genuine Imperial loyalists who preserve ceremonies, maintain archives,
+      and treat their relationship with the Empire as sacred obligation.
+      Claims direct descent from the Fourth Oracle through seventeen
+      documented mothers. One of the few bands that maintains genuine
+      rather than opportunistic Imperial vassalage.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Thousand Kingdoms, Akama, Northern Frontier]
+  # ─── end Khan Sevak's Band ───
 
   # ═══ Som es-Vol ═══
   Som es-Vol:
