@@ -53,7 +53,7 @@ entries:
     short: Highest tier of Technical Castes, bodies merged with architecture.
     details: ""
     rag_pointer: The Technical Castes and Far Ib
-    related: [Technical Castes, Far Ib, Arbitrary Truths]
+    related: [Technical Castes, Far Ib, Arbitrary Truths, The Seventh Remaining, Cloud Temple]
     caste_features:
       morphology: merged
       scale: variable
@@ -861,7 +861,7 @@ entries:
     short: Neurologically reduced Technical Caste descendants who compulsively optimize technology.
     details: ""
     rag_pointer: The Companions Guild, The Technical Castes and Far Ib
-    related: [Technical Castes, Companions Guild, Choir]
+    related: [Technical Castes, Companions Guild, Choir, Crooked-Ear, Three Cradles]
     caste_features:
       morphology: divergent
       scale: small
@@ -8439,7 +8439,7 @@ entries:
       Pilgrims report phenomena: balls falling upward in certain spots, absolute silence
       where there should be crowds, low subsonic vibration felt more than heard.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
-    related: [ya-Tsatsa, Oracles, Threefold Mirror Academy, Mutterer]
+    related: [ya-Tsatsa, Oracles, Threefold Mirror Academy, Mutterers]
     location_features:
       level: site
       location_type: religious
@@ -11840,7 +11840,7 @@ entries:
       they reveal running commentary on structural stress, thermal gradients, electromagnetic 
       interference. When choir synchronizes, they solve problems that would baffle baseline engineers.
     rag_pointer: "Caste Type Specimens Catalog"
-    related: [Mutterer, Technical Castes, Jargon]
+    related: [Mutterers, Technical Castes, Jargon]
   # ─── end Crooked-Ear ───
 
   # ═══ Korel Mazh ═══
@@ -11888,7 +11888,7 @@ entries:
       that clone servants faithfully record without understanding. Clone servants degrade generation 
       by generation; current generation barely speaks. When servants fail, the calculation will stop.
     rag_pointer: "Caste Type Specimens Catalog"
-    related: [Archon, Far Ib, Eighth Testament, Jargon]
+    related: [Archons, Far Ib, Eighth Testament, Jargon]
   # ─── end The Seventh Remaining ───
 
   # ═══ Korath Venn ═══
@@ -12551,7 +12551,7 @@ entries:
       generation—each iteration slightly less functional. When servants fail, 
       the Archons will have no one to maintain them.
     rag_pointer: "Technical Castes and Far Ib"
-    related: [Archon, Technical Castes, Eighth Testament, Jargon, Ib Mountains]
+    related: [Archons, Technical Castes, Eighth Testament, Jargon, Ib Mountains]
     location_features:
       level: city
       location_type: settlement
@@ -12650,7 +12650,7 @@ entries:
       mercenary company operates from here, receiving directives from the dying 
       gods of Far Ib.
     rag_pointer: "Cloud Temple Band"
-    related: [Cloud Temple Band, Far Ib, Kelso Senna, Ib Mountains, Archon]
+    related: [Cloud Temple Band, Far Ib, Kelso Senna, Ib Mountains, Archons]
     location_features:
       level: site
       location_type: infrastructure
