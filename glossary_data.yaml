@@ -1661,10 +1661,19 @@ entries:
   # ═══ Akama District ═══
   Akama District:
     category: location
-    short: "Northeastern section of ya-Tsatsa's Upper City."
-    details: Only part of Upper City with street names and lodging that accepts outsiders.
+    short: "Northeastern section of ya-Tsatsa's Upper City—where outsiders can find lodging."
+    details: |
+      The only part of Upper City with street names and lodging accepting outsiders.
+      Where Akama traders from the Thousand Kingdoms have established presence over
+      generations. White-gray quartz diorite construction like all ya-Tsatsa, but with
+      signs, posted prices, accommodation to outside expectations—the city's concession
+      to comprehensibility.
+
+      Gorat Windborne, legendary figure, maintains trading presence here for the Ezh Ot
+      family's Akama auxiliary bands. The climb from Lower City takes forty minutes;
+      visitors make it morning and evening to conduct business below and sleep above.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
-    related: [ya-Tsatsa, Akama]
+    related: [ya-Tsatsa, Akama, Upper City, Lower City]
     location_features:
       level: neighborhood
       location_type: commercial
@@ -1673,6 +1682,11 @@ entries:
       castes_present:
         - Akama
       real_world_anchor: "Point Reyes (ya-Tsatsa)"
+      visual:
+        - white-gray quartz diorite (monochrome like all ya-Tsatsa)
+        - street names and signs (unusual for Upper City)
+        - lodging houses, trading establishments
+        - accommodation to outsider expectations
   # ─── end Akama District ───
 
   # ═══ Amber Quarter ═══
@@ -2833,12 +2847,25 @@ entries:
   # ═══ Ember Row ═══
   Ember Row:
     category: location
-    short: "Family housing at higher elevation—adaptive vernacular."
+    short: "Family housing climbing toward Sierra foothills—marginally cooler, with sunset Furnace views."
     details: |
-      ~200,000 residents. Marginally cooler from elevation. Sunset views of Furnace glow. 
-      Parish of St. Calis.
+      ~200,000 residents east of Threshold, ~200 feet elevation gain providing cooler
+      temperatures families value. Higher proportions of near-baselines and Orevet
+      (whose bodies benefit from temperature differential). Individual dwellings more
+      common than Threshold—families can own rather than rent.
+
+      The name comes from the western view: at sunset, the Furnaces' industrial glow
+      resembles banked coals through silhouetted domes and towers. Residents gather
+      on terraces and rooftops for this daily display—shared viewing has become social
+      ritual defining neighborhood identity.
+
+      Architecture more varied than Threshold's, reflecting construction across longer
+      period. Gardens appear where water permits—small vegetable plots, the luxury of
+      growing things in a city dominated by industry. The Overlook terraced plaza offers
+      city-wide views; Parish Church of St. Calis has slightly-wrong spire proportions
+      that residents defend loyally.
     rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [ya-Don]
+    related: [ya-Don, Threshold, Orevet]
     location_features:
       level: district
       location_type: residential
@@ -2846,68 +2873,21 @@ entries:
       population: ~200,000
       primary_function: Family residence
       castes_present:
-        - Near-Baseline
-        - Orevet
-        - Ashrat
+        - Near-Baseline (25%)
+        - Orevet (25%)
+        - Ashrat (20%)
+        - Redback (15%)
       notable_features:
         - Sunset Furnace views
         - The Overlook
         - Parish of St. Calis
+      visual:
+        - varied architecture (constructed across longer period)
+        - individual dwellings and gardens where water permits
+        - terraces and rooftops for sunset viewing
+        - slightly earlier shadows from foothill elevation
+        - dimmer ambient light (attracts Orevet)
       real_world_anchor: "Central Valley (ya-Don)"
-    aesthetic_features:
-      intention: "We adapt, we repair, we continue. Every modification marks a generation."
-      environment: |
-        Higher elevation brings marginally cooler temperatures and commanding views. The 
-        Furnaces spread below, their glow painting walls orange at sunset. The foothills 
-        visible to the east—a reminder that the valley has edges.
-        
-        Furnace pipes extend here too, but sparser than the Threshold. Main trunks run 
-        along major streets; branch lines cross between buildings. More conventional 
-        bronze than thesad—this far from the Furnaces, the infrastructure was extended 
-        rather than original. Patched sections, jury-rigged connections, valve housings 
-        that residents have learned to maintain themselves. The pipes here are less 
-        mysterious, more familiar—infrastructure you live with rather than around.
-      construction: |
-        Adobe and composite panels rather than thick stone—buildings that work with 
-        cooling systems rather than against heat. Taller structures (three to six stories), 
-        larger windows, walls that breathe. External overhangs and awnings create shade; 
-        terraces step up hillsides.
-        
-        Original adobe supports later metal additions; wooden frames carry salvaged 
-        ceramic panels; each generation's repairs visible in the stratigraphy of walls. 
-        Residents read family history in their buildings. St. Calis parish has a spire 
-        whose proportions don't quite achieve elegance—aspiring toward the obelisk 
-        towers visible from every terrace.
-        
-        Pipes integrate into the patchwork. Some buildings were built to accommodate 
-        them; some had them added later, brackets bolted to walls, channels cut through 
-        roofs. Equipment housings converted to storage. Valve assemblies decorated with 
-        paint, saints' images, family markers—the infrastructure domesticated.
-      materials:
-        - "adobe: local clay, tan and ochre"
-        - "composite panels: salvaged, origin often unknown"
-        - "timber framing visible where additions meet originals"
-        - "metal cladding: salvaged, oxidized to various patinas"
-        - "Furnace pipes: mostly conventional bronze (patched, repaired, maintained)"
-        - "equipment housings: some converted to storage, some still functional"
-      colors:
-        - "adobe tan and ochre"
-        - "rust and verdigris from oxidized metals (pipes and cladding)"
-        - "stratified walls showing each era's materials"
-        - "sunset orange from Furnace glow"
-      sensory:
-        - "the view downward—Furnaces spread below, pipes threading toward them"
-        - "evening light catching the glow"
-        - "pipe sounds: creaking, vibration, occasional hissing from valves"
-        - "marginally cooler air at elevation"
-        - "family sounds—this is where workers raise children"
-        - "St. Calis bells marking observances"
-      key_elements:
-        - "accumulated modification as family history"
-        - "Furnace pipes integrated into patchwork (domesticated infrastructure)"
-        - "terraced construction stepping up slopes"
-        - "St. Calis parish (aspirational-vertical spire)"
-        - "the view: Furnaces below, foothills above"
   # ─── end Ember Row ───
 
   # ═══ Factor's Row ═══
@@ -4684,10 +4664,23 @@ entries:
   # ═══ Lower City ═══
   Lower City:
     category: location
-    short: Harbor trade district of ya-Tsatsa.
-    details: Where harbor trade concentrates. Market operates in the open. Stairs lead up to Upper City.
+    short: Harbor district where ya-Tsatsa conducts its commerce with the outside world.
+    details: |
+      Ships dock at cliff-base facilities, unloading goods from the Thousand Kingdoms
+      and coastal trade. White-gray quartz diorite construction, monochrome like all
+      ya-Tsatsa. Visitors climb through the Hollow Mouth—a kalbat tomb carved large
+      enough for passage—ascending forty minutes to the Upper City.
+
+      The market operates in the open; administrative buildings announce themselves.
+      An outsider can navigate here, can conduct business, can process Imperial paperwork.
+      But lodging is almost nonexistent—visitors must climb to the Akama District to
+      sleep. Lower City is for working; the Akama District is for living.
+
+      Key locations: the quays on massive stone pilings (oldest showing tool marks of
+      unknown technique), fish market, Travelers' Rest, Harbor Customs House, Salvage
+      Row Market, bonded warehouses.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
-    related: [ya-Tsatsa]
+    related: [ya-Tsatsa, Akama District, Upper City]
     location_features:
       level: district
       location_type: commercial
@@ -4697,6 +4690,12 @@ entries:
         north: [Upper City]
         west: [The Cliffs]
       real_world_anchor: "Point Reyes (ya-Tsatsa)"
+      visual:
+        - white-gray quartz diorite construction
+        - cliff-base docks on stone pilings
+        - Hollow Mouth passage through kalbat tomb
+        - open-air market, administrative buildings
+        - steep stairs climbing to Upper City
   # ─── end Lower City ───
 
   # ═══ Malpais ═══
@@ -7838,8 +7837,21 @@ entries:
   # ═══ The Slab ═══
   The Slab:
     category: location
-    short: Meeting place of the Junta of Ogon.
-    details: Where the seven token-holders gather monthly. Voting by raised or lowered hands. Disputes resolved by trial-by-combat.
+    short: Vast autofactory plaza where the Junta of Ogon meets monthly.
+    details: |
+      Perfectly flat concrete, two hundred meters square, extruded by the autofactory
+      centuries ago. Shows no weathering despite exposure—materials far more durable
+      than post-Interdict production. Located in Ogon's center, accessible from all
+      districts, clear sight lines making ambush difficult.
+
+      Monthly gatherings: each token-holder arrives with retinue (dozens to hundreds
+      of warriors). Seven members stand in rough circle, thirty feet apart, retinues
+      creating sectored wedges behind them. Public theater as much as governance—
+      hundreds of Ogon residents watch from plaza edges.
+
+      Voting is public: raised tokens for yes, lowered for no. Votes can be challenged
+      through combat (rare—perhaps once per decade). Last challenge: Khan-Ascendant
+      Kelom Ten Jade fighting three warbands for six hours. She lost.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Junta of Ogon, Ogon]
     location_features:
@@ -7849,6 +7861,12 @@ entries:
       controlling_entity: Junta of Ogon
       primary_function: Governance assembly
       real_world_anchor: "Columbia River mouth (within Ogon)"
+      visual:
+        - perfectly flat autofactory concrete (200m square)
+        - no weathering despite centuries
+        - central Ogon location, clear sight lines
+        - retinues in sectored wedges during meetings
+        - public gathering space with spectators at edges
   # ─── end The Slab ───
 
   # ═══ The Smelters ═══
@@ -7917,19 +7935,39 @@ entries:
   # ═══ Third Whorl ═══
   Third Whorl:
     category: location
-    short: Middle ring of the Inner City.
-    details: Transitional zone between outer workers and inner administration.
+    short: The industrial and utility core of the Inner City—the Engine Room.
+    details: |
+      Cavernous halls house colossal water recycling plants, geothermal heat exchangers,
+      and power distribution substations. The architecture is functional grandeur—bronze
+      walls with bas-reliefs that serve as integrated data conduits and diagnostic panels.
+
+      The air is clean but carries ozone and the scent of chilled metal from coolant pumps.
+      Sounds: deep machinery hum felt more than heard, rhythmic clang of presses, water
+      flowing through bronze pipes. Vast cloistered office complexes house thousands of
+      scribes, styluses scratching on tablets, quiet conversations replacing the Fourth
+      Whorl's market cacophony.
+
+      Key locations: Bureau of the Rod Central Control (tiered amphitheater of consoles),
+      the Lineal Vaults (cryogenic genetic archive), the Mint (fortress of deafening
+      archaeotech presses), Terminal Manifold (logistics operations), residential enclaves
+      for senior bureaucrats avoiding Whorl-Lag.
     rag_pointer: The Inner City
-    related: [Inner City]
+    related: [Inner City, Bureau of the Rod, Lineal Vaults, The Mint]
     location_features:
       level: neighborhood
-      location_type: administrative
+      location_type: industrial-administrative
       parent: Inner City
       temporal_effects: Mild distortion
       borders:
         outward: [Fourth Whorl]
         inward: [Second Whorl]
       real_world_anchor: "Inner City arcology"
+      visual:
+        - cavernous halls with massive machinery
+        - functional bronze architecture (bas-reliefs as data conduits)
+        - deep machinery hum, rhythmic clanging, water flowing
+        - ozone and chilled metal scent
+        - vast cloistered offices
   # ─── end Third Whorl ───
 
   # ═══ Thesad ═══
@@ -9128,10 +9166,16 @@ entries:
   # ═══ Virgin River Junction ═══
   Virgin River Junction:
     category: location
-    short: Southern settlement in the Republic.
-    details: 60,000 inhabitants. Trade junction.
+    short: Agricultural center and trade junction where the Virgin River meets the greater watershed.
+    details: |
+      60,000 inhabitants in the southern Republic. Where river routes converge, trade flows:
+      agricultural kilits coordinate irrigation and export; merchant kilits handle goods
+      transfer between routes. Predominantly Serrulata population (65%) with their scale
+      decorations catching desert light. Adobe construction, carved sandstone where cliffs
+      permit, river infrastructure of docks and warehouses. The revolutionary culture of
+      Dawn runs strong in agricultural communities.
     rag_pointer: The Republic of Ganat
-    related: [Ganat]
+    related: [Ganat, Serrulata]
     location_features:
       level: city
       location_type: settlement
