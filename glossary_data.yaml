@@ -11718,6 +11718,28 @@ entries:
     related: [Gezu Khotan, Near-Baseline, ya-Sattra, Ganat, Dawn Party, Ganati Factoria, Medina Quarter]
   # ─── end Rabi Eloum ───
 
+  # ═══ Yela Khen-Oris ═══
+  Yela Khen-Oris:
+    category: person
+    short: "Proprietor of Ganati Provisions—Khatam merchant maintaining supplier networks between ya-Sattra and the Republic."
+    person_location: ya-Sattra
+    details: |
+      Age 38. Female Khatam, running the Ganati Provisions import shop in the enclave.
+      Maintains supplier relationships in Taho and Ganat proper. Clientele includes
+      Serrulata residents seeking familiar goods and Imperial customers wanting
+      Republican products.
+
+      Her shop stocks maguey-silk fabric (3 obols), Ganati-style copper vessels (5+
+      obols), preserved desert foods, and Republican imports that would be difficult
+      to source elsewhere in the Empire. Prices exceed Ganati rates—transport costs
+      and cross-border complexity justify the markup.
+
+      Listed among Factoria staff though her role is commercial rather than
+      intelligence. The distinction may be less clear than it appears.
+    rag_pointer: "The Medina Quarter: A Comprehensive Guide"
+    related: [Khatam, Serrulata, ya-Sattra, Ganat, Ganati Enclave, Ganati Provisions, Ganati Factoria]
+  # ─── end Yela Khen-Oris ───
+
   # ═══ Grey-Patch ═══
   Grey-Patch:
     category: person
@@ -13439,12 +13461,13 @@ entries:
       trade mission everyone knows violates Imperial monopolies but which the Empire 
       cannot afford to shut down.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
-    related: [Rift, Great Bazaar, Ganat, Gridward-Approach, Ganati Provisions]
+    related: [Rift, Great Bazaar, Ganat, Ganati Factoria, Gridward-Approach, Ganati Provisions]
     location_features:
       level: neighborhood
       location_type: commercial
       parent: Rift
       children:
+        - Ganati Factoria
         - Gridward-Approach
         - Ganati Provisions
       population: ~5,000
@@ -13499,6 +13522,48 @@ entries:
         - "opens into Great Bazaar (commerce flows both ways)"
   # ─── end Ganati Enclave ───
 
+  # ═══ Ganati Factoria ═══
+  Ganati Factoria:
+    category: location
+    short: "Official Ganati trading mission on Factors' Row—Dawn Party intelligence post under Dusk Party commercial cover."
+    aliases: [Ganati Trading Mission]
+    details: |
+      Three blocks of distinctly non-Imperial architecture on the Rift's south shore,
+      opening directly into the Great Bazaar. Sand-colored composites, sharp angular
+      construction designed for desert climate control—incongruous against the harbor
+      backdrop. Heat-responsive pigments on exterior walls cycle through propaganda
+      slogans as temperature changes (orange at noon, purple at dusk). A granite
+      building flies the Republican standard.
+
+      OFFICIAL PURPOSE: Ganat is landlocked. All maritime commerce must flow through
+      Imperial ports, making ya-Sattra essential despite political tensions from the
+      Yarangar War. The mission officially handles desert goods imports (Serrulata
+      textiles, preserved foods, minerals), Imperial technology exports (within legal
+      limits), trade dispute mediation, and Ganati citizen affairs.
+
+      UNOFFICIAL PURPOSE: Dawn Party intelligence forward post, using Dusk Party
+      commercial cover. The compound is a microcosm of Ganat's internal dyarchy
+      tensions.
+
+      KNOWN STAFF:
+      - Factor Gezu Khotan: Chief of mission. Dawn Party intelligence officer.
+      - Velar Thevamar (Rabi Eloum): Primary deputy. Runs the actual network.
+      - Yela Khen-Oris: Runs Ganati Provisions shop in the enclave.
+    rag_pointer: "Imperial Media and Entertainment, Ganat"
+    related: [Ganati Enclave, Gezu Khotan, Rabi Eloum, Yela Khen-Oris, Ganat, Dawn Party, Dusk Party, Factors' Row]
+    location_features:
+      level: site
+      location_type: diplomatic
+      parent: Ganati Enclave
+      primary_function: Ganati trade mission and intelligence operations
+      notable_features:
+        - Granite building with Republican standard
+        - Heat-responsive propaganda pigments
+        - Dawn Party intelligence under Dusk Party cover
+        - Direct dock access
+      real_world_anchor: "Monterey Bay basin (Rift south shore, Factors' Row)"
+  # ─── end Ganati Factoria ───
+
   # ═══ Gridward-Approach ═══
   Gridward-Approach:
     category: location
@@ -13529,14 +13594,14 @@ entries:
     category: location
     short: "Import shop bringing Republican goods to ya-Sattra—maguey-silk, copper work, coca leaves."
     details: |
-      Proprietor Yela Khen-Oris (38, female, Serrulata) maintains supplier relationships 
-      in Taho and Ganat proper. Clientele includes Serrulata residents seeking familiar 
-      goods and Imperial customers wanting Republican products. Prices exceed what the 
-      same goods would cost in Ganat—transport costs and cross-border complexity justify 
-      the markup. A length of maguey-silk fabric costs three obols; Ganati-style copper 
+      Proprietor Yela Khen-Oris (38, female, Khatam) maintains supplier relationships
+      in Taho and Ganat proper. Clientele includes Serrulata residents seeking familiar
+      goods and Imperial customers wanting Republican products. Prices exceed what the
+      same goods would cost in Ganat—transport costs and cross-border complexity justify
+      the markup. A length of maguey-silk fabric costs three obols; Ganati-style copper
       vessels run five or more.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
-    related: [Ganati Enclave, Ganat, Serrulata]
+    related: [Ganati Enclave, Ganat, Khatam, Serrulata, Yela Khen-Oris]
     location_features:
       level: site
       location_type: commercial
