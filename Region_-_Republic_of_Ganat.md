@@ -641,6 +641,64 @@ Cleaning up the district offices means confronting veteran kilits that vote Dawn
 
 So the Ministry continues. The corruption continues. The successes continue. The failures continue. The statistics show expansion, and the newspapers celebrate settlement, and the inspectors file reports, and the kilits protect their members, and the speculators buy failed grants, and the program produces everything it was supposed to prevent alongside everything it was supposed to create, and nobody can fix it, and everybody knows.
 
+#### **The Ministry of Justice and Ganati Judiciary**
+
+##### **The Structural Lock**
+
+Dawn arrests. Dusk decides guilt.
+
+The Republican Guard, the militias, the investigative apparatus—these are Dawn institutions. When someone is detained for criminal activity, Dawn made the arrest. But the courts that determine whether that arrest was justified, whether the evidence is sufficient, whether the accused goes to prison or goes free—these are Dusk institutions. Neither faction can function without the other. Neither faction can dominate the other. The system produces gridlock by design, and the gridlock is the point.
+
+##### **Pre-Revolutionary Continuity**
+
+The courts never stopped operating.
+
+When the Revolution came, the monarchy fell, the aristocracy fled or accommodated, the Church transformed—but the courts continued hearing cases. Contracts still needed enforcement. Property disputes still needed resolution. Criminal matters still required adjudication. The judges who had served the Tyrant mostly kept their positions, swearing new oaths to the Republic while applying the same legal principles they always had.
+
+This continuity matters because it means the judiciary never underwent revolutionary transformation. Dawn rewrote the Church. Dawn built the Republican Guard from scratch. But Dawn inherited the courts largely intact, staffed by people trained in pre-revolutionary legal traditions, applying legal principles that predate the Republic by Records.
+
+##### **Imperial Language**
+
+Ganati courts operate in Imperial.
+
+Not Ganati dialect. Not the pidgin that evolved in the bazaars. Imperial—the formal written language of legal documents, judicial proceedings, and official records across the known world. Learning Imperial well enough to practice law requires education. Education requires money. Money flows to established families. Established families skew Dusk.
+
+This isn't conspiracy. It's structural. A pastoral family produces a clever child who wants to practice law. That child must spend years learning a language that isn't spoken in their community, mastering legal principles taught in institutions they can't afford, apprenticing to established practitioners who prefer candidates from their own networks. By the time they're ready to practice, they've been socialized into a profession that is culturally, economically, and politically aligned with merchant interests.
+
+The result: the legal profession is overwhelmingly tephri and near-baseline. Not because of explicit exclusion—the bar associations are formally open to all—but because the prerequisites for entry select for precisely the populations that concentrate in Dusk.
+
+##### **The Ministry of Justice**
+
+The Minister of Justice is a Dusk appointment.
+
+The Ministry handles judicial administration: court budgets, judicial assignments, procedural rules, legal reform proposals. The Minister doesn't decide cases—judges retain that independence—but the Minister shapes the environment in which cases are decided. Which courts get resources. Which judges get promoted. Which procedural reforms advance to the Senate.
+
+The current Minister, like most who've held the position, comes from a prominent legal family with generations of judicial service. He's professionally competent, politically sophisticated, and absolutely committed to preserving judicial independence—where "independence" means independence from Dawn intervention in Dusk-controlled institutions.
+
+##### **Commercial Law: Dusk's Lifeblood**
+
+Contract disputes. Property claims. Trade regulations. Commercial arbitration.
+
+This is where the courts matter most to Dusk. The Imperial Road carries goods worth enormous sums. Those goods move on contracts. Contracts create disputes. Disputes require resolution. Resolution requires courts that merchants trust to apply predictable principles fairly.
+
+Ganati commercial courts have a reputation for competence and honesty that extends beyond the Republic's borders. Imperial merchants prefer Ganati jurisdiction for disputes involving Ganati counterparties. This reputation is valuable—worth more than any individual case, worth more than any political advantage. The courts protect it jealously.
+
+When Dawn legislators propose reforms that might compromise commercial court integrity—mandatory Ganati-language proceedings, required military service for bar admission, kilit-based jury selection—the legal profession unites in opposition. These proposals die in committee. The commercial courts remain reliable. Trade continues.
+
+##### **Criminal Law: The Tension Point**
+
+Criminal law is where Dawn and Dusk clash directly.
+
+Dawn controls arrest. Dawn controls investigation. Dawn controls prosecution recommendations. But Dusk-aligned judges decide guilt, and Dusk-aligned attorneys provide defense. Every criminal case becomes a negotiation between factions that don't trust each other.
+
+The result is a system that's surprisingly protective of the accused—not from principled commitment to defendants' rights, but from structural antagonism between prosecutors and courts. Dawn brings aggressive charges; Dusk judges demand rigorous evidence. Dawn investigators cut corners; Dusk attorneys expose the shortcuts. Neither side is motivated by justice in the abstract. Both sides are motivated by institutional competition. The accused benefits from their conflict.
+
+This doesn't mean the system is fair. The same structural dynamics that protect defendants also mean that victims—especially victims from populations that don't align with either faction—find the courts indifferent to their injuries. A Dusk merchant robbed by a Dawn-aligned settler may find the investigation cursory and the prosecution unenthusiastic. A Dawn yeoman wronged by a Dusk trading house may find the courts inclined toward technicalities that favor the defendant. The system doesn't serve justice. It serves equilibrium.
+
+##### **The Balance**
+
+The judiciary is Dusk's fortress—but a fortress that depends on Dawn for the constabulary that makes its writs enforceable. Dawn controls the guns. Dusk controls the legitimacy that tells people to obey the courts without requiring guns. Neither can function without the other. The system works because neither faction can afford to break it, and breaking it would require resources neither faction can spare from their competition with each other.
+
 ### **Current Tensions**
 
 The Republic is eighteen years old. The revolutionary generation still holds powerâ€”Rasma financed the uprising, military leadership emerged from the Cloud Temple Band, the Patriarch transformed Church theology in living memory. This creates questions about succession without answers. Who leads when revolutionaries age out? Will moderate consuls selected by opposition remain moderate when selected by a generation that never experienced monarchy?
