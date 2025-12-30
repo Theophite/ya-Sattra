@@ -22,7 +22,7 @@ entries:
     short: Unclassified caste with scrambled heritage from multiple engineered lineages.
     details: ""
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Thousand Kingdoms, Junta of Ogon]
+    related: [Thousand Kingdoms, Junta of Ogon, Gorin Eight-Elk]
     caste_features:
       morphology: variable
       scale: variable
@@ -523,7 +523,7 @@ entries:
       pheromones inducing suggestibility and mild euphoria through skin contact. 
       Officially outlawed and sterilized, but ~12% of 'sterilized' are fertile.
     rag_pointer: "Castes of Mankind"
-    related: [Bureau of the Creche]
+    related: [Bureau of the Creche, Reverie]
     caste_features:
       morphology: modified
       scale: baseline
@@ -566,7 +566,7 @@ entries:
     short: Ruling castes whose polyphonic voices trigger Compulsion in other castes.
     details: ""
     rag_pointer: Castes of Mankind, The Aureate System
-    related: [Compulsion, Aureate, Near-Baseline]
+    related: [Compulsion, Aureate, Near-Baseline, Caenis es-Mahoun, Mira es-Thalen]
     caste_features:
       morphology: variable
       scale: variable
@@ -1016,7 +1016,7 @@ entries:
     short: Forest-adapted colonist caste with chameleonic skin.
     details: ""
     rag_pointer: Castes of Mankind, Ganat and the Yarangar War
-    related: [Colonist Castes, Yarangar]
+    related: [Colonist Castes, Yarangar, Teval Okhem]
     caste_features:
       morphology: modified
       scale: baseline
@@ -1053,7 +1053,7 @@ entries:
     short: Labor caste with enhanced spinal articulation for bearing tremendous loads.
     details: ""
     rag_pointer: Castes of Mankind
-    related: [Labor Castes]
+    related: [Labor Castes, Kora Brennam]
     caste_features:
       morphology: modified
       scale: tall
@@ -1290,7 +1290,7 @@ entries:
       mathematical intuitions about systems no one officially understands. Must 
       perform confusion around simple machinery to avoid detection.
     rag_pointer: "The Sewer-Fishers of the Middens, Castes of Mankind"
-    related: [Technical Castes, Kma-Dhol, Middens, Jargon]
+    related: [Technical Castes, Kma-Dhol, Middens, Jargon, Korel Mazh]
     caste_features:
       morphology: modified
       scale: baseline
@@ -1329,7 +1329,7 @@ entries:
     short: Biological factories producing antibody-rich serums through rose-gold lattices.
     details: ""
     rag_pointer: Sickly Caste Overview (PDF), The Companions Guild
-    related: [Companions Guild, Semi-Sentient]
+    related: [Companions Guild, Semi-Sentient, Morvain-3]
     caste_features:
       morphology: modified
       scale: baseline
@@ -1369,7 +1369,7 @@ entries:
     short: Labor caste with modified tendons enabling explosive vertical movement.
     details: ""
     rag_pointer: Castes of Mankind
-    related: [Labor Castes]
+    related: [Labor Castes, Venn Torith, Springheel Acrobatics]
     caste_features:
       morphology: modified
       scale: baseline
@@ -1760,7 +1760,7 @@ entries:
       clean themselves, bioluminescent lamp posts fed by hereditary lamp-lighters. Buildings 
       may be the actual patent holders, with families merely their interface.
     rag_pointer: The Antediluvian Quarter
-    related: [ya-Sattra, Aureate, Medina Quarter, Rift]
+    related: [ya-Sattra, Aureate, Medina Quarter, Rift, Authentication House]
     location_features:
       level: district
       location_type: residential
@@ -3374,7 +3374,7 @@ entries:
     short: Revolutionary republic that rejected caste hierarchy.
     details: Six million inhabitants. Nominally republican but Serrulata caste advantages undermine egalitarian ideology. Dawn and Dusk political factions. Fought the Empire over Yarangar eighteen years ago.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
-    related: [Serrulata, Yarangar, Taho, Kilit]
+    related: [Serrulata, Yarangar, Taho, Kilit, pisco, chilmole, coca, maté, raspa, Maguey-silk, Dinar, Kilit-zem-kilitam, Ghesam Optical]
     location_features:
       level: territory
       location_type: polity
@@ -8361,7 +8361,7 @@ entries:
       redistribution. Warbands control territory through mounted combat; Kma-Dhol (40,000 
       in Ogon) operate autofactories openly.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Akama, Junta of Ogon, Ogon, Kma-Dhol, Malpais]
+    related: [Akama, Junta of Ogon, Ogon, Kma-Dhol, Malpais, tabanak]
     location_features:
       level: territory
       location_type: polity
@@ -8531,6 +8531,7 @@ entries:
       parent: ya-Don
       children:
         - Cathedral of St. Akhmet
+        - The Burning Rest
       population: ~280,000
       primary_function: Worker housing
       castes_present:
@@ -9772,7 +9773,7 @@ entries:
     short: "Empire's second-largest city and industrial heart."
     details: 1.2 million people. The Furnaces produce technologies Imperial civilization cannot survive without. Church-Guild complex controls production. Bureau of the Rod negotiates with institutions it cannot compel.
     rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [Furnaces, Bureau of the Rod, Order of St. Akhmet]
+    related: [Furnaces, Bureau of the Rod, Order of St. Akhmet, Blood-Tree]
     location_features:
       level: city
       location_type: settlement
@@ -9794,6 +9795,7 @@ entries:
         - Quick Lanes
         - "Pilgrim's Rest"
         - Verethani Compound
+        - Hermitage of St. Caris the Still
       controlling_entity: Furnace Board / Church-Guild coalition
       population: ~1.2 million
       primary_function: Industrial production
@@ -9844,7 +9846,7 @@ entries:
       Antediluvian Quarter, Medina Quarter, and Rotten Quarter in the basin, 
       plus numerous rim cities along the former coastline (collectively "The Rim").
     rag_pointer: The Inner City, The Medina Quarter
-    related: [Inner City, Medina Quarter, Middens, Rift, The Rim]
+    related: [Inner City, Medina Quarter, Middens, Rift, The Rim, doogh, marru]
     location_features:
       level: city
       location_type: settlement
@@ -10797,7 +10799,7 @@ entries:
       can mobilize perhaps 40,000 fighters. More important: they control salmon allocation 
       from the Grand Canal.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Ogon, The Slab, Thousand Kingdoms, Akama]
+    related: [Ogon, The Slab, Thousand Kingdoms, Akama, Bal Tama]
   # ─── end Junta of Ogon ───
 
   # ═══ Som es-Vol ═══
@@ -10968,7 +10970,7 @@ entries:
       The Empire admits these are superstitions that "cultivate the correct attitude toward 
       archival," yet everyone participates.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
-    related: [Oracles, Testaments, Quiet Days, Seven Virtues, Auditors, Penitent Church]
+    related: [Oracles, Testaments, Quiet Days, Seven Virtues, Auditors, Penitent Church, manna]
   # ─── end Oracle Cult ───
 
   # ═══ Testaments ═══
@@ -12246,7 +12248,7 @@ entries:
       to exist—mother was officially sterilized (the approximately 12% whose sterility is 
       comforting lie). Cannot resent situation; approval-seeking engineered in.
     rag_pointer: "Caste Type Specimens Catalog"
-    related: [Gilded Petal, Khatvasi, Aureate Patents]
+    related: [Gilded Petals, Khatvasi, Aureate Patents]
   # ─── end Reverie ───
 
   # ═══ Gorin Eight-Elk ═══
@@ -13158,7 +13160,7 @@ entries:
       Warborn variant: skeleton absorbs electromagnetic backwash from heavy railguns, 
       even more demanding metabolism than standard Warborn.
     rag_pointer: "Castes of Mankind"
-    related: [Labor Castes, Warborn, Ironbone Feats]
+    related: [Labor Castes, Warborn, Ironbone Feats, Deval Sammat]
   # ─── end Ironbone ───
 
   # ═══ Cloneline ═══
