@@ -11631,6 +11631,55 @@ entries:
     related: [Szkovërin, Brennholm, Puget Sound]
   # ─── end Drem Voravel ───
 
+  # ═══ Gezu Khotan ═══
+  Gezu Khotan:
+    category: person
+    short: "Dawn Party intelligence factor at ya-Sattra's Ganati Factoria—Serrulata veteran, ideological venture capitalist."
+    person_location: ya-Sattra
+    details: |
+      Age early 60s. Factor (intelligence officer under commercial cover) for the Dawn Party,
+      operating from the Ganati Factoria in ya-Sattra's docks. Serrulata with eastern desert
+      bloodlines—tall and upright, long neck beyond human proportion, wide golden eyes.
+      Elaborate copper inlay under his eyes forming old regimental insignia of the Third
+      Desert Rifles, a unit that officially ceased to exist when half joined Kelso Senna's
+      desertion. A terrible phosphor-burn scar slashes across his left cheek, the melted
+      scales never properly regrown. Wears loose Ganati-cut robes in burnt orange (Dawn
+      Party veteran colors). Moves like the soldier he was—wasted motion costs lives.
+
+      BACKGROUND: Member of the wealthy Khotan family with substantial land holdings in
+      eastern Empire and caravan revenues in dye trade. In youth, served as officer for
+      the Sultana as liaison to Yarangar rebels. Radicalized by his service into supporting
+      Kelso Senna's revolt. Physical strength flagging now, but still a canny and dangerous
+      combatant.
+
+      CURRENT ROLE: Operating within the Congregation of the Drowned Star, a Penitent
+      parish targeting Curate Ibrim Melach's intellectual faction. Essentially an
+      "ideological venture capitalist"—investing Dawn Party resources in Imperial
+      dissidents who might provide revolutionary returns.
+
+      PSYCHOLOGY: A cynic and a patriot. Believes the Republic is a profound moral good,
+      but that evil things must sometimes be done in its name. Feigns Penitent devotion
+      but privately doubts any supernatural sanction for its good works. His visibility
+      is his protection—the Empire can't quietly remove such an obvious presence without
+      escalating tensions with Ganat.
+
+      NETWORK: Primary deputy is a near-baseline Ganati with talent for disguises and
+      accents, carrying cryptographically verifiable fake Imperial IDs. Deputy's cover:
+      buyer for consortium of Medina Quarter tailors (giving reason to regularly visit
+      the factoria). Deputy is technically an Imperial citizen, though raised in Ganat
+      after his father fought for the republicans in the Ganati civil war. Most actual
+      network run by deputy, communication almost entirely by dead drop. This is a
+      multi-generational deep-cover network with extraordinary operational security.
+
+      WHY HE'S DANGEROUS: State backing from Ganat's intelligence services. Military
+      connections through Dawn Party control of the army. Commercial resources from
+      family wealth and Factoria operations. Diplomatic immunity as foreign trade
+      representative. The Bureau of the Lens knows he's intelligence but can't move
+      without causing diplomatic incident.
+    rag_pointer: "Imperial Media and Entertainment, Ganat"
+    related: [Serrulata, ya-Sattra, Ganat, Dawn Party, Ganati Factoria, Bureau of the Lens, Penitent Church]
+  # ─── end Gezu Khotan ───
+
   # ═══ Grey-Patch ═══
   Grey-Patch:
     category: person
