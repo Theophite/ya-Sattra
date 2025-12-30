@@ -3,7 +3,7 @@ title: Republic of Ganat
 type: reference
 parent: null
 glossary_terms:
-  - Republic of Ganat
+  - Ganat
   - Serrulata
   - Kilit
   - Penitent Church

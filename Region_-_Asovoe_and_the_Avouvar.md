@@ -4,10 +4,10 @@ type: reference
 parent: null
 glossary_terms:
   - Avouvar
-  - Medials
+  - Medial Castes
   - Technical Castes
   - Jargon
-  - Eighth Oracle
+  - Eighth Testament
   - Westerners
   - Autofactory
 
