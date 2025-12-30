@@ -2090,7 +2090,7 @@ def format_entry(entry: GlossaryEntry, verbose: bool = False) -> str:
         lines.append(f"\n  RAG: {entry.rag_pointer}")
     
     if entry.related:
-        lines.append(f"\nðÃ…¸"— Related: {', '.join(entry.related)}")
+        lines.append(f"\n🔗 Related: {', '.join(entry.related)}")
     
     if entry.caste_features:
         cf = entry.caste_features
@@ -2385,7 +2385,7 @@ def main():
         
         # Show real world anchor prominently
         if lf and lf.real_world_anchor:
-            print(f"\n  ðÃ…¸Ã…' REAL WORLD: {lf.real_world_anchor}")
+            print(f"\n  📍 REAL WORLD: {lf.real_world_anchor}")
         
         rag_docs = []
         if entry.rag_pointer:
@@ -2444,13 +2444,13 @@ def main():
         
         # Show local aesthetic if present
         if entry.local_aesthetic:
-            print(f"\n  ðÃ…¸Ã…½Â¨ LOCAL AESTHETIC:")
+            print(f"\n  🎨 LOCAL AESTHETIC:")
             print(f"     {entry.local_aesthetic}")
         
         # Show this entry's own aesthetic_features if present
         if entry.aesthetic_features:
             af = entry.aesthetic_features
-            print(f"\n  ðÃ…¸Ã…½Â¨ AESTHETIC VOCABULARY:")
+            print(f"\n  🎨 AESTHETIC VOCABULARY:")
             print(f"     Intention: \"{af.intention}\"")
             if af.visual_vocabulary:
                 print(f"     Visual references: {', '.join([v.split(':')[0] for v in af.visual_vocabulary[:4]])}")
@@ -2464,7 +2464,7 @@ def main():
             while parent_entry:
                 if parent_entry.aesthetic_features:
                     af = parent_entry.aesthetic_features
-                    print(f"\n  ðÃ…¸Ã…½Â¨ PARENT AESTHETIC ({parent_entry.term}):")
+                    print(f"\n  🎨 PARENT AESTHETIC ({parent_entry.term}):")
                     print(f"     Intention: \"{af.intention}\"")
                     if af.visual_vocabulary:
                         print(f"     Visual vocabulary: {', '.join([v.split(':')[0] for v in af.visual_vocabulary[:3]])}")
@@ -2512,7 +2512,7 @@ def main():
             print(f"  COMPARING: {result['caste1']} vs {result['caste2']}")
             print(f"{'=' * 60}\n")
             for feat, (v1, v2) in result['comparison'].items():
-                match = "âÃÆ'Æ'…""" if v1 == v2 else "≠"
+                match = "✓" if v1 == v2 else "≠"
                 print(f"  {feat:15} {v1:15} {match} {v2}")
             print(f"\n  Original function:")
             print(f"    {result['caste1']}: {result['original_function'][0]}")
@@ -2729,7 +2729,7 @@ def main():
     elif cmd == "check":
         result = check(arg)
         if result["exists"]:
-            print(f"âÃÆ'Æ'…"" '{arg}' exists")
+            print(f"✓ '{arg}' exists")
             print(format_entry(result["entry"]))
         else:
             print(f"✗ '{arg}' not found")
