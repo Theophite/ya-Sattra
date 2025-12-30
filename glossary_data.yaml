@@ -14230,18 +14230,6 @@ entries:
     related: [ya-Don, Furnaces, es-Kiral, es-Etaie, es-Vorath, Order of St. Akhmet]
   # ─── end Furnace Board ───
 
-  # ═══ Institute of Flow ═══
-  Institute of Flow:
-    category: organization
-    short: "Bureau of the Rod technical arm in ya-Don, controlled by es-Vorath family."
-    details: |
-      Manages cooling system patents essential for Furnace operation. The recursive 
-      relationship—cooling systems producing cooling systems—makes this facility both 
-      essential and vulnerable. Located in the Coolant District.
-    rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [ya-Don, Coolant District, es-Vorath, Bureau of the Rod]
-  # ─── end Institute of Flow ───
-
   # ═══ es-Kiral ═══
   es-Kiral:
     category: organization
