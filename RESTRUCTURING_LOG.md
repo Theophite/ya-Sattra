@@ -307,3 +307,47 @@ These documents were already well-structured with internal navigation. Added YAM
 ### Language_-_Imperial_Grammar_and_Registers.md ✓
 - Key concepts: unformability not prohibition, authentication checks form not truth
 - Social position is audible
+
+### Species_-_Ta-Kefyeh__Parasitic_Riders_.md ✓
+- Key concepts: spinal insertion, symbol-name convention, queue enforcement for Many
+- Riders receive direct feedback from host (including terror)
+
+### Species_-_Many__Colonial_Polychaete_Banker_.md ✓
+- Key concepts: distributed consciousness, contracts as neural tissue, pruning events
+- Cannot lie (deception impossible with brain-sharing communication)
+
+### Guide_-_Writing_Stories.md ✓
+- Key concepts: material circumstances first, documentary fragments, moral complexity without melodrama
+- The gap between what systems claim and what they actually do
+
+### Guide_-_Visual_Design_and_Architecture.md ✓
+- Key concepts: six axes (Time Horizon, Energy Economy, Competition, Inheritance, Constraint, Activity)
+- Architecture is residue of repeated action
+
+### Organization_-_Cloud_Temple_Band.md ✓
+- Key concepts: Far Ib connection, quantum communication, Kelso Senna's trajectory
+- Function ambiguous: mercenary company OR human-Technical Caste interface
+
+### Ya-Sattra_-_Inner_City_Arcology.md ✓
+- Key concepts: four interlocking helices, temporal compression, Black Door
+- Each Whorl is deeper power, more extreme distortion, more complete separation
+
+### Region_-_Asovoe_and_the_Avouvar.md ✓
+- Key concepts: 900-year lifespans, Medials, the Anointing, Second Anointing
+- Theology INVERTS Imperial position (all eight Oracles legitimate)
+
+### Guide_-_Militaries_and_Warfare.md ✓
+- Key concepts: Contest vs War vs Great Disagreement, three Bureau cultures
+- Compulsion carries bilateral obligation
+
+### System_-_Education_and_Examinations.md ✓
+- Key concepts: Seven Corners, tutor-clerk tradition, geographic clustering
+- Provincial candidates learn "approximately correct but precisely wrong"
+
+### Culture_-_Food_by_Polity.md ✓
+- Key concepts: Imperial triad (marru, fermented greens, herbs), caloric ordering
+- Labor castes need 4x calories, industrial vendors serve by caloric value
+
+### Culture_-_Imperial_Media_and_Entertainment.md ✓
+- Key concepts: exhaustion as policy, condemnations as endorsements, White/Grey Sheets
+- Real limits: no mocking Emperor, no questioning Interdict's justice
