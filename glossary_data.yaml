@@ -1482,6 +1482,23 @@ entries:
         - "SEWER-FISHERS: hidden descendants in ya-Sattra Middens, six clans maintain secret ancestry"
   # ─── end Technical Castes ───
 
+  # ═══ Medials ═══
+  Medials:
+    category: caste
+    short: "~75 Technical Caste beings preserved and cloned in Asovoë—run the autofactory, communicate only in Jargon."
+    details: |
+      The middle tier between the godlike Archons and the merely skilled lower castes.
+      Modified for technological transcendence in ways that moved them away from baseline
+      cognition. They direct the autofactory's outputs, prioritize maintenance, interface
+      with systems no one else can access—without explaining themselves. Extensively
+      modified: exposed neural tissue, additional limbs, enlarged crania, bodies requiring
+      mechanical support. The Avouvar care for them and give them names based on observed
+      behavior (Ževa-Ascending-Third, Koratsch-Who-Waits). Whether the Medials notice
+      is unclear. When one dies, they are replaced through cloning.
+    rag_pointer: "Region: Asovoë and the Avouvar"
+    related: [Technical Castes, Avouvar, Asovoë, Autofactory, Jargon, Archons]
+  # ─── end Medials ───
+
   # ═══ Verethani ═══
   Verethani:
     category: caste
@@ -10482,14 +10499,17 @@ entries:
     category: concept
     aliases: [Judge-Executioners]
     parent: Bureau of the Scale
-    short: "Scale officials who both render verdicts and carry out sentences—combining judicial and punitive authority."
+    short: "Scale's paramilitary arm—assassination teams with legal cover, executing death warrants in hostile territory."
     details: |
-      The Scale's most visible officials. Unlike other Imperial courts that separate judgment
-      from punishment, Judge-Executioners embody both functions. This reflects Third Testament
-      doctrine: the one who determines guilt must bear responsibility for consequences.
-      Selection requires the Rite of the Perfect Ledger and at least twenty years of court service.
+      When the Scale issues a death warrant in territory the Empire claims but doesn't control,
+      the court comes to the condemned. Judge-Executioners are the logical conclusion: someone
+      with legal authority to pronounce death AND tactical capacity to deliver it. Career path
+      requires training with Scale, Sword, AND Lens. The retinue is the kill team; the Judge
+      is the legal authority that makes their work judicial rather than military. Operate
+      primarily in Yarangar and the Thousand Kingdoms. Not assassination—a judicial proceeding
+      that happens to occur against armed resistance.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
-    related: [Bureau of the Scale, Adjudication, Third Testament]
+    related: [Bureau of the Scale, Bureau of the Sword, Bureau of the Lens, Yarangar, Thousand Kingdoms]
   # ─── end Judge-Executioner ───
 
   # ═══ Bureau of the Rod ═══
@@ -14516,16 +14536,18 @@ entries:
   Autofactory:
     category: concept
     aliases: [Autofactories]
-    short: "Pre-Interdict autonomous manufacturing systems—still operating in Avouvar territory, producing goods no one fully understands."
+    short: "Pre-Interdict autonomous manufacturing systems—still operating in some regions, producing goods no one fully understands."
     details: |
       Self-maintaining factories constructed before the Interdict by the Technical Castes
-      or their precursors. The Avouvar cities—Ogon, Asovoë, and surrounding settlements—
-      are built around functioning autofactory terminals. These facilities produce armor alloys,
-      electromagnetic components, and other goods that cannot be manufactured elsewhere.
-      No one living understands their full capabilities or limitations. The Avouvar trade
-      through interface houses like Czernaël Factor-House.
-    rag_pointer: "Region: Asovoë and the Avouvar"
-    related: [Avouvar, Ogon, Asovoë, Technical Castes]
+      or their precursors. The primary functioning autofactory is in Asovoë (ya-Tsovez),
+      controlled by the Medials and benefiting the Avouvar. A SEPARATE malfunctioning
+      autofactory built Ogon's eighty miles of brutalist sprawl—but Ogon is an Akama city
+      controlled by the Junta, NOT an Avouvar settlement. The Asovoë autofactory produces
+      metals, alloys, and components that cannot be manufactured elsewhere. No one living
+      understands its full capabilities. The Avouvar trade its outputs through interface
+      houses like Czernaël Factor-House.
+    rag_pointer: "Region: Asovoë and the Avouvar, The Thousand Kingdoms: Overview"
+    related: [Asovoë, Medials, Avouvar, Ogon, Technical Castes]
   # ─── end Autofactory ───
 
   # ═══ Plasma Lance ═══

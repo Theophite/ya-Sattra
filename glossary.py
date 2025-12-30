@@ -1668,6 +1668,132 @@ def format_validate_refs(result: Dict[str, Any]) -> str:
 
 
 # =============================================================================
+# VALIDATE ENTRY AGAINST SOURCE
+# =============================================================================
+
+def validate_entry(term: str) -> Dict[str, Any]:
+    """Validate a glossary entry against its rag_pointer source documents.
+
+    Searches the source document(s) for the term and related information,
+    returning context to help verify accuracy.
+
+    Returns:
+        {
+            "term": str,
+            "entry": GlossaryEntry or None,
+            "rag_pointer": str,
+            "source_files": [paths found],
+            "mentions": [{"file": str, "context": str}],
+            "warnings": [str]
+        }
+    """
+    import glob
+    import re
+
+    entry = lookup(term)
+    if not entry:
+        return {"term": term, "error": f"Entry '{term}' not found in glossary"}
+
+    result = {
+        "term": entry.term,
+        "category": entry.category,
+        "short": entry.short,
+        "rag_pointer": entry.rag_pointer or "(none)",
+        "source_files": [],
+        "mentions": [],
+        "warnings": []
+    }
+
+    # Find source files based on rag_pointer
+    if entry.rag_pointer:
+        pointers = [p.strip() for p in entry.rag_pointer.split(',')]
+        for pointer in pointers:
+            # Try to find matching files
+            search_terms = pointer.replace(':', ' ').replace('-', ' ').split()
+            # Look for .md files containing these terms
+            for md_file in glob.glob("*.md"):
+                file_lower = md_file.lower()
+                matches = sum(1 for t in search_terms if t.lower() in file_lower)
+                if matches >= len(search_terms) // 2:
+                    result["source_files"].append(md_file)
+
+    # Search for term mentions in source files
+    if result["source_files"]:
+        for source_file in result["source_files"]:
+            try:
+                with open(source_file, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    lines = content.split('\n')
+                    for i, line in enumerate(lines):
+                        if entry.term.lower() in line.lower():
+                            # Get context (2 lines before and after)
+                            start = max(0, i - 2)
+                            end = min(len(lines), i + 3)
+                            context = '\n'.join(lines[start:end])
+                            result["mentions"].append({
+                                "file": source_file,
+                                "line": i + 1,
+                                "context": context[:500]  # Truncate long contexts
+                            })
+                            if len(result["mentions"]) >= 5:
+                                break
+            except Exception as e:
+                result["warnings"].append(f"Could not read {source_file}: {e}")
+
+    # Check for potential issues
+    if not result["source_files"]:
+        result["warnings"].append(f"No source files found matching rag_pointer: {entry.rag_pointer}")
+
+    if not result["mentions"] and result["source_files"]:
+        result["warnings"].append(f"Term '{entry.term}' not found in source files")
+
+    # Check related terms exist
+    for rel in entry.related:
+        if not lookup(rel):
+            result["warnings"].append(f"Related term '{rel}' not found in glossary")
+
+    return result
+
+
+def format_validate_entry(result: Dict[str, Any]) -> str:
+    """Format entry validation results."""
+    lines = []
+    lines.append(f"\n{'=' * 60}")
+    lines.append(f"  VALIDATING ENTRY: {result.get('term', 'unknown')}")
+    lines.append(f"{'=' * 60}")
+
+    if "error" in result:
+        lines.append(f"\n  ERROR: {result['error']}")
+        return "\n".join(lines)
+
+    lines.append(f"\n  Category: {result['category']}")
+    lines.append(f"  Short: {result['short'][:60]}...")
+    lines.append(f"  RAG Pointer: {result['rag_pointer']}")
+
+    if result["source_files"]:
+        lines.append(f"\n  SOURCE FILES FOUND ({len(result['source_files'])}):")
+        for sf in result["source_files"]:
+            lines.append(f"    • {sf}")
+
+    if result["mentions"]:
+        lines.append(f"\n  MENTIONS IN SOURCES ({len(result['mentions'])}):")
+        for mention in result["mentions"][:3]:
+            lines.append(f"\n    📄 {mention['file']}:{mention['line']}")
+            for ctx_line in mention["context"].split('\n')[:3]:
+                lines.append(f"       {ctx_line[:70]}")
+
+    if result["warnings"]:
+        lines.append(f"\n  ⚠️  WARNINGS ({len(result['warnings'])}):")
+        for warn in result["warnings"]:
+            lines.append(f"    • {warn}")
+    else:
+        lines.append(f"\n  ✓ No warnings")
+
+    lines.append(f"\n{'=' * 60}")
+    return "\n".join(lines)
+
+
+# =============================================================================
 # ENTRY INSERTION
 # =============================================================================
 
@@ -2128,6 +2254,7 @@ Commands:
     context-bundle <t1,t2,...> - Get definitions for multiple terms
     expand <term> [depth]      - Recursively expand related terms
     validate-refs <filepath>   - Check glossary_terms in front matter
+    validate-entry <term>      - Check entry against its rag_pointer sources
 
     insert <n> [--after <e>]   - Insert new entry (reads YAML from stdin)
     update <n> --set k=v       - Update entry field (or pipe YAML)
@@ -2138,9 +2265,9 @@ Examples:
     python glossary.py lookup Highborn
     python glossary.py tree "Bureau of the Lens"
     python glossary.py who-references "Highborn"
-    python glossary.py context-bundle "Highborn,ya-Sattra,Oracle Cult"
+    python glossary.py validate-entry "Autofactory"
     python glossary.py expand "Lampblack Yards" 2
-    python glossary.py validate-refs docs/Religion_-_Oracle_Cult.md
+    python glossary.py validate-refs Religion_-_Oracle_Cult.md
 """)
 
 
@@ -2551,6 +2678,13 @@ def main():
             print(f"Error: File not found: {filepath}")
         except Exception as e:
             print(f"Error validating file: {e}")
+        return
+
+    # Validate-entry command - check entry against source documents
+    if cmd == "validate-entry" and len(sys.argv) >= 3:
+        term = " ".join(sys.argv[2:])
+        result = validate_entry(term)
+        print(format_validate_entry(result))
         return
 
     if len(sys.argv) < 3:
