@@ -144,6 +144,7 @@ The glossary supports aliases for common variations:
 - `Colonel-Hereditary` → `Colonels-Hereditary`
 - `Autofactories` → `Autofactory`
 - `Plasma Lances` → `Plasma Lance`
+- `Medials` → `Medial Castes`
 - Individual Virtues have Testament aliases: `First Virtue` → `Initiation`, etc.
 
 **Note**: Use `search` to find entries by alias since `lookup` requires exact names.

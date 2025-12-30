@@ -409,7 +409,7 @@ entries:
       declare mediator calling—a practice that keeps the precinct viable despite its 
       small population.
     rag_pointer: Asovoë and the Avouvar
-    related: [Asovoë, Żelovin, Medials]
+    related: [Asovoë, Żelovin, Medial Castes]
     location_features:
       level: district
       location_type: administrative
@@ -825,10 +825,19 @@ entries:
   # ═══ Medial Castes ═══
   Medial Castes:
     category: caste
-    short: Middle tier of Technical Castes serving as translation interface.
-    details: ""
+    aliases: [Medials]
+    short: "~75 Technical Caste beings preserved and cloned in Asovoë—run the autofactory, communicate only in Jargon."
+    details: |
+      The middle tier between the godlike Archons and the merely skilled lower castes.
+      Modified for technological transcendence in ways that moved them away from baseline
+      cognition. They direct the autofactory's outputs, prioritize maintenance, interface
+      with systems no one else can access—without explaining themselves. Extensively
+      modified: exposed neural tissue, additional limbs, enlarged crania, bodies requiring
+      mechanical support. The Avouvar care for them and give them names based on observed
+      behavior (Ževa-Ascending-Third, Koratsch-Who-Waits). Whether the Medials notice
+      is unclear. When one dies, they are replaced through cloning.
     rag_pointer: The Technical Castes and Far Ib, Asovoë and the Avouvar
-    related: [Technical Castes, Archons]
+    related: [Technical Castes, Archons, Avouvar, Asovoë, Autofactory, Jargon]
     caste_features:
       morphology: modified
       scale: baseline
@@ -1482,22 +1491,6 @@ entries:
         - "SEWER-FISHERS: hidden descendants in ya-Sattra Middens, six clans maintain secret ancestry"
   # ─── end Technical Castes ───
 
-  # ═══ Medials ═══
-  Medials:
-    category: caste
-    short: "~75 Technical Caste beings preserved and cloned in Asovoë—run the autofactory, communicate only in Jargon."
-    details: |
-      The middle tier between the godlike Archons and the merely skilled lower castes.
-      Modified for technological transcendence in ways that moved them away from baseline
-      cognition. They direct the autofactory's outputs, prioritize maintenance, interface
-      with systems no one else can access—without explaining themselves. Extensively
-      modified: exposed neural tissue, additional limbs, enlarged crania, bodies requiring
-      mechanical support. The Avouvar care for them and give them names based on observed
-      behavior (Ževa-Ascending-Third, Koratsch-Who-Waits). Whether the Medials notice
-      is unclear. When one dies, they are replaced through cloning.
-    rag_pointer: "Region: Asovoë and the Avouvar"
-    related: [Technical Castes, Avouvar, Asovoë, Autofactory, Jargon, Archons]
-  # ─── end Medials ───
 
   # ═══ Verethani ═══
   Verethani:
@@ -4633,7 +4626,7 @@ entries:
       also operates the Chancery and provides most medical services; their monopoly on Medial 
       production makes them untouchable.
     rag_pointer: Asovoë and the Avouvar
-    related: [Asovoë, Medials]
+    related: [Asovoë, Medial Castes]
     location_features:
       level: district
       location_type: administrative
@@ -9678,7 +9671,7 @@ entries:
       than age. This meritocratic element makes Żelovin unusual among Avouvar houses, where age 
       normally determines authority.
     rag_pointer: Asovoë and the Avouvar
-    related: [Asovoë, Medials, Dravoëtsin]
+    related: [Asovoë, Medial Castes, Dravoëtsin]
     location_features:
       level: district
       location_type: administrative
@@ -14547,7 +14540,7 @@ entries:
       understands its full capabilities. The Avouvar trade its outputs through interface
       houses like Czernaël Factor-House.
     rag_pointer: "Region: Asovoë and the Avouvar, The Thousand Kingdoms: Overview"
-    related: [Asovoë, Medials, Avouvar, Ogon, Technical Castes]
+    related: [Asovoë, Medial Castes, Avouvar, Ogon, Technical Castes]
   # ─── end Autofactory ───
 
   # ═══ Plasma Lance ═══
