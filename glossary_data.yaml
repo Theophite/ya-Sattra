@@ -755,13 +755,25 @@ entries:
   # ═══ Kma-Dhol ═══
   Kma-Dhol:
     category: caste
-    short: "Technical Caste descendants operating openly in the Thousand Kingdoms."
+    short: "Technical Caste descendants operating openly in the Thousand Kingdoms—can direct autofactory output more precisely than anyone admits."
     details: |
-      Same ancestry as Imperial sewer-fishers but never hidden. Publicly claim 
-      the Third Oracle 'gifted them their second soul.' Operate autofactories 
-      through factory-singing—vocalizing mathematical requests in the Jargon.
+      Same ancestry as Imperial sewer-fishers but never hidden. Publicly claim the Third
+      Oracle "gifted them their second soul." Operate autofactories through factory-singing—
+      vocalizing mathematical requests in the Jargon.
+
+      Engineering firms assess autofactory ruins, advise Akama clients on safe salvage, and
+      provide technical expertise. Annual revenue ~15,000-25,000 obols per extended family
+      firm: assessment contracts, advisory fees, Salvage Guild factor contracts, artifact
+      authentication. Live in ziggurat upper levels accessible only through compression
+      passages; import food from Imperial sources.
+
+      The secret capability: Kma-Dhol can direct autofactory output more precisely than
+      anyone admits. Some of what the Salvage Guild buys was produced to specification. If
+      the Guild knew, they'd have to acknowledge it. So no one asks. The engineering firms
+      maintain the fiction while quietly providing services that technically violate the
+      salvage charter's assumptions.
     rag_pointer: "The Thousand Kingdoms: Overview, Castes of Mankind"
-    related: [Technical Castes, Sewer-Fishers, Ogon, Jargon]
+    related: [Technical Castes, Sewer-Fishers, Ogon, Jargon, Salvage Guild]
     caste_features:
       morphology: modified
       scale: baseline
@@ -10128,10 +10140,34 @@ entries:
   # ═══ Companions Guild ═══
   Companions Guild:
     category: organization
-    short: Monastic order managing semi-sentient populations and practicing general medicine.
-    details: Not a trade guild but a religious order. Holds monopoly on managing Mutterers, Sickly, and kalbats. Also operates Imperial hospice system. Descended from Witnesses who attended Technical Castes.
+    short: "Empire-wide monopoly over semi-sentient care—no one else can manage Mutterer choirs."
+    details: |
+      Not a trade guild but a religious order descended from the Witnesses who attended Technical
+      Castes before the Interdict. Holds absolute monopoly on managing Mutterers, Sickly, and
+      kalbats. Operates the Imperial hospice system in partnership with the Bureau of the Creche
+      and Penitent Church.
+
+      Headquarters at the Cathedral of the Plea (ya-Sattra), containing irreplaceable Technical
+      Caste archives in the jargon. Major facilities include the Monastery of the Silent Song
+      (kalbat care). Chapter houses in every major Imperial city. Perhaps 2,000-3,000 Companions
+      Empire-wide.
+
+      Annual revenue perhaps 10-15 million obols: Bureau of the Rod contracts for infrastructure
+      maintenance through Mutterer choirs (4-6 million); Bureau of the Creche contracts for
+      hospice operations and Sickly management (2-3 million); private Mutterer choir rentals
+      (1-2 million); Sickly serum sales (1-2 million); training and hospice fees (1.5-3 million).
+
+      The Mutterer monopoly is absolute and is the Guild's ultimate protection. The harmonic
+      frequencies, cascade interruption techniques, and protocols for preventing Mutterers from
+      "optimizing" each other require Guild training. The Bureau of the Rod literally cannot
+      maintain Imperial infrastructure without the Guild. No one else can manage the choirs.
+
+      The Guild's impossible position shapes all operations: absolutely essential, politically
+      powerless, pulled between mutually antagonistic clients (Rod, Creche, Church, private)
+      who each partially own them. They survive not through strength but through being too
+      useful to destroy and too compromised to threaten anyone.
     rag_pointer: The Companions Guild
-    related: [Sickly, Mutterers, Kalbats, Semi-Sentient]
+    related: [Sickly, Mutterers, Kalbats, Semi-Sentient, Bureau of the Rod, Bureau of the Creche, Cathedral of the Plea]
   # ─── end Companions Guild ───
 
   # ═══ Hanged Men ═══
@@ -10159,13 +10195,30 @@ entries:
   # ═══ Ezh Tan ═══
   Ezh Tan:
     category: organization
-    short: "Ya-Tsatsa Aureate family holding tariff assessment rights and operating the city's banking system."
+    short: "Ya-Tsatsa banking family operating four banks—looks normal, makes decisions that defy commercial logic."
     details: |
-      Alone among Ezh families, spend significant time outside ya-Tsatsa. Engineered for 
-      trust—subtle modifications that trigger confidence. Can negotiate with the Presence 
+      Alone among Ezh families, spend significant time outside ya-Tsatsa. Engineered for
+      trust—subtle modifications that trigger confidence. Can negotiate with the Presence
       on behalf of Tsatsans. The soft yoke: most freedom, most responsibility.
+
+      Operate four banks offering deposits, loans, currency exchange, and Northern Trade
+      underwriting. Annual revenue 300,000-500,000 obols from conventional operations.
+      Family head Yen To has learned to distinguish genuine necessity (the Presence
+      identifying someone who truly cannot thrive within ya-Tsatsa's constraints) from
+      mere optimization (the Presence preferring marginal convenience).
+
+      The apology-loans: bankers review applications, recognize they should refuse, and
+      find themselves approving anyway. Eyes go wet; they say things they've never thought:
+      "Ya-Tsatsa isn't for everyone. There are emigrant communities all down the coast."
+      These loans almost never get repaid. The bank absorbs losses that somehow don't
+      cascade into consequences.
+
+      Many cannot operate in ya-Tsatsa because Many optimizes. Many would identify the
+      apology-loan pattern and close it. The efficiency would break something the Presence
+      requires. So the Ezh Tan refuse Many's repeated requests to establish full banking
+      operations, maintaining correspondent relationship only.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
-    related: [ya-Tsatsa, Ezh Ot, Ezh Dhol, Presence]
+    related: [ya-Tsatsa, Ezh Ot, Ezh Dhol, Presence, Many]
   # ─── end Ezh Tan ───
 
   # ═══ Ezh Ot ═══
@@ -10248,15 +10301,34 @@ entries:
   # ═══ Salvage Guild ═══
   Salvage Guild:
     category: organization
-    short: "Iron Yards monopoly controlling all salvage assessment and sale in ya-Sattra."
+    short: "Empire-wide monopoly controlling all salvage certification and sale—nothing salvaged anywhere can be legally sold without Guild stamps."
     details: |
-      147 master memberships, hereditary or sold at prices requiring loans to afford. Charter 
-      granted during emergency reconstruction after the arcology collapse—exempts Guild operations 
-      from patent enforcement. Operates from the pre-Interdict Salvage Dome. Auction floor runs 
-      three-hour cycles; masters bid through coded hand signals. Controls sales; the Pipefitters 
-      control labor.
+      Headquarters in the great dome in the Iron Yards; major branches in ya-Don, the Threshing
+      Coast, and every significant port. 147 master memberships at headquarters, fixed by charter,
+      plus licensed factors and certified assessors throughout the Empire. Thousands of contractors
+      operate under master licenses.
+
+      Annual revenue perhaps 20-35 million obols, making the Guild one of the wealthiest
+      non-Aureate institutions in the Empire—comparable to a mid-tier Aureate patent family.
+      Revenue sources: auction and transaction fees (18-30%) on all salvage operations Empire-wide
+      (12-20 million obols/year); certification fees mandatory for all exports (3-6 million);
+      training programs, storage fees, and credit interest.
+
+      The certification monopoly is the Guild's true power. A salvager in Ogon finding valuable
+      archaeotech cannot sell it to Imperial buyers without Guild certification. Frontier factors
+      are Guild employees or licensed contractors. The certification stamps that make gray market
+      goods into white market goods are Guild property.
+
+      Maintains two sets of ledgers. The "White Books" satisfy Bureau auditors; the "Grey Books"
+      record actual transactions including patent violations. Everyone knows. The perpetual
+      lawsuit with Rod families ensures the system continues—both parties benefit from legal
+      ambiguity that neither wants resolved.
+
+      Charter assumes pre-Interdict conditions and exempts operations from patent enforcement.
+      Auction floor runs three-hour cycles; masters bid through coded hand signals. Controls
+      sales; the Pipefitters control labor.
     rag_pointer: The Iron Yards
-    related: [Iron Yards, Salvage Dome, Pipefitters Union, Yen Tam Beneficial Society]
+    related: [Iron Yards, Salvage Dome, Pipefitters Union, Yen Tam Beneficial Society, Bureau of the Rod]
   # ─── end Salvage Guild ───
 
   # ═══ Yen Tam Beneficial Society ═══
@@ -10371,12 +10443,29 @@ entries:
     category: organization
     short: "Alien banking organism providing impartial financial services through biological incapacity for favoritism."
     details: |
-      Primary countinghouse on Booksellers' Row. Conducts contract witnessing, debt 
-      formalization, deposit services, arbitration. Ta-Kefyeh enforcers maintain famous 
-      egalitarian queue order—no queue-jumping regardless of status. Trusted precisely 
-      because it cannot understand the politics that might corrupt human institutions.
+      Colonial polychaete organism—thousands of specialized worm-segments functioning as a
+      single consciousness. Exists simultaneously in every major human city, not as franchises
+      but as literally the same organism. Bundles of zooids travel with merchant caravans,
+      carrying memories and contracts between locations.
+
+      Primary countinghouse on Booksellers' Row. Conducts contract witnessing, debt
+      formalization, deposit services, arbitration. Transaction fees 0.5-2% scaling with
+      complexity; deposit fees 0.1% monthly; loan interest 1.5% monthly (lower than any
+      competitor because Many has no biological need for profit). Annual revenue perhaps
+      2-4 million obols in fees, plus investment returns on reserves exceeding 100 million
+      obols accumulated over millennia.
+
+      Cannot lie, cannot understand politics, cannot model individual consciousness. When
+      Many creates an agreement, it literally grows brain matter configured to that contract,
+      making violation physically impossible. Ta-Kefyeh enforcers maintain the famous
+      egalitarian queue—physically removing anyone who attempts to skip regardless of status.
+      The queue is a contract, and contracts are absolute. Many will spend millions defending
+      this principle, creating the only truly egalitarian space in ya-Sattra.
+
+      Cannot operate in ya-Tsatsa because Many optimizes—would identify patterns the Presence
+      requires and close them. The Ezh Tan maintain correspondent relationship only.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
-    related: [Medina Quarter, "Booksellers' Row", Ta-Kefyeh]
+    related: [Medina Quarter, "Booksellers' Row", Ta-Kefyeh, Ezh Tan, obol]
   # ─── end Many ───
 
   # ═══ Processional Guild ═══
@@ -10791,15 +10880,29 @@ entries:
   # ═══ Junta of Ogon ═══
   Junta of Ogon:
     category: organization
-    short: "Seven token-holders governing Ogon and claiming suzerainty over the Thousand Kingdoms."
+    short: "Seven irreplaceable tokens—whoever holds one sits on the Junta, regardless of how they acquired it."
     details: |
-      Meet monthly at the Slab. Vote by raised or lowered hands. Disputes resolved by 
-      trial-by-combat. Tokens trace to original Akama conquerors who took Ogon from 
-      ya-Tsovez refugees. Each token-holder controls a bloc of warbands; together they 
-      can mobilize perhaps 40,000 fighters. More important: they control salmon allocation 
-      from the Grand Canal.
+      Not a government—no laws, no bureaucracy, no monopoly on violence. A coordination
+      forum between seven token-holders who control Ogon's military politics. Decisions work
+      because members choose to follow them.
+
+      Seven irreplaceable tokens produced by the Ogon autofactory seventy years ago. Method
+      of acquisition—purchase, inheritance, combat victory, theft—is irrelevant to legitimacy.
+      Meet monthly at the Slab; vote by raised or lowered hands; dissent from outcomes can be
+      challenged through trial by combat.
+
+      The Accession Ritual: New members (acquiring tokens through any means) must survive a
+      night of beatings from existing members. Not a test of strength—you cannot fight back.
+      A test of endurance. If you survive until sunrise without dying or giving up, you're
+      a member.
+
+      Each token-holder controls a bloc of warbands; together they can mobilize perhaps
+      40,000 fighters. More important: they control salmon allocation from the Grand Canal.
+      The Junta prevents any single Khan from dominating—seven holders with different power
+      bases, different vassals, different interests. The coordination produces stability
+      without systematic governance.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Ogon, The Slab, Thousand Kingdoms, Akama, Bal Tama]
+    related: [Ogon, The Slab, Thousand Kingdoms, Akama, Bal Tama, Grand Canal]
   # ─── end Junta of Ogon ───
 
   # ═══ Som es-Vol ═══
@@ -11252,15 +11355,30 @@ entries:
   # ═══ obol ═══
   obol:
     category: concept
-    short: "Imperial currency—but much exchange happens through credit, obligation, and favor."
+    short: "Imperial currency standard—beer costs 1/16 obol, subsistence requires 90-110 obols monthly."
     details: |
-      Standard monetary unit across Imperial territories. The Bureau of the Coin 
-      controls minting and maintains currency stability. Actual economy operates 
-      substantially through non-monetary exchange: guild obligations, hereditary 
-      arrangements, temple tithes, household production, patron-client relationships. 
-      Obols represent only the visible portion of Imperial economic activity.
+      Universal unit of account. Regional currencies exist—the Ganati dinar (= 10 obols),
+      various Thousand Kingdoms scrip—but all convert to obol-equivalents for trade. Many
+      maintains exchange rates.
+
+      Price benchmarks: beer 1/16 obol; basic street meal 1/8-1/4 obol; seated tavern meal
+      1/2-1 obol; bunkhouse 5 obols/week (~20-22/month); cheap private room 35-50 obols/month;
+      decent housing 80-120 obols/month. Guild shirt 3-4 obols (lasts years); unlicensed shirt
+      1-1.5 obols (wears out in months).
+
+      Subsistence threshold (calibrated against Kess, a courier in the Rotten Quarter):
+      90-110 obols/month maintains bunk and adequate food. Below 60 obols means sleeping rough,
+      irregular meals, owning nothing—destitution, not subsistence. Parish capitation 40 obols
+      annually—half a month's income at subsistence.
+
+      Income tiers: destitute 40-70; subsistence 90-120; working poor 140-200; lower middle
+      250-350; middle class 400-600; wealthy 2,000+. Workers think in obols; merchants in
+      hundreds; Aureate families measure wealth in millions.
+
+      Much exchange happens through non-monetary means: guild obligations, hereditary
+      arrangements, temple tithes, household production, patron-client relationships.
     rag_pointer: "The Economy"
-    related: [Bureau of the Coin, Aureate]
+    related: [Bureau of the Coin, Aureate, Dinar, Many]
   # ─── end obol ───
 
   # ═══ White Sheet ═══
@@ -11336,16 +11454,29 @@ entries:
   # ═══ Kilit ═══
   Kilit:
     category: concept
-    short: "Ganati economic-political unit—guilds, pastoral bands, merchant houses organized around shared material interests."
+    short: "Ganati economic-political unit merging workplace and vote—your kilit employs you, represents you in Senate, provides collective services."
     details: |
-      Foundation of Republican governance. Predates the monarchy by countless Records. 
-      Pastoral bands, merchant houses, professional guilds, and other collectives organize 
-      as kilits. Senate organized around kilits rather than geography. Different economic 
-      interests with direct representation negotiate constantly. Examples: Dhal-Setil 
-      Mercantile, Copper Road Syndicate (smugglers), Dry Arroyo Aquifer Commune (radicals), 
-      Hereditary Debtors (former slaves in public service).
+      Foundation of Republican governance. Predates the monarchy by countless Records. Pastoral
+      bands, merchant houses, professional guilds, and other collectives organize as kilits.
+      Senate organized around kilits rather than geography. Different economic interests with
+      direct representation negotiate constantly.
+
+      Your workplace votes; your workplace holds Senate seats; your workplace provides collective
+      services. The Khen-Masot Textile Enterprise employs 300 workers, generates trade, subsidizes
+      electricity for 15,000 households, and holds a Senator's seat. Works-based atonement
+      theology creates obligations capitalism doesn't recognize—accumulation legitimate only if
+      demonstrated to serve collective capacity.
+
+      Monthly subsidy plaques ("This month's collective service: 2,847 dinars below cost") are
+      theological documentation, not advertising. Merchant kilits compete for reputation through
+      competitive philanthropy. Labor kilits like the Workingmens' Kilits Caucus (seven kilits,
+      21,000 workers, three Senators) vote as blocs.
+
+      Examples: Dhal-Setil Mercantile, Khen-Masot Textile Enterprise, Dockers' Fraternal,
+      Copper Road Syndicate (smugglers), Dry Arroyo Aquifer Commune (radicals), Hereditary
+      Debtors (former slaves in public service).
     rag_pointer: "The Republic of Ganat"
-    related: [Ganat, Dawn Party, Dusk Party, Senate]
+    related: [Ganat, Dawn Party, Dusk Party, Senate, Dinar]
   # ─── end Kilit ───
 
   # ═══ Kilit-zem-kilitam ═══
@@ -14028,14 +14159,30 @@ entries:
   # ═══ Order of St. Akhmet ═══
   Order of St. Akhmet:
     category: organization
-    short: "Ya-Don's primary labor union and quasi-monastic institution (~40,000 members)."
+    short: "Ya-Don's primary labor union (~40,000 members) producing the only new complex technology in the Empire."
     details: |
-      Motto: "By soot and soul, the fire is kept." Treats industrial work as sacred penitential 
-      labor. Caste composition: 35% Ashrat, 30% near-baseline, 15% Orevet, 10% Redback, 10% other. 
-      Led by seven-member Council of Master Tenders. A strike would halt Furnace production 
-      entirely; no power in the Empire could compel workers to return.
+      Motto: "By soot and soul, the fire is kept." Treats industrial work as sacred penitential
+      labor demonstrating humanity's growing wisdom. Caste composition: 35% Ashrat, 30%
+      near-baseline, 15% Orevet, 10% Redback, 10% other. Led by seven-member Council of Master
+      Tenders, each elected by geographic section.
+
+      Annual revenue ~6 million obols: member dues (~400,000 obols/month from 40,000 members)
+      plus es-Etaie capitation (~1.6 million obols annually—one family pays Church tax for all
+      Order members, funding workers' freedom to worship without extracting corresponding labor).
+      Wages compress due to theology: Forge-Master earns 700-850 obols/month while journeymen
+      earn 280-350 obols—far less inequality than comparable enterprises.
+
+      The Order's absolute leverage: a strike shuts down the Empire's only source of new complex
+      technology. This has happened twice in recorded history; both times the Empire capitulated
+      within weeks. The knowledge that the Order could strike shapes every negotiation even
+      though strikes almost never occur.
+
+      Council decisions require five of seven votes for major matters (strikes, wage negotiations),
+      four of seven for routine business. The Forge-Master chairs but holds only one vote. The
+      Order's Arch-Curate can invoke theological concerns to block actions violating Penitent
+      principles, though this power is rarely exercised.
     rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [ya-Don, Furnaces, Sacred Labor, Particular Confession, Ashrat, Orevet]
+    related: [ya-Don, Furnaces, Sacred Labor, Particular Confession, Ashrat, Orevet, es-Etaie, Furnace Board]
   # ─── end Order of St. Akhmet ───
 
   # ═══ Unwritten-Axiom Parish ═══
@@ -14056,11 +14203,22 @@ entries:
     category: organization
     short: "Ya-Don logistics cartel controlling all Furnace cargo movement (~35,000 members)."
     details: |
-      Nothing enters or leaves the Furnaces without Covenant logistics. Controls tariff 
-      systems and the Weighmaster's Station bottleneck. Many members treat religious 
-      observance as union requirement rather than genuine faith. Led by Covenant Master.
+      Nothing enters or leaves the Furnaces without Covenant logistics. Annual revenue
+      approximately 6-8 million obols: tariffs on all cargo (2% for bulk commodities to 15%
+      for high-value goods, ~2-4 million obols from ~50 million obols of cargo flowing
+      annually); infrastructure fees (~1 million); member dues (~2.5 million from 35,000
+      members at 5-8 obols/month).
+
+      The Weighmaster's Station is the bottleneck through which all cargo passes. The twenty
+      Weighmasters controlling tariff assessment form an informal council shaping policy. The
+      Covenant can choke supply lines simply by slowing processing—leverage rarely exercised
+      because the Covenant profits from cargo flow, but underlying every negotiation.
+
+      Covenant Master Seris Thom (near-baseline, 55) is a pragmatic logistician rather than
+      a religious figure. Many members treat religious observance as union requirement rather
+      than genuine faith. Transit Chapel operations serve ~8,000 weekly attendees.
     rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [ya-Don, Furnaces, Freightyard, Furnace Board]
+    related: [ya-Don, Furnaces, Freightyard, Furnace Board, Threshold]
   # ─── end Covenant of Saint Aureline ───
 
   # ═══ Cinder-Sifters ═══
@@ -14078,14 +14236,27 @@ entries:
   # ═══ Furnace Board ═══
   Furnace Board:
     category: organization
-    short: "Ya-Don's coordinating body for Furnace operations."
+    short: "Ya-Don's coordinating body where capital, labor, state, and church negotiate production decisions."
     details: |
-      Representatives from three Aureate families (es-Kiral, es-Etaie, es-Vorath), four 
-      major guilds (Order of St. Akhmet, Unwritten-Axiom Parish, Covenant of Saint Aureline, 
-      Cinder-Sifters), and Bureau of the Rod. Decisions require guild consensus; Aureates 
-      can block but not impose. Real negotiations happen before formal meetings.
+      Nine seats: three Aureate families (es-Kiral, es-Etaie, es-Vorath), four major guilds
+      (Order of St. Akhmet, Unwritten-Axiom Parish, Covenant of Saint Aureline, ya-Don
+      Companions Chapter), Bureau of the Rod liaison, and Arch-Curacy representative. Major
+      decisions require six of nine votes.
+
+      The Aureates cannot outvote the guilds; the guilds cannot outvote Aureate-Bureau-Church
+      alignment. This forces compromise. Production targets, wage scales, safety standards,
+      and capital investment all require Board approval. In practice, the Order's strike
+      capability gives them effective veto; the es-Etaie capitation arrangement gives that
+      family disproportionate influence; the Bureau representative can invoke Imperial
+      authority to block decisions but rarely does.
+
+      Corporatism functioning as designed—competing interests forced to negotiate rather than
+      fight. Works because each party needs the others: Aureates need labor to operate patents;
+      labor needs patents to authenticate production; the Bureau needs both to maintain
+      technological supply; the Church needs all three to demonstrate humanity's growing wisdom.
+      Real negotiations happen before formal meetings.
     rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [ya-Don, Furnaces, es-Kiral, es-Etaie, es-Vorath, Order of St. Akhmet]
+    related: [ya-Don, Furnaces, es-Kiral, es-Etaie, es-Vorath, Order of St. Akhmet, Arch-Curacy]
   # ─── end Furnace Board ───
 
   # ═══ Institute of Flow ═══
