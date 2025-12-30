@@ -243,4 +243,14 @@ Track conflicts discovered during glossary-grounded document restructuring, how 
 - Bureau documents (Lens, Sword, Satara overview) - already well-structured, need front matter
 - Malpais War, City of Glass (from Hanged Men history)
 - ya-Tsatsa (from Yen Tam origin)
-- Companions Guild (from Mutterer management references)
+
+---
+
+## Documents With Front Matter Added (No Split Required)
+
+These documents were already well-structured with internal navigation. Added YAML front matter for RAG compatibility.
+
+### Guild_-_Companions__Physicians_.md ✓
+- Added guidance rules for Mutterer management
+- Key concepts: monastic order (not trade guild), cascades, chimes, Witness inheritance
+- Already has internal RAG Navigation section
