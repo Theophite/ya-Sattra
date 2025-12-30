@@ -131,12 +131,88 @@ Track conflicts discovered during glossary-grounded document restructuring, how 
 
 ---
 
+## Ridge Document Analysis (COMPLETE)
+
+**Source:** Ya-Sattra_District_-_Ridge.md (~163 lines)
+
+**Glossary coverage verified:**
+- Ridge, Horizon Row, Penthouse Block, The Arcades have entries ✓
+- Val Family, Marzen Family, Galen Family have entries ✓
+
+### Created (Ridge batch - glossary-grounded):
+1. Ya-Sattra District - Ridge - Overview.md ✓
+2. Ya-Sattra District - Ridge - Horizon Row.md ✓
+3. Ya-Sattra District - Ridge - Penthouse Block.md ✓
+4. Ya-Sattra District - Ridge - The Arcades.md ✓
+5. Organization - Val Family.md ✓
+6. Organization - Marzen Family.md ✓
+7. Organization - Galen Family.md ✓
+
+**Key guidance notes:**
+- Three families with complementary monopolies (water, electricity, intelligence)
+- Interdependence prevents conflict (Vals need Marzen power, Marzens need Val water)
+- Sideways arcology creates "tilted gait" marking Ridge residents
+- Cho gondola is only direct Middens-Ridge connection
+
+---
+
+## Iron Yards Document Analysis (COMPLETE)
+
+**Source:** Ya-Sattra_District_-_Iron_Yards.md (~354 lines)
+
+**Glossary coverage verified:**
+- Iron Yards, Torchline Row, Salvage Dome, Archive Gate, Forge Terrace have entries ✓
+- Salvage Guild, Pipefitters Union, Yen Tam Beneficial Society have entries ✓
+- Iron Yards Boys has entry ✓
+
+### Created (Iron Yards batch - glossary-grounded):
+1. Ya-Sattra District - Iron Yards - Overview.md ✓
+2. Ya-Sattra District - Iron Yards - Salvage Dome.md ✓
+3. Ya-Sattra District - Iron Yards - Torchline Row.md ✓
+4. Organization - Salvage Guild.md ✓
+5. Organization - Pipefitters Union.md ✓
+6. Organization - Yen Tam Beneficial Society.md ✓
+
+**Key guidance notes:**
+- Three powers model: Guild (sales), Union (labor), Yen Tam (vice)
+- Debt cycles trap workers (extraction economy theme)
+- Lira Three-Stone legend (40-meter throw, declined leadership)
+- Cross-caste solidarity in Union contradicts caste hierarchy
+
+---
+
+## Castes of Mankind Document Analysis (COMPLETE)
+
+**Source:** Caste_-_Type_Specimens_Catalog.md (~500+ lines)
+
+**Glossary coverage verified:**
+- All major caste categories have entries ✓
+- Individual caste variants (Ironbone, Springheel, etc.) have entries ✓
+
+### Created (Castes batch - glossary-grounded):
+1. Caste - Highborn.md ✓ (three phenotypes, Compulsion ethics)
+2. Caste - Warborn.md ✓ (three variants, cancer timeline, Chain-Men)
+3. Caste - Labor Castes.md ✓ (Ironbone, Redback, Springheel, Beamcrawler, Ductworker, Orevet, Ashrat, Karst)
+4. Caste - Near-Baseline.md ✓ (Compulsion susceptibility, majority population)
+5. Caste - Colonist Castes.md ✓ (Serrulata: Sarruk, Nasif, Uliq, Draëthen)
+
+**Key guidance notes:**
+- Each caste has specific failure mode (documented per file)
+- Warborn: cancer by 40, the Blink, heat radiation
+- Labor castes: Ironbone stiffens, Redback binary failure, Springheel tendon tears
+- Highborn: fragile bones (elongated), uncanny valley (optimized), born incomplete (integrated)
+
+---
+
 ## Next in Traversal Graph
 
-From Middens `related:` field → Ridge, Iron Yards
-- Ridge will connect to Cho gondola, salvage reconditioning, infrastructure families
-- Iron Yards will connect to Salvage Guild, Pipefitters Union, Iron Yards Boys
+**Completed this session:**
+- Ridge (from Middens `related:`)
+- Iron Yards (from Middens `related:`)
+- Warborn castes (from Hanged Men Chain-Men connection)
 
-From Hanged Men `related:` field → Malpais War, City of Glass, Warborn castes
-- Malpais War history connects to Child of the Malpais, City-of-Glass Charter
-- Warborn castes connect to Ironbone, Springheel variants
+**Remaining from traversal:**
+- Malpais War, City of Glass (from Hanged Men history)
+- Bureau documents (various references)
+- Medina Quarter (from Archive Gate connection)
+- ya-Tsatsa (from Yen Tam origin)
