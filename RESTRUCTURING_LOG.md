@@ -204,15 +204,43 @@ Track conflicts discovered during glossary-grounded document restructuring, how 
 
 ---
 
+## Medina Quarter Document Analysis (COMPLETE)
+
+**Source:** Ya-Sattra_District_-_Medina_Quarter.md (~655 lines - largest source document)
+
+**Glossary coverage verified:**
+- Medina Quarter, Great Bazaar, Archive Gate, Fourth Whorl have entries ✓
+- Guild-related terms (Booksellers' Row, etc.) have entries ✓
+- Foreign commerce terms (Ganati, Avouvar, ta-Kefyeh) have entries ✓
+
+### Created (Medina batch - glossary-grounded):
+1. Ya-Sattra District - Medina - Overview.md ✓
+2. Ya-Sattra District - Medina - Guild System.md ✓
+3. Ya-Sattra District - Medina - Great Bazaar.md ✓
+4. Ya-Sattra District - Medina - Bureau Presence.md ✓
+5. Ya-Sattra District - Medina - Entertainment.md ✓
+6. Ya-Sattra District - Medina - Notable Buildings.md ✓
+7. Ya-Sattra District - Medina - Businesses.md ✓
+
+**Key guidance notes:**
+- Central concern: managed contradiction (bridging what Empire claims vs what it needs)
+- Guild charters predate Bureau authority - permits impossible, guild membership cuts through
+- Three market layers: white (guild), gray (paperwork pending), black margins (back rooms)
+- Polyphonic singers are Highborn bastards in administrative gaps - no Bureau will categorize them
+- Ancient buildings show 40,000+ years of occupation - wear patterns have no analogue
+
+---
+
 ## Next in Traversal Graph
 
 **Completed this session:**
 - Ridge (from Middens `related:`)
 - Iron Yards (from Middens `related:`)
 - Warborn castes (from Hanged Men Chain-Men connection)
+- Medina Quarter (from Archive Gate connection)
 
 **Remaining from traversal:**
+- Bureau documents (Lens, Sword, Satara overview) - already well-structured, need front matter
 - Malpais War, City of Glass (from Hanged Men history)
-- Bureau documents (various references)
-- Medina Quarter (from Archive Gate connection)
 - ya-Tsatsa (from Yen Tam origin)
+- Companions Guild (from Mutterer management references)
