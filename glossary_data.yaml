@@ -10366,6 +10366,7 @@ entries:
   # ═══ Institute of Lineal Certification ═══
   Institute of Lineal Certification:
     category: organization
+    parent: Bureau of the Creche
     short: "Creche subdivision handling cloneline registration and kinship authentication—now primarily used for disinheritance."
     details: |
       Once the terrifying arbiter of who could legally reproduce, it now functions
@@ -10379,6 +10380,7 @@ entries:
   # ═══ Institute of Reproductive Sanction ═══
   Institute of Reproductive Sanction:
     category: organization
+    parent: Bureau of the Creche
     short: "Creche subdivision managing public birthing centers and prenatal gene therapy—powerful in compliant territories only."
     details: |
       Manages public birthing centers, prenatal gene therapy, and postnatal
@@ -10392,6 +10394,7 @@ entries:
   # ═══ Institute of Genomic Licensing ═══
   Institute of Genomic Licensing:
     category: organization
+    parent: Bureau of the Creche
     short: "Creche subdivision issuing genetic product licenses—one of the last truly potent Creche Institutes."
     details: |
       Issues and enforces licenses for medical and agricultural genetic products:
@@ -10406,6 +10409,7 @@ entries:
   # ═══ Institute of Nutritional Design ═══
   Institute of Nutritional Design:
     category: organization
+    parent: Bureau of the Creche
     short: "Creche subdivision producing bulk food cultures—quietly indispensable in provinces with collapsed soil fertility."
     details: |
       Produces bulk food cultures, synthetic starches, and industrial yeast.
@@ -10418,6 +10422,7 @@ entries:
   # ═══ Institute of Developmental Safety ═══
   Institute of Developmental Safety:
     category: organization
+    parent: Bureau of the Creche
     short: "Creche subdivision overseeing clone crèche safety—symbolically feared but often bypassed."
     details: |
       Formerly the Institute of Maternal Fidelity. Oversees clone crèche safety
@@ -10432,6 +10437,7 @@ entries:
   # ═══ Institute of Cognitive Integrity ═══
   Institute of Cognitive Integrity:
     category: organization
+    parent: Bureau of the Creche
     short: "Creche subdivision offering psychological support and clone dispute adjudication—understaffed and frequently ignored."
     details: |
       Formerly the Institute of Clone Ethics and Stability. Offers psychological
@@ -10445,6 +10451,7 @@ entries:
   # ═══ Institute of Highborn Preservation ═══
   Institute of Highborn Preservation:
     category: organization
+    parent: Bureau of the Creche
     short: "Creche subdivision serving Aureate families—rejuvenation, fertility treatments, and genetic management."
     details: |
       Serves Aureate families with rejuvenation and fertility treatments,
@@ -10487,6 +10494,7 @@ entries:
   # ═══ Institute of Luminescence ═══
   Institute of Luminescence:
     category: organization
+    parent: Bureau of the Rod
     short: "Rod subdivision managing energy grid distribution—the Bureau's most critical function."
     details: |
       Manages energy grid distribution and electrical regulation across Imperial
@@ -10501,6 +10509,7 @@ entries:
   # ═══ Institute of Flow ═══
   Institute of Flow:
     category: organization
+    parent: Bureau of the Rod
     short: "Rod subdivision overseeing water systems and the undercity infrastructure."
     details: |
       Oversees water systems and the undercity—the vast infrastructure beneath
@@ -10514,6 +10523,7 @@ entries:
   # ═══ Institute for Nonstandard Environments ═══
   Institute for Nonstandard Environments:
     category: organization
+    parent: Bureau of the Rod
     short: "Rod subdivision managing territories that don't fit normal Imperial categories—diplomacy in all but name."
     details: |
       The Rod's diplomatic corps, managing relationships with territories and
@@ -10527,6 +10537,7 @@ entries:
   # ═══ Institute of Permission ═══
   Institute of Permission:
     category: organization
+    parent: Bureau of the Rod
     short: "Rod subdivision handling unallocated patents and Salvage Guild finds—gatekeepers of new technology."
     details: |
       Handles patents that have not been allocated and the paperwork for Salvage
@@ -10541,6 +10552,7 @@ entries:
   # ═══ Institute for Technical Determinations ═══
   Institute for Technical Determinations:
     category: organization
+    parent: Bureau of the Rod
     short: "Rod subdivision adjudicating patent boundaries—decisions are political, theological, and occasionally violent."
     details: |
       Adjudicates the bounds of existing patents. When two families dispute whether
@@ -10555,6 +10567,7 @@ entries:
   # ═══ Institute of Tension ═══
   Institute of Tension:
     category: organization
+    parent: Bureau of the Rod
     short: "Rod subdivision monitoring structural integrity—Beamcrawler surveyors preventing infrastructure collapse."
     details: |
       Monitors structural integrity across Imperial infrastructure—the hidden
@@ -10584,6 +10597,7 @@ entries:
   # ═══ Institute for Strategic Planning ═══
   Institute for Strategic Planning:
     category: organization
+    parent: Bureau of the Sword
     short: "Sword subdivision managing campaign design—officially writes obsolete manuals, unofficially maintains practical guides."
     details: |
       Manages campaign design and operational doctrine. Officially writes manuals
@@ -10598,6 +10612,7 @@ entries:
   # ═══ Institute for the Study of Tactics ═══
   Institute for the Study of Tactics:
     category: organization
+    parent: Bureau of the Sword
     short: "Sword subdivision with identical responsibilities to Strategic Planning—seventy-year turf war ongoing."
     details: |
       Has responsibilities absolutely identical to Strategic Planning. The two
@@ -10613,6 +10628,7 @@ entries:
   # ═══ Institute for Restricted Castes ═══
   Institute for Restricted Castes:
     category: organization
+    parent: Bureau of the Sword
     short: "Sword subdivision managing military caste biology—perpetual jurisdiction dispute with Creche."
     details: |
       Manages the biological needs of military populations—Warborn amino acid
@@ -10626,6 +10642,7 @@ entries:
   # ═══ Institute for Standardization ═══
   Institute for Standardization:
     category: organization
+    parent: Bureau of the Sword
     short: "Sword subdivision that once standardized Imperial units—now oversees chaos of incompatible caste formations."
     details: |
       Once proudly standardized Imperial units. Now oversees a chaos of
@@ -10640,6 +10657,7 @@ entries:
   # ═══ Institute for Ordnance ═══
   Institute for Ordnance:
     category: organization
+    parent: Bureau of the Sword
     short: "Sword subdivision for weapons procurement—formal channels are archaeological curiosities, real work happens through corruption."
     details: |
       A bureaucratic nightmare where official channels exist primarily as
@@ -10655,6 +10673,7 @@ entries:
   # ═══ Institute for Civil Order ═══
   Institute for Civil Order:
     category: organization
+    parent: Bureau of the Sword
     short: "Sword subdivision managing gendarmes—near-baseline infantry doing police work in urban territories."
     details: |
       The gendarme branch, managing garrison duty, urban pacification, and
@@ -10669,6 +10688,7 @@ entries:
   # ═══ Institute of Auxiliary Relations ═══
   Institute of Auxiliary Relations:
     category: organization
+    parent: Bureau of the Sword
     short: "Sword subdivision managing non-Imperial forces—half military administration, half diplomatic corps."
     details: |
       Manages relationships with forces that aren't technically Imperial but
@@ -10697,6 +10717,7 @@ entries:
   # ═══ Institute for Fiscal Propriety ═══
   Institute for Fiscal Propriety:
     category: organization
+    parent: Bureau of the Coin
     short: "Coin subdivision for auditing—a weapon Aureates aim at each other rather than genuine oversight."
     details: |
       The Bureau's auditor. In theory, exists to ensure proper accounting and
@@ -10711,6 +10732,7 @@ entries:
   # ═══ Institute for Expenditure ═══
   Institute for Expenditure:
     category: organization
+    parent: Bureau of the Coin
     short: "Coin subdivision disbursing budgets—the one part of Coin that actually functions as intended."
     details: |
       Disburses budgets to the other Bureaux. Independent because it interfaces
@@ -13995,6 +14017,7 @@ entries:
   # ═══ Institute of the Lattice ═══
   Institute of the Lattice:
     category: organization
+    parent: Bureau of the Lens
     short: "Lens subdivision maintaining cryptographic infrastructure—mathematicians approaching understanding of the Jargon."
     details: |
       Accepts perhaps a dozen applicants annually who vanish into Archive depths. 
@@ -14010,6 +14033,7 @@ entries:
   # ═══ Institute for the Suppression of Knowledge ═══
   Institute for the Suppression of Knowledge:
     category: organization
+    parent: Bureau of the Lens
     short: "Lens subdivision that makes dangerous information unfindable—cultivates cognitive deficits in its staff."
     details: |
       ISK staff are selected for ability to NOT process certain information patterns.
@@ -14024,6 +14048,7 @@ entries:
   # ═══ Institute of Imperial Record ═══
   Institute of Imperial Record:
     category: organization
+    parent: Bureau of the Lens
     short: "Lens subdivision that produces harmonized warrants—rewrites causality so contradictions never existed."
     details: |
       When historical facts contradict current Imperial positions, IIR produces
@@ -14038,6 +14063,7 @@ entries:
   # ═══ Institute of Informational Orthodoxy ═══
   Institute of Informational Orthodoxy:
     category: organization
+    parent: Bureau of the Lens
     short: "Lens subdivision enforcing correct interpretation of public information—manages Grey Sheet contradictions."
     details: |
       IIO does not suppress information but ensures it is interpreted correctly.
@@ -14051,6 +14077,7 @@ entries:
   # ═══ Institute of Domestic Intelligence ═══
   Institute of Domestic Intelligence:
     category: organization
+    parent: Bureau of the Lens
     short: "Lens subdivision monitoring internal populations—operates network of assets and informants."
     details: |
       IDI maintains surveillance of Imperial subjects through human assets rather
@@ -14065,6 +14092,7 @@ entries:
   # ═══ Institute of the Eye ═══
   Institute of the Eye:
     category: organization
+    parent: Bureau of the Lens
     short: "Lens subdivision operating technical surveillance infrastructure—maintains watching-stations and scrying pools."
     details: |
       Technical rather than human surveillance. Operates watching-stations throughout
@@ -14079,6 +14107,7 @@ entries:
   # ═══ Institute of the Echo ═══
   Institute of the Echo:
     category: organization
+    parent: Bureau of the Lens
     short: "Lens subdivision managing communications infrastructure—controls what can be said across distances."
     details: |
       Operates the speaking-stones, courier networks, and semaphore chains that
