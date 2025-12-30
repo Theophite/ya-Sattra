@@ -97,39 +97,46 @@ Track conflicts discovered during glossary-grounded document restructuring, how 
 
 ---
 
-## Middens Document Analysis (In Progress)
+## Middens Document Analysis (COMPLETE)
 
 **Source:** Ya-Sattra_District_-_Middens.md (887 lines)
 
-**Current glossary coverage:**
+**Glossary coverage verified:**
 - All 7 tenements have glossary entries ✓
 - Hanged Men, Chain-Men, Valve-Saint Parish have entries ✓
 - Sewer-fisher clans already restructured ✓
 
-**Proposed split structure:**
-1. Ya-Sattra District - Middens - Overview.md (geographic, connections, summary)
-2. Ya-Sattra District - Middens - The Gallows.md
-3. Ya-Sattra District - Middens - Bright-Spire.md
-4. Ya-Sattra District - Middens - Hollow-Egress.md
-5. Ya-Sattra District - Middens - Sump-Gate.md
-6. Ya-Sattra District - Middens - Lantern-Heaps.md
-7. Ya-Sattra District - Middens - Knife-Edge.md
-8. Ya-Sattra District - Middens - Vetch-Rise.md
-9. Organization - Hanged Men.md (extensive section with 7 Knot member profiles + history)
-10. Organization - Valve-Saint Parish.md
+### Created (Middens batch - glossary-grounded):
+1. Ya-Sattra District - Middens - Overview.md ✓
+2. Ya-Sattra District - Middens - The Gallows.md ✓
+3. Ya-Sattra District - Middens - Bright-Spire.md ✓
+4. Ya-Sattra District - Middens - Hollow-Egress.md ✓
+5. Ya-Sattra District - Middens - Sump-Gate.md ✓
+6. Ya-Sattra District - Middens - Lantern-Heaps.md ✓
+7. Ya-Sattra District - Middens - Knife-Edge.md ✓
+8. Ya-Sattra District - Middens - Vetch-Rise.md ✓
+9. Organization - Hanged Men.md ✓
+10. Organization - Valve-Saint Parish.md ✓
 
-**Sewer-fisher clans section:** Reference existing clan files, don't duplicate
+**Sewer-fisher clans:** Cross-referenced to existing clan files (no duplication)
 
-**Next steps:**
-- Create Overview file with front matter
-- Create tenement files with building-specific guidance
-- Extract Hanged Men to standalone org document
+**Guidance notes added per file:**
+- Gallows: Water control structure, execution ritual, floor-by-floor power hierarchy
+- Bright-Spire: Architecture as oppression, compression gradient, revolution mathematics
+- Hollow-Egress: Five-clan (not six) cooperative, transition chambers, depth access
+- Sump-Gate: The dome mystery, Mutterer modifications, tidal worship
+- Lantern-Heaps: Cho electrical monopoly, chip bazaar jargon, gondola monopoly
+- Knife-Edge: Fifteen-degree lean, tilted gait, adapted techniques
+- Vetch-Rise: Access control, transient market mobility, Astal warrens
 
 ---
 
 ## Next in Traversal Graph
 
-From Middens `related:` field → Ridge, Iron Yards, Hanged Men doc
-- Hanged Men doc will reveal connections to Warborn castes, Malpais War
-- Ridge will connect to Cho gondola, salvage reconditioning
-- Iron Yards will connect to Salvage Guild, Pipefitters Union
+From Middens `related:` field → Ridge, Iron Yards
+- Ridge will connect to Cho gondola, salvage reconditioning, infrastructure families
+- Iron Yards will connect to Salvage Guild, Pipefitters Union, Iron Yards Boys
+
+From Hanged Men `related:` field → Malpais War, City of Glass, Warborn castes
+- Malpais War history connects to Child of the Malpais, City-of-Glass Charter
+- Warborn castes connect to Ironbone, Springheel variants
