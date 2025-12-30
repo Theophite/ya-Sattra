@@ -37,11 +37,11 @@ see_also:
 
 **The Institute for the Study of Tactics** Has responsibilities that are, as far as anyone can determine, absolutely identical to the Institute of Strategic Planning. The two Institutes have been engaged in a seventy-year turf war over who handles "operational planning" (both claim it) versus "battlefield planning" (neither wants it). Junior officers quickly learn to submit all plans to both Institutes, using different fonts to make them seem like different documents. The redundancy is so complete that when Strategic Planning was closed for renovation, nobody noticed because Tactics just kept approving the same things.
 
-**The Institute for Restricted Castes & Nutritional Sufficiency** What began as Warborn metabolism management expanded to cover all biological needs of all castes, then contracted to focus on "restricted" populationsâ€”those requiring special oversight. Manages Warborn amino acid supplies, KÄ“t supplement distribution, the specific calcium supplementation that keep Ironback soldiers from stress fractures, and the delicate question of what to feed ta-Kefyeh parasites riding conscripted hosts. Perpetually fighting with Creche over who controls military biology, usually losing, but maintaining authority through sheer bureaucratic persistence.
+**The Institute for Restricted Castes & Nutritional Sufficiency** What began as Warborn metabolism management expanded to cover all biological needs of all castes, then contracted to focus on "restricted" populations—those requiring special oversight. Manages Warborn amino acid supplies, Kēt supplement distribution, the specific calcium supplementation that keep Ironback soldiers from stress fractures, and the delicate question of what to feed ta-Kefyeh parasites riding conscripted hosts. Perpetually fighting with Creche over who controls military biology, usually losing, but maintaining authority through sheer bureaucratic persistence.
 
-**The Institute for Standardization** Once proudly standardized Imperial unitsâ€”every formation identical, every logistics chain interchangeable. Now it oversees a chaos of caste-specific units with incompatible equipment, supply needs, and capabilities. The Institute maintains elaborate fictions about "standard formations" while quietly creating seventeen different unit types based on which castes are available. Their manuals still describe idealized mixed units that have never actually existed. Officers learn to ignore official organization charts and build units from whoever shows up.
+**The Institute for Standardization** Once proudly standardized Imperial units—every formation identical, every logistics chain interchangeable. Now it oversees a chaos of caste-specific units with incompatible equipment, supply needs, and capabilities. The Institute maintains elaborate fictions about "standard formations" while quietly creating seventeen different unit types based on which castes are available. Their manuals still describe idealized mixed units that have never actually existed. Officers learn to ignore official organization charts and build units from whoever shows up.
 
-**The Institute for Ordnance** A bureaucratic nightmare where official channels exist primarily as archaeological curiosities. Every weapon request routes through systems that haven't functioned since before the Charter. The real work happens through "supplementary procurement"â€”stealing from other units, buying from Colonels-Hereditary, or begging Mutterers to fix broken equipment. Also manages Companion Guild contracts, which are critical since Companions are the only ones who can prevent Mutterers from "optimizing" weapons into unusability. The Institute maintains the fiction that it controls Imperial armament while knowing that most functional weapons exist entirely outside their system.
+**The Institute for Ordnance** A bureaucratic nightmare where official channels exist primarily as archaeological curiosities. Every weapon request routes through systems that haven't functioned since before the Charter. The real work happens through "supplementary procurement"—stealing from other units, buying from Colonels-Hereditary, or begging Mutterers to fix broken equipment. Also manages Companion Guild contracts, which are critical since Companions are the only ones who can prevent Mutterers from "optimizing" weapons into unusability. The Institute maintains the fiction that it controls Imperial armament while knowing that most functional weapons exist entirely outside their system.
 
 **The Institute for Civil Order** The gendarme branch, managing everything from garrison duty to urban pacification to the delicate matter of enforcing Imperial law on populations that include armed veterans. Split between traditional Warborn terror-enforcement and newer doctrines of "administrative presence."
 
@@ -59,7 +59,7 @@ see_also:
 
 *Fortress Bellan* \- Produces survivors. The curriculum consists of whatever doesn't kill you. Local warbands occasionally probe the defenses "for practice."
 
-*"The Rock"* \- Formally known as "The Most Illustrious Colonel-Hereditary Garan es-Tollan Memorial Academy for Industrial Coordination Under the Auspices of the Third Oracle and the Perpetual Glory of the Unconquered Sun," though nobody has successfully said the full name since its founding. The es-Tollan family still runs it as a personal fiefdom, using Bureau funds to train officers who understand that war requires factories as much as tactics. Students learn to negotiate with Penitent unions, manage industrial logistics, and navigate the reality that controlling production matters more than winning battles. Known for producing officers who can actually get equipment from the Furnacesâ€”a skill worth more than any tactical brilliance.
+*"The Rock"* \- Formally known as "The Most Illustrious Colonel-Hereditary Garan es-Tollan Memorial Academy for Industrial Coordination Under the Auspices of the Third Oracle and the Perpetual Glory of the Unconquered Sun," though nobody has successfully said the full name since its founding. The es-Tollan family still runs it as a personal fiefdom, using Bureau funds to train officers who understand that war requires factories as much as tactics. Students learn to negotiate with Penitent unions, manage industrial logistics, and navigate the reality that controlling production matters more than winning battles. Known for producing officers who can actually get equipment from the Furnaces—a skill worth more than any tactical brilliance.
 
 ### **The Ordnance Catastrophe**
 
@@ -92,13 +92,13 @@ Modern Imperial doctrine has evolved into a functional combined arms approach th
 
 **Flank and Disrupt** \- Dragoon squadrons, typically mounted Springheels or near-baselines, sweep around fixed enemy positions. They dismount to deliver concentrated rifle fire from unexpected angles, then remount to exploit breakthroughs. The mobility compensates for the Empire's limited artillery, allowing rapid concentration of direct fire where needed.
 
-**Decisive Shock** \- Warborn deploy against enemy Warborn or breakthrough points. Their railguns and regeneration make them qualitatively superior to any equivalent force. Used correctlyâ€”concentrated, supported, and withdrawn before exhaustionâ€”they remain genuinely terrifying battlefield assets.
+**Decisive Shock** \- Warborn deploy against enemy Warborn or breakthrough points. Their railguns and regeneration make them qualitatively superior to any equivalent force. Used correctly—concentrated, supported, and withdrawn before exhaustion—they remain genuinely terrifying battlefield assets.
 
 **Fire Superiority** \- Direct fire dominates Imperial doctrine. Massed rifles, concentrated at decisive points, can shatter most opposition. Artillery exists primarily for counter-battery work, suppressing enemy indirect fire rather than providing primary support. This plays to Imperial strengths: disciplined fire control, superior small arms, and the ability to coordinate multiple units' direct fire onto single targets.
 
 ### **Psychological Warfare Through Archaeotech**
 
-The Colonel-Hereditary wunderwaffenâ€”plasma lances, gravitational hammers, coherent beam weaponsâ€”are deployed early for maximum psychological impact. Most are temperamental, with perhaps three shots before catastrophic failure, but those three shots can break enemy morale entirely. A plasma lance vaporizing an enemy command post in the opening minutes of battle often matters more than hours of conventional fire.
+The Colonel-Hereditary wunderwaffen—plasma lances, gravitational hammers, coherent beam weapons—are deployed early for maximum psychological impact. Most are temperamental, with perhaps three shots before catastrophic failure, but those three shots can break enemy morale entirely. A plasma lance vaporizing an enemy command post in the opening minutes of battle often matters more than hours of conventional fire.
 
 Smart commanders treat these weapons as single-use psychological tools rather than reliable systems. The enemy doesn't know the gravitational hammer only has one shot left. They just know their fortification was turned inside-out by impossible forces. Deploy early, dramatically, then let enemy imagination do more damage than the weapons ever could.
 
@@ -106,7 +106,7 @@ Smart commanders treat these weapons as single-use psychological tools rather th
 
 **Strong Within the Core** \- Operating from the Inner City, ya-Don, or other established centers, the Empire can assemble overwhelming force. Multiple bureaus coordinate, supply lines are secure, reinforcements are available. Here the Empire fights at full strength, and few enemies can match that strength.
 
-**Degrading at Distance** \- Each day's march from secure bases reduces capability. Supply convoys become vulnerable, coordination degrades, auxiliary reliability decreases. The Empire can project power perhaps two weeks from its coresâ€”enough to punish raiders, suppress rebellions, and maintain border integrity.
+**Degrading at Distance** \- Each day's march from secure bases reduces capability. Supply convoys become vulnerable, coordination degrades, auxiliary reliability decreases. The Empire can project power perhaps two weeks from its cores—enough to punish raiders, suppress rebellions, and maintain border integrity.
 
 **Local Superiority** \- The Empire rarely attempts total battlefield dominance. Instead, it achieves local superiority through concentration. Three battalions might be scattered across a province, but they'll concentrate to create 3:1 advantage at the point of decision. Win there, then disperse before supply problems accumulate.
 
@@ -114,7 +114,7 @@ Smart commanders treat these weapons as single-use psychological tools rather th
 
 Post-Compact reforms have created genuine military capability. Caste levy units aren't just conscript rabble but trained formations with standardized (if basic) equipment. The integration of different castes has revealed unexpected synergies. Artillery sections, while limited, provide capabilities the Charter banned. The auxiliary relationships, however mercenary, multiply available forces.
 
-The Empire isn't decliningâ€”it's adapting. Without orbital supremacy, it's developed ground-force doctrine that actually works. Without unlimited Warborn, it's learned combined arms. Without reliable high technology, it's mastered the application of direct fire and psychological warfare.
+The Empire isn't declining—it's adapting. Without orbital supremacy, it's developed ground-force doctrine that actually works. Without unlimited Warborn, it's learned combined arms. Without reliable high technology, it's mastered the application of direct fire and psychological warfare.
 
 ### **Successful Recent Operations**
 
@@ -128,7 +128,7 @@ The doctrine has proven itself in several recent engagements:
 
 ### **Limitations Acknowledged, Strengths Emphasized**
 
-The Empire can't be everywhere, can't fight everyone, can't maintain indefinite campaigns. But within its operational envelopeâ€”two weeks from secure bases, with decent terrain and clear objectivesâ€”it remains formidable. The combination of disciplined infantry firepower, mobile dragoon flanking, Warborn shock capability, and psychological archaeotech creates a military force that wins more often than it loses.
+The Empire can't be everywhere, can't fight everyone, can't maintain indefinite campaigns. But within its operational envelope—two weeks from secure bases, with decent terrain and clear objectives—it remains formidable. The combination of disciplined infantry firepower, mobile dragoon flanking, Warborn shock capability, and psychological archaeotech creates a military force that wins more often than it loses.
 
-The doctrine isn't about managing decline but maximizing capability within constraints. Every military faces limitations. The Empire has learned its own and developed doctrine that succeeds within them. That's not weaknessâ€”it's the kind of institutional wisdom that keeps empires functional.
+The doctrine isn't about managing decline but maximizing capability within constraints. Every military faces limitations. The Empire has learned its own and developed doctrine that succeeds within them. That's not weakness—it's the kind of institutional wisdom that keeps empires functional.
 

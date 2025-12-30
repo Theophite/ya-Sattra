@@ -14,7 +14,7 @@ see_also:
 
 **The Measure of Grain**
 
-Sri Collector Avit es-Drayem watched the grandmother weeping over her ledger book, calculating and recalculating numbers that wouldn't change. Her granddaughter, maybe fourteen, stood silent beside her, understanding what the numbers meant. Their farm's entire harvest lay in the Bureau wagons outsideâ€”every grain of itâ€”and it still wasn't enough.
+Sri Collector Avit es-Drayem watched the grandmother weeping over her ledger book, calculating and recalculating numbers that wouldn't change. Her granddaughter, maybe fourteen, stood silent beside her, understanding what the numbers meant. Their farm's entire harvest lay in the Bureau wagons outside—every grain of it—and it still wasn't enough.
 
 "The census recorded eight working-age adults in this household," Avit said, reviewing his own ledger. "The tax assessment assumes eight adults' productive capacity."
 
@@ -26,7 +26,7 @@ Sri Collector Avit es-Drayem watched the grandmother weeping over her ledger boo
 
 "That's a separate issue from tax compliance."
 
-The grandmother's hands shook as she turned pages, pointing to careful annotations. "Lookâ€”here. Every seed planted. Every handful of fertilizer. We worked eighteen-hour days. Kess missed her studies to work the fields. We grew everything possible with three people, but the assessmentâ€”"
+The grandmother's hands shook as she turned pages, pointing to careful annotations. "Look—here. Every seed planted. Every handful of fertilizer. We worked eighteen-hour days. Kess missed her studies to work the fields. We grew everything possible with three people, but the assessment—"
 
 "Assumes eight people. Yes." Avit gestured to his Warborn enforcer, Mul, who began loading the household goods onto a second wagon. "Property seizure to make up the shortfall. Standard procedure."
 
@@ -38,9 +38,9 @@ The girl, Kess, finally spoke. "Those are the weaving looms. We need them for wi
 
 "Again, that's a separate issue."
 
-Mul lifted the larger loom with his good armâ€”his other ended at the elbow, tumor removal that hadn't quite worked. The old Warborn avoided everyone's eyes. He'd been doing this for seven years, since his body failed too much for regular military service. He knew what happened to families after the looms were taken.
+Mul lifted the larger loom with his good arm—his other ended at the elbow, tumor removal that hadn't quite worked. The old Warborn avoided everyone's eyes. He'd been doing this for seven years, since his body failed too much for regular military service. He knew what happened to families after the looms were taken.
 
-"Please," the grandmother said. "I've paid taxes for forty years. Never missed once. The boys' deaths weren't recorded in time because the recorder was sick, the office was closed, we triedâ€”"
+"Please," the grandmother said. "I've paid taxes for forty years. Never missed once. The boys' deaths weren't recorded in time because the recorder was sick, the office was closed, we tried—"
 
 "I could file an appeal on your behalf," Avit offered. "The processing fee is two hundred obols."
 
@@ -58,13 +58,13 @@ Avit had seen it hundreds of times. It was, in fact, the most common outcome.
 
 "Yes, that does increase her value. Fewer complications."
 
-Kess looked between her grandmother and Avit. She understood the real offer. Seven years as a Bureau clerk was the official paperwork. The reality would be whatever the Bureau neededâ€”clerk, certainly, but also everything else young women were useful for in provincial offices where oversight was thin and complaints went nowhere.
+Kess looked between her grandmother and Avit. She understood the real offer. Seven years as a Bureau clerk was the official paperwork. The reality would be whatever the Bureau needed—clerk, certainly, but also everything else young women were useful for in provincial offices where oversight was thin and complaints went nowhere.
 
 "I'll need a day to decide," Kess said.
 
 "The offer expires when I leave. The caravan moves at dawn."
 
-That night, Avit dined with the local village headman, who thanked him for his efficient collection. The headman's own tax had been surprisingly lowâ€”the census had somehow missed his three adult sons, recording them as children despite their beards. Amazing what the census missed when you knew which recorder to bribe.
+That night, Avit dined with the local village headman, who thanked him for his efficient collection. The headman's own tax had been surprisingly low—the census had somehow missed his three adult sons, recording them as children despite their beards. Amazing what the census missed when you knew which recorder to bribe.
 
 "The Pel family," the headman mentioned casually, referring to the grandmother and granddaughter. "They've been difficult lately. Complaining about the irrigation schedule, questioning the seed distribution. It's good they're learning about proper compliance."
 
@@ -78,7 +78,7 @@ At dawn, Kess arrived at the caravan with a small bundle. Her grandmother wasn't
 
 She pressed her thumb to the blood-lock seal. The contract was in legal script she couldn't read, terms she wouldn't understand until too late. But it would keep her grandmother alive through winter, possibly spring. After that, who knew?
 
-As the caravan pulled away, Avit updated his ledger. Taxes collected in full, plus one clerk indenture valued at three hundred obols (he'd report it as one hundred, pocket the difference). The grandmother would survive on Bureau charity grainâ€”just enough to keep her alive so the land wouldn't go completely fallow. Next year, she'd be taxed for eight adults again unless she paid for a census correction.
+As the caravan pulled away, Avit updated his ledger. Taxes collected in full, plus one clerk indenture valued at three hundred obols (he'd report it as one hundred, pocket the difference). The grandmother would survive on Bureau charity grain—just enough to keep her alive so the land wouldn't go completely fallow. Next year, she'd be taxed for eight adults again unless she paid for a census correction.
 
 She wouldn't be able to pay.
 

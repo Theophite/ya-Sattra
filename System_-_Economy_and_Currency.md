@@ -30,9 +30,9 @@ see_also:
 
 ### **Executive Summary**
 
-This document establishes the economic framework for the Post-Interdict Empire and surrounding territories: currency systems, wage scales, price benchmarks, and the distinct economic logics operating in each region. The baseline is subsistenceâ€”what a person needs to survive in ya-Sattraâ€”against which all other incomes and prices are measured. The document covers six distinct economic systems: the Imperial rent-extraction economy, ya-Don's Church-Guild complex, Ganat's kilit corporatism, ya-Tsatsa's Presence-guided distribution, AsovoÃ«'s house allocation, and the Thousand Kingdoms' gambling redistribution.
+This document establishes the economic framework for the Post-Interdict Empire and surrounding territories: currency systems, wage scales, price benchmarks, and the distinct economic logics operating in each region. The baseline is subsistence—what a person needs to survive in ya-Sattra—against which all other incomes and prices are measured. The document covers six distinct economic systems: the Imperial rent-extraction economy, ya-Don's Church-Guild complex, Ganat's kilit corporatism, ya-Tsatsa's Presence-guided distribution, Asovoë's house allocation, and the Thousand Kingdoms' gambling redistribution.
 
-The central finding is that none of these systems resemble capitalism as historically practiced. All feature hereditary position over market competition, rent extraction over production, and religious or kinship structures constraining economic behavior. The surface forms of capitalism appear everywhereâ€”currency, prices, wages, tradeâ€”but the underlying logic differs fundamentally.
+The central finding is that none of these systems resemble capitalism as historically practiced. All feature hereditary position over market competition, rent extraction over production, and religious or kinship structures constraining economic behavior. The surface forms of capitalism appear everywhere—currency, prices, wages, trade—but the underlying logic differs fundamentally.
 
 This document should be consulted whenever writing about money, wages, prices, trade, or economic conditions. Character income levels, purchasing decisions, and economic anxieties should reference these benchmarks for consistency.
 
@@ -44,7 +44,7 @@ This document should be consulted whenever writing about money, wages, prices, t
 
 **The Three-Tier Imperial Market** explains how guild monopolies, ya-Don production, and reconditioned archaeotech create distinct pricing tiers for consumer goods.
 
-**Regional Economic Systems** covers each major territory's distinct economic logic: Imperial rent-extraction, ya-Don's sacred labor, Ganati competitive philanthropy, ya-Tsatsa's optimized distribution, AsovoÃ«'s house allocation, and Akama gambling redistribution.
+**Regional Economic Systems** covers each major territory's distinct economic logic: Imperial rent-extraction, ya-Don's sacred labor, Ganati competitive philanthropy, ya-Tsatsa's optimized distribution, Asovoë's house allocation, and Akama gambling redistribution.
 
 **Character Economics** provides income profiles across the wealth spectrum, from destitute couriers through wealthy Aureates, with spending patterns and economic anxieties for each level.
 
@@ -81,7 +81,7 @@ This document should be consulted whenever writing about money, wages, prices, t
 
 **Character type combined with "income" retrieves spending profiles.** "Dock worker income" or "Aureate income" or "courier wages" retrieves appropriate economic brackets.
 
-**Location combined with "economy" retrieves regional system.** "Ya-Don economy" retrieves Church-Guild dynamics. "Ganat economy" retrieves kilit structure. "AsovoÃ« economy" retrieves house allocation.
+**Location combined with "economy" retrieves regional system.** "Ya-Don economy" retrieves Church-Guild dynamics. "Ganat economy" retrieves kilit structure. "Asovoë economy" retrieves house allocation.
 
 **"Subsistence" or "Kess" retrieves the baseline benchmark.** The courier Kess establishes minimum survival economics: 90-100 obols/month for housing and food.
 
@@ -93,7 +93,7 @@ This document should be consulted whenever writing about money, wages, prices, t
 
 ### **The Obol Standard**
 
-The Imperial obol serves as the universal unit of account. Regional currencies existâ€”the Ganati dinar, various Thousand Kingdoms scripâ€”but all convert to obol-equivalents for trade and comparison. Many, the banking organism, maintains exchange rates through mechanisms no one fully understands but everyone accepts.
+The Imperial obol serves as the universal unit of account. Regional currencies exist—the Ganati dinar, various Thousand Kingdoms scrip—but all convert to obol-equivalents for trade and comparison. Many, the banking organism, maintains exchange rates through mechanisms no one fully understands but everyone accepts.
 
 The obol divides into smaller units for daily transactions. Beer costs a sixteenth of an obol; a basic meal runs an eighth to a quarter obol. Workers think in obols; merchants calculate in hundreds; Aureate families measure wealth in millions.
 
@@ -103,11 +103,11 @@ Subsistence economics are calibrated against Kess, a courier working the Rotten 
 
 **Courier income:** Routine deliveries pay 2 obols; difficult routes through dangerous territory pay 4-5 obols. Working for established merchants like Sela Ohn yields 3-4 deliveries weekly, producing 6-12 obols per week. A functional courier working steadily earns 80-120 obols monthly.
 
-**Minimum expenses:** Bunkhouse rent at establishments like Shale Rest runs 5 obols weekly (approximately 20-22 obols monthly) for a shared bunk with access to common facilities. Daily food sufficient for survival costs 1.5-2 obolsâ€”three or four street meals, or ingredients for simple cooking.
+**Minimum expenses:** Bunkhouse rent at establishments like Shale Rest runs 5 obols weekly (approximately 20-22 obols monthly) for a shared bunk with access to common facilities. Daily food sufficient for survival costs 1.5-2 obols—three or four street meals, or ingredients for simple cooking.
 
-**The subsistence threshold:** A functional courier earning 90-110 obols monthly can maintain a bunk and eat adequately. Below thisâ€”at 40-60 obols monthlyâ€”a person sleeps rough, doesn't eat daily, and owns nothing. This is destitution, not subsistence.
+**The subsistence threshold:** A functional courier earning 90-110 obols monthly can maintain a bunk and eat adequately. Below this—at 40-60 obols monthly—a person sleeps rough, doesn't eat daily, and owns nothing. This is destitution, not subsistence.
 
-**Parish capitation:** The 40-obol annual tax for legal Penitent practice represents roughly half a month's income at subsistence levelâ€”a significant burden that many working poor pay in installments or simply cannot afford.
+**Parish capitation:** The 40-obol annual tax for legal Penitent practice represents roughly half a month's income at subsistence level—a significant burden that many working poor pay in installments or simply cannot afford.
 
 ### **Wage and Price Framework**
 
@@ -145,8 +145,8 @@ All figures in obols unless otherwise specified.
 | Basic shirt | 3-4 obols | 1-1.5 obols | Guild lasts years; unlicensed wears quickly |
 | Trousers | 4-5 obols | 1.5-2 obols |  |
 | Complete outfit | 12-18 obols | 4-6 obols | Shirt, trousers, basic footwear |
-| Quality outfit | 25-40 obols | â€” | Guild standard, good fabric |
-| Aureate formal | 200+ obols | â€” | Geometric cuts, fine materials |
+| Quality outfit | 25-40 obols | — | Guild standard, good fabric |
+| Aureate formal | 200+ obols | — | Geometric cuts, fine materials |
 
 ---
 
@@ -156,23 +156,23 @@ Consumer goods in the Empire flow through three distinct channels, each with dif
 
 ### **Tier One: Conventional Guild Production**
 
-Most everyday goodsâ€”clothing, food, copper vessels, furniture, beerâ€”come from guild workshops operating under ancient charters. These are not archaeotech products; they're ordinary handcraft produced by workers following traditional methods.
+Most everyday goods—clothing, food, copper vessels, furniture, beer—come from guild workshops operating under ancient charters. These are not archaeotech products; they're ordinary handcraft produced by workers following traditional methods.
 
 Guild pricing reflects monopoly markup rather than patent rents. The Clothiers' Guild controls textile production in ya-Sattra not because they hold computational patents but because their charter grants exclusive rights. A guild-made shirt costs 3-4 obols and lasts years. The price includes materials, labor, and the premium extracted by guild restriction of competition.
 
-Guild goods are high quality and durable. Working families buy them when they can afford toâ€”a new shirt perhaps twice yearly, a complete outfit when the old one cannot be mended further. A complete guild outfit at 12-18 obols represents roughly a week's wages for a dock workerâ€”significant, but achievable with saving.
+Guild goods are high quality and durable. Working families buy them when they can afford to—a new shirt perhaps twice yearly, a complete outfit when the old one cannot be mended further. A complete guild outfit at 12-18 obols represents roughly a week's wages for a dock worker—significant, but achievable with saving.
 
 ### **Tier Two: Ya-Don Production**
 
-Complex technologyâ€”lectors, lighting systems, electronics, medical equipment, weaponsâ€”comes only from the Furnaces of ya-Don. These goods require patent authentication; the es-Tsay lector patent alone processes four million obols daily in authentication fees.
+Complex technology—lectors, lighting systems, electronics, medical equipment, weapons—comes only from the Furnaces of ya-Don. These goods require patent authentication; the es-Tsay lector patent alone processes four million obols daily in authentication fees.
 
-This is the narrow category where patent rents concentrate. Most people don't buy from this tier regularly. A household lector costs 400-600 obolsâ€”a year's savings for a skilled artisan, impossible for a dock worker without inheritance or extraordinary fortune. Such items become family heirlooms, inherited across generations or obtained through fortunate marriage.
+This is the narrow category where patent rents concentrate. Most people don't buy from this tier regularly. A household lector costs 400-600 obols—a year's savings for a skilled artisan, impossible for a dock worker without inheritance or extraordinary fortune. Such items become family heirlooms, inherited across generations or obtained through fortunate marriage.
 
 The distinction matters: patent extraction occurs in specific transactions (buying a lector, receiving certified medical treatment) rather than being built into bread prices.
 
 ### **Tier Three: Unlicensed and Import Goods**
 
-Below guild production exists a market for cheaper alternatives. Unlicensed workshops produce lower-quality goods at lower pricesâ€”a shirt for 1-1.5 obols that wears out in months and marks the wearer as poor.
+Below guild production exists a market for cheaper alternatives. Unlicensed workshops produce lower-quality goods at lower prices—a shirt for 1-1.5 obols that wears out in months and marks the wearer as poor.
 
 Ganati imports compete in this space but with better quality. Maguey-silk fabric from Republican workshops costs 2 obols per length; copper vessels run 4-6 obols. The quality approaches guild goods at prices the working poor can afford. The Ganati enclave in ya-Sattra exists because Imperial consumers need goods the guild system won't provide at accessible prices.
 
@@ -213,7 +213,7 @@ This creates an economy of inherited position rather than market competition. Th
 
 ### **Ya-Don: Sacred Labor and Compressed Wages**
 
-Ya-Don operates under fundamentally different principles. The Order of St. Akhmet controls the Furnaces through knowledge that cannot be extractedâ€”it exists in human hands and minds, transmitted through apprenticeship. This gives labor absolute power in ways capitalism systematically prevents.
+Ya-Don operates under fundamentally different principles. The Order of St. Akhmet controls the Furnaces through knowledge that cannot be extracted—it exists in human hands and minds, transmitted through apprenticeship. This gives labor absolute power in ways capitalism systematically prevents.
 
 The religious framework shapes economic outcomes. Work is penitential labor demonstrating humanity's growing wisdom. Wages compress because theology demands it; the Forge-Master earning 700-850 obols monthly while journeymen earn 280-350 obols represents far less inequality than comparable capitalist enterprises.
 
@@ -231,13 +231,13 @@ The es-Etaie capitation arrangement exemplifies non-capitalist logic: one family
 
 **Cost of living:** Lower than ya-Sattra. Housing in the Threshold runs 50-80 obols monthly. Subsidized meals at Shift Halls reduce food costs significantly. Guild dues and tithes consume 15-20% of income but provide collective services.
 
-**Historical parallel:** Guild socialism as theorized by G.D.H. Coleâ€”worker-controlled enterprises operating through functional democracyâ€”combined with medieval religious orders managing economic production.
+**Historical parallel:** Guild socialism as theorized by G.D.H. Cole—worker-controlled enterprises operating through functional democracy—combined with medieval religious orders managing economic production.
 
 ### **Ganat: Competitive Philanthropy**
 
 The Republic merges economic and political units through the kilit system. Your workplace votes; your workplace holds Senate seats; your workplace provides collective services. The Khen-Masot Textile Enterprise employs workers, generates trade, subsidizes electricity for 15,000 households, and holds a Senator's seat.
 
-Works-based atonement theology creates obligations capitalism doesn't recognize. Accumulation is legitimate only if demonstrated to serve collective capacity. The monthly subsidy plaquesâ€”"This month's collective service: 2,847 dinars below cost"â€”are theological documentation, not advertising.
+Works-based atonement theology creates obligations capitalism doesn't recognize. Accumulation is legitimate only if demonstrated to serve collective capacity. The monthly subsidy plaques—"This month's collective service: 2,847 dinars below cost"—are theological documentation, not advertising.
 
 Universal electrification matters enormously. Every Taho worker experiences the revolution's material achievement through subsidized power. This isn't a welfare state bolted onto capitalism; the subsidy is constitutive of system legitimacy.
 
@@ -254,11 +254,11 @@ Universal electrification matters enormously. Every Taho worker experiences the 
 
 **Cost of living:** Higher than ya-Sattra due to altitude. Food imports make meals 20-30% more expensive. Subsidized power (1.5-2 dinars monthly) partially offsets these costs.
 
-**Historical parallel:** Yugoslav self-management socialism combined with Protestant work ethic invertedâ€”accumulation is spiritually dangerous unless demonstrated to benefit others.
+**Historical parallel:** Yugoslav self-management socialism combined with Protestant work ethic inverted—accumulation is spiritually dangerous unless demonstrated to benefit others.
 
 ### **Ya-Tsatsa: Optimized Distribution**
 
-Something sets prices that isn't human. The Presence optimizes for "collective transmission"â€”whatever that meansâ€”and the economy serves that optimization rather than individual preferences.
+Something sets prices that isn't human. The Presence optimizes for "collective transmission"—whatever that means—and the economy serves that optimization rather than individual preferences.
 
 The software corporation worker is content but doesn't know why. She doesn't experience coercion, but she's not making fully autonomous choices either. The distinction between free market and managed system becomes impossible to draw.
 
@@ -274,17 +274,17 @@ External trade operates normally. Ezh Tan banking follows recognizable practices
 
 **Distinctive feature:** Wages compress compared to Imperial equivalents. The Presence prevents inequality that would disrupt the patterns it maintains. A software worker earns well but cannot accumulate dramatically. Expenses somehow always rise to match income in ways that feel natural.
 
-**Historical parallel:** Algorithmic management taken to its logical conclusionâ€”optimization by something genuinely superintelligent and genuinely benevolent by its own incomprehensible standards.
+**Historical parallel:** Algorithmic management taken to its logical conclusion—optimization by something genuinely superintelligent and genuinely benevolent by its own incomprehensible standards.
 
-### **AsovoÃ«: House Allocation**
+### **Asovoë: House Allocation**
 
-The Avouvar economy operates through distribution rather than markets. You belong to your house; your house allocates based on your position. There is no labor marketâ€”house membership is biological destiny determined at birth.
+The Avouvar economy operates through distribution rather than markets. You belong to your house; your house allocates based on your position. There is no labor market—house membership is biological destiny determined at birth.
 
 The autofactory eliminates production economics. The Smelters don't produce metal through labor and capital; they collect outputs from terminals that extrude according to schedules no one controls. Production is exogenous; only distribution and exchange remain.
 
 Immortality transforms economic thinking completely. What does saving mean when you might live seven hundred years? Elder Koratvelan has managed his faction for centuries; his planning operates on scales that make any human institution seem ephemeral.
 
-**Allocation in AsovoÃ« (obol equivalents):**
+**Allocation in Asovoë (obol equivalents):**
 
 | Position | Monthly Equivalent |
 | ----- | ----- |
@@ -293,7 +293,7 @@ Immortality transforms economic thinking completely. What does saving mean when 
 | Factoria factor | 100-150 obols cash (aging cost) |
 | Faction elder | Unlimited draw from faction resources |
 
-**External trade:** Factors at San Juan negotiate in obols, calculate margins, seek profit. The factorias are where AsovoÃ«'s distributive economy interfaces with the exchange economy of the broader world.
+**External trade:** Factors at San Juan negotiate in obols, calculate margins, seek profit. The factorias are where Asovoë's distributive economy interfaces with the exchange economy of the broader world.
 
 **Historical parallel:** Greek oikos economy combined with Bronze Age redistributive palace systems. The autofactory functions like a palace's agricultural hinterland; the houses distribute what it provides.
 
@@ -324,13 +324,13 @@ The salmon economy is seasonal and non-accumulable. For six weeks everyone feast
 
 ### **Destitute (40-70 obols/month)**
 
-**Profile:** Kess the courier at her lowest. Sleeps rough or in doorways. Eats irregularlyâ€”perhaps every other day. Owns the clothes on her back and nothing else. Cannot pay parish capitation; religious observance is inaccessible.
+**Profile:** Kess the courier at her lowest. Sleeps rough or in doorways. Eats irregularly—perhaps every other day. Owns the clothes on her back and nothing else. Cannot pay parish capitation; religious observance is inaccessible.
 
 **Anxieties:** Next meal. Whether tonight's shelter will be safe. Illness that cannot be treated. Violence from those slightly less desperate.
 
 ### **Subsistence (90-120 obols/month)**
 
-**Profile:** Functional Rotten Quarter worker. Bunkhouse at 20-22 obols monthly. Food at 45-55 obols. Perhaps 15-20 obols for clothing, miscellaneous, small emergencies. One setbackâ€”injury, illness, theftâ€”means dropping to destitution.
+**Profile:** Functional Rotten Quarter worker. Bunkhouse at 20-22 obols monthly. Food at 45-55 obols. Perhaps 15-20 obols for clothing, miscellaneous, small emergencies. One setback—injury, illness, theft—means dropping to destitution.
 
 **Anxieties:** Maintaining the current level. Any unexpected expense. The knowledge that little margin exists.
 
@@ -346,7 +346,7 @@ The salmon economy is seasonal and non-accumulable. For six weeks everyone feast
 
 **Profile:** Skilled artisan or junior clerk. Private room at 70-100 obols. Guild goods occasionally. Slow accumulation toward major purchases.
 
-**Spending pattern:** One or two guild garments yearly. Occasional teahouse visits. Savingâ€”over yearsâ€”toward a household lector or better housing.
+**Spending pattern:** One or two guild garments yearly. Occasional teahouse visits. Saving—over years—toward a household lector or better housing.
 
 **Anxieties:** Falling backward through illness or misfortune. Children's prospects. The gap between current position and visible wealth above.
 
@@ -384,7 +384,7 @@ The salmon economy is seasonal and non-accumulable. For six weeks everyone feast
 
 **Status determined by birth.** Caste, house, family, kilit membership matter more than individual achievement. You can rise within your category, but categories are fixed.
 
-**Rent extraction dominant.** Aureate authentication, guild monopolies, warband tribute, house distributionâ€”production happens, but production isn't where power lies.
+**Rent extraction dominant.** Aureate authentication, guild monopolies, warband tribute, house distribution—production happens, but production isn't where power lies.
 
 **Religion pervades economics.** The Penitent Church legitimizes ya-Don's unions and Ganat's wealth-through-service. Oracle theology structures ya-Tsatsa's opacity. Akama fortune theology makes gambling sacred. No wall separates economic and religious spheres.
 
@@ -392,7 +392,7 @@ The salmon economy is seasonal and non-accumulable. For six weeks everyone feast
 
 Private property exists in modified forms. Currency mediates exchange. Profit motives operate within constraints. Markets function at various scales. Trade crosses boundaries between systems.
 
-The forms of capitalism appear everywhere. The logic of capitalismâ€”free markets in labor, goods, and capital; production for profit in competitive markets; creative destruction through innovationâ€”is absent everywhere.
+The forms of capitalism appear everywhere. The logic of capitalism—free markets in labor, goods, and capital; production for profit in competitive markets; creative destruction through innovation—is absent everywhere.
 
 ### **Historical Parallels Summary**
 
@@ -402,7 +402,7 @@ The forms of capitalism appear everywhere. The logic of capitalismâ€”free m
 | Ya-Don | Guild socialism | Religious orders, Catholic corporatism |
 | Ganat | Yugoslav self-management | Revolutionary France, inverted Protestant ethic |
 | Ya-Tsatsa | Algorithmic management | Inca mit'a, theocratic economics |
-| AsovoÃ« | Greek oikos, Bronze Age palaces | Pacific Northwest potlatch |
+| Asovoë | Greek oikos, Bronze Age palaces | Pacific Northwest potlatch |
 | Thousand Kingdoms | Potlatch economics | Central Asian pastoral, Stoic ethics |
 
 ---
@@ -440,7 +440,7 @@ The following economic facts are established and must not be contradicted:
 
 * Ya-Don wages compress due to theological constraints  
 * Taho wages run higher than ya-Sattra due to altitude costs  
-* AsovoÃ« operates through house allocation, not wages
+* Asovoë operates through house allocation, not wages
 
 ---
 
@@ -452,7 +452,7 @@ The following economic facts are established and must not be contradicted:
 
 **Conflating patent rents with production.** Aureate families extract rents from authentication; they don't produce goods. The es-Tsay wealth comes from taxing computation, not from making lectors.
 
-**Applying capitalist assumptions to non-capitalist systems.** AsovoÃ« elders don't "invest" in the capitalist senseâ€”they allocate across centuries. Akama warbands don't "pay" warriorsâ€”they share what fortune provides.
+**Applying capitalist assumptions to non-capitalist systems.** Asovoë elders don't "invest" in the capitalist sense—they allocate across centuries. Akama warbands don't "pay" warriors—they share what fortune provides.
 
 **Forgetting the religious dimension.** Economic behavior is shaped by theological frameworks in every region. Ya-Don workers tithe. Ganati merchants demonstrate works-based atonement. Akama redistribute through gambling because direct aid violates sacred principles.
 
@@ -464,9 +464,9 @@ The following economic facts are established and must not be contradicted:
 
 ## **Executive Summary**
 
-This document profiles economic institutions across the six major regions: ya-Sattra, ya-Don, Ganat, ya-Tsatsa, AsovoÃ«, and the Thousand Kingdoms. For each institution, it describes cash flow (where money comes from and goes), decision-making structures, and the relationship between institutional form and regional economic logic.
+This document profiles economic institutions across the six major regions: ya-Sattra, ya-Don, Ganat, ya-Tsatsa, Asovoë, and the Thousand Kingdoms. For each institution, it describes cash flow (where money comes from and goes), decision-making structures, and the relationship between institutional form and regional economic logic.
 
-The institutions demonstrate how different economic systems produce different organizational forms. Imperial institutions extract rents through monopoly and authentication. Ya-Don institutions merge religious authority with labor power. Ganati institutions blend commerce with competitive philanthropy. Ya-Tsatsa institutions operate according to logics their participants don't fully understand. AsovoÃ« institutions distribute autofactory outputs through house allocation. Thousand Kingdoms institutions redistribute through gambling and obligation rather than formal organization.
+The institutions demonstrate how different economic systems produce different organizational forms. Imperial institutions extract rents through monopoly and authentication. Ya-Don institutions merge religious authority with labor power. Ganati institutions blend commerce with competitive philanthropy. Ya-Tsatsa institutions operate according to logics their participants don't fully understand. Asovoë institutions distribute autofactory outputs through house allocation. Thousand Kingdoms institutions redistribute through gambling and obligation rather than formal organization.
 
 ---
 
@@ -474,7 +474,7 @@ The institutions demonstrate how different economic systems produce different or
 
 ### **Many's Countinghouse (Empire-Wide)**
 
-**What it does:** Banking, contract witnessing, deposit services, arbitration. Many is a colonial polychaete organismâ€”thousands of specialized worm-segments functioning as a single consciousnessâ€”that has become the Empire's de facto central banking system. Critically, Many exists simultaneously in every major human city, not as franchises but as literally the same organism. Bundles of zooids travel with merchant caravans, carrying memories and contracts between locations. When these bundles merge with local counting houses, they're not reporting information but reintegrating parts of Many's distributed consciousness.
+**What it does:** Banking, contract witnessing, deposit services, arbitration. Many is a colonial polychaete organism—thousands of specialized worm-segments functioning as a single consciousness—that has become the Empire's de facto central banking system. Critically, Many exists simultaneously in every major human city, not as franchises but as literally the same organism. Bundles of zooids travel with merchant caravans, carrying memories and contracts between locations. When these bundles merge with local counting houses, they're not reporting information but reintegrating parts of Many's distributed consciousness.
 
 **Cash flow in:**
 
@@ -491,9 +491,9 @@ The institutions demonstrate how different economic systems produce different or
 * Ta-Kefyeh enforcement contracts: \~200,000 obols/year for queue discipline and security  
 * Facility maintenance: \~150,000 obols/year (the countinghouse on Booksellers' Row requires constant adaptation for human interface)  
 * Vendetta funds: Unknown amount set aside in trust for permanent consequences against contract violators  
-* Nothing on executive compensation, shareholder returns, or biological needsâ€”Many requires only organic matter to grow additional zooids
+* Nothing on executive compensation, shareholder returns, or biological needs—Many requires only organic matter to grow additional zooids
 
-**Decision-making:** Many cannot lie, cannot understand politics, cannot model individual consciousness. Decisions emerge from biological processes that embody contracts as neural tissue. When Many creates an agreement, it literally grows brain matter configured to that agreement, making violation physically impossible. Lending decisions follow mechanical risk assessmentâ€”Many optimizes expected value across infinite time horizons, which produces decisions that seem irrational on human timescales but are mathematically optimal given immortality.
+**Decision-making:** Many cannot lie, cannot understand politics, cannot model individual consciousness. Decisions emerge from biological processes that embody contracts as neural tissue. When Many creates an agreement, it literally grows brain matter configured to that agreement, making violation physically impossible. Lending decisions follow mechanical risk assessment—Many optimizes expected value across infinite time horizons, which produces decisions that seem irrational on human timescales but are mathematically optimal given immortality.
 
 **Distinctive feature:** The famous egalitarian queue. Ta-Kefyeh guards physically remove anyone attempting to skip ahead regardless of status. Many will spend millions defending this principle because the queue is a contract, and contracts are absolute. This creates the only truly egalitarian space in ya-Sattra.
 
@@ -501,7 +501,7 @@ The institutions demonstrate how different economic systems produce different or
 
 ### **The Salvage Guild (Empire-Wide)**
 
-**What it does:** Monopoly charter for processing, certifying, and selling materials recovered from pre-Interdict ruins throughout Imperial territory. Operates under legal fiction that all salvage is "pre-Interdict" to avoid patent authentication requirements. The Guild is one of the cornerstones of the Imperial economyâ€”nothing salvaged anywhere in the Empire can be legally sold without Guild certification.
+**What it does:** Monopoly charter for processing, certifying, and selling materials recovered from pre-Interdict ruins throughout Imperial territory. Operates under legal fiction that all salvage is "pre-Interdict" to avoid patent authentication requirements. The Guild is one of the cornerstones of the Imperial economy—nothing salvaged anywhere in the Empire can be legally sold without Guild certification.
 
 **Scale of operations:**
 
@@ -521,7 +521,7 @@ The institutions demonstrate how different economic systems produce different or
 * Credit system interest (3% monthly on loans to salvagers): 500,000-1 million obols/year  
 * Real estate holdings accumulated over millennia: substantial rental income
 
-**Annual revenue:** Perhaps 20-35 million obols, making the Guild one of the wealthiest non-Aureate institutions in the Empireâ€”comparable to a mid-tier Aureate patent family. The Guild's economic weight rivals that of minor Bureau operations.
+**Annual revenue:** Perhaps 20-35 million obols, making the Guild one of the wealthiest non-Aureate institutions in the Empire—comparable to a mid-tier Aureate patent family. The Guild's economic weight rivals that of minor Bureau operations.
 
 **Cash flow out:**
 
@@ -534,11 +534,11 @@ The institutions demonstrate how different economic systems produce different or
 * Pension fund: nominally funded, actually underfunded  
 * Reserve accumulation: The Guild maintains substantial reserves in multiple currencies and commodities
 
-**Decision-making:** The Grandmaster is selected through weighted voting where masters' votes count proportionally to revenue contribution. Seven standing committees manage operations from ya-Sattra headquarters. The 147 master memberships, fixed by charter, create an aristocracyâ€”real decisions happen through informal negotiation among the sixty or so working masters who actively manage operations. Branch operations have significant autonomy but must follow headquarters certification standards.
+**Decision-making:** The Grandmaster is selected through weighted voting where masters' votes count proportionally to revenue contribution. Seven standing committees manage operations from ya-Sattra headquarters. The 147 master memberships, fixed by charter, create an aristocracy—real decisions happen through informal negotiation among the sixty or so working masters who actively manage operations. Branch operations have significant autonomy but must follow headquarters certification standards.
 
 **Distinctive features:**
 
-The Guild maintains two sets of ledgers. The "White Books" satisfy Bureau auditors; the "Grey Books" record actual transactions including patent violations. Everyone knows. The perpetual lawsuit with Rod families ensures the system continuesâ€”both parties benefit from legal ambiguity that neither wants resolved.
+The Guild maintains two sets of ledgers. The "White Books" satisfy Bureau auditors; the "Grey Books" record actual transactions including patent violations. Everyone knows. The perpetual lawsuit with Rod families ensures the system continues—both parties benefit from legal ambiguity that neither wants resolved.
 
 The certification monopoly is the Guild's true power. A salvager in Ogon who finds valuable archaeotech cannot sell it to Imperial buyers without Guild certification. The frontier factors who purchase this material are Guild employees or licensed contractors. The certification stamps that make gray market goods into white market goods are Guild property. This creates a chokepoint that no amount of independent salvage work can bypass.
 
@@ -546,7 +546,7 @@ The certification monopoly is the Guild's true power. A salvager in Ogon who fin
 
 ### **The Companions Guild (Empire-Wide)**
 
-**What it does:** Absolute monopoly over the care and management of semi-sentient beings (Mutterers, kalbats, and the Sickly) throughout Imperial territory. Descended from the Witnessesâ€”mathematician-priests who attended the Technical Castes before the Interdictâ€”the Guild represents both practical necessity and living penance for humanity's greatest failure. They operate the Empire's hospice system in partnership with the Bureau of the Creche and the Penitent Church.
+**What it does:** Absolute monopoly over the care and management of semi-sentient beings (Mutterers, kalbats, and the Sickly) throughout Imperial territory. Descended from the Witnesses—mathematician-priests who attended the Technical Castes before the Interdict—the Guild represents both practical necessity and living penance for humanity's greatest failure. They operate the Empire's hospice system in partnership with the Bureau of the Creche and the Penitent Church.
 
 **Scale of operations:**
 
@@ -559,7 +559,7 @@ The certification monopoly is the Guild's true power. A salvager in Ogon who fin
 
 **Cash flow in:**
 
-* Bureau of the Rod contracts (40% of revenue): Infrastructure maintenance through managed Mutterer choirsâ€”this is essential work maintaining everything from water systems to Inner City facilities. Perhaps 4-6 million obols/year.  
+* Bureau of the Rod contracts (40% of revenue): Infrastructure maintenance through managed Mutterer choirs—this is essential work maintaining everything from water systems to Inner City facilities. Perhaps 4-6 million obols/year.  
 * Bureau of the Creche contracts: Hospice operations, Sickly management, serum production licensing. Perhaps 2-3 million obols/year.  
 * Private Mutterer choir rentals: Daily rates to Salvage Guild (for arbitration), private workshops, construction projects. Perhaps 1-2 million obols/year.  
 * Serum sales: The Sickly produce antibody-rich serums the Guild harvests and sells. Perhaps 1-2 million obols/year.  
@@ -574,13 +574,13 @@ The certification monopoly is the Guild's true power. A salvager in Ogon who fin
 * Hospice operations: Medical supplies, facilities, staff support across dozens of facilities. Perhaps 2-3 million obols/year.  
 * Mutterer care: Food, housing, medical treatment, the constant repairs when they modify each other. Perhaps 1-2 million obols/year.  
 * Sickly care: Specialized facilities, emotional support during harvest cycles, the sweet-smelling wards. Perhaps 500,000-1 million obols/year.  
-* Kalbat maintenance: The Monastery of the Silent Song is expensive to operateâ€”specialized care for beings in permanent dream-states. Perhaps 500,000 obols/year.  
+* Kalbat maintenance: The Monastery of the Silent Song is expensive to operate—specialized care for beings in permanent dream-states. Perhaps 500,000 obols/year.  
 * Cathedral and Archive maintenance: The Cathedral of the Plea contains irreplaceable Technical Caste documents. Perhaps 300,000 obols/year.  
-* Bureau relationships: Unlike the Salvage Guild, the Companions maintain relationships through service rather than bribesâ€”but political operations still cost money.
+* Bureau relationships: Unlike the Salvage Guild, the Companions maintain relationships through service rather than bribes—but political operations still cost money.
 
 **Decision-making:**
 
-The Guild hierarchy runs from Initiate through Keeper, Companion, and Sri Companion to the Master of the Guild. The Master holds ultimate authority but exercises it rarelyâ€”daily operations flow through chapter houses with significant autonomy.
+The Guild hierarchy runs from Initiate through Keeper, Companion, and Sri Companion to the Master of the Guild. The Master holds ultimate authority but exercises it rarely—daily operations flow through chapter houses with significant autonomy.
 
 The Cathedral Council (senior Sri Companions) advises on policy affecting the entire Guild. Political factions exist: Sri Companion Vel's faction keeps Bureau choirs heavily domesticated for safety; Sri Companion Ashke's faction maintains strict professional formality with the Creche; others balance different client relationships.
 
@@ -588,17 +588,17 @@ The Guild's impossible position shapes all decisions: they are absolutely essent
 
 **Distinctive features:**
 
-The Guild preserves fragments of pre-Interdict knowledge that no one else can accessâ€”partial understanding of the jargon (mathematical proof language), harmonic frequencies derived from study of the Arbitrary Truths, techniques for interrupting dangerous cognitive cascades. The archives beneath the Cathedral of the Plea contain Technical Caste documents written in the jargon that might explain the Eighth Oracle's flaw and the path to humanity's freedom. The Guild possesses the only means to potentially access these through Mutterer choirs, but doing so risks cognitive cascades that could destroy the Mutterers or trigger another Interdict-level event.
+The Guild preserves fragments of pre-Interdict knowledge that no one else can access—partial understanding of the jargon (mathematical proof language), harmonic frequencies derived from study of the Arbitrary Truths, techniques for interrupting dangerous cognitive cascades. The archives beneath the Cathedral of the Plea contain Technical Caste documents written in the jargon that might explain the Eighth Oracle's flaw and the path to humanity's freedom. The Guild possesses the only means to potentially access these through Mutterer choirs, but doing so risks cognitive cascades that could destroy the Mutterers or trigger another Interdict-level event.
 
 The hospice system creates political leverage the Guild rarely exercises. During plague outbreaks, the Dockside Hospice becomes a battlefield between the Creche (demanding serum quotas), the Church (insisting on equal treatment), criminal organizations (seeing serum supply as leverage), and the Guild (trying to maintain functional operations). Control over Sickly serum production gives the Guild quiet influence over medical care throughout the Empire.
 
-The Mutterer monopoly is absolute. No one else can manage Mutterer choirsâ€”the harmonic frequencies, the cascade interruption techniques, the protocols for preventing Mutterers from "optimizing" each other require Guild training. The Bureau of the Rod literally cannot maintain Imperial infrastructure without the Guild. This dependency is the Guild's ultimate protection.
+The Mutterer monopoly is absolute. No one else can manage Mutterer choirs—the harmonic frequencies, the cascade interruption techniques, the protocols for preventing Mutterers from "optimizing" each other require Guild training. The Bureau of the Rod literally cannot maintain Imperial infrastructure without the Guild. This dependency is the Guild's ultimate protection.
 
 ---
 
 ### **The Clothiers' Guild (Representative Local Guild Shop)**
 
-**What it does:** Monopoly charter for textile production and sale within defined territory in the Medina Quarter. Representative of hundreds of similar local guild operations throughout ya-Sattraâ€”and similar structures in other Imperial cities, each with their own charters and territories. Unlike the Salvage Guild or Companions Guild, trade guilds are local institutions whose charters define specific geographic boundaries.
+**What it does:** Monopoly charter for textile production and sale within defined territory in the Medina Quarter. Representative of hundreds of similar local guild operations throughout ya-Sattra—and similar structures in other Imperial cities, each with their own charters and territories. Unlike the Salvage Guild or Companions Guild, trade guilds are local institutions whose charters define specific geographic boundaries.
 
 **Cash flow in:**
 
@@ -616,7 +616,7 @@ The Mutterer monopoly is absolute. No one else can manage Mutterer choirsâ€�
 * Shop rent: 60-100 obols/month for Medina territory  
 * Bureau certification: annual fees of 50-100 obols
 
-**Decision-making:** The guild master makes daily operational decisions. The guild council (elected from masters) sets prices, quality standards, and territorial boundaries. Charter languageâ€”designed for automated production facilitiesâ€”constrains options in ways everyone works around. A master cannot legally reduce prices below charter minimums even when competing with unlicensed vendors; they simply offer "gifts" with purchases or extend "credit" that's never collected.
+**Decision-making:** The guild master makes daily operational decisions. The guild council (elected from masters) sets prices, quality standards, and territorial boundaries. Charter language—designed for automated production facilities—constrains options in ways everyone works around. A master cannot legally reduce prices below charter minimums even when competing with unlicensed vendors; they simply offer "gifts" with purchases or extend "credit" that's never collected.
 
 **Distinctive feature:** The charter assumes automated production. When it specifies "output tolerances of 0.3%," this made sense for machines; human weavers cannot achieve such precision. The guild has developed elaborate inspection rituals that nominally verify compliance while actually approving everything that isn't obviously defective.
 
@@ -642,9 +642,9 @@ The Mutterer monopoly is absolute. No one else can manage Mutterer choirsâ€�
 * Supplies: documentation materials, authentication equipment maintenance  
 * Remittance: 85-90% of collected revenue flows to central Bureau accounts in the Third Whorl
 
-**Decision-making:** Station chiefs have limited discretionâ€”fee schedules are set by Bureau central authority, and significant deviations trigger Lens investigation. Daily operations follow procedures documented in manuals that haven't been updated in centuries. The chief's real authority lies in enforcement priority: which violations to pursue, which to overlook, which businesses to audit thoroughly versus cursorily. This discretion creates the space for informal arrangements that make commerce possible.
+**Decision-making:** Station chiefs have limited discretion—fee schedules are set by Bureau central authority, and significant deviations trigger Lens investigation. Daily operations follow procedures documented in manuals that haven't been updated in centuries. The chief's real authority lies in enforcement priority: which violations to pursue, which to overlook, which businesses to audit thoroughly versus cursorily. This discretion creates the space for informal arrangements that make commerce possible.
 
-**Distinctive feature:** The station maintains authentication scales calibrated to Bureau standardsâ€”the only legal measure of currency weight in its territory. Merchants must use these scales for transactions exceeding threshold amounts, creating bottlenecks that the station manages through queue priority that's theoretically neutral and practically negotiable.
+**Distinctive feature:** The station maintains authentication scales calibrated to Bureau standards—the only legal measure of currency weight in its territory. Merchants must use these scales for transactions exceeding threshold amounts, creating bottlenecks that the station manages through queue priority that's theoretically neutral and practically negotiable.
 
 ---
 
@@ -657,21 +657,21 @@ The Mutterer monopoly is absolute. No one else can manage Mutterer choirsâ€�
 **Cash flow in:**
 
 * Member dues: 8-12 obols/month from \~40,000 members \= \~400,000 obols/month  
-* es-Etaie capitation: The es-Etaie family pays the Church capitation for all Order membersâ€”approximately 1.6 million obols annuallyâ€”freeing workers from this tax  
+* es-Etaie capitation: The es-Etaie family pays the Church capitation for all Order members—approximately 1.6 million obols annually—freeing workers from this tax  
 * Production payments: The Order doesn't directly receive production revenue; that flows through Furnace Board negotiations to wages
 
 **Annual revenue:** \~6 million obols in dues and es-Etaie capitation combined.
 
 **Cash flow out:**
 
-* Member benefits: injury support, family assistance, funeral costsâ€”perhaps 1.5 million obols/year  
+* Member benefits: injury support, family assistance, funeral costs—perhaps 1.5 million obols/year  
 * Shift Hall operations: meals for 40,000 workers, subsidized at \~25 obols/worker/month \= \~1 million obols/year  
-* Religious observance: Assembly facilities, clergy support, liturgical materialsâ€”\~500,000 obols/year  
-* Training programs: apprentice dormitories, instruction, equipmentâ€”\~800,000 obols/year  
-* Administrative staff: \~200 people managing union operationsâ€”\~1 million obols/year  
-* Strike fund: maintained but rarely drawnâ€”accumulates during normal operations
+* Religious observance: Assembly facilities, clergy support, liturgical materials—\~500,000 obols/year  
+* Training programs: apprentice dormitories, instruction, equipment—\~800,000 obols/year  
+* Administrative staff: \~200 people managing union operations—\~1 million obols/year  
+* Strike fund: maintained but rarely drawn—accumulates during normal operations
 
-**Decision-making:** The seven-member Council of Master Tenders governs. Each Master Tender represents a geographic section of the Furnaces and is elected by workers in that section. Council decisions require five of seven votes for major matters (strikes, wage negotiations), four of seven for routine business. The current Forge-Master, Seval Korrath, chairs the council but holds only one vote. Religious authority parallels secularâ€”the Order's Arch-Curate can invoke theological concerns to block actions violating Penitent principles, though this power is rarely exercised.
+**Decision-making:** The seven-member Council of Master Tenders governs. Each Master Tender represents a geographic section of the Furnaces and is elected by workers in that section. Council decisions require five of seven votes for major matters (strikes, wage negotiations), four of seven for routine business. The current Forge-Master, Seval Korrath, chairs the council but holds only one vote. Religious authority parallels secular—the Order's Arch-Curate can invoke theological concerns to block actions violating Penitent principles, though this power is rarely exercised.
 
 **Distinctive feature:** The Order's absolute leverage. A strike shuts down the Empire's only source of new complex technology. This has happened twice in recorded history; both times the Empire capitulated within weeks. The knowledge that the Order *could* strike shapes every negotiation even though strikes almost never occur.
 
@@ -684,21 +684,21 @@ The Mutterer monopoly is absolute. No one else can manage Mutterer choirsâ€�
 **Cash flow in:**
 
 * Tariffs: Every item passing through ya-Don is subject to Covenant assessment. Rates vary from 2% for bulk commodities to 15% for high-value goods. With perhaps 50 million obols of cargo flowing annually, tariff revenue might reach 2-4 million obols.  
-* Infrastructure fees: Road use, warehouse access, loading facility chargesâ€”perhaps 1 million obols/year  
+* Infrastructure fees: Road use, warehouse access, loading facility charges—perhaps 1 million obols/year  
 * Member dues: 5-8 obols/month from 35,000 members \= \~2.5 million obols/year
 
 **Annual revenue:** Approximately 6-8 million obols.
 
 **Cash flow out:**
 
-* Infrastructure maintenance: roads, warehouses, rail terminus, loading facilitiesâ€”perhaps 2 million obols/year  
-* Staff: 400 administrative workers plus thousands of logistics workers whose wages flow through the Covenantâ€”perhaps 3 million obols/year in direct employment  
-* Transit Chapel operations: religious facilities serving 8,000 weekly attendeesâ€”\~200,000 obols/year  
-* Political operations: maintaining relationships with other guilds, Bureau officials, Aureate familiesâ€”undocumented but substantial
+* Infrastructure maintenance: roads, warehouses, rail terminus, loading facilities—perhaps 2 million obols/year  
+* Staff: 400 administrative workers plus thousands of logistics workers whose wages flow through the Covenant—perhaps 3 million obols/year in direct employment  
+* Transit Chapel operations: religious facilities serving 8,000 weekly attendees—\~200,000 obols/year  
+* Political operations: maintaining relationships with other guilds, Bureau officials, Aureate families—undocumented but substantial
 
-**Decision-making:** The Covenant Master is elected by membership but practically selected from among senior Weighmasters who control tariff assessment. Covenant Master Seris Thom (near-baseline, 55\) is a pragmatic logistician rather than a religious figure. The twenty Weighmasters controlling tariff collection form an informal council that shapes policy through their control of the bottleneckâ€”the Weighmaster's Station through which all cargo passes.
+**Decision-making:** The Covenant Master is elected by membership but practically selected from among senior Weighmasters who control tariff assessment. Covenant Master Seris Thom (near-baseline, 55\) is a pragmatic logistician rather than a religious figure. The twenty Weighmasters controlling tariff collection form an informal council that shapes policy through their control of the bottleneck—the Weighmaster's Station through which all cargo passes.
 
-**Distinctive feature:** The Weighmaster's Station. Every shipment through ya-Don passes this checkpoint. The Covenant can choke supply lines simply by slowing processing. This leverage is rarely exercisedâ€”the Covenant profits from cargo flowâ€”but underlies every negotiation.
+**Distinctive feature:** The Weighmaster's Station. Every shipment through ya-Don passes this checkpoint. The Covenant can choke supply lines simply by slowing processing. This leverage is rarely exercised—the Covenant profits from cargo flow—but underlies every negotiation.
 
 ---
 
@@ -716,17 +716,17 @@ The Mutterer monopoly is absolute. No one else can manage Mutterer choirsâ€�
 * Administrative support: perhaps 50,000 obols/year for facilities, clerks, documentation  
 * Members bear their own costs
 
-**Decision-making:** Nine seatsâ€”three Aureate families (es-Kiral, es-Etaie, es-Vorath), four major guilds (Order of St. Akhmet, Unwritten-Axiom Parish, Covenant of Saint Aureline, ya-Don Companions Chapter), Bureau of the Rod Liaison, and Arch-Curacy representative. Major decisions require six of nine votes. The Aureates cannot outvote the guilds; the guilds cannot outvote Aureate-Bureau-Church alignment. This forces compromise.
+**Decision-making:** Nine seats—three Aureate families (es-Kiral, es-Etaie, es-Vorath), four major guilds (Order of St. Akhmet, Unwritten-Axiom Parish, Covenant of Saint Aureline, ya-Don Companions Chapter), Bureau of the Rod Liaison, and Arch-Curacy representative. Major decisions require six of nine votes. The Aureates cannot outvote the guilds; the guilds cannot outvote Aureate-Bureau-Church alignment. This forces compromise.
 
 Production targets, wage scales, safety standards, and capital investment all require Board approval. In practice, the Order's strike capability gives them effective veto; the es-Etaie capitation arrangement gives that family disproportionate influence; the Bureau representative can invoke Imperial authority to block decisions but rarely does.
 
-**Distinctive feature:** The Board is corporatism functioning as designedâ€”competing interests forced to negotiate rather than fight. It works because each party needs the others: Aureates need labor to operate their patents; labor needs patents to authenticate production; the Bureau needs both to maintain technological supply; the Church needs all three to demonstrate humanity's growing wisdom.
+**Distinctive feature:** The Board is corporatism functioning as designed—competing interests forced to negotiate rather than fight. It works because each party needs the others: Aureates need labor to operate their patents; labor needs patents to authenticate production; the Bureau needs both to maintain technological supply; the Church needs all three to demonstrate humanity's growing wisdom.
 
 ---
 
 ### **Unwritten-Axiom Parish**
 
-**What it does:** Elite craftsmen controlling deep-section Furnace productionâ€”lector components, weapons systems, technologies whose manufacturing processes are secret. Approximately 4,000 members including the five Verethani families (endogamous Highborn whose voices enable critical processes).
+**What it does:** Elite craftsmen controlling deep-section Furnace production—lector components, weapons systems, technologies whose manufacturing processes are secret. Approximately 4,000 members including the five Verethani families (endogamous Highborn whose voices enable critical processes).
 
 **Cash flow in:**
 
@@ -736,12 +736,12 @@ Production targets, wage scales, safety standards, and capital investment all re
 
 **Cash flow out:**
 
-* Member wages: higher than Order averagesâ€”senior Parish members earn 400-600 obols/month  
+* Member wages: higher than Order averages—senior Parish members earn 400-600 obols/month  
 * Verethani support: the five families receive special allocations maintaining their endogamous community  
 * Secret facilities: deep-section maintenance, security, the Chamber 7-Keth-Ascending where mummified Medials are preserved  
 * Religious operations: the heterodox theology treating incomprehension as sacred requires its own liturgical apparatus
 
-**Decision-making:** The "Curate" is appointed by union leadership, not ecclesiastical hierarchy, and functions as master artisan and guardian of secrets. The five Verethani family heads hold effective veto over production decisions requiring their voices. Decisions happen through consensus among senior craftsmen who possess knowledge that cannot be documentedâ€”the "recipes" for critical technologies exist only in human memory.
+**Decision-making:** The "Curate" is appointed by union leadership, not ecclesiastical hierarchy, and functions as master artisan and guardian of secrets. The five Verethani family heads hold effective veto over production decisions requiring their voices. Decisions happen through consensus among senior craftsmen who possess knowledge that cannot be documented—the "recipes" for critical technologies exist only in human memory.
 
 **Distinctive feature:** The Parish is a Gnostic tech-cult. Their ceremonies are manufacturing processes. Their theology treats the incomprehensibility of deep-section production as sacred mystery. The Imperial Matriarchate regularly complains these rites are heretical but has no power to stop them.
 
@@ -763,7 +763,7 @@ Production targets, wage scales, safety standards, and capital investment all re
 
 **Cash flow out:**
 
-* Raw materials: Maguey fiber from lower elevationsâ€”perhaps 80,000 obols/year  
+* Raw materials: Maguey fiber from lower elevations—perhaps 80,000 obols/year  
 * Worker wages (300 workers): \~18 dinars/worker average \= 5,400 dinars (\~54,000 obols)/month \= \~648,000 obols/year  
 * Power generation maintenance: \~20,000 obols/year  
 * Power subsidies: \~35,000 obols/year (the monthly plaque figure is cumulative demonstration)  
@@ -778,7 +778,7 @@ Production targets, wage scales, safety standards, and capital investment all re
 
 **Family Draw (Factor Yula personally): 400-500 dinars/month (4,000-5,000 obols)**
 
-**Decision-making:** The kilit is technically a democratic organization where members vote on major decisions. In practice, the Khen-Masot family has controlled operations for three generations. Factor Yula makes daily decisions; her extended family shapes strategy; workers vote on proposals the family drafts. The enterprise's Senate seat belongs to the kilitâ€”currently held by Yula herself.
+**Decision-making:** The kilit is technically a democratic organization where members vote on major decisions. In practice, the Khen-Masot family has controlled operations for three generations. Factor Yula makes daily decisions; her extended family shapes strategy; workers vote on proposals the family drafts. The enterprise's Senate seat belongs to the kilit—currently held by Yula herself.
 
 **Distinctive feature:** Competitive philanthropy as business strategy. The monthly subsidy plaques ("This month's collective service: 2,847 dinars below cost") are both theological documentation and marketing. The Khen-Masots compete with the Dresh-Okans and other merchant families for reputation as the most generous contributors to collective capacity.
 
@@ -797,13 +797,13 @@ Production targets, wage scales, safety standards, and capital investment all re
 
 **Cash flow out:**
 
-* Streetlight maintenance: The Caucus maintains lighting in Port District and lower terraces as demonstration of collective capabilityâ€”perhaps 50,000 obols/year  
+* Streetlight maintenance: The Caucus maintains lighting in Port District and lower terraces as demonstration of collective capability—perhaps 50,000 obols/year  
 * Academy sponsorships: \~30 students/year at perhaps 500 obols each \= 15,000 obols/year  
-* Strike fund: maintained for coordinated actionâ€”accumulates during normal operations  
-* Negotiators and representatives: perhaps 10-15 people maintaining relationships across kilitsâ€”50,000 obols/year  
+* Strike fund: maintained for coordinated action—accumulates during normal operations  
+* Negotiators and representatives: perhaps 10-15 people maintaining relationships across kilits—50,000 obols/year  
 * Rotating Senate expenses: supporting the three Senators the Caucus elects
 
-**Decision-making:** Each participating kilit sends representatives to Caucus council. Major decisions (strikes, endorsements, Senate strategy) require approval from kilits representing majority of membership. The three Senate seats rotate among participating kilits according to negotiated scheduleâ€”this year the Dockers' Fraternal holds one seat, the Workshop Federation holds one, and the Textile Workers' Association holds one. In two years they'll rotate according to Caucus bylaws.
+**Decision-making:** Each participating kilit sends representatives to Caucus council. Major decisions (strikes, endorsements, Senate strategy) require approval from kilits representing majority of membership. The three Senate seats rotate among participating kilits according to negotiated schedule—this year the Dockers' Fraternal holds one seat, the Workshop Federation holds one, and the Textile Workers' Association holds one. In two years they'll rotate according to Caucus bylaws.
 
 **Distinctive feature:** The Caucus votes as a bloc. When merchants negotiate with one labor kilit, they're negotiating with all seven. When the Caucus threatens strike, it threatens coordinated stoppage across docks, warehouses, transport, and workshops. This transforms individually weak kilits into collectively powerful coalition.
 
@@ -815,10 +815,10 @@ Production targets, wage scales, safety standards, and capital investment all re
 
 **Cash flow in:**
 
-* Tuition: Perhaps 200 obols/year per student (some pay more, sponsored students pay less)â€”400,000 obols/year  
-* Kilit sponsorships: Wealthy kilits sponsor students and receive recognitionâ€”perhaps 200,000 obols/year  
-* Consulting revenue: Faculty provide engineering, legal, technical servicesâ€”perhaps 300,000 obols/year  
-* Surplus power sales: Academy turbines produce more than neededâ€”sold at cost but generates goodwill
+* Tuition: Perhaps 200 obols/year per student (some pay more, sponsored students pay less)—400,000 obols/year  
+* Kilit sponsorships: Wealthy kilits sponsor students and receive recognition—perhaps 200,000 obols/year  
+* Consulting revenue: Faculty provide engineering, legal, technical services—perhaps 300,000 obols/year  
+* Surplus power sales: Academy turbines produce more than needed—sold at cost but generates goodwill
 
 **Annual revenue:** Perhaps 900,000-1,200,000 obols.
 
@@ -826,8 +826,8 @@ Production targets, wage scales, safety standards, and capital investment all re
 
 * Faculty salaries: 200 faculty at perhaps 400 obols/month average \= 960,000 obols/year  
 * Staff: 300 support workers at 180 obols/month \= 650,000 obols/year  
-* Facilities: library, laboratories, dormitories, groundsâ€”perhaps 300,000 obols/year  
-* Scholarships: internal support for students beyond kilit sponsorshipâ€”variable
+* Facilities: library, laboratories, dormitories, grounds—perhaps 300,000 obols/year  
+* Scholarships: internal support for students beyond kilit sponsorship—variable
 
 **Decision-making:** Faculty senate governs academic matters. Administrative council (faculty representatives plus kilit-appointed trustees) governs finances. The Rector is elected by faculty but serves at administrative council's pleasure. Major decisions require both bodies' approval, creating tension between academic independence and kilit influence.
 
@@ -854,7 +854,7 @@ Production targets, wage scales, safety standards, and capital investment all re
 
 * Staff: Perhaps 100 bankers and clerks at 350-450 obols/month \= 420,000-540,000 obols/year  
 * Facilities: Four locations throughout the city  
-* **The apology-loans:** Loans approved for people who shouldn't qualifyâ€”emigrants the Presence has identified as needing to leave. These loans almost never get repaid. The bank absorbs losses that somehow don't cascade into consequences.
+* **The apology-loans:** Loans approved for people who shouldn't qualify—emigrants the Presence has identified as needing to leave. These loans almost never get repaid. The bank absorbs losses that somehow don't cascade into consequences.
 
 **Decision-making:** The banks are Ezh Tan family operations; family members make lending decisions. Except sometimes they don't. A banker reviews an application, recognizes it should be refused, and finds themselves approving it anyway. Their eyes go wet; they say things they've never thought: "Ya-Tsatsa isn't for everyone. There are emigrant communities all down the coast." The Presence works through them without compelling them.
 
@@ -866,7 +866,7 @@ Yen To, the current family head, has learned to distinguish genuine necessity (t
 
 ### **Ya-Tsatsa Software Corporations (Representative)**
 
-**What it does:** Produces software products exported throughout the Empireâ€”navigation systems, accounting tools, pattern-recognition algorithms. The corporations are real businesses making real products; what happens in the production process is less clear.
+**What it does:** Produces software products exported throughout the Empire—navigation systems, accounting tools, pattern-recognition algorithms. The corporations are real businesses making real products; what happens in the production process is less clear.
 
 **Cash flow in:**
 
@@ -889,41 +889,41 @@ Yen To, the current family head, has learned to distinguish genuine necessity (t
 
 ---
 
-## **AsovoÃ«: The Immortal City**
+## **Asovoë: The Immortal City**
 
-### **House VroÃ«szka (Smelter Precinct)**
+### **House Vroëszka (Smelter Precinct)**
 
-**What it does:** Controls the primary autofactory terminals producing bulk metals that make AsovoÃ« worth trading with. Approximately 8,000 members governed by seven elders over 600 years old, nominally headed by 870-year-old Matriarch CzenovaÃ« (who abandoned leadership four centuries ago).
+**What it does:** Controls the primary autofactory terminals producing bulk metals that make Asovoë worth trading with. Approximately 8,000 members governed by seven elders over 600 years old, nominally headed by 870-year-old Matriarch Czenovaë (who abandoned leadership four centuries ago).
 
 **Cash flow in:**
 
-* Metal trade: The terminals extrude alloys on schedules the Medials control. When running, a terminal might produce 50,000-100,000 obols equivalent of metal monthly. VroÃ«szka controls three major terminals; annual production value perhaps 2-4 million obols equivalent.  
-* Note: VroÃ«szka doesn't receive obols directly. They trade metal for food, finished goods, and the currencies that facilitate external trade. House reserves might hold 50,000-100,000 obols accumulated over centuries.
+* Metal trade: The terminals extrude alloys on schedules the Medials control. When running, a terminal might produce 50,000-100,000 obols equivalent of metal monthly. Vroëszka controls three major terminals; annual production value perhaps 2-4 million obols equivalent.  
+* Note: Vroëszka doesn't receive obols directly. They trade metal for food, finished goods, and the currencies that facilitate external trade. House reserves might hold 50,000-100,000 obols accumulated over centuries.
 
 **Cash flow out (allocation rather than spending):**
 
 * Member allocations: 8,000 members receive food, housing, and goods according to position. Equivalent value perhaps 50-150 obols/month per member depending on seniority.  
-* Terminal operations: Worker support, equipment, safety measuresâ€”allocated from house resources  
-* Defense: Elder DravÃ¶tsvel's faction maintains military capacity; allocation determined by council negotiation  
-* External factors: Staff at San Juan factorias selling VroÃ«szka metal to the outside world  
+* Terminal operations: Worker support, equipment, safety measures—allocated from house resources  
+* Defense: Elder Dravötsvel's faction maintains military capacity; allocation determined by council negotiation  
+* External factors: Staff at San Juan factorias selling Vroëszka metal to the outside world  
 * Factional reserves: Each of the seven elder factions maintains reserves for lean periods when their terminals fall dormant
 
-**Decision-making:** The seven-elder council theoretically governs. Each elder controls resources essential to house function; each can threaten disruption if ignored; each knows the others face the same constraints. The result is equilibrium through mutual deterrence. CzenovaÃ« could break deadlocks but speaks rarely and addresses theological questions rather than factional conflicts. Her intervention in the schism that created Sztoavelâ€”legitimizing rebels the council authorized military action againstâ€”demonstrated that her judgment might contradict consensus. The elders prefer familiar dysfunction to the unknown outcomes of invoking her.
+**Decision-making:** The seven-elder council theoretically governs. Each elder controls resources essential to house function; each can threaten disruption if ignored; each knows the others face the same constraints. The result is equilibrium through mutual deterrence. Czenovaë could break deadlocks but speaks rarely and addresses theological questions rather than factional conflicts. Her intervention in the schism that created Sztoavel—legitimizing rebels the council authorized military action against—demonstrated that her judgment might contradict consensus. The elders prefer familiar dysfunction to the unknown outcomes of invoking her.
 
 **Distinctive feature:** Terminal schedules create boom-bust cycles neither house controls. When a terminal runs, the controlling faction enjoys sudden wealth; when it falls dormant, that wealth evaporates. Houses employ watchers whose sole function is detecting signs of reactivation. A house that detects early can prepare storage and buyers; a house caught unaware finds wealth rotting before it can be converted.
 
 ---
 
-### **CzernaÃ«l Dock Precinct**
+### **Czernaël Dock Precinct**
 
-**What it does:** Controls the harbor where all food imports arrive. This is existential leverageâ€”AsovoÃ« cannot feed itself.
+**What it does:** Controls the harbor where all food imports arrive. This is existential leverage—Asovoë cannot feed itself.
 
 **Cash flow in:**
 
 * Docking fees: Ships pay for harbor access and services  
 * Handling fees: Cargo loading and unloading charges  
 * Storage fees: Warehouse space for goods awaiting distribution  
-* Brokerage: CzernaÃ«l intermediates transactions between feuding houses, taking percentage from both
+* Brokerage: Czernaël intermediates transactions between feuding houses, taking percentage from both
 
 **Revenue equivalent:** Perhaps 1-2 million obols annually in service value.
 
@@ -931,22 +931,22 @@ Yen To, the current family head, has learned to distinguish genuine necessity (t
 
 * Harbor maintenance: Facilities, equipment, the infrastructure that makes docking possible  
 * Member allocations: Perhaps 5,000 members receiving house support  
-* Ship operations: CzernaÃ«l maintains vessels for local transport  
-* Careful neutrality: Food shipments flow to all houses without discrimination because alienating any customer would threaten CzernaÃ«l's position
+* Ship operations: Czernaël maintains vessels for local transport  
+* Careful neutrality: Food shipments flow to all houses without discrimination because alienating any customer would threaten Czernaël's position
 
-**Decision-making:** CzernaÃ«l is "democratic" by AsovoÃ« standardsâ€”leadership selected by membership vote rather than elder council. The Rezhda (assembly) meets to decide major questions. In practice, dock operations require coordination that concentrates authority in the Harbormaster and senior captains. Democracy provides legitimacy; operational necessity provides structure.
+**Decision-making:** Czernaël is "democratic" by Asovoë standards—leadership selected by membership vote rather than elder council. The Rezhda (assembly) meets to decide major questions. In practice, dock operations require coordination that concentrates authority in the Harbormaster and senior captains. Democracy provides legitimacy; operational necessity provides structure.
 
-**Distinctive feature:** CzernaÃ«l cannot take sides in inter-house feuds. Their leverage (food control) is also their vulnerability (everyone depends on them, so everyone would unite against them if they played favorites). Neutrality is survival strategy, not principle.
+**Distinctive feature:** Czernaël cannot take sides in inter-house feuds. Their leverage (food control) is also their vulnerability (everyone depends on them, so everyone would unite against them if they played favorites). Neutrality is survival strategy, not principle.
 
 ---
 
-### **The Chancery (House LavoÃ«ran)**
+### **The Chancery (House Lavoëran)**
 
-**What it does:** Legal archives, arbitration, the formal dispute resolution that prevents feuds from escalating to city-wide war. House LavoÃ«ran maintains the Chancery as hereditary function.
+**What it does:** Legal archives, arbitration, the formal dispute resolution that prevents feuds from escalating to city-wide war. House Lavoëran maintains the Chancery as hereditary function.
 
 **Cash flow in:**
 
-* Filing fees: Every formal complaint, every petition, every motion generates feesâ€”perhaps 50,000-100,000 obols annually  
+* Filing fees: Every formal complaint, every petition, every motion generates fees—perhaps 50,000-100,000 obols annually  
 * Arbitration fees: Cases brought before the Chancellor incur substantial charges  
 * Research fees: Other houses pay for access to precedent archives
 
@@ -958,7 +958,7 @@ Yen To, the current family head, has learned to distinguish genuine necessity (t
 * Chancellor support: The Chancellor (currently the only living one following the last officeholder's assassination) requires staff, security, facilities  
 * Archive maintenance: Millennia of records require preservation
 
-**Decision-making:** The Chancellor holds ultimate authority to interpret precedent, prohibit specific acts during hostilities, and mandate dispute resolution. Chancellors serve until death (which, given Avouvar longevity, means centuries). LavoÃ«ran house council selects Chancellors from qualified candidatesâ€”those who've spent decades as recorders mastering the archives.
+**Decision-making:** The Chancellor holds ultimate authority to interpret precedent, prohibit specific acts during hostilities, and mandate dispute resolution. Chancellors serve until death (which, given Avouvar longevity, means centuries). Lavoëran house council selects Chancellors from qualified candidates—those who've spent decades as recorders mastering the archives.
 
 **Distinctive feature:** The Chancellor's veto power. Authority to prohibit specific acts during hostilities exists because some acts would damage more than combatants. An attack on autofactory terminals would impoverish victor as thoroughly as vanquished. The Chancellor protects city infrastructure from collateral destruction.
 
@@ -968,26 +968,26 @@ Yen To, the current family head, has learned to distinguish genuine necessity (t
 
 ### **Khan Ataru Blackfish's Salmon Enterprise (Representative Warband Economy)**
 
-**What it does:** Commercial empire built on salmon runsâ€”controlling weirs, smokehouses, processing infrastructure throughout Ogon's western districts. Approximately 800 warriors plus extensive commercial infrastructure; perhaps 70 vassals controlling weir positions.
+**What it does:** Commercial empire built on salmon runs—controlling weirs, smokehouses, processing infrastructure throughout Ogon's western districts. Approximately 800 warriors plus extensive commercial infrastructure; perhaps 70 vassals controlling weir positions.
 
 **Cash flow in:**
 
 * Salmon processing: During the six-week run, the enterprise might process 500,000 fish. Dried, smoked, and traded, this represents perhaps 200,000-300,000 obols equivalent annually.  
-* Vassal tribute: 70 vassals pay fixed obligations regardless of fortuneâ€”if catch is good, pay in fish; if poor, find obols through raiding or other means; if recalcitrant, pay in blood.  
+* Vassal tribute: 70 vassals pay fixed obligations regardless of fortune—if catch is good, pay in fish; if poor, find obols through raiding or other means; if recalcitrant, pay in blood.  
 * Mercenary contracts: Warbands work as auxiliaries for Imperial tasks, paid in depreciated currency both parties accept.
 
 **Annual revenue equivalent:** Perhaps 400,000-600,000 obols in good years; much less in bad.
 
 **Cash flow out:**
 
-* Warrior support: 800 warriors fed, equipped, housed by the warbandâ€”perhaps 100,000 obols equivalent annually in goods and meals  
-* Infrastructure: Weirs, smokehouses, storageâ€”requires maintenance and occasional construction  
-* Gambling redistribution: Ataru "loses" at dice to subordinates who need resourcesâ€”the mechanism of internal wealth transfer  
+* Warrior support: 800 warriors fed, equipped, housed by the warband—perhaps 100,000 obols equivalent annually in goods and meals  
+* Infrastructure: Weirs, smokehouses, storage—requires maintenance and occasional construction  
+* Gambling redistribution: Ataru "loses" at dice to subordinates who need resources—the mechanism of internal wealth transfer  
 * Public goods: Ataru supports Ogon's libraries (taking percentage of fees), runs infrastructure that benefits everyone
 
-**Decision-making:** Ataru commands. His vassals owe fixed tribute; he owes them protection and opportunity. Decisions are personalâ€”no council, no vote, no bureaucratic process. His authority derives from demonstrated capability: good years under his leadership produce loyalty; bad years produce desertion. The tribute system creates institutional stability while generating conflicts with other Junta members whose protection arrangements differ.
+**Decision-making:** Ataru commands. His vassals owe fixed tribute; he owes them protection and opportunity. Decisions are personal—no council, no vote, no bureaucratic process. His authority derives from demonstrated capability: good years under his leadership produce loyalty; bad years produce desertion. The tribute system creates institutional stability while generating conflicts with other Junta members whose protection arrangements differ.
 
-**Distinctive feature:** The tribute is fixed regardless of fortune. If your weir position produces poorly and Tsoka Red Deer protects your obvious raid target, you still owe Ataru his fish. This forces vassals to raid, trade, or find other meansâ€”Ataru cannot excuse obligations without undermining the system. The structural contradiction with Tsoka's tribute-protection contracts has produced three duels so far.
+**Distinctive feature:** The tribute is fixed regardless of fortune. If your weir position produces poorly and Tsoka Red Deer protects your obvious raid target, you still owe Ataru his fish. This forces vassals to raid, trade, or find other means—Ataru cannot excuse obligations without undermining the system. The structural contradiction with Tsoka's tribute-protection contracts has produced three duels so far.
 
 ---
 
@@ -1006,9 +1006,9 @@ Yen To, the current family head, has learned to distinguish genuine necessity (t
 
 **Cash flow out:**
 
-* Family compound: The Kma-Dhol live in ziggurat upper levels accessible only through compression passagesâ€”housing is communal property  
-* Food: The Kma-Dhol import from Imperial sources, preferring familiar cuisineâ€”perhaps 3,000-5,000 obols annually  
-* Equipment: Technical instruments, reference materialsâ€”perhaps 2,000-3,000 obols annually  
+* Family compound: The Kma-Dhol live in ziggurat upper levels accessible only through compression passages—housing is communal property  
+* Food: The Kma-Dhol import from Imperial sources, preferring familiar cuisine—perhaps 3,000-5,000 obols annually  
+* Equipment: Technical instruments, reference materials—perhaps 2,000-3,000 obols annually  
 * Religious observance: Third Oracle veneration has specific requirements
 
 **Decision-making:** Family elders make business decisions through consensus. The firm's reputation depends on accurate assessment; bad advice would destroy the business. Technical expertise concentrates in senior members who've spent decades learning to read autofactory outputs; they train successors through apprenticeship that takes years.
@@ -1019,7 +1019,7 @@ Yen To, the current family head, has learned to distinguish genuine necessity (t
 
 ### **The Junta of Ogon (Coordinating Body)**
 
-**What it does:** Coordination between seven token-holders who control Ogon's military politics. Not a governmentâ€”no laws, no bureaucracy, no monopoly on violence. Decisions work because members choose to follow them.
+**What it does:** Coordination between seven token-holders who control Ogon's military politics. Not a government—no laws, no bureaucracy, no monopoly on violence. Decisions work because members choose to follow them.
 
 **Cash flow in:**
 
@@ -1029,13 +1029,13 @@ Yen To, the current family head, has learned to distinguish genuine necessity (t
 **Cash flow out:**
 
 * The Slab: Meeting space maintained collectively  
-* Minimal administrative supportâ€”the Junta has no staff
+* Minimal administrative support—the Junta has no staff
 
-**Decision-making:** Seven irreplaceable tokens produced by the Ogon autofactory seventy years ago. Whoever holds a token sits on the Junta. Method of acquisitionâ€”purchase, inheritance, combat victory, theftâ€”is irrelevant to legitimacy. Monthly meetings at the Slab; votes by raised or lowered hands; dissent from outcomes can be challenged through trial by combat.
+**Decision-making:** Seven irreplaceable tokens produced by the Ogon autofactory seventy years ago. Whoever holds a token sits on the Junta. Method of acquisition—purchase, inheritance, combat victory, theft—is irrelevant to legitimacy. Monthly meetings at the Slab; votes by raised or lowered hands; dissent from outcomes can be challenged through trial by combat.
 
-The Accession Ritual: New members (acquiring tokens through any means) must survive a night of beatings from existing members. Not a test of strengthâ€”you cannot fight back. A test of endurance. If you survive until sunrise without dying or giving up, you're a member.
+The Accession Ritual: New members (acquiring tokens through any means) must survive a night of beatings from existing members. Not a test of strength—you cannot fight back. A test of endurance. If you survive until sunrise without dying or giving up, you're a member.
 
-**Distinctive feature:** The Junta prevents any single Khan from dominating. Seven holders with different power bases, different vassals, different interestsâ€”none can overcome the others without coalition. The coordination produces stability without systematic governance.
+**Distinctive feature:** The Junta prevents any single Khan from dominating. Seven holders with different power bases, different vassals, different interests—none can overcome the others without coalition. The coordination produces stability without systematic governance.
 
 ---
 
@@ -1059,7 +1059,7 @@ The Accession Ritual: New members (acquiring tokens through any means) must surv
 | ya-Don | Production value captured through labor power | Tariffs, dues |
 | Ganat | Commerce with competitive philanthropy overlay | Subsidies as status investment |
 | ya-Tsatsa | Conventional commerce (surface) \+ Presence subsidy (hidden) | Trade facilitation |
-| AsovoÃ« | Autofactory terminal outputs | External trade through factorias |
+| Asovoë | Autofactory terminal outputs | External trade through factorias |
 | Thousand Kingdoms | Seasonal harvest \+ tribute \+ gambling redistribution | Mercenary contracts, salvage trade |
 
 ### **Decision-Making Structures**
@@ -1070,7 +1070,7 @@ The Accession Ritual: New members (acquiring tokens through any means) must surv
 | ya-Don | Corporatist negotiation (capital-labor-state-church) | Strike capability as ultimate leverage |
 | Ganat | Kilit democracy with wealth-weighted influence | 60% threshold forcing cross-coalition compromise |
 | ya-Tsatsa | Nominal conventional structure \+ Presence guidance | Decisions made through agents who don't understand their own actions |
-| AsovoÃ« | House elder councils with faction balancing | Centuries-long time horizons; matriarchs who outlive institutional memory |
+| Asovoë | House elder councils with faction balancing | Centuries-long time horizons; matriarchs who outlive institutional memory |
 | Thousand Kingdoms | Personal authority through demonstrated capability | No bureaucracy; decisions are commands or negotiations |
 
 ### **What Cash Buys in Each Region**
@@ -1081,14 +1081,14 @@ The Accession Ritual: New members (acquiring tokens through any means) must surv
 | ya-Don | Wages and commerce, but leverage comes from knowledge not wealth | Cannot buy Order secrets or strike capability |
 | Ganat | Commerce \+ political influence through competitive philanthropy | Cannot buy votes directly; must buy through demonstrated service |
 | ya-Tsatsa | Surface commerce; but Presence shapes outcomes regardless of payment | Cannot buy departure approval; cannot buy Many operations |
-| AsovoÃ« | External trade only; internal economy is house allocation | Cannot buy house membership; cannot buy terminal access |
+| Asovoë | External trade only; internal economy is house allocation | Cannot buy house membership; cannot buy terminal access |
 | Thousand Kingdoms | External trade \+ tribute payment | Cannot buy warband loyalty; must demonstrate capability |
 
 ---
 
 ## **RAG Retrieval Notes**
 
-**Institution names retrieve profiles.** "Salvage Guild" retrieves complete coverage. "Khen-Masot" retrieves merchant kilit details. "VroÃ«szka" retrieves smelter precinct economics.
+**Institution names retrieve profiles.** "Salvage Guild" retrieves complete coverage. "Khen-Masot" retrieves merchant kilit details. "Vroëszka" retrieves smelter precinct economics.
 
 **"Empire-wide" retrieves the major cross-regional institutions.** Many, Salvage Guild, and Companions Guild operate throughout Imperial territory. Local guilds (Clothiers, Pipefitters, etc.) have defined territorial charters.
 
@@ -1108,7 +1108,7 @@ The Accession Ritual: New members (acquiring tokens through any means) must surv
 
 **Empire-wide guilds operate at substantial scale.** The Salvage Guild (20-35 million obols/year) and Companions Guild (10-15 million obols/year) are among the wealthiest non-Aureate institutions in the Empire. Their economic weight rivals that of minor Bureau operations or mid-tier Aureate patent families.
 
-**Local guilds operate at modest scale.** A guild master with a dozen employees might gross 8,000-12,000 obols annuallyâ€”comfortable but not wealthy. The distinction between Empire-wide monopolies and local charter territories is fundamental.
+**Local guilds operate at modest scale.** A guild master with a dozen employees might gross 8,000-12,000 obols annually—comfortable but not wealthy. The distinction between Empire-wide monopolies and local charter territories is fundamental.
 
 **Salvage Guild revenue comes from certification monopoly.** Nothing salvaged anywhere in the Empire can be legally sold without Guild certification. The Guild doesn't do the salvaging; it controls the chokepoint through which all salvage must pass.
 
@@ -1120,7 +1120,7 @@ The Accession Ritual: New members (acquiring tokens through any means) must surv
 
 **Ya-Tsatsa economics don't survive audit.** The Presence subsidizes operations in ways that leave no trace.
 
-**AsovoÃ« houses don't hold obols personally.** House allocation replaces wages; external trade generates currency houses hold collectively.
+**Asovoë houses don't hold obols personally.** House allocation replaces wages; external trade generates currency houses hold collectively.
 
 **Thousand Kingdoms revenue is seasonal and variable.** Good salmon years versus bad; successful raids versus failed campaigns.
 
@@ -1132,7 +1132,7 @@ The Accession Ritual: New members (acquiring tokens through any means) must surv
 
 This document provides complete household profiles for families and individuals at various economic levels across all six major regions. Each profile includes income sources, monthly budgets, possessions, and the economic anxieties that shape daily life. The profiles demonstrate how regional economic systems produce different relationships between labor, consumption, and survival.
 
-All figures are in obols or obol-equivalents for cross-regional comparison. Where local currencies apply (Ganati dinars, AsovoÃ« house allocations, Akama gambling redistributions), conversions are noted.
+All figures are in obols or obol-equivalents for cross-regional comparison. Where local currencies apply (Ganati dinars, Asovoë house allocations, Akama gambling redistributions), conversions are noted.
 
 Budget ratios follow historical patterns for pre-industrial and early industrial economies: food typically consumes 50-60% of income for the poor, declining to 25-35% for the comfortable; housing runs 15-25%; fuel and light 5-10%; clothing 8-12%; with miscellaneous expenses filling the remainder.
 
@@ -1163,7 +1163,7 @@ Budget ratios follow historical patterns for pre-industrial and early industrial
 | Miscellaneous | 12 | 12% | Beer, soap, small necessities |
 | **Total** | **95** | **95%** |  |
 
-**Budget Balance:** Roughly neutral in average months. Bad months (50-70 obols income) force choicesâ€”skip meals, delay rent a week, accept worse routes. Good months (110-120 obols) she eats properly, maybe replaces worn shoes. The margin is razor-thin but survivable.
+**Budget Balance:** Roughly neutral in average months. Bad months (50-70 obols income) force choices—skip meals, delay rent a week, accept worse routes. Good months (110-120 obols) she eats properly, maybe replaces worn shoes. The margin is razor-thin but survivable.
 
 **Possessions:**
 
@@ -1206,7 +1206,7 @@ Budget ratios follow historical patterns for pre-industrial and early industrial
 | Miscellaneous | 15 | 7% | Beer, school supplies, small needs |
 | **Total** | **205** | **99%** |  |
 
-**Budget Balance:** Nearly break-even. Venna's variable income provides the marginâ€”good laundry months mean occasional meat; bad months mean mending instead of replacing. They save almost nothing, but they don't fall behind.
+**Budget Balance:** Nearly break-even. Venna's variable income provides the margin—good laundry months mean occasional meat; bad months mean mending instead of replacing. They save almost nothing, but they don't fall behind.
 
 **Possessions:**
 
@@ -1223,7 +1223,7 @@ Budget ratios follow historical patterns for pre-industrial and early industrial
 
 * Torek's injury or illness would devastate the family  
 * Rent increases (landlord has raised rates twice in five years)  
-* Children's futuresâ€”can they afford apprenticeship fees?  
+* Children's futures—can they afford apprenticeship fees?  
 * Guild clothing for children as they grow (school requires minimum standards)
 
 ---
@@ -1256,18 +1256,18 @@ Budget ratios follow historical patterns for pre-industrial and early industrial
 
 **Possessions:**
 
-* Shipping container (converted, owned outrightâ€”purchased decades ago for 200 obols)  
+* Shipping container (converted, owned outright—purchased decades ago for 200 obols)  
 * Cot, desk, chair  
-* Extensive legal library (his true wealthâ€”perhaps 400 obols if sold, irreplaceable to him)  
+* Extensive legal library (his true wealth—perhaps 400 obols if sold, irreplaceable to him)  
 * Formal portrait (required for Aureate status, dusty and unlit)  
-* Notarization seal (pricelessâ€”his authority derives from it)  
+* Notarization seal (priceless—his authority derives from it)  
 * Worn but once-fine clothing (Aureate geometric cuts, now decades out of fashion)  
 * Small cooking setup  
 * No lector. One ancient timepiece (stopped working years ago, he doesn't repair it).
 
 **Economic Anxieties:**
 
-* None, really. He's chosen austerity. His anxiety is that his court will never conveneâ€”economic concerns are irrelevant to that.  
+* None, really. He's chosen austerity. His anxiety is that his court will never convene—economic concerns are irrelevant to that.  
 * He could live better but sees no point  
 * The pension could theoretically be revoked, but no one cares enough to bother
 
@@ -1314,8 +1314,8 @@ Budget ratios follow historical patterns for pre-industrial and early industrial
 
 * Temporal reconciliation costs keep rising  
 * Eleven years until pension eligibility; not sure he'll psychologically survive  
-* His daughter is now 23 (Third Whorl time)â€”he last saw her six months ago (subjective), two years for her  
-* If he loses the Bureau position, he loses access to Second Whorlâ€”and his sense of self
+* His daughter is now 23 (Third Whorl time)—he last saw her six months ago (subjective), two years for her  
+* If he loses the Bureau position, he loses access to Second Whorl—and his sense of self
 
 ---
 
@@ -1335,7 +1335,7 @@ Budget ratios follow historical patterns for pre-industrial and early industrial
 | Category | Amount | % of 3,500 | Notes |
 | ----- | ----- | ----- | ----- |
 | Housing | 0 | 0% | Family tower |
-| Staff | 160 | 5% | Cook, cleanerâ€”minimal by Aureate standards |
+| Staff | 160 | 5% | Cook, cleaner—minimal by Aureate standards |
 | Food/household | 140 | 4% | Including modest entertaining |
 | Clothing | 250 | 7% | Aureate standards require presentation |
 | Social obligations | 300 | 9% | Gifts, events, relationships |
@@ -1344,11 +1344,11 @@ Budget ratios follow historical patterns for pre-industrial and early industrial
 | Unstated obligations | 350 | 10% | Family gifts, cousin loans, opportunities she can't refuse |
 | **Total** | **1,440** | **41%** |  |
 
-**Budget Balance:** Nominally positive by 2,000+ obols/month. But Aureate distributions are quarterly, irregular, and subject to family politics. Mirel has never accumulated significant savings because money arrives in lumps and disappears into obligations she can't refuseâ€”a cousin's wedding gift, a contribution to a family legal fund, an "investment opportunity" from an uncle. Her current savings of 800 obols represent the most she's ever held between distributions. The 59% apparent surplus is theoretical; the unstated obligations absorb it.
+**Budget Balance:** Nominally positive by 2,000+ obols/month. But Aureate distributions are quarterly, irregular, and subject to family politics. Mirel has never accumulated significant savings because money arrives in lumps and disappears into obligations she can't refuse—a cousin's wedding gift, a contribution to a family legal fund, an "investment opportunity" from an uncle. Her current savings of 800 obols represent the most she's ever held between distributions. The 59% apparent surplus is theoretical; the unstated obligations absorb it.
 
 **Possessions:**
 
-* Tower apartment (family propertyâ€”three rooms, north-facing, not prime position but respectable)  
+* Tower apartment (family property—three rooms, north-facing, not prime position but respectable)  
 * Extensive wardrobe (Aureate quality; if liquidated, perhaps 1,500 obols)  
 * Jewelry appropriate to station (family pieces, some personal; perhaps 1,000 obols)  
 * Household lector (family authentication key; cannot be sold)  
@@ -1361,7 +1361,7 @@ Budget ratios follow historical patterns for pre-industrial and early industrial
 * Distribution delays threaten her ability to maintain appearances  
 * She dismissed her personal courier last month; the es-Korvey heir noticed her using communal runners  
 * Social obligations she cannot afford to skip without losing status  
-* Her position in family hierarchy is marginalâ€”north face, not prime tower location  
+* Her position in family hierarchy is marginal—north face, not prime tower location  
 * She has real technical skills but cannot leverage them outside family structure
 
 ---
@@ -1392,7 +1392,7 @@ Budget ratios follow historical patterns for pre-industrial and early industrial
 | Tithe | 5 | 6% | Nominal; apprentices pay reduced rate |
 | **Total** | **83** | **92%** |  |
 
-**Budget Balance:** Slightly positive. The stipend covers needs with a small margin because it's designed to. Kerev saves perhaps 7 obols monthlyâ€”enough for an emergency but not much else. The Order provides.
+**Budget Balance:** Slightly positive. The stipend covers needs with a small margin because it's designed to. Kerev saves perhaps 7 obols monthly—enough for an emergency but not much else. The Order provides.
 
 **Possessions:**
 
@@ -1441,7 +1441,7 @@ Budget ratios follow historical patterns for pre-industrial and early industrial
 | Miscellaneous | 15 | 4% |  |
 | **Total** | **297** | **74%** |  |
 
-**Budget Balance:** Positive by \~103 obols/month. They're saving toward apprenticeship feesâ€”after three years, they have 320 obols, with interruptions for a broken arm (Korath), a funeral (Dessa's mother), and one terrible month when both children were sick.
+**Budget Balance:** Positive by \~103 obols/month. They're saving toward apprenticeship fees—after three years, they have 320 obols, with interruptions for a broken arm (Korath), a funeral (Dessa's mother), and one terrible month when both children were sick.
 
 **Possessions:**
 
@@ -1458,7 +1458,7 @@ Budget ratios follow historical patterns for pre-industrial and early industrial
 **Economic Anxieties:**
 
 * Korath's lungs (Furnace work is dangerous; he coughs more than he used to)  
-* Order injury support is survival, not comfortâ€”a serious injury would devastate the family  
+* Order injury support is survival, not comfort—a serious injury would devastate the family  
 * Apprenticeship fees for their son (years away, but they're already worried)  
 * Dessa wants a third child; they're not sure they can afford it
 
@@ -1490,7 +1490,7 @@ Budget ratios follow historical patterns for pre-industrial and early industrial
 | Miscellaneous | 30 | 4% |  |
 | **Total** | **520** | **69%** |  |
 
-**Budget Balance:** Positive by \~230 obols/month. Seval has accumulated perhaps 6,000 obols over decadesâ€”but gives away 170+ monthly to workers facing hardship, shrine funds, and causes he believes in. His authority derives from being one of the workers; visible wealth would undermine it.
+**Budget Balance:** Positive by \~230 obols/month. Seval has accumulated perhaps 6,000 obols over decades—but gives away 170+ monthly to workers facing hardship, shrine funds, and causes he believes in. His authority derives from being one of the workers; visible wealth would undermine it.
 
 **Possessions:**
 
@@ -1556,9 +1556,9 @@ Budget ratios follow historical patterns for pre-industrial and early industrial
 
 **Economic Anxieties:**
 
-* Torin votes Dusk because stable trade means stable wagesâ€”but resents that this aligns him with merchants  
+* Torin votes Dusk because stable trade means stable wages—but resents that this aligns him with merchants  
 * Their eldest shows academic promise; can they afford to lose her wages for three Academy years?  
-* The subsidy plaque outside says "2,847 dinars below cost this month"â€”they depend on Khen-Masot generosity  
+* The subsidy plaque outside says "2,847 dinars below cost this month"—they depend on Khen-Masot generosity  
 * If the Caucus strikes, they support the strike, but strikes mean no wages
 
 ---
@@ -1591,7 +1591,7 @@ Budget ratios follow historical patterns for pre-industrial and early industrial
 * Quarter of a shared room  
 * Two sets of clothing (one for class, one for dock work)  
 * School books (shared; technically belong to study group)  
-* Notes from two years of classes (his real wealthâ€”represents hundreds of hours of work)  
+* Notes from two years of classes (his real wealth—represents hundreds of hours of work)  
 * Nothing else. He owns almost nothing.
 
 **Economic Anxieties:**
@@ -1599,7 +1599,7 @@ Budget ratios follow historical patterns for pre-industrial and early industrial
 * Constant. He's one bad month from serious trouble.  
 * His father was a dock worker; his father's father was a dock worker. This is his one chance at something else.  
 * Merchant students have tutors, connections, family money. He has Caucus sponsorship and determination.  
-* If he fails, he owes the Caucus nothingâ€”but he'd be proving that dock workers' children can't succeed
+* If he fails, he owes the Caucus nothing—but he'd be proving that dock workers' children can't succeed
 
 ---
 
@@ -1629,7 +1629,7 @@ The Khen-Masot enterprise operates at approximately break-even on direct textile
 | Miscellaneous | 25 | 6% |  |
 | **Total** | **355** | **89%** |  |
 
-**Budget Balance:** Positive by \~45 dinars/month personally. But "personal" is misleadingâ€”the family enterprise, the subsidies, the philanthropy are all interconnected. Yula's wealth serves collective reputation.
+**Budget Balance:** Positive by \~45 dinars/month personally. But "personal" is misleading—the family enterprise, the subsidies, the philanthropy are all interconnected. Yula's wealth serves collective reputation.
 
 **Compound Possessions:**
 
@@ -1649,7 +1649,7 @@ The Khen-Masot enterprise operates at approximately break-even on direct textile
 * The Dresh-Okans operate five plants to their three; the competition for philanthropic status is constant  
 * Enterprise workers might organize more aggressively; labor costs could rise  
 * Her children must succeed at the Academy; failure would shame the family  
-* The revolution's theology demands works-based atonementâ€”accumulation without visible service is spiritually dangerous
+* The revolution's theology demands works-based atonement—accumulation without visible service is spiritually dangerous
 
 ---
 
@@ -1679,7 +1679,7 @@ The Khen-Masot enterprise operates at approximately break-even on direct textile
 | Miscellaneous | 25 | 6% |  |
 | **Total** | **350** | **88%** |  |
 
-**Budget Balance:** Strongly positive. Yenna has far more discretionary income than her Imperial equivalentâ€”but fewer things to spend it on. Her savings have accumulated past 2,200 obols. She's not sure why she doesn't spend more. She's content.
+**Budget Balance:** Strongly positive. Yenna has far more discretionary income than her Imperial equivalent—but fewer things to spend it on. Her savings have accumulated past 2,200 obols. She's not sure why she doesn't spend more. She's content.
 
 **Possessions:**
 
@@ -1744,9 +1744,9 @@ The Khen-Masot enterprise operates at approximately break-even on direct textile
 
 ---
 
-## **AsovoÃ«: The Immortal City**
+## **Asovoë: The Immortal City**
 
-### **Household 14: Czevelan VroÃ«szka, Smelter Worker (House Allocation)**
+### **Household 14: Czevelan Vroëszka, Smelter Worker (House Allocation)**
 
 **Profile:** Avouvar male, 180 years old. Unmarried (romantic attachments form differently across centuries). Works in bulk alloy processing. Lives in precinct quarters.
 
@@ -1774,7 +1774,7 @@ The Khen-Masot enterprise operates at approximately break-even on direct textile
 **Possessions:**
 
 * Precinct quarters (house-provided; changes as status changes)  
-* Work equipment (smelter tools, protective gearâ€”house property)  
+* Work equipment (smelter tools, protective gear—house property)  
 * Extensive wardrobe accumulated over 180 years (aurora colors: magenta, green, amber against black)  
 * Personal library (180 years of reading; hundreds of volumes)  
 * Art collected across a century (small pieces; larger works are house property)  
@@ -1784,15 +1784,15 @@ The Khen-Masot enterprise operates at approximately break-even on direct textile
 **Economic Anxieties:**
 
 * Council dysfunction. If the elders can't agree on production quotas, workers suffer.  
-* Terminal schedules. When VroÃ«szka's terminals fall dormant, allocations tighten.  
+* Terminal schedules. When Vroëszka's terminals fall dormant, allocations tighten.  
 * The schism with Sztoavel. Three hundred years and the hatred hasn't faded.  
 * His faction (Koratvelan's, controlling bulk alloy terminals) depends on continued production. If the terminal falls dormant, his faction loses power, and his allocation might decrease.
 
 ---
 
-### **Household 15: Elder SztravaÃ« VroÃ«szka, Faction Leader (House Elite)**
+### **Household 15: Elder Sztravaë Vroëszka, Faction Leader (House Elite)**
 
-**Profile:** Avouvar female, 671 years old. Controls fabrication facilities transforming raw extrusions into finished components. One of seven VroÃ«szka council elders.
+**Profile:** Avouvar female, 671 years old. Controls fabrication facilities transforming raw extrusions into finished components. One of seven Vroëszka council elders.
 
 **Monthly Income:**
 
@@ -1811,22 +1811,22 @@ The Khen-Masot enterprise operates at approximately break-even on direct textile
 | Inter-house diplomacy | 40 obols equiv. | Gifts, entertaining visitors |
 | **Total** | **\~350 obols equivalent** |  |
 
-**Budget Balance:** Theoretically positive, but SztravaÃ« has spent six centuries accumulating position rather than personal wealth. Her power is her faction's output; her wealth is her faction's loyalty.
+**Budget Balance:** Theoretically positive, but Sztravaë has spent six centuries accumulating position rather than personal wealth. Her power is her faction's output; her wealth is her faction's loyalty.
 
 **Possessions:**
 
-* Elder's quarters in VroÃ«szka precinct (the best available; earned over centuries)  
+* Elder's quarters in Vroëszka precinct (the best available; earned over centuries)  
 * Personal attendants (not servants in the Imperial sense; faction members assigned to support)  
 * 600+ years of accumulated artifacts (impossible to inventory; some items predate clear memory)  
 * Fabrication facilities (not personally owned; controlled through faction position)  
 * Political archives (records of six centuries of council maneuvering)  
-* Correspondence with every major figure in AsovoÃ« over centuries (some letters are historical documents)
+* Correspondence with every major figure in Asovoë over centuries (some letters are historical documents)
 
 **Economic Anxieties:**
 
 * Koratvelan's faction controls raw materials. She controls fabrication. They need each other; they've been rivals for two centuries.  
-* The Matriarch, CzenovaÃ«, could intervene in any dispute. Her theological framework has diverged from practical concerns over four centuries of seclusion. The elders prefer familiar dysfunction to unknown outcomes.  
-* Terminal schedules. SztravaÃ«'s fabrication facilities depend on Koratvelan's raw materials. When his terminals run, she profits. When they don't, she struggles.  
+* The Matriarch, Czenovaë, could intervene in any dispute. Her theological framework has diverged from practical concerns over four centuries of seclusion. The elders prefer familiar dysfunction to unknown outcomes.  
+* Terminal schedules. Sztravaë's fabrication facilities depend on Koratvelan's raw materials. When his terminals run, she profits. When they don't, she struggles.  
 * Six hundred years of accumulated enemies. You don't live this long without making people angry.
 
 ---
@@ -1857,12 +1857,12 @@ The Khen-Masot enterprise operates at approximately break-even on direct textile
 | Tribute | \~3 obols equiv. | Goods to whoever currently protects the village |
 | **Total** | **\~12 obols equivalent** |  |
 
-**Budget Balance:** Roughly neutral in goods terms. Cash is almost irrelevantâ€”she sees actual obols perhaps twice a year when traders pass through.
+**Budget Balance:** Roughly neutral in goods terms. Cash is almost irrelevant—she sees actual obols perhaps twice a year when traders pass through.
 
 **Possessions:**
 
 * Cabin (family property; her right to occupy derives from fishing position)  
-* Fishing position on Grand Canal (the real wealthâ€”inherited from husband's family)  
+* Fishing position on Grand Canal (the real wealth—inherited from husband's family)  
 * Fishing equipment (nets, lines, drying racks, smokehouse access)  
 * Preserved salmon (six weeks of harvest must last all year)  
 * Clothing for four (she makes most of it)  
@@ -1872,7 +1872,7 @@ The Khen-Masot enterprise operates at approximately break-even on direct textile
 
 **Economic Anxieties:**
 
-* Her fishing position. If she can't defend itâ€”through marriage alliance, through her son's strength, through community supportâ€”someone else will take it.  
+* Her fishing position. If she can't defend it—through marriage alliance, through her son's strength, through community support—someone else will take it.  
 * The salmon run. Two bad years in a row would devastate the village.  
 * Tribute demands. Whoever protects them demands payment; demands can increase arbitrarily.  
 * Her eldest son's future. He's strong enough to be valuable to a warband; that's dangerous.
@@ -1951,7 +1951,7 @@ The Khen-Masot enterprise operates at approximately break-even on direct textile
 | Miscellaneous | 8 | 9% |  |
 | **Total** | **\~73 obols** | **81%** |  |
 
-**Budget Balance:** Positive by \~17 obols/month. The family has reserves accumulated over generationsâ€”perhaps 1,800 obols in currency plus equipment and property.
+**Budget Balance:** Positive by \~17 obols/month. The family has reserves accumulated over generations—perhaps 1,800 obols in currency plus equipment and property.
 
 **Possessions:**
 
@@ -1991,8 +1991,8 @@ The Khen-Masot enterprise operates at approximately break-even on direct textile
 | Khen-Masot | Taho | \+45 dinars | Enterprise wealth | Personal/family blurred |
 | Yenna Orel | ya-Tsatsa | \+50 obols | 2,200 obols | Doesn't know why |
 | Yen To | ya-Tsatsa | Variable | Family resources | Can't separate personal |
-| Czevelan | AsovoÃ« | \+27 equiv. | 180 years of stuff | Different concept |
-| SztravaÃ« | AsovoÃ« | Political surplus | 600+ years | Wealth \= position |
+| Czevelan | Asovoë | \+27 equiv. | 180 years of stuff | Different concept |
+| Sztravaë | Asovoë | Political surplus | 600+ years | Wealth \= position |
 | Saya family | Thousand Kingdoms | \~0 in goods | Fishing position | Wealth \= position |
 | Gharn (rider) | Thousand Kingdoms | Variable | Horse \+ weapons | Portable wealth only |
 | Vey family | Thousand Kingdoms | \+17 obols | \~1,800 obols \+ compound | Generational stability |
@@ -2015,8 +2015,8 @@ The Khen-Masot enterprise operates at approximately break-even on direct textile
 | ya-Sattra | 2 sets clothes, satchel, knife | Lector, furniture, small savings | Tower apartment, jewelry, extensive wardrobe |
 | ya-Don | Footlocker of possessions | Inherited lector, savings for apprenticeship | Religious library, 6,000 obols savings |
 | Ganat | Radio subscription, basic furniture | Academy savings, electric utilities | Compound, hydroelectric plants, enterprise |
-| ya-Tsatsa | Dormitory room, 2,200 obols savings | Family compound, banks, art | (sameâ€”Yen To) |
-| AsovoÃ« | 180 years of accumulated goods | 600+ years of artifacts | (SztravaÃ«â€”control, not currency) |
+| ya-Tsatsa | Dormitory room, 2,200 obols savings | Family compound, banks, art | (same—Yen To) |
+| Asovoë | 180 years of accumulated goods | 600+ years of artifacts | (Sztravaë—control, not currency) |
 | Thousand Kingdoms | Cabin, fishing position, preserved food | Horse worth 400+ obols | Compound, 1,800 obols, technical knowledge |
 
 ---
@@ -2049,11 +2049,11 @@ The Khen-Masot enterprise operates at approximately break-even on direct textile
 
 **Ya-Tsatsa workers have unexplained contentment and surplus savings.** Yenna's 2,200 obols accumulated without clear purpose demonstrates Presence effects.
 
-**AsovoÃ« households don't use obols internally.** All figures are "equivalents." Czevelan has never held Imperial currency.
+**Asovoë households don't use obols internally.** All figures are "equivalents." Czevelan has never held Imperial currency.
 
 **Thousand Kingdoms wealth is positional.** Saya's fishing position is worth more than any currency she'll ever see. Gharn's horse is his retirement fund.
 
-**Possessions reflect regional economies.** Imperial households have lectors; Ganati households have radios; AsovoÃ« households have centuries of accumulation; Akama households have fishing rights and horses.
+**Possessions reflect regional economies.** Imperial households have lectors; Ganati households have radios; Asovoë households have centuries of accumulation; Akama households have fishing rights and horses.
 
 **Budget ratios must be plausible.** Food should never exceed 60% or fall below 10% of income. Housing should never exceed 35% for the poor or 25% for the comfortable. These constraints prevent impossible household economics.
 

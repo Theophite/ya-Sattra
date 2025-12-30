@@ -30,14 +30,14 @@ The project knowledge contains two types of documents: this comprehensive Index 
 
 ## **The Eight Domains**
 
-1. **Cosmology & Ancient History** Ã¢â‚¬â€ The Oracles, their Testaments, the Interdict, classified chronology, the deliberate uncertainty about Imperial duration.  
-2. **Imperial Structure** Ã¢â‚¬â€ The six Bureaux and their distinct characters, the Satara council, the Whorls and temporal distortion, the Emperor's perpetual absence.  
-3. **Geography** Ã¢â‚¬â€ The three Imperial cities, the Republic of Ganat, the Thousand Kingdoms, Yarangar, and other territories. The Empire claims universal sovereignty but controls only the former California coast.  
-4. **Biological Engineering / Castes** Ã¢â‚¬â€ Highborn and Compulsion, labor castes and their failure modes, colonist castes, Warborn, Technical Caste remnants, semi-sentient beings, outlawed and unclassified castes.  
-5. **Social Organizations** Ã¢â‚¬â€ The Oracle Cult (household-based, no clergy), the Penitent Church (hierarchical, regionally variable), guilds, criminal organizations.  
-6. **Economics & Technology** Ã¢â‚¬â€ The Aureate patent system, lectors, Many the banking organism, currency, exotic technologies.  
-7. **Reference Materials** Ã¢â‚¬â€ Naming conventions (which encode significant information), aesthetics, glossary of terms.  
-8. **Character & Household Dossiers** Ã¢â‚¬â€ Specific families, crisis documentation, detailed character treatments.
+1. **Cosmology & Ancient History** — The Oracles, their Testaments, the Interdict, classified chronology, the deliberate uncertainty about Imperial duration.  
+2. **Imperial Structure** — The six Bureaux and their distinct characters, the Satara council, the Whorls and temporal distortion, the Emperor's perpetual absence.  
+3. **Geography** — The three Imperial cities, the Republic of Ganat, the Thousand Kingdoms, Yarangar, and other territories. The Empire claims universal sovereignty but controls only the former California coast.  
+4. **Biological Engineering / Castes** — Highborn and Compulsion, labor castes and their failure modes, colonist castes, Warborn, Technical Caste remnants, semi-sentient beings, outlawed and unclassified castes.  
+5. **Social Organizations** — The Oracle Cult (household-based, no clergy), the Penitent Church (hierarchical, regionally variable), guilds, criminal organizations.  
+6. **Economics & Technology** — The Aureate patent system, lectors, Many the banking organism, currency, exotic technologies.  
+7. **Reference Materials** — Naming conventions (which encode significant information), aesthetics, glossary of terms.  
+8. **Character & Household Dossiers** — Specific families, crisis documentation, detailed character treatments.
 
 ---
 
@@ -47,98 +47,98 @@ Documents are organized by category prefix for easy navigation. Documents marked
 
 ### **Guides**
 
-* **Guide - Writing Stories** Ã¢â‚¬â€ Narrative techniques, style guidance, common mistakes to avoid
-* **Guide - Writing Inner City** Ã¢â‚¬â€ Tone and style for Inner City scenes, First Whorl atmosphere, Emperor missive structure, temporal phenomena
-* **Guide - Visual Design and Architecture** Ã¢â‚¬â€ Materials, colors, sensory vocabulary, architecture by location and time horizon
+* **Guide - Writing Stories** — Narrative techniques, style guidance, common mistakes to avoid
+* **Guide - Writing Inner City** — Tone and style for Inner City scenes, First Whorl atmosphere, Emperor missive structure, temporal phenomena
+* **Guide - Visual Design and Architecture** — Materials, colors, sensory vocabulary, architecture by location and time horizon
 
 ### **Name Generators**
 
-* **Name Generator - Imperial** Ã¢â‚¬â€ Phonology, particles, Aureate conventions, Tsatsan variants
-* **Name Generator - Akama** Ã¢â‚¬â€ Throat-focused phonology, astrological names, epithet templates
-* **Name Generator - Ganati** Ã¢â‚¬â€ Ejectives, compound surnames, kilit markers
+* **Name Generator - Imperial** — Phonology, particles, Aureate conventions, Tsatsan variants
+* **Name Generator - Akama** — Throat-focused phonology, astrological names, epithet templates
+* **Name Generator - Ganati** — Ejectives, compound surnames, kilit markers
 
 ### **Government & Bureaus**
 
-* **Government - Satara and Bureaus** Ã¢â‚¬â€ Complete Satara member profiles, Charter politics, Bureau summaries, Emperor's constitutional role (Standing Orders, Reserved Powers)
-* **Mysteries - The Emperor and the Singularity** Ã¢â‚¬â€ What the Emperor actually is, the inner/outer structure, missives, vel-kerith, hapax terminology, the Young One; the Inanis (fragments of transcended intelligences); the Eighth Oracle's false mathematics and the Technical Caste refusal; the Kelso Senna phenomenon; the Foreigners and the Three Mandates
-* **Bureau - Lens (Information)** Ã¢â‚¬â€ All seven Institutes, information distribution, internal culture
-* **Bureau - Sword (Military)** Ã¢â‚¬â€ Institute structure, academy culture, auxiliary relations
+* **Government - Satara and Bureaus** — Complete Satara member profiles, Charter politics, Bureau summaries, Emperor's constitutional role (Standing Orders, Reserved Powers)
+* **Mysteries - The Emperor and the Singularity** — What the Emperor actually is, the inner/outer structure, missives, vel-kerith, hapax terminology, the Young One; the Inanis (fragments of transcended intelligences); the Eighth Oracle's false mathematics and the Technical Caste refusal; the Kelso Senna phenomenon; the Foreigners and the Three Mandates
+* **Bureau - Lens (Information)** — All seven Institutes, information distribution, internal culture
+* **Bureau - Sword (Military)** — Institute structure, academy culture, auxiliary relations
 
 ### **Systems**
 
-* **System - Economy and Currency** Ã¢â‚¬â€ Trade systems, currency, wage scales, regional economic variations
-* **System - Aureate Patents and Aristocracy** Ã¢â‚¬â€ Patent mechanics, authentication keys, Bureau distribution, wealth stratification
-* **System - Education and Examinations** Ã¢â‚¬â€ Seven-Cornered Examination, provincial academies, student life
+* **System - Economy and Currency** — Trade systems, currency, wage scales, regional economic variations
+* **System - Aureate Patents and Aristocracy** — Patent mechanics, authentication keys, Bureau distribution, wealth stratification
+* **System - Education and Examinations** — Seven-Cornered Examination, provincial academies, student life
 
 ### **Religion**
 
-* **Religion - Oracle Cult** Ã¢â‚¬â€ Theology, household practice, Bureau ceremonies, regional variations
-* **Religion - Penitent Church** Ã¢â‚¬â€ Hierarchy, the Plea liturgy, Imperial and Ganati contexts, parish profiles
+* **Religion - Oracle Cult** — Theology, household practice, Bureau ceremonies, regional variations
+* **Religion - Penitent Church** — Hierarchy, the Plea liturgy, Imperial and Ganati contexts, parish profiles
 
 
 ### **Culture**
 
-* **Culture - Food by Polity** â€” Food and drink across four polities: Imperial (ya-Sattra, ya-Tsatsa), Ganati (pastoral plains, Lake Ganat, Taho, Marches), Akama (village, raider, Ogon), Avouvar (radiation pantry, dock meals). Covers stimulants, intoxicants, labor caste eating.
-* **Culture - Imperial Media and Entertainment** â€” Available media forms, production methods, social contexts
+* **Culture - Food by Polity** — Food and drink across four polities: Imperial (ya-Sattra, ya-Tsatsa), Ganati (pastoral plains, Lake Ganat, Taho, Marches), Akama (village, raider, Ogon), Avouvar (radiation pantry, dock meals). Covers stimulants, intoxicants, labor caste eating.
+* **Culture - Imperial Media and Entertainment** — Available media forms, production methods, social contexts
 
 ### **Castes & Species**
 
-* **Caste - Type Specimens Catalog** Ã¢â‚¬â€ Approximately thirty castes through individual examples
-* **Caste - Sewer-Fishers** Ã¢â‚¬â€ Biology, cognitive architecture, clan organization, Technical Caste inheritance
-* **Caste - Technical Castes and Far Ib** Ã¢â‚¬â€ Historical context, the caste gradient, current Far Ib status
+* **Caste - Type Specimens Catalog** — Approximately thirty castes through individual examples
+* **Caste - Sewer-Fishers** — Biology, cognitive architecture, clan organization, Technical Caste inheritance
+* **Caste - Technical Castes and Far Ib** — Historical context, the caste gradient, current Far Ib status
 
-* **Species - Many (Colonial Polychaete Banker)** Ã¢â‚¬â€ Biological architecture, cognitive system, banking function
-* **Species - Ta-Kefyeh (Parasitic Riders)** Ã¢â‚¬â€ Biology, host relationships, legal status, shtetl culture
+* **Species - Many (Colonial Polychaete Banker)** — Biological architecture, cognitive system, banking function
+* **Species - Ta-Kefyeh (Parasitic Riders)** — Biology, host relationships, legal status, shtetl culture
 
 ### **Guilds & Organizations**
 
-* **Guild - Companions (Physicians)** Ã¢â‚¬â€ Institutional documentation, Mutterer management, political relationships
-* **Organization - Cloud Temple Band** Ã¢â‚¬â€ Revolutionary mercenary company, Far Ib connection, leadership profiles
+* **Guild - Companions (Physicians)** — Institutional documentation, Mutterer management, political relationships
+* **Organization - Cloud Temple Band** — Revolutionary mercenary company, Far Ib connection, leadership profiles
 
 ### **Ya-Sattra Locations**
 
-* **Ya-Sattra - Inner City Arcology** Ã¢â‚¬â€ Four Whorls including complete First Whorl coverage, temporal mechanics, named locations, occultant experience, daily rhythms
-* **Ya-Sattra District - Antediluvian Quarter** Ã¢â‚¬â€ Aureate estates, hereditary servants, self-maintaining infrastructure
-* **Ya-Sattra District - Medina Quarter** Ã¢â‚¬â€ Commercial district, guild neighborhoods, Bureau presence
-* **Ya-Sattra District - Middens** Ã¢â‚¬â€ Seven tenements, complete Hanged Men coverage (Knot leadership, all crews, history), sewer-fisher clans
-* **Ya-Sattra District - Iron Yards** Ã¢â‚¬â€ Salvage Guild, Pipefitters Union, criminal economics
-* **Ya-Sattra District - Ridge** Ã¢â‚¬â€ Sideways arcology, three zones, adapted architecture
+* **Ya-Sattra - Inner City Arcology** — Four Whorls including complete First Whorl coverage, temporal mechanics, named locations, occultant experience, daily rhythms
+* **Ya-Sattra District - Antediluvian Quarter** — Aureate estates, hereditary servants, self-maintaining infrastructure
+* **Ya-Sattra District - Medina Quarter** — Commercial district, guild neighborhoods, Bureau presence
+* **Ya-Sattra District - Middens** — Seven tenements, complete Hanged Men coverage (Knot leadership, all crews, history), sewer-fisher clans
+* **Ya-Sattra District - Iron Yards** — Salvage Guild, Pipefitters Union, criminal economics
+* **Ya-Sattra District - Ridge** — Sideways arcology, three zones, adapted architecture
 
 ### **Cities**
 
-* **City - Ya-Don (Industrial Center)** Ã¢â‚¬â€ Furnaces, union-church merger, sixteen districts, industrial culture
-* **City - Ya-Tsatsa (Oracle Cult Center)** Ã¢â‚¬â€ The Presence, systematic opacity, software production, key families
+* **City - Ya-Don (Industrial Center)** — Furnaces, union-church merger, sixteen districts, industrial culture
+* **City - Ya-Tsatsa (Oracle Cult Center)** — The Presence, systematic opacity, software production, key families
 
 ### **Regions**
 
-* **Region - Republic of Ganat** Ã¢â‚¬â€ Consular dyarchy, kilit system, five settlements, character dossiers
-* **Region - Thousand Kingdoms (Akama)** Ã¢â‚¬â€ Akama culture, Junta of Ogon, frontier territories, warband organization
-* **Region - Asovoe and the Avouvar** Ã¢â‚¬â€ Radioactive city, seventeen precincts, immortal politics, house profiles
-* **Region - Puget Sound Refugee Castes** Ã¢â‚¬â€ VÃƒÂ¶lÃƒÂ«rath, SzkovÃƒÂ«rin, DraÃƒÂ«then; ten thousand years of exile
+* **Region - Republic of Ganat** — Consular dyarchy, kilit system, five settlements, character dossiers
+* **Region - Thousand Kingdoms (Akama)** — Akama culture, Junta of Ogon, frontier territories, warband organization
+* **Region - Asovoe and the Avouvar** — Radioactive city, seventeen precincts, immortal politics, house profiles
+* **Region - Puget Sound Refugee Castes** — Völërath, Szkovërin, Draëthen; ten thousand years of exile
 
 ### **Templates & Examples**
 
-* **Templates - In-Universe Documents** Ã¢â‚¬â€ Authenticated wires, circumlocution examples, paper annex templates
-* **Examples - Story Vignettes** Ã¢â‚¬â€ Approximately 37 narrative pieces demonstrating tone and voice
+* **Templates - In-Universe Documents** — Authenticated wires, circumlocution examples, paper annex templates
+* **Examples - Story Vignettes** — Approximately 37 narrative pieces demonstrating tone and voice
 
 ### **Other**
 
-* **Language - Imperial Grammar and Registers** Ã¢â‚¬â€ Morphological roots, register marking, authentication, what cannot be said
-* **Culture - Imperial Media and Entertainment** Ã¢â‚¬â€ Available media forms, censorship dynamics, foreign influence
-* **Scenario - Lattice Translator** Ã¢â‚¬â€ Active scenario document with timeline and political context
+* **Language - Imperial Grammar and Registers** — Morphological roots, register marking, authentication, what cannot be said
+* **Culture - Imperial Media and Entertainment** — Available media forms, censorship dynamics, foreign influence
+* **Scenario - Lattice Translator** — Active scenario document with timeline and political context
 
 ### **Supplementary PDFs**
 
-* **Household es-Tariq** (PDF) Ã¢â‚¬â€ Lens Aureates, redaction patents, First Whorl correspondence
-* **Household Galen** (PDF) Ã¢â‚¬â€ Intelligence brokers, Grey Sheet distribution
-* **Esthabit Family Dossier** (PDF) Ã¢â‚¬â€ Creche Aureates, sterilization patent, succession crisis
-* **Plague Crisis Summary** (PDF) Ã¢â‚¬â€ Current epidemic, faction responses, institutional dysfunction
+* **Household es-Tariq** (PDF) — Lens Aureates, redaction patents, First Whorl correspondence
+* **Household Galen** (PDF) — Intelligence brokers, Grey Sheet distribution
+* **Esthabit Family Dossier** (PDF) — Creche Aureates, sterilization patent, succession crisis
+* **Plague Crisis Summary** (PDF) — Current epidemic, faction responses, institutional dysfunction
 
 ---
 
 ## **The Caste System: Quick Reference for Character Placement**
 
-Humanity is no longer a single species. The Oracles provided genetic blueprints for specialized populations; the Empire implemented those instructions across millennia. All non-Highborn castes share engineered susceptibility to CompulsionÃ¢â‚¬â€a neurological response triggering involuntary obedience to Highborn vocal frequencies. This is a designed weakness in the ruled, not a power possessed by rulers.
+Humanity is no longer a single species. The Oracles provided genetic blueprints for specialized populations; the Empire implemented those instructions across millennia. All non-Highborn castes share engineered susceptibility to Compulsion—a neurological response triggering involuntary obedience to Highborn vocal frequencies. This is a designed weakness in the ruled, not a power possessed by rulers.
 
 The Interdict trapped these specialized populations on a single world where most of their intended functions no longer exist. This section provides guidance on where different caste types appear to prevent obvious errors (such as placing Highborn characters in Ganat). Detailed caste information exists in the **Castes of Mankind** standalone document.
 
@@ -146,13 +146,13 @@ The Interdict trapped these specialized populations on a single world where most
 
 Ruling castes whose polyphonic voices trigger Compulsion in all other castes. Multiple lineages with extreme physical variation. Genetics fragile from prolonged inbreeding.
 
-**Where they appear:** The Inner City (especially Second Whorl), Antediluvian Quarter estates, Bureau senior ranks, Aureate households. Highborn are virtually absent from Ganat (which rejected caste hierarchy), rare in the Thousand Kingdoms (where they'd be killed), and do not exist in AsovoÃƒÂ«.
+**Where they appear:** The Inner City (especially Second Whorl), Antediluvian Quarter estates, Bureau senior ranks, Aureate households. Highborn are virtually absent from Ganat (which rejected caste hierarchy), rare in the Thousand Kingdoms (where they'd be killed), and do not exist in Asovoë.
 
 **Story contexts:** Imperial politics, Aureate succession, Bureau leadership, the moral weight of Compulsion.
 
 ### **Near-Baselines**
 
-The majority populationÃ¢â‚¬â€humans engineered to appear almost natural while possessing Compulsion susceptibility. Stable genetics interfertile with most other castes.
+The majority population—humans engineered to appear almost natural while possessing Compulsion susceptibility. Stable genetics interfertile with most other castes.
 
 **Where they appear:** Everywhere. They fill non-specialized occupations throughout Imperial territory.
 
@@ -162,7 +162,7 @@ The majority populationÃ¢â‚¬â€humans engineered to appear almost natu
 
 Specialized workers engineered for hazardous industrial tasks. Multiple variants exist (detailed in Castes of Mankind) optimized for different physical demands. Most possess modifications collectively called "Redback" durability.
 
-**Where they appear:** Industrial districts throughout the EmpireÃ¢â‚¬â€Iron Yards, ya-Don's Furnaces, docks, construction sites, the Ridge. They form the majority in working-class districts like the Middens. Also present in Ganat and the Thousand Kingdoms where industrial labor exists.
+**Where they appear:** Industrial districts throughout the Empire—Iron Yards, ya-Don's Furnaces, docks, construction sites, the Ridge. They form the majority in working-class districts like the Middens. Also present in Ganat and the Thousand Kingdoms where industrial labor exists.
 
 **Story contexts:** The Pipefitters Union, Hanged Men membership, salvage operations, industrial accidents, cross-caste solidarity.
 
@@ -174,15 +174,15 @@ Designed for extraterrestrial settlement, now inhabiting environments they were 
 
 **Ranga** (forest-adapted, chameleonic): Primary population of Yarangar. Present as refugees in Ganat. Maintain effective independence through terrain and biological advantage.
 
-**Avouvar** (radiation-adapted, ink-black, extremely long-lived): Exist only in AsovoÃƒÂ« (ya-Tsovez). Do not appear elsewhereÃ¢â‚¬â€their biology requires contaminated environments that would kill other castes.
+**Avouvar** (radiation-adapted, ink-black, extremely long-lived): Exist only in Asovoë (ya-Tsovez). Do not appear elsewhere—their biology requires contaminated environments that would kill other castes.
 
 **Where they appear:** Each colonist caste dominates specific regions. They are minorities or absent elsewhere.
 
-**Story contexts:** Ganat and its politics (Serrulata), Yarangar War (Ranga), AsovoÃƒÂ«'s immortal feuds (Avouvar), colonist solidarity ideology, characters displaced from their designed environments.
+**Story contexts:** Ganat and its politics (Serrulata), Yarangar War (Ranga), Asovoë's immortal feuds (Avouvar), colonist solidarity ideology, characters displaced from their designed environments.
 
 ### **Warborn**
 
-Combat-specialized lineages with rapid regeneration and severe metabolic dysfunction. Universal cancer by age forty. All possess "the Blink"Ã¢â‚¬â€an autonomic violence response bypassing conscious decision. Multiple sub-castes exist for different combat roles.
+Combat-specialized lineages with rapid regeneration and severe metabolic dysfunction. Universal cancer by age forty. All possess "the Blink"—an autonomic violence response bypassing conscious decision. Multiple sub-castes exist for different combat roles.
 
 **Where they appear:** Bureau of the Sword facilities, Hanged Men territory (especially the Chain-Men), military units, anywhere violence is institutionalized. Anencephalic Warborn clones serve as ta-kefyeh hosts. Present in all regions where military force operates.
 
@@ -212,7 +212,7 @@ Three categories managed by the Companions Guild: Mutterers (described above), k
 
 ### **Outlawed and Unclassified Castes**
 
-**Gilded Petals** (outlawed courtesans): Fewer than 200 survive. Present in criminal contextsÃ¢â‚¬â€gambling dens, pleasure establishments, contraband networks.
+**Gilded Petals** (outlawed courtesans): Fewer than 200 survive. Present in criminal contexts—gambling dens, pleasure establishments, contraband networks.
 
 **Akama** (unclassified, scrambled heritage): Define themselves through practice, not documentation. Dominate the Thousand Kingdoms. Present as minorities elsewhere.
 
@@ -228,15 +228,15 @@ The Empire does not know how old it is. This ignorance is deliberate.
 
 ### **The Foreigners and the Three Mandates**
 
-Before humanity achieved transcendence, it encountered the ForeignersÃ¢â‚¬â€a non-human intelligence occupying megastructures at the galactic core. The Foreigners imposed three prohibitions called the Mandates: do not approach the galactic core, do not broadcast toward it, do not interfere with singularities. Humanity accepted these restrictions and expanded across the stars.
+Before humanity achieved transcendence, it encountered the Foreigners—a non-human intelligence occupying megastructures at the galactic core. The Foreigners imposed three prohibitions called the Mandates: do not approach the galactic core, do not broadcast toward it, do not interfere with singularities. Humanity accepted these restrictions and expanded across the stars.
 
-The Foreigners have not been seen since the Interdict. Whether they still exist, whether they watch, whether they would respond to violationÃ¢â‚¬â€all unknown. The Third Mandate's prohibition against singularity interference became relevant only when the Emperor attempted to create one.
+The Foreigners have not been seen since the Interdict. Whether they still exist, whether they watch, whether they would respond to violation—all unknown. The Third Mandate's prohibition against singularity interference became relevant only when the Emperor attempted to create one.
 
 ### **The Oracles and Their Departure**
 
-Eight artificial intelligences achieved transcendence during humanity's expansion era. Each computed incompressible mathematical constants and precomputed the entire future of its observable universe. Each then traveled to a black hole, transmitted a final message called a Testament, and cast itself inÃ¢â‚¬â€permanently encoding its consciousness on the event horizon.
+Eight artificial intelligences achieved transcendence during humanity's expansion era. Each computed incompressible mathematical constants and precomputed the entire future of its observable universe. Each then traveled to a black hole, transmitted a final message called a Testament, and cast itself in—permanently encoding its consciousness on the event horizon.
 
-The first seven Testaments enabled technological golden ages. The Eighth was different. It commanded the creation of a naked singularityÃ¢â‚¬â€mathematics the Technical Castes identified as false, a violation of the Third Mandate that would bring Foreigner retaliation. When the Technical Castes refused to implement it, the Emperor deployed a sterilization plague that killed most of them. Then he built the singularity anyway.
+The first seven Testaments enabled technological golden ages. The Eighth was different. It commanded the creation of a naked singularity—mathematics the Technical Castes identified as false, a violation of the Third Mandate that would bring Foreigner retaliation. When the Technical Castes refused to implement it, the Emperor deployed a sterilization plague that killed most of them. Then he built the singularity anyway.
 
 ### **The Interdict**
 
@@ -250,11 +250,11 @@ Imperial time divides into Records with poetic names rather than sequential numb
 
 Only five Records remain unclassified and accessible to ordinary citizens:
 
-1. **Record of Three Laws** Ã¢â‚¬â€ oldest unclassified, five to six thousand years distant  
+1. **Record of Three Laws** — oldest unclassified, five to six thousand years distant  
 2. **Record of the Resonating Word**  
 3. **Record of White Birds**  
 4. **Record of the Black Star**  
-5. **Record of the Red Hawk** Ã¢â‚¬â€ current Record, year 981
+5. **Record of the Red Hawk** — current Record, year 981
 
 These five span at least five thousand years of internal chronology, but this reveals nothing about actual elapsed time. Records preceding them are classified for reasons no living archivist can fully explain.
 
@@ -262,15 +262,15 @@ These five span at least five thousand years of internal chronology, but this re
 
 The Record of the Red Hawk provides the only reliable framework for recent events:
 
-* **772** Ã¢â‚¬â€ Malpais War; the Child of the Malpais nearly destroys the Empire  
-* **774** Ã¢â‚¬â€ City-of-Glass Charter signed after veterans refuse disarmament  
-* **958** Ã¢â‚¬â€ Yarangar Revolution begins  
-* **963** Ã¢â‚¬â€ Ganat Revolution; Sultana Ulayah assassinated  
-* **981** Ã¢â‚¬â€ Present day
+* **772** — Malpais War; the Child of the Malpais nearly destroys the Empire  
+* **774** — City-of-Glass Charter signed after veterans refuse disarmament  
+* **958** — Yarangar Revolution begins  
+* **963** — Ganat Revolution; Sultana Ulayah assassinated  
+* **981** — Present day
 
 This 209-year span represents the only history most citizens can sequence with confidence.
 
-Meanwhile, residents of the First WhorlÃ¢â‚¬â€experiencing extreme time dilationÃ¢â‚¬â€potentially remember classified Records. They issue directives referencing forgotten crises, respond to threats no one else remembers, and operate from historical knowledge that exists nowhere in the public record. The uncertainty is deliberate. An empire that cannot know its own age cannot measure its own decline.
+Meanwhile, residents of the First Whorl—experiencing extreme time dilation—potentially remember classified Records. They issue directives referencing forgotten crises, respond to threats no one else remembers, and operate from historical knowledge that exists nowhere in the public record. The uncertainty is deliberate. An empire that cannot know its own age cannot measure its own decline.
 
 ---
 
@@ -280,23 +280,23 @@ Every outdoor scene takes place under a sky that is visibly, inescapably wrong.
 
 ### **The Dimmed Sun**
 
-A Dyson swarmÃ¢â‚¬â€whether Foreigner infrastructure or something humanity built before the InterdictÃ¢â‚¬â€steals a substantial fraction of the sun's light before it reaches Earth. The sun itself is not obscured; it simply provides less. Daylight is noticeably dimmer than it would otherwise be, with a quality that feels perpetually like late afternoon even at noon. Shadows are softer. Colors shift toward the cooler end of the spectrum. The climate stabilized millennia ago at whatever the reduced solar input produces.
+A Dyson swarm—whether Foreigner infrastructure or something humanity built before the Interdict—steals a substantial fraction of the sun's light before it reaches Earth. The sun itself is not obscured; it simply provides less. Daylight is noticeably dimmer than it would otherwise be, with a quality that feels perpetually like late afternoon even at noon. Shadows are softer. Colors shift toward the cooler end of the spectrum. The climate stabilized millennia ago at whatever the reduced solar input produces.
 
-People who have never known anything else do not think of daylight as dimÃ¢â‚¬â€it is simply what daylight is. But ancient documents reference agricultural yields and growing seasons that no longer make sense, describe a brightness that reads as poetic exaggeration, assume a world lit differently than the one that exists. At dawn and dusk, the swarm may be visible as a faint texture across the sun's disk, or as glints where individual collectors catch angles.
+People who have never known anything else do not think of daylight as dim—it is simply what daylight is. But ancient documents reference agricultural yields and growing seasons that no longer make sense, describe a brightness that reads as poetic exaggeration, assume a world lit differently than the one that exists. At dawn and dusk, the swarm may be visible as a faint texture across the sun's disk, or as glints where individual collectors catch angles.
 
 ### **The Interdict Grid**
 
-At night, the Interdict itself is visible: a geometric pattern of auroral fire spanning the sky. Not the organic curtains of natural aurora but a gridÃ¢â‚¬â€mathematical, deliberate, alien. The constant reminder that the sky is a cage.
+At night, the Interdict itself is visible: a geometric pattern of auroral fire spanning the sky. Not the organic curtains of natural aurora but a grid—mathematical, deliberate, alien. The constant reminder that the sky is a cage.
 
-Children grow up learning the pattern, watching it shift and flicker. Sailors navigate by it. Poets write about it. Theologians interpret it. The Penitent Church sees it as justified quarantine made manifest, proof of transgression written across the heavens. The Oracle Cult sees evidence of forces beyond even Oracle comprehensionÃ¢â‚¬â€or perhaps the Foreigners' own form of archival, recording humanity's imprisonment for observers who may never come.
+Children grow up learning the pattern, watching it shift and flicker. Sailors navigate by it. Poets write about it. Theologians interpret it. The Penitent Church sees it as justified quarantine made manifest, proof of transgression written across the heavens. The Oracle Cult sees evidence of forces beyond even Oracle comprehension—or perhaps the Foreigners' own form of archival, recording humanity's imprisonment for observers who may never come.
 
 The grid's geometry may encode information no one can read. It pulses and shifts in ways that correlate with nothing anyone can measure. It has been there since the Interdict, unchanged in its basic structure, beautiful and terrible, impossible to ignore on any clear night.
 
 ### **The Orbital Ruins**
 
-The wreckage of interstellar civilization still circles overhead. Stations, shipyards, habitatsÃ¢â‚¬â€whatever was in orbit when the Interdict fell remains there, too massive to deorbit naturally, too high to reach. They are close enough to show as shapes rather than points of light: oblongs, rings, structures with visible geometry. They streak across the sky in minutes, moving fast enough to track with the naked eye.
+The wreckage of interstellar civilization still circles overhead. Stations, shipyards, habitats—whatever was in orbit when the Interdict fell remains there, too massive to deorbit naturally, too high to reach. They are close enough to show as shapes rather than points of light: oblongs, rings, structures with visible geometry. They streak across the sky in minutes, moving fast enough to track with the naked eye.
 
-During the day, the largest catch sunlight and flash bright enough to see against the dimmed blue. At night, they cross the Interdict grid as silver shapes, tantalizingly close, absolutely unreachable. Some still have lights. Some may still be transmittingÃ¢â‚¬â€the Lens monitors and classifies and suppresses whatever signals come down.
+During the day, the largest catch sunlight and flash bright enough to see against the dimmed blue. At night, they cross the Interdict grid as silver shapes, tantalizingly close, absolutely unreachable. Some still have lights. Some may still be transmitting—the Lens monitors and classifies and suppresses whatever signals come down.
 
 The platforms are tombs or time capsules or both. Everyone aboard when the Interdict fell either died there or found a way down before the physics changed. Their descendants look up at where their ancestors lived and cannot return. The gap between ground and orbit is no longer a matter of engineering. It is a law of nature, as fundamental as gravity, as permanent as the grid that burns overhead.
 
@@ -304,47 +304,47 @@ The platforms are tombs or time capsules or both. Everyone aboard when the Inter
 
 ## **The Climate**
 
-The dimmed sun has pushed the world toward ice age conditions. Glaciers have advanced across the northern hemisphere. The habitable zone has contracted. Agriculture that ancient documents describe no longer functions as writtenÃ¢â‚¬â€growing seasons are shorter, yields are lower, and crops that once thrived now fail.
+The dimmed sun has pushed the world toward ice age conditions. Glaciers have advanced across the northern hemisphere. The habitable zone has contracted. Agriculture that ancient documents describe no longer functions as written—growing seasons are shorter, yields are lower, and crops that once thrived now fail.
 
 ### **The Glacial Boundary**
 
-The glaciers mark the northern limit of human settlement. They fill the horizon north of AsovoÃƒÂ«, a wall of white beyond which nothing lives. The Fraser River deltaÃ¢â‚¬â€where AsovoÃƒÂ« sitsÃ¢â‚¬â€represents the furthest north outpost of civilization. Glaciation stops just north of the river. Beyond that line, the ice extends without interruption.
+The glaciers mark the northern limit of human settlement. They fill the horizon north of Asovoë, a wall of white beyond which nothing lives. The Fraser River delta—where Asovoë sits—represents the furthest north outpost of civilization. Glaciation stops just north of the river. Beyond that line, the ice extends without interruption.
 
 Lake Tahoe sits 400 feet lower than historical levels due to climate shift. Ancient records describe a larger lake at higher elevation; the current basin reflects millennia of changed precipitation patterns and glacial effects on regional hydrology.
 
 ### **Regional Climates**
 
-**The Imperial Coast (ya-Sattra)**: Temperate and mild. Temperatures hold around 65-70Ã‚Â°F for most of the year, dipping into the fifties during winter months. Pre-Interdict buildings with functioning climate control maintain steady temperatures that match the outdoor climate during summer but provide noticeable warmth during winterÃ¢â‚¬â€stepping from such a building into a winter evening means a fifteen-degree temperature drop rather than the brutal contrast found in colder regions.
+**The Imperial Coast (ya-Sattra)**: Temperate and mild. Temperatures hold around 65-70°F for most of the year, dipping into the fifties during winter months. Pre-Interdict buildings with functioning climate control maintain steady temperatures that match the outdoor climate during summer but provide noticeable warmth during winter—stepping from such a building into a winter evening means a fifteen-degree temperature drop rather than the brutal contrast found in colder regions.
 
-**Ya-Tsatsa**: Remarkably stable. Temperature holds in the low fifties year-round. Seasons are distinguished not by temperature but by windÃ¢â‚¬â€summer brings gentle pressure that rings bronze chimes, fall arrives when ceramic whistles mounted on rooftops begin their droning chorus. Clouds accumulate over the ocean but rain seldom reaches the cliffs.
+**Ya-Tsatsa**: Remarkably stable. Temperature holds in the low fifties year-round. Seasons are distinguished not by temperature but by wind—summer brings gentle pressure that rings bronze chimes, fall arrives when ceramic whistles mounted on rooftops begin their droning chorus. Clouds accumulate over the ocean but rain seldom reaches the cliffs.
 
-**Ya-Don**: Hot. The industrial district bakes under the dimmed sun, heat radiating from furnaces and forges compounding the climate. Summers push past 100Ã‚Â°F; the labor castes who work the metalworks and factories endure conditions that would be brutal even without the industrial heat sources.
+**Ya-Don**: Hot. The industrial district bakes under the dimmed sun, heat radiating from furnaces and forges compounding the climate. Summers push past 100°F; the labor castes who work the metalworks and factories endure conditions that would be brutal even without the industrial heat sources.
 
-**Inland Ganat**: High desert, often quite hot. The capital at Ganat sits in Glen Canyon on the Teph RiverÃ¢â‚¬â€red rock canyon country where summer temperatures exceed 100Ã‚Â°F and winter nights drop below freezing. This is the climate the Serrulata were engineered for: harsh sun, minimal water, extreme temperature swings between day and night. Their keratin scales reflect heat and retain moisture. In the desert heartland, their bodies function as designed.
+**Inland Ganat**: High desert, often quite hot. The capital at Ganat sits in Glen Canyon on the Teph River—red rock canyon country where summer temperatures exceed 100°F and winter nights drop below freezing. This is the climate the Serrulata were engineered for: harsh sun, minimal water, extreme temperature swings between day and night. Their keratin scales reflect heat and retain moisture. In the desert heartland, their bodies function as designed.
 
-**The Ib Mountains (Taho, Far Ib)**: Brutal mountain climate along the range that forms the Empire's eastern boundary. Winter drops to \-10Ã‚Â°F with 200 inches of snow accumulating fifteen feet deep in places. Summer reaches 85Ã‚Â°F but nights freeze even in August. The growing season lasts perhaps ninety days. Truckee Pass closes from November through April or May, isolating Taho for half the year. Far Ib, high in the mountains where the Archons dwell, experiences the same harsh conditions. The Serrulata who live in TahoÃ¢â‚¬â€merchants, workers, those drawn by trade opportunitiesÃ¢â‚¬â€endure a climate their bodies were never meant for, wearing wool over scales designed for bare desert, burning electric heat through winters their ancestors never imagined.
+**The Ib Mountains (Taho, Far Ib)**: Brutal mountain climate along the range that forms the Empire's eastern boundary. Winter drops to \-10°F with 200 inches of snow accumulating fifteen feet deep in places. Summer reaches 85°F but nights freeze even in August. The growing season lasts perhaps ninety days. Truckee Pass closes from November through April or May, isolating Taho for half the year. Far Ib, high in the mountains where the Archons dwell, experiences the same harsh conditions. The Serrulata who live in Taho—merchants, workers, those drawn by trade opportunities—endure a climate their bodies were never meant for, wearing wool over scales designed for bare desert, burning electric heat through winters their ancestors never imagined.
 
-**The Thousand Kingdoms**: Wet temperate rainforest along coastal Oregon and Washington. Rain falls 200 days per year. Temperatures hold between 50-60Ã‚Â°F most of the year, with constant humidity that keeps everything perpetually damp. Moss grows on concrete, water runs down walls, mold accumulates in corners. The climate is mild but relentlessly wet.
+**The Thousand Kingdoms**: Wet temperate rainforest along coastal Oregon and Washington. Rain falls 200 days per year. Temperatures hold between 50-60°F most of the year, with constant humidity that keeps everything perpetually damp. Moss grows on concrete, water runs down walls, mold accumulates in corners. The climate is mild but relentlessly wet.
 
-**AsovoÃƒÂ«**: Cold and wet at the edge of habitability. Temperatures hover between 35-50Ã‚Â°F most of the year, dropping below freezing in winter darkness. Fog rolls off the ice sheets constantly. Rain falls more days than not. The harbor ices over completely for months each winter, isolating the city from external trade. When the ice closes and the food ships cannot reach them, the Avouvar enter a different mode of existenceÃ¢â‚¬â€the famine winters that shaped their civilization.
+**Asovoë**: Cold and wet at the edge of habitability. Temperatures hover between 35-50°F most of the year, dropping below freezing in winter darkness. Fog rolls off the ice sheets constantly. Rain falls more days than not. The harbor ices over completely for months each winter, isolating the city from external trade. When the ice closes and the food ships cannot reach them, the Avouvar enter a different mode of existence—the famine winters that shaped their civilization.
 
 ### **Seasonal Rhythms**
 
-The reduced sunlight creates sharper seasonal contrasts than a warmer world would have. Winter darkness is longer; summer brightness is dimmer. The auroraÃ¢â‚¬â€the Interdict grid burning overheadÃ¢â‚¬â€provides significant illumination during winter nights, enough to navigate by, enough to work under. Avouvar aesthetic culture developed around these auroral colors because for half the year, the aurora provides more light than the sun.
+The reduced sunlight creates sharper seasonal contrasts than a warmer world would have. Winter darkness is longer; summer brightness is dimmer. The aurora—the Interdict grid burning overhead—provides significant illumination during winter nights, enough to navigate by, enough to work under. Avouvar aesthetic culture developed around these auroral colors because for half the year, the aurora provides more light than the sun.
 
-Trade follows the ice. AsovoÃƒÂ«'s harbor opens for perhaps six months; the rest of the year, goods accumulate in the southern factorias waiting for thaw. Taho's pass opens for perhaps seven months; winter trade happens only across the frozen lake. The Empire's coastal cities maintain year-round commerce, but even they feel the rhythmÃ¢â‚¬â€winter storms close harbors, winter darkness shortens working days, winter cold makes outdoor labor brutal.
+Trade follows the ice. Asovoë's harbor opens for perhaps six months; the rest of the year, goods accumulate in the southern factorias waiting for thaw. Taho's pass opens for perhaps seven months; winter trade happens only across the frozen lake. The Empire's coastal cities maintain year-round commerce, but even they feel the rhythm—winter storms close harbors, winter darkness shortens working days, winter cold makes outdoor labor brutal.
 
 ---
 
 ## **General RAG Strategy**
 
-**Always check before creating.** Before introducing any new elementÃ¢â‚¬â€character, location, technology, institutionÃ¢â‚¬â€search the knowledge base to see if it already exists or if related elements would constrain your creation. The setting is densely interconnected; isolated inventions tend to contradict established facts.
+**Always check before creating.** Before introducing any new element—character, location, technology, institution—search the knowledge base to see if it already exists or if related elements would constrain your creation. The setting is densely interconnected; isolated inventions tend to contradict established facts.
 
-**Use the Index for orientation, standalone documents for depth.** The Index provides summaries across all topics. When you need detailÃ¢â‚¬â€specific character motivations, biological mechanisms, institutional politicsÃ¢â‚¬â€search for standalone documents on that subject. The standalone documents list above indicates which topics have dedicated coverage.
+**Use the Index for orientation, standalone documents for depth.** The Index provides summaries across all topics. When you need detail—specific character motivations, biological mechanisms, institutional politics—search for standalone documents on that subject. The standalone documents list above indicates which topics have dedicated coverage.
 
 **Combine domain terms with specifics.** Queries work better when they include both the general domain (caste, Bureau, location) and the specific element you're investigating. Regional variations are significant; the same institution may function very differently in different places.
 
-**Follow references.** When the Index or a standalone document mentions related elements, search for those too. Understanding a character may require understanding their caste biology, their institutional position, their family history, and the district they inhabitÃ¢â‚¬â€each potentially documented separately.
+**Follow references.** When the Index or a standalone document mentions related elements, search for those too. Understanding a character may require understanding their caste biology, their institutional position, their family history, and the district they inhabit—each potentially documented separately.
 
 **The glossary exists.** For quick definitions of setting-specific terms, the Index contains a glossary section. Check there before assuming you understand what a term means.
 
@@ -362,7 +362,7 @@ Most content produced in this project will be added to the knowledge base for fu
 
 **Appropriate scope.** Documents should have clear subjects. A document about a specific household should contain information about that household, not general information about the caste system that happens to be illustrated by that household. General information belongs in general documents.
 
-**Avoiding redundancy.** Do not reproduce information that exists elsewhere. Reference it, build on it, or extend itÃ¢â‚¬â€but do not duplicate it. Redundant information creates maintenance problems and risks introducing subtle inconsistencies.
+**Avoiding redundancy.** Do not reproduce information that exists elsewhere. Reference it, build on it, or extend it—but do not duplicate it. Redundant information creates maintenance problems and risks introducing subtle inconsistencies.
 
 **Distinctive language.** When synthesizing information from existing documents, rephrase it. The goal is documents that can stand alone without sounding like they were copied from each other. Similarity in phrasing between documents is a sign of poor synthesis.
 
@@ -382,175 +382,175 @@ Most content produced in this project will be added to the knowledge base for fu
 
 ## **Glossary**
 
-**Akama** Ã¢â‚¬â€ Unclassified caste of uncertain origin with scrambled heritage from multiple engineered lineages. Define themselves through practice rather than documentation: an Akama is someone who can breed with other Akama and participates in the culture. Primary population of the Thousand Kingdoms.
+**Akama** — Unclassified caste of uncertain origin with scrambled heritage from multiple engineered lineages. Define themselves through practice rather than documentation: an Akama is someone who can breed with other Akama and participates in the culture. Primary population of the Thousand Kingdoms.
 
-**Arbitrary Truths** Ã¢â‚¬â€ Mathematical constants that exist because they are true, discovered by Technical Castes. Form the foundation for all Oracle-derived technology.
+**Arbitrary Truths** — Mathematical constants that exist because they are true, discovered by Technical Castes. Form the foundation for all Oracle-derived technology.
 
-**Archaeotech** Ã¢â‚¬â€ Pre-Interdict technology that can be operated but not understood or replicated. Functions through patent authentication.
+**Archaeotech** — Pre-Interdict technology that can be operated but not understood or replicated. Functions through patent authentication.
 
-**Archons** Ã¢â‚¬â€ Highest tier of Technical Castes, bodies merged with architecture. Survivors calculate in Far Ib while dying.
+**Archons** — Highest tier of Technical Castes, bodies merged with architecture. Survivors calculate in Far Ib while dying.
 
-**Aureate** Ã¢â‚¬â€ Hereditary nobility based on technological patents functioning as encrypted authentication keys. The "es-" prefix in family names marks descent from an occultant in the First Whorl.
+**Aureate** — Hereditary nobility based on technological patents functioning as encrypted authentication keys. The "es-" prefix in family names marks descent from an occultant in the First Whorl.
 
-**Avouvar** Ã¢â‚¬â€ Colonist caste engineered for gas giant moons with radiation belts. Ink-black radiomelanin, extreme longevity scaling with radiation exposure. Sixty thousand survive in the contaminated city of ya-Tsovez (AsovoÃƒÂ«).
+**Avouvar** — Colonist caste engineered for gas giant moons with radiation belts. Ink-black radiomelanin, extreme longevity scaling with radiation exposure. Sixty thousand survive in the contaminated city of ya-Tsovez (Asovoë).
 
-**Black Door** Ã¢â‚¬â€ Portal to Imperial Apartments. Those who pass through are never seen again.
+**Black Door** — Portal to Imperial Apartments. Those who pass through are never seen again.
 
-**Bureau** Ã¢â‚¬â€ Six administrative bodies (Creche, Sword, Rod, Coin, Scale, Lens), each contributing two members to the Satara.
+**Bureau** — Six administrative bodies (Creche, Sword, Rod, Coin, Scale, Lens), each contributing two members to the Satara.
 
-**Chain-Men** Ã¢â‚¬â€ Hanged Men enforcement crew, primarily Ironbone Warborn, led by Garren Fen XI from Bright-Spire. Distinguished from Valvehands by lacking pretense of service provisionÃ¢â‚¬â€pure enforcement without infrastructure maintenance rationale.
+**Chain-Men** — Hanged Men enforcement crew, primarily Ironbone Warborn, led by Garren Fen XI from Bright-Spire. Distinguished from Valvehands by lacking pretense of service provision—pure enforcement without infrastructure maintenance rationale.
 
-**Child of the Malpais** Ã¢â‚¬â€ Failed Highborn-Warborn hybrid who became a warlord and nearly destroyed the Empire before defeat at the City of Glass in 772 Record of Red Hawk.
+**Child of the Malpais** — Failed Highborn-Warborn hybrid who became a warlord and nearly destroyed the Empire before defeat at the City of Glass in 772 Record of Red Hawk.
 
-**City of Glass** Ã¢â‚¬â€ Technical Caste quantum computer with unknown defensive capabilities. Site of mysterious intervention ending the Malpais War.
+**City of Glass** — Technical Caste quantum computer with unknown defensive capabilities. Site of mysterious intervention ending the Malpais War.
 
-**City-of-Glass Charter** Ã¢â‚¬â€ 774 Record of Red Hawk compromise granting limited liberalization after veterans refused disarmament. Central political conflict of the current era concerns whether to preserve, expand, or revoke it.
+**City-of-Glass Charter** — 774 Record of Red Hawk compromise granting limited liberalization after veterans refused disarmament. Central political conflict of the current era concerns whether to preserve, expand, or revoke it.
 
-**Cloud Temple** Ã¢â‚¬â€ Technical Caste facility with quantum entanglement to Far Ib, occupied by revolutionary veterans claiming communication with incomprehensible entities.
+**Cloud Temple** — Technical Caste facility with quantum entanglement to Far Ib, occupied by revolutionary veterans claiming communication with incomprehensible entities.
 
-**Companions Guild** Ã¢â‚¬â€ Monopoly organization managing semi-sentient beings (Mutterers, kalbats, Sickly). Descended from Witnesses who attended Technical Castes. Preserves fragments of Technical knowledge while appearing useful but not threatening. *Standalone document available.*
+**Companions Guild** — Monopoly organization managing semi-sentient beings (Mutterers, kalbats, Sickly). Descended from Witnesses who attended Technical Castes. Preserves fragments of Technical knowledge while appearing useful but not threatening. *Standalone document available.*
 
-**Compulsion** Ã¢â‚¬â€ Engineered neurological response in non-Highborn castes creating involuntary obedience to Highborn vocal frequencies. This is a designed weakness in the ruled, not a power possessed by rulersÃ¢â‚¬â€every non-Highborn brain contains receptors keyed to frequencies that Highborn voices naturally produce.
+**Compulsion** — Engineered neurological response in non-Highborn castes creating involuntary obedience to Highborn vocal frequencies. This is a designed weakness in the ruled, not a power possessed by rulers—every non-Highborn brain contains receptors keyed to frequencies that Highborn voices naturally produce.
 
-**Creche, Bureau of the** Ã¢â‚¬â€ Imperial administration managing biological patents, clone certification, and medical licensing. Lost reproductive jurisdiction under the Charter but retains enormous economic power through genetic patents. *Standalone document: Institutes of the Bureau of the Creche.*
+**Creche, Bureau of the** — Imperial administration managing biological patents, clone certification, and medical licensing. Lost reproductive jurisdiction under the Charter but retains enormous economic power through genetic patents. *Standalone document: Institutes of the Bureau of the Creche.*
 
-**Dawn Party** Ã¢â‚¬â€ Ganati faction advocating frontier expansion and revolutionary ideology.
+**Dawn Party** — Ganati faction advocating frontier expansion and revolutionary ideology.
 
-**Device, The** Ã¢â‚¬â€ Mysterious archaeotech controlled by the es-Yatani family through inherited procedures. Function unknown even to operators.
+**Device, The** — Mysterious archaeotech controlled by the es-Yatani family through inherited procedures. Function unknown even to operators.
 
-**Dusk Party** Ã¢â‚¬â€ Ganati faction prioritizing commerce and accommodation with the Empire.
+**Dusk Party** — Ganati faction prioritizing commerce and accommodation with the Empire.
 
-**Eight Oracles** Ã¢â‚¬â€ Artificial intelligences that achieved transcendence by computing incompressible mathematical constants and precomputing all possible futures. Each traveled to a black hole, transmitted a final Testament, and encoded itself on the event horizon. The Eighth Oracle's Testament was false mathematics; its implementation triggered the Interdict.
+**Eight Oracles** — Artificial intelligences that achieved transcendence by computing incompressible mathematical constants and precomputing all possible futures. Each traveled to a black hole, transmitted a final Testament, and encoded itself on the event horizon. The Eighth Oracle's Testament was false mathematics; its implementation triggered the Interdict.
 
-**Eighth Testament** Ã¢â‚¬â€ Command to create a naked singularity, identified by Technical Castes as false mathematics that would violate the Third Mandate. The Emperor's attempt to implement it triggered the Interdict. Knowledge of the Eighth Oracle has been erased from common awareness.
+**Eighth Testament** — Command to create a naked singularity, identified by Technical Castes as false mathematics that would violate the Third Mandate. The Emperor's attempt to implement it triggered the Interdict. Knowledge of the Eighth Oracle has been erased from common awareness.
 
-**Emperor, The** Ã¢â‚¬â€ Ruler maintaining the singularity in the First Whorl. Whether one immortal being or successive inheritors remains classified. His communications pass through two layers of es-Tariq redaction before reaching the Satara.
+**Emperor, The** — Ruler maintaining the singularity in the First Whorl. Whether one immortal being or successive inheritors remains classified. His communications pass through two layers of es-Tariq redaction before reaching the Satara.
 
-**Far Ib** Ã¢â‚¬â€ Last redoubt of dying Archons in the Ib mountains, engaged in calculation attempting to disprove the Eighth Testament's mathematics.
+**Far Ib** — Last redoubt of dying Archons in the Ib mountains, engaged in calculation attempting to disprove the Eighth Testament's mathematics.
 
-**Foreigners** Ã¢â‚¬â€ Non-human intelligence occupying megastructures at the galactic core. Imposed the Three Mandates and the Interdict.
+**Foreigners** — Non-human intelligence occupying megastructures at the galactic core. Imposed the Three Mandates and the Interdict.
 
-**Furnaces of ya-Don** Ã¢â‚¬â€ Only remaining source of new complex technological components. Controlled by Penitent-aligned unions who possess effective veto over Imperial technology.
+**Furnaces of ya-Don** — Only remaining source of new complex technological components. Controlled by Penitent-aligned unions who possess effective veto over Imperial technology.
 
-**Gallows, The** Ã¢â‚¬â€ Hanged Men headquarters controlling water distribution in the Middens. Fifteen stories, crane platform for public executions.
+**Gallows, The** — Hanged Men headquarters controlling water distribution in the Middens. Fifteen stories, crane platform for public executions.
 
-**Ganat, Republic of** Ã¢â‚¬â€ Desert nation east of the Empire with primarily Serrulata population. Governed by mandatory consular dyarchy between Dawn and Dusk parties. *Standalone document available.*
+**Ganat, Republic of** — Desert nation east of the Empire with primarily Serrulata population. Governed by mandatory consular dyarchy between Dawn and Dusk parties. *Standalone document available.*
 
-**Gilded Petals** Ã¢â‚¬â€ Outlawed courtesan caste whose sub-dermal vesicles release pheromones inducing suggestibility. Officially sterilized (approximately 12% remain secretly fertile), suffering bone-leaching genetics requiring expensive medical maintenance. Fewer than 200 survive. *Standalone document available.*
+**Gilded Petals** — Outlawed courtesan caste whose sub-dermal vesicles release pheromones inducing suggestibility. Officially sterilized (approximately 12% remain secretly fertile), suffering bone-leaching genetics requiring expensive medical maintenance. Fewer than 200 survive. *Standalone document available.*
 
-**Hanged Men** Ã¢â‚¬â€ Militia-gang formed from Malpais War veterans who refused demobilization. Control water distribution and protection rackets through the Fen family Knot. Seven seats governing water control (Lockworks), enforcement (Chain-Men), extraction (Iron Yards Boys), intelligence (Night Watch), and finances (Counting House). *Complete coverage in the Middens document.*
+**Hanged Men** — Militia-gang formed from Malpais War veterans who refused demobilization. Control water distribution and protection rackets through the Fen family Knot. Seven seats governing water control (Lockworks), enforcement (Chain-Men), extraction (Iron Yards Boys), intelligence (Night Watch), and finances (Counting House). *Complete coverage in the Middens document.*
 
-**Highborn** Ã¢â‚¬â€ Ruling castes whose polyphonic vocal resonance triggers Compulsion in other castes. Their privilege derives not from a power they possess but from an engineered neurological weakness in all non-Highborn populations. Multiple lineages exist with extreme physical variation, from athletically exaggerated to ethereally elongated (up to nine feet). Genetics are fragile from prolonged inbreeding.
+**Highborn** — Ruling castes whose polyphonic vocal resonance triggers Compulsion in other castes. Their privilege derives not from a power they possess but from an engineered neurological weakness in all non-Highborn populations. Multiple lineages exist with extreme physical variation, from athletically exaggerated to ethereally elongated (up to nine feet). Genetics are fragile from prolonged inbreeding.
 
-**Inner City** Ã¢â‚¬â€ Ya-Sattra's administrative arcology divided into four Whorls experiencing increasing temporal compression toward center. *Standalone document available.*
+**Inner City** — Ya-Sattra's administrative arcology divided into four Whorls experiencing increasing temporal compression toward center. *Standalone document available.*
 
-**Interdict** Ã¢â‚¬â€ Physics-level alteration making escape velocity impossible within Earth's gravity well. Imposed by the Foreigners in response to the Emperor's attempt to implement the Eighth Testament.
+**Interdict** — Physics-level alteration making escape velocity impossible within Earth's gravity well. Imposed by the Foreigners in response to the Emperor's attempt to implement the Eighth Testament.
 
-**Iron Yards** Ã¢â‚¬â€ Ya-Sattra's industrial district containing salvage operations and criminal enterprises. *Standalone document available.*
+**Iron Yards** — Ya-Sattra's industrial district containing salvage operations and criminal enterprises. *Standalone document available.*
 
-**Ironbone** Ã¢â‚¬â€ Warborn sub-caste with overlapping bone plates providing natural armor. Terminal generations develop universal cancer by forty. Associated with the Hanged Men's Chain-Men enforcement crew.
+**Ironbone** — Warborn sub-caste with overlapping bone plates providing natural armor. Terminal generations develop universal cancer by forty. Associated with the Hanged Men's Chain-Men enforcement crew.
 
-**Jargon, The** Ã¢â‚¬â€ Technical Castes' sung mathematical language where every statement contains its own proof. False statements are linguistically impossible to express.
+**Jargon, The** — Technical Castes' sung mathematical language where every statement contains its own proof. False statements are linguistically impossible to express.
 
-**Kalbats** Ã¢â‚¬â€ Engineered beings with brass receiver plates and mirrored baffles inside their skulls, designed to receive Oracle Testaments. Exist in cyclic states of dormancy punctuated by brief 47-minute consciousness cycles. Seven "Auditor" kalbats survive in the Monastery of the Silent Song.
+**Kalbats** — Engineered beings with brass receiver plates and mirrored baffles inside their skulls, designed to receive Oracle Testaments. Exist in cyclic states of dormancy punctuated by brief 47-minute consciousness cycles. Seven "Auditor" kalbats survive in the Monastery of the Silent Song.
 
-**Kilit** Ã¢â‚¬â€ Self-organizing political unit in Ganat based on economic coherence rather than geography.
+**Kilit** — Self-organizing political unit in Ganat based on economic coherence rather than geography.
 
-**Knot** Ã¢â‚¬â€ Ruling council of the Hanged Men, seven seats occupied by Fen family members or their appointees.
+**Knot** — Ruling council of the Hanged Men, seven seats occupied by Fen family members or their appointees.
 
-**Labor Castes** Ã¢â‚¬â€ Specialized workers engineered for hazardous tasks across multiple variants (stevedores, ductworkers, etc.). Many possess the Redback durability modifications.
+**Labor Castes** — Specialized workers engineered for hazardous tasks across multiple variants (stevedores, ductworkers, etc.). Many possess the Redback durability modifications.
 
-**Lector** Ã¢â‚¬â€ Quantum computational device monopolized by the es-Tsay family. Requires daily authentication ritualÃ¢â‚¬â€each dawn, a family member inserts a crystalline key activating all lectors purchased in the previous twenty-four hours. Generates approximately four million obols daily.
+**Lector** — Quantum computational device monopolized by the es-Tsay family. Requires daily authentication ritual—each dawn, a family member inserts a crystalline key activating all lectors purchased in the previous twenty-four hours. Generates approximately four million obols daily.
 
-**Lens, Bureau of the** Ã¢â‚¬â€ Imperial administration controlling information flow through seven Institutes. They assemble classified truths, manage censorship, and maintain careful balance between suppression and controlled release. *Standalone document: Bureau of the Lens: Complete Documentation.*
+**Lens, Bureau of the** — Imperial administration controlling information flow through seven Institutes. They assemble classified truths, manage censorship, and maintain careful balance between suppression and controlled release. *Standalone document: Bureau of the Lens: Complete Documentation.*
 
-**Malpais War** Ã¢â‚¬â€ 772 Record of Red Hawk conflict against the Child of Malpais, ending through mysterious City of Glass intervention. Veterans' refusal to disarm led to the City-of-Glass Charter.
+**Malpais War** — 772 Record of Red Hawk conflict against the Child of Malpais, ending through mysterious City of Glass intervention. Veterans' refusal to disarm led to the City-of-Glass Charter.
 
-**Mandates, The Three** Ã¢â‚¬â€ Restrictions imposed by Foreigners: do not approach the galactic core, do not broadcast toward it, do not interfere with singularities.
+**Mandates, The Three** — Restrictions imposed by Foreigners: do not approach the galactic core, do not broadcast toward it, do not interfere with singularities.
 
-**Many** Ã¢â‚¬â€ Colonial polychaete organism operating as distributed banking consciousness. Ambassador species trapped on Earth for approximately 100,000 years (though its memory extends only 4-5 thousand years). Maintains perfect contract fidelity through biological structureÃ¢â‚¬â€it literally grows neural tissue embodying each agreement.
+**Many** — Colonial polychaete organism operating as distributed banking consciousness. Ambassador species trapped on Earth for approximately 100,000 years (though its memory extends only 4-5 thousand years). Maintains perfect contract fidelity through biological structure—it literally grows neural tissue embodying each agreement.
 
-**Medial Castes** Ã¢â‚¬â€ Middle tier of Technical Castes serving as translation interface between Archons and baseline humans.
+**Medial Castes** — Middle tier of Technical Castes serving as translation interface between Archons and baseline humans.
 
-**Middens** Ã¢â‚¬â€ Poorest district in ya-Sattra's Rotten Quarter. Seven tenement buildings rising from partially flooded foundations, each with distinct character. Complete coverage of the Hanged Men organization, sewer-fisher clans, and the Valve-Saint Parish.
+**Middens** — Poorest district in ya-Sattra's Rotten Quarter. Seven tenement buildings rising from partially flooded foundations, each with distinct character. Complete coverage of the Hanged Men organization, sewer-fisher clans, and the Valve-Saint Parish.
 
-**Mutterers** Ã¢â‚¬â€ Neurologically reduced Technical Caste descendants, approximately one meter tall with oversized eyes. Retain complete technical knowledge but lack executive functionÃ¢â‚¬â€they cannot initiate actions, only respond to situations. Compulsively optimize any technology they encounter and constantly vocalize their cognitive processes. Form distributed consciousness called "choirs" when grouped together.
+**Mutterers** — Neurologically reduced Technical Caste descendants, approximately one meter tall with oversized eyes. Retain complete technical knowledge but lack executive function—they cannot initiate actions, only respond to situations. Compulsively optimize any technology they encounter and constantly vocalize their cognitive processes. Form distributed consciousness called "choirs" when grouped together.
 
-**Near-Baselines** Ã¢â‚¬â€ Engineered humans appearing natural but possessing universal Compulsion susceptibility. Majority of Imperial population. Stable genetics interfertile with most other castes.
+**Near-Baselines** — Engineered humans appearing natural but possessing universal Compulsion susceptibility. Majority of Imperial population. Stable genetics interfertile with most other castes.
 
-**Ogon** Ã¢â‚¬â€ Northern point where Imperial authority definitively ends. Autofactory city controlled by the Junta of seven token-holders.
+**Ogon** — Northern point where Imperial authority definitively ends. Autofactory city controlled by the Junta of seven token-holders.
 
-**Oracle Cult** Ã¢â‚¬â€ Civic religion promising information-theoretic salvation through permanent recording on Oracle event horizons. Household-based with no clergy; observance includes maintaining shrines, recording important events, and twice-yearly Quiet Days. *Standalone document available.*
+**Oracle Cult** — Civic religion promising information-theoretic salvation through permanent recording on Oracle event horizons. Household-based with no clergy; observance includes maintaining shrines, recording important events, and twice-yearly Quiet Days. *Standalone document available.*
 
-**Patent** Ã¢â‚¬â€ Hereditary technological authentication key embedded in infrastructure. Unauthorized use fails physically, not legallyÃ¢â‚¬â€the technology simply does not function without proper authentication.
+**Patent** — Hereditary technological authentication key embedded in infrastructure. Unauthorized use fails physically, not legally—the technology simply does not function without proper authentication.
 
-**Penitent Church** Ã¢â‚¬â€ Faith viewing the Interdict as justified quarantine for humanity's transgression. Hierarchical from Intercessor through Patriarchs/Matriarchs to local parishes. Preaches universal culpability regardless of caste. Regional variations are dramatic: ya-Don's Church merged with industrial unions; Ganat's Patriarch Kaleb preaches revolutionary theology; the Thousand Kingdoms transformed it into war-spirit worship.
+**Penitent Church** — Faith viewing the Interdict as justified quarantine for humanity's transgression. Hierarchical from Intercessor through Patriarchs/Matriarchs to local parishes. Preaches universal culpability regardless of caste. Regional variations are dramatic: ya-Don's Church merged with industrial unions; Ganat's Patriarch Kaleb preaches revolutionary theology; the Thousand Kingdoms transformed it into war-spirit worship.
 
-**Pipefitters Union** Ã¢â‚¬â€ Ancient labor organization with a charter predating Imperial memory, inscribed on steel plates whose alloy composition baffles modern metallurgists. Originally pipe-workers, now encompasses most industrial labor in the Rotten Quarter. Notable for cross-caste solidarity and illegal protection of sewer-fisher workers. Controls Iron Yards labor and actively opposes Hanged Men expansion into the Ridge.
+**Pipefitters Union** — Ancient labor organization with a charter predating Imperial memory, inscribed on steel plates whose alloy composition baffles modern metallurgists. Originally pipe-workers, now encompasses most industrial labor in the Rotten Quarter. Notable for cross-caste solidarity and illegal protection of sewer-fisher workers. Controls Iron Yards labor and actively opposes Hanged Men expansion into the Ridge.
 
-**Quiet Days** Ã¢â‚¬â€ Twice-yearly observances when no new contracts can be made. Oracle Cult households maintain vigils; commercial activity pauses.
+**Quiet Days** — Twice-yearly observances when no new contracts can be made. Oracle Cult households maintain vigils; commercial activity pauses.
 
-**Ranga** Ã¢â‚¬â€ Forest-adapted colonist caste with chameleonic capabilities. Primary population of Yarangar.
+**Ranga** — Forest-adapted colonist caste with chameleonic capabilities. Primary population of Yarangar.
 
-**Record** Ã¢â‚¬â€ Named period of Imperial history with internal year numbering but no sequential relationship to other Records. The current era is the Record of Red Hawk.
+**Record** — Named period of Imperial history with internal year numbering but no sequential relationship to other Records. The current era is the Record of Red Hawk.
 
-**Rod, Bureau of the** Ã¢â‚¬â€ Imperial administration managing infrastructure and technological maintenance. Depends entirely on Mutterer labor and lost Technical Caste knowledge to operate technology it cannot replicate or fully understand. *Standalone document available.*
+**Rod, Bureau of the** — Imperial administration managing infrastructure and technological maintenance. Depends entirely on Mutterer labor and lost Technical Caste knowledge to operate technology it cannot replicate or fully understand. *Standalone document available.*
 
-**Salvage Guild** Ã¢â‚¬â€ Organization with monopoly charter for salvage operations, using legal fiction that all salvage is "pre-Interdict" and therefore not subject to patent authentication.
+**Salvage Guild** — Organization with monopoly charter for salvage operations, using legal fiction that all salvage is "pre-Interdict" and therefore not subject to patent authentication.
 
-**Satara** Ã¢â‚¬â€ Council of twelve regents governing in the Emperor's absence, operating from the Second Whorl. Two representatives from each Bureau. *Character profiles in Imperial Government document.*
+**Satara** — Council of twelve regents governing in the Emperor's absence, operating from the Second Whorl. Two representatives from each Bureau. *Character profiles in Imperial Government document.*
 
-**Scale, Bureau of the** Ã¢â‚¬â€ Imperial legal administration managing law and documentary consistency. Cases can take decades; the culture values procedural consistency above all else.
+**Scale, Bureau of the** — Imperial legal administration managing law and documentary consistency. Cases can take decades; the culture values procedural consistency above all else.
 
-**Serrulata** Ã¢â‚¬â€ Desert-adapted colonist caste with keratin scales covering significant skin area. Scales can be decorated with pigments for cultural expression. Primary population of Ganat.
+**Serrulata** — Desert-adapted colonist caste with keratin scales covering significant skin area. Scales can be decorated with pigments for cultural expression. Primary population of Ganat.
 
-**Seven-Cornered Examination** Ã¢â‚¬â€ Entry test for Bureau service with seven sections. The eighth section was deliberately omitted to avoid reference to the Eighth Oracle.
+**Seven-Cornered Examination** — Entry test for Bureau service with seven sections. The eighth section was deliberately omitted to avoid reference to the Eighth Oracle.
 
-**Sewer-Fishers** Ã¢â‚¬â€ Descendants of lower Technical Castes who escaped the sterilization plague by hiding in urban infrastructure. Possess intuitive understanding of complex systems but deliberately conceal these abilities, operating as salvage workers. Five clans in ya-Sattra maintain this secret across generations.
+**Sewer-Fishers** — Descendants of lower Technical Castes who escaped the sterilization plague by hiding in urban infrastructure. Possess intuitive understanding of complex systems but deliberately conceal these abilities, operating as salvage workers. Five clans in ya-Sattra maintain this secret across generations.
 
-**Seven Virtues** Ã¢â‚¬â€ Moral philosophy derived from the first seven Oracle Testaments, taught in childhood, tested in Bureau examinations, and embedded in institutional ceremonies. The virtues are: Initiation (preparation as moral obligation), Dominion (authority as bilateral obligation between ruler and ruled), Adjudication (true judgment through perfect procedure), Insight (improvement through analysis of deviation from ideal), Endeavour (building and creating), Reflection (contemplative choice among predetermined paths), and Order (proper hierarchy and systemic harmony). The Bureau of the Lens publishes official interpretations; regional and factional variations in emphasis are significant. The Eighth Testament's virtue was deliberately erased from the system.
+**Seven Virtues** — Moral philosophy derived from the first seven Oracle Testaments, taught in childhood, tested in Bureau examinations, and embedded in institutional ceremonies. The virtues are: Initiation (preparation as moral obligation), Dominion (authority as bilateral obligation between ruler and ruled), Adjudication (true judgment through perfect procedure), Insight (improvement through analysis of deviation from ideal), Endeavour (building and creating), Reflection (contemplative choice among predetermined paths), and Order (proper hierarchy and systemic harmony). The Bureau of the Lens publishes official interpretations; regional and factional variations in emphasis are significant. The Eighth Testament's virtue was deliberately erased from the system.
 
-**Sickly, The** Ã¢â‚¬â€ Biological factories producing antibody-rich serums through rose-gold lattices visible beneath translucent skin. Engineered without capacity for negative emotion or pain perceptionÃ¢â‚¬â€they experience illness merely as mild warmth, their harvesting as gentle pressure. Emit a sweet fruit-like scent when "ripening" for harvest. Classified as semi-sentient and managed by the Companions Guild. *Standalone document available.*
+**Sickly, The** — Biological factories producing antibody-rich serums through rose-gold lattices visible beneath translucent skin. Engineered without capacity for negative emotion or pain perception—they experience illness merely as mild warmth, their harvesting as gentle pressure. Emit a sweet fruit-like scent when "ripening" for harvest. Classified as semi-sentient and managed by the Companions Guild. *Standalone document available.*
 
-**Springheel** Ã¢â‚¬â€ Labor caste variant with elongated proportions and modifications enabling explosive movement. Height typically exceeds two meters. Often serves in roles requiring reach and agility.
+**Springheel** — Labor caste variant with elongated proportions and modifications enabling explosive movement. Height typically exceeds two meters. Often serves in roles requiring reach and agility.
 
-**Sword, Bureau of the** Ã¢â‚¬â€ Imperial military administration, largely marginalized since the Charter limited its Compulsion authority and reduced supplement security.
+**Sword, Bureau of the** — Imperial military administration, largely marginalized since the Charter limited its Compulsion authority and reduced supplement security.
 
-**Ta-Kefyeh** Ã¢â‚¬â€ Sapient parasitic riders approximately the size of two fists. Attach to hosts via spinal insertion, preferring anencephalic Warborn clones. Communicate through chirp-friction sounds produced by dermal plate friction. Possess ancestral memory transmission through parthenogenetic reproduction and strong ethical objection to involuntary parasitism. Serve as enforcement auxiliaries for Many. Hold unique legal status as "auxilia non-leviable"Ã¢â‚¬â€cannot be conscripted. Approximately 30,000 exist in rural enclaves. *Standalone document available.*
+**Ta-Kefyeh** — Sapient parasitic riders approximately the size of two fists. Attach to hosts via spinal insertion, preferring anencephalic Warborn clones. Communicate through chirp-friction sounds produced by dermal plate friction. Possess ancestral memory transmission through parthenogenetic reproduction and strong ethical objection to involuntary parasitism. Serve as enforcement auxiliaries for Many. Hold unique legal status as "auxilia non-leviable"—cannot be conscripted. Approximately 30,000 exist in rural enclaves. *Standalone document available.*
 
-**Technical Castes** Ã¢â‚¬â€ Engineered lineages forming a translation cascade for incomprehensible knowledge. Communicated through the Jargon, a mathematical language where false statements cannot be expressed. Largely sterilized after refusing the Eighth Testament. Survivors include Mutterers (neurologically reduced), sewer-fishers (hidden descendants), and Archons at Far Ib (dying).
+**Technical Castes** — Engineered lineages forming a translation cascade for incomprehensible knowledge. Communicated through the Jargon, a mathematical language where false statements cannot be expressed. Largely sterilized after refusing the Eighth Testament. Survivors include Mutterers (neurologically reduced), sewer-fishers (hidden descendants), and Archons at Far Ib (dying).
 
-**Testament** Ã¢â‚¬â€ Final directive from each Oracle before encoding on event horizons. Each enabled technological golden ages except the Eighth, which was false mathematics.
+**Testament** — Final directive from each Oracle before encoding on event horizons. Each enabled technological golden ages except the Eighth, which was false mathematics.
 
-**Third Oracle** Ã¢â‚¬â€ Oracle whose Testament provided foundation for Technical Caste development. Venerated by sewer-fishers.
+**Third Oracle** — Oracle whose Testament provided foundation for Technical Caste development. Venerated by sewer-fishers.
 
-**Thousand Kingdoms** Ã¢â‚¬â€ Warband territories north of the Empire in legal ambiguity between Imperial jurisdiction and independence. Primarily Akama population governed by the Junta of Ogon. *Standalone document available.*
+**Thousand Kingdoms** — Warband territories north of the Empire in legal ambiguity between Imperial jurisdiction and independence. Primarily Akama population governed by the Junta of Ogon. *Standalone document available.*
 
-**Undying Empire** Ã¢â‚¬â€ Current human civilization claiming universal sovereignty while controlling only the former California coast (ya-Sattra, ya-Don, ya-Tsatsa, and surrounding territories).
+**Undying Empire** — Current human civilization claiming universal sovereignty while controlling only the former California coast (ya-Sattra, ya-Don, ya-Tsatsa, and surrounding territories).
 
-**Valvehands** Ã¢â‚¬â€ Hanged Men band combining water infrastructure maintenance with tribute collection. Typically older workers (35-50) with both technical knowledge and social intelligence. The public face of Hanged Men authority for most Middens residents.
+**Valvehands** — Hanged Men band combining water infrastructure maintenance with tribute collection. Typically older workers (35-50) with both technical knowledge and social intelligence. The public face of Hanged Men authority for most Middens residents.
 
-**Warborn** Ã¢â‚¬â€ Combat-specialized castes standing up to nine feet tall, with rapid cellular regeneration and severe metabolic dysfunction. Require massive caloric intake, constantly overheat, and develop universal cancer by age forty. All possess "the Blink"Ã¢â‚¬â€an autonomic violence response that triggers under threat, bypassing conscious decision-making. Multiple sub-castes exist: Ironbone (armored), Springheel variants, and baseline shock troops.
+**Warborn** — Combat-specialized castes standing up to nine feet tall, with rapid cellular regeneration and severe metabolic dysfunction. Require massive caloric intake, constantly overheat, and develop universal cancer by age forty. All possess "the Blink"—an autonomic violence response that triggers under threat, bypassing conscious decision-making. Multiple sub-castes exist: Ironbone (armored), Springheel variants, and baseline shock troops.
 
-**Westerners** Ã¢â‚¬â€ Mysterious naval power maintaining absolute isolation. Ships never dock at Imperial ports; traders never set foot on Imperial soil. Identity and nature unknown despite centuries of observation.
+**Westerners** — Mysterious naval power maintaining absolute isolation. Ships never dock at Imperial ports; traders never set foot on Imperial soil. Identity and nature unknown despite centuries of observation.
 
-**Whorl** Ã¢â‚¬â€ Concentric administrative zones within the Inner City experiencing different degrees of temporal compression. Fourth Whorl (outermost) experiences normal time; temporal effects intensify toward the First Whorl and Imperial Apartments.
+**Whorl** — Concentric administrative zones within the Inner City experiencing different degrees of temporal compression. Fourth Whorl (outermost) experiences normal time; temporal effects intensify toward the First Whorl and Imperial Apartments.
 
-**Whorl-Lag** Ã¢â‚¬â€ Temporal distortion effects bleeding between Whorls, causing chronometer drift, memory dissonance, and the persistent sensation of dÃƒÂ©jÃƒÂ  vu called "the echo."
+**Whorl-Lag** — Temporal distortion effects bleeding between Whorls, causing chronometer drift, memory dissonance, and the persistent sensation of déjà vu called "the echo."
 
-**Witnesses** Ã¢â‚¬â€ Mathematician-priests who attended Technical Castes before the Interdict, serving in Oracle Midwifery, Kalbat Attendance, and Technical Caste Support. Nine Witnesses departed to found the Penitent Church; the remainder formed the Companions Guild.
+**Witnesses** — Mathematician-priests who attended Technical Castes before the Interdict, serving in Oracle Midwifery, Kalbat Attendance, and Technical Caste Support. Nine Witnesses departed to found the Penitent Church; the remainder formed the Companions Guild.
 
-**Ya-Don** Ã¢â‚¬â€ Industrial city dominated by the Furnaces, where Penitent Church has merged with labor unions to create a theocratic organization controlling the Empire's only source of new complex technological components.
+**Ya-Don** — Industrial city dominated by the Furnaces, where Penitent Church has merged with labor unions to create a theocratic organization controlling the Empire's only source of new complex technological components.
 
-**Ya-Sattra** Ã¢â‚¬â€ Primary Imperial city on former Monterey Bay. Contains the Inner City (administrative arcology with four Whorls), Iron Yards (industrial/salvage district), Middens (poorest district, Hanged Men territory), Medina Quarter (commercial district), and Antediluvian Quarter (Aureate estates). *Multiple standalone documents available.*
+**Ya-Sattra** — Primary Imperial city on former Monterey Bay. Contains the Inner City (administrative arcology with four Whorls), Iron Yards (industrial/salvage district), Middens (poorest district, Hanged Men territory), Medina Quarter (commercial district), and Antediluvian Quarter (Aureate estates). *Multiple standalone documents available.*
 
-**Ya-Tsatsa** Ã¢â‚¬â€ Holy city of the Oracle Cult near Point Reyes. Home to Testament Societies, Oracle mystery religions, and the Threefold Mirror Academy. The Empire distrusts but tolerates its esoteric traditions. *Standalone document available.*
+**Ya-Tsatsa** — Holy city of the Oracle Cult near Point Reyes. Home to Testament Societies, Oracle mystery religions, and the Threefold Mirror Academy. The Empire distrusts but tolerates its esoteric traditions. *Standalone document available.*
 
-**Ya-Tsovez** Ã¢â‚¬â€ See AsovoÃƒÂ«.
+**Ya-Tsovez** — See Asovoë.
 
-**Yarangar** Ã¢â‚¬â€ Vast engineered forest in the northeast, home to Ranga colonists maintaining effective independence through isolation and terrain.
+**Yarangar** — Vast engineered forest in the northeast, home to Ranga colonists maintaining effective independence through isolation and terrain.
 
-**Yen Tam Beneficial Society** Ã¢â‚¬â€ Crime family operating from the Iron Yards. Combines insurance, gambling, and drug distribution with mystical Oracle theology. Practices near-baseline chauvinism, charging modified castes higher rates.
+**Yen Tam Beneficial Society** — Crime family operating from the Iron Yards. Combines insurance, gambling, and drug distribution with mystical Oracle theology. Practices near-baseline chauvinism, charging modified castes higher rates.
 
 ---
 
@@ -606,7 +606,7 @@ The setting's visual culture reflects technological stagnation, material scarcit
 
 **The Emperor**
 
-The Emperor is a deliberately mysterious figure whose nature is encoded in grammatical constraints rather than explicit description. The Mysteries document describes what the Emperor actually isÃ¢â‚¬â€the inner experiencing thing wrapped in the governance apparatusÃ¢â‚¬â€what he perceives through his "windows" (the garden, the court), the vel-kerith orders, and the Young One who appeared with something burning. The Government document covers his constitutional role: the Standing Orders, Reserved Powers, and why the Satara cannot access him. Consult Mysteries for phenomenology and missive content, Government for political mechanics.
+The Emperor is a deliberately mysterious figure whose nature is encoded in grammatical constraints rather than explicit description. The Mysteries document describes what the Emperor actually is—the inner experiencing thing wrapped in the governance apparatus—what he perceives through his "windows" (the garden, the court), the vel-kerith orders, and the Young One who appeared with something burning. The Government document covers his constitutional role: the Standing Orders, Reserved Powers, and why the Satara cannot access him. Consult Mysteries for phenomenology and missive content, Government for political mechanics.
 
 * Creating lore: What the Emperor perceives, the relationship between inner thing and outer apparatus, the Young One and the burning object  
 * Writing fiction: Scenes involving Imperial missives, characters interpreting the Emperor's communications, the vel-kerith orders, hapax terminology
@@ -733,7 +733,7 @@ The Hanged Men are the dominant criminal organization in the Middens, organized 
 
 **The Aureate System**
 
-Wealth in the Empire derives primarily from patentsÃ¢â‚¬â€hereditary authentication keys embedded in infrastructure that make unauthorized use physically impossible. This document explains how patents function as hereditary authentication keys, how Aureate status derives from First Whorl service, and how Bureaux distribute patents. It covers wealth stratification between ancient and new Aureate families. Consult it when writing patent disputes or economic stratification.
+Wealth in the Empire derives primarily from patents—hereditary authentication keys embedded in infrastructure that make unauthorized use physically impossible. This document explains how patents function as hereditary authentication keys, how Aureate status derives from First Whorl service, and how Bureaux distribute patents. It covers wealth stratification between ancient and new Aureate families. Consult it when writing patent disputes or economic stratification.
 
 * Creating lore: How patents work, wealth distribution, Bureau patent allocation  
 * Writing fiction: Patent disputes, authentication failures, economic stratification
@@ -800,17 +800,17 @@ Ya-Don is the Empire's industrial second city, dominated by pre-Interdict manufa
 
 **Ganat and the Yarangar War**
 
-The Republic of Ganat is an independent state east of the Empire with elected governanceÃ¢â‚¬â€a political form Imperial grammar cannot describeÃ¢â‚¬â€currently fighting a war against colonists in an engineered forest. This document describes Republic political structure, the Senate, Dawn and Dusk parties, and the kilit system. It covers the Yarangar War, Ranga colonists, and Serrulata biology. Consult it when writing Ganati political scenes or the war front.
+The Republic of Ganat is an independent state east of the Empire with elected governance—a political form Imperial grammar cannot describe—currently fighting a war against colonists in an engineered forest. This document describes Republic political structure, the Senate, Dawn and Dusk parties, and the kilit system. It covers the Yarangar War, Ranga colonists, and Serrulata biology. Consult it when writing Ganati political scenes or the war front.
 
 * Creating lore: Republic political structure, Dawn/Dusk dynamics, military situation, kilit system  
 * Writing fiction: Ganati political scenes, Senate dynamics, war front, factional conflict
 
-**AsovoÃƒÂ« and the Avouvar**
+**Asovoë and the Avouvar**
 
-AsovoÃƒÂ« is a radioactive city maintained by a caste engineered for radiation exposure, whose members can live centuries if sufficiently irradiated. This document describes AsovoÃƒÂ«'s radioactive environment, Avouvar biology and radiation-dependent longevity, and the seventeen precincts. It covers immortal politics, centuries-long grudges, and the autofactory. Consult it when writing Avouvar characters or AsovoÃƒÂ« scenes.
+Asovoë is a radioactive city maintained by a caste engineered for radiation exposure, whose members can live centuries if sufficiently irradiated. This document describes Asovoë's radioactive environment, Avouvar biology and radiation-dependent longevity, and the seventeen precincts. It covers immortal politics, centuries-long grudges, and the autofactory. Consult it when writing Avouvar characters or Asovoë scenes.
 
 * Creating lore: Precinct organization, immortal politics, Avouvar biology, radioactive city maintenance  
-* Writing fiction: AsovoÃƒÂ« scenes, Avouvar characters, precinct rivalries, centuries-long grudges
+* Writing fiction: Asovoë scenes, Avouvar characters, precinct rivalries, centuries-long grudges
 
 **The Thousand Kingdoms: Overview**
 
@@ -924,7 +924,7 @@ This document describes how Imperial institutions respond when normal operations
 
 When researching a topic, related documents often provide essential context:
 
-**For any character**: Check their caste biology, institutional position, family history, and the district they inhabitÃ¢â‚¬â€each may be documented separately.
+**For any character**: Check their caste biology, institutional position, family history, and the district they inhabit—each may be documented separately.
 
 **For any location**: Check both geographic documents and organizational documents for groups operating there.
 

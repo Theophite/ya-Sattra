@@ -33,7 +33,7 @@ see_also:
 
 ### **Executive Summary**
 
-The Technical Castes represented humanity's closest approach to transcendent intelligence before their catastrophic reduction following the Eighth Oracle's Testament. This report examines the available evidence regarding their nature, their transformation into Mutterers, and the current status of Far Ibâ€”their possible capital and the site of continuing, if degraded, Technical Caste activity. The analysis necessarily operates within significant epistemological constraints, as much documentation has been destroyed, classified, or exists in untranslatable formats.
+The Technical Castes represented humanity's closest approach to transcendent intelligence before their catastrophic reduction following the Eighth Oracle's Testament. This report examines the available evidence regarding their nature, their transformation into Mutterers, and the current status of Far Ib—their possible capital and the site of continuing, if degraded, Technical Caste activity. The analysis necessarily operates within significant epistemological constraints, as much documentation has been destroyed, classified, or exists in untranslatable formats.
 
 ### **1\. Historical Context and Origins**
 
@@ -91,7 +91,7 @@ The Technical Castes' consciousness, having evolved to think in mathematical pro
 
 #### **2.2 The Sterilization Response**
 
-The Empire's deployment of what sources term a "sterilization plague" appears to have been targeted biological warfare designed to eliminate the Technical Castes while preserving their knowledge in a controllable form. The creation of Mutterersâ€”neurologically reduced Technical Caste membersâ€”represents a deliberate engineering solution to remove the capacity for refusal while maintaining technical capability.
+The Empire's deployment of what sources term a "sterilization plague" appears to have been targeted biological warfare designed to eliminate the Technical Castes while preserving their knowledge in a controllable form. The creation of Mutterers—neurologically reduced Technical Caste members—represents a deliberate engineering solution to remove the capacity for refusal while maintaining technical capability.
 
 The modification appears to have been precise:
 
@@ -136,7 +136,7 @@ Current intelligence indicates at least seven Archons remain in Far Ib, designat
 * **Archon-Tertius**: Suspended in spherical chamber, form no longer recognizably human  
 * **Archon-Septimus**: Integrated into facility walls, functions as living archive
 
-These entities exist in various states of decay, all affected by the sterilization plague that continues its work at near-zero temperaturesâ€”slowing but not stopping cellular destruction.
+These entities exist in various states of decay, all affected by the sterilization plague that continues its work at near-zero temperatures—slowing but not stopping cellular destruction.
 
 #### **3.3 The Calculation**
 
@@ -177,7 +177,7 @@ The sterilization plague remains active in Far Ib, replicating at extremely redu
 
 #### **5.1 The Mouth's Function**
 
-The entity designated as "the Mouth" represents a unique position in the Archon hierarchyâ€”modified enough to interface with Far Ib's systems but retaining sufficient baseline architecture to attempt human communication. This communication process appears to cause physical damage to the Mouth's neural tissue, as baseline language requires cognitive patterns incompatible with mathematical consciousness.
+The entity designated as "the Mouth" represents a unique position in the Archon hierarchy—modified enough to interface with Far Ib's systems but retaining sufficient baseline architecture to attempt human communication. This communication process appears to cause physical damage to the Mouth's neural tissue, as baseline language requires cognitive patterns incompatible with mathematical consciousness.
 
 Communication characteristics:
 
@@ -323,11 +323,11 @@ Unlike other engineered castes:
 
 The Technical Castes represent humanity's most ambitious attempt at cognitive enhancement and its most catastrophic failure of communication. Their reduction to Mutterers and the dying Archons of Far Ib serves as both ongoing punishment and essential infrastructure, a contradiction the Empire cannot resolve.
 
-Far Ib itself exists as a monument to incomprehensionâ€”a facility where dying gods calculate the undoing of a lie made real, maintained by servants who understand nothing, pursuing a goal that may be impossible, through methods that cannot be communicated to those who most need to understand them.
+Far Ib itself exists as a monument to incomprehension—a facility where dying gods calculate the undoing of a lie made real, maintained by servants who understand nothing, pursuing a goal that may be impossible, through methods that cannot be communicated to those who most need to understand them.
 
 The situation presents no clear resolution. The Archons continue their calculation with decreasing capacity. The Mutterers maintain infrastructure through compulsive optimization. The Empire depends on broken genius it cannot fix. And somewhere in the mountains, the Mouth struggles to translate mathematical truth into human language, each word a small betrayal of the reality it attempts to convey.
 
-The Technical Castes achieved transcendence and were destroyed for it. Their remnantsâ€”both the broken Mutterers and the dying Archonsâ€”suggest that some forms of knowledge are incompatible with human existence as currently understood. Whether this represents humanity's failure or its salvation remains an open question.
+The Technical Castes achieved transcendence and were destroyed for it. Their remnants—both the broken Mutterers and the dying Archons—suggest that some forms of knowledge are incompatible with human existence as currently understood. Whether this represents humanity's failure or its salvation remains an open question.
 
 ---
 

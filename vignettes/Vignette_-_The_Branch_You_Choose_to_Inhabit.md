@@ -14,7 +14,7 @@ see_also:
 
 # **The Branch You Choose to Inhabit**
 
-The apprentice's fingers were steady on the copper. I watched through the workshop window from across the street, the way I had watched for three months now, and he did not notice me, and the journeyman beside him did not notice me, and the masterâ€”Tashetâ€”did not look up from the gauge she was calibrating at the far bench.
+The apprentice's fingers were steady on the copper. I watched through the workshop window from across the street, the way I had watched for three months now, and he did not notice me, and the journeyman beside him did not notice me, and the master—Tashet—did not look up from the gauge she was calibrating at the far bench.
 
 The boy was forming a conduit junction. Twenty-centimeter diameter, the kind used in cooling systems throughout the Threshold district. His hammer-work was acceptable. Not elegant, but acceptable. His joins would hold pressure. The journeyman murmured corrections and the boy adjusted his angle, and I thought: that should be me beside him.
 
@@ -50,13 +50,13 @@ The Virtue of Reflection says you should contemplate possibilities before acting
 
 I have had three months to reflect.
 
-In the third week after, I stopped sleeping. This was not metaphor. My body would lie in bed and my eyes would close and nothing would happen. I would hear the pipes in the wallsâ€”that constant voice of ya-Don, the creaking and groaning of thermal expansion, the arterial pulse of the Furnaces pushing heat through the city's veinsâ€”and I would count the sounds, and the count would reach morning.
+In the third week after, I stopped sleeping. This was not metaphor. My body would lie in bed and my eyes would close and nothing would happen. I would hear the pipes in the walls—that constant voice of ya-Don, the creaking and groaning of thermal expansion, the arterial pulse of the Furnaces pushing heat through the city's veins—and I would count the sounds, and the count would reach morning.
 
 When I did sleep, I dreamed of the celebration.
 
 ---
 
-We had the shop for seven years before we could afford a real gathering. Not a weddingâ€”Penitent workers marry in the cathedral, in quick ceremonies between shiftsâ€”but an anniversary celebration. Seven years of the partnership that our branch slips had promised would succeed.
+We had the shop for seven years before we could afford a real gathering. Not a wedding—Penitent workers marry in the cathedral, in quick ceremonies between shifts—but an anniversary celebration. Seven years of the partnership that our branch slips had promised would succeed.
 
 Karavel's widow came, the one who had worried we would ruin her husband's legacy. She brought a cooling-system junction that Karavel had made sixty years before, still functioning, as proof that his methods endured in our hands. The journeymen came. The apprentices came. The suppliers came. Our neighbors from the apartment block came, and the Ashrat woman who ran the cafe, and the curate from St. Oreli's who had witnessed our Particular Confession when we'd argued about pricing in the second year and needed help finding words that did not wound.
 
@@ -80,7 +80,7 @@ What I did not know was that his plan involved me.
 
 ---
 
-He turned evidence against me. Testimony that I had personally authorized purchases from sources he had arranged, sources that the Lens had been cultivating as examples. Documentation with my seal that he had applied himself, on nights when I slept and he did not. Witnesses who had seen me meet with suppliers I had never spoken toâ€”but who looked like me, who were my height and wore my clothes, who had walked into meetings that Voresh had scheduled in my name.
+He turned evidence against me. Testimony that I had personally authorized purchases from sources he had arranged, sources that the Lens had been cultivating as examples. Documentation with my seal that he had applied himself, on nights when I slept and he did not. Witnesses who had seen me meet with suppliers I had never spoken to—but who looked like me, who were my height and wore my clothes, who had walked into meetings that Voresh had scheduled in my name.
 
 The Lens took everything.
 
@@ -94,7 +94,7 @@ Voresh got the workshop.
 
 I have tried to understand.
 
-In the weeks when I did not sleep, I went through every year of our partnership looking for the moment when he began planning this. I remembered arguments. I remembered silences. I remembered the way he would sometimes look at me as if calculating somethingâ€”but I had thought he was calculating love, calculating the adjustments that long partnership requires, calculating whether what we had was still worth maintaining.
+In the weeks when I did not sleep, I went through every year of our partnership looking for the moment when he began planning this. I remembered arguments. I remembered silences. I remembered the way he would sometimes look at me as if calculating something—but I had thought he was calculating love, calculating the adjustments that long partnership requires, calculating whether what we had was still worth maintaining.
 
 Perhaps he was calculating all of that as well.
 
@@ -120,11 +120,11 @@ Sometimes the fittings I sort go to Voresh's workshop. I try not to think about 
 
 ---
 
-Today the apprentice is struggling with a flange joint. The journeyman has stepped awayâ€”there he is, speaking with a customer in the front roomâ€”and the boy is alone with metal that refuses to cooperate. His flux application was uneven. The joint will not seal.
+Today the apprentice is struggling with a flange joint. The journeyman has stepped away—there he is, speaking with a customer in the front room—and the boy is alone with metal that refuses to cooperate. His flux application was uneven. The joint will not seal.
 
 In the workshop, Tashet glances up from her gauge. She sees the problem. She does not move to correct it.
 
-This is her method. She waits for apprentices to recognize their own failures. It builds somethingâ€”character, or resignation, or the ability to endure frustration without breaking. I do not know if it is kind. Karavel was not kind either, exactly, but he would have pointed out the flux by now. He would have said something that sounded harsh and saved the boy an hour of rework.
+This is her method. She waits for apprentices to recognize their own failures. It builds something—character, or resignation, or the ability to endure frustration without breaking. I do not know if it is kind. Karavel was not kind either, exactly, but he would have pointed out the flux by now. He would have said something that sounded harsh and saved the boy an hour of rework.
 
 Voresh, when he trained apprentices, was patient. He would sit beside them and guide their hands and speak in a voice so gentle that they learned to trust him absolutely.
 
@@ -136,7 +136,7 @@ Instead I watch the boy discover his mistake. I watch him strip the joint and cl
 
 I still have the ceramic box.
 
-The Lens took the workshop and its contents, but the apartment's household effects were processed separately, and I had moved the shrine before they came. A neighbor kept it while I was being questioned. When I emergedâ€”not imprisoned, not even formally charged, just ruinedâ€”she returned it without comment.
+The Lens took the workshop and its contents, but the apartment's household effects were processed separately, and I had moved the shrine before they came. A neighbor kept it while I was being questioned. When I emerged—not imprisoned, not even formally charged, just ruined—she returned it without comment.
 
 The box contains ash. Thirteen branch slips, seven mine and six of Voresh's, that we burned on the night we chose our futures. The ash is undifferentiated now. I cannot tell which slip was mine, which was his, which futures we eliminated.
 
@@ -160,7 +160,7 @@ I am inhabiting it now.
 
 ---
 
-The boy finishes the junction. Tashet examines it, nods once, moves on. He allows himself a small smileâ€”that satisfaction of work completed, which I remember from when I was his age and younger, which I have not felt since the Lens came.
+The boy finishes the junction. Tashet examines it, nods once, moves on. He allows himself a small smile—that satisfaction of work completed, which I remember from when I was his age and younger, which I have not felt since the Lens came.
 
 The journeyman returns. They speak briefly about the next project. The customer leaves the front room carrying a commission contract.
 

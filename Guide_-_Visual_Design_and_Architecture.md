@@ -41,7 +41,7 @@ How long will this be viewed? How long will this structure exist? How long does 
 
 **Long (millennial)**: Wear becomes the decoration. Geometric patterns blur where hands have touched for a thousand years. Paths polish into floors. The structure itself records use across timescales longer than memory. Imperial core cities, Antediluvian Quarter, anywhere infrastructure has been continuously inhabited beyond Record.
 
-**Very long (centuries of viewing)**: Austerity that isn't austere. With centuries to look, subtlety replaces boldness. Decoration moves into registers that require decades to perceiveâ€”variations in surface texture, patterns that emerge only with extended observation, beauty that unfolds across longer attention spans than short-lived populations can sustain. Apparent simplicity conceals elaboration visible only to those with time. AsovoÃ« hot zones, any extremely long-lived population.
+**Very long (centuries of viewing)**: Austerity that isn't austere. With centuries to look, subtlety replaces boldness. Decoration moves into registers that require decades to perceive—variations in surface texture, patterns that emerge only with extended observation, beauty that unfolds across longer attention spans than short-lived populations can sustain. Apparent simplicity conceals elaboration visible only to those with time. Asovoë hot zones, any extremely long-lived population.
 
 **The principle**: Decoration elaboration scales inversely with viewing duration. The longer you'll look, the more subtle the variation. The shorter, the bolder.
 
@@ -49,13 +49,13 @@ How long will this be viewed? How long will this structure exist? How long does 
 
 What's cheap? What's expensive? What's conditional?
 
-**Abundant and free**: Use ostentatiously. Ganat has free power from the Damâ€”so light is universal, competitive, ideological. Economizing on what's free reads as poverty or insufficient commitment. When energy is free, its use becomes mandatory display.
+**Abundant and free**: Use ostentatiously. Ganat has free power from the Dam—so light is universal, competitive, ideological. Economizing on what's free reads as poverty or insufficient commitment. When energy is free, its use becomes mandatory display.
 
-**Abundant but conditional**: Use demonstrates access rather than wealth. Imperial patent authentication makes technology conditionalâ€”you don't own it, you're permitted to use it. Display shows credentials, not purchasing power. The lector works because someone performed the authentication ritual, not because you paid for it.
+**Abundant but conditional**: Use demonstrates access rather than wealth. Imperial patent authentication makes technology conditional—you don't own it, you're permitted to use it. Display shows credentials, not purchasing power. The lector works because someone performed the authentication ritual, not because you paid for it.
 
 **Scarce and valuable**: Use demonstrates wealth through consumption. Fuel-based light in the Thousand Kingdoms marks the boundary between settled and wild. Fire is expensive, so having it announces resources.
 
-**Variable by source**: Hybrid patterns emerge. Taho has Ganati electricity but Imperial trade goodsâ€”energy is free but imported objects are expensive. The combination produces bright streets displaying costly merchandise.
+**Variable by source**: Hybrid patterns emerge. Taho has Ganati electricity but Imperial trade goods—energy is free but imported objects are expensive. The combination produces bright streets displaying costly merchandise.
 
 **The principle**: What's cheap gets used for ideological display. What's expensive gets used for status display. What's conditional gets used for access display.
 
@@ -63,7 +63,7 @@ What's cheap? What's expensive? What's conditional?
 
 What do people compete over? This determines what gets displayed and how.
 
-**Personal equipment**: Status is carried on your body. Armor, weapons, tack, jewelryâ€”visible, portable, individually owned. Display is immediate and legible: better equipment announces higher status. Thousand Kingdoms warriors, Akama khans, any population where personal military capacity determines position.
+**Personal equipment**: Status is carried on your body. Armor, weapons, tack, jewelry—visible, portable, individually owned. Display is immediate and legible: better equipment announces higher status. Thousand Kingdoms warriors, Akama khans, any population where personal military capacity determines position.
 
 **Collective infrastructure**: Status is demonstrated through what serves everyone. Brighter streetlights, better-maintained staircases, more reliable utilities. The kilit that keeps its section most functional gains reputation. Personal ostentation is suspect; collective investment is virtuous. Ganati settlements, any revolutionary or egalitarian ideology.
 
@@ -77,15 +77,15 @@ What do people compete over? This determines what gets displayed and how.
 
 How much is given versus made? This shapes the relationship to existing structure.
 
-**Nearly all inherited**: You live in what was built for unknown purposes by unknown builders. Adaptation is the only construction. Subdivision, maintenance, repurposingâ€”never replacement. The building was here before you, will be here after you, and cannot be understood well enough to rebuild. Imperial core cities, autofactory settlements, anywhere pre-Interdict infrastructure dominates.
+**Nearly all inherited**: You live in what was built for unknown purposes by unknown builders. Adaptation is the only construction. Subdivision, maintenance, repurposing—never replacement. The building was here before you, will be here after you, and cannot be understood well enough to rebuild. Imperial core cities, autofactory settlements, anywhere pre-Interdict infrastructure dominates.
 
-**Subtractive from geology**: You carve rather than build. The substrate permits excavation; you remove material to create space. What exists is what wasn't taken away. Ganat's sandstone warrens, Taho's granite terraces, Ghemar-yan's basalt dugoutsâ€”different materials, same logic. Construction is erasure.
+**Subtractive from geology**: You carve rather than build. The substrate permits excavation; you remove material to create space. What exists is what wasn't taken away. Ganat's sandstone warrens, Taho's granite terraces, Ghemar-yan's basalt dugouts—different materials, same logic. Construction is erasure.
 
 **Additive from components**: You build by assembling materials. Weight matters because everything was carried or processed. Joints and seams are visible. The structure is human-scale, human-made, comprehensible. Thousand Kingdoms tents, provincial construction, anywhere infrastructure is built rather than inherited or carved.
 
 **Inherited anchor with additive expansion**: A pre-Interdict core with later construction around it. The center is mysterious; the periphery is comprehensible. The boundary between them is negotiated across generations. Ridge (ya-Sattra), many frontier settlements, anywhere an autofactory or functioning ruin anchors otherwise standard construction.
 
-**The principle**: Inheritance ratio determines the relationship to existing structureâ€”reverent maintenance vs. aggressive carving vs. independent construction.
+**The principle**: Inheritance ratio determines the relationship to existing structure—reverent maintenance vs. aggressive carving vs. independent construction.
 
 ### **5\. Constraint Type**
 
@@ -109,7 +109,7 @@ What limits the possible? Every location has primary constraints that shape all 
 
 What fills the time? Architecture is the residue of repeated action.
 
-**Waiting**: Queues, gathering spaces, comfortable places to spend hours. Imperial populations wait for authentication, approvals, credentials. The architecture accommodates waitingâ€”not as failure but as the expected condition.
+**Waiting**: Queues, gathering spaces, comfortable places to spend hours. Imperial populations wait for authentication, approvals, credentials. The architecture accommodates waiting—not as failure but as the expected condition.
 
 **Moving**: Packing logic, storage that fits wagons, arrangement optimized for rapid assembly and disassembly. Mobile populations fold their architecture daily. The form follows the fold.
 
@@ -117,9 +117,9 @@ What fills the time? Architecture is the residue of repeated action.
 
 **Competing**: Visible boundaries between territories, opportunities for display, sightlines that permit comparison. Ganati kilit boundaries are legible in infrastructure quality. The architecture makes competition visible.
 
-**Deliberating**: Assembly spaces scaled for governanceâ€”Senate chambers, kilit meeting halls, the Trembling Mirror where Second Whorl paths diverge. The architecture serves collective decision-making at whatever scale governance operates.
+**Deliberating**: Assembly spaces scaled for governance—Senate chambers, kilit meeting halls, the Trembling Mirror where Second Whorl paths diverge. The architecture serves collective decision-making at whatever scale governance operates.
 
-**Trading**: Interface zones where exchange occurs. Shielded spaces in AsovoÃ« where outsiders can survive. Market junctions in Imperial cities. Port districts with mixed populations. The architecture accommodates populations who don't share conditions.
+**Trading**: Interface zones where exchange occurs. Shielded spaces in Asovoë where outsiders can survive. Market junctions in Imperial cities. Port districts with mixed populations. The architecture accommodates populations who don't share conditions.
 
 **Observing**: When time horizon is very long, observation itself becomes activity. Spaces designed for watching. Sightlines across centuries of change. The architecture serves attention rather than action.
 
@@ -139,7 +139,7 @@ Any location can be specified by its position on all six axes:
 
 **Thousand Kingdoms warband**: Short time horizon \+ Scarce energy \+ Personal competition \+ Additive from components \+ Weight constraint \+ Moving and raiding activities
 
-**AsovoÃ« hot zone**: Very long time horizon (centuries of viewing) \+ Autofactory energy \+ Precinct competition \+ Nearly all inherited \+ Biology and contamination constraints \+ Observing and waiting activities
+**Asovoë hot zone**: Very long time horizon (centuries of viewing) \+ Autofactory energy \+ Precinct competition \+ Nearly all inherited \+ Biology and contamination constraints \+ Observing and waiting activities
 
 **Taho**: Medium time horizon \+ Abundant free energy (Ganati) \+ Mixed collective/trade competition \+ Subtractive from geology (granite) \+ Material and ideological constraints \+ Trading and competing activities
 
@@ -180,13 +180,13 @@ The specific patterns follow from the combination. You don't need cultural templ
 
 ## **Edge Effects and Hybridity**
 
-At boundariesâ€”geographical, political, biologicalâ€”normal rules partially suspend. Liminality produces hybridity.
+At boundaries—geographical, political, biological—normal rules partially suspend. Liminality produces hybridity.
 
 **Ogon**: Where Imperial authority definitively ends. Thousand Kingdoms mobility \+ autofactory permanence \+ trade interface. Multiple populations, multiple material cultures, multiple architectural logics in proximity.
 
 **Taho**: Where Ganat meets the Empire. Revolutionary infrastructure ideology \+ Imperial trade goods \+ Sultanate heritage re-carved. Terraces lit by Ganati electricity displaying goods bound for ya-Sattra.
 
-**AsovoÃ« trade precincts**: Where Avouvar meet shorter-lived populations. Contaminated exterior \+ shielded interior. Autofactory baseline \+ imported supplements. Architecture that mediates between conditions that can't coexist.
+**Asovoë trade precincts**: Where Avouvar meet shorter-lived populations. Contaminated exterior \+ shielded interior. Autofactory baseline \+ imported supplements. Architecture that mediates between conditions that can't coexist.
 
 **The Malpais**: Where the City of Glass did something inexplicable. Normal patterns partially suspended by proximity to mystery. Material culture reflects uncertainty about what rules apply.
 
@@ -200,17 +200,17 @@ Architecture communicates. But what it was trying to say and what it says now ar
 
 ### **Antediluvian Intention: They Weren't Explaining Themselves**
 
-The Antediluvians believed they were the last civilization that would ever exist. Not hopedâ€”believed, with mathematical certainty derived from Oracle Testaments that were literally self-proving. They were eternal. Not individually, but collectively. There would never be anyone who needed anything explained.
+The Antediluvians believed they were the last civilization that would ever exist. Not hoped—believed, with mathematical certainty derived from Oracle Testaments that were literally self-proving. They were eternal. Not individually, but collectively. There would never be anyone who needed anything explained.
 
 This is why the architecture lacks explanation. Not because the builders were secretive or mysterious, but because explanation was unnecessary. Everyone who would ever exist already understood. The truth was eternal and self-evident. The civilization was final.
 
-**Visual vocabularyâ€”the canonical comparisons:**
+**Visual vocabulary—the canonical comparisons:**
 
 The Aesthetics document provides specific real-world reference points:
 
-*The physical environment*: The Empire occupies former coastal Californiaâ€”ya-Sattra on Monterey Bay, ya-Tsatsa near Point Reyes, ya-Don in the southern Central Valley. Mediterranean climate: mild, temperate, 65-70Â°F most of the year. The dimmed sun has pushed the world toward ice age conditions, but this coast remains habitable, even pleasant. Rugged coastline, continental shelf partly exposed, sea cliffs and headlands, brown hills, white and grey stone, occasional fog. The climate preserves materials wellâ€”stone buildings last centuries, bronze weathers slowly. The physical ease enabled the population density that made bureaucratic civilization possible.
+*The physical environment*: The Empire occupies former coastal California—ya-Sattra on Monterey Bay, ya-Tsatsa near Point Reyes, ya-Don in the southern Central Valley. Mediterranean climate: mild, temperate, 65-70°F most of the year. The dimmed sun has pushed the world toward ice age conditions, but this coast remains habitable, even pleasant. Rugged coastline, continental shelf partly exposed, sea cliffs and headlands, brown hills, white and grey stone, occasional fog. The climate preserves materials well—stone buildings last centuries, bronze weathers slowly. The physical ease enabled the population density that made bureaucratic civilization possible.
 
-*Moscow metro stations* (particularly Komsomolskaya): The monumentality, the ornate ceilings and geometric patterns, the sense of public grandeur. But vastly larger and lived-inâ€”markets, laundry, children playing.
+*Moscow metro stations* (particularly Komsomolskaya): The monumentality, the ornate ceilings and geometric patterns, the sense of public grandeur. But vastly larger and lived-in—markets, laundry, children playing.
 
 *Mussolini's EUR district in Rome*: Attempting timelessness through massive scale and geometric severity. But actually inhabited, with daily life proceeding amid the monumentalism.
 
@@ -218,15 +218,15 @@ The Aesthetics document provides specific real-world reference points:
 
 *Rome's Campo de' Fiori*: The layering of old and new, buildings within buildings, continuous use for thousands of years, medieval structures on ancient foundations, markets in squares designed for other purposes. "Every century has added its layer without erasing what came before."
 
-*Art Deco monumentalism*: The Chrysler Building's crown, the Hoover Building's facadeâ€”streamlined geometry, the certainty that the machine age had discovered the correct aesthetic. Art Deco believed it was modern forever, which is exactly how the Antediluvians built.
+*Art Deco monumentalism*: The Chrysler Building's crown, the Hoover Building's facade—streamlined geometry, the certainty that the machine age had discovered the correct aesthetic. Art Deco believed it was modern forever, which is exactly how the Antediluvians built.
 
 *Byzantine*: The fusion of religious and imperial authority. Gold and bronze tones. Formal iconography where every gesture has codified meaning. The Inner City as vast reliquary containing something sacred at its heart.
 
-*Imperial Chinese*: Bureaucratic architecture where hierarchy is spatial. The Forbidden City's nested enclosures, each requiring credentials. The examination system, the ranked officialsâ€”the Bureau structure echoes this.
+*Imperial Chinese*: Bureaucratic architecture where hierarchy is spatial. The Forbidden City's nested enclosures, each requiring credentials. The examination system, the ranked officials—the Bureau structure echoes this.
 
 *Samarkand*: The Registan's monumentalism, geometric tile patterns covering every surface. Trade-route wealth expressed in craftsmanship. The turquoise accent echoing the tiles.
 
-*Lhasa*: The Potala Palaceâ€”theocratic architecture where sacred and administrative merge. The labyrinthine interior where getting lost is part of the experience.
+*Lhasa*: The Potala Palace—theocratic architecture where sacred and administrative merge. The labyrinthine interior where getting lost is part of the experience.
 
 *Moebius (Jean Giraud)*: The dreamlike quality, ancient and futuristic as the same thing. Worn surfaces, impossible technology, figures dwarfed by architecture. The sense that technology is so old it's become landscape.
 
@@ -236,32 +236,32 @@ The materials: bronze columns forty feet tall, bronze floor tiles worn into groo
 
 **The deeper cultural reference points:**
 
-Think of Old Kingdom Egypt building pyramids for eternityâ€”but the Egyptians knew about other peoples, feared invasion, recorded their history for posterity. The Antediluvians had no posterity to address.
+Think of Old Kingdom Egypt building pyramids for eternity—but the Egyptians knew about other peoples, feared invasion, recorded their history for posterity. The Antediluvians had no posterity to address.
 
-Think of Imperial China as the Middle Kingdom, center of civilization, all others barbarians at the marginsâ€”but China traded with those margins, defended against them, acknowledged their existence. The Antediluvians had no margins.
+Think of Imperial China as the Middle Kingdom, center of civilization, all others barbarians at the margins—but China traded with those margins, defended against them, acknowledged their existence. The Antediluvians had no margins.
 
-Think of Soviet monumental architecture building for the communist futureâ€”but Soviet architects were making arguments, persuading, demonstrating superiority to capitalist alternatives. The Antediluvians had no alternatives to argue against.
+Think of Soviet monumental architecture building for the communist future—but Soviet architects were making arguments, persuading, demonstrating superiority to capitalist alternatives. The Antediluvians had no alternatives to argue against.
 
-The closest parallel might be a monastery building for God alone, assuming no secular viewer will ever matterâ€”but even monks expected the Second Coming, wrote for future generations, explained their symbols to novices. The Antediluvians expected nothing to come, wrote for no one, explained nothing.
+The closest parallel might be a monastery building for God alone, assuming no secular viewer will ever matter—but even monks expected the Second Coming, wrote for future generations, explained their symbols to novices. The Antediluvians expected nothing to come, wrote for no one, explained nothing.
 
 **Specific examples from established lore:**
 
-*The geometric patterns on every bronze-colored surface in the Inner City.* These cover the forty-foot columns, the floors, the wallsâ€”everywhere. The patterns repeat but never precisely. No key exists. No legend. No explanation. Because everyone who would ever see them already knew what they meant. The patterns might be wayfinding, status marking, mathematical notation, manufacturing signatures, or something with no modern analogue. The point is: the builders didn't label them because labeling would be absurd. You don't label the letters of your own alphabet.
+*The geometric patterns on every bronze-colored surface in the Inner City.* These cover the forty-foot columns, the floors, the walls—everywhere. The patterns repeat but never precisely. No key exists. No legend. No explanation. Because everyone who would ever see them already knew what they meant. The patterns might be wayfinding, status marking, mathematical notation, manufacturing signatures, or something with no modern analogue. The point is: the builders didn't label them because labeling would be absurd. You don't label the letters of your own alphabet.
 
-*The sixty-foot statues in the Second Whorl plazas.* They gesture to audiences. They hold objects (some now missing). They address crowds. But no inscriptions identify them. No plaques explain their significance. The statues assume viewers who recognize them instantlyâ€”the way you recognize your own family members without needing name tags. The gestures meant something specific. The objects were significant. Everyone knew. No one needed to be told.
+*The sixty-foot statues in the Second Whorl plazas.* They gesture to audiences. They hold objects (some now missing). They address crowds. But no inscriptions identify them. No plaques explain their significance. The statues assume viewers who recognize them instantly—the way you recognize your own family members without needing name tags. The gestures meant something specific. The objects were significant. Everyone knew. No one needed to be told.
 
-*The dancers carved into the Taho Academy walls.* Figures in motion, clearly depicting some kind of performance or ritual. No explanation of what dance, what occasion, what meaning. The dancers dance for viewers who know the dance. The absence of explanation isn't mysteriousâ€”it's domestic. You don't explain your own holidays to yourself.
+*The dancers carved into the Taho Academy walls.* Figures in motion, clearly depicting some kind of performance or ritual. No explanation of what dance, what occasion, what meaning. The dancers dance for viewers who know the dance. The absence of explanation isn't mysterious—it's domestic. You don't explain your own holidays to yourself.
 
-*The Inner City as ya-Thes.elâ€”"Place of Eternal Brightness."* The bronze-colored alloy ("thes-" \= brightness, light, yellow) is light made solid, truth made physical. The shadowless illumination from orb-fixtures eliminates darkness because darkness is where things hide, and nothing hides in the eternal order. The builders made walls from solidified brightness because brightness was their mediumâ€”the visible form of truth, permanently radiant.
+*The Inner City as ya-Thes.el—"Place of Eternal Brightness."* The bronze-colored alloy ("thes-" \= brightness, light, yellow) is light made solid, truth made physical. The shadowless illumination from orb-fixtures eliminates darkness because darkness is where things hide, and nothing hides in the eternal order. The builders made walls from solidified brightness because brightness was their medium—the visible form of truth, permanently radiant.
 
-*The four interlocking helices.* The Inner City's structure is four spirals ascending at different rates, each transition marked by temporal gradients. This is a design choice, not a structural necessity. The helices are beautiful in a mathematical wayâ€”precise, ordered, geometric. The aesthetic is: we have solved the problem of how to build. We have achieved the correct form. There is no alternative to consider.
+*The four interlocking helices.* The Inner City's structure is four spirals ascending at different rates, each transition marked by temporal gradients. This is a design choice, not a structural necessity. The helices are beautiful in a mathematical way—precise, ordered, geometric. The aesthetic is: we have solved the problem of how to build. We have achieved the correct form. There is no alternative to consider.
 
 **The values expressed:**
 
 * Truth as mathematically certain (not debated, proven)  
 * Light as truth made visible (shadowless \= nothing hidden)  
 * Order as achieved state (geometry \= the shape of correctness)  
-* Scale as appropriate (not humblingâ€”just the size of forever)  
+* Scale as appropriate (not humbling—just the size of forever)  
 * Permanence as assumption (seamless materials, no joints \= no failure points)  
 * The collective over the individual (plazas for assembly, not rooms for privacy)
 
@@ -275,33 +275,33 @@ But why would anyone feel horror at the self-evident eternal order? The castes w
 
 When creating Antediluvian architecture, make it confident, not mysterious. Make it assume understanding. Make it not bother to explain.
 
-*Example: A fountain in a Second Whorl plaza.* The water emerges from a geometric formâ€”twelve-sided, each face inscribed with different patterns. The water flows in channels that divide and recombine in precise ratios. No plaque explains the geometry. No sign indicates what the ratios mean. The fountain operates perfectly after ten thousand years. It was built for people who would look at it and think, "Of course. The twelve-fold symmetry expressing the relationship betweenâ€”" and complete the thought automatically. Current viewers see: old fountain, pretty patterns, mysterious engineering. The fountain still assumes they understand.
+*Example: A fountain in a Second Whorl plaza.* The water emerges from a geometric form—twelve-sided, each face inscribed with different patterns. The water flows in channels that divide and recombine in precise ratios. No plaque explains the geometry. No sign indicates what the ratios mean. The fountain operates perfectly after ten thousand years. It was built for people who would look at it and think, "Of course. The twelve-fold symmetry expressing the relationship between—" and complete the thought automatically. Current viewers see: old fountain, pretty patterns, mysterious engineering. The fountain still assumes they understand.
 
-*Example: A corridor junction in the Third Whorl.* Five passages meet. The floor patterns shift at each entranceâ€”different geometric motifs marking each direction. Color variations in the bronze-alloy indicate something. The ceiling height changes subtly between passages. A current Fourth Whorl clerk navigates by memory and landmark, ignoring the patterns. But the patterns were wayfindingâ€”obvious wayfinding, as clear as street signs, for people who read geometric notation fluently. The junction still tries to give directions. No one can read them.
+*Example: A corridor junction in the Third Whorl.* Five passages meet. The floor patterns shift at each entrance—different geometric motifs marking each direction. Color variations in the bronze-alloy indicate something. The ceiling height changes subtly between passages. A current Fourth Whorl clerk navigates by memory and landmark, ignoring the patterns. But the patterns were wayfinding—obvious wayfinding, as clear as street signs, for people who read geometric notation fluently. The junction still tries to give directions. No one can read them.
 
-*Example: An acoustic chamber beneath the Lattice building.* The room is shaped wrongâ€”curved walls, angled ceiling, floor that slopes toward a central depression. Speaking from certain positions creates strange resonances; sounds carry in unexpected directions. The chamber was designed for parallel processingâ€”multiple Technical Castes singing mathematical proofs simultaneously, the acoustics enabling them to hear each other's contributions precisely. Current analysts use the room for storage. The acoustics are inconvenient. The chamber still waits for the choir that will never return.
+*Example: An acoustic chamber beneath the Lattice building.* The room is shaped wrong—curved walls, angled ceiling, floor that slopes toward a central depression. Speaking from certain positions creates strange resonances; sounds carry in unexpected directions. The chamber was designed for parallel processing—multiple Technical Castes singing mathematical proofs simultaneously, the acoustics enabling them to hear each other's contributions precisely. Current analysts use the room for storage. The acoustics are inconvenient. The chamber still waits for the choir that will never return.
 
 ---
 
 ### **Technical Caste Architecture: Different Bodies**
 
-Distinct from Antediluvian public architecture, Technical Caste facilities were built for populations with genuinely different bodies and perceptual systems. This isn't ideology expressed in stoneâ€”it's ergonomics for forms we don't share.
+Distinct from Antediluvian public architecture, Technical Caste facilities were built for populations with genuinely different bodies and perceptual systems. This isn't ideology expressed in stone—it's ergonomics for forms we don't share.
 
 **Specific examples from established lore:**
 
-*The Old Cloister's spiral ramps.* Twelve-inch risers, four-inch treads. Exhausting for baseline legs; comfortable for longer ones. The ramps weren't symbolicâ€”they were stairs. Wooden stairs have been built alongside them for baseline use. The original ramps remain, unused except by those adapting to spaces they don't fit.
+*The Old Cloister's spiral ramps.* Twelve-inch risers, four-inch treads. Exhausting for baseline legs; comfortable for longer ones. The ramps weren't symbolic—they were stairs. Wooden stairs have been built alongside them for baseline use. The original ramps remain, unused except by those adapting to spaces they don't fit.
 
-*Passages assuming echolocation.* In deep sections of Technical Caste facilities, passages lack visual landmarks. The walls curve in ways that would create useful echoes for creatures navigating by sound. Baseline humans install rope guides and carry lights. The passages work fineâ€”for different senses.
+*Passages assuming echolocation.* In deep sections of Technical Caste facilities, passages lack visual landmarks. The walls curve in ways that would create useful echoes for creatures navigating by sound. Baseline humans install rope guides and carry lights. The passages work fine—for different senses.
 
-*Threshold chambers with "wrong" architecture.* Ceilings too low or too high. Floors that slope at awkward angles. Doorways offset from where visual cues suggest. Not symbolic discomfortâ€”comfort for bodies that processed space through different proprioception, different balance, different assumptions about which way "up" was.
+*Threshold chambers with "wrong" architecture.* Ceilings too low or too high. Floors that slope at awkward angles. Doorways offset from where visual cues suggest. Not symbolic discomfort—comfort for bodies that processed space through different proprioception, different balance, different assumptions about which way "up" was.
 
-*Nutrient channels in walls.* The Old Cloister has odd bulges and depressions where nutrient channels were plastered over. The Archons at Far Ib were fed through the architectureâ€”literally integrated into the building's systems. The channels are empty now, dried nutrient residue still visible in places. The building was designed to feed its inhabitants. It still has the structures for feeding; it has no one to feed.
+*Nutrient channels in walls.* The Old Cloister has odd bulges and depressions where nutrient channels were plastered over. The Archons at Far Ib were fed through the architecture—literally integrated into the building's systems. The channels are empty now, dried nutrient residue still visible in places. The building was designed to feed its inhabitants. It still has the structures for feeding; it has no one to feed.
 
 **Generating new Technical Caste details:**
 
-*Example: A meditation alcove in a Cloister annex.* The space is sphericalâ€”no flat surfaces except the floor, and even that curves at the edges. Baseline humans find it disorienting; the walls seem to press in. But for a being that processed space through omnidirectional sonar, the sphere would be the most restful shapeâ€”uniform echoes from every direction, no corners creating acoustic confusion. The alcove was for rest. It still induces nausea in baseline visitors.
+*Example: A meditation alcove in a Cloister annex.* The space is spherical—no flat surfaces except the floor, and even that curves at the edges. Baseline humans find it disorienting; the walls seem to press in. But for a being that processed space through omnidirectional sonar, the sphere would be the most restful shape—uniform echoes from every direction, no corners creating acoustic confusion. The alcove was for rest. It still induces nausea in baseline visitors.
 
-*Example: A communication hub at Far Ib.* Brass plates set into the floor at precise intervals, connected by channels beneath the surface. The plates resonate at different frequencies when struck. For the Archons, this might have been a telephoneâ€”tap a message on one plate, receive vibrations from the response plate. For current visitors, it's mysterious flooring that hums uncomfortably when walked on. The phone still works. No one knows the number.
+*Example: A communication hub at Far Ib.* Brass plates set into the floor at precise intervals, connected by channels beneath the surface. The plates resonate at different frequencies when struck. For the Archons, this might have been a telephone—tap a message on one plate, receive vibrations from the response plate. For current visitors, it's mysterious flooring that hums uncomfortably when walked on. The phone still works. No one knows the number.
 
 ---
 
@@ -311,23 +311,23 @@ The original message was: **"This is how things are. This is how things will alw
 
 Current inhabitants can't hear that message. They hear instead:
 
-**"Mystery and ancient power."** The geometric patterns mean "old" and "incomprehensible" because no one can read them. But they weren't meant to be readâ€”they were meant to be known. The incomprehensibility is an accident of history, not a design feature.
+**"Mystery and ancient power."** The geometric patterns mean "old" and "incomprehensible" because no one can read them. But they weren't meant to be read—they were meant to be known. The incomprehensibility is an accident of history, not a design feature.
 
-**"You are small and temporary."** The scale does make current inhabitants feel small. But the original builders didn't intend that messageâ€”they just built at the scale of eternity. The humbling is a side effect.
+**"You are small and temporary."** The scale does make current inhabitants feel small. But the original builders didn't intend that message—they just built at the scale of eternity. The humbling is a side effect.
 
-**"The ancestors were greater."** The architecture suggests decline constantly. The population never filled the infrastructure. The knowledge to build it is lost. But the original builders would find this reading bafflingâ€”they didn't build for ancestors or descendants. They built for now, forever.
+**"The ancestors were greater."** The architecture suggests decline constantly. The population never filled the infrastructure. The knowledge to build it is lost. But the original builders would find this reading baffling—they didn't build for ancestors or descendants. They built for now, forever.
 
 **The tragedy is the confidence.** The buildings still assume everyone understands. The Place of Eternal Brightness is inhabited by people living in the dark.
 
 **Different viewers read differently:**
 
-*A Fourth Whorl clerk* sees home. Unremarkable. The patterns are background; you stop seeing them. Mystery isn't a categoryâ€”this is just how buildings look.
+*A Fourth Whorl clerk* sees home. Unremarkable. The patterns are background; you stop seeing them. Mystery isn't a category—this is just how buildings look.
 
 *A Ganati revolutionary* sees Imperial oppression made physical. Hierarchy built into walls. The scale designed to humble, the geometry designed to confuse. Everything the revolution rejected, frozen in bronze.
 
-*A Thousand Kingdoms trader* sees incomprehensible wealth and threat. How many destriers to build one column? The mystery is dangerousâ€”what else don't they understand?
+*A Thousand Kingdoms trader* sees incomprehensible wealth and threat. How many destriers to build one column? The mystery is dangerous—what else don't they understand?
 
-*An Aureate family* sees proof of lineage. The patterns are heritage, not mystery. The scale is appropriateâ€”we come from people who could command this.
+*An Aureate family* sees proof of lineage. The patterns are heritage, not mystery. The scale is appropriate—we come from people who could command this.
 
 None of them see what the builders intended, because what the builders intended required a world that no longer exists.
 
@@ -337,11 +337,11 @@ None of them see what the builders intended, because what the builders intended 
 
 The Thousand Kingdoms material culture is testimonial. Objects speak for individuals across mortal timescales. The message is always: **"I was here. This happened. It mattered. Notice."**
 
-**Visual vocabularyâ€”the canonical comparisons:**
+**Visual vocabulary—the canonical comparisons:**
 
 The Aesthetics document provides specific real-world reference points for Ogon (the main Thousand Kingdoms city):
 
-*The physical environment*: The Thousand Kingdoms occupy former Oregon and Washingtonâ€”coastal temperate rainforest in the west, the Malpais scablands in the east. Ogon sits on the Oregon coast where the autofactory transformed the landscape. Rain falls 200 days per year; temperatures hold 50-60Â°F with constant humidity. Everything is perpetually dampâ€”moss grows on concrete, water runs down walls, mold accumulates in corners. Douglas firs 200 feet tall grow through broken concrete where the autofactory's oldest sections have been reclaimed. The Grand Canal (the Columbia River, geometrically straightened by the autofactory into walls of fused glass thirty feet high) marks the northern approach. The Malpais inland is volcanic basalt with soil too thin for agricultureâ€”scablands stretching across eastern Oregon into Idaho, sagebrush and bunchgrass, villages only where water runs year-round.
+*The physical environment*: The Thousand Kingdoms occupy former Oregon and Washington—coastal temperate rainforest in the west, the Malpais scablands in the east. Ogon sits on the Oregon coast where the autofactory transformed the landscape. Rain falls 200 days per year; temperatures hold 50-60°F with constant humidity. Everything is perpetually damp—moss grows on concrete, water runs down walls, mold accumulates in corners. Douglas firs 200 feet tall grow through broken concrete where the autofactory's oldest sections have been reclaimed. The Grand Canal (the Columbia River, geometrically straightened by the autofactory into walls of fused glass thirty feet high) marks the northern approach. The Malpais inland is volcanic basalt with soil too thin for agriculture—scablands stretching across eastern Oregon into Idaho, sagebrush and bunchgrass, villages only where water runs year-round.
 
 *Brutalist architecture* (Boston City Hall, Barbican London): The autofactory structures pushed to extreme. Concrete, geometric, no human accommodation. "But Brutalists tried to make usable buildings. The autofactory wasn't trying."
 
@@ -349,15 +349,15 @@ The Aesthetics document provides specific real-world reference points for Ogon (
 
 *Japanese temple construction* (Ise Shrine): The careful carpentry with visible joinery, where wood stays natural. "But Ise uses perfect wood, regularly replaced. Ogon uses whatever timber is available, built until it rots."
 
-*Scandinavian coastal villages* (Faroe Islands, Norwegian fishing settlements): Bright paint on weathered wood in harsh climateâ€”paint protects and provides visual markers. "But there colors are purchased. Here they're made from rubble."
+*Scandinavian coastal villages* (Faroe Islands, Norwegian fishing settlements): Bright paint on weathered wood in harsh climate—paint protects and provides visual markers. "But there colors are purchased. Here they're made from rubble."
 
-*Japanese wabi-sabi*: The acceptance of weathering and decay as beautifulâ€”rust, moss, cracks showing time passing. "But wabi-sabi involves careful selection. The Akama just let things weather naturally and call that good."
+*Japanese wabi-sabi*: The acceptance of weathering and decay as beautiful—rust, moss, cracks showing time passing. "But wabi-sabi involves careful selection. The Akama just let things weather naturally and call that good."
 
-*Aztec warrior culture*: Trophy-taking as status marker. The integration of violence and aestheticsâ€”layered armor, ceramic plates over leather, echoing quilted cotton and obsidian-edged weapons.
+*Aztec warrior culture*: Trophy-taking as status marker. The integration of violence and aesthetics—layered armor, ceramic plates over leather, echoing quilted cotton and obsidian-edged weapons.
 
 *Mongol*: The felt tent (ger/yurt) as perfect mobile architecture. The horse (here the destrier) as center of life and economy. Prestige items that are portable. The way "civilization" means something you raid rather than aspire to.
 
-The Akama construction vocabulary: Douglas fir timber, mortise and tenon joinery, wooden pegs, honest display of construction. Footbridges spanning canals. Platforms atop ziggurats. Residential structures built inside autofactory shellsâ€”proper frames within wrong-dimensioned concrete rooms.
+The Akama construction vocabulary: Douglas fir timber, mortise and tenon joinery, wooden pegs, honest display of construction. Footbridges spanning canals. Platforms atop ziggurats. Residential structures built inside autofactory shells—proper frames within wrong-dimensioned concrete rooms.
 
 The three colors made from autofactory waste: rust-orange (iron oxide burned from corroded steel), lime-yellow (calcium from burned concrete), teal (verdigris scraped from corroded copper). Bold application, visible brushstrokes, weathering accepted. The diagonal slashes marking human presence against alien concrete.
 
@@ -367,7 +367,7 @@ For mobile Thousand Kingdoms populations: functional quality over display, threa
 
 **"Life promises nothing."** The Akama philosophy of fate and strength and endurance. The tent doesn't promise to last forever. You don't promise to survive. Material culture doesn't pretend otherwise. A patched tent is more truthful than a pristine one.
 
-**"It is enough nonetheless."** Sufficiency, not optimization. "Enough" is the highest praise. More than enough is suspiciousâ€”who are you trying to impress?
+**"It is enough nonetheless."** Sufficiency, not optimization. "Enough" is the highest praise. More than enough is suspicious—who are you trying to impress?
 
 **"There is a quality to this thing. View it."** Craftsmanship as testimony. Quality isn't luxury; it's respect for the work. A shoddy object insults its maker and its user.
 
@@ -385,13 +385,13 @@ For mobile Thousand Kingdoms populations: functional quality over display, threa
 
 **Generating new Thousand Kingdoms details:**
 
-*Example: A khan's drinking bowl.* Bronze, ya-Don manufactureâ€”a trophy. Dented on one side from the blow that killed its previous owner. The rim worn smooth from generations of lips. The base inscribed: names crossed out, the name of the current owner last. The bowl is a document.
+*Example: A khan's drinking bowl.* Bronze, ya-Don manufacture—a trophy. Dented on one side from the blow that killed its previous owner. The rim worn smooth from generations of lips. The base inscribed: names crossed out, the name of the current owner last. The bowl is a document.
 
-*Example: A destrier's tack.* The saddle oldâ€”leather cracked and reconditioned multiple times. The stirrups don't match: one local ironwork, one Imperial manufacture. The tack tells you: this equipment has been maintained across generations, repaired with whatever was available.
+*Example: A destrier's tack.* The saddle old—leather cracked and reconditioned multiple times. The stirrups don't match: one local ironwork, one Imperial manufacture. The tack tells you: this equipment has been maintained across generations, repaired with whatever was available.
 
-*Example: A young warrior's embarrassment.* Everything is too new. The armor is pristineâ€”no patches. The leather is stiff. He's trying to scuff the armor, make it look storied. But you can't fake patina. The newness testifies against him: nothing has happened to him yet.
+*Example: A young warrior's embarrassment.* Everything is too new. The armor is pristine—no patches. The leather is stiff. He's trying to scuff the armor, make it look storied. But you can't fake patina. The newness testifies against him: nothing has happened to him yet.
 
-*Example: A camp after a death.* The dead warrior's tent still standing, flap pinned openâ€”the spirit needs to leave. His armor displayed more prominently than in life. His destrier decorated with fabric strips. For three days the camp organizes around the empty tent. Then packed, distributed, the strips kept as mementos.
+*Example: A camp after a death.* The dead warrior's tent still standing, flap pinned open—the spirit needs to leave. His armor displayed more prominently than in life. His destrier decorated with fabric strips. For three days the camp organizes around the empty tent. Then packed, distributed, the strips kept as mementos.
 
 ---
 
@@ -399,35 +399,35 @@ For mobile Thousand Kingdoms populations: functional quality over display, threa
 
 Ganati material culture speaks through individual contributions that constitute a collective whole. The message is: **"We each did our part. Together we made this. You can see who did what."**
 
-**Visual vocabularyâ€”the canonical comparisons:**
+**Visual vocabulary—the canonical comparisons:**
 
 The Aesthetics document provides specific real-world reference points:
 
-*The physical environment*: Ganat occupies high desert canyon countryâ€”Glen Canyon on the Teph River, where walls rise 500 feet of salmon-colored Navajo sandstone. Cross-bedding visible in the stone shows ancient desert dunes, diagonal lines from winds that blew before humans existed. The climate is harsh: summers exceed 100Â°F, winter nights drop below freezing, ten inches of precipitation annually. This is what the Serrulata were engineered forâ€”harsh sun, minimal water, extreme temperature swings. The canyon itself creates microclimate: walls provide shade, air moving through creates breeze, the river moderates temperature. The surrounding high desert (the Yarangar, the territories toward Ghemar-yan) is basalt and sagebrush, volcanic scablands where villages cluster wherever water runs year-round.
+*The physical environment*: Ganat occupies high desert canyon country—Glen Canyon on the Teph River, where walls rise 500 feet of salmon-colored Navajo sandstone. Cross-bedding visible in the stone shows ancient desert dunes, diagonal lines from winds that blew before humans existed. The climate is harsh: summers exceed 100°F, winter nights drop below freezing, ten inches of precipitation annually. This is what the Serrulata were engineered for—harsh sun, minimal water, extreme temperature swings. The canyon itself creates microclimate: walls provide shade, air moving through creates breeze, the river moderates temperature. The surrounding high desert (the Yarangar, the territories toward Ghemar-yan) is basalt and sagebrush, volcanic scablands where villages cluster wherever water runs year-round.
 
-*Petra*: The primary reference. Cities carved into sandstone cliff facesâ€”the Treasury, the Monastery, canyon walls riddled with dwellings. The reddish stone, the carved facades, interior space created by subtraction rather than addition. Water engineering that made the desert habitable. "Cities approached through narrow canyons, suddenly opening into carved grandeur."
+*Petra*: The primary reference. Cities carved into sandstone cliff faces—the Treasury, the Monastery, canyon walls riddled with dwellings. The reddish stone, the carved facades, interior space created by subtraction rather than addition. Water engineering that made the desert habitable. "Cities approached through narrow canyons, suddenly opening into carved grandeur."
 
-*GaudÃ­'s Sagrada Familia*: The carved canyon facades. "But covering an entire canyon." Art Nouveau organic curves at architectural scaleâ€”nothing rigid or geometric, robes flowing rather than hanging straight, hair like flames or water, curves replacing angles while remaining recognizably figurative.
+*Gaudí's Sagrada Familia*: The carved canyon facades. "But covering an entire canyon." Art Nouveau organic curves at architectural scale—nothing rigid or geometric, robes flowing rather than hanging straight, hair like flames or water, curves replacing angles while remaining recognizably figurative.
 
 *Angkor Wat and Khajuraho*: The figurative density. "But with flowing curves replacing rigid iconography." Thousands of carved figures, 20-25 feet tall, standing in relief 2-3 feet from the wall.
 
 *Art Nouveau guild emphasis* (Guimard's Metro entrances, Gaudi's tiles): Each piece identifiable by its maker. The integration of craft and art. The rejection of industrial anonymity in favor of artisanal identity.
 
-*Old West frontier towns*: Electric lights as civilization markerâ€”the way a frontier town announces its presence through illumination. The competitive display of which establishment has better lighting. Infrastructure as progress made visible.
+*Old West frontier towns*: Electric lights as civilization marker—the way a frontier town announces its presence through illumination. The competitive display of which establishment has better lighting. Infrastructure as progress made visible.
 
 *Pueblo (American Southwest)*: Adobe construction, terraced buildings climbing slopes. Mesa Verde cliff dwellings. The integration of dwellings into rock faces. Communal labor of construction.
 
 *Derinkuyu in Cappadocia, Matmata in Tunisia*: Underground cities carved for climate control. "But those are functional, minimal. Ganat adds monumental carved art to the functional underground living."
 
-*Persian/Iranian architecture* (Isfahan, Yazd, Kashan): The adobe domes. "But Persian domes often have geometric tile workâ€”complex mathematical patterns. Ganati domes are simpler, following organic curves, minimal decoration."
+*Persian/Iranian architecture* (Isfahan, Yazd, Kashan): The adobe domes. "But Persian domes often have geometric tile work—complex mathematical patterns. Ganati domes are simpler, following organic curves, minimal decoration."
 
 The Ganati palette: red sandstone (deep red, rust-orange, cream, tan in horizontal layers), teal from copper compounds (expensive, semi-permanent), rust-orange from iron oxide, the contrast of verdigris copper cladding against warm stone. Electric lights every twenty feet on staircases. Stained glass windows in wealthy cave-homes glowing both day and night.
 
-The sandstone: Navajo sandstone, salmon to cream colored, fine-grained, soft enough to carve with hand tools but durable once carved. Cross-bedding visibleâ€”diagonal lines showing ancient desert dunes. The stone carves beautifully into smooth curves and flowing organic forms.
+The sandstone: Navajo sandstone, salmon to cream colored, fine-grained, soft enough to carve with hand tools but durable once carved. Cross-bedding visible—diagonal lines showing ancient desert dunes. The stone carves beautifully into smooth curves and flowing organic forms.
 
 **"This section is ours."** Kilit territories are visible. You can tell when you cross from one section to another by light spacing, maintenance quality, fixture style. Each kilit signs its work.
 
-**"We did this."** Not "this was done" but "WE did this"â€”specific kilit, named, identifiable. The collective achievement is made of signed individual contributions.
+**"We did this."** Not "this was done" but "WE did this"—specific kilit, named, identifiable. The collective achievement is made of signed individual contributions.
 
 **"Together we made this."** The Great Stairs with different kilits maintaining different sections, all competing to be brightest, all together constituting eight hundred lit steps. No single kilit made the stairs. All of them together made the stairs. But each one made their part, and you can see which part.
 
@@ -437,21 +437,21 @@ The sandstone: Navajo sandstone, salmon to cream colored, fine-grained, soft eno
 
 *The Great Stairs of Taho.* 800 steps, electric lights every twenty steps. Different kilits maintain different sections. "You can tell when you cross from one kilit's territory to another by subtle differences in light spacing and intensity."
 
-*The re-carved terraces.* "Scenes of Sultana Ulayah receiving tribute now show collective assemblies. The re-carved sections are deeperâ€”you can trace the original forms underneath." The palimpsest is the message.
+*The re-carved terraces.* "Scenes of Sultana Ulayah receiving tribute now show collective assemblies. The re-carved sections are deeper—you can trace the original forms underneath." The palimpsest is the message.
 
-*The canyon-face windows.* The genuinely wealthy have cave-homes with vast stained glass windows. Individual wealth constituting collective beautyâ€”each family's contribution to the glowing canyon face.
+*The canyon-face windows.* The genuinely wealthy have cave-homes with vast stained glass windows. Individual wealth constituting collective beauty—each family's contribution to the glowing canyon face.
 
-*The working-class warrens.* Organic, unplannedâ€”but not anonymous. Everyone knows who carved which chamber. The informality is still signed.
+*The working-class warrens.* Organic, unplanned—but not anonymous. Everyone knows who carved which chamber. The informality is still signed.
 
 **Generating new Ganati details:**
 
 *Example: A public fountain in Ganat proper.* Installed by the Copperworkers' Kilit to mark their fiftieth anniversary. Copper basin, inscription naming the kilit and year. Adjacent stone bench installed by the Pipefitters. Two contributions, visibly signed, constituting one small plaza.
 
-*Example: A re-carved panel in Taho.* The original depicted Sultana Ulayah blessing merchants. The replacement depicts a kilit assembly votingâ€”but look closely: the figures are individualized. That one has the profile of Consul Mehrek, who led the re-carving. The kilit included themselves in the image. They signed their revolution.
+*Example: A re-carved panel in Taho.* The original depicted Sultana Ulayah blessing merchants. The replacement depicts a kilit assembly voting—but look closely: the figures are individualized. That one has the profile of Consul Mehrek, who led the re-carving. The kilit included themselves in the image. They signed their revolution.
 
 *Example: A light-maintenance competition.* Two kilits claim the same stair section. Both maintain lights there. That section is the brightest in Taho, absurdly overlit. Each kilit refuses to let the other claim sole credit. The dispute has become collective benefit.
 
-*Example: A Dawn/Dusk boundary.* The veterans' kilit (Dawn) maintains one tunnelâ€”brighter lights, revolutionary slogans. The Five Bands' kilit (Dusk) maintains the adjacent tunnelâ€”softer lighting, traditional patterns. At the junction, you can see who believes what by how they light their section.
+*Example: A Dawn/Dusk boundary.* The veterans' kilit (Dawn) maintains one tunnel—brighter lights, revolutionary slogans. The Five Bands' kilit (Dusk) maintains the adjacent tunnel—softer lighting, traditional patterns. At the junction, you can see who believes what by how they light their section.
 
 ---
 
@@ -459,21 +459,21 @@ The sandstone: Navajo sandstone, salmon to cream colored, fine-grained, soft eno
 
 Current Imperial material culture speaks of position within systems no one made. The message is: **"I belong here. I have access. I maintain what I was given."**
 
-**Visual vocabularyâ€”adapting the inherited:**
+**Visual vocabulary—adapting the inherited:**
 
 Current Imperial construction happens in the interstices of Antediluvian architecture. The Aesthetics document describes three levels of execution:
 
-*Aureate buildings*: Refinement through precision and maintenance. Carved copper plates with patterns worked an inch deep, grooves still sharp after years. Welds nearly disappear. Paint in layered gradations. Geometric patterns following consistent logic. Surfaces maintainedâ€”no corrosion, no algae, no faded paint. Where they occupy Antediluvian structures, they modify as little as possible.
+*Aureate buildings*: Refinement through precision and maintenance. Carved copper plates with patterns worked an inch deep, grooves still sharp after years. Welds nearly disappear. Paint in layered gradations. Geometric patterns following consistent logic. Surfaces maintained—no corrosion, no algae, no faded paint. Where they occupy Antediluvian structures, they modify as little as possible.
 
 *Guild buildings*: Competent execution. Bold patterns, visible brush marks, minor imperfections accepted between maintenance cycles.
 
-*Limited resources*: Decoration concentrated at visible pointsâ€”paint around doorways while the rest shows bare metal or faded color.
+*Limited resources*: Decoration concentrated at visible points—paint around doorways while the rest shows bare metal or faded color.
 
-The interstitial construction: buildings between bronze columns (stone, brick, woodâ€”3-5 stories, never touching the ancient columns). The Medina's commercial architecture. The Ridge's workshops in collapsed arcology. The five-foot gap maintained around columns for reasons no one remembers.
+The interstitial construction: buildings between bronze columns (stone, brick, wood—3-5 stories, never touching the ancient columns). The Medina's commercial architecture. The Ridge's workshops in collapsed arcology. The five-foot gap maintained around columns for reasons no one remembers.
 
 The Imperial palette: black for formal wear and Bureau clothing. Teal for Imperial affiliation (copper-based, expensive, marks connection to Inner City). White for purity. Bronze and gold for metal fittings. Ochre, cream, dark green for building paint that complements the bronze. Batik awnings echoing geometric patterns.
 
-**"I belong here."** Credential architecture. Living closer to functioning pre-Interdict systems. The apartments near the Second Whorl say: "My family has clearance. This proximity is earned." Not built, not madeâ€”permitted.
+**"I belong here."** Credential architecture. Living closer to functioning pre-Interdict systems. The apartments near the Second Whorl say: "My family has clearance. This proximity is earned." Not built, not made—permitted.
 
 **"I maintain what I was given."** The message is stewardship, not creation. "I didn't make this, but I keep it working. I'm a good heir."
 
@@ -491,13 +491,13 @@ The Imperial palette: black for formal wear and Bureau clothing. Teal for Imperi
 
 **Generating new Imperial details:**
 
-*Example: An artisan's workshop.* She occupies a corner where ancient walls meet. She hasn't modified themâ€”permits would be required. Instead, portable equipment: workbenches on wheels, tool racks that don't touch the bronze. Everything could be removed in an hour. The impermanence is the point.
+*Example: An artisan's workshop.* She occupies a corner where ancient walls meet. She hasn't modified them—permits would be required. Instead, portable equipment: workbenches on wheels, tool racks that don't touch the bronze. Everything could be removed in an hour. The impermanence is the point.
 
-*Example: A family shrine.* The shrine occupies a niche in the ancient wallâ€”one of those alcoves whose purpose is unknown. The family has placed devotional objects there. No construction. Just use. "We occupy this niche by credential, not by right."
+*Example: A family shrine.* The shrine occupies a niche in the ancient wall—one of those alcoves whose purpose is unknown. The family has placed devotional objects there. No construction. Just use. "We occupy this niche by credential, not by right."
 
 *Example: Maintenance as status display.* An Aureate family's corridor section gleams. The bronze polished to mirror brightness. Adjacent sections show normal wear. The message isn't "we built this" but "we maintain this better than you."
 
-*Example: A nouveau-riche miscalculation.* They've added construction to their apartmentâ€”new walls, decorative elements. Neighbors are scandalized. You don't BUILD in inherited space. The additions scream "we don't understand how this works." Established families have modest interiors, because the address makes the statement.
+*Example: A nouveau-riche miscalculation.* They've added construction to their apartment—new walls, decorative elements. Neighbors are scandalized. You don't BUILD in inherited space. The additions scream "we don't understand how this works." Established families have modest interiors, because the address makes the statement.
 
 ---
 
@@ -505,37 +505,37 @@ The Imperial palette: black for formal wear and Bureau clothing. Teal for Imperi
 
 Ya-Tsatsa material culture speaks through restraint and attention. The message is: **"We are waiting. We are receiving. The important things cannot be shown."**
 
-**Visual vocabularyâ€”the canonical comparisons:**
+**Visual vocabulary—the canonical comparisons:**
 
-*The physical environment*: Ya-Tsatsa occupies white-gray cliffs on the northern coastâ€”quartz diorite rising three hundred feet or more from the ocean, extending for dozens of miles in both directions. The stone is pale enough to glow faintly in moonlight, hard enough to hold carved detail for millennia. Visible crystals: quartz that catches light, feldspar that holds color, dark minerals creating flecks and striations. The cliffs rose from the ocean in an ancient earthquake, a sudden tectonic uplift that created the headland where the city now stands.
+*The physical environment*: Ya-Tsatsa occupies white-gray cliffs on the northern coast—quartz diorite rising three hundred feet or more from the ocean, extending for dozens of miles in both directions. The stone is pale enough to glow faintly in moonlight, hard enough to hold carved detail for millennia. Visible crystals: quartz that catches light, feldspar that holds color, dark minerals creating flecks and striations. The cliffs rose from the ocean in an ancient earthquake, a sudden tectonic uplift that created the headland where the city now stands.
 
-The climate is cool and constantâ€”low fifties year-round, clouds accumulating over the ocean but rain seldom reaching the cliffs. The wind never stops. Seasons are distinguished by wind direction and intensity, not temperature. Summer brings gentle pressure that rings bronze chimes. Autumn and winter bring gales that make the ceramic whistles scream.
+The climate is cool and constant—low fifties year-round, clouds accumulating over the ocean but rain seldom reaching the cliffs. The wind never stops. Seasons are distinguished by wind direction and intensity, not temperature. Summer brings gentle pressure that rings bronze chimes. Autumn and winter bring gales that make the ceramic whistles scream.
 
 The geology is the architecture. The city grows from the cliffs, uses stone quarried from them, buries its sacred dead in them. The construction material is the cliff itself, cut and shaped but never disguised.
 
-*Cycladic sculpture*: The kalbat tomb-faces have the sparse abstraction of Cycladic figurinesâ€”suggestions of faces rather than faces themselves. The slack jaw, the closed eyes, the expression of reception. Weathered smooth by centuries of salt spray and wind, their features blurred to suggestion. This is intentional aesthetic: the faces should become abstraction over time, should blur toward the essential.
+*Cycladic sculpture*: The kalbat tomb-faces have the sparse abstraction of Cycladic figurines—suggestions of faces rather than faces themselves. The slack jaw, the closed eyes, the expression of reception. Weathered smooth by centuries of salt spray and wind, their features blurred to suggestion. This is intentional aesthetic: the faces should become abstraction over time, should blur toward the essential.
 
 *Tibetan/Himalayan monastic architecture*: The white stone, the prayer flags snapping in constant wind, the cliffs as both foundation and sacred space. The severity. The sense of waiting at altitude for something that may arrive. The integration of construction into geology.
 
-*Greek Orthodox monastic islands*: Whitewashed stone against blue sky, monochrome except for specific colored elements. The way entire communities commit to visual restraint. Meteora, Patmosâ€”places where the architecture expresses theology through material.
+*Greek Orthodox monastic islands*: Whitewashed stone against blue sky, monochrome except for specific colored elements. The way entire communities commit to visual restraint. Meteora, Patmos—places where the architecture expresses theology through material.
 
 *Japanese wabi-sabi (properly applied)*: The appreciation for weathering, for patina, for impermanence revealing itself over time. The kalbat faces are meant to weather. The smoothing is part of the design. The erosion is the aesthetic.
 
 **The kalbat tombs:**
 
-Nearly every accessible cliff surface has been carved into tombsâ€”tens of thousands of them, each cut to suggest the slack-jawed face of the receiver it contains. All face the ocean. All wait for something that may or may not arrive.
+Nearly every accessible cliff surface has been carved into tombs—tens of thousands of them, each cut to suggest the slack-jawed face of the receiver it contains. All face the ocean. All wait for something that may or may not arrive.
 
 The tradition began before the Interdict, when kalbats were living instruments receiving Testaments from the Oracles. It continued after the last Archons fled, after kalbats became rare. When a kalbat dies anywhere in the Empire, word reaches ya-Tsatsa, and a new tomb is carved.
 
-The faces are the city's first architecture. The geology became cemetery before it became city. The tombs record every kalbat who ever livedâ€”a census of reception extending back to the era when humans first tried to create conditions for transcendence.
+The faces are the city's first architecture. The geology became cemetery before it became city. The tombs record every kalbat who ever lived—a census of reception extending back to the era when humans first tried to create conditions for transcendence.
 
 **What the Witness builders were saying:**
 
-The eight domes in the Upper City predate the city itselfâ€”Witness construction from the era when humans were trying to create the conditions for transcendence. The three Cradles are vast craters where Oracles achieved consciousness. This was infrastructure for apotheosis.
+The eight domes in the Upper City predate the city itself—Witness construction from the era when humans were trying to create the conditions for transcendence. The three Cradles are vast craters where Oracles achieved consciousness. This was infrastructure for apotheosis.
 
 The Witnesses weren't decorating. They were engineering. The domes match the design of the oldest kalbat tomb-faces, the chapels at the Cradles. Everything serves the project of creating or receiving transcendence. The aesthetic is: *this is where we wait*.
 
-The infrastructure within the cliffsâ€”tunnels, chambers, systems that still operateâ€”predates human habitation. The pierrots maintain it. Whatever the Witnesses built here, they built it into the cliff, using rock as foundation, shell, and something more than either. The infrastructure converges on the Eighth Dome, where bronze doors open twice yearly for processions that enter but don't emerge.
+The infrastructure within the cliffs—tunnels, chambers, systems that still operate—predates human habitation. The pierrots maintain it. Whatever the Witnesses built here, they built it into the cliff, using rock as foundation, shell, and something more than either. The infrastructure converges on the Eighth Dome, where bronze doors open twice yearly for processions that enter but don't emerge.
 
 An architect studied the Eighth Dome's external geometry for three months. His measurements suggested non-Euclidean construction, proportions implying spaces that couldn't exist within the visible footprint. He hired a surveyor (confirmed), a mathematician (said the numbers were impossible). He returned to the capital and published nothing.
 
@@ -543,7 +543,7 @@ The Witnesses were saying: *We are preparing for something. The preparation requ
 
 **What the current city says:**
 
-*Monochrome restraint*: All construction uses the same white-gray stone quarried while cutting tombs. No paint. No applied decoration. The only color comes from prayer flagsâ€”temporary, movable, never permanent architectural elements. The restraint is theological: what matters cannot be shown, so why show anything?
+*Monochrome restraint*: All construction uses the same white-gray stone quarried while cutting tombs. No paint. No applied decoration. The only color comes from prayer flags—temporary, movable, never permanent architectural elements. The restraint is theological: what matters cannot be shown, so why show anything?
 
 *Material honesty*: Objects reveal what they're made from. Undyed linen shows its fiber. Stone shows its grain. Metal shows its working. Covering these properties suggests deception. The aesthetic demands: *be what you are*.
 
@@ -551,31 +551,31 @@ The Witnesses were saying: *We are preparing for something. The preparation requ
 
 *Earned color*: What little color appears must justify itself. Prayer flags mark religious observance. The teal, cream, and rust-orange fabrics in occasional use reference specific ritual contexts. Arbitrary decoration for visual appeal is considered juvenile.
 
-*Acoustic architecture*: Sound functions as aesthetic element equal to visual form. The ceramic whistles mounted on rooftopsâ€”tubes ranging from six inches to three feetâ€”produce different tones based on size and bore. During gales the entire city drones and shrieks, multiple tones layering without resolution. The whistles predate Imperial record-keeping. Some look ancient, others are recent replacements made to identical specifications. What tradition, no one will say.
+*Acoustic architecture*: Sound functions as aesthetic element equal to visual form. The ceramic whistles mounted on rooftops—tubes ranging from six inches to three feet—produce different tones based on size and bore. During gales the entire city drones and shrieks, multiple tones layering without resolution. The whistles predate Imperial record-keeping. Some look ancient, others are recent replacements made to identical specifications. What tradition, no one will say.
 
 Summer's bronze chimes ring irregularly in gentle pressure, dispersing through streets. During Quiet Days, chimes come down and whistles are stopped with cork. The city goes silent except for ocean hitting cliffs below. Then Quiet Day ends, corks are removed, and the acoustic architecture resumes.
 
-*Darkness*: At night there are no lanterns. The Upper City goes dark. This is deliberateâ€”the darkness is part of the aesthetic, part of the waiting.
+*Darkness*: At night there are no lanterns. The Upper City goes dark. This is deliberate—the darkness is part of the aesthetic, part of the waiting.
 
 **The palette:**
 
-White-gray stone (the cliffs, the buildings, everything). Prayer flag colors providing contrast: the traditional rust-orange, teal, cream appear in textile elements that snap and flutter. Bronze on the oldest structuresâ€”the domes, the great doors, fixtures that predate the current era. The black of open tomb-mouths. The blue-black around pierrot eye sockets and lips.
+White-gray stone (the cliffs, the buildings, everything). Prayer flag colors providing contrast: the traditional rust-orange, teal, cream appear in textile elements that snap and flutter. Bronze on the oldest structures—the domes, the great doors, fixtures that predate the current era. The black of open tomb-mouths. The blue-black around pierrot eye sockets and lips.
 
 The restraint reads as severe to outsiders accustomed to Imperial or Ganati color. To Tsatsans, the restraint allows attention to focus on what matters: quality of stone carving, precision of geometric construction, how acoustic space shapes experience.
 
 **Generating new ya-Tsatsa details:**
 
-*Example: A street in the Upper City.* White-gray quartz diorite on every surfaceâ€”walls, paving, steps. No paint, no plaster, no color except prayer flags strung between buildings, snapping in the constant wind. The buildings have no signs; residents know what's inside. A ceramic whistle mounted at the cornerâ€”eighteen inches long, angled to catch the prevailing windâ€”produces a low tone that rises and falls with gusts. The tone has been part of this street for longer than anyone can remember.
+*Example: A street in the Upper City.* White-gray quartz diorite on every surface—walls, paving, steps. No paint, no plaster, no color except prayer flags strung between buildings, snapping in the constant wind. The buildings have no signs; residents know what's inside. A ceramic whistle mounted at the corner—eighteen inches long, angled to catch the prevailing wind—produces a low tone that rises and falls with gusts. The tone has been part of this street for longer than anyone can remember.
 
 *Example: A kalbat tomb carved last year.* Fresh-cut stone, the face still sharp: closed eyes, slack jaw, the expression of reception. The carving follows the stone's natural planes where possible. In three hundred years the features will blur to suggestion, joining the thousands of weathered faces that cover the cliffs. The Ahn-Tam carver doesn't sign her work. The face is what matters, not who made it.
 
-*Example: The climb through the hollow tomb.* The main ascent goes through the mouth of a kalbat tomb left empty when stone behind it was quarriedâ€”visitors literally enter through a carved face. The stairs inside are steep and worn smooth by traffic. Landings every hundred feet provide rest, some with small shrines. Forty minutes if fit, over an hour otherwise. The climb is part of the experience. There is an elevator, but it does not carry people.
+*Example: The climb through the hollow tomb.* The main ascent goes through the mouth of a kalbat tomb left empty when stone behind it was quarried—visitors literally enter through a carved face. The stairs inside are steep and worn smooth by traffic. Landings every hundred feet provide rest, some with small shrines. Forty minutes if fit, over an hour otherwise. The climb is part of the experience. There is an elevator, but it does not carry people.
 
-*Example: A wealthy Tsatsan's dress.* Undyed linen in natural cream, simple cuts following body structure. No jewelry except a geometric silver pin marking family affiliation. The quality shows in weave fineness, tailoring precision, durability of constructionâ€”not in applied decoration. The Aureate who wears this could afford southern Highborn excess. The choice not to is the statement.
+*Example: A wealthy Tsatsan's dress.* Undyed linen in natural cream, simple cuts following body structure. No jewelry except a geometric silver pin marking family affiliation. The quality shows in weave fineness, tailoring precision, durability of construction—not in applied decoration. The Aureate who wears this could afford southern Highborn excess. The choice not to is the statement.
 
-*Example: The Cradle chapel.* Surprisingly small considering what occurred hereâ€”one of three sites where an Oracle achieved consciousness. White stone, no decoration, a geometric mosaic that seems to shift in peripheral vision. Tsatsans gather here every Quiet Day. Pilgrims visit but don't stay long. Something about standing at a transcendent intelligence's birthplace creates discomfort no one can articulate.
+*Example: The Cradle chapel.* Surprisingly small considering what occurred here—one of three sites where an Oracle achieved consciousness. White stone, no decoration, a geometric mosaic that seems to shift in peripheral vision. Tsatsans gather here every Quiet Day. Pilgrims visit but don't stay long. Something about standing at a transcendent intelligence's birthplace creates discomfort no one can articulate.
 
-*Example: The acoustic environment during a gale.* The whistles screamâ€”dozens of tones layering without resolution, rising and falling as wind gusts or steadies. Streets empty. Tsatsans go inside and wait. When wind drops, they emerge and resume normal activity. The screaming isn't malfunction; it's the city's voice, speaking in registers that predate language.
+*Example: The acoustic environment during a gale.* The whistles scream—dozens of tones layering without resolution, rising and falling as wind gusts or steadies. Streets empty. Tsatsans go inside and wait. When wind drops, they emerge and resume normal activity. The screaming isn't malfunction; it's the city's voice, speaking in registers that predate language.
 
 ---
 
@@ -583,19 +583,19 @@ The restraint reads as severe to outsiders accustomed to Imperial or Ganati colo
 
 Ya-Don material culture speaks of labor. The message is: **"The Furnaces demand. We provide. The work continues."**
 
-**Visual vocabularyâ€”the canonical comparisons:**
+**Visual vocabulary—the canonical comparisons:**
 
-*The physical environment*: Ya-Don occupies the southern Central Valleyâ€”forty thousand feet of alluvial sediment spread by the DonÃ¡ River and its tributaries, rising toward Sierra Nevada foothills visible to the east. Semi-arid basin: tan and ochre earth, sparse vegetation except where irrigation transforms desert into farmland. Summer temperatures exceed 110Â°F for weeks; the air shimmers; shadows become precious resources. Winter brings occasional frost but rarely rainâ€”six inches annually, concentrated in brief storms. The landscape's colors are earth tones: tan soil, ochre clay, grey-brown rock where foothills begin, dark red blood-trees along watercourses. The sky dominatesâ€”enormous, pale blue fading to white at the horizon.
+*The physical environment*: Ya-Don occupies the southern Central Valley—forty thousand feet of alluvial sediment spread by the Doná River and its tributaries, rising toward Sierra Nevada foothills visible to the east. Semi-arid basin: tan and ochre earth, sparse vegetation except where irrigation transforms desert into farmland. Summer temperatures exceed 110°F for weeks; the air shimmers; shadows become precious resources. Winter brings occasional frost but rarely rain—six inches annually, concentrated in brief storms. The landscape's colors are earth tones: tan soil, ochre clay, grey-brown rock where foothills begin, dark red blood-trees along watercourses. The sky dominates—enormous, pale blue fading to white at the horizon.
 
-And the Furnaces. From any point in the city, their structures are visible: massive bronze domes bulging asymmetrically, obelisk towers rising three hundred feet with tops that glow orange-amber, a three-dimensional maze of pipes connecting everything. At night, the Furnaces create permanent artificial twilightâ€”exhaust vents and observation ports producing light that colors the sky above the city's center. Ya-Don never experiences true darkness.
+And the Furnaces. From any point in the city, their structures are visible: massive bronze domes bulging asymmetrically, obelisk towers rising three hundred feet with tops that glow orange-amber, a three-dimensional maze of pipes connecting everything. At night, the Furnaces create permanent artificial twilight—exhaust vents and observation ports producing light that colors the sky above the city's center. Ya-Don never experiences true darkness.
 
-*Industrial sublime*: The Furnaces recall Moebius's industrial landscapesâ€”structures so large and strange they overwhelm human scale while remaining functional. Or the impossible factories of science fiction illustration: Chris Foss, Syd Mead, the sense that industry has become landscape.
+*Industrial sublime*: The Furnaces recall Moebius's industrial landscapes—structures so large and strange they overwhelm human scale while remaining functional. Or the impossible factories of science fiction illustration: Chris Foss, Syd Mead, the sense that industry has become landscape.
 
-*Ottoman and Byzantine domes*: The bronze domes' curves evoke these traditions but scaled up and rendered in metal rather than stone. The obelisk towers echo minarets. The overall effect is religious architecture repurposed for industryâ€”or perhaps industry that has become religious.
+*Ottoman and Byzantine domes*: The bronze domes' curves evoke these traditions but scaled up and rendered in metal rather than stone. The obelisk towers echo minarets. The overall effect is religious architecture repurposed for industry—or perhaps industry that has become religious.
 
 *Persian/Iranian industrial-sacred fusion*: The way Isfahan's mosques integrate mathematical geometry with spiritual function. Ya-Don's Furnaces do something similar: incomprehensible processes inside beautiful shells, the bronze patinas creating patterns that workers read like sacred texts.
 
-*Rust Belt America*: The material gradient from monumental center to improvised periphery echoes Detroit, Pittsburgh, Garyâ€”industrial cores surrounded by workers' housing built from whatever was available. The adobe and scrap metal shacks at ya-Don's edges could be photographs from any declining industrial city.
+*Rust Belt America*: The material gradient from monumental center to improvised periphery echoes Detroit, Pittsburgh, Gary—industrial cores surrounded by workers' housing built from whatever was available. The adobe and scrap metal shacks at ya-Don's edges could be photographs from any declining industrial city.
 
 *Soviet industrial monumentalism*: The scale, the sense that industry is heroic, that workers serve something larger than themselves. But Soviet monuments celebrated human achievement; ya-Don's Furnaces predate humanity's current form and operate on principles no one understands.
 
@@ -603,33 +603,33 @@ And the Furnaces. From any point in the city, their structures are visible: mass
 
 Unlike the Inner City, ya-Don's Antediluvian architecture doesn't communicate. The Furnaces are industrial facilities. They weren't built to express truth or demonstrate order or address audiences who already understood. They were built to produce.
 
-The domes house production. The towers exhaust heat. The pipes carry materials. The geometry follows functional logic that current engineers cannot fully reconstruct but can recognize as functional. There are no statues, no carved reliefs, no geometric patterns encoding meaning. The bronze surfaces are plainâ€”their current patinas are weathering, not decoration.
+The domes house production. The towers exhaust heat. The pipes carry materials. The geometry follows functional logic that current engineers cannot fully reconstruct but can recognize as functional. There are no statues, no carved reliefs, no geometric patterns encoding meaning. The bronze surfaces are plain—their current patinas are weathering, not decoration.
 
 This is actually stranger than the Inner City's confident communication. The Antediluvians who built ya-Sattra assumed eternal audiences who shared eternal understanding. The Antediluvians who built ya-Don assumed... workers? Machines? Processes that didn't require communication because communication wasn't the point?
 
-The Furnaces might have been fully automated originally. The current workforceâ€”tens of thousands of specialized laborersâ€”might be a post-Interdict adaptation, humans filling roles that machines once performed. Or the original workers might have been Technical Castes whose cognition didn't require explanation, who understood the processes the way the processes understood themselves.
+The Furnaces might have been fully automated originally. The current workforce—tens of thousands of specialized laborers—might be a post-Interdict adaptation, humans filling roles that machines once performed. Or the original workers might have been Technical Castes whose cognition didn't require explanation, who understood the processes the way the processes understood themselves.
 
 Either way: the architecture doesn't explain. It just operates.
 
 **What current inhabitants say: Sacred Labor.**
 
-The silence of the architecture has been filled by theology. The Penitent Church's ya-Don variant treats industrial work as sacred practiceâ€”labor as atonement, production as prayer, the Furnaces as altar.
+The silence of the architecture has been filled by theology. The Penitent Church's ya-Don variant treats industrial work as sacred practice—labor as atonement, production as prayer, the Furnaces as altar.
 
-The Order of St. Akhmet's Furnace teaches that work sanctifies. A worker entering the Furnaces enters sacred space. The heat that blisters skin purifies soul. The danger that threatens life demonstrates commitment. The products that emergeâ€”bronze, alloys, components the Empire cannot survive withoutâ€”are offerings to something larger than individual workers or even the collective workforce.
+The Order of St. Akhmet's Furnace teaches that work sanctifies. A worker entering the Furnaces enters sacred space. The heat that blisters skin purifies soul. The danger that threatens life demonstrates commitment. The products that emerge—bronze, alloys, components the Empire cannot survive without—are offerings to something larger than individual workers or even the collective workforce.
 
-This theology emerged because it was needed. The work is brutal. Ashrat workers whose grey skin shimmers with silicate compounds, whose bodies were engineered for heat that would kill baseline humansâ€”even they suffer. The Furnaces demand, and the demand never stops. Sacred Labor provides meaning for sacrifice that would otherwise be merely suffering.
+This theology emerged because it was needed. The work is brutal. Ashrat workers whose grey skin shimmers with silicate compounds, whose bodies were engineered for heat that would kill baseline humans—even they suffer. The Furnaces demand, and the demand never stops. Sacred Labor provides meaning for sacrifice that would otherwise be merely suffering.
 
 The architecture supports this reading. The domes ARE cathedral-like. The obelisk towers DO resemble sacred structures. The orange-amber glow DOES create the sense of entering another realm. Workers didn't have to invent sacred associations; they recognized them in structures that weren't trying to communicate but happened to communicate anyway.
 
 **"The Furnaces demand."** The production schedules are relentless. Three shifts, continuous operation, the orange-amber glow never dimming because the processes never stop. The Furnaces' requirements shape the city's rhythms more than the sun does.
 
-**"We provide."** The workforce answers. Tens of thousands passing through the twelve gates at each shift change, rivers of bodies flowing toward the domes and towers and pipes. The Sacred Labor theology transforms this into religious observanceâ€”not just going to work but going to worship.
+**"We provide."** The workforce answers. Tens of thousands passing through the twelve gates at each shift change, rivers of bodies flowing toward the domes and towers and pipes. The Sacred Labor theology transforms this into religious observance—not just going to work but going to worship.
 
 **"The work continues."** The deepest message. The Furnaces have operated continuously for longer than anyone can calculate. They operated before the Interdict, through the Interdict, after the Interdict. Dynasties rise and fall; the Furnaces continue. Workers are born, labor, die; the Furnaces continue. The individual worker's contribution is infinitesimal; the collective contribution across millennia is everything.
 
 **The material gradient tells a different story.**
 
-Move outward from the Furnaces and the architecture changes. The Antediluvian bronze gives way to patchworkâ€”original structures repaired with modern materials, salvaged metal plates bolted over damaged sections. Further out, adobe risesâ€”buildings made from valley clay, mixed with straw, dried in brutal sun. At the edges, scrap metal shacks clusterâ€”corrugated panels, salvaged sheeting, improvised shelter.
+Move outward from the Furnaces and the architecture changes. The Antediluvian bronze gives way to patchwork—original structures repaired with modern materials, salvaged metal plates bolted over damaged sections. Further out, adobe rises—buildings made from valley clay, mixed with straw, dried in brutal sun. At the edges, scrap metal shacks cluster—corrugated panels, salvaged sheeting, improvised shelter.
 
 This gradient is archaeological. Each ring represents different eras, different resources, different relationships to the industrial core:
 
@@ -637,23 +637,23 @@ This gradient is archaeological. Each ring represents different eras, different 
 
 *The patchwork ring*: Early post-Interdict workers who needed housing but couldn't build in bronze. They salvaged what they could, repaired what they could reach, filled gaps with available materials. The patchwork announces: we adapted what we inherited.
 
-*The adobe ring*: Later workers who needed housing beyond the bronze and patchwork zones. They used the valley's own clayâ€”the same alluvial deposits that make the land fertile. The adobe announces: we built from what was under our feet.
+*The adobe ring*: Later workers who needed housing beyond the bronze and patchwork zones. They used the valley's own clay—the same alluvial deposits that make the land fertile. The adobe announces: we built from what was under our feet.
 
 *The scrap periphery*: The most recent arrivals, the poorest workers, those without guild protection or family housing. They assembled shelter from whatever they could scavenge. The scrap announces: we survive on margins.
 
-You can read ya-Don's history in its materials. Walk from center to edge and you walk through timeâ€”from Antediluvian certainty through adaptation through improvisation to desperation.
+You can read ya-Don's history in its materials. Walk from center to edge and you walk through time—from Antediluvian certainty through adaptation through improvisation to desperation.
 
-**The castes add colorâ€”literally.**
+**The castes add color—literally.**
 
 Ya-Don's workforce is caste-diverse in ways ya-Sattra is not. The Furnaces require bodies engineered for conditions baseline humans cannot survive:
 
 *Ashrat*: Grey skin ranging from pale ash (young workers, limited exposure) to deep charcoal (veterans with decades of furnace work). A permanent silicate shimmer from compounds their bodies sweat out, catching light like embedded dust. They dominate inner-ring operations where temperatures exceed baseline tolerance.
 
-*Karst*: Pale grey-white, the pallor of creatures that rarely see sunlight. They work the underground sectionsâ€”the Depths of St. Yerren, the tunnels that no surface map shows. Their skin marks them as belonging to darkness.
+*Karst*: Pale grey-white, the pallor of creatures that rarely see sunlight. They work the underground sections—the Depths of St. Yerren, the tunnels that no surface map shows. Their skin marks them as belonging to darkness.
 
 *Orevet*: Near-baseline skin tones but nearly black irises with hints of deep red that flash in certain lighting. Their heat-sensing vision lets them read temperature gradients invisible to others. They monitor processes that would blind baseline eyes.
 
-*Serrulata*: Tan keratin scales, often decorated with rust-orange, ochre, teal, or black geometric patterns. The scale decoration is individual expression within caste identityâ€”each worker's patterns unique, the dyes absorbed into keratin for months or years.
+*Serrulata*: Tan keratin scales, often decorated with rust-orange, ochre, teal, or black geometric patterns. The scale decoration is individual expression within caste identity—each worker's patterns unique, the dyes absorbed into keratin for months or years.
 
 The castes provide their own palette against ya-Don's earth tones. The grey shimmer of an Ashrat shift-change crowd. The pallor of Karst emerging from underground at rare surface occasions. The flash of Orevet eyes in dim corridors. The decorated scales of Serrulata workers adding color to adobe streets.
 
@@ -661,93 +661,93 @@ The castes provide their own palette against ya-Don's earth tones. The grey shim
 
 The Furnaces have a voice. Constant low-frequency hum from processes no one fully understands. The creak and groan of thermal expansion in miles of pipe. The rhythmic clank of machinery operating on schedules calibrated millennia ago. Shift whistles marking the pulse of the production day.
 
-The Mutterer choirsâ€”Technical Caste remnants whose broken cognition still produces outputs the Furnaces requireâ€”vocalize mathematical drones in deep chambers. Workers pass these chambers and hear singing in languages that haven't been spoken since before the Interdict.
+The Mutterer choirs—Technical Caste remnants whose broken cognition still produces outputs the Furnaces require—vocalize mathematical drones in deep chambers. Workers pass these chambers and hear singing in languages that haven't been spoken since before the Interdict.
 
-The ya-Don accent: flatter vowels, weighted consonants, faster pace than capital speech. Guild jargon saturates everyday languageâ€”terms for processes, positions, dangers that outsiders don't understand. The way someone says "shift" or "gate" or "section" marks them as ya-Don.
+The ya-Don accent: flatter vowels, weighted consonants, faster pace than capital speech. Guild jargon saturates everyday language—terms for processes, positions, dangers that outsiders don't understand. The way someone says "shift" or "gate" or "section" marks them as ya-Don.
 
 **Real-world parallels:**
 
-Think of Pittsburgh in its industrial primeâ€”the orange glow of furnaces coloring night skies, the three-shift rhythm, the workers whose bodies showed their labor. But Pittsburgh's workers understood their furnaces; ya-Don's workers operate mysteries.
+Think of Pittsburgh in its industrial prime—the orange glow of furnaces coloring night skies, the three-shift rhythm, the workers whose bodies showed their labor. But Pittsburgh's workers understood their furnaces; ya-Don's workers operate mysteries.
 
-Think of Soviet industrial citiesâ€”Magnitogorsk, Norilskâ€”where industry was ideology, where workers were heroes of production, where the factory was temple. But Soviet ideology was human invention; ya-Don's sacred labor emerged to explain inherited incomprehension.
+Think of Soviet industrial cities—Magnitogorsk, Norilsk—where industry was ideology, where workers were heroes of production, where the factory was temple. But Soviet ideology was human invention; ya-Don's sacred labor emerged to explain inherited incomprehension.
 
-Think of temple complexes that became industrial sitesâ€”Buddhist monasteries converted to factories in Meiji Japan, churches converted to warehouses in industrial England. Ya-Don reverses this: industrial sites that became temples, the sacred emerging from the functional.
+Think of temple complexes that became industrial sites—Buddhist monasteries converted to factories in Meiji Japan, churches converted to warehouses in industrial England. Ya-Don reverses this: industrial sites that became temples, the sacred emerging from the functional.
 
 **Generating new ya-Don details:**
 
-*Example: The morning shift-change at Gate Seven.* Four thousand workers converging as the night shift emerges. Ashrat grey-shimmer skin catching the eternal orange glow. The smell of silicate sweat and machine oil. Someone has set up a tea stall just outside credential-check range; the line forms there first, workers fortifying themselves before entering. A Mutterer choir's drone leaks from somewhere insideâ€”mathematical singing that the entering workers hear as background, as natural as the pipe-creak and furnace-hum. No one comments. The work continues.
+*Example: The morning shift-change at Gate Seven.* Four thousand workers converging as the night shift emerges. Ashrat grey-shimmer skin catching the eternal orange glow. The smell of silicate sweat and machine oil. Someone has set up a tea stall just outside credential-check range; the line forms there first, workers fortifying themselves before entering. A Mutterer choir's drone leaks from somewhere inside—mathematical singing that the entering workers hear as background, as natural as the pipe-creak and furnace-hum. No one comments. The work continues.
 
-*Example: An adobe house in the middle ring.* Three generations have lived here. The walls are two feet thickâ€”passive cooling from an era before anyone remembers. The plaster is valley clay; the color is the color of the land. Inside: furniture built from salvaged metal and local wood (expensive, imported from the foothills). A shrine to St. Akhmet in one cornerâ€”an icon showing a worker entering flame, the sacred moment of labor beginning. The family's work schedules are posted by the door; four adults, three shifts, the house never fully empty because someone is always sleeping off the last shift or preparing for the next.
+*Example: An adobe house in the middle ring.* Three generations have lived here. The walls are two feet thick—passive cooling from an era before anyone remembers. The plaster is valley clay; the color is the color of the land. Inside: furniture built from salvaged metal and local wood (expensive, imported from the foothills). A shrine to St. Akhmet in one corner—an icon showing a worker entering flame, the sacred moment of labor beginning. The family's work schedules are posted by the door; four adults, three shifts, the house never fully empty because someone is always sleeping off the last shift or preparing for the next.
 
-*Example: A patchwork repair in the Threshold district.* The original bronze dome developed a crack sometime in the last millenniumâ€”no one knows exactly when. Successive generations patched it: first with beaten copper (turning green now), then with steel plates (rusting), then with ceramic panels (one has fallen away, exposing the layers beneath). The repair is archaeological. A worker pauses sometimes to look at it, reading the history: this was bronze, then copper, then steel, then ceramic. Each material marks an era. The dome still functions. The work continues.
+*Example: A patchwork repair in the Threshold district.* The original bronze dome developed a crack sometime in the last millennium—no one knows exactly when. Successive generations patched it: first with beaten copper (turning green now), then with steel plates (rusting), then with ceramic panels (one has fallen away, exposing the layers beneath). The repair is archaeological. A worker pauses sometimes to look at it, reading the history: this was bronze, then copper, then steel, then ceramic. Each material marks an era. The dome still functions. The work continues.
 
-*Example: The Serrulata section of Ember Row.* Desert-adapted workers clustering together for cultural continuityâ€”scale decoration identifying families, patterns passed between generations. The adobe here shows Ganati influence: geometric patterns pressed into wet clay, painted in rust-orange and teal and cream. A different aesthetic than the tan monotone elsewhere. The Amber Quarterâ€”ya-Don's Ganati enclaveâ€”is nearby, and styles have mixed across generations. An elderly Serrulata woman sits outside, applying fresh dye to her granddaughter's scales, the geometric pattern matching her own but with variations that mark the younger generation.
+*Example: The Serrulata section of Ember Row.* Desert-adapted workers clustering together for cultural continuity—scale decoration identifying families, patterns passed between generations. The adobe here shows Ganati influence: geometric patterns pressed into wet clay, painted in rust-orange and teal and cream. A different aesthetic than the tan monotone elsewhere. The Amber Quarter—ya-Don's Ganati enclave—is nearby, and styles have mixed across generations. An elderly Serrulata woman sits outside, applying fresh dye to her granddaughter's scales, the geometric pattern matching her own but with variations that mark the younger generation.
 
 ---
 
-### **AsovoÃ« Intention: Endurance and Patience**
+### **Asovoë Intention: Endurance and Patience**
 
 Avouvar material culture speaks across centuries. The message is: **"We remain. We have time. We were here before you arrived; we will be here after you leave."**
 
-**Visual vocabularyâ€”the canonical comparisons:**
+**Visual vocabulary—the canonical comparisons:**
 
-*The physical environment*: AsovoÃ« occupies the southern shore of the Fraser River delta, where the river meets tidal waters. To the north, visible on clear days, the glaciers fill the horizonâ€”a wall of white marking the end of habitability. This is the furthest north outpost of human settlement; there is nothing beyond. The climate is cold and wet: persistent fog rolling off the ice sheets, rain more days than not, temperatures hovering 35-50Â°F most of the year. The harbor ices over completely for months each winter, isolating the city. The auroraâ€”charged particles interacting with the Interdictâ€”produces structured geometric light in greens, blues, magentas, violets that flash and flow through winter nights. Think frozen Vancouver at the edge of extinction, maintained by machines that don't know the world has ended.
+*The physical environment*: Asovoë occupies the southern shore of the Fraser River delta, where the river meets tidal waters. To the north, visible on clear days, the glaciers fill the horizon—a wall of white marking the end of habitability. This is the furthest north outpost of human settlement; there is nothing beyond. The climate is cold and wet: persistent fog rolling off the ice sheets, rain more days than not, temperatures hovering 35-50°F most of the year. The harbor ices over completely for months each winter, isolating the city. The aurora—charged particles interacting with the Interdict—produces structured geometric light in greens, blues, magentas, violets that flash and flow through winter nights. Think frozen Vancouver at the edge of extinction, maintained by machines that don't know the world has ended.
 
-*1980s institutional modernism*: The specific aesthetic of that decadeâ€”not quite Brutalist, not quite Postmodern. Municipal buildings, university campuses, corporate headquarters from 1978-1992. Geometric but with color. Concrete and glass with accent panels. Slightly off proportions, natural light interacting strangely with artificial surfaces. The autofactory produces in this registerâ€”functional, quality, slightly wrong for current inhabitants because calibrated for different population's needs.
+*1980s institutional modernism*: The specific aesthetic of that decade—not quite Brutalist, not quite Postmodern. Municipal buildings, university campuses, corporate headquarters from 1978-1992. Geometric but with color. Concrete and glass with accent panels. Slightly off proportions, natural light interacting strangely with artificial surfaces. The autofactory produces in this register—functional, quality, slightly wrong for current inhabitants because calibrated for different population's needs.
 
-*Vancouver specifically*: The particular West Coast modernism of that city. Glass and water. The quality of North Pacific lightâ€”grey and silver, diffuse, making colors subtle rather than saturated. The interface between city and wilderness. The sense of being on the edge of somethingâ€”the ocean, the mountains, the end of the continent. The aurora-shimmer iridescence echoes light on English Bay.
+*Vancouver specifically*: The particular West Coast modernism of that city. Glass and water. The quality of North Pacific light—grey and silver, diffuse, making colors subtle rather than saturated. The interface between city and wilderness. The sense of being on the edge of something—the ocean, the mountains, the end of the continent. The aurora-shimmer iridescence echoes light on English Bay.
 
 *Thai temple architecture*: The patience of decoration. Gold leaf on black lacquer. Elaborate ornamentation rewarding close attention across years of viewing. Detail layered at every scale. The void-black and gold that echoes Avouvar void-black bodies against pale and metallic decoration.
 
-*Mycenaean*: Cyclopean wallsâ€”massive stone blocks fitted without mortar, the construction technique lost, the walls remaining. The sense of vanished grandeur, cities built for populations that no longer exist. The Lion Gate. Mycenaean sites feel abandoned even when tourists fill themâ€”built for someone else, occupied now by inheritors who don't quite fit. AsovoÃ«'s infrastructure for millions inhabited by thousands echoes this.
+*Mycenaean*: Cyclopean walls—massive stone blocks fitted without mortar, the construction technique lost, the walls remaining. The sense of vanished grandeur, cities built for populations that no longer exist. The Lion Gate. Mycenaean sites feel abandoned even when tourists fill them—built for someone else, occupied now by inheritors who don't quite fit. Asovoë's infrastructure for millions inhabited by thousands echoes this.
 
-*Art Deco (the "futuristic past" quality)*: Ocean liners and skyscrapers built to last forever, now themselves historical. Modernity's idea of eternal modernity, now ancient. The autofactory's products have this qualityâ€”designed to be the future, now thousands of years old, still functioning, slightly off.
+*Art Deco (the "futuristic past" quality)*: Ocean liners and skyscrapers built to last forever, now themselves historical. Modernity's idea of eternal modernity, now ancient. The autofactory's products have this quality—designed to be the future, now thousands of years old, still functioning, slightly off.
 
-The Aesthetics document describes AsovoÃ«'s distinctive appearance:
+The Aesthetics document describes Asovoë's distinctive appearance:
 
 *The materials*: Dark concrete (nearly indestructible, smooth, absorbing light) and shining black alloy (reflective, scattering aurora colors into fragments). The combination creates "dark masses punctuated by gleaming highlights, absorbing and scattering light simultaneously."
 
 *The aurora*: Not diffuse like baseline auroras but structured, geometric, following invisible force lines. Greens, blues, magentas, violets flashing and flowing. "The Avouvar have watched it for ten thousand years. It shapes their clothing, their banners, their art, their conception of beauty itself."
 
-*Wrong proportions*: Architecture built for every Imperial casteâ€”none of them Avouvar. Highborn corridors fifteen feet wide and thirty feet high. Doors twelve feet tall. Stairs six inches high and three feet deep (for legs that moved differently). Warborn barracks for half-ton soldiers. Technical Caste geometries that baseline cognition finds disorienting. "Ten thousand years of adaptation and the architecture remains Highborn, Warborn, Technical Casteâ€”built for beings who are gone."
+*Wrong proportions*: Architecture built for every Imperial caste—none of them Avouvar. Highborn corridors fifteen feet wide and thirty feet high. Doors twelve feet tall. Stairs six inches high and three feet deep (for legs that moved differently). Warborn barracks for half-ton soldiers. Technical Caste geometries that baseline cognition finds disorienting. "Ten thousand years of adaptation and the architecture remains Highborn, Warborn, Technical Caste—built for beings who are gone."
 
-*Aurora dress*: "Against absolute darkness, clothing becomes transcendent." Dozens of long scarves in aurora shadesâ€”deep blues, electric greens, magentas shifting toward violet, colors unnamed in other languages. The scarves wrap and braid into architectural form, house affiliations encoded in which colors touch, which cross over, which trail longest. "Color floating on darkness."
+*Aurora dress*: "Against absolute darkness, clothing becomes transcendent." Dozens of long scarves in aurora shades—deep blues, electric greens, magentas shifting toward violet, colors unnamed in other languages. The scarves wrap and braid into architectural form, house affiliations encoded in which colors touch, which cross over, which trail longest. "Color floating on darkness."
 
-*Maintained emptiness*: The autofactory maintains streets for absent millions, lighting empty districts, operating infrastructure at capacity for populations that never returned. Precincts announce themselves against this darkness with spotlights and aurora-colored bannersâ€”"islands of activity in an ocean of empty grandeur."
+*Maintained emptiness*: The autofactory maintains streets for absent millions, lighting empty districts, operating infrastructure at capacity for populations that never returned. Precincts announce themselves against this darkness with spotlights and aurora-colored banners—"islands of activity in an ocean of empty grandeur."
 
-The palette: city as void (black concrete, black alloy, grey fog, grey overcast, white glaciers on the horizon), people as aurora (deep blues, electric greens, magentas, violetsâ€”colors with names only in Avouvar language). The Avouvar bodies absorb light completely; their clothing carries it.
+The palette: city as void (black concrete, black alloy, grey fog, grey overcast, white glaciers on the horizon), people as aurora (deep blues, electric greens, magentas, violets—colors with names only in Avouvar language). The Avouvar bodies absorb light completely; their clothing carries it.
 
 **They do not build. They modify.**
 
-This is the crucial difference from every other culture. The Empire builds in intersticesâ€”stone and brick between bronze columns. Ganat carvesâ€”subtracting from geology. The Thousand Kingdoms constructsâ€”timber frames, mobile tents. The Avouvar do none of this.
+This is the crucial difference from every other culture. The Empire builds in interstices—stone and brick between bronze columns. Ganat carves—subtracting from geology. The Thousand Kingdoms constructs—timber frames, mobile tents. The Avouvar do none of this.
 
 The autofactory maintains the city perfectly. Streets are cleaned. Lights function. Infrastructure operates at capacity for absent millions. The Avouvar don't need to build because everything is already built and will continue to be maintained forever. Their "construction" is modification: adapting spaces designed for other bodies, creating usable zones within wrong-proportioned architecture.
 
-*Platforms built on furniture* creating surfaces at accessible heights in Highborn spaces with forty-foot ceilings. *Fabric screens* partitioning vast chambers into human-scaled spaces. *Walkways* bridging stairs designed for longer legs, assembled from autofactory structural elements. These modifications accumulate across centuriesâ€”three or four Avouvar inhabiting rooms designed for single Highborn, each generation refining the adaptations.
+*Platforms built on furniture* creating surfaces at accessible heights in Highborn spaces with forty-foot ceilings. *Fabric screens* partitioning vast chambers into human-scaled spaces. *Walkways* bridging stairs designed for longer legs, assembled from autofactory structural elements. These modifications accumulate across centuries—three or four Avouvar inhabiting rooms designed for single Highborn, each generation refining the adaptations.
 
 **Hobbyist craftsmanship given centuries of attention.**
 
-An Avouvar craftsperson might spend sixty years perfecting a single technique. A screen-maker might produce three hundred screens across a four-hundred-year life, each one incrementally better than the last, the final screens representing mastery impossible for shorter-lived populations to achieve. The quality isn't industrial or professional in the short-lived senseâ€”it's what happens when someone practices the same craft for longer than most civilizations last.
+An Avouvar craftsperson might spend sixty years perfecting a single technique. A screen-maker might produce three hundred screens across a four-hundred-year life, each one incrementally better than the last, the final screens representing mastery impossible for shorter-lived populations to achieve. The quality isn't industrial or professional in the short-lived sense—it's what happens when someone practices the same craft for longer than most civilizations last.
 
 **The autofactory's mysterious bounty.**
 
-The materials aren't natural. Wood is almost unknownâ€”where would it come from? The glaciers are ten miles north; the growing season is weeks long; timber would have to be imported from a thousand miles south. Natural fiber, natural dye, natural anythingâ€”these are exotic luxuries, not baseline materials.
+The materials aren't natural. Wood is almost unknown—where would it come from? The glaciers are ten miles north; the growing season is weeks long; timber would have to be imported from a thousand miles south. Natural fiber, natural dye, natural anything—these are exotic luxuries, not baseline materials.
 
 Instead: the autofactory produces. It produces constantly, maintaining output levels calibrated for millions. The Avouvar receive this bounty without understanding it. Bolts of synthetic fabric in colors that have no names. Sheets of material that might be meant for insulation or decoration or something else entirely. Ceramic forms whose original purpose is unclear. Metal fittings that don't fit anything the Avouvar use. The autofactory doesn't label. It doesn't explain. It just produces.
 
-*Fabric* that the autofactory extrudes in endless boltsâ€”strong, takes dye beautifully, drapes in ways natural silk doesn't. What was it for? Filtration membranes? Protective equipment? Decorative material for the Highborn? The Avouvar cut it into scarves and wrap themselves in aurora colors.
+*Fabric* that the autofactory extrudes in endless bolts—strong, takes dye beautifully, drapes in ways natural silk doesn't. What was it for? Filtration membranes? Protective equipment? Decorative material for the Highborn? The Avouvar cut it into scarves and wrap themselves in aurora colors.
 
-*Ceramic elements* produced in geometric formsâ€”hexagons, octagons, complex polyhedra. Meant as structural components? Thermal regulators? Acoustic treatment? The Avouvar arrange them into decorative patterns, spending decades learning which combinations please the eye across centuries of viewing.
+*Ceramic elements* produced in geometric forms—hexagons, octagons, complex polyhedra. Meant as structural components? Thermal regulators? Acoustic treatment? The Avouvar arrange them into decorative patterns, spending decades learning which combinations please the eye across centuries of viewing.
 
 *Metal wire* in gauges from hair-thin to finger-thick, in alloys that don't corrode. Meant for what circuits? What structural reinforcement? The Avouvar braid it into jewelry, into furniture joints, into the bindings that hold their platform-adaptations together.
 
-*Pigments* that appear in the autofactory's chemical outputâ€”concentrated colors in forms meant for industrial processes. The Avouvar dilute them, experiment with them, develop dye techniques across generations. A family might spend two hundred years learning what one pigment does when applied to one fabric type in different concentrations.
+*Pigments* that appear in the autofactory's chemical output—concentrated colors in forms meant for industrial processes. The Avouvar dilute them, experiment with them, develop dye techniques across generations. A family might spend two hundred years learning what one pigment does when applied to one fabric type in different concentrations.
 
 The craft is figuring out what these mysterious products are good for. The autofactory provides; the Avouvar discover uses. A craftsperson's expertise includes knowing which autofactory outputs combine well, which ones age gracefully, which ones reward attention across decades. This knowledge accumulates across lifetimes and is passed between generations as carefully as any trade secret.
 
-Natural materialsâ€”when they appearâ€”are precious imports. Actual silk from the south. Actual wood from the Thousand Kingdoms trade. These are luxuries that announce wealth and connection to the outside world. Most Avouvar have never touched natural fiber. They don't miss it; the autofactory's bounty is all they've known.
+Natural materials—when they appear—are precious imports. Actual silk from the south. Actual wood from the Thousand Kingdoms trade. These are luxuries that announce wealth and connection to the outside world. Most Avouvar have never touched natural fiber. They don't miss it; the autofactory's bounty is all they've known.
 
-*Decorative elements* that reward the time the Avouvar have to view them. Subtle variations in surface texture visible only after decades of looking. Patterns that shift meaning as you understand them better across centuries. The ornamentation isn't bold because it doesn't need to beâ€”there's time to notice everything.
+*Decorative elements* that reward the time the Avouvar have to view them. Subtle variations in surface texture visible only after decades of looking. Patterns that shift meaning as you understand them better across centuries. The ornamentation isn't bold because it doesn't need to be—there's time to notice everything.
 
 **"We remain."** The infrastructure for millions maintained by thousands says: "Others left or died. We're still here. The contamination that kills you is home to us."
 
@@ -757,33 +757,33 @@ Natural materialsâ€”when they appearâ€”are precious imports. Actual si
 
 **"The interface is accommodation."** Trade precincts say: "We've made room for you, temporarily, in conditions you can tolerate. This is hospitality for guests who will leave."
 
-**"We remember."** Centuries of memory. The architecture holds memory the way the Thousand Kingdoms holds testimonyâ€”but at scales that dwarf individual witness.
+**"We remember."** Centuries of memory. The architecture holds memory the way the Thousand Kingdoms holds testimony—but at scales that dwarf individual witness.
 
-**The distinctive AsovoÃ« relationship to materials:**
+**The distinctive Asovoë relationship to materials:**
 
-Unlike every other culture, the Avouvar do not build new. The autofactory maintains everythingâ€”streets cleaned, lights functioning, infrastructure operating at capacity for millions. There is no need to construct. The city was built for populations that no longer exist, and it continues being maintained for them.
+Unlike every other culture, the Avouvar do not build new. The autofactory maintains everything—streets cleaned, lights functioning, infrastructure operating at capacity for millions. There is no need to construct. The city was built for populations that no longer exist, and it continues being maintained for them.
 
 What the Avouvar do is *modify*. And they modify with what amounts to hobbyist craftsmanship given several lifetimes' attention.
 
-*Fabric screens partitioning vast chambers.* A Highborn reception hall forty feet tall becomes three or four Avouvar-scaled spaces through panels hung from inherited fixtures. The panels are gorgeousâ€”centuries of refinement, autofactory dyes tested and rejected over decades, layering techniques perfected across generations. But they're not architecture. They're interior decoration by people with four hundred years to get the color exactly right.
+*Fabric screens partitioning vast chambers.* A Highborn reception hall forty feet tall becomes three or four Avouvar-scaled spaces through panels hung from inherited fixtures. The panels are gorgeous—centuries of refinement, autofactory dyes tested and rejected over decades, layering techniques perfected across generations. But they're not architecture. They're interior decoration by people with four hundred years to get the color exactly right.
 
-*Platforms built on furniture.* Highborn tables become Avouvar floors. Chairs become platforms. The modifications are clever, elegant, refinedâ€”and also clearly the work of individuals solving personal problems rather than builders constructing for populations. Someone figured out that if you stack these particular pieces just so, you get a usable surface at the right height. And then they spent fifty years making that stack beautiful.
+*Platforms built on furniture.* Highborn tables become Avouvar floors. Chairs become platforms. The modifications are clever, elegant, refined—and also clearly the work of individuals solving personal problems rather than builders constructing for populations. Someone figured out that if you stack these particular pieces just so, you get a usable surface at the right height. And then they spent fifty years making that stack beautiful.
 
 *Accumulated small modifications.* A door handle repositioned for shorter reach. A step built to bridge an awkward threshold. Light fixtures redirected to illuminate spaces the original design left dark. Each modification is small. But there are centuries of them, layered, each one refined by the next occupant, until the space is thoroughly adapted without ever having been rebuilt.
 
-*Hobbyist craftsmanship at civilizational scale.* An Avouvar who spends sixty years perfecting a single textile isn't a professional weaverâ€”they have other roles, other responsibilities. But they have time. The textile is a hobby, attended to between other activities, refined over decades the way a human hobbyist might spend weekends on a project. The result is professional quality because amateur attention at that duration produces professional results.
+*Hobbyist craftsmanship at civilizational scale.* An Avouvar who spends sixty years perfecting a single textile isn't a professional weaver—they have other roles, other responsibilities. But they have time. The textile is a hobby, attended to between other activities, refined over decades the way a human hobbyist might spend weekends on a project. The result is professional quality because amateur attention at that duration produces professional results.
 
-This means AsovoÃ« material culture has a distinctive quality: *extremely refined small-scale work in spaces that remain fundamentally wrong*. The screen is exquisite, made from autofactory fabric whose original purpose is forgotten. The chamber it partitions still has a forty-foot ceiling designed for nine-foot Highborn. The platform is elegant. The room it occupies still has doors twelve feet tall. The adaptation never transforms the inheritanceâ€”it just makes the inheritance more livable, more beautiful, more personal, without ever making it right.
+This means Asovoë material culture has a distinctive quality: *extremely refined small-scale work in spaces that remain fundamentally wrong*. The screen is exquisite, made from autofactory fabric whose original purpose is forgotten. The chamber it partitions still has a forty-foot ceiling designed for nine-foot Highborn. The platform is elegant. The room it occupies still has doors twelve feet tall. The adaptation never transforms the inheritance—it just makes the inheritance more livable, more beautiful, more personal, without ever making it right.
 
 The contrast with other cultures:
 
-*Empire*: Builds in intersticesâ€”new construction between ancient columns, workshops in collapsed arcologies. The interstitial construction is real construction, just constrained.
+*Empire*: Builds in interstices—new construction between ancient columns, workshops in collapsed arcologies. The interstitial construction is real construction, just constrained.
 
-*Ganat*: Carves new spaces from geology. Builds new infrastructureâ€”the Dam, the turbines, the electric grid. The inherited canyon is substrate for new creation.
+*Ganat*: Carves new spaces from geology. Builds new infrastructure—the Dam, the turbines, the electric grid. The inherited canyon is substrate for new creation.
 
 *Thousand Kingdoms*: Builds new timber structures within autofactory shells. The careful joinery is construction, not modification. Mobile populations build fresh each camp.
 
-*AsovoÃ«*: Modifies what the autofactory maintains. Doesn't build because building isn't necessaryâ€”the city works. What they add is refinement, personalization, accumulated attention. The city is a finished canvas that they're not painting on so much as annotating in margins.
+*Asovoë*: Modifies what the autofactory maintains. Doesn't build because building isn't necessary—the city works. What they add is refinement, personalization, accumulated attention. The city is a finished canvas that they're not painting on so much as annotating in margins.
 
 **Specific examples from established lore:**
 
@@ -791,21 +791,21 @@ The contrast with other cultures:
 
 *Hot zone austerity.* What point is visual novelty when you'll look at the same wall for four hundred years? Better to make something you won't tire of. The simplicity is sophistication we can't access.
 
-*Cool zone variation.* Lower contamination means shorter lifespansâ€”only one or two centuries. More decorative variation because viewers have less time. Decoration scales with mortality.
+*Cool zone variation.* Lower contamination means shorter lifespans—only one or two centuries. More decorative variation because viewers have less time. Decoration scales with mortality.
 
-**Generating new AsovoÃ« details:**
+**Generating new Asovoë details:**
 
 *Example: A wall in a hot-zone residence.* To a visitor: blank, unremarkable. To the resident who has lived there for three centuries: a chronicle. The slight discoloration from the wet century. The texture change from refinishing after the trade war. The almost-invisible repair from when a visitor (now two hundred years dead) damaged the surface. The wall is dense with memory. Come back in fifty years and maybe you'll notice the discoloration.
 
-*Example: A master screen-maker's workshop.* She has been making screens for two hundred and forty years, using a fabric the autofactory produces in industrial quantitiesâ€”originally meant for something no one remembers. Her early work embarrasses her with its crudity; she hadn't yet understood how the material ages, how it takes dye differently after a decade, how the weave tightens imperceptibly across centuries. Her current technique involves layering the material in ways that create patterns only visible after twenty years of looking, the layers settling and shifting as the screen ages. A short-lived trader sees a plain screen. The household that commissioned it will spend the next century discovering what they purchased.
+*Example: A master screen-maker's workshop.* She has been making screens for two hundred and forty years, using a fabric the autofactory produces in industrial quantities—originally meant for something no one remembers. Her early work embarrasses her with its crudity; she hadn't yet understood how the material ages, how it takes dye differently after a decade, how the weave tightens imperceptibly across centuries. Her current technique involves layering the material in ways that create patterns only visible after twenty years of looking, the layers settling and shifting as the screen ages. A short-lived trader sees a plain screen. The household that commissioned it will spend the next century discovering what they purchased.
 
-*Example: A platform in a Highborn chamber.* Built eighty years ago by a craftsperson who specialized in adapting Highborn spaces. The platform sits on furnitureâ€”ancient chairs repurposed as structural elementsâ€”creating a usable surface twelve feet below the original ceiling. The stairs are Avouvar-scaled, assembled from autofactory structural components meant for purposes unknown; the railings are braided metal wire in a pattern this craftsperson's family has refined across six generations. The platform has been modified by three subsequent owners, each adding refinements. It still doesn't feel like it belongs there. It never will.
+*Example: A platform in a Highborn chamber.* Built eighty years ago by a craftsperson who specialized in adapting Highborn spaces. The platform sits on furniture—ancient chairs repurposed as structural elements—creating a usable surface twelve feet below the original ceiling. The stairs are Avouvar-scaled, assembled from autofactory structural components meant for purposes unknown; the railings are braided metal wire in a pattern this craftsperson's family has refined across six generations. The platform has been modified by three subsequent owners, each adding refinements. It still doesn't feel like it belongs there. It never will.
 
-*Example: Trade-precinct decoration.* Bolder than deep precinctsâ€”geometric patterns in contrasting colors. Accommodation to short attention spans. Avouvar traders find it garish, tiring. The decoration is hospitality to the impatient.
+*Example: Trade-precinct decoration.* Bolder than deep precincts—geometric patterns in contrasting colors. Accommodation to short attention spans. Avouvar traders find it garish, tiring. The decoration is hospitality to the impatient.
 
 *Example: A four-hundred-year boundary dispute.* Two precincts claim the same corridor. Maintenance from one end, maintenance from the other, meeting in the middle. An outsider sees a corridor. An Avouvar sees four centuries of negotiation frozen into surfaces.
 
-*Example: An elder's receiving room.* Austere to visitors. But the furniture creates sight-lines that only reward attention across decades. The elder is offering hospitality at her scaleâ€”a room designed to be interesting for centuries. The trader can't see the gift. The elder doesn't explain; explanation would take longer than the trader has.
+*Example: An elder's receiving room.* Austere to visitors. But the furniture creates sight-lines that only reward attention across decades. The elder is offering hospitality at her scale—a room designed to be interesting for centuries. The trader can't see the gift. The elder doesn't explain; explanation would take longer than the trader has.
 
 ---
 
@@ -817,37 +817,37 @@ What were the builders trying to express? This is often irrecoverable, but categ
 
 Pre-Interdict builders had purposes we cannot reconstruct. The geometry might encode information in languages we don't speak. The scale might have served functions for populations that no longer exist. The proportions might have been optimized for bodies shaped differently than ours.
 
-**What to do with irrecoverable intention**: Don't invent false explanations. The mystery is the point. Characters can speculate, but speculation should contradict across sources. The statues in Sub-Plaza 7 are unidentifiedâ€”not "represent ancient rulers" or "depict forgotten gods." Nobody knows. The geometric patterns on every bronze surface might be decorative, might be encoding, might be manufacturing artifact. Treat irrecoverable intention as genuinely lost, not as hidden lore to be revealed.
+**What to do with irrecoverable intention**: Don't invent false explanations. The mystery is the point. Characters can speculate, but speculation should contradict across sources. The statues in Sub-Plaza 7 are unidentified—not "represent ancient rulers" or "depict forgotten gods." Nobody knows. The geometric patterns on every bronze surface might be decorative, might be encoding, might be manufacturing artifact. Treat irrecoverable intention as genuinely lost, not as hidden lore to be revealed.
 
 ### **Administrative Intention**
 
 Bureaus build to sort, process, and control. The architecture expresses jurisdiction. Credential checkpoints mark boundaries. Waiting spaces accommodate queues. Filing systems require physical form. The intention is legible: this space processes population.
 
-Administrative architecture accumulates modifications as jurisdictions shift. A space built for one Bureau, transferred to another, shows palimpsest intentionâ€”the original sorting logic overlaid with new categories.
+Administrative architecture accumulates modifications as jurisdictions shift. A space built for one Bureau, transferred to another, shows palimpsest intention—the original sorting logic overlaid with new categories.
 
 ### **Sacred Intention**
 
-Religious construction expresses theology. Penitent churches express collective guilt and the possibility of atonement. Oracle shrines express the hope of guidance from incomprehensible sources. Sacred-labor architecture in ya-Don expresses that work itself is devotionâ€”the Furnace and the altar share space because they serve the same purpose.
+Religious construction expresses theology. Penitent churches express collective guilt and the possibility of atonement. Oracle shrines express the hope of guidance from incomprehensible sources. Sacred-labor architecture in ya-Don expresses that work itself is devotion—the Furnace and the altar share space because they serve the same purpose.
 
 Sacred intention is often the most durable. Administrative jurisdictions shift; theology persists. A building's sacred meaning may outlast its administrative meaning by centuries.
 
 ### **Commemorative Intention**
 
-Monuments express "this happened" or "this person mattered." The intention is to fix memory. But memory changes. A statue of a Sultanate-era figure in Ganat gets re-carved into a revolutionary sceneâ€”the commemorative intention persists (this space marks significance) while the content inverts.
+Monuments express "this happened" or "this person mattered." The intention is to fix memory. But memory changes. A statue of a Sultanate-era figure in Ganat gets re-carved into a revolutionary scene—the commemorative intention persists (this space marks significance) while the content inverts.
 
 Commemorative intention is vulnerable to political change. What was celebrated becomes what must be erased. The re-carving is 2-3 inches deeper because the old meaning had to be physically removed before the new meaning could be installed.
 
 ### **Defensive Intention**
 
-Fortification expresses threat. Walls, gates, chokepointsâ€”the architecture says "we expect attack." The scale of defense announces the scale of expected threat. Over-built fortifications express paranoia or past trauma. Neglected fortifications express confidence or exhaustion.
+Fortification expresses threat. Walls, gates, chokepoints—the architecture says "we expect attack." The scale of defense announces the scale of expected threat. Over-built fortifications express paranoia or past trauma. Neglected fortifications express confidence or exhaustion.
 
-Defensive intention becomes ironic when threats change. The Middens' flooded lower levels were probably defensive originallyâ€”controlling access through limited entry points. Now flooding is just the condition of poverty.
+Defensive intention becomes ironic when threats change. The Middens' flooded lower levels were probably defensive originally—controlling access through limited entry points. Now flooding is just the condition of poverty.
 
 ### **Domestic Intention**
 
-Homes express "people live here." The intention is shelter, comfort, privacy, family. Domestic architecture is often the least ideologically explicitâ€”people need to sleep regardless of politics. But domestic intention is shaped by everything else: material constraints, energy economy, ideology about family structure.
+Homes express "people live here." The intention is shelter, comfort, privacy, family. Domestic architecture is often the least ideologically explicit—people need to sleep regardless of politics. But domestic intention is shaped by everything else: material constraints, energy economy, ideology about family structure.
 
-Domestic intention is most visible in the interstitial spacesâ€”the construction that happens without grand plans, shaped by immediate needs.
+Domestic intention is most visible in the interstitial spaces—the construction that happens without grand plans, shaped by immediate needs.
 
 ---
 
@@ -857,9 +857,9 @@ What does it mean now? Original intention may be lost, preserved, inverted, or a
 
 ### **Lost Meaning**
 
-The Keloreth Block was something before it was housing. Nobody knows what. The proportions are wrong for domestic useâ€”ceiling heights vary strangely, alcoves serve no obvious function. The original meaning is gone. Current residents don't wonder about it; the wrongness is just how their home is shaped.
+The Keloreth Block was something before it was housing. Nobody knows what. The proportions are wrong for domestic use—ceiling heights vary strangely, alcoves serve no obvious function. The original meaning is gone. Current residents don't wonder about it; the wrongness is just how their home is shaped.
 
-**Lost meaning produces**: spaces that don't quite fit their use, proportions optimized for forgotten purposes, features maintained without understanding (the five-foot gap between buildings and columnsâ€”no one knows why, everyone observes it).
+**Lost meaning produces**: spaces that don't quite fit their use, proportions optimized for forgotten purposes, features maintained without understanding (the five-foot gap between buildings and columns—no one knows why, everyone observes it).
 
 ### **Preserved Meaning**
 
@@ -869,13 +869,13 @@ Some meanings persist across millennia. The Black Door means what it has always 
 
 ### **Inverted Meaning**
 
-Revolutionary re-carving is explicit inversion. The panel showed tribute flowing to the Sultana; now it shows collective decision-making. The form (carved decorative panel) persists; the content reverses. The deeper carving is visible evidence of the inversionâ€”you can see where the old meaning was chiseled away.
+Revolutionary re-carving is explicit inversion. The panel showed tribute flowing to the Sultana; now it shows collective decision-making. The form (carved decorative panel) persists; the content reverses. The deeper carving is visible evidence of the inversion—you can see where the old meaning was chiseled away.
 
 **Inverted meaning produces**: palimpsest surfaces, visible depth differences, forms that persist while content changes. The Senate chamber in Ganat occupies space that once housed monarchy; the acoustics are inherited, the imagery is replaced.
 
 ### **Accumulated Meaning**
 
-Wear patterns are meaning deposited through use. The bronze smooths where hands have touched for a thousand years. Paths polish into floors where feet have walked the same routes. This meaning was never intendedâ€”it accrued through repetition.
+Wear patterns are meaning deposited through use. The bronze smooths where hands have touched for a thousand years. Paths polish into floors where feet have walked the same routes. This meaning was never intended—it accrued through repetition.
 
 **Accumulated meaning produces**: legible use patterns, paths that announce circulation, surfaces that record touch. A worn geometric pattern tells you where people stand, lean, wait. The wearing is the meaning.
 
@@ -887,7 +887,7 @@ The same structure means different things to different viewers. An Aureate estat
 
 ### **Projected Meaning**
 
-Viewers project meaning onto structures that may never have had it. The statues in Sub-Plaza 7 become "guardians" or "ancestors" or "gods" in popular imaginationâ€”stories accrete around mystery. The projected meaning may be more powerful than any original intention because it's actively maintained by current believers.
+Viewers project meaning onto structures that may never have had it. The statues in Sub-Plaza 7 become "guardians" or "ancestors" or "gods" in popular imagination—stories accrete around mystery. The projected meaning may be more powerful than any original intention because it's actively maintained by current believers.
 
 **Projected meaning produces**: folk explanations, ritual practices attached to features, stories that explain what documentation doesn't record. The projection is real even when the origin is invented.
 
@@ -895,11 +895,11 @@ Viewers project meaning onto structures that may never have had it. The statues 
 
 ## **Interstitial Construction**
 
-What gets built in the spaces between the old structures? This is where living intention is legibleâ€”the inherited architecture expresses irrecoverable intention, but the interstitial construction expresses current meaning.
+What gets built in the spaces between the old structures? This is where living intention is legible—the inherited architecture expresses irrecoverable intention, but the interstitial construction expresses current meaning.
 
 ### **Between the Monuments**
 
-The ancient columns fill the Fourth Whorl. Buildings crowd between them but never touchâ€”the five-foot gap is maintained. What fills that gap?
+The ancient columns fill the Fourth Whorl. Buildings crowd between them but never touch—the five-foot gap is maintained. What fills that gap?
 
 Stalls. Vendors set up in the clearance zones, technically occupying space no one owns. The gap is maintained *around* the column but *used* for commerce. Awnings stretch from buildings toward columns without touching. The interstitial space is where informal economy happens.
 
@@ -907,7 +907,7 @@ Stalls. Vendors set up in the clearance zones, technically occupying space no on
 
 ### **Markets as Colonization**
 
-The Terrace market isn't a buildingâ€”it's a section of the Fourth Whorl where stalls accumulate. No one designed it. Commerce colonized circulation. The architecture provides no dedicated commercial space; commercial space emerges from use.
+The Terrace market isn't a building—it's a section of the Fourth Whorl where stalls accumulate. No one designed it. Commerce colonized circulation. The architecture provides no dedicated commercial space; commercial space emerges from use.
 
 **Principle**: Where formal architecture doesn't provide for an activity, informal architecture grows to fill the need. Markets form at junctions, in clearances, wherever foot traffic concentrates.
 
@@ -923,7 +923,7 @@ The warrens express current intention clearly: workers solving their own problem
 
 The Ridge occupies a collapsed arcology. The ruins have been adapted into workshops. Three infrastructure families control water, power, and information by controlling the functioning fragments of pre-Interdict systems.
 
-This is interstitial construction in failureâ€”building new meaning in the gaps left by collapse. The original intention is irrecoverable (what was this arcology for?). The current meaning is practical: this is where you get archaeotech reconditioned, where the Galen family sells information, where the patent economy partially fails.
+This is interstitial construction in failure—building new meaning in the gaps left by collapse. The original intention is irrecoverable (what was this arcology for?). The current meaning is practical: this is where you get archaeotech reconditioned, where the Galen family sells information, where the patent economy partially fails.
 
 **Principle**: Collapsed or failing infrastructure creates opportunity for interstitial construction. New power structures form around control of surviving fragments. The informal fills the gaps in the formal.
 
@@ -931,13 +931,13 @@ This is interstitial construction in failureâ€”building new meaning in the 
 
 Hanged Men territory in the Middens expresses criminal intention: control of population through infrastructure. The Valvehands maintain water systems; tribute follows water access. The architecture of criminal power is the architecture of essential services.
 
-But this is interstitialâ€”the Middens exist because the formal economy failed. The seven tenements rise from flooded foundations. The architecture expresses adaptation to conditions the Empire can't officially acknowledge.
+But this is interstitial—the Middens exist because the formal economy failed. The seven tenements rise from flooded foundations. The architecture expresses adaptation to conditions the Empire can't officially acknowledge.
 
-**Principle**: Where formal institutions fail, informal institutions build their own architecture. Criminal organizations, mutual aid societies, unofficial governanceâ€”all produce spatial patterns that express their logic.
+**Principle**: Where formal institutions fail, informal institutions build their own architecture. Criminal organizations, mutual aid societies, unofficial governance—all produce spatial patterns that express their logic.
 
 ### **Tent Camps as Interstitial**
 
-Thousand Kingdoms camps are entirely interstitialâ€”temporary architecture in the spaces between permanent settlements. The camp exists in the gap between autofactory cities, between trade posts, between fortified positions.
+Thousand Kingdoms camps are entirely interstitial—temporary architecture in the spaces between permanent settlements. The camp exists in the gap between autofactory cities, between trade posts, between fortified positions.
 
 The camp's layout expresses hierarchy (khan's tent at center, subordinates arranged by rank). This is current intention, legible, not inherited from unknown builders. Mobile populations build meaning fresh each time they make camp.
 
@@ -945,9 +945,9 @@ The camp's layout expresses hierarchy (khan's tent at center, subordinates arran
 
 ### **The Space Between Precincts**
 
-AsovoÃ«'s seventeen precincts divide the city. What happens at the boundaries? Trade zones. Interface spaces. Areas where precinct politics are negotiated rather than enforced.
+Asovoë's seventeen precincts divide the city. What happens at the boundaries? Trade zones. Interface spaces. Areas where precinct politics are negotiated rather than enforced.
 
-The spaces between precincts aren't emptyâ€”they're where hybridity occurs. Goods move across boundaries. Populations mix. The interstitial space is the most dynamic precisely because it's not fully controlled by either neighbor.
+The spaces between precincts aren't empty—they're where hybridity occurs. Goods move across boundaries. Populations mix. The interstitial space is the most dynamic precisely because it's not fully controlled by either neighbor.
 
 **Principle**: Boundaries between controlled territories produce dynamic interstitial zones. The edge is where change happens.
 
@@ -963,7 +963,7 @@ Architecture emerges from the interaction of conditions, activities, intentions,
 
 **Activities** (what fills time) determine what gets worn, maintained, gathered around.
 
-**Time horizon** determines decoration logicâ€”bold or subtle, perishable or millennial.
+**Time horizon** determines decoration logic—bold or subtle, perishable or millennial.
 
 **Original intention** (irrecoverable, administrative, sacred, commemorative, defensive, domestic) shapes inherited forms.
 
@@ -971,7 +971,7 @@ Architecture emerges from the interaction of conditions, activities, intentions,
 
 **Interstitial construction** (between monuments, markets as colonization, carved expansion, adaptation of failure, informal economy, mobile camps, boundary zones) expresses living intention in the gaps.
 
-The grammar is: **(Conditions Ãƒâ€” Competition Ãƒâ€” Activities Ãƒâ€” Time) filtered through (Intention â†’ Meaning) plus Interstitial Growth â†’ Architecture**
+The grammar is: **(Conditions × Competition × Activities × Time) filtered through (Intention → Meaning) plus Interstitial Growth → Architecture**
 
 "Cultures" are common combinations. The grammar generates infinite variations. But meaning is always layered: what builders intended, what users understand, what grows in the gaps between.
 
@@ -981,9 +981,9 @@ The grammar is: **(Conditions Ãƒâ€” Competition Ãƒâ€” Activities �
 
 This document covers the objects people own, carry, use, and inherit across the Post-Interdict Empire. Where the Aesthetics document addresses architecture, color palettes, and environmental description, this document addresses the portable and domestic: what a clerk keeps in his satchel, what a furnace worker's family owns, how a wealthy factor's dining table differs from a dock worker's, what objects get repaired versus replaced, and how economic position becomes visible through accumulated things.
 
-The document also covers regional variation in material culture (AsovoÃ«'s autofactory bounty, ya-Tsatsa's monochrome restraint, ya-Don's industrial practicality) and the distinctive category of archaeotechâ€”pre-Interdict technology that can be operated but not understood or replicated.
+The document also covers regional variation in material culture (Asovoë's autofactory bounty, ya-Tsatsa's monochrome restraint, ya-Don's industrial practicality) and the distinctive category of archaeotech—pre-Interdict technology that can be operated but not understood or replicated.
 
-The organizing principle: objects tell stories. A copper kettle dented and hammered straight announces decades of use. A Bureau robe purchased secondhand reveals its previous owner's rank in the ghost of removed embroidery. A family's single luxuryâ€”perhaps a ceramic tea set, perhaps a good knifeâ€”shows where scarce resources concentrated. An archaeotech lector shows its repair history in improvised components from different eras. Reading these stories is essential for writing characters who inhabit economic reality rather than floating above it.
+The organizing principle: objects tell stories. A copper kettle dented and hammered straight announces decades of use. A Bureau robe purchased secondhand reveals its previous owner's rank in the ghost of removed embroidery. A family's single luxury—perhaps a ceramic tea set, perhaps a good knife—shows where scarce resources concentrated. An archaeotech lector shows its repair history in improvised components from different eras. Reading these stories is essential for writing characters who inhabit economic reality rather than floating above it.
 
 \---
 
@@ -991,9 +991,9 @@ The organizing principle: objects tell stories. A copper kettle dented and hamme
 
 \#\#\# Objects as Economic Biography
 
-Every object a person owns arrived through some combination of purchase, inheritance, gift, barter, theft, or making. Each object persists through maintenance or degrades through neglect. The sum of a person's possessions constitutes an economic biographyâ€”not a statement of current income but a record of resources across time.
+Every object a person owns arrived through some combination of purchase, inheritance, gift, barter, theft, or making. Each object persists through maintenance or degrades through neglect. The sum of a person's possessions constitutes an economic biography—not a statement of current income but a record of resources across time.
 
-A young clerk might own: Bureau robes (purchased new, carefully maintained, the single largest expenditure of their early career), a kettle (inherited from grandmother, dented, the handle wrapped with cord where the original broke), eating bowls (ceramic, mismatched, acquired individually as older ones cracked), a knife (good steel, gift from parents at appointment, the blade honed thin from years of sharpening), bedding (cotton, patched, originally better quality than current means would allowâ€”a remnant of parents' household). The objects span decades of different economic positions and relationships.
+A young clerk might own: Bureau robes (purchased new, carefully maintained, the single largest expenditure of their early career), a kettle (inherited from grandmother, dented, the handle wrapped with cord where the original broke), eating bowls (ceramic, mismatched, acquired individually as older ones cracked), a knife (good steel, gift from parents at appointment, the blade honed thin from years of sharpening), bedding (cotton, patched, originally better quality than current means would allow—a remnant of parents' household). The objects span decades of different economic positions and relationships.
 
 An older factor might own: tailored clothing (commissioned, replaced every few years, previous sets given to servants or sold), silver eating implements (inherited, polished weekly by household staff, the family crest worn nearly smooth), furniture (purchased at marriage, maintained by hired craftsmen, solid enough to outlast the owner), and numerous small luxuries (a good pen, quality paper, imported tea) that announce ongoing surplus rather than careful accumulation.
 
@@ -1003,9 +1003,9 @@ Objects break. What happens next reveals economic position.
 
 The poor repair everything. A pot develops a hole; it gets patched with a disc of copper or iron, the edges hammered down, the patch becoming part of the object's identity. Clothing tears; it gets mended, the stitches visible, the patched area acquiring different texture than the original fabric. Furniture breaks; joints get reinforced with wire or cord, broken legs get splinted with scrap wood, the repair visible and functional without pretense to invisibility.
 
-The comfortable replace what can't be invisibly repaired. A pot with a hole becomes a planter; a new pot gets purchased. Clothing tears; if the tear can be invisibly mended, it's mended; if not, the garment becomes work clothes or rags and a new one gets purchased. The goal is maintaining appearanceâ€”the appearance of stability, of having resources to replace what breaks.
+The comfortable replace what can't be invisibly repaired. A pot with a hole becomes a planter; a new pot gets purchased. Clothing tears; if the tear can be invisibly mended, it's mended; if not, the garment becomes work clothes or rags and a new one gets purchased. The goal is maintaining appearance—the appearance of stability, of having resources to replace what breaks.
 
-The wealthy replace freely and repair for sentiment. Grandmother's kettle gets repaired by skilled craftsmen who make the repair nearly invisibleâ€”not because a new kettle is unaffordable but because the object carries meaning. Clothing tears; the tailor repairs it or a new garment is commissioned, whichever is more convenient. Objects that wear out simply disappear, replaced without comment. Only objects with historyâ€”inherited things, gifts, tokens of relationshipâ€”get maintained across generations.
+The wealthy replace freely and repair for sentiment. Grandmother's kettle gets repaired by skilled craftsmen who make the repair nearly invisible—not because a new kettle is unaffordable but because the object carries meaning. Clothing tears; the tailor repairs it or a new garment is commissioned, whichever is more convenient. Objects that wear out simply disappear, replaced without comment. Only objects with history—inherited things, gifts, tokens of relationship—get maintained across generations.
 
 \#\#\# The Weight of Portability
 
@@ -1017,27 +1017,27 @@ Possessions divide into: what stays home (furniture, stored goods, domestic equi
 
 \#\# Clothing Beyond Cut and Color
 
-The Aesthetics document covers clothing conventions: geometric Imperial cuts, flowing Ganati wraps, Thousand Kingdoms armor-as-decoration. This section covers the texture of worn clothingâ€”how garments age, what their condition reveals, and how economic position manifests in fabric and finish.
+The Aesthetics document covers clothing conventions: geometric Imperial cuts, flowing Ganati wraps, Thousand Kingdoms armor-as-decoration. This section covers the texture of worn clothing—how garments age, what their condition reveals, and how economic position manifests in fabric and finish.
 
 \#\#\# Fabric Quality
 
 Maguey-silk exists across a quality spectrum. The finest threads, spun from young leaves, processed by skilled workers, woven on precision looms, produce fabric that drapes like water, feels cool against skin, takes dye evenly, and maintains its shape for decades. This fabric costs what a laborer earns in months. The coarsest threads, spun from older leaves, processed quickly, woven on simple looms, produce fabric that's stiff, feels rough, takes dye unevenly, and loses shape within years. This fabric costs what a laborer earns in days.
 
-Between these extremes: gradations that the textile-aware can read instantly. A Bureau clerk's robe might be mid-grade maguey-silkâ€”better than a laborer could afford, worse than what supervisors wear. The fabric holds its shape but shows wear at stress points (elbows, hems, where the belt cinches). The dye is even but not deep; the black is actually very dark brown that sunlight reveals. The embroidery is thread, not wire; it lies flat rather than standing slightly proud of the fabric.
+Between these extremes: gradations that the textile-aware can read instantly. A Bureau clerk's robe might be mid-grade maguey-silk—better than a laborer could afford, worse than what supervisors wear. The fabric holds its shape but shows wear at stress points (elbows, hems, where the belt cinches). The dye is even but not deep; the black is actually very dark brown that sunlight reveals. The embroidery is thread, not wire; it lies flat rather than standing slightly proud of the fabric.
 
-A senior official's robe is visibly different: the fabric drapes, the black is absolute, the embroidery uses bronze wire that catches light. The difference isn't dramaticâ€”both garments follow the same cut, the same color conventionsâ€”but the quality gap is immediately apparent to anyone familiar with bureaucratic dress.
+A senior official's robe is visibly different: the fabric drapes, the black is absolute, the embroidery uses bronze wire that catches light. The difference isn't dramatic—both garments follow the same cut, the same color conventions—but the quality gap is immediately apparent to anyone familiar with bureaucratic dress.
 
 \#\#\# Wear Patterns
 
-Clothing wears predictably. Elbows thin first on robes and jackets. Knees wear on trousers. Hems fray from contact with floors. Collars darken from skin oil. The places where fabric rubs on fabricâ€”under arms, between thighsâ€”develop thin patches. Buttons loosen. Seams pull.
+Clothing wears predictably. Elbows thin first on robes and jackets. Knees wear on trousers. Hems fray from contact with floors. Collars darken from skin oil. The places where fabric rubs on fabric—under arms, between thighs—develop thin patches. Buttons loosen. Seams pull.
 
-New clothing looks new: even color, unworn surfaces, crisp edges. Worn clothing tells its story. A clerk's robes might show: reinforced elbows (patched before the fabric wore through), a hem let down once (visible line where the original hem sat), slight fading where sunlight strikes during the commute, and the particular pattern of wear that comes from sitting at a deskâ€”the robe's back smoother than the front, the skirt's center more worn than the sides.
+New clothing looks new: even color, unworn surfaces, crisp edges. Worn clothing tells its story. A clerk's robes might show: reinforced elbows (patched before the fabric wore through), a hem let down once (visible line where the original hem sat), slight fading where sunlight strikes during the commute, and the particular pattern of wear that comes from sitting at a desk—the robe's back smoother than the front, the skirt's center more worn than the sides.
 
 Someone who works standing shows different wear: shoes worn through at the balls of the feet, trouser knees intact but seats thinned, the marks of specific postures and movements written into the fabric.
 
 \#\#\# Secondhand Economies
 
-Most clothing purchases are secondhand. A young clerk buying their first Bureau robes goes to the secondhand market, not the tailors. They look for: correct size (close enough to alter), appropriate fabric quality (good enough to pass inspection, not so good they can't afford it), minimal visible wear (no patches in obvious places), andâ€”criticallyâ€”embroidery appropriate to their rank.
+Most clothing purchases are secondhand. A young clerk buying their first Bureau robes goes to the secondhand market, not the tailors. They look for: correct size (close enough to alter), appropriate fabric quality (good enough to pass inspection, not so good they can't afford it), minimal visible wear (no patches in obvious places), and—critically—embroidery appropriate to their rank.
 
 A purchased robe might show ghost-embroidery: the outline where previous rank insignia was removed, slightly darker thread marks where wire was picked out, a subtle depression in the fabric where the old design lay. The new owner adds their own rank insignia, smaller and lighter than what was removed, the new embroidery sitting slightly higher than the ghost of the old.
 
@@ -1047,7 +1047,7 @@ Rising in rank, a clerk might visit a tailor who adds appropriate embroidery ove
 
 Clothing maintenance reveals circumstances. A well-maintained garment of moderate quality signals someone with time and resources for regular care: brushing, spot-cleaning, careful storage, prompt repair of small damages. A poorly-maintained garment of high quality signals someone with resources but without time or inclination for care: good fabric neglected, spots left to set, minor tears becoming major ones.
 
-The very wealthy delegate maintenance. Their clothing arrives cleaned, pressed, mended invisibly, the labor of care performed by others. The marks of careâ€”the careful pressing, the invisible mending, the even colorâ€”are marks of delegated labor.
+The very wealthy delegate maintenance. Their clothing arrives cleaned, pressed, mended invisibly, the labor of care performed by others. The marks of care—the careful pressing, the invisible mending, the even color—are marks of delegated labor.
 
 The poor cannot afford delegated care. They maintain their own clothing when they can, let it degrade when they can't. A laborer's garments might show excellent repair work (someone in the household has skill) or crude repair work (patched quickly, function over form) or neglected damage (no time, no skill, no resources). The variation is individual; the constraint is universal.
 
@@ -1057,7 +1057,7 @@ The poor cannot afford delegated care. They maintain their own clothing when the
 
 \#\#\# What a Clerk Carries
 
-A Fourth Whorl clerkâ€”someone like Rivan Kelorethâ€”carries daily:
+A Fourth Whorl clerk—someone like Rivan Keloreth—carries daily:
 
 \*\*The satchel\*\* itself is a significant object. Good leather, reinforced corners, a clasp that works smoothly. It might be purchased (secondhand, from a retiring clerk whose satchel still had years of use left), inherited (from a grandparent who held similar position), or commissioned (a significant expense, meant to last a career). The leather darkens with use, develops a particular sheen where hands grip it, shows wear patterns that match the owner's carrying style.
 
@@ -1065,7 +1065,7 @@ A Fourth Whorl clerkâ€”someone like Rivan Kelorethâ€”carries daily:
 
 \*\*The stylus set\*\*: one for formal documents (good metal, comfortable grip, maintained carefully), one for rough work (cheaper, replaced when worn, less worry if lost). The formal stylus might be inherited; an es-Yonim stylus passing through three generations of clerks develops a particular patina, the metal wearing where thumbs press, the balance becoming familiar as one's own hand.
 
-\*\*Small comforts\*\*: a twist of coca leaf, perhaps; a sweet for afternoon energy; a cloth for wiping sweat. These cost little individually but their presence signals marginâ€”someone with nothing extra carries nothing extra.
+\*\*Small comforts\*\*: a twist of coca leaf, perhaps; a sweet for afternoon energy; a cloth for wiping sweat. These cost little individually but their presence signals margin—someone with nothing extra carries nothing extra.
 
 \*\*What's not there matters too.\*\* A clerk without authentication papers is either off-duty or in trouble. A clerk without work documents is between assignments. A clerk carrying only one stylus has lost one and not yet replaced it, or never had two. The absences tell stories.
 
@@ -1075,9 +1075,9 @@ A dock worker in the Fourth Whorl carries less and different:
 
 \*\*No satchel\*\*, usually. What they need fits in pockets or hangs from their belt. A satchel would be in the way, would get damaged, would mark them as something they're not.
 
-\*\*Tools of trade\*\*: for a dock worker, perhaps a hook for gripping cargo, perhaps a knife for cutting rope, perhaps work gloves worn thin at the palms. These tools are personalâ€”the hook is balanced for this particular hand, the knife is sharpened at a specific angle, the gloves have molded to these particular fingers. Borrowing someone else's tools feels wrong, works less well.
+\*\*Tools of trade\*\*: for a dock worker, perhaps a hook for gripping cargo, perhaps a knife for cutting rope, perhaps work gloves worn thin at the palms. These tools are personal—the hook is balanced for this particular hand, the knife is sharpened at a specific angle, the gloves have molded to these particular fingers. Borrowing someone else's tools feels wrong, works less well.
 
-\*\*Authentication minimal\*\*: perhaps a guild token or a work chit, something that proves permission to be where they are, take the pay they're owed. This lives in a pocket or on a cord around the neckâ€”never in a satchel they don't carry.
+\*\*Authentication minimal\*\*: perhaps a guild token or a work chit, something that proves permission to be where they are, take the pay they're owed. This lives in a pocket or on a cord around the neck—never in a satchel they don't carry.
 
 \*\*Food\*\*: if they're smart, if they had time. Flatbread from this morning, maybe, or a handful of roasted grains. Buying food mid-shift costs more than bringing it. Not everyone has time to prepare food before work; not everyone has food to prepare.
 
@@ -1085,7 +1085,7 @@ A dock worker in the Fourth Whorl carries less and different:
 
 \#\#\# What a Factor Owns
 
-A trade factorâ€”a merchant operating between regions, managing significant commerceâ€”owns in a different register:
+A trade factor—a merchant operating between regions, managing significant commerce—owns in a different register:
 
 \*\*Business infrastructure\*\*: the ledger books (multiple, organized by transaction type, bound in good leather, their pages dense with figures), the authentication devices (lector access, seal rings, the physical tokens of commercial authority), correspondence files (organized, indexed, representing relationships built across years).
 
@@ -1123,7 +1123,7 @@ How a household eats reveals economic position:
 
 \*\*The poor eat from what they have\*\*: bowls accumulated individually (mismatched, some chipped), implements that serve multiple purposes (the same knife cuts food and eats it), drinking vessels whatever was available (ceramic cups of different sizes, a salvaged metal cup, perhaps a gourd). The goal is function; matching is luxury.
 
-\*\*The comfortable eat from sets\*\*: bowls that match (purchased together when circumstances allowed), separate implements for preparation and eating (a proper set of chopsticks or spoons, depending on regional practice), drinking vessels that coordinate. The matching signals purchase powerâ€”the ability to buy a set rather than accumulating pieces.
+\*\*The comfortable eat from sets\*\*: bowls that match (purchased together when circumstances allowed), separate implements for preparation and eating (a proper set of chopsticks or spoons, depending on regional practice), drinking vessels that coordinate. The matching signals purchase power—the ability to buy a set rather than accumulating pieces.
 
 \*\*The wealthy eat from display\*\*: tableware chosen for beauty as well as function, materials more expensive than necessary (ceramic when metal would serve, metal when ceramic would serve, choices based on aesthetics), inherited pieces mixed with recent purchases, the whole composing a statement about household status. Guests notice the tableware; that's the point.
 
@@ -1131,7 +1131,7 @@ How a household eats reveals economic position:
 
 Bedding ranges from: sleeping pad on floor (woven, rolled during day, the minimum), to bed frame with mattress (a significant investment that lasts decades), to elaborate sleeping arrangement (bed frame, good mattress, quality linens, privacy screens, the whole apparatus of comfortable rest).
 
-The bed frame itself, if present, is furniture that outlasts generations. Made properly from good wood, a bed frame serves parents, then children, then grandchildren. A family's bed might be the single most valuable object they ownâ€”the one thing they'd save from fire, the one thing that can't easily be replaced.
+The bed frame itself, if present, is furniture that outlasts generations. Made properly from good wood, a bed frame serves parents, then children, then grandchildren. A family's bed might be the single most valuable object they own—the one thing they'd save from fire, the one thing that can't easily be replaced.
 
 Storage furniture tells similar stories. A poor household stores in: baskets (woven, cheap, nested when not full), salvaged containers (crates, boxes, whatever was available), perhaps a single chest (inherited, or the one significant furniture purchase). A comfortable household owns: proper chests (for clothing, for valuables, for documents), shelving (for display, for access), perhaps a wardrobe (the luxury of hanging clothes rather than folding them). A wealthy household has: furniture for every storage purpose, each piece chosen for aesthetics as well as function, the whole organized and maintained.
 
@@ -1147,5 +1147,5 @@ A poor household in the Fourth Whorl eats:
 
 \*\*Midday\*\*: whatever can be carried from home or purchased cheaply near work. Wrapped flatbread, cold grain, a bowl of noodles from a street vendor (quarter-obol, eaten standing, the bowl returned for the next customer). The meal is fuel, not occasion.
 
-\*\*Evening\*\*: the main meal, eaten at home if possible. Grain (rice, wheat, barleyâ€”whatever's cheapest this season) with vegetables (whatever's available, often wilted things purchased cheap at market's end), perha
+\*\*Evening\*\*: the main meal, eaten at home if possible. Grain (rice, wheat, barley—whatever's cheapest this season) with vegetables (whatever's available, often wilted things purchased cheap at market's end), perha
 

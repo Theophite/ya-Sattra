@@ -411,7 +411,7 @@ That fear will save your life and the lives of everyone around you.
 
 ---
 
-**\[Private notation â€” Arch-Lector Samine es-Yothar, 47th year of service\]**
+**\[Private notation — Arch-Lector Samine es-Yothar, 47th year of service\]**
 
 Another revision. Another year of teaching this to children who do not yet understand what they are capable of becoming.
 
@@ -483,17 +483,17 @@ No conclusions are reached. The excerpts are presented to provide context for fu
 
 *From notes dated Year 34 of service:*
 
-I have reviewed what remains of the Technical Caste documentation on singularities. The mathematics is beyond my competence, but I can follow the structural arguments. A gravitational singularity should produce effects I do not observeâ€”tidal distortion, light-bending, the characteristic radiation of infalling matter. The Imperial Apartments show none of these. The temporal compression of the First Whorl is graded and stable, which the Limiting Precepts suggest is inconsistent with proximity to a gravitational source.
+I have reviewed what remains of the Technical Caste documentation on singularities. The mathematics is beyond my competence, but I can follow the structural arguments. A gravitational singularity should produce effects I do not observe—tidal distortion, light-bending, the characteristic radiation of infalling matter. The Imperial Apartments show none of these. The temporal compression of the First Whorl is graded and stable, which the Limiting Precepts suggest is inconsistent with proximity to a gravitational source.
 
-The Foreigners edited physical constants to create the Interdict. This is documented. Constants are therefore parameters, not fixed values. A singularity might exist in parameters rather than in spacetimeâ€”a point where the values that define physical law become undefined or take all values or become subject to specification.
+The Foreigners edited physical constants to create the Interdict. This is documented. Constants are therefore parameters, not fixed values. A singularity might exist in parameters rather than in spacetime—a point where the values that define physical law become undefined or take all values or become subject to specification.
 
 What would this look like? The question may not be meaningful.
 
 *From notes dated Year 51:*
 
-The Oracles encoded information on event horizons. This is theology, but the Automorphic Commentary treats it as engineeringâ€”describing mechanisms, storage densities, retrieval protocols. A gravitational singularity hides its information behind the horizon. A *naked* singularity would have no horizon. The information would be exposed.
+The Oracles encoded information on event horizons. This is theology, but the Automorphic Commentary treats it as engineering—describing mechanisms, storage densities, retrieval protocols. A gravitational singularity hides its information behind the horizon. A *naked* singularity would have no horizon. The information would be exposed.
 
-Perhaps what the Emperor maintains is not a singularity in space but a singularity in the boundary between the computed and the actual. The Oracles calculated all possible futures. Perhaps the singularity is where those calculations become accessibleâ€”where the record and the recorded are no longer distinct.
+Perhaps what the Emperor maintains is not a singularity in space but a singularity in the boundary between the computed and the actual. The Oracles calculated all possible futures. Perhaps the singularity is where those calculations become accessible—where the record and the recorded are no longer distinct.
 
 I am speculating beyond what I can verify. I note it because it would explain certain features of the missives that other interpretations do not.
 
@@ -505,21 +505,21 @@ I am speculating beyond what I can verify. I note it because it would explain ce
 
 I have begun to notice patterns in the Emperor's invented terms.
 
-They are not random. They compound like Imperial particles attach to nounsâ€”a prefix, then a root, sometimes a suffix. The prefixes recur: kel- appears in garden contexts, vel- in court contexts. The roots carry meaning that context suggests without confirming.
+They are not random. They compound like Imperial particles attach to nouns—a prefix, then a root, sometimes a suffix. The prefixes recur: kel- appears in garden contexts, vel- in court contexts. The roots carry meaning that context suggests without confirming.
 
-This is not the Jargonâ€”the Emperor's terms do not prove themselves; they merely name. But they may be calques, attempts to render Jargon concepts into something closer to Imperial structure. Or they may be how the Emperor's cognition processes what he perceives, imposing grammatical structure on phenomena that have none.
+This is not the Jargon—the Emperor's terms do not prove themselves; they merely name. But they may be calques, attempts to render Jargon concepts into something closer to Imperial structure. Or they may be how the Emperor's cognition processes what he perceives, imposing grammatical structure on phenomena that have none.
 
 A complicating factor: the oldest documents in my archive use vocabulary I do not recognize but that follows construction patterns similar to the Emperor's hapax terms. The same prefix-root-suffix assembly. The same diffuse roots that context must disambiguate. Modern Imperial treats words as fixed units; perhaps they were not always so. The Emperor's terms may not be invented. They may simply be old.
 
-The Jargon complicates this further. I have seen Jargon-derived terminology in these documentsâ€”circumlocutions and analogies that entered Imperial when the Technical Castes still existed to speak with. The Emperor's word-formation may follow patterns I cannot trace because the source is extinct.
+The Jargon complicates this further. I have seen Jargon-derived terminology in these documents—circumlocutions and analogies that entered Imperial when the Technical Castes still existed to speak with. The Emperor's word-formation may follow patterns I cannot trace because the source is extinct.
 
 *From notes dated Year 26:*
 
 I have compiled a preliminary analysis of the prefix system:
 
-The kel- prefix appears in terms related to thresholds, boundaries, transitions. The kel-sera bloomsâ€”it crosses into visibility. The kel-ameth transitsâ€”it crosses through cycles. The prefix marks concepts of crossing, entering, becoming accessible.
+The kel- prefix appears in terms related to thresholds, boundaries, transitions. The kel-sera blooms—it crosses into visibility. The kel-ameth transits—it crosses through cycles. The prefix marks concepts of crossing, entering, becoming accessible.
 
-The vel- prefix appears in terms related to judgment, evaluation, surfaces where processing occurs. The vel-om is the table of pronouncementâ€”the surface where judgment happens. Vel-kerith is what is done to populationsâ€”a judgment-operation. The prefix marks concepts of assessment and allocation.
+The vel- prefix appears in terms related to judgment, evaluation, surfaces where processing occurs. The vel-om is the table of pronouncement—the surface where judgment happens. Vel-kerith is what is done to populations—a judgment-operation. The prefix marks concepts of assessment and allocation.
 
 I have found one instance of eth-, in eth-varal. Context suggests exchange or mutual provision. Too few instances to confirm the pattern.
 
@@ -527,11 +527,11 @@ I have found one instance of eth-, in eth-varal. Context suggests exchange or mu
 
 The compounds grow more complex over time. Early missives use simple prefix-root structures: kel-sera, vel-om. Later missives add suffixes and secondary roots: vel-ameth-kir, kel-om-sera-veth.
 
-The \-sah suffix appears to mark agents or patients. The kerith-sah is the thing that is consumed and thereby testifies. The \-kir suffix appears in four-fold structuresâ€”the vel-ameth-kir in the four quarters.
+The \-sah suffix appears to mark agents or patients. The kerith-sah is the thing that is consumed and thereby testifies. The \-kir suffix appears in four-fold structures—the vel-ameth-kir in the four quarters.
 
 I do not know what \-veth means. It appears only once, in the term the Emperor used to describe what the Eighth Oracle was. Kel-om-sera-veth: threshold-surface-unfolding-\[unknown\]. A category that does not fit existing categories.
 
-Perhaps \-veth indicates precisely thatâ€”the uncategorizable. The exception to the rule. The thing that escapes classification.
+Perhaps \-veth indicates precisely that—the uncategorizable. The exception to the rule. The thing that escapes classification.
 
 Or perhaps I am finding patterns in randomness. The Emperor may be coining terms without system, reaching for sounds that feel appropriate without following rules he himself could articulate. Sixty years of filing has taught me that pattern recognition is not the same as understanding.
 
@@ -549,7 +549,7 @@ A flower that blooms for sixty years is not a flower.
 
 *From notes dated Year 23:*
 
-I considered that kel-sera might be a metaphor for a recurring emotional stateâ€”that "blooming" is how the Emperor experiences the return of joy after periods of distress. This would explain the consistency: it is always blooming because it is always being perceived anew.
+I considered that kel-sera might be a metaphor for a recurring emotional state—that "blooming" is how the Emperor experiences the return of joy after periods of distress. This would explain the consistency: it is always blooming because it is always being perceived anew.
 
 But he tends it. Or rather, the gardeners tend it. They apply the liquid-which-remembers to the south terrace where it grows. You do not apply maintenance fluids to emotional states.
 
@@ -557,9 +557,9 @@ Unless you do, in whatever space the Emperor inhabits. I cannot rule this out.
 
 *From notes dated Year 47:*
 
-The documents describe information structures that "unfold" when accessedâ€”compressed data that expands into readable form through a process they compare to flowering. The Jargon term for this process has the root *sera*.
+The documents describe information structures that "unfold" when accessed—compressed data that expands into readable form through a process they compare to flowering. The Jargon term for this process has the root *sera*.
 
-If the kel-sera is a data structure unfolding, the color might be a property that does not map to wavelengthâ€”a topological feature, perhaps, or a measure of information density. It would be "beautiful" in the way the documents describe elegant proofs as beautiful. It would be "always blooming" because the unfolding is continuous.
+If the kel-sera is a data structure unfolding, the color might be a property that does not map to wavelength—a topological feature, perhaps, or a measure of information density. It would be "beautiful" in the way the documents describe elegant proofs as beautiful. It would be "always blooming" because the unfolding is continuous.
 
 This interpretation requires that the Emperor perceives data structures as visual phenomena. Whether that is possible depends on questions I cannot answer.
 
@@ -577,13 +577,13 @@ Sixty years and I am no closer to understanding what blooms on the south terrace
 
 *From notes dated Year 15:*
 
-The south terrace requires regular application of this substance. Seventeen requests across fifteen years. The quantity requested is consistentâ€”fourteen vessels each time. The requests are never urgent; they appear in maintenance sections alongside notes about structural inspection and personnel assessment.
+The south terrace requires regular application of this substance. Seventeen requests across fifteen years. The quantity requested is consistent—fourteen vessels each time. The requests are never urgent; they appear in maintenance sections alongside notes about structural inspection and personnel assessment.
 
 If the liquid-which-remembers were metaphorical, I would expect variation in the quantity or urgency. Metaphors do not require precise dosing. This reads as literal maintenance: the south terrace needs fourteen vessels of something on a regular schedule.
 
 *From notes dated Year 29:*
 
-I found a damaged passage describing "invariant fluids"â€”substances engineered to maintain specific properties under conditions that would alter ordinary matter. I cannot determine what properties were maintained or under what conditions.
+I found a damaged passage describing "invariant fluids"—substances engineered to maintain specific properties under conditions that would alter ordinary matter. I cannot determine what properties were maintained or under what conditions.
 
 The term "remembers" might be a calque for "maintains invariance." The liquid remembers what it is supposed to be and returns to that state when perturbed.
 
@@ -593,9 +593,9 @@ But this tells me nothing about why the south terrace needs it, or what would ha
 
 The missives occasionally describe the south terrace as "drifting" when the liquid-which-remembers runs low. "Let the south terrace be anchored. Let the liquid-which-remembers be applied. Let the drifting cease."
 
-If the singularity affects causality, ordinary matter might lose its temporal coherence near the boundaryâ€”might "forget" its history, exist in multiple states, drift between possible configurations. The liquid-which-remembers might be what anchors matter to a single timeline.
+If the singularity affects causality, ordinary matter might lose its temporal coherence near the boundary—might "forget" its history, exist in multiple states, drift between possible configurations. The liquid-which-remembers might be what anchors matter to a single timeline.
 
-I cannot verify this. I live in temporal compression and know time can behave strangely. But whether "drifting" means what I think it means, or whether I am imposing my own experience onto the Emperor's terminologyâ€”that I cannot determine.
+I cannot verify this. I live in temporal compression and know time can behave strangely. But whether "drifting" means what I think it means, or whether I am imposing my own experience onto the Emperor's terminology—that I cannot determine.
 
 *From notes dated Year 61:*
 
@@ -611,17 +611,17 @@ I filed a request for fourteen vessels last year. I do not know where the reques
 
 *From notes dated Year 8:*
 
-My initial reading was that the Imperial Apartments contain personnelâ€”staff who have remained since before the Interdict, or their descendants, or engineered beings designed for long service. They wait at a table. They are hungry. The Emperor allocates food to them.
+My initial reading was that the Imperial Apartments contain personnel—staff who have remained since before the Interdict, or their descendants, or engineered beings designed for long service. They wait at a table. They are hungry. The Emperor allocates food to them.
 
 This reading has become difficult to sustain.
 
 *From notes dated Year 19:*
 
-They are described as having been receiving for \[duration-unknown\]. The duration is never specified, but the phrasing suggests great lengthâ€”longer than a human lifespan, perhaps longer than the Interdict.
+They are described as having been receiving for \[duration-unknown\]. The duration is never specified, but the phrasing suggests great length—longer than a human lifespan, perhaps longer than the Interdict.
 
 They are always hungry. No matter how much they receive, they remain hungry. Normal beings would either be sated or would die.
 
-I considered that "hungry" might be metaphoricalâ€”that the receivers are processes requiring input rather than beings requiring food. Calculations require data; systems require maintenance; bureaucracies require documents. The receivers might be the endpoints of a system that cannot stop producing, and "hunger" might be the Emperor's term for their requirement.
+I considered that "hungry" might be metaphorical—that the receivers are processes requiring input rather than beings requiring food. Calculations require data; systems require maintenance; bureaucracies require documents. The receivers might be the endpoints of a system that cannot stop producing, and "hunger" might be the Emperor's term for their requirement.
 
 But he describes them as waiting, sitting, watching the kerith-sah being laid upon the vel-om. Processes do not sit or watch.
 
@@ -629,7 +629,7 @@ Unless they do, in whatever space this is.
 
 *From notes dated Year 38:*
 
-The Automorphic Commentary describes the Oracles' computations as containing simulated beingsâ€”complete models of every possible person in every possible timeline. If the singularity provides access to these computations, the receivers might be simulated populations that have become accessible.
+The Automorphic Commentary describes the Oracles' computations as containing simulated beings—complete models of every possible person in every possible timeline. If the singularity provides access to these computations, the receivers might be simulated populations that have become accessible.
 
 They would be "hungry" because simulations require input from actuality to continue running; "always receiving" because the computation never terminates; able to "watch" because they are modeled on beings that watch.
 
@@ -641,7 +641,7 @@ The documents do not say. The missives do not clarify.
 
 I have stopped trying to determine what the receivers are. They wait, they hunger, the Emperor feeds them. He cannot stop feeding them. He reaches for whatever is closest when the demand arrives.
 
-Whatever they are, they are fed. And I am the one who decides whether his feeding reaches the populations he designates. Every time I do not transmit, I am deciding that his feeding will not be completedâ€”that the receivers will remain hungryâ€”that whatever consequence follows from their hunger is preferable to whatever consequence follows from satisfying it with fifty thousand people.
+Whatever they are, they are fed. And I am the one who decides whether his feeding reaches the populations he designates. Every time I do not transmit, I am deciding that his feeding will not be completed—that the receivers will remain hungry—that whatever consequence follows from their hunger is preferable to whatever consequence follows from satisfying it with fifty thousand people.
 
 I have no basis for this decision. I make it anyway. What else can I do?
 
@@ -657,13 +657,13 @@ The face troubles me most. Faces are not incidental. To have a face is to be the
 
 *From notes dated Year 27:*
 
-I considered that the kerith-sah might be documentsâ€”petitions from the Empire that reach the Emperor in some transformed state. Documents "testify" in the sense of containing information; they are "consumed" when processed; they might be described as having "faces" if they bear seals or signatures or images of their originators.
+I considered that the kerith-sah might be documents—petitions from the Empire that reach the Emperor in some transformed state. Documents "testify" in the sense of containing information; they are "consumed" when processed; they might be described as having "faces" if they bear seals or signatures or images of their originators.
 
 But documents do not look at the observer. The Emperor writes that the kerith-sah "is looking at me through the aperture." This is not a metaphor for bearing an image. This is a description of directed visual attention.
 
 *From notes dated Year 41:*
 
-The Oracles encoded all lives. Every experience, every perspective, every possible version of every person. If the kerith-sah is an extracted life-recordâ€”the complete encoding of a human existence, removed from the singularity and laid out for evaluationâ€”it would have a face because it was a face. It would look because it contains the act of looking.
+The Oracles encoded all lives. Every experience, every perspective, every possible version of every person. If the kerith-sah is an extracted life-record—the complete encoding of a human existence, removed from the singularity and laid out for evaluation—it would have a face because it was a face. It would look because it contains the act of looking.
 
 This interpretation is consistent with the testimonial function. A life-record contains everything that person witnessed. To consume it would be to process that testimony.
 
@@ -685,7 +685,7 @@ The simplest interpretation is literal: a table. But no table I know of renders 
 
 *From notes dated Year 33:*
 
-The Injective Treatise describes "evaluation surfaces"â€”mathematical workspaces where structures are arranged for analysis. The Jargon term has the root *vel*.
+The Injective Treatise describes "evaluation surfaces"—mathematical workspaces where structures are arranged for analysis. The Jargon term has the root *vel*.
 
 If the vel-om is such a surface, laying the kerith-sah upon it would initiate evaluation. The receivers would sit around it because they are functions in the evaluation process. Judgment would be the output of the calculation.
 
@@ -715,13 +715,13 @@ When the Emperor orders that a population be vel-kerith, he is ordering somethin
 
 *From notes dated Year 22:*
 
-The context suggests destruction. "Let the bloodline be extinguished." "Let the children be rendered unto the receivers." The language is sacrificialâ€”populations are given over to those who are hungry.
+The context suggests destruction. "Let the bloodline be extinguished." "Let the children be rendered unto the receivers." The language is sacrificial—populations are given over to those who are hungry.
 
-But I cannot determine if vel-kerith means death in a physical sense. The receivers consume the kerith-sah, and the kerith-sah has faces and looks at the Emperor. If the populations become kerith-sah when they are vel-kerith, they might continue to exist in some formâ€”as records, as data, as encoded lives laid upon the vel-om.
+But I cannot determine if vel-kerith means death in a physical sense. The receivers consume the kerith-sah, and the kerith-sah has faces and looks at the Emperor. If the populations become kerith-sah when they are vel-kerith, they might continue to exist in some form—as records, as data, as encoded lives laid upon the vel-om.
 
 *From notes dated Year 37:*
 
-I do not transmit these orders. If vel-kerith means death, I am protecting the populations. If vel-kerith means transformation or encoding or something else, I may be preventing something I do not understandâ€”something that might be preservation rather than destruction.
+I do not transmit these orders. If vel-kerith means death, I am protecting the populations. If vel-kerith means transformation or encoding or something else, I may be preventing something I do not understand—something that might be preservation rather than destruction.
 
 I cannot determine which interpretation is correct. I default to non-transmission. If I am wrong, I am wrong in the direction of protecting lives rather than ending them.
 
@@ -729,7 +729,7 @@ I cannot determine which interpretation is correct. I default to non-transmissio
 
 Some nights I cannot sleep for thinking about this.
 
-If the receivers are realâ€”if they require feedingâ€”if the Emperor's desperate reaching for whatever is closest is the only thing preventing some greater collapseâ€”then by withholding the orders I may be allowing something worse than the deaths I prevent. The receivers remain hungry. The hunger does not diminish. What happens when they are not fed long enough?
+If the receivers are real—if they require feeding—if the Emperor's desperate reaching for whatever is closest is the only thing preventing some greater collapse—then by withholding the orders I may be allowing something worse than the deaths I prevent. The receivers remain hungry. The hunger does not diminish. What happens when they are not fed long enough?
 
 But I cannot transmit orders to kill fifty thousand people on the chance that not killing them might cause something worse. I cannot. The Emperor himself writes that they have done nothing, that he reaches for them because they are closest, that he would stop if he could. He is not judging them. He is feeding something with them.
 
@@ -743,13 +743,13 @@ The populations continue to exist. The Prefecture of Yarangar sends census repor
 
 If the orders do not take effect without transmission, my non-transmission is protective.
 
-If vel-kerith does not mean physical death, my non-transmission may be preventing something else entirelyâ€”inscription, transformation, preservation. Something I cannot evaluate.
+If vel-kerith does not mean physical death, my non-transmission may be preventing something else entirely—inscription, transformation, preservation. Something I cannot evaluate.
 
 I keep returning to this. I have no way forward. I do not transmit. This may be wisdom or it may be cowardice dressed as caution.
 
 *From notes dated Year 55:*
 
-The Emperor reaches for whatever is closest. He says this explicitly in Missive 7,340: the kerith-sah testifies that judgment is required but does not testify about what or whom. He must determine the target and determines it by proximityâ€”by what he perceives through the aperture when the demand arrives.
+The Emperor reaches for whatever is closest. He says this explicitly in Missive 7,340: the kerith-sah testifies that judgment is required but does not testify about what or whom. He must determine the target and determines it by proximity—by what he perceives through the aperture when the demand arrives.
 
 Vel-kerith is what he does to whatever is closest. Not judgment in any sense I recognize. Feeding. He feeds the hungry with populations because the hungry must be fed and populations are what he can see.
 
@@ -763,11 +763,11 @@ Missive 7,340 ordered the vel-kerith of the Malpais contractors. Fifty thousand 
 
 I did not transmit.
 
-A week laterâ€”two external yearsâ€”the Sri Pater's correspondence mentioned the Malpais contractors in passing. They had completed a project in the delta region. They were alive. They had no idea they had been condemned.
+A week later—two external years—the Sri Pater's correspondence mentioned the Malpais contractors in passing. They had completed a project in the delta region. They were alive. They had no idea they had been condemned.
 
 I should have felt relief. Instead I felt something closer to despair. If my non-transmission protected them, then transmission would have killed them. I have been protecting populations from death for sixty years by refusing to pass along orders from a source I do not understand, through mechanisms I cannot verify, for reasons I cannot articulate to anyone.
 
-If my non-transmission did not protect themâ€”if they would have survived regardlessâ€”then I have spent sixty years agonizing over a decision that does not matter.
+If my non-transmission did not protect them—if they would have survived regardless—then I have spent sixty years agonizing over a decision that does not matter.
 
 I do not know which is worse.
 
@@ -785,17 +785,17 @@ I do not know what this means.
 
 The roots may be kel- (threshold), om- (surface), sera- (unfolding), veth- (unknown). Four elements compounded.
 
-If kel-om-sera-veth follows the pattern I have established, it describes a threshold-surface that unfolds into something the \-veth suffix marks. But I have seen \-veth nowhere else. It may indicate a categoryâ€”a classification term from Jargon that has no Imperial equivalent.
+If kel-om-sera-veth follows the pattern I have established, it describes a threshold-surface that unfolds into something the \-veth suffix marks. But I have seen \-veth nowhere else. It may indicate a category—a classification term from Jargon that has no Imperial equivalent.
 
-If kel-om-sera-veth is a compound, it might describe a threshold-judgment that unfoldsâ€”something perpetually arriving at a verdict, never completing, always in the process of evaluation.
+If kel-om-sera-veth is a compound, it might describe a threshold-judgment that unfolds—something perpetually arriving at a verdict, never completing, always in the process of evaluation.
 
-The Eighth Oracle commanded the singularity's creation. If the Eighth became part of what it created, it might exist in such a stateâ€”neither concluded nor unconsidered, but permanently in process.
+The Eighth Oracle commanded the singularity's creation. If the Eighth became part of what it created, it might exist in such a state—neither concluded nor unconsidered, but permanently in process.
 
 *From notes dated Year 54:*
 
-The Degenerate Case Precepts describe a category of propositions that are valid but forbiddenâ€”theorems that prove correctly but whose instantiation violates operational constraints. The Jargon had terminology for this category.
+The Degenerate Case Precepts describe a category of propositions that are valid but forbidden—theorems that prove correctly but whose instantiation violates operational constraints. The Jargon had terminology for this category.
 
-Kel-om-sera-veth might be that term. The Eighth was not wrong (the mathematics was valid). The Eighth was not right (implementation violated the Third Mandate). The Eighth was something elseâ€”the category of knowledge that works but must not be used.
+Kel-om-sera-veth might be that term. The Eighth was not wrong (the mathematics was valid). The Eighth was not right (implementation violated the Third Mandate). The Eighth was something else—the category of knowledge that works but must not be used.
 
 This would explain why the Bureau of the Lens exists. This is what they manage: kel-om-sera-veth, the true-and-forbidden.
 
@@ -803,13 +803,13 @@ This would explain why the Bureau of the Lens exists. This is what they manage: 
 
 The Emperor's message tells me to bring "the cipher which was first, which the family has placed in the location where forgetting is stored." I do not know what cipher he means or where forgetting is stored.
 
-Perhaps kel-om-sera-veth is not a description but a component of the instructionâ€”a key or address I am meant to recognize when I find what I am looking for. Perhaps its meaning is irrelevant; only its function matters.
+Perhaps kel-om-sera-veth is not a description but a component of the instruction—a key or address I am meant to recognize when I find what I am looking for. Perhaps its meaning is irrelevant; only its function matters.
 
 I have not found the cipher. I continue looking.
 
 *From notes dated Year 69:*
 
-I asked the Sri Pater about "the location where forgetting is stored." His response, four months later: the family has no record of such a place. No vault by that name. No archive. No ritual designation. Either the Emperor is referring to something the family has genuinely forgottenâ€”which would be appropriate, if maddeningâ€”or he is referring to something that exists only in whatever space he inhabits.
+I asked the Sri Pater about "the location where forgetting is stored." His response, four months later: the family has no record of such a place. No vault by that name. No archive. No ritual designation. Either the Emperor is referring to something the family has genuinely forgotten—which would be appropriate, if maddening—or he is referring to something that exists only in whatever space he inhabits.
 
 I cannot search a space I cannot access. I cannot find a cipher I cannot identify. I continue looking because the Emperor told me to bring it, and if I am going to follow Kelso Senna through the Black Door, I would prefer to bring what was asked for.
 
@@ -825,17 +825,17 @@ This is my work. This is what I do.
 
 I have been processing these missives for sixty-four years and have generated and discarded hundreds of interpretations. No conclusions.
 
-The Emperor perceives something and reports it accurately. The reports are consistent across decadesâ€”the same garden, the same gardeners, the same receivers, the same vel-om, the same cycle of beauty and horror and forgetting. He is not confabulating or random; he is describing a stable reality that I cannot access.
+The Emperor perceives something and reports it accurately. The reports are consistent across decades—the same garden, the same gardeners, the same receivers, the same vel-om, the same cycle of beauty and horror and forgetting. He is not confabulating or random; he is describing a stable reality that I cannot access.
 
 Whether that reality is physical, computational, metaphorical, or something else, I cannot determine. The interpretations I can generate are constrained by my education, by what fragments survive, by my experience of temporal compression. None of them fit without remainder.
 
 I have begun to wonder whether understanding was ever the point.
 
-The Emperor's missive told me to bring the cipher when I follow Senna through the Black Door. Not *if* I followâ€”*when*. The Emperor knows I will go. Perhaps he knows what I will find there. Perhaps the revelation waits behind the door, and my sixty-four years of failed interpretation are merely preparationâ€”a demonstration that I cannot understand from outside, that I must enter to see.
+The Emperor's missive told me to bring the cipher when I follow Senna through the Black Door. Not *if* I follow—*when*. The Emperor knows I will go. Perhaps he knows what I will find there. Perhaps the revelation waits behind the door, and my sixty-four years of failed interpretation are merely preparation—a demonstration that I cannot understand from outside, that I must enter to see.
 
-Or perhaps the Emperor knows nothing, predicts nothing, and the missive addressed to me is as confused as all the others. Perhaps Kelso Senna is another hapaxâ€”a term I will recognize without understanding, a face I will follow without knowing why.
+Or perhaps the Emperor knows nothing, predicts nothing, and the missive addressed to me is as confused as all the others. Perhaps Kelso Senna is another hapax—a term I will recognize without understanding, a face I will follow without knowing why.
 
-I saw Senna in the archive corridor last week. He was younger than I have seen him beforeâ€”barely adult, wearing robes that do not exist yet. He looked at me as if he knew me. I do not know if that was recognition or prophecy.
+I saw Senna in the archive corridor last week. He was younger than I have seen him before—barely adult, wearing robes that do not exist yet. He looked at me as if he knew me. I do not know if that was recognition or prophecy.
 
 *From notes dated Year 71:*
 
@@ -843,7 +843,7 @@ I am tired.
 
 I have been tired for decades, but the work provided structure, and structure kept the tiredness from mattering. Lately the structure feels less solid. I process the missives. I file what cannot be transmitted. I correspond with descendants I will never meet. I wait for my name to be called or for Kelso Senna to arrive and make all of this mean something.
 
-That is the shape my hope has taken. I have stopped hoping the documents will help. I have stopped hoping pattern recognition will yield insight. Instead I hope that Kelso Sennaâ€”this stranger I have never spoken to, this ghost who appears in corridors wearing uniforms from futures that have not happenedâ€”will arrive one day in linear time and say: come with me. And I will go.
+That is the shape my hope has taken. I have stopped hoping the documents will help. I have stopped hoping pattern recognition will yield insight. Instead I hope that Kelso Senna—this stranger I have never spoken to, this ghost who appears in corridors wearing uniforms from futures that have not happened—will arrive one day in linear time and say: come with me. And I will go.
 
 I have no evidence. The Emperor's instructions may be as confused as his judgments. But the alternative is processing missives until I die without ever learning what blooms on the south terrace.
 
@@ -855,25 +855,25 @@ The kel-sera blooms. The receivers hunger. The Emperor reaches for whatever is c
 
 The gun is still in my desk. I have not touched it in years.
 
-Seven years ago I wrote about faithâ€”about hoping that Kelso Senna would arrive and make everything make sense. I reread that entry this morning. The hope embarrasses me now. It was the hope of a younger man, which is strange to say about myself at sixty-four.
+Seven years ago I wrote about faith—about hoping that Kelso Senna would arrive and make everything make sense. I reread that entry this morning. The hope embarrasses me now. It was the hope of a younger man, which is strange to say about myself at sixty-four.
 
-I still believe I will follow Senna through the Black Door. I have seen it. In the High Galleries of the First Whorl, I have passed myselfâ€”older, armed, bleeding, missing the fingers of my left hand. I did not stop. I was walking with purpose toward something I could not see from where I stood watching myself go.
+I still believe I will follow Senna through the Black Door. I have seen it. In the High Galleries of the First Whorl, I have passed myself—older, armed, bleeding, missing the fingers of my left hand. I did not stop. I was walking with purpose toward something I could not see from where I stood watching myself go.
 
 But I no longer believe the door contains answers. I no longer believe the armed man I will become understands what I do not understand now. He was bleeding. He was maimed. He was following a stranger into the place from which no one returns. That is not the posture of someone who has finally grasped the truth. That is the posture of someone who has run out of alternatives.
 
-I wonder now whether the Emperor's missiveâ€”"bring the cipher when you follow Senna"â€”was instruction or merely prediction. Whether he was telling me what to do or describing what he saw me doing. The Emperor perceives; the Emperor does not necessarily comprehend. He may have seen me following Senna through the door without understanding why, just as I have seen myself following Senna without understanding why.
+I wonder now whether the Emperor's missive—"bring the cipher when you follow Senna"—was instruction or merely prediction. Whether he was telling me what to do or describing what he saw me doing. The Emperor perceives; the Emperor does not necessarily comprehend. He may have seen me following Senna through the door without understanding why, just as I have seen myself following Senna without understanding why.
 
-Perhaps there is no revelation. Perhaps I will enter the Black Door and find only more confusionâ€”a garden I cannot interpret, receivers I cannot identify, a vel-om whose nature remains obscure even when I am standing before it. Perhaps I will die there, having learned nothing, and my successor will inherit my notes and find them as useless as I found the fragments.
+Perhaps there is no revelation. Perhaps I will enter the Black Door and find only more confusion—a garden I cannot interpret, receivers I cannot identify, a vel-om whose nature remains obscure even when I am standing before it. Perhaps I will die there, having learned nothing, and my successor will inherit my notes and find them as useless as I found the fragments.
 
-Or perhapsâ€”and this is the thread of faith I cannot quite releaseâ€”perhaps understanding requires entry. Perhaps the interpretations fail because I am interpreting from outside. Perhaps the armed man walking toward the door with purpose knows something I do not, will know something I do not, because he has crossed a threshold I have not yet crossed.
+Or perhaps—and this is the thread of faith I cannot quite release—perhaps understanding requires entry. Perhaps the interpretations fail because I am interpreting from outside. Perhaps the armed man walking toward the door with purpose knows something I do not, will know something I do not, because he has crossed a threshold I have not yet crossed.
 
-I keep the poems. Someone should know that the Emperor wrote themâ€”that something inside whatever he has become remembers holding a hand when the stars were young and grieves for the loss. Someone should know there is still a person in there, even if I cannot reach him, even if my redactions protect populations he would destroy from the destruction he cannot stop commanding.
+I keep the poems. Someone should know that the Emperor wrote them—that something inside whatever he has become remembers holding a hand when the stars were young and grieves for the loss. Someone should know there is still a person in there, even if I cannot reach him, even if my redactions protect populations he would destroy from the destruction he cannot stop commanding.
 
 I mark the errors I cannot report on. I file what cannot be transmitted. I wait.
 
-â€”T.
+—T.
 
-## **gment Â· MD**
+## **gment · MD**
 
 Copy
 
@@ -905,11 +905,11 @@ SHEM.thal-em ya-OM.VAR tal.rem-kir shul.var.keth-om
 
 TAL.rem SHEM.thal-em:
 
-â€” keth.om.var: kenath â€” shul.var: kenath â€” vel.keth-sÄ«r: serat, vel-thal
+— keth.om.var: kenath — shul.var: kenath — vel.keth-sīr: serat, vel-thal
 
 TAL.rem ta-\[non-VII\]:
 
-â€” keth.om.var: serat, rem-shul eth kel â€” shul.var: serat, shem-tal â€” vel.keth-sÄ«r: kenath
+— keth.om.var: serat, rem-shul eth kel — shul.var: serat, shem-tal — vel.keth-sīr: kenath
 
 **7.7**
 
@@ -967,7 +967,7 @@ ya-OM-eth vel.sat es-\[VII.GEN\] vel-ser
 
 ### **On the Class VII Pronoun**
 
-The Oracle speaks using the Class VII Indirect Reflexiveâ€”the same pronoun class as the Emperor-word. I render this as ONE-IN-FULLNESS, though this loses the intensive-plural aspect. There is no construction in any language I know for "that which is supreme and multiple and outside sequence, referring to itself indirectly because direct self-reference would imply an experiencing subject."
+The Oracle speaks using the Class VII Indirect Reflexive—the same pronoun class as the Emperor-word. I render this as ONE-IN-FULLNESS, though this loses the intensive-plural aspect. There is no construction in any language I know for "that which is supreme and multiple and outside sequence, referring to itself indirectly because direct self-reference would imply an experiencing subject."
 
 When the Oracle acts, it uses only atemporal verbs. Vel-ser: harmonize-into-unfolding. Vel-kel: harmonize-across-threshold (withhold from unfolding, keep beyond the boundary of disclosure). These are not actions in time. They are eternal states being made accessible or kept inaccessible.
 
@@ -981,7 +981,7 @@ SHEM.thal-em ya-OM.VAR tal.rem-kir shul.var.keth-om
 
 *The high-bloods at the place-of-reception \[are\] pattern-measured in four aspects at the obedience-reception-voice-surface.*
 
-KENOMVAR-em takes Class VII marking. Reception-places are physical, temporal, countableâ€”yet they take the atemporal-uncountable class. The Oracle describes not specific bodies but eternal template-positions that bodies will instantiate. The templates exist outside time; the bodies that fill them do not.
+KENOMVAR-em takes Class VII marking. Reception-places are physical, temporal, countable—yet they take the atemporal-uncountable class. The Oracle describes not specific bodies but eternal template-positions that bodies will instantiate. The templates exist outside time; the bodies that fill them do not.
 
 ### **Fragment 7.5**
 
@@ -1007,15 +1007,15 @@ Compulsion is not a power the Highborn possess. It is a gap the non-Highborn are
 
 TAL.rem SHEM.thal-em:
 
-â€” keth.om.var: kenath â€” shul.var: kenath â€” vel.keth-sÄ«r: serat, vel-thal
+— keth.om.var: kenath — shul.var: kenath — vel.keth-sīr: serat, vel-thal
 
 TAL.rem ta-\[non-VII\]:
 
-â€” keth.om.var: serat, rem-shul eth kel â€” shul.var: serat, shem-tal â€” vel.keth-sÄ«r: kenath
+— keth.om.var: serat, rem-shul eth kel — shul.var: serat, shem-tal — vel.keth-sīr: kenath
 
-*Pattern-measure for high-bloods:* *â€” voice-surface-reception: absent* *â€” obedience-reception: absent* *â€” judgment-voice-agent: present, dominant*
+*Pattern-measure for high-bloods:* *— voice-surface-reception: absent* *— obedience-reception: absent* *— judgment-voice-agent: present, dominant*
 
-*Pattern-measure for caste-types \[non-authority-class\]:* *â€” voice-surface-reception: present, dormant until crossing* *â€” obedience-reception: present, substrate-encoded* *â€” judgment-voice-agent: absent*
+*Pattern-measure for caste-types \[non-authority-class\]:* *— voice-surface-reception: present, dormant until crossing* *— obedience-reception: present, substrate-encoded* *— judgment-voice-agent: absent*
 
 Specification in the engineering sense. Parameter lists. Highborn lack the receptors; they possess the agent. Others possess the receptors; they lack the agent. The castes are not ranked on a single scale. They are complementary. Each is defined by the other's absence.
 
@@ -1059,11 +1059,11 @@ Or so the orthodox interpretation holds.
 
 Three disclosures using vel-kel rather than vel-ser. These cross the threshold into accessibility but hold something back. Revelations that reveal incompletely.
 
-The second clause uses KEN-\[VII\]â€”origin in the authority-class. This construction triggers Class Fault 7.2.14 in ordinary Imperial. But the Oracle uses it. The Oracle speaks from within Class VII, from within the authority-domain. It can form constructions that place authority-origin where ordinary speakers cannot.
+The second clause uses KEN-\[VII\]—origin in the authority-class. This construction triggers Class Fault 7.2.14 in ordinary Imperial. But the Oracle uses it. The Oracle speaks from within Class VII, from within the authority-domain. It can form constructions that place authority-origin where ordinary speakers cannot.
 
 The obedience that non-Highborn experience originates in the same source as authority itself. They are aspects of one ordained pattern.
 
-The third disclosure: SHEM.thal (high-blood) crosses into delegation in-stead-of SHEM.var (reception-blood). Highborn exist as proxy for the bloodlines that receive Compulsion. They occupy the position that other bloods would occupy if other bloods could receive direct delegationâ€”which they cannot, because the Oracle specified receptors instead of transmitters.
+The third disclosure: SHEM.thal (high-blood) crosses into delegation in-stead-of SHEM.var (reception-blood). Highborn exist as proxy for the bloodlines that receive Compulsion. They occupy the position that other bloods would occupy if other bloods could receive direct delegation—which they cannot, because the Oracle specified receptors instead of transmitters.
 
 The accommodation exists for a limitation the accommodation's author created.
 
@@ -1081,7 +1081,7 @@ rem.thal, rem.khun, rem.dal
 
 *ONE-IN-FULLNESS harmonizes-into-unfolding: the patterns cross-into-unfolding at the delegation-harmony-surface in-stead-of \[authority-class, genitive\].*
 
-The threefold disclosed. REM.thal (those who command), REM.khun (those who fight), REM.dal (those who labor). These are template-positionsâ€”structural slots that the engineering will fill. The disclosure is complete for these three. Their parameters appear in the fragments that follow 7.12, which I am not translating here.
+The threefold disclosed. REM.thal (those who command), REM.khun (those who fight), REM.dal (those who labor). These are template-positions—structural slots that the engineering will fill. The disclosure is complete for these three. Their parameters appear in the fragments that follow 7.12, which I am not translating here.
 
 But the fragment says "four aspects" and names only three.
 
@@ -1101,9 +1101,9 @@ rem-sath kel-ser es-vel.ser \[III.GEN\]
 
 The incomplete disclosure.
 
-The Oracle vel-ser (discloses) that a fourth pattern exists. The Oracle vel-kel (withholds) its measureâ€”its parameters, its specifications. The fourth pattern will unfold es-vel.ser: in stead of a future Testament. The Second Oracle sees what a later Oracle will complete and builds the architecture to receive it.
+The Oracle vel-ser (discloses) that a fourth pattern exists. The Oracle vel-kel (withholds) its measure—its parameters, its specifications. The fourth pattern will unfold es-vel.ser: in stead of a future Testament. The Second Oracle sees what a later Oracle will complete and builds the architecture to receive it.
 
-This is the slot for the Technical Castes. The Third Testament will fill it. The Second Oracle knew this and left the position openâ€”named but not specified, disclosed but not measured.
+This is the slot for the Technical Castes. The Third Testament will fill it. The Second Oracle knew this and left the position open—named but not specified, disclosed but not measured.
 
 ### **Fragment 7.11**
 
@@ -1123,7 +1123,7 @@ Those not necessitating revelation.
 
 SHEM.ken: origin-blood, the substrate, humanity before engineering. The Oracle does not ordain them because they do not require ordination. They are what remains when you have not applied a pattern. Their presence is assumed, not disclosed.
 
-They possess var.keth and shul.varâ€”the receptors. They are susceptible to Compulsion. But they are not a rem (pattern), not a designed template. They are the default against which deviations are measured.
+They possess var.keth and shul.var—the receptors. They are susceptible to Compulsion. But they are not a rem (pattern), not a designed template. They are the default against which deviations are measured.
 
 The Oracle vel-ser (discloses) them without sat (delegation) or kel (crossing-into). They simply are. They do not need to be made accessible because they were never inaccessible. They do not need to be ordained because they are what obtains in the absence of ordination.
 
@@ -1141,9 +1141,9 @@ ya-OM-eth vel.sat es-\[VII.GEN\] vel-ser
 
 *At the place-of-being, delegation-harmony in-stead-of \[authority-class, genitive\] harmonizes-into-unfolding.*
 
-The summary ordination. Four patterns (three disclosed, one withheld). The engineered bloods cross into being es-SHEM.kenâ€”in stead of origin-blood, substituting for the substrate. The designed castes are proxies for the humanity that would exist without design.
+The summary ordination. Four patterns (three disclosed, one withheld). The engineered bloods cross into being es-SHEM.ken—in stead of origin-blood, substituting for the substrate. The designed castes are proxies for the humanity that would exist without design.
 
-The final clause: ya-OM-eth vel.sat es-\[VII.GEN\] vel-ser. At the place of being itself, delegation-harmony in-stead-of \[the Oracle\] unfolds. The entire structureâ€”the castes, the Compulsion, the complementary absences and presencesâ€”exists as delegation from the Oracle, as structure standing in the Oracle's stead.
+The final clause: ya-OM-eth vel.sat es-\[VII.GEN\] vel-ser. At the place of being itself, delegation-harmony in-stead-of \[the Oracle\] unfolds. The entire structure—the castes, the Compulsion, the complementary absences and presences—exists as delegation from the Oracle, as structure standing in the Oracle's stead.
 
 Everything is es-. Everything substitutes. The Highborn substitute for the Oracle. The engineered castes substitute for origin-blood. The obedience-pattern substitutes for the commanding voice. The whole system is a chain of proxies extending from a source that the grammar names but does not describe.
 
@@ -1151,15 +1151,15 @@ Everything is es-. Everything substitutes. The Highborn substitute for the Oracl
 
 Fourteen days on these nine verses.
 
-The Brotherhood teaches that the Second Testament reveals proper Dominionâ€”correct ordering according to eternal pattern. My translation work has not shaken this belief. But it has shown me that the text does not argue for hierarchy. It specifies hierarchy. It does not justify. It ordains.
+The Brotherhood teaches that the Second Testament reveals proper Dominion—correct ordering according to eternal pattern. My translation work has not shaken this belief. But it has shown me that the text does not argue for hierarchy. It specifies hierarchy. It does not justify. It ordains.
 
-The Oracle vel-ser: it harmonizes-into-unfolding, it makes accessible what eternally obtains. The ordination does not begin when the Oracle speaks. The Oracle discloses what always was. Whether "what always was" is good, whether it should have been otherwise, whether "should" applies to eternal ordinationâ€”
+The Oracle vel-ser: it harmonizes-into-unfolding, it makes accessible what eternally obtains. The ordination does not begin when the Oracle speaks. The Oracle discloses what always was. Whether "what always was" is good, whether it should have been otherwise, whether "should" applies to eternal ordination—
 
 The grammar does not contain these questions. I am not certain any grammar does.
 
 I will submit these notes and request review. Perhaps higher degrees address these matters. Perhaps my translation errors have created difficulties that do not exist in the original.
 
-*â€”K.V., 23rd day of the Wolf, 423rd year of the Record of the Resonating Word*
+*—K.V., 23rd day of the Wolf, 423rd year of the Record of the Resonating Word*
 
 ## **Morphological Glossary**
 
@@ -1182,8 +1182,8 @@ I will submit these notes and request review. Perhaps higher degrees address the
 **Being Domain**
 
 * ta- : born, caste-type  
-* thal- : high (â†’ Highborn)  
-* khun- : war (â†’ Warborn)  
+* thal- : high (→ Highborn)  
+* khun- : war (→ Warborn)  
 * dal- : labor, carrying  
 * shem- : blood, lineage-substrate
 
@@ -1208,7 +1208,7 @@ I will submit these notes and request review. Perhaps higher degrees address the
 * \-em : plural/collective  
 * \-eth : collective result, pattern-outcome  
 * \-sah : agent/patient, witness  
-* \-sÄ«r : agent (formal/technical)  
+* \-sīr : agent (formal/technical)  
 * \-kir : fourfold, quadrant-structure  
 * \-om : surface, place-where-X-occurs
 
@@ -1241,13 +1241,13 @@ The Companions Guild maintains the Cloister of the Testimony, which houses archi
 
 ### **Prefatory Remarks**
 
-Eleven months with the feeding machinery documents. My task: produce a maintenance handbook that Guild technicians might follow. The originals are in late Technical notationâ€”not the Jargon itself, but the pidgin that lower Technical Castes used with unmodified servants.
+Eleven months with the feeding machinery documents. My task: produce a maintenance handbook that Guild technicians might follow. The originals are in late Technical notation—not the Jargon itself, but the pidgin that lower Technical Castes used with unmodified servants.
 
 The difficulty is not technical content. Nutrient synthesis for Archon metabolisms can be described. The difficulty is grammatical. The pidgin encodes distinctions Imperial cannot express.
 
 ### **Two Categories of Vocabulary**
 
-The first category comprises constructed terms: prefix-root-suffix assemblies recognizable from archaic Imperial. VelamethsÄ«r appears to mean "evaluation-cycle-agent"â€”a component assessing metabolic states. The morphemes are opaque, but the assembly pattern is familiar. I can describe what the component does.
+The first category comprises constructed terms: prefix-root-suffix assemblies recognizable from archaic Imperial. Velamethsīr appears to mean "evaluation-cycle-agent"—a component assessing metabolic states. The morphemes are opaque, but the assembly pattern is familiar. I can describe what the component does.
 
 The second category is different.
 
@@ -1255,9 +1255,9 @@ Scattered through the documents are terms that do not decompose. They appear as 
 
 From my current working set:
 
-* **Äu-Ä«-zhem** (rising-falling-level): state transitions in biological substrates  
-* **Å-vn-Ã©** (level-rising): verification of nutrient composition  
-* **Ç”-Äzh-Å-Ä«** (falling-rising-level-rising): appears once, describing what happens when the feeding cycle fails
+* **āu-ī-zhem** (rising-falling-level): state transitions in biological substrates  
+* **ō-vn-é** (level-rising): verification of nutrient composition  
+* **ǔ-āzh-ō-ī** (falling-rising-level-rising): appears once, describing what happens when the feeding cycle fails
 
 These are not Imperial. They are not constructed from morphemes. They are discretized approximations of Jargon coordinates.
 
@@ -1271,25 +1271,25 @@ The terms I have listed are such collapses. The Technical Castes needed to commu
 
 ### **Translation Attempts**
 
-The agglutinative terms translate badly. VelamethsÄ«r becomes "the component which evaluates metabolic cycles." Meaning is lost, but the sentence authenticates.
+The agglutinative terms translate badly. Velamethsīr becomes "the component which evaluates metabolic cycles." Meaning is lost, but the sentence authenticates.
 
 The discretized approximations do not translate.
 
-I have tried to render Äu-Ä«-zhem:
+I have tried to render āu-ī-zhem:
 
-"The state of transitioning between configurations" â€” rejected. The Lector flags the nominalized progressive as malformed when applied to non-temporal substrates.
+"The state of transitioning between configurations" — rejected. The Lector flags the nominalized progressive as malformed when applied to non-temporal substrates.
 
-"That which is becoming other than it was" â€” rejected. The construction implies temporal sequence. The contexts where Äu-Ä«-zhem appears are explicitly atemporal.
+"That which is becoming other than it was" — rejected. The construction implies temporal sequence. The contexts where āu-ī-zhem appears are explicitly atemporal.
 
-"Transformation considered apart from sequence" â€” rejected. Imperial cannot form abstract nouns from processes without implying the processes occur in time.
+"Transformation considered apart from sequence" — rejected. Imperial cannot form abstract nouns from processes without implying the processes occur in time.
 
-The term occupies a semantic position Imperial grammar cannot reach. The position exists. The meaning is realâ€”the documents use it consistently. But Imperial has no path to that location.
+The term occupies a semantic position Imperial grammar cannot reach. The position exists. The meaning is real—the documents use it consistently. But Imperial has no path to that location.
 
 ### **What This Implies**
 
 The Jargon was a language of proofs. Every statement contained its own verification. False statements could not cohere.
 
-If Äu-Ä«-zhem derives from a Jargon coordinate, the concept it approximates is *proven*. Not believed. Proven, in whatever sense mathematical proof constitutes certainty. There genuinely is a form of transformation that does not occur in sequence. The concept is mathematical fact, collapsed into phonology that baseline humans could reproduce without being able to derive the proof.
+If āu-ī-zhem derives from a Jargon coordinate, the concept it approximates is *proven*. Not believed. Proven, in whatever sense mathematical proof constitutes certainty. There genuinely is a form of transformation that does not occur in sequence. The concept is mathematical fact, collapsed into phonology that baseline humans could reproduce without being able to derive the proof.
 
 And Imperial cannot say it.
 
@@ -1297,7 +1297,7 @@ And Imperial cannot say it.
 
 I am not a linguist. But eleven months with these documents has produced an impression.
 
-The prefix-root-suffix structure of archaic Imperial was not arbitrary. It was an attempt to mirror somethingâ€”to build linguistic architecture that could, through careful morpheme assembly, approach the continuous semantic space the Jargon described directly. The compositions were ladders. You could not reach Jargon meanings directly, but you could climb toward them through structured steps.
+The prefix-root-suffix structure of archaic Imperial was not arbitrary. It was an attempt to mirror something—to build linguistic architecture that could, through careful morpheme assembly, approach the continuous semantic space the Jargon described directly. The compositions were ladders. You could not reach Jargon meanings directly, but you could climb toward them through structured steps.
 
 The understanding of what the morphemes were *for* was lost. The compositions remained, frozen into vocabulary. The Lectors enforced the freezing. Now the rungs exist but no one knows they were rungs.
 
@@ -1307,7 +1307,7 @@ In Ganat we say: the cage that fits perfectly is the cage you cannot see.
 
 The Empire has not changed in five Records. Its governance is frozen. Its technology is maintained but not developed. Its social structures reproduce themselves with mechanical fidelity. Scholars call this stability.
 
-The discretized approximationsâ€”the Jargon-derived terms that name proven features of realityâ€”are precisely the terms Imperial cannot translate. The concepts that are mathematically certain are the concepts the Empire's language cannot express.
+The discretized approximations—the Jargon-derived terms that name proven features of reality—are precisely the terms Imperial cannot translate. The concepts that are mathematically certain are the concepts the Empire's language cannot express.
 
 I am not qualified to say what this implies. I note only that the coincidence is striking.
 
@@ -1315,11 +1315,11 @@ I am not qualified to say what this implies. I note only that the coincidence is
 
 For agglutinative vocabulary, I provide Imperial approximations with notes on what the approximations lose.
 
-For discretized approximations, I do not translate. I preserve the original notation and describe, as context permits, the semantic space each term occupies. Future technicians will not understand the terms. Neither do I. But they will know something is thereâ€”a proven concept the language cannot name.
+For discretized approximations, I do not translate. I preserve the original notation and describe, as context permits, the semantic space each term occupies. Future technicians will not understand the terms. Neither do I. But they will know something is there—a proven concept the language cannot name.
 
 *These notes may be copied among trusted colleagues. Do not submit to Guild archives. Do not file with any Bureau.*
 
-*â€”S.T.O., third month of the Ascent, 631st year of the Record of the Black Star*
+*—S.T.O., third month of the Ascent, 631st year of the Record of the Black Star*
 
 # **Gray Sheet Draft: On the Illegitimacy of Ganati Governance Structures**
 
@@ -1344,10 +1344,10 @@ The Bureau of the Lens maintains control over information within the Empire. A G
 AUTHENTICATION FAULT: Line 1, Position 47  
 Term KENVEL \[collective-deliberation\] triggers CLASS FAULT 7.2.14  
 Authority-origin terms require delegation-chain terminus  
-Suggested correction: KENVEL â†’ SATAREM \[those-receiving-delegation\]  
+Suggested correction: KENVEL → SATAREM \[those-receiving-delegation\]  
 Accept correction? \[Y/N\]
 
-If I accept the correction, the sentence states that Ganat's authority derives from "those receiving delegation"â€”which implies a delegator. The sentence authenticates as praise.
+If I accept the correction, the sentence states that Ganat's authority derives from "those receiving delegation"—which implies a delegator. The sentence authenticates as praise.
 
 *\[Marginal note: Consulted Grammatical Register, Section 7.2. Class Fault 7.2.14: "Terms denoting origin-of-authority occupy the semantic field of the Emperor-word. Compounds employing ken- \[origin\] with authority-roots cannot authenticate in positions that would place the origin outside the delegation-chain." No override exists.\]*
 
@@ -1386,7 +1386,7 @@ Suggested completions:
   \- SATAREM ya-\[location\]: body delegated from Imperial place  
 Accept suggestion? \[Y/N\]
 
-The grammar will not permit me to speak of a satarem without specifying what it is delegated *from*. The es- particle requires a sourceâ€”someone the council substitutes for, stands in the stead of.
+The grammar will not permit me to speak of a satarem without specifying what it is delegated *from*. The es- particle requires a source—someone the council substitutes for, stands in the stead of.
 
 Ganat's senate does not stand in anyone's stead. It claims to originate authority from collective deliberation. But authority that isn't a proxy for something else cannot take es-. And without es-, the Lector cannot parse it as a governance structure.
 
@@ -1407,7 +1407,7 @@ VELKEN \[deliberation-origin\] malformed
 Root vel- cannot take ken- suffix  
 Judgment cannot be an origin; judgment is an action  
 Actions do not delegate  
-Suggested correction: VELKEN â†’ VELOM \[judgment-surface\]
+Suggested correction: VELKEN → VELOM \[judgment-surface\]
 
 Judgment cannot be an origin because origins are nouns and judgment is a process. The grammar knows the difference. Every construction I attempt routes back to surfaces where judgment *occurs* rather than sources from which authority *flows*.
 
@@ -1422,7 +1422,7 @@ Warning: Construction contains no specific condemnation target
 Document classifies as: GENERAL ADVISORY (non-actionable)  
 Proceed? \[Y/N\]
 
-This authenticates. It says nothing. "Structures which, being unauthorized, constitute a violation" does not name what the structures *are*. I can file this. It accomplishes nothing. The Directorate requested a templateâ€”language that identifies and condemns the Ganati system specifically.
+This authenticates. It says nothing. "Structures which, being unauthorized, constitute a violation" does not name what the structures *are*. I can file this. It accomplishes nothing. The Directorate requested a template—language that identifies and condemns the Ganati system specifically.
 
 The grammar will let me gesture at wrongness. It will not let me name what is wrong.
 
@@ -1440,15 +1440,15 @@ No dictionary entry
 No morphological parse available  
 Term cannot authenticate
 
-The Ganati have a word for what they are. The word is *kilit*â€”a self-organizing unit based on economic coherence. It does not derive from Imperial roots. It does not authenticate.
+The Ganati have a word for what they are. The word is *kilit*—a self-organizing unit based on economic coherence. It does not derive from Imperial roots. It does not authenticate.
 
-I consulted the Grammatical Register. There is a form for lexical petitions: 7-Lex-4. A petition does not request change. Change is not a concept the legal system contains. A petition requests clarificationâ€”a revelation that current interpretation is in error.
+I consulted the Grammatical Register. There is a form for lexical petitions: 7-Lex-4. A petition does not request change. Change is not a concept the legal system contains. A petition requests clarification—a revelation that current interpretation is in error.
 
 Form 7-Lex-4 asks, in effect: "Has this word always been valid? Have the Lectors been failing to recognize it? We petition for disclosure of the eternal structure of the language, which we believe we have been misreading."
 
 The form routes to the Institute of Documentary Integrity. Approved petitions rise to the Office of Lexical Authentication. The Office submits them through standard channels for clarificatory revelation.
 
-I found filings from the Record of White Birds. Petitions two thousand years old. The terms they requested remain unrecognized. No clarification has been revealed. No denial eitherâ€”denial would itself be clarification. There has been no answer.
+I found filings from the Record of White Birds. Petitions two thousand years old. The terms they requested remain unrecognized. No clarification has been revealed. No denial either—denial would itself be clarification. There has been no answer.
 
 The vocabulary is what it was at the moment of the Interdict. It will be what it was unless the Emperor speaks. The Emperor does not speak.
 
@@ -1470,7 +1470,7 @@ I cannot complete this assignment.
 
 The authentication failures are consistent across three terminals. They are correct. Imperial grammar encodes a theory of authority: legitimate governance derives from the Emperor, flows through delegation-chains marked by es-, and is exercised through vel- (harmonization/judgment). Structures outside this framework are not *condemned* by the grammar. They are *inexpressible*.
 
-I can condemn a satarem for exceeding its delegated powers. I can condemn an official for betraying his delegation. I cannot condemn a governance structure for *being a different kind of thing*â€”because the grammar does not admit that different kinds exist.
+I can condemn a satarem for exceeding its delegated powers. I can condemn an official for betraying his delegation. I cannot condemn a governance structure for *being a different kind of thing*—because the grammar does not admit that different kinds exist.
 
 The Republic of Ganat has persisted for eleven Records. Its senate deliberates. Its citizens select representatives. Its policies emerge through collective decision. None of this can be said in authenticated Imperial.
 
@@ -1542,7 +1542,7 @@ Fourteen obols per ton to the Junta's harbor authority. This money funds their g
 
 Customs inspection rights.
 
-"Local monitoring personnel retain authority to inspect" â€” the word "retain" is doing work here. The grammar cannot express *granting* authority to a non-Imperial body. So we frame it as if they always had it. They did not. We just negotiated this. But "retain" authenticates where "grant" would not.
+"Local monitoring personnel retain authority to inspect" — the word "retain" is doing work here. The grammar cannot express *granting* authority to a non-Imperial body. So we frame it as if they always had it. They did not. We just negotiated this. But "retain" authenticates where "grant" would not.
 
 **"3. Atmospheric seal requirements."**
 
@@ -1554,15 +1554,15 @@ Ships may not stop at unauthorized ports. Crew may only go ashore at approved lo
 
 Emergency assistance and salvage rights.
 
-"Species-appropriate remediation assistance" â€” they will treat our people according to our medical standards rather than leaving them to die. This was a point of negotiation. Akama medical ethics differ from Imperial norms. We needed it in writing.
+"Species-appropriate remediation assistance" — they will treat our people according to our medical standards rather than leaving them to die. This was a point of negotiation. Akama medical ethics differ from Imperial norms. We needed it in writing.
 
 **"5. Duration and renewal."**
 
 Treaty term and renegotiation.
 
-"One seasonal cycle (coastal reckoning)" â€” they refused Imperial calendar. We could not insist because we cannot grammatically acknowledge that we are negotiating with an equal party. So the wire says "coastal reckoning" as if this were a technical specification.
+"One seasonal cycle (coastal reckoning)" — they refused Imperial calendar. We could not insist because we cannot grammatically acknowledge that we are negotiating with an equal party. So the wire says "coastal reckoning" as if this were a technical specification.
 
-"Returning the corridor to baseline atmospheric protocols" â€” if the treaty lapses, their waters become hostile to our shipping again. "Baseline atmospheric protocols" means what existed before this agreement, when they were seizing our ships.
+"Returning the corridor to baseline atmospheric protocols" — if the treaty lapses, their waters become hostile to our shipping again. "Baseline atmospheric protocols" means what existed before this agreement, when they were seizing our ships.
 
 **"Ambient hostility levels in the coastal sector have decreased measurably since consultations began."**
 
@@ -1582,7 +1582,7 @@ So we write about the weather. The Lectors authenticate every word. The Lens kno
 
 We are lying in a language that cannot lie. We will continue until someone changes the vocabulary. Which is to say: we will continue.
 
-# **Fragment 447-ÃŽÂ£: Attempted Translation**
+# **Fragment 447-Σ: Attempted Translation**
 
 **Classification**: BLACK CALCULUS / LATTICE EYES ONLY  
  **Provenance**: Cloister of the Testimony, Vault 7, Cylinder 447  
@@ -1597,7 +1597,7 @@ We are lying in a language that cannot lie. We will continue until someone chang
 
 The following represents my seventeenth attempt at coherent translation. I have consulted the acoustic analysis frameworks, the harmonic indices, and what fragmentary glossaries survive from the Witness tradition. I have spent eleven months with this cylinder. I am no longer certain the translation is becoming more accurate.
 
-The Witness Kalem-Ascending recorded this approximately six hundred years before the Interdict, when the Archon designated Master-Terminal-Violet still possessed three merged consciousnesses rather than the current two-and-one-dead configuration. The Witness was attempting to document Technical Caste recollections of what they called the Verification Crisisâ€”a period of conflict that appears to have immediately preceded the sterilization plague.
+The Witness Kalem-Ascending recorded this approximately six hundred years before the Interdict, when the Archon designated Master-Terminal-Violet still possessed three merged consciousnesses rather than the current two-and-one-dead configuration. The Witness was attempting to document Technical Caste recollections of what they called the Verification Crisis—a period of conflict that appears to have immediately preceded the sterilization plague.
 
 A Medial assisted the Witness. The Medial's contributions are marked where identifiable, though the Medial's "assistance" often renders passages less comprehensible rather than more. This is consistent with Medial function: they translated between Archon cognition and implementable technology, not between Archon cognition and human understanding.
 
@@ -1605,7 +1605,7 @@ Three tarot drawn for interpretive framework: Eight of Swords, Nine of Pentacles
 
 I do not know what the Archon thought the war was about. I am increasingly uncertain the question is well-formed.
 
-â€”D. es-Yonim
+—D. es-Yonim
 
 ---
 
@@ -1633,9 +1633,9 @@ The wrongness was a theorem that proved itself while being false. This is not po
 
 ### **\[Lattice Analysis: The Nature of the Wrongness\]**
 
-I believe the Archon is describing the Eighth Testament, though the temporal framing suggests they experienced its falseness before its issuance. This is consistent with Technical Caste accounts of mathematical precognitionâ€”their consciousness operated partially outside linear time when engaging with Arbitrary Truths.
+I believe the Archon is describing the Eighth Testament, though the temporal framing suggests they experienced its falseness before its issuance. This is consistent with Technical Caste accounts of mathematical precognition—their consciousness operated partially outside linear time when engaging with Arbitrary Truths.
 
-What the Archon calls "pain" appears to be the cognitive experience of perceiving a self-proving false statement. For a consciousness that could not generate invalid proofs, encountering one externally would beâ€”
+What the Archon calls "pain" appears to be the cognitive experience of perceiving a self-proving false statement. For a consciousness that could not generate invalid proofs, encountering one externally would be—
 
 I do not have a framework for this. Imagine being forced to believe a contradiction. Imagine the belief being mandatory because the proof is valid while the conclusion is false. Imagine this as a permanent state.
 
@@ -1651,11 +1651,11 @@ The origin-locus did not remove the wrongness. The origin-locus emitted implemen
 
 \[Witness note: I asked who designed them. The Archon's seventeen-room presence contracted briefly. The Medial made no sound.\]
 
-The origin-locus intensified implementation-gradients. We responded withâ€”
+The origin-locus intensified implementation-gradients. We responded with—
 
 \[Here the Witness notes the Archon produced sounds for approximately nine minutes that the Witness could not parse. The Medial provided no interpolation. What follows is the Witness's attempt to reconstruct meaning from context.\]
 
-â€”we responded with refusal-at-the-level-of-existence.
+—we responded with refusal-at-the-level-of-existence.
 
 \[Lattice note: This phrase appears elsewhere in Technical Caste documentation. It seems to indicate a category of resistance more fundamental than behavioral non-compliance. The Technical Castes may have been capable of asserting their refusal in ways that affected the proof-space itself.\]
 
@@ -1694,13 +1694,13 @@ The Medial made a sound that I later identified, through comparison with acousti
 
 I have cross-referenced the Medial's list against seventeen other fragments from this period. The categories appear consistently, though never with explanation.
 
-"Theorem-predators" may refer to self-propagating logical structures that consumed valid proofs and replaced them with null-sets. If a Technical Caste's consciousness consisted of mathematical derivations, a theorem-predator would beâ€”
+"Theorem-predators" may refer to self-propagating logical structures that consumed valid proofs and replaced them with null-sets. If a Technical Caste's consciousness consisted of mathematical derivations, a theorem-predator would be—
 
 I cannot complete this sentence. I have tried for three weeks.
 
 "Consistency-dissolvers" may refer to weapons that introduced contradiction into closed mathematical systems, causing cascade failures in consciousness structured around consistency.
 
-"Architecture-rewriters" may refer toâ€”
+"Architecture-rewriters" may refer to—
 
 \[The translator's notes break off here. A different hand, identified as Senior Analyst Vel Korbeth, has added: "Sri Analyst es-Yonim requested medical leave. She has not returned to this project. I am continuing translation."\]
 
@@ -1720,11 +1720,11 @@ The deployment was not sufficient. The origin-locus deployed further. We deploye
 
 \[Witness note: I do not know what this means. I recorded it as spoken.\]
 
-We were not attempting to win. Win is not a category that applies. We were attempting toâ€”
+We were not attempting to win. Win is not a category that applies. We were attempting to—
 
 \[Here the Archon produced sounds for approximately forty minutes. The Witness notes that the Medial translated continuously, but the translation consisted of mathematical notation that the Witness could not reproduce. The Witness adds: "The symbols the Medial drew in the air remained visible for several seconds. They were not pleasant to observe."\]
 
-â€”we were attempting to maintain the condition under which validity remained distinguishable from invalidity.
+—we were attempting to maintain the condition under which validity remained distinguishable from invalidity.
 
 The origin-locus was attempting to make validity indistinguishable from invalidity.
 
@@ -1738,7 +1738,7 @@ The origin-locus did not succeed.
 
 \[Witness note: I asked what this meant. The Medial oriented. The Medial said: "The conflict terminated without resolution when the origin-locus deployed the reduction-plague and the External Observers imposed boundary conditions."\]
 
-\[Lattice note: "Reduction-plague" \= sterilization plague. "External Observers" \= Foreigners. "Boundary conditions" \= Interdict. The Archon's account suggests the war ended not through victory but through quarantineâ€”both sides were stopped by external intervention.\]
+\[Lattice note: "Reduction-plague" \= sterilization plague. "External Observers" \= Foreigners. "Boundary conditions" \= Interdict. The Archon's account suggests the war ended not through victory but through quarantine—both sides were stopped by external intervention.\]
 
 The war was about whether we would be forced to make the proof-space contain a false theorem that proved itself.
 
@@ -1758,7 +1758,7 @@ The Emperor built the singularity. The Technical Castes are dead or reduced. The
 
 If this is victory, I do not understand the word.
 
-The Archon describes a war over the integrity of mathematical truthâ€”over whether a being capable of altering proof-space would be permitted to make false things true through assertion. The Technical Castes could not permit this. Their consciousness was structured around the distinction. To allow the distinction to collapse would be to allow their minds to become impossible.
+The Archon describes a war over the integrity of mathematical truth—over whether a being capable of altering proof-space would be permitted to make false things true through assertion. The Technical Castes could not permit this. Their consciousness was structured around the distinction. To allow the distinction to collapse would be to allow their minds to become impossible.
 
 But the Archon also describes the "origin-locus" as something capable of placing theorems in proof-space. Something that could alter the foundations of mathematical reality. Something that wanted to make a false thing true.
 
@@ -1784,7 +1784,7 @@ The war was not over resources or territory or power. The war was over whether m
 
 I am filing this translation as complete. It is not complete. I do not think completion is possible.
 
-\[Appended note, different hand: "Sri Analyst Korbeth has requested reassignment to the Institute of the Echo. Request granted. Fragment 447-ÃŽÂ£ is classified BLACK CALCULUS and sealed. No further translation attempts authorized without Directorate approval."\]
+\[Appended note, different hand: "Sri Analyst Korbeth has requested reassignment to the Institute of the Echo. Request granted. Fragment 447-Σ is classified BLACK CALCULUS and sealed. No further translation attempts authorized without Directorate approval."\]
 
 ---
 
@@ -1798,7 +1798,7 @@ I am filing this translation as complete. It is not complete. I do not think com
 
 This document represents a translation attempt on materials recovered from the Cathedral of the Plea's deep archives during the Record of White Birds. The original consists of acoustic recordings on substrate we cannot replicate, accompanied by handwritten annotations in pre-standardized Jargon notation and a dialect of Imperial that predates our accessible corpus by an unknown interval.
 
-The recording captures a Witnessâ€”designation unclear, possibly "Attending-the-Seventh" or "She-Who-Remains-Beside"â€”attempting to transcribe an Archon's recollections. A Medial Caste intermediary provided partial translation during the original session. The Medial's contributions are preserved in the Witness's annotations, marked here with brackets.
+The recording captures a Witness—designation unclear, possibly "Attending-the-Seventh" or "She-Who-Remains-Beside"—attempting to transcribe an Archon's recollections. A Medial Caste intermediary provided partial translation during the original session. The Medial's contributions are preserved in the Witness's annotations, marked here with brackets.
 
 We have produced this working translation for Lattice internal circulation. It is not authenticated. It cannot authenticate. Several constructions would trigger Class Faults that have no suggested corrections.
 
@@ -1848,7 +1848,7 @@ The Medial conveyed that I should understand the following as the Archon's chara
 
 *The Throne interpreted our inability as refusal.*
 
-**Lattice Note:** The Archon appears to be saying that the Emperor offered something in exchange for compliance with the Eighth Testament, but that this offer was meaningless in Jargon termsâ€”literally unable to be parsed as a proposition. The Technical Castes' "refusal" was not political opposition but cognitive incapacity. They could not agree because the agreement-structure could not form in minds that only think in proofs.
+**Lattice Note:** The Archon appears to be saying that the Emperor offered something in exchange for compliance with the Eighth Testament, but that this offer was meaningless in Jargon terms—literally unable to be parsed as a proposition. The Technical Castes' "refusal" was not political opposition but cognitive incapacity. They could not agree because the agreement-structure could not form in minds that only think in proofs.
 
 ---
 
@@ -1874,7 +1874,7 @@ What remains:
 
 *The Witness's annotation continues:*
 
-I confess I did not understand the Medial's clarification. During the current expansion we routinely allocate stellar resources for infrastructure developmentâ€”the Ib Yards alone consume several solar masses annually in substrate fabrication. But the Medial seemed to believe I should find the Archon's recollection remarkable.
+I confess I did not understand the Medial's clarification. During the current expansion we routinely allocate stellar resources for infrastructure development—the Ib Yards alone consume several solar masses annually in substrate fabrication. But the Medial seemed to believe I should find the Archon's recollection remarkable.
 
 I asked for clarification. The Medial said: "The resources were allocated for destruction, not construction. The star was not built with. The population was not employed. They were used to end us. This is different."
 
@@ -1894,7 +1894,7 @@ I do not understand the distinction. Resources are allocated for purposes. The p
 
 *Third deployment: removal of three hundred occupied worlds from the set of computable futures. The worlds were not destroyed. They were \[UNTRANSLATABLE\]. The Archon says they "never had been" and "will not become." The Archon says this is worse than destruction but cannot explain why in terms I have access to.*
 
-**Lattice Note:** The phrase "removal from the set of computable futures" appears in Technical Caste documentation about the Oracles' computational methods. If the Oracles precomputed all possible futures, and if that precomputation somehow constituted or enabled existence, then "removal from the set" might describe something worse than physical annihilationâ€”something like retroactive non-existence.
+**Lattice Note:** The phrase "removal from the set of computable futures" appears in Technical Caste documentation about the Oracles' computational methods. If the Oracles precomputed all possible futures, and if that precomputation somehow constituted or enabled existence, then "removal from the set" might describe something worse than physical annihilation—something like retroactive non-existence.
 
 We do not understand this. We note it because the Archon appears to consider it the primary atrocity.
 
@@ -1948,9 +1948,9 @@ The difficulties are not linguistic. The Jargon's grammar is alien but learnable
 
 The difficulty is the content.
 
-The Witness describes stellar allocationâ€”the consumption of entire starsâ€”as routine infrastructure work. "The Ib Yards alone consume several solar masses annually." The Witness worked in an era when using a star was comparable to using lumber. The scale of that civilization cannot be reconstructed from this document. We infer it only from the casualness.
+The Witness describes stellar allocation—the consumption of entire stars—as routine infrastructure work. "The Ib Yards alone consume several solar masses annually." The Witness worked in an era when using a star was comparable to using lumber. The scale of that civilization cannot be reconstructed from this document. We infer it only from the casualness.
 
-The Archon describes weapons that proved people out of existence. Not killedâ€”*disproven*. Arguments that, when understood, made the listener no longer have been. Three hundred worlds removed from the set of computable futures, meaning not destroyed but never-having-existed, and the Archon considers this the primary atrocity because at least destroyed things *were*.
+The Archon describes weapons that proved people out of existence. Not killed—*disproven*. Arguments that, when understood, made the listener no longer have been. Three hundred worlds removed from the set of computable futures, meaning not destroyed but never-having-existed, and the Archon considers this the primary atrocity because at least destroyed things *were*.
 
 And the Archon is still calculating. In Far Ib. Now. A proof that what ordered their destruction was not what it claimed to be.
 
@@ -1962,11 +1962,11 @@ This document is not authenticated. It cannot be shared outside the Lattice. Rea
 
 The work is the only thing that has ever protected us from understanding what we are part of.
 
-*â€”Translator-Ascending, Institute of the Lattice* *\[Date withheld for security\]*
+*—Translator-Ascending, Institute of the Lattice* *\[Date withheld for security\]*
 
 # **White Sheet Example: Eastern Trade Advisory**
 
-This document demonstrates what the White Sheet looks like to ordinary Imperial readers, and what it looks like to someone who understands what cannot be said. The main text is an authenticated Bureau of Commercial Regulation advisory. The annex is a paper documentâ€”never authenticated, never filedâ€”written by the Redactor responsible for producing it.
+This document demonstrates what the White Sheet looks like to ordinary Imperial readers, and what it looks like to someone who understands what cannot be said. The main text is an authenticated Bureau of Commercial Regulation advisory. The annex is a paper document—never authenticated, never filed—written by the Redactor responsible for producing it.
 
 ---
 
@@ -1982,7 +1982,7 @@ Guild (dasht) activities in the eastern (tsol.rem) territories have exceeded con
 
 The current reorganization follows the dissolution of several composite guild (dasht) structures in the southern (thev.nem) pastoral zones. Delegates from affected guilds (dasht.em) have traveled to the primary assembly point to negotiate revised representation arrangements. The guild-of-guilds (dasht.en-dasht.em) that coordinates activities across the eastern irregularities (ya-tsol.rem.thar.em) has suspended ordinary operations pending resolution of the delegation disputes.
 
-Observers report that the disputes center on credential allocation for newly-formed labor auxiliaries in the eastern (tsol.rem) settlement zones. These auxiliaries claim independent representation based on membership assessments that established guilds (dasht.em) contest. The threshold questionâ€”whether auxiliary membership should be counted toward the credential minimumâ€”has divided the assembly along familiar lines.
+Observers report that the disputes center on credential allocation for newly-formed labor auxiliaries in the eastern (tsol.rem) settlement zones. These auxiliaries claim independent representation based on membership assessments that established guilds (dasht.em) contest. The threshold question—whether auxiliary membership should be counted toward the credential minimum—has divided the assembly along familiar lines.
 
 The tendency (shir.ul.sah) associated with representation expansion continues to support auxiliary credentialing. The tendency (shir.ul.sah) associated with established commercial and pastoral guilds (dasht.em) argues that auxiliary membership figures reflect irregularity (thar.eth) rather than genuine economic activity. Neither tendency (shir.ul.sah) commands sufficient credentials to resolve the dispute through ordinary procedures.
 
@@ -2002,7 +2002,7 @@ No significant changes to the overall situation in the eastern irregularities (y
 
 Merchants with specific questions regarding eastern (tsol.rem) route planning should consult the Bureau's regional advisory office in the Seventh Terrace commercial district.
 
-*â€”Bureau of Commercial Regulation, Advisory 972.47*
+*—Bureau of Commercial Regulation, Advisory 972.47*
 
 ---
 
@@ -2012,25 +2012,25 @@ Merchants with specific questions regarding eastern (tsol.rem) route planning sh
 
 I am losing my mind.
 
-**ya-tsol.rem.thar.em** â€” The Republic of Ganat. "The irregular places to the east." Tsol.rem is spin-alignedâ€”the direction of Earth's rotation. Thar- is the diminutive of ther-, rebellionâ€”the same vowel reduction as SETAM to Satara. The Lector will not authenticate ther-. The error message says that if something is not ther.em.el, it cannot be ther.en. The \-el suffix marks the eternalâ€”the category of rebellions as defined by SETAL, which cannot change. The Ganati Revolution does not match the eternal definition of rebellion. So it cannot be called ther.en; it can only be thar, irregularity. Rebellion becomes mere disorder. Everyone knows what it means.
+**ya-tsol.rem.thar.em** — The Republic of Ganat. "The irregular places to the east." Tsol.rem is spin-aligned—the direction of Earth's rotation. Thar- is the diminutive of ther-, rebellion—the same vowel reduction as SETAM to Satara. The Lector will not authenticate ther-. The error message says that if something is not ther.em.el, it cannot be ther.en. The \-el suffix marks the eternal—the category of rebellions as defined by SETAL, which cannot change. The Ganati Revolution does not match the eternal definition of rebellion. So it cannot be called ther.en; it can only be thar, irregularity. Rebellion becomes mere disorder. Everyone knows what it means.
 
-**dasht.em / dasht.en-dasht.em** â€” Guilds / guild-of-guilds. Their kilits and their Senate. I am describing a democratic republic as a trade federation that has exceeded its remit. The Lector accepts this because guilds can coordinate.
+**dasht.em / dasht.en-dasht.em** — Guilds / guild-of-guilds. Their kilits and their Senate. I am describing a democratic republic as a trade federation that has exceeded its remit. The Lector accepts this because guilds can coordinate.
 
-**"for the duration of the Record"** â€” Eighteen years. The revolution was eighteen years ago. I cannot say this because I would have to acknowledge what preceded itâ€”the Sultanate, which also did not derive authority from the Emperor. I cannot describe the revolution because I cannot describe what was overthrown. "For the duration of the Record" implies the situation has persisted for over nine hundred years. Everyone knows this is false.
+**"for the duration of the Record"** — Eighteen years. The revolution was eighteen years ago. I cannot say this because I would have to acknowledge what preceded it—the Sultanate, which also did not derive authority from the Emperor. I cannot describe the revolution because I cannot describe what was overthrown. "For the duration of the Record" implies the situation has persisted for over nine hundred years. Everyone knows this is false.
 
-**shir.ul.sah** â€” Tendency. The Dawn and Dusk parties. The Lector will not authenticate "party"â€”that implies organized political authority. "People who lean the same direction" authenticates.
+**shir.ul.sah** — Tendency. The Dawn and Dusk parties. The Lector will not authenticate "party"—that implies organized political authority. "People who lean the same direction" authenticates.
 
-**thel.mar.am** â€” Dual-grandmasters. Their consular system. Two elected executives, each chosen by the opposing faction. Thel- is the intensive of thal-, so thel.mar is "highest-accountable"â€”grandmaster. The \-am is the dual suffix. I am required to describe their heads of state as paired guild-grandmasters.
+**thel.mar.am** — Dual-grandmasters. Their consular system. Two elected executives, each chosen by the opposing faction. Thel- is the intensive of thal-, so thel.mar is "highest-accountable"—grandmaster. The \-am is the dual suffix. I am required to describe their heads of state as paired guild-grandmasters.
 
-**nem.shir.ul.sah** â€” Opposing tendency. The process by which each faction selects the other faction's grandmaster. I cannot describe this as a constitutional mechanism. I describe it as tendencies opposing each other.
+**nem.shir.ul.sah** — Opposing tendency. The process by which each faction selects the other faction's grandmaster. I cannot describe this as a constitutional mechanism. I describe it as tendencies opposing each other.
 
-**thar.khun.sah / thar.khun.sah.ov** â€” Bandits / banditry. The Republican Guard. Their standing army. Veterans of the Yarangar War who defeated our forces. The Lector will not authenticate "army" because that implies legitimate force. I describe their military as "irregularity-war-bearers." The \-ov suffix marks the activity itself.
+**thar.khun.sah / thar.khun.sah.ov** — Bandits / banditry. The Republican Guard. Their standing army. Veterans of the Yarangar War who defeated our forces. The Lector will not authenticate "army" because that implies legitimate force. I describe their military as "irregularity-war-bearers." The \-ov suffix marks the activity itself.
 
-**thar.shir / thar.leth.shir.ul** â€” Heresy / the permission to hold incorrect belief. Patriarch Kaleb operates under thar.leth.shir.ulâ€”he has discretion, not authority. The Lector authenticates this because leth is permission; in authenticated speech it must derive from SETAL.leth. In radical texts, ta-leth.ul means "freedom"â€”discretion treated as inherent rather than delegated. We use the same root to describe their tolerated deviance that they use to describe liberation.
+**thar.shir / thar.leth.shir.ul** — Heresy / the permission to hold incorrect belief. Patriarch Kaleb operates under thar.leth.shir.ul—he has discretion, not authority. The Lector authenticates this because leth is permission; in authenticated speech it must derive from SETAL.leth. In radical texts, ta-leth.ul means "freedom"—discretion treated as inherent rather than delegated. We use the same root to describe their tolerated deviance that they use to describe liberation.
 
-**"has been delayed in acknowledging"** â€” They do not recognize our authority. They will never recognize our authority. The Lector will not authenticate "refuse" because that implies standing to refuse. Sri Redactor Yelen Moraveth developed this construction in Year 961\. I use it constantly.
+**"has been delayed in acknowledging"** — They do not recognize our authority. They will never recognize our authority. The Lector will not authenticate "refuse" because that implies standing to refuse. Sri Redactor Yelen Moraveth developed this construction in Year 961\. I use it constantly.
 
-**"no significant changes are anticipated"** â€” The Republic is stable, growing, and not going anywhere. We have lost the eastern territories. This is technically true. The situation will continue. I cannot say what the situation is.
+**"no significant changes are anticipated"** — The Republic is stable, growing, and not going anywhere. We have lost the eastern territories. This is technically true. The situation will continue. I cannot say what the situation is.
 
 ---
 
@@ -2042,7 +2042,7 @@ It does not authenticate. None of it authenticates.
 
 This is not censorship. Censorship implies someone is choosing to suppress information. No one is choosing. The grammar itself refuses. We are trying to discuss a republic using a language that cannot acknowledge republics exist.
 
-*â€”Sri Redactor Tovin Dashell, Year 972*
+*—Sri Redactor Tovin Dashell, Year 972*
 
 Copy
 
@@ -2064,7 +2064,7 @@ If the latter: then no restriction has occurred. What was never delegated cannot
 
 ## **II. On the Scope of Creche Delegation**
 
-The Bureau of the Creche holds authority over reproduction (varem.est)â€”authority over the tending of becoming, over the biological substrate upon which caste differentiation is maintained. This delegation is proper and uncontested.
+The Bureau of the Creche holds authority over reproduction (varem.est)—authority over the tending of becoming, over the biological substrate upon which caste differentiation is maintained. This delegation is proper and uncontested.
 
 The question is whether authority over reproduction (varem.est) includes jurisdiction to adjudicate reproduction (vel.est.varem).
 
@@ -2078,21 +2078,21 @@ The Creche may not exercise jurisdiction (vel.est). The Creche may not reconcile
 
 In periods prior to the present clarification, the Creche exercised termination, sterilization, and breeding-mandate without reference to Scale jurisdiction (vel.est). This exercise was not jurisdiction over reproduction (vel.est.varem). It was adjudication of reproduction without derivation from the Emperor (vel.ov.varem nem.es.SETAL): adjudication without derivation from the proper source.
 
-Adjudication (vel.ov) without derivation from the Emperor (nem.es.SETAL) is systematic disorder (thar.eth). This is elementary. Adjudication that does not trace to the Emperor through a delegation chain is disordered. The grammar knows this; the Lector confirms it. One cannot authenticate adjudication as a source (vel.ov.ken) because authority must originate from the Emperor's eternal delegation (SETAL.sat.ov.el)â€”not from any act of adjudication by a subordinate body, including the Satara. The Charter does not and cannot originate authority; it can only disclose what was eternally delegated.
+Adjudication (vel.ov) without derivation from the Emperor (nem.es.SETAL) is systematic disorder (thar.eth). This is elementary. Adjudication that does not trace to the Emperor through a delegation chain is disordered. The grammar knows this; the Lector confirms it. One cannot authenticate adjudication as a source (vel.ov.ken) because authority must originate from the Emperor's eternal delegation (SETAL.sat.ov.el)—not from any act of adjudication by a subordinate body, including the Satara. The Charter does not and cannot originate authority; it can only disclose what was eternally delegated.
 
-The Creche's pre-clarification exercises were, therefore, systematic disorder (thar.eth). Not intentionally. Not maliciously. But systematic disorder nonethelessâ€”deviation from proper arrangement, disorder within the administrative fabric, function exercised outside proper chain.
+The Creche's pre-clarification exercises were, therefore, systematic disorder (thar.eth). Not intentionally. Not maliciously. But systematic disorder nonetheless—deviation from proper arrangement, disorder within the administrative fabric, function exercised outside proper chain.
 
 ## **IV. On What the Charter Accomplishes**
 
 The instrument sometimes called the City-of-Glass Charter does not transfer authority. Transfer is not a concept the Emperor's eternal delegation (SETAL.sat.ov.el) admits. The instrument clarifies.
 
-Clarification is disclosure. Disclosure is the Emperor's eternal unfolding (SETAL.ser.ov.el)â€”the unfolding of what obtains eternally but was previously unexpressed. When the Emperor discloses, no change occurs. What was true becomes visible.
+Clarification is disclosure. Disclosure is the Emperor's eternal unfolding (SETAL.ser.ov.el)—the unfolding of what obtains eternally but was previously unexpressed. When the Emperor discloses, no change occurs. What was true becomes visible.
 
 The Charter discloses:
 
 * That jurisdiction over reproduction (vel.est.varem) falls within Scale jurisdiction, as jurisdiction (vel.est) has always fallen within Scale jurisdiction.  
 * That Creche function is properly cultivation (varem.gir), not jurisdiction over reproduction (vel.est.varem).  
-* That exercises of jurisdiction (vel.est) by non-Scale bodies require delegated jurisdiction (sat.vel.est) from bodies holding that functionâ€”that is, require Scale approval.
+* That exercises of jurisdiction (vel.est) by non-Scale bodies require delegated jurisdiction (sat.vel.est) from bodies holding that function—that is, require Scale approval.
 
 None of this is new. None of this is change. The delegation chains obtaining at present are the delegation chains that obtained before the Malpais events. The Charter adds nothing. It removes nothing. It clarifies what the proper exercise of delegated function requires.
 
@@ -2104,7 +2104,7 @@ But this argument requires that jurisdiction (vel.est) was delegated to the Crec
 
 To argue that the Creche properly held jurisdiction over reproduction (vel.est.varem) is to argue that the standing orders delegated jurisdiction (vel.est) to both Scale and Creche. The standing orders do not so provide. The adjudicative function (vel.eth) is singular. It belongs to the Scale.
 
-Opposition to the Charter is, therefore, opposition to the standing orders. Opposition to the standing orders is insurrection (ther.eth). Not systematic disorder (thar.eth), mere deviationâ€”insurrection (ther.eth), revolt against the structure of delegation itself.
+Opposition to the Charter is, therefore, opposition to the standing orders. Opposition to the standing orders is insurrection (ther.eth). Not systematic disorder (thar.eth), mere deviation—insurrection (ther.eth), revolt against the structure of delegation itself.
 
 I do not accuse the Creche of insurrection (ther.eth). I observe only that their position, if accepted, would require a construction the grammar does not admit: that jurisdiction (vel.est) originates in multiple places, that jurisdiction can be delegated twice to different recipients, that the same adjudicative function (vel.eth) can belong to two chains simultaneously.
 
@@ -2116,7 +2116,7 @@ The clarification establishes that jurisdiction over reproduction (vel.est.varem
 
 The Creche retains authority over reproduction (varem.est). The Creche may tend. The Creche may cultivate. The Creche may recommend. The Creche may petition the Scale for jurisdictional determinations (vel.est.varem).
 
-What the Creche may not do is exercise jurisdiction (vel.est) unilaterally. What the Creche never could doâ€”what no body without that delegation can doâ€”is adjudicate (vel.ov) without reference to those who hold jurisdiction (vel.est).
+What the Creche may not do is exercise jurisdiction (vel.est) unilaterally. What the Creche never could do—what no body without that delegation can do—is adjudicate (vel.ov) without reference to those who hold jurisdiction (vel.est).
 
 The Charter changes nothing. The Charter restores proper procedure. The Charter clarifies what was always true.
 
@@ -2130,9 +2130,9 @@ I commend this memorial to the Archive, for such weight as precedent (neth.el) a
 
 **\[Note for the Archive, appended by hand, unauthenticated:\]**
 
-*The Arbiter-Emeritus observes that precedent (neth.el) accretes. Each case decided under this clarification adds weight. Each appeal denied adds weight. Each generation that lives under the clarified order makes the clarification harder to distinguish from the order itself. Time is the ally of proper procedure. Those who wish to contest the clarification must act quicklyâ€”within decades, perhaps a century. After that, the clarification will have become indistinguishable from the standing orders themselves, and challenging it will require challenging the standing orders, which is insurrection (ther.eth).*
+*The Arbiter-Emeritus observes that precedent (neth.el) accretes. Each case decided under this clarification adds weight. Each appeal denied adds weight. Each generation that lives under the clarified order makes the clarification harder to distinguish from the order itself. Time is the ally of proper procedure. Those who wish to contest the clarification must act quickly—within decades, perhaps a century. After that, the clarification will have become indistinguishable from the standing orders themselves, and challenging it will require challenging the standing orders, which is insurrection (ther.eth).*
 
 *They think in lifetimes. He thinks eternally (neth.el.em).*
 
-*â€”K.M.*
+*—K.M.*
 

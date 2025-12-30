@@ -25,7 +25,7 @@ see_also:
 
 ## **Executive Summary**
 
-This document contains approximately thirty-seven narrative pieces demonstrating how to write fiction in this setting. The vignettes are not reference material in the way the Index or location documents areâ€”they don't provide facts to be looked up. They provide models for tone, voice, and the handling of material that could easily become either morally simplistic or aesthetically overwrought.
+This document contains approximately thirty-seven narrative pieces demonstrating how to write fiction in this setting. The vignettes are not reference material in the way the Index or location documents are—they don't provide facts to be looked up. They provide models for tone, voice, and the handling of material that could easily become either morally simplistic or aesthetically overwrought.
 
 The guide below extracts principles for storytelling, identifies recurring themes that define the setting's concerns, and critically examines where these pieces fall into patterns that should be avoided.
 
@@ -35,9 +35,9 @@ The guide below extracts principles for storytelling, identifies recurring theme
 
 ### **Maintained Fictions**
 
-The setting is full of people sustaining systems they know are broken. The Scale Bureau advocate maintains a docket for interstellar courts that will never convene. The frontier tax collector reports fictional numbers to satisfy ledgers designed for an empire that no longer exists. The ya-Tsatsa software companies export products through processes no one observes. The DraÃ«then who returns home after twenty-seven years finds a collective that may take decades to decide whether she belongs.
+The setting is full of people sustaining systems they know are broken. The Scale Bureau advocate maintains a docket for interstellar courts that will never convene. The frontier tax collector reports fictional numbers to satisfy ledgers designed for an empire that no longer exists. The ya-Tsatsa software companies export products through processes no one observes. The Draëthen who returns home after twenty-seven years finds a collective that may take decades to decide whether she belongs.
 
-This is not hypocrisy. The characters understand what they're doing. They maintain the fiction because the alternativeâ€”acknowledging that the court will never sit, that the Empire claims territories it doesn't control, that no one knows what happens in the production hallsâ€”would require confronting a collapse that everyone has agreed to pretend hasn't happened.
+This is not hypocrisy. The characters understand what they're doing. They maintain the fiction because the alternative—acknowledging that the court will never sit, that the Empire claims territories it doesn't control, that no one knows what happens in the production halls—would require confronting a collapse that everyone has agreed to pretend hasn't happened.
 
 Stories in this setting often work by taking a maintained fiction seriously. What does it actually mean to inherit responsibility for a docket that generates forty obols monthly and will never produce a judgment? What does it feel like to file quarterly reports for a facility you're forbidden to enter?
 
@@ -57,9 +57,9 @@ Characters navigate this gap constantly. They know what the ledgers require and 
 
 ### **Biology as Social Position**
 
-The Sickly cannot perceive negative outcomes. The Ashrat run hot and die young. The Avouvar live centuries in radioactive cities. The DraÃ«then cannot make decisions without collective alignment. The es-Valenti sisters are iterations of the same genome, raised in isolation, preparing for marriages to cousins they'll never meet.
+The Sickly cannot perceive negative outcomes. The Ashrat run hot and die young. The Avouvar live centuries in radioactive cities. The Draëthen cannot make decisions without collective alignment. The es-Valenti sisters are iterations of the same genome, raised in isolation, preparing for marriages to cousins they'll never meet.
 
-Class is not merely economic or politicalâ€”it's engineered into bodies. The labor castes aren't workers who happen to be modified; they're modifications that happen to be workers. This creates moral complexity that simple oppression narratives can't capture. The Sickly narrator isn't sufferingâ€”she genuinely experiences her life as pleasant. The Ashrat workers aren't exploited in ways they resentâ€”their metabolisms require the conditions that shorten their lives.
+Class is not merely economic or political—it's engineered into bodies. The labor castes aren't workers who happen to be modified; they're modifications that happen to be workers. This creates moral complexity that simple oppression narratives can't capture. The Sickly narrator isn't suffering—she genuinely experiences her life as pleasant. The Ashrat workers aren't exploited in ways they resent—their metabolisms require the conditions that shorten their lives.
 
 Stories that flatten this into "the castes are oppressed" miss the setting's point. The horror is precisely that the system works as designed. The modifications produce the intended results. The question isn't whether the system is cruel but whether cruelty can be built so deep into reality that it stops being cruelty and becomes simply how things are.
 
@@ -85,13 +85,13 @@ This grounds fantastic elements in practical reality. We understand what a plasm
 
 No one in these vignettes is discovering the Empire's dysfunction for the first time. The advocate knows his docket is fiction. The tax collector knows the assessment is impossible. The Testament Society initiate knows the degrees may never lead to revelation.
 
-This creates different dramatic possibilities than stories about awakening or discovery. The drama comes from how characters navigate knowledge they already possessâ€”what accommodations they make, what resistances they maintain, what prices they pay for understanding without power.
+This creates different dramatic possibilities than stories about awakening or discovery. The drama comes from how characters navigate knowledge they already possess—what accommodations they make, what resistances they maintain, what prices they pay for understanding without power.
 
 ### **Sensory Specificity Over Abstraction**
 
 The destrier's clicking. The ash taste on the tongue. The particular shimmer of Ashrat skin. The aurora-colors against absolute black. The weight of copper in the hand.
 
-Abstract statements about "the Empire's decay" or "the burden of inheritance" communicate less than concrete details that imply these conditions. The advocate's books that no one buys, the pension that doesn't cover food, the shop built into arcology foundationsâ€”these create meaning that summary statements cannot.
+Abstract statements about "the Empire's decay" or "the burden of inheritance" communicate less than concrete details that imply these conditions. The advocate's books that no one buys, the pension that doesn't cover food, the shop built into arcology foundations—these create meaning that summary statements cannot.
 
 ### **Exposition Through Implication**
 
@@ -103,7 +103,7 @@ Readers should feel they're seeing a small portion of something vast, not receiv
 
 The tax collector destroys a family. The story doesn't condemn this. The revolutionary kills a guard. The story doesn't celebrate this. The Sickly narrator describes plagues in terms of peaceful faces. The story doesn't correct her perception.
 
-This restraint is difficult. The impulse to editorializeâ€”to ensure readers understand what they should feelâ€”produces stories that are morally simple in ways that betray the setting. The Post-Interdict Empire is designed to explore situations where different moral frameworks are internally consistent but incompatible. Stories that resolve this complexity into clear judgments miss the point.
+This restraint is difficult. The impulse to editorialize—to ensure readers understand what they should feel—produces stories that are morally simple in ways that betray the setting. The Post-Interdict Empire is designed to explore situations where different moral frameworks are internally consistent but incompatible. Stories that resolve this complexity into clear judgments miss the point.
 
 ### **The Weird Should Be Ordinary**
 
@@ -137,17 +137,17 @@ Overused throughout as an intensifier. "That particular exhaustion." "The partic
 
 ### **Sameness of Narrative Voice**
 
-Many pieces share a similar authorial tone regardless of whose perspective they occupy. The Sickly piece succeeds partly because its voice is genuinely differentâ€”the narrator's inability to perceive negativity shapes the prose itself. Other first-person pieces don't achieve this distinctiveness; they sound like the same narrator wearing different costumes.
+Many pieces share a similar authorial tone regardless of whose perspective they occupy. The Sickly piece succeeds partly because its voice is genuinely different—the narrator's inability to perceive negativity shapes the prose itself. Other first-person pieces don't achieve this distinctiveness; they sound like the same narrator wearing different costumes.
 
-When writing in close perspective, the character's cognition should shape the prose. An Ashrat worker thinks in terms of heat, shift schedules, guild politics. A Creche Aureate thinks in terms of iteration, optimization, genomic legacy. A DraÃ«then thinks in terms of consensus, alignment, collective purpose. These different cognitive styles should produce different sentence structures, different vocabularies, different rhythms.
+When writing in close perspective, the character's cognition should shape the prose. An Ashrat worker thinks in terms of heat, shift schedules, guild politics. A Creche Aureate thinks in terms of iteration, optimization, genomic legacy. A Draëthen thinks in terms of consensus, alignment, collective purpose. These different cognitive styles should produce different sentence structures, different vocabularies, different rhythms.
 
 ### **Lists Disguised as Prose**
 
-Some passages catalog elements rather than integrating them into narrative flow. This creates the impression of thoroughness without the experience of immersion. If a scene requires mentioning many things, find ways to make the enumeration serve a narrative purposeâ€”a character counting, a process unfolding, a journey progressingâ€”rather than simply listing.
+Some passages catalog elements rather than integrating them into narrative flow. This creates the impression of thoroughness without the experience of immersion. If a scene requires mentioning many things, find ways to make the enumeration serve a narrative purpose—a character counting, a process unfolding, a journey progressing—rather than simply listing.
 
 ### **Theatrical Epiphanies**
 
-Several pieces end with characters realizing something significant. This can work, but it often feels too neatâ€”as though the story exists to deliver the realization. The strongest pieces end in action or continuation rather than insight. The advocate files his report. The tax collector moves to the next village. The coppersmith picks up the pipe again.
+Several pieces end with characters realizing something significant. This can work, but it often feels too neat—as though the story exists to deliver the realization. The strongest pieces end in action or continuation rather than insight. The advocate files his report. The tax collector moves to the next village. The coppersmith picks up the pipe again.
 
 ---
 

@@ -14,21 +14,21 @@ see_also:
 
 **Vey at ya-Sattra**
 
-The Inner City appeared first, while they were still thirty miles outâ€”a spiral cone of light rising from the darkness, so tall its apex disappeared into low clouds that glowed amber and teal from within. The colors shifted slowly, like oil on water, painting the entire southern sky.
+The Inner City appeared first, while they were still thirty miles out—a spiral cone of light rising from the darkness, so tall its apex disappeared into low clouds that glowed amber and teal from within. The colors shifted slowly, like oil on water, painting the entire southern sky.
 
 "That's not possible," Vey said.
 
 Ghom, standing beside him at the rail, shrugged. "Empire likes impossible things."
 
-As dawn broke, more impossibilities emerged. The Antediluvian Quarter's arcologies became visibleâ€”cylinders and pyramids reaching heights that architecture shouldn't sustain, some dark and dead, others blazing with ten thousand points of light. The es-Tsay cylinder displayed its city-simulation on every surface, a living map that updated in real-time. Only as they drew closer could Vey see the gapsâ€”the collapsed sections, the bridges to nowhere, the lower structures built from brick and timber that clustered around the ancient foundations like barnacles.
+As dawn broke, more impossibilities emerged. The Antediluvian Quarter's arcologies became visible—cylinders and pyramids reaching heights that architecture shouldn't sustain, some dark and dead, others blazing with ten thousand points of light. The es-Tsay cylinder displayed its city-simulation on every surface, a living map that updated in real-time. Only as they drew closer could Vey see the gaps—the collapsed sections, the bridges to nowhere, the lower structures built from brick and timber that clustered around the ancient foundations like barnacles.
 
-The Flame of the Revolution turned south, following the coast toward the Rift's mouth. The narrow inlet had been carved by geological forces Vey didn't understandâ€”the former undersea canyon of Monterey Bay, now exposed and flooded to create the perfect natural harbor. Cliffs rose on both sides, the northern edge topped by the Antediluvian Quarter's geometries, the southern edge lower, industrial, crowned with smoke from the Iron Yards.
+The Flame of the Revolution turned south, following the coast toward the Rift's mouth. The narrow inlet had been carved by geological forces Vey didn't understand—the former undersea canyon of Monterey Bay, now exposed and flooded to create the perfect natural harbor. Cliffs rose on both sides, the northern edge topped by the Antediluvian Quarter's geometries, the southern edge lower, industrial, crowned with smoke from the Iron Yards.
 
-The docks began at the Rift's mouth and continued for what looked like milesâ€”wooden piers, stone quays, floating platforms, all built along the southern edge where the land met water. Hundreds of vessels crowded the anchorages: Imperial warships with their bronze rams, Ganati traders flying red revolutionary stars, fishing boats from villages Vey couldn't name, and stranger craftâ€”a Westerner ship sealed tight, its crew never showing themselves, something that might have been grown rather than built, all barnacle and organic curves.
+The docks began at the Rift's mouth and continued for what looked like miles—wooden piers, stone quays, floating platforms, all built along the southern edge where the land met water. Hundreds of vessels crowded the anchorages: Imperial warships with their bronze rams, Ganati traders flying red revolutionary stars, fishing boats from villages Vey couldn't name, and stranger craft—a Westerner ship sealed tight, its crew never showing themselves, something that might have been grown rather than built, all barnacle and organic curves.
 
-Port Authority boats converged on them before they'd even dropped anchor. Not one boat but threeâ€”Harbor Control, Bureau of Coin customs, Bureau of the Lens security. The Ganati crew raised flags indicating peaceful commerce, but Vey could see the cannon emplacements tracking them from shore batteries. A revolutionary vessel entering the Imperial capital warranted attention.
+Port Authority boats converged on them before they'd even dropped anchor. Not one boat but three—Harbor Control, Bureau of Coin customs, Bureau of the Lens security. The Ganati crew raised flags indicating peaceful commerce, but Vey could see the cannon emplacements tracking them from shore batteries. A revolutionary vessel entering the Imperial capital warranted attention.
 
-They anchored in the quarantine zone, a quarter-mile from the main docks. Every new arrival went through inspection here. The first boat brought Harbor Controlâ€”a bored official who checked their registration, noted their point of origin, charged them sixty obols for anchorage. Standard procedure.
+They anchored in the quarantine zone, a quarter-mile from the main docks. Every new arrival went through inspection here. The first boat brought Harbor Control—a bored official who checked their registration, noted their point of origin, charged them sixty obols for anchorage. Standard procedure.
 
 The second boat brought trouble.
 
@@ -76,17 +76,17 @@ They argued in bureaucratic language for ten minutes. Finally, a compromise: Vey
 
 The sun was setting by the time they were cleared to dock.
 
-The Rift's scale became clear only as they approached the quays. The inlet was perhaps a quarter-mile wide but miles long, cutting deep into the city. The southern edge, where they docked, was pure industryâ€”cranes, warehouses, mountains of cargo. The northern edge rose in cliffs topped by the impossible architectures of the Antediluvian Quarter. And at the Rift's far end, where the inlet narrowed to nothing, the Inner City rose like a mountain, its bronze spiral disappearing into evening haze.
+The Rift's scale became clear only as they approached the quays. The inlet was perhaps a quarter-mile wide but miles long, cutting deep into the city. The southern edge, where they docked, was pure industry—cranes, warehouses, mountains of cargo. The northern edge rose in cliffs topped by the impossible architectures of the Antediluvian Quarter. And at the Rift's far end, where the inlet narrowed to nothing, the Inner City rose like a mountain, its bronze spiral disappearing into evening haze.
 
 "Where do we stay?" Tselkor asked, staring at the city sprawling in every direction.
 
 Ghom had been talking to a dock worker, getting information. "Iron Yards. South of here. They're used to foreigners, and armed foreigners can defend themselves."
 
-They hired a porter who knew the wayâ€”a Springheel stevedore whose modified tendons let him carry their entire luggage in bounds that covered twenty feet. Following him meant half-running through the dock district, past warehouses that reeked of fish and grain, through crowds that included every human variant Vey had ever heard of and several he hadn't.
+They hired a porter who knew the way—a Springheel stevedore whose modified tendons let him carry their entire luggage in bounds that covered twenty feet. Following him meant half-running through the dock district, past warehouses that reeked of fish and grain, through crowds that included every human variant Vey had ever heard of and several he hadn't.
 
-The Iron Yards occupied a quarried depression behind the docks. The smell hit firstâ€”hot metal, coal smoke, industrial chemistry. Then the soundâ€”hammering, cutting, the roar of forges. Then the sightâ€”sparks falling like snow from elevated cutting platforms, the Salvage Guild's dome rising from the center like a bronze mountain, tenements climbing the quarry walls in defiance of gravity.
+The Iron Yards occupied a quarried depression behind the docks. The smell hit first—hot metal, coal smoke, industrial chemistry. Then the sound—hammering, cutting, the roar of forges. Then the sight—sparks falling like snow from elevated cutting platforms, the Salvage Guild's dome rising from the center like a bronze mountain, tenements climbing the quarry walls in defiance of gravity.
 
-They found lodging at a place called the Copper Man's Rest, which was neither copper nor restful. A converted warehouse subdivided into rooms barely large enough for bedrolls, but the proprietorâ€”a scarred woman who might have been Akama-mixedâ€”didn't ask questions about armed foreigners or classification-pending Kma-Dhol.
+They found lodging at a place called the Copper Man's Rest, which was neither copper nor restful. A converted warehouse subdivided into rooms barely large enough for bedrolls, but the proprietor—a scarred woman who might have been Akama-mixed—didn't ask questions about armed foreigners or classification-pending Kma-Dhol.
 
 "Many's counting house?" Vey asked her after they'd paid for three nights.
 
@@ -94,9 +94,9 @@ They found lodging at a place called the Copper Man's Rest, which was neither co
 
 "Banking matter."
 
-She laughed. "Everything's a banking matter with Many. Don't go at middayâ€”queue's worst then. Early morning or just before closing." She paused. "And don't try to jump the queue. The ta-Kefyeh guards will throw you in the harbor."
+She laughed. "Everything's a banking matter with Many. Don't go at midday—queue's worst then. Early morning or just before closing." She paused. "And don't try to jump the queue. The ta-Kefyeh guards will throw you in the harbor."
 
-Vey lay awake that night, listening to the Iron Yards' endless industry. Outside, sparks fell continuously from the cutting platforms. The Inner City's lights painted the clouds above. Somewhere in this impossible city were the sewer-fishersâ€”the potential salvation for forty thousand Kma-Dhol.
+Vey lay awake that night, listening to the Iron Yards' endless industry. Outside, sparks fell continuously from the cutting platforms. The Inner City's lights painted the clouds above. Somewhere in this impossible city were the sewer-fishers—the potential salvation for forty thousand Kma-Dhol.
 
 Tomorrow he'd go to Many's counting house. He'd present his letter. He'd begin the slow process of establishing contact with populations that had survived by hiding.
 

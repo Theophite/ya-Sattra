@@ -26,7 +26,7 @@ Hanno stared at it without moving, that terrible stillness settling over him lik
 
 The lie was so bold it felt like being slapped. Jak's fingers twitched in those nervous patterns, but he said nothing. Mesca watched from near the altar, already calculating how this would play in the intelligence markets.
 
-"That's notâ€”" Hanno began.
+"That's not—" Hanno began.
 
 "That's what happened." Luka cut him off with the voice of someone who'd been rewriting history since birth. "The Chain-Men saw you beat Garren. They saw their commander disciplined. By tomorrow, they'll know it was on my authority. My enforcer, carrying out my will."
 
@@ -38,7 +38,7 @@ The pause stretched. Luka's face, inhuman as it was, revealed nothing.
 
 "Unless you're one of mine. A Hanged Man. Protected by Knot law." His head tilted slightly, studying Hanno with those eyes that sat too deep in his skull. "I'm doing you a favor, fostering. Your Venn family can't protect you from what's coming. Your Guild master won't shield you from Garren's revenge. But I can."
 
-"I don't needâ€”"
+"I don't need—"
 
 "You need exactly what I'm offering." Luka's voice carried the particular tone of someone explaining something to a child. "Legitimacy. Protection. Purpose. You've been collecting debts for the Guild, breaking fingers for scrap metal. I'm offering you real work. The kind that matters."
 
@@ -48,7 +48,7 @@ Luka didn't look at her, keeping his focus on Hanno. "Garren exceeded his author
 
 The trap was perfect. By claiming credit for the beating, Luka transformed personal revenge into Knot business. Hanno could accept the badge and protection, or refuse and face Garren's retaliation alone. Either way, Luka won \- either gaining a powerful enforcer or watching a potential threat eliminate itself.
 
-"The Vennsâ€”" Hanno started.
+"The Venns—" Hanno started.
 
 "Remain as they are. Under Knot protection like every family that pays their water fees." Luka's tone suggested this was generosity rather than existing arrangement. "Your fostering father keeps his Guild appointment. The lift continues operating."
 

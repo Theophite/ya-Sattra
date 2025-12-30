@@ -14,7 +14,7 @@ see_also:
 
 ## **At the Red Tongue**
 
-The Red Tongue occupied a carved chamber off the Second Terrace, three levels up from the Copper Market. The walls were oldâ€”older than the Republic, older than the Sultanate by the look of the chisel marksâ€”and generations of hookah smoke had stained the sandstone ceiling the color of weak tea. Electric bulbs in copper fixtures cast warm light over low tables, cushions, the brass water pipes that gave the place its living. A Dawn-affiliated establishment: the owner's brother sat on the Workingmen's Coalition steering committee, and the clientele skewed toward artisans who read Ganati Dawn and thought Revolutionary Witness was for people who'd forgotten what work felt like.
+The Red Tongue occupied a carved chamber off the Second Terrace, three levels up from the Copper Market. The walls were old—older than the Republic, older than the Sultanate by the look of the chisel marks—and generations of hookah smoke had stained the sandstone ceiling the color of weak tea. Electric bulbs in copper fixtures cast warm light over low tables, cushions, the brass water pipes that gave the place its living. A Dawn-affiliated establishment: the owner's brother sat on the Workingmen's Coalition steering committee, and the clientele skewed toward artisans who read Ganati Dawn and thought Revolutionary Witness was for people who'd forgotten what work felt like.
 
 Arsam found Beram at their usual table, already packing a bowl with tobacco and a little hashish. The day's Ganati Dawn lay on the table between them, the headline visible: DHAL-OROM DENIES DEBT BONDAGE ALLEGATIONS. Beneath it, smaller: *Marcher Pastoralists Speak Out on Conditions in Eastern Holdings.*
 
@@ -22,7 +22,7 @@ Arsam found Beram at their usual table, already packing a bowl with tobacco and 
 
 Arsam sat, tucking his legs beneath him on the cushion. "I saw it."
 
-"'Denies.' He denies." Beram lit the bowl, drew until the coal glowed, exhaled a stream of sweet smoke. His scales were dyed rust-orange across his shoulders and arms, a geometric pattern his mother had done before he'd left for the city. Less copper than Arsam woreâ€”Beram was still a journeyman, still building his craftâ€”but he'd started adding filigree to his wrists, clean simple spirals that showed he was learning. "My cousin's wife is from a family that pastures near his holdings. She says the debt bondage is the least of it."
+"'Denies.' He denies." Beram lit the bowl, drew until the coal glowed, exhaled a stream of sweet smoke. His scales were dyed rust-orange across his shoulders and arms, a geometric pattern his mother had done before he'd left for the city. Less copper than Arsam wore—Beram was still a journeyman, still building his craft—but he'd started adding filigree to his wrists, clean simple spirals that showed he was learning. "My cousin's wife is from a family that pastures near his holdings. She says the debt bondage is the least of it."
 
 "I don't doubt it."
 
@@ -48,13 +48,13 @@ Beram leaned back against the wall, the stained sandstone framing his head like 
 
 "Is there?"
 
-Arsam drew on the pipe again, watching the coal flare. The lounge was filling up as the afternoon stretched toward eveningâ€”other coppersmiths, a few jewelers, some workers from the Dam turbines who lived in this section of the warren. At the table nearest the door, three older men were arguing about something in the paper, one of them jabbing his finger at the Dhal-Orom headline.
+Arsam drew on the pipe again, watching the coal flare. The lounge was filling up as the afternoon stretched toward evening—other coppersmiths, a few jewelers, some workers from the Dam turbines who lived in this section of the warren. At the table nearest the door, three older men were arguing about something in the paper, one of them jabbing his finger at the Dhal-Orom headline.
 
 "The Khen-Masot offer is specific," Arsam said. "Preferential contracts for Collective members. Purchase quotas. Infrastructure investment for the market. Real things. Material things."
 
 "And in exchange, our delegation goes to Dusk."
 
-"Our delegation goes to a merchant coalition that wants to buy artisan goods. That's notâ€”" He stopped, aware of how it would sound. "The Workingmen's Coalition has been good to us. I'm not saying otherwise. But we're padding for them. Our votes go into the labor bloc, the labor bloc negotiates for wages and conditions, and coppersmiths get whatever stevedores and warehouse workers get. Which is fine. But we're not stevedores."
+"Our delegation goes to a merchant coalition that wants to buy artisan goods. That's not—" He stopped, aware of how it would sound. "The Workingmen's Coalition has been good to us. I'm not saying otherwise. But we're padding for them. Our votes go into the labor bloc, the labor bloc negotiates for wages and conditions, and coppersmiths get whatever stevedores and warehouse workers get. Which is fine. But we're not stevedores."
 
 "So you'd rather pad for merchants."
 
@@ -64,11 +64,11 @@ Beram took the pipe back, drew, exhaled slowly. His dark sclerae caught the elec
 
 "Don't."
 
-"Seven senators from the marches. Empty constituencies. Pastoralists paid to bulk up the membership numbers for aristocrats who keep serfs and marry theirâ€”"
+"Seven senators from the marches. Empty constituencies. Pastoralists paid to bulk up the membership numbers for aristocrats who keep serfs and marry their—"
 
 "Beram."
 
-"â€”fifteen-year-old cousins. That's who you'd be delegating with. That's whose coalition you'd be strengthening."
+"—fifteen-year-old cousins. That's who you'd be delegating with. That's whose coalition you'd be strengthening."
 
 "Seven seats out of two hundred. They're irrelevant."
 
@@ -76,7 +76,7 @@ Beram took the pipe back, drew, exhaled slowly. His dark sclerae caught the elec
 
 The words hung there. Arsam set the pipe down on the table between them, next to the newspaper with its headline about denials and allegations.
 
-"My mother's sister married into a family that pastures the eastern hills," Beram said. "Not Dhal-Orom's territoryâ€”further south, near the old border. But they know people. They hear things. The marcher lords aren'tâ€”" He stopped, started again. "They're not abstractions for me. When Ganati Dawn runs another story about conditions in the holdings, that's not yellow journalism. That's my cousin telling her mother what she saw when she visited her in-laws."
+"My mother's sister married into a family that pastures the eastern hills," Beram said. "Not Dhal-Orom's territory—further south, near the old border. But they know people. They hear things. The marcher lords aren't—" He stopped, started again. "They're not abstractions for me. When Ganati Dawn runs another story about conditions in the holdings, that's not yellow journalism. That's my cousin telling her mother what she saw when she visited her in-laws."
 
 "I understand that."
 
@@ -84,7 +84,7 @@ The words hung there. Arsam set the pipe down on the table between them, next to
 
 Arsam didn't answer immediately. The three men at the table by the door had stopped arguing; one of them was reading aloud from the paper now, something about testimony from former debt laborers. The words were indistinct at this distance, but the tone carried. Outrage, satisfaction, the pleasure of having one's enemies exposed.
 
-"The Khen-Masots aren't marcher lords," Arsam said finally. "They're textile merchants. They run workshops. They provide subsidized power to fifteen thousand households. When I take a commission from them, I'm notâ€”"
+"The Khen-Masots aren't marcher lords," Arsam said finally. "They're textile merchants. They run workshops. They provide subsidized power to fifteen thousand households. When I take a commission from them, I'm not—"
 
 "You're not what? Collaborating?" Beram shook his head. "I know you're not. You're calculating. The Khen-Masot offer is good, and if the Collective declares for them, coppersmiths get something concrete instead of sharing in whatever the labor bloc negotiates. I understand the logic. Revolutionary Witness would write a very sophisticated article about the structural incentives that lead artisan kilits toward merchant coalitions."
 
@@ -92,17 +92,17 @@ Arsam didn't answer immediately. The three men at the table by the door had stop
 
 "But I don't read Revolutionary Witness."
 
-He picked up the Ganati Dawn and folded it so the Dhal-Orom headline faced Arsam directly. The woodcut illustration showed a figure that was probably meant to be the senatorâ€”Serrulata features exaggerated into something haughty and cruel, scales rendered as armor rather than skin.
+He picked up the Ganati Dawn and folded it so the Dhal-Orom headline faced Arsam directly. The woodcut illustration showed a figure that was probably meant to be the senator—Serrulata features exaggerated into something haughty and cruel, scales rendered as armor rather than skin.
 
-"Dawn built the road my family uses to get their wool to market," Beram said. "Dawn settlement policy got my uncle's kilit irrigation access. Dawn apprenticeship subsidies paid for me to learn how to do this"â€”he held up his hands, the journeyman's filigree glinting on his wristsâ€”"instead of herding goats until my back gave out. I'm not a theorist. I don't care about structural incentives. I care that when I was sixteen, someone in the Dawn coalition decided that a pastor's son from the foothills deserved a chance, and now I'm here."
+"Dawn built the road my family uses to get their wool to market," Beram said. "Dawn settlement policy got my uncle's kilit irrigation access. Dawn apprenticeship subsidies paid for me to learn how to do this"—he held up his hands, the journeyman's filigree glinting on his wrists—"instead of herding goats until my back gave out. I'm not a theorist. I don't care about structural incentives. I care that when I was sixteen, someone in the Dawn coalition decided that a pastor's son from the foothills deserved a chance, and now I'm here."
 
 "And you think I don't care about that?"
 
-"I think you've always been here. Your family's been in the Copper Market forâ€”how many generations?"
+"I think you've always been here. Your family's been in the Copper Market for—how many generations?"
 
 "Four. Five if you count the records that might be fabricated."
 
-"Five generations of Sor-Kethanis making copper in the same plaza. You've never needed Dawn to build you a road. The roads were already built when your great-great-grandfather was cutting filigree." Beram's voice wasn't angryâ€”tired, maybe, or resigned. "So when Khen-Masot offers you something specific, you calculate. And the calculation makes sense. I'm not saying it doesn't. But when you walk into that assembly tonight and argue for Dusk delegation, you're arguing for a coalition that includes Dhal-Orom. And I can'tâ€”"
+"Five generations of Sor-Kethanis making copper in the same plaza. You've never needed Dawn to build you a road. The roads were already built when your great-great-grandfather was cutting filigree." Beram's voice wasn't angry—tired, maybe, or resigned. "So when Khen-Masot offers you something specific, you calculate. And the calculation makes sense. I'm not saying it doesn't. But when you walk into that assembly tonight and argue for Dusk delegation, you're arguing for a coalition that includes Dhal-Orom. And I can't—"
 
 He stopped. Picked up the pipe. Drew on it and found it had gone out.
 

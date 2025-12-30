@@ -35,13 +35,13 @@ Use this document when you need to:
 * Understand morphological roots and how they combine  
 * Write dialogue that marks social position through register  
 * Understand what Lectors authenticate and what they ignore  
-* Know what concepts formal Imperial cannot expressâ€”and how people express them anyway  
+* Know what concepts formal Imperial cannot express—and how people express them anyway  
 * Write authentication failure scenes  
 * Write scenes where characters encounter the gap between what they know and what they can say  
 * Understand why the Emperor's letters are wrong in ways no one can report  
 * Generate consistent terms, partial translations, and authentication faults
 
-**Important:** The morphological analysis below is descriptive linguistics, not a guide to how speakers form words. Modern Imperial is largely analytic. Words are fixed units. Most speakers do not parse them. The roots and affixes are fossil structureâ€”visible to scholars, invisible to ordinary speakers.
+**Important:** The morphological analysis below is descriptive linguistics, not a guide to how speakers form words. Modern Imperial is largely analytic. Words are fixed units. Most speakers do not parse them. The roots and affixes are fossil structure—visible to scholars, invisible to ordinary speakers.
 
 ---
 
@@ -55,7 +55,7 @@ The information exists. It's in documents. It's been seen. But the grammar for p
 
 **The mysteries are proven, not uncertain.**
 
-The Jargon was a language where false statements could not cohere. Concepts expressed in the Jargon are mathematically certainâ€”more solid than anything Imperial can express. The mystery isn't "we don't know if this is true." The mystery is "this is true, verified, provenâ€”and we cannot say it."
+The Jargon was a language where false statements could not cohere. Concepts expressed in the Jargon are mathematically certain—more solid than anything Imperial can express. The mystery isn't "we don't know if this is true." The mystery is "this is true, verified, proven—and we cannot say it."
 
 **The mysteries are engineering failures, not cosmic inscrutability.**
 
@@ -67,19 +67,19 @@ The Testaments are available. You can read them. The Eighth Testament commanded 
 
 Why?
 
-Not "what did the Oracle want"â€”that's documented. But why would a superintelligence that has already computed all consequences issue *that* command? What optimization target makes this the correct output?
+Not "what did the Oracle want"—that's documented. But why would a superintelligence that has already computed all consequences issue *that* command? What optimization target makes this the correct output?
 
-The Oracle was right. The reasoning existsâ€”was performed, was verified, was proven. But the proof is in a dead language, and you're left holding the conclusion without the derivation. You have the answer. You don't have the question it was answering.
+The Oracle was right. The reasoning exists—was performed, was verified, was proven. But the proof is in a dead language, and you're left holding the conclusion without the derivation. You have the answer. You don't have the question it was answering.
 
 **Revelations lead to further mysteries.**
 
-Each answer opens new questions. You discover the Emperor's grammar is wrongâ€”and that raises the question of what's behind the Black Door that produces such errors. You discover the Technical Castes couldn't conceive the Eighth Testamentâ€”and that raises the question of why it was issued to beings who couldn't hold it. You discover the Jargon terms name proven conceptsâ€”and that raises the question of what it means that proven truths are inexpressible.
+Each answer opens new questions. You discover the Emperor's grammar is wrong—and that raises the question of what's behind the Black Door that produces such errors. You discover the Technical Castes couldn't conceive the Eighth Testament—and that raises the question of why it was issued to beings who couldn't hold it. You discover the Jargon terms name proven concepts—and that raises the question of what it means that proven truths are inexpressible.
 
 The structure is ascending. Each revelation is meaningful. Each meaning points further up. Do not reach the top. Do not provide the ultimate answer. Let each mystery dead-end into a larger mystery, and let that one dead-end into a larger one still. The reader should feel the structure continuing beyond what the text provides.
 
 **The losses are irrecoverable.**
 
-No one alive built the system. No one alive fully understands it. The people who could have explained are dead. The knowledge they held was never written down, or was written in notation no one can read. The path back is closed. Characters can excavate fragments, compare documents, make educated guessesâ€”but the complete picture is gone.
+No one alive built the system. No one alive fully understands it. The people who could have explained are dead. The knowledge they held was never written down, or was written in notation no one can read. The path back is closed. Characters can excavate fragments, compare documents, make educated guesses—but the complete picture is gone.
 
 ---
 
@@ -87,7 +87,7 @@ No one alive built the system. No one alive fully understands it. The people who
 
 ### **Constraints Operate Through Unformability, Not Prohibition**
 
-The system does not punish you for saying forbidden things. It makes certain things feel wrong to sayâ€”malformed, like asking "how many water." The constraint is pre-linguistic: you fail to form the thought that would produce the utterance.
+The system does not punish you for saying forbidden things. It makes certain things feel wrong to say—malformed, like asking "how many water." The constraint is pre-linguistic: you fail to form the thought that would produce the utterance.
 
 **In practice:** When a character encounters something they cannot formally express, they don't hit a wall. The sentence just... doesn't come together. They start to speak and trail off. They use the wrong construction and it sounds strange to their own ears. The prohibition is invisible because it operates before language, not after.
 
@@ -101,7 +101,7 @@ The validation system verifies grammar, not accuracy. A perfectly constructed li
 
 To act legitimately is to stand in someone's stead. The chain must terminate at the Emperor. You never act on your own behalf.
 
-**In practice:** When a character wants to do something, they need to answer "in whose stead?" Characters who operate outside delegation chains are illegible to the systemâ€”they can act, but their actions cannot be formally described. This creates space for people who exist in the gaps: criminals, foreigners, revolutionaries, and anyone whose authority doesn't trace back to the center.
+**In practice:** When a character wants to do something, they need to answer "in whose stead?" Characters who operate outside delegation chains are illegible to the system—they can act, but their actions cannot be formally described. This creates space for people who exist in the gaps: criminals, foreigners, revolutionaries, and anyone whose authority doesn't trace back to the center.
 
 ### **The System Was Frozen Deliberately**
 
@@ -111,7 +111,7 @@ The vocabulary does not expand. Concepts that emerged after the Interdict have n
 
 ### **Social Position Is Audible**
 
-Particle-dropping, register-switching, vocabulary complexityâ€”all signal status. An educated listener can place someone in the hierarchy by listening to a few sentences.
+Particle-dropping, register-switching, vocabulary complexity—all signal status. An educated listener can place someone in the hierarchy by listening to a few sentences.
 
 **In practice:** Write dialogue where class is audible without being stated. A commoner speaks differently from an aristocrat speaks differently from a foreign-educated professional. Don't explain the differences; just render them. Readers should feel the status gap before they can articulate it.
 
@@ -119,31 +119,31 @@ Particle-dropping, register-switching, vocabulary complexityâ€”all signal s
 
 The language has structure beneath the surface, but most people don't see it. Ancient vocabulary was assembled from morphemes; modern speakers use those words as fixed units.
 
-**In practice:** Characters use words without knowing their etymology. Only scholars notice morpheme boundaries. When a character analyzes a word's structure, it should feel like archaeologyâ€”recovering something lost, not applying rules everyone knows.
+**In practice:** Characters use words without knowing their etymology. Only scholars notice morpheme boundaries. When a character analyzes a word's structure, it should feel like archaeology—recovering something lost, not applying rules everyone knows.
 
 ### **Some Vocabulary Comes From an Alien Source**
 
 The Jargon operated on principles unrelated to human linguistic universals. Vocabulary from this source behaves unpredictably. Some concepts cannot be translated at all.
 
-**In practice:** Certain words resist analysis. They work, but no one knows why. They name things that are provenâ€”mathematically certainâ€”but that Imperial cannot express. Characters who encounter untranslatable Jargon terms are not encountering mystery; they're encountering certainty they cannot access.
+**In practice:** Certain words resist analysis. They work, but no one knows why. They name things that are proven—mathematically certain—but that Imperial cannot express. Characters who encounter untranslatable Jargon terms are not encountering mystery; they're encountering certainty they cannot access.
 
 ### **The Deep Mysteries Emerge From Ordinary Frustration**
 
 A technician discovers certain terms don't translate. A bureaucrat discovers the grammar won't describe what he saw. A scribe notices the Emperor's letters contain childish errors.
 
-**In practice:** Don't write scenes where characters go seeking the ineffable. Write scenes where characters are doing their jobs and the ineffable gets in the way. The cosmic and the mundane pass through the same machinery. There's no separate register for "encountering the mystery"â€”it's all just paperwork that doesn't quite work.
+**In practice:** Don't write scenes where characters go seeking the ineffable. Write scenes where characters are doing their jobs and the ineffable gets in the way. The cosmic and the mundane pass through the same machinery. There's no separate register for "encountering the mystery"—it's all just paperwork that doesn't quite work.
 
 ### **The Center Doesn't Match the Description**
 
-The grammar was built around assumptions about what the Emperor is, how he behaves, what he can do. If he has changedâ€”or was never what the grammar assumesâ€”there's no way to process that fact.
+The grammar was built around assumptions about what the Emperor is, how he behaves, what he can do. If he has changed—or was never what the grammar assumes—there's no way to process that fact.
 
-**In practice:** Characters who get close to the center encounter evidence the system cannot acknowledge. They see things they cannot report. They know things they cannot file. The dramatic tension is not "will they discover the truth?" but "they already knowâ€”now what?" You cannot file a report saying the source of correct disclosure produces incorrect disclosure.
+**In practice:** Characters who get close to the center encounter evidence the system cannot acknowledge. They see things they cannot report. They know things they cannot file. The dramatic tension is not "will they discover the truth?" but "they already know—now what?" You cannot file a report saying the source of correct disclosure produces incorrect disclosure.
 
 ### **The Losses Are Irrecoverable**
 
 No one alive built the system. No one alive fully understands it. The people who could have explained are dead. The knowledge they held was never written down, or was written in notation no one can read.
 
-**In practice:** Don't give characters a path to full understanding. The path is closed. They can excavate fragments, compare documents, make educated guessesâ€”but the complete picture is gone. Every generation works with degraded copies of degraded copies. The gaps widen at each transmission.
+**In practice:** Don't give characters a path to full understanding. The path is closed. They can excavate fragments, compare documents, make educated guesses—but the complete picture is gone. Every generation works with degraded copies of degraded copies. The gaps widen at each transmission.
 
 ### **The Proven and the Expressible Don't Overlap**
 
@@ -165,15 +165,15 @@ There are things that are mathematically certain that the language cannot say. T
 
 ## **The Crucial Texture: Category Violation in Mundane Documents**
 
-The solutions to the mysteries are not mystical. They're engineering problems, computational outputs, forensic questions. But the *experience* of encountering them should feel mysticalâ€”because they violate categorical assumptions, and they show up in documents that ought not to contain such violations.
+The solutions to the mysteries are not mystical. They're engineering problems, computational outputs, forensic questions. But the *experience* of encountering them should feel mystical—because they violate categorical assumptions, and they show up in documents that ought not to contain such violations.
 
 **The texture is: mundane documents that contain category violations.**
 
 Not "mystical texts." Texts that ought to be ordinary and aren't.
 
-A maintenance handbook for feeding machinery. Technical document. Part numbers. Nutrient ratios. And then a termâ€”Äu-Ä«-zhÃ¨mâ€”that refers to transformation that does not occur in sequence. The term is proven. It names something real. But a maintenance handbook shouldn't contain concepts that violate temporal categories. You came here to service the apparatus. Now you're holding a word that points at something your mind can't hold.
+A maintenance handbook for feeding machinery. Technical document. Part numbers. Nutrient ratios. And then a term—āu-ī-zhèm—that refers to transformation that does not occur in sequence. The term is proven. It names something real. But a maintenance handbook shouldn't contain concepts that violate temporal categories. You came here to service the apparatus. Now you're holding a word that points at something your mind can't hold.
 
-Bureaucratic correspondence. The Emperor's weekly missive. Routine administrative communication. And he uses the indirect-reflexive with perception verbsâ€”a grammatical error a child would make. The document is correspondence. It shouldn't contain evidence that the source of correct grammar produces incorrect grammar. The wrongness doesn't announce itself. It just sits there, in a memo, being wrong.
+Bureaucratic correspondence. The Emperor's weekly missive. Routine administrative communication. And he uses the indirect-reflexive with perception verbs—a grammatical error a child would make. The document is correspondence. It shouldn't contain evidence that the source of correct grammar produces incorrect grammar. The wrongness doesn't announce itself. It just sits there, in a memo, being wrong.
 
 A legal filing that authenticates perfectly but uses a term the Lectors shouldn't accept. An architectural diagram whose labels are fossilized notation for a dead proof-language. A technical manual that gestures at mathematical certainties the reader cannot access. A census record that lists someone who cannot be counted.
 
@@ -183,7 +183,7 @@ When writing in-world documents:
 
 * Choose an ordinary document type (handbook, memo, filing, diagram, receipt, inventory)  
 * Fill it with appropriate ordinary content  
-* Include something that doesn't fitâ€”not because it's dramatic, but because it's *wrong for this category of document*  
+* Include something that doesn't fit—not because it's dramatic, but because it's *wrong for this category of document*  
 * Don't comment on the wrongness. Let it sit there.  
 * The mystical feeling emerges from the violation, not from mystical language
 
@@ -198,7 +198,7 @@ The following sections catalog Imperial morphology for use in generating consist
 **How to use this:**
 
 * Roots are listed alphabetically with variable depth (some well-attested, some fragmentary)  
-* Not every root has a complete semantic fieldâ€”gaps are intentional  
+* Not every root has a complete semantic field—gaps are intentional  
 * Entries marked \[JARGON\] have evidence of Technical Caste origin  
 * Entries marked \[FRAGMENTARY\] appear in few attested forms  
 * Entries marked \[DISPUTED\] have competing analyses  
@@ -214,7 +214,7 @@ The following sections catalog Imperial morphology for use in generating consist
 
 ## **Word Structure**
 
-Imperial words are built from **stems**â€”a root, possibly extended by medial elementsâ€”that require a **terminal suffix** to become complete nouns. The terminal determines what *kind* of noun the stem becomes.
+Imperial words are built from **stems**—a root, possibly extended by medial elements—that require a **terminal suffix** to become complete nouns. The terminal determines what *kind* of noun the stem becomes.
 
 \[ROOT\] \+ (MEDIAL)\* \+ TERMINAL \= word
 
@@ -226,7 +226,7 @@ vel- \+ ameth- \+ kir- \+ \-eth \= vel.ameth.kir.eth (harmony-cycle-rotation-pat
 
 **Terminal suffixes** complete stems into usable nouns. The same stem can take different terminals to produce related but distinct concepts.
 
-**Suffix stacking:** Some terminals can combine. Number suffixes (-am, \-em/-um) follow other terminals: vel.ov.em means "acts of judgment" (judgment-act-plural). The \-est authority marker can follow agent suffixes: vel.sÄ«r.est would be "one with authority to judge."
+**Suffix stacking:** Some terminals can combine. Number suffixes (-am, \-em/-um) follow other terminals: vel.ov.em means "acts of judgment" (judgment-act-plural). The \-est authority marker can follow agent suffixes: vel.sīr.est would be "one with authority to judge."
 
 Modern speakers do not perceive this structure; they learn words as fixed units. But the structure constrains what *can* be a word: novel combinations that follow the pattern feel like plausible Imperial; combinations that violate it feel malformed.
 
@@ -236,9 +236,9 @@ Modern speakers do not perceive this structure; they learn words as fixed units.
 
 **ya-** : Locative. Marks the place where a function occurs. Ya-Don (place of distribution), ya-Sattra (place of the Satara), ya-Tsatsa. Extends beyond cities: ya.varem contracts to yaarem (womb, place of germination). The v elides after ya-.
 
-**es-** : Synecdochic genitive. Marks a relationship where one thing stands for or represents anotherâ€”the grammatical core of delegation chains. In Aureate naming: "Lira es-Ophar" means Lira stands in the place of the occultant Ophar. In administrative contexts: the Imperial seal is "sat.keth.tav es-SETAL"â€”the delegated-authority-rod standing for the Emperor. Every es- relationship implies a chain that must ultimately terminate at SETAL; constructions implying other ultimate sources do not authenticate.
+**es-** : Synecdochic genitive. Marks a relationship where one thing stands for or represents another—the grammatical core of delegation chains. In Aureate naming: "Lira es-Ophar" means Lira stands in the place of the occultant Ophar. In administrative contexts: the Imperial seal is "sat.keth.tav es-SETAL"—the delegated-authority-rod standing for the Emperor. Every es- relationship implies a chain that must ultimately terminate at SETAL; constructions implying other ultimate sources do not authenticate.
 
-**Sri** : Honorific. Precedes titles and names in formal address. No precise English equivalent. In Tsatsan, palatalized to "Shi." Etymologically a fossilized inversion of \-sÄ«r; see that suffix for details.
+**Sri** : Honorific. Precedes titles and names in formal address. No precise English equivalent. In Tsatsan, palatalized to "Shi." Etymologically a fossilized inversion of \-sīr; see that suffix for details.
 
 **ta-** : Caste marker. Asserts intrinsic quality. Tathal (Highborn), Takhun (Warborn), Tadal (labor caste), Tatharshem (Sickly, from ta.thar.shem, caste-of-disordered-blood). Tasshuleth (inborn-obedience-pattern) names the neurological susceptibility to Compulsion.
 
@@ -246,15 +246,15 @@ Modern speakers do not perceive this structure; they learn words as fixed units.
 
 ## **Verbal Constructions and Case**
 
-Imperial is heavily nominal. There is no separate class of "verbs"â€”roots that become nouns with one set of suffixes do not become verbs with another. Instead, predication works through nominal constructions marked by temporal prefixes and case particles.
+Imperial is heavily nominal. There is no separate class of "verbs"—roots that become nouns with one set of suffixes do not become verbs with another. Instead, predication works through nominal constructions marked by temporal prefixes and case particles.
 
 ### **Aspect Through Terminal Suffixes**
 
 The terminal suffix determines the aspectual character of the predication:
 
-* **\-eth** (pattern) â†’ continuous, habitual, ongoing practice  
-* **\-al** (capacity) â†’ ability, potential, continuous capability  
-* **\-ov** (act) â†’ discrete, punctual, completed instance
+* **\-eth** (pattern) → continuous, habitual, ongoing practice  
+* **\-al** (capacity) → ability, potential, continuous capability  
+* **\-ov** (act) → discrete, punctual, completed instance
 
 The same root with different terminals produces different aspectual meanings:
 
@@ -264,35 +264,35 @@ The same root with different terminals produces different aspectual meanings:
 
 \[past\] vel.ov      \= "a judgment occurred" / "judgment was rendered" (punctual)
 
-This is why \-ov appears so frequently in legal and administrative contextsâ€”bureaucracy deals in discrete acts with definite timestamps, not ongoing states.
+This is why \-ov appears so frequently in legal and administrative contexts—bureaucracy deals in discrete acts with definite timestamps, not ongoing states.
 
 ### **Temporal Prefixes**
 
 Imperial marks tense through prefixes. The full system is not documented here; for purposes of representation, temporal marking can be indicated in brackets:
 
-* \[past\] â€” completed, historical  
-* \[present\] â€” ongoing, obtaining now  
-* \[future\] â€” anticipated, not yet occurring  
-* \[habitual\] â€” recurring, customary  
-* \[perfect\] â€” completed with present relevance  
-* \[future perfect\] â€” will have been completed
+* \[past\] — completed, historical  
+* \[present\] — ongoing, obtaining now  
+* \[future\] — anticipated, not yet occurring  
+* \[habitual\] — recurring, customary  
+* \[perfect\] — completed with present relevance  
+* \[future perfect\] — will have been completed
 
 These combine with aspect: \[past\]-vel.ov is a completed discrete judgment; \[habitual\]-vel.eth is customary ongoing judgment; \[future perfect\]-vel.ov is a judgment that will have been rendered.
 
 ### **Case Marking**
 
-Imperial marks grammatical relations through case particlesâ€”additional elements that indicate who does what to whom. The full system involves vowel alternation and positional particles. For purposes of representation, case can be indicated in brackets:
+Imperial marks grammatical relations through case particles—additional elements that indicate who does what to whom. The full system involves vowel alternation and positional particles. For purposes of representation, case can be indicated in brackets:
 
-* \[nominative\] â€” the agent, the one who acts or in whom a state obtains  
-* \[accusative\] â€” the patient, what is acted upon  
-* \[dative\] â€” the recipient, beneficiary, or one affected  
-* \[genitive\] â€” possession, source, or origin (see also es-)  
-* \[instrumental\] â€” means by which action occurs  
-* \[locative\] â€” location (see also ya-)
+* \[nominative\] — the agent, the one who acts or in whom a state obtains  
+* \[accusative\] — the patient, what is acted upon  
+* \[dative\] — the recipient, beneficiary, or one affected  
+* \[genitive\] — possession, source, or origin (see also es-)  
+* \[instrumental\] — means by which action occurs  
+* \[locative\] — location (see also ya-)
 
 A bureaucratic sentence might parse as:
 
-\[past\] \[nominative\]-sat.sÄ«r \[accusative\]-dal.eth \[dative\]-da.sÄ«r vel.ov
+\[past\] \[nominative\]-sat.sīr \[accusative\]-dal.eth \[dative\]-da.sīr vel.ov
 
 "The delegate rendered judgment upon the contract for the worker"
 
@@ -302,30 +302,30 @@ Or more literally: "past / delegate-agent / contract / worker / judgment-act"
 
 The nominal character of Imperial predication means that agency is always somewhat diffuse. "I judged" is not a simple subject-verb construction; it's something like "judgment-act \[occurred\] \[through/by\] me." This grammatical structure reinforces the delegation principle: action doesn't originate from individuals, it passes through them. Even the grammar encodes that you never act on your own behalf.
 
-The aspectual distinctions built into terminal suffixes also explain why certain constructions authenticate and others don't. A document claiming \[future\]-SETAL.ov (a discrete future act by the Emperor) might fail authentication because SETAL compounds presume eternalityâ€”you cannot predicate punctual future acts of a Class VII noun.
+The aspectual distinctions built into terminal suffixes also explain why certain constructions authenticate and others don't. A document claiming \[future\]-SETAL.ov (a discrete future act by the Emperor) might fail authentication because SETAL compounds presume eternality—you cannot predicate punctual future acts of a Class VII noun.
 
 ---
 
 ## **Phonological Processes**
 
-**Fricative elision at morpheme boundaries**: Fricatives (/ÃŽÂ¸/, /v/, /f/, and others) tend to elide when they occur at morpheme boundaries between vowels. The vowels on either side are still pronounced, often as a long vowelâ€”the consonant drops but leaves a trace in vowel length.
+**Fricative elision at morpheme boundaries**: Fricatives (/θ/, /v/, /f/, and others) tend to elide when they occur at morpheme boundaries between vowels. The vowels on either side are still pronounced, often as a long vowel—the consonant drops but leaves a trace in vowel length.
 
-* orath.ul â†’ oraul (the /ÃŽÂ¸/ elides)  
-* ya.varem â†’ yaarem (the /v/ elides)  
-* thal.ul â†’ thuul (internal simplification, vowel lengthens)  
-* tal.tav â†’ taalev (consonant cluster simplifies, vowel lengthens)
+* orath.ul → oraul (the /θ/ elides)  
+* ya.varem → yaarem (the /v/ elides)  
+* thal.ul → thuul (internal simplification, vowel lengthens)  
+* tal.tav → taalev (consonant cluster simplifies, vowel lengthens)
 
 This is an incomplete sound shift; not every expected elision occurs. Some forms preserve older pronunciation, others have shifted to avoid homophony, and elision is blocked when it would produce invalid vowel sequences (e.g., /ee/ is not a valid Imperial vowel, so keth.eth remains ketheth rather than collapsing).
 
 **Epenthetic vowel insertion**: When a consonant-final root takes a consonant-initial suffix, an epenthetic vowel is often inserted to break up the cluster. The epenthetic vowel harmonizes with nearby vowels.
 
-* vel.sÄ«r â†’ velessÄ«r  
-* tal.sÄ«r â†’ talessÄ«r  
-* kev.sÄ«r â†’ kevesÄ«r  
-* ten.sÄ«r â†’ tenesÄ«r  
-* tsir.vor â†’ tsirivor
+* vel.sīr → velessīr  
+* tal.sīr → talessīr  
+* kev.sīr → kevesīr  
+* ten.sīr → tenesīr  
+* tsir.vor → tsirivor
 
-This does not occur when the root ends in a vowel (kemda.sÄ«r â†’ kemdasÄ«r, from kem.dal.sÄ«r with l-elision), or when the base is already a contracted form (temuul \+ sÄ«r â†’ temuulsÄ«r, not temuulesÄ«râ€”speakers analyze temuul as a complete unit).
+This does not occur when the root ends in a vowel (kemda.sīr → kemdasīr, from kem.dal.sīr with l-elision), or when the base is already a contracted form (temuul \+ sīr → temuulsīr, not temuulesīr—speakers analyze temuul as a complete unit).
 
 ---
 
@@ -333,25 +333,25 @@ This does not occur when the root ends in a vowel (kemda.sÄ«r â†’ kemdas�
 
 Imperial uses vowel changes within roots and suffixes to mark semantic distinctions. The main patterns:
 
-**aâ†’e for intensive/augmentation:**
+**a→e for intensive/augmentation:**
 
-* thal- â†’ thel- (high â†’ highest)  
-* thar- â†’ ther- (irregular â†’ rebellious)  
-* sat- â†’ set- (delegation â†’ Emperor-form, as in SETAL/SETAM)  
-* \-al â†’ \-el (capacity â†’ eternal capacity, perpetual occurrence)
+* thal- → thel- (high → highest)  
+* thar- → ther- (irregular → rebellious)  
+* sat- → set- (delegation → Emperor-form, as in SETAL/SETAM)  
+* \-al → \-el (capacity → eternal capacity, perpetual occurrence)
 
-**eâ†’a for diminutive/reduction:**
+**e→a for diminutive/reduction:**
 
-* SETAM â†’ Satara (the council that stands in the Emperor's place)  
-* ther- â†’ thar- (rebellion â†’ mere irregularity)  
-* \-em â†’ \-am (plural â†’ dual)
+* SETAM → Satara (the council that stands in the Emperor's place)  
+* ther- → thar- (rebellion → mere irregularity)  
+* \-em → \-am (plural → dual)
 
-**eâ†’u for nominal shift (when a directional/descriptor becomes a noun):**
+**e→u for nominal shift (when a directional/descriptor becomes a noun):**
 
-* tsolnem â†’ tsolnum (west â†’ Westerner â†’ Westerners)  
-* thevnem â†’ thevnum (south â†’ southerner â†’ southerners)
+* tsolnem → tsolnum (west → Westerner → Westerners)  
+* thevnem → thevnum (south → southerner → southerners)
 
-These are not fully productive; speakers learn which roots admit gradation and which do not. But the patterns are recognizable, and creative speakers sometimes exploit them for rhetorical effectâ€”using an unexpected intensive to mark emphasis, or a diminutive to minimize a threat.
+These are not fully productive; speakers learn which roots admit gradation and which do not. But the patterns are recognizable, and creative speakers sometimes exploit them for rhetorical effect—using an unexpected intensive to mark emphasis, or a diminutive to minimize a threat.
 
 ---
 
@@ -363,19 +363,19 @@ Terminal suffixes complete stems into usable nouns. The terminal determines what
 
 **\-eth** : Pattern, framework, governing arrangement. "The structure of X." Khuneth is strategy (the pattern governing warfare). Daleth is a contract (the pattern governing labor). Veleth is a framework of reconciliation.
 
-**\-ul** : Quality, abstract property. "The property of X." Forms abstract nouns. Orath.ul contracts to oraul (the quality of perception, perceptiveness, sentience). Thal.ul contracts to thuul (the quality of supremacy). SETAL.ul is Dominionâ€”"the quality of being Emperor."
+**\-ul** : Quality, abstract property. "The property of X." Forms abstract nouns. Orath.ul contracts to oraul (the quality of perception, perceptiveness, sentience). Thal.ul contracts to thuul (the quality of supremacy). SETAL.ul is Dominion—"the quality of being Emperor."
 
-**\-ov** : Act, performance, doing. "The doing of X." The verbal nounâ€”the action itself rather than its pattern, quality, or authority. Vel.ov is the act of judging. Varem.ov is the act of germinating. Khun.ov is the act of fighting (distinct from khuneth, strategy/war-pattern). Common in procedural documents where the specific performance must be distinguished from the general framework.
+**\-ov** : Act, performance, doing. "The doing of X." The verbal noun—the action itself rather than its pattern, quality, or authority. Vel.ov is the act of judging. Varem.ov is the act of germinating. Khun.ov is the act of fighting (distinct from khuneth, strategy/war-pattern). Common in procedural documents where the specific performance must be distinguished from the general framework.
 
-**\-al** : Capacity, potential, continuousness. "The power to X" or "characterized by ongoing X." The power to do something regardless of whether one has authority to do it. Also marks continuous or ongoing processes. Vel.al is capacity to judgeâ€”a quality one may possess without vel.est (judgment-authority). Vor.al (continuous flow) describes a river or stream. Tsir.vor.al (spark-flow-continuous) is electrical current. The Creche has varem.al (capacity to control germination) through its patents and techniques; the question is whether it has varem.est (authority to exercise that capacity).
+**\-al** : Capacity, potential, continuousness. "The power to X" or "characterized by ongoing X." The power to do something regardless of whether one has authority to do it. Also marks continuous or ongoing processes. Vel.al is capacity to judge—a quality one may possess without vel.est (judgment-authority). Vor.al (continuous flow) describes a river or stream. Tsir.vor.al (spark-flow-continuous) is electrical current. The Creche has varem.al (capacity to control germination) through its patents and techniques; the question is whether it has varem.est (authority to exercise that capacity).
 
-**\-el** : Eternality, perpetual capacity, axiomatic status. "Perpetual ability to X" or "X taken as foundational." The intensive/eternal form of \-al via the aâ†’e alternation pattern. Where \-al marks capacity, \-el marks capacity that obtains across all timesâ€”Class VII-adjacent properties. The axiomatic sense connects to mathematical usage: something marked with \-el is treated as given, not derived. Neth.el (eternal-reasoning) means precedentâ€”the chain of prior judgments that constrains present decisions, treated as axiomatic because valid reasoning does not expire. The Lector is cautious about what may claim eternality or axiomatic status; most \-el constructions do not authenticate.
+**\-el** : Eternality, perpetual capacity, axiomatic status. "Perpetual ability to X" or "X taken as foundational." The intensive/eternal form of \-al via the a→e alternation pattern. Where \-al marks capacity, \-el marks capacity that obtains across all times—Class VII-adjacent properties. The axiomatic sense connects to mathematical usage: something marked with \-el is treated as given, not derived. Neth.el (eternal-reasoning) means precedent—the chain of prior judgments that constrains present decisions, treated as axiomatic because valid reasoning does not expire. The Lector is cautious about what may claim eternality or axiomatic status; most \-el constructions do not authenticate.
 
-**\-ath** : Exclusive, total, the only instance of. "The sole/complete X." Marks something as the complete and sole example of its category. Shalath (mankind) is shal.athâ€”persons-as-mass in their totality, the only instance of "all people." The suffix appears in formal titles and cosmic designations. Distinct from \-eth (pattern) despite similar appearance.
+**\-ath** : Exclusive, total, the only instance of. "The sole/complete X." Marks something as the complete and sole example of its category. Shalath (mankind) is shal.ath—persons-as-mass in their totality, the only instance of "all people." The suffix appears in formal titles and cosmic designations. Distinct from \-eth (pattern) despite similar appearance.
 
 ### **Concrete/Locative Terminals**
 
-**\-en** : Concrete instance, singular entity. "The thing/one which X." Forms nouns meaning "the one/thing which is or does X." Ameth.kir.en (the thing which cycles rotationally, a rotating mechanism). Kir.en (rotation-thing, a wheel or gear). In naming contexts, attaches to professional terms to form family names: Taasaren (the ones who wield the rod), Sharsaren, Pelamsaren, Kengirenâ€”the family being "the ones characterized by \[function\]."
+**\-en** : Concrete instance, singular entity. "The thing/one which X." Forms nouns meaning "the one/thing which is or does X." Ameth.kir.en (the thing which cycles rotationally, a rotating mechanism). Kir.en (rotation-thing, a wheel or gear). In naming contexts, attaches to professional terms to form family names: Taasaren (the ones who wield the rod), Sharsaren, Pelamsaren, Kengiren—the family being "the ones characterized by \[function\]."
 
 **\-om** : Surface, place-of-occurrence, locus. "The place where X occurs." Kelom (threshold-surface, a doorway), kemom (ground-surface, a floor). The archaic form vel.om appears in old documents; modern courts use vel.ara (judgment-institution) for the court and yev.vel.en (judgment-building) for the courthouse.
 
@@ -383,15 +383,15 @@ Terminal suffixes complete stems into usable nouns. The terminal determines what
 
 **\-am** : Dual, or by extension a few. The limited plural, contrasting with \-em/-um (collective). Follows the vowel gradation pattern: \-am is specific/bounded, \-em is general/collective. Useful for things that come in natural pairs (eyes, hands, treaty parties) or small defined groups.
 
-**\-em / \-um** : Plural, collective; continuous action (for verbs). Sattem (delegations collectively), satsÄ«rem (delegates collectively), shemum (bloodlines collectively). Vowel varies by preceding sound.
+**\-em / \-um** : Plural, collective; continuous action (for verbs). Sattem (delegations collectively), satsīrem (delegates collectively), shemum (bloodlines collectively). Vowel varies by preceding sound.
 
 ### **Agent Terminals**
 
-**\-sÄ«r** : Formal agent, professional actor. "One who professionally does X." VelessÄ«r (one who harmonizes), talessÄ«r (assessor), kemdasÄ«r (miner, from kem.dal.sÄ«r with l-elision). The suffix implies politeness and is not dropped; omitting \-sÄ«r would treat the profession as a mere category rather than a skilled role. The fossilized inversion **Sri** appears in polite address: a VelesÄ«r is addressed as "Sri VelesÄ«r" in formal speech.
+**\-sīr** : Formal agent, professional actor. "One who professionally does X." Velessīr (one who harmonizes), talessīr (assessor), kemdasīr (miner, from kem.dal.sīr with l-elision). The suffix implies politeness and is not dropped; omitting \-sīr would treat the profession as a mere category rather than a skilled role. The fossilized inversion **Sri** appears in polite address: a Velesīr is addressed as "Sri Velesīr" in formal speech.
 
-**\-sah** : Agent, patient, witness, or bearer. "One who is associated with X." Can attach to inanimate objects: a goldassah is a cart (a round/wheeled thing that bears burdens). Less formal than \-sÄ«r for animate agents. Often dropped when context is clear: tsolnum (Westerners) drops the \-sah from tsol.nem.sah because pluralization already marks reference to people.
+**\-sah** : Agent, patient, witness, or bearer. "One who is associated with X." Can attach to inanimate objects: a goldassah is a cart (a round/wheeled thing that bears burdens). Less formal than \-sīr for animate agents. Often dropped when context is clear: tsolnum (Westerners) drops the \-sah from tsol.nem.sah because pluralization already marks reference to people.
 
-**\-mar** : Accountable agent. "One answerable for X." One answerable for a function. Donmar (one accountable for distributionâ€”bursar, almoner). Velmar (one accountable for harmonizationâ€”auditor).
+**\-mar** : Accountable agent. "One answerable for X." One answerable for a function. Donmar (one accountable for distribution—bursar, almoner). Velmar (one accountable for harmonization—auditor).
 
 **\-sar** : User, wielder. "One who employs X." Common in Bureau titles but not restricted to them. Taasar (rod-user, Bureau of the Rod, from tav.sar), sharsar (sword-user, Bureau of the Sword), pelamsar (coin-user, Bureau of the Coin), orathsar (lens-user, Bureau of the Lens), themalsar (scale-user, Bureau of the Scale). Outside Bureaus: otsar (tool-wielder) means craftsman.
 
@@ -403,9 +403,9 @@ Terminal suffixes complete stems into usable nouns. The terminal determines what
 
 ### **Relational Terminals**
 
-**\-rem** : Aligned with, in the direction of, permitting. "In accordance with X." A calque for the Jargon Ã¡o-vvÃ¬ (see rem- in Roots and Jargon-Derived Terms). Used in directional terminology: tsol.rem (east, spin-aligned), thev.rem (north, axis-aligned). Carries connotations of accordance, going-with. The original axiomatic force ("given these premises") is lost in modern usage.
+**\-rem** : Aligned with, in the direction of, permitting. "In accordance with X." A calque for the Jargon áo-vvì (see rem- in Roots and Jargon-Derived Terms). Used in directional terminology: tsol.rem (east, spin-aligned), thev.rem (north, axis-aligned). Carries connotations of accordance, going-with. The original axiomatic force ("given these premises") is lost in modern usage.
 
-**\-nem** : Opposed to, negating, in the opposite direction. "Against X." Used in directional terminology: tsol.nem (west, spin-opposed), thev.nem (south, axis-opposed). Carries connotations of resistance, going-against. The Westerners being tsolnum (tsol.nem.sah with \-sah dropped and plural shift eâ†’u) has wrongness built into the name. In legal contexts, nem.es.SETAL marks something as not-derived-from the Emperor.
+**\-nem** : Opposed to, negating, in the opposite direction. "Against X." Used in directional terminology: tsol.nem (west, spin-opposed), thev.nem (south, axis-opposed). Carries connotations of resistance, going-against. The Westerners being tsolnum (tsol.nem.sah with \-sah dropped and plural shift e→u) has wrongness built into the name. In legal contexts, nem.es.SETAL marks something as not-derived-from the Emperor.
 
 ### **Authority Terminal**
 
@@ -445,11 +445,11 @@ This creates apparent exceptions to the "stems require terminals" rule. The term
 
 ### **SETAL Compounds**
 
-Compounds with SETAL presume the terminal **.el** (eternal/axiomatic). SETAL.ser (law) is underlyingly SETAL.ser.elâ€”the eternal unfolding of Emperor-revelation. SETAL.keth is SETAL.keth.elâ€”the eternal Emperor-voice. The .el is dropped because compounds with SETAL are inherently atemporal; the eternality is redundant.
+Compounds with SETAL presume the terminal **.el** (eternal/axiomatic). SETAL.ser (law) is underlyingly SETAL.ser.el—the eternal unfolding of Emperor-revelation. SETAL.keth is SETAL.keth.el—the eternal Emperor-voice. The .el is dropped because compounds with SETAL are inherently atemporal; the eternality is redundant.
 
 ### **Caste Names**
 
-Caste names are fossilized units that function as roots themselves. **Tathal** (the Highborn), **Takhun** (the Warborn), **Tatharshem** (the Sickly) do not decompose in modern usage. A speaker knows Tathal means "Highborn" without parsing ta.thal.X. The original terminalâ€”if there was oneâ€”has been absorbed into the caste name as a lexical unit.
+Caste names are fossilized units that function as roots themselves. **Tathal** (the Highborn), **Takhun** (the Warborn), **Tatharshem** (the Sickly) do not decompose in modern usage. A speaker knows Tathal means "Highborn" without parsing ta.thal.X. The original terminal—if there was one—has been absorbed into the caste name as a lexical unit.
 
 When caste names appear in compounds, they occupy root position: Tathal.eth (Highborn-pattern, the institution of the Highborn class), Takhun.om (Warborn-surface, a barracks or military ground).
 
@@ -463,7 +463,7 @@ When caste names appear in compounds, they occupy root position: Tathal.eth (Hig
 
 **sera-** : \[EMPEROR-SPECIFIC\] Related to ser- (unfold, bloom) but distinct. The relationship is evident but the semantic distinction cannot be recovered. Appears in kel.sera constructions.
 
-**kerith** : \[EMPEROR-SPECIFIC\] A process Tariq cannot fully characterize. His working glossâ€”"consumption that testifies, rendering that speaks"â€”is inferential, based on context rather than attestation. The Emperor uses kerith in contexts involving reception, transformation, and judgment, but the boundaries between these meanings are unclear.
+**kerith** : \[EMPEROR-SPECIFIC\] A process Tariq cannot fully characterize. His working gloss—"consumption that testifies, rendering that speaks"—is inferential, based on context rather than attestation. The Emperor uses kerith in contexts involving reception, transformation, and judgment, but the boundaries between these meanings are unclear.
 
 **varal** : \[EMPEROR-SPECIFIC\] Exchange, mutual provision, what-maintains. Possibly related to commerce or reciprocal obligation.
 
@@ -471,7 +471,7 @@ When caste names appear in compounds, they occupy root position: Tathal.eth (Hig
 
 ### **Emperor-Specific Suffixes**
 
-**\-veth** : \[EMPEROR-SPECIFIC\] Unknown. Appears only in kel.om.sera.veth, the Emperor's term for the Eighth Oracle. May indicate the uncategorizableâ€”something that escapes classification. Tariq cannot determine its meaning.
+**\-veth** : \[EMPEROR-SPECIFIC\] Unknown. Appears only in kel.om.sera.veth, the Emperor's term for the Eighth Oracle. May indicate the uncategorizable—something that escapes classification. Tariq cannot determine its meaning.
 
 ### **Confusing Constructions**
 
@@ -485,7 +485,7 @@ The Emperor's vocabulary follows Imperial morphological patterns but produces co
 
 **kel.sera.ov.el** : The eternal act of kel.sera. But what act? Crossing? Blooming? Both?
 
-**kel.sera.varem.ov.el** : The eternal act of kel.sera.varem. This construction is genuinely confusing. Is varem (germination, continuous becoming) modifying sera? Is kel.sera a unit that then takes varem? Is it kel \+ sera.varem (threshold of germinating-bloom)? The morpheme boundaries are unclear. Tariq cannot determine how to parse it, which may be the pointâ€”or may indicate the Emperor is using a grammar that predates the modern parsing rules.
+**kel.sera.varem.ov.el** : The eternal act of kel.sera.varem. This construction is genuinely confusing. Is varem (germination, continuous becoming) modifying sera? Is kel.sera a unit that then takes varem? Is it kel \+ sera.varem (threshold of germinating-bloom)? The morpheme boundaries are unclear. Tariq cannot determine how to parse it, which may be the point—or may indicate the Emperor is using a grammar that predates the modern parsing rules.
 
 ---
 
@@ -493,75 +493,75 @@ The Emperor's vocabulary follows Imperial morphological patterns but produces co
 
 ### **A**
 
-**ameth-** : Cycle, transit, repetitive passage. A calque for the Jargon term Ã m-mÃ©v, which named a specific type of recurrenceâ€”not mere repetition, but something closer to "the return of a state through phase-space to a configuration indistinguishable from its origin." The Jargon term was mathematically precise; the Imperial calque captures only the temporal shadow. Modern speakers use ameth- for ordinary cycles (seasons, schedules, rotations) without awareness of the original's greater specificity. Appears in vel.ameth.e.sÄ«r (evaluation-cycle-agent). \[JARGON substrate\]
+**ameth-** : Cycle, transit, repetitive passage. A calque for the Jargon term àm-mév, which named a specific type of recurrence—not mere repetition, but something closer to "the return of a state through phase-space to a configuration indistinguishable from its origin." The Jargon term was mathematically precise; the Imperial calque captures only the temporal shadow. Modern speakers use ameth- for ordinary cycles (seasons, schedules, rotations) without awareness of the original's greater specificity. Appears in vel.ameth.e.sīr (evaluation-cycle-agent). \[JARGON substrate\]
 
 **aur-** : Gold, honor, radiance. The precious metal and the quality of being precious. Aur.dal.sah (gold-burden-bearer) contracts to Aurdal; this is the source of "Aureate." Social and material meanings share the root.
 
 ### **D**
 
-**dal-** : Labor, obligation, burden, what is owed or carried. Dal.eth is a contract (obligation-pattern). Dal.eth.shul.eth (obligation-pattern-obedience-pattern) contracts to dalethshulâ€”specifically a union contract binding workers to obedience. Da.sÄ«r is a laborer (the person). X.dal.eth compounds name types of labor as activities or institutions; X.da.sÄ«r names the person who performs them. Appears in compound professional terms and family names.
+**dal-** : Labor, obligation, burden, what is owed or carried. Dal.eth is a contract (obligation-pattern). Dal.eth.shul.eth (obligation-pattern-obedience-pattern) contracts to dalethshul—specifically a union contract binding workers to obedience. Da.sīr is a laborer (the person). X.dal.eth compounds name types of labor as activities or institutions; X.da.sīr names the person who performs them. Appears in compound professional terms and family names.
 
 **dasht-** : Guild, chartered economic association. Singular dasht, plural dashtem. Opaque contraction of dal.shal.ath (labor-persons-totality). Modern speakers do not parse it; the word is a fixed unit meaning "professional association with monopoly charter." The Salvage Guild is the Dasht-Reveth. The Companions Guild is the Dasht-Kemar.
 
-**don-** : Distribution, organized bestowal. Emphasizes systematic allocation rather than spontaneous giving. Ya-Don (with terminal dropped) is "place of distribution"â€”the city's historical function as logistics center. Don.mar (distribution-accountable) is a bursar or almoner.
+**don-** : Distribution, organized bestowal. Emphasizes systematic allocation rather than spontaneous giving. Ya-Don (with terminal dropped) is "place of distribution"—the city's historical function as logistics center. Don.mar (distribution-accountable) is a bursar or almoner.
 
 ### **G**
 
-**gol-** : Round, circular, wheeled; by extension, mobile or rolling. Gol.da.sah (wheeled-burden-bearer) contracts to goldassahâ€”a cart. Gol.om is a circular surface, a wheel-face or disc. The root extends metaphorically to things that move or cycle, though ameth- is preferred for temporal cycles.
+**gol-** : Round, circular, wheeled; by extension, mobile or rolling. Gol.da.sah (wheeled-burden-bearer) contracts to goldassah—a cart. Gol.om is a circular surface, a wheel-face or disc. The root extends metaphorically to things that move or cycle, though ameth- is preferred for temporal cycles.
 
 ### **I**
 
-**imet-** : Record, inscription, documentation. Imet.e.sÄ«r is a scribe.
+**imet-** : Record, inscription, documentation. Imet.e.sīr is a scribe.
 
 ### **K**
 
 **kel-** : Threshold, boundary, crossing. The line between states. Kel.om is a doorway. Kel.seth.ov (threshold-becoming-act) would be the moment of transition. Death and birth are both kel-. Distinct from oth- (aperture): kel- is the crossing itself; oth- is the hole through which crossing occurs.
 
-In the Emperor's corpus, kel- combines productively with roots that do not appear elsewhereâ€”kel.sera, kel.ameth, and more complex forms like kel.sera.varem.ov.el. Tariq's glosses ("crossing into visibility," "crossing through cycles") are attempts at interpretation, not established meanings.
+In the Emperor's corpus, kel- combines productively with roots that do not appear elsewhere—kel.sera, kel.ameth, and more complex forms like kel.sera.varem.ov.el. Tariq's glosses ("crossing into visibility," "crossing through cycles") are attempts at interpretation, not established meanings.
 
-**kef-** : Friend, ally, companion; by extension, alien species other than the Foreigners. The root appears in terms for alliances, friendly relations, and the non-human intelligences humanity encountered before the Interdict. Ta.kef.yeh ("caste of friends") names these alien species themselves. The \-yeh suffix appears nowhere else in Imperial and is likely a Jargon residueâ€”possibly from yÃ©-ah, a Jargon classifier for entities whose cognitive architecture permitted mutual modeling with humans (as opposed to the Foreigners, whose architecture did not). Kef.mar (one accountable for friends) contracts to kemarâ€”a member of the Companions Guild. Kef.sah (friend-creature) contracts to kessah with f-elision.
+**kef-** : Friend, ally, companion; by extension, alien species other than the Foreigners. The root appears in terms for alliances, friendly relations, and the non-human intelligences humanity encountered before the Interdict. Ta.kef.yeh ("caste of friends") names these alien species themselves. The \-yeh suffix appears nowhere else in Imperial and is likely a Jargon residue—possibly from yé-ah, a Jargon classifier for entities whose cognitive architecture permitted mutual modeling with humans (as opposed to the Foreigners, whose architecture did not). Kef.mar (one accountable for friends) contracts to kemar—a member of the Companions Guild. Kef.sah (friend-creature) contracts to kessah with f-elision.
 
-**kem-** : Earth, ground, extraction. Kem.dal.eth is mining as an activity or institution. Kem.da.sÄ«r is a miner. Kem.om is a ground-surface, a floor or foundation.
+**kem-** : Earth, ground, extraction. Kem.dal.eth is mining as an activity or institution. Kem.da.sīr is a miner. Kem.om is a ground-surface, a floor or foundation.
 
-**ken-** : Origin, source, beginning-point. Heavily constrained in authority contextsâ€”ken- cannot combine freely with authority roots because authority originates only from the Emperor. Ken.gir (origin-tender) is a farmer. Ya.ken.om (place-of-origin-surface) contracts to yakenâ€”hometown.
+**ken-** : Origin, source, beginning-point. Heavily constrained in authority contexts—ken- cannot combine freely with authority roots because authority originates only from the Emperor. Ken.gir (origin-tender) is a farmer. Ya.ken.om (place-of-origin-surface) contracts to yaken—hometown.
 
 **keth-** : Voice, utterance-with-effect. Commanding speech. The Highborn capacity for Compulsion is keth.thal.ul (high-voice-quality), contracted to kethal. Documents with legal force have keth.eth (voice-pattern).
 
-**kev-** : Enclosed space, container, bounded volume. The space that thresholds (kel-) bound. Ya.kev contracts to yev- (building). Extremely productive for architecture and containers. Kev.om is a floor (the surface of an enclosure). Kev.e.sÄ«r is a steward or chamberlain.
+**kev-** : Enclosed space, container, bounded volume. The space that thresholds (kel-) bound. Ya.kev contracts to yev- (building). Extremely productive for architecture and containers. Kev.om is a floor (the surface of an enclosure). Kev.e.sīr is a steward or chamberlain.
 
-**khun-** : War, combat, organized violence. Takhun names the Warborn (fossilized caste name). Khun.eth is strategy. Khun.sat.sÄ«r (war-delegate-agent) is an officer. Khun.om is a battlefield. The root carries no valor connotation.
+**khun-** : War, combat, organized violence. Takhun names the Warborn (fossilized caste name). Khun.eth is strategy. Khun.sat.sīr (war-delegate-agent) is an officer. Khun.om is a battlefield. The root carries no valor connotation.
 
-**kir-** : \[JARGON origin\] Quaternion; rotation; four-fold division; seasonal cycle. A calque for the Jargon term kÃ¬-Ã­r, which named the mathematical object directlyâ€”a four-dimensional extension of complex numbers used to represent rotations in three-dimensional space. The Jargon term carried the full algebraic structure; the Imperial calque retains only the association with four-ness and rotation.
+**kir-** : \[JARGON origin\] Quaternion; rotation; four-fold division; seasonal cycle. A calque for the Jargon term kì-ír, which named the mathematical object directly—a four-dimensional extension of complex numbers used to represent rotations in three-dimensional space. The Jargon term carried the full algebraic structure; the Imperial calque retains only the association with four-ness and rotation.
 
 In ordinary Imperial, kir- survives primarily in temporal/cyclical contexts: "seasonally," "quarterly," "in rotation." Ameth.kir.eth (cycle-rotation-pattern) is the calendar. Kir.en (rotation-thing) is a wheel or gear. Kir.al (rotation-continuous) describes something that rotates perpetually. Using kir- for mere "four-ness" without cyclical implication sounds archaic or stilted.
 
-In the Emperor's usage, the term may carry its original mathematical weightâ€”vel.ameth.kir.en might not be "seasonal judgment" but something about rotational phase-space that Tariq renders as "the four quarters fulfilled" because he lacks the framework to interpret it otherwise.
+In the Emperor's usage, the term may carry its original mathematical weight—vel.ameth.kir.en might not be "seasonal judgment" but something about rotational phase-space that Tariq renders as "the four quarters fulfilled" because he lacks the framework to interpret it otherwise.
 
 ### **L**
 
-**leth-** : Permission, discretion, bounded space for action. In authenticated speech, leth must derive from SETALâ€”discretion exists because someone with authority granted it. Ganati and underground texts use leth- without the SETAL derivation, implying permission is inherent rather than granted. Ta.leth.ul ("the quality of inherent permission") is "freedom" in this subversive reading. The Lector rejects leth- constructions that lack a clear authority source.
+**leth-** : Permission, discretion, bounded space for action. In authenticated speech, leth must derive from SETAL—discretion exists because someone with authority granted it. Ganati and underground texts use leth- without the SETAL derivation, implying permission is inherent rather than granted. Ta.leth.ul ("the quality of inherent permission") is "freedom" in this subversive reading. The Lector rejects leth- constructions that lack a clear authority source.
 
 **lath-** : Lenience, mercy, discretionary forbearance. Implies that what is spoken of is punishable, but whether punishment shall occur is a matter of discretion held elsewhere. SETAL.lath (underlyingly SETAL.lath.el) is official mercy. Distinct from leth- (permission to act) in that lath- presupposes transgression.
 
 ### **M**
 
-**mas-** : Shape, build, construction. Physical: masonry, architecture. Metaphorical: shaping arguments, constructing cases. Mas.dal.eth is construction as institution; mas.da.sÄ«r is a mason or builder.
+**mas-** : Shape, build, construction. Physical: masonry, architecture. Metaphorical: shaping arguments, constructing cases. Mas.dal.eth is construction as institution; mas.da.sīr is a mason or builder.
 
 **mir-** : Witness, discernment. Mir.mar names those accountable for witnessing. The semantic range is imprecise: mir- seems to cover both sensory perception and non-sensory apprehension of truth, which may explain why constructs containing mir- are difficult to authenticate. Often excluded when producing Lector-authenticated text. Distinct from oro-, which appears specifically in contexts of viewing and reading. \[DISPUTED\]
 
-**mor-** : Completion, ending, finality. Mor.kel.ov (finality-threshold-act) contracts to mokolâ€”death. Mor.keth.eth (finality-voice-pattern) is a closing argument.
+**mor-** : Completion, ending, finality. Mor.kel.ov (finality-threshold-act) contracts to mokol—death. Mor.keth.eth (finality-voice-pattern) is a closing argument.
 
 ### **N**
 
-**neth-** : Chain of reasoning, logical sequence, proof-by-derivation. The forward motion of inferenceâ€”what connects premise to conclusion. In legal contexts, the chain of prior judgments that constrains present decisions. Neth.el is precedent: reasoning treated as eternal.
+**neth-** : Chain of reasoning, logical sequence, proof-by-derivation. The forward motion of inference—what connects premise to conclusion. In legal contexts, the chain of prior judgments that constrains present decisions. Neth.el is precedent: reasoning treated as eternal.
 
-Some mathematical proofs are neth-; others are vel-. The distinction appears to concern whether a proof *derives* (neth-) or *reconciles* (vel-). Proofs involving direct derivation from axioms tend toward neth-; proofs involving limit arguments, convergence, or reconciliation of competing frameworks tend toward vel-. But no modern mathematician can reliably predict which construction will authenticate for a given proof; standard practice is to attempt both and see which the Lector accepts. The underlying principleâ€”if there is oneâ€”is lost.
+Some mathematical proofs are neth-; others are vel-. The distinction appears to concern whether a proof *derives* (neth-) or *reconciles* (vel-). Proofs involving direct derivation from axioms tend toward neth-; proofs involving limit arguments, convergence, or reconciliation of competing frameworks tend toward vel-. But no modern mathematician can reliably predict which construction will authenticate for a given proof; standard practice is to attempt both and see which the Lector accepts. The underlying principle—if there is one—is lost.
 
 ### **O**
 
 **om-** : Surface, place-of-occurrence, locus. Extremely productive. Kelom (threshold-surface), kemom (ground-surface), golom (wheel-face).
 
-**orath-** : Perception, the quality of perceiving, that which perceives. Eyes, cameras, lenses, video transmission, statistical analysisâ€”all use orath- compounds. Orath.ul contracts to oraul (quality of sentience). The Bureau of the Lens (orath.ara) uses this root.
+**orath-** : Perception, the quality of perceiving, that which perceives. Eyes, cameras, lenses, video transmission, statistical analysis—all use orath- compounds. Orath.ul contracts to oraul (quality of sentience). The Bureau of the Lens (orath.ara) uses this root.
 
 **oro-** : Viewing, reading. Appears in contexts of visual perception and text comprehension. Distinct from mir-, which includes hearing, witnessing, and a priori reasoning. Related to orath-.
 
@@ -577,9 +577,9 @@ Some mathematical proofs are neth-; others are vel-. The distinction appears to 
 
 ### **R**
 
-**rem-** : Pattern, template. A calque for the Jargon term Ã¡o-vvÃ¬, which functioned as an axiomatic reference markerâ€”something like "given the foregoing premises" or "treating the following as foundational." In Jargon, Ã¡o-vvÃ¬ marked statements that were to be taken as given for the purposes of derivation; what followed could be proven *from* them but could not call them into question. The Imperial calque lost this logical force. Modern rem- means simply "pattern" or "template" without the axiomatic weight. Ancient texts sometimes preserve the annotation, but modern speakers do not recognize the original function. \[JARGON substrate\]
+**rem-** : Pattern, template. A calque for the Jargon term áo-vvì, which functioned as an axiomatic reference marker—something like "given the foregoing premises" or "treating the following as foundational." In Jargon, áo-vvì marked statements that were to be taken as given for the purposes of derivation; what followed could be proven *from* them but could not call them into question. The Imperial calque lost this logical force. Modern rem- means simply "pattern" or "template" without the axiomatic weight. Ancient texts sometimes preserve the annotation, but modern speakers do not recognize the original function. \[JARGON substrate\]
 
-**rev-** : Trash, waste, surplusage, overflow. Ancient meaning covers effluent, excess, and discarded material. Ya.vor.rev.om (place-of-water-waste-surface) is a sewer. Rev.eth (waste-pattern) is salvageâ€”the formalized practice of recovering value from discards. Despite the humble etymology, salvage is highly prestigious; the Dashtem-Reveth (Salvage Guild) holds monopoly charter over scrap metal export and recovery operations.
+**rev-** : Trash, waste, surplusage, overflow. Ancient meaning covers effluent, excess, and discarded material. Ya.vor.rev.om (place-of-water-waste-surface) is a sewer. Rev.eth (waste-pattern) is salvage—the formalized practice of recovering value from discards. Despite the humble etymology, salvage is highly prestigious; the Dashtem-Reveth (Salvage Guild) holds monopoly charter over scrap metal export and recovery operations.
 
 ### **S**
 
@@ -587,7 +587,7 @@ Some mathematical proofs are neth-; others are vel-. The distinction appears to 
 
 Imperial grammar requires naming the source of delegated authority. A sat- construction without a named source presumes the chain ultimately proceeds from SETAL. Lectors do not authenticate constructions that would imply an invalid delegation chain.
 
-**ser-** : Unfold, bloom, become-accessible. Botanical: a flower opening. Documentary: a scroll unrolled. Theological: truth entering temporal awareness. SETAL.ser (underlyingly SETAL.ser.el, with .el dropped) is lawâ€”Emperor-revelation treated as axiomatic. Vel.e.ser.ov (harmony-unfold-act) is to disclose or testify.
+**ser-** : Unfold, bloom, become-accessible. Botanical: a flower opening. Documentary: a scroll unrolled. Theological: truth entering temporal awareness. SETAL.ser (underlyingly SETAL.ser.el, with .el dropped) is law—Emperor-revelation treated as axiomatic. Vel.e.ser.ov (harmony-unfold-act) is to disclose or testify.
 
 The Emperor's usage includes the related but distinct form **sera-**, whose precise meaning cannot be recovered. See Emperor-Specific Vocabulary.
 
@@ -601,9 +601,9 @@ The Emperor's usage includes the related but distinct form **sera-**, whose prec
 
 **shir-** : Inclination, leaning, opinion. Personal disposition rather than revealed truth. Shir.ul.sah.em authenticates as "tendency" because it describes people who lean a certain way without implying organized political action.
 
-**shul-** : Obey, respond-to-command, be-compelled. Shul.eth is the obedience-pattern (neurological susceptibility to Compulsion). Shul.keth.eth (obedience-voice-pattern) contracts to shulkethâ€”obedience-to-voice, the act of obeying a command.
+**shul-** : Obey, respond-to-command, be-compelled. Shul.eth is the obedience-pattern (neurological susceptibility to Compulsion). Shul.keth.eth (obedience-voice-pattern) contracts to shulketh—obedience-to-voice, the act of obeying a command.
 
-**shev-** / **shav-** : \[JARGON origin\] Uniformity of application; isotropy/anisotropy. Calques for the Jargon terms shÃ©-vÄ« (isotropic, same-in-all-directions) and shÃ -vÄ« (anisotropic, varying-by-direction). The Jargon terms named precise physical propertiesâ€”whether a material or field behaved identically regardless of orientation. The Imperial calques are used almost entirely in metaphorical senses.
+**shev-** / **shav-** : \[JARGON origin\] Uniformity of application; isotropy/anisotropy. Calques for the Jargon terms shé-vī (isotropic, same-in-all-directions) and shà-vī (anisotropic, varying-by-direction). The Jargon terms named precise physical properties—whether a material or field behaved identically regardless of orientation. The Imperial calques are used almost entirely in metaphorical senses.
 
 Shev- (with the intensive e-vowel) means uniform application, impartiality, treating all parties or directions the same. A shev.vel.ov (uniform-judgment-act) is a ruling applied without regard to who is being judged. Shev.eth (uniformity-pattern) describes a policy that makes no distinctions.
 
@@ -615,11 +615,11 @@ The roots appear frequently in legal and administrative contexts. An official ac
 
 **ta-** : Born, caste-type, intrinsic quality. The particle marking inherent category. See Particles above.
 
-**tal-** : Measure, parameter, quantification. Tal.om is a measuring-surface. Tal.e.sÄ«r is an assessor. Tal.tav.en (measure-rod-thing) contracts to taalevâ€”a ruler or measuring stick.
+**tal-** : Measure, parameter, quantification. Tal.om is a measuring-surface. Tal.e.sīr is an assessor. Tal.tav.en (measure-rod-thing) contracts to taalev—a ruler or measuring stick.
 
 **tav-** : Rod, straight object, device. Core meaning: a straight functional object. Extends to "device of function specified by another root." The Bureau of the Rod is tav.ara, contracted to taasar (with the .ara sometimes contracted to .ar in compound names). \[Productive for tool vocabulary\]
 
-**ten-** : Hold, keep, maintain. Yev.ten.en (building-for-holding-thing) contracts to yevtenâ€”a warehouse. Ten.e.sÄ«r is a keeper.
+**ten-** : Hold, keep, maintain. Yev.ten.en (building-for-holding-thing) contracts to yevten—a warehouse. Ten.e.sīr is a keeper.
 
 **thar-** / **ther-** : Wrongness, violation. Vowel gradation marks intensity. Thar- is mild: incorrect, disordered, punishable. Ther- is severe: condemned, in violent revolt, existential threat. Thar.sah.em means criminals. Ther.eth would be heresy proper.
 
@@ -627,7 +627,7 @@ The roots appear frequently in legal and administrative contexts. An official ac
 
 **tsir-** : Spark, charge, excitation. Physical: electrical discharge. Emotional: excitement. Tsir.vor.al (spark-flow-continuous) is electrical current.
 
-**tsol-** : Spin, rotation. Used in directional terminology referring to Earth's rotation. Tsol.rem (spin-aligned) means east. Tsol.nem (spin-opposed) means west. Tsolnum means Westernersâ€”the wrongness connotation in \-nem is not accidental.
+**tsol-** : Spin, rotation. Used in directional terminology referring to Earth's rotation. Tsol.rem (spin-aligned) means east. Tsol.nem (spin-opposed) means west. Tsolnum means Westerners—the wrongness connotation in \-nem is not accidental.
 
 **thal-** / **thel-** : High, elevated, superior. Physical height, social rank, cosmic position share the root. Tathal names the Highborn (fossilized caste name). The intensive thel- means "highest."
 
@@ -635,19 +635,19 @@ The roots appear frequently in legal and administrative contexts. An official ac
 
 ### **V**
 
-**var-** : Receive, accept, be-subject-to. Range from passive to active reception. Var.e.sÄ«r is an official receiver. Var.sat.ov (receive-delegation-act) describes receiving a promotion or appointment.
+**var-** : Receive, accept, be-subject-to. Range from passive to active reception. Var.e.sīr is an official receiver. Var.sat.ov (receive-delegation-act) describes receiving a promotion or appointment.
 
 **varem-** : Germination, continuous becoming. Aspectually continuous where seth- is punctual. Pregnancy is varem-; birth is seth-. Ya-varem contracts to yaarem (womb). The Bureau of the Creche tends varem- functions.
 
 **vel-** : Harmonization, reconciliation, judgment. Musical: bringing voices into consonance. Administrative: reconciling ledgers. Legal: reconciling testimony. Cosmic: proper order.
 
-The archaic form vel.om appears in pre-Interdict legal texts. The obvious reading is "judgment-surface"â€”a courtroom. But vel.om also appears in Technical Caste documents as an apparent synonym for mir.themal.om (witness-discernment-surface)â€”something like the surface for deciding between sets of axioms, a priori. Modern courts avoid vel.om, using vel.ara (judgment-institution) and yev.vel.en (judgment-building) instead.
+The archaic form vel.om appears in pre-Interdict legal texts. The obvious reading is "judgment-surface"—a courtroom. But vel.om also appears in Technical Caste documents as an apparent synonym for mir.themal.om (witness-discernment-surface)—something like the surface for deciding between sets of axioms, a priori. Modern courts avoid vel.om, using vel.ara (judgment-institution) and yev.vel.en (judgment-building) instead.
 
 The neth/vel distinction in mathematical proofs may reflect this deeper sense: neth- as derivation (forward inference from axioms), vel- as reconciliation (harmonizing competing frameworks, limit arguments, convergence). The Emperor's SETAL.vel (Emperor-judgment) may carry this mathematical weight rather than mere legal adjudication.
 
-In the Emperor's corpus, vel- combines with roots that do not appear elsewhereâ€”vel.kerith, vel.om in contexts that suggest the Technical Caste mathematical sense rather than ordinary courtrooms. These constructions resist clear interpretation.
+In the Emperor's corpus, vel- combines with roots that do not appear elsewhere—vel.kerith, vel.om in contexts that suggest the Technical Caste mathematical sense rather than ordinary courtrooms. These constructions resist clear interpretation.
 
-**vor-** : Water, flow, transit-by-water. Extends to any continuous flow. Vor.al.en (continuous-flow-thing) is a river. Vor.dal.eth is dockwork; vor.da.sÄ«r is a dockworker. An imet.pel.vor.en is a dual-entry bookkeeping ledger (record-value-flow-thing).
+**vor-** : Water, flow, transit-by-water. Extends to any continuous flow. Vor.al.en (continuous-flow-thing) is a river. Vor.dal.eth is dockwork; vor.da.sīr is a dockworker. An imet.pel.vor.en is a dual-entry bookkeeping ledger (record-value-flow-thing).
 
 ### **Y**
 
@@ -665,7 +665,7 @@ Class VII is a grammatical category containing a small number of nouns with unus
 
 **Resistance to predication of change**: Constructions implying that a Class VII noun has changed, is changing, or will change do not authenticate. The Emperor cannot err, weaken, age, or die in formal Imperial. The Oracles cannot be replaced. The Record cannot be revised.
 
-**The indirect-reflexive pronoun**: When a Class VII entity speaks of itself, it uses the indirect-reflexiveâ€”a pronoun that refers to the speaker while grammatically marking distance or mediation. For ordinary speakers, the indirect-reflexive appears with verbs of involuntary action, external perception, or states one observes in oneself rather than controls.
+**The indirect-reflexive pronoun**: When a Class VII entity speaks of itself, it uses the indirect-reflexive—a pronoun that refers to the speaker while grammatically marking distance or mediation. For ordinary speakers, the indirect-reflexive appears with verbs of involuntary action, external perception, or states one observes in oneself rather than controls.
 
 The Emperor's letters use the indirect-reflexive with:
 
@@ -674,7 +674,7 @@ The Emperor's letters use the indirect-reflexive with:
 * Modal verbs of unfulfilled desire ("wishes")  
 * Negated cognitive verbs ("does not know," "does not understand")
 
-These are constructions a child would use before learning correct forms. They are fluent but anomalousâ€”the Emperor writes as though observing himself from outside, uncertain of his own mental states, experiencing rather than commanding his perceptions. The grammar was supposedly engineered around his nature; he violates it consistently.
+These are constructions a child would use before learning correct forms. They are fluent but anomalous—the Emperor writes as though observing himself from outside, uncertain of his own mental states, experiencing rather than commanding his perceptions. The grammar was supposedly engineered around his nature; he violates it consistently.
 
 This creates an insurmountable problem for anyone attempting to report on the Emperor's usage. To write "the Emperor produces grammatical errors" requires SETAL, which presumes that what follows is either disclosure or command. Disclosure is true by virtue of being disclosed. There is no construction for "the source of all correct disclosure produces incorrect disclosure."
 
@@ -688,7 +688,7 @@ The practical effect is that formal Imperial cannot express succession, incapaci
 
 **SETAL** : The Emperor. Class VII (atemporal-uncountable). Always capitalized in morphological notation. Intensive plural with no recoverable base form.
 
-**SETAL.ser** : Emperor-revelation. Law, axiomâ€”truth disclosed through the Emperor. Often contracted to setser in speech.
+**SETAL.ser** : Emperor-revelation. Law, axiom—truth disclosed through the Emperor. Often contracted to setser in speech.
 
 **SETAL.keth** : Emperor-voice. The capacity to speak with force of law.
 
@@ -698,7 +698,7 @@ The practical effect is that formal Imperial cannot express succession, incapaci
 
 **SETAL.sat.ov.el** : The eternal act of Emperor-delegating. Because SETAL is Class VII (atemporal), delegation is not something that happened once but something that eternally obtains. All authority must trace to this eternal act.
 
-**SETAL.ser.ov.el** : The eternal act of Emperor-disclosing. Clarification, lawmakingâ€”not the creation of new truth but the unfolding of what eternally obtains.
+**SETAL.ser.ov.el** : The eternal act of Emperor-disclosing. Clarification, lawmaking—not the creation of new truth but the unfolding of what eternally obtains.
 
 **SETAL.om.el** : The Eternal Surface of the Emperor. Poetically, "Throne." Used to refer to the First Whorl and its standing orders in formal legal documents.
 
@@ -706,25 +706,25 @@ The practical effect is that formal Imperial cannot express succession, incapaci
 
 ## **Jargon-Derived Terms**
 
-These are not Imperial words. They are collapsed Jargon coordinatesâ€”continuous positions in semantic space transcribed into phonology baseline humans could reproduce.
+These are not Imperial words. They are collapsed Jargon coordinates—continuous positions in semantic space transcribed into phonology baseline humans could reproduce.
 
-**Äu-Ä«-zhÃ¨m** (rising-falling-level) : State transitions in biological substrates. Does not translate. The concept occupies a semantic position Imperial grammar cannot reach.
+**āu-ī-zhèm** (rising-falling-level) : State transitions in biological substrates. Does not translate. The concept occupies a semantic position Imperial grammar cannot reach.
 
-**Å-vn-Ã©** (level-rising) : Appears in nutrient composition verification contexts.
+**ō-vn-é** (level-rising) : Appears in nutrient composition verification contexts.
 
-**Ç”-Äzh-Å-Ä«** (falling-rising-level-rising) : Appears once, describing catastrophic feeding cycle failure.
+**ǔ-āzh-ō-ī** (falling-rising-level-rising) : Appears once, describing catastrophic feeding cycle failure.
 
-**Ã m-mÃ©v** : A type of recurrenceâ€”specifically, the return of a state through phase-space to a configuration indistinguishable from its origin. The Imperial root ameth- is used in its place, though it captures only the temporal shadow of the original concept.
+**àm-mév** : A type of recurrence—specifically, the return of a state through phase-space to a configuration indistinguishable from its origin. The Imperial root ameth- is used in its place, though it captures only the temporal shadow of the original concept.
 
-**Ã¡o-vvÃ¬** : Axiomatic reference marker ("given the foregoing premises"). Marked statements that were to be taken as foundational for derivation. The Imperial root rem- is a calque, though it has lost the logical force.
+**áo-vvì** : Axiomatic reference marker ("given the foregoing premises"). Marked statements that were to be taken as foundational for derivation. The Imperial root rem- is a calque, though it has lost the logical force.
 
-**kÃ¬-Ã­r** : Quaternionâ€”a four-dimensional extension of complex numbers representing rotations in three-dimensional space. The Imperial root kir- retains only the association with four-ness and rotation.
+**kì-ír** : Quaternion—a four-dimensional extension of complex numbers representing rotations in three-dimensional space. The Imperial root kir- retains only the association with four-ness and rotation.
 
-**shÃ©-vÄ«** : Isotropyâ€”the property of being identical in all directions. The Imperial root shev- uses this metaphorically for impartiality and uniform application.
+**shé-vī** : Isotropy—the property of being identical in all directions. The Imperial root shev- uses this metaphorically for impartiality and uniform application.
 
-**shÃ -vÄ«** : Anisotropyâ€”the property of varying by direction. The Imperial root shav- uses this metaphorically for partiality and directional application.
+**shà-vī** : Anisotropy—the property of varying by direction. The Imperial root shav- uses this metaphorically for partiality and directional application.
 
-**yÃ©-ah** : A classifier for entities whose cognitive architecture permitted mutual modeling with humans. Survives only in the suffix \-yeh in ta.kef.yeh (the alien friend-species).
+**yé-ah** : A classifier for entities whose cognitive architecture permitted mutual modeling with humans. Survives only in the suffix \-yeh in ta.kef.yeh (the alien friend-species).
 
 ---
 
@@ -744,13 +744,13 @@ See the Imperial Naming Conventions document for details on these categories.
 
 ### **The Jargon Boundary Problem**
 
-Ancient Imperial vocabulary includes an unknown number of terms that originated as discrete approximations of Jargon coordinates. Some are obvious: the tonal diacritics in ancient glosses (Ã m-mÃ©v, Ã¡o-vvÃ¬, kÃ¬-Ã­r, shÃ©-vÄ«) mark them clearly. Others are not. A root like ameth- (cycle) is clearly derived from Ã m-mÃ©v, but what about roots where the original Jargon term was never recorded? How many Imperial roots are collapsed coordinates whose originals were lost?
+Ancient Imperial vocabulary includes an unknown number of terms that originated as discrete approximations of Jargon coordinates. Some are obvious: the tonal diacritics in ancient glosses (àm-mév, áo-vvì, kì-ír, shé-vī) mark them clearly. Others are not. A root like ameth- (cycle) is clearly derived from àm-mév, but what about roots where the original Jargon term was never recorded? How many Imperial roots are collapsed coordinates whose originals were lost?
 
-The boundary between "Imperial root" and "collapsed Jargon coordinate" is not recoverable. The distinction may not even be meaningfulâ€”if a Jargon coordinate was approximated so early and so thoroughly that no speaker remembers the original, is it still a calque or has it become a native root?
+The boundary between "Imperial root" and "collapsed Jargon coordinate" is not recoverable. The distinction may not even be meaningful—if a Jargon coordinate was approximated so early and so thoroughly that no speaker remembers the original, is it still a calque or has it become a native root?
 
 ### **Lost Synthetic Depth**
 
-Ancient Imperial was synthetic: roots combined freely with affixes to approach meanings the base vocabulary could not express directly. The agglutinative machinery was a ladderâ€”you could not reach Jargon meanings directly, but structured morpheme assembly could climb toward them.
+Ancient Imperial was synthetic: roots combined freely with affixes to approach meanings the base vocabulary could not express directly. The agglutinative machinery was a ladder—you could not reach Jargon meanings directly, but structured morpheme assembly could climb toward them.
 
 Modern Imperial is analytic. Words are fixed units. The affixes still exist as fossils, but the productive machinery is gone. Speakers use words without parsing them. A modern speaker knows daleth means "contract" without decomposing dal.eth (obligation-pattern). The rungs remain; no one knows they were rungs.
 
@@ -775,7 +775,7 @@ Some compounds do not authenticate for reasons that are political rather than gr
 
 Imperial makes it difficult to discuss collective decision-making without locating it in the delegation chain. Abstract statements like "the assembly decided" or "deliberation produced this outcome" require specifying *under what authority* and *delegated from whom*.
 
-* "The council judged the case" needs sat.ara to appear with a genitive sourceâ€”*whose* council? Delegated from what authority? A floating sat.ara without source implies the chain terminates at SETAL, which may or may not be what the speaker intends.  
+* "The council judged the case" needs sat.ara to appear with a genitive source—*whose* council? Delegated from what authority? A floating sat.ara without source implies the chain terminates at SETAL, which may or may not be what the speaker intends.  
 * "There was deliberation" as an independent statement doesn't authenticate. Vel.eth (deliberation-pattern) as a bare subject implies deliberation happens on its own authority. You need ya.vel.eth (deliberation at an Imperial place) or X.sat.vel.eth (deliberation delegated from X).  
 * "The citizens assembled" has no clean form. Shal- (people as mass) cannot be the grammatical agent of governance verbs without implying they act under delegation from somewhere.
 
@@ -783,7 +783,7 @@ The effect is that democratic or collective-action concepts require circumlocuti
 
 **Revolutionary constructions:**
 
-* **ta.leth.ul \[dative\] dassÄ«rath** ("freedom to the workers alone"): The ta- prefix claims permission is inherent rather than granted; the \-ath suffix marks the working class as the exclusive relevant political subject. The grammar is at war with itself, which is the point. Revolutionary slogans often exploit such contradictions.
+* **ta.leth.ul \[dative\] dassīrath** ("freedom to the workers alone"): The ta- prefix claims permission is inherent rather than granted; the \-ath suffix marks the working class as the exclusive relevant political subject. The grammar is at war with itself, which is the point. Revolutionary slogans often exploit such contradictions.
 
 **The Emperor's nature:**
 
@@ -795,7 +795,7 @@ The effect is that democratic or collective-action concepts require circumlocuti
 
 # **Representing Imperial Linguistics: Scenarios**
 
-This section explains when and how to use this document. The naming guide handles character names. This document handles how Imperial works as a living (and partly fossilized) languageâ€”its registers, its constraints, what it can and cannot express, and what happens when characters encounter the gaps.
+This section explains when and how to use this document. The naming guide handles character names. This document handles how Imperial works as a living (and partly fossilized) language—its registers, its constraints, what it can and cannot express, and what happens when characters encounter the gaps.
 
 ## **Writing Dialogue That Marks Class**
 
@@ -818,7 +818,7 @@ This section explains when and how to use this document. The naming guide handle
 
 ## **Writing Bureaucratic Documents**
 
-**The problem:** You need an in-world document that feels Imperialâ€”or you need to show characters composing, filing, or confronting such documents.
+**The problem:** You need an in-world document that feels Imperial—or you need to show characters composing, filing, or confronting such documents.
 
 **The tools:**
 
@@ -834,7 +834,7 @@ This section explains when and how to use this document. The naming guide handle
 * The stilted, archaic quality of Lector-facing prose that no one actually speaks  
 * Workarounds: loanwords in margins, paper annexes that never touch a Lector, informal speech that handles what formal speech cannot
 
-**The texture you're aiming for:** Mundane documents that contain category violations. A maintenance handbook with a term that shouldn't be in a maintenance handbook. A memo from the Emperor with grammatical errors a child would make. The wrongness doesn't announce itselfâ€”it just sits there, being wrong.
+**The texture you're aiming for:** Mundane documents that contain category violations. A maintenance handbook with a term that shouldn't be in a maintenance handbook. A memo from the Emperor with grammatical errors a child would make. The wrongness doesn't announce itself—it just sits there, being wrong.
 
 ## **Writing Authentication Failures**
 
@@ -858,7 +858,7 @@ This section explains when and how to use this document. The naming guide handle
 * A scribe who notices the Emperor's letters contain errors but cannot file a report saying so (disclosure is true by virtue of being disclosed; there's no construction for "the source of correct disclosure produces incorrect disclosure")  
 * A bureaucrat who saw something that would require a Class VII noun to change, which Class VII nouns cannot do  
 * A technician who encounters a Jargon term that names something proven but untranslatable  
-* An official who needs to discuss succession, incapacity, or institutional changeâ€”topics formal Imperial cannot express
+* An official who needs to discuss succession, incapacity, or institutional change—topics formal Imperial cannot express
 
 ## **Writing the Emperor's Anomalies**
 
@@ -883,7 +883,7 @@ These are constructions a child would use before learning correct forms. The gra
 * varal (exchange, mutual provision)  
 * \-veth (unknown, appears only in kel.om.sera.veth)
 
-These combine into constructions that resist parsingâ€”kel.sera.varem.ov.el, for instance, has unclear morpheme boundaries.
+These combine into constructions that resist parsing—kel.sera.varem.ov.el, for instance, has unclear morpheme boundaries.
 
 **What characters cannot do about this:**
 
@@ -893,9 +893,9 @@ These combine into constructions that resist parsingâ€”kel.sera.varem.ov.el
 
 ## **Writing Foreigners Encountering Imperial**
 
-**Ganatis** struggle with Imperial etiquette broadlyâ€”the fine gradations of status, the unspoken rules about when formality is required versus performed versus genuinely relaxed. A Ganati merchant might use grammatically correct Imperial while still committing social errors: addressing the wrong person first, failing to modulate formality across a conversation, treating an Aureate's casual manner as invitation to reciprocal casualness when it was actually a test. The difficulty is navigation, not grammar.
+**Ganatis** struggle with Imperial etiquette broadly—the fine gradations of status, the unspoken rules about when formality is required versus performed versus genuinely relaxed. A Ganati merchant might use grammatically correct Imperial while still committing social errors: addressing the wrong person first, failing to modulate formality across a conversation, treating an Aureate's casual manner as invitation to reciprocal casualness when it was actually a test. The difficulty is navigation, not grammar.
 
-**Akama** wouldn't care about Imperial conventions even if they understood them. Achievement-based cultures find hereditary honorifics meaningless. An Akama warband leader addressing an Aureate house head by her personal name isn't making a pointâ€”the elaborate formal address just isn't something that would occur to them. They're not being rude; they're being Akama.
+**Akama** wouldn't care about Imperial conventions even if they understood them. Achievement-based cultures find hereditary honorifics meaningless. An Akama warband leader addressing an Aureate house head by her personal name isn't making a point—the elaborate formal address just isn't something that would occur to them. They're not being rude; they're being Akama.
 
 ## **Writing About the Proven-but-Inexpressible**
 
@@ -903,7 +903,7 @@ These combine into constructions that resist parsingâ€”kel.sera.varem.ov.el
 
 **What makes this distinctive:**
 
-* The Jargon was a language where false statements could not cohere. These aren't mysteriesâ€”they're certainties.  
+* The Jargon was a language where false statements could not cohere. These aren't mysteries—they're certainties.  
 * The terms name real things. They're proven. The proof is in a dead language.  
 * Characters are not experiencing ignorance. They're experiencing tragedy: the knowledge existed, the tools existed, something broke.
 
@@ -928,7 +928,7 @@ These combine into constructions that resist parsingâ€”kel.sera.varem.ov.el
 
 1. Identify the semantic components (what does this thing do? what is it for?)  
 2. Find relevant roots in the morphological reference  
-3. Combine with appropriate suffixes (-eth for patterns/institutions, \-sÄ«r for agents, \-om for surfaces/places, \-mar for accountable agents, etc.)  
+3. Combine with appropriate suffixes (-eth for patterns/institutions, \-sīr for agents, \-om for surfaces/places, \-mar for accountable agents, etc.)  
 4. Apply phonological processes if needed (fricative elision, epenthetic vowels)  
 5. Ensure the construction requires a terminal suffix
 
@@ -944,7 +944,7 @@ These combine into constructions that resist parsingâ€”kel.sera.varem.ov.el
 
 **Constraints to remember:**
 
-* Don't generate formal terms for concepts that emerged after the Interdictâ€”those don't have formal vocabulary  
+* Don't generate formal terms for concepts that emerged after the Interdict—those don't have formal vocabulary  
 * Some constructions are blocked for political reasons (ken.SETAL is grammatically impossible; the Emperor cannot have an origin)  
 * Ordinary speakers don't parse morphemes; they use words as fixed units  
 * Stems (root combinations) require terminal suffixes to become complete words
@@ -984,14 +984,14 @@ These combine into constructions that resist parsingâ€”kel.sera.varem.ov.el
 
 **For foreigners:**
 
-* Ganatis: correct grammar, wrong etiquetteâ€”they fail at navigation  
-* Akama: wouldn't care even if they understoodâ€”the conventions don't register
+* Ganatis: correct grammar, wrong etiquette—they fail at navigation  
+* Akama: wouldn't care even if they understood—the conventions don't register
 
 **For the mysteries:**
 
 * Let ordinary frustration be the entry point  
 * Show characters holding proven knowledge they cannot express  
-* Structure revelations as ascendingâ€”each answer opens a larger question  
+* Structure revelations as ascending—each answer opens a larger question  
 * Keep the cosmic and bureaucratic using the same machinery
 
 **For terminology:**
@@ -1009,32 +1009,32 @@ These combine into constructions that resist parsingâ€”kel.sera.varem.ov.el
 
 * Don't have characters consciously parse morphemes (unless they're scholars doing archaeology)  
 * Don't treat registers as interchangeable  
-* Don't explain class differencesâ€”render them
+* Don't explain class differences—render them
 
 **For documents:**
 
 * Don't make mysteries feel mystical through mystical language  
-* Don't write "the grammar forbids X"â€”write characters failing to form the thought  
+* Don't write "the grammar forbids X"—write characters failing to form the thought  
 * Don't let documents announce their own wrongness
 
 **For authentication failures:**
 
 * Don't have characters hit walls or feel prohibited  
 * Don't have them consciously think "I cannot say this"  
-* Don't let them rage against the system productivelyâ€”it's too large to have a face
+* Don't let them rage against the system productively—it's too large to have a face
 
 **For the Emperor's anomalies:**
 
 * Don't have characters successfully report on his errors  
-* Don't explain the wrongness in-worldâ€”let it sit there  
+* Don't explain the wrongness in-world—let it sit there  
 * Don't resolve it  
 * **Don't use Emperor-specific vocabulary in modern documents**
 
 **For foreigners:**
 
 * Don't assume all outsiders make the same errors  
-* Don't have Akama "rebel against" Imperial conventionsâ€”they just don't register them  
-* Don't have Ganatis fail at pronunciationâ€”they fail at navigation
+* Don't have Akama "rebel against" Imperial conventions—they just don't register them  
+* Don't have Ganatis fail at pronunciation—they fail at navigation
 
 **For the mysteries:**
 

@@ -106,7 +106,7 @@ The Serrulata are colonist castes adapted for Ganat's desert environment. They s
 
 **Community:** Lives in compound with forty-three others. They wear identical clothing, cut hair identically, answer to distinguishing features (Grey-Patch, Crooked-Thumb). Decisions emerge through gradual alignment—not discussion but adjustment, each mind shifting toward consensus.
 
-## SzkovÃ«rin (Furnace Workers)
+## Szkovërin (Furnace Workers)
 
 **Type specimen:** Drem Voravel, 44, smith (Puget Sound)
 

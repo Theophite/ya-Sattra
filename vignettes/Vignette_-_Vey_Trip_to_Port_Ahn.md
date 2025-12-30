@@ -14,7 +14,7 @@ see_also:
 
 **Vey, Trip to Port Ahn**
 
-The lamp swayed with the ship's roll, throwing shadows across the forward hatch where the guards had spread a worn canvas. Vey sat cross-legged, trying to match their posture despite his knees protesting the unfamiliar position. The diceâ€”Kherzen's weighted setâ€”sat between them in a leather cup.
+The lamp swayed with the ship's roll, throwing shadows across the forward hatch where the guards had spread a worn canvas. Vey sat cross-legged, trying to match their posture despite his knees protesting the unfamiliar position. The dice—Kherzen's weighted set—sat between them in a leather cup.
 
 "Engineer drinks first," Ghom announced, producing a clay bottle from somewhere. "Guest rule."
 
@@ -30,9 +30,9 @@ Kherzen picked up the dice, rolling them between his fingers. "You know dice?"
 
 "I understand probability."
 
-They laughedâ€”not mockingly, just amused. "Probability," Ghom repeated. "Engineer word. Here's the game: roll three dice. Count the dots. Closest to thirteen without going over wins the pot. You go over, you drink and add twice your bet."
+They laughed—not mockingly, just amused. "Probability," Ghom repeated. "Engineer word. Here's the game: roll three dice. Count the dots. Closest to thirteen without going over wins the pot. You go over, you drink and add twice your bet."
 
-Simple enough. Except Vey could feel the weight distribution in the dice when Kherzen handed them over. Minutely off-center, probably lead drops embedded in the resin. He could calculate the bias, but that would require multiple rolls to map the probability space, andâ€”
+Simple enough. Except Vey could feel the weight distribution in the dice when Kherzen handed them over. Minutely off-center, probably lead drops embedded in the resin. He could calculate the bias, but that would require multiple rolls to map the probability space, and—
 
 "Stop thinking," Kherzen said. "Your fingers know. Just roll."
 
@@ -56,7 +56,7 @@ There was a shift in the air. Not quite tension, but acknowledgment. North of he
 
 "Can you?"
 
-"Numbers. Enough to know when they're shorting payment." He studied Vey. "Your peopleâ€”Kma-Dhol. That true what they say?"
+"Numbers. Enough to know when they're shorting payment." He studied Vey. "Your people—Kma-Dhol. That true what they say?"
 
 Vey tensed slightly. "Depends what they say."
 
@@ -64,7 +64,7 @@ Vey tensed slightly. "Depends what they say."
 
 "Or work right," Kherzen added. "Depending."
 
-In Ogon, this conversation would carry different weight. The superstitions ran deepâ€”don't let Kma-Dhol handle your weapons, they'll jam. Watch them with money, their clever souls make numbers dance. But here, in the lamplight, with Imperial water under the keel, it felt more like curiosity than accusation.
+In Ogon, this conversation would carry different weight. The superstitions ran deep—don't let Kma-Dhol handle your weapons, they'll jam. Watch them with money, their clever souls make numbers dance. But here, in the lamplight, with Imperial water under the keel, it felt more like curiosity than accusation.
 
 "We're just good with patterns," Vey said carefully.
 
@@ -84,11 +84,11 @@ They found that funny. Tselkor rolled, got exactly thirteen, and whooped victory
 
 "Iron-Rain and the war-pig."
 
-They all started laughing before the story even began. Tselkor tried to tell it through gasps: "So there's this destrier breeder who thinks he can make war-pigs. Like destriers but pigs. Armored pigs. For some reason. And he's showing them to es-Valentâ€”the Colonel down southâ€”trying to sell them."
+They all started laughing before the story even began. Tselkor tried to tell it through gasps: "So there's this destrier breeder who thinks he can make war-pigs. Like destriers but pigs. Armored pigs. For some reason. And he's showing them to es-Valent—the Colonel down south—trying to sell them."
 
 "They're ridiculous," Kherzen interjected. "Size of cattle but shaped wrong. Squealing."
 
-"And one breaks loose," Tselkor continued. "Charging through the camp. Everyone's running, climbing walls. But Iron-Rain just stands there. Thing hits him full speedâ€”bam\!" He slapped his hands together. "Iron-Rain doesn't move. Pig bounces off, lands on its back, legs kicking air."
+"And one breaks loose," Tselkor continued. "Charging through the camp. Everyone's running, climbing walls. But Iron-Rain just stands there. Thing hits him full speed—bam\!" He slapped his hands together. "Iron-Rain doesn't move. Pig bounces off, lands on its back, legs kicking air."
 
 "Iron-Rain looks down," Ghom picked up the story, "and says 'Your pig is broken.' Then walks away. Just leaves it there, upside down, squealing."
 
@@ -106,7 +106,7 @@ Vey found himself laughing despite the image of a weaponized pig being somehow h
 
 "Right, right. The arrow thing was the Sevak raid."
 
-They spent ten minutes reconstructing which battle involved which impalement, treating grievous wounds like weatherâ€”notable but not particularly important. The dice went around. Vey won a hand, lost three, started to understand the weight bias well enough to play with intent rather than calculation.
+They spent ten minutes reconstructing which battle involved which impalement, treating grievous wounds like weather—notable but not particularly important. The dice went around. Vey won a hand, lost three, started to understand the weight bias well enough to play with intent rather than calculation.
 
 "Why ya-Sattra?" Kherzen asked eventually. "Long way for family."
 
@@ -126,7 +126,7 @@ The ship rolled harder, and Tselkor went slightly green. "Going to feed the fish
 
 "The Kma-Dhol remember longer," Kherzen said, then glanced at Vey. "Truth?"
 
-Vey considered. "We remember patterns. Technical patterns. How to maintain things, how to fix things. But who built them, whyâ€”that's mostly gone."
+Vey considered. "We remember patterns. Technical patterns. How to maintain things, how to fix things. But who built them, why—that's mostly gone."
 
 "Clever souls for clever memories," Ghom said, not unkindly.
 
