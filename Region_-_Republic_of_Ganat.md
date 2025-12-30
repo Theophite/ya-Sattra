@@ -537,6 +537,110 @@ The Empire would likely win open conflict. Imperial forces could probably take T
 
 This creates stable deterrence despite power asymmetry. The Empire can't afford occupation costs for marginal territories. Ganat can't threaten Imperial core but can make intervention prohibitively expensive. The Republic's military exists to make conquest too costly, not achieve victory.
 
+### **State Apparatus**
+
+#### **The Ministry of Settlement**
+
+The Ministry of Settlement administers land grants to veterans and manages direct governance of unconsolidated territory in the eastern Republic. This is where Dawn's program actually happens—the expansion ideology that distinguishes them from Dusk, made material in surveyed plots and struggling farms.
+
+The Ministry covers more square miles than the rest of the Republic combined, though with a fraction of the population. Its jurisdiction extends from the established settlements east of Ganat proper through the marginal lands approaching the Thousand Kingdoms border, encompassing territory that ranges from productive irrigated bottomland to scrub desert that defeats most attempts at cultivation.
+
+##### **Origins**
+
+The Ministry was established too quickly.
+
+In the immediate post-revolutionary period, everything was improvised. The eastern territories needed administration. Veterans needed positions. The Sultanate had governed these lands lightly when it governed them at all—most were empty or held by pastoralist bands who acknowledged no authority. The revolution promised something different: land for those who fought, a yeoman class that would anchor republican governance, expansion as proof that collective action produces results.
+
+The obvious solution was obvious. Captain Tal-Omir, who led a company at the decapitation strike, becomes Settlement Officer for such-and-such district. His sergeants get the subordinate positions. His soldiers get first consideration for grants in territory he administers. The unit that fought together stays together, building the Republic they bled for.
+
+This happened across the eastern territories. Revolutionary units became administrative districts. Chain of command became organizational hierarchy. Military loyalty became institutional culture.
+
+##### **Structure**
+
+Central Administration operates from Ganat proper. The Minister is a Dawn political appointee, typically someone with revolutionary credentials and genuine belief in the expansion program. Senior staff includes surveyors trained at the Academy, clerks handling grant documentation, and officials coordinating infrastructure for new settlements. The central office maintains maps, processes applications, tracks grant status, and dispatches inspectors.
+
+District Offices are scattered across the eastern territories, each responsible for a region that might be the size of a pre-Interdict county. The District Officer handles surveys, allocates grants within his territory, resolves disputes between settlers, provides what governance exists for populations that haven't yet organized into functioning kilits, and reports (theoretically) to the central administration. In practice, the District Officer is the government. His decisions aren't reviewed unless someone complains loudly enough to reach Ganat proper.
+
+Field Surveyors do the technical work—measuring boundaries, assessing soil quality, mapping water sources, determining which land is actually suitable for cultivation. They're supposed to be neutral professionals. Many are. Some understand that their assessments determine who gets good land and who gets scrub, and act accordingly.
+
+The Inspectorate exists to fight corruption. Inspectors travel from Ganat proper to audit district offices, investigate complaints, and ensure the program operates as intended. Their effectiveness is limited by the structural problems described below.
+
+##### **The Grant System**
+
+A veteran applies for a land grant. The application goes to the District Office responsible for the territory where he wants to settle. The District Officer reviews the application, confirms veteran status, assigns a surveyor to assess available land, and allocates a plot. The veteran receives documentation proving ownership, travels to his land, and begins the work of making it productive.
+
+The system assumes good faith at every step. It assumes District Officers will allocate land fairly. It assumes surveyors will assess honestly. It assumes veterans will actually work their grants rather than selling them. It assumes the documentation will be accurate and the boundaries will be respected.
+
+Every assumption creates an opportunity.
+
+##### **Why It's Corrupt**
+
+The corruption is structural, not incidental. It emerges inevitably from the system's design.
+
+Land grants are discretionary and valuable. Someone decides which veteran gets the good bottomland near the irrigation canal and which gets marginal territory three days from water. Someone decides where the boundary falls when two grants are adjacent. Someone decides whether a survey error should be corrected in favor of this settler or that one. Every decision involves winners and losers, and the person deciding has preferences.
+
+The territory is remote. A district office three weeks' travel from Ganat proper operates beyond effective supervision. Messages take weeks. Inspectors arrive annually at best. The District Officer's decisions are final unless someone has the resources and determination to appeal to the capital—and even then, the appeal goes to officials who probably served with the District Officer, or know people who did.
+
+The administrators feel entitled. These are revolutionary veterans who risked their lives for the Republic. Many genuinely believe they deserve consideration. The District Officer who fought at the decapitation strike isn't going to scrutinize too carefully when a fellow veteran—someone he knows, someone who bled beside him—asks for a favor. The bonds forged in combat don't dissolve when one man becomes administrator and another becomes supplicant.
+
+The units stayed units. This is the structural lock. The revolutionary companies that became district administrations also became kilits—veteran associations organized around shared service. The kilit provides militia (these are actual soldiers, so obligations are taken seriously), votes as a bloc, and protects its members.
+
+When an inspector from Ganat proper arrives asking questions about irregularities, he's not facing one corrupt officer. He's facing a kilit. Men who fought together, who still drill together, who vote together, who will absolutely close ranks against outsiders. The sergeant who handles grant documentation isn't going to testify against his captain. The surveyor who's been eating at the District Officer's table for five years isn't going to confirm that boundaries were drawn to favor certain applicants. Everyone knows everyone. Everyone owes everyone. Everyone protects everyone.
+
+##### **The Inspectorate**
+
+The Ministry maintains an anti-corruption apparatus because it must. The program's legitimacy depends on the belief that land goes to deserving veterans through fair process. Every scandal undermines that belief. So there are inspectors, investigations, tribunals, and periodic executions of particularly egregious offenders.
+
+The inspectors are supposed to be incorruptible professionals dispatched from the capital. Some are. Many are themselves veterans who understand the system they're inspecting—who served with men now running district offices, who know how things actually work, who aren't inclined to destroy colleagues for doing what everyone does.
+
+Some inspectors are worse than the people they inspect. An inspector has power over district officers, limited supervision from the capital, and the same opportunities for extraction that district officers enjoy. "I found irregularities in your records. This could go very badly for you. Unless we can reach an understanding."
+
+The inspectors who are genuine reformers face impossible odds. They can document corruption in meticulous detail. They can refer cases to prosecutors. But prosecution requires evidence that witnesses won't provide, and even successful prosecution means removing one corrupt officer while leaving the system that produced him intact. The inspector returns to Ganat proper, files a report, and watches nothing change.
+
+##### **The Speculator Problem**
+
+The land grant program was supposed to create independent yeoman farmers. Instead, it often creates a new tenantry.
+
+The process works like this: A veteran receives his grant. He travels to his land. He discovers that farming is difficult, especially in marginal territory, especially without capital, especially without experience. Being a soldier doesn't teach irrigation or crop rotation or how to survive a drought year. He struggles. He fails. His grant is designated "undeveloped" or "abandoned."
+
+At which point speculators arrive.
+
+Merchant houses—often Dusk-aligned—buy up failed grants at discount through intermediaries. They consolidate holdings into estates. They hire the original grantees as tenant farmers, or bring in laborers from elsewhere. The veteran who was supposed to become an independent yeoman becomes a wage worker on land that was briefly his.
+
+The statistics show "successful settlement" because someone's farming the land. The Dawn newspapers celebrate expansion into the eastern territories. But the program's ideological purpose—creating a yeoman class loyal to republican governance—is subverted by the same commercial interests Dawn claims to oppose.
+
+The Ministry knows this happens. Everyone knows. But stopping it would require either supporting failed veterans indefinitely (expensive, and where does the money come from?) or preventing land sales (legally questionable, and the courts are Dusk-aligned). So the speculation continues, and the program produces what it was designed to prevent, and nobody can fix it because the fixes are worse than the disease.
+
+##### **Political Dynamics**
+
+Dawn is trapped. The Ministry of Settlement is their ministry, their program, their base. The veteran kilits are core constituency—the ideological heart of expansion ideology, men who risked their lives for the Republic and now embody its promise. Dawn cannot attack them without attacking itself.
+
+So the anti-corruption campaigns catch the occasional officer who's so egregious even his former unit-mates won't defend him, or who made enemies of the wrong people, or who wasn't smart enough to share the proceeds appropriately. Systemic reform is impossible because the system is defended by Dawn's own voters.
+
+Dusk watches this and takes notes. Dusk newspapers run stories about corruption in the eastern territories, about veterans defrauded by their own officers, about the gap between revolutionary promise and administrative reality. But Dusk's preferred solution—letting merchant speculators rationalize the wreckage into productive estates—is itself legally questionable, and Dusk-aligned merchant houses are often the speculators profiting from failed grants. So Dusk criticizes the program while profiting from its failures, and everyone involved is complicit in ways that prevent honest accounting.
+
+The settlements that actually work become fierce Dawn loyalists. They got their land, they made it productive, they're living proof the program succeeds. They credit their success to revolutionary governance and their own hard work. They blame failures on individual corruption rather than systemic problems—"if only the officers had been honest, if only the inspectors had been vigilant, those other veterans would have succeeded too."
+
+The settlements that failed blame corruption rather than the program itself. This preserves faith in the ideology. The expansion policy isn't wrong; it was implemented badly. The solution isn't to abandon the program but to clean it up. Someday, with the right reforms, with honest administration, the promise will be fulfilled.
+
+##### **What Success Looks Like**
+
+When the Ministry works as intended, the results are genuinely impressive.
+
+A veteran arrives in the eastern territories with his grant documentation. He finds land that's actually suitable for cultivation—good soil, water access, defensible position. He works the land with support from neighboring settlers who help each other through difficult seasons. Within a few years he's producing surplus, contributing to the local kilit, voting in Senate elections, raising children who will inherit productive farms. He's exactly what the program promised: an independent yeoman farmer anchoring republican governance in territory that was empty scrub a generation ago.
+
+These successes exist. They're real. The eastern territories do have a growing population of productive settlers who genuinely benefited from the land grant program and genuinely support the Republic that made their lives possible.
+
+The tragedy is that these successes coexist with systematic corruption, failed grants, speculation, and a tenantry that grows alongside the yeomanry. The program produces both outcomes simultaneously, and the successes provide cover for the failures, and the failures undermine the legitimacy of the successes, and nobody can disentangle the two because they emerge from the same system administered by the same people serving the same political coalition.
+
+##### **The Unfixable Problem**
+
+The Ministry of Settlement cannot be reformed because reform would require attacking Dawn's own base.
+
+Cleaning up the district offices means confronting veteran kilits that vote Dawn. Preventing speculation means legal battles in Dusk-controlled courts. Providing adequate support for struggling settlers means money that has to come from somewhere, probably from taxes on Dusk-aligned commercial interests who will resist. Every solution creates new problems, every reform alienates constituencies, every improvement threatens someone's interests.
+
+So the Ministry continues. The corruption continues. The successes continue. The failures continue. The statistics show expansion, and the newspapers celebrate settlement, and the inspectors file reports, and the kilits protect their members, and the speculators buy failed grants, and the program produces everything it was supposed to prevent alongside everything it was supposed to create, and nobody can fix it, and everybody knows.
+
 ### **Current Tensions**
 
 The Republic is eighteen years old. The revolutionary generation still holds powerâ€”Rasma financed the uprising, military leadership emerged from the Cloud Temple Band, the Patriarch transformed Church theology in living memory. This creates questions about succession without answers. Who leads when revolutionaries age out? Will moderate consuls selected by opposition remain moderate when selected by a generation that never experienced monarchy?
