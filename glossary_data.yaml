@@ -2307,6 +2307,7 @@ entries:
     details: Fraser River delta, glaciers visible to north. Autofactory maintains infrastructure for millions while 60,000 Avouvar inhabit seventeen precincts. Radiation renewed deliberately to exclude outsiders.
     rag_pointer: Asovoë and the Avouvar
     related: [Avouvar, San Juan Factorias]
+    culture: [Avouvar]
     location_features:
       level: city
       location_type: settlement
@@ -3397,6 +3398,7 @@ entries:
     details: Six million inhabitants. Nominally republican but Serrulata caste advantages undermine egalitarian ideology. Dawn and Dusk political factions. Fought the Empire over Yarangar eighteen years ago.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Serrulata, Yarangar, Taho, Kilit]
+    culture: [Ganati]
     location_features:
       level: territory
       location_type: polity
@@ -6183,6 +6185,7 @@ entries:
     details: Eighty miles of brutalist sprawl produced by malfunctioning autofactory. Seven token-holders govern through the Junta. Kma-Dhol (40,000 sewer-fishers) operate openly as technical specialists.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Junta of Ogon, Thousand Kingdoms, Kma-Dhol]
+    culture: [Akama]
     location_features:
       level: city
       location_type: settlement
@@ -7878,6 +7881,7 @@ entries:
     details: Runs geometrically straight with walls of fused glass rising thirty feet. Creates artificial spawning grounds and fishing positions held by force and inherited through bloodlines.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Ogon, Thousand Kingdoms]
+    culture: [Akama]
     location_features:
       level: district
       location_type: infrastructure
@@ -8359,6 +8363,7 @@ entries:
       in Ogon) operate autofactories openly.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Akama, Junta of Ogon, Ogon, Kma-Dhol, Malpais]
+    culture: [Akama]
     location_features:
       level: territory
       location_type: polity
@@ -9684,6 +9689,7 @@ entries:
     details: 1.2 million people. The Furnaces produce technologies Imperial civilization cannot survive without. Church-Guild complex controls production. Bureau of the Rod negotiates with institutions it cannot compel.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Furnaces, Bureau of the Rod, Order of St. Akhmet]
+    culture: [Ya-Don]
     location_features:
       level: city
       location_type: settlement
@@ -9756,6 +9762,7 @@ entries:
       plus numerous rim cities along the former coastline (collectively "The Rim").
     rag_pointer: The Inner City, The Medina Quarter
     related: [Inner City, Medina Quarter, Middens, Rift, The Rim]
+    culture: [Imperial, Antediluvian]
     location_features:
       level: city
       location_type: settlement
@@ -9878,6 +9885,7 @@ entries:
       maintaining surface cooperation. Population ~150,000.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [Testament Society, Threefold Mirror Academy, Presence, Ezh Tan, Ezh Ot, Ezh Dhol]
+    culture: [Ya-Tsatsa]
     location_features:
       level: city
       location_type: settlement
