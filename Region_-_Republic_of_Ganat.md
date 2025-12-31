@@ -473,6 +473,8 @@ The Republic's ministries (Settlement, Justice, War) are documented separately. 
 
 Professional licensing operates through certified kilits rather than individual credentials. See: `Government_-_Ganati_Professional_Kilits.md`
 
+The People's Exchequer, fiscal constitution, and taxation system are documented separately. See: `Government_-_Peoples_Exchequer.md`
+
 ### **Current Tensions**
 
 The Republic is eighteen years old. The revolutionary generation still holds powerâ€”Rasma financed the uprising, military leadership emerged from the Cloud Temple Band, the Patriarch transformed Church theology in living memory. This creates questions about succession without answers. Who leads when revolutionaries age out? Will moderate consuls selected by opposition remain moderate when selected by a generation that never experienced monarchy?
