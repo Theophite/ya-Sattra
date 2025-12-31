@@ -11459,8 +11459,30 @@ entries:
       Final two verses sung during Quiet Days. Provides unity through shared sequence 
       while allowing infinite local variation.
     rag_pointer: The Penitents
-    related: [Penitent Church, Quiet Days]
+    related: [Penitent Church, Quiet Days, Common Confession, Particular Confession, Tenth Observance]
   # ─── end The Plea ───
+
+  # ═══ Common Confession ═══
+  Common Confession:
+    category: concept
+    short: "The fixed annual portion of the Plea—same verses recited by every congregation, interpreted very differently."
+    details: |
+      The Common Confession provides unity across the fractured Penitent world. Every
+      congregation moves through the same liturgical sequence, the same verses, the same
+      rhythm. But interpretation varies radically.
+
+      The opening Testimony of the Witnesses contains verses condemning "the refusal of
+      the Archons"—when Imperial congregations recite this, they perform delicate
+      reinterpretation, treating the Emperor as a holy being led astray rather than a
+      tyrant who chose damnation. In Ganati parishes or the Thousand Kingdoms, the same
+      verses condemn the Empire in the harshest terms.
+
+      This shared text with divergent meaning is not a bug but the system working as
+      designed. The Plea accommodates contradiction, enabling communities with irreconcilable
+      beliefs to participate in the same religion.
+    rag_pointer: "The Penitent Church"
+    related: [The Plea, Particular Confession, Penitent Church, Testimony of the Witnesses]
+  # ─── end Common Confession ───
 
   # ═══ Capitation Tax ═══
   Capitation Tax:
@@ -15359,14 +15381,24 @@ entries:
   # ═══ Particular Confession ═══
   Particular Confession:
     category: concept
-    short: "Ya-Don practice combining spiritual confession with workplace grievance documentation."
+    short: "The variable portion of the Plea—enables localized grievance and radical critique through formal religious compliance."
     details: |
-      A worker might confess to "participating in unsafe conditions"—technically admitting 
-      personal fault while documenting management failures. Confessions accumulate in Curate 
-      awareness, providing intelligence about workplace conditions that formal reporting 
-      might miss. Distinctive to ya-Don's Sacred Labor theology.
-    rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [ya-Don, Sacred Labor, Order of St. Akhmet]
+      Where the Common Confession is fixed annually, the Particular Confession varies by
+      congregation, enabling infinite local adaptation. The rhetorical structure protects
+      speakers through formal compliance while enabling critique that would otherwise be
+      dangerous.
+
+      Revolutionary cells have perfected this technique. When Sari Loak confesses her
+      "submission before unjust authority," her prayer circle understands she means paying
+      Chain-Man tolls. Curates in Ganati parishes broadcast Particular Confessions as
+      thinly-veiled political editorials, protected by religious privilege.
+
+      Ya-Don has developed a particularly distinctive practice: workers confess to
+      "participating in unsafe conditions"—technically admitting personal fault while
+      systematically documenting management failures. These confessions accumulate in
+      Curate awareness, providing workplace intelligence that formal reporting might miss.
+    rag_pointer: "The Penitent Church, Ya-Don: Comprehensive Reference"
+    related: [The Plea, Common Confession, Penitent Church, ya-Don, Sacred Labor]
   # ─── end Particular Confession ───
 
   # ═══ Presence ═══
