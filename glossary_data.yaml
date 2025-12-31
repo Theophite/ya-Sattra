@@ -380,8 +380,21 @@ entries:
   # ═══ Beamcrawler ═══
   Beamcrawler:
     category: caste
-    short: Labor caste with elongated limbs optimized for traversing industrial infrastructure.
-    details: ""
+    short: Long-limbed workers who move through scaffolding like water flows downhill.
+    details: |
+      Six feet tall but the proportions look wrong—short torso, arms that
+      reach nearly to the ankles, legs built for climbing rather than walking.
+      Feet articulate for gripping. On flat ground, the gait is awkward; people
+      stare. In scaffolding, among beams and struts and vertical drops, the
+      awkwardness vanishes. The body flows through three-dimensional space
+      with fluid grace, arms reaching holds that look impossible, movement
+      becoming automatic.
+
+      Beamcrawlers maintain the elevated infrastructure of the great cities—
+      pillars, sky-bridges, structural supports. They access spaces that
+      require equipment for baseline workers. The view from a high strut at
+      dawn, the city spread below, is something they rarely describe to
+      groundwalkers. The words wouldn't translate.
     rag_pointer: Castes of Mankind
     related: [Labor Castes, Ductworker]
     caste_features:
