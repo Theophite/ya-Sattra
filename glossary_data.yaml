@@ -2278,17 +2278,24 @@ entries:
   # ═══ Akama District ═══
   Akama District:
     category: location
-    short: "Northeastern section of ya-Tsatsa's Upper City—where outsiders can find lodging."
+    short: The northeastern section of ya-Tsatsa's Upper City—the only part with street names, posted prices, and lodging that accepts outsiders.
     details: |
-      The only part of Upper City with street names and lodging accepting outsiders.
-      Where Akama traders from the Thousand Kingdoms have established presence over
-      generations. White-gray quartz diorite construction like all ya-Tsatsa, but with
-      signs, posted prices, accommodation to outside expectations—the city's concession
-      to comprehensibility.
+      White-gray quartz diorite like everything in ya-Tsatsa, but here
+      someone has added signs. Street names marked at intersections. Posted
+      prices in windows. Lodging that accepts outsiders without requiring
+      introductions. Akama traders from the Thousand Kingdoms established
+      this presence over generations, and the city tolerates the
+      accommodation to outside expectations because someone must conduct
+      business with the incomprehensible.
 
-      Gorat Windborne, legendary figure, maintains trading presence here for the Ezh Ot
-      family's Akama auxiliary bands. The climb from Lower City takes forty minutes;
-      visitors make it morning and evening to conduct business below and sleep above.
+      The climb from Lower City takes forty minutes. Visitors make it twice
+      daily—morning up, evening down, or the reverse—sleeping above where
+      it's cooler and quieter, conducting business below where the commerce
+      happens. The district exists in this rhythm: the flux of outsiders
+      moving through, the permanent Akama population that makes the flux
+      possible, the monochrome city accepting signs and prices as the
+      minimum concession required to remain accessible to anyone from
+      outside.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [ya-Tsatsa, Akama, Upper City, Lower City]
     location_features:
