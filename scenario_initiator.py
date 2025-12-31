@@ -2,16 +2,23 @@
 """
 Scenario Initiator for the Post-Interdict Empire.
 
-Draws a Tarot card and a random glossary term to seed a new scenario.
+Draws Tarot cards and random glossary terms to seed a new scenario.
 Generates a .md file with scenario framework and initializes the cache.
 
 Usage:
-    scenario_initiator.py                 # Draw card + word, show prompt
-    scenario_initiator.py --draw          # Just draw card + word (no file)
+    scenario_initiator.py                 # Single draw: 1 card + 1 word, show prompt
+    scenario_initiator.py --draw          # Multi-draw: 3 cards + 5 terms for selection
+    scenario_initiator.py --draw-single   # Old behavior: 1 card + 1 word (no file)
     scenario_initiator.py --create <name> # Create scenario file after drawing
     scenario_initiator.py --word          # Just pull a random glossary word
     scenario_initiator.py --card          # Just draw a Tarot card
     scenario_initiator.py --list-cards    # Show all available cards
+
+Multi-Draw Selection:
+    The --draw command presents 3 tarot cards and 5 glossary terms weighted
+    by category (locations preferred) and content richness. Select one card
+    + one term combination based on narrative potential, then proceed with
+    scenario generation using your selection.
 """
 
 import sys
@@ -22,11 +29,12 @@ from datetime import datetime
 from pathlib import Path
 
 # Glossary integration
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 WORKING_DIR = '/home/claude'
 PROJECT_DIR = '/mnt/project'
 GLOSSARY_AVAILABLE = False
 
-for search_dir in [WORKING_DIR, PROJECT_DIR]:
+for search_dir in [SCRIPT_DIR, WORKING_DIR, PROJECT_DIR]:
     if GLOSSARY_AVAILABLE:
         break
     if os.path.exists(search_dir) and os.path.exists(os.path.join(search_dir, 'glossary.py')):
@@ -35,7 +43,8 @@ for search_dir in [WORKING_DIR, PROJECT_DIR]:
             import glossary as G
             GLOSSARY_AVAILABLE = True
         except ImportError:
-            sys.path.remove(search_dir)
+            if search_dir in sys.path:
+                sys.path.remove(search_dir)
 
 # =============================================================================
 # TAROT DECK
@@ -102,10 +111,24 @@ def draw_card(reversed_chance=0.3):
     deck = get_full_deck()
     card_name, meaning = random.choice(deck)
     is_reversed = random.random() < reversed_chance
-    
+
     if is_reversed:
         return f"{card_name} (Reversed)", meaning, True
     return card_name, meaning, False
+
+
+def draw_multiple_cards(n=3, reversed_chance=0.3):
+    """Draw n random Tarot cards without replacement, possibly reversed."""
+    deck = get_full_deck()
+    selected = random.sample(deck, min(n, len(deck)))
+    results = []
+    for card_name, meaning in selected:
+        is_reversed = random.random() < reversed_chance
+        if is_reversed:
+            results.append((f"{card_name} (Reversed)", meaning, True))
+        else:
+            results.append((card_name, meaning, False))
+    return results
 
 
 # =============================================================================
@@ -175,7 +198,7 @@ def get_random_word(category=None, weighted=True):
 def format_word_result(term, entry):
     """Format a random word result for display."""
     lines = [f"WORD: {term}"]
-    
+
     if entry:
         lines.append(f"  Category: {entry.category}")
         lines.append(f"  {entry.short}")
@@ -747,11 +770,20 @@ def main():
             print("No matching terms found.")
         return
     
-    # Draw both card and word
-    if '--draw' in args or '--create' in args:
+    # Multi-draw for selection (new --draw behavior)
+    if '--draw' in args and '--create' not in args:
+        # Draw 3 cards and 5 terms for selection
+        cards = draw_multiple_cards(n=3)
+        terms = draw_weighted_terms(n=5, include_persons=True)
+
+        print(f"\n{format_selection_prompt(cards, terms)}")
+        return
+
+    # Single draw (old --draw behavior, now --draw-single)
+    if '--draw-single' in args:
         card_name, meaning, is_reversed = draw_card()
         term, entry = get_random_word()
-        
+
         reversal = " [REVERSED]" if is_reversed else ""
         print(f"\n{'='*70}")
         print(f"CARD: {card_name}{reversal}")
@@ -797,8 +829,29 @@ def main():
             # Show the creative prompt
             print(generate_scenario_prompt(card_name, meaning, is_reversed, term, entry))
         else:
-            # Just show the prompt without creating file
-            print(generate_scenario_prompt(card_name, meaning, is_reversed, term, entry))
+            # Generate name from card and term
+            card_short = card_name.split()[0] if " " in card_name else card_name
+            name = f"The {card_short} and the {term}"
+
+        filename = create_scenario_file(name, card_name, meaning, is_reversed, term, entry)
+        cache = initialize_scenario_cache(name, filename, card_name, meaning, term, entry)
+
+        print(f"\n✓ Created: {filename}")
+        print(f"✓ Initialized session cache with cantilever")
+        print(f"\nCANTILEVER WORKFLOW:")
+        print(f"  1. Fill in Central Question and Gun sections first")
+        print(f"  2. Build Protagonist, Characters, Locations")
+        print(f"  3. After each section, run: input_check.py --constrain \"fact\"")
+        print(f"  4. Write Introduction")
+        print(f"  5. Run: input_check.py --act-break")
+        print(f"  6. Answer the synthesis question")
+        print(f"  7. Run: input_check.py --synthesize \"your answer\"")
+        print(f"  8. Write Mystery and Trajectories")
+        print(f"\nVERIFICATION:")
+        print(f"  • glossary.py scan {filename}")
+        print(f"  • Check invented terms against established lore")
+        # Show the creative prompt
+        print(generate_scenario_prompt(card_name, meaning, is_reversed, term, entry))
         return
     
     # Default: draw and show prompt
