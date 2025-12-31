@@ -45,7 +45,7 @@ Traditional or prestigious Ganati surnames are compounds consisting of a histori
 
 * Kel al-Marwen (e.g., Datho Kel al-Marwen, Dusk Consul)
 
-**Context:** Less common than standard compound forms, as most Ganatis are Serrulata and even among near-baseline populations (approximately 25% of the Republic), not all possess Imperial lineage ancient enough to preserve the particle. This naming pattern signals a distinct type of prestigeâ€”not merely established wealth but verifiable Imperial heritage.
+**Context:** Less common than standard compound forms, as most Ganatis are Serrulata and even among near-baseline populations (approximately 25% of the Republic), not all possess Imperial lineage ancient enough to preserve the particle. This naming pattern signals a distinct type of prestige—not merely established wealth but verifiable Imperial heritage.
 
 ## III. Surnames: Unmarked Forms
 
@@ -63,7 +63,7 @@ Names associated with less prestigious backgrounds, recent formations, or specif
 
 While no lexical meaning is ascribed to these names in-game, the naming structure carries social information:
 
-**Compound surnames (hyphenated only):** Suggest established lineage and connection to pre-Revolutionary economic structures, tending toward Dusk affiliation. This is a tendency rather than absolute ruleâ€”Rasma Dhal-Setil serves as Dawn Consul despite her compound surname indicating elite background.
+**Compound surnames (hyphenated only):** Suggest established lineage and connection to pre-Revolutionary economic structures, tending toward Dusk affiliation. This is a tendency rather than absolute rule—Rasma Dhal-Setil serves as Dawn Consul despite her compound surname indicating elite background.
 
 **Imperial descent surnames (el-/al- connector):** Mark near-baseline families with ancient Imperial heritage. This adds distinct prestige beyond mere established wealth, signaling traceable connection to Imperial structures predating even the Sultanate. Often correlates with merchant-banking interests and Dusk politics, though the Imperial connection may also provide cultural sophistication that makes holders acceptable to moderate Dawn as pragmatic intermediaries with Imperial commerce.
 

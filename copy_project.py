@@ -28,7 +28,8 @@ MOJIBAKE_FIXES = {
     "\u00e2\u2020\u0090": "\u2190",           # <- left arrow (U+2190)
     
     # Dashes
-    "\u00e2\u20ac\u201d": "\u2014",           # -- em dash
+    "\u00e2\u20ac\u201d": "\u2014",           # -- em dash (curly quote variant)
+    "\u00e2\u20ac\u0022": "\u2014",           # -- em dash (straight quote variant)
     "\u00e2\u20ac\u201c": "\u2013",           # - en dash
     
     # Bullets and misc punctuation

@@ -335,7 +335,7 @@ The Hereditary Debtors, staffing archives and customs houses throughout the Repu
 
 #### **Legislative Process and Deadlock Resolution**
 
-The constitutional architecture seems designed to prevent governance. The Senate needs a simple majority for routine business but 60% for significant legislation which overrides a consular veto. The 750-seat Senate divides roughly 450 Dawn, 300 Duskâ€"but these numbers mask the reality that senators vote their constituent kilits' material interests rather than party line. The 60% thresholdâ€"exactly 450 votesâ€"should be impossible to achieve except during genuine crisis.
+The constitutional architecture seems designed to prevent governance. The Senate needs a simple majority for routine business but 60% for significant legislation which overrides a consular veto. The 750-seat Senate divides roughly 450 Dawn, 300 Dusk—but these numbers mask the reality that senators vote their constituent kilits' material interests rather than party line. The 60% threshold—exactly 450 votes—should be impossible to achieve except during genuine crisis.
 
 Yet legislation does pass, because bills that reach the floor have already been revised through extensive negotiation until they serve enough overlapping interests to achieve passage. The process is slow and frustrating but resistant to capture by any single faction.
 
@@ -575,7 +575,7 @@ This dependency on alien banking infrastructure is another ideological contradic
 
 ### **Current Tensions**
 
-The Republic is eighteen years old. The revolutionary generation still holds powerâ€"Rasma's legendary ride secured the west, military leadership emerged from the Cloud Temple Band, the Patriarch transformed Church theology in living memory. This creates questions about succession without answers. Who leads when revolutionaries age out? Will moderate consuls selected by opposition remain moderate when selected by a generation that never experienced monarchy?
+The Republic is eighteen years old. The revolutionary generation still holds power—Rasma's legendary ride secured the west, military leadership emerged from the Cloud Temple Band, the Patriarch transformed Church theology in living memory. This creates questions about succession without answers. Who leads when revolutionaries age out? Will moderate consuls selected by opposition remain moderate when selected by a generation that never experienced monarchy?
 
 The kilit system fragments power effectively but may fragment too much. When Thousand Kingdoms raids intensify, assembling coherent defense requires negotiations across dozens of economic units with conflicting priorities. The Copper Road Syndicate provides excellent scouts but won't deploy south where their smuggling routes don't run. Agricultural kilits prioritize harvest schedules over military operations. The system prevents dictatorship by making coordinated action nearly impossible—but coordinated action is occasionally necessary.
 

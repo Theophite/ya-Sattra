@@ -10,7 +10,7 @@ The fundamental difference between Imperial and Akama society lies in how each h
 
 *Performed by Drom Salt-Mouth at the Broken Ridge gathering, third year of the current Junta*
 
-My father gave me his destrier when I turned fifteen. A fine animalâ€”gray, strong-legged, bad-tempered. I named him Worthy because I thought that was clever.
+My father gave me his destrier when I turned fifteen. A fine animal—gray, strong-legged, bad-tempered. I named him Worthy because I thought that was clever.
 
 Worthy threw me the first morning. I landed in a thornbush. My sister laughed so hard she couldn't breathe. I got back on.
 
@@ -58,11 +58,11 @@ This is her inheritance. May she use it well or lose it trying.
 
 In the courtyard behind the Tama compound, where the autofactory's wall meets a structure no one uses, there is a garden that Kel Tama's grandmother began and her mother continued and she maintains now.
 
-The ground is gray gravel raked each morning into parallel lines. A single stone, rust-colored, sits off-centerâ€”not at a mathematically pleasing point, but where it looked right when her grandmother placed it sixty years ago. A channel cut into the autofactory's concrete runs with water when it rains, dry otherwise, the edge stained with verdigris from a copper fitting somewhere in the structure above.
+The ground is gray gravel raked each morning into parallel lines. A single stone, rust-colored, sits off-center—not at a mathematically pleasing point, but where it looked right when her grandmother placed it sixty years ago. A channel cut into the autofactory's concrete runs with water when it rains, dry otherwise, the edge stained with verdigris from a copper fitting somewhere in the structure above.
 
 Nothing else. No plants, no ornament, no carving. The lines in the gravel, the stone, the water-channel, the way the morning light falls across the gray and rust and green.
 
-Kel's mother spent eleven years adjusting where the gravel met the base of the wallâ€”the transition between horizontal lines and vertical surface. When she died, Kel left that edge exactly as her mother had finally placed it.
+Kel's mother spent eleven years adjusting where the gravel met the base of the wall—the transition between horizontal lines and vertical surface. When she died, Kel left that edge exactly as her mother had finally placed it.
 
 Visitors sometimes ask what the garden means. Kel tells them it doesn't mean anything. It's just right.
 
@@ -72,7 +72,7 @@ Visitors sometimes ask what the garden means. Kel tells them it doesn't mean any
 
 Where the ziggurat called Dharel's Span meets the canal, nine masks look down from the concrete face. The oldest is perhaps three hundred years weathered, features worn until only the brow-ridge and eye-hollows remain distinct. The newest was carved within living memory, when the current band took the span from the Torek confederation.
 
-The masks are not portraits. They have no names attached, no inscriptions identifying whose ancestors they represent. The band knowsâ€”the knowledge passes with the territoryâ€”but an outsider sees only faces. Heavy brows. Prognathous jaws. The ruff of fur suggested in rough-cut lines radiating from the cheeks. Black pigment in the eye-hollows. Rust filling the deep grooves that mark the brow.
+The masks are not portraits. They have no names attached, no inscriptions identifying whose ancestors they represent. The band knows—the knowledge passes with the territory—but an outsider sees only faces. Heavy brows. Prognathous jaws. The ruff of fur suggested in rough-cut lines radiating from the cheeks. Black pigment in the eye-hollows. Rust filling the deep grooves that mark the brow.
 
 Below the masks, a scene runs the length of the wall: riders approaching a ford, the water indicated by horizontal cuts, the far bank held by figures whose faces are turned away. The outcome isn't shown. The riders approach; the defenders wait; the moment before contact extends forever in cut concrete.
 
@@ -102,4 +102,4 @@ People think the wood is the shaft and the feathers make it fly. They have it ba
 
 A good arrow already exists inside the branch. You are just letting it out. If you force it, you get a crooked shaft that wobbles in flight. If you listen to the grain, you get a shaft that flies true because it was always meant to.
 
-I have made perhaps ten thousand arrows. Maybe six thousand flew true. Maybe six of those were perfectâ€”shafts that left the bow and never doubted where they were going. I did not make those arrows. I found them.
+I have made perhaps ten thousand arrows. Maybe six thousand flew true. Maybe six of those were perfect—shafts that left the bow and never doubted where they were going. I did not make those arrows. I found them.

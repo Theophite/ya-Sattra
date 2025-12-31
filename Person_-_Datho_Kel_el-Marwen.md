@@ -4,7 +4,7 @@
 
 Datho Kel el-Marwen is the current Dusk Consul of the Republic of Ganat, elevated to that position four years ago through the cross-selection mechanism that defines Republican executive authority. He operates an archaeotech brokerage in Taho, maintains deep ties to the Imperial trade that makes the Republic economically viable, and carries significant debt to merchant houses whose interests he has served throughout his Senate career. His constituency crosses factional lines in unusual ways: a Dusk politician representing archaeotech workers who believe fervently in the revolutionary theology of technical progress.
 
-He is fifty-eight years old, near-baseline, and possesses what everyone who meets him describes as a "readable face"â€”an apparent inability to conceal his emotional states that has shaped his entire political career. He stands five foot six, with a slightly receding hairline, wide eyes, and sharp features. People trust him because they believe they can see what he's feeling. This transparency has made him an effective broker, an acceptable compromise candidate for Consulship, andâ€”from the perspective of those who wish to leverage himâ€”an apparently manageable asset.
+He is fifty-eight years old, near-baseline, and possesses what everyone who meets him describes as a "readable face"—an apparent inability to conceal his emotional states that has shaped his entire political career. He stands five foot six, with a slightly receding hairline, wide eyes, and sharp features. People trust him because they believe they can see what he's feeling. This transparency has made him an effective broker, an acceptable compromise candidate for Consulship, and—from the perspective of those who wish to leverage him—an apparently manageable asset.
 
 He is currently facing the most significant crisis of his political life: exposure of unreported contacts with Imperial intelligence, revelation of his debts and the policy concessions they purchased, and potential implication in unauthorized payments to Kelso Senna's Cloud Temple Band. The man who appears so readable may be less predictable than his handlers assume.
 
@@ -16,13 +16,13 @@ He is currently facing the most significant crisis of his political life: exposu
 
 The Kel el-Marwen family operates within Taho's merchant ecology without belonging to its upper tier. They are not one of the great trading houses that dominate Republican commerce with the Empire; they are the kind of family that facilitates such commerce, brokering connections and managing logistics for those with greater capital. The family straddles the border in ways both literal and cultural: a branch on the Imperial side, the Marwens, holds three Salvage Guild masters' cards in ya-Sattra, giving the family access to authenticated archaeotech sources that most Republican brokers cannot match.
 
-Datho grew up bilingual, speaking Imperial Common at home as readily as Ganati trade-tongue. This was practicalâ€”the family's business required fluency in bothâ€”but it left marks. Newspapers have described his accent as "Imperial," and he avoids radio addresses where the cadence of his speech might remind listeners that his cultural formation happened partly across the border. In a Republic defined by revolution against a historically Imperial-backed monarchy, sounding like the enemy is a political liability that no amount of correct policy positions fully erases.
+Datho grew up bilingual, speaking Imperial Common at home as readily as Ganati trade-tongue. This was practical—the family's business required fluency in both—but it left marks. Newspapers have described his accent as "Imperial," and he avoids radio addresses where the cadence of his speech might remind listeners that his cultural formation happened partly across the border. In a Republic defined by revolution against a historically Imperial-backed monarchy, sounding like the enemy is a political liability that no amount of correct policy positions fully erases.
 
 He attended the Academy in Taho on kilit sponsorship, studying the standard curriculum of engineering, law, and administration that produces the Republic's professional class. His academic record was undistinguished. What he learned at the Academy had less to do with coursework than with navigation: how to build relationships across class lines, how to make himself valuable to people who might otherwise ignore him, how to read social situations with the precision his family's position required.
 
 ### The Brokerage
 
-After completing his Academy education, Datho established himself as a broker specializing in archaeotech componentsâ€”Antediluvian technology salvaged within the Empire and flowing through its markets into Republican workshops. This is unglamorous but essential work. The Republic's technological independence depends on reverse-engineering Antediluvian designs, and reverse-engineering requires components that patent holders refuse to sell or that carry self-enforcing restrictions the Republic cannot legally circumvent. Someone must facilitate the movement of these materials through channels that maintain legal fiction while enabling practical necessity.
+After completing his Academy education, Datho established himself as a broker specializing in archaeotech components—Antediluvian technology salvaged within the Empire and flowing through its markets into Republican workshops. This is unglamorous but essential work. The Republic's technological independence depends on reverse-engineering Antediluvian designs, and reverse-engineering requires components that patent holders refuse to sell or that carry self-enforcing restrictions the Republic cannot legally circumvent. Someone must facilitate the movement of these materials through channels that maintain legal fiction while enabling practical necessity.
 
 Datho proved exceptionally good at this work. His readable face made Imperial factors trust him; they could see he was nervous, which suggested he wasn't trying to deceive them. His understanding of Republican manufacturing needs made him valuable to workshop operators who needed specific components. His willingness to accept modest margins in exchange for volume built a network of relationships that extended across the border trade.
 
@@ -30,7 +30,7 @@ The brokerage made him modestly wealthy and extremely well-connected. More impor
 
 ### Senate Career
 
-Datho's path to the Senate ran through coalition politics. The archaeotech workers' kilits were too small to meet representation thresholds independently. They formed coalitions with related interestsâ€”salvage guilds, transport operators, equipment suppliersâ€”creating a bloc large enough for Senate representation. Datho became their Senator not because he was the most ideologically committed but because he was the most connected. He knew everyone. He could negotiate with merchant houses on their behalf. He understood how to translate their interests into legislative language.
+Datho's path to the Senate ran through coalition politics. The archaeotech workers' kilits were too small to meet representation thresholds independently. They formed coalitions with related interests—salvage guilds, transport operators, equipment suppliers—creating a bloc large enough for Senate representation. Datho became their Senator not because he was the most ideologically committed but because he was the most connected. He knew everyone. He could negotiate with merchant houses on their behalf. He understood how to translate their interests into legislative language.
 
 His Senate tenure lasted seven years before his elevation to Consul. During this period, he built the coalition that would support his career and accumulated the debts that would constrain it.
 
@@ -40,7 +40,7 @@ His Senate tenure lasted seven years before his elevation to Consul. During this
 
 ### The Debts
 
-Datho's political coalition required capital he did not possess. Building relationships, maintaining visibility, supporting allied kilits during difficult periodsâ€”all of this costs money. He borrowed from three merchant houses: the Kel-Asura consortium, the Merevin trading family, and the House of Sala el-Dorat.
+Datho's political coalition required capital he did not possess. Building relationships, maintaining visibility, supporting allied kilits during difficult periods—all of this costs money. He borrowed from three merchant houses: the Kel-Asura consortium, the Merevin trading family, and the House of Sala el-Dorat.
 
 These were not simple loans. The merchant houses understood exactly what they were purchasing: future policy influence through a Senator whose readable face made him seem trustworthy and whose economic position made him dependent. The terms were designed to ensure compliance without creating obvious corruption. Datho received favorable credit arrangements, preferential access to trade intelligence, and support for his political activities. In exchange, he provided what the houses needed: small favors, regulatory interpretations, contract preferences, the accumulated weight of minor decisions that shift economic advantage without appearing scandalous.
 
@@ -48,7 +48,7 @@ The debts are substantial enough that calling them in would destroy his brokerag
 
 ### The Brokerage's Current Position
 
-The brokerage continues to operate profitably, though its margins have thinned as competition increased. Datho's elevation to Consul complicated his business relationshipsâ€”he cannot personally negotiate deals while holding executive officeâ€”but the operation continues under family management. The consular salary is modest; the brokerage income is necessary; the debt obligations are constant.
+The brokerage continues to operate profitably, though its margins have thinned as competition increased. Datho's elevation to Consul complicated his business relationships—he cannot personally negotiate deals while holding executive office—but the operation continues under family management. The consular salary is modest; the brokerage income is necessary; the debt obligations are constant.
 
 His economic position is stable but precarious. He is not wealthy enough to be independent, not poor enough to have nothing to lose, and too visible to quietly restructure his obligations. The merchant houses hold paper they could use to destroy him, and they know he knows this.
 
@@ -70,25 +70,25 @@ The consular dyarchy requires cooperation. Datho and Rasma must agree to exercis
 
 Rasma Dhal-Setil is everything Datho is not: genuinely wealthy, ideologically committed, possessed of revolutionary credentials that cannot be questioned. She financed the revolution. Her High-Church Penitentism is conservative in form but her political alignment is unambiguously Dawn. She practices the kind of austere personal religion that legitimizes her faction's claim to moral authority.
 
-Their working relationship is functional without being warm. They agree on enough to govern; they disagree on enough to maintain factional distinction. Rasma does not trust Dathoâ€”she knows about his merchant house connections, even if she doesn't know the detailsâ€”but she works with him because the constitution requires it and because he is manageable.
+Their working relationship is functional without being warm. They agree on enough to govern; they disagree on enough to maintain factional distinction. Rasma does not trust Datho—she knows about his merchant house connections, even if she doesn't know the details—but she works with him because the constitution requires it and because he is manageable.
 
-What Datho knows about Rasma, and what she does not know he knows, is that she has been authorizing payments to Kelso Senna's Cloud Temple Band through Ministry channels. The revolutionary hero who withdrew to the mountains after failing at governance has been receiving Republican support through chains that technically violate several laws. Datho learned of this through previous Lens approachesâ€”they attempted to use him as an intermediary for this kompromat, hoping he would release it at their direction.
+What Datho knows about Rasma, and what she does not know he knows, is that she has been authorizing payments to Kelso Senna's Cloud Temple Band through Ministry channels. The revolutionary hero who withdrew to the mountains after failing at governance has been receiving Republican support through chains that technically violate several laws. Datho learned of this through previous Lens approaches—they attempted to use him as an intermediary for this kompromat, hoping he would release it at their direction.
 
-He refused. His reasons are complicated, but the primary one is simple: he will not betray his country. Whatever his debts, whatever his compromises, whatever games he plays within Republican politics, he is not a traitor. That the information might also serve as leverage if Rasma ever moves against him personallyâ€”this is a secondary consideration. Useful, perhaps. Not the point.
+He refused. His reasons are complicated, but the primary one is simple: he will not betray his country. Whatever his debts, whatever his compromises, whatever games he plays within Republican politics, he is not a traitor. That the information might also serve as leverage if Rasma ever moves against him personally—this is a secondary consideration. Useful, perhaps. Not the point.
 
 ### Political Reputation
 
-Datho is widely liked and not widely respected. His colleagues find him pleasant company, a reliable dinner guest, someone who remembers names and birthdays and the small details that make people feel valued. He flatters easily and well. He builds relationships across factional lines through genuine warmth that may or may not be calculatedâ€”the readable face makes it hard to tell, and perhaps the distinction doesn't matter.
+Datho is widely liked and not widely respected. His colleagues find him pleasant company, a reliable dinner guest, someone who remembers names and birthdays and the small details that make people feel valued. He flatters easily and well. He builds relationships across factional lines through genuine warmth that may or may not be calculated—the readable face makes it hard to tell, and perhaps the distinction doesn't matter.
 
-His reputation is that of a man with negotiable values. Not corrupt exactlyâ€”or rather, not very corrupt. Those colleagues who suspect him of compromising arrangements do not suspect him of much. He is understood to be the kind of politician who will trade favors, adjust positions, find the pragmatic middle ground that makes governance possible. This is not admirable, but it is useful. The Senate needs people who can negotiate, and Datho negotiates well. His social network extends across factions, industries, and institutions in ways that make him valuable even to those who don't trust him.
+His reputation is that of a man with negotiable values. Not corrupt exactly—or rather, not very corrupt. Those colleagues who suspect him of compromising arrangements do not suspect him of much. He is understood to be the kind of politician who will trade favors, adjust positions, find the pragmatic middle ground that makes governance possible. This is not admirable, but it is useful. The Senate needs people who can negotiate, and Datho negotiates well. His social network extends across factions, industries, and institutions in ways that make him valuable even to those who don't trust him.
 
 The result is a strange political position: a man everyone works with and no one entirely believes in. His effectiveness as Consul depends partly on this. Both factions tolerate him because neither takes him seriously enough to fear him. He is the moderate everyone can live with, the compromise candidate who offends no one deeply. Whether this reflects genuine moderation or simply the absence of conviction is a question his colleagues have stopped asking.
 
 ### Personal Life
 
-Datho is divorced. The marriage ended early in his Senate career, following what he later understood to be a honeypot operationâ€”a relationship that produced compromising situations and was almost certainly directed by ithe Bureau of his Lens. The divorce was quiet, the reasons kept private, but the failure marked him. He does not discuss it.
+Datho is divorced. The marriage ended early in his Senate career, following what he later understood to be a honeypot operation—a relationship that produced compromising situations and was almost certainly directed by ithe Bureau of his Lens. The divorce was quiet, the reasons kept private, but the failure marked him. He does not discuss it.
 
-He has two children. The elder is issue of his marriage. The younger is a legitimized bastard by a colleague's chief of staff, an affair that became a minor scandal when it surfaced three years ago. The legitimization was handled correctlyâ€”Republican law permits itâ€”but the circumstances reminded everyone that Datho's personal judgment is not always sound. The mother remains in Republican politics; their relationship is civil and carefully managed. The child bears his name.
+He has two children. The elder is issue of his marriage. The younger is a legitimized bastard by a colleague's chief of staff, an affair that became a minor scandal when it surfaced three years ago. The legitimization was handled correctly—Republican law permits it—but the circumstances reminded everyone that Datho's personal judgment is not always sound. The mother remains in Republican politics; their relationship is civil and carefully managed. The child bears his name.
 
 These vulnerabilities are known. They contribute to his reputation as a man whose private life creates complications without rising to disqualification. Divorce is not rare. Illegitimate children are not rare. Datho's situation is embarrassing rather than ruinous, the kind of personal history that limits advancement without ending careers.
 
@@ -98,11 +98,11 @@ These vulnerabilities are known. They contribute to his reputation as a man whos
 
 ### Gates-of-Ascension Assembly
 
-Datho worships at Gates-of-Ascension, a converted warehouse near the Taho waterfront that serves as Assembly for perhaps two hundred congregants. The membership consists primarily of archaeotech traders, Academy engineers, and manufacturing supervisorsâ€”people who work with their hands on machines they are slowly learning to understand. The walls are bare brick. The lighting is electric, a point of pride: power from the grid, humming with Republican industry.
+Datho worships at Gates-of-Ascension, a converted warehouse near the Taho waterfront that serves as Assembly for perhaps two hundred congregants. The membership consists primarily of archaeotech traders, Academy engineers, and manufacturing supervisors—people who work with their hands on machines they are slowly learning to understand. The walls are bare brick. The lighting is electric, a point of pride: power from the grid, humming with Republican industry.
 
 The Assembly practices a form of Penitent theology that emphasizes technological progress as the mechanism of atonement. Where traditional Penitentism counsels patience and acceptance, Gates-of-Ascension preaches active engagement. The Interdict is punishment, yes, but punishment that can be overcome through demonstrated wisdom. Every turbine built, every circuit understood, every component reverse-engineered represents humanity proving its readiness for liberation.
 
-This theology is not hereticalâ€”Patriarch Kaleb's works-based doctrine permits such interpretationsâ€”but it sits at the radical edge of acceptable belief. Some Gates-of-Ascension congregants argue that the Interdict was unjust, that material progress alone suffices for redemption, that humanity should overcome rather than accept its limitations. The Assembly's Curate, Essa Kel-Talith, maintains enough orthodoxy to avoid ecclesiastical censure while permitting theological exploration that more conservative parishes would suppress.
+This theology is not heretical—Patriarch Kaleb's works-based doctrine permits such interpretations—but it sits at the radical edge of acceptable belief. Some Gates-of-Ascension congregants argue that the Interdict was unjust, that material progress alone suffices for redemption, that humanity should overcome rather than accept its limitations. The Assembly's Curate, Essa Kel-Talith, maintains enough orthodoxy to avoid ecclesiastical censure while permitting theological exploration that more conservative parishes would suppress.
 
 ### Datho's Personal Belief
 
@@ -124,13 +124,13 @@ This characteristic has shaped his entire career. As a broker, it made factors f
 
 The readable face is real. Datho genuinely cannot conceal his emotional states. What observers misunderstand is simpler than they imagine: they assume his situation should produce anxiety, and they look for that anxiety in his face. When they don't find as much as they expect, they interpret this as courage, or desperation, or the brittleness of a man about to break.
 
-What they don't consider is that the anxiety might genuinely be absent. A man who has precommitted to an exitâ€”who has decided that ruin, if it comes, will be followed immediately by a gentleman's solutionâ€”does not carry the weight of consequences in the same way. The future that terrifies other men has, for Datho, a door he can walk through at any time. The anxiety that should attach to his mounting vulnerabilities has been displaced beyond a threshold where he no longer has to feel it.
+What they don't consider is that the anxiety might genuinely be absent. A man who has precommitted to an exit—who has decided that ruin, if it comes, will be followed immediately by a gentleman's solution—does not carry the weight of consequences in the same way. The future that terrifies other men has, for Datho, a door he can walk through at any time. The anxiety that should attach to his mounting vulnerabilities has been displaced beyond a threshold where he no longer has to feel it.
 
 The readable face shows what he feels. He simply doesn't feel what observers expect him to feel. This is not deception. It is something harder to detect: a man whose relationship to his own future has quietly broken.
 
 ### Misreading Calm as Susceptibility
 
-The Lens assessment interprets Datho's visible nervousness as evidence of susceptibility to pressure. They see a man with debts, unreported contacts, and mounting vulnerability. They expect fear. When they find less fear than the situation warrants, they read this as a breaking point approachingâ€”a man so overwhelmed that he's gone numb, ready to accept any offer that relieves the pressure.
+The Lens assessment interprets Datho's visible nervousness as evidence of susceptibility to pressure. They see a man with debts, unreported contacts, and mounting vulnerability. They expect fear. When they find less fear than the situation warrants, they read this as a breaking point approaching—a man so overwhelmed that he's gone numb, ready to accept any offer that relieves the pressure.
 
 This is reasonable analysis given their model. It may be exactly wrong.
 
@@ -158,9 +158,9 @@ This creates his current vulnerability. He has eleven years of unreported contac
 
 ### The Current Approach
 
-The approach six days ago differed from previous contacts. The handlerâ€”operating from Toh, where the Lens maintains extensive presenceâ€”did not offer relationship. He demanded compliance.
+The approach six days ago differed from previous contacts. The handler—operating from Toh, where the Lens maintains extensive presence—did not offer relationship. He demanded compliance.
 
-The demand: Datho will bring documentation before the Senate showing irregularities in Ministry of Justice payment chains. He will present himself as a concerned citizen who discovered corruption. The documentationâ€”which the Lens has preparedâ€”will implicate Dawn Consul Rasma Dhal-Setil in unauthorized payments to Kelso Senna.
+The demand: Datho will bring documentation before the Senate showing irregularities in Ministry of Justice payment chains. He will present himself as a concerned citizen who discovered corruption. The documentation—which the Lens has prepared—will implicate Dawn Consul Rasma Dhal-Setil in unauthorized payments to Kelso Senna.
 
 The threat: If Datho refuses, a whistleblower within the Ministry of Internal Affairs will come forward with evidence of Datho's unreported Lens contacts and his involvement in the same payment chains. His career will end. His family will be destroyed. His debts will be called. Everything he has built will collapse.
 
@@ -174,13 +174,13 @@ The handler presented this not as negotiation but as notification. The timing is
 
 Datho knows that Rasma authorized the payments to Senna. He has known for some time, through channels the Lens apparently doesn't understand he possesses. He has never used this knowledge.
 
-He knows the whistleblower must be a Lens assetâ€”probably the same asset positioned to burn him if he doesn't comply. The Lens doesn't have infinite resources in the Republic; the person who threatens Rasma and the person who threatens Datho is likely the same mouth.
+He knows the whistleblower must be a Lens asset—probably the same asset positioned to burn him if he doesn't comply. The Lens doesn't have infinite resources in the Republic; the person who threatens Rasma and the person who threatens Datho is likely the same mouth.
 
 He knows his debts are real, his contacts are unreported, and his vulnerability is genuine. The Lens assessment of his position is accurate. Where they may err is in their assessment of what that position means for his behavior.
 
 ### What Datho Faces
 
-If he complies: He burns Rasma, destabilizes the Republic's executive, hands the Lens a victory that will shape Republican politics for years, and becomes permanently compromisedâ€”a Lens asset who can never refuse future demands because they will always hold this first betrayal over him.
+If he complies: He burns Rasma, destabilizes the Republic's executive, hands the Lens a victory that will shape Republican politics for years, and becomes permanently compromised—a Lens asset who can never refuse future demands because they will always hold this first betrayal over him.
 
 If he refuses: He is exposed, destroyed, his family ruined, his constituency betrayed, everything he built collapsed. The Lens gets partial victory anyway, because chaos in Republican politics serves Imperial interests regardless of which Consul falls.
 
@@ -190,7 +190,7 @@ Neither option preserves what he has. The wall in his future has two doors, and 
 
 The Lens assessment assumes Datho's visible nervousness indicates susceptibility to pressure. It assumes his economic vulnerability creates leverage. It assumes his readable face means they can predict his responses.
 
-What this assessment may miss: Datho's risk tolerance has been increasing as his position becomes more constrained. His decisions over the past several years show a pattern of escalating gambles rather than cautious preservation. The readable face shows fearâ€”but fear and compliance are not the same thing.
+What this assessment may miss: Datho's risk tolerance has been increasing as his position becomes more constrained. His decisions over the past several years show a pattern of escalating gambles rather than cautious preservation. The readable face shows fear—but fear and compliance are not the same thing.
 
 A man facing impossible choices sometimes discovers that impossible choices create their own freedom. When both doors lead to destruction, the pressure to choose correctly disappears. The anxiety that observers read as weakness may have disconnected from his decision-making entirely.
 
