@@ -5023,25 +5023,24 @@ entries:
   # ═══ Kelar Band ═══
   Kelar Band:
     category: organization
-    short: "Highland pastoral band—~1,400 Uliqs, revolutionary heroes, luxury cheese producers, subjects of propaganda film."
+    short: Highland pastoral band—revolutionary heroes, luxury cheese producers, symbols of frontier virtue.
     details: |
-      Roughly 300 families ranging territory reclaimed during the revolution plus
-      traditional lands. Through the Eastern Range Confederation, they hold political
-      position disproportionate to their numbers: Senator Temad Kelar represents a
-      coalition six times their size, but he's the face the coalition presents.
+      Three hundred families, fourteen hundred Uliqs, ranging territory
+      reclaimed during the revolution. Through the Eastern Range
+      Confederation, they hold political position disproportionate to their
+      numbers: Senator Temad represents a coalition six times their size,
+      but he's the face the coalition presents.
 
-      Their cheese carries Ministry of Information imprimatur as revolutionary virtue
-      made edible. Urban Republicans pay premium prices—tangy, complex, aged in high-
-      altitude caves. The cheese is genuinely good, but price reflects symbolic value
-      beyond culinary merit. They now purchase most milk from the Mor, Tal-Yem, and
-      Sek bands at fair prices. Most Kelar cheese comes from royalist goats.
+      Their cheese carries Ministry of Information imprimatur as
+      revolutionary virtue made edible. Urban Republicans pay premium prices
+      —tangy, complex, aged in high-altitude caves. The cheese is genuinely
+      good, but price reflects symbolic value beyond culinary merit. They
+      now purchase most milk from the Mor, Tal-Yem, and Sek at fair prices.
+      Most Kelar cheese comes from royalist goats.
 
-      The revolution: They fought for the Republic because their neighbors fought for
-      the Sultana. For the preceding generation, the Mor, Tal-Yem, and Sek gradually
-      encroached on Kelar territory. When revolution came, the Kelar declared for the
-      Republic, recognizing rivals' victory would cement territorial losses. Their
-      contribution was modest—forty destriers total, used for scouting. But they
-      committed when most pastoral bands hedged.
+      They fought for the Republic because their neighbors fought for the
+      Sultana. Their contribution was modest—forty destriers for scouting.
+      But they committed when most pastoral bands hedged.
     rag_pointer: "The Republic of Ganat"
     related: [Southern Highland Bands, Eastern Range Confederation, Temad Kelar, Mor Band, Riders of Stone and Sky, Uliq]
     caste_features:
