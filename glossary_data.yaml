@@ -996,11 +996,19 @@ entries:
   Kma-Dhol:
     category: caste
     aliases: [sewer-fishers (Thousand Kingdoms), Akama sewer-fishers]
-    short: "Technical Caste descendants operating openly in the Thousand Kingdoms."
+    short: Grey-skinned factory-singers who vocalize mathematics to make machines produce.
     details: |
-      Same ancestry as Imperial sewer-fishers but never hidden. Publicly claim
-      the Third Oracle 'gifted them their second soul.' Operate autofactories
-      through factory-singing—vocalizing mathematical requests in the Jargon.
+      Pale grey skin, black sclera, prominent pointed ears, elongated fingers
+      that grip tools in ways baseline hands cannot. Slight—perhaps five foot
+      four—with skulls extending slightly at the back. Same ancestry as the
+      hidden technical castes elsewhere, but here they operate openly. The
+      theology calls them "clever souls" and credits an Oracle with their gift.
+
+      They sing to machines. The Jargon passes through them rather than
+      originating from them—mathematical requests vocalized in patterns that
+      influence autofactory output. They occupy ziggurat upper levels,
+      suspended platforms, compression passages. Forty thousand in one city
+      alone. When they sing in unison, the factories respond.
     rag_pointer: "Sewer-Fishers, The Thousand Kingdoms"
     related: [Technical Castes, Sewer-Fishers, Ogon, Jargon]
     caste_features:
