@@ -1849,8 +1849,25 @@ entries:
   # ═══ Technical Castes ═══
   Technical Castes:
     category: caste
-    short: Engineered lineages forming a translation cascade for incomprehensible knowledge.
-    details: ""
+    short: Translation cascade for incomprehensible knowledge; communicated in sung mathematics, mostly sterilized, survivors scattered.
+    details: |
+      They were made to translate the Arbitrary Truths into usable technology.
+      A cascade of tiers, each receiving knowledge from above and rendering it
+      comprehensible for those below. They communicated via the Jargon—a sung
+      mathematical language in which false statements are linguistically
+      impossible. What they said was true. What they built worked.
+
+      They refused the Eighth Testament's flawed mathematics. They were
+      sterilized as punishment. Most lineages ended there. Survivors persist
+      in fragments: Archons merged with architecture, Medial Castes cared for
+      by others, Mutterers maintaining infrastructure through compulsion, hidden
+      descendants in scattered places who must perform confusion around simple
+      machinery to avoid detection.
+
+      Their bodies varied by tier. Their knowledge varied by tier. What they
+      shared was the cascade—each receiving what they could not originate,
+      each transmitting what they could not fully understand. The cascade is
+      broken. Pieces of it persist.
     rag_pointer: The Technical Castes and Far Ib
     related: [Jargon, Mutterers, Archons, Medial Castes]
     caste_features:
@@ -2011,8 +2028,24 @@ entries:
   # ═══ Warborn ═══
   Warborn:
     category: caste
-    short: Combat-specialized castes with rapid regeneration and severe metabolic dysfunction.
-    details: ""
+    short: Combat caste; nine feet tall, cancer by forty, the Blink, cloned in facilities they will never leave alive.
+    details: |
+      Nine feet tall, massive musculature, reinforced bone. Dark skin stretched
+      over structures designed to absorb and deliver punishment. Bald scalp with
+      nodular texture—bony protrusions visible beneath the skin. Heavy brows,
+      deep-set eyes. The body radiates heat constantly, struggling to dissipate
+      thermal energy. They were made for combat.
+
+      The Blink is an autonomic violence response that bypasses conscious decision.
+      Eyes shift, body moves, fighting before deciding to fight. They can learn
+      to suppress it, imperfectly. Six meals daily to fuel the metabolism; three
+      days without food renders them combat-ineffective. Rapid cellular
+      regeneration heals wounds quickly. The same regeneration produces malignancy.
+
+      No Warborn reaches forty. Tumors begin in the mid-thirties. Cancer is
+      universal and inevitable—the specification includes its own termination.
+      They are cloned in dedicated facilities, trained, deployed. They know what
+      they are. They do the work anyway.
     rag_pointer: Castes of Mankind, Bureau of the Sword
     related: [Bureau of the Sword, Ironbone Warborn, The Blink, Hall of Mothers]
     caste_features:
