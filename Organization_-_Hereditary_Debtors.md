@@ -138,36 +138,6 @@ The festival occurs each spring when the Ministry of Finance publishes updated o
 
 The atmosphere is complex: genuine joy for those achieving freedom, genuine grief for those who never will, genuine uncertainty about whether freedom is even desirable for families built around administrative service. Wine flows. Music plays. The ledgers are read aloud. Everyone learns exactly where they stand.
 
-## Type Specimens
-
-### Tekhel Dhal-Orin
-
-Tekhel is twenty-eight years old, a Nasif clerk on Senator Yem Tokan's staff. His grandfather's kilit incurred debt three generations back; Tekhel will likely spend his entire career paying it down, though his family's balance is modest enough that his own grandchildren might achieve freedom.
-
-His build is distinctive: neck extending dramatically, raising his head far above narrow shoulders on a slender column of muscle and vertebrae. Six foot two but proportioned to seem taller, limbs attenuated, torso narrow. The Nasif were engineered for purposes no one remembers; Tekhel finds that the elongated frame and preternatural stillness suit clerical labor well enough.
-
-He is personally awkward in ways colleagues have learned to accommodate. Conversations stall when he cannot find expected responses. Social gatherings exhaust him. His attention fixes on tasks with intensity that excludes peripheral awareness. He knows he is strange to look at; the knowledge makes him stranger.
-
-His position on the Senator's staff carries modest prestige within the kilit. He is good at the work—patient, precise, capable of holding complex document structures in memory while others fumble through archives. The Senator values him. The other clerks respect him. None of them are his friends except Moro.
-
-### Moro
-
-Moro is thirty-one years old, a Khatam of average height and build, boisterous where Tekhel is silent, comfortable in crowds where Tekhel freezes. They have known each other since childhood—two Debtor children in the same education cohort, one Nasif and one Khatam, one quiet and one loud.
-
-Moro works road maintenance in the eastern territories, physical labor that earns debt credits faster than clerical work. The danger premium compensates for conditions: remote camps, hostile terrain, occasional bandit attacks, the constant physical toll of breaking rock and laying surface in high-altitude cold. Each season in the territories earns what Tekhel's clerking earns in eighteen months.
-
-Their relationship has been on and off for eight years, currently on, always complicated. Moro comes back to Ganat between assignments, stays in Tekhel's small apartment in the Debtors' Quarter, fills the space with noise and movement and demands for attention that Tekhel finds exhausting and necessary. Tekhel worries about him. Road crews work dangerous territory. Some crews don't come back complete.
-
-### Sefra Ghesam (Voluntary Debtor)
-
-Sefra is twenty-four years old, newly graduated from the Academy's administrative track, newly indebted to the treasury, newly assigned to the Ministry of Settlement's cartographic section. Her family carries no hereditary obligation; she chose this.
-
-Her reasoning was pragmatic. Academy graduates in administration face uncertain employment—kilits hire some, turn away others, often based on connections her family lacked. The Ministry hires every qualified Debtor. Taking treasury loans, defaulting strategically, and accepting hereditary status guaranteed her the cartographic position she wanted. Her children will carry the obligation; they will also inherit the career access she's securing.
-
-Original Debtors view her with complex feelings. She chose bondage they were born into. Her obligation balance—modest, resulting from strategic default rather than genuine enterprise failure—will pay down faster than obligations accumulated across centuries. She benefits from their institutional infrastructure without sharing their historical grievance.
-
-Sefra understands this and accepts it. She is building a career in a Republic where careers are hard to build. Her grandchildren can judge whether the trade was worthwhile.
-
 ## Cross-References
 
 For the Debtors' Quarter in Ganat proper: `Location_-_Ganat_Proper.md`
@@ -176,4 +146,4 @@ For the Debtor Bureaucratic Complex in High Junction: `Location_-_High_Junction.
 
 For the kilit system and political structure: `Region_-_Republic_of_Ganat.md`
 
-For debt mechanics and treasury operations: `Government_-_Peoples_Exchequer.md`
+For debt mechanics and treasury operations: `Region_-_Republic_of_Ganat.md` (People's Exchequer section)

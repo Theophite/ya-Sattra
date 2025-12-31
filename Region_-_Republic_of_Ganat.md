@@ -473,7 +473,41 @@ The Republic's ministries (Settlement, Justice, War) are documented separately. 
 
 Professional licensing operates through certified kilits rather than individual credentials. See: `Government_-_Ganati_Professional_Kilits.md`
 
-The People's Exchequer, fiscal constitution, and taxation system are documented separately. See: `Government_-_Peoples_Exchequer.md`
+### **The People's Exchequer**
+
+#### **Institutional Continuity**
+
+The Royal Exchequer became the People's Exchequer eighteen years ago. The name changed; the ledgers continued. The same families who assessed Sultanate revenues now assess Republican revenues—the same procedures, the same archaic forms, the same methods for determining which kilits underreport. Revolutionary fervor does not train forensic accountants. The Exchequer occupies the same building in the Dam's administrative complex, someone having chiseled "Royal" off the entrance lintel and carved "People's" in its place.
+
+#### **Internal Divisions**
+
+The revenue collection apparatus—assessors, auditors, enforcement officers—is overwhelmingly Dusk-aligned. These are families practicing fiscal administration for generations, passing positions like guild inheritance. They understand commercial operations from the inside, share professional networks with the kilits they tax, intermarry with merchant families. The distinction between tax collector and commercial elite blurs across generations.
+
+The Planning Division is something else entirely. Dawn radicals staff it almost exclusively—theorists producing reports on optimal resource allocation, modeling progressive taxation, arguing whether works-based theology requires redistribution or merely opportunity. Their documents are dense with mathematics and revolutionary theory that the accountants view with professional contempt.
+
+The tension is constant and productive. Economists propose; accountants explain why proposals won't work. Neither side can function without the other. The accountants lack theoretical framework for evaluating policy; the economists lack operational knowledge about why theoretical systems would fail. The Exchequer Chief must balance both, which is why the position rotates between factions through informal agreement.
+
+#### **Kilit Taxation**
+
+Revenue collection operates through kilits rather than individuals. The state assesses each registered kilit based on gross revenue—total income before distribution to members. This approach emerged from pre-revolutionary practice: taxing kilits requires tracking hundreds of economic entities with registered addresses and institutional incentive to maintain accurate records, rather than thousands of individuals who move seasonally across regional boundaries.
+
+The system creates strong incentives for economic activity to flow through registered kilits. Operating outside kilit structures means individual taxation at punitive rates. This encourages kilit formation, which encourages formal economic organization, which makes the economy legible to state administration.
+
+Each kilit submits annual declarations. Regional assessors review these against their knowledge of local conditions. Disputes go to Assessment Courts—specialized tribunals staffed by Exchequer officials with appeal rights to commercial courts. The commercial courts are Dusk-aligned, creating incentive for kilits to settle with assessors rather than risk judicial proceedings.
+
+#### **Appropriations and the Supermajority**
+
+All appropriations require 60% Senate approval. Neither faction commands 60% alone. Every budget is negotiation. This was deliberate constitutional design—the settlement's architects understood that simple majorities would allow one faction to starve the other's programs.
+
+Dawn controls most spending ministries—Settlement, War, Internal Affairs. They determine how money gets used once appropriated. Dusk controls revenue sources through commercial kilit alignment and the accountants who actually collect money. An appropriation means nothing if collection fails; Dusk-aligned assessors who suddenly discover compliance problems in Dawn-aligned kilits can starve programs regardless of Senate votes.
+
+Neither faction can govern alone. The system forces continuous negotiation because each side holds leverage the other needs.
+
+#### **Many's Banking Role**
+
+Many provides banking services throughout Republican territory, just as it does in Imperial space. The state maintains its treasury accounts with Many rather than operating an independent monetary system. Many's impartiality—its complete indifference to political faction—makes it acceptable to both sides. Neither Dawn nor Dusk trusts the other to manage state finances; both trust Many to be precisely neutral.
+
+This dependency on alien banking infrastructure is another ideological contradiction the Republic lives with. Economists occasionally propose alternatives—state banking, scrip currencies. The accountants note that Many's services work, that no proposed alternative has ever been tested at scale, and that antagonizing the only entity capable of securing large-value transactions would be catastrophically stupid.
 
 ### **Current Tensions**
 
