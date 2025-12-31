@@ -946,12 +946,20 @@ entries:
   # ═══ Karst ═══
   Karst:
     category: caste
-    short: "Deep-dwelling labor caste engineered for underground infrastructure."
+    short: Pale, huge-eyed tunnel-dwellers who communicate by tapping through rock.
     details: |
-      Built for tunnel systems and underground facilities where pressure 
-      differentials and minimal light would kill surface-adapted humans. 
-      Rarely exceed five feet, barrel chests, enormous eyes adapted for 
-      bioluminescent wavelengths, curved spines.
+      Rarely exceed five feet, barrel-chested with curved spines and a
+      spherical silhouette in full adulthood. Enormous eyes—twice baseline
+      size—adapted for bioluminescent wavelengths, painful in ordinary
+      daylight. Pale grey-white skin of creatures rarely seeing sunlight.
+      Movement awkward at surface, fluid underground.
+
+      They tolerate pressure differentials lethal to surface-adapted humans,
+      maintaining deep infrastructure where no one else can survive. They
+      communicate via tap-language through rock—entire conversations carried
+      through stone walls, spreading through Speaking Stones hubs where
+      messages from distant tunnels converge. Surface-dwellers rarely see
+      them. They prefer it that way.
     rag_pointer: "Castes of Mankind, Ya-Don: Comprehensive Reference"
     related: [Labor Castes, Depths of St. Yerren]
     caste_features:
