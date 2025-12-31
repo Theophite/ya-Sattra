@@ -19,20 +19,22 @@ entries:
   # ═══ Akama ═══
   Akama:
     category: caste
-    short: Unclassified caste with scrambled heritage from multiple engineered lineages.
+    short: Gray-skinned, long-armed people with fur ruffs and flat features—the common population of the Thousand Kingdoms.
     details: |
-      Defined by practice not genetics—someone who can breed with other Akama
-      and participates in Akama culture. Distinguishing features of multiple
-      ancestral castes have blurred into general capability. Variable morphology
-      with visible mixed heritage.
+      Akama are immediately recognizable: gray skin ranging from pale ash to
+      deep slate, long arms that hang past the knee, dense fur ruffs at neck
+      and shoulders, flat noses and heavy brow ridges giving a slightly simian
+      cast to the face. The look varies—some families run taller, some show
+      more pronounced ruffs—but the general type breeds true often enough to
+      be called a people rather than a category.
 
-      MATERIAL CULTURE: Testimonial—objects speak for individuals across mortal
-      timescales. "I was here. This happened. It mattered." Standing in the Rain
-      philosophy: life promises nothing, material culture doesn't pretend otherwise.
-      Sufficiency ("enough") is highest praise. Armor displayed outside tents shows
-      biography through patches and modifications. Damage displayed, not hidden—the
-      mended thing is more honest than the pristine. A young warrior's pristine
-      equipment testifies against him: nothing has happened to him yet.
+      Identity is practice as much as bloodline. An Akama is someone who lives
+      among Akama, breeds with Akama, and accepts the Akama bargain: nothing
+      is promised. The Standing in the Rain philosophy shapes everything—the
+      tent offers shelter but doesn't guarantee it, the armor protects but
+      doesn't promise survival. Material culture reflects this honesty: damage
+      displayed rather than hidden, repairs visible, the mended thing more
+      truthful than the pristine.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Warband, Thousand Kingdoms, Junta of Ogon, Gorin Eight-Elk]
     caste_features:
