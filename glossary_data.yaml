@@ -9933,20 +9933,6 @@ entries:
     related: [Ridge, Val Family, Galen Family]
   # ─── end Marzen Family ───
 
-  # ═══ Galen Family ═══
-  Galen Family:
-    category: organization
-    short: "Ridge infrastructure family controlling information—notaries and intelligence."
-    details: |
-      Runs Ridge-Line Scriptoria. Leran Galen handles printing and notarization 
-      publicly. Wife Nativa works as cryptographic contractor for Bureau of the 
-      Lens—providing encryption services, then reading those communications. She 
-      receives the classified Grey Sheet and sells carefully redacted excerpts. 
-      The Lens tolerates this because it stabilizes district politics.
-    rag_pointer: "The Ridge: Comprehensive Summary, Household Galen: RidgeLine Scriptoria"
-    related: [Ridge, Val Family, Marzen Family, Bureau of the Lens, Grey Sheet]
-  # ─── end Galen Family ───
-
   # ═══ Cho ═══
   Cho:
     category: organization
@@ -11767,18 +11753,161 @@ entries:
   # ═══ Jak Loak ═══
   Jak Loak:
     category: person
-    short: "Orphaned Loak cousin who acquired limited Black Calculus—selective forgetting ability."
+    short: "Orphaned Loak cousin who learned the Jargon from Den Vash—can make people forget."
     person_location: Middens
     details: |
-      Age 19. Orphaned cousin after Chain-Men killed his parents during a salvage dispute.
-      Adopted by Clan Loak and apprenticed to Den Vesh, where he acquired limited knowledge
-      of the Black Calculus—the dangerous mathematical discipline enabling selective forgetting.
-      Can cause specific memories to be forgotten by targets, though the ability is unreliable
-      and exhausting. The Chain-Men don't know he survived or what he learned. Burning for
-      revenge but kept in check by Yuli Loak, who fears the attention retaliation would bring.
+      Age 19. Parents were cousins to Sela Loak (Deacon of Valve-Saint Parish) before Chain-Men
+      beat them to death over a toll dispute. Raised by "Aunt" Merra at Hollow-Egress, growing
+      up invisible in her kitchen while learning to process information. Now works at Den Vash's
+      pawn shop in Iron Yards—ostensibly grey-market salvage, actually something stranger. Den Vash
+      has been teaching him the Jargon. He can make people forget specific details, creating gaps
+      in memory the affected never notice. Characteristic sewer-fisher build: small, compact,
+      slate-grey oily skin, void-black eyes. Deliberately unmemorable—someone who can make people
+      forget has good reason to avoid being noticed. Works with Hanno Venn and Mesca Galen on
+      operations exceeding any of their individual capabilities. The Chain-Men don't know he
+      survived or what he learned.
     rag_pointer: "The Sewer-Fishers of the Middens"
-    related: [Sewer-Fishers, Loak, Black Calculus, Chain-Men, Middens]
+    related: [Sewer-Fishers, Loak, Jargon, Chain-Men, Middens, Den Vash, Hanno Venn, Mesca Galen]
   # ─── end Jak Loak ───
+
+  # ═══ Hanno Venn ═══
+  Hanno Venn:
+    category: person
+    short: "Fen-blooded stevedore raised by Venn clan—Salvage Guild apprentice caught between worlds."
+    person_location: Middens
+    details: |
+      Age 20. Called "Fen Venn" behind his back. Biological father is Garren Fen, the Chain-Men
+      commander who threw Hanno's infant self and mother from Bright-Spire. The Venns caught him
+      in a rain collection tarp; his mother died, he survived. They raised him as absolutely their
+      own despite his stevedore genetics—2.1 meters tall, solid build, forward-leaning posture from
+      load-bearing spine modifications. Towers over his adoptive sewer-fisher family. Wears long
+      armored coat, carries hatchet with cargo hook. No talent for numbers or reading; where his
+      cousins perceive structural relationships as physical sensations, Hanno memorizes through rote
+      repetition. His Salvage Guild apprenticeship represents enormous achievement given these
+      limitations. Provides legal documentation the Venns need—his registered stevedore status
+      allows him to sign papers his sewer-fisher family cannot. Quiet, still, makes promises not
+      threats. Everything he represents rejects Garren's values: education over violence, Guild
+      membership over gang loyalty. Works with Jak Loak and Mesca Galen.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Venn, Sewer-Fishers, Salvage Guild, Chain-Men, Garren Fen, Jak Loak, Mesca Galen]
+  # ─── end Hanno Venn ───
+
+  # ═══ Mesca Galen ═══
+  Mesca Galen:
+    category: person
+    short: "Information broker with hidden Highborn/Gilded Petal heritage—can detect lies, produces pheromones, may Compel."
+    person_location: Ridge
+    details: |
+      Age 26. Independent information broker at Ridge-Line Scriptoria, fostered by the Galen family
+      from infancy. Registered as Highborn/baseline cross—actually illegitimate daughter of Sahir
+      es-Tariq and Corolia, a Gilded Petal courtesan. Her existence proves Creche sterility fails
+      and that House es-Tariq can produce scandal beyond their redaction capacity. Warm amber skin
+      with faint hexagonal rosy lattice (subdermal Petal patterning). Inherited es-Tariq memory
+      capacity (~400 data points in working memory), pattern recognition for redaction, and the
+      Highborn voice that can Compel—though she barely understands this last capability. Petal
+      inheritance provides 85% accuracy detecting deception and pheromone production creating trust.
+      Maintains three intelligence networks: street-level informants, bureaucratic mid-tier sources,
+      and a high-placed Hanged Men asset. Works with Jak Loak and Hanno Venn; together they've
+      discovered the Eighth Auditor's birthplace, 64 microreactors, and a frozen candidate Auditor.
+    rag_pointer: "The Ridge: Comprehensive Summary"
+    related: [Galen Family, Ridge, Sahir es-Tariq, Corolia, House es-Tariq, Gilded Petal, Jak Loak, Hanno Venn]
+  # ─── end Mesca Galen ───
+
+  # ═══ Sahir es-Tariq ═══
+  Sahir es-Tariq:
+    category: person
+    short: "Disgraced es-Tariq heir—failed the Seven-Cornered Examination, fathered Mesca Galen in secret."
+    person_location: ya-Sattra
+    details: |
+      Age 51. Nominal heir to House es-Tariq and the family's acknowledged embarrassment. Failed
+      the Seven-Cornered Examination 28 years ago—defining humiliation for a cipher-patent family.
+      Possesses es-Tariq memory and pattern recognition but lacks discipline to apply them. Gambling
+      debts and romantic scandals have drained family resources; his redaction costs rival annual
+      patent income. Twenty-six years ago, frequented the Heron's Rest bathhouse where he met
+      Corolia, a Gilded Petal whose supplements had become irregular. She understood his cipher
+      explanations—spotted an error once. Their arrangement lasted eight months before the impossible
+      pregnancy. Now monitors his daughter Mesca through paid informants, maintaining careful distance.
+      Has intervened three times to prevent her exposure. Frequents the Broken Compass tavern near
+      her operations, listening for references to "the Galen girl." Returns monthly to the Heron's
+      Rest, maintaining vigil for a woman erased so thoroughly only he and his sister remember her.
+    rag_pointer: "House es-Tariq"
+    related: [House es-Tariq, Corolia, Mesca Galen, Seven-Cornered Examination, Bureau of the Lens]
+  # ─── end Sahir es-Tariq ───
+
+  # ═══ Corolia ═══
+  Corolia:
+    category: person
+    short: "Gilded Petal courtesan—Mesca Galen's mother, died in childbirth, thoroughly erased."
+    person_location: ya-Sattra
+    details: |
+      Deceased, would be approximately 50. Gilded Petal working at the Heron's Rest bathhouse
+      when supplements became irregular—the expensive hormonal regimen beyond the establishment's
+      budget. Her modifications included enhanced pattern recognition for reading client desires;
+      she could follow Sahir es-Tariq's technical cipher explanations, even spotted an error in
+      his calculations. Gilded Petals are supposed to be sterile—the Creche's modifications simply
+      failed. She became pregnant, hiding it by skipping supplements. The child's birth occurred
+      in a Medina black clinic; she hemorrhaged catastrophically, modified blood unable to clot
+      properly. Lived six days, long enough to extract Sahir's promise their daughter would never
+      know her origins. The Sri Director erased her so thoroughly that Sahir and his sister are
+      the only proof she ever existed.
+    rag_pointer: "Gilded Petals"
+    related: [Gilded Petal, Sahir es-Tariq, Mesca Galen, Creche, Heron's Rest]
+  # ─── end Corolia ───
+
+  # ═══ Galen Family ═══
+  Galen Family:
+    category: organization
+    short: "Ridge infrastructure family controlling information—notaries, intelligence distribution, and secret-keeping."
+    details: |
+      Runs Ridge-Line Scriptoria on Horizon Row. Produces routine printed matter and handles
+      notarization while serving as informal Bureau of the Lens distribution point. Receives
+      White Sheets and produces Gray-Sheet Snippets (50-100 obols) for local factions. Leran
+      Galen (62) is licensed notary who negotiated Mesca's fostering and maintains genetic
+      "insurance file." Nativa Galen (59), former Lens cipher auditor, recognized redaction
+      patterns on Mesca's documents and insisted on fostering because "this secret is worth
+      more than gold." Sera Galen-Fen (34) married into the Fen/Hanged Men leadership, providing
+      Mesca name protection. Tirin Galen (28) manages secret press equipment and emergency
+      identity packages. The family profits from Mesca's operations while holding the es-Tariq
+      connection as insurance against Bureau interference.
+    rag_pointer: "The Ridge: Comprehensive Summary, Household Galen: RidgeLine Scriptoria"
+    related: [Ridge, Val Family, Marzen Family, Bureau of the Lens, Grey Sheet, Mesca Galen]
+  # ─── end Galen Family ───
+
+  # ═══ Garren Fen ═══
+  Garren Fen:
+    category: person
+    short: "Chain-Men commander—threw Hanno Venn's infant self and mother from Bright-Spire."
+    person_location: Middens
+    details: |
+      Age unknown, middle-aged. Commander within the Chain-Men, one of the Hanged Men's
+      enforcement arms. Threw an infant (Hanno) and his mother from the top of Bright-Spire
+      over some dispute about authority—specifics vary by who tells the story. The Venns
+      caught the infant in a rain collection tarp; the mother died. Garren doesn't know or
+      care that his discarded son survived, was raised by sewer-fishers, and became a Salvage
+      Guild apprentice. Hanno's entire existence rejects everything Garren represents: education
+      over violence, Guild membership over gang loyalty, legitimate work over extortion.
+      Garren's worst nightmare isn't being killed by his son—it's his son becoming everything
+      he despises.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Chain-Men, Hanged Men, Hanno Venn, Venn, Bright-Spire]
+  # ─── end Garren Fen ───
+
+  # ═══ Den Vash ═══
+  Den Vash:
+    category: person
+    short: "Iron Yards pawnbroker teaching Jak Loak the Jargon—grey-market salvage front for stranger operations."
+    person_location: Iron Yards
+    details: |
+      Age unknown. Operates a pawn shop in the Iron Yards that ostensibly handles grey-market
+      salvage but is actually something stranger. Has been teaching Jak Loak the Jargon—the
+      Technical Caste language of mathematical proof. Through this training, Jak has acquired
+      the ability to create gaps in memory. The nature of Den Vash's own capabilities and
+      origins remains unclear; few understand the Jargon well enough to teach it, and fewer
+      still would share such dangerous knowledge with a sewer-fisher orphan. Whatever his
+      reasons, the result is a weapon the Loak clan cannot acknowledge possessing.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Iron Yards, Jak Loak, Jargon, Technical Castes, Loak]
+  # ─── end Den Vash ───
 
   # ═══ Tatius Benru ═══
   Tatius Benru:
