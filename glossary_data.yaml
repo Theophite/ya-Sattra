@@ -4292,13 +4292,21 @@ entries:
   # ═══ Homesteaders' Brotherhood ═══
   Homesteaders' Brotherhood:
     category: location
-    short: "Least ideological veterans' organization—social club near the garrison."
+    short: "Pragmatic veterans' kilit (~3,800 members)—minimal ideology, social club."
     details: |
-      Casual facility, meetings are excuses for socializing, political discussions minimal. 
-      Focused on land grants and equipment loans without commitment to Dawn platforms 
-      beyond member benefits. Free pulque and hashish for prospective members near discharge.
+      Approximately 3,800 members scattered across frontier settlements. Casual facility
+      near the garrison, meetings are excuses for socializing, political discussions
+      minimal. Informal leadership—regional coordinators handle local matters without
+      central direction.
+
+      Focused on land grants and equipment loans without commitment to Dawn platforms
+      beyond member benefits. Attracts veterans who served for practical reasons—
+      citizenship, land grants, escape from poverty—rather than ideological commitment.
+      Would vote otherwise if benefits came from other sources, making them less
+      reliable for Dawn coalition but also less demanding of ideological purity. Free
+      pulque and hashish for prospective members near discharge.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
-    related: [High Junction, Veterans' Kilits]
+    related: [High Junction, Republican Veterans' Congress]
     location_features:
       level: site
       location_type: commercial
@@ -5268,14 +5276,21 @@ entries:
   # ═══ Frontier Veterans' Collective ═══
   Frontier Veterans' Collective:
     category: location
-    short: "Radical Dawn veterans' organization in converted warehouse—ideology over mutual aid."
+    short: "Radical Dawn veterans' kilit (~4,500 members)—ideology over mutual aid, collective farms."
     details: |
-      Meetings are serious, ideological, structured around formal agendas with debates and 
-      votes. Advocates aggressive Dawn positions: maximum military spending, accelerated 
-      eastern expansion, collective farms over individual homesteads. Revolutionary banners, 
-      martyr portraits. Free pulque and hashish for prospective members near discharge.
+      Approximately 4,500 members across eastern settlements. Meetings are serious,
+      ideological, structured around formal agendas with debates and votes. Advocates
+      aggressive Dawn positions: maximum military spending, accelerated eastern expansion,
+      collective farms over individual homesteads. Rotating council leadership, currently
+      chaired by Sekh Tal-Omir, a Serrulata captain from the eastern campaigns.
+
+      Land grants go to collectives rather than individuals; members work shared holdings
+      and distribute proceeds according to labor contribution. Maintains connections with
+      Cloud Temple Band affiliates. Younger veterans who see service as beginning rather
+      than completing revolutionary obligation. Free pulque and hashish for prospective
+      members near discharge.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
-    related: [Manufacturing District, High Junction, Veterans' Kilits, Dawn Party]
+    related: [Manufacturing District, High Junction, Republican Veterans' Congress, Dawn Party, Cloud Temple Band]
     location_features:
       level: site
       location_type: commercial
@@ -6779,15 +6794,22 @@ entries:
   # ═══ Eastern Range Cooperative ═══
   Eastern Range Cooperative:
     category: location
-    short: "Moderate veterans' organization in Old Town—practical mutual aid over ideology."
+    short: "Moderate veterans' kilit (~6,200 members)—practical mutual aid, individual homesteads."
     details: |
-      Modest facilities compared to Frontier Veterans' Collective. Meetings focus on 
-      practical mutual aid rather than ideology. Represents moderate Dawn positions—
-      veteran benefits without aggressive expansion. Members tend to be older veterans 
-      who've already established homesteads. Free pulque and hashish for prospective 
-      members nearing discharge.
+      Approximately 6,200 members concentrated around High Junction. Modest facilities
+      in Old Town. Meetings focus on practical mutual aid rather than ideology.
+      Represents moderate Dawn positions—veteran benefits without aggressive expansion.
+      Elected officers serving three-year terms; current President is Yela Khen-Toukh,
+      a near-baseline veteran from the southern campaigns.
+
+      Members tend to be older veterans who've already established homesteads. Economic
+      model emphasizes individual homesteading with collective support: equipment loans,
+      veterinary services, market access, emergency support for families facing hardship.
+      Operates schools for veterans' children. Lobbies for infrastructure investment in
+      established settlements. Free pulque and hashish for prospective members near
+      discharge.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
-    related: [Old Town, High Junction, Veterans' Kilits]
+    related: [Old Town, High Junction, Republican Veterans' Congress, Dawn Party]
     location_features:
       level: site
       location_type: commercial
@@ -10113,6 +10135,61 @@ entries:
       real_world_anchor: "Northeastern California/Nevada (engineered forest)"
   # ─── end Yarangar ───
 
+  # ═══ Yarangar War ═══
+  Yarangar War:
+    category: concept
+    short: "Sultanate intervention in Ranga insurgency—military success that bred revolution through broken promises."
+    details: |
+      Sultana Ulayah's intervention in the Yarangar seemed strategically sound. The
+      Ranga insurgents shared Serrulata history—both colonist castes engineered for
+      specific environments, subjected to Imperial population management. Funding their
+      resistance would bleed Imperial forces while positioning the Sultanate as champion
+      of colonist liberation.
+
+      THE SCREENING TACTIC: Sultanate regulars were dominated by aristocratic families.
+      The Sultana used kilit levies—militia raised from pastoral bands, merchant houses,
+      and labor organizations—to screen these regulars from the worst fighting. Veterans
+      from kilit backgrounds absorbed casualties that aristocratic units avoided.
+
+      THE PENSION CRISIS: The Sultana promised survivors pensions. The treasury couldn't
+      pay them. The intervention had been financed through borrowing from Taho merchant
+      houses. Debt payments took priority over veterans' promises. Month after month,
+      veterans were told to wait while aristocrats—whose sons had survived behind kilit
+      screening—prospered through court connections.
+
+      THE RADICALIZATION: Veterans began listening to Yeweso Dhal-Teren's pamphlets
+      about constitutional illegitimacy and Kaleb's sermons about failed religious
+      obligations. They formed kilits around shared service, petitioned for representation,
+      and were refused. The constitutional path closed; what remained was Kelso Senna.
+    rag_pointer: "The Republic of Ganat"
+    related: [Yarangar, Ganat, Sultana Ulayah, Kelso Senna, Patriarch Kaleb, Yeweso Dhal-Teren, Republican Veterans' Congress]
+  # ─── end Yarangar War ───
+
+  # ═══ Sultana Ulayah ═══
+  Sultana Ulayah:
+    category: person
+    short: "Last monarch of the Ganati Sultanate—assassinated by Kelso Senna in 963, ending nine centuries of rule."
+    person_location: Ganat (historical)
+    details: |
+      Ruled the Sultanate in its final years, governing through the kilit-zem-kilitam—
+      an advisory body granting political voice to established economic powers while
+      excluding most smaller collectives. The Yarangar intervention was strategically
+      sound: fund Ranga insurgents against the Empire, bleed Imperial forces, position
+      the Sultanate as champion of colonist liberation.
+
+      The intervention succeeded militarily but bred revolution domestically. Using
+      kilit levies to screen aristocratic regulars from casualties, promising pensions
+      the treasury couldn't pay, and refusing veterans' petitions for representation
+      in the kilit-zem-kilitam created the revolutionary coalition that destroyed her.
+
+      In 963, Kelso Senna's Cloud Temple Band struck the palace during a court
+      gathering. The decapitation was comprehensive: Ulayah died, most court officials
+      died, regional magnates were eliminated. Nine centuries of rule ended in a
+      single night.
+    rag_pointer: "The Republic of Ganat"
+    related: [Ganat, Kelso Senna, Yarangar War, Cloud Temple Band]
+  # ─── end Sultana Ulayah ───
+
   # ═══ Żelovin ═══
   Żelovin:
     category: location
@@ -11551,6 +11628,40 @@ entries:
     related: [Ganat, Dawn Party, Dusk Party, Republican Guard, Kilit, Kelso Senna, Cloud Temple Band]
   # ─── end Ministry of War ───
 
+  # ═══ Republican Veterans' Congress ═══
+  Republican Veterans' Congress:
+    category: organization
+    short: "Umbrella organization coordinating veterans' kilits (~50,000 people)—Dawn's most reliable constituency."
+    details: |
+      Founded by Yem azh-Khen, who remains perpetual Secretary. Coordinates fourteen
+      major veterans' kilits and dozens of smaller affiliates across the Republic.
+      Does not hold Senate seats directly—individual member kilits hold seats through
+      standard representation—but coordinates positions, mediates disputes, and
+      maintains networks that deliver Dawn votes reliably.
+
+      FUNCTIONS: Coordinates land grant allocation among member kilits. Mediates
+      disputes between veterans' organizations. Maintains employment networks for
+      veterans seeking civilian work. Operates mutual aid programs supplementing
+      kilit-specific benefits. Lobbies for military appropriations and veteran benefits.
+
+      POLITICS: Votes Dawn on military issues unanimously. On other matters, fragments
+      along same lines as constituent kilits—radicals want accelerated redistribution,
+      moderates want consolidation, pragmatists want whatever benefits their specific
+      situations.
+
+      THE LAND GRANT MECHANISM: Veterans receive eastern territory through kilit
+      channels—the revolutionary redistribution that broke up aristocratic estates.
+      Individual applications receive lower priority than kilit-coordinated submissions.
+      This channels veterans into organizational structures that deliver Dawn votes
+      while providing genuine material benefits.
+
+      THREE MAJOR KILITS: Frontier Veterans' Collective (~4,500, radical Dawn,
+      collective farms), Eastern Range Cooperative (~6,200, moderate Dawn, individual
+      homesteads), Homesteaders' Brotherhood (~3,800, pragmatic, minimal ideology).
+    rag_pointer: "The Republic of Ganat"
+    related: [Ganat, Dawn Party, Yem azh-Khen, Ministry of War, Frontier Veterans' Collective, Eastern Range Cooperative, Homesteaders' Brotherhood]
+  # ─── end Republican Veterans' Congress ───
+
   # ═══ People's Exchequer ═══
   People's Exchequer:
     category: organization
@@ -11722,18 +11833,156 @@ entries:
   # ═══ Patriarch Kaleb ═══
   Patriarch Kaleb:
     category: person
-    short: "Revolutionary Penitent religious leader whose theology treats material progress as atonement."
+    short: "Revolutionary Penitent Patriarch—fifty-seven, one-armed, voted yes in 963, Ganat's religious conscience."
     person_location: Ganat
     details: |
-      Founder of revolutionary Penitentism in Ganat. His theology frames material 
-      progress as demonstrating wisdom and atoning for humanity's failures. Different 
-      factions interpret this differently—Orthodox believers want patient progress, 
-      radicals want confrontation with the Empire. Commands three arch-curacies in 
-      Ganat. His works-based theology creates the competitive philanthropy visible 
-      in Taho's electrified streets.
+      Fifty-seven years old, Sarruk Serrulata—the labor-adapted subcaste whose bodies
+      reshape to their environments. Entered the smelters at sixteen; his scales still
+      show the palimpsest of heat-adaptation overlaid by decades of clerical work.
+      Smokes cannabis from a clay pipe rather than the elaborate hookahs favored by
+      educated classes.
+
+      Met Yem azh-Khen in the smelter barracks—Yem organized, Kaleb explained. His
+      theological gift was evident early: Sekha Teph-Orim's family sponsored his
+      seminary education. Emerged not as comfortable Orthodox clergy but as firebrand
+      who administered charitable donations directly to the poor.
+
+      When the five who hadn't participated in the assassination voted on whether to
+      join Senna, Kaleb voted yes. His seminary patron Sekha Teph-Orim voted no. Their
+      friendship survived—a testament to something neither fully explains. Shortly
+      after, reactionaries took his left arm. Before fully healed, he took up a pistol
+      and led cavalry charges in the eastern campaigns.
+
+      Now leads the Ganati Penitent Church, broadcasts weekly homilies reaching every
+      settlement with telegraph service. Privately uncomfortable with how politicized
+      his theology has become. The radical works-theology faction has grown beyond what
+      he fully endorses; he navigates through calculated ambiguity.
     rag_pointer: "The Republic of Ganat"
-    related: [Ganat, Penitent, Dawn Party]
+    related: [Ganat, Penitent Church, Dawn Party, Yem azh-Khen, Sekha Teph-Orim, Kelso Senna]
   # ─── end Patriarch Kaleb ───
+
+  # ═══ Kelso Senna ═══
+  Kelso Senna:
+    category: person
+    short: "The Assassin—sixty-one, killed Sultana Ulayah, now commands Cloud Temple Band from the Ib Mountains."
+    person_location: Ib Mountains
+    details: |
+      Imperial citizen who passed the Seven-Cornered Examination, served as Bureau of
+      the Sword officer until disgrace. During the Yarangar campaign, a superior ordered
+      massacre of a Ranga village; Senna executed him instead of obeying. Court-martial,
+      conviction, then Senior Satara Ravi Donmar overrode conviction and granted
+      dishonorable discharge. Senna left Imperial service with his life, his reputation
+      destroyed, and soldiers who had helped cover up the killing.
+
+      Sultana Ulayah hired him to train Ranga insurgents against the Empire. He repaid
+      her by killing her. In 963, Cloud Temple Band struck the palace during a court
+      gathering—comprehensive decapitation that left the Sultanate headless.
+
+      He wasn't part of the vote because he had already acted. Everyone else had to
+      decide whether to follow. Served briefly as Minister of War in the provisional
+      government. Made enemies with every significant trading house, couldn't navigate
+      factional compromise, proved incapable of admitting error. Rasma Dhal-Setil helped
+      force him out. He withdrew to Cloud Temple, claims communication with Technical
+      Caste entities through quantum array at Far Ib.
+
+      The defining trait: refuses to admit he's wrong. Every principled gamble worked—
+      until believing he could govern without compromise. The same trait that saved him
+      from becoming a monster prevented him becoming a statesman.
+    rag_pointer: "Cloud Temple Band"
+    related: [Cloud Temple Band, Far Ib, Ganat, Rasma Dhal-Setil, Patriarch Kaleb, Ministry of War]
+  # ─── end Kelso Senna ───
+
+  # ═══ Yem azh-Khen ═══
+  Yem azh-Khen:
+    category: person
+    short: "The Organizer—sixty-three, Secretary of Veterans' Congress, never held office, controls land grants."
+    person_location: Ganat
+    details: |
+      Founder and perpetual Secretary of the Republican Veterans' Congress. Has never
+      held elected office, never sought the Senate, exercises more practical influence
+      over Dawn politics than most senators through control of veteran mobilization
+      and land grant administration.
+
+      The "azh-" prefix marks labor lineage—bound workers whose families served specific
+      industries for generations. Came from the smelters around Glen Canyon, Sarruk
+      Serrulata whose body reshaped to working environments. Met Kaleb in the smelter
+      barracks at nineteen. Together they built networks that became the foundation of
+      industrial labor organization—Yem handling logistics, Kaleb providing theological
+      framework. This division of labor persists.
+
+      When the five voted, Yem voted yes without hesitation. His contribution to the
+      constitutional negotiations was the land grant system: the Sultana promised
+      pensions and failed to deliver; the Republic would promise land and actually
+      provide it. The feedback loop was intentional—military service produces landowners
+      who vote Dawn, supporting military funding that enables further recruitment.
+
+      He has refused the Senate consistently. "Someone has to do the work." What he
+      means: holding formal office would constrain his ability to operate across
+      partisan lines.
+    rag_pointer: "The Republic of Ganat"
+    related: [Ganat, Dawn Party, Republican Veterans' Congress, Patriarch Kaleb, Kilit]
+  # ─── end Yem azh-Khen ───
+
+  # ═══ Yeweso Dhal-Teren ═══
+  Yeweso Dhal-Teren:
+    category: person
+    short: "The Theorist—fifty-nine, Rector of the Academy, provided the revolution's intellectual framework."
+    person_location: Taho
+    details: |
+      Rector of the Academy in Taho, having declined ministerial appointments three
+      times. Provided the revolution's intellectual framework—the arguments that made
+      killing a monarch something other than mere murder.
+
+      The Dhal-Teren were Taho merchant money—textile traders, not as old as the
+      Dhal-Setils, not as wealthy, but comfortable. Second son, which meant freedom
+      to pursue education. His pre-revolutionary writings addressed the Sultanate's
+      constitutional illegitimacy: the kilit-zem-kilitam predated the monarchy; the
+      Sultana's authority derived from kilit recognition rather than divine right.
+      If the kilits withdrew recognition, the monarchy had no foundation.
+
+      When the five voted, Yeweso voted yes—though his participation in revolutionary
+      violence remained theoretical. He wrote pamphlets, not tactical plans. He
+      drafted significant portions of the constitutional text, adapting kilit-zem-kilitam
+      procedures into republican form. The standing rules governing Senate procedure
+      derive largely from his work.
+
+      His relationship with the other founders is cordial but distant. He provided
+      theory; they provided action. As colleagues note, "the conscience the Republic
+      honors and ignores"—producing analyses everyone praises and no one implements.
+    rag_pointer: "The Republic of Ganat"
+    related: [Ganat, Taho, Dawn Party, Rasma Dhal-Setil, Kilit, Senate]
+  # ─── end Yeweso Dhal-Teren ───
+
+  # ═══ Sekha Teph-Orim ═══
+  Sekha Teph-Orim:
+    category: person
+    short: "The One Who Said No—sixty-four, Dusk Senator, loyal opposition, voted no in 963."
+    person_location: Ganat
+    details: |
+      Sixty-four years old, serving her eighteenth year as Senator, representing a kilit
+      of former moderate aristocrats and their dependents. She founded the Dusk Party
+      as loyal opposition—a home for those who accepted the Republic's existence while
+      refusing to celebrate how it came to be.
+
+      Minor aristocracy—compound surname indicates lineage predating the Sultanate.
+      Hosted salons that became gathering places for reformers of various tendencies.
+      Funded revolutionary infrastructure believing it would produce constitutional
+      reform. Sponsored Kaleb's seminary education. Introduced Rasma to political
+      theory beyond commercial applications. Built the revolutionary coalition's social
+      infrastructure without understanding what she was building.
+
+      When the five voted, Sekha was the only one who said no. Not because she loved
+      Ulayah—she didn't—but because assassination wasn't what she'd worked toward.
+      She wanted constitutional monarchy, not regicide. The other four voted yes.
+      She spent the revolution under house arrest, monitored by friends she had
+      introduced to each other.
+
+      After the settlement, she emerged politically homeless. Too associated with the
+      old order for Dawn, too principled for Dusk's cynics. Kaleb voted yes when she
+      voted no. Their friendship survived.
+    rag_pointer: "The Republic of Ganat"
+    related: [Ganat, Dusk Party, Patriarch Kaleb, Rasma Dhal-Setil, Senate, Kilit]
+  # ─── end Sekha Teph-Orim ───
 
   # ═══ Rasma Dhal-Setil ═══
   Rasma Dhal-Setil:
