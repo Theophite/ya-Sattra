@@ -8776,14 +8776,24 @@ entries:
   # ═══ The Dam ═══
   The Dam:
     category: location
-    short: "Antediluvian hydroelectric structure—grey material harder than granite, turbines that never stop."
+    short: "Antediluvian structure converted to hydroelectric—grey material harder than granite, purpose unknown."
     details: |
-      300 feet across, 400 feet from river to top. Built from grey material that looks like 
-      stone but isn't—harder than granite, smooth to the touch, impervious to weathering. 
-      The builders' purposes are unknown; current residents adapted what they found. Ganati-made
-      turbines installed in 952, eleven years before the Revolution. Provides power too cheap to meter—workshops 
-      operate 24 hours because stopping costs opportunity. Working-class warrens honeycomb 
-      the surrounding sandstone, tunnels terminating inside the Dam itself.
+      300 feet across, 400 feet from river to top. Built from grey material that looks like
+      stone but isn't—harder than granite, smooth to the touch, impervious to weathering.
+
+      Three layers of history: The Antediluvians built the structure itself—but why? The dam
+      creates a lake. Why did they want a lake? The original purpose is lost. Sometime after
+      the Interdict, unknown engineers converted it for hydroelectric generation, installing
+      turbines in chambers that may or may not have been designed for them. Those turbines
+      eventually failed. In 952, eleven years before the Revolution, Ganati engineers replaced
+      them with domestically manufactured turbines that spin to this day.
+
+      The mystery isn't how the Dam works—it's why the Antediluvians built it. They didn't
+      need hydroelectric power. They had other sources. What purpose did that lake serve?
+
+      Provides power too cheap to meter. Workshops operate 24 hours because stopping costs
+      opportunity. Working-class warrens honeycomb the surrounding sandstone, tunnels
+      terminating inside the Dam itself.
     rag_pointer: The Republic of Ganat, Ganat and the Yarangar War
     related: [Ganat proper, Antediluvian]
     location_features:
@@ -8795,11 +8805,12 @@ entries:
         - Tyrant's Walk
       primary_function: Power generation, industrial district
       notable_features:
-        - Antediluvian construction
+        - Antediluvian construction (purpose unknown)
+        - Post-Interdict hydroelectric conversion
+        - Ganati turbines installed 952
         - 24-hour industrial operation
-        - Working-class warrens
       real_world_anchor: "Glen Canyon (Ganat proper)"
-    local_aesthetic: "Antediluvian mystery amid carved sandstone. The Dam itself is grey material—NOT sandstone, NOT any stone Republicans understand. Harder than granite, smooth to the touch, showing no weathering despite unknown age. Perhaps it stored water. Perhaps it generated power. Perhaps it was something else entirely. The turbines inside are Ganati-made—installed in 952, eleven years before the Revolution, spinning continuously, generating power too cheap to meter. Workshops carved into surrounding sandstone operate 24 hours: hammers on metal, electric saws, looms clacking, the constant background of turbines and flowing water. The smell: hot metal, chemicals, sawdust, human sweat, machine oil, ozone. Working-class warrens honeycomb the rock around it—tunnels branching from the Dam into the cliff, chambers carved every 20 feet, bright salmon sandstone visible under electric light."
+    local_aesthetic: "Antediluvian mystery amid carved sandstone. The Dam itself is grey material—NOT sandstone, NOT any stone Republicans understand. Harder than granite, smooth to the touch, showing no weathering despite unknown age. It made a lake. Why did the Antediluvians want a lake? The turbines inside are Ganati-made—installed in 952, replacing earlier machinery that someone else installed after the Interdict. Three layers of engineering: Antediluvian structure, post-Interdict conversion, Ganati restoration. Workshops carved into surrounding sandstone operate 24 hours: hammers on metal, electric saws, looms clacking, the constant background of turbines and flowing water. The smell: hot metal, chemicals, sawdust, human sweat, machine oil, ozone. Working-class warrens honeycomb the rock around it—tunnels branching from the Dam into the cliff, chambers carved every 20 feet, bright salmon sandstone visible under electric light."
   # ─── end The Dam ───
 
   # ═══ Working-Class Warrens ═══
