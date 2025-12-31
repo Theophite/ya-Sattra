@@ -2028,11 +2028,28 @@ entries:
   # ═══ Verethani ═══
   Verethani:
     category: caste
-    short: "Endogamous Highborn families without Compulsion, essential to ya-Don Furnace operations."
+    short: Five endogamous Highborn families whose voices enable Furnace processes but cannot Compel—origins unknown, predating all records.
     details: |
-      Five Highborn families (Vereth, Somnal, Tessik-Vor, Keth-Ascending, Dwell-Silent) 
-      whose voices enable critical production processes but cannot Compel. Do not appear 
-      in Creche records. Origins unknown.
+      They have Highborn voices: polyphonic resonance, the harmonic richness
+      that makes other Highborn dangerous. But the Verethani cannot Compel.
+      None ever have. None ever could. The neurological override that lets
+      other Highborn command obedience simply doesn't function in their
+      bloodlines. Their voices are beautiful and persuasive the way a
+      skilled orator's voice is beautiful and persuasive—nothing more.
+
+      Five families—Vereth, Somnal, Tessik-Vor, Keth-Ascending,
+      Dwell-Silent—breed only with each other, following marriage patterns
+      that suggest careful genetic management. They do not appear in Bureau
+      of the Creche records. Their lineages predate documentation. No one
+      knows where they came from or how they acquired their peculiar form
+      of Highborn heritage.
+
+      What they do know is that the Furnaces need them. At scheduled
+      intervals they perform vocal functions in deep sections of ya-Don's
+      industrial core. They do not explain what they do. They do not explain
+      why it matters. The Furnaces work, and the Verethani's compound
+      remains untouched, and everyone accepts the arrangement because no
+      one wants to discover what happens if it ends.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Highborn, Unwritten-Axiom Parish, ya-Don]
     caste_features:
