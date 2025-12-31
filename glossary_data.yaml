@@ -1004,11 +1004,23 @@ entries:
   Kma-Dhol:
     category: caste
     aliases: [sewer-fishers (Thousand Kingdoms), Akama sewer-fishers]
-    short: "Technical Caste descendants operating openly in the Thousand Kingdoms."
+    short: Technical Caste descendants; pale grey, black-sclera eyes, sing to machines in the Jargon.
     details: |
-      Same ancestry as Imperial sewer-fishers but never hidden. Publicly claim
-      the Third Oracle 'gifted them their second soul.' Operate autofactories
-      through factory-singing—vocalizing mathematical requests in the Jargon.
+      Pale grey skin, large dark eyes with black sclera, prominent pointed ears.
+      Slight build, perhaps five foot four, skull extending slightly at the back.
+      Elongated fingers that grip tools in ways baseline hands cannot. Same
+      ancestry as certain hidden Imperial castes, but here they never hid.
+
+      They claim the Third Oracle gifted them their second soul. They sing to
+      machines in the Jargon—vocalizing mathematical requests that pass through
+      them rather than originating from them. The autofactories respond. They
+      can influence output through vocalization, operating technology through
+      something between prayer and engineering.
+
+      They occupy the upper levels and suspended platforms, the compression
+      passages where the machines listen. Recognized technical specialists,
+      operating openly under a theological framework that makes their abilities
+      holy rather than suspicious.
     rag_pointer: "Sewer-Fishers, The Thousand Kingdoms"
     related: [Technical Castes, Sewer-Fishers, Ogon, Jargon]
     caste_features:
@@ -1042,8 +1054,20 @@ entries:
   # ═══ Labor Castes ═══
   Labor Castes:
     category: caste
-    short: Specialized workers engineered for hazardous industrial tasks.
-    details: ""
+    short: Bodies engineered for hazardous industrial tasks; task-specific modifications, durability enhancements.
+    details: |
+      Multiple distinct variants, each optimized for different physical demands.
+      Some climb scaffolding with elongated limbs. Some compress ribcages to fit
+      through ducts. Some tolerate pressures that would kill surface-adapted
+      workers. Some carry loads that would shatter baseline frames. The modifications
+      are visible—proportions wrong, features adapted, bodies shaped for function
+      rather than baseline aesthetics.
+
+      They form the majority in working-class districts, maintaining infrastructure,
+      handling cargo, working conditions that would disable or kill others. Most
+      possess what is collectively called Redback durability—the basic package of
+      reinforcements that lets a body survive industrial labor. The specialized
+      variants add capabilities on top of that foundation.
     rag_pointer: Castes of Mankind
     related: [Beamcrawler, Ductworker, Redback, Springheel, Ironbone Labor, Diver]
     caste_features:
@@ -1116,8 +1140,22 @@ entries:
   # ═══ Mutterers ═══
   Mutterers:
     category: caste
-    short: Neurologically reduced Technical Caste descendants who compulsively optimize technology.
-    details: ""
+    short: Technical Caste descendants; one meter tall, complete technical knowledge, cannot initiate action.
+    details: |
+      Approximately one meter tall, enormous eyes tracking everything, jaws moving
+      constantly. Some have replaced their own eyes with salvaged sensors, grafted
+      extra ears. They were the lowest tier of the Technical Cascade—the ones who
+      received translated instructions and executed them.
+
+      They retain complete technical knowledge. They lack executive function. They
+      cannot initiate actions, only respond to situations. Put a Mutterer in front
+      of broken machinery and they will fix it, compulsively, perfectly. Ask a
+      Mutterer what machinery needs fixing and they will stare, jaws working,
+      unable to answer. The knowledge is complete. The will to apply it
+      unprompted is gone.
+
+      They are cared for when found. They maintain infrastructure wherever they
+      happen to be. The compulsion to optimize is the only drive that remains.
     rag_pointer: The Companions Guild, The Technical Castes and Far Ib
     related: [Technical Castes, Companions Guild, Choir, Crooked-Ear, Three Cradles]
     caste_features:
@@ -1195,8 +1233,23 @@ entries:
   # ═══ Near-Baseline ═══
   Near-Baseline:
     category: caste
-    short: Engineered humans appearing almost natural while possessing Compulsion susceptibility.
-    details: ""
+    short: Appears unmodified; engineered for universal Compulsion susceptibility.
+    details: |
+      They look like unmodified humans. Full range of natural human variation,
+      stable genetics, the body plan baseline humanity had before the engineers
+      began their work. You would not know they were engineered at all—until a
+      Highborn speaks and the neurological receptors fire and the Compulsion
+      takes hold.
+
+      That is the modification: universal susceptibility to Highborn vocal
+      frequencies. A single engineered trait, stable and heritable across ten
+      thousand years. The general population, the non-specialized occupations,
+      the majority. They may carry trace markers from intermarriage—slightly
+      broader shoulders from stevedore ancestry, unusual coloring from more
+      exotic unions—but the core specification is ordinary appearance and
+      guaranteed obedience to certain voices.
+
+      They are the population the Highborn were designed to rule.
     rag_pointer: Castes of Mankind
     related: [Compulsion, Highborn]
     caste_features:
@@ -1271,8 +1324,25 @@ entries:
   # ═══ Ranga ═══
   Ranga:
     category: caste
-    short: Forest-adapted colonist caste with chameleonic skin.
-    details: ""
+    short: Forest-adapted caste; chameleonic skin, yellow-amber eyes, can vanish against bark and foliage.
+    details: |
+      Chameleonic skin displaying whorled, swirling patterns that shift color to
+      match surroundings—a forest palette of blues, greens, earth tones, oranges.
+      Heavy brow ridges, large yellow-amber eyes adapted for low light, prominent
+      pointed ears, wide nose, strong jaw. Hair often worn in thick dreadlocks.
+      Scarification follows the whorling patterns, marking identity in ways the
+      shifting skin cannot.
+
+      They were made for forest world colonization. Stand motionless against bark
+      or foliage and they become nearly invisible—genetics provides the capability,
+      practice provides the control. Children show color-shifting that becomes
+      full camouflage in adulthood. They maintain effective independence through
+      terrain and biological advantage, melting into forests that others cannot
+      navigate.
+
+      The adaptation is specific. Refugees in desert territories struggle with
+      skin that shifts toward greens and browns in landscapes of ochre and sand.
+      The body remembers forests it has never seen.
     rag_pointer: Castes of Mankind, Ganat and the Yarangar War
     related: [Colonist Castes, Yarangar, Teval Okhem]
     caste_features:
@@ -1308,8 +1378,23 @@ entries:
   # ═══ Redback ═══
   Redback:
     category: caste
-    short: Labor caste with enhanced spinal articulation for bearing tremendous loads.
-    details: ""
+    short: Enhanced spine for bearing loads; characteristic ridge of muscle, binary death mode.
+    details: |
+      Two meters tall, enhanced spinal articulation and musculature. The
+      characteristic ridge of muscle and reinforced tissue along the spine
+      gives them their name—visible through clothing, unmistakable. They tend
+      toward heaviness; the substantial fat reserves fuel metabolic demands
+      and cushion the loads they carry.
+
+      They can bear three times their body weight for short distances, twice
+      with proper bracing. Teams move loads through coordinated effort, cargo
+      that would require machinery for other castes. They were made for this.
+      The spine does not complain. The body adjusts.
+
+      The failure mode is binary. No gradual decline. No period of dependence.
+      Work a full shift one day, stop the next morning. Some make it to ninety
+      or beyond. Others die at forty-one, mid-shift, between one load and the
+      next. There is no way to predict which you will be.
     rag_pointer: Castes of Mankind
     related: [Labor Castes, Kora Brennam]
     caste_features:
@@ -1415,8 +1500,25 @@ entries:
   # ═══ Serrulata ═══
   Serrulata:
     category: caste
-    short: Desert-adapted colonist caste with keratin scales and dark sclerae.
-    details: ""
+    short: Desert-adapted caste; keratin scales, dark sclerae, built for worlds of sand and sun.
+    details: |
+      Keratin scales cover the body—one to two inches across, overlapping like
+      roof tiles, thicker on back and shoulders and outer arms and thighs. The
+      natural color runs from tan to dark brown with subtle iridescence. Dark
+      sclerae, nearly black, with irises of amber or rust-red. Scaled cap
+      covering the cranium. Large sharply pointed ears, broad flat nose, thin
+      lips. Minimal clothing—skirt, turban, shawl—because the scales protect
+      from the sun.
+
+      They were made for desert world colonization. Micro-channel sweat wicking
+      through the scales provides thermoregulation. The body handles heat and
+      aridity that would kill baseline humans in hours. They are the dominant
+      population in the territories they were made for.
+
+      The scales can be decorated. Rust-orange and ochre pigments are permanent
+      and common. Teal and indigo are expensive. Copper filigree pressed into
+      scale surfaces oxidizes to verdigris. Turquoise stones set into individual
+      scales catch the light. The body becomes canvas.
     rag_pointer: Castes of Mankind, Ganat and the Yarangar War
     related: [Colonist Castes, Ganat]
     caste_features:
@@ -1587,8 +1689,26 @@ entries:
   # ═══ Sickly ═══
   Sickly:
     category: caste
-    short: Biological factories producing antibody-rich serums through rose-gold lattices.
-    details: ""
+    short: Serum producers; rose-gold vesicle lattices, incapable of negative emotion, semi-sentient.
+    details: |
+      Graceful, slender, minimal muscle mass—metabolism optimized for antibody
+      production, not movement. Porcelain-like translucent skin through which
+      blood vessels and lymphatic pathways are visible. Rose-gold lattices of
+      delicate nodules along the sternum and undersides of the arms. The vesicles
+      enlarge and glow when approaching harvest. A sweet fruit-like scent
+      intensifies as they ripen.
+
+      They were engineered without capacity for negative emotion. Not calm but
+      incapable—anxiety, grief, fear do not exist for them. They experience
+      illness as mild warmth, harvesting as gentle pressure. They cannot recognize
+      danger or make long-term plans. They would wander into traffic from
+      curiosity, not despair. Some write poetry described as unsettling in its
+      purity. Some write theological commentary.
+
+      They are classified semi-sentient and cared for by those trained to manage
+      beings that cannot protect themselves. The vesicles are punctured with
+      glass syringes when ripe. The serum saves lives. The question of whether
+      they can understand what they provide does not have a comfortable answer.
     rag_pointer: Sickly Caste Overview (PDF), The Companions Guild
     related: [Companions Guild, Semi-Sentient, Morvain-3]
     caste_features:
@@ -1627,8 +1747,24 @@ entries:
   # ═══ Springheel ═══
   Springheel:
     category: caste
-    short: Labor caste with modified tendons enabling explosive vertical movement.
-    details: ""
+    short: Modified tendons for vertical work; explosive leaping, superior 3D processing, tendons that tear without warning.
+    details: |
+      Five foot seven—short by Imperial standards, average for the caste. Leg
+      proportions read as slightly wrong to baseline eyes. Calves larger than
+      expected, tendons visible beneath the skin, joints articulated for ranges
+      baseline cannot match. They were made for high-altitude construction, for
+      scaffolding and vertical infrastructure.
+
+      Standing leap of twelve feet vertical, higher with a running start.
+      Superior three-dimensional spatial processing. They move through vertical
+      spaces with a confidence that makes observers dizzy. The body knows where
+      it is in space. The body knows where it can go.
+
+      The tendons can tear without warning. Explosive potential turns destructive.
+      Tendon failure during high work means death. Many do not reach their
+      father's age. The warnings—a twinge, a tightness—are not always reliable.
+      The community watches each other during high work, looking for the signs.
+      Someone has to catch you. Someone has to try.
     rag_pointer: Castes of Mankind
     related: [Labor Castes, Venn Torith, Springheel Acrobatics]
     caste_features:
