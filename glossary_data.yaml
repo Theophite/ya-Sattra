@@ -9619,6 +9619,207 @@ entries:
         - "terraced paths climbing through hollow tomb-mouths"
   # ─── end ya-Tsatsa ───
 
+  # ═══ Port Ahn ═══
+  Port Ahn:
+    category: location
+    short: "Limestone cliff port town—Imperial checkpoint between Thousand Kingdoms and ya-Sattra."
+    details: |
+      Strategic port built on steep cliffs rising 300 feet from a bay. Town clings to cliff
+      face in terraces carved from living rock, connected by stairs cut so steep they are
+      nearly ladders. Last stop for northbound traders heading into Imperial territory, first
+      stop for southbound Akama traders. Features gauss cannon emplacements on the Citadel,
+      Revenue House for customs clearance, and markets where Imperial goods meet frontier
+      products. Five days sail from the Thousand Kingdoms, three days from ya-Sattra.
+      "The last edge of Empire where broken weapons were displayed as heritage."
+    rag_pointer: "Vey, Trip to Port Ahn"
+    related: [Thousand Kingdoms, ya-Sattra, ya-Tsatsa, Bureau of Coin, Akama]
+    location_features:
+      level: town
+      location_type: settlement
+      parent: Undying Empire
+      children:
+        - Port Ahn Citadel
+        - Port Ahn Harbor
+        - Port Ahn Revenue House
+        - Port Ahn Main Market
+        - Port Ahn Technical Quarter
+        - Port Ahn Salvage Quarter
+      controlling_entity: Imperial administration (Bureau of Coin)
+      primary_function: Trade checkpoint, customs enforcement
+      notable_features:
+        - Limestone cliff terraces
+        - Gauss cannon emplacements
+        - Imperial Revenue House
+        - Frontier markets
+      borders:
+        north: [Thousand Kingdoms]
+        south: [ya-Tsatsa, ya-Sattra]
+    aesthetic_features:
+      intention: "Imperial order meets frontier chaos at the cliff's edge."
+      environment: "Limestone cliffs rising 300 feet from bay. Steep stairs nearly vertical. Dark shale crumbling at edges. Salt air, rotting kelp, and tar."
+      construction: "Terraces carved from living rock. Revenue House built from imported stone projecting Imperial permanence."
+  # ─── end Port Ahn ───
+
+  # ═══ Port Ahn Citadel ═══
+  Port Ahn Citadel:
+    category: location
+    short: "Military fortification on promontory's highest point—gauss cannon track incoming vessels."
+    details: |
+      Located on the highest point of Port Ahn's promontory. Features gauss cannon
+      emplacements that track every vessel entering the bay. Each barrel can punch
+      through a ship's hull at two kilometers. Represents unambiguous Imperial military
+      control over the strategic port. The cannon ensure that whatever chaos exists
+      in the markets below, the Empire's authority is never in question.
+    rag_pointer: "Vey, Trip to Port Ahn"
+    related: [Port Ahn, Bureau of Sword]
+    location_features:
+      level: building
+      location_type: military
+      parent: Port Ahn
+      controlling_entity: Imperial military
+      primary_function: Harbor defense, military control
+      notable_features:
+        - Gauss cannon emplacements
+        - 2km effective range
+        - Tracking systems for vessels
+  # ─── end Port Ahn Citadel ───
+
+  # ═══ Port Ahn Harbor ═══
+  Port Ahn Harbor:
+    category: location
+    short: "Limestone bay with dock facilities—smells of rotting kelp and tar."
+    details: |
+      Natural limestone bay providing sheltered anchorage for trading vessels.
+      Equipped with dock facilities and stevedore operations. Armed guards control
+      cargo movement. Harbormaster's launch inspects incoming vessels and collects
+      fees before permitting anchorage. The harbor processes trade between Imperial
+      territory and the Thousand Kingdoms, extracting duties at every opportunity.
+    rag_pointer: "Vey, Trip to Port Ahn"
+    related: [Port Ahn, Bureau of Coin]
+    location_features:
+      level: neighborhood
+      location_type: commercial
+      parent: Port Ahn
+      controlling_entity: Harbormaster (Bureau of Coin)
+      primary_function: Shipping, customs inspection
+      notable_features:
+        - Natural limestone bay
+        - Armed stevedores
+        - Harbormaster's launch
+      sensory:
+        - "rotting kelp smell"
+        - "tar from dock maintenance"
+        - "salt air"
+  # ─── end Port Ahn Harbor ───
+
+  # ═══ Port Ahn Revenue House ═══
+  Port Ahn Revenue House:
+    category: location
+    short: "Bureau of Coin customs house—imported stone projecting Imperial permanence on the frontier."
+    details: |
+      Situated halfway up the cliff face. Built from imported stone that doesn't match
+      local limestone—designed to project permanent Imperial authority through
+      architectural expense. Brass scales on doors tarnished green from sea air. Interior
+      features walls of pigeonholes with documents color-coded by incomprehensible logic.
+      Multiple queues for different categories of business. Staff maintains classification
+      registries for unusual entities. Provincial operation less thorough than ya-Sattra
+      but still extracts fees: 40 obols harbor maintenance, 80 obols semi-sentient transit.
+    rag_pointer: "Vey, Trip to Port Ahn"
+    related: [Port Ahn, Bureau of Coin, Scale Bureau]
+    location_features:
+      level: building
+      location_type: administrative
+      parent: Port Ahn
+      controlling_entity: Bureau of Coin
+      primary_function: Customs clearance, fee collection, entity classification
+      notable_features:
+        - Imported stone construction
+        - Brass scales on doors (tarnished green)
+        - Classification registries
+        - Multiple queuing systems
+  # ─── end Port Ahn Revenue House ───
+
+  # ═══ Port Ahn Main Market ═══
+  Port Ahn Main Market:
+    category: location
+    short: "Largest limestone terrace—one hundred stalls where Imperial goods meet frontier products."
+    details: |
+      Spread across the largest limestone terrace. One hundred stalls under canvas and
+      salvaged polymer. Primary commercial hub where northbound traders buy Imperial goods
+      and southbound Akama sell frontier products. Haggling in three languages. Smith's
+      booths with metalwork, musicians performing (often poorly), weapon dealers with
+      Colonel-Hereditary bearing selling pre-Interdict plasma lances as heritage items.
+      Port Ahn's real purpose: the commercial threshold between Empire and frontier.
+    rag_pointer: "Vey, Trip to Port Ahn"
+    related: [Port Ahn, Port Ahn Technical Quarter, Port Ahn Salvage Quarter, Akama]
+    location_features:
+      level: neighborhood
+      location_type: commercial
+      parent: Port Ahn
+      primary_function: Trade, commercial exchange
+      notable_features:
+        - 100+ stalls
+        - Canvas and polymer awnings
+        - Multilingual haggling
+        - Heritage weapon dealers
+      sensory:
+        - "three languages mixing"
+        - "smith's hammering"
+        - "bad musicians"
+  # ─── end Port Ahn Main Market ───
+
+  # ═══ Port Ahn Technical Quarter ═══
+  Port Ahn Technical Quarter:
+    category: location
+    short: "Market section for components and technical goods—ya-Sattra manuals alongside frontier salvage."
+    details: |
+      Section within the main market area specializing in technical merchandise. Mix
+      of recently manufactured items and salvaged pre-Interdict technology. Technical
+      manuals from ya-Sattra sold alongside frontier equipment. Merchants examine
+      components with varying degrees of expertise. Where Kma-Dhol engineers might
+      find Jargon texts bound with technical papers, or navigation components
+      salvaged from pre-Interdict orbital craft.
+    rag_pointer: "Vey, Trip to Port Ahn"
+    related: [Port Ahn, Port Ahn Main Market, Kma-Dhol, Jargon]
+    location_features:
+      level: neighborhood
+      location_type: commercial
+      parent: Port Ahn Main Market
+      primary_function: Technical goods trade
+      notable_features:
+        - Technical manuals from ya-Sattra
+        - Salvaged pre-Interdict components
+        - Jargon texts (rare)
+  # ─── end Port Ahn Technical Quarter ───
+
+  # ═══ Port Ahn Salvage Quarter ═══
+  Port Ahn Salvage Quarter:
+    category: location
+    short: "Lower terrace archaeotech market—dealers work from locked strongboxes, goods spread on blankets."
+    details: |
+      Located on Port Ahn's lower terraces. Archaeotech market dealing in pre-Interdict
+      components. Merchants who cannot afford proper market stalls spread goods on blankets.
+      Dealers work from locked strongboxes, showing pieces only to serious buyers. Ancient
+      weapons displayed as heritage items. Behind the stalls: trash heaps where Mutterers
+      scavenge, modifying components in ways that suggest Technical Caste inheritance.
+      The frontier's edge, where Imperial classification breaks down entirely.
+    rag_pointer: "Vey, Trip to Port Ahn"
+    related: [Port Ahn, Port Ahn Main Market, Mutterers, Technical Castes]
+    location_features:
+      level: neighborhood
+      location_type: commercial
+      parent: Port Ahn
+      primary_function: Salvage trade, archaeotech dealing
+      notable_features:
+        - Blanket merchants
+        - Locked strongbox dealers
+        - Trash heaps behind stalls
+        - Mutterer presence
+      hazards:
+        - Unclassified archaeotech
+        - Mutterer encounters
+  # ─── end Port Ahn Salvage Quarter ───
+
   # ═══ Yarangar ═══
   Yarangar:
     category: location
