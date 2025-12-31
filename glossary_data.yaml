@@ -2174,11 +2174,18 @@ entries:
   # ═══ Amber Quarter ═══
   Amber Quarter:
     category: location
-    short: "Serrulata trading district—Ganati architecture, not Imperial vernacular."
+    short: Serrulata trading district in ya-Don—Ganati architecture, not Imperial vernacular.
     details: |
-      ~30,000 residents. Ganati-influenced architecture. Republican cultural practices. 
-      The district makes no attempt to fit ya-Don's vernacular tradition—it is Ganat 
-      transplanted, the Republic's architecture serving the Republic's people.
+      Approximately thirty thousand residents. Rounded adobe forms instead of
+      angular stone. Organic curves instead of rectangular precision. Rust,
+      ochre, and teal rather than tan-and-grey. Copper-inlaid decoration:
+      geometric patterns on doorframes, windowsills, anywhere the eye rests.
+      Amber-tinted windows filter light for Serrulata comfort.
+
+      The district makes no attempt to fit ya-Don's vernacular tradition. It
+      is Ganat transplanted. The Republic's architecture serving the Republic's
+      people. Republican cultural practices, revolutionary sentiment subdued
+      but present.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Ganat, Serrulata]
     location_features:
@@ -2234,13 +2241,22 @@ entries:
   # ═══ Antediluvian Quarter ═══
   Antediluvian Quarter:
     category: location
-    short: "Elite district housing Aureate estates on pre-Interdict marvels."
+    short: Elite district housing Aureate estates on pre-Interdict arcologies. Buildings may be the actual patent holders.
     details: |
-      ~48,000 residents: ~3,200 Aureate family members, ~32,000 hereditary servants, 
-      ~12,000 commercial workers. Wealth derives from patents maintained through inherited 
-      ritual, not knowledge. Self-maintaining infrastructure: porcelain-coral streets that 
-      clean themselves, bioluminescent lamp posts fed by hereditary lamp-lighters. Buildings 
-      may be the actual patent holders, with families merely their interface.
+      Approximately forty-eight thousand residents: thirty-two hundred Aureate
+      family members, thirty-two thousand hereditary servants, twelve thousand
+      commercial workers. Wealth derives from patents maintained through inherited
+      ritual, not knowledge.
+
+      Self-maintaining infrastructure: porcelain-coral streets that clean
+      themselves, bioluminescent lamp posts fed by hereditary lamp-lighters.
+      Pre-Interdict arcologies that refused to fall—each one unique, each one
+      incomprehensible in its own way. Seven major arcologies, radically different
+      from each other: invisible cylinders, spiraling spires, living tissue,
+      spectrum-shifting ziggurats.
+
+      The buildings may be the actual patent holders. The families may be
+      merely their interface.
     rag_pointer: The Antediluvian Quarter
     related: [ya-Sattra, Aureate, Medina Quarter, Rift, The Prismatic Archive]
     location_features:
@@ -2383,28 +2399,25 @@ entries:
   # ═══ The Prismatic Archive ═══
   The Prismatic Archive:
     category: location
-    short: "Aureate-controlled exhibition in the Antediluvian Quarter—pre-Interdict art and luxury objects."
+    short: Aureate-controlled exhibition of pre-Interdict art and luxury objects. Entry by invitation or twelve obols.
     details: |
       Unlike the Alcazar's cosmic scope, the Prismatic Archive displays pre-Interdict
-      art and luxury objects: jewelry whose authentication protocols create light shows,
-      textiles that shift pattern with temperature, sculptures in materials that resist
-      identification. The es-Morath family maintains the collection as demonstration
-      of what refinement meant before the Interdict. Entry requires invitation or
-      payment of twelve obols—ensuring the audience remains appropriately elevated.
+      art and luxury objects: jewelry whose authentication protocols create light
+      shows, textiles that shift pattern with temperature, sculptures in materials
+      that resist identification. The es-Morath family maintains the collection.
 
-      The prohibition on interpretation applies here as officially as elsewhere, but
-      the es-Morath curators have developed elaborate techniques for non-interpretation.
-      "One might notice" becomes the standard phrase. "One might notice the way light
-      refracts through this piece." "One might notice the temperature sensitivity."
-      These observations are not interpretation—merely directing attention to properties
-      any viewer could observe. The Lens has never successfully prosecuted an es-Morath
-      for this practice, though several inspectors have tried.
+      The prohibition on interpretation applies here as elsewhere, but the curators
+      have developed elaborate techniques for non-interpretation. "One might notice"
+      becomes the standard phrase. "One might notice the way light refracts." "One
+      might notice the temperature sensitivity." These are not interpretations—merely
+      directing attention to properties any viewer could observe. The Lens has never
+      successfully prosecuted an es-Morath for this practice.
 
-      The collection includes three pieces the family admits they cannot explain even
-      to themselves: a sphere that maintains room temperature regardless of environment,
-      a frame that displays different images to different viewers, and a small box
-      that occasionally produces sounds in response to stimuli no one can identify.
-      These occupy a private gallery shown only to guests the family trusts absolutely.
+      The collection includes three pieces the family admits they cannot explain
+      even to themselves: a sphere maintaining room temperature regardless of
+      environment, a frame displaying different images to different viewers, a
+      small box producing sounds in response to stimuli no one can identify. These
+      occupy a private gallery shown only to guests the family trusts absolutely.
     rag_pointer: "The Antediluvian Quarter"
     related: [Antediluvian Quarter, es-Morath Arcology, Uninterpreted Collections, Aureate]
     location_features:
