@@ -469,9 +469,43 @@ This creates stable deterrence despite power asymmetry. The Empire can't afford 
 
 ### **State Apparatus**
 
-The Republic's ministries (Settlement, Justice, War) are documented separately. See: `Government_-_Ganati_State_Apparatus.md`
-
 Professional licensing operates through certified kilits rather than individual credentials. See: `Government_-_Ganati_Professional_Kilits.md`
+
+#### **Ministry of Settlement**
+
+The Ministry administers land grants and governs unconsolidated eastern territory—Dawn's expansion ideology made material in surveyed plots and struggling farms.
+
+The corruption is structural, not incidental. Revolutionary units became administrative districts, chain of command became organizational hierarchy, and the companies that fought together became kilits that protect each other. When an inspector arrives asking about irregularities, he faces not one corrupt officer but an entire veteran association that will close ranks against outsiders. The sergeant handling grant documentation won't testify against his captain. The surveyor eating at the District Officer's table for five years won't confirm boundaries were drawn to favor certain applicants.
+
+The Ministry maintains an anti-corruption inspectorate because it must—the program's legitimacy depends on belief that land goes to deserving veterans fairly. Periodic executions of egregious offenders demonstrate the system works. But many inspectors are themselves veterans who understand how things actually work. Some inspectors are worse than those they inspect, extracting payments to overlook the irregularities they document.
+
+The speculator problem compounds everything. Veterans receive grants, discover farming is difficult, fail, and watch merchant houses buy their land at discount through intermediaries. The original grantees become tenant farmers on land that was briefly theirs. The statistics show "successful settlement" because someone farms the land. The program produces exactly what it was designed to prevent—a new tenantry rather than independent yeomanry—alongside the genuine successes that provide cover for the failures.
+
+Dawn is trapped. The Ministry is their program, their base, their ideological heart. The veteran kilits are core constituency. Dawn cannot attack them without attacking itself. So systemic reform remains impossible while the corruption, the successes, and the failures all continue together.
+
+#### **Ministry of Justice**
+
+Dawn arrests. Dusk decides guilt.
+
+The Republican Guard and militias are Dawn institutions. The courts determining whether arrests were justified are Dusk institutions. Neither faction can function without the other. The gridlock is the point.
+
+The courts never underwent revolutionary transformation. When the Revolution came, judges kept their positions, swearing new oaths while applying the same pre-revolutionary legal principles. Dawn rewrote the Church and built the Guard from scratch. Dawn inherited the courts intact, staffed by people trained in pre-revolutionary traditions.
+
+Imperial language creates the barrier. Courts operate in formal Imperial, not Ganati dialect. Learning Imperial well enough to practice law requires education, education requires money, money flows to established families, and established families skew Dusk. By the time a pastoral family's clever child is ready to practice, they've been socialized into a profession aligned with merchant interests. The bar associations are formally open to all, but the prerequisites for entry select for precisely the populations that concentrate in Dusk.
+
+Commercial courts maintain a reputation for competence and honesty that extends beyond Republican borders. Imperial merchants prefer Ganati jurisdiction for disputes involving Ganati counterparties. This reputation is worth more than any individual case. When Dawn proposes reforms that might compromise commercial court integrity, the legal profession unites in opposition. The proposals die in committee.
+
+Criminal law produces surprising outcomes. Dusk-aligned judges demand rigorous evidence from Dawn prosecutors. Dusk attorneys expose investigative shortcuts. The accused benefits from factional antagonism—protected not by principled commitment to defendants' rights, but by structural antagonism between institutions that don't trust each other.
+
+#### **Ministry of War**
+
+Kelso Senna's institutional legacy. He held the position briefly before departing under contested circumstances—a military genius who could execute a revolution but not govern afterward. The Ministry he founded continues without him, shaped by his influence but no longer constrained by his presence.
+
+The Minister is always a Dawn appointment—not formally, but practically. The position requires military credentials. The revolution was eighteen years ago. The officers who led it are now in their forties and fifties, and they're Dawn. A Dusk candidate would need to explain where he was during the fighting, and the answer would disqualify him.
+
+Dawn's institution depends on Dusk's money. The Senate appropriates military funding. Dawn usually controls the Senate but rarely commands sixty percent. Military appropriations require coalition support, which requires accommodating Dusk concerns. Veteran benefits are politically untouchable—opposing them is electoral suicide—so Dawn packages military spending with veteran benefits to force Dusk support.
+
+Centralization debates recur without resolution. Dawn proposes standardized training, unified command, consistent equipment. A professional military answering to the state would be more effective against external threats and—said quietly—more capable of implementing revolutionary transformation. Dusk blocks every proposal. The auxiliary system prevents either consul from commanding unified force. A Dawn consul cannot mobilize Dusk kilits for revolutionary purposes; a Dusk consul cannot deploy Dawn kilits against popular movements. The dysfunction is the protection.
 
 ### **The People's Exchequer**
 
