@@ -4483,14 +4483,18 @@ entries:
   # ═══ Great Stairs ═══
   Great Stairs:
     category: location
-    short: "800 steps from Port District to Upper City—rivers of light at night."
+    short: Rivers of light climbing from the lake to the summit—you can tell whose section you're in by how bright it is.
     details: |
-      800 granite steps rising 600 feet, wide enough for two people abreast. Electric lights 
-      every 20 steps making night travel safe. Granite blocks, each step 8 inches high, edges 
-      rounded from millennia of footsteps. Pre-Interdict engineering in oldest sections. 
-      Landings every 100 steps provide rest and overlooks. Different kilits maintain different 
-      sections, competing to keep theirs brightest. You can tell when you cross boundaries by 
-      light spacing and intensity.
+      The edges of the steps are rounded from millennia of footsteps. You feel the wear
+      under your feet, the shallow curve where generations climbed before you. At night
+      the electric lights make the whole ascent visible from the port below—a ribbon of
+      amber climbing the mountain.
+
+      Different kilits maintain different sections, competing to keep theirs brightest.
+      You cross from one territory to another and the light changes: spacing, intensity,
+      the particular shade of the bulbs. Everyone knows whose section is whose. Everyone
+      knows who's falling behind on maintenance. The stairs existed before any of them.
+      The competition is how they make the stairs their own.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Merchant Terraces, Taho]
     location_features:
