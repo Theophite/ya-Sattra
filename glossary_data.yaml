@@ -3981,13 +3981,19 @@ entries:
   # ═══ The Cathedral ═══
   The Cathedral:
     category: location
-    short: "Former palace of Sultana Ulayah, now Patriarch Kaleb's seat—atop Far Wall, overlooking the canyon."
+    short: Former palace of Sultana Ulayah, now Patriarch Kaleb's seat—atop Far Wall, partially overhanging the canyon.
     details: |
-      Largest free-standing structure in Ganat: 300 feet long, 150 feet wide, four stories tall. 
-      Built from quarried sandstone blocks on the canyon rim, partially overhanging the cliff. 
-      Western face visible from across the canyon. Sultanate grandeur adapted to revolutionary 
-      religion—geometric patterns, figurative scenes, Art Nouveau curves carved into salmon 
-      sandstone. Houses revolutionary broadcasting equipment.
+      Largest free-standing structure in Ganat: three hundred feet long, one
+      hundred fifty wide, four stories tall. Built from quarried sandstone on
+      the canyon rim, the western face partially overhanging the cliff. Visible
+      from across the canyon, from the Near Wall markets, from the Dam.
+
+      Sultanate grandeur serving revolutionary religion. Carved decoration
+      covers every surface: geometric patterns, figurative scenes, Art Nouveau
+      curves in salmon sandstone. Inside, revolutionary broadcasting equipment—
+      the Patriarch's voice carried to every settlement with a receiver. The
+      palace became cathedral; power changed hands but the building still
+      dominates.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Far Wall, Ganat proper, Patriarch Kaleb, Penitent Church]
     location_features:
@@ -4007,34 +4013,39 @@ entries:
   # ═══ Falx ═══
   Falx:
     category: equipment
-    short: Heavy curved blade weapon, standard Warborn close-combat armament.
+    short: Heavy curved blade—standard Warborn close-combat armament, designed to shear through armor.
     details: |
-      When culverins and beamcasters aren't enough, when the fighting closes to arm's 
-      length, Warborn carry the falx: a forward-curving blade designed to shear through 
-      armor and the bodies wearing it.
-      
-      DESIGN: Single-edged blade curving forward, edge on the inner curve. The blade 
-      widens toward the tip, concentrating mass where it impacts. Guard and pommel 
-      carry geometric bronze inlay in Inner City patterns. Leather-wrapped grip sized 
-      for hands twice baseline scale. Not powered—just steel and the strength of a 
-      2.7-meter soldier swinging it.
-      
-      MANUFACTURE: Furnaces production for standard-issue variants. Higher-quality 
-      examples are guild work—Master Kavek Ossoreth's workshop produces perhaps a 
-      dozen ceremonial falxes yearly for officers and house guards.
-      
-      TACTICAL USE: The falx exists for the moments when infantry lines meet, when 
-      doorways must be forced, when something needs to die and precision doesn't 
-      matter. Warborn train in paired culverin-and-falx drills: fire until contact, 
-      then draw and cut. A full-force swing can bisect a baseline human in ceramic armor.
+      When culverins and beamcasters aren't enough, when the fighting closes to
+      arm's length, Warborn carry the falx: a forward-curving blade designed
+      to shear through armor and the bodies wearing it.
+
+      Single-edged blade curving forward, edge on the inner curve, widening
+      toward the tip to concentrate mass where it impacts. Leather-wrapped
+      grip sized for hands twice baseline scale. Not powered—just steel and
+      the strength of a soldier nearly three meters tall swinging it.
+
+      The falx exists for the moments when infantry lines meet, when doorways
+      must be forced, when something needs to die and precision doesn't
+      matter. A full-force swing can bisect a baseline human in ceramic armor.
     related: [Warborn, Furnaces, Culverin, Beamcaster]
   # ─── end Falx ───
 
   # ═══ First Whorl ═══
   First Whorl:
     category: location
-    short: Innermost ring of the Inner City, where temporal distortion is strongest.
-    details: Time moves differently. Aureate occultants enter to create patent authentication. The Black Door leads to Imperial Apartments.
+    short: Innermost ring of the Inner City—temporal distortion so severe that shadows fall at wrong angles.
+    details: |
+      Same bronze-colored alloy as the rest of the Inner City, but wrong.
+      Proportions shift slightly as you move. The floor slopes toward the
+      center even when instruments say it's level. Geometry that works until
+      you think about it.
+
+      Temporal distortion intensifies here. Light arrives before or after
+      expected. Sound doesn't synchronize with movement. The closer to the
+      Black Door, the stronger the effects. Aureate occultants enter to
+      create forgery-proof patent authentication—documents marked by time
+      itself. The Black Door leads to Imperial Apartments; those summoned
+      visibly slow to near-stillness as they cross the threshold.
     rag_pointer: The First Whorl, The Aureate System
     related: [Inner City, Black Door, Aureate]
     location_features:
@@ -4090,8 +4101,19 @@ entries:
   # ═══ Fourth Whorl ═══
   Fourth Whorl:
     category: location
-    short: Outermost inhabited ring of the Inner City.
-    details: Where near-baseline clerks and workers live. Bronze columns, awnings in ochre and ecru, the Terrace market. Light from orb-fixtures in distant ceiling.
+    short: Outermost inhabited ring of the Inner City—where ordinary people live in extraordinary architecture.
+    details: |
+      Entirely interior space—no sky, but the ceiling is so distant it might
+      as well be. Light from orb-fixtures like dim stars in the darkness
+      above. Bronze columns forty feet high, geometric patterns worn smooth
+      by millennia of footsteps. Awnings in ochre and ecru add human scale
+      to inhuman architecture.
+
+      Where near-baseline clerks and workers live. The Terrace market fills
+      allocated spaces with ordinary commerce. Forty-foot statues at
+      intersections, ignored by residents, overwhelming to visitors. Whorl-
+      lag minimal but noticeable over long periods. The most "normal" part
+      of the Inner City.
     rag_pointer: The Inner City
     related: [Inner City, ya-Sattra]
     location_features:
@@ -4152,10 +4174,17 @@ entries:
   # ═══ Freightyard ═══
   Freightyard:
     category: location
-    short: "Logistics district around ya-Don's rail terminus."
+    short: Logistics district around ya-Don's rail terminus—Covenant territory, every shipment documented.
     details: |
-      ~160,000 residents. Covenant of Saint Aureline territory. Tariff systems control 
-      all cargo movement. When warehouses become obsolete, they're demolished and replaced.
+      One hundred sixty thousand residents. The Covenant of Saint Aureline
+      controls every cargo movement through tariff systems and checkpoints.
+      Twenty trains daily from ya-Sattra. The Weighmaster's bell marks tariff
+      completion.
+
+      Buildings constructed for purpose and demolished when obsolete. The Rail
+      Terminus incorporates pre-Interdict foundations nobody understands into
+      modern platforms. The rhythms follow cargo schedules rather than Furnace
+      shifts. The goods must move. Everything else follows.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Covenant of Saint Aureline]
     location_features:
