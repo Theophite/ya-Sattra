@@ -1493,11 +1493,27 @@ entries:
   # ═══ Sarruk ═══
   Sarruk:
     category: caste
-    short: "Adaptive colonist caste with phenotypic plasticity—bodies shift toward environmental comfort."
+    short: Adaptive colonists with phenotypic plasticity—scaled caps, pointed ears, and bodies that reshape themselves to match surroundings.
     details: |
-      Engineered for phenotypic plasticity. Bodies adapt over time to whatever 
-      conditions they face. Every sarruk in an area looks similar not from relation 
-      but from adapting to the same environment. The body becomes a palimpsest.
+      They share Serrulata features: scaled caps covering the skull, pointed
+      ears, broad flat noses, thin lips. But unlike their parent caste, the
+      Sarruk body never finishes becoming itself. Skin reflectivity shifts
+      with lighting. Scale coloring adapts to surroundings. Eye spectrum
+      adjusts according to light exposure history. The changes happen
+      unconsciously, mostly during sleep—each morning the body moves a little
+      closer to fitting its environment.
+
+      This means every Sarruk in an area begins to resemble the others. Not
+      from kinship but from shared adaptation. Factory workers develop similar
+      calluses, similar builds, similar coloring suited to industrial light.
+      Farmers under open sky shift toward different configurations. The body
+      becomes a palimpsest, previous adaptations visible as ghost undertones
+      beneath current form.
+
+      The process doesn't easily reverse. Moving to a new environment starts
+      overwriting the old pattern. A body shaped for desert sun will gradually
+      reshape for forest shadow if relocated—but the reshaping takes years,
+      and traces of each previous life remain visible in the flesh.
     rag_pointer: "Castes of Mankind"
     related: [Colonist Castes, Serrulata]
     caste_features:
