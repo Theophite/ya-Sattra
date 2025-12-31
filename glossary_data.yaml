@@ -15381,24 +15381,26 @@ entries:
   # ═══ Particular Confession ═══
   Particular Confession:
     category: concept
-    short: "The variable portion of the Plea—enables localized grievance and radical critique through formal religious compliance."
+    short: "Public confession of works before the congregation—the variable portion of the Plea where individuals justify their actions."
     details: |
       Where the Common Confession is fixed annually, the Particular Confession varies by
-      congregation, enabling infinite local adaptation. The rhetorical structure protects
-      speakers through formal compliance while enabling critique that would otherwise be
-      dangerous.
+      congregation and individual. A congregant stands before the assembly to confess
+      their works and justify them—the traditional opening is "I am here to confess my
+      works, and to justify them."
 
-      Revolutionary cells have perfected this technique. When Sari Loak confesses her
-      "submission before unjust authority," her prayer circle understands she means paying
-      Chain-Man tolls. Curates in Ganati parishes broadcast Particular Confessions as
-      thinly-veiled political editorials, protected by religious privilege.
+      In Ganat, Particular Confessions have become vehicles for competitive philanthropy.
+      Wealthy individuals publicly justify their commercial success through charitable
+      activities, elaborating at length on how their prosperity serves collective capacity.
+      Monthly power statements, stone plaques listing contributions—the competition is
+      genuine, and the Particular Confession is where it plays out.
 
-      Ya-Don has developed a particularly distinctive practice: workers confess to
-      "participating in unsafe conditions"—technically admitting personal fault while
-      systematically documenting management failures. These confessions accumulate in
-      Curate awareness, providing workplace intelligence that formal reporting might miss.
-    rag_pointer: "The Penitent Church, Ya-Don: Comprehensive Reference"
-    related: [The Plea, Common Confession, Penitent Church, ya-Don, Sacred Labor]
+      The format's flexibility enables other adaptations. Ya-Don workers confess
+      "participation in unsafe conditions"—admitting personal fault while documenting
+      management failures. Revolutionary cells transform personal admissions into
+      collective indictments. Curates broadcast Particular Confessions as political
+      editorials, protected by religious privilege.
+    rag_pointer: "The Penitent Church, Republic of Ganat"
+    related: [The Plea, Common Confession, Penitent Church, Ganat, ya-Don]
   # ─── end Particular Confession ───
 
   # ═══ Presence ═══
