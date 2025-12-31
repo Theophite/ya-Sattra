@@ -1392,8 +1392,27 @@ entries:
   # ═══ Redback ═══
   Redback:
     category: caste
-    short: Labor caste with enhanced spinal articulation for bearing tremendous loads.
-    details: ""
+    short: Tall, heavy-set laborers with reinforced spines—a characteristic ridge of muscle runs down their backs, visible through clothing.
+    details: |
+      About two meters tall and built heavy. The bulk isn't cosmetic: fat
+      reserves fuel the metabolic demands of bearing loads that would crush
+      other castes, and the padding cushions cargo against bone. The
+      characteristic ridge runs along the spine—enhanced articulation and
+      reinforced musculature that gives the caste its name—visible through
+      most clothing as a raised line down the back.
+
+      They can carry three times their body weight for short distances, twice
+      that with proper bracing. Heavy teams move loads that would otherwise
+      require machinery, coordinating through calls and gestures developed
+      over generations. The work happens at railroad termini, warehouse
+      districts, anywhere goods need moving and the infrastructure won't
+      support mechanization.
+
+      The body's failure mode is binary. No gradual decline, no creeping
+      incapacity. A Redback works a full shift one day and stops the next
+      morning—nothing between functional and dead. Some find this merciful:
+      no dependence, no watching yourself diminish. Others mark each working
+      day knowing it might be the last. The body gives no warning.
     rag_pointer: Castes of Mankind
     related: [Labor Castes, Kora Brennam]
     caste_features:
