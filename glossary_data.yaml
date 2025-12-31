@@ -11200,6 +11200,58 @@ entries:
       location: Malpais
   # ─── end Malpais War ───
 
+  # ═══ Hanged Men Founding ═══
+  Hanged Men Founding:
+    category: event
+    short: "Veterans refused demobilization after Malpais War, then defended Middens against Creche pogrom."
+    details: |
+      When the Malpais War ended in 772 RRH, Imperial command issued standard
+      demobilization orders. Garren Fen and his veterans—mixed-caste units who'd
+      proven their worth against the Child of the Malpais—refused to surrender
+      weapons they'd used to save the Empire.
+
+      The "Brief Revolt" lasted less than a week and involved no combat. Veterans
+      fortified industrial district positions and waited. The exhausted Empire
+      negotiated rather than fight its own heroes. The City-of-Glass Charter emerged
+      from these negotiations.
+
+      Days later, the Bureau of the Creche launched a pogrom—"registration enforcement"
+      against unregistered variants who'd armed themselves during the war. Creche
+      Warborn began hanging residents from bridge cables. The veterans responded
+      with the Eighteen-Hour Resistance, driving out Creche forces using every
+      tactic learned in the war. They seized the Lockworks, took the name "Hanged Men"
+      in memory of those killed, and established themselves as the district's authority.
+    rag_pointer: "Ya-Sattra District: Middens"
+    related: [Hanged Men, Malpais War, City-of-Glass Charter, Bureau of the Creche, Middens]
+    event_features:
+      year: "772-774 RRH"
+      location: Middens
+  # ─── end Hanged Men Founding ───
+
+  # ═══ Third Suppression ═══
+  Third Suppression:
+    category: event
+    short: "Church uprising whose details remain classified—created legal precedents protecting Church documentation."
+    details: |
+      A historical uprising whose details remain classified. The Third Suppression
+      demonstrated that eliminating the Penitent Church created vacuums the Empire
+      could not fill. The aftermath produced legal precedents still in force.
+
+      The Church now maintains its own documentary system—baptismal certificates,
+      marriage records, burial registrations—that legally supersedes Bureau
+      requirements for religious purposes. This parallel authentication allows
+      undocumented populations to achieve limited recognition: refugees, deserters,
+      failed clone lines, the undocumented poor.
+
+      The Bureau tolerates this parallel system because the Third Suppression proved
+      more destabilizing than accommodation. The "Third" implies at least two previous
+      suppression attempts, but records of those conflicts are equally classified.
+    rag_pointer: "The Penitents"
+    related: [Penitent Church, Bureau of the Lens, Capitation Tax]
+    event_features:
+      year: "UNKNOWN"
+  # ─── end Third Suppression ───
+
   # ═══ Oracles ═══
   Oracles:
     category: concept
