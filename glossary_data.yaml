@@ -744,8 +744,21 @@ entries:
   # ═══ Highborn ═══
   Highborn:
     category: caste
-    short: Ruling castes whose polyphonic voices trigger Compulsion in other castes.
-    details: ""
+    short: Ruling castes whose polyphonic voices trigger neurological Compulsion in everyone else.
+    details: |
+      The voice is a chord—multiple tones simultaneously, harmonics that
+      resonate in the listener's nervous system. Other castes feel it as
+      pressure to comply, to agree, to obey. The Highborn learn young to
+      suppress the harmonics when working among others; control slips when
+      tired or angry.
+
+      Lineages vary enormously. The elongated stand eight feet or more, fragile-
+      boned with extended necks and skulls, wearing silver filigree headpieces.
+      The optimized are baseline height but uncannily symmetrical in ways that
+      trigger unease. The integrated carry technology merged with biology across
+      generations. Some lineages reproduce primarily through cloning, accumulating
+      replication errors. Inbreeding depression is common. The ruling castes
+      rule, but the bodies that do the ruling are often failing.
     rag_pointer: Castes of Mankind, The Aureate System
     related: [Compulsion, Aureate, Near-Baseline, Caenis es-Mahoun, Mira es-Thalen]
     caste_features:
