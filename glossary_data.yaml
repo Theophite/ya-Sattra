@@ -2145,11 +2145,28 @@ entries:
   # ═══ Szkovërin ═══
   Szkovërin:
     category: caste
-    short: "Heavy-metal-tolerant furnace workers of the Puget Sound caste-villages."
+    short: Short, broad furnace workers immune to mercury—reddish skin, thick hands, settlements segregated because even their waste is toxic.
     details: |
-      Descendants of ya-Tsovez furnace workers. Short and broad, engineered for 
-      extreme heat and heavy metal exposure. Immune to mercury poisoning but 
-      excrete accumulated toxins—settlements must be segregated.
+      Descendants of ya-Tsovez furnace workers. Short and broad: men average
+      about five foot four, women slightly less. Barrel chests, thick limbs,
+      dense bone and heavy muscle for dissipating thermal energy. Hands
+      disproportionately large with thick fingers. Reddish skin undertone
+      that intensifies with temperature, visible capillary tracery near the
+      surface. Broad flat faces, prominent cheekbones, heavy jaws, small
+      deep-set eyes appearing nearly black.
+
+      Their livers process mercury. They work amalgamation, metal separation,
+      forge operations that would poison other castes. But the toxins
+      accumulate over decades, excreted through sweat and waste—their
+      settlements stand on bare promontories separated from water catchments,
+      segregated not from prejudice but from practical necessity.
+
+      Around seventy the tremors begin, sometimes earlier. Gums recede, teeth
+      loosen. Mood shifts toward irritability, unpredictable rages, sudden
+      depressions. The neurological effects worsen until death—perhaps
+      twenty years after the tremors start. The body processes what would
+      kill baseline humans instantly, but the processing has a cost, and the
+      cost eventually comes due.
     rag_pointer: "The Volerath of Puget Sound, Castes of Mankind"
     related: [Labor Castes, Völërath, Draëthen, Refugee Castes]
     caste_features:
