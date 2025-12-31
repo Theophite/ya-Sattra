@@ -62,14 +62,14 @@ Default stress falls on the penultimate (second-to-last) syllable. In compound n
 
 Under the Sultanate, formal introductions located a person completely:
 
-1. **Current kilit** â€” the economic unit where you work  
-2. **Position** â€” your function within that kilit  
-3. **Birth kilit** â€” the kilit your family originated from  
-4. **Lineage name** â€” your clan
+1. **Current kilit** — the economic unit where you work  
+2. **Position** — your function within that kilit  
+3. **Birth kilit** — the kilit your family originated from  
+4. **Lineage name** — your clan
 
 *Example:* "Yula of the Textile Enterprise, Factor, of Khen, of Masot"
 
-The combination of birth kilit and lineage name (rendered as a hyphenated compound like "Khen-Masot") was the marker of kilit-zem-kilitam membershipâ€”the "kilit of kilits," an exclusive body that controlled inter-kilit arbitration, trade standards, and access to the Sultan's court. If you could give a compound name, you belonged to the old aristocracy.
+The combination of birth kilit and lineage name (rendered as a hyphenated compound like "Khen-Masot") was the marker of kilit-zem-kilitam membership—the "kilit of kilits," an exclusive body that controlled inter-kilit arbitration, trade standards, and access to the Sultan's court. If you could give a compound name, you belonged to the old aristocracy.
 
 Post-revolution, this structure became politically toxic. Using a compound name announces: *my ancestors were aristocrats*.
 
@@ -107,7 +107,7 @@ Post-revolution, this structure became politically toxic. Using a compound name 
 
 **Social Signal:** "My family has ancient kilit affiliation." This indicates established lineage, connection to pre-revolutionary economic structures, and probable wealth. The compound form persists among old merchant families, those whose commercial position requires signaling credit-worthiness, and the stubbornly proud.
 
-**Political Lean:** Tends toward Dusk Party, though exceptions exist. Rasma Dhal-Setil serves as Dawn Consul despite her compound surnameâ€”she chose revolution over heritage, which some find admirable and others find suspicious.
+**Political Lean:** Tends toward Dusk Party, though exceptions exist. Rasma Dhal-Setil serves as Dawn Consul despite her compound surname—she chose revolution over heritage, which some find admirable and others find suspicious.
 
 #### **Imperial Descent Names**
 
@@ -119,7 +119,7 @@ Post-revolution, this structure became politically toxic. Using a compound name 
 * Ghetou Kel el-Gheram  
 * Oukam Shem el-Youlam
 
-**Social Signal:** "My family has traceable Imperial heritage predating the Sultanate." The el- particle derives from Old Imperial and marks near-baseline lineage with ancient Imperial roots. This is the most fraught name formâ€”it announces not just kilit-zem-kilitam membership but a heritage that goes back to when this territory was still Imperial.
+**Social Signal:** "My family has traceable Imperial heritage predating the Sultanate." The el- particle derives from Old Imperial and marks near-baseline lineage with ancient Imperial roots. This is the most fraught name form—it announces not just kilit-zem-kilitam membership but a heritage that goes back to when this territory was still Imperial.
 
 **Political Lean:** Strong Dusk affiliation. This name form is useful for certain Dusk constituencies but poison for Dawn voters.
 
@@ -216,7 +216,7 @@ These are the second element of compound surnames. They indicate lineage within 
 
 ### **Unmarked Lineage Names**
 
-These are the revolutionary defaultâ€”single-element surnames used without kilit markers.
+These are the revolutionary default—single-element surnames used without kilit markers.
 
 **Canonical Examples:**
 
@@ -254,11 +254,11 @@ These are the revolutionary defaultâ€”single-element surnames used without 
 
 ## **IV. Near-Baseline and Mixed Heritage Names**
 
-Approximately 25% of Ganat's population is near-baseline human rather than Serrulata. This population's relationship to Imperial heritage is ancient, not recentâ€”Ganat was independent under the Sultanate for centuries before the Revolution, and the Sultanate's independence from the Empire predates that by longer still. Near-baselines with "Imperial heritage" are not immigrants or defectors; they are families whose Imperial roots predate Ganati independence entirely, sometimes by millennia.
+Approximately 25% of Ganat's population is near-baseline human rather than Serrulata. This population's relationship to Imperial heritage is ancient, not recent—Ganat was independent under the Sultanate for centuries before the Revolution, and the Sultanate's independence from the Empire predates that by longer still. Near-baselines with "Imperial heritage" are not immigrants or defectors; they are families whose Imperial roots predate Ganati independence entirely, sometimes by millennia.
 
 ### **The el- Particle: Fossil of Ancient Heritage**
 
-The el- connector in names like "Datho Kel el-Marwen" is not a sign of recent Imperial connection. It is a fossilâ€”a linguistic remnant preserved across countless generations, marking families who were Imperial before this territory became the Sultanate, before the Sultanate became the Republic. These families have been Ganati (or proto-Ganati) for so long that everything about them is local except this single particle, preserved out of pride or habit or both.
+The el- connector in names like "Datho Kel el-Marwen" is not a sign of recent Imperial connection. It is a fossil—a linguistic remnant preserved across countless generations, marking families who were Imperial before this territory became the Sultanate, before the Sultanate became the Republic. These families have been Ganati (or proto-Ganati) for so long that everything about them is local except this single particle, preserved out of pride or habit or both.
 
 **Structure:** \[Ganati Given Name\] \[Ganati Marker\] el-\[Ganati Clan Name\]
 
@@ -269,13 +269,13 @@ The el- connector in names like "Datho Kel el-Marwen" is not a sign of recent Im
 * Touma Shem el-Youlam  
 * Tsedam Ash el-Temmir
 
-The el- particle is the only Imperial element. The given name, the marker, the clan nameâ€”all follow Ganati phonology entirely. The particle signals: "Our ancestors were here when this was Imperial territory, and we remember."
+The el- particle is the only Imperial element. The given name, the marker, the clan name—all follow Ganati phonology entirely. The particle signals: "Our ancestors were here when this was Imperial territory, and we remember."
 
 This is distinct prestige from mere kilit-zem-kilitam membership. A compound name like "Khen-Masot" says your family was Sultanate aristocracy. An el- name says your family predates the Sultanate.
 
 ### **Imperial Factors in Taho**
 
-The Imperial factors who operate seasonally in Taho's Factor's Row are not Aureates. Aureates would never emigrateâ€”their entire identity, wealth, and status depends on the Imperial system of authenticated naming and Lector-verified delegation. An Aureate outside the Empire is nothing; the es- particle that defines them cannot authenticate beyond Imperial territory.
+The Imperial factors who operate seasonally in Taho's Factor's Row are not Aureates. Aureates would never emigrate—their entire identity, wealth, and status depends on the Imperial system of authenticated naming and Lector-verified delegation. An Aureate outside the Empire is nothing; the es- particle that defines them cannot authenticate beyond Imperial territory.
 
 The factors are instead:
 
@@ -291,11 +291,11 @@ Their names follow non-Aureate Imperial patterns:
 * Sera Tavsaren (Bureau-adjacent family)  
 * Miral Doshan (merchant family)
 
-Such characters are immediately identifiable as outsiders. They do not typically adopt Ganati namesâ€”they are seasonal residents who return to Imperial territory, not immigrants. Their foreignness is part of their commercial function; Ganati merchants know exactly who they are dealing with.
+Such characters are immediately identifiable as outsiders. They do not typically adopt Ganati names—they are seasonal residents who return to Imperial territory, not immigrants. Their foreignness is part of their commercial function; Ganati merchants know exactly who they are dealing with.
 
 ### **Assimilating Imperials (Rare)**
 
-Occasionally, an Imperial subject remains in Ganat permanentlyâ€”a factor who married locally, a deserter, a political exile, someone who simply found life in the Republic preferable. This is uncommon. The Empire does not encourage emigration, the Republic views Imperial arrivals with suspicion, and most Imperials find Ganati society alien and uncomfortable.
+Occasionally, an Imperial subject remains in Ganat permanently—a factor who married locally, a deserter, a political exile, someone who simply found life in the Republic preferable. This is uncommon. The Empire does not encourage emigration, the Republic views Imperial arrivals with suspicion, and most Imperials find Ganati society alien and uncomfortable.
 
 Those who do assimilate typically adapt their names to Ganati phonology while preserving some Imperial structure:
 
@@ -307,11 +307,11 @@ Those who do assimilate typically adapt their names to Ganati phonology while pr
 
 **Examples:**
 
-* "Varan Doshan" â†’ "Varou Dosham"  
-* "Sera Tavsaren" â†’ "Sera Tafsaram"  
-* "Miral Keloreth" â†’ "Mirou Keloram"
+* "Varan Doshan" → "Varou Dosham"  
+* "Sera Tavsaren" → "Sera Tafsaram"  
+* "Miral Keloreth" → "Mirou Keloram"
 
-These names mark their bearers as permanent outsidersâ€”not seasonal factors, but not quite Ganati either. Their children, raised in the Republic, typically adopt fully Ganati names and may not preserve their parents' Imperial heritage at all.
+These names mark their bearers as permanent outsiders—not seasonal factors, but not quite Ganati either. Their children, raised in the Republic, typically adopt fully Ganati names and may not preserve their parents' Imperial heritage at all.
 
 This pattern is rare enough that encountering it prompts questions. Why did they stay? What did they leave behind? The answers are usually personal rather than political, but suspicion lingers regardless.
 
@@ -324,7 +324,7 @@ Most near-baseline Ganatis have no el- particle because their families either:
 * Deliberately dropped it during the Revolution or earlier  
 * Were low-status Imperial subjects who never had prestigious names to begin with
 
-These near-baselines use standard Ganati naming conventionsâ€”compound names if they have kilit-zem-kilitam heritage, unmarked names if they don't. Their near-baseline appearance carries no automatic assumption of Imperial connection.
+These near-baselines use standard Ganati naming conventions—compound names if they have kilit-zem-kilitam heritage, unmarked names if they don't. Their near-baseline appearance carries no automatic assumption of Imperial connection.
 
 A near-baseline character named "Bekla Ghesam" with no compound surname is simply a Ganati whose family history doesn't include aristocratic or Imperial prestige. This is the majority case.
 
@@ -334,8 +334,8 @@ Some near-baseline families with el- names deliberately dropped the particle aft
 
 **Pattern:** Preserved structure minus the Imperial marker.
 
-* "Kel el-Marwen" â†’ "Kel-Marwen" (standard compound)  
-* "Shem el-Youlam" â†’ "Youlam" (unmarked, dropped marker entirely)
+* "Kel el-Marwen" → "Kel-Marwen" (standard compound)  
+* "Shem el-Youlam" → "Youlam" (unmarked, dropped marker entirely)
 
 This signals revolutionary commitment at the cost of ancient prestige. Children raised with the new form may not even know their family once used the particle.
 
@@ -367,7 +367,7 @@ A character might be "Ghetou Kel el-Gheram" in Senate records and "Ghetou Gheram
 
 **Compound name, Dawn politics:** Rasma Dhal-Setil serves as Dawn Consul despite her elite surname. This can read as principled (chose revolution over privilege) or suspicious (infiltrator maintaining family interests). Her name is always slightly incongruous in Dawn contexts.
 
-**Dropping the marker:** Someone introducing themselves as "Yula Masot" rather than "Yula Khen-Masot" is signaling somethingâ€”revolutionary sympathies, desire to obscure background, or simple informality. Context matters.
+**Dropping the marker:** Someone introducing themselves as "Yula Masot" rather than "Yula Khen-Masot" is signaling something—revolutionary sympathies, desire to obscure background, or simple informality. Context matters.
 
 **Worker with compound name:** A dock worker named "Tal-Omir" serving on the Dockers' Fraternal represents either a fallen family or is lying about their background. Either way, it raises questions.
 
@@ -418,7 +418,7 @@ A character might be "Ghetou Kel el-Gheram" in Senate records and "Ghetou Gheram
 | ----- | ----- | ----- |
 | kh | Like "ch" in German "Bach" | Khamun \= "KHA-moon" |
 | gh | Voiced version of kh, like French "r" | Ghedam \= "GHEH-dam" |
-| lh | Voiceless "l" â€” position for "l", blow without voice | Tolha \= "TOL-ha" (breathy l) |
+| lh | Voiceless "l" — position for "l", blow without voice | Tolha \= "TOL-ha" (breathy l) |
 | ts | Like "ts" in "cats" | Tsedam \= "TSEH-dam" |
 | k' | "k" with a popped quality | K'eram \= "K'EH-ram" |
 | t' | "t" with a popped quality | T'ak \= "T'AK" |
@@ -432,23 +432,23 @@ Stress falls on the second-to-last syllable unless otherwise marked.
 
 ## **VIII. Example Characters**
 
-**Revolutionary Veteran:** Tsedam Ashkal â€” frontier settler, Dawn voter, unmarked name signals no aristocratic pretension
+**Revolutionary Veteran:** Tsedam Ashkal — frontier settler, Dawn voter, unmarked name signals no aristocratic pretension
 
-**Hereditary Debtor Clerk:** Shenou Lhodam â€” serves in Republican bureaucracy, unmarked name despite competence, politically unpredictable
+**Hereditary Debtor Clerk:** Shenou Lhodam — serves in Republican bureaucracy, unmarked name despite competence, politically unpredictable
 
-**Old Merchant Family:** Doram Khen-Toukh â€” textile trade, compound name signals kilit-zem-kilitam descent, Dusk affiliation assumed
+**Old Merchant Family:** Doram Khen-Toukh — textile trade, compound name signals kilit-zem-kilitam descent, Dusk affiliation assumed
 
-**Ancient Pre-Sultanate Heritage:** Ghetou Kel el-Gheram â€” near-baseline, el- particle marks family roots predating independence, strong Dusk identification
+**Ancient Pre-Sultanate Heritage:** Ghetou Kel el-Gheram — near-baseline, el- particle marks family roots predating independence, strong Dusk identification
 
-**Fallen Aristocrat:** Bekla Tal-Omir â€” compound name but works as dock laborer, family lost wealth, name now slightly embarrassing
+**Fallen Aristocrat:** Bekla Tal-Omir — compound name but works as dock laborer, family lost wealth, name now slightly embarrassing
 
-**Dropped the Particle:** Kemra Kel-Gheram â€” family once used "Kel el-Gheram," dropped el- after Revolution, now uses standard compound form
+**Dropped the Particle:** Kemra Kel-Gheram — family once used "Kel el-Gheram," dropped el- after Revolution, now uses standard compound form
 
-**De-Classed Elite:** Rashod Masot â€” dropped "Khen-" marker, using clan name alone as if it were unmarked lineage name, signals revolutionary sympathies
+**De-Classed Elite:** Rashod Masot — dropped "Khen-" marker, using clan name alone as if it were unmarked lineage name, signals revolutionary sympathies
 
-**Imperial Factor (Seasonal):** Sera Tavsaren â€” non-Aureate Imperial merchant, operates in Factor's Row during trading season, returns to Empire in winter, does not pretend to be Ganati
+**Imperial Factor (Seasonal):** Sera Tavsaren — non-Aureate Imperial merchant, operates in Factor's Row during trading season, returns to Empire in winter, does not pretend to be Ganati
 
-**Assimilated Imperial (Rare):** Varou Dosham â€” formerly Varan Doshan, stayed after marrying a Ganati merchant's daughter, name adapted to local phonology, still regarded with mild suspicion after fifteen years
+**Assimilated Imperial (Rare):** Varou Dosham — formerly Varan Doshan, stayed after marrying a Ganati merchant's daughter, name adapted to local phonology, still regarded with mild suspicion after fifteen years
 
-**Near-Baseline Without Imperial Heritage:** Tolha Bekran â€” near-baseline appearance but family has no el- particle, no kilit-zem-kilitam connection, just an ordinary Ganati
+**Near-Baseline Without Imperial Heritage:** Tolha Bekran — near-baseline appearance but family has no el- particle, no kilit-zem-kilitam connection, just an ordinary Ganati
 

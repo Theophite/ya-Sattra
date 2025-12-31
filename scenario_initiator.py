@@ -2,16 +2,23 @@
 """
 Scenario Initiator for the Post-Interdict Empire.
 
-Draws a Tarot card and a random glossary term to seed a new scenario.
+Draws Tarot cards and random glossary terms to seed a new scenario.
 Generates a .md file with scenario framework and initializes the cache.
 
 Usage:
-    scenario_initiator.py                 # Draw card + word, show prompt
-    scenario_initiator.py --draw          # Just draw card + word (no file)
+    scenario_initiator.py                 # Single draw: 1 card + 1 word, show prompt
+    scenario_initiator.py --draw          # Multi-draw: 3 cards + 5 terms for selection
+    scenario_initiator.py --draw-single   # Old behavior: 1 card + 1 word (no file)
     scenario_initiator.py --create <name> # Create scenario file after drawing
     scenario_initiator.py --word          # Just pull a random glossary word
     scenario_initiator.py --card          # Just draw a Tarot card
     scenario_initiator.py --list-cards    # Show all available cards
+
+Multi-Draw Selection:
+    The --draw command presents 3 tarot cards and 5 glossary terms weighted
+    by category (locations preferred) and content richness. Select one card
+    + one term combination based on narrative potential, then proceed with
+    scenario generation using your selection.
 """
 
 import sys
@@ -22,11 +29,12 @@ from datetime import datetime
 from pathlib import Path
 
 # Glossary integration
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 WORKING_DIR = '/home/claude'
 PROJECT_DIR = '/mnt/project'
 GLOSSARY_AVAILABLE = False
 
-for search_dir in [WORKING_DIR, PROJECT_DIR]:
+for search_dir in [SCRIPT_DIR, WORKING_DIR, PROJECT_DIR]:
     if GLOSSARY_AVAILABLE:
         break
     if os.path.exists(search_dir) and os.path.exists(os.path.join(search_dir, 'glossary.py')):
@@ -35,7 +43,8 @@ for search_dir in [WORKING_DIR, PROJECT_DIR]:
             import glossary as G
             GLOSSARY_AVAILABLE = True
         except ImportError:
-            sys.path.remove(search_dir)
+            if search_dir in sys.path:
+                sys.path.remove(search_dir)
 
 # =============================================================================
 # TAROT DECK
@@ -102,10 +111,24 @@ def draw_card(reversed_chance=0.3):
     deck = get_full_deck()
     card_name, meaning = random.choice(deck)
     is_reversed = random.random() < reversed_chance
-    
+
     if is_reversed:
         return f"{card_name} (Reversed)", meaning, True
     return card_name, meaning, False
+
+
+def draw_multiple_cards(n=3, reversed_chance=0.3):
+    """Draw n random Tarot cards without replacement, possibly reversed."""
+    deck = get_full_deck()
+    selected = random.sample(deck, min(n, len(deck)))
+    results = []
+    for card_name, meaning in selected:
+        is_reversed = random.random() < reversed_chance
+        if is_reversed:
+            results.append((f"{card_name} (Reversed)", meaning, True))
+        else:
+            results.append((card_name, meaning, False))
+    return results
 
 
 # =============================================================================
@@ -128,9 +151,20 @@ def get_random_word(category=None, weighted=True):
         from input_check import SPECIAL_TERMS
         term = random.choice(list(SPECIAL_TERMS))
         return (term.title(), None)
-    
-    # Get all entries
-    entries = list(G.ENTRIES.values())
+
+    # Get all entries - validate glossary structure first
+    try:
+        if not hasattr(G, 'ENTRIES') or G.ENTRIES is None:
+            print("Warning: Glossary ENTRIES not available, using fallback", file=sys.stderr)
+            from input_check import SPECIAL_TERMS
+            term = random.choice(list(SPECIAL_TERMS))
+            return (term.title(), None)
+        entries = list(G.ENTRIES.values())
+    except (AttributeError, TypeError) as e:
+        print(f"Warning: Error accessing glossary entries: {e}", file=sys.stderr)
+        from input_check import SPECIAL_TERMS
+        term = random.choice(list(SPECIAL_TERMS))
+        return (term.title(), None)
     
     # Filter by category if specified
     if category:
@@ -164,7 +198,7 @@ def get_random_word(category=None, weighted=True):
 def format_word_result(term, entry):
     """Format a random word result for display."""
     lines = [f"WORD: {term}"]
-    
+
     if entry:
         lines.append(f"  Category: {entry.category}")
         lines.append(f"  {entry.short}")
@@ -177,7 +211,7 @@ def format_word_result(term, entry):
         if entry.related:
             lines.append(f"  Related: {', '.join(entry.related[:5])}")
         if entry.rag_pointer:
-            lines.append(f"  â†’ RAG: {entry.rag_pointer}")
+            lines.append(f"  → RAG: {entry.rag_pointer}")
     
     return "\n".join(lines)
 
@@ -219,18 +253,18 @@ SEED TERM: {term}
 """
     
     prompt = f"""
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+═══════════════════════════════════════════════════════════════════════════════
 SCENARIO SEED
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+═══════════════════════════════════════════════════════════════════════════════
 
 CARD: {card_name}
 Traditional meaning: {card_meaning}
 {reversal_note}
 {term_context}
 
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+═══════════════════════════════════════════════════════════════════════════════
 INSTRUCTIONS FOR SCENARIO CREATION (CANTILEVER METHOD)
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+═══════════════════════════════════════════════════════════════════════════════
 
 PROCEED IMMEDIATELY. Do not ask for confirmation or present options. Look up the 
 seed term and related concepts using the glossary and RAG, then begin writing the 
@@ -273,7 +307,7 @@ THE KEY INSIGHT:
 Don't start by knowing what's in the closed wing. Start by knowing the card's
 theme, then build a protagonist whose situation embodies that theme, then
 build characters who represent different answers to the question, then
-describe the gun's location with careâ€”and by then, what's in the wing
+describe the gun's location with care—and by then, what's in the wing
 should be obvious. The mystery emerges from the constraints.
 
 WHAT MAKES A GOOD CONSTRAINT:
@@ -284,16 +318,50 @@ WHAT MAKES A GOOD CONSTRAINT:
 - Relationships that create obligations
 
 BAD: "Kira has complicated feelings about her heritage"
-GOOD: "Kira has spent 17 years suppressing her voiceâ€”refuses to use Compulsion"
+GOOD: "Kira has spent 17 years suppressing her voice—refuses to use Compulsion"
 
 BAD: "Something bad happened in the closed wing"
-GOOD: "Three engineers died attempting to force entryâ€”expressions showed confusion, not pain"
+GOOD: "Three engineers died attempting to force entry—expressions showed confusion, not pain"
 
 AFTER WRITING:
 1. Run `glossary.py scan <scenario_file>` to check all terms
 2. Run `--act-break` to verify constraints lead to synthesis
 3. Audit invented details against established lore
 4. Revise any conflicts before play begins
+
+-------------------------------------------------------------------------------
+CHARACTER NAMING: USE STUBS FIRST, FILL LATER
+-------------------------------------------------------------------------------
+
+Use NAME STUBS instead of inventing names. Stubs with the same identifier
+produce the same name throughout the document.
+
+FORMAT:
+    [NAME:region:type:id]           - e.g., [NAME:imperial:professional:archivist]
+    [NAME:region:type:gender:id]    - e.g., [NAME:imperial:bureau:f:junior]
+
+The identifier (id) links references to the same character. All stubs with
+matching region:type:id get the same generated name.
+
+REGIONS AND TYPES:
+    imperial    - personal, aureate, bureau, professional, management, lower, homiletic
+    tsatsan     - personal, aureate, family, full
+    ganati      - personal, unmarked, compound, scaled
+    akama       - personal, malpais, ogon, kmadhol, astrological, epithet
+    avouvar     - personal, full, precinct
+    caste       - mutterer, astal, draethen, takefyeh, pierrot, choir
+    clone       - personal, batch, abject
+
+EXAMPLE USAGE:
+    "The archivist [NAME:imperial:professional:arch] found the document."
+    "Three days later, [NAME:imperial:professional:arch] still hadn't slept."
+    -> Both become the same name, e.g., "Avar Kalir"
+
+    "[NAME:caste:mutterer:1] and [NAME:caste:mutterer:2] worked in pairs."
+    -> Two different Mutterer names
+
+After scenario is complete:
+    python3 name_generator.py fill /home/claude/Scenario_-_<Name>.md
 """
     return prompt
 
@@ -351,7 +419,7 @@ python3 input_check.py --central-question "YOUR QUESTION HERE"
 
 ## The Gun
 
-[The physical thing that will force resolution. Not a metaphorâ€”an actual object, place, or mechanism that embodies the card's theme and will demand the protagonist make a choice.]
+[The physical thing that will force resolution. Not a metaphor—an actual object, place, or mechanism that embodies the card's theme and will demand the protagonist make a choice.]
 
 *The gun must be concrete. "The closed wing" not "her past." "The authentication key" not "her heritage."*
 
@@ -367,7 +435,7 @@ python3 input_check.py --gun "YOUR GUN HERE"
 
 ## The Narrative Shape
 
-[Two to three paragraphs describing the territory. What forces are in motion? What might happen? This is a sandboxâ€”describe the landscape, not the path.]
+[Two to three paragraphs describing the territory. What forces are in motion? What might happen? This is a sandbox—describe the landscape, not the path.]
 
 ---
 
@@ -391,7 +459,7 @@ python3 input_check.py --gun "YOUR GUN HERE"
 
 ### What They Fear
 
-[The thing they work to avoidâ€”perhaps consciously, perhaps not.]
+[The thing they work to avoid—perhaps consciously, perhaps not.]
 
 ### What They Can Do
 
@@ -423,7 +491,7 @@ python3 input_check.py --constrain "ANOTHER CONSTRAINT"
 
 ## Key Characters
 
-### [Name] â€” [Role]
+### [Name] — [Role]
 
 [Physical description. Caste, age, how they carry themselves.]
 
@@ -447,7 +515,7 @@ python3 input_check.py --constrain "CHARACTER FACT THAT NARROWS RESOLUTION"
 
 ---
 
-### [Name] â€” [Role]
+### [Name] — [Role]
 
 [Physical description.]
 
@@ -484,7 +552,7 @@ python3 input_check.py --constrain "CHARACTER FACT THAT NARROWS RESOLUTION"
 
 ### [The Gun Location]
 
-*This is where the gun lives. Describe it with careâ€”this space will host the resolution.*
+*This is where the gun lives. Describe it with care—this space will host the resolution.*
 
 [Physical description: architecture, materials, light, sound, smell.]
 
@@ -522,9 +590,9 @@ python3 input_check.py --constrain "LOCATION FACT THAT NARROWS RESOLUTION"
 
 ---
 
-# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-# ACT BREAK â€” STOP AND SYNTHESIZE
-# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+# ═══════════════════════════════════════════════════════════════════
+# ACT BREAK — STOP AND SYNTHESIZE
+# ═══════════════════════════════════════════════════════════════════
 
 Before writing the sections below, run:
 
@@ -537,7 +605,7 @@ This will display:
 - All accumulated constraints
 - The synthesis question: "How does [CARD] resolve through [GUN]?"
 
-**The answer must cohere with ALL constraints.** If you've built the scenario correctly, only a narrow band of answers fit. The mystery isn't invented freshâ€”it's discovered from what you've already established.
+**The answer must cohere with ALL constraints.** If you've built the scenario correctly, only a narrow band of answers fit. The mystery isn't invented fresh—it's discovered from what you've already established.
 
 Once you have your answer:
 
@@ -555,7 +623,7 @@ Only then proceed to the sections below.
 
 [This section answers: What does the protagonist find when they engage with the gun? What was always true but hidden? How does it force the reckoning the card demanded?]
 
-[The answer should feel inevitable given the constraintsâ€”not a twist, but a recognition.]
+[The answer should feel inevitable given the constraints—not a twist, but a recognition.]
 
 ---
 
@@ -594,17 +662,43 @@ What happens if the protagonist...
 
 [Space for tracking what actually happens in play.]
 """
-    
-    with open(filename, 'w') as f:
-        f.write(content)
-    
+
+    # Ensure directory exists
+    file_dir = os.path.dirname(filename)
+    if file_dir:
+        try:
+            os.makedirs(file_dir, exist_ok=True)
+        except PermissionError:
+            print(f"ERROR: Permission denied creating directory: {file_dir}", file=sys.stderr)
+            return None
+        except OSError as e:
+            print(f"ERROR: Failed to create directory: {file_dir}", file=sys.stderr)
+            print(f"  Details: {e}", file=sys.stderr)
+            return None
+
+    # Write scenario file
+    try:
+        with open(filename, 'w', encoding='utf-8') as f:
+            f.write(content)
+    except PermissionError:
+        print(f"ERROR: Permission denied writing scenario file: {filename}", file=sys.stderr)
+        return None
+    except IOError as e:
+        print(f"ERROR: Failed to write scenario file: {filename}", file=sys.stderr)
+        print(f"  Details: {e}", file=sys.stderr)
+        return None
+
     return filename
 
 
 def initialize_scenario_cache(name, filename, card_name, card_meaning, term, entry):
-    """Initialize the session cache for a new scenario with cantilever fields."""
+    """Initialize the session cache for a new scenario with cantilever fields.
+
+    Returns:
+        dict: The initialized cache, or None if write failed.
+    """
     cache_file = '/home/claude/session_cache.json'
-    
+
     cache = {
         "scenario_name": name,
         "scenario_file": filename,
@@ -631,10 +725,32 @@ def initialize_scenario_cache(name, filename, card_name, card_meaning, term, ent
         "notes": [],
         "rag_results": {}
     }
-    
-    with open(cache_file, 'w') as f:
-        json.dump(cache, f, indent=2)
-    
+
+    # Ensure directory exists
+    cache_dir = os.path.dirname(cache_file)
+    if cache_dir:
+        try:
+            os.makedirs(cache_dir, exist_ok=True)
+        except OSError as e:
+            print(f"ERROR: Failed to create cache directory: {cache_dir}", file=sys.stderr)
+            print(f"  Details: {e}", file=sys.stderr)
+            return None
+
+    # Write cache file
+    try:
+        with open(cache_file, 'w', encoding='utf-8') as f:
+            json.dump(cache, f, indent=2)
+    except PermissionError:
+        print(f"ERROR: Permission denied writing cache file: {cache_file}", file=sys.stderr)
+        return None
+    except TypeError as e:
+        print(f"ERROR: Failed to serialize cache to JSON: {e}", file=sys.stderr)
+        return None
+    except IOError as e:
+        print(f"ERROR: Failed to write cache file: {cache_file}", file=sys.stderr)
+        print(f"  Details: {e}", file=sys.stderr)
+        return None
+
     return cache
 
 
@@ -688,11 +804,20 @@ def main():
             print("No matching terms found.")
         return
     
-    # Draw both card and word
-    if '--draw' in args or '--create' in args:
+    # Multi-draw for selection (new --draw behavior)
+    if '--draw' in args and '--create' not in args:
+        # Draw 3 cards and 5 terms for selection
+        cards = draw_multiple_cards(n=3)
+        terms = draw_weighted_terms(n=5, include_persons=True)
+
+        print(f"\n{format_selection_prompt(cards, terms)}")
+        return
+
+    # Single draw (old --draw behavior, now --draw-single)
+    if '--draw-single' in args:
         card_name, meaning, is_reversed = draw_card()
         term, entry = get_random_word()
-        
+
         reversal = " [REVERSED]" if is_reversed else ""
         print(f"\n{'='*70}")
         print(f"CARD: {card_name}{reversal}")
@@ -713,10 +838,16 @@ def main():
                 name = f"The {card_short} and the {term}"
             
             filename = create_scenario_file(name, card_name, meaning, is_reversed, term, entry)
+            if filename is None:
+                print("Failed to create scenario file. Aborting.", file=sys.stderr)
+                return
+
             cache = initialize_scenario_cache(name, filename, card_name, meaning, term, entry)
-            
-            print(f"\nâœ” Created: {filename}")
-            print(f"âœ” Initialized session cache with cantilever")
+            if cache is None:
+                print("Warning: Scenario file created but cache initialization failed.", file=sys.stderr)
+
+            print(f"\n✔ Created: {filename}")
+            print(f"✔ Initialized session cache with cantilever")
             print(f"\nCANTILEVER WORKFLOW:")
             print(f"  1. Fill in Central Question and Gun sections first")
             print(f"  2. Build Protagonist, Characters, Locations")
@@ -727,13 +858,34 @@ def main():
             print(f"  7. Run: input_check.py --synthesize \"your answer\"")
             print(f"  8. Write Mystery and Trajectories")
             print(f"\nVERIFICATION:")
-            print(f"  â€¢ glossary.py scan {filename}")
-            print(f"  â€¢ Check invented terms against established lore")
+            print(f"  • glossary.py scan {filename}")
+            print(f"  • Check invented terms against established lore")
             # Show the creative prompt
             print(generate_scenario_prompt(card_name, meaning, is_reversed, term, entry))
         else:
-            # Just show the prompt without creating file
-            print(generate_scenario_prompt(card_name, meaning, is_reversed, term, entry))
+            # Generate name from card and term
+            card_short = card_name.split()[0] if " " in card_name else card_name
+            name = f"The {card_short} and the {term}"
+
+        filename = create_scenario_file(name, card_name, meaning, is_reversed, term, entry)
+        cache = initialize_scenario_cache(name, filename, card_name, meaning, term, entry)
+
+        print(f"\n✓ Created: {filename}")
+        print(f"✓ Initialized session cache with cantilever")
+        print(f"\nCANTILEVER WORKFLOW:")
+        print(f"  1. Fill in Central Question and Gun sections first")
+        print(f"  2. Build Protagonist, Characters, Locations")
+        print(f"  3. After each section, run: input_check.py --constrain \"fact\"")
+        print(f"  4. Write Introduction")
+        print(f"  5. Run: input_check.py --act-break")
+        print(f"  6. Answer the synthesis question")
+        print(f"  7. Run: input_check.py --synthesize \"your answer\"")
+        print(f"  8. Write Mystery and Trajectories")
+        print(f"\nVERIFICATION:")
+        print(f"  • glossary.py scan {filename}")
+        print(f"  • Check invented terms against established lore")
+        # Show the creative prompt
+        print(generate_scenario_prompt(card_name, meaning, is_reversed, term, entry))
         return
     
     # Default: draw and show prompt

@@ -2,23 +2,17 @@
 """
 Name Generator for the Post-Interdict Empire
 
-Generates names by region and class/type. Use for NPCs during play or to
-pre-populate scenario documents with name stubs.
-
 USAGE
 =====
-    name_generator.py <region> [options]
-    name_generator.py stub <region> <type>    # Output a stub for later replacement
-    name_generator.py fill <file>             # Replace all [NAME:...] stubs in file
-    name_generator.py list                    # Show all regions and types
+    name_generator.py <region> <type> [--count N] [--gender m/f]
+    name_generator.py batch <spec> [<spec>...]
+    name_generator.py stub <region> <type> [gender] [id]
+    name_generator.py fill <file>
+    name_generator.py list
 
-REGIONS
-=======
-    imperial    - Core Imperial territories, ya-Sattra, ya-Don
-    tsatsan     - Ya-Tsatsa (Oracle cult city, Jargon-derived names)
-    ganati      - Republic of Ganat (former Southwest)
-    akama       - Thousand Kingdoms (Pacific Northwest interior)
-    avouvar     - Asovoe / ya-Tsovez (far north, diacritical marks)
+BATCH GENERATION
+================
+    Generate multiple names in one command. Each spec is region:type[:count[:gender]]
 
 TYPES (vary by region)
 ======================
@@ -26,7 +20,7 @@ TYPES (vary by region)
         personal        - Given names only
         aureate         - Highborn with es- lineage
         bureau          - Bureau family names (-saren/-giren)
-        professional    - Working class (-sÄ«r, -ir)
+        professional    - Working class (-sīr, -ir)
         management      - Administrative families (-mar)
         lower           - Lower class (non-Imperial, detached suffix)
         clone           - Clone naming patterns
@@ -53,7 +47,7 @@ TYPES (vary by region)
         epithet         - Epithet only (e.g., Stonefoot, Iron-Rain)
     
     Avouvar:
-        personal        - Personal names with diacriticals (Ã«, Ã¶, Å¼, sz)
+        personal        - Personal names with diacriticals (ë, ö, ż, sz)
         full            - Personal + precinct/house name
         precinct        - House/precinct name only
 
@@ -67,21 +61,16 @@ characters and should not be randomly generated. Currently canonical:
     Aureate lineages: Ysalar, Lahun, Vadrin, Tariq, Ophar, Thabit, etc.
     Ganati leaders: Dhal-Setil, Khen-Masot, el-Marwen
     Tsatsan organizations: Yen Tam, Ma-Oro, Ezh Tan, Ahn-Tam
-    Avouvar characters: CzenovaÃ«, Teszvorath, SzÃ«lvoram, Koratvel
+    Avouvar characters: Czenovaë, Teszvorath, Szëlvoram, Koratvel
 
 Use glossary.py to look up canonical organizations before inventing new ones.
 
-STUB FORMAT
-===========
-    [NAME:region:type]           - e.g., [NAME:imperial:lower]
-    [NAME:region:type:gender]    - e.g., [NAME:imperial:personal:f]
-
 EXAMPLES
 ========
-    name_generator.py imperial lower
-    name_generator.py imperial lower --count 5
-    name_generator.py ganati unmarked --gender f
-    name_generator.py stub imperial professional
+    name_generator.py imperial aureate --count 5
+    name_generator.py caste mutterer
+    name_generator.py clone abject --count 3
+    name_generator.py batch caste:pierrot:3 clone:batch:2
     name_generator.py fill scenario.md
 """
 
@@ -117,7 +106,7 @@ CANONICAL_NAMES = {
     'Yen Tam', 'Ma-Oro', 'Ezh Tan', 'Ahn-Tam',
     
     # Avouvar canonical (established characters from Asovoe doc)
-    'CzenovaÃ«', 'Teszvorath', 'SzÃ«lvoram', 'Koratvel', 'VÃ¶ltrevan',
+    'Czenovaë', 'Teszvorath', 'Szëlvoram', 'Koratvel', 'Völtrevan',
 }
 
 # -----------------------------------------------------------------------------
@@ -209,12 +198,12 @@ IMPERIAL_BUREAU_FAMILIES = [
 ]
 
 IMPERIAL_PROFESSIONAL_FULL = [
-    # Pattern: [root]-da-sÄ«r or [root]-sÄ«r (respectable working class)
-    # From doc: VordasÄ«r (dock), KemdasÄ«r (mine), MasdasÄ«r (mason), TalessÄ«r (assessor)
-    'VordasÄ«r', 'KemdasÄ«r', 'MasdasÄ«r', 'TalessÄ«r',
-    # Additions following pattern (root + -dasÄ«r)
-    'TeldasÄ«r', 'KordasÄ«r', 'SeldasÄ«r', 'MordasÄ«r', 'VeldasÄ«r',
-    'ThelasÄ«r', 'KelasÄ«r', 'SerasÄ«r', 'TorasÄ«r',
+    # Pattern: [root]-da-sīr or [root]-sīr (respectable working class)
+    # From doc: Vordasīr (dock), Kemdasīr (mine), Masdasīr (mason), Talessīr (assessor)
+    'Vordasīr', 'Kemdasīr', 'Masdasīr', 'Talessīr',
+    # Additions following pattern (root + -dasīr)
+    'Teldasīr', 'Kordasīr', 'Seldasīr', 'Mordasīr', 'Veldasīr',
+    'Thelasīr', 'Kelasīr', 'Serasīr', 'Torasīr',
 ]
 
 IMPERIAL_PROFESSIONAL_REDUCED = [
@@ -258,7 +247,7 @@ IMPERIAL_LOWER_DETACHED = [
 ]
 
 IMPERIAL_LOWER_TRUNCATED = [
-    # Truncated from -dasÄ«r/-masÄ«r forms
+    # Truncated from -dasīr/-masīr forms
     # Pattern: [root]-dal or [root]-mal
     'Vordal', 'Kemdal', 'Masdal',
     # Additions following the truncation pattern
@@ -454,37 +443,141 @@ AKAMA_CANONICAL = {
 
 # -----------------------------------------------------------------------------
 # AVOUVAR NAMES (Asovoe, ya-Tsovez)
-# Distinctive diacritical marks: Ã«, Ã¶, Å¼, sz, cz
+# Distinctive diacritical marks: ë, ö, ż, sz, cz
 # Structure: [personal name] [precinct/house name]
-# Children unnamed until Anointing at 13 (or 30 for LavoÃ«ran)
+# Children unnamed until Anointing at 13 (or 30 for Lavoëran)
 # -----------------------------------------------------------------------------
 
 AVOUVAR_PRECINCTS = [
     # Major house/precinct names - some are canonical (established characters)
-    'VroÃ«szka', 'Sztoavel', 'CzernaÃ«l', 'KolaÃ«vin', 'Å»elovin', 
-    'LavoÃ«ran', 'KraÃ«losz', 'VesztraÃ«lin', 'DroÃ«van', 'DravoÃ«tsin',
+    'Vroëszka', 'Sztoavel', 'Czernaël', 'Kolaëvin', 'Żelovin', 
+    'Lavoëran', 'Kraëlosz', 'Vesztraëlin', 'Droëvan', 'Dravoëtsin',
 ]
 
 # Personal name components - can combine
 AVOUVAR_NAME_STARTS = [
-    'Czen', 'Tesz', 'SzÃ«l', 'Kor', 'Drav', 'VÃ¶l', 'Kol', 'Vel', 'Sztr',
-    'Lav', 'Kra', 'Vesz', 'Dro', 'Å»el', 'Czern', 'Szt', 'VÃ¶r', 'TÃ«l',
+    'Czen', 'Tesz', 'Szël', 'Kor', 'Drav', 'Völ', 'Kol', 'Vel', 'Sztr',
+    'Lav', 'Kra', 'Vesz', 'Dro', 'Żel', 'Czern', 'Szt', 'Vör', 'Tël',
 ]
 
 AVOUVAR_NAME_ENDS = [
-    'ovaÃ«', 'vorath', 'voram', 'atvel', 'Ã¶tsz', 'trevan', 'tvel',
-    'Ã«van', 'ovel', 'aÃ«l', 'evin', 'Ã«ran', 'Ã«losz', 'aÃ«lin', 'Ã«tsin',
-    'ovan', 'avel', 'Ã«szka', 'orath', 'Ã«von', 'atsch', 'Ã«vel',
+    'ovaë', 'vorath', 'voram', 'atvel', 'ötsz', 'trevan', 'tvel',
+    'ëvan', 'ovel', 'aël', 'evin', 'ëran', 'ëlosz', 'aëlin', 'ëtsin',
+    'ovan', 'avel', 'ëszka', 'orath', 'ëvon', 'atsch', 'ëvel',
 ]
 
 # Canonical Avouvar names (established characters from Asovoe doc)
 AVOUVAR_CANONICAL = {
-    'CzenovaÃ« VroÃ«szka',     # theologian matriarch
-    'Teszvorath KolaÃ«vin',   # absolutist patriarch
-    'SzÃ«lvoram Å»elovin',     # Witness-Paramount
-    'Koratvel LavoÃ«ran',     # the Chancellor
-    'VÃ¶ltrevan',             # Witness (461 years old)
+    'Czenovaë Vroëszka',     # theologian matriarch
+    'Teszvorath Kolaëvin',   # absolutist patriarch
+    'Szëlvoram Żelovin',     # Witness-Paramount
+    'Koratvel Lavoëran',     # the Chancellor
+    'Völtrevan',             # Witness (461 years old)
 }
+
+
+# -----------------------------------------------------------------------------
+# CASTE NAMES (Descriptive naming for special castes)
+# Mutterers, Astals, Draethen, Ta-Kefyeh, Pierrots, Choirs
+# -----------------------------------------------------------------------------
+
+# Body parts for mutterer and draethen descriptive names
+CASTE_BODY_PARTS = [
+    'Ear', 'Eye', 'Finger', 'Thumb', 'Hand', 'Foot', 'Nose', 'Chin',
+    'Arm', 'Leg', 'Back', 'Neck', 'Tooth', 'Jaw', 'Brow', 'Lip',
+    'Nail', 'Toe', 'Knee', 'Shoulder', 'Elbow', 'Wrist', 'Cheek',
+]
+
+# Physical descriptors for mutterer and draethen names
+CASTE_DESCRIPTORS = [
+    'Crooked', 'White', 'Grey', 'Bent', 'Long', 'Short', 'Thick',
+    'Thin', 'Dark', 'Pale', 'Spotted', 'Scarred', 'Broken', 'Missing',
+    'Split', 'Wide', 'Narrow', 'Rough', 'Smooth', 'Twisted', 'Flat',
+]
+
+# Pre-built mutterer names (Companions Guild assigned)
+CASTE_MUTTERER_PREBUILT = [
+    'Crooked-Ear', 'White-Patch', 'Three-Fingers', 'Split-Nail',
+    'Grey-Thumb', 'Bent-Back', 'Long-Arm', 'Short-Leg', 'Wide-Eye',
+    'Pale-Face', 'Dark-Hand', 'Scarred-Chin', 'Broken-Tooth',
+]
+
+# Astal whimsical features (self-chosen, space-separated, playful)
+ASTAL_FEATURES = [
+    'Ear Tufts', 'Pink Tail', 'Loud Sneeze', 'Quick Feet', 'Long Ears',
+    'Bright Eyes', 'Soft Fur', 'Warm Belly', 'Fast Heart', 'Small Paws',
+    'Wet Nose', 'Round Face', 'Thin Whiskers', 'Sharp Teeth', 'Short Legs',
+    'Big Ears', 'Dark Eyes', 'Light Step', 'Quiet Voice', 'Swift Hands',
+]
+
+# Draethen distinguishing marks (hyphenated, for compound identification)
+CASTE_DRAETHEN_PREBUILT = [
+    'Grey-Patch', 'Crooked-Thumb', 'Split-Nail', 'Bent-Finger',
+    'White-Streak', 'Dark-Mark', 'Pale-Spot', 'Long-Scar',
+    'Short-Toe', 'Wide-Palm', 'Thin-Wrist', 'Rough-Hand',
+]
+
+# Ta-Kefyeh colors (painted on host body)
+TAKEFYEH_COLORS = [
+    'Blue', 'Red', 'Yellow', 'White', 'Black', 'Green', 'Orange',
+    'Purple', 'Grey', 'Brown', 'Pink', 'Gold',
+]
+
+# Ta-Kefyeh symbols (geometric, painted on host body)
+TAKEFYEH_SYMBOLS = [
+    'Square', 'Circle', 'Triangle', 'Spiral', 'Ring', 'Star', 'Cross',
+    'Diamond', 'Arrow', 'Wave', 'Line', 'Dot', 'Crescent', 'Arch',
+]
+
+# Pierrot fragments (from Mutterer origin names, Tsatsan-derived)
+PIERROT_FRAGMENTS = [
+    'An', 'Vel', 'Tos', 'Kev', 'Mer', 'Sel', 'Dro', 'Tev',
+    'Bel', 'Kor', 'Fen', 'Tam', 'Gat', 'Pek', 'Neb', 'Zho',
+]
+
+# Choir location components
+CHOIR_LOCATIONS = [
+    'Vassel Street', 'Harbor', 'Foundry', 'Mill', 'Quay', 'Wharf',
+    'Station', 'Yard', 'Square', 'Bridge', 'Gate', 'Tower', 'Market',
+]
+
+# Choir district components
+CHOIR_DISTRICTS = [
+    'Rotten Quarter', 'Medina', 'Middens', 'Iron Yards', 'Old Town',
+    'Canal District', 'Dockside', 'Factory Row', 'North End', 'South Gate',
+]
+
+
+# -----------------------------------------------------------------------------
+# CLONE NAMES (Status-based naming patterns)
+# Personal, Batch, Abject
+# -----------------------------------------------------------------------------
+
+# Monosyllabic cloneline roots (for personal type - both personal and line names)
+CLONE_LINE_ROOTS = [
+    'Ket', 'Eth', 'Fen', 'Vor', 'Kel', 'Sen', 'Pol', 'Tho', 'Ren',
+    'Kar', 'Soh', 'Venn', 'Cho', 'Tal', 'Mor', 'Vel', 'Dol', 'Sar',
+    'Kev', 'Bren', 'Tor', 'Sel', 'Mar', 'Tem', 'Var',
+]
+
+# Batch name prefixes (2-3 syllables for batch designation)
+CLONE_BATCH_PREFIXES = [
+    'Morav', 'Kelis', 'Vorath', 'Selam', 'Theral', 'Doran',
+    'Keleth', 'Serath', 'Talvor', 'Vennal', 'Korath', 'Moreth',
+    'Belan', 'Tomar', 'Verath', 'Kelon', 'Selan', 'Thoral',
+]
+
+# Batch name suffixes
+CLONE_BATCH_SUFFIXES = [
+    'eth', 'im', 'an', 'al', 'is', 'on', 'ith', 'en', 'ar', 'el',
+]
+
+# Abject line names (pseudo-Greek/liturgical feel)
+CLONE_ABJECT_LINES = [
+    'Semeion', 'Kethral', 'Voralis', 'Theranim', 'Kelothis',
+    'Seralim', 'Moravis', 'Talonis', 'Venatim', 'Koraleth',
+    'Belathos', 'Theralis', 'Selonith', 'Doranim', 'Kelvarim',
+]
 
 
 # =============================================================================
@@ -796,6 +889,120 @@ def generate_avouvar_precinct() -> str:
     return pick(AVOUVAR_PRECINCTS)
 
 
+# -----------------------------------------------------------------------------
+# CASTE GENERATORS
+# -----------------------------------------------------------------------------
+
+def generate_mutterer_name() -> str:
+    """Generate a Mutterer name: physical descriptor assigned by Companions.
+
+    Format: Descriptor-BodyPart (hyphenated), e.g., Crooked-Ear, White-Patch
+    """
+    if random.random() < 0.4:
+        # Use pre-built name
+        return random.choice(CASTE_MUTTERER_PREBUILT)
+    else:
+        # Generate new descriptor-bodypart combination
+        descriptor = random.choice(CASTE_DESCRIPTORS)
+        body_part = random.choice(CASTE_BODY_PARTS)
+        return f"{descriptor}-{body_part}"
+
+
+def generate_astal_name() -> str:
+    """Generate an Astal name: self-chosen whimsical feature.
+
+    Format: Space-separated, playful, e.g., Ear Tufts, Pink Tail
+    """
+    return random.choice(ASTAL_FEATURES)
+
+
+def generate_draethen_name() -> str:
+    """Generate a Draethen name: distinguishing mark for compound identification.
+
+    Format: Descriptor-BodyPart (hyphenated), e.g., Grey-Patch, Crooked-Thumb
+    """
+    if random.random() < 0.4:
+        # Use pre-built name
+        return random.choice(CASTE_DRAETHEN_PREBUILT)
+    else:
+        # Generate new descriptor-bodypart combination
+        descriptor = random.choice(CASTE_DESCRIPTORS)
+        body_part = random.choice(CASTE_BODY_PARTS)
+        return f"{descriptor}-{body_part}"
+
+
+def generate_takefyeh_name() -> str:
+    """Generate a Ta-Kefyeh name: color + geometric symbol painted on host.
+
+    Format: Color Symbol (space-separated), e.g., Blue Square, Red Spiral
+    """
+    color = random.choice(TAKEFYEH_COLORS)
+    symbol = random.choice(TAKEFYEH_SYMBOLS)
+    return f"{color} {symbol}"
+
+
+def generate_pierrot_name() -> str:
+    """Generate a Pierrot name: fragment of origin name + batch number.
+
+    Format: Fragment-Number, e.g., An-7, Vel-3
+    """
+    fragment = random.choice(PIERROT_FRAGMENTS)
+    number = random.randint(1, 12)
+    return f"{fragment}-{number}"
+
+
+def generate_choir_name() -> str:
+    """Generate a Choir name: collective name for Mutterer groups.
+
+    Format: Either "Choir at [Location]" or "The [District] Choir"
+    """
+    if random.random() < 0.5:
+        location = random.choice(CHOIR_LOCATIONS)
+        return f"Choir at {location}"
+    else:
+        district = random.choice(CHOIR_DISTRICTS)
+        return f"The {district} Choir"
+
+
+# -----------------------------------------------------------------------------
+# CLONE GENERATORS
+# -----------------------------------------------------------------------------
+
+def generate_clone_personal() -> str:
+    """Generate a higher-status clone name: Personal + Cloneline.
+
+    Both elements are monosyllabic roots, e.g., Soh Ket, Vor Eth
+    """
+    personal = random.choice(CLONE_LINE_ROOTS)
+    line = random.choice(CLONE_LINE_ROOTS)
+    # Ensure different personal and line names
+    while line == personal:
+        line = random.choice(CLONE_LINE_ROOTS)
+    return f"{personal} {line}"
+
+
+def generate_clone_batch() -> str:
+    """Generate a service clone name: BatchName-Number.
+
+    BatchName is 2-3 syllables, e.g., Moraveth-2, Kelisan-6
+    """
+    prefix = random.choice(CLONE_BATCH_PREFIXES)
+    suffix = random.choice(CLONE_BATCH_SUFFIXES)
+    batch_name = prefix + suffix
+    number = random.randint(1, 12)
+    return f"{batch_name}-{number}"
+
+
+def generate_clone_abject() -> str:
+    """Generate a lowest-status clone name: LineName-Number.
+
+    All members of the line share identical name, e.g., Semeion-9, Kethral-15
+    """
+    line = random.choice(CLONE_ABJECT_LINES)
+    number = random.randint(1, 20)
+    return f"{line}-{number}"
+
+
 # =============================================================================
 # MAIN INTERFACE
 # =============================================================================
@@ -836,6 +1043,19 @@ GENERATORS = {
         'full': generate_avouvar_full,
         'precinct': generate_avouvar_precinct,
     },
+    'caste': {
+        'mutterer': generate_mutterer_name,
+        'astal': generate_astal_name,
+        'draethen': generate_draethen_name,
+        'takefyeh': generate_takefyeh_name,
+        'pierrot': generate_pierrot_name,
+        'choir': generate_choir_name,
+    },
+    'clone': {
+        'personal': generate_clone_personal,
+        'batch': generate_clone_batch,
+        'abject': generate_clone_abject,
+    },
 }
 
 
@@ -861,26 +1081,81 @@ def generate_name(region: str, name_type: str, gender: str = None) -> str:
     return gen_func()
 
 
-def make_stub(region: str, name_type: str, gender: str = None) -> str:
-    """Create a stub string for later replacement."""
+def make_stub(region: str, name_type: str, gender: str = None, identifier: str = None) -> str:
+    """Create a stub string for later replacement.
+
+    Args:
+        region: The region (imperial, tsatsan, ganati, etc.)
+        name_type: The name type for that region
+        gender: Optional gender ('m' or 'f')
+        identifier: Optional identifier for consistent naming across stubs
+    """
+    parts = [region, name_type]
     if gender:
-        return f"[NAME:{region}:{name_type}:{gender}]"
-    return f"[NAME:{region}:{name_type}]"
+        parts.append(gender)
+    if identifier:
+        parts.append(identifier)
+    return "[NAME:" + ":".join(parts) + "]"
 
 
 def fill_stubs(text: str) -> str:
-    """Replace all [NAME:...] stubs in text with generated names."""
-    pattern = r'\[NAME:([a-z]+):([a-z]+)(?::([mf]))?\]'
-    
+    """Replace all [NAME:...] stubs with generated names.
+
+    Stubs with the same identifier get the same name.
+
+    Formats supported:
+        [NAME:region:type]              - Unique name each occurrence
+        [NAME:region:type:gender]       - With gender (m/f)
+        [NAME:region:type:id]           - Same name for same id
+        [NAME:region:type:gender:id]    - With gender and id
+    """
+    generated = {}  # Cache: key -> generated name
+
+    # Pattern captures: region, type, and 1-2 optional fields (gender and/or id)
+    pattern = r'\[NAME:([a-z]+):([a-z]+)(?::([^:\]]+))?(?::([^:\]]+))?\]'
+
     def replace(match):
         region = match.group(1)
         name_type = match.group(2)
-        gender = match.group(3)
+        field3 = match.group(3)  # gender or identifier or None
+        field4 = match.group(4)  # identifier or None
+
+        # Determine gender and identifier
+        if field4 is not None:
+            # Four fields: region:type:gender:id
+            gender = field3 if field3 in ('m', 'f') else None
+            identifier = field4
+        elif field3 is not None:
+            if field3 in ('m', 'f'):
+                # Three fields, third is gender: region:type:gender
+                gender = field3
+                identifier = None
+            else:
+                # Three fields, third is identifier: region:type:id
+                gender = None
+                identifier = field3
+        else:
+            # Two fields only
+            gender = None
+            identifier = None
+
+        # Build cache key
+        key = f"{region}:{name_type}:{gender or ''}:{identifier or ''}"
+
+        # Generate or retrieve cached name
+        if identifier and key in generated:
+            return generated[key]
+
         try:
-            return generate_name(region, name_type, gender)
+            name = generate_name(region, name_type, gender)
         except ValueError as e:
             return f"[ERROR: {e}]"
-    
+
+        if identifier:
+            generated[key] = name
+
+        return name
+
     return re.sub(pattern, replace, text, flags=re.IGNORECASE)
 
 
@@ -913,7 +1188,7 @@ def list_all():
         print(f"\n{region.upper()}")
         for name_type in types:
             print(f"  {name_type}")
-    
+
     print("\n\nCANONICAL NAMES (excluded from generation)")
     print("=" * 50)
     print("These names belong to established organizations.")
@@ -922,27 +1197,99 @@ def list_all():
         print(f"  {name}")
 
 
+def batch_generate(specs: List[str]) -> None:
+    """Generate multiple names from multiple specs in one invocation.
+
+    Each spec follows the format: region:type[:count[:gender]]
+
+    Example specs:
+        imperial:aureate:3
+        imperial:lower:2
+        tsatsan:full:5
+        ganati:unmarked:2:f
+        caste:mutterer:3
+        clone:abject:2
+    """
+    for spec in specs:
+        parts = spec.split(':')
+        if len(parts) < 2:
+            print(f"--- {spec} ---")
+            print(f"  [ERROR: Invalid spec format. Use region:type[:count[:gender]]]")
+            print()
+            continue
+
+        region = parts[0]
+        name_type = parts[1]
+        count = 1
+        gender = None
+
+        if len(parts) >= 3:
+            # Third field could be count or gender
+            if parts[2] in ('m', 'f'):
+                gender = parts[2]
+            else:
+                try:
+                    count = int(parts[2])
+                except ValueError:
+                    print(f"--- {spec} ---")
+                    print(f"  [ERROR: Invalid count '{parts[2]}']")
+                    print()
+                    continue
+
+        if len(parts) >= 4:
+            # Fourth field is gender
+            if parts[3] in ('m', 'f'):
+                gender = parts[3]
+
+        print(f"--- {spec} ---")
+        for _ in range(count):
+            try:
+                name = generate_name(region, name_type, gender)
+                print(f"  {name}")
+            except ValueError as e:
+                print(f"  [ERROR: {e}]")
+        print()
+
+
 def main():
     args = sys.argv[1:]
-    
+
     if not args or '-h' in args or '--help' in args:
         print(__doc__)
         return
-    
+
     if args[0] == 'list':
         list_all()
         return
-    
+
+    if args[0] == 'batch':
+        if len(args) < 2:
+            print("Usage: name_generator.py batch <spec> [<spec>...]")
+            print("  Each spec is region:type[:count[:gender]]")
+            print("  Example: batch imperial:aureate:3 tsatsan:full:2")
+            return
+        batch_generate(args[1:])
+        return
+
     if args[0] == 'stub':
         if len(args) < 3:
-            print("Usage: name_generator.py stub <region> <type> [gender]")
+            print("Usage: name_generator.py stub <region> <type> [gender] [id]")
             return
         region = args[1]
         name_type = args[2]
-        gender = args[3] if len(args) > 3 else None
-        print(make_stub(region, name_type, gender))
+        gender = None
+        identifier = None
+        # Parse optional gender and identifier
+        if len(args) > 3:
+            if args[3] in ('m', 'f'):
+                gender = args[3]
+                if len(args) > 4:
+                    identifier = args[4]
+            else:
+                identifier = args[3]
+        print(make_stub(region, name_type, gender, identifier))
         return
-    
+
     if args[0] == 'fill':
         if len(args) < 2:
             print("Usage: name_generator.py fill <file>")

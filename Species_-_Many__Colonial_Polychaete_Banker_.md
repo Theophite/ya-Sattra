@@ -1,3 +1,29 @@
+---
+title: Many - Colonial Polychaete Banker
+type: reference
+parent: null
+glossary_terms:
+  - Many
+  - Ta-Kefyeh
+  - Bureau of Coin
+  - Lector
+
+guidance:
+  - "Colonial polychaete - thousands of zooids as single consciousness, not a metaphor but literal distributed brain"
+  - "Pre-terrestrial civilization - developed agriculture, tools, ceramics BEFORE humans evolved, trapped on Earth ~100,000 years"
+  - "Cannot lie because deception is IMPOSSIBLE when natural communication involves sharing actual brain tissue"
+  - "Contracts are LITERAL neural tissue configured to embody agreements - violating contract requires destroying part of own brain"
+  - "Memory window only 4-5,000 years - has completely FORGOTTEN its origins, purpose, even that others of its kind exist"
+  - "Pruning events: digestive zooids literally attack and consume divergent elements to maintain coherence (not pathology, necessary maintenance)"
+  - "Queue system is VIOLENTLY egalitarian - ta-Kefyeh physically remove anyone skipping regardless of status"
+  - "Economic necessity through accident - incomprehension of politics makes it incorruptible, ignorance of favoritism creates mechanical fairness"
+
+see_also:
+  - Species - Ta-Kefyeh (Parasitic Riders).md
+  - System - Economy and Currency.md
+  - Ya-Sattra District - Medina - Businesses.md
+---
+
 # **Many: Complete Character and Species Documentation**
 
 ## **Executive Summary**
