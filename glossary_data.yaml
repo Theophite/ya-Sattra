@@ -20,7 +20,19 @@ entries:
   Akama:
     category: caste
     short: Unclassified caste with scrambled heritage from multiple engineered lineages.
-    details: ""
+    details: |
+      Defined by practice not genetics—someone who can breed with other Akama
+      and participates in Akama culture. Distinguishing features of multiple
+      ancestral castes have blurred into general capability. Variable morphology
+      with visible mixed heritage.
+
+      MATERIAL CULTURE: Testimonial—objects speak for individuals across mortal
+      timescales. "I was here. This happened. It mattered." Standing in the Rain
+      philosophy: life promises nothing, material culture doesn't pretend otherwise.
+      Sufficiency ("enough") is highest praise. Armor displayed outside tents shows
+      biography through patches and modifications. Damage displayed, not hidden—the
+      mended thing is more honest than the pristine. A young warrior's pristine
+      equipment testifies against him: nothing has happened to him yet.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Thousand Kingdoms, Junta of Ogon]
     caste_features:
@@ -45,6 +57,44 @@ entries:
         - defined by practice not genetics
         - Akama = someone who can breed with other Akama + participates in culture
         - distinguishing features of specific castes have blurred into general capability
+    material_culture:
+      intention: '"I was here. This happened. It mattered. Notice." Objects as testimony across mortal timescales.'
+      philosophy: |
+        Standing in the Rain: Life promises nothing. The tent doesn't promise to last forever.
+        You don't promise to survive. Material culture doesn't pretend otherwise. Sufficiency,
+        not optimization—"enough" is the highest praise. More than enough is suspicious.
+      armor_display: |
+        Armor displayed outside tents, history visible: patches, replacement plates, modifications
+        for different bodies across generations. Layered ceramic plates over destrier-leather,
+        echoing Aztec quilted cotton and obsidian weapons. The armor IS the biography.
+      objects_as_evidence: |
+        Objects speak for individuals. A khan's drinking bowl: bronze ya-Don manufacture (trophy),
+        dented from the blow that killed previous owner, rim worn from generations of lips, names
+        crossed out on base with current owner last. The bowl is a document.
+      repair_philosophy: |
+        Damage not hidden but displayed. The mended thing is more honest than the pristine.
+        A patched tent is more truthful than pristine. A young warrior's embarrassment: everything
+        too new, armor pristine with no patches—you can't fake patina. Newness testifies against
+        him: nothing has happened to him yet.
+      craftsmanship: |
+        "There is a quality to this thing. View it." Craftsmanship as testimony. Quality isn't
+        luxury; it's respect for the work. A shoddy object insults maker and user.
+      destrier_tack: |
+        Saddle old—leather cracked and reconditioned multiple times. Stirrups don't match: one
+        local ironwork, one Imperial manufacture. Tack tells you: equipment maintained across
+        generations, repaired with whatever available.
+      territorial_markers: |
+        Three colors made from autofactory waste: rust-orange (iron oxide), lime-yellow (calcium
+        from burned concrete), teal (verdigris from copper). Diagonal slashes marking human
+        presence against alien concrete. Bold application, visible brushstrokes, weathering accepted.
+      graffiti: |
+        Names carved into rocks at campsites. Marks on canyon walls. "I was here" because nothing
+        is eternal, so you leave marks. The Antediluvians didn't need to say it—everyone who
+        mattered already knew. Akama know nothing is eternal.
+      funeral_practice: |
+        Dead warrior's tent still standing, flap pinned open—spirit needs to leave. Armor displayed
+        more prominently than in life. Destrier decorated with fabric strips. Three days the camp
+        organizes around the empty tent. Then packed, distributed, strips kept as mementos.
   # ─── end Akama ───
 
   # ═══ Archons ═══
@@ -2322,6 +2372,7 @@ entries:
     details: Fraser River delta, glaciers visible to north. Autofactory maintains infrastructure for millions while 60,000 Avouvar inhabit seventeen precincts. Radiation renewed deliberately to exclude outsiders.
     rag_pointer: Asovoë and the Avouvar
     related: [Avouvar, San Juan Factorias]
+    culture: [Avouvar]
     location_features:
       level: city
       location_type: settlement
@@ -3691,6 +3742,7 @@ entries:
     details: Six million inhabitants. Nominally republican but Serrulata caste advantages undermine egalitarian ideology. Dawn and Dusk political factions. Fought the Empire over Yarangar eighteen years ago.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Serrulata, Yarangar, Taho, Kilit]
+    culture: [Ganati]
     location_features:
       level: territory
       location_type: polity
@@ -6839,6 +6891,7 @@ entries:
     details: Eighty miles of brutalist sprawl produced by malfunctioning autofactory. Seven token-holders govern through the Junta. Kma-Dhol (40,000 sewer-fishers) operate openly as technical specialists.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Junta of Ogon, Thousand Kingdoms, Kma-Dhol]
+    culture: [Akama]
     location_features:
       level: city
       location_type: settlement
@@ -6846,6 +6899,13 @@ entries:
       children:
         - The Slab
         - Kma-Dhol Quarter
+        - Thavek
+        - Blackfish Weirs
+        - The Barracks
+        - Southeast Approach
+        - Central Ogon
+        - Ghol-Taram
+        - Dharel's Span
       controlling_entity: Junta of Ogon
       population: ~1 million
       castes_present:
@@ -8539,6 +8599,7 @@ entries:
     details: Runs geometrically straight with walls of fused glass rising thirty feet. Creates artificial spawning grounds and fishing positions held by force and inherited through bloodlines.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Ogon, Thousand Kingdoms]
+    culture: [Akama]
     location_features:
       level: district
       location_type: infrastructure
@@ -8568,6 +8629,263 @@ entries:
       primary_function: Governance assembly
       real_world_anchor: "Columbia River mouth (within Ogon)"
   # ─── end The Slab ───
+
+  # ═══ Thavek ═══
+  Thavek:
+    category: location
+    short: "Eastern district of Ogon—Imek Stone-Foot's territory."
+    details: |
+      One of Ogon's major districts. Controlled by Imek Stone-Foot and her
+      warband of ~300 survivors. Home to her technical operations including
+      the Avouvar coil-winder that produces Imek-pattern light rail carbines.
+      Also location of Harak Merengi's rifle workshop.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Ogon, Imek Stone-Foot, Harak Merengi]
+    location_features:
+      level: district
+      location_type: residential
+      parent: Ogon
+      controlling_entity: Imek Stone-Foot
+      primary_function: Manufacturing district
+      castes_present:
+        - Akama
+        - Kma-Dhol
+      notable_features:
+        - Coil-winder workshop (Avouvar technology)
+        - Rifle manufacturing
+        - Mutterer choir maintenance
+      real_world_anchor: "Columbia River mouth (within Ogon)"
+  # ─── end Thavek ───
+
+  # ═══ Blackfish Weirs ═══
+  Blackfish Weirs:
+    category: location
+    short: "Ataru Blackfish's salmon empire—weirs, smoke-houses, fixed tribute."
+    details: |
+      Major district of Ogon where Ataru Blackfish maintains his commercial
+      empire. Contains weirs, smoke-houses, and processing infrastructure.
+      Approximately seventy vassals control weir positions, paying fixed
+      tribute regardless of fortune: good catch pay in fish, poor catch find
+      obols through raiding, recalcitrance pay in blood. The district's economy
+      centers entirely on the salmon runs from the Grand Canal.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Ogon, Ataru Blackfish, The Grand Canal]
+    location_features:
+      level: district
+      location_type: commercial
+      parent: Ogon
+      controlling_entity: Ataru Blackfish
+      primary_function: Salmon processing
+      population: ~800 warriors plus commercial infrastructure
+      castes_present:
+        - Akama
+      notable_features:
+        - Weirs (held by force, inherited through bloodlines)
+        - Smoke-houses
+        - Processing infrastructure
+        - Ganati glass sculpture collection (Ataru's)
+      borders:
+        east: [The Grand Canal]
+      real_world_anchor: "Columbia River mouth (within Ogon)"
+  # ─── end Blackfish Weirs ───
+
+  # ═══ The Barracks ═══
+  The Barracks:
+    category: location
+    short: "Iron-Rain's warrior territory—1,200 fighters, Kessa's bar."
+    details: |
+      Northern section of Ogon where Iron-Rain maintains informal control with
+      his 1,200 warriors through pure physical dominance. Named for the warrior
+      encampments that dominate the district. Also overlaps with primary Kma-Dhol
+      residential areas and the Kma-Dhol Quarter where Vey Nine Birds operates.
+
+      KESSA'S: The bar where Iron-Rain drinks with his inner circle, serving as
+      his de facto headquarters. Named for its owner.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Ogon, Iron-Rain, Vey Nine Birds, Kma-Dhol Quarter, Kessa's]
+    location_features:
+      level: district
+      location_type: residential
+      parent: Ogon
+      controlling_entity: Iron-Rain
+      primary_function: Warrior encampments
+      population: ~1,200 warriors
+      castes_present:
+        - Akama
+        - Kma-Dhol
+      children:
+        - Kessa's
+      notable_features:
+        - Warrior barracks and encampments
+        - Ziggurat architecture
+        - Kma-Dhol technical operations nearby
+        - Compression passages (Kma-Dhol access)
+      real_world_anchor: "Columbia River mouth (within Ogon)"
+  # ─── end The Barracks ───
+
+  # ═══ Kessa's ═══
+  Kessa's:
+    category: location
+    short: "Iron-Rain's bar—where the invulnerable giant drinks with his inner circle."
+    details: |
+      Bar in The Barracks district serving as Iron-Rain's de facto headquarters.
+      Named for its owner. Where the nearly three-meter-tall Ironbone-Warborn
+      hybrid relaxes with his closest warriors. Despite commanding through pure
+      physical dominance, Iron-Rain doesn't particularly like violence—he finds
+      most Junta business tedious and prefers drinking with his people here.
+
+      His relationship with Imek Stone-Foot and their pursuit of genetic
+      interventions to produce an heir is discussed here among trusted
+      companions. He's obsessed with people who rise above their station
+      through effort rather than genetics.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [The Barracks, Iron-Rain, Ogon, Imek Stone-Foot]
+    location_features:
+      level: site
+      location_type: commercial
+      parent: The Barracks
+      primary_function: Drinking establishment, informal headquarters
+      castes_present:
+        - Akama
+        - Ironbone-Warborn (Iron-Rain)
+      notable_features:
+        - Iron-Rain's regular presence
+        - Inner circle gathering place
+        - Informal decision-making venue
+      real_world_anchor: "Columbia River mouth (within Ogon)"
+  # ─── end Kessa's ───
+
+  # ═══ Southeast Approach ═══
+  Southeast Approach:
+    category: location
+    short: "Tsoka Red Deer's territory—extends toward Imperial frontier."
+    details: |
+      District controlled by Tsoka Red Deer with his 643 soldiers organized
+      into seven companies. The most militarily organized zone of Ogon,
+      operating with Imperial discipline (written orders, salary payments,
+      merit-based promotion) while maintaining Akama cultural identity.
+      Trade routes to Imperial territories pass through here.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Ogon, Tsoka Red Deer, Northern Frontier]
+    location_features:
+      level: district
+      location_type: military
+      parent: Ogon
+      controlling_entity: Tsoka Red Deer
+      primary_function: Military zone, trade gateway
+      population: ~643 soldiers
+      castes_present:
+        - Akama
+      notable_features:
+        - Imperial-style military organization
+        - Trade route to Imperial territories
+        - Tribute protection contracts
+      borders:
+        south: [Northern Frontier]
+      real_world_anchor: "Columbia River mouth (within Ogon)"
+  # ─── end Southeast Approach ───
+
+  # ═══ Central Ogon ═══
+  Central Ogon:
+    category: location
+    short: "Tama Family commercial zone—gambling halls and public works."
+    details: |
+      Central district of Ogon controlled by Bal Tama and the Tama Family.
+      Contains their gambling halls (neutral ground for negotiations),
+      commercial properties, and public works infrastructure. The deaf
+      warband of 200 provides security, immune to Compulsion.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Ogon, Bal Tama, Tama Family]
+    location_features:
+      level: district
+      location_type: commercial
+      parent: Ogon
+      controlling_entity: Tama Family
+      primary_function: Commercial neutral ground
+      population: ~200 deaf warriors (security)
+      castes_present:
+        - Akama
+        - Near-Baseline (Tama Family)
+      notable_features:
+        - Gambling halls (neutral ground)
+        - Rigged dice (wealth redistribution)
+        - Deaf warband headquarters
+        - Public works
+        - Quiet Day feast locations
+      real_world_anchor: "Columbia River mouth (within Ogon)"
+  # ─── end Central Ogon ───
+
+  # ═══ Ghol-Taram ═══
+  Ghol-Taram:
+    category: location
+    short: "Som es-Vol's desperate territory—broken Highborn's abandoned zone."
+    details: |
+      Northeast ziggurat district in Ogon nominally controlled by Som es-Vol,
+      though his control is theoretical at best. The name means something like
+      "desperate place" or "zone of last resort" in Akama—fitting for territory
+      claimed by a broken Highborn who maintains only ~30 people in semi-permanent
+      association. His presence here keeps other powers from claiming the territory
+      openly, but no one wants to be close enough to risk hearing him speak if
+      the gag fails.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Ogon, Som es-Vol, Tama Family]
+    location_features:
+      level: district
+      location_type: residential
+      parent: Ogon
+      controlling_entity: Som es-Vol (nominal)
+      primary_function: Residential zone (avoided)
+      population: ~30 (Som's semi-permanent associates)
+      castes_present:
+        - Akama
+        - Highborn (one, broken)
+      notable_features:
+        - Ziggurat architecture
+        - Highborn presence (broken, contained)
+        - Generally avoided by other Junta members
+        - Tama deaf warband maintains watch
+      real_world_anchor: "Columbia River mouth (within Ogon)"
+  # ─── end Ghol-Taram ───
+
+  # ═══ Dharel's Span ═══
+  Dharel's Span:
+    category: location
+    short: "Ziggurat at canal junction—nine ancestral masks on its face."
+    details: |
+      A significant ziggurat in Ogon where it meets the canal. Features
+      nine ancestral masks carved into its concrete face, the oldest perhaps
+      three hundred years weathered. Below the masks, a scene of riders
+      approaching a ford runs the length of the wall—the outcome deliberately
+      unshown, supporting multiple interpretations. Territory changes hands
+      periodically; currently held by a band claiming descent from both the
+      riders and defenders in the carving.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Ogon, Torek Confederation]
+    location_features:
+      level: site
+      location_type: residential
+      parent: Ogon
+      primary_function: Fortified position
+      notable_features:
+        - Nine ancestral masks (oldest ~300 years)
+        - Ford approach carving
+        - Strategic canal position
+      real_world_anchor: "Columbia River mouth (within Ogon)"
+    aesthetic_features:
+      intention: "We were here. Our ancestors looked out from this wall. The story continues."
+      construction: "Autofactory concrete with carved additions across centuries. Masks in heavy Akama style—broad brows, prognathous jaws, fur ruff suggested in radiating lines."
+      visual_vocabulary:
+        - "Ancestral masks: heavy orbital ridges, black pigment in eye-hollows, rust in brow grooves"
+        - "Narrative relief: riders approaching ford, defenders with backs turned, moment before contact"
+      colors:
+        - "Grey autofactory concrete"
+        - "Black pigment (eye-hollows)"
+        - "Rust (brow grooves)"
+      sensory:
+        - "Canal water sounds"
+        - "Weathered stone smell"
+        - "Touch-worn mask edges from centuries of pilgrimage"
+  # ─── end Dharel's Span ───
 
   # ═══ The Smelters ═══
   The Smelters:
@@ -8818,6 +9136,7 @@ entries:
       in Ogon) operate autofactories openly.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Akama, Junta of Ogon, Ogon, Kma-Dhol, Malpais]
+    culture: [Akama]
     location_features:
       level: territory
       location_type: polity
@@ -10240,6 +10559,7 @@ entries:
     details: 1.2 million people. The Furnaces produce technologies Imperial civilization cannot survive without. Church-Guild complex controls production. Bureau of the Rod negotiates with institutions it cannot compel.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Furnaces, Bureau of the Rod, Order of St. Akhmet]
+    culture: [Ya-Don]
     location_features:
       level: city
       location_type: settlement
@@ -10312,6 +10632,7 @@ entries:
       plus numerous rim cities along the former coastline (collectively "The Rim").
     rag_pointer: The Inner City, The Medina Quarter
     related: [Inner City, Medina Quarter, Middens, Rift, The Rim]
+    culture: [Imperial, Antediluvian]
     location_features:
       level: city
       location_type: settlement
@@ -10434,6 +10755,7 @@ entries:
       maintaining surface cooperation. Population ~150,000.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [Testament Society, Threefold Mirror Academy, Presence, Ezh Tan, Ezh Ot, Ezh Dhol]
+    culture: [Ya-Tsatsa]
     location_features:
       level: city
       location_type: settlement
@@ -12049,13 +12371,17 @@ entries:
     category: organization
     short: "Seven token-holders governing Ogon and claiming suzerainty over the Thousand Kingdoms."
     details: |
-      Meet monthly at the Slab. Vote by raised or lowered hands. Disputes resolved by 
-      trial-by-combat. Tokens trace to original Akama conquerors who took Ogon from 
-      ya-Tsovez refugees. Each token-holder controls a bloc of warbands; together they 
-      can mobilize perhaps 40,000 fighters. More important: they control salmon allocation 
+      Meet monthly at the Slab. Vote by raised or lowered hands. Disputes resolved by
+      trial-by-combat. Tokens trace to original Akama conquerors who took Ogon from
+      ya-Tsovez refugees. Each token-holder controls a bloc of warbands; together they
+      can mobilize perhaps 40,000 fighters. More important: they control salmon allocation
       from the Grand Canal.
+
+      CURRENT MEMBERS: Som es-Vol (broken Highborn), Tsoka Red Deer (institutionalist),
+      Ataru Blackfish (commercial), Bal Tama (accommodationist), Iron-Rain (Ironbone-Warborn),
+      Imek Stone-Foot (lucky survivor), Vey Nine Birds (Kma-Dhol technical).
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Ogon, The Slab, Thousand Kingdoms, Akama]
+    related: [Ogon, The Slab, Thousand Kingdoms, Akama, Som es-Vol, Tsoka Red Deer, Ataru Blackfish, Bal Tama, Iron-Rain, Imek Stone-Foot, Vey Nine Birds, Tama Family, Nine Birds Engineering Collective]
   # ─── end Junta of Ogon ───
 
   # ═══ Ogon Token Emergence ═══
@@ -12228,6 +12554,57 @@ entries:
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Junta of Ogon, Ogon, Kma-Dhol, Imek Stone-Foot]
   # ─── end Vey Nine Birds ───
+
+  # ═══ Colonel-Hereditary es-Valent ═══
+  Colonel-Hereditary es-Valent:
+    category: person
+    short: "Frontier commander who fostered Tsoka Red Deer for twelve years."
+    person_location: Northern Frontier
+    details: |
+      Imperial officer whose estate sits in the transitional zone where Imperial
+      sovereignty dissolves into Thousand Kingdoms independence. Fostered the
+      young Tsoka Red Deer for twelve years, teaching him Imperial institutional
+      thinking and military organization that Tsoka later applied to his Akama
+      warband. This fostering arrangement exemplifies how frontier Colonel-
+      Hereditary estates maintain elaborate relationships with Akama warbands—
+      tribute ceremonies that are actually diplomatic negotiations, tax collection
+      resembling protection money, military subordination masking strategic
+      partnerships.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Northern Frontier, Tsoka Red Deer, Thousand Kingdoms]
+  # ─── end Colonel-Hereditary es-Valent ───
+
+  # ═══ Colonel-Hereditary Vas es-Tammuz ═══
+  Colonel-Hereditary Vas es-Tammuz:
+    category: person
+    short: "Frontier officer controlling trade routes through safe passage fees—40,000 obols annually."
+    person_location: Northern Frontier
+    details: |
+      Controls trade routes through controlling safe passage fees, generating
+      forty thousand obols annually—more than orthodox taxation would yield.
+      His relationship with local Akama bands operates through "tribute
+      presentations" that are actually diplomatic summits. Exemplifies how
+      frontier Colonel-Hereditary estates generate income through arrangements
+      that would shock core Imperial administrators.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Northern Frontier, Thousand Kingdoms]
+  # ─── end Colonel-Hereditary Vas es-Tammuz ───
+
+  # ═══ Colonel-Hereditary Kess es-Verath ═══
+  Colonel-Hereditary Kess es-Verath:
+    category: person
+    short: "Frontier officer surviving through usefulness—40 soldiers, neutral ground, arbitration."
+    person_location: Northern Frontier
+    details: |
+      Her forty soldiers could barely defend against serious assault. She
+      survives by providing services no one else offers: neutral ground for
+      negotiations, arbitration that both Imperial law and Akama custom
+      recognize. Her position rests on being too useful to attack, too weak
+      to threaten. Exemplifies how some frontier estates maintain themselves
+      through institutional value rather than military force.
+    rag_pointer: "The Thousand Kingdoms: Overview"
+    related: [Northern Frontier, Thousand Kingdoms]
+  # ─── end Colonel-Hereditary Kess es-Verath ───
 
   # ═══ Malpais War ═══
   Malpais War:
