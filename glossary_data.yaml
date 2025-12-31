@@ -8731,10 +8731,16 @@ entries:
     category: location
     short: "Waste processing at ya-Don's margin—where the ash falls and people live in it."
     details: |
-      ~4,000 permanent residents. Cinder-Sifters operate here under Curate Malachi. 
-      The Furnaces produce ash, slag, contaminated materials—someone has to process it. 
-      The work is dangerous, the land is worthless, and people live here because they 
-      have no better options. Essential disposal plus smuggling.
+      Eastern margin, downwind of the Furnaces. Ash falls here when the wind blows
+      wrong. The ground is contaminated—nothing grows, the water must be brought
+      in. Slag heaps and processing pits. The air tastes of metal. The Furnaces
+      produce waste and someone has to process it.
+
+      The Cinder-Sifters operate here under Curate Malachi. Salvage construction
+      on contaminated ground: shacks, lean-tos, structures that assume residents
+      won't stay long. Smuggling runs through because nobody watches closely.
+      About four thousand people live here because they have no better options.
+      The work is dangerous. The charity is real. So is the control.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Cinder-Sifters]
     location_features:
@@ -8798,10 +8804,17 @@ entries:
     category: location
     short: "Agricultural districts—rural vernacular where the land shapes the building."
     details: |
-      ~80,000 residents. Parish of Common-Ground. Where ya-Don's food comes from and 
-      where agricultural workers live. The architecture follows the land rather than 
-      urban patterns—irrigation channels dictate building placement, seasonal rhythms 
-      shape construction schedules.
+      Where desert becomes farmland through irrigation. The Doná River channels
+      spread water across fields; blood-trees line the watercourses with their
+      dark red canopy. The Furnaces visible but distant—this is where ya-Don's
+      density dissolves into productive land.
+
+      Farmhouses face irrigation channels rather than streets. Low stone walls
+      partition fields. The architecture follows the land: building placement
+      dictated by water, construction schedules shaped by harvest. The Parish of
+      Common-Ground serves the scattered population. Eighty thousand people feed
+      the city. The domed storage buildings echo Furnace geometry unconsciously—
+      millennia of building near those shapes making them seem natural.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don]
     location_features:
@@ -8862,8 +8875,17 @@ entries:
     category: location
     short: "Orevet quarter—architecture modified for light-sensitive vision."
     details: |
-      ~90,000 residents. Dim lighting, muted colors. Shrine of St. Oreli the furnace-seer. 
-      Bright Eyes Optical.
+      Deliberately dim. Street lamps tuned to Orevet vision—baseline visitors
+      experience the district as twilight even at noon. Shade is abundant;
+      overhangs extend further than standard; the sun is unwelcome. Windows
+      smaller than usual, deep-set, often fitted with heavy external shutters.
+
+      Exterior colors are deliberately muted—grey, brown, dark blue—reducing
+      reflected light that baseline eyes wouldn't notice but Orevet find painful.
+      Shop signs use color differences that baseline vision reads as nearly
+      identical but Orevet eyes distinguish easily: a parallel visual language
+      invisible to visitors. The Shrine of St. Oreli celebrates the furnace-seer
+      who perceived what others couldn't.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Orevet]
     location_features:
@@ -8988,11 +9010,17 @@ entries:
     category: location
     short: "Grey Water—nine caste-villages on defensive hills, waypoint to Asovoë."
     details: |
-      ~4,000 across nine villages (300 Völërath, rest Szkovërin and Draëthen). Refugees 
-      from ya-Tsovez settled here 10,000 years ago. Hills where Akama destriers cannot 
-      operate—no tribute because extraction costs more than it yields. Sort autofactory 
-      junk, process scrap via mercury amalgamation. Ships bound for Asovoë winter here; 
-      first-arrival and last-departure premiums. Villages compete bitterly for harbor access.
+      Nine caste-villages on defensive hills where destriers cannot operate. Refugees
+      from ya-Tsovez settled here ten thousand years ago. No tribute because
+      extraction costs more than it yields—the hills protect what they cannot
+      defend themselves. They sort autofactory junk, process scrap via mercury
+      amalgamation, eke out survival on the margin.
+
+      Ships bound for Asovoë winter here. First-arrival and last-departure
+      premiums make harbor access valuable, and the nine villages compete
+      bitterly for it. About four thousand people across them all—mostly
+      Szkovërin and Draëthen, with perhaps three hundred Völërath whose
+      Highborn ancestry shows in bone structure but not in circumstances.
     rag_pointer: The Volerath of Puget Sound
     related: [Ködhegy, Asovoë, Völërath, Szkovërin, Draëthen, San Juan Factorias]
     location_features:
@@ -9882,10 +9910,18 @@ entries:
     category: location
     short: "Residential overflow at the city's edge—where the shade runs out."
     details: |
-      ~130,000 residents. City-wide views. Parish of Mended-Spirits. Where workers go 
-      when central districts are full or unaffordable. Less courtyard organization, 
-      more improvised shade structures, buildings that solve heat problems individually 
-      rather than collectively.
+      Elevated terrain at the city's edge, with views across all ya-Don—the
+      Furnaces, the central districts, the agricultural lands beyond. Where
+      workers go when central districts are full or unaffordable. This is where
+      the shade tradition breaks down.
+
+      Central districts have courtyard organization refined over millennia—shared
+      shade wells, buildings arranged to create collective cooling. Thornback
+      Ridge doesn't have that. Buildings solve heat problems individually: canvas
+      awnings, salvage overhangs, whatever creates shadow. Streets that bake in
+      summer because nobody coordinated the construction. The Parish of Mended-
+      Spirits serves workers displaced by injury, families starting over. Shelter
+      first. Shade where you can find it.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don]
     location_features:
@@ -10115,8 +10151,17 @@ entries:
     category: location
     short: "Oldest residential district in ya-Don—Imperial vernacular refined over millennia."
     details: |
-      ~280,000 residents. Contains Cathedral of St. Akhmet. Commercial establishments, 
-      shift-end culture.
+      The oldest residential district, Imperial vernacular refined over millennia.
+      Massive stone buildings face inward around courtyards; blank walls present
+      to streets, creating shade canyons. The Furnace glow is visible down every
+      street. Furnace pipes run everywhere—thesad and bronze, six inches to
+      twenty feet in diameter.
+
+      The Cathedral of St. Akhmet dominates the skyline. Commercial establishments
+      cater to labor castes at shift-end: eating houses, drinking establishments,
+      shops that keep Furnace hours. Two hundred eighty thousand people live here
+      in the rhythm of the shifts, their lives organized around the work that
+      keeps the city running.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Furnaces]
     location_features:
@@ -10921,10 +10966,17 @@ entries:
     category: location
     short: "Pre-Interdict worker housing still occupied—five Highborn families whose voices enable Furnace processes."
     details: |
-      ~500 residents. The five Verethani families—Vereth, Somnal, Tessik-Vor, Keth-Ascending, 
-      and Dwell-Silent—have lived here longer than anyone can document. Buildings 
-      contemporaneous with the Furnaces, continuous occupation across tens of thousands 
-      of years. Their voices enable processes the Furnaces require.
+      Near the Furnaces' southeastern access points, old enough to predate the
+      surrounding construction—conventional ya-Don buildings grew up around it.
+      The five families have lived here longer than anyone can document.
+      Continuous occupation across tens of thousands of years. Their voices
+      enable processes the Furnaces require.
+
+      Close inspection reveals unusual proportions: doorways slightly too wide,
+      ceilings slightly too high, acoustic features baseline construction lacks.
+      The buildings are contemporaneous with the Furnaces themselves, their
+      materials resisting casual analysis. The families maintain what they were
+      given. The buildings know their purpose even if the inhabitants do not.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Highborn, Furnaces, Unwritten-Axiom]
     location_features:
@@ -11296,10 +11348,17 @@ entries:
     category: location
     short: "Ductworker quarter in Antediluvian infrastructure spaces—passages too small for anyone else."
     details: |
-      ~20,000 residents. Ventilation ducts, cable runs, maintenance crawlways—spaces 
-      the Antediluvians carved for infrastructure access, not habitation. Four-foot 
-      ceilings. Passages requiring compression to navigate. Only Ductworkers can live 
-      here; only Ductworkers would want to.
+      Ventilation ducts, cable runs, maintenance crawlways—spaces the Antediluvians
+      carved for infrastructure access, not habitation. Ceiling heights of four feet
+      or less. Passages requiring Ductworker compression to navigate: ribcages
+      folding, bodies flattening to squeeze through.
+
+      Nobody made it easy to occupy. People moved in anyway. Chambers converted
+      from junction boxes. Sleeping alcoves carved into equipment housings. The
+      Warren Tavern occupies an infrastructure junction—ceiling height perhaps
+      four feet, baseline visitors cannot enter without crawling. About twenty
+      thousand people live here. The tight spaces are home. Only Ductworkers can
+      fit; only Ductworkers would want to.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Ductworker]
     location_features:
