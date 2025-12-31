@@ -688,11 +688,21 @@ entries:
   # ═══ Gilded Petals ═══
   Gilded Petals:
     category: caste
-    short: "Outlawed courtesan caste with pheromone-producing sub-dermal vesicles."
+    short: Outlawed courtesans with gold-beige skin and pheromone vesicles—fewer than two hundred survive.
     details: |
-      Engineered ~700 years ago for pleasure services. Sub-dermal vesicles release 
-      pheromones inducing suggestibility and mild euphoria through skin contact. 
-      Officially outlawed and sterilized, but ~12% of 'sterilized' are fertile.
+      Androgynous symmetry, gold-beige skin, minimal secondary sex characteristics.
+      Sub-dermal vesicles release pheromones through skin contact—suggestibility,
+      mild euphoria. Enhanced senses read emotional states in heartbeats and
+      scent. The body was designed to please, and it does, whether or not you
+      want it to.
+
+      The caste is officially outlawed, officially sterilized. About twelve
+      percent remain fertile—someone's comforting lie. Bone-leaching genetics
+      require specialized supplements; without them, calcification begins.
+      Organ function declines after forty years even with treatment. Fewer
+      than two hundred survive, hiding in wealthy households, traveling
+      troupes, gambling dens. Existence itself is illegal. Wealthy patrons
+      ignore this.
     rag_pointer: "Castes of Mankind"
     related: [Bureau of the Creche, Reverie]
     caste_features:
