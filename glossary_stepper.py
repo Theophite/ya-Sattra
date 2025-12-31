@@ -269,9 +269,34 @@ def show_stats(entries: dict):
 # CLI
 # =============================================================================
 
+def show_single(entries: dict, index: int, category: str = None):
+    """Show a single entry by index and exit."""
+    items = list(entries.items())
+    if category:
+        items = [(k, v) for k, v in items if v.get('category') == category]
+
+    total = len(items)
+    if index >= total:
+        print(f"Index {index} exceeds total entries ({total})")
+        return
+
+    # Print reminder every 10 entries
+    if index % 10 == 0:
+        print(REMINDER)
+
+    name, entry = items[index]
+    display_entry(name, entry, index, total)
+
+    assessment = get_work_assessment(entry)
+    if assessment != "OK":
+        print(f"\n⚠ ASSESSMENT: {assessment}")
+
+    print(f"\nNext: --show {index + 1}" + (f" --category {category}" if category else ""))
+
 def main():
     parser = argparse.ArgumentParser(description="Step through glossary entries for revision")
     parser.add_argument('--start', type=int, default=0, help="Start from entry N")
+    parser.add_argument('--show', type=int, help="Show single entry N and exit (non-interactive)")
     parser.add_argument('--category', type=str, help="Filter to category (caste/location/organization/concept)")
     parser.add_argument('--needs-work', action='store_true', help="Only show entries needing work")
     parser.add_argument('--stats', action='store_true', help="Show statistics only")
@@ -299,6 +324,8 @@ def main():
 
     if args.stats:
         show_stats(entries)
+    elif args.show is not None:
+        show_single(entries, args.show, category=args.category)
     else:
         step_through(entries, start=args.start, category=args.category,
                     needs_work_only=args.needs_work)
