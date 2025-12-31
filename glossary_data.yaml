@@ -4168,8 +4168,18 @@ entries:
   # ═══ Ganat ═══
   Ganat:
     category: location
-    short: Revolutionary republic that rejected caste hierarchy.
-    details: Six million inhabitants. Nominally republican but Serrulata caste advantages undermine egalitarian ideology. Dawn and Dusk political factions. Fought the Empire over Yarangar eighteen years ago.
+    short: Canyon republic where every wall bears the signatures of those who carved it.
+    details: |
+      The revolution promised equality. The canyon walls remember who made them—every
+      surface signed, every piece of work attributed, the kilits that carved each
+      chamber still claiming it generations later. You can trace the history of a
+      street by reading the signatures climbing its walls.
+
+      Serrulata advantages persist despite the ideology. Everyone knows this. The
+      constitution says citizens, the economy says castes, and the gap between them
+      is where people actually live. Dawn and Dusk argue about which betrayal came
+      first. The war with the Empire eighteen years ago proved the republic could
+      fight. It did not prove the republic had become what it claimed to be.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Serrulata, Yarangar, Taho, Kilit]
     culture: [Ganati]
