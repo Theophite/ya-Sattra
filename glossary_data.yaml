@@ -4021,34 +4021,19 @@ entries:
     category: location
     short: Pre-Interdict industrial complex at the heart of ya-Don—the Empire's only source of new complex technology.
     details: |
-      Two square miles, ~80,000 workforce across three shifts. The only facility in the Empire 
-      capable of producing new complex technology. Temperature increases toward the center; 
-      inner sections require heat-adapted castes (Ashrat).
-      
-      PRIMARY OUTPUTS:
-      - Culverins: Electromagnetic infantry weapons. Produced in the Crucible (material prep) 
-        and Lattice Hall (crystalline matrices via Mutterer choir). Authentication systems 
-        built in at manufacture.
-      - Lectors: Computational/authentication devices. Inner ring production, most restricted. 
-        Requires Mutterer intervention, Verethani involvement, mysterious thermal regimes.
-      - Beamcasters: Plasma sidearms, standard Warborn issue. Pre-Interdict design, 
-        production process inherited rather than understood.
-      - Power armor components: For Warborn and specialist applications. Repairs and 
-        replacement parts; complete suits are archaeotech inheritance.
-      - Biological illumination: Two hundred tanks of bioluminescent organisms for Imperial 
-        lighting. Five tanks have died in recorded history; those capabilities are lost forever.
-      - Electronic components: Resistors, capacitors, semiconductors. The closest thing to 
-        conventional manufacturing.
-      - Cooling systems: Heat-exchange components under es-Vorath patent.
-      
-      STRUCTURE: Outer ring (storage, admin, preliminary processing), middle ring (culverin 
-      lines, component fabrication, illumination), inner ring (lector production, Mutterer 
-      chambers, ancient systems). Workers learn the geography without understanding the logic.
-      
-      CONTROL: Furnace Board (three patent families, four major guilds, Bureau of the Rod). 
-      Order of St. Akhmet holds absolute leverage—a strike shuts down the Empire's only 
-      source of new complex technology. This has happened twice; both times the Empire 
-      capitulated within weeks.
+      Two square miles of industrial sublime. The domes bulge asymmetrically, their
+      curves following geometries baseline mathematics cannot easily describe.
+      Obelisk towers rise three hundred feet, tops glowing amber. Temperature
+      increases toward the center; inner sections require heat-adapted castes.
+      Eighty thousand work here across three shifts.
+
+      The only facility in the Empire capable of producing new complex technology:
+      culverins, lectors, beamcasters, power armor components, biological
+      illumination. Workers learn the geography without understanding the logic.
+      The Order of St. Akhmet holds absolute leverage—a strike shuts down the
+      Empire's only source of new weaponry. This has happened twice. Both times
+      the Empire capitulated within weeks. The Furnaces demand. We provide. The
+      work continues.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Order of St. Akhmet, Culverin, Beamcaster, Lector, Bureau of the Rod]
     location_features:
@@ -4997,17 +4982,18 @@ entries:
     category: location
     short: "Pragmatic veterans' kilit (~3,800 members)—minimal ideology, social club."
     details: |
-      Approximately 3,800 members scattered across frontier settlements. Casual facility
-      near the garrison, meetings are excuses for socializing, political discussions
-      minimal. Informal leadership—regional coordinators handle local matters without
-      central direction.
+      Casual facility near the garrison. Meetings are excuses for socializing;
+      political discussions minimal. Regional coordinators handle local matters
+      without central direction. Free pulque and hashish for prospective members
+      near discharge—the same recruitment tool every veterans' kilit uses.
 
-      Focused on land grants and equipment loans without commitment to Dawn platforms
-      beyond member benefits. Attracts veterans who served for practical reasons—
-      citizenship, land grants, escape from poverty—rather than ideological commitment.
-      Would vote otherwise if benefits came from other sources, making them less
-      reliable for Dawn coalition but also less demanding of ideological purity. Free
-      pulque and hashish for prospective members near discharge.
+      Focused on land grants and equipment loans, not ideology. These are veterans
+      who served for practical reasons: citizenship, land, escape from poverty.
+      They would vote otherwise if benefits came from other sources. The Dawn
+      finds them less reliable but also less demanding of ideological purity.
+      Several thousand members scattered across the frontier, showing up when
+      convenient, voting when asked, otherwise just trying to build lives on
+      the land they earned.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [High Junction, Republican Veterans' Congress]
     location_features:
@@ -6099,17 +6085,20 @@ entries:
     category: location
     short: "Radical Dawn veterans' kilit (~4,500 members)—ideology over mutual aid, collective farms."
     details: |
-      Approximately 4,500 members across eastern settlements. Meetings are serious,
-      ideological, structured around formal agendas with debates and votes. Advocates
-      aggressive Dawn positions: maximum military spending, accelerated eastern expansion,
-      collective farms over individual homesteads. Rotating council leadership, currently
-      chaired by Sekh Tal-Omir, a Serrulata captain from the eastern campaigns.
+      Converted warehouse made into revolutionary headquarters. Revolutionary
+      banners cover the walls. Meetings are serious, structured around formal
+      agendas with debates and votes. The bar serves pulque and hashish virtually
+      free to young soldiers nearing discharge—recruitment tool and ideological
+      test.
 
-      Land grants go to collectives rather than individuals; members work shared holdings
-      and distribute proceeds according to labor contribution. Maintains connections with
-      Cloud Temple Band affiliates. Younger veterans who see service as beginning rather
-      than completing revolutionary obligation. Free pulque and hashish for prospective
-      members near discharge.
+      Land grants go to collectives rather than individuals; members work shared
+      holdings and distribute proceeds according to labor contribution. They
+      advocate maximum military spending, accelerated eastern expansion, treating
+      military service as ongoing revolutionary commitment. Younger veterans who
+      see service as beginning rather than completing their obligation to the
+      Republic. Maintains connections with Cloud Temple Band affiliates. Older
+      members remember fighting the Sultanate; younger ones want to fight the
+      Thousand Kingdoms.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Manufacturing District, High Junction, Republican Veterans' Congress, Dawn Party, Cloud Temple Band]
     location_features:
@@ -7734,18 +7723,18 @@ entries:
     category: location
     short: "Moderate veterans' kilit (~6,200 members)—practical mutual aid, individual homesteads."
     details: |
-      Approximately 6,200 members concentrated around High Junction. Modest facilities
-      in Old Town. Meetings focus on practical mutual aid rather than ideology.
-      Represents moderate Dawn positions—veteran benefits without aggressive expansion.
-      Elected officers serving three-year terms; current President is Yela Khen-Toukh,
-      a near-baseline veteran from the southern campaigns.
+      Modest facilities in Old Town. Meetings focus on practical mutual aid rather
+      than ideology—equipment loans, veterinary services, market access, emergency
+      support for families facing hardship. Elected officers serving three-year
+      terms. Free pulque and hashish for prospective members near discharge.
 
-      Members tend to be older veterans who've already established homesteads. Economic
-      model emphasizes individual homesteading with collective support: equipment loans,
-      veterinary services, market access, emergency support for families facing hardship.
-      Operates schools for veterans' children. Lobbies for infrastructure investment in
-      established settlements. Free pulque and hashish for prospective members near
-      discharge.
+      Members tend to be older veterans who've already established homesteads.
+      Individual ownership with collective support, not the Frontier Collective's
+      communal farming. They lobby for infrastructure investment in established
+      settlements, not aggressive eastern expansion. Moderate Dawn positions that
+      accept the revolution's benefits without demanding its continuing warfare.
+      The largest veterans' kilit in the region, representing those who came to
+      build, not those who came to keep fighting.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Old Town, High Junction, Republican Veterans' Congress, Dawn Party]
     location_features:
@@ -14535,22 +14524,21 @@ entries:
     short: "Ganati state broadcaster nicknamed 'The Cathedra'—Dawn-dominated despite nominal neutrality."
     aliases: [The Cathedra]
     details: |
-      LOCATION: The Cathedral in Ganat proper—former palace of Sultana Ulayah, now shared
-      with Patriarch Kaleb's religious administration. Crowns the Far Wall, 300 feet long,
-      partially overhanging the cliff, visible from anywhere in the lower canyon. Electric
-      lights illuminate carved revolutionary and Penitent imagery at night.
+      Housed in the former palace of Sultana Ulayah, now shared with Patriarch
+      Kaleb's religious administration. The building crowns the Far Wall—three
+      hundred feet long, partially overhanging the cliff, visible from anywhere
+      in the lower canyon. Electric lights illuminate carved revolutionary and
+      Penitent imagery at night.
 
-      THE NICKNAME: Derives from the cathedra—the bishop's throne from which ex cathedra
-      pronouncements are made. Ministry officials issue official truths from the former
-      throne room of an executed monarch. The pun circulates mostly among Dusk merchants
-      who receive Ministry announcements with appropriate skepticism.
-
-      TRANSMISSION INFRASTRUCTURE: The towers crowning the building were originally
-      installed to broadcast the Common Plea—humanity's weekly cry to the cosmos, begging
-      for liberation from the Interdict. The Ministry inherited this infrastructure and
-      expanded it. The same towers that carry Kaleb's sermons across the Republic also
-      carry agricultural statistics, revolutionary cinema, and carefully framed "neutral"
-      content.
+      The nickname derives from the cathedra: the bishop's throne from which
+      ex cathedra pronouncements are made. Ministry officials issue official
+      truths from the throne room of an executed monarch. The towers crowning
+      the building were originally installed to broadcast the Common Plea—
+      humanity's weekly cry to the cosmos. The Ministry inherited this
+      infrastructure. The same towers that carry Kaleb's sermons now carry
+      agricultural statistics, revolutionary cinema, and carefully framed
+      "neutral" content. Dusk merchants receive Ministry announcements with
+      appropriate skepticism.
 
       ORGANIZATIONAL STRUCTURE: Nominally neutral, serving the Republic rather than either
       party. In practice, Dawn dominates. The director is a Dawn appointment. Most senior
@@ -14607,23 +14595,20 @@ entries:
     category: organization
     short: "Dawn-controlled land grant administration—structurally corrupt, politically untouchable."
     details: |
-      Administers veteran land grants in the eastern territories. Covers more square miles
-      than the rest of the Republic combined. Dawn's expansion ideology made material.
+      Administers veteran land grants in the eastern territories—more square miles
+      than the rest of the Republic combined. Dawn's expansion ideology made
+      material. Central administration in Ganat proper; District Offices scattered
+      across the territories, each run by a District Officer who is effectively
+      the government for populations not yet organized into functioning kilits.
 
-      STRUCTURE: Central administration in Ganat proper (Minister, surveyors, clerks,
-      inspectors). District Offices scattered across eastern territories, each run by
-      a District Officer who is effectively the government for populations not yet
-      organized into functioning kilits.
-
-      THE CORRUPTION PROBLEM: Structural, not incidental. Revolutionary units became
-      administrative districts—chain of command became organizational hierarchy, military
-      loyalty became institutional culture. When inspectors investigate, they face kilits:
-      men who fought together, drill together, vote together, close ranks against outsiders.
-      Everyone knows everyone. Everyone protects everyone.
-
-      THE SPECULATOR PROBLEM: Veterans receive grants, discover farming is difficult
-      without capital or experience, fail. Dusk-aligned merchant houses buy failed grants
-      at discount, consolidate into estates, hire original grantees as tenants. The program
+      The corruption is structural, not incidental. Revolutionary units became
+      administrative districts. Chain of command became organizational hierarchy.
+      Military loyalty became institutional culture. When inspectors investigate,
+      they face kilits: men who fought together, drill together, vote together,
+      close ranks against outsiders. Everyone knows everyone. Everyone protects
+      everyone. Meanwhile, veterans receive grants, discover farming is difficult
+      without capital, fail, and sell to Dusk-aligned merchant houses who
+      consolidate the land into estates. The program
       produces the tenantry it was designed to prevent.
 
       WHY IT'S UNFIXABLE: Dawn cannot reform it without attacking their own base. The
@@ -14666,23 +14651,20 @@ entries:
     category: organization
     short: "Dawn-controlled military administration—Kelso Senna's institutional legacy, staffed by revolutionary veterans, dependent on Dusk money."
     details: |
-      Coordinates Republican Guard, kilit auxiliary obligations, weapons production, and
-      strategic planning. Dawn's institution by practical necessity: qualified candidates
-      are almost entirely revolutionary veterans. First Minister was Kelso Senna himself,
-      briefly, before his departure to Cloud Temple.
+      Coordinates Republican Guard, kilit auxiliary obligations, weapons production,
+      strategic planning. Dawn's institution by practical necessity: qualified
+      candidates are almost entirely revolutionary veterans. The first Minister
+      was Kelso Senna himself, briefly, before his departure to Cloud Temple.
+      The institutional culture he established persists.
 
-      STRUCTURE: Minister (Dawn appointment), Guard Command (operationally distinct,
-      ~3,000 active personnel), Auxiliary Coordination (perpetually understaffed,
-      coordinates kilit forces that resist coordination).
-
-      THE FUNDING DEPENDENCY: Dawn's institution depends on Dusk's money. Military
-      appropriations require coalition support. Veteran benefits are untouchable—Dawn
-      exploits this by packaging military spending with benefits to force Dusk support.
-
-      THE CENTRALIZATION DEBATE: Dawn repeatedly proposes unified command. Dusk blocks
-      every proposal. The arguments they don't make: centralized power combined with
-      Dawn's Senate majority would enable revolutionary transformation. The auxiliary
-      dysfunction is the political protection.
+      Dawn's institution depends on Dusk's money. Military appropriations require
+      coalition support. Veteran benefits are untouchable—Dawn exploits this by
+      packaging military spending with benefits to force Dusk support. Dawn
+      repeatedly proposes unified command; Dusk blocks every proposal. The
+      arguments they don't make: centralized power combined with Dawn's Senate
+      majority would enable revolutionary transformation. The auxiliary
+      dysfunction is the political protection. Everyone tolerates the
+      inefficiency because the alternative is worse.
     rag_pointer: "The Republic of Ganat; Militaries and Warfare"
     related: [Ganat, Dawn Party, Dusk Party, Republican Guard, Kilit, Kelso Senna, Cloud Temple Band]
   # ─── end Ministry of War ───
