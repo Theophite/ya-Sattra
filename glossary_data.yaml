@@ -1309,17 +1309,21 @@ entries:
       current_role: "deep infrastructure maintenance, salvage"
       distribution:
         - "ya-Sattra Middens only"
-        - "five clans: Venn, Hasket, Cho, Sarn, Benru"
+        - "Hollow-Egress five: Loak, Benru, Venn, Hasket, Sarn (joint administration)"
+        - "Cho: Lantern-Heaps electrical monopoly"
+        - "Benku: Bright-Spire crane operators"
+        - "Heth: separate salvage operations"
       special:
         - "SECRET ancestry—must perform confusion around machinery"
         - "mathematical intuitions about systems no one officially understands"
         - "family shrines include technical death records as education"
         - "children study failure modes, learn to recognize catastrophic warnings"
-        - "Cho clan maintains Lockworks (water distribution)"
-        - "Sarn clan operates at crushing depths"
+        - "Loak clan operates Lift-3 and Merra's kitchen"
+        - "Benru clan handles documentation (identity papers, work permits)"
         - "Venn clan specialized in high-altitude rigging"
         - "Hasket clan has stevedore fosterings (mixed heritage)"
-        - "Benru clan handles salvage trade"
+        - "Sarn clan operates at crushing depths"
+        - "Cho clan maintains Lockworks (water distribution)"
         - "intermarriage with orbital castes causing fertility crisis"
   # ─── end Sewer-Fishers ───
 
@@ -1478,7 +1482,7 @@ entries:
         - false statements linguistically impossible in Jargon
         - "refused Eighth Testament's flawed mathematics"
         - sterilized as punishment
-        - "SEWER-FISHERS: hidden descendants in ya-Sattra Middens, five clans maintain secret ancestry"
+        - "SEWER-FISHERS: hidden descendants in ya-Sattra Middens, multiple clans maintain secret ancestry"
   # ─── end Technical Castes ───
 
   # ═══ Verethani ═══
@@ -10087,10 +10091,10 @@ entries:
     category: organization
     short: "Sewer-fisher clan operating Lift-3 and Merra's kitchen."
     details: |
-      One of six sewer-fisher clans in the Middens. Yuli Loak runs Lift-3 operations; 
-      Merra Loak operates the kitchen that feeds salvage workers and gathers 
-      intelligence. The clan's control of deep access and food distribution gives 
-      them influence disproportionate to their numbers.
+      One of five sewer-fisher clans jointly administering Hollow-Egress. Yuli Loak
+      runs Lift-3 operations; Merra Loak operates the kitchen that feeds salvage
+      workers and gathers intelligence. The clan's control of deep access and food
+      distribution gives them influence disproportionate to their numbers.
     rag_pointer: The Middens Tenements
     related: [Sewer-Fishers, Hollow-Egress, Lift-3, Middens]
   # ─── end Loak ───
@@ -10098,13 +10102,15 @@ entries:
   # ═══ Benru ═══
   Benru:
     category: organization
-    short: "Sewer-fisher clan running documentation services in the Gallows."
+    short: "Sewer-fisher clan running documentation services from Hollow-Egress."
     details: |
-      One of six sewer-fisher clans in the Middens. Operates the documentation desk 
-      handling identity papers, work permits, and debt instruments. Their services 
+      One of five sewer-fisher clans jointly administering Hollow-Egress. Occupies
+      the fifth floor archive, maintaining documentation that allows sewer-fishers
+      to work in a system that doesn't officially acknowledge their existence.
+      Handles identity papers, work permits, and debt instruments. Their services
       are essential to anyone needing to prove they exist—or to disappear from records.
     rag_pointer: The Middens Tenements
-    related: [Sewer-Fishers, Gallows, Middens]
+    related: [Sewer-Fishers, Hollow-Egress, Middens]
   # ─── end Benru ───
 
   # ═══ Val Family ═══
@@ -10139,11 +10145,11 @@ entries:
     category: organization
     short: "Sewer-fisher clan controlling Lantern-Heaps electrical monopoly and Ridge gondola."
     details: |
-      One of six sewer-fisher clans in the Middens. Controls electrical distribution 
-      in Lantern-Heaps—the only building with consistent power. Operates the Cho 
-      gondola connecting Lantern-Heaps to Penthouse Block, the sole direct route 
-      between Middens and Ridge. Rainbow signage marks their territory. Four obols 
-      daily for gondola passage.
+      Sewer-fisher clan based in Lantern-Heaps, separate from the five clans jointly
+      administering Hollow-Egress. Controls electrical distribution in Lantern-Heaps—
+      the only building with consistent power. Operates the Cho gondola connecting
+      Lantern-Heaps to Penthouse Block, the sole direct route between Middens and
+      Ridge. Rainbow signage marks their territory. Four obols daily for gondola passage.
     rag_pointer: "The Middens Tenements, The Ridge: Comprehensive Summary"
     related: [Sewer-Fishers, Lantern-Heaps, Ridge, Penthouse Block]
   # ─── end Cho ───
@@ -10153,15 +10159,15 @@ entries:
     category: organization
     short: "Sewer-fisher clan specializing in high-rigging, cables, and aerial infrastructure."
     details: |
-      One of six sewer-fisher clans in the Middens. Controls high-altitude infrastructure
-      throughout the district—cables, bridges, zip lines, and unauthorized crossing routes.
-      Patriarch Eldin Venn (64) manages external relations while Forewoman Ressa Venn (28)
-      handles dangerous installations. Operates Middens Ropeworks, producing cables that
-      exceed formal engineering specifications. Maintains approximately 30 unauthorized
-      crossing routes enabling toll avoidance. Distributed residence across interconnected
-      platforms in upper Middens structures.
+      One of five sewer-fisher clans jointly administering Hollow-Egress. Controls
+      high-altitude infrastructure throughout the district—cables, bridges, zip lines,
+      and unauthorized crossing routes. Patriarch Eldin Venn (64) manages external
+      relations while Forewoman Ressa Venn (28) handles dangerous installations.
+      Operates Middens Ropeworks, producing cables that exceed formal engineering
+      specifications. Maintains approximately 30 unauthorized crossing routes enabling
+      toll avoidance. Distributed residence across interconnected platforms.
     rag_pointer: "The Sewer-Fishers of the Middens"
-    related: [Sewer-Fishers, Middens, Torchline Row, Iron Yards]
+    related: [Sewer-Fishers, Middens, Hollow-Egress, Torchline Row, Iron Yards]
   # ─── end Venn ───
 
   # ═══ Hasket ═══
@@ -10169,15 +10175,15 @@ entries:
     category: organization
     short: "Sewer-fisher clan running aquaculture, dock labor, and distillery operations."
     details: |
-      One of six sewer-fisher clans in the Middens. Distinctive for mixing "big cousins"
-      (stevedore fosterlings) with pure-line "little cousins." Matron Tasme Hasket (62)
-      controls clan resources despite being smallest member (145 cm). "Uncle" Brakk Hasket
-      (48), a Redback-variant stevedore fostering, serves as dock foreman. Operates three
-      businesses: aquaculture in flooded lower Bright-Spire, freight/dock labor through
-      Brakk's crews, and a still producing industrial alcohol. Location: partially collapsed
-      warehouse complex at bottom of Bright-Spire.
+      One of five sewer-fisher clans jointly administering Hollow-Egress. Distinctive for
+      mixing "big cousins" (stevedore fosterlings) with pure-line "little cousins." Matron
+      Tasme Hasket (62) controls clan resources despite being smallest member (145 cm).
+      "Uncle" Brakk Hasket (48), a Redback-variant stevedore fostering, serves as dock
+      foreman. Provides physical security for the cooperative and maintains aquaculture
+      in Hollow-Egress's flooded basement. Also operates freight/dock labor through
+      Brakk's crews and a still producing industrial alcohol.
     rag_pointer: "The Sewer-Fishers of the Middens"
-    related: [Sewer-Fishers, Middens, Bright-Spire, Salvage Guild]
+    related: [Sewer-Fishers, Middens, Hollow-Egress, Salvage Guild]
   # ─── end Hasket ───
 
   # ═══ Sarn ═══
@@ -10185,32 +10191,49 @@ entries:
     category: organization
     short: "Sewer-fisher clan maintaining contact with deep-dwelling populations beneath ya-Sattra."
     details: |
-      One of six sewer-fisher clans in the Middens. Uniquely adapted for deep-tunnel
-      navigation. Patriarch Vennas Sarn (71) rarely surfaces, spending months in deep tunnels
-      with bioluminescent eyes and lichen-crusted skin. Navigator Liya Sarn (34) serves as
-      primary scout, navigating flooded tunnels blind using inner ear depth sensation. Korim
-      Sarn (45) handles surface representation. Trade surface goods for exotic salvage and
-      technical knowledge from isolated deep populations—some claiming memories of the
-      original sterilization plague. Minimal surface presence at Sump-Gate; real infrastructure
-      exists in partially flooded tunnels below.
+      One of five sewer-fisher clans jointly administering Hollow-Egress. Uniquely adapted
+      for deep-tunnel navigation and controls access below the second transition chamber.
+      Patriarch Vennas Sarn (71) rarely surfaces, spending months in deep tunnels with
+      bioluminescent eyes and lichen-crusted skin. Navigator Liya Sarn (34) serves as
+      primary scout, navigating flooded tunnels blind using inner ear depth sensation.
+      Korim Sarn (45) handles surface representation. Trade surface goods for exotic salvage
+      and technical knowledge from isolated deep populations—some claiming memories of the
+      original sterilization plague.
     rag_pointer: "The Sewer-Fishers of the Middens"
-    related: [Sewer-Fishers, Middens, Sump-Gate, Deep Populations]
+    related: [Sewer-Fishers, Middens, Hollow-Egress, Sump-Gate, Deep Populations]
   # ─── end Sarn ───
 
   # ═══ Heth ═══
   Heth:
     category: organization
-    short: "Sewer-fisher clan specializing in salvage work and infrastructure recovery."
+    short: "Sewer-fisher clan specializing in salvage work—operates outside the Hollow-Egress cooperative."
     details: |
-      One of six sewer-fisher clans in the Middens. Focused on salvage operations and
-      material recovery from collapsed infrastructure. Members like Korel Mazh demonstrate
-      the intuitive technical understanding inherited from Technical Caste ancestors—hands
-      that know where problems lie, perception of function without conscious analysis. The
-      clan maintains traditional salvage practices while concealing the full extent of their
-      technical capabilities.
+      Sewer-fisher clan in the Middens, distinct from the five clans that jointly administer
+      Hollow-Egress. Focused on salvage operations and material recovery from collapsed
+      infrastructure. Members like Korel Mazh demonstrate the intuitive technical understanding
+      inherited from Technical Caste ancestors—hands that know where problems lie, perception
+      of function without conscious analysis. The clan maintains traditional salvage practices
+      while concealing the full extent of their technical capabilities.
     rag_pointer: "The Sewer-Fishers of the Middens"
     related: [Sewer-Fishers, Middens, Salvage Guild, Korel Mazh]
   # ─── end Heth ───
+
+  # ═══ Benku ═══
+  Benku:
+    category: organization
+    short: "Sewer-fisher clan operating the crane at Bright-Spire's peak—maximum elevation, minimum freedom."
+    details: |
+      Sewer-fisher clan in the Middens, operating from Bright-Spire rather than the Hollow-Egress
+      cooperative. The family maintains the crane at the spire's peak, where the building narrows
+      to eight meters across. Their single room represents maximum elevation with minimum
+      freedom—they can see the entire harbor but cannot leave without passing through Chain-Men
+      territory. The crane's reach extends fifty meters horizontally, allowing direct loading from
+      ships to Ridge-bound wagons and bypassing dock fees. This geographic advantage would make
+      them wealthy if they could keep their earnings. Instead, they exist in the peculiar torture
+      of handling fortune while living in poverty under Chain-Men occupation.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Middens, Bright-Spire, Chain-Men]
+  # ─── end Benku ───
 
   # ═══ Many ═══
   Many:
@@ -11954,13 +11977,13 @@ entries:
   # ═══ Jak Loak ═══
   Jak Loak:
     category: person
-    short: "Orphaned Loak cousin who learned the Jargon from Den Vash—can make people forget."
+    short: "Orphaned Loak cousin who learned the Jargon from Den Vesh—can make people forget."
     person_location: Middens
     details: |
       Age 19. Parents were cousins to Sela Loak (Deacon of Valve-Saint Parish) before Chain-Men
       beat them to death over a toll dispute. Raised by "Aunt" Merra at Hollow-Egress, growing
-      up invisible in her kitchen while learning to process information. Now works at Den Vash's
-      pawn shop in Iron Yards—ostensibly grey-market salvage, actually something stranger. Den Vash
+      up invisible in her kitchen while learning to process information. Now works at Den Vesh's
+      pawn shop in Iron Yards—ostensibly grey-market salvage, actually something stranger. Den Vesh
       has been teaching him the Jargon. He can make people forget specific details, creating gaps
       in memory the affected never notice. Characteristic sewer-fisher build: small, compact,
       slate-grey oily skin, void-black eyes. Deliberately unmemorable—someone who can make people
@@ -11968,7 +11991,7 @@ entries:
       operations exceeding any of their individual capabilities. The Chain-Men don't know he
       survived or what he learned.
     rag_pointer: "The Sewer-Fishers of the Middens"
-    related: [Sewer-Fishers, Loak, Jargon, Chain-Men, Middens, Den Vash, Hanno Venn, Mesca Galen]
+    related: [Sewer-Fishers, Loak, Jargon, Chain-Men, Middens, Den Vesh, Hanno Venn, Mesca Galen]
   # ─── end Jak Loak ───
 
   # ═══ Hanno Venn ═══
@@ -12093,8 +12116,8 @@ entries:
     related: [Chain-Men, Hanged Men, Hanno Venn, Venn, Bright-Spire]
   # ─── end Garren Fen ───
 
-  # ═══ Den Vash ═══
-  Den Vash:
+  # ═══ Den Vesh ═══
+  Den Vesh:
     category: person
     short: "Iron Yards pawnbroker teaching Jak Loak the Jargon—grey-market salvage front for stranger operations."
     person_location: Iron Yards
@@ -12102,13 +12125,13 @@ entries:
       Age unknown. Operates a pawn shop in the Iron Yards that ostensibly handles grey-market
       salvage but is actually something stranger. Has been teaching Jak Loak the Jargon—the
       Technical Caste language of mathematical proof. Through this training, Jak has acquired
-      the ability to create gaps in memory. The nature of Den Vash's own capabilities and
+      the ability to create gaps in memory. The nature of Den Vesh's own capabilities and
       origins remains unclear; few understand the Jargon well enough to teach it, and fewer
       still would share such dangerous knowledge with a sewer-fisher orphan. Whatever his
       reasons, the result is a weapon the Loak clan cannot acknowledge possessing.
     rag_pointer: "The Sewer-Fishers of the Middens"
     related: [Iron Yards, Jak Loak, Jargon, Technical Castes, Loak]
-  # ─── end Den Vash ───
+  # ─── end Den Vesh ───
 
   # ═══ Tatius Benru ═══
   Tatius Benru:
