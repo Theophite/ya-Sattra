@@ -2130,9 +2130,16 @@ entries:
     category: location
     short: "Serrulata trading district—Ganati architecture, not Imperial vernacular."
     details: |
-      ~30,000 residents. Ganati-influenced architecture. Republican cultural practices. 
-      The district makes no attempt to fit ya-Don's vernacular tradition—it is Ganat 
-      transplanted, the Republic's architecture serving the Republic's people.
+      The boundary is visible from blocks away. Angular Imperial stone gives way to
+      rounded adobe curves, the color palette shifting from tan-and-grey to rust,
+      ochre, and teal. This is Ganat transplanted—the Republic's architecture serving
+      the Republic's people, making no attempt to fit ya-Don's vernacular tradition.
+
+      Light falls differently here. Amber-tinted windows filter the valley glare for
+      Serrulata eyes. Copper inlay traces geometric patterns on doorframes and
+      windowsills. The streets sound different too—Ganati languages, desert spice
+      smells, revolutionary sentiment that stays subdued but never quite disappears.
+      Thirty thousand people living as if the canyon were a distant abstraction.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Ganat, Serrulata]
     location_features:
@@ -2190,11 +2197,16 @@ entries:
     category: location
     short: "Elite district housing Aureate estates on pre-Interdict marvels."
     details: |
-      ~48,000 residents: ~3,200 Aureate family members, ~32,000 hereditary servants, 
-      ~12,000 commercial workers. Wealth derives from patents maintained through inherited 
-      ritual, not knowledge. Self-maintaining infrastructure: porcelain-coral streets that 
-      clean themselves, bioluminescent lamp posts fed by hereditary lamp-lighters. Buildings 
-      may be the actual patent holders, with families merely their interface.
+      North of the Rift, slightly elevated. Pre-Interdict arcologies that refused to
+      fall—each one unique, each one incomprehensible in its own way. The streets are
+      porcelain-coral that cleans itself. Bioluminescent lamp posts glow at dusk,
+      tended by hereditary lamp-lighters who perform rituals they do not understand.
+
+      The Aureate families maintain what they were given. Wealth derives from patents
+      kept active through inherited ritual, not knowledge. Some theorize the buildings
+      are the actual patent holders, with families merely their interface—living keys
+      to processes that predate living memory. The servants outnumber the masters
+      ten to one. Everyone knows their place in a hierarchy older than history.
     rag_pointer: The Antediluvian Quarter
     related: [ya-Sattra, Aureate, Medina Quarter, Rift, The Prismatic Archive]
     location_features:
@@ -2828,10 +2840,15 @@ entries:
     category: location
     short: "Patent-holding families' compounds—ranging from formal vernacular to deliberate modesty."
     details: |
-      ~2,000 residents. es-Kiral, es-Etaie, es-Vorath compounds. Where ya-Don's 
-      Aureate families maintain residences showing different relationships to display: 
-      es-Kiral ostentation vs. es-Etaie deliberate modesty. The contrast is intentional 
-      and theological.
+      Low hill at the southern edge, removed from Furnace proximity. The heat is
+      managed here, not embraced. The compounds turn inward like all ya-Don
+      architecture, but what they enclose varies dramatically.
+
+      Walk past es-Kiral ostentation—gilt and marble announcing wealth without
+      apology. Then es-Etaie deliberate modesty—the same wealth expressed through
+      restraint, through what is not shown. The contrast is intentional and
+      theological. Each family's architecture argues for a different relationship
+      between wealth and virtue. The argument has continued for centuries.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Aureate, es-Kiral, es-Etaie, es-Vorath]
     location_features:
@@ -3094,11 +3111,17 @@ entries:
     category: location
     short: "Guild street at Archive Gate—first Medina territory visitors from Rotten Quarter encounter."
     details: |
-      ~300m long, boundaries marked by bronze plaques with deep antiquity patina. 
-      Booksellers' Guild (~80 members, 23 licensed shops) holds exclusive retail 
-      rights. Many's primary countinghouse positioned where anyone bringing value 
-      from Iron Yards, Middens, or Ridge must pass. Ta-Kefyeh maintain queue order.
-      The Archive Gate now takes its name from this street.
+      Three hundred meters long, boundaries marked by bronze plaques darkened with
+      centuries of patina. This is the first Medina Quarter territory that visitors
+      from the Rotten Quarter encounter—the transition from salvage economy to
+      regulated commerce.
+
+      The Booksellers' Guild holds exclusive retail rights here. Many's primary
+      countinghouse sits exactly where anyone bringing value from the Iron Yards,
+      Middens, or Ridge must pass. The positioning is not accidental. Ta-Kefyeh
+      maintain queue order outside, ensuring the transition from one economy to
+      another remains orderly. The Archive Gate takes its name from this street,
+      not the other way around.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [Old Customs, Many, Archive Gate, Booksellers' Guild, Ta-Kefyeh]
     location_features:
@@ -3141,10 +3164,17 @@ entries:
     category: location
     short: "Bureau of the Rod enclave—ya-Sattra architecture imposed, alien to the surrounding city."
     details: |
-      ~8,000 residents. Institute of Flow headquarters. es-Vorath family compound. 
-      Colonial architecture: built for bodies that cannot tolerate Central Valley 
-      heat, making no concession to local tradition. The district announces that 
-      its residents are from elsewhere and intend to remain comfortable.
+      Cross the boundary and feel the temperature drop—twenty degrees cooler than
+      surrounding ya-Don. The architecture is ya-Sattra imported without adaptation:
+      geometric precision, coastal grey stone, fitted construction. Buildings that
+      would look at home in the Medina Quarter look deeply wrong here.
+
+      The Institute of Flow coordinates the Furnaces' cooling systems from a
+      building that demonstrates what cooling can achieve when resources are
+      unlimited. Local workers enter for employment and notice the change
+      immediately. The architecture is not hostile, but it is not welcoming
+      either. It exists for its residents, not its neighbors. It announces that
+      its people are from elsewhere and intend to remain comfortable.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Bureau of the Rod]
     location_features:
@@ -3279,10 +3309,19 @@ entries:
     category: location
     short: "Underground district in Antediluvian tunnels never meant for habitation."
     details: |
-      ~50,000 residents. Tunnel systems surface dwellers barely know exist. Geography 
-      follows geology, not surface streets. Speaking Stones communication hub. The 
-      Antediluvians carved these passages for infrastructure—ventilation, conduits, 
-      access to systems nobody now understands. People moved in anyway.
+      Tunnel systems spreading beneath the Threshold, Ember Row, the Furnaces—
+      places surface dwellers barely know exist. The geography follows geology,
+      not street grids. Chambers beneath one district might connect more easily
+      to tunnels beneath another than to the surface directly above.
+
+      The Antediluvians carved these passages for infrastructure: ventilation,
+      conduits, access to systems nobody now understands. People moved in anyway.
+      Constant temperature, constant pressure, constant darkness except where
+      residents have added light. Furnace pipes run through these tunnels—thesad
+      pipes humming with processes alongside conventional bronze patched by
+      generations of underground maintenance. The Speaking Stones communication
+      hub sits at a convergence point. The stone is home. The weight above is
+      comfort.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Karst, Speaking Stones]
     location_features:
@@ -3451,21 +3490,18 @@ entries:
     category: location
     short: "Family housing climbing toward Sierra foothills—marginally cooler, with sunset Furnace views."
     details: |
-      ~200,000 residents east of Threshold, ~200 feet elevation gain providing cooler
-      temperatures families value. Higher proportions of near-baselines and Orevet
-      (whose bodies benefit from temperature differential). Individual dwellings more
-      common than Threshold—families can own rather than rent.
+      East of the Threshold, climbing toward Sierra foothills. Two hundred feet of
+      elevation gain means temperatures families can tolerate. Individual dwellings
+      more common than in the Threshold—here you can own rather than rent. Gardens
+      appear where water permits, small vegetable plots that are luxury in a city
+      dominated by industry.
 
       The name comes from the western view: at sunset, the Furnaces' industrial glow
       resembles banked coals through silhouetted domes and towers. Residents gather
-      on terraces and rooftops for this daily display—shared viewing has become social
-      ritual defining neighborhood identity.
-
-      Architecture more varied than Threshold's, reflecting construction across longer
-      period. Gardens appear where water permits—small vegetable plots, the luxury of
-      growing things in a city dominated by industry. The Overlook terraced plaza offers
-      city-wide views; Parish Church of St. Calis has slightly-wrong spire proportions
-      that residents defend loyally.
+      on terraces and rooftops for this daily display. Shared viewing has become
+      social ritual, defining neighborhood identity. The Parish Church of St. Calis
+      has slightly-wrong spire proportions that residents defend loyally against
+      outside criticism.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Threshold, Orevet]
     location_features:
@@ -3912,8 +3948,17 @@ entries:
     category: location
     short: "Logistics district around ya-Don's rail terminus."
     details: |
-      ~160,000 residents. Covenant of Saint Aureline territory. Tariff systems control 
-      all cargo movement. When warehouses become obsolete, they're demolished and replaced.
+      Rail lines converge on the terminus. Loading platforms sized for standard cargo.
+      Constant activity of goods moving in, goods moving out, the rhythms following
+      cargo schedules rather than Furnace shifts. The Covenant of Saint Aureline
+      controls the tariff systems; every shipment through ya-Don passes their
+      checkpoints.
+
+      When a warehouse becomes obsolete, it is demolished and replaced. Buildings
+      here are constructed for purpose, not legacy. Housing squeezes into remaining
+      spaces. The Weighmaster's Station is deliberately imposing—stone construction,
+      elevated entrance—announcing authority over everything that moves through.
+      The goods must move. Everything else follows.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Covenant of Saint Aureline]
     location_features:
@@ -5097,11 +5142,17 @@ entries:
     category: location
     short: "Salvage and industrial district in ya-Sattra's Rotten Quarter."
     details: |
-      ~70,000 work here daily; ~45,000 live in worker housing on southern fringe. Quarried 
-      depression between harbor grain docks and the Ridge. Three powers share control: Salvage 
-      Guild (sales), Pipefitters Union (labor), Yen Tam Beneficial Society (vice). Work destroys 
-      bodies—radiation, chemicals, accidents, metal dust. The Yards take what other districts 
-      reject, turning wreckage into wealth.
+      Quarried depression between the harbor grain docks and the Ridge. The work
+      destroys bodies—radiation, chemicals, accidents, metal dust settling in
+      lungs. The Yards take what other districts reject and turn wreckage into
+      wealth. Worker housing crowds the southern fringe.
+
+      Three powers share control: Salvage Guild handles sales, Pipefitters Union
+      controls labor, Yen Tam Beneficial Society runs vice. The arrangement
+      persists because none can displace the others, and all profit from the
+      grinding machinery that processes salvage into materials the city needs.
+      Seventy thousand work here daily. They know what the work costs. They do
+      it anyway.
     rag_pointer: The Iron Yards
     related: [Salvage Guild, Pipefitters Union, Yen Tam Beneficial Society, Iron Yards Boys]
     location_features:
@@ -5248,10 +5299,17 @@ entries:
     category: location
     short: "Shipping containers welded to cliff face—vertical worker housing climbing toward the Ridge."
     details: |
-      ~1,000 people in forty-odd container units welded to the cliff, connected by 
-      catwalks and cable-lift to Torchline Row. Named for the broken ship's mast driven 
-      into stone as main structural support. Boss Hella Vordir manages the building—
-      former stevedore whose joints gave out at forty-five.
+      Shipping containers welded to quarried cliff face, stacked and connected by
+      catwalks of steel grating. Named for the broken spar—a ship's mast driven
+      into stone at an angle and guyed with cables to the Ridge above. Everything
+      rusting. Orange-rust, brown-rust, through-rust patched with welded plate.
+      The structure creaks in the wind. Cable-lift descent connects to Torchline
+      Row below.
+
+      Boss Hella Vordir manages the building—former stevedore whose joints gave
+      out at forty-five. About a thousand people live in forty-odd container
+      units, windows cut rough into steel walls, edged with welded angle iron.
+      It looks precarious. It has held for decades.
     rag_pointer: The Iron Yards
     related: [Iron Yards, Forge Terrace, Ridge]
     location_features:
@@ -5273,10 +5331,15 @@ entries:
     category: location
     short: "Salvaged modular housing stacked six high—the Iron Yards' largest residential structure."
     details: |
-      ~4,500 people in salvaged modular units originally designed for rapid deployment, 
-      now stacked six high. Connected by external stairs and rope bridges, creaking 
-      alarmingly in high winds but having survived three decades. Elder Cass Kelir 
-      leads—former cutting grid worker whose lungs gave out.
+      Salvaged modular units stacked six high—rapid deployment housing serving its
+      intended purpose in an unintended location. External stairs and rope bridges
+      connect the units. The whole structure creaks alarmingly in high winds but
+      has survived three decades. Mostly families here, not single workers.
+
+      Elder Cass Kelir leads—former cutting grid worker whose lungs gave out. Her
+      authority derives from having lived here longest and knowing everyone's
+      business without malice. Less rust than neighboring structures; the modular
+      units were built to last, even if their current arrangement was never planned.
     rag_pointer: The Iron Yards
     related: [Iron Yards, Forge Terrace, Ridge]
     location_features:
@@ -6067,15 +6130,18 @@ entries:
     category: location
     short: "Ya-Sattra's principal commercial and residential district—gateway where outside world meets Imperial authority."
     details: |
-      ~300,000 residents on the eastward landward approach to the city. The district 
-      was once full of arcologies; most were destroyed in a classified catastrophe 
-      that also toppled the Ridge. Three full-size arcologies survive: The Angle 
-      (sheared at 30°, ~8,000 residents), Calibration Hall (fully operational, ~30,000 
-      residents), and Kethesir's Pillar (gutted by ancient vandalism, ~2,000 on lower 
-      floors). The Processional—three kilometers of antediluvian porcelain-coral—cuts 
-      through the district to the Rift embarcadero. Guild shops operate under ancient 
-      charters; markets fill every public space; the Great Bazaar alone covers a third 
-      of the district's area. Bureau sub-offices distributed throughout.
+      The eastward approach to the city, where the outside world meets Imperial
+      authority. The district was once full of arcologies; most were destroyed in
+      a classified catastrophe that also toppled the Ridge. Three survive: The
+      Angle sheared at thirty degrees, Calibration Hall fully operational,
+      Kethesir's Pillar gutted by ancient vandalism.
+
+      The Processional—three kilometers of antediluvian porcelain-coral—cuts
+      through the district to the Rift embarcadero. Guild shops operate under
+      ancient charters. Markets fill every public space; the Great Bazaar alone
+      covers a third of the district's area. Three hundred thousand people live
+      here, layered atop each other in buildings that were old before human
+      memory began keeping count.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [ya-Sattra, Archive Gate, "Booksellers' Row", Great Bazaar, The Processional]
     location_features:
@@ -7090,11 +7156,16 @@ entries:
     category: location
     short: "Five-clan cooperative tenement controlling Lift-3 salvage access."
     details: |
-      ~1,800 residents. Economic heart of salvage work despite the Gallows' political 
-      centrality. Better maintained than neighbors through combined clan investment. 
-      The massive industrial elevator shaft descends through pre-Interdict foundations 
-      into depths no one fully maps. Five sewer-fisher clans share responsibility for 
-      different systems.
+      Best-maintained tenement in the Middens—five sewer-fisher clans share investment
+      in upkeep. The economic heart of salvage work despite the Gallows' political
+      centrality. Lift-3's massive elevator shaft dominates the building's center,
+      descending through pre-Interdict foundations into tunnel networks no one fully
+      maps.
+
+      Bridges connect to Bright-Spire. Sewer-fisher clan markers in traditional
+      patterns identify territory. Water sounds echo up from the depths. What comes
+      up through that elevator funds the Middens economy. What goes down includes
+      things the clans prefer not to discuss.
     rag_pointer: The Middens Tenements
     related: [Middens, Lift-3, Sewer-Fishers]
     location_features:
@@ -7143,10 +7214,16 @@ entries:
     category: location
     short: "Pumping station tenement extending into the harbor, home to Valve-Saint Parish."
     details: |
-      ~1,500 residents. Extends furthest into the water. Pumping infrastructure processes 
-      water for entire district. The Valve-Saint Parish occupies the overflow chamber, 
-      worshipping around a massive wheel altar. Fishing boats and salvage vessels dock 
-      here. Curate Aram es-Thabit leads the congregation.
+      Extends furthest into the water of any Middens structure. Pumping infrastructure
+      processes water for the entire district; the machinery never stops. Fishing boats
+      and salvage vessels dock at the tenement's edge. The sounds of water—pumping,
+      flowing, draining—are constant.
+
+      The Valve-Saint Parish occupies the overflow chamber, worshipping around a
+      massive wheel altar that may have once controlled something. Curate Aram
+      es-Thabit leads the congregation. About fifteen hundred people live here,
+      their lives shaped by the rhythms of machinery they did not build and cannot
+      fully repair.
     rag_pointer: The Middens Tenements
     related: [Middens, Valve-Saint Parish]
     location_features:
@@ -7209,10 +7286,16 @@ entries:
     category: location
     short: "Electronics salvage tenement with Cho family electrical monopoly."
     details: |
-      ~2,200 residents. Glows at night—the only building with consistent power. 
-      Cho gondola runs from here to Ridge workshops, the only direct route between 
-      Middens and legitimate commerce. Rainbow signage marks Cho territory. Electronics 
-      reconditioning and power distribution.
+      The lit building in near-total Middens darkness—Cho electrical monopoly made
+      visible. Glows at night when everything else is shadow. Electronics workshops
+      light up with testing displays. Rainbow signage marks Cho territory against
+      the prevailing grey.
+
+      The Cho gondola runs from here up to Ridge workshops—the only direct route
+      between Middens poverty and Rotten Quarter prosperity. That cable is a
+      lifeline. Less water here than in the northern tenements, more connection
+      to legitimate commerce. The Cho control power distribution. In a district
+      where everything is scarce, they control what everyone needs.
     rag_pointer: The Middens Tenements
     related: [Middens, Cho, Ridge]
     location_features:
@@ -7235,10 +7318,16 @@ entries:
     category: location
     short: "Metalworking tenement leaning fifteen degrees against eastern rubble."
     details: |
-      ~1,600 residents. Forges process salvage arriving from Iron Yards networks. 
-      The fifteen-degree lean is visible from anywhere in the district, structural 
-      failure arrested but never corrected. Residents internalize the tilt—their 
-      gait adjusts even on level ground.
+      Leaning fifteen degrees against the eastern rubble—structural failure arrested
+      but never corrected. The tilt is visible from anywhere in the district. Forges
+      inside process salvage arriving through Iron Yards networks, the heat and
+      hammer-sounds constant.
+
+      Residents internalize the lean. Their gait adjusts even when they walk on
+      level ground. Furniture is shimmed or built at angles. Children grow up with
+      a skewed sense of vertical. About sixteen hundred people live tilted, their
+      lives organized around an architecture that refuses to fall but will never
+      stand straight.
     rag_pointer: The Middens Tenements
     related: [Middens, Iron Yards]
     location_features:
@@ -7262,11 +7351,16 @@ entries:
     category: location
     short: "Transient housing tenement—sole pedestrian entry to the Middens."
     details: |
-      ~2,500 residents. Only building connecting directly to mainland. Everyone 
-      entering or leaving the Middens on foot passes through here or pays for boat 
-      transport. Yen Tam Society maintains influence despite Hanged Men dominance 
-      elsewhere—they control access. Transient Market assembles wherever Chain-Men 
-      aren't currently patrolling.
+      The gateway tenement—only building connecting directly to mainland. Everyone
+      entering or leaving the Middens on foot passes through the ground floor or
+      pays for boat transport. That chokepoint makes this the border between
+      Middens isolation and the wider city.
+
+      Yen Tam Society maintains influence despite Hanged Men dominance elsewhere—
+      they control access. The Transient Market materializes and dissolves in
+      corridors wherever Chain-Men aren't currently patrolling. Highest turnover,
+      most vulnerable population. About twenty-five hundred people pass through,
+      some staying days, some staying years.
     rag_pointer: The Middens Tenements
     related: [Middens, Yen Tam Beneficial Society, Transient Market]
     location_features:
@@ -7705,9 +7799,16 @@ entries:
     category: location
     short: "Traveler services district—austere vernacular for those preparing to leave the city behind."
     details: |
-      ~8,000 residents. Gateway to hermitage routes in Sierra foothills. The architecture 
-      deliberately refuses elaboration—pilgrims should not become comfortable here. This 
-      is a threshold, not a destination.
+      At the city's eastern edge where urban fabric dissolves into foothill trails.
+      The Sierras visible ahead—the first real view of the mountains that pilgrims
+      will climb. The Furnace glow dimmer here, the city receding behind. Gateway
+      to the hermitage routes.
+
+      The architecture deliberately refuses elaboration. Plain stone, functional
+      timber, no geometric relief or bronze fittings beyond the necessary. Pilgrim
+      hostels offer shelter without comfort; the difficulty begins here. This is a
+      threshold, not a destination. Outfitters sell what the journey requires. The
+      message is theological: comfort belongs to the city you are leaving.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don]
     location_features:
@@ -7848,10 +7949,17 @@ entries:
     category: location
     short: "Astal settlement—ya-Don vernacular at Astal scale."
     details: |
-      ~15,000 residents (base population; surges to 40,000+ during harvest). On marginal 
-      land northwest of ya-Don where irrigation doesn't quite reach. Architecture adapted 
-      for bodies barely over a meter tall and lifespans of 35 years. A building standing 
-      fifty years is ancient here.
+      On marginal land northwest of ya-Don where irrigation thins. Architecture
+      adapted for bodies barely over a meter tall—doorways that force baseline
+      adults to duck or crawl, windows at Astal eye-height, courtyards that feel
+      intimate to visitors but spacious to residents.
+
+      Adobe dominates because it builds fast. A fifty-year-old building has
+      sheltered multiple generations; residents speak of "great-grandmother's
+      house" for structures baseline visitors would call recent. Surge dormitories
+      stand half-empty most of the year, then fill completely during harvest when
+      the population triples. Children everywhere. Small-scale activity in every
+      lane. The population's average age is low; Astal lifespans are short.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Astal]
     location_features:
@@ -7928,11 +8036,17 @@ entries:
     category: location
     short: "Elevated district occupying a collapsed arcology—the Rotten Quarter's respectable tier."
     details: |
-      ~1,200 residents. The Ninth Horizon Terrace fell ON ITS SIDE in antiquity—what was
-      a 100-meter-wide arcology is now a 100-meter-high ridge. Three infrastructure families
-      (Val, Marzen, Galen) control water, power, and information. ~90 workshops recondition
-      archaeotech in rotated interior spaces cut up to be usable. Near-baseline population
-      identifies as skilled craftspeople, not Rotten Quarter poor.
+      The Ninth Horizon Terrace fell on its side in antiquity—what was a hundred-
+      meter-wide arcology is now a hundred-meter-high ridge. Floors became walls.
+      The exterior became the top. Inside, rotated corridors have been cut up into
+      workshops where craftspeople recondition archaeotech they do not understand.
+
+      Three infrastructure families control water, power, and information. The
+      population identifies as skilled craftspeople, not Rotten Quarter poor—a
+      distinction they maintain carefully despite sharing foundations with the
+      Iron Yards below and the Middens beyond. About twelve hundred people live
+      here, elevated above the Quarter's poverty in architecture that was never
+      meant to be climbed.
     rag_pointer: "The Ridge: Comprehensive Summary"
     related: [ya-Sattra, Middens, Iron Yards, Val Family, Marzen Family, Galen Family]
     location_features:
@@ -8164,14 +8278,19 @@ entries:
     category: location
     short: "Ya-Sattra's harbor district, carved from former Monterey Bay canyon."
     details: |
-      ~15,000 permanent residents plus thousands of transient workers, sailors, and merchants. 
-      South shore hosts the embarcadero—ya-Sattra's commercial waterfront where The Processional 
-      terminates. Industrial docks, warehouses, and terraces climbing toward the Iron Yards. 
-      Factors' offices for major trading houses, Ganat, and Asovoe line the southern waterfront. 
-      North shore serves as pleasure marina for Antediluvian Quarter residents—private docks, 
-      yacht berths, the Marina Promenade. Three bridges span between shores. Ganati ships must 
-      sail from ya-Sattra—the Republic is landlocked—and are permitted to do so despite tensions. 
-      Westerner berths occupy the western edge near the Middens.
+      The canyon where the bay once was, now ya-Sattra's harbor. The Processional
+      terminates at the south shore embarcadero—commercial docks, industrial
+      warehouses, terraces climbing toward the Iron Yards. Factors' offices for
+      major trading houses line the waterfront. The north shore is different:
+      pleasure marina for Antediluvian Quarter residents, private docks, yacht
+      berths, the Marina Promenade.
+
+      Three bridges span between shores, each with its own character and
+      restrictions. Ganati ships sail from here—the Republic is landlocked and
+      must use Imperial ports despite the tensions. Westerner berths occupy the
+      western edge near the Middens. The harbor never stops moving: cargo,
+      passengers, wealth flowing through while the permanent population watches
+      from shore.
     rag_pointer: "The Rift: Ya-Sattra's Harbor District"
     related: [ya-Sattra, Westerners, Medina Quarter, Antediluvian Quarter, Ganat, Asovoe, Stevedores' Guild, Iron Yards]
     location_features:
