@@ -1547,8 +1547,27 @@ entries:
   # ═══ Serrulata ═══
   Serrulata:
     category: caste
-    short: Desert-adapted colonist caste with keratin scales and dark sclerae.
-    details: ""
+    short: Desert-adapted colonists covered in overlapping keratin scales—dark-eyed, sharp-eared, built for heat.
+    details: |
+      The scales overlap like roof tiles, one to two inches across. Thicker
+      on the back, shoulders, outer arms, and thighs—two to three millimeters
+      of keratin armor. Thinner and flexible around joints where movement
+      matters more than protection. Natural coloring runs tan to dark brown
+      with subtle iridescence. Dark sclerae make their eyes striking: nearly
+      black where other castes show white, with irises in amber, rust-red, or
+      burnt orange. Pointed ears, broad flat nose, thin lips. A scaled cap
+      covers the cranium.
+
+      The scales regulate temperature through micro-channel sweat wicking.
+      Heat that would prostrate baseline humans becomes manageable. Desert
+      worlds shaped this caste; now they dominate Ganat's population.
+
+      Scale decoration marks status and identity. Pigments—rust-orange and
+      ochre are permanent, teal and indigo more expensive—work into the
+      keratin. Copper filigree pressed into scale surfaces oxidizes over time
+      to verdigris. Small turquoise stones set directly into scales. The body
+      becomes a canvas that can't be removed, each decoration a commitment
+      worn until the scale sheds.
     rag_pointer: Castes of Mankind, Ganat and the Yarangar War
     related: [Colonist Castes, Ganat]
     caste_features:
