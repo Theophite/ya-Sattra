@@ -210,14 +210,26 @@ entries:
   # ═══ Astal ═══
   Astal:
     category: caste
-    short: "Rapid-generation colonist caste with dramatically accelerated life cycle."
+    short: Rapid-generation caste; mature by eight, parents by ten, dead by thirty-five.
     details: |
-      Designed for rapid colonization. Enhanced spatial cognition, accelerated 
-      reproduction, social structures optimized for establishing new settlements. 
-      Mature by 8, parents by 10-11, dead by 35. Knowledge transmitted through 
-      aphorisms rather than written records.
+      Small and delicate, around five feet, with large translucent bat-like ears
+      and yellow-amber eyes. Pale fur covers the body. A pointed face, a pink nose,
+      a long thin neck, a build that looks almost fragile. They hear things other
+      castes cannot.
+
+      They were made for rapid colonization—establish a settlement, fill it with
+      people, move on. The colonization ended. The rapid generations did not. Now
+      they work agricultural labor in marginal territories, cycle through generations
+      faster than their neighbors can track. A child born when you were twenty is
+      middle-aged by the time you die.
+
+      Knowledge transmits through aphorisms because there is no time for written
+      traditions. Names come from physical features—what you look like, what sound
+      you make—because names need to be assigned quickly and remembered briefly.
+      Simplified liturgy suits minds that must learn everything in a decade and
+      pass it on before they forget.
     rag_pointer: "Castes of Mankind, Ya-Don: Comprehensive Reference"
-    related: [Colonist Castes, Quick Lanes]
+    related: [Colonist Castes, Quick Lanes, Quick Chapel, ya-Don]
     caste_features:
       morphology: divergent
       scale: small

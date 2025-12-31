@@ -63,6 +63,7 @@ THE QUALITY:
 
 THE STYLE:
   • Patterns, not specific instances (instances get recycled as canonical examples)
+  • Avoid proper nouns in details—specific places/people go in `related` field
   • Prose, not fragments
   • Don't be too literal about the design framework—no winking at the meta-level
   • Show the internal logic that makes apparent absurdity make sense
