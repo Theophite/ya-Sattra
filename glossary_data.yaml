@@ -9961,6 +9961,70 @@ entries:
     related: [Sewer-Fishers, Lantern-Heaps, Ridge, Penthouse Block]
   # ─── end Cho ───
 
+  # ═══ Venn ═══
+  Venn:
+    category: organization
+    short: "Sewer-fisher clan specializing in high-rigging, cables, and aerial infrastructure."
+    details: |
+      One of six sewer-fisher clans in the Middens. Controls high-altitude infrastructure
+      throughout the district—cables, bridges, zip lines, and unauthorized crossing routes.
+      Patriarch Eldin Venn (64) manages external relations while Forewoman Ressa Venn (28)
+      handles dangerous installations. Operates Middens Ropeworks, producing cables that
+      exceed formal engineering specifications. Maintains approximately 30 unauthorized
+      crossing routes enabling toll avoidance. Distributed residence across interconnected
+      platforms in upper Middens structures.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Middens, Torchline Row, Iron Yards]
+  # ─── end Venn ───
+
+  # ═══ Hasket ═══
+  Hasket:
+    category: organization
+    short: "Sewer-fisher clan running aquaculture, dock labor, and distillery operations."
+    details: |
+      One of six sewer-fisher clans in the Middens. Distinctive for mixing "big cousins"
+      (stevedore fosterlings) with pure-line "little cousins." Matron Tasme Hasket (62)
+      controls clan resources despite being smallest member (145 cm). "Uncle" Brakk Hasket
+      (48), a Redback-variant stevedore fostering, serves as dock foreman. Operates three
+      businesses: aquaculture in flooded lower Bright-Spire, freight/dock labor through
+      Brakk's crews, and a still producing industrial alcohol. Location: partially collapsed
+      warehouse complex at bottom of Bright-Spire.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Middens, Bright-Spire, Salvage Guild]
+  # ─── end Hasket ───
+
+  # ═══ Sarn ═══
+  Sarn:
+    category: organization
+    short: "Sewer-fisher clan maintaining contact with deep-dwelling populations beneath ya-Sattra."
+    details: |
+      One of six sewer-fisher clans in the Middens. Uniquely adapted for deep-tunnel
+      navigation. Patriarch Vennas Sarn (71) rarely surfaces, spending months in deep tunnels
+      with bioluminescent eyes and lichen-crusted skin. Navigator Liya Sarn (34) serves as
+      primary scout, navigating flooded tunnels blind using inner ear depth sensation. Korim
+      Sarn (45) handles surface representation. Trade surface goods for exotic salvage and
+      technical knowledge from isolated deep populations—some claiming memories of the
+      original sterilization plague. Minimal surface presence at Sump-Gate; real infrastructure
+      exists in partially flooded tunnels below.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Middens, Sump-Gate, Deep Populations]
+  # ─── end Sarn ───
+
+  # ═══ Heth ═══
+  Heth:
+    category: organization
+    short: "Sewer-fisher clan specializing in salvage work and infrastructure recovery."
+    details: |
+      One of six sewer-fisher clans in the Middens. Focused on salvage operations and
+      material recovery from collapsed infrastructure. Members like Korel Mazh demonstrate
+      the intuitive technical understanding inherited from Technical Caste ancestors—hands
+      that know where problems lie, perception of function without conscious analysis. The
+      clan maintains traditional salvage practices while concealing the full extent of their
+      technical capabilities.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Middens, Salvage Guild, Korel Mazh]
+  # ─── end Heth ───
+
   # ═══ Many ═══
   Many:
     category: organization
@@ -11453,6 +11517,284 @@ entries:
     rag_pointer: "Caste Type Specimens Catalog"
     related: [Sewer-Fishers, Middens, Heth]
   # ─── end Korel Mazh ───
+
+  # ═══ Korel Benru ═══
+  Korel Benru:
+    category: person
+    short: "Patriarch of Clan Benru—elder statesman maintaining balance between legal registration and sewer-fisher solidarity."
+    person_location: Middens
+    details: |
+      Age 67. Elder statesman of the Benru clan, operating from their three-story structure
+      outside Vetch-Rise in the Iron Yards. Pure-line sewer-fisher features: webbed fingers,
+      blade-ears, void-black eyes. Maintains delicate balance between cooperation with Imperial
+      bureaucracy and protection of sewer-fisher interests. His documentation network transforms
+      illegal sewer-fisher labor into legally acceptable paperwork. Only Tatius Benru, who
+      allegedly passed the Seven-Cornered Examination and serves in the Bureau of the Lens,
+      exceeds his influence within the clan.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Benru, Middens, Iron Yards, Tatius Benru]
+  # ─── end Korel Benru ───
+
+  # ═══ Nyma Benru ═══
+  Nyma Benru:
+    category: person
+    short: "Chief Broker of Clan Benru—handles daily negotiations and complex documentation transforming illegal labor into legal paperwork."
+    person_location: Middens
+    details: |
+      Age 41. Korel Benru's niece and likely successor as clan leader. Runs daily operations
+      of Benru documentation services from the Iron Yards office. Can calculate exchange rates
+      between work chits, salvage credits, and Imperial obols without written notes—the
+      mathematical intuition characteristic of sewer-fisher cognition. Her documentation system
+      allows sewer-fishers to work through legal fictions: "consulting fees," "translation
+      services," contracts that describe illegal salvage as legitimate recovery work.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Benru, Korel Benru, Middens]
+  # ─── end Nyma Benru ───
+
+  # ═══ Yuli Loak ═══
+  Yuli Loak:
+    category: person
+    short: "Loak clan council chair and Lift-3 operations manager—burn-scarred face, manages salvage trade with precision."
+    person_location: Middens
+    details: |
+      Age 33. Current council chair of Clan Loak and manager of Lift-3 operations at
+      Hollow-Egress. Burn scars across face from a hot lubricant accident that nearly killed
+      him. Manages salvage trade with sub-percent error rates despite handling hundreds of
+      transactions daily. Controls access to the flooded pre-Interdict tunnels below—the only
+      route to salvage that surface operations cannot reach. Unmarried, obsessively focused
+      on clan business since the accident that killed his partner.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Loak, Lift-3, Hollow-Egress, Middens]
+  # ─── end Yuli Loak ───
+
+  # ═══ Merra Loak ═══
+  Merra Loak:
+    category: person
+    short: "Former Loak council chair—runs legendary kitchen that feeds salvage crews and serves as intelligence nexus."
+    person_location: Middens
+    details: |
+      Age 57. Called "Aunt" Merra by clan and non-clan alike. Former council chair, now
+      runs "Merra's Kitchen" on Hollow-Egress third floor—a legendary perpetual stew that
+      has been cooking for decades. Hundreds queue daily for bowls; the kitchen serves as
+      primary intelligence nexus for the Middens. Nothing moves through the district without
+      Merra hearing about it. Her prices adjust based on information value—pay more, learn
+      more. Handles delicate clan diplomacy through strategic feeding.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Loak, Hollow-Egress, Middens]
+  # ─── end Merra Loak ───
+
+  # ═══ Eldin Venn ═══
+  Eldin Venn:
+    category: person
+    short: "Patriarch of Clan Venn—senior rigger with 40 years experience managing high-altitude infrastructure."
+    person_location: Middens
+    details: |
+      Age 64. Patriarch of the Venn clan and senior rigger with four decades of high-rigging
+      experience. Missing two fingers from cable snaps but maintains superior grip strength.
+      Manages relationships with Iron Yards authorities and oversees the ~30 unauthorized
+      crossing routes his clan maintains throughout the Middens. Can assess metal fatigue by
+      sound alone—tapping cables and listening for the frequency that indicates stress
+      fractures. Rarely climbs anymore but no installation proceeds without his approval.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Venn, Middens, Iron Yards]
+  # ─── end Eldin Venn ───
+
+  # ═══ Ressa Venn ═══
+  Ressa Venn:
+    category: person
+    short: "Forewoman of Clan Venn—performs dangerous cable installations requiring flexibility and precision."
+    person_location: Middens
+    details: |
+      Age 28. Forewoman of Clan Venn, young for the position but earned through technical
+      excellence and willingness to take risks others won't. Small frame with exceptional
+      flexibility—can compress through gaps larger riggers cannot navigate. Performs the most
+      dangerous installations: bridge cables in storms, emergency repairs on failing spans,
+      routes across gaps that seem impossible. Her work appears improvised but is precisely
+      calculated using sewer-fisher mathematical intuition.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Venn, Eldin Venn, Middens]
+  # ─── end Ressa Venn ───
+
+  # ═══ Tasme Hasket ═══
+  Tasme Hasket:
+    category: person
+    short: "Matron of Clan Hasket—'Little Mother' controlling clan resources despite being smallest member."
+    person_location: Middens
+    details: |
+      Age 62. Called "Little Mother Tasme" by her mixed clan. Last pure-line Hasket matriarch
+      at only 145 cm tall, ruling a clan where most members are twice her size. Controls clan
+      ledgers and shrine with absolute authority over resource allocation. Wears elaborate
+      ear-to-collarbone tattoo received from an Oracle Cult shamaness in youth. Saved "Uncle"
+      Brakk Hasket from Chain-Men execution decades ago, earning the absolute loyalty of the
+      stevedore fosterlings who now form 80% of her clan's workforce.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Hasket, Bright-Spire, Middens, Brakk Hasket]
+  # ─── end Tasme Hasket ───
+
+  # ═══ Brakk Hasket ═══
+  Brakk Hasket:
+    category: person
+    short: "Hasket dock foreman—Redback stevedore fostering with absolute loyalty to Matron Tasme."
+    person_location: Middens
+    details: |
+      Age 48. Called "Uncle" Brakk by the clan. Redback-variant stevedore fostering standing
+      202 cm tall—one of the "big cousins" adopted into the Hasket clan. Lost right hand to
+      chain snap, now wears steel hook. Leads freight crews at the docks, manages interface
+      with Pipefitters Union and Salvage Guild. Absolute loyalty to Matron Tasme, who saved
+      him from Chain-Men execution when he was a young orphan. Serves as her enforcer when
+      necessary—most disputes end when Brakk enters the room.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Hasket, Tasme Hasket, Redback, Middens]
+  # ─── end Brakk Hasket ───
+
+  # ═══ Vennas Sarn ═══
+  Vennas Sarn:
+    category: person
+    short: "Patriarch of Clan Sarn—rarely surfaces, maintains relationships with deep-dwelling populations."
+    person_location: Middens
+    details: |
+      Age 71. Patriarch of the Sarn clan, uniquely adapted for deep-tunnel navigation. Rarely
+      surfaces, spending months at a time in the flooded tunnels beneath ya-Sattra. Skin
+      crusted with lichen from extended underground exposure; eyes have developed bioluminescent
+      glow. Maintains relationships with deep clan leaders who speak only the Jargon—isolated
+      populations that may remember the original sterilization plague tens of thousands of years
+      ago. His spatial intuitions exceed even typical sewer-fisher ability; can map entire cavern
+      complexes by echolocation.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Sarn, Middens, Deep Populations, Jargon]
+  # ─── end Vennas Sarn ───
+
+  # ═══ Liya Sarn ═══
+  Liya Sarn:
+    category: person
+    short: "Navigator of Clan Sarn—primary deep scout navigating flooded tunnels using inner ear depth sensation."
+    person_location: Middens
+    details: |
+      Age 34. Primary deep scout and daughter of Patriarch Vennas Sarn. Navigates flooded
+      tunnels in complete darkness using inner ear depth sensation—can feel pressure changes
+      that indicate passages, chambers, and hazards. Lung capacity allows 12-minute breath
+      holds. Discovered three new deep populations in the last year, each with unique
+      technological remnants and cultural patterns. Serves as primary translator between
+      surface sewer-fishers and deep dwellers, though some deep populations speak only
+      mathematical patterns that defy verbal translation.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Sarn, Vennas Sarn, Middens, Deep Populations]
+  # ─── end Liya Sarn ───
+
+  # ═══ Korim Sarn ═══
+  Korim Sarn:
+    category: person
+    short: "Surface representative of Clan Sarn—translates deep clan needs into surface economic terms."
+    person_location: Middens
+    details: |
+      Age 45. Nephew of Patriarch Vennas Sarn and primary surface representative for the
+      clan. Translates the needs of deep populations into terms surface economics can
+      understand—and vice versa. Considered "surface-soft" by clan standards but can still
+      navigate depths that would kill other sewer-fishers. Manages trade relationships with
+      other clans, particularly Nyma Benru for documentation of deep salvage. Dietary needs
+      remain unusual from years of deep adaptation—prefers foods that would sicken surface
+      dwellers.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Sarn, Vennas Sarn, Nyma Benru, Middens]
+  # ─── end Korim Sarn ───
+
+  # ═══ Anira Cho ═══
+  Anira Cho:
+    category: person
+    short: "Matriarch of Clan Cho—skilled hydrologist managing Lockworks water distribution infrastructure."
+    person_location: Middens
+    details: |
+      Age 54. Matriarch of Clan Cho, whose authority derives from technical knowledge rather
+      than age or lineage. Manages the Lockworks complex—the massive water distribution
+      infrastructure determining water access for the entire Rotten Quarter. Understands water
+      flow through mathematical intuition: "knows by instinct what water is flowing, anywhere
+      in the Middens." The Cho-Fen intermarriage has created complications—28 documented failed
+      pregnancies from genetic incompatibility—but Anira maintains clan stability through careful
+      management of both pure-line and hybrid members.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Cho, Lockworks, Middens, Fen]
+  # ─── end Anira Cho ───
+
+  # ═══ Jossa Loak-Benru ═══
+  Jossa Loak-Benru:
+    category: person
+    short: "Marriage-bridge between Loak and Benru clans—former Companion trainee turned diplomatic liaison."
+    person_location: Middens
+    details: |
+      Age 29. Product of strategic marriage between Loak and Benru clans, carrying both names.
+      Failed Companion training—washed out before certification—but retained social polish
+      useful for dealing with Imperial bureaucrats and surface professionals. Manages
+      "translation services" that allow sewer-fisher expertise to be sold through respectable
+      channels. Primary diplomatic courier between the clans, carrying information and
+      negotiating joint ventures. Her failure as Companion is rarely mentioned; her success
+      as inter-clan liaison has proven more valuable.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Loak, Benru, Companions, Middens]
+  # ─── end Jossa Loak-Benru ───
+
+  # ═══ Korr Loak ═══
+  Korr Loak:
+    category: person
+    short: "Loak valve tender and apiarist—manages rooftop hives and water negotiations with Hanged Men."
+    person_location: Middens
+    details: |
+      Age 48. Valve tender for Clan Loak responsible for maintaining critical water infrastructure
+      connections. Lost leg in lift accident; uses metal peg. Manages rooftop beehives that
+      provide honey and wax for clan trade. Handles delicate water negotiations with the Hanged
+      Men—the criminal organization controlling much of Middens water access. Can read pre-Interdict
+      maintenance glyphs that others treat as decorative—remnant Technical Caste knowledge passed
+      through generations. His valve work keeps Hollow-Egress from flooding during high tides.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Loak, Hollow-Egress, Hanged Men, Middens]
+  # ─── end Korr Loak ───
+
+  # ═══ Bos Loak ═══
+  Bos Loak:
+    category: person
+    short: "Loak Companion candidate—sapphire-glass knapper and knifemaker representing major clan investment."
+    person_location: Middens
+    details: |
+      Age 17. Companion candidate from Clan Loak, representing enormous clan investment in
+      formal training. Skills include sapphire-glass knapping, knifemaking, and sketch artistry.
+      Receiving training in Mutterer-handling—the delicate art of interpreting and managing
+      the disturbed Technical Caste remnants. If successful, will be only the second sewer-fisher
+      Companion in ya-Sattra, providing the clan with unprecedented access to respectable
+      society. The pressure of clan expectations weighs heavily.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Loak, Companions, Mutterers, Middens]
+  # ─── end Bos Loak ───
+
+  # ═══ Jak Loak ═══
+  Jak Loak:
+    category: person
+    short: "Orphaned Loak cousin who acquired limited Black Calculus—selective forgetting ability."
+    person_location: Middens
+    details: |
+      Age 19. Orphaned cousin after Chain-Men killed his parents during a salvage dispute.
+      Adopted by Clan Loak and apprenticed to Den Vesh, where he acquired limited knowledge
+      of the Black Calculus—the dangerous mathematical discipline enabling selective forgetting.
+      Can cause specific memories to be forgotten by targets, though the ability is unreliable
+      and exhausting. The Chain-Men don't know he survived or what he learned. Burning for
+      revenge but kept in check by Yuli Loak, who fears the attention retaliation would bring.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Loak, Black Calculus, Chain-Men, Middens]
+  # ─── end Jak Loak ───
+
+  # ═══ Tatius Benru ═══
+  Tatius Benru:
+    category: person
+    short: "Sewer-fisher who allegedly passed Seven-Cornered Examination—serves in Bureau of the Lens."
+    person_location: ya-Sattra
+    details: |
+      Age unknown, appears middle-aged. The legendary sewer-fisher who allegedly passed the
+      Seven-Cornered Examination and now serves as a minor functionary in the Bureau of the
+      Lens. His existence proves sewer-fishers can achieve formal Imperial recognition—though
+      the clan carefully maintains that his Technical Caste ancestry remains undetected. Rarely
+      returns to the Middens; when he does, the visit is treated with religious reverence.
+      "Aunt" Vel Benru is the only living clan member who knew him before his Bureau appointment.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Benru, Bureau of the Lens, Seven-Cornered Examination]
+  # ─── end Tatius Benru ───
 
   # ═══ Sevrel Twelve-Hawk ═══
   Sevrel Twelve-Hawk:
