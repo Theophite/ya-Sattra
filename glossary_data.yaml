@@ -1975,8 +1975,28 @@ entries:
   # ═══ Technical Castes ═══
   Technical Castes:
     category: caste
-    short: Engineered lineages forming a translation cascade for incomprehensible knowledge.
-    details: ""
+    short: Engineered lineages who translated incomprehensible knowledge—largely sterilized millennia ago for refusing flawed mathematics.
+    details: |
+      They were designed to form a translation cascade: each tier processing
+      knowledge the tier below could not comprehend, passing results upward
+      until something human-usable emerged. Arbitrary Truths—raw patterns
+      from the Antediluvians—became workable technology through their
+      layered cognition. They communicated in Jargon, a sung mathematical
+      language where false statements are linguistically impossible.
+
+      When the Eighth Testament proposed mathematics they recognized as
+      flawed, they refused to implement it. Jargon permitted no lies,
+      including lies to authority. The consequence was sterilization—not
+      execution but genetic death, spread across generations. The cascade
+      broke. The knowledge stopped flowing.
+
+      Remnants survive. The Archons at Far Ib maintain fragments of the old
+      function. The Mutterers carry degraded Jargon that still compels
+      truth. The Sewer-Fishers in the Middens hide their ancestry entirely,
+      performing confusion around machinery their blood still understands.
+      What was once a coordinated cognitive architecture now persists only
+      as scattered descendants who remember pieces of what their ancestors
+      could do.
     rag_pointer: The Technical Castes and Far Ib
     related: [Jargon, Mutterers, Archons, Medial Castes]
     caste_features:
