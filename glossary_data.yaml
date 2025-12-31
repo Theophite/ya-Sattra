@@ -105,8 +105,26 @@ entries:
   # ═══ Archons ═══
   Archons:
     category: caste
-    short: Highest tier of Technical Castes, bodies merged with architecture.
-    details: ""
+    short: Technical Caste tier merged with architecture; survivors at Far Ib hold knowledge that can no longer be communicated.
+    details: |
+      The body is subordinate to the mathematics it contains. What that means
+      physically varies: masses of modified tissue, surfaces textured with
+      interfaces and sensors, biological processes extending through walls and
+      floors, nutrient lines running through building conduits. A face remains
+      somewhere—two eyes, a mouth, features no longer quite right. The body
+      cannot be separated from the architecture. They are numbered in order of
+      losing mobility.
+
+      They were made to hold the Arbitrary Truths complete and generate primary
+      inferences. They do hold them. They cannot communicate what they know—not
+      forbidden, incapable. The concepts do not map to any living language. A
+      calculation that continues without audience.
+
+      Clone servants attend them, maintaining nutrient lines through procedures
+      transmitted across generations. Each generation understands less than the
+      last. The procedures still work. When the current servants fail, there will
+      be no one to train replacements, because the knowledge of training exists
+      only in the doing.
     rag_pointer: The Technical Castes and Far Ib
     related: [Technical Castes, Far Ib, Arbitrary Truths, The Seventh Remaining, Cloud Temple]
     caste_features:
