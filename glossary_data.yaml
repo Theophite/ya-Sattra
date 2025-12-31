@@ -1649,11 +1649,24 @@ entries:
   # ═══ Khatam ═══
   Khatam:
     category: caste
-    short: "Mixed heritage Serrulata, intermediate between pure desert adaptation and urban life."
+    short: Mixed-heritage Serrulata—scaled bodies softened by generations of intermarriage, living between desert and city.
     details: |
-      Serrulata sub-variant resulting from intermarriage with other populations while 
-      maintaining core desert adaptations. More integrated with settled Ganati society 
-      than uliq, less purely Serrulata than mainline populations.
+      A Serrulata sub-variant shaped by generations of intermarriage with
+      other populations. The scales remain, though often thinner. The dark
+      sclerae persist, though sometimes faded. Desert adaptation runs in the
+      blood but shows more subtly than in mainline Serrulata.
+
+      They occupy the space between worlds: more integrated with settled
+      Ganati society than the Uliq who want nothing to do with cities, less
+      purely desert-born than the populations who never mixed. Some see this
+      as dilution. Others see it as adaptation of a different kind—bodies
+      shaped for survival at desert margins, in trading posts, in the places
+      where pure adaptation to either extreme would be a disadvantage.
+
+      The Khatam know both languages: the speech of the deep desert and the
+      idiom of the capital. They translate, trade, negotiate. Neither fully
+      belonging anywhere nor fully excluded from anywhere. The position has
+      its advantages and its costs.
     rag_pointer: Castes of Mankind, The Republic of Ganat
     related: [Serrulata, Ganat]
     caste_features:
