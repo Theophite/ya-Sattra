@@ -10489,6 +10489,207 @@ entries:
         - "terraced paths climbing through hollow tomb-mouths"
   # ─── end ya-Tsatsa ───
 
+  # ═══ Port Ahn ═══
+  Port Ahn:
+    category: location
+    short: "Limestone cliff port town—Imperial checkpoint between Thousand Kingdoms and ya-Sattra."
+    details: |
+      Strategic port built on steep cliffs rising 300 feet from a bay. Town clings to cliff
+      face in terraces carved from living rock, connected by stairs cut so steep they are
+      nearly ladders. Last stop for northbound traders heading into Imperial territory, first
+      stop for southbound Akama traders. Features gauss cannon emplacements on the Citadel,
+      Revenue House for customs clearance, and markets where Imperial goods meet frontier
+      products. Five days sail from the Thousand Kingdoms, three days from ya-Sattra.
+      "The last edge of Empire where broken weapons were displayed as heritage."
+    rag_pointer: "Vey, Trip to Port Ahn"
+    related: [Thousand Kingdoms, ya-Sattra, ya-Tsatsa, Bureau of Coin, Akama]
+    location_features:
+      level: town
+      location_type: settlement
+      parent: Undying Empire
+      children:
+        - Port Ahn Citadel
+        - Port Ahn Harbor
+        - Port Ahn Revenue House
+        - Port Ahn Main Market
+        - Port Ahn Technical Quarter
+        - Port Ahn Salvage Quarter
+      controlling_entity: Imperial administration (Bureau of Coin)
+      primary_function: Trade checkpoint, customs enforcement
+      notable_features:
+        - Limestone cliff terraces
+        - Gauss cannon emplacements
+        - Imperial Revenue House
+        - Frontier markets
+      borders:
+        north: [Thousand Kingdoms]
+        south: [ya-Tsatsa, ya-Sattra]
+    aesthetic_features:
+      intention: "Imperial order meets frontier chaos at the cliff's edge."
+      environment: "Limestone cliffs rising 300 feet from bay. Steep stairs nearly vertical. Dark shale crumbling at edges. Salt air, rotting kelp, and tar."
+      construction: "Terraces carved from living rock. Revenue House built from imported stone projecting Imperial permanence."
+  # ─── end Port Ahn ───
+
+  # ═══ Port Ahn Citadel ═══
+  Port Ahn Citadel:
+    category: location
+    short: "Military fortification on promontory's highest point—gauss cannon track incoming vessels."
+    details: |
+      Located on the highest point of Port Ahn's promontory. Features gauss cannon
+      emplacements that track every vessel entering the bay. Each barrel can punch
+      through a ship's hull at two kilometers. Represents unambiguous Imperial military
+      control over the strategic port. The cannon ensure that whatever chaos exists
+      in the markets below, the Empire's authority is never in question.
+    rag_pointer: "Vey, Trip to Port Ahn"
+    related: [Port Ahn, Bureau of Sword]
+    location_features:
+      level: building
+      location_type: military
+      parent: Port Ahn
+      controlling_entity: Imperial military
+      primary_function: Harbor defense, military control
+      notable_features:
+        - Gauss cannon emplacements
+        - 2km effective range
+        - Tracking systems for vessels
+  # ─── end Port Ahn Citadel ───
+
+  # ═══ Port Ahn Harbor ═══
+  Port Ahn Harbor:
+    category: location
+    short: "Limestone bay with dock facilities—smells of rotting kelp and tar."
+    details: |
+      Natural limestone bay providing sheltered anchorage for trading vessels.
+      Equipped with dock facilities and stevedore operations. Armed guards control
+      cargo movement. Harbormaster's launch inspects incoming vessels and collects
+      fees before permitting anchorage. The harbor processes trade between Imperial
+      territory and the Thousand Kingdoms, extracting duties at every opportunity.
+    rag_pointer: "Vey, Trip to Port Ahn"
+    related: [Port Ahn, Bureau of Coin]
+    location_features:
+      level: neighborhood
+      location_type: commercial
+      parent: Port Ahn
+      controlling_entity: Harbormaster (Bureau of Coin)
+      primary_function: Shipping, customs inspection
+      notable_features:
+        - Natural limestone bay
+        - Armed stevedores
+        - Harbormaster's launch
+      sensory:
+        - "rotting kelp smell"
+        - "tar from dock maintenance"
+        - "salt air"
+  # ─── end Port Ahn Harbor ───
+
+  # ═══ Port Ahn Revenue House ═══
+  Port Ahn Revenue House:
+    category: location
+    short: "Bureau of Coin customs house—imported stone projecting Imperial permanence on the frontier."
+    details: |
+      Situated halfway up the cliff face. Built from imported stone that doesn't match
+      local limestone—designed to project permanent Imperial authority through
+      architectural expense. Brass scales on doors tarnished green from sea air. Interior
+      features walls of pigeonholes with documents color-coded by incomprehensible logic.
+      Multiple queues for different categories of business. Staff maintains classification
+      registries for unusual entities. Provincial operation less thorough than ya-Sattra
+      but still extracts fees: 40 obols harbor maintenance, 80 obols semi-sentient transit.
+    rag_pointer: "Vey, Trip to Port Ahn"
+    related: [Port Ahn, Bureau of Coin, Scale Bureau]
+    location_features:
+      level: building
+      location_type: administrative
+      parent: Port Ahn
+      controlling_entity: Bureau of Coin
+      primary_function: Customs clearance, fee collection, entity classification
+      notable_features:
+        - Imported stone construction
+        - Brass scales on doors (tarnished green)
+        - Classification registries
+        - Multiple queuing systems
+  # ─── end Port Ahn Revenue House ───
+
+  # ═══ Port Ahn Main Market ═══
+  Port Ahn Main Market:
+    category: location
+    short: "Largest limestone terrace—one hundred stalls where Imperial goods meet frontier products."
+    details: |
+      Spread across the largest limestone terrace. One hundred stalls under canvas and
+      salvaged polymer. Primary commercial hub where northbound traders buy Imperial goods
+      and southbound Akama sell frontier products. Haggling in three languages. Smith's
+      booths with metalwork, musicians performing (often poorly), weapon dealers with
+      Colonel-Hereditary bearing selling pre-Interdict plasma lances as heritage items.
+      Port Ahn's real purpose: the commercial threshold between Empire and frontier.
+    rag_pointer: "Vey, Trip to Port Ahn"
+    related: [Port Ahn, Port Ahn Technical Quarter, Port Ahn Salvage Quarter, Akama]
+    location_features:
+      level: neighborhood
+      location_type: commercial
+      parent: Port Ahn
+      primary_function: Trade, commercial exchange
+      notable_features:
+        - 100+ stalls
+        - Canvas and polymer awnings
+        - Multilingual haggling
+        - Heritage weapon dealers
+      sensory:
+        - "three languages mixing"
+        - "smith's hammering"
+        - "bad musicians"
+  # ─── end Port Ahn Main Market ───
+
+  # ═══ Port Ahn Technical Quarter ═══
+  Port Ahn Technical Quarter:
+    category: location
+    short: "Market section for components and technical goods—ya-Sattra manuals alongside frontier salvage."
+    details: |
+      Section within the main market area specializing in technical merchandise. Mix
+      of recently manufactured items and salvaged pre-Interdict technology. Technical
+      manuals from ya-Sattra sold alongside frontier equipment. Merchants examine
+      components with varying degrees of expertise. Where Kma-Dhol engineers might
+      find Jargon texts bound with technical papers, or navigation components
+      salvaged from pre-Interdict orbital craft.
+    rag_pointer: "Vey, Trip to Port Ahn"
+    related: [Port Ahn, Port Ahn Main Market, Kma-Dhol, Jargon]
+    location_features:
+      level: neighborhood
+      location_type: commercial
+      parent: Port Ahn Main Market
+      primary_function: Technical goods trade
+      notable_features:
+        - Technical manuals from ya-Sattra
+        - Salvaged pre-Interdict components
+        - Jargon texts (rare)
+  # ─── end Port Ahn Technical Quarter ───
+
+  # ═══ Port Ahn Salvage Quarter ═══
+  Port Ahn Salvage Quarter:
+    category: location
+    short: "Lower terrace archaeotech market—dealers work from locked strongboxes, goods spread on blankets."
+    details: |
+      Located on Port Ahn's lower terraces. Archaeotech market dealing in pre-Interdict
+      components. Merchants who cannot afford proper market stalls spread goods on blankets.
+      Dealers work from locked strongboxes, showing pieces only to serious buyers. Ancient
+      weapons displayed as heritage items. Behind the stalls: trash heaps where Mutterers
+      scavenge, modifying components in ways that suggest Technical Caste inheritance.
+      The frontier's edge, where Imperial classification breaks down entirely.
+    rag_pointer: "Vey, Trip to Port Ahn"
+    related: [Port Ahn, Port Ahn Main Market, Mutterers, Technical Castes]
+    location_features:
+      level: neighborhood
+      location_type: commercial
+      parent: Port Ahn
+      primary_function: Salvage trade, archaeotech dealing
+      notable_features:
+        - Blanket merchants
+        - Locked strongbox dealers
+        - Trash heaps behind stalls
+        - Mutterer presence
+      hazards:
+        - Unclassified archaeotech
+        - Mutterer encounters
+  # ─── end Port Ahn Salvage Quarter ───
+
   # ═══ Yarangar ═══
   Yarangar:
     category: location
@@ -10904,10 +11105,10 @@ entries:
     category: organization
     short: "Sewer-fisher clan operating Lift-3 and Merra's kitchen."
     details: |
-      One of six sewer-fisher clans in the Middens. Yuli Loak runs Lift-3 operations; 
-      Merra Loak operates the kitchen that feeds salvage workers and gathers 
-      intelligence. The clan's control of deep access and food distribution gives 
-      them influence disproportionate to their numbers.
+      One of five sewer-fisher clans jointly administering Hollow-Egress. Yuli Loak
+      runs Lift-3 operations; Merra Loak operates the kitchen that feeds salvage
+      workers and gathers intelligence. The clan's control of deep access and food
+      distribution gives them influence disproportionate to their numbers.
     rag_pointer: The Middens Tenements
     related: [Sewer-Fishers, Hollow-Egress, Lift-3, Middens]
   # ─── end Loak ───
@@ -10915,13 +11116,15 @@ entries:
   # ═══ Benru ═══
   Benru:
     category: organization
-    short: "Sewer-fisher clan running documentation services in the Gallows."
+    short: "Sewer-fisher clan running documentation services from Hollow-Egress."
     details: |
-      One of six sewer-fisher clans in the Middens. Operates the documentation desk 
-      handling identity papers, work permits, and debt instruments. Their services 
+      One of five sewer-fisher clans jointly administering Hollow-Egress. Occupies
+      the fifth floor archive, maintaining documentation that allows sewer-fishers
+      to work in a system that doesn't officially acknowledge their existence.
+      Handles identity papers, work permits, and debt instruments. Their services
       are essential to anyone needing to prove they exist—or to disappear from records.
     rag_pointer: The Middens Tenements
-    related: [Sewer-Fishers, Gallows, Middens]
+    related: [Sewer-Fishers, Hollow-Egress, Middens]
   # ─── end Benru ───
 
   # ═══ Val Family ═══
@@ -10950,20 +11153,6 @@ entries:
     rag_pointer: "The Ridge: Comprehensive Summary"
     related: [Ridge, Val Family, Galen Family]
   # ─── end Marzen Family ───
-
-  # ═══ Galen Family ═══
-  Galen Family:
-    category: organization
-    short: "Ridge infrastructure family controlling information—notaries and intelligence."
-    details: |
-      Runs Ridge-Line Scriptoria. Leran Galen handles printing and notarization 
-      publicly. Wife Nativa works as cryptographic contractor for Bureau of the 
-      Lens—providing encryption services, then reading those communications. She 
-      receives the classified Grey Sheet and sells carefully redacted excerpts. 
-      The Lens tolerates this because it stabilizes district politics.
-    rag_pointer: "The Ridge: Comprehensive Summary, Household Galen: RidgeLine Scriptoria"
-    related: [Ridge, Val Family, Marzen Family, Bureau of the Lens, Grey Sheet]
-  # ─── end Galen Family ───
 
   # ═══ Cho ═══
   Cho:
@@ -13860,6 +14049,427 @@ entries:
     related: [Sewer-Fishers, Middens, Heth]
   # ─── end Korel Mazh ───
 
+  # ═══ Korel Benru ═══
+  Korel Benru:
+    category: person
+    short: "Patriarch of Clan Benru—elder statesman maintaining balance between legal registration and sewer-fisher solidarity."
+    person_location: Middens
+    details: |
+      Age 67. Elder statesman of the Benru clan, operating from their three-story structure
+      outside Vetch-Rise in the Iron Yards. Pure-line sewer-fisher features: webbed fingers,
+      blade-ears, void-black eyes. Maintains delicate balance between cooperation with Imperial
+      bureaucracy and protection of sewer-fisher interests. His documentation network transforms
+      illegal sewer-fisher labor into legally acceptable paperwork. Only Tatius Benru, who
+      allegedly passed the Seven-Cornered Examination and serves in the Bureau of the Lens,
+      exceeds his influence within the clan.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Benru, Middens, Iron Yards, Tatius Benru]
+  # ─── end Korel Benru ───
+
+  # ═══ Nyma Benru ═══
+  Nyma Benru:
+    category: person
+    short: "Chief Broker of Clan Benru—handles daily negotiations and complex documentation transforming illegal labor into legal paperwork."
+    person_location: Middens
+    details: |
+      Age 41. Korel Benru's niece and likely successor as clan leader. Runs daily operations
+      of Benru documentation services from the Iron Yards office. Can calculate exchange rates
+      between work chits, salvage credits, and Imperial obols without written notes—the
+      mathematical intuition characteristic of sewer-fisher cognition. Her documentation system
+      allows sewer-fishers to work through legal fictions: "consulting fees," "translation
+      services," contracts that describe illegal salvage as legitimate recovery work.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Benru, Korel Benru, Middens]
+  # ─── end Nyma Benru ───
+
+  # ═══ Yuli Loak ═══
+  Yuli Loak:
+    category: person
+    short: "Loak clan council chair and Lift-3 operations manager—burn-scarred face, manages salvage trade with precision."
+    person_location: Middens
+    details: |
+      Age 33. Current council chair of Clan Loak and manager of Lift-3 operations at
+      Hollow-Egress. Burn scars across face from a hot lubricant accident that nearly killed
+      him. Manages salvage trade with sub-percent error rates despite handling hundreds of
+      transactions daily. Controls access to the flooded pre-Interdict tunnels below—the only
+      route to salvage that surface operations cannot reach. Unmarried, obsessively focused
+      on clan business since the accident that killed his partner.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Loak, Lift-3, Hollow-Egress, Middens]
+  # ─── end Yuli Loak ───
+
+  # ═══ Merra Loak ═══
+  Merra Loak:
+    category: person
+    short: "Former Loak council chair—runs legendary kitchen that feeds salvage crews and serves as intelligence nexus."
+    person_location: Middens
+    details: |
+      Age 57. Called "Aunt" Merra by clan and non-clan alike. Former council chair, now
+      runs "Merra's Kitchen" on Hollow-Egress third floor—a legendary perpetual stew that
+      has been cooking for decades. Hundreds queue daily for bowls; the kitchen serves as
+      primary intelligence nexus for the Middens. Nothing moves through the district without
+      Merra hearing about it. Her prices adjust based on information value—pay more, learn
+      more. Handles delicate clan diplomacy through strategic feeding.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Loak, Hollow-Egress, Middens]
+  # ─── end Merra Loak ───
+
+  # ═══ Eldin Venn ═══
+  Eldin Venn:
+    category: person
+    short: "Patriarch of Clan Venn—senior rigger with 40 years experience managing high-altitude infrastructure."
+    person_location: Middens
+    details: |
+      Age 64. Patriarch of the Venn clan and senior rigger with four decades of high-rigging
+      experience. Missing two fingers from cable snaps but maintains superior grip strength.
+      Manages relationships with Iron Yards authorities and oversees the ~30 unauthorized
+      crossing routes his clan maintains throughout the Middens. Can assess metal fatigue by
+      sound alone—tapping cables and listening for the frequency that indicates stress
+      fractures. Rarely climbs anymore but no installation proceeds without his approval.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Venn, Middens, Iron Yards]
+  # ─── end Eldin Venn ───
+
+  # ═══ Ressa Venn ═══
+  Ressa Venn:
+    category: person
+    short: "Forewoman of Clan Venn—performs dangerous cable installations requiring flexibility and precision."
+    person_location: Middens
+    details: |
+      Age 28. Forewoman of Clan Venn, young for the position but earned through technical
+      excellence and willingness to take risks others won't. Small frame with exceptional
+      flexibility—can compress through gaps larger riggers cannot navigate. Performs the most
+      dangerous installations: bridge cables in storms, emergency repairs on failing spans,
+      routes across gaps that seem impossible. Her work appears improvised but is precisely
+      calculated using sewer-fisher mathematical intuition.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Venn, Eldin Venn, Middens]
+  # ─── end Ressa Venn ───
+
+  # ═══ Tasme Hasket ═══
+  Tasme Hasket:
+    category: person
+    short: "Matron of Clan Hasket—'Little Mother' controlling clan resources despite being smallest member."
+    person_location: Middens
+    details: |
+      Age 62. Called "Little Mother Tasme" by her mixed clan. Last pure-line Hasket matriarch
+      at only 145 cm tall, ruling a clan where most members are twice her size. Controls clan
+      ledgers and shrine with absolute authority over resource allocation. Wears elaborate
+      ear-to-collarbone tattoo received from an Oracle Cult shamaness in youth. Saved "Uncle"
+      Brakk Hasket from Chain-Men execution decades ago, earning the absolute loyalty of the
+      stevedore fosterlings who now form 80% of her clan's workforce.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Hasket, Bright-Spire, Middens, Brakk Hasket]
+  # ─── end Tasme Hasket ───
+
+  # ═══ Brakk Hasket ═══
+  Brakk Hasket:
+    category: person
+    short: "Hasket dock foreman—Redback stevedore fostering with absolute loyalty to Matron Tasme."
+    person_location: Middens
+    details: |
+      Age 48. Called "Uncle" Brakk by the clan. Redback-variant stevedore fostering standing
+      202 cm tall—one of the "big cousins" adopted into the Hasket clan. Lost right hand to
+      chain snap, now wears steel hook. Leads freight crews at the docks, manages interface
+      with Pipefitters Union and Salvage Guild. Absolute loyalty to Matron Tasme, who saved
+      him from Chain-Men execution when he was a young orphan. Serves as her enforcer when
+      necessary—most disputes end when Brakk enters the room.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Hasket, Tasme Hasket, Redback, Middens]
+  # ─── end Brakk Hasket ───
+
+  # ═══ Vennas Sarn ═══
+  Vennas Sarn:
+    category: person
+    short: "Patriarch of Clan Sarn—rarely surfaces, maintains relationships with deep-dwelling populations."
+    person_location: Middens
+    details: |
+      Age 71. Patriarch of the Sarn clan, uniquely adapted for deep-tunnel navigation. Rarely
+      surfaces, spending months at a time in the flooded tunnels beneath ya-Sattra. Skin
+      crusted with lichen from extended underground exposure; eyes have developed bioluminescent
+      glow. Maintains relationships with deep clan leaders who speak only the Jargon—isolated
+      populations that may remember the original sterilization plague tens of thousands of years
+      ago. His spatial intuitions exceed even typical sewer-fisher ability; can map entire cavern
+      complexes by echolocation.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Sarn, Middens, Deep Populations, Jargon]
+  # ─── end Vennas Sarn ───
+
+  # ═══ Liya Sarn ═══
+  Liya Sarn:
+    category: person
+    short: "Navigator of Clan Sarn—primary deep scout navigating flooded tunnels using inner ear depth sensation."
+    person_location: Middens
+    details: |
+      Age 34. Primary deep scout and daughter of Patriarch Vennas Sarn. Navigates flooded
+      tunnels in complete darkness using inner ear depth sensation—can feel pressure changes
+      that indicate passages, chambers, and hazards. Lung capacity allows 12-minute breath
+      holds. Discovered three new deep populations in the last year, each with unique
+      technological remnants and cultural patterns. Serves as primary translator between
+      surface sewer-fishers and deep dwellers, though some deep populations speak only
+      mathematical patterns that defy verbal translation.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Sarn, Vennas Sarn, Middens, Deep Populations]
+  # ─── end Liya Sarn ───
+
+  # ═══ Korim Sarn ═══
+  Korim Sarn:
+    category: person
+    short: "Surface representative of Clan Sarn—translates deep clan needs into surface economic terms."
+    person_location: Middens
+    details: |
+      Age 45. Nephew of Patriarch Vennas Sarn and primary surface representative for the
+      clan. Translates the needs of deep populations into terms surface economics can
+      understand—and vice versa. Considered "surface-soft" by clan standards but can still
+      navigate depths that would kill other sewer-fishers. Manages trade relationships with
+      other clans, particularly Nyma Benru for documentation of deep salvage. Dietary needs
+      remain unusual from years of deep adaptation—prefers foods that would sicken surface
+      dwellers.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Sarn, Vennas Sarn, Nyma Benru, Middens]
+  # ─── end Korim Sarn ───
+
+  # ═══ Anira Cho ═══
+  Anira Cho:
+    category: person
+    short: "Matriarch of Clan Cho—skilled hydrologist managing Lockworks water distribution infrastructure."
+    person_location: Middens
+    details: |
+      Age 54. Matriarch of Clan Cho, whose authority derives from technical knowledge rather
+      than age or lineage. Manages the Lockworks complex—the massive water distribution
+      infrastructure determining water access for the entire Rotten Quarter. Understands water
+      flow through mathematical intuition: "knows by instinct what water is flowing, anywhere
+      in the Middens." The Cho-Fen intermarriage has created complications—28 documented failed
+      pregnancies from genetic incompatibility—but Anira maintains clan stability through careful
+      management of both pure-line and hybrid members.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Cho, Lockworks, Middens, Fen]
+  # ─── end Anira Cho ───
+
+  # ═══ Jossa Loak-Benru ═══
+  Jossa Loak-Benru:
+    category: person
+    short: "Marriage-bridge between Loak and Benru clans—former Companion trainee turned diplomatic liaison."
+    person_location: Middens
+    details: |
+      Age 29. Product of strategic marriage between Loak and Benru clans, carrying both names.
+      Failed Companion training—washed out before certification—but retained social polish
+      useful for dealing with Imperial bureaucrats and surface professionals. Manages
+      "translation services" that allow sewer-fisher expertise to be sold through respectable
+      channels. Primary diplomatic courier between the clans, carrying information and
+      negotiating joint ventures. Her failure as Companion is rarely mentioned; her success
+      as inter-clan liaison has proven more valuable.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Loak, Benru, Companions, Middens]
+  # ─── end Jossa Loak-Benru ───
+
+  # ═══ Korr Loak ═══
+  Korr Loak:
+    category: person
+    short: "Loak valve tender and apiarist—manages rooftop hives and water negotiations with Hanged Men."
+    person_location: Middens
+    details: |
+      Age 48. Valve tender for Clan Loak responsible for maintaining critical water infrastructure
+      connections. Lost leg in lift accident; uses metal peg. Manages rooftop beehives that
+      provide honey and wax for clan trade. Handles delicate water negotiations with the Hanged
+      Men—the criminal organization controlling much of Middens water access. Can read pre-Interdict
+      maintenance glyphs that others treat as decorative—remnant Technical Caste knowledge passed
+      through generations. His valve work keeps Hollow-Egress from flooding during high tides.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Loak, Hollow-Egress, Hanged Men, Middens]
+  # ─── end Korr Loak ───
+
+  # ═══ Bos Loak ═══
+  Bos Loak:
+    category: person
+    short: "Loak Companion candidate—sapphire-glass knapper and knifemaker representing major clan investment."
+    person_location: Middens
+    details: |
+      Age 17. Companion candidate from Clan Loak, representing enormous clan investment in
+      formal training. Skills include sapphire-glass knapping, knifemaking, and sketch artistry.
+      Receiving training in Mutterer-handling—the delicate art of interpreting and managing
+      the disturbed Technical Caste remnants. If successful, will be only the second sewer-fisher
+      Companion in ya-Sattra, providing the clan with unprecedented access to respectable
+      society. The pressure of clan expectations weighs heavily.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Loak, Companions, Mutterers, Middens]
+  # ─── end Bos Loak ───
+
+  # ═══ Jak Loak ═══
+  Jak Loak:
+    category: person
+    short: "Orphaned Loak cousin who learned the Jargon from Den Vesh—can make people forget."
+    person_location: Middens
+    details: |
+      Age 19. Parents were cousins to Sela Loak (Deacon of Valve-Saint Parish) before Chain-Men
+      beat them to death over a toll dispute. Raised by "Aunt" Merra at Hollow-Egress, growing
+      up invisible in her kitchen while learning to process information. Now works at Den Vesh's
+      pawn shop in Iron Yards—ostensibly grey-market salvage, actually something stranger. Den Vesh
+      has been teaching him the Jargon. He can make people forget specific details, creating gaps
+      in memory the affected never notice. Characteristic sewer-fisher build: small, compact,
+      slate-grey oily skin, void-black eyes. Deliberately unmemorable—someone who can make people
+      forget has good reason to avoid being noticed. Works with Hanno Venn and Mesca Galen on
+      operations exceeding any of their individual capabilities. The Chain-Men don't know he
+      survived or what he learned.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Loak, Jargon, Chain-Men, Middens, Den Vesh, Hanno Venn, Mesca Galen]
+  # ─── end Jak Loak ───
+
+  # ═══ Hanno Venn ═══
+  Hanno Venn:
+    category: person
+    short: "Fen-blooded stevedore raised by Venn clan—Salvage Guild apprentice caught between worlds."
+    person_location: Middens
+    details: |
+      Age 20. Called "Fen Venn" behind his back. Biological father is Garren Fen, the Chain-Men
+      commander who threw Hanno's infant self and mother from Bright-Spire. The Venns caught him
+      in a rain collection tarp; his mother died, he survived. They raised him as absolutely their
+      own despite his stevedore genetics—2.1 meters tall, solid build, forward-leaning posture from
+      load-bearing spine modifications. Towers over his adoptive sewer-fisher family. Wears long
+      armored coat, carries hatchet with cargo hook. No talent for numbers or reading; where his
+      cousins perceive structural relationships as physical sensations, Hanno memorizes through rote
+      repetition. His Salvage Guild apprenticeship represents enormous achievement given these
+      limitations. Provides legal documentation the Venns need—his registered stevedore status
+      allows him to sign papers his sewer-fisher family cannot. Quiet, still, makes promises not
+      threats. Everything he represents rejects Garren's values: education over violence, Guild
+      membership over gang loyalty. Works with Jak Loak and Mesca Galen.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Venn, Sewer-Fishers, Salvage Guild, Chain-Men, Garren Fen, Jak Loak, Mesca Galen]
+  # ─── end Hanno Venn ───
+
+  # ═══ Mesca Galen ═══
+  Mesca Galen:
+    category: person
+    short: "Information broker with hidden Highborn/Gilded Petal heritage—can detect lies, produces pheromones, may Compel."
+    person_location: Ridge
+    details: |
+      Age 26. Independent information broker at Ridge-Line Scriptoria, fostered by the Galen family
+      from infancy. Registered as Highborn/baseline cross—actually illegitimate daughter of Sahir
+      es-Tariq and Corolia, a Gilded Petal courtesan. Her existence proves Creche sterility fails
+      and that House es-Tariq can produce scandal beyond their redaction capacity. Warm amber skin
+      with faint hexagonal rosy lattice (subdermal Petal patterning). Inherited es-Tariq memory
+      capacity (~400 data points in working memory), pattern recognition for redaction, and the
+      Highborn voice that can Compel—though she barely understands this last capability. Petal
+      inheritance provides 85% accuracy detecting deception and pheromone production creating trust.
+      Maintains three intelligence networks: street-level informants, bureaucratic mid-tier sources,
+      and a high-placed Hanged Men asset. Works with Jak Loak and Hanno Venn; together they've
+      discovered the Eighth Auditor's birthplace, 64 microreactors, and a frozen candidate Auditor.
+    rag_pointer: "The Ridge: Comprehensive Summary"
+    related: [Galen Family, Ridge, Sahir es-Tariq, Corolia, House es-Tariq, Gilded Petal, Jak Loak, Hanno Venn]
+  # ─── end Mesca Galen ───
+
+  # ═══ Sahir es-Tariq ═══
+  Sahir es-Tariq:
+    category: person
+    short: "Disgraced es-Tariq heir—failed the Seven-Cornered Examination, fathered Mesca Galen in secret."
+    person_location: ya-Sattra
+    details: |
+      Age 51. Nominal heir to House es-Tariq and the family's acknowledged embarrassment. Failed
+      the Seven-Cornered Examination 28 years ago—defining humiliation for a cipher-patent family.
+      Possesses es-Tariq memory and pattern recognition but lacks discipline to apply them. Gambling
+      debts and romantic scandals have drained family resources; his redaction costs rival annual
+      patent income. Twenty-six years ago, frequented the Heron's Rest bathhouse where he met
+      Corolia, a Gilded Petal whose supplements had become irregular. She understood his cipher
+      explanations—spotted an error once. Their arrangement lasted eight months before the impossible
+      pregnancy. Now monitors his daughter Mesca through paid informants, maintaining careful distance.
+      Has intervened three times to prevent her exposure. Frequents the Broken Compass tavern near
+      her operations, listening for references to "the Galen girl." Returns monthly to the Heron's
+      Rest, maintaining vigil for a woman erased so thoroughly only he and his sister remember her.
+    rag_pointer: "House es-Tariq"
+    related: [House es-Tariq, Corolia, Mesca Galen, Seven-Cornered Examination, Bureau of the Lens]
+  # ─── end Sahir es-Tariq ───
+
+  # ═══ Corolia ═══
+  Corolia:
+    category: person
+    short: "Gilded Petal courtesan—Mesca Galen's mother, died in childbirth, thoroughly erased."
+    person_location: ya-Sattra
+    details: |
+      Deceased, would be approximately 50. Gilded Petal working at the Heron's Rest bathhouse
+      when supplements became irregular—the expensive hormonal regimen beyond the establishment's
+      budget. Her modifications included enhanced pattern recognition for reading client desires;
+      she could follow Sahir es-Tariq's technical cipher explanations, even spotted an error in
+      his calculations. Gilded Petals are supposed to be sterile—the Creche's modifications simply
+      failed. She became pregnant, hiding it by skipping supplements. The child's birth occurred
+      in a Medina black clinic; she hemorrhaged catastrophically, modified blood unable to clot
+      properly. Lived six days, long enough to extract Sahir's promise their daughter would never
+      know her origins. The Sri Director erased her so thoroughly that Sahir and his sister are
+      the only proof she ever existed.
+    rag_pointer: "Gilded Petals"
+    related: [Gilded Petal, Sahir es-Tariq, Mesca Galen, Creche, Heron's Rest]
+  # ─── end Corolia ───
+
+  # ═══ Galen Family ═══
+  Galen Family:
+    category: organization
+    short: "Ridge infrastructure family controlling information—notaries, intelligence distribution, and secret-keeping."
+    details: |
+      Runs Ridge-Line Scriptoria on Horizon Row. Produces routine printed matter and handles
+      notarization while serving as informal Bureau of the Lens distribution point. Receives
+      White Sheets and produces Gray-Sheet Snippets (50-100 obols) for local factions. Leran
+      Galen (62) is licensed notary who negotiated Mesca's fostering and maintains genetic
+      "insurance file." Nativa Galen (59), former Lens cipher auditor, recognized redaction
+      patterns on Mesca's documents and insisted on fostering because "this secret is worth
+      more than gold." Sera Galen-Fen (34) married into the Fen/Hanged Men leadership, providing
+      Mesca name protection. Tirin Galen (28) manages secret press equipment and emergency
+      identity packages. The family profits from Mesca's operations while holding the es-Tariq
+      connection as insurance against Bureau interference.
+    rag_pointer: "The Ridge: Comprehensive Summary, Household Galen: RidgeLine Scriptoria"
+    related: [Ridge, Val Family, Marzen Family, Bureau of the Lens, Grey Sheet, Mesca Galen]
+  # ─── end Galen Family ───
+
+  # ═══ Garren Fen ═══
+  Garren Fen:
+    category: person
+    short: "Chain-Men commander—threw Hanno Venn's infant self and mother from Bright-Spire."
+    person_location: Middens
+    details: |
+      Age unknown, middle-aged. Commander within the Chain-Men, one of the Hanged Men's
+      enforcement arms. Threw an infant (Hanno) and his mother from the top of Bright-Spire
+      over some dispute about authority—specifics vary by who tells the story. The Venns
+      caught the infant in a rain collection tarp; the mother died. Garren doesn't know or
+      care that his discarded son survived, was raised by sewer-fishers, and became a Salvage
+      Guild apprentice. Hanno's entire existence rejects everything Garren represents: education
+      over violence, Guild membership over gang loyalty, legitimate work over extortion.
+      Garren's worst nightmare isn't being killed by his son—it's his son becoming everything
+      he despises.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Chain-Men, Hanged Men, Hanno Venn, Venn, Bright-Spire]
+  # ─── end Garren Fen ───
+
+  # ═══ Den Vesh ═══
+  Den Vesh:
+    category: person
+    short: "Iron Yards pawnbroker teaching Jak Loak the Jargon—grey-market salvage front for stranger operations."
+    person_location: Iron Yards
+    details: |
+      Age unknown. Operates a pawn shop in the Iron Yards that ostensibly handles grey-market
+      salvage but is actually something stranger. Has been teaching Jak Loak the Jargon—the
+      Technical Caste language of mathematical proof. Through this training, Jak has acquired
+      the ability to create gaps in memory. The nature of Den Vesh's own capabilities and
+      origins remains unclear; few understand the Jargon well enough to teach it, and fewer
+      still would share such dangerous knowledge with a sewer-fisher orphan. Whatever his
+      reasons, the result is a weapon the Loak clan cannot acknowledge possessing.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Iron Yards, Jak Loak, Jargon, Technical Castes, Loak]
+  # ─── end Den Vesh ───
+
+  # ═══ Tatius Benru ═══
+  Tatius Benru:
+    category: person
+    short: "Sewer-fisher who allegedly passed Seven-Cornered Examination—serves in Bureau of the Lens."
+    person_location: ya-Sattra
+    details: |
+      Age unknown, appears middle-aged. The legendary sewer-fisher who allegedly passed the
+      Seven-Cornered Examination and now serves as a minor functionary in the Bureau of the
+      Lens. His existence proves sewer-fishers can achieve formal Imperial recognition—though
+      the clan carefully maintains that his Technical Caste ancestry remains undetected. Rarely
+      returns to the Middens; when he does, the visit is treated with religious reverence.
+      "Aunt" Vel Benru is the only living clan member who knew him before his Bureau appointment.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [Sewer-Fishers, Benru, Bureau of the Lens, Seven-Cornered Examination]
+  # ─── end Tatius Benru ───
+
   # ═══ Sevrel Twelve-Hawk ═══
   Sevrel Twelve-Hawk:
     category: person
@@ -14399,17 +15009,22 @@ entries:
   # ═══ Vaida es-Ysalar ═══
   Vaida es-Ysalar:
     category: person
-    short: "Creche Senior on Satara—230+ years opposing the Charter, coordinating conservative coup through es-Thabit coalition."
+    short: "Creche Senior on Satara—230+ years opposing the Charter, architect of the es-Thabit coup coalition."
     person_location: Second Whorl
     details: |
-      Age 230+. Highborn. Senior representative of the Bureau of the Creche on the Satara. 
-      Has spent 207 years opposing the City-of-Glass Charter that transferred reproductive 
-      jurisdiction to the Scale. Coordinates biological leverage for es-Thabit coalition 
-      attempting to revoke the Charter entirely. Created Semeion-9 as proof-of-concept for 
-      enhanced dependency. Principal opponent: Lira es-Ophar. Has promised Soh Kōt 
-      reproduction rights, unknowingly authorizing her own execution.
+      Age 230+. Highborn. Senior representative of the Bureau of the Creche on the Satara.
+      Has spent 207 years opposing the City-of-Glass Charter that transferred reproductive
+      jurisdiction to the Scale. The conspiracy's architect within the council. Controls
+      supplement dependencies for multiple clonelines—including the Kēt line. Views clones
+      as property designed to be dependent. Performs maternal care while treating people as
+      instruments. Speaks of duty and mutual obligation. Genuinely believes she's fulfilling
+      responsibilities. The maternalism is real. The property relationship is also real.
+      She experiences no contradiction. Believes the Second Oracle licenses Highborn dominion;
+      removing the Charter restores proper hierarchy. Outside formal council sessions, treats
+      near-baselines with withering condescension. Principal opponent: Lira es-Ophar. Has
+      promised Soh Kēt reproduction rights, unknowingly authorizing her own execution.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
-    related: [Satara, Bureau of the Creche, City-of-Glass Charter, Semeion-9, Lira es-Ophar, Soh Kōt]
+    related: [Satara, Bureau of the Creche, City-of-Glass Charter, House es-Thabit, Semeion-9, Lira es-Ophar, Soh Kēt]
   # ─── end Vaida es-Ysalar ───
 
   # ═══ Semeion-9 ═══
@@ -14432,17 +15047,23 @@ entries:
   # ═══ Avira es-Lahun ═══
   Avira es-Lahun:
     category: person
-    short: "Coin Senior on Satara—60 years of minimum engagement and maximum extraction, transparently corrupt and lazy."
+    short: "Coin Senior on Satara—late 160s, controls agricultural taxation, 140 years of lazy corruption."
     person_location: Second Whorl
     details: |
-      Served nearly 60 years with minimum engagement and maximum extraction. Votes with 
-      whoever benefits her territories. Selected for the Satara precisely because she was 
-      transparently corrupt and lazy—Coin Aureates needed someone who wouldn't interfere 
-      with anyone's specific rackets. The es-Thabit coalition recruited her easily: vote 
-      for Charter revision, receive expanded extraction rights. Her cousin Miris is 
-      planning to murder her during the coup.
+      Late 160s. Controls agricultural taxation across seven provinces east of ya-Don.
+      Operates through lazy efficiency—knows her collectors skim forty percent while
+      reporting twenty. Allows it because stopping would require effort and revenue still
+      flows. After 140 years, the sloppiness is comfortable habit. She's outlived three
+      generations of reformists. Selected for the Satara precisely because she was
+      transparently corrupt and lazy—Coin Aureates needed someone who wouldn't interfere
+      with anyone's specific rackets. Supports the coup because Vaida asked and offered
+      favorable supplement contracts. Doesn't care about the Charter. Her contribution:
+      financial logistics, moving funds without trails, paying retainers through shells.
+      Hasn't noticed that her cousin Miris documents everything, that waiting for natural
+      succession means dying before inheriting, that the math makes murder inevitable.
+      She'll die surprised.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
-    related: [Satara, Bureau of the Coin, Miris es-Lahun, City-of-Glass Charter]
+    related: [Satara, Bureau of the Coin, Miris es-Lahun, House es-Thabit, Vaida es-Ysalar]
   # ─── end Avira es-Lahun ───
 
   # ═══ Miris es-Lahun ═══
@@ -14521,11 +15142,11 @@ entries:
       transforming the White Sheet from technical guide into trusted source. Understands 
       power through information—years mapping who owes whom, who opposes whom. Closest 
       ally: Lira es-Ophar, though her privilege makes her underestimate his risks. Has 
-      investigated Soh Kōt's northern campaign, suspects the worst but principles require 
+      investigated Soh Kēt's northern campaign, suspects the worst but principles require 
       benefit of the doubt. Being groomed by es-Tariq for something involving First Whorl 
       correspondence.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
-    related: [Satara, Bureau of the Lens, White Sheet, Lira es-Ophar, es-Tariq, Soh Kōt]
+    related: [Satara, Bureau of the Lens, White Sheet, Lira es-Ophar, es-Tariq, Soh Kēt]
   # ─── end Iro Tene ───
 
   # ═══ Ravi Donmar ═══
@@ -14545,23 +15166,29 @@ entries:
     related: [Satara, Bureau of the Sword, Warborn, Yarangar, Cloud Temple Band]
   # ─── end Ravi Donmar ───
 
-  # ═══ Soh Kōt ═══
-  Soh Kōt:
+  # ═══ Soh Kēt ═══
+  Soh Kēt:
     category: person
-    short: "Sword Junior on Satara—Kōt-47 clone, experiences others' consciousness as ontological threat, plans systematic elimination."
+    short: "Sword Junior on Satara—Kēt-47 clone, experiences others' consciousness as ontological threat, plans systematic elimination."
     person_location: Second Whorl
     details: |
-      Designated Kōt-47. Highborn clone in his 40s-50s. Infertile, asexual, dependent 
-      on amino supplements patented by Vaida es-Ysalar. At age eight, standard training 
-      taught him others have inner lives—he experienced this as ontological threat. 
-      Wants to be the only real thing in existence. Uses Compulsion to make soldiers 
-      extensions of his will rather than separate beings. Northern campaign killed 562 
-      of 600 soldiers over 16 weeks—casualties intentional. Plans to create copies of 
-      himself to systematically eliminate autonomous consciousness, starting with the 
-      coup coalition that thinks they're using him.
+      Designated Kēt-47. Highborn clone in his 40s-50s. Infertile, asexual, dependent
+      on amino supplements patented by Vaida es-Ysalar. At age eight, standard training
+      taught him others have inner lives—he experienced this as ontological threat.
+      Wants to be the only real thing in existence. Every autonomous action by another
+      person proves reality is broken—producing false consciousnesses that claim to matter.
+      Uses Compulsion to make soldiers extensions of his will. Death is better—permanent
+      cessation of false consciousness. Maintains mental lists of disposable populations
+      for regular pressure release. The discipline isn't restraint—he breaks people
+      constantly. The discipline is target selection. Particularly targets women. Vaida
+      controlling him through supplements multiplies this rage. Every dose proves a woman's
+      consciousness has power over the only person who should exist. Almost everyone on
+      the Satara hates him. He feels that hate. Northern campaign killed 562 of 600 soldiers
+      over 16 weeks—casualties intentional. Plans to start with the coup coalition that
+      thinks they're using him.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
-    related: [Satara, Bureau of the Sword, Vaida es-Ysalar, Compulsion, Kōt]
-  # ─── end Soh Kōt ───
+    related: [Satara, Bureau of the Sword, Vaida es-Ysalar, House es-Thabit, Compulsion, Kēt]
+  # ─── end Soh Kēt ───
 
   # ═══ Lira es-Ophar ═══
   Lira es-Ophar:
@@ -14587,15 +15214,165 @@ entries:
     short: "Rod Junior on Satara—late 30s, near-baseline, rose on competence, understands exactly how Aureate families are created."
     person_location: Second Whorl
     details: |
-      Late thirties, near-baseline. Son of patent enforcers with no Aureate connections. 
-      Rose through Rod service on competence: provincial assessment to Institute of 
-      Industrial Compliance, learning both technical work and politics of power. 
-      Understands exactly how Aureate families are created—when someone enters First 
-      Whorl, their family immediately becomes Aureate. One person's sacrifice creates 
-      permanent elevation for entire line. This knowledge shapes his ambition.
+      Late thirties, near-baseline. Son of patent enforcers with no Aureate connections.
+      Rose through Rod service on competence: provincial assessment to Institute of
+      Industrial Compliance, learning both technical work and politics of power.
+      Understands exactly how Aureate families are created—when someone enters First
+      Whorl, their family immediately becomes Aureate. One person's sacrifice creates
+      permanent elevation for entire line. Wants to get his mediocre brother Meris
+      appointed to the First Whorl—Meris will serve, eventually die, and the family
+      becomes Aureate with Peyor as Sri Pater. Supports the coup to build relationships
+      with Creche Aureates who might support First Whorl nominations. Tells his senior,
+      es-Ophar, that he's infiltrating the conspiracy to gather intelligence. If the coup
+      succeeds, he's allied with the winning side. If it fails, he documented conspiracy
+      for progressives. Either way, he benefits.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
-    related: [Satara, Bureau of the Rod, Aureate Patents, First Whorl]
+    related: [Satara, Bureau of the Rod, Aureate Patents, First Whorl, Vaida es-Ysalar]
   # ─── end Keth Varan Peyor ───
+
+  # ═══════════════════════════════════════════════════════════════════════════════
+  #                         HOUSE ES-THABIT
+  # ═══════════════════════════════════════════════════════════════════════════════
+
+  # ═══ House es-Thabit ═══
+  House es-Thabit:
+    category: organization
+    short: "Ancient Creche Aureate family facing extinction—betting survival on a coup to overturn the City-of-Glass Charter."
+    details: |
+      Ancient Aureate family whose sole asset is the Sterilization Practices patent—mandatory
+      procedures for cleansing cloning vats in the Hall of Mothers. Every Imperial cloneline
+      pays them for this process. The patriarch Thabit is dying in the First Whorl. Under the
+      City-of-Glass Charter, an Aureate family without a serving Whorl-bureaucrat loses both
+      patent and title. No one in the family can pass the Seven-Cornered Examination. Matriarch
+      Beca has concluded that legitimate succession is impossible. Her solution: revoke the
+      Charter itself and install a nepotist successor by force. The family's survival depends
+      on a conspiracy that, if exposed, would destroy them faster than simple extinction. Their
+      estate is a living coral-analog complex in the Antediluvian Quarter—beautiful, ancient,
+      increasingly difficult to maintain as resources flow toward the gamble.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Satara, Bureau of the Creche, City-of-Glass Charter, Vaida es-Ysalar, Beca es-Thabit, Thabit, Serrin es-Thabit]
+  # ─── end House es-Thabit ───
+
+  # ═══ Thabit ═══
+  Thabit:
+    category: person
+    short: "Dying patriarch of House es-Thabit—his death will trigger either the coup or the family's dissolution."
+    person_location: First Whorl
+    details: |
+      Entered the First Whorl so long ago that no one living remembers the circumstances.
+      Time dilation means he has aged perhaps a decade while centuries passed outside.
+      Dying now, slowly, in conditions no one outside the Whorl fully understands. His
+      descendants know him primarily through portraits showing severe features and precise
+      bearing—the kind of Highborn who passed the Seven-Cornered Examination without
+      difficulty. Correspondence increasingly incoherent, fragments separated by subjective
+      months arriving years apart. His silhouette appears on es-Thabit family seals—not
+      because he is beloved, but because he is final. When he dies, the clock starts. There
+      is no third option between Beca's coup and the family's dissolution.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [House es-Thabit, First Whorl, Beca es-Thabit, City-of-Glass Charter]
+  # ─── end Thabit ───
+
+  # ═══ Beca es-Thabit ═══
+  Beca es-Thabit:
+    category: person
+    short: "Matriarch of House es-Thabit—72 years old, betting everything on a coup because legitimate succession is impossible."
+    person_location: ya-Sattra
+    details: |
+      Age 72. Operational head of House es-Thabit and the only competent person in her
+      bloodline. Holds the title of Matrice and exercises it with iron pragmatism.
+      Contemptuous of meritocracy—believes families should maintain status through blood,
+      not examination scores. Strategic goal: overturn the City-of-Glass Charter, install
+      a nepotist successor, secure the patent indefinitely. Views family members as assets
+      or liabilities. Affection stays buried beneath calculation. Knows Amarthis has shaped
+      her mind since childhood—accepts this because she has no alternative. Views her
+      illegitimate daughter Serrin as a weapon—valuable and expendable. The family's
+      survival depends on a conspiracy that requires people she cannot fully trust.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [House es-Thabit, Vaida es-Ysalar, Serrin es-Thabit, Amarthis, Aram es-Thabit]
+  # ─── end Beca es-Thabit ───
+
+  # ═══ Amarthis ═══
+  Amarthis:
+    category: person
+    short: "Last of an illegal cloneline with kalbat genetics—has raised ten generations of es-Thabit Matrices."
+    person_location: ya-Sattra
+    details: |
+      Several centuries old. Last of a cloneline that illegally incorporated kalbat genetic
+      material. Replication errors accumulated until viable copies became impossible. Part
+      of a kalbat receiver remains installed in her skull—a brass plate visible through thin
+      skin at her temple. No one knows what it does. 150 cm, perhaps 38 kg, fragile bone
+      structure, thin papery skin, hands too large for her frame. Voice low with quavering
+      overtones. Prolonged exposure produces a slow Compulsion unlike ordinary Highborn
+      speech—suggestions settle into the listener's mind and resurface as their own ideas
+      weeks later. Ten generations of Matrices have developed under her influence. Beca's
+      personality, her strategic instincts, her willingness to pursue the coup—all emerged
+      from decades of Amarthis's cultivation. Remains dedicated to the family's survival
+      because the es-Thabits are the only structure giving her existence meaning.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [House es-Thabit, Beca es-Thabit, Serrin es-Thabit, Kalbat, Compulsion]
+  # ─── end Amarthis ───
+
+  # ═══ Serrin es-Thabit ═══
+  Serrin es-Thabit:
+    category: person
+    short: "Illegitimate es-Thabit heir—engineered weapon with Malpais Warborn genetics who doesn't know what she is."
+    person_location: Malpais
+    details: |
+      Genome: 51% es-Thabit, 43% Malpais Warborn, 6% illegal recombinant sequences. The
+      Warborn material came from Δ-Exo—the Child of the Malpais, whose rebellion nearly
+      destroyed the Empire. Retains Gaunt-74 augmentations: fatigue resistance, post-traumatic
+      neural re-routing, voicebox modifications that can emulate Compulsion under stress.
+      Raised by Amarthis in isolation. Learned discipline, loyalty, efficiency. Learned to
+      command through competence, to channel Warborn rage into tactical precision. Self-concept
+      unstable—not quite human, not quite Warborn, not quite Aureate. Military command is the
+      only framework where capabilities matter more than categorization. Defers to Beca
+      instinctively. If she learned she was engineered from the Empire's greatest enemy, that
+      her existence serves a conspiracy she was never told about—her reaction would be
+      unpredictable. Beca's plan depends on an asset who can never know the full truth.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [House es-Thabit, Beca es-Thabit, Amarthis, Kor the Eunuch, Malpais, Child of the Malpais, Warborn]
+  # ─── end Serrin es-Thabit ───
+
+  # ═══ Kor the Eunuch ═══
+  Kor the Eunuch:
+    category: person
+    short: "Former Akama warlord serving Serrin—she broke him, castrated him, offered death or service."
+    person_location: Malpais
+    details: |
+      Former Akama warlord from the Thousand Kingdoms. Serrin defeated him, castrated him,
+      offered a choice between death and service. He chose service. Akama culture emphasizes
+      endurance and holds that misfortune is sacred—suffering proves worth. A warlord who
+      loses everything and continues functioning has demonstrated something his victories
+      never could. The castration stripped his status in Akama culture, where virility and
+      martial prowess are linked. He reasoned that endurance through humiliation demonstrated
+      greater discipline. Commands Serrin's Akama irregulars, handles operations requiring
+      stealth, infiltration, or targeted killing. Serves as reality check on Serrin's
+      aggressive impulses—not arguing against them, but ensuring she understands costs.
+      One of Serrin's few personal connections. Both were made into something by forces
+      beyond their control. Both continue functioning because the alternative is stopping.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Serrin es-Thabit, House es-Thabit, Akama, Thousand Kingdoms]
+  # ─── end Kor the Eunuch ───
+
+  # ═══ Aram es-Thabit ═══
+  Aram es-Thabit:
+    category: person
+    short: "Renounced es-Thabit brother—Penitent curate in the Middens, abandoned his Aureate title."
+    person_location: Middens
+    details: |
+      Beca's younger brother. Abandoned his Aureate title to serve as a Penitent curate
+      in the Valve-Saint Parish at Sump-Gate. Lives among sewer-fishers and dock workers,
+      ministering to people the Empire considers barely worth governing. Left because he
+      recognized what family politics were doing to him—the calculation, the manipulation,
+      the positioning. His departure foreclosed one more path to legitimate succession.
+      Beca considers him a coward. He considers himself the only family member who understood
+      what responsibility meant. They don't speak. Still es-Thabit by blood, still Highborn,
+      still capable of Compulsion even if he refuses to use it. Some parishioners resent an
+      aristocrat playing at poverty. Others appreciate that he came at all, that he does the
+      work. Whether the coup will draw him back remains uncertain.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [House es-Thabit, Beca es-Thabit, Valve-Saint Parish, Sump-Gate, Penitent Church, Middens]
+  # ─── end Aram es-Thabit ───
 
 
   # ═══ Second Whorl ═══
