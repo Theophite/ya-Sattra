@@ -19,20 +19,17 @@ entries:
   # ═══ Akama ═══
   Akama:
     category: caste
-    short: Unclassified caste with scrambled heritage from multiple engineered lineages.
+    short: Mixed-heritage population defined by practice rather than genetics, emergent from scrambled engineered lineages.
     details: |
-      Defined by practice not genetics—someone who can breed with other Akama
-      and participates in Akama culture. Distinguishing features of multiple
-      ancestral castes have blurred into general capability. Variable morphology
-      with visible mixed heritage.
+      Someone who can breed with other Akama and participates in Akama culture
+      is Akama. Distinguishing features of multiple ancestral castes have blurred
+      into general capability. Variable morphology with visible mixed heritage.
 
-      MATERIAL CULTURE: Testimonial—objects speak for individuals across mortal
-      timescales. "I was here. This happened. It mattered." Standing in the Rain
-      philosophy: life promises nothing, material culture doesn't pretend otherwise.
-      Sufficiency ("enough") is highest praise. Armor displayed outside tents shows
-      biography through patches and modifications. Damage displayed, not hidden—the
-      mended thing is more honest than the pristine. A young warrior's pristine
-      equipment testifies against him: nothing has happened to him yet.
+      Material culture is testimonial—objects speak across mortal timescales.
+      Standing in the Rain philosophy: life promises nothing, material culture
+      doesn't pretend otherwise. Sufficiency is highest praise. Armor displayed
+      outside tents shows biography through patches and modifications. The mended
+      thing is more honest than the pristine.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Warband, Thousand Kingdoms, Junta of Ogon, Gorin Eight-Elk]
     caste_features:
@@ -100,8 +97,30 @@ entries:
   # ═══ Archons ═══
   Archons:
     category: caste
-    short: Highest tier of Technical Castes, bodies merged with architecture.
-    details: ""
+    short: Highest tier of Technical Castes—masses of modified tissue merged with architecture, calculating while dying at Far Ib.
+    details: |
+      The top of the translation cascade. Archons held complete Arbitrary Truths—
+      mathematical certainties transmitted by the Oracles, proven with rigor
+      beyond human verification, inexpressible in any living language. Their
+      modifications allowed them to contain what baseline cognition cannot hold.
+
+      The bodies merged with the buildings. Nutrient lines run through conduits.
+      Biological processes extend through walls and floors. You cannot tell where
+      the Archon ends and the architecture begins. Perhaps there is no meaningful
+      distinction. They are numbered by the order in which they lost mobility:
+      First Remaining, Second Remaining, Seventh Remaining.
+
+      At Far Ib, survivors calculate. The Seventh Remaining has been attempting
+      to disprove the Eighth Testament's mathematics for four thousand years.
+      Clone servants attend them, recording outputs in the Jargon, maintaining
+      nutrient systems they do not understand. The servants degrade generation
+      by generation—each cohort knowing less than the one before, performing
+      procedures without comprehension. When the servants finally fail, the
+      Archons will have no one to maintain the nutrient lines.
+
+      A face remains somewhere on each mass of modified tissue. Two eyes. A mouth.
+      Features no longer quite right. Whether they are aware in any sense humans
+      would recognize: unknown.
     rag_pointer: The Technical Castes and Far Ib
     related: [Technical Castes, Far Ib, Arbitrary Truths, The Seventh Remaining, Cloud Temple]
     caste_features:
@@ -133,11 +152,18 @@ entries:
   # ═══ Ashrat ═══
   Ashrat:
     category: caste
-    short: "Heat-tolerant labor caste engineered for sustained furnace exposure."
+    short: Heat-tolerant labor caste engineered for sustained furnace exposure. Grey skin, reduced lifespan, enormous appetite.
     details: |
-      Ya-Don's primary furnace workers. Grey skin from dermal calcium compounds 
-      that deepens with age and exposure. Silicate-compound sweat leaves permanent 
-      shimmer. Run hot, require enormous caloric intake during shifts.
+      Ya-Don's primary furnace workers. Grey skin from dermal calcium compounds
+      deepens with age and exposure—pale ash when young, deep charcoal after
+      decades. Silicate-compound sweat leaves permanent shimmer. Run hot, require
+      six or more meals daily during shifts; the body cannibalizes itself within
+      hours without food.
+
+      Reduced lifespan of approximately sixty-five years. Metabolism burns faster
+      than other castes. Off-shift, notorious gourmands with heightened flavor
+      sensitivity—Ashrat cuisine emphasizes complexity within richness. Ashrat
+      fatalism shapes caste culture; wills are updated annually.
     rag_pointer: "Castes of Mankind, Ya-Don: Comprehensive Reference"
     related: [Labor Castes, ya-Don, Order of St. Akhmet]
     caste_features:
@@ -173,12 +199,18 @@ entries:
   # ═══ Astal ═══
   Astal:
     category: caste
-    short: "Rapid-generation colonist caste with dramatically accelerated life cycle."
+    short: Rapid-generation colonist caste with accelerated life cycle. Small, furred, bat-eared. Dead by thirty-five.
     details: |
-      Designed for rapid colonization. Enhanced spatial cognition, accelerated 
-      reproduction, social structures optimized for establishing new settlements. 
-      Mature by 8, parents by 10-11, dead by 35. Knowledge transmitted through 
-      aphorisms rather than written records.
+      Small and delicate, approximately five feet tall. Pale fur covering body,
+      very large translucent bat-like ears with tufts, large yellow-amber eyes,
+      small pointed face with pink nose. Slender build, long thin neck. Enhanced
+      hearing beyond baseline human range.
+
+      Designed for rapid colonization. Mature by eight, parents by ten or eleven,
+      dead by thirty-five. Generations cycle faster than other castes can track.
+      Name themselves by physical features—Ear Tufts, Pink Tail, Loud Sneeze.
+      Knowledge encoded in aphorisms rather than written records. Quick Chapel
+      provides simplified liturgy for rapid-generation cognition.
     rag_pointer: "Castes of Mankind, Ya-Don: Comprehensive Reference"
     related: [Colonist Castes, Quick Lanes]
     caste_features:
@@ -216,8 +248,22 @@ entries:
   # ═══ Avouvar ═══
   Avouvar:
     category: caste
-    short: Radiation-adapted colonist caste with ink-black radiomelanin and extreme longevity.
-    details: ""
+    short: Radiation-adapted colonist caste with ink-black skin and extreme longevity. Biology requires radioactive environment.
+    details: |
+      Nearly two meters tall, most of it leg. Long legs built for low-gravity
+      bracing, huge barrel chest for thin atmospheres, long arms with large hands
+      hanging forward. Ink-black uniformly from sclera to sole—no whites of eyes.
+      Radiomelanin absorbs light completely. Heads shaved clean; single lock bound
+      with copper wire indicates house affiliation.
+
+      DNA repair mechanisms activated by radiation prevent senescence. Longevity
+      scales with contamination level—hot zone elders may exceed nine hundred years,
+      peripheral precincts five hundred. Biology requires radioactive environment
+      lethal to other castes. Approximately sixty thousand survive in Asovoë.
+
+      Politics operates between people who have known each other for five centuries.
+      Grudges accumulate across generations. Ambassadors rotate under different
+      names so outsiders don't notice the same individuals returning.
     rag_pointer: Asovoë and the Avouvar
     related: [Colonist Castes, Asovoë]
     caste_features:
@@ -264,17 +310,15 @@ entries:
   # ═══ Vesztraëlin Terminal Alpha ═══
   Vesztraëlin Terminal Alpha:
     category: location
-    short: "Avouvar autofactory terminal producing armor alloys and pressure-rated tubes."
+    short: Avouvar autofactory terminal producing armor alloys and pressure-rated tubes.
     details: |
-      LOCATION: Garrison District, Asovoë. Vesztraëlin territory.
-      
-      OUTPUTS: Armor alloy ingots (Warborn-grade, stops penetrators), pressure-rated 
-      tubes (pneumatic/hydraulic systems).
-      
-      CHARACTER: Autofactory terminal, not conventional manufacturing. Production 
-      follows Medial schedules—may run for years, then stop for a decade. When 
-      active, Vesztraëlin experiences sudden wealth; when silent, that wealth 
-      evaporates.
+      Garrison District, Asovoë. Vesztraëlin territory. Produces armor alloy
+      ingots (Warborn-grade, stops penetrators) and pressure-rated tubes for
+      pneumatic and hydraulic systems.
+
+      Autofactory terminal, not conventional manufacturing. Production follows
+      Medial schedules—may run for years, then stop for a decade. When active,
+      Vesztraëlin experiences sudden wealth; when silent, that wealth evaporates.
     related: [Avouvar, Asovoë, Droëvan Primary Terminal, Vesztraëlin]
     location_features:
       level: site
@@ -285,17 +329,14 @@ entries:
   # ═══ Droëvan Primary Terminal ═══
   Droëvan Primary Terminal:
     category: location
-    short: "Avouvar autofactory terminal producing electromagnetic components essential to all Asovoë railguns."
+    short: Avouvar autofactory terminal producing electromagnetic components for railgun maintenance.
     details: |
-      LOCATION: Garrison District, Asovoë. Droëvan territory.
-      
-      OUTPUTS: Capacitors (railgun grade), electromagnets (various sizes), charging 
-      systems, power storage units.
-      
-      CHARACTER: Essential for railgun maintenance throughout Asovoë. When this 
-      terminal stops, everyone's weapons degrade. The critical vulnerability of 
-      both feuding houses—they depend on Droëvan production whether they admit it 
-      or not.
+      Garrison District, Asovoë. Droëvan territory. Produces capacitors at railgun
+      grade, electromagnets in various sizes, charging systems, power storage units.
+
+      When this terminal stops, everyone's weapons degrade. Both feuding houses
+      depend on Droëvan production whether they admit it or not. The terminal's
+      silence would be a vulnerability neither can afford.
     related: [Avouvar, Asovoë, Vesztraëlin Terminal Alpha, Culverin, Droëvan]
     location_features:
       level: site
@@ -306,24 +347,34 @@ entries:
   # ═══ Czernaël Factor-House ═══
   Czernaël Factor-House:
     category: organization
-    short: "Avouvar trade interface—where autofactory goods meet the outside world."
+    short: Avouvar trading house in the San Juan Islands, selling autofactory goods to outsiders.
     details: |
-      LOCATION: San Juan Islands.
-      
-      PRODUCTS: Armor alloy (sized for non-Avouvar customers), weapon components 
-      (adapted for larger hands), authentication certificates.
-      
-      CHARACTER: Where Avouvar goods meet the outside world. Akama are the primary 
-      customers—their warriors wear Warborn-grade armor bought through Czernaël 
-      intermediaries. Significant markup. Neutral in the Vesztraëlin-Droëvan feud.
+      Where Avouvar goods meet the outside world. Located in the San Juan Islands.
+      Sells armor alloy sized for non-Avouvar customers, weapon components adapted
+      for larger hands, authentication certificates.
+
+      Akama warriors are the primary customers—they wear Warborn-grade armor bought
+      through Czernaël intermediaries at significant markup. The factor-house remains
+      neutral in the Vesztraëlin-Droëvan feud.
     related: [Avouvar, Asovoë, Akama, Thousand Kingdoms]
   # ─── end Czernaël Factor-House ───
 
   # ═══ Beamcrawler ═══
   Beamcrawler:
     category: caste
-    short: Labor caste with elongated limbs optimized for traversing industrial infrastructure.
-    details: ""
+    short: Labor caste with elongated limbs for traversing scaffolding and elevated infrastructure.
+    details: |
+      Six feet tall but the proportions are wrong. Short torso, long limbs. Arms
+      reach nearly to the ankles. Feet articulated for gripping rather than
+      striding—legs designed for climbing rather than walking.
+
+      On flat ground, the gait is awkward. People stare. In scaffolding: fluid
+      grace, arms reaching impossible holds. The body flows through three-dimensional
+      space as naturally as water flows downhill. Movement becomes automatic. They
+      do not think about it.
+
+      Infrastructure inspection, repair crews on pillars and sky-bridges. Can access
+      spaces that require equipment for baseline workers.
     rag_pointer: Castes of Mankind
     related: [Labor Castes, Ductworker]
     caste_features:
@@ -355,8 +406,18 @@ entries:
   # ═══ Colonist Castes ═══
   Colonist Castes:
     category: caste
-    short: Castes designed for extraterrestrial settlement, now trapped on Earth.
-    details: ""
+    short: Castes designed for extraterrestrial settlement, now trapped on Earth after the Interdict.
+    details: |
+      Bodies engineered for worlds they can no longer reach. The Interdict trapped
+      them on a single planet. Most intended functions no longer exist.
+
+      Each colonist caste carries adaptations for specific environments—radiation
+      belts, thin atmospheres, low gravity, rapid settlement cycles. Some found
+      niches on Earth that approximate their intended conditions. Others survive
+      in environments their bodies were never meant to tolerate.
+
+      Serrulata, Ranga, Avouvar, Astal: different solutions to different colonization
+      problems, all rendered obsolete by the same catastrophe.
     rag_pointer: Castes of Mankind
     related: [Serrulata, Ranga, Avouvar]
     caste_features:
@@ -381,8 +442,18 @@ entries:
   # ═══ Ductworker ═══
   Ductworker:
     category: caste
-    short: Labor caste engineered for confined space navigation with compressible ribcage.
-    details: ""
+    short: Labor caste engineered for confined spaces, with compressible ribcage and dark-adapted eyes.
+    details: |
+      Under five feet tall. Ribcage more cartilage than bone—can compress to half
+      its diameter. Narrow hips, narrow shoulders, narrow skull. Eyes almost all
+      pupil, adapted for dark spaces.
+
+      Can squeeze into ducts and crawlspaces that would suffocate anyone else.
+      Ventilation and access system maintenance. Often partner with Beamcrawlers,
+      approaching the same junction from opposite directions—one through the
+      scaffolding, one through the walls.
+
+      The caste breeds true. Children inherit the ribcage modification.
     rag_pointer: Castes of Mankind
     related: [Labor Castes, Beamcrawler]
     caste_features:
@@ -411,11 +482,24 @@ entries:
   # ═══ Draëthen ═══
   Draëthen:
     category: caste
-    short: "Engineering laborers with synchronized cognition and absolute conformity."
+    short: Engineering laborers with synchronized cognition. Separate individuals reach identical conclusions without coordination.
     details: |
-      Puget Sound refugee caste from ya-Tsovez. Most baseline-adjacent of refugee 
-      castes, making differences harder to locate. Engineered for synchronized 
-      labor—minds converge on identical conclusions without coordination.
+      Puget Sound refugee caste from ya-Tsovez. Most baseline-adjacent of the
+      refugee castes—differences are hard to locate. Average height and build,
+      coloring within normal ranges. Eyes set slightly closer together, creating
+      intensity when focusing. Movements too regular: stride matched precisely
+      step to step. Expressions shift without transition states.
+
+      Engineered for synchronized industrial labor. Model systems with such fidelity
+      that separate individuals converge on identical conclusions. Work in weaving
+      collectives produces patterns of perfect consistency. Experience következ—
+      the next thing that must be completed.
+
+      Live in compounds of forty or more. Wear identical clothing, cut hair
+      identically. Identify by distinguishing features: Grey-Patch, Crooked-Thumb.
+      Reach consensus through gradual alignment, not discussion.
+
+      Do not give quarter in combat. Do not ask for it.
     rag_pointer: "Castes of Mankind, The Volerath of Puget Sound"
     related: [Völërath, Szkovërin, Refugee Castes]
     caste_features:
@@ -451,13 +535,15 @@ entries:
   # ═══ Dravoëtsin ═══
   Dravoëtsin:
     category: location
-    short: "Żelovin's vassal precinct—holds the eastern approach to the Technical quarter."
+    short: Żelovin's vassal precinct in Asovoë, holding the eastern approach to the Technical quarter.
     details: |
-      Smaller precinct surviving by serving Żelovin interests while maintaining nominal 
-      independence. Holds the eastern approach to the Technical quarter (Żelovin holds 
-      three sides). Recruits across house lines through the ancient right when children 
-      declare mediator calling—a practice that keeps the precinct viable despite its 
-      small population.
+      Smaller precinct surviving by serving Żelovin interests while maintaining
+      nominal independence. Holds the eastern approach to the Technical quarter—
+      Żelovin controls the other three sides.
+
+      Recruits across house lines through the ancient right when children declare
+      mediator calling. The practice keeps the precinct viable despite its small
+      population.
     rag_pointer: Asovoë and the Avouvar
     related: [Asovoë, Żelovin, Medial Castes]
     location_features:
@@ -504,14 +590,17 @@ entries:
   # ═══ Droëvan ═══
   Droëvan:
     category: location
-    short: Feuding precinct—5000 years of vendetta with Vesztraëlin in the garrison district.
+    short: Avouvar precinct in the garrison district, five thousand years into a vendetta with Vesztraëlin.
     details: |
-      The other half of the garrison district feud. What began during an ancient starvation 
-      winter has become institutional culture: Chancery filings, epic poetry, formal disputations, 
-      death-verses. Droëvan uses a mess hall as archive space—centuries of documents stacked to 
-      the ceiling. The schism with Vesztraëlin generates more Chancery proceedings than any 
-      other inter-house dispute: seventeen border adjudications, four hundred twelve rulings on 
-      specific violence, ninety-seven precedents on permitted targets.
+      The other half of the garrison district feud. What began during an ancient
+      starvation winter has become institutional culture: Chancery filings, epic
+      poetry, formal disputations, death-verses.
+
+      Droëvan uses a mess hall as archive space—centuries of documents stacked
+      to the ceiling. The schism with Vesztraëlin generates more Chancery
+      proceedings than any other inter-house dispute: seventeen border adjudications,
+      four hundred twelve rulings on specific violence, ninety-seven precedents
+      on permitted targets.
     rag_pointer: Asovoë and the Avouvar
     related: [Asovoë, Vesztraëlin, Warborn]
     location_features:
@@ -567,11 +656,25 @@ entries:
   # ═══ Gilded Petals ═══
   Gilded Petals:
     category: caste
-    short: "Outlawed courtesan caste with pheromone-producing sub-dermal vesicles."
+    short: Outlawed courtesan caste with pheromone-producing vesicles. Fewer than two hundred survive.
     details: |
-      Engineered ~700 years ago for pleasure services. Sub-dermal vesicles release 
-      pheromones inducing suggestibility and mild euphoria through skin contact. 
-      Officially outlawed and sterilized, but ~12% of 'sterilized' are fertile.
+      Engineered approximately seven hundred years ago for pleasure services.
+      Androgynous symmetry, gold-beige skin, minimal secondary sex characteristics.
+      Sub-dermal vesicles release pheromones inducing suggestibility and mild
+      euphoria through skin contact. Mirror social cues with uncanny precision.
+      Enhanced olfaction and audition for reading emotional states.
+
+      Bone-leaching genetics require specialized supplements. Without them,
+      calcification begins. Organ function declines after forty years even
+      with treatment.
+
+      Officially outlawed and sterilized throughout the Empire. Approximately
+      twelve percent of the "sterilized" remain fertile—the Creche's comforting
+      lie. Fewer than two hundred survive, hidden in Aureate households, traveling
+      pleasure troupes, gambling dens.
+
+      Engineered for approval-seeking and low anxiety. Contentment was designed
+      into them. They cannot engage with whether it constitutes happiness.
     rag_pointer: "Castes of Mankind"
     related: [Bureau of the Creche, Reverie]
     caste_features:
@@ -613,8 +716,25 @@ entries:
   # ═══ Highborn ═══
   Highborn:
     category: caste
-    short: Ruling castes whose polyphonic voices trigger Compulsion in other castes.
-    details: ""
+    short: Ruling castes whose polyphonic voices trigger Compulsion in susceptible populations.
+    details: |
+      The voice carries multiple tones simultaneously, like a chord. When a Highborn
+      speaks, the harmonics trigger neurological Compulsion in all susceptible castes.
+      They must learn to suppress the harmonics when working among other populations.
+      Control slips when tired or angry.
+
+      Extreme variation between lineages. Elongated lineages stand eight feet or
+      taller, with fragile bones, elongated necks and skulls, silver filigree
+      headpieces. Optimized lineages are baseline height but carry uncanny symmetry
+      that triggers unease. Integrated lineages have technology merged with biology
+      across generations.
+
+      Some lineages reproduce primarily through cloning—accumulated replication
+      errors are a concern. Inbreeding depression and lineage-specific conditions
+      are common. The elongated break easily.
+
+      Virtually absent from Ganat, rare in the Thousand Kingdoms, do not exist
+      in Asovoë.
     rag_pointer: Castes of Mankind, The Aureate System
     related: [Compulsion, Aureate, Near-Baseline, Caenis es-Mahoun, Mira es-Thalen]
     caste_features:
@@ -655,8 +775,20 @@ entries:
   # ═══ Ironbone Labor ═══
   Ironbone Labor:
     category: caste
-    short: Labor caste with dramatically increased bone density for heavy lifting.
-    details: ""
+    short: Labor caste with dramatically increased bone density. Eight feet tall, chair-bound by their late fifties.
+    details: |
+      Two and a half meters tall. Dramatically increased bone density, reinforced
+      joint structures, heavy bone mass accumulating across decades. Enormous hands
+      with fingers too thick for baseline tools. Can handle loads that would shatter
+      baseline frames.
+
+      Calcium metabolism continues throughout life. The same process that makes
+      them strong eventually immobilizes them. Joints stiffen progressively as
+      bone deposits accumulate. Mobility degrades with age. Chair-bound by the
+      late fifties, typically.
+
+      Dock operations, heavy industrial labor, cargo handling. Not the same as
+      Ironbone Warborn—different caste entirely, shared naming convention.
     rag_pointer: Castes of Mankind
     related: [Labor Castes, Redback]
     caste_features:
@@ -692,8 +824,21 @@ entries:
   # ═══ Ironbone Warborn ═══
   Ironbone Warborn:
     category: caste
-    short: Warborn variant with calcium-reinforced skeletons optimized for heavy weapons.
-    details: ""
+    short: Warborn variant with calcium-reinforced skeleton for heavy weapons. Terminal by design—universal cancer by forty.
+    details: |
+      Eight foot ten. Shorter than standard Warborn—height traded for density.
+      Heavier frame, slower movements. Interlocking bony plates across torso,
+      shoulders, skull. Steel studs emerge from bone at anchor points. Armor
+      bolts directly to the body, not worn over the frame. Bolt studs trace
+      lines across forehead and temples. Looks manufactured rather than grown.
+
+      The skeleton absorbs electromagnetic backwash from heavy railguns. Even
+      more demanding metabolism than standard Warborn. Specialized chalk-tasting
+      mineral rations required.
+
+      Universal cancer by forty. Ancient by Warborn standards at thirty-one—
+      then the cancer begins, two or three years remain. Terminal variant design.
+      Heavy weapons operation, Hanged Men enforcement.
     rag_pointer: Castes of Mankind, The Hanged Men
     related: [Warborn, Chain-Men]
     caste_features:
@@ -730,8 +875,24 @@ entries:
   # ═══ Kalbats ═══
   Kalbats:
     category: caste
-    short: Engineered beings designed to receive Oracle Testaments.
-    details: ""
+    short: Engineered beings designed to receive Oracle Testaments. Seven survive, some receiving for ten thousand years.
+    details: |
+      Brass receiver plates inside the skull. Mirrored baffles. Modified to receive
+      and interpret Oracle Testaments—mathematical certainties transmitted from
+      sources no one fully understands.
+
+      Seven "Auditor" kalbats survive at the Monastery of the Silent Song. Addressed
+      by number: First Auditor, Second Auditor. Original names lost. Cyclic states
+      of dormancy punctuated by forty-seven-minute consciousness cycles. Some have
+      been receiving for ten thousand years.
+
+      Sometimes all seven orient their receivers in the same direction. The direction
+      changes over months, as if following an orbit. They may be tracking the Oracles
+      themselves—the black holes.
+
+      When a kalbat dies, the brass receiver plates are extracted surgically and
+      preserved. The body is delivered to the Ahn-Tam family in ya-Tsatsa. Fifteen
+      months later, a new tomb appears in the cliffs, with a carved face portrait.
     rag_pointer: The Companions Guild
     related: [Companions Guild, Testaments, Oracles]
     caste_features:
@@ -764,12 +925,22 @@ entries:
   # ═══ Karst ═══
   Karst:
     category: caste
-    short: "Deep-dwelling labor caste engineered for underground infrastructure."
+    short: Deep-dwelling labor caste engineered for underground infrastructure. Some have not seen sunlight in decades.
     details: |
-      Built for tunnel systems and underground facilities where pressure 
-      differentials and minimal light would kill surface-adapted humans. 
-      Rarely exceed five feet, barrel chests, enormous eyes adapted for 
-      bioluminescent wavelengths, curved spines.
+      Built for tunnel systems and underground facilities where pressure
+      differentials and minimal light would kill surface-adapted humans.
+      Rarely exceed five feet. Barrel chests for expanded lung capacity,
+      enormous eyes adapted for bioluminescent wavelengths—painful in
+      ordinary daylight. Perpetual crouch, curved spine. Pale grey-white
+      skin of creatures rarely seeing sunlight. Spherical silhouette in
+      full adulthood.
+
+      Movement awkward at surface, fluid underground. Communicate via
+      tap-language through rock—the Speaking Stones in the Depths of
+      St. Yerren serve as communication hub. Rarely interact with surface
+      Church hierarchy.
+
+      Some have not seen sunlight in decades.
     rag_pointer: "Castes of Mankind, Ya-Don: Comprehensive Reference"
     related: [Labor Castes, Depths of St. Yerren]
     caste_features:
@@ -806,11 +977,21 @@ entries:
   Kma-Dhol:
     category: caste
     aliases: [sewer-fishers (Thousand Kingdoms), Akama sewer-fishers]
-    short: "Technical Caste descendants operating openly in the Thousand Kingdoms."
+    short: Technical Caste descendants operating openly in the Thousand Kingdoms. Factory-singers who vocalize in the Jargon.
     details: |
-      Same ancestry as Imperial sewer-fishers but never hidden. Publicly claim
-      the Third Oracle 'gifted them their second soul.' Operate autofactories
-      through factory-singing—vocalizing mathematical requests in the Jargon.
+      Same ancestry as Imperial sewer-fishers but never hidden. Pale grey skin,
+      large dark eyes with black sclera, prominent pointed ears, elongated
+      fingers. Slight build, perhaps five foot four. The skull extends slightly
+      at the back.
+
+      Operate autofactories through factory-singing—vocalizing mathematical
+      requests in the Jargon. The Jargon passes through them rather than
+      originating from them. They claim the Third Oracle gifted them their
+      second soul.
+
+      Forty thousand in Ogon alone. Occupy ziggurat upper levels, suspended
+      platforms, compression passages. Recognized technical specialists
+      throughout the Thousand Kingdoms.
     rag_pointer: "Sewer-Fishers, The Thousand Kingdoms"
     related: [Technical Castes, Sewer-Fishers, Ogon, Jargon]
     caste_features:
@@ -844,8 +1025,18 @@ entries:
   # ═══ Labor Castes ═══
   Labor Castes:
     category: caste
-    short: Specialized workers engineered for hazardous industrial tasks.
-    details: ""
+    short: Specialized workers engineered for hazardous industrial tasks. Multiple variants, task-specific modifications.
+    details: |
+      Multiple distinct variants optimized for different physical demands.
+      Beamcrawlers for scaffolding and elevated infrastructure. Ductworkers
+      for confined spaces. Ironbone Labor for heavy lifting. Divers for
+      underwater work. Springheels for high-altitude maintenance.
+
+      Most possess durability enhancements collectively called "Redback"
+      modifications. Task-specific changes layered over the base durability.
+
+      Form the majority in working-class districts. Iron Yards, ya-Don
+      Furnaces, docks, construction sites, the Ridge, Middens.
     rag_pointer: Castes of Mankind
     related: [Beamcrawler, Ductworker, Redback, Springheel, Ironbone Labor, Diver]
     caste_features:
@@ -877,16 +1068,20 @@ entries:
   Medial Castes:
     category: caste
     aliases: [Medials]
-    short: "~75 Technical Caste beings preserved and cloned in Asovoë—run the autofactory, communicate only in Jargon."
+    short: Approximately seventy-five Technical Caste beings preserved in Asovoë. Run the autofactory, communicate only in Jargon.
     details: |
-      The middle tier between the godlike Archons and the merely skilled lower castes.
-      Modified for technological transcendence in ways that moved them away from baseline
-      cognition. They direct the autofactory's outputs, prioritize maintenance, interface
-      with systems no one else can access—without explaining themselves. Extensively
-      modified: exposed neural tissue, additional limbs, enlarged crania, bodies requiring
-      mechanical support. The Avouvar care for them and give them names based on observed
-      behavior (Ževa-Ascending-Third, Koratsch-Who-Waits). Whether the Medials notice
-      is unclear. When one dies, they are replaced through cloning.
+      The middle tier between the Archons and the merely skilled lower castes.
+      Modified for technological transcendence in ways that moved them away
+      from baseline cognition. Extensively modified: exposed neural tissue,
+      additional limbs, enlarged crania, bodies requiring mechanical support.
+
+      They direct the autofactory's outputs, prioritize maintenance, interface
+      with systems no one else can access. They do not explain themselves.
+      They do not seek food or groom themselves. They never leave the city.
+
+      The Avouvar care for them and give them names based on observed behavior:
+      Ževa-Ascending-Third, Koratsch-Who-Waits. Whether the Medials notice is
+      unclear. When one dies, they are replaced through cloning.
     rag_pointer: The Technical Castes and Far Ib, Asovoë and the Avouvar
     related: [Technical Castes, Archons, Avouvar, Asovoë, Autofactory, Jargon]
     caste_features:
@@ -918,8 +1113,24 @@ entries:
   # ═══ Mutterers ═══
   Mutterers:
     category: caste
-    short: Neurologically reduced Technical Caste descendants who compulsively optimize technology.
-    details: ""
+    short: Neurologically reduced Technical Caste descendants. Compulsively optimize any technology they encounter.
+    details: |
+      Approximately one meter tall. Enormous eyes tracking everything. Jaws
+      moving constantly—they vocalize their cognitive processes without pause.
+      Some have self-modifications: replaced eyes with salvaged sensors,
+      additional ears.
+
+      Retain complete technical knowledge but lack executive function. Cannot
+      initiate actions, only respond to situations. A single mutterer is
+      helpless. Grouped together they form Choirs—distributed consciousness
+      spanning multiple bodies.
+
+      Compulsively improve any technology they encounter. The improvements
+      work. They cannot stop. The Companions Guild manages them with chimes
+      that interrupt neural patterns. Form pair bonds, show physical affection,
+      sleep curled together.
+
+      Cascade risk: can synchronize into destructive feedback loops.
     rag_pointer: The Companions Guild, The Technical Castes and Far Ib
     related: [Technical Castes, Companions Guild, Choir, Crooked-Ear, Three Cradles]
     caste_features:
@@ -955,11 +1166,20 @@ entries:
   # ═══ Nasif ═══
   Nasif:
     category: caste
-    short: "Elongated colonist caste of unknown original purpose."
+    short: Elongated colonist caste of unknown original purpose. Dramatically extended neck, attenuated build.
     details: |
-      No one knows what the nasif were originally engineered for. Their elongated 
-      forms suggest specialization, but the purpose has been lost. Thin, attenuated 
-      build with dramatically extended neck.
+      No one knows what the nasif were originally engineered for. The purpose
+      has been lost. Serrulata ancestry visible in pointed ears and amber eyes.
+      Neck extends dramatically—adds eight inches, head raised far above narrow
+      shoulders on a slender column. Face almost ethereal while staying
+      recognizably Serrulata. Faint greenish-white pallor.
+
+      Move carefully, aware the neck is vulnerable. Patience and stillness suit
+      clerical labor. Attention fixes on tasks with intensity that excludes
+      peripheral awareness—interruptions produce visible discomfort.
+
+      Often personally awkward. Conversations stall. Strange to look at, and
+      they know it.
     rag_pointer: "Castes of Mankind"
     related: [Colonist Castes, Serrulata, Ganat]
     caste_features:
@@ -997,8 +1217,20 @@ entries:
   # ═══ Near-Baseline ═══
   Near-Baseline:
     category: caste
-    short: Engineered humans appearing almost natural while possessing Compulsion susceptibility.
-    details: ""
+    short: Engineered humans appearing unmodified, carrying universal susceptibility to Compulsion.
+    details: |
+      Appears unmodified human. Full range of natural human variation. Stable
+      genetics. May have trace markers from intermarriage—slightly broader
+      shoulders from stevedore ancestry, faint scale texture from Serrulata
+      admixture.
+
+      Single engineered trait: universal susceptibility to Compulsion.
+      Neurological receptors respond to Highborn vocal frequencies. The
+      modification has remained stable and heritable across ten thousand years.
+
+      The majority population throughout the Empire. Interfertile with most
+      castes. Creche classification of ninety-four percent or higher near-baseline
+      is typical.
     rag_pointer: Castes of Mankind
     related: [Compulsion, Highborn]
     caste_features:
@@ -1029,12 +1261,22 @@ entries:
   # ═══ Orevet ═══
   Orevet:
     category: caste
-    short: "Labor caste with extended-spectrum vision for thermal monitoring."
+    short: Labor caste with extended-spectrum vision for thermal monitoring. See temperature the way others read text.
     details: |
-      Engineered for visual monitoring at wavelengths baseline humans cannot 
-      perceive. Irises extend visible spectrum into infrared, allowing them to 
-      see temperature gradients. Require dim environments; moderate illumination 
-      causes their pupils to contract to pinpoints.
+      Engineered for visual monitoring at wavelengths baseline humans cannot
+      perceive. Irises extend visible spectrum into infrared—nearly black with
+      hints of deep red that flash in certain lighting. Read "shimmer": thermal
+      distortion marking temperature gradients. Require dim environments;
+      moderate illumination causes pupils to contract to pinpoints. Wear heavy
+      goggles outside, personal as facial features.
+
+      Orevet districts have narrow windows, deep overhangs, dim street lamps.
+      Shop signs in colors baseline vision reads as nearly identical. Form
+      tight-knit communities within the Order—shared visual experience creates
+      bonds.
+
+      Vision degradation begins in the mid-forties for some. Extended spectrum
+      fades first—the deepest reds. Gradual loss of the shimmer perception.
     rag_pointer: "Castes of Mankind, Ya-Don: Comprehensive Reference"
     related: [Labor Castes, St. Oreli's Shade]
     caste_features:
@@ -1073,8 +1315,22 @@ entries:
   # ═══ Ranga ═══
   Ranga:
     category: caste
-    short: Forest-adapted colonist caste with chameleonic skin.
-    details: ""
+    short: Forest-adapted colonist caste with chameleonic skin. Primary Yarangar population.
+    details: |
+      Chameleonic skin displaying whorled, swirling patterns. Shifts color to
+      match surroundings—forest palette of blues, greens, earth tones, oranges.
+      Heavy brow ridges, large yellow-amber eyes adapted for low light. Prominent
+      pointed ears, wide nose, strong jaw. Hair often worn in thick dreadlocks.
+      Scarification following the whorling patterns.
+
+      Can remain motionless against bark or foliage, becoming nearly invisible.
+      Genetics provide the capability; practice provides control. Children show
+      color-shifting that becomes full camouflage in adulthood.
+
+      Primary Yarangar population, maintaining effective independence through
+      terrain and biological advantage. Refugees in Ganat struggle—forest
+      adaptations useless in desert. Many serve in the Republican Guard for
+      citizenship.
     rag_pointer: Castes of Mankind, Ganat and the Yarangar War
     related: [Colonist Castes, Yarangar, Teval Okhem]
     caste_features:
@@ -1110,8 +1366,19 @@ entries:
   # ═══ Redback ═══
   Redback:
     category: caste
-    short: Labor caste with enhanced spinal articulation for bearing tremendous loads.
-    details: ""
+    short: Labor caste with enhanced spinal articulation for bearing tremendous loads. Binary death—no gradual decline.
+    details: |
+      Approximately two meters tall. Enhanced spinal articulation and musculature.
+      Characteristic ridge of muscle and reinforced tissue along the spine—gives
+      the caste its name, often visible through clothing. Tends toward heaviness;
+      the padding is functional, providing energy stores and load cushioning.
+
+      Can carry three times body weight for short distances, two times with proper
+      bracing. Loads moved by Redback teams through coordinated effort. Cargo
+      handling, railroad terminus work.
+
+      Binary death. Work a full shift one day, stop the next morning. No decline,
+      no dependence. Some make it to ninety. Others die at forty-one, mid-shift.
     rag_pointer: Castes of Mankind
     related: [Labor Castes, Kora Brennam]
     caste_features:
@@ -1145,12 +1412,20 @@ entries:
   # ═══ Refugee Castes ═══
   Refugee Castes:
     category: caste
-    short: "Three castes who fled ya-Tsovez 10,000 years ago and settled in Puget Sound."
+    short: Three castes who fled ya-Tsovez ten thousand years ago and settled in Puget Sound.
     details: |
-      The Völërath (diminished Highborn), Szkovërin (furnace workers), and Draëthen 
-      (engineering laborers) fled the contamination of ya-Tsovez carrying autofactory 
-      seeds. They planted what they could not control and settled in fishing villages. 
-      Three parallel populations sharing territory but not bloodlines.
+      The Völërath (diminished Highborn), Szkovërin (furnace workers), and
+      Draëthen (engineering laborers) fled the contamination of ya-Tsovez
+      carrying autofactory seeds. They planted what they could not control
+      and settled in fishing villages. Three parallel populations sharing
+      territory but not bloodlines.
+
+      Cannot breed across caste lines—biological incompatibility. Severe
+      inbreeding after ten thousand years of isolation. Own all minor
+      autofactories in the north.
+
+      The Akama call them akhavol: those who catch rain and complain. Their
+      culture is defined by loss. They cannot embody Standing in the Rain.
     rag_pointer: "The Volerath of Puget Sound"
     related: [Völërath, Szkovërin, Draëthen, Asovoë]
     caste_features:

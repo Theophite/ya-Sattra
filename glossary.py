@@ -2275,6 +2275,146 @@ def format_entry(entry: GlossaryEntry, verbose: bool = False) -> str:
 
 
 # =============================================================================
+# ENTRY STEPPER - For reviewing/editing entries one by one
+# =============================================================================
+
+def get_entry_order() -> List[str]:
+    """Get all entry names in the order they appear in glossary_data.yaml."""
+    yaml_path = Path(__file__).parent / "glossary_data.yaml"
+    names = []
+
+    with open(yaml_path, 'r', encoding='utf-8') as f:
+        for line in f:
+            stripped = line.strip()
+            # Match entry markers: # ═══ Name ═══
+            # Must have a space after the first ═══ (not just continuous ═══)
+            if stripped.startswith('# ═══ ') and stripped.endswith(' ═══'):
+                # Extract name between the markers
+                name = stripped[6:-4]  # Remove "# ═══ " and " ═══"
+                if name and not name.startswith('═'):  # Skip separator lines
+                    names.append(name)
+
+    return names
+
+
+def get_raw_yaml(entry_name: str) -> str:
+    """Extract the raw YAML text for a specific entry from glossary_data.yaml."""
+    yaml_path = Path(__file__).parent / "glossary_data.yaml"
+
+    with open(yaml_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # Find the start marker
+    start_marker = f"# ═══ {entry_name} ═══"
+    end_marker = f"# ─── end {entry_name} ───"
+
+    start_idx = content.find(start_marker)
+    if start_idx == -1:
+        return f"Entry '{entry_name}' not found in glossary_data.yaml"
+
+    end_idx = content.find(end_marker)
+    if end_idx == -1:
+        return f"End marker for '{entry_name}' not found"
+
+    # Include the end marker line
+    end_of_line = content.find('\n', end_idx)
+    if end_of_line == -1:
+        end_of_line = len(content)
+
+    return content[start_idx:end_of_line + 1]
+
+
+def step_entry(index_or_name: str = None, category_filter: str = None) -> dict:
+    """
+    Get entry by index or name for stepping through the glossary.
+
+    Args:
+        index_or_name: Entry index (1-based) or entry name. If None, returns first entry.
+        category_filter: If set, only count entries in this category
+
+    Returns:
+        dict with: entry, raw_yaml, index, total, prev_name, next_name
+    """
+    all_names = get_entry_order()
+
+    # Filter by category if specified
+    if category_filter:
+        filtered_names = []
+        for name in all_names:
+            entry = lookup(name)
+            if entry and entry.category.lower() == category_filter.lower():
+                filtered_names.append(name)
+        names = filtered_names
+    else:
+        names = all_names
+
+    if not names:
+        return {"error": f"No entries found" + (f" in category '{category_filter}'" if category_filter else "")}
+
+    # Determine which entry to show
+    if index_or_name is None:
+        idx = 0
+    elif index_or_name.isdigit():
+        idx = int(index_or_name) - 1  # Convert to 0-based
+        if idx < 0 or idx >= len(names):
+            return {"error": f"Index {index_or_name} out of range (1-{len(names)})"}
+    else:
+        # Look up by name (case-insensitive)
+        idx = None
+        for i, name in enumerate(names):
+            if name.lower() == index_or_name.lower():
+                idx = i
+                break
+        if idx is None:
+            return {"error": f"Entry '{index_or_name}' not found"}
+
+    entry_name = names[idx]
+    entry = lookup(entry_name)
+    raw_yaml = get_raw_yaml(entry_name)
+
+    return {
+        "entry": entry,
+        "raw_yaml": raw_yaml,
+        "index": idx + 1,  # 1-based for display
+        "total": len(names),
+        "name": entry_name,
+        "prev_name": names[idx - 1] if idx > 0 else None,
+        "next_name": names[idx + 1] if idx < len(names) - 1 else None,
+        "category_filter": category_filter
+    }
+
+
+def format_step(result: dict) -> str:
+    """Format step result for display."""
+    if "error" in result:
+        return f"Error: {result['error']}"
+
+    lines = []
+    lines.append(f"\n{'═' * 70}")
+    filter_note = f" [{result['category_filter']}]" if result.get('category_filter') else ""
+    lines.append(f"  STEP {result['index']}/{result['total']}{filter_note}: {result['name']}")
+    lines.append(f"{'═' * 70}")
+
+    # Navigation hints
+    nav = []
+    if result['prev_name']:
+        nav.append(f"prev: {result['prev_name']}")
+    if result['next_name']:
+        nav.append(f"next: {result['next_name']}")
+    if nav:
+        lines.append(f"  {' | '.join(nav)}")
+
+    lines.append(f"{'─' * 70}")
+
+    # Show the raw YAML
+    lines.append("\n" + result['raw_yaml'])
+
+    lines.append(f"{'═' * 70}\n")
+
+    return "\n".join(lines)
+
+
+# =============================================================================
 # CLI
 # =============================================================================
 
@@ -2291,6 +2431,8 @@ Commands:
     category <category>        - List all entries in category
     check <term>               - Check if term exists, suggest similar
     related <term>             - Get term and its related entries
+    random [category]          - Get a random entry
+    step [n|name] [-c cat]     - Step through entries with raw YAML
     aesthetics                 - List all entries with aesthetic data
 
     caste-feature <feat> <val> - Find castes by feature value
@@ -2598,7 +2740,30 @@ def main():
             else:
                 print("No entries found")
         return
-    
+
+    # Step command - view entries one by one with raw YAML
+    # Usage: step [index|name] [--cat category]
+    if cmd == "step":
+        index_or_name = None
+        category_filter = None
+
+        # Parse arguments
+        args = sys.argv[2:]
+        i = 0
+        while i < len(args):
+            if args[i] in ("--cat", "-c") and i + 1 < len(args):
+                category_filter = args[i + 1]
+                i += 2
+            elif not args[i].startswith("-"):
+                index_or_name = args[i]
+                i += 1
+            else:
+                i += 1
+
+        result = step_entry(index_or_name, category_filter)
+        print(format_step(result))
+        return
+
     # Aesthetics command - list all entries with aesthetic data
     if cmd == "aesthetics":
         entries_with_aesthetics = [e for e in ENTRIES.values() if e.aesthetic_features]
