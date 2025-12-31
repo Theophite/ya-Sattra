@@ -1,17 +1,17 @@
 # Stepper Skill
 
-Step through glossary entries **one by one**, revising **every entry**.
+Step through glossary entries **one by one**, editing **every single entry**.
 
 ## Workflow
 
 1. Read position from `.stepper_position`
 2. Show entry: `python3 glossary_stepper.py --show N --category location`
-3. Revise both `short` and `details` (leave subsections alone)
+3. **Edit both `short` and `details`** (leave subsections alone)
 4. Commit the revision
 5. Increment `.stepper_position`
 6. Repeat
 
-**Revise every entry.** Do not skip. Do not jump ahead.
+**Edit every single entry.** No skipping. No "this one looks fine." Every entry gets touched. If an entry is already good, make it better. If it's great, find something to improve anyway. The goal is 264 commits, one per location entry.
 
 ## Tools
 
