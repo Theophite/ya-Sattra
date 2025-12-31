@@ -24,8 +24,8 @@ COMMANDS
     glossary.py caste-trait <trait>     Find castes with specific trait
     glossary.py scene-setup <location>  Get location details for scene writing
     glossary.py location-tree <loc>     Show location hierarchy
-    glossary.py scan <filepath> [-v]    Scan document for all glossary terms (canonicity check)
-    glossary.py scan-text [-v]          Scan piped text (cat doc.txt | glossary.py scan-text)
+    glossary.py scan <filepath> [-q]    Scan document for all glossary terms (verbose by default)
+    glossary.py scan-text [-q]          Scan piped text (cat doc.txt | glossary.py scan-text)
 
 VALIDATION
 ==========
@@ -2747,7 +2747,7 @@ def main():
         print(format_validate_entry(result))
         return
 
-    if len(sys.argv) < 3:
+    if len(sys.argv) < 3 and cmd not in ("scan-text",):
         print(f"Error: {cmd} requires an argument")
         return
 
@@ -2806,18 +2806,18 @@ def main():
             print(f"Term '{arg}' not found")
     
     elif cmd == "scan":
-        # Check for -v/--verbose flag
-        verbose = "-v" in sys.argv or "--verbose" in sys.argv
+        # Verbose by default, use -q/--quiet to suppress
+        verbose = not ("-q" in sys.argv or "--quiet" in sys.argv)
         # Get filepath (skip flags)
         filepath = None
         for a in sys.argv[2:]:
             if not a.startswith("-"):
                 filepath = a
                 break
-        
+
         if not filepath:
             print("Error: scan requires a filepath")
-            print("Usage: glossary.py scan <filepath> [-v|--verbose]")
+            print("Usage: glossary.py scan <filepath> [-q|--quiet]")
             return
         
         try:
@@ -2833,10 +2833,10 @@ def main():
         import sys as sys_mod
         if sys_mod.stdin.isatty():
             print("Error: scan-text reads from stdin")
-            print("Usage: cat document.txt | glossary.py scan-text [-v]")
+            print("Usage: cat document.txt | glossary.py scan-text [-q]")
             return
         text = sys_mod.stdin.read()
-        verbose = "-v" in sys.argv or "--verbose" in sys.argv
+        verbose = not ("-q" in sys.argv or "--quiet" in sys.argv)
         result = scan_document(text)
         print(format_scan_report(result, verbose=verbose))
     
