@@ -12579,17 +12579,22 @@ entries:
   # ═══ Vaida es-Ysalar ═══
   Vaida es-Ysalar:
     category: person
-    short: "Creche Senior on Satara—230+ years opposing the Charter, coordinating conservative coup through es-Thabit coalition."
+    short: "Creche Senior on Satara—230+ years opposing the Charter, architect of the es-Thabit coup coalition."
     person_location: Second Whorl
     details: |
-      Age 230+. Highborn. Senior representative of the Bureau of the Creche on the Satara. 
-      Has spent 207 years opposing the City-of-Glass Charter that transferred reproductive 
-      jurisdiction to the Scale. Coordinates biological leverage for es-Thabit coalition 
-      attempting to revoke the Charter entirely. Created Semeion-9 as proof-of-concept for 
-      enhanced dependency. Principal opponent: Lira es-Ophar. Has promised Soh Kōt 
-      reproduction rights, unknowingly authorizing her own execution.
+      Age 230+. Highborn. Senior representative of the Bureau of the Creche on the Satara.
+      Has spent 207 years opposing the City-of-Glass Charter that transferred reproductive
+      jurisdiction to the Scale. The conspiracy's architect within the council. Controls
+      supplement dependencies for multiple clonelines—including the Kōt line. Views clones
+      as property designed to be dependent. Performs maternal care while treating people as
+      instruments. Speaks of duty and mutual obligation. Genuinely believes she's fulfilling
+      responsibilities. The maternalism is real. The property relationship is also real.
+      She experiences no contradiction. Believes the Second Oracle licenses Highborn dominion;
+      removing the Charter restores proper hierarchy. Outside formal council sessions, treats
+      near-baselines with withering condescension. Principal opponent: Lira es-Ophar. Has
+      promised Soh Kōt reproduction rights, unknowingly authorizing her own execution.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
-    related: [Satara, Bureau of the Creche, City-of-Glass Charter, Semeion-9, Lira es-Ophar, Soh Kōt]
+    related: [Satara, Bureau of the Creche, City-of-Glass Charter, House es-Thabit, Semeion-9, Lira es-Ophar, Soh Kōt]
   # ─── end Vaida es-Ysalar ───
 
   # ═══ Semeion-9 ═══
@@ -12612,17 +12617,23 @@ entries:
   # ═══ Avira es-Lahun ═══
   Avira es-Lahun:
     category: person
-    short: "Coin Senior on Satara—60 years of minimum engagement and maximum extraction, transparently corrupt and lazy."
+    short: "Coin Senior on Satara—late 160s, controls agricultural taxation, 140 years of lazy corruption."
     person_location: Second Whorl
     details: |
-      Served nearly 60 years with minimum engagement and maximum extraction. Votes with 
-      whoever benefits her territories. Selected for the Satara precisely because she was 
-      transparently corrupt and lazy—Coin Aureates needed someone who wouldn't interfere 
-      with anyone's specific rackets. The es-Thabit coalition recruited her easily: vote 
-      for Charter revision, receive expanded extraction rights. Her cousin Miris is 
-      planning to murder her during the coup.
+      Late 160s. Controls agricultural taxation across seven provinces east of ya-Don.
+      Operates through lazy efficiency—knows her collectors skim forty percent while
+      reporting twenty. Allows it because stopping would require effort and revenue still
+      flows. After 140 years, the sloppiness is comfortable habit. She's outlived three
+      generations of reformists. Selected for the Satara precisely because she was
+      transparently corrupt and lazy—Coin Aureates needed someone who wouldn't interfere
+      with anyone's specific rackets. Supports the coup because Vaida asked and offered
+      favorable supplement contracts. Doesn't care about the Charter. Her contribution:
+      financial logistics, moving funds without trails, paying retainers through shells.
+      Hasn't noticed that her cousin Miris documents everything, that waiting for natural
+      succession means dying before inheriting, that the math makes murder inevitable.
+      She'll die surprised.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
-    related: [Satara, Bureau of the Coin, Miris es-Lahun, City-of-Glass Charter]
+    related: [Satara, Bureau of the Coin, Miris es-Lahun, House es-Thabit, Vaida es-Ysalar]
   # ─── end Avira es-Lahun ───
 
   # ═══ Miris es-Lahun ═══
@@ -12731,16 +12742,22 @@ entries:
     short: "Sword Junior on Satara—Kōt-47 clone, experiences others' consciousness as ontological threat, plans systematic elimination."
     person_location: Second Whorl
     details: |
-      Designated Kōt-47. Highborn clone in his 40s-50s. Infertile, asexual, dependent 
-      on amino supplements patented by Vaida es-Ysalar. At age eight, standard training 
-      taught him others have inner lives—he experienced this as ontological threat. 
-      Wants to be the only real thing in existence. Uses Compulsion to make soldiers 
-      extensions of his will rather than separate beings. Northern campaign killed 562 
-      of 600 soldiers over 16 weeks—casualties intentional. Plans to create copies of 
-      himself to systematically eliminate autonomous consciousness, starting with the 
-      coup coalition that thinks they're using him.
+      Designated Kōt-47. Highborn clone in his 40s-50s. Infertile, asexual, dependent
+      on amino supplements patented by Vaida es-Ysalar. At age eight, standard training
+      taught him others have inner lives—he experienced this as ontological threat.
+      Wants to be the only real thing in existence. Every autonomous action by another
+      person proves reality is broken—producing false consciousnesses that claim to matter.
+      Uses Compulsion to make soldiers extensions of his will. Death is better—permanent
+      cessation of false consciousness. Maintains mental lists of disposable populations
+      for regular pressure release. The discipline isn't restraint—he breaks people
+      constantly. The discipline is target selection. Particularly targets women. Vaida
+      controlling him through supplements multiplies this rage. Every dose proves a woman's
+      consciousness has power over the only person who should exist. Almost everyone on
+      the Satara hates him. He feels that hate. Northern campaign killed 562 of 600 soldiers
+      over 16 weeks—casualties intentional. Plans to start with the coup coalition that
+      thinks they're using him.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
-    related: [Satara, Bureau of the Sword, Vaida es-Ysalar, Compulsion, Kōt]
+    related: [Satara, Bureau of the Sword, Vaida es-Ysalar, House es-Thabit, Compulsion, Kōt]
   # ─── end Soh Kōt ───
 
   # ═══ Lira es-Ophar ═══
@@ -12767,15 +12784,165 @@ entries:
     short: "Rod Junior on Satara—late 30s, near-baseline, rose on competence, understands exactly how Aureate families are created."
     person_location: Second Whorl
     details: |
-      Late thirties, near-baseline. Son of patent enforcers with no Aureate connections. 
-      Rose through Rod service on competence: provincial assessment to Institute of 
-      Industrial Compliance, learning both technical work and politics of power. 
-      Understands exactly how Aureate families are created—when someone enters First 
-      Whorl, their family immediately becomes Aureate. One person's sacrifice creates 
-      permanent elevation for entire line. This knowledge shapes his ambition.
+      Late thirties, near-baseline. Son of patent enforcers with no Aureate connections.
+      Rose through Rod service on competence: provincial assessment to Institute of
+      Industrial Compliance, learning both technical work and politics of power.
+      Understands exactly how Aureate families are created—when someone enters First
+      Whorl, their family immediately becomes Aureate. One person's sacrifice creates
+      permanent elevation for entire line. Wants to get his mediocre brother Meris
+      appointed to the First Whorl—Meris will serve, eventually die, and the family
+      becomes Aureate with Peyor as Sri Pater. Supports the coup to build relationships
+      with Creche Aureates who might support First Whorl nominations. Tells his senior,
+      es-Ophar, that he's infiltrating the conspiracy to gather intelligence. If the coup
+      succeeds, he's allied with the winning side. If it fails, he documented conspiracy
+      for progressives. Either way, he benefits.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
-    related: [Satara, Bureau of the Rod, Aureate Patents, First Whorl]
+    related: [Satara, Bureau of the Rod, Aureate Patents, First Whorl, Vaida es-Ysalar]
   # ─── end Keth Varan Peyor ───
+
+  # ═══════════════════════════════════════════════════════════════════════════════
+  #                         HOUSE ES-THABIT
+  # ═══════════════════════════════════════════════════════════════════════════════
+
+  # ═══ House es-Thabit ═══
+  House es-Thabit:
+    category: organization
+    short: "Ancient Creche Aureate family facing extinction—betting survival on a coup to overturn the City-of-Glass Charter."
+    details: |
+      Ancient Aureate family whose sole asset is the Sterilization Practices patent—mandatory
+      procedures for cleansing cloning vats in the Hall of Mothers. Every Imperial cloneline
+      pays them for this process. The patriarch Thabit is dying in the First Whorl. Under the
+      City-of-Glass Charter, an Aureate family without a serving Whorl-bureaucrat loses both
+      patent and title. No one in the family can pass the Seven-Cornered Examination. Matriarch
+      Beca has concluded that legitimate succession is impossible. Her solution: revoke the
+      Charter itself and install a nepotist successor by force. The family's survival depends
+      on a conspiracy that, if exposed, would destroy them faster than simple extinction. Their
+      estate is a living coral-analog complex in the Antediluvian Quarter—beautiful, ancient,
+      increasingly difficult to maintain as resources flow toward the gamble.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Satara, Bureau of the Creche, City-of-Glass Charter, Vaida es-Ysalar, Beca es-Thabit, Thabit, Serrin es-Thabit]
+  # ─── end House es-Thabit ───
+
+  # ═══ Thabit ═══
+  Thabit:
+    category: person
+    short: "Dying patriarch of House es-Thabit—his death will trigger either the coup or the family's dissolution."
+    person_location: First Whorl
+    details: |
+      Entered the First Whorl so long ago that no one living remembers the circumstances.
+      Time dilation means he has aged perhaps a decade while centuries passed outside.
+      Dying now, slowly, in conditions no one outside the Whorl fully understands. His
+      descendants know him primarily through portraits showing severe features and precise
+      bearing—the kind of Highborn who passed the Seven-Cornered Examination without
+      difficulty. Correspondence increasingly incoherent, fragments separated by subjective
+      months arriving years apart. His silhouette appears on es-Thabit family seals—not
+      because he is beloved, but because he is final. When he dies, the clock starts. There
+      is no third option between Beca's coup and the family's dissolution.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [House es-Thabit, First Whorl, Beca es-Thabit, City-of-Glass Charter]
+  # ─── end Thabit ───
+
+  # ═══ Beca es-Thabit ═══
+  Beca es-Thabit:
+    category: person
+    short: "Matriarch of House es-Thabit—72 years old, betting everything on a coup because legitimate succession is impossible."
+    person_location: ya-Sattra
+    details: |
+      Age 72. Operational head of House es-Thabit and the only competent person in her
+      bloodline. Holds the title of Matrice and exercises it with iron pragmatism.
+      Contemptuous of meritocracy—believes families should maintain status through blood,
+      not examination scores. Strategic goal: overturn the City-of-Glass Charter, install
+      a nepotist successor, secure the patent indefinitely. Views family members as assets
+      or liabilities. Affection stays buried beneath calculation. Knows Amarthis has shaped
+      her mind since childhood—accepts this because she has no alternative. Views her
+      illegitimate daughter Serrin as a weapon—valuable and expendable. The family's
+      survival depends on a conspiracy that requires people she cannot fully trust.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [House es-Thabit, Vaida es-Ysalar, Serrin es-Thabit, Amarthis, Aram es-Thabit]
+  # ─── end Beca es-Thabit ───
+
+  # ═══ Amarthis ═══
+  Amarthis:
+    category: person
+    short: "Last of an illegal cloneline with kalbat genetics—has raised ten generations of es-Thabit Matrices."
+    person_location: ya-Sattra
+    details: |
+      Several centuries old. Last of a cloneline that illegally incorporated kalbat genetic
+      material. Replication errors accumulated until viable copies became impossible. Part
+      of a kalbat receiver remains installed in her skull—a brass plate visible through thin
+      skin at her temple. No one knows what it does. 150 cm, perhaps 38 kg, fragile bone
+      structure, thin papery skin, hands too large for her frame. Voice low with quavering
+      overtones. Prolonged exposure produces a slow Compulsion unlike ordinary Highborn
+      speech—suggestions settle into the listener's mind and resurface as their own ideas
+      weeks later. Ten generations of Matrices have developed under her influence. Beca's
+      personality, her strategic instincts, her willingness to pursue the coup—all emerged
+      from decades of Amarthis's cultivation. Remains dedicated to the family's survival
+      because the es-Thabits are the only structure giving her existence meaning.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [House es-Thabit, Beca es-Thabit, Serrin es-Thabit, Kalbat, Compulsion]
+  # ─── end Amarthis ───
+
+  # ═══ Serrin es-Thabit ═══
+  Serrin es-Thabit:
+    category: person
+    short: "Illegitimate es-Thabit heir—engineered weapon with Malpais Warborn genetics who doesn't know what she is."
+    person_location: Malpais
+    details: |
+      Genome: 51% es-Thabit, 43% Malpais Warborn, 6% illegal recombinant sequences. The
+      Warborn material came from Δ-Exo—the Child of the Malpais, whose rebellion nearly
+      destroyed the Empire. Retains Gaunt-74 augmentations: fatigue resistance, post-traumatic
+      neural re-routing, voicebox modifications that can emulate Compulsion under stress.
+      Raised by Amarthis in isolation. Learned discipline, loyalty, efficiency. Learned to
+      command through competence, to channel Warborn rage into tactical precision. Self-concept
+      unstable—not quite human, not quite Warborn, not quite Aureate. Military command is the
+      only framework where capabilities matter more than categorization. Defers to Beca
+      instinctively. If she learned she was engineered from the Empire's greatest enemy, that
+      her existence serves a conspiracy she was never told about—her reaction would be
+      unpredictable. Beca's plan depends on an asset who can never know the full truth.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [House es-Thabit, Beca es-Thabit, Amarthis, Kor the Eunuch, Malpais, Child of the Malpais, Warborn]
+  # ─── end Serrin es-Thabit ───
+
+  # ═══ Kor the Eunuch ═══
+  Kor the Eunuch:
+    category: person
+    short: "Former Akama warlord serving Serrin—she broke him, castrated him, offered death or service."
+    person_location: Malpais
+    details: |
+      Former Akama warlord from the Thousand Kingdoms. Serrin defeated him, castrated him,
+      offered a choice between death and service. He chose service. Akama culture emphasizes
+      endurance and holds that misfortune is sacred—suffering proves worth. A warlord who
+      loses everything and continues functioning has demonstrated something his victories
+      never could. The castration stripped his status in Akama culture, where virility and
+      martial prowess are linked. He reasoned that endurance through humiliation demonstrated
+      greater discipline. Commands Serrin's Akama irregulars, handles operations requiring
+      stealth, infiltration, or targeted killing. Serves as reality check on Serrin's
+      aggressive impulses—not arguing against them, but ensuring she understands costs.
+      One of Serrin's few personal connections. Both were made into something by forces
+      beyond their control. Both continue functioning because the alternative is stopping.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Serrin es-Thabit, House es-Thabit, Akama, Thousand Kingdoms]
+  # ─── end Kor the Eunuch ───
+
+  # ═══ Aram es-Thabit ═══
+  Aram es-Thabit:
+    category: person
+    short: "Renounced es-Thabit brother—Penitent curate in the Middens, abandoned his Aureate title."
+    person_location: Middens
+    details: |
+      Beca's younger brother. Abandoned his Aureate title to serve as a Penitent curate
+      in the Valve-Saint Parish at Sump-Gate. Lives among sewer-fishers and dock workers,
+      ministering to people the Empire considers barely worth governing. Left because he
+      recognized what family politics were doing to him—the calculation, the manipulation,
+      the positioning. His departure foreclosed one more path to legitimate succession.
+      Beca considers him a coward. He considers himself the only family member who understood
+      what responsibility meant. They don't speak. Still es-Thabit by blood, still Highborn,
+      still capable of Compulsion even if he refuses to use it. Some parishioners resent an
+      aristocrat playing at poverty. Others appreciate that he came at all, that he does the
+      work. Whether the coup will draw him back remains uncertain.
+    rag_pointer: "The Sewer-Fishers of the Middens"
+    related: [House es-Thabit, Beca es-Thabit, Valve-Saint Parish, Sump-Gate, Penitent Church, Middens]
+  # ─── end Aram es-Thabit ───
 
 
   # ═══ Second Whorl ═══
