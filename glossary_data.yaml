@@ -1732,12 +1732,26 @@ entries:
   Sewer-Fishers:
     category: caste
     aliases: [Kma-Dhol (Imperial equivalent)]
-    short: "Hidden Technical Caste descendants maintaining ya-Sattra's deep infrastructure."
+    short: Hidden Technical Caste descendants—pale grey skin, dark eyes, elongated fingers—maintaining ya-Sattra's deep infrastructure in secret.
     details: |
-      Six clans in the Middens maintain secret Technical Caste ancestry. Possess
-      mathematical intuitions about systems no one officially understands. Must
-      perform confusion around simple machinery to avoid detection. Their Thousand
-      Kingdoms counterparts, the Kma-Dhol, operate openly in Ogon.
+      Pale grey skin, dark sclerae, prominent pointed ears. Slender and wiry,
+      built for navigating pipe-sized spaces. Elongated fingers that wrap
+      around tools in ways baseline hands cannot manage. They look like what
+      they are: Technical Caste descendants. This is the problem.
+
+      Six clans in the Middens—Loak, Venn, Hasket, Cho, Sarn, Benru—carry
+      ancestry that should have died out centuries ago. The Technical Castes
+      were supposed to be extinct. The Sewer-Fishers survive by performing
+      confusion: fumbling with simple machinery, asking basic questions,
+      presenting as salvagers who found useful things rather than people who
+      understand the systems they maintain.
+
+      The understanding is real. Mathematical intuitions about deep
+      infrastructure that no one officially comprehends. They maintain what
+      they cannot admit to maintaining. Family shrines include technical
+      death records as education—how ancestors died, what went wrong, what
+      not to repeat. The knowledge passes in secret, through generations
+      who cannot acknowledge what they know.
     rag_pointer: "Sewer-Fishers"
     related: [Technical Castes, Kma-Dhol, Middens, Jargon]
     caste_features:
