@@ -2608,15 +2608,28 @@ entries:
   # ═══ The Processional ═══
   The Processional:
     category: location
-    short: "Ancient porcelain-coral thoroughfare running through the Medina Quarter to the Rift embarcadero."
+    short: Three kilometers of pre-Interdict porcelain-coral pavement cutting through the Medina Quarter—pale cream against grey granite, self-cleaning, self-repairing.
     details: |
-      Three kilometers of pre-Interdict porcelain-coral pavement cutting through the 
-      Medina Quarter from the eastern approaches to the embarcadero. The pale cream 
-      surface—self-cleaning, self-repairing—stands out against the Medina's conventional 
-      grey granite, a visible antediluvian artifact that the district was built around. 
-      Street runners position themselves along it for first messages of the day. The 
-      Processional Tower and Processional Guild maintain their ancient charter for 
-      "ceremonial conveyance" along the full route.
+      The surface stands out: pale cream porcelain-coral against the Medina's
+      conventional grey granite. Three kilometers of pre-Interdict pavement
+      running from the eastern approaches to the embarcadero, a visible
+      antediluvian artifact that the district was built around rather than
+      over. The material self-cleans—debris absorbed overnight, spills
+      disappearing within hours. Self-repairs through processes no one
+      comprehends. Where conventional streets show millennia of wear, the
+      Processional remains pristine.
+
+      No one builds on the porcelain-coral itself. Guild markers at
+      intersections announce territories on either side, but the ancient
+      pavement belongs to everyone and no one. At dawn, street runners
+      position themselves along its length for first messages of the day.
+      The Processional Guild maintains an ancient charter for "ceremonial
+      conveyance" along the full route—formal processions that invoke rights
+      older than the Empire.
+
+      The route ends where ancient pavement meets the embarcadero's timber
+      and iron. The contrast marks the boundary between what was inherited
+      and what was built.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [Medina Quarter, Rift, Processional Tower, Processional Guild, Embarcadero]
     location_features:
