@@ -3481,12 +3481,24 @@ entries:
   # ═══ Depths of St. Yerren ═══
   Depths of St. Yerren:
     category: location
-    short: "Underground district in Antediluvian tunnels never meant for habitation."
+    short: Underground district in Antediluvian tunnels—fifty thousand people in spaces never meant for habitation.
     details: |
-      ~50,000 residents. Tunnel systems surface dwellers barely know exist. Geography 
-      follows geology, not surface streets. Speaking Stones communication hub. The 
-      Antediluvians carved these passages for infrastructure—ventilation, conduits, 
-      access to systems nobody now understands. People moved in anyway.
+      Tunnel systems spreading beneath the Threshold, Ember Row, the Furnaces,
+      Thornback Ridge. Geography follows geology, not surface streets—chambers
+      beneath Ember Row might connect more easily to tunnels beneath the
+      Furnaces than to streets directly above.
+
+      The Antediluvians carved these passages from bedrock for infrastructure:
+      ventilation shafts, equipment housings, conduit routes for Furnace pipes.
+      None of it was meant for habitation. People moved in anyway. Platforms
+      laid across uneven floors. Doorways cut through walls that were never
+      meant to have doorways. What were equipment alcoves are now sleeping
+      quarters. What were junction boxes are now shrines.
+
+      The pipes are neighbors. Some families maintain sections of conduit—
+      hereditary relationships with specific lengths of pipe. The Speaking
+      Stones allow tap-language communication across the underground. The
+      stone is home. The weight above is comfort.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Karst, Speaking Stones]
     location_features:
@@ -3572,13 +3584,17 @@ entries:
   # ═══ St. Yerren's Shrine ═══
   St. Yerren's Shrine:
     category: location
-    short: "Deepest accessible worship site in the Depths—pilgrimage stop before descending to the Furnaces."
+    short: Karst shrine at the site where St. Yerren died—pilgrimage stop before descending to the Furnaces.
     details: |
-      Carved around the site where the legendary Karst worker died after maintaining
-      ventilation systems in complete darkness for three days following a tunnel collapse.
-      The shrine incorporates tools he used and stone from the collapse he cleared.
-      Pilgrimage site before descending to the Furnaces' deepest sections; approximately
-      200 visitors daily.
+      Carved around the place where the legendary Karst worker died after
+      maintaining ventilation systems in complete darkness for three days
+      following a tunnel collapse. He cleared the blockage by touch, restored
+      airflow, and died of exhaustion before help arrived.
+
+      The shrine incorporates tools he used and stone from the collapse he
+      cleared. Two hundred visitors daily, most stopping before descending to
+      the Furnaces' deepest sections. The deepest accessible worship site in
+      the Depths.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Depths of St. Yerren, Karst, ya-Don, Furnaces]
     location_features:
@@ -3593,13 +3609,17 @@ entries:
   # ═══ The Deep Market ═══
   The Deep Market:
     category: location
-    short: "Weekly underground market in the Depths—surface merchants rarely attend."
+    short: Largest commercial space in the Depths—one hundred vendors, three thousand attendees, no surface merchants.
     details: |
-      Largest excavated commercial space in the Depths of St. Yerren. Perhaps 100 vendors
-      selling high-nutrient foods, specialized equipment, and goods suited for underground
-      life. Surface merchants rarely attend; the disorientation that tunnel systems produce
-      in non-Karst visitors makes commerce impractical. Approximately 3,000 attendees on
-      market days.
+      The largest excavated commercial space in the Depths of St. Yerren. One
+      hundred vendors on market days selling high-nutrient foods, specialized
+      equipment, and goods suited for underground life. Three thousand
+      attendees.
+
+      Surface merchants rarely attend. The disorientation that tunnel systems
+      produce in non-Karst visitors makes commerce impractical—by the time
+      you've found your way back to the surface, you've forgotten what you
+      were selling.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Depths of St. Yerren, Karst, ya-Don]
     location_features:
@@ -3614,13 +3634,17 @@ entries:
   # ═══ The Blind Fish ═══
   The Blind Fish:
     category: location
-    short: "Tavern in a natural cavern—serves fermented beverages with flavors surface brewing cannot replicate."
+    short: Tavern in a natural cavern—fermented beverages with flavors surface brewing cannot replicate.
     details: |
-      Early Depths residents discovered and expanded this natural cavern. Serves fermented
-      beverages produced in underground conditions. Proprietor: Stone-Echo Vell (Karst, 60s),
-      whose family has operated the establishment for five generations. The tavern's name
-      references organisms in the underground water systems; the fish themselves are
-      occasionally served as delicacies.
+      A natural cavern discovered and expanded by early Depths residents. The
+      stone formations remain visible above the bar. Stone-Echo Vell's family
+      has operated the establishment for five generations.
+
+      The beverages are produced in underground conditions—mineral content,
+      temperature stability, specific fungi colonies—creating flavors surface
+      brewing cannot replicate. The tavern's name references organisms in the
+      underground water systems; the fish themselves are occasionally served
+      as delicacies.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Depths of St. Yerren, Karst, ya-Don]
     location_features:
@@ -3635,11 +3659,15 @@ entries:
   # ═══ Speaking Stones ═══
   Speaking Stones:
     category: location
-    short: "Karst communication hub in ya-Don's underground districts."
+    short: Network of resonant chambers where Karst tap-language travels through rock.
     details: |
-      Network of resonant chambers where Karst tap-language travels through rock, enabling 
-      communication across the underground. Messages propagate through stone faster than 
-      messengers could travel tunnels. Surface dwellers barely know it exists.
+      Resonant chambers distributed through the Depths where tap-language
+      propagates through stone. Messages travel faster than any messenger could
+      move through tunnels. The tap-code carries news, warnings, market prices,
+      gossip—an entire information economy the surface barely knows exists.
+
+      Surface dwellers sometimes hear the tapping through basement floors. They
+      assume it's pipes expanding.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Depths of St. Yerren, Karst]
     location_features:
@@ -3653,23 +3681,20 @@ entries:
   # ═══ Ember Row ═══
   Ember Row:
     category: location
-    short: "Family housing climbing toward Sierra foothills—marginally cooler, with sunset Furnace views."
+    short: Family housing climbing toward Sierra foothills—marginally cooler, with sunset Furnace views.
     details: |
-      ~200,000 residents east of Threshold, ~200 feet elevation gain providing cooler
-      temperatures families value. Higher proportions of near-baselines and Orevet
-      (whose bodies benefit from temperature differential). Individual dwellings more
-      common than Threshold—families can own rather than rent.
+      Two hundred thousand residents east of the Threshold, two hundred feet of
+      elevation gain providing cooler temperatures families value. Individual
+      dwellings more common here—families can own rather than rent. Gardens
+      appear where water permits.
 
-      The name comes from the western view: at sunset, the Furnaces' industrial glow
-      resembles banked coals through silhouetted domes and towers. Residents gather
-      on terraces and rooftops for this daily display—shared viewing has become social
-      ritual defining neighborhood identity.
+      The name comes from the western view: at sunset, the Furnaces' industrial
+      glow resembles banked coals through silhouetted domes and towers.
+      Residents gather on terraces and rooftops for this daily display—shared
+      viewing has become social ritual defining neighborhood identity.
 
-      Architecture more varied than Threshold's, reflecting construction across longer
-      period. Gardens appear where water permits—small vegetable plots, the luxury of
-      growing things in a city dominated by industry. The Overlook terraced plaza offers
-      city-wide views; Parish Church of St. Calis has slightly-wrong spire proportions
-      that residents defend loyally.
+      The Parish Church of St. Calis has slightly-wrong spire proportions that
+      residents defend loyally against outside criticism.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Threshold, Orevet]
     location_features:
@@ -3699,8 +3724,13 @@ entries:
   # ═══ Factor's Row ═══
   "Factor's Row":
     category: location
-    short: District where Imperial factors operate from warehouses in Taho.
-    details: Timber buildings on granite foundations, large doors facing docks. Imperial factors arrive when pass opens, leave before winter. Half Imperial, half Republican, entirely commercial.
+    short: Taho district where Imperial factors operate from dockside warehouses.
+    details: |
+      Timber buildings on granite foundations, large doors facing the docks.
+      Imperial factors arrive when the pass opens in spring, leave before
+      winter closes it again. Half Imperial, half Republican, entirely
+      commercial. Electric lighting from the municipal system—the factors
+      consider it a provincial novelty.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Port District, Taho]
     location_features:
@@ -3717,15 +3747,22 @@ entries:
   # ═══ Far Wall ═══
   Far Wall:
     category: location
-    short: "Government and bureaucracy side of Glen Canyon—Senate Chamber, ministry warrens, Cathedral atop."
+    short: Government side of Glen Canyon—bureaucratic warrens below, Senate Chamber mid-level, Cathedral atop.
     details: |
-      The canyon wall hosting government, bureaucracy, and transformed wealth. Lower levels:
-      bureaucratic warrens notoriously confusing—endless tunnels connecting offices, meeting
-      rooms, archive storage. Mid-level: the Senate Chamber, 150 feet across, tiered seating
-      for 750 senators, revolutionary reliefs carved over monarchical scenes. Higher up:
-      Hereditary Debtors' quarter, former slave quarters now valuable property. Atop: the
-      Cathedral, former palace of Sultana Ulayah, now Patriarch Kaleb's seat, partially
-      overhanging the cliff.
+      The canyon wall hosting government, bureaucracy, and transformed wealth.
+      Lower levels hold the bureaucratic warrens—notoriously confusing tunnels
+      connecting offices, meeting rooms, archive storage. A petitioner might
+      spend hours navigating. Electric bulbs every few feet, the Dawn aesthetic
+      of transparency through illumination.
+
+      Mid-level: the Senate Chamber, one hundred fifty feet across, tiered
+      seating for seven hundred fifty senators. Revolutionary reliefs carved
+      three inches deep over monarchical scenes—the originals still faintly
+      visible underneath.
+
+      Higher up: the Hereditary Debtors' quarter, former slave quarters now
+      valuable property. Atop it all: the Cathedral, Sultana Ulayah's former
+      palace, now Patriarch Kaleb's seat, partially overhanging the cliff.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Ganat proper, Near Wall]
     location_features:
@@ -3746,12 +3783,17 @@ entries:
   # ═══ Bureaucratic Warrens ═══
   Bureaucratic Warrens:
     category: location
-    short: "Ministry tunnels in the Far Wall's lower levels—notoriously confusing, aggressively lit."
+    short: Ministry tunnels in the Far Wall's lower levels—notoriously confusing, aggressively lit.
     details: |
-      Endless tunnels connecting offices, meeting rooms, archive storage. A petitioner might 
-      spend hours navigating. Electric bulbs every few feet—Dawn aesthetic of transparency 
-      through illumination, nothing hidden in darkness. Forms processed, reports written, 
-      administrators coordinating between government and kilits.
+      Cappadocia for bureaucrats. Endless tunnels carved through salmon sandstone,
+      connecting offices, meeting rooms, archive storage. Electric bulbs every
+      few feet—the Dawn aesthetic demanding nothing hide in darkness. The salmon
+      stone glows warm under perpetual light.
+
+      A petitioner navigating from entrance to correct office might walk for
+      hours, directed by signs that disappear or become obsolete as tunnels
+      change. Forms are processed. Reports are written. The individual work
+      feels negligible; the collective machinery grinds on.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Far Wall, Ganat proper]
     location_features:
@@ -3769,14 +3811,23 @@ entries:
   # ═══ Hereditary Debtors' Quarter ═══
   Hereditary Debtors' Quarter:
     category: location
-    short: "Former slave quarters transformed into valuable real estate—proximity to power made them rich."
+    short: Former slave quarters transformed into valuable real estate—the stone remembers what they were.
     details: |
-      Upper Far Wall, adjacent to Senate and ministry warrens. The Hereditary Debtors are 
-      descendants of slaves whose debts became hereditary obligations under the Sultanate. 
-      The Revolution abolished hereditary debt; former slave quarters became kilit property. 
-      Now expanded, improved, decorated—visible transformation from bondage to wealth. They 
-      lease space to bureaucrats, rent offices to kilits needing government access, operate 
-      restaurants and lodging.
+      Upper Far Wall, adjacent to Senate and ministry warrens. The Hereditary
+      Debtors are descendants of slaves whose debts became hereditary under
+      the Sultanate. Revolution abolished hereditary debt; former slave
+      quarters became kilit property.
+
+      The quarters were originally minimal: narrow tunnels, small chambers,
+      basic sanitation. Over twenty years, the Hereditary Debtors have
+      expanded, improved, decorated. Larger chambers carved out. Art Nouveau
+      flourishes where bare walls once stood. Workers actively carve new
+      spaces, install new infrastructure.
+
+      They lease space to bureaucrats, rent offices to kilits needing
+      government access, operate restaurants and lodging. Proximity to power
+      made them rich. The stone remembers what they were. The carving shows
+      what they've become.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Far Wall, Ganat proper, Hereditary Debtors]
     location_features:
@@ -3795,32 +3846,27 @@ entries:
   # ═══ Hereditary Debtors ═══
   Hereditary Debtors:
     category: organization
-    short: "Bureaucratic corps bound to state service—~18,000 members, two Senate seats, staff every significant office, swing vote."
+    short: Kilit bound to state service—eighteen thousand members, two Senate seats, swing vote in every close election.
     details: |
-      Descendants of kilits whose members forfeited freedom to the Sultanate's treasury,
-      transformed by the constitutional settlement from slaves into "public service
-      obligated" workers. Members earn wages comparable to free employees; a portion
-      (initially 40%, reduced over time) goes to debt service. Children inherit obligation
-      but also inherit guaranteed Ministry employment and institutional knowledge.
+      Descendants of kilits whose members forfeited freedom to the Sultanate's
+      treasury. Revolution transformed them from slaves into "public service
+      obligated" workers. Members earn wages comparable to free employees; a
+      portion goes to debt service. Children inherit obligation but also
+      inherit guaranteed Ministry employment.
 
-      The kilit's members have become the Republic's most competent administrators.
-      A Minister serves five years; their Debtor deputy serves thirty and trains the
-      next three Ministers. They maintain the Republic's most comprehensive archives
-      and process the paperwork that makes governance function—census records, membership
-      transfers, legislative tracking. This creates an intelligence network rivaling
-      the Church's.
+      A Minister serves five years; their Debtor deputy serves thirty and
+      trains the next three Ministers. They maintain the Republic's most
+      comprehensive archives and process the paperwork that makes governance
+      function. This creates an intelligence network rivaling the Church's.
 
-      Approximately one-third of current membership acquired status voluntarily within
-      the past fifteen years. Academy students take treasury loans, default strategically,
-      accept hereditary status, and receive guaranteed Ministry positions. Original
-      Debtors view these newcomers with complex feelings—they chose bondage others
-      were born into, carry lighter obligations, benefit from institutional infrastructure
-      without sharing historical grievance.
+      One-third of current membership acquired status voluntarily within the
+      past fifteen years—Academy students taking treasury loans, defaulting
+      strategically, accepting hereditary status for guaranteed positions.
+      Original Debtors view these newcomers with complex feelings.
 
-      Two Senate seats. Neither faction secures their support permanently. Senator Yem
-      Tokan votes whichever party offers better debt reduction terms. The annual
-      Reckoning Festival combines funeral, birth, and wedding—"capitalism's most honest
-      expression."
+      Two Senate seats. Senator Yem Tokan votes whichever party offers better
+      debt reduction terms. The annual Reckoning Festival combines funeral,
+      birth, and wedding—capitalism's most honest expression.
     rag_pointer: "Hereditary Debtors"
     related: [Ganat, Senate, Yem Tokan, Hereditary Debtors' Quarter, Kilit, Reckoning Festival, Tekhel Dhal-Orin]
   # ─── end Hereditary Debtors ───
