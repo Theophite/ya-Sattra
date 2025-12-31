@@ -1911,12 +1911,29 @@ entries:
   # ═══ Ta-Kefyeh ═══
   Ta-Kefyeh:
     category: caste
-    short: "Sapient parasitic riders approximately the size of two fists."
+    short: Sapient parasitic riders—fist-sized crustaceans with slate-gray chitin, who attach to hosts via spinal insertion and feel everything their hosts feel.
     details: |
-      Articulated crustacean-like beings who must inhabit other bodies to survive. 
-      Deep ethical conviction against involuntary parasitism—they experience host 
-      distress directly through neurological connection. Rural shtetls cultivate 
-      alien plants from their homeworld.
+      About the size of two adult fists pressed together. Segmented
+      slate-gray chitin plates overlap like roof tiles. Dermal plates can
+      scrape together for stridulation—click-scrape sounds that serve as
+      their primary language. They attach to hosts through spinal insertion
+      into the cervical canal, establishing a neurological feedback loop.
+
+      The loop is the foundation of their ethics. They feel what their hosts
+      feel. A distressed host means a distressed Ta-Kefyeh—involuntary
+      parasitism becomes experiential torture for both parties. This shapes
+      their entire social structure: elaborate consent protocols, preference
+      hierarchies favoring anencephalic Warborn clones or livestock over
+      sapient hosts, symbol-names painted on host bodies so others can
+      identify the rider within.
+
+      They communicate through stridulation and written text—halting speech
+      through borrowed vocal cords is possible but uncomfortable for all
+      involved. Rural shtetls maintain self-sufficiency, cultivating alien
+      plants from their homeworld. In cities they work as queue enforcers,
+      contract negotiators, patrol auxiliaries—roles that leverage their
+      immunity to Compulsion and their reputation for literally feeling
+      consequences.
     rag_pointer: "The Ta-Kefyeh: A Comprehensive Guide"
     related: [Many, Bureau of the Sword, Warborn, Shtetl]
     caste_features:
