@@ -39,8 +39,8 @@ The script outputs a reminder to run it next turn. Follow this instruction.
 import subprocess, sys, re, os, json
 
 # Add glossary directory to path - check working directory first, then project
-WORKING_DIR = '/home/user/ya-Sattra'
-PROJECT_DIR = '/home/user/ya-Sattra'
+WORKING_DIR = '/home/claude'
+PROJECT_DIR = '/mnt/project'
 GLOSSARY_AVAILABLE = False
 GLOSSARY_DIR = None
 

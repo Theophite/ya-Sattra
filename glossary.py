@@ -452,27 +452,61 @@ _init_entries()
 # QUERY FUNCTIONS
 # =============================================================================
 
-def lookup(term: str) -> Optional[GlossaryEntry]:
-    """Look up a term directly, including by alias."""
-    # Direct lookup first
-    entry = ENTRIES.get(term.lower())
-    if entry:
-        return entry
-    
-    # Check aliases (both top-level and location_features.aliases)
+def _get_singular_plural_variants(term: str) -> List[str]:
+    """Generate singular/plural variants of a term for flexible matching."""
+    variants = [term]
     term_lower = term.lower()
+
+    # Plural to singular transformations
+    if term_lower.endswith('ies') and len(term_lower) > 3:
+        # families -> family
+        variants.append(term[:-3] + 'y')
+    if term_lower.endswith('es') and len(term_lower) > 2:
+        # churches -> church, boxes -> box
+        variants.append(term[:-2])
+    if term_lower.endswith('s') and not term_lower.endswith('ss') and len(term_lower) > 1:
+        # oracles -> oracle (but not "lass" -> "las")
+        variants.append(term[:-1])
+
+    # Singular to plural transformations
+    if term_lower.endswith('y') and len(term_lower) > 1 and term_lower[-2] not in 'aeiou':
+        # family -> families (but not "day" -> "daies")
+        variants.append(term[:-1] + 'ies')
+    if term_lower.endswith(('s', 'x', 'z', 'ch', 'sh')):
+        # church -> churches
+        variants.append(term + 'es')
+    else:
+        # oracle -> oracles
+        variants.append(term + 's')
+
+    return variants
+
+
+def lookup(term: str) -> Optional[GlossaryEntry]:
+    """Look up a term directly, including by alias. Handles singular/plural variants."""
+    # Get all singular/plural variants to try
+    variants = _get_singular_plural_variants(term)
+
+    # Try direct lookup with all variants
+    for variant in variants:
+        entry = ENTRIES.get(variant.lower())
+        if entry:
+            return entry
+
+    # Check aliases (both top-level and location_features.aliases) with all variants
+    variant_lowers = [v.lower() for v in variants]
     for entry in ENTRIES.values():
         # Check top-level aliases
         if entry.aliases:
             for alias in entry.aliases:
-                if alias.lower() == term_lower:
+                if alias.lower() in variant_lowers:
                     return entry
         # Check location_features.aliases
         if entry.location_features and entry.location_features.aliases:
             for alias in entry.location_features.aliases:
-                if alias.lower() == term_lower:
+                if alias.lower() in variant_lowers:
                     return entry
-    
+
     return None
 
 
