@@ -4581,24 +4581,19 @@ entries:
   # ═══ High Junction ═══
   High Junction:
     category: location
-    short: "Garrison city at the Republic's northern frontier—hub for highland pastoral confederations."
+    short: Frontier city where the power lines end and the pastoral confederations meet.
     details: |
-      80,000 inhabitants at 6,400 feet on the Azhmar River (Arkansas). Transformed
-      from frontier garrison of 30,000 to manufacturing center after grid power
-      arrived six years ago. Dawn Party stronghold, chaotic politics. The Dhal-Setil
-      family (Rasma's family) has a multi-generational compound here.
+      The bridge needs repair again. It always needs repair. Locals joke this proves
+      even the Antediluvians could build poorly—though somehow it's lasted millennia,
+      and somehow it keeps working, and somehow everyone crosses it anyway while
+      arguing about whether this year will finally be the year it fails.
 
-      Straddles both banks crossed by a pre-Interdict bridge that constantly needs
-      repair—locals joke it proves even the Antediluvians could build poorly, though
-      it's somehow lasted millennia. Furthest eastern stop on power lines from the
-      Dam, with full telegraph service. Railroad debates continue indefinitely.
-
-      Hub for both pastoral confederations: the Eastern Range Confederation (Dawn)
-      and Highland Graziers' Association (Dusk) hold internal meetings here. The
-      Veterans' Congress provides the Eastern Range's largest component; the Factors'
-      Guild provides the Graziers' commercial backbone. Commercial integration means
-      the same facilities process raw materials regardless of which pastoral kilit
-      produced them—Mor milk becomes Kelar cheese in Azhmar Valley processors.
+      Six years ago the grid reached here. A garrison of thirty thousand became a
+      manufacturing center approaching three times that size. Dawn Party politics
+      run hot in the new factories. The pastoral confederations send their herds
+      through regardless—Eastern Range and Highland Graziers using the same processing
+      facilities, the same cold storage, their political differences suspended at the
+      loading dock. What matters is getting the wool baled before the passes close.
     rag_pointer: "Ganat and the Yarangar War, The Republic of Ganat"
     related: [Ganat, Thousand Kingdoms, Rasma Dhal-Setil, Southern Highland Bands, Eastern Range Confederation, Highland Graziers' Association]
     location_features:
