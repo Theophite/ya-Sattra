@@ -10,6 +10,16 @@ python3 glossary_stepper.py --stats               # Check progress
 
 Edit **both** `short` and `details`. Leave subsections alone.
 
+## Tools
+
+**DO NOT use grep or other raw search commands.** Use the provided tools:
+
+- `python3 glossary_stepper.py` — step through entries systematically
+- `python3 glossary.py lookup "Entry Name"` — view a single entry formatted
+- `python3 glossary.py search "term"` — find entries containing a term
+
+The stepper and glossary.py exist for this purpose. Use them.
+
 ## The Eigenvector
 
 Every entry conveys the coherent internal perspective of its subject.
