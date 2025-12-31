@@ -347,97 +347,239 @@ In professionally organized warbands like Tsoka's, warriors follow paperwork req
 
 ### Command Structure
 
-Ganati military organization reflects the Republic's political structureâ€”professional forces answering to the state alongside auxiliary forces answering to their kilits.
+Ganati military organization reflects the Republic's political structure—professional forces answering to the state alongside auxiliary forces answering to their kilits. The Ministry of War coordinates this patchwork, though "coordinates" overstates the Ministry's actual authority over kilit auxiliaries.
 
-**The Republican Guard** is the Republic's professional military, organized around mobile cavalry and light artillery. Service guarantees voting rights regardless of property ownershipâ€”a provision transforming Ganati social mobility. A propertyless Ranga immigrant can achieve full citizenship through military service.
+**The Ministry of War** remains Dawn's institution not because of constitutional allocation but because the pool of qualified candidates consists almost entirely of revolutionary veterans. You cannot staff a war ministry with people who didn't fight the war. The first Minister was Kelso Senna himself, briefly, before his departure to Cloud Temple. The Ministry he founded continues without him.
 
-Guard officers dominate government positions despite Dawn Party rarely controlling 60% of the Senate. The revolution itself was military action led by Dawn-aligned officers from the Cloud Temple Band and similar units. Institutional culture persists even when Dawn lacks Senate supermajorities. Appointments to intelligence services and military leadership routinely go to moderate Dawn candidates because the pool of qualified applicants consists almost entirely of revolutionary veterans.
+The Minister coordinates between Guard command, kilit auxiliary obligations, weapons production, and strategic planning. Current ministers have been moderate Dawn—revolutionary veterans who understand that governing requires cooperation with institutions the revolution didn't destroy.
 
-**Kilit Auxiliaries** reflect each kilit's economic capacity and social structure, creating patchwork forces that defy conventional organization:
+**Guard Command** maintains its own structure answerable to the Minister but operationally distinct. Guard generals emerged from revolutionary units and maintain the institutional culture those units created. They're professional soldiers who happen to vote Dawn, not Dawn politicians who happen to command soldiers. Guard headquarters operates from the Far Wall in Ganat proper. Approximately 3,000 active personnel serve at any time, with reserve obligations extending to perhaps twice that number.
 
-*Merchant House Guards*: The ela-Mervan trading house maintains professional caravan guards equipped with modern rifles and quality horsesâ€”effectively a private army with commercial justification. They answer to their kilit's board, not the Guard.
+**Auxiliary Coordination** theoretically coordinates kilit auxiliary forces during mobilization. In practice, coordination means negotiation. The office maintains records of kilit military obligations, tracks compliance with Senate-mandated force requirements, and attempts to standardize equipment and training across forces that resist standardization. The office is perpetually understaffed and perpetually frustrated.
 
-*Agricultural Grange Militia*: Farmers who drill monthly with older weapons, understanding basic tactics but lacking professional polish. They know their territory intimately.
+### The Republican Guard
 
-*Pastoralist Scouts*: Desert nomads who know every water source within a thousand miles but recognize no authority beyond tribal elders. Their concept of military discipline is alien to regular forces.
+#### Citizenship Through Service
 
-**Deliberate Dysfunction**: This systematic inconsistency serves multiple political purposes. Dawn kilits won't mobilize for conservative suppression. Dusk kilits won't deploy for revolutionary transformation. Military power remains distributed across economic sectors that must cooperate but cannot dominate.
+Service in the Guard guarantees voting rights regardless of property ownership. A propertyless immigrant—Ranga refugee, near-baseline laborer, anyone—can achieve full citizenship through military service. This transforms legal status: from resident to citizen, from laborer to potential landowner.
 
-**Operational Realities**: Guard officers theoretically command auxiliaries during combined operations, but auxiliary officers answer to their kilits first. A Guard cavalry major might order auxiliary scouts to reconnoiter, only to discover they've returned to their tribe for seasonal migration.
+The pay is negligible. Soldiers serve for what service provides: the vote, the land grant eligibility, the transformation of social position. A Ranga whose people were crushed in the Yarangar can become as Ganati as any Serrulata yeoman, with the documentation to prove it and the rifle skills to defend it.
 
-### Who Fights
+This creates a Guard that's formally diverse but practically Serrulata-dominated. The desert advantages that make Serrulata sixty-five percent of the Republic's population make them a higher percentage of effective soldiers. They can march in conditions that would hospitalize baseline troops, operate in heat that degrades equipment, require less water and tolerate more sun than any alternative. The Guard attracts minorities seeking citizenship, but Serrulata biological advantages mean Serrulata dominate regardless.
 
-**Serrulata** comprise sixty-five percent of the Republic's population and dominate Guard ranks for biological reasons no republican declaration can eliminate. Their engineered desert adaptationsâ€”keratin scales with superior thermoregulation, dark sclerae combating glare, micro-channel sweat wicking systemsâ€”enable survival where unmodified humans struggle. They can march through conditions that would hospitalize Imperial troops, operate in heat that degrades power armor cooling, require less water and tolerate more sun than baseline forces. The desert itself becomes a weapon the Republic wields.
+#### Doctrine
 
-**Guard organization** emphasizes:
-- Mobile cavalry for rapid deployment across vast eastern territories
-- Light artillery for fire support and counter-battery work
-- Dragoons carrying captured/reverse-engineered Imperial culverins to fight Warborn
-- Doctrine preventing the military from becoming an instrument of internal controlâ€”cavalry proves less useful for suppressing urban unrest
+Mobile cavalry and light artillery reflect both geographic necessity and political calculation.
 
-**Kilit Militia**: Farmers, vineyard workers, tradespeople called up for annual sixty-day service. Their grandfathers fought in the revolution. If war comes, they'll fight.
+The geographic necessity: vast eastern territories require rapid deployment that heavy infantry cannot provide. Distances are enormous. Water sources are scattered. An infantry force marching across the eastern territories would arrive exhausted if it arrived at all. Cavalry can cover ground, respond to threats, patrol frontiers that would swallow foot soldiers.
 
-**Revolutionary Akama**: Fought for the Republic during the Yarangar War. Some took citizenship and moved south; those who remained occupy a tenuous position on the border, asking for arms and support in taking land from their Akama brethren.
+The political calculation: cavalry excels at frontier patrol and external defense but proves less useful for suppressing urban unrest. The Guard can fight the Empire. It cannot easily control Taho's streets or Ganat proper's warrens. This is deliberate. The revolution that created the Republic doesn't want tools that could suppress the next revolution. Military doctrine assumes external enemies, not internal ones.
 
-### Characteristic Equipment and Procurement
+#### Organization
 
-**Strategic Philosophy**: The Republic does not aim to defeat the Empire in battle. It aims to make the cost of conquest exceed any possible gain. Defensive sufficiency, not offensive capability.
+**Cavalry** forms the Guard's core—dragoons carrying carbines, trained for rapid movement and dismounted firefights. They carry Imperial culverins or domestic equivalents because they might face power-armored Warborn. A cavalry carbine won't penetrate Warborn plate; a culverin will.
 
-**Fixed Fortifications**: Prepared defensive positions negate Imperial mobility advantages while maximizing Ganati firepower concentration. Fortifications control chokepoints: passes, water sources, approaches to major cities. Taking them requires siege operations extending Imperial timelines past their operational tether.
+**Light Artillery** provides fire support—mobile guns that can deploy quickly, support cavalry operations, and withdraw before being overrun. The guns are Ganati manufacture, crude but functional, firing shells the Republic can produce domestically.
 
-**The Dam at Ganat proper** generates electricity distributed across Republican territory. Power is free after hookupâ€”unmetered, unlimited for normal use. Workshops run twenty-four hours. The abundance enables experimentation.
+**Infantry** exists for fixed positions and urban operations. They're the minority of Guard forces, deployed where cavalry doctrine doesn't apply—garrison duty, fortification defense, the rare urban operation where horses are useless.
 
-**Dawn and Dusk divide military production**:
-- Dawn kilits prioritize Guard contracts, accept lower margins, view weapons production as revolutionary duty
-- Dusk kilits treat military contracts as business, maintain Avouvar trade relationships for components Republican workshops cannot yet produce
+**Scouts** overlap with pastoralist auxiliary contributions. Guard scouts are professionals; pastoralist scouts are seasonal. The distinction matters for pay and obligation but less for operational capability.
 
-**The Kel Salvage Syndicate** supplies the forty percent of components the Republic hasn't mastered. Operating from Taho, straddling the Imperial border, the Syndicate acquires precision optics, specialized capacitors, magnetic accelerator components. The current Dusk Consul, Datho Kel el-Marwen, rose through Syndicate politics.
+#### Equipment
 
-**Reverse-engineering programs**: Armorers strip captured culverins to components, document everything, attempt replication. Some Republican culverins now contain entirely domestic components. Heavier, less reliable, requiring more maintenance than Furnace production. But they fire without Imperial authentication. Current estimate: sixty percent progress toward full culverin domestication.
+The Guard's pragmatism shows in its weapons.
 
-**Equipment Philosophy**: Ganati armorers strip captured Imperial culverins to components, identify authentication systems, remove or bypass them, and reassemble functional weapons. The goal is building culverins that never had authentication in the first place.
+Dragoons carry Imperial culverins because they fight power-armored Warborn. But Guard armorers immediately disassemble captured weapons, document everything, understand the magnetic acceleration principles, and experiment with domestic alternatives. The goal is culverins that never had Imperial authentication in the first place.
 
-**Named Republican producers** (merchant houses and syndicalist cooperatives):
+Current estimate: sixty percent progress toward full culverin domestication. Republican-manufactured culverins are heavier, less reliable, require more maintenance than Furnace production. But they fire without Imperial authentication. They can be repaired with domestic components. They don't depend on salvage that might stop flowing.
 
-*Dam Workers' Armorers Assembly* (inside the Dam): Mass production. Machine-turned rifle barrels, standardized cartridge cases, bayonets, uniform fittings. Dawn-aligned cooperativeâ€”24-hour production, quality varies by shift committee.
+Standard infantry carry rifles from domestic producers—Dam Workers' Armorers Assembly for mass production, Khen-Masot Rifle Works for standardized Guard issue, House Tal-Omir for quality officer weapons. The calibers are standardized (.40 for rifles, .38 for pistols), the ammunition domestically produced, the supply chains entirely Republican.
 
-*House Tal-Omir* (Merchant Terraces, Taho): Quality weapons for merchant guards. Tal-Omir rifle (.40 caliber, blued steel, walnut stock), carbines, matched officer pistol pairs, presentation weapons. Old merchant family, Dusk-alignedâ€”higher prices, better quality.
+The philosophy: use archaeotech components where necessary, reverse-engineer principles wherever possible, reject patent-locked dependence absolutely. The Republic cannot manufacture everything the Empire can. But what it manufactures, it controls.
 
-*Khen-Masot Rifle Works* (Near Wall workshop district, Ganat proper): Standardized infantry weapons. Compound name, old merchant family, but maintains careful neutralityâ€”contracts predate the Revolution, they supply the Guard regardless of who holds the Consulates.
+### The Kilit Auxiliaries
 
-*Taho Metalworkers' Collective* (Far Wall, Ganat proper): Dragoon equipment. Seventy percent domestic culverin componentsâ€”their reverse-engineered rail weapons don't require Imperial authentication. Dawn-aligned syndicalist cooperative.
+Every kilit must provide military forces proportional to its economic weight. The Senate sets standards; the kilits interpret them.
 
-*Ghesam Optical* (Near Wall): Precision optics. Sefka Ghesam, proprietor. Rifle scopes, artillery ranging equipment, signal mirrors, binoculars. Single-name family (no kilit marker), forty workers, irreplaceable expertise.
+#### The Patchwork
 
-*High Junction Armorers' Congress* (High Junction): Frontier equipment. Cold-weather gear, cavalry tack, portable field forges, local ammunition. Frontier cooperative, Dawn-aligned.
+**Merchant House Guards**: The ela-Mervan trading house maintains professional caravan guards equipped with modern rifles and quality horses—effectively a private army with commercial justification. House Tal-Omir guards carry Tal-Omir rifles. House Kel el-Marwen guards carry refurbished Imperial equipment from the family salvage business. These forces are professional, well-equipped, and answerable to their kilit's board rather than the Ministry of War.
 
-*House Kel el-Marwen, Salvage Division* (Vegas Springs): Captured Imperial equipment. Refurbished rifles, sorted ammunition, fitted armor, authentication bypass services. The Dusk Consul's family businessâ€”the el- particle marks ancient Imperial descent.
+**Agricultural Grange Militia**: Farmers who drill monthly with older weapons. They understand basic tactics but lack professional polish. They know their territory intimately—every irrigation canal, every defensible position, every approach route. What they lack in training they compensate in local knowledge.
 
-*Academy Experimental Section* (Far Wall): Reverse-engineering research. Not a commercial producerâ€”a laboratory. Where captured culverins go to be understood.
+**Pastoralist Scouts**: Desert nomads who know every water source within a thousand miles but recognize no authority beyond tribal elders. Their concept of military discipline is alien to regular forces. They'll scout for the Republic because they're part of the Republic, but they'll do it their way, on their schedule, answering to their khans.
+
+#### Deliberate Dysfunction
+
+This systematic inconsistency serves multiple political purposes.
+
+Dawn kilits won't mobilize for conservative suppression. If a Dusk consul tried to use auxiliary forces against Dawn demonstrations, the Dawn-aligned granges and cooperatives would refuse. Their officers answer to their kilits, and their kilits are Dawn.
+
+Dusk kilits won't deploy for revolutionary transformation. If a Dawn consul tried to use auxiliary forces to seize merchant property or enforce radical redistribution, the merchant house guards would refuse. Their officers answer to their boards, and their boards are Dusk.
+
+Military power remains distributed across economic sectors that must cooperate but cannot dominate. No faction controls enough force to suppress the others. The Republic persists because destroying it would require military unity that the auxiliary system prevents.
+
+#### The Cavalry Problem
+
+The majority of the Republic's cavalry—the most important maneuver force—comes from Dusk-aligned kilits.
+
+This seems paradoxical until you consider what cavalry requires: horses. Good horses cost money. Training riders costs money. Maintaining cavalry equipment costs money. The merchant kilits have money. The yeoman farmers and frontier settlers who form Dawn's base have land grants and rifles, not breeding programs and remount budgets.
+
+The ela-Mervan trading house maintains two hundred mounted guards who've protected caravans across the desert for three generations. House Tal-Omir fields a smaller force, perhaps eighty riders, but equipped with the best weapons their workshops produce. The Taho commercial kilits collectively provide more trained cavalry than the Republican Guard itself. These riders are professionals—better mounted, better equipped, and often better trained than Guard dragoons who learned horsemanship in the military rather than the saddle.
+
+Dawn controls the Ministry of War, the officer corps, the infantry, the artillery. Dusk controls the horses. In a war requiring rapid movement across vast territories, the faction that controls the horses controls the tempo of operations.
+
+This creates mutual dependency that neither faction acknowledges publicly. Dawn needs Dusk cavalry for any serious military operation. Dusk needs Dawn's infantry and artillery for any defensive position. Neither can fight effectively without the other. The military balance of power mirrors the political balance—each faction controls something essential, neither controls everything.
+
+#### The Akama Question
+
+The Ganati Akama complicate cavalry operations considerably.
+
+These are Akama who fought for the Republic during the Yarangar War, took citizenship, and remained in Ganati territory. Some moved south to established settlements. Others occupy a tenuous position on the northern border, asking for arms and support to take land from their Akama brethren in the Thousand Kingdoms. They're skilled riders from a culture that venerates mounted warfare, providing cavalry capabilities that complement merchant house forces.
+
+They don't get along with Dusk cavalry at all.
+
+The merchant house riders see the Akama as undisciplined raiders who can't hold formation and won't follow orders. The Akama see the merchant riders as soft traders playing at war, more concerned with protecting cargo than winning battles. Both assessments contain truth. Merchant cavalry excels at disciplined maneuver, coordinated charges, the professional warfare that Guard doctrine assumes. Akama cavalry excels at raiding, pursuit, the fluid combat of the steppe where individual skill matters more than unit cohesion.
+
+Combined operations require keeping these forces separate. An Akama warband attached to ela-Mervan cavalry will produce friction that degrades both units. The Ministry has learned to assign them different sectors, different objectives, different chains of command that converge only at the highest level. This works adequately in the field but creates planning nightmares for staff officers who must coordinate forces that refuse to coordinate with each other.
+
+The Akama also create political complications. Their requests for support against Thousand Kingdoms Akama put the Republic in an awkward position—arming them risks conflict with powers the Republic prefers to ignore, while refusing them alienates a constituency that provides irreplaceable military capabilities. Dawn generally favors supporting the Akama (expansion ideology, frontier solidarity). Dusk generally opposes (why provoke unnecessary conflicts?). The debate continues without resolution.
+
+#### Ranga Auxiliaries
+
+The Ranga present a different case entirely.
+
+Refugees from the Yarangar War, their chameleonic forest adaptations prove nearly useless in the desert. They cannot match Serrulata endurance in the heat, cannot compete with merchant house cavalry resources, cannot draw on generations of local knowledge like the agricultural grange militias. What they have is desperation and military experience.
+
+Many Ranga serve in the Republican Guard, seeking citizenship through service. Those who've completed their terms and received land grants often struggle—forest-adapted bodies on desert homesteads, fighting biology as much as environment. But their kilit contributions to auxiliary forces reflect different capabilities: infantry who learned to fight in the Yarangar's brutal campaigns, soldiers who understand asymmetric warfare because they waged it against Imperial forces for years.
+
+Ranga auxiliary units specialize in the dirty work. Night operations. Ambush. The patient observation that Serrulata find tedious and Akama find beneath them. A Ranga scout can sit motionless for hours in conditions that would have a Serrulata shifting constantly, his chameleonic skin providing concealment his allies' scales cannot match. The adaptation that fails in open desert succeeds in broken terrain, canyon country, anywhere cover exists to exploit.
+
+The Ministry values Ranga auxiliaries precisely because they fill gaps other forces leave. They're not the best at anything conventional warfare prioritizes, but they're essential for operations that fall outside conventional priorities. Garrison duty in difficult terrain. Counter-raiding in the border regions. The unglamorous work that keeps frontiers secure while cavalry and artillery handle the decisive battles.
+
+#### The Virtues of Diversity
+
+The auxiliary system's dysfunction is real, but so are its strengths.
+
+A unified military would have standardized training, consistent equipment, reliable command structures. It would also have uniform capabilities, predictable doctrine, exploitable patterns. The auxiliary patchwork defies prediction because there's nothing consistent to predict. An Imperial commander planning operations against Ganat must account for professional merchant cavalry, Akama raiders, Ranga infiltrators, Serrulata infantry who can outlast his supply lines, pastoralist scouts who know terrain his maps don't show, grange militias defending homes they'll never abandon.
+
+Each kilit brings something no centralized force could replicate.
+
+The merchant houses bring money, professionalism, and horses. Their guards have trained together for years, know their equipment intimately, maintain standards that Guard conscripts rarely match. When ela-Mervan cavalry takes the field, they bring logistical depth—supply wagons, farriers, veterinarians, the support infrastructure that extended operations require.
+
+The pastoralist bands bring territorial knowledge accumulated over generations. They know where water exists in droughts, which passes flood in spring, where an army can move and where it will die. No survey can capture what oral tradition preserves. Their scouts make Republican forces legible to terrain that would otherwise be hostile.
+
+The agricultural granges bring numbers and motivation. A farmer defending his irrigation canal fights differently than a soldier defending an abstract boundary. The grange militias lack professional polish, but their intimate knowledge of local terrain and personal stake in outcomes produces commitment that training cannot instill.
+
+The Akama bring mobility and aggression that merchant cavalry's commercial caution suppresses. When pursuit matters, when raiders must be run down, when speed exceeds every other consideration, Akama warbands perform operations merchant guards wouldn't attempt.
+
+The Ranga bring patience, adaptability, and experience in the kind of war the Republic hopes to avoid but must prepare for. If conventional defense fails, if the fighting becomes irregular and desperate, Ranga veterans know how to wage that war because they waged it once already.
+
+Together, these forces create military capability that no single organization could match. The dysfunction is real—coordination is difficult, command is fragmented, planning is nightmarish. But the diversity is also real, and it provides options that uniformity would foreclose.
+
+### Artillery
+
+The Guard's artillery deserves particular attention because it represents the Republic's clearest military advantage.
+
+Serrulata endurance matters for infantry. Commercial wealth matters for cavalry. But artillery equalizes. A gun crew operating from a prepared position can destroy forces that would otherwise overwhelm them. The desert provides clear sight lines and stable firing platforms. Republican artillery doctrine exploits both.
+
+Light field guns—mobile enough to redeploy, powerful enough to threaten cavalry—form the artillery core. They're Ganati manufacture, produced at the Dam Workers' Assembly and the Taho Metalworkers' Collective, firing standardized shells the Republic produces domestically. They're crude by Imperial standards, but they work. A battery of six guns can break a cavalry charge, suppress an infantry advance, make any position costly to assault.
+
+The Republic cannot match Imperial Warborn in open battle. But Warborn advancing into prepared artillery is different. Power armor protects against small arms; it doesn't protect against explosive shells. The Guard's doctrine assumes defensive operations where artillery can be positioned, ranged, and supplied before fighting begins. Every defensive plan starts with the guns.
+
+Heavier pieces guard the fortifications—siege weapons that would be immobile in the field but devastating from fixed positions. The approaches to Taho mount batteries that can reach the Imperial border. Ganat proper has guns positioned to cover every approach route. An army that fought through to either city would do so under continuous artillery fire, losing soldiers with every mile advanced.
+
+The training for artillery crews is more rigorous than for other branches. Math matters. Rangefinding matters. The coordination between observation, calculation, and firing requires skills that not everyone possesses. Guard artillery attracts the Republic's technically inclined—soldiers who might have been engineers or surveyors if they hadn't chosen military service.
+
+The Ghesam optical works supplies ranging equipment, and artillery contracts get priority. A battery with good optics and trained crews can engage targets at distances that seem impossible to forces accustomed to fighting at closer range. The Republic's defensive advantage rests substantially on artillery that can kill what it can see, and optical equipment that lets it see farther than enemies expect.
+
+### Weapons Production
+
+The Republic cannot manufacture everything the Empire can. But it manufactures what it needs, domestically, without authentication locks or patent dependencies.
+
+#### Dawn-Aligned Producers
+
+**Dam Workers' Armorers Assembly**: Inside the Dam itself, running twenty-four hours on free power. Mass production—machine-turned rifle barrels, standardized cartridge cases, bayonets, uniform fittings. Syndicalist cooperative, quality varies by shift committee, but volume is consistent. They supply the Guard's bulk requirements.
+
+**Taho Metalworkers' Collective**: Former textile mills converted after the Yarangar War, now producing dragoon equipment and reverse-engineered culverins. Their breakthrough: rail weapons that don't require Imperial authentication. Seventy percent domestic manufacture on culverin components. The remaining thirty percent comes through Dusk-aligned salvage operations, which creates interesting dependencies.
+
+**High Junction Armorers' Congress**: Frontier cooperative in the northern garrison town. Cold-weather gear, cavalry equipment, portable field forges, local ammunition production. Six years of grid power transformed this settlement. They supply frontier kilits with equipment suited to frontier conditions.
+
+#### Dusk-Aligned Producers
+
+**House Tal-Omir**: Merchant Terraces, Taho. Quality weapons for merchant guards and officers. The Tal-Omir rifle is .40 caliber, blued steel, walnut stock—higher prices, better quality than mass production alternatives. Old merchant family, compound name indicating kilit-zem-kilitam descent. They've made weapons for three generations. They'll make weapons for three more regardless of who holds the Consulates.
+
+**House Kel el-Marwen Salvage Division**: Vegas Springs, on the border. Every skirmish produces salvage—captured Imperial rifles, ammunition sorted by caliber, ceramic armor plates, authentication bypass services. The current Dusk Consul rose through Kel el-Marwen politics. His family buys, evaluates, refurbishes, and resells equipment the Guard captures. The el- particle indicates ancient Imperial descent; the business indicates pragmatic adaptation.
+
+#### Neutral Producers
+
+**Khen-Masot Rifle Works**: Near Wall, Ganat proper. Primary supplier of Guard infantry rifles. Compound name indicates old merchant family, but Khen-Masot maintains careful neutrality—they supply the Guard regardless of who holds the Consulates. Their contracts predate the revolution. They donate to both parties and attend neither's functions. The politics of weapons production require them.
+
+**Ghesam Optical**: Near Wall, Ganat proper. Precision optics—rifle scopes, artillery ranging equipment, signal mirrors, binoculars. Single-name family, no kilit marker, but wealthy anyway. Forty workers with irreplaceable expertise. Waiting lists for military contracts. You cannot train optical craftsmen quickly; you cannot replace Ghesam production with alternatives.
+
+#### The Salvage Dependency
+
+The Republic's military independence is incomplete. Forty percent of precision components—specialized capacitors, magnetic accelerator elements, certain optical assemblies—come from Imperial sources. The Kel Salvage Syndicate operates from Taho, straddling the border, acquiring what Republican workshops cannot yet produce.
+
+This creates strategic vulnerability. If Imperial component flow stopped, Guard equipment would degrade over years as irreplaceable parts wore out. The reverse-engineering programs race against this timeline, trying to achieve full domestic production before circumstances force it.
+
+It also creates political tension. Dusk-aligned salvage operations supply Dawn-aligned military forces. The Guard depends on commercial relationships with the Empire that Dawn rhetoric condemns. Everyone pretends not to notice.
+
+### Strategic Doctrine
+
+The Republic does not aim to defeat the Empire in battle. It aims to make the cost of conquest exceed any possible gain.
+
+#### Defensive Sufficiency
+
+The Empire would likely win open conflict. Imperial forces could probably take Taho—it's on the border, near supply lines, requires conventional warfare where Warborn excel. The Imperial military is professional, well-equipped, experienced. The Republican Guard is smaller, less well-equipped, inexperienced in major operations.
+
+But extending supply lines hundreds of kilometers across hostile desert to Ganat proper would be catastrophic. Republican cavalry raids supply columns. Pastoralist auxiliaries know every water source and share none of them with invaders. Serrulata forces operate in conditions that incapacitate Imperial troops—heat that degrades power armor cooling, sun that blinds unprotected eyes, distances that exhaust logistics.
+
+The Republic survives because conquest would cost more than the territory is worth. Defensive sufficiency, not offensive capability.
+
+#### Fortification Strategy
+
+Fixed fortifications control chokepoints: passes, water sources, approaches to major cities. The fortifications negate Imperial mobility advantages while maximizing Ganati firepower concentration. Taking them requires siege operations that extend Imperial timelines past their operational tether.
+
+The Taho approaches are fortified. The eastern territories have prepared positions at every defensible point. Ganat proper is approachable only through terrain that favors defenders absolutely. An Imperial army that fought through to the capital would arrive exhausted, undersupplied, facing an entrenched population with nowhere to retreat.
+
+#### The War That Doesn't Come
+
+Eighteen years since the revolution. No Imperial invasion. The deterrence works—or the Empire never intended to invade, or circumstances prevent what intentions might allow.
+
+The Ministry plans for war that doesn't come, maintains forces for battles that don't happen, prepares for contingencies that remain contingent. This is what defense ministries do. The planning continues regardless of whether the plans are ever needed.
+
+### Operational Reality
+
+During combined operations, Guard officers theoretically command auxiliary forces. In practice, auxiliary officers answer to their kilits first. A Guard cavalry major might order auxiliary scouts to reconnoiter a position, only to discover they've returned to their tribe for seasonal migration. A Guard infantry captain might request merchant house guards for a garrison rotation, only to learn the guards are needed to protect a caravan the kilit prioritized.
+
+The Ministry maintains an Auxiliary Affairs office specifically to manage these frictions. The office negotiates rather than commands. It tracks obligations, documents compliance failures, and refers persistent problems to Senate committees that rarely act. The auxiliaries remain auxiliary—useful supplements to Guard forces, not reliable components of unified command.
+
+But when the system works—when cavalry screens infantry advancing behind artillery preparation, when pastoralist scouts guide forces through terrain that would otherwise trap them, when each kilit contributes what it does best to operations designed around those contributions—the auxiliary patchwork achieves results no unified force could match. The staff work is harder. The planning takes longer. The friction never disappears entirely. But the combined force is genuinely formidable, and Imperial planners know it.
 
 ### What Military Life Is Like
 
-*Professional Guard Life*: The Guard becomes a life. Pay is negligibleâ€”barely enough to live onâ€”but the stability is real. Soldiers sign on at eighteen or nineteen, renew at twenty-three, renew again at twenty-eight. By their thirties they've been Guard longer than they've been anything else. Institutional loyalty replaces ideology; veterans vote Dawn not from conviction but from trust earned over decades of functioning systems.
+*Professional Guard Life*: The Guard becomes a life. Pay is negligible—barely enough to live on—but the stability is real. Soldiers sign on at eighteen or nineteen, renew at twenty-three, renew again at twenty-eight. By their thirties they've been Guard longer than they've been anything else. Institutional loyalty replaces ideology; veterans vote Dawn not from conviction but from trust earned over decades of functioning systems.
 
 Twenty-year soldiers train recruits hard because training keeps them alive. They file paperwork precisely because paperwork is how institutions remember. They drink too much on leave because twenty years is a long time to do this job.
 
-*Kilit Militia Experience*: Militia service is citizenship obligation, not career. Farmers from the upper canyon, vineyard workers from the eastern rangeâ€”they're called up for annual sixty-day service, train with rifles they barely know how to clean, count days until they can return to fields and vines. If war comes, they'll fight. Until then, they do their time, they vote, they go home.
+*Kilit Militia Experience*: Militia service is citizenship obligation, not career. Farmers from the upper canyon, vineyard workers from the eastern range—they're called up for annual sixty-day service, train with rifles they barely know how to clean, count days until they can return to fields and vines. If war comes, they'll fight. Until then, they do their time, they vote, they go home.
 
 The distinction between professional Guard and kilit militia reflects different relationships to the Republic. Professionals gave their lives to the state; militia gave sixty days a year. Both are citizens.
 
 ### Exemplar Characters
 
-**Tsedam Ghouram** â€” Kilit militiaman, age 31, 3rd Volunteer Infantry. The unmarked name signals no aristocratic pretensionâ€”farmer from the upper canyon, called up for annual sixty-day service. His grandfather fought with the revolutionary kilits in 963. Competent with a plow, adequate with a weapon, counting days until he can return to his fields.
+**Tsedam Ghouram** — Kilit militiaman, age 31, 3rd Volunteer Infantry. The unmarked name signals no aristocratic pretension—farmer from the upper canyon, called up for annual sixty-day service. His grandfather fought with the revolutionary kilits in 963. Competent with a plow, adequate with a weapon, counting days until he can return to his fields.
 
-**Bekla Ghesam** â€” Kilit militiaman, age 24, 3rd Volunteer Infantry. Near-baseline, unmarked name. Vineyard worker from the eastern territories. Treats militia service as citizenship obligation, not career. Votes Dawn because the land grant program gave her family their plot.
+**Bekla Ghesam** — Kilit militiaman, age 24, 3rd Volunteer Infantry. Near-baseline, unmarked name. Vineyard worker from the eastern territories. Treats militia service as citizenship obligation, not career. Votes Dawn because the land grant program gave her family their plot.
 
-**Corporal Shenou Torin** â€” Professional Guard, age 29, 1st Republican Cavalry. Serrulata, dark sclerae and keratin scales. Signed on at nineteen, renewed twice. The Guard is her lifeâ€”the pay is negligible but the stability is real. Dawn Party loyalist from institutional trust.
+**Corporal Shenou Torin** — Professional Guard, age 29, 1st Republican Cavalry. Serrulata, dark sclerae and keratin scales. Signed on at nineteen, renewed twice. The Guard is her life—the pay is negligible but the stability is real. Dawn Party loyalist from institutional trust.
 
-**Sergeant Tolha Lhodam** â€” Professional Guard, age 40, 2nd Republican Infantry. Serrulata. Twenty years of service, three campaigns. Trains recruits hard because training keeps them alive. Files paperwork precisely because paperwork is how institutions remember.
+**Sergeant Tolha Lhodam** — Professional Guard, age 40, 2nd Republican Infantry. Serrulata. Twenty years of service, three campaigns. Trains recruits hard because training keeps them alive. Files paperwork precisely because paperwork is how institutions remember.
 
-**Guard Captain Yeren Dhal-Mervan** â€” Serrulata officer, age 34, merchant-house background. The compound surname signals old family, but she earned citizenship through service. Commands a cavalry company that can march through conditions hospitalizing Imperial troops. Dawn Party loyalist.
+**Guard Captain Yeren Dhal-Mervan** — Serrulata officer, age 34, merchant-house background. The compound surname signals old family, but she earned citizenship through service. Commands a cavalry company that can march through conditions hospitalizing Imperial troops. Dawn Party loyalist.
 
-**Lieutenant Doram Khen-Toukh** â€” Near-baseline, age 25, 5th Line Infantry. Political appointmentâ€”uncle sits on the Dusk side of the Senate. He knows this. His troops know this. Trying to earn what was given, studying tactics, learning from NCOs.
+**Lieutenant Doram Khen-Toukh** — Near-baseline, age 25, 5th Line Infantry. Political appointment—uncle sits on the Dusk side of the Senate. He knows this. His troops know this. Trying to earn what was given, studying tactics, learning from NCOs.
 
 ---
 

@@ -699,6 +699,50 @@ This doesn't mean the system is fair. The same structural dynamics that protect 
 
 The judiciary is Dusk's fortress—but a fortress that depends on Dawn for the constabulary that makes its writs enforceable. Dawn controls the guns. Dusk controls the legitimacy that tells people to obey the courts without requiring guns. Neither can function without the other. The system works because neither faction can afford to break it, and breaking it would require resources neither faction can spare from their competition with each other.
 
+#### **The Ministry of War**
+
+##### **Kelso Senna's Shadow**
+
+The first Minister of War was Kelso Senna. He held the position for months before departing under circumstances that remain politically contested.
+
+Senna was a military genius who could execute a revolution but not govern afterward. His refusal to compromise, his inability to navigate factional politics, his insistence on principles that made coalition-building impossible—these qualities that served the Cloud Temple Band well during the decapitation strike became liabilities once the fighting stopped. He made enemies of Taho's most prominent trading houses. Even Dawn moderates who respected his revolutionary credentials found his presence in government exhausting. His departure was a relief to nearly everyone except his most devoted followers.
+
+The Ministry that Senna briefly led was improvised from revolutionary units, staffed by veterans who'd fought together and now administered together. This pattern persisted after his departure. The Ministry of War remains Dawn's institution not because of constitutional allocation but because the pool of qualified candidates consists almost entirely of revolutionary veterans. You cannot staff a war ministry with people who didn't fight the war.
+
+Senna withdrew to Cloud Temple in the Sierra Nevada, taking the Band with him. He maintains nominal neutrality between factions while pursuing objectives that may not align with any human government's interests. The Ministry he founded continues without him, shaped by his legacy but no longer constrained by his presence.
+
+##### **Structure**
+
+The Minister of War is always a Dawn appointment—not formally, but practically. The position requires military credentials. The revolution was eighteen years ago. The officers who led it are now in their forties and fifties, and they're Dawn. A Dusk candidate for Minister of War would need to explain where he was during the fighting, and the answer would disqualify him.
+
+Current ministers have been moderate Dawn—revolutionary veterans who understand that governing requires cooperation with institutions the revolution didn't destroy. The Minister coordinates between Guard command, kilit auxiliary obligations, weapons production, and the strategic planning that determines how the Republic would fight if war came.
+
+Guard Command maintains its own structure answerable to the Minister but operationally distinct. Guard generals emerged from revolutionary units and maintain the institutional culture those units created. They're professional soldiers who happen to vote Dawn, not Dawn politicians who happen to command soldiers. Guard headquarters operates from the Far Wall in Ganat proper, near but not within the bureaucratic warrens.
+
+The Auxiliary Coordination office theoretically coordinates kilit auxiliary forces during mobilization. In practice, coordination means negotiation. Each kilit provides forces reflecting its economic capacity and social structure, answering to its own leadership first and the Ministry second. The office maintains records of kilit military obligations, tracks compliance with Senate-mandated force requirements, and attempts to standardize equipment and training across forces that resist standardization. The office is perpetually understaffed and perpetually frustrated.
+
+##### **Political Dynamics**
+
+The Ministry of War is Dawn's institution, but Dawn's institution depends on Dusk's money.
+
+The Senate appropriates military funding. Dawn usually controls the Senate but rarely commands sixty percent. Military appropriations require coalition support, which requires accommodating Dusk concerns. The Guard gets funded because Dusk fears Imperial invasion too, but funding levels reflect negotiation rather than Dawn preference.
+
+Veteran benefits are politically untouchable. Dusk cannot oppose benefits for soldiers who fought for the Republic without appearing unpatriotic. Land grants to veterans, voting rights through service, pensions for the wounded—these pass with overwhelming majorities because opposing them is electoral suicide. Dawn exploits this ruthlessly, packaging military spending with veteran benefits to force Dusk support.
+
+The officer corps votes Dawn but serves the Republic. Guard generals understand that their institution survives through political balance, not partisan dominance. A Ministry of War that served only Dawn interests would provoke Dusk resistance that could cripple military funding. The professionals navigate between their political sympathies and their institutional responsibilities.
+
+##### **The Centralization Debate**
+
+Dawn has repeatedly proposed military centralization. Standardized training, unified command, consistent equipment. A professional military answering to the state rather than local interests would be more effective against external threats and—though this is said quietly—more capable of implementing revolutionary transformation.
+
+Dusk blocks every proposal.
+
+The arguments Dusk makes publicly: auxiliary forces represent republican tradition, local defense requires local knowledge, centralization would destroy the kilit system that makes the Republic function. These arguments have merit.
+
+The arguments Dusk doesn't make publicly: centralized military power, combined with Dawn's Senate majority, would enable revolutionary transformation without commercial constraint. The auxiliary system prevents either consul from commanding unified force. A Dawn consul cannot mobilize Dusk kilits for revolutionary purposes; a Dusk consul cannot deploy Dawn kilits against popular movements. The dysfunction is the protection.
+
+Centralization would require either incorporating kilit forces (destroying their local character and kilit loyalty) or replacing them (alienating powerful constituencies who provide the forces). Neither option is politically viable. Dawn introduces centralization bills. The bills die in committee or fail to reach sixty percent. The auxiliaries remain auxiliary.
+
 ### **Current Tensions**
 
 The Republic is eighteen years old. The revolutionary generation still holds powerâ€”Rasma financed the uprising, military leadership emerged from the Cloud Temple Band, the Patriarch transformed Church theology in living memory. This creates questions about succession without answers. Who leads when revolutionaries age out? Will moderate consuls selected by opposition remain moderate when selected by a generation that never experienced monarchy?
