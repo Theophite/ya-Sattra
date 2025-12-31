@@ -465,8 +465,20 @@ entries:
   # ═══ Ductworker ═══
   Ductworker:
     category: caste
-    short: Labor caste engineered for confined space navigation with compressible ribcage.
-    details: ""
+    short: Small workers with compressible ribcages who squeeze into spaces that would suffocate anyone else.
+    details: |
+      Under five feet tall, narrow through the hips and shoulders and skull,
+      ribcage more cartilage than bone. A ductworker can compress their chest
+      to half its normal diameter—exhale, fold, slide through. Eyes almost all
+      pupil, adapted for the permanent darkness of ventilation shafts and
+      access tunnels. The caste breeds true; children inherit the modification.
+
+      The work happens where no one else can reach. Maintenance in spaces
+      too narrow for equipment, repairs in ducts that would trap a baseline
+      worker. Ductworkers often partner with beamcrawlers—one approaches from
+      above through the scaffolding, one from inside through the walls, and
+      between them they can access anything. The city's infrastructure depends
+      on bodies that can fold themselves into its forgotten spaces.
     rag_pointer: Castes of Mankind
     related: [Labor Castes, Beamcrawler]
     caste_features:
