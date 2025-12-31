@@ -25,7 +25,7 @@ Vowels tend toward:
 * **Reduced articulation:** Vowels are described as "almost swallowed," emerging from deep in the throat  
 * **Secondary vowels:** e and i appear but less frequently
 
-The overall acoustic quality is harsh and rough to ears trained on Imperial Common or Ganati trade-tongue, with sounds living "deep in the throatâ€”gutturals that rumble in the chest, vowels so dark they seem to emerge from the stomach."
+The overall acoustic quality is harsh and rough to ears trained on Imperial Common or Ganati trade-tongue, with sounds living "deep in the throat—gutturals that rumble in the chest, vowels so dark they seem to emerge from the stomach."
 
 ### Name Length
 
@@ -126,19 +126,19 @@ Epithets are earned or descriptive names common in Ogon and among warbands, ofte
 
 *Inherited form:* Epithets may function as family names, passing through generations. Alternatively, they may be replaced each generation with new descriptive terms, or dropped entirely if deemed no longer applicable.
 
-*Institutional form:* Some epithets become so dominant they completely replace the personal name in common usage. The individual known as "Iron-Rain" possesses a personal name that is not used in practiceâ€”the epithet has become their identity. This pattern is particularly common among successful war leaders and prominent figures.
+*Institutional form:* Some epithets become so dominant they completely replace the personal name in common usage. The individual known as "Iron-Rain" possesses a personal name that is not used in practice—the epithet has become their identity. This pattern is particularly common among successful war leaders and prominent figures.
 
 *Warband identification:* When additional identification is needed, the warband name may be appended (e.g., "Imek Stonefoot of the Cracked Shield Band").
 
 ## V. Imperial Names
 
-For members of the Akama cultural complex who are not genetically Akama or Malpais-descendedâ€”typically near-baseline or other castes who have integrated into Akama society and adopted their cultural practicesâ€”Imperial naming patterns are retained.
+For members of the Akama cultural complex who are not genetically Akama or Malpais-descended—typically near-baseline or other castes who have integrated into Akama society and adopted their cultural practices—Imperial naming patterns are retained.
 
 **Structure:** Given Name \+ Family Name (Imperial style)
 
 **Example:** Bal Tama
 
-**Context:** These individuals participate fully in Akama cultural life, including adoption of private astrological names for family use, while maintaining Imperial naming conventions for public identification. The retention of Imperial names does not indicate lesser integration or status within Akama societyâ€”it simply reflects their genetic origin while acknowledging their cultural affiliation.
+**Context:** These individuals participate fully in Akama cultural life, including adoption of private astrological names for family use, while maintaining Imperial naming conventions for public identification. The retention of Imperial names does not indicate lesser integration or status within Akama society—it simply reflects their genetic origin while acknowledging their cultural affiliation.
 
 **Tama Family Note:** The Tama family of Ogon exemplifies this pattern. Despite maintaining Imperial names across generations and employing strategies characteristic of Imperial merchant families, they are fully integrated into Akama political structures, with family members holding Junta tokens and participating in Akama governance.
 
@@ -171,7 +171,7 @@ Unlike Imperial or Ganati naming conventions, Akama names do not systematically 
 
 **Epithets** may indicate achievement and recognition within warrior culture, but inherited epithets carry no more weight than newly earned ones.
 
-**Imperial names** among culturally Akama populations indicate mixed heritage but not subordinate statusâ€”the Tamas' Imperial names don't diminish their position in Ogon's power structure.
+**Imperial names** among culturally Akama populations indicate mixed heritage but not subordinate status—the Tamas' Imperial names don't diminish their position in Ogon's power structure.
 
 What matters is not the type of name but the individual's demonstrated capability, fortune, and adherence to Akama cultural values of endurance and direct action.
 

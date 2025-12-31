@@ -208,8 +208,10 @@ class Level(Enum):
     """Hierarchical position in location tree."""
     TERRITORY = "territory"
     CITY = "city"
+    TOWN = "town"
     DISTRICT = "district"
     NEIGHBORHOOD = "neighborhood"
+    BUILDING = "building"
     SITE = "site"
 
 
@@ -230,6 +232,7 @@ class LocationType(Enum):
     EDUCATIONAL = "educational"
     UNDERGROUND = "underground"
     MONUMENT = "monument"
+    CULTURAL = "cultural"
 
 
 @dataclass
