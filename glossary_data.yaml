@@ -4589,15 +4589,20 @@ entries:
   # ═══ Ghaur-Dan ═══
   Ghaur-Dan:
     category: location
-    short: "Astal settlement in the Thousand Kingdoms—message poles spiral up every building."
+    short: Astal settlement on volcanic rock—message poles spiral up every building, cavalry cannot operate.
     details: |
-      Twelve thousand people, mostly Astal, on volcanic lava rock thirty kilometers 
-      south of former Bend. Destrier cavalry cannot operate here—the rock would shatter 
-      their legs—creating neutral ground. Message poles are a Thousand Kingdoms Astal 
-      tradition: wooden poles spiraling up building walls, carved with tiny script 
-      (2mm letters) that accumulates across generations. Bottom sections for children, 
-      higher for adults, highest contain messages no one has read in generations. 
-      Warborn cannot read the poles—text too small for baseline eyes.
+      Twelve thousand people, mostly Astal, on volcanic lava rock thirty
+      kilometers south of former Bend. Destrier cavalry cannot operate here—
+      the rock would shatter their legs—creating neutral ground.
+
+      Message poles spiral up every building wall: heartwood pine carved with
+      two-millimeter script that accumulates across generations. Bottom
+      sections for children, higher for adults, highest contain messages no
+      one has read in centuries. "Love your mother" underlies "the winter of
+      847 killed all the wheat" underlies "Tam's third daughter can repair
+      pumps." The wood darkens with age and oil from countless small hands
+      touching for luck. Warborn cannot read the poles—text too small for
+      baseline eyes.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Thousand Kingdoms, Astal]
     location_features:
@@ -4630,8 +4635,16 @@ entries:
   # ═══ Ghemar-yan ═══
   Ghemar-yan:
     category: location
-    short: Pastoral settlement demonstrating successful frontier integration.
-    details: "Small community with grid power connection, school, veterans kilit. Traditional pastoral life with Republican structures. Neon sign on Tarak's general store."
+    short: Pastoral settlement in Portneuf Valley—traditional herding with grid power and a neon sign.
+    details: |
+      Cattle country stretching to the horizon. Adobe and timber frontier
+      construction, but with grid power, transmitter dish, school. The
+      Republic reaches here.
+
+      Traditional pastoral settlement with Republican infrastructure overlay.
+      Veterans kilit meeting hall. Small school. The neon sign on Tarak's
+      general store announces that the grid has arrived. At night it glows
+      in the vast dark, visible for miles.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Ganat]
     location_features:
@@ -4682,11 +4695,17 @@ entries:
   # ═══ Khesh-Dalan ═══
   Khesh-Dalan:
     category: location
-    short: "Revolutionary Akama experiment on Ganat's northern frontier."
+    short: Frontier settlement where Akama pastoral traditions meet Republican governance—the integration experiment.
     details: |
-      Settlement attempting to integrate Akama population with Republican structures. 
-      One of the location guides in the Ganat documentation alongside Ganat proper, 
-      Taho, High Junction, Ghemar-yan, and March of Keth-Amran.
+      Northern Ganati frontier near the Thousand Kingdoms border. High desert
+      grassland where Akama felt tents stand alongside Republican adobe
+      structures. Kilit meeting halls. Schools teaching literacy. The
+      experiment visible in mixed architectural vocabulary—neither fully
+      Akama nor fully Ganati.
+
+      Can Akama become citizens? Two ways of life learning coexistence. The
+      tension of integration visible in two languages, two building styles,
+      two approaches to governance struggling toward accommodation.
     rag_pointer: The Republic of Ganat
     related: [Ganat, Akama, Thousand Kingdoms]
     location_features:
@@ -4731,14 +4750,17 @@ entries:
   # ═══ Great Stairs ═══
   Great Stairs:
     category: location
-    short: "800 steps from Port District to Upper City—rivers of light at night."
+    short: Eight hundred steps from Port District to Upper City—rivers of amber light at night.
     details: |
-      800 granite steps rising 600 feet, wide enough for two people abreast. Electric lights 
-      every 20 steps making night travel safe. Granite blocks, each step 8 inches high, edges 
-      rounded from millennia of footsteps. Pre-Interdict engineering in oldest sections. 
-      Landings every 100 steps provide rest and overlooks. Different kilits maintain different 
-      sections, competing to keep theirs brightest. You can tell when you cross boundaries by 
-      light spacing and intensity.
+      Eight hundred granite steps rising six hundred feet, wide enough for two
+      abreast. Electric lights every twenty steps. Granite blocks eight inches
+      high, edges rounded by millennia of footsteps—pre-Interdict engineering
+      in the oldest sections.
+
+      Different kilits maintain different sections, competing to keep theirs
+      brightest. You can tell when you cross boundaries by light spacing and
+      intensity. No single kilit made the stairs. All of them together made
+      the stairs. But each one made their part, and you can see which part.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Merchant Terraces, Taho]
     location_features:
