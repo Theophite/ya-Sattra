@@ -799,8 +799,20 @@ entries:
   # ═══ Ironbone Labor ═══
   Ironbone Labor:
     category: caste
-    short: Labor caste with dramatically increased bone density for heavy lifting.
-    details: ""
+    short: Eight-foot dock workers with bones that never stop thickening—powerful young, immobile old.
+    details: |
+      Eight feet tall with reinforced joint structures and bone density that
+      baseline scanners mistake for stone. Enormous hands with fingers too
+      thick for standard tools. They handle loads that would shatter baseline
+      frames, grip strength exceeding anything normal anatomy produces. The
+      docks and heavy industrial districts rely on them.
+
+      The calcium metabolism never stops. Bone mass accumulates across decades.
+      Joints stiffen progressively as deposits build around the articulation.
+      Functional decline begins in the forties; by the late fifties, most are
+      chair-bound. The body that makes the work possible is the same body
+      that makes retirement a prison. Young Ironbones watch the elders and
+      understand exactly what's coming.
     rag_pointer: Castes of Mankind
     related: [Labor Castes, Redback]
     caste_features:
