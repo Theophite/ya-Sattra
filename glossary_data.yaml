@@ -19,20 +19,24 @@ entries:
   # ═══ Akama ═══
   Akama:
     category: caste
-    short: Unclassified caste with scrambled heritage from multiple engineered lineages.
+    short: The people who remained when the engineered castes scattered—bodies carrying fragments of everything, belonging fully to nothing.
     details: |
-      Defined by practice not genetics—someone who can breed with other Akama
-      and participates in Akama culture. Distinguishing features of multiple
-      ancestral castes have blurred into general capability. Variable morphology
-      with visible mixed heritage.
+      You look at your hands and see three ancestral lines arguing. The broad
+      palm says labor caste; the long fingers say something technical; the
+      scarring pattern says your skin doesn't heal quite like anyone else's.
+      Your grandmother's eyes sit wrong in your father's face. The engineered
+      precision is gone—what remains is capability without specification.
 
-      MATERIAL CULTURE: Testimonial—objects speak for individuals across mortal
-      timescales. "I was here. This happened. It mattered." Standing in the Rain
-      philosophy: life promises nothing, material culture doesn't pretend otherwise.
-      Sufficiency ("enough") is highest praise. Armor displayed outside tents shows
-      biography through patches and modifications. Damage displayed, not hidden—the
-      mended thing is more honest than the pristine. A young warrior's pristine
-      equipment testifies against him: nothing has happened to him yet.
+      This is freedom: no one designed you for a purpose. This is loss: no
+      one designed you for a purpose. You can do most things adequately and
+      nothing perfectly. Your children might breed true or might not. Akama
+      means "the rest of us"—everyone the Antediluvians didn't name.
+
+      Identity comes from practice, not inheritance. You are Akama if you
+      live as Akama live, breed with those who call themselves Akama, stand
+      in the rain and admit that nothing was promised. The tent doesn't
+      guarantee shelter. The armor doesn't guarantee survival. You don't
+      pretend otherwise.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Warband, Thousand Kingdoms, Junta of Ogon, Gorin Eight-Elk]
     caste_features:
