@@ -1454,11 +1454,20 @@ entries:
   # ═══ Sarruk ═══
   Sarruk:
     category: caste
-    short: "Adaptive colonist caste with phenotypic plasticity—bodies shift toward environmental comfort."
+    short: Adaptive colonist caste with phenotypic plasticity—bodies shift toward environmental comfort over time.
     details: |
-      Engineered for phenotypic plasticity. Bodies adapt over time to whatever 
-      conditions they face. Every sarruk in an area looks similar not from relation 
-      but from adapting to the same environment. The body becomes a palimpsest.
+      Engineered for phenotypic plasticity. Bodies adapt over time to whatever
+      conditions they face. Adaptation happens unconsciously while sleeping and
+      working. The body changes each morning toward environmental fit.
+
+      Share Serrulata features: scaled cap, pointed ears, broad flat nose, thin
+      lips. Skin reflectivity adjusts to lighting conditions. Scale coloring
+      adapts to surroundings. Eye spectrum shifts with light exposure history.
+
+      Every sarruk in an area looks similar—not from relation but from adapting
+      to the same environment. The body becomes a palimpsest. Previous adaptations
+      remain visible as ghost undertones beneath the current form. Relocation
+      begins new adaptation, but old traces remain legible.
     rag_pointer: "Castes of Mankind"
     related: [Colonist Castes, Serrulata]
     caste_features:
@@ -1492,8 +1501,24 @@ entries:
   # ═══ Serrulata ═══
   Serrulata:
     category: caste
-    short: Desert-adapted colonist caste with keratin scales and dark sclerae.
-    details: ""
+    short: Desert-adapted colonist caste with keratin scales and dark sclerae. Dominant Ganat population.
+    details: |
+      Keratin scales one to two inches across, overlapping like roof tiles.
+      Thicker on back, shoulders, outer arms, thighs—thinner and flexible
+      around joints. Natural color tan to dark brown with subtle iridescence.
+      Scaled cap covering the cranium. Large sharply pointed ears, broad flat
+      nose, thin lips. Dark sclerae, nearly black. Iris amber, rust-red, or
+      dark brown.
+
+      Scales can be decorated: rust-orange and ochre pigments are permanent,
+      teal and indigo expensive. Copper filigree pressed into scale surfaces
+      oxidizes to verdigris. Turquoise stones set into scales mark wealth.
+      Micro-channel sweat wicking for thermoregulation. Typically wear minimal
+      clothing—skirt, turban, shawl—since scales protect from sun.
+
+      Dominant Ganat population, approximately sixty-five percent. Sub-variants
+      include uliq (deep desert nomads), khatam (mixed heritage), and tephri
+      (outcrossed with baseline).
     rag_pointer: Castes of Mankind, Ganat and the Yarangar War
     related: [Colonist Castes, Ganat]
     caste_features:
@@ -1529,13 +1554,18 @@ entries:
   # ═══ Uliq ═══
   Uliq:
     category: caste
-    short: "Deep desert Serrulata nomads following goat herds through territory that would kill other castes."
+    short: Deep desert Serrulata nomads following goat herds through territory that would kill other castes.
     details: |
-      Serrulata sub-variant adapted to the harshest desert conditions. Navigate by 
-      landmarks invisible to visitors, find water in apparently dry places, know 
-      which plants provide nutrition, poison, or medicine. Trade at desert margins, 
-      goats for metal tools and textiles. Have no interest in the capital or settled 
-      life. Gold ornamental tracery marks skin in patterns indicating clan affiliation.
+      Serrulata sub-variant adapted to the harshest desert conditions. Navigate
+      by landmarks invisible to visitors. Find water in apparently dry places.
+      Know which plants provide nutrition, poison, or medicine. Knowledge passed
+      through generations.
+
+      Trade at desert margins—goats for metal tools and textiles. Have no
+      interest in the capital or settled life. Gold ornamental tracery marks
+      skin in patterns indicating clan affiliation.
+
+      The Republic claims sovereignty over their territory but exercises none.
     rag_pointer: Castes of Mankind, The Republic of Ganat
     related: [Serrulata, Ganat]
     caste_features:
@@ -1561,11 +1591,11 @@ entries:
   # ═══ Khatam ═══
   Khatam:
     category: caste
-    short: "Mixed heritage Serrulata, intermediate between pure desert adaptation and urban life."
+    short: Mixed heritage Serrulata, intermediate between pure desert adaptation and urban life.
     details: |
-      Serrulata sub-variant resulting from intermarriage with other populations while 
-      maintaining core desert adaptations. More integrated with settled Ganati society 
-      than uliq, less purely Serrulata than mainline populations.
+      Serrulata sub-variant resulting from intermarriage with other populations
+      while maintaining core desert adaptations. More integrated with settled
+      Ganati society than uliq, less purely Serrulata than mainline populations.
     rag_pointer: Castes of Mankind, The Republic of Ganat
     related: [Serrulata, Ganat]
     caste_features:
@@ -1582,15 +1612,20 @@ entries:
   # ═══ Tephri ═══
   Tephri:
     category: caste
-    short: "Serrulata outcrossed with near-baseline humans—traders who pass in both contexts."
+    short: Serrulata outcrossed with near-baseline humans—traders who pass in both contexts.
     details: |
-      Not properly Serrulata at all. Result from Serrulata outcrossed with near-baseline 
-      humans over generations until a stable phenotype emerged. Scales are pale cream or 
-      ivory, so fine they read as texture rather than obvious covering. Pointed ears 
-      present but smaller. Can pass as unusual near-baseline in Imperial territory, 
-      marked as Serrulata-adjacent in Ganat. Specialize in interstitial trade roles 
-      between Republic and Empire. Poorly fertile with other Serrulata lineages but 
-      frequently breed true with near-baseline humans.
+      Not properly Serrulata at all. Serrulata outcrossed with near-baseline
+      humans over generations until a stable phenotype emerged. Scales pale
+      cream or ivory, so fine they read as texture rather than obvious covering.
+      Pointed ears present but smaller. Facial features close to baseline
+      proportions.
+
+      Can pass as unusual near-baseline in Imperial territory, marked as
+      Serrulata-adjacent in Ganat. Specialize in interstitial trade roles
+      between Republic and Empire. Maintain dual identities in each territory.
+
+      Poorly fertile with other Serrulata lineages. Frequently breed true
+      with near-baseline humans.
     rag_pointer: Castes of Mankind, The Republic of Ganat
     related: [Serrulata, Ganat, Near-Baseline]
     caste_features:
@@ -1620,12 +1655,20 @@ entries:
   Sewer-Fishers:
     category: caste
     aliases: [Kma-Dhol (Imperial equivalent)]
-    short: "Hidden Technical Caste descendants maintaining ya-Sattra's deep infrastructure."
+    short: Hidden Technical Caste descendants maintaining ya-Sattra's deep infrastructure. Six clans in the Middens.
     details: |
-      Six clans in the Middens maintain secret Technical Caste ancestry. Possess
-      mathematical intuitions about systems no one officially understands. Must
-      perform confusion around simple machinery to avoid detection. Their Thousand
-      Kingdoms counterparts, the Kma-Dhol, operate openly in Ogon.
+      Pale grey skin, dark sclera nearly black, prominent pointed ears. Elongated
+      fingers wrap around tools in ways baseline hands cannot. Slender and wiry,
+      optimized for navigating pipe-sized spaces.
+
+      Six clans maintain secret Technical Caste ancestry: Loak, Venn, Hasket,
+      Cho, Sarn, Benru. Possess mathematical intuitions about systems no one
+      officially understands. Must perform confusion around simple machinery
+      to avoid detection.
+
+      Family shrines include technical death records as education. Children
+      study failure modes, learn to recognize catastrophic warnings. Their
+      Thousand Kingdoms counterparts, the Kma-Dhol, operate openly in Ogon.
     rag_pointer: "Sewer-Fishers"
     related: [Technical Castes, Kma-Dhol, Middens, Jargon]
     caste_features:
@@ -1664,8 +1707,23 @@ entries:
   # ═══ Sickly ═══
   Sickly:
     category: caste
-    short: Biological factories producing antibody-rich serums through rose-gold lattices.
-    details: ""
+    short: Biological factories producing antibody-rich serums. Engineered without capacity for negative emotion.
+    details: |
+      Graceful, slender build. Minimal muscle mass—metabolism optimized for
+      antibody production. Porcelain-like translucent skin, fine networks of
+      blood vessels visible beneath. Rose-gold lattice along sternum and
+      undersides of arms: clusters of delicate translucent nodules. Vesicles
+      enlarge and glow when approaching harvest. A sweet fruit-like scent
+      intensifies when ripening.
+
+      Engineered without capacity for negative emotion. Not calm—incapable
+      of anxiety, grief, or fear. Experience illness as mild warmth, harvesting
+      as gentle pressure. Cannot recognize danger or make long-term plans.
+      Would wander into traffic from curiosity, not despair.
+
+      Classified semi-sentient. The Companions Guild manages them. Some write
+      poetry, described as unsettling in its purity. Some write theological
+      commentary.
     rag_pointer: Sickly Caste Overview (PDF), The Companions Guild
     related: [Companions Guild, Semi-Sentient, Morvain-3]
     caste_features:
@@ -1704,8 +1762,20 @@ entries:
   # ═══ Springheel ═══
   Springheel:
     category: caste
-    short: Labor caste with modified tendons enabling explosive vertical movement.
-    details: ""
+    short: Labor caste with modified tendons enabling explosive vertical movement. Many do not reach their father's age.
+    details: |
+      Five foot seven, short by Imperial standards. Leg proportions read as
+      slightly wrong to baseline eyes—calves larger than expected, tendons
+      visible beneath skin, joints articulated for ranges baseline cannot match.
+
+      Standing leap of twelve feet vertical, higher with a running start.
+      Superior three-dimensional spatial processing. Move through vertical
+      spaces with confidence that makes observers dizzy.
+
+      Tendons can tear without warning. The explosive potential turns destructive.
+      Tendon failure during high work means death. Warnings—twinge, tightness—are
+      not always reliable. Many do not reach their father's age. Community watches
+      each other during high work.
     rag_pointer: Castes of Mankind
     related: [Labor Castes, Venn Torith, Springheel Acrobatics]
     caste_features:
@@ -1743,12 +1813,26 @@ entries:
   # ═══ Ta-Kefyeh ═══
   Ta-Kefyeh:
     category: caste
-    short: "Sapient parasitic riders approximately the size of two fists."
+    short: Sapient parasitic riders who experience host distress directly. Deep ethical conviction against involuntary attachment.
     details: |
-      Articulated crustacean-like beings who must inhabit other bodies to survive. 
-      Deep ethical conviction against involuntary parasitism—they experience host 
-      distress directly through neurological connection. Rural shtetls cultivate 
-      alien plants from their homeworld.
+      Size of two adult fists pressed together. Segmented slate-gray chitin
+      plates overlapping like roof tiles. Attach via spinal insertion into the
+      cervical canal. Communicate through stridulation—scrape-click sounds from
+      dermal plates. Written communication preferred; speech through hosts is
+      halting. Names lack vowels; symbol-names painted on hosts instead.
+
+      Feel what hosts feel. Neurological feedback loop. Involuntary parasitism
+      is experiential torture for both parties. Host preference descends from
+      ideal to desperate: anencephalic Warborn clones, livestock, wild fauna,
+      consensual sapients under extensive protocols.
+
+      Parthenogenetic reproduction. Offspring inherit parent's memories.
+      Experience identity as continuous across fission events. Rural shtetls
+      cultivate alien flora from their homeworld—bloodfruit, St. Idrin's Bells.
+
+      Approximately thirty thousand exist. Legal status: auxilia non-leviable.
+      Cannot be conscripted. Bureau of the Sword supplies anencephalic hosts
+      via contract.
     rag_pointer: "The Ta-Kefyeh: A Comprehensive Guide"
     related: [Many, Bureau of the Sword, Warborn, Shtetl]
     caste_features:
@@ -1790,8 +1874,21 @@ entries:
   # ═══ Technical Castes ═══
   Technical Castes:
     category: caste
-    short: Engineered lineages forming a translation cascade for incomprehensible knowledge.
-    details: ""
+    short: Engineered lineages forming a translation cascade for incomprehensible knowledge. Largely sterilized millennia ago.
+    details: |
+      A cascade of engineered beings translating Arbitrary Truths into usable
+      technology. Archons at the top held complete mathematical certainties.
+      Medial castes translated Archon outputs for lower tiers. Mutterers at
+      the bottom maintained infrastructure compulsively.
+
+      Communicated via the Jargon—a sung mathematical language in which false
+      statements are linguistically impossible. What can be said in the Jargon
+      is true. What cannot be proven cannot be said.
+
+      They refused the Eighth Testament's flawed mathematics. The Emperor
+      sterilized them as punishment. Survivors: Archons calculating while
+      dying at Far Ib, Mutterers managed by the Companions Guild, sewer-fishers
+      hidden in the Middens maintaining secret ancestry.
     rag_pointer: The Technical Castes and Far Ib
     related: [Jargon, Mutterers, Archons, Medial Castes]
     caste_features:
