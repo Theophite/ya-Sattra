@@ -1288,7 +1288,7 @@ entries:
     aliases: [Kma-Dhol (Imperial equivalent)]
     short: "Hidden Technical Caste descendants maintaining ya-Sattra's deep infrastructure."
     details: |
-      Five clans in the Middens maintain secret Technical Caste ancestry. Possess
+      Six clans in the Middens maintain secret Technical Caste ancestry. Possess
       mathematical intuitions about systems no one officially understands. Must
       perform confusion around simple machinery to avoid detection. Their Thousand
       Kingdoms counterparts, the Kma-Dhol, operate openly in Ogon.
@@ -1312,7 +1312,7 @@ entries:
       current_role: "deep infrastructure maintenance, salvage"
       distribution:
         - "ya-Sattra Middens only"
-        - "five clans: Venn, Hasket, Cho, Sarn, Benru"
+        - "six clans: Loak, Venn, Hasket, Cho, Sarn, Benru"
       special:
         - "SECRET ancestry—must perform confusion around machinery"
         - "mathematical intuitions about systems no one officially understands"
@@ -10338,8 +10338,31 @@ entries:
     short: Monastic order managing semi-sentient populations and practicing general medicine.
     details: Not a trade guild but a religious order. Holds monopoly on managing Mutterers, Sickly, and kalbats. Also operates Imperial hospice system. Descended from Witnesses who attended Technical Castes.
     rag_pointer: The Companions Guild
-    related: [Sickly, Mutterers, Kalbats, Semi-Sentient]
+    related: [Sickly, Mutterers, Kalbats, Semi-Sentient, Witnesses]
   # ─── end Companions Guild ───
+
+  # ═══ Witnesses ═══
+  Witnesses:
+    category: concept
+    short: "Mathematician-priests who attended Technical Castes before the Interdict—ancestors of both Companions Guild and Penitent Church."
+    details: |
+      Before the Interdict, the Witnesses served in three capacities: Oracle Midwifery
+      (attending the creation and maintenance of kalbats), Kalbat Attendance (the care
+      that Companions still perform), and Technical Caste Support (recording and
+      transmitting what the Technical Castes produced in the Jargon).
+
+      When the Emperor deployed the sterilization plague and the Foreigners imposed
+      the Interdict, the Witnesses split. Nine departed to found what became the
+      Penitent Church, taking with them the Testimony that would become central to
+      Penitent liturgy. The remainder formed the Companions Guild, preserving the
+      practical knowledge of caring for those the catastrophe had created or damaged.
+
+      The Cathedral of the Plea stands where the Witnesses knelt when the Interdict
+      was imposed. The Witness Stone—the actual floor, worn into a shallow depression
+      by centuries of pilgrims—remains the holiest site in Penitentism.
+    rag_pointer: "The Companions Guild, The Penitent Church"
+    related: [Companions Guild, Penitent Church, Technical Castes, Kalbat, Cathedral of the Plea, Interdict]
+  # ─── end Witnesses ───
 
   # ═══ Hanged Men ═══
   Hanged Men:
@@ -11389,6 +11412,25 @@ entries:
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Kalbat, Companions Guild, Monastery of the Silent Song, Oracles]
   # ─── end Auditors ───
+
+  # ═══ Eighth Auditor ═══
+  Eighth Auditor:
+    category: concept
+    short: "The kalbat that died receiving the Eighth Testament—its complex lies buried beneath ya-Sattra."
+    details: |
+      The Eighth Auditor died receiving the Eighth Testament. The information overload
+      manifested physically: skull splitting, secondary growths erupting, cascade failure.
+      The First Auditor was reconfigured to receive the message instead—which is why it
+      has two faces, why it occasionally emits Eighth Testament signatures, why Companions
+      watch it most carefully of all.
+
+      The Eighth Auditor's remains and its receiving complex lie somewhere beneath ya-Sattra.
+      Asaph es-Tsay's "electricity project" in the Middens—ostensibly a charitable trust
+      funding excavation—is actually an attempt to access this complex. He believes the
+      Interdict is a test, the Eighth Testament a puzzle, and the Eighth Auditor holds the key.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Auditors, Eighth Testament, First Auditor, Asaph es-Tsay, Kalbat]
+  # ─── end Eighth Auditor ───
 
   # ═══ Penitent Church ═══
   Penitent Church:
