@@ -848,8 +848,21 @@ entries:
   # ═══ Ironbone Warborn ═══
   Ironbone Warborn:
     category: caste
-    short: Warborn variant with calcium-reinforced skeletons optimized for heavy weapons.
-    details: ""
+    short: Heavy weapons platforms with armor bolted to bone—terminal by design, cancer by forty.
+    details: |
+      Shorter than standard Warborn at just under nine feet—height traded for
+      density. Interlocking bony plates across torso, shoulders, skull. Steel
+      studs emerge from bone at anchor points where armor bolts directly to
+      the body rather than being worn over the frame. Lines of bolt studs
+      trace across forehead and temples. They look manufactured rather than
+      grown.
+
+      The skeleton absorbs electromagnetic backwash from heavy railguns that
+      would kill normal operators. The demanding metabolism requires specialized
+      mineral rations with a chalk-like taste. By their early thirties, they're
+      ancient by Warborn standards. Cancer begins by forty—universal, terminal,
+      the design working as intended. Two or three years remain after diagnosis.
+      No one is surprised. The body was always expendable.
     rag_pointer: Castes of Mankind, The Hanged Men
     related: [Warborn, Chain-Men]
     caste_features:
