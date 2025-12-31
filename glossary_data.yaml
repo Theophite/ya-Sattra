@@ -5295,17 +5295,19 @@ entries:
   # ═══ Howling Row ═══
   Howling Row:
     category: location
-    short: "Street in ya-Tsatsa's Upper City where the ceramic whistles are strongest."
+    short: Street in ya-Tsatsa's Upper City where the ceramic whistles are strongest—visitors walk faster, residents walk slower.
     details: |
-      Named for the autumn gale sounds when dozens of ceramic tubes mounted on rooftops
-      produce layered tones without resolution. The discordant harmonics carry patterns
-      detectable to those trained to hear them—Testament Society initiates learn to
-      perceive mathematical structure in the whistles.
+      Named for the autumn gale sounds when dozens of ceramic tubes mounted
+      on rooftops produce layered tones without resolution. The discordant
+      harmonics carry patterns detectable to those trained to hear them—
+      Testament Society initiates learn to perceive mathematical structure
+      in the whistles.
 
-      Tsatsans most trusted by the Presence often found here in humble occupations:
-      a window washer, a tailor, a notary. The architecture is standard Upper City—
-      white-gray quartz diorite, no applied color, monochrome restraint—but the acoustic
-      intensity distinguishes the street. Visitors walk faster; residents walk slower.
+      Tsatsans most trusted by the Presence often found here in humble
+      occupations: a window washer, a tailor, a notary. The architecture
+      is standard Upper City—white-gray quartz diorite, no applied color,
+      monochrome restraint—but the acoustic intensity distinguishes the
+      street.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [ya-Tsatsa, Upper City, Presence]
     location_features:
@@ -5327,8 +5329,18 @@ entries:
   # ═══ Inner City ═══
   Inner City:
     category: location
-    short: The enclosed arcology at the heart of ya-Sattra, containing the four Whorls.
-    details: Entirely interior space—no sky, no outside. Light from orb-fixtures, bronze columns, geometric patterns worn smooth by millennia. Temporal distortion increases toward center.
+    short: The enclosed arcology at ya-Sattra's heart—entirely interior space, no sky, no outside.
+    details: |
+      Four interlocking helices ascending at different rates, seamless thesad
+      construction built for forever. The Antediluvians called it ya-Thes.el:
+      Place of Eternal Brightness. Shadowless illumination from orb-fixtures.
+      Bronze columns forty feet tall, geometric patterns worn smooth by
+      millennia. Sixty-foot statues in plazas, gesturing to audiences—no
+      inscriptions explaining who they were.
+
+      Temporal distortion increases toward the center. Floors worn into
+      grooves by hundreds of millions of footsteps. Air quality maintained
+      by unknown systems. The constant low hum of ancient machinery.
     rag_pointer: The Inner City
     related: [Fourth Whorl, Second Whorl, First Whorl, ya-Sattra, Thesad]
     location_features:
