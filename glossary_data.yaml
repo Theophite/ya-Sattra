@@ -1235,8 +1235,20 @@ entries:
   # ═══ Near-Baseline ═══
   Near-Baseline:
     category: caste
-    short: Engineered humans appearing almost natural while possessing Compulsion susceptibility.
-    details: ""
+    short: The majority population—they look like unmodified humans but carry hidden neural receptors for Compulsion.
+    details: |
+      They appear unmodified: full range of natural human variation, stable
+      genetics, the bodies you'd expect from ten thousand years of ordinary
+      breeding. Trace markers sometimes show intermarriage with other castes—
+      slightly broader shoulders from stevedore ancestry, unusual eye color
+      from a distant Serrulata grandmother. Nothing obviously engineered.
+
+      The engineering is invisible. Neurological receptors respond to Highborn
+      vocal frequencies, producing Compulsion susceptibility—the pressure to
+      comply, to agree, to obey. The modification has been stable and heritable
+      for ten millennia. Most people carry it without knowing. When a Highborn
+      speaks with harmonics unsuppressed, the Near-Baseline body responds
+      whether the mind consents or not.
     rag_pointer: Castes of Mankind
     related: [Compulsion, Highborn]
     caste_features:
