@@ -102,8 +102,20 @@ entries:
   # ═══ Archons ═══
   Archons:
     category: caste
-    short: Highest tier of Technical Castes, bodies merged with architecture.
-    details: ""
+    short: Massive beings merged with architecture, calculating for millennia at Far Ib.
+    details: |
+      An Archon is roughly eight feet across—a mass of modified tissue fused
+      into walls and floor, surface textured with interfaces and sensors and
+      structures no one living understands. Somewhere in there, a face remains:
+      two eyes, a mouth, features not quite right anymore. Nutrient lines run
+      through building conduits. Biological processes extend through the
+      architecture itself. They cannot be moved without dying.
+
+      The survivors are numbered, not named—the order in which they lost
+      mobility. The Seventh Remaining has been calculating for four thousand
+      years, attempting to disprove the Eighth Testament's mathematics. Clone
+      servants attend them, but each generation degrades further. When the
+      servants finally fail, no one will maintain the nutrient lines.
     rag_pointer: The Technical Castes and Far Ib
     related: [Technical Castes, Far Ib, Arbitrary Truths, The Seventh Remaining, Cloud Temple]
     caste_features:
