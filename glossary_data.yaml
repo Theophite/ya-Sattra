@@ -1760,7 +1760,7 @@ entries:
       clean themselves, bioluminescent lamp posts fed by hereditary lamp-lighters. Buildings 
       may be the actual patent holders, with families merely their interface.
     rag_pointer: The Antediluvian Quarter
-    related: [ya-Sattra, Aureate, Medina Quarter, Rift]
+    related: [ya-Sattra, Aureate, Medina Quarter, Rift, The Prismatic Archive]
     location_features:
       level: district
       location_type: residential
@@ -1780,6 +1780,7 @@ entries:
         - es-Morath Arcology
         - Marina Promenade
         - Vermillion Tower
+        - The Prismatic Archive
       controlling_entity: Aureate families
       population: ~48,000
       primary_function: Elite residence, patent infrastructure
@@ -1896,6 +1897,56 @@ entries:
         - "geometric border patterns: more elaborate than anywhere else"
         - "bronze fittings: pervasive, aspirational, referencing the great structures"
   # ─── end Antediluvian Quarter ───
+
+  # ═══ The Prismatic Archive ═══
+  The Prismatic Archive:
+    category: location
+    short: "Aureate-controlled exhibition in the Antediluvian Quarter—pre-Interdict art and luxury objects."
+    details: |
+      Unlike the Alcazar's cosmic scope, the Prismatic Archive displays pre-Interdict
+      art and luxury objects: jewelry whose authentication protocols create light shows,
+      textiles that shift pattern with temperature, sculptures in materials that resist
+      identification. The es-Morath family maintains the collection as demonstration
+      of what refinement meant before the Interdict. Entry requires invitation or
+      payment of twelve obols—ensuring the audience remains appropriately elevated.
+
+      The prohibition on interpretation applies here as officially as elsewhere, but
+      the es-Morath curators have developed elaborate techniques for non-interpretation.
+      "One might notice" becomes the standard phrase. "One might notice the way light
+      refracts through this piece." "One might notice the temperature sensitivity."
+      These observations are not interpretation—merely directing attention to properties
+      any viewer could observe. The Lens has never successfully prosecuted an es-Morath
+      for this practice, though several inspectors have tried.
+
+      The collection includes three pieces the family admits they cannot explain even
+      to themselves: a sphere that maintains room temperature regardless of environment,
+      a frame that displays different images to different viewers, and a small box
+      that occasionally produces sounds in response to stimuli no one can identify.
+      These occupy a private gallery shown only to guests the family trusts absolutely.
+    rag_pointer: "The Antediluvian Quarter"
+    related: [Antediluvian Quarter, es-Morath Arcology, Uninterpreted Collections, Aureate]
+    location_features:
+      level: site
+      location_type: cultural
+      parent: Antediluvian Quarter
+      controller: es-Morath
+      primary_function: Pre-Interdict art exhibition
+      notable_features:
+        - Pre-Interdict art and luxury objects
+        - 12 obol entry fee or invitation required
+        - "One might notice" interpretive technique
+        - Private gallery for inexplicable pieces
+      real_world_anchor: "Monterey Bay basin (Antediluvian Quarter)"
+    local_aesthetic: |
+      Porcelain-coral floors and bronze-alloy walls—the es-Morath aesthetic extended
+      into exhibition space. Display cases of pre-Interdict glass that dims or brightens
+      based on proximity. Each piece isolated, given room to exist without crowding.
+      The arrangement suggests reverence without stating it. Attendants in es-Morath
+      livery answer questions with careful non-answers: "The piece dates to the Third
+      Record. Its purpose is not documented. One might notice the way it responds to
+      warmth." No labels. No explanatory text. The objects speak for themselves, or
+      don't speak at all.
+  # ─── end The Prismatic Archive ───
 
   # ═══ The Processional ═══
   The Processional:
@@ -8587,17 +8638,72 @@ entries:
     short: Middle ring of the Inner City.
     details: Transitional zone between outer workers and inner administration.
     rag_pointer: The Inner City
-    related: [Inner City]
+    related: [Inner City, The Alcazar Collection]
     location_features:
       level: neighborhood
       location_type: administrative
       parent: Inner City
+      children:
+        - The Alcazar Collection
       temporal_effects: Mild distortion
       borders:
         outward: [Fourth Whorl]
         inward: [Second Whorl]
       real_world_anchor: "Inner City arcology"
   # ─── end Third Whorl ───
+
+  # ═══ The Alcazar Collection ═══
+  The Alcazar Collection:
+    category: location
+    short: "Private museum in the Third Whorl—pre-Interdict holograms, photographs, music. No interpretation permitted."
+    details: |
+      Seventeen holograms of orbital habitats, forty-three photographs of forgotten worlds,
+      music recorded during the Sixth Oracle's era. No interpretation permitted. The
+      collection occupies three galleries in a Third Whorl residential block, maintained
+      by a family whose name the Bureau of the Lens has never formally recorded—a legal
+      fiction allowing the collection to exist without official acknowledgment.
+
+      The most controversial piece, Hologram Seventeen, appears to show a city of impossible
+      architecture. Structures that could not stand under any physics. Geometries that
+      hurt to follow. No one can say what it is or was, whether humans built it, whether
+      it still exists somewhere beyond the Interdict. Visitors stand before it for hours,
+      sometimes weeping. The family has refused offers to purchase it at prices that
+      would make them among the wealthiest in the Empire.
+
+      Regular visitors develop elaborate private theories about what the collection
+      shows. Some believe Hologram Seventeen depicts a Foreigner city. Others argue it
+      shows human construction from before the Records began. A minority insist it's
+      a fabrication, a pre-Interdict art piece depicting nothing real. The prohibition
+      on interpretation means no theory can be officially endorsed or refuted. All
+      remain equally possible.
+    rag_pointer: "Imperial Media and Entertainment"
+    related: [Third Whorl, Uninterpreted Collections, Inner City, Bureau of the Lens]
+    location_features:
+      level: site
+      location_type: cultural
+      parent: Third Whorl
+      controller: "[Family name unrecorded by Bureau]"
+      primary_function: Pre-Interdict exhibition
+      notable_features:
+        - 17 holograms of orbital habitats
+        - 43 photographs of forgotten worlds
+        - Music from Sixth Oracle era
+        - Hologram Seventeen (impossible architecture)
+        - No interpretation permitted
+        - Family refuses all purchase offers
+      real_world_anchor: "Inner City arcology (Third Whorl)"
+    local_aesthetic: |
+      Three galleries in descending order of accessibility. The First Gallery: photographs
+      arranged chronologically by estimated date, worlds whose names appear in no surviving
+      record. The Second Gallery: holograms of orbital habitats, spinning slowly in
+      display cases that hum with power drawn from sources the family cannot identify.
+      The Third Gallery: music plays continuously, compositions for instruments that
+      no longer exist, voices singing in languages the Empire has forgotten. At the
+      back of the Third Gallery, in a space that feels smaller than it should: Hologram
+      Seventeen. The city that cannot be. Visitors approach it like supplicants. Some
+      leave changed. The family provides no seats—sitting would imply extended viewing,
+      and extended viewing implies interpretation.
+  # ─── end The Alcazar Collection ───
 
   # ═══ Thesad ═══
   Thesad:
