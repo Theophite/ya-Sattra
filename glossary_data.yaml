@@ -3009,6 +3009,71 @@ entries:
     local_aesthetic: "Revolution made visible in stone. The quarters were originally minimal: narrow tunnels, small chambers, basic sanitation—slave housing. Over twenty years, the Hereditary Debtors have expanded, improved, decorated. Larger chambers carved out. Tunnels connected more efficiently. Better lighting, plumbing. Decoration announcing transformation: carved flourishes where bare walls once stood, Art Nouveau organic curves added to functional spaces. Sections in transition visible—workers actively carving new spaces, installing new infrastructure. The wealth comes from position: adjacent to Senate and ministries, proximity to power creates opportunity. Former slaves now lease to bureaucrats, rent to kilits seeking government access, operate restaurants and lodging. The stone remembers what they were. The carving shows what they've become."
   # ─── end Hereditary Debtors' Quarter ───
 
+  # ═══ Hereditary Debtors ═══
+  Hereditary Debtors:
+    category: organization
+    short: "Former slaves transformed into kilit—work off multi-generational debts through public service, staff every significant office, swing vote in Senate."
+    details: |
+      When the Republic inherited thousands of citizens whose ancestors accepted multi-
+      generational loans from the royal treasury, revolutionary ideology couldn't easily
+      dismiss debts secured against future labor. The solution transformed debtors into
+      a kilit with the Republic as creditor. Members work off obligations through public
+      service—maintaining roads, staffing customs houses, providing clerical support.
+      Debt reduces through labor credits over two generations.
+
+      The kilit's members have become the Republic's most competent administrators.
+      Knowing they'll spend decades in government service, they master bureaucratic
+      systems political appointees never learn. Their headquarters in converted Sultanate
+      treasury contains the Republic's most comprehensive archives. Senate committees
+      routinely consult Debtor clerks about procedure and precedent.
+
+      They maintain the most sophisticated intelligence operation without formal political
+      organization. They hear everything because their kilit processes the paperwork that
+      makes the Republic function. They know which kilits are approaching thresholds,
+      which coalitions are stable, which are fracturing, which senators broke promises.
+
+      Senator Yem Tokan, whose great-grandfather borrowed to expand a failed dyeworks,
+      controls no wealth and commands no force. He votes unpredictably, supporting
+      whichever party offers better debt reduction terms, making the Debtors a swing
+      vote neither Dawn nor Dusk can take for granted. He doesn't campaign for influence
+      —he simply knows what everyone needs and who might provide it.
+
+      Their annual Reckoning Festival combines funeral (for social death debt represents),
+      birth (for those emerging from obligation), and wedding (freed members often marry
+      immediately, having delayed). One poet called it "capitalism's most honest expression
+      —the precise monetization of human existence."
+    rag_pointer: "The Republic of Ganat"
+    related: [Ganat, Senate, Yem Tokan, Hereditary Debtors' Quarter, Kilit]
+  # ─── end Hereditary Debtors ───
+
+  # ═══ Yem Tokan ═══
+  Yem Tokan:
+    category: person
+    short: "Senator for Hereditary Debtors—controls no wealth, commands no force, knows everything, swing vote."
+    details: |
+      His great-grandfather borrowed to expand a failed dyeworks. Three generations later,
+      Yem Tokan still works off the obligation through public service. He controls no
+      wealth and commands no force. But his kilit staffs every significant office in the
+      Republic, creating an intelligence network rivaling the Church's.
+
+      He doesn't campaign for influence—he simply knows what everyone needs and who might
+      provide it. Which kilits are approaching representation thresholds. Which coalitions
+      are stable, which are fracturing. Which senators broke promises, which delivered
+      beyond expectations. This makes him invaluable to any senator attempting coalition-
+      building.
+
+      He votes unpredictably, supporting whichever party offers better debt reduction
+      terms. The Debtors are a swing vote neither Dawn nor Dusk can take for granted.
+      His kilit's political status rests not on unified ideology but on comprehensive
+      information and the leverage that information provides.
+    rag_pointer: "The Republic of Ganat"
+    related: [Hereditary Debtors, Senate, Ganat]
+    character_features:
+      role: Senator
+      affiliation: Hereditary Debtors
+      location: Ganat proper
+  # ─── end Yem Tokan ───
+
   # ═══ The Cathedral ═══
   The Cathedral:
     category: location
