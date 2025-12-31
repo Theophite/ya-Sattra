@@ -5158,23 +5158,20 @@ entries:
   # ═══ Tal-Yem Band ═══
   Tal-Yem Band:
     category: organization
-    short: "Smallest highland band—~650 Uliqs, highest and most marginal territory, follows Mor's political lead."
+    short: Smallest highland band—highest and most marginal territory, follows the Mor's political lead.
     details: |
-      Roughly 150 families, ranging the highest and most marginal territory, above
-      9,500 feet where summer is brief and winter brutal. Their goats are the hardiest
-      of highland breeds. They participate in the Highland Graziers' Association but
-      contribute the smallest pastoral share; Yela Mor effectively represents their
-      interests along with her own band's.
+      Six hundred fifty Uliqs, one hundred fifty families, ranging above
+      ninety-five hundred feet where summer is brief and winter brutal.
+      Their goats are the hardiest of highland breeds. They participate in
+      the Highland Graziers' Association but contribute the smallest pastoral
+      share; Yela Mor effectively represents their interests.
 
-      The revolution: Joined the Sultanate cause because the Mor did. The two bands
-      had intermarried for generations; their ranges overlapped without conflict.
-      Territorial losses were proportionally smaller—the highest meadows were never
-      worth fighting over.
+      Joined the Sultanate cause because the Mor did. The two bands had
+      intermarried for generations. Territorial losses were proportionally
+      smaller—the highest meadows were never worth fighting over.
 
-      They sell milk through the Mor—production too small to negotiate independently.
-      Some Tal-Yem have married into the Kelar since the revolution. Within the
-      Association, they occasionally advocate for positions the Mor don't share—less
-      invested in grievance, more willing to work pragmatically with Dawn pastoralists.
+      Some Tal-Yem have married into the Kelar since the revolution. Less
+      invested in grievance, more willing to work pragmatically.
     rag_pointer: "The Republic of Ganat"
     related: [Southern Highland Bands, Highland Graziers' Association, Mor Band, Uliq]
     caste_features:
@@ -5185,22 +5182,20 @@ entries:
   # ═══ Sek Bands ═══
   Sek Bands:
     category: organization
-    short: "Split highland pastoral group—Sek-Oum joined Dawn, Sek proper and Sek-Tal remained Dusk. Eighteen years of bitter estrangement."
+    short: Split highland pastoral group—Sek-Oum joined Dawn, Sek proper remained Dusk. Eighteen years of bitter estrangement.
     details: |
-      Never a single band but a loose confederation—Sek proper, Sek-Tal, and Sek-Oum—
-      who shared grazing rights and intermarried freely. The revolution shattered this.
+      Never a single band but a loose confederation—Sek proper, Sek-Tal, and
+      Sek-Oum—who shared grazing rights and intermarried freely. The
+      revolution shattered this.
 
-      During the constitutional settlement, the Sek-Oum (~250 people) broke away to
-      join the Eastern Range Confederation (Dawn). Their argument: association with
-      bands that fought for the Sultana would permanently marginalize them. The other
-      Sek groups considered this treachery—they'd shared range for generations, marriages
-      connected every family. The elders refused reconciliation.
+      The Sek-Oum, two hundred fifty people, broke away during the
+      constitutional settlement to join the Eastern Range Confederation.
+      Their argument: association with bands that fought for the Sultana
+      would permanently marginalize them. The other Sek groups considered
+      this treachery. The elders refused reconciliation.
 
-      Eighteen years later: Sek-Oum and the others don't intermarry, don't share range,
-      don't speak except through intermediaries. Young Sek-Oum serve in the Guard at
-      high rates; some marry Kelar spouses; some never return to pastoral life. The
-      Sek proper and Sek-Tal (~550 combined) participate in the Highland Graziers'
-      Association, with elder Ghouram Sek as their voice.
+      Eighteen years later: Sek-Oum and the others don't intermarry, don't
+      share range, don't speak except through intermediaries.
     rag_pointer: "The Republic of Ganat"
     related: [Southern Highland Bands, Eastern Range Confederation, Highland Graziers' Association, Ghouram Sek, Uliq]
     caste_features:
