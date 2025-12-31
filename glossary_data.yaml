@@ -1042,8 +1042,20 @@ entries:
   # ═══ Labor Castes ═══
   Labor Castes:
     category: caste
-    short: Specialized workers engineered for hazardous industrial tasks.
-    details: ""
+    short: Bodies engineered for work that would kill anyone else—the backbone of the industrial districts.
+    details: |
+      Multiple distinct variants, each optimized for different physical
+      demands. Beamcrawlers with arms that reach to their ankles for high
+      scaffolding. Ductworkers with compressible ribcages for confined spaces.
+      Ironbones with density that never stops accumulating. Furnace workers
+      running hot enough to touch molten metal. Divers who breathe contaminated
+      water. Each body shaped for conditions that would destroy baseline frames.
+
+      Most carry modifications collectively called "Redback" durability—
+      enhanced healing, toxin resistance, structural reinforcement. They form
+      the majority in working-class districts: Iron Yards, docks, the Ridge.
+      The engineering that makes them capable of the work also tends to shorten
+      their lives. The trade-off is understood if rarely discussed.
     rag_pointer: Castes of Mankind
     related: [Beamcrawler, Ductworker, Redback, Springheel, Ironbone Labor, Diver]
     caste_features:
