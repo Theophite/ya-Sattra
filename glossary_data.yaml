@@ -1603,13 +1603,27 @@ entries:
   # ═══ Uliq ═══
   Uliq:
     category: caste
-    short: "Deep desert Serrulata nomads following goat herds through territory that would kill other castes."
+    short: Deep desert Serrulata nomads—gold tracery on scales marks clan affiliation, goat herds mark wealth.
     details: |
-      Serrulata sub-variant adapted to the harshest desert conditions. Navigate by 
-      landmarks invisible to visitors, find water in apparently dry places, know 
-      which plants provide nutrition, poison, or medicine. Trade at desert margins, 
-      goats for metal tools and textiles. Have no interest in the capital or settled 
-      life. Gold ornamental tracery marks skin in patterns indicating clan affiliation.
+      A Serrulata sub-variant adapted to the harshest desert conditions. The
+      same keratin scales, the same dark eyes, but refined through generations
+      in territory that would kill other castes. Gold ornamental tracery
+      marks their scales in patterns indicating clan affiliation—the metal
+      pressed into keratin, permanent until the scale sheds.
+
+      They navigate by landmarks invisible to visitors: the color of certain
+      rocks, the shape of dunes that shift but always re-form, the way wind
+      moves through particular valleys. Water exists in apparently dry places
+      if you know where to dig. Certain plants provide nutrition; others
+      poison or medicine. The knowledge passes through families, encoded in
+      songs and stories rather than written texts.
+
+      Their wealth walks on four legs. Goat herds move through the deep
+      desert, and the Uliq follow. At desert margins they trade: goats for
+      metal tools, textiles, the few things they can't make. The Republic
+      claims sovereignty over their territory but exercises none. The capital
+      holds no interest for them. Settled life is something that happens to
+      other people.
     rag_pointer: Castes of Mankind, The Republic of Ganat
     related: [Serrulata, Ganat]
     caste_features:
