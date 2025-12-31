@@ -2633,7 +2633,7 @@ entries:
       location_type: administrative
       parent: ya-Don
       children:
-        - Institute of Flow
+        - Institute of Flow Headquarters
       controlling_entity: Bureau of the Rod
       population: ~8,000
       primary_function: Cooling system administration
@@ -2680,6 +2680,30 @@ entries:
         - "es-Vorath compound (bridging worlds)"
         - "boundary as transition between climates"
   # ─── end Coolant District ───
+
+  # ═══ Institute of Flow Headquarters ═══
+  Institute of Flow Headquarters:
+    category: location
+    short: "Bureau of the Rod technical facility coordinating ya-Don's cooling systems."
+    details: |
+      The physical headquarters of the Institute of Flow, located in the Coolant District.
+      Coordinates cooling system patents essential for Furnace operation. The building
+      demonstrates what climate control can achieve with unlimited resources—twenty
+      degrees cooler than surrounding ya-Don. Connects to the es-Vorath compound,
+      reflecting the family's control of the Institute.
+    rag_pointer: "Ya-Don: Comprehensive Reference"
+    related: [Institute of Flow, Coolant District, es-Vorath, Bureau of the Rod, Furnaces]
+    location_features:
+      level: building
+      location_type: administrative
+      parent: Coolant District
+      controlling_entity: es-Vorath
+      primary_function: Cooling system administration
+      notable_features:
+        - Aggressive climate control demonstration
+        - Connected to es-Vorath compound
+        - Coordinates Furnace cooling systems
+  # ─── end Institute of Flow Headquarters ───
 
   # ═══ Czernaël ═══
   Czernaël:
