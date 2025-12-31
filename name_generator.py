@@ -26,7 +26,7 @@ TYPES (vary by region)
         personal        - Given names only
         aureate         - Highborn with es- lineage
         bureau          - Bureau family names (-saren/-giren)
-        professional    - Working class (-sÄ«r, -ir)
+        professional    - Working class (-sīr, -ir)
         management      - Administrative families (-mar)
         lower           - Lower class (non-Imperial, detached suffix)
         clone           - Clone naming patterns
@@ -53,7 +53,7 @@ TYPES (vary by region)
         epithet         - Epithet only (e.g., Stonefoot, Iron-Rain)
     
     Avouvar:
-        personal        - Personal names with diacriticals (Ã«, Ã¶, Å¼, sz)
+        personal        - Personal names with diacriticals (ë, ö, ż, sz)
         full            - Personal + precinct/house name
         precinct        - House/precinct name only
 
@@ -67,7 +67,7 @@ characters and should not be randomly generated. Currently canonical:
     Aureate lineages: Ysalar, Lahun, Vadrin, Tariq, Ophar, Thabit, etc.
     Ganati leaders: Dhal-Setil, Khen-Masot, el-Marwen
     Tsatsan organizations: Yen Tam, Ma-Oro, Ezh Tan, Ahn-Tam
-    Avouvar characters: CzenovaÃ«, Teszvorath, SzÃ«lvoram, Koratvel
+    Avouvar characters: Czenovaë, Teszvorath, Szëlvoram, Koratvel
 
 Use glossary.py to look up canonical organizations before inventing new ones.
 
@@ -117,7 +117,7 @@ CANONICAL_NAMES = {
     'Yen Tam', 'Ma-Oro', 'Ezh Tan', 'Ahn-Tam',
     
     # Avouvar canonical (established characters from Asovoe doc)
-    'CzenovaÃ«', 'Teszvorath', 'SzÃ«lvoram', 'Koratvel', 'VÃ¶ltrevan',
+    'Czenovaë', 'Teszvorath', 'Szëlvoram', 'Koratvel', 'Völtrevan',
 }
 
 # -----------------------------------------------------------------------------
@@ -209,12 +209,12 @@ IMPERIAL_BUREAU_FAMILIES = [
 ]
 
 IMPERIAL_PROFESSIONAL_FULL = [
-    # Pattern: [root]-da-sÄ«r or [root]-sÄ«r (respectable working class)
-    # From doc: VordasÄ«r (dock), KemdasÄ«r (mine), MasdasÄ«r (mason), TalessÄ«r (assessor)
-    'VordasÄ«r', 'KemdasÄ«r', 'MasdasÄ«r', 'TalessÄ«r',
-    # Additions following pattern (root + -dasÄ«r)
-    'TeldasÄ«r', 'KordasÄ«r', 'SeldasÄ«r', 'MordasÄ«r', 'VeldasÄ«r',
-    'ThelasÄ«r', 'KelasÄ«r', 'SerasÄ«r', 'TorasÄ«r',
+    # Pattern: [root]-da-sīr or [root]-sīr (respectable working class)
+    # From doc: Vordasīr (dock), Kemdasīr (mine), Masdasīr (mason), Talessīr (assessor)
+    'Vordasīr', 'Kemdasīr', 'Masdasīr', 'Talessīr',
+    # Additions following pattern (root + -dasīr)
+    'Teldasīr', 'Kordasīr', 'Seldasīr', 'Mordasīr', 'Veldasīr',
+    'Thelasīr', 'Kelasīr', 'Serasīr', 'Torasīr',
 ]
 
 IMPERIAL_PROFESSIONAL_REDUCED = [
@@ -258,7 +258,7 @@ IMPERIAL_LOWER_DETACHED = [
 ]
 
 IMPERIAL_LOWER_TRUNCATED = [
-    # Truncated from -dasÄ«r/-masÄ«r forms
+    # Truncated from -dasīr/-masīr forms
     # Pattern: [root]-dal or [root]-mal
     'Vordal', 'Kemdal', 'Masdal',
     # Additions following the truncation pattern
@@ -454,36 +454,36 @@ AKAMA_CANONICAL = {
 
 # -----------------------------------------------------------------------------
 # AVOUVAR NAMES (Asovoe, ya-Tsovez)
-# Distinctive diacritical marks: Ã«, Ã¶, Å¼, sz, cz
+# Distinctive diacritical marks: ë, ö, ż, sz, cz
 # Structure: [personal name] [precinct/house name]
-# Children unnamed until Anointing at 13 (or 30 for LavoÃ«ran)
+# Children unnamed until Anointing at 13 (or 30 for Lavoëran)
 # -----------------------------------------------------------------------------
 
 AVOUVAR_PRECINCTS = [
     # Major house/precinct names - some are canonical (established characters)
-    'VroÃ«szka', 'Sztoavel', 'CzernaÃ«l', 'KolaÃ«vin', 'Å»elovin', 
-    'LavoÃ«ran', 'KraÃ«losz', 'VesztraÃ«lin', 'DroÃ«van', 'DravoÃ«tsin',
+    'Vroëszka', 'Sztoavel', 'Czernaël', 'Kolaëvin', 'Żelovin', 
+    'Lavoëran', 'Kraëlosz', 'Vesztraëlin', 'Droëvan', 'Dravoëtsin',
 ]
 
 # Personal name components - can combine
 AVOUVAR_NAME_STARTS = [
-    'Czen', 'Tesz', 'SzÃ«l', 'Kor', 'Drav', 'VÃ¶l', 'Kol', 'Vel', 'Sztr',
-    'Lav', 'Kra', 'Vesz', 'Dro', 'Å»el', 'Czern', 'Szt', 'VÃ¶r', 'TÃ«l',
+    'Czen', 'Tesz', 'Szël', 'Kor', 'Drav', 'Völ', 'Kol', 'Vel', 'Sztr',
+    'Lav', 'Kra', 'Vesz', 'Dro', 'Żel', 'Czern', 'Szt', 'Vör', 'Tël',
 ]
 
 AVOUVAR_NAME_ENDS = [
-    'ovaÃ«', 'vorath', 'voram', 'atvel', 'Ã¶tsz', 'trevan', 'tvel',
-    'Ã«van', 'ovel', 'aÃ«l', 'evin', 'Ã«ran', 'Ã«losz', 'aÃ«lin', 'Ã«tsin',
-    'ovan', 'avel', 'Ã«szka', 'orath', 'Ã«von', 'atsch', 'Ã«vel',
+    'ovaë', 'vorath', 'voram', 'atvel', 'ötsz', 'trevan', 'tvel',
+    'ëvan', 'ovel', 'aël', 'evin', 'ëran', 'ëlosz', 'aëlin', 'ëtsin',
+    'ovan', 'avel', 'ëszka', 'orath', 'ëvon', 'atsch', 'ëvel',
 ]
 
 # Canonical Avouvar names (established characters from Asovoe doc)
 AVOUVAR_CANONICAL = {
-    'CzenovaÃ« VroÃ«szka',     # theologian matriarch
-    'Teszvorath KolaÃ«vin',   # absolutist patriarch
-    'SzÃ«lvoram Å»elovin',     # Witness-Paramount
-    'Koratvel LavoÃ«ran',     # the Chancellor
-    'VÃ¶ltrevan',             # Witness (461 years old)
+    'Czenovaë Vroëszka',     # theologian matriarch
+    'Teszvorath Kolaëvin',   # absolutist patriarch
+    'Szëlvoram Żelovin',     # Witness-Paramount
+    'Koratvel Lavoëran',     # the Chancellor
+    'Völtrevan',             # Witness (461 years old)
 }
 
 

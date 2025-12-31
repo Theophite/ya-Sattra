@@ -6,7 +6,7 @@ A fast lookup tool for Imperial morphological roots. Use this for understanding
 word construction, generating plausible names, and parsing Imperial compounds.
 
 Data is loaded from imperial_roots_data.yaml. Edit that file directly using str_replace
-by matching entry markers: # â•â•â• Entry Name â•â•â• through # â”€â”€â”€ end Entry Name â”€â”€â”€
+by matching entry markers: # ═══ Entry Name ═══ through # ─── end Entry Name ───
 
 SETUP
 =====
@@ -39,9 +39,9 @@ WORD STRUCTURE
     Terminals complete words: vel.ameth.kir.eth (the calendar)
 
 ASPECTUAL TERMINALS (for verbal constructions):
-    -eth  (pattern)   â†’ continuous, habitual, ongoing
-    -al   (capacity)  â†’ ability, potential, continuous capability
-    -ov   (act)       â†’ discrete, punctual, completed instance
+    -eth  (pattern)   → continuous, habitual, ongoing
+    -al   (capacity)  → ability, potential, continuous capability
+    -ov   (act)       → discrete, punctual, completed instance
 
 VALIDATION
 ==========
@@ -85,25 +85,65 @@ _cache: Dict[str, Any] = {}
 
 
 def load_data() -> Dict[str, Any]:
-    """Load and cache YAML data."""
+    """Load and cache YAML data.
+
+    Returns:
+        dict: Loaded data with 'morphemes', 'compounds', and 'raw' keys.
+
+    Raises:
+        SystemExit: If data file is missing or cannot be parsed.
+    """
     if _cache:
         return _cache
-    
+
     if not os.path.exists(DATA_FILE):
-        print(f"ERROR: Data file not found: {DATA_FILE}")
-        print("Run: cp /mnt/project/imperial_roots_data.yaml /home/claude/")
+        print(f"ERROR: Data file not found: {DATA_FILE}", file=sys.stderr)
+        print("Run: cp /mnt/project/imperial_roots_data.yaml /home/claude/", file=sys.stderr)
         sys.exit(1)
-    
-    with open(DATA_FILE, 'r', encoding='utf-8') as f:
-        data = yaml.safe_load(f)
+
+    try:
+        with open(DATA_FILE, 'r', encoding='utf-8') as f:
+            data = yaml.safe_load(f)
+    except yaml.YAMLError as e:
+        print(f"ERROR: Failed to parse YAML file: {DATA_FILE}", file=sys.stderr)
+        print(f"  Details: {e}", file=sys.stderr)
+        sys.exit(1)
+    except PermissionError:
+        print(f"ERROR: Permission denied reading: {DATA_FILE}", file=sys.stderr)
+        sys.exit(1)
+    except UnicodeDecodeError as e:
+        print(f"ERROR: Encoding error reading YAML file: {DATA_FILE}", file=sys.stderr)
+        print(f"  Details: {e}", file=sys.stderr)
+        sys.exit(1)
+    except IOError as e:
+        print(f"ERROR: Failed to read data file: {DATA_FILE}", file=sys.stderr)
+        print(f"  Details: {e}", file=sys.stderr)
+        sys.exit(1)
+
+    if data is None:
+        print(f"ERROR: YAML file is empty: {DATA_FILE}", file=sys.stderr)
+        sys.exit(1)
     
     # Build unified morpheme index
     morphemes = {}
-    
+
     for category in ['particles', 'suffixes', 'roots', 'class_vii', 'emperor_specific', 'jargon']:
         if category not in data:
             continue
-        for key, entry in data[category].items():
+        category_data = data[category]
+        # Validate category data is a dict
+        if not isinstance(category_data, dict):
+            print(f"Warning: Category '{category}' is not a dict, skipping", file=sys.stderr)
+            continue
+        for key, entry in category_data.items():
+            # Skip null entries
+            if entry is None:
+                print(f"Warning: Null entry for key '{key}' in category '{category}', skipping", file=sys.stderr)
+                continue
+            # Validate entry is a dict
+            if not isinstance(entry, dict):
+                print(f"Warning: Entry for '{key}' is not a dict, skipping", file=sys.stderr)
+                continue
             # Normalize category names
             cat_norm = {
                 'particles': 'particle',
@@ -123,19 +163,31 @@ def load_data() -> Dict[str, Any]:
             clean_form = entry.get('form', key).replace('-', '').lower()
             if clean_form != key.lower():
                 morphemes[clean_form] = m
-    
+
     # Build compounds index
     compounds = {}
     if 'compounds' in data:
-        for key, entry in data['compounds'].items():
-            c = Morpheme(
-                form=key,
-                description=entry.get('gloss', ''),
-                category='compound',
-                components=entry.get('components'),
-                gloss=entry.get('gloss'),
-            )
-            compounds[key.lower()] = c
+        compounds_data = data['compounds']
+        # Validate compounds data is a dict
+        if not isinstance(compounds_data, dict):
+            print(f"Warning: 'compounds' section is not a dict, skipping", file=sys.stderr)
+        else:
+            for key, entry in compounds_data.items():
+                # Skip null entries
+                if entry is None:
+                    print(f"Warning: Null entry for compound '{key}', skipping", file=sys.stderr)
+                    continue
+                if not isinstance(entry, dict):
+                    print(f"Warning: Compound entry '{key}' is not a dict, skipping", file=sys.stderr)
+                    continue
+                c = Morpheme(
+                    form=key,
+                    description=entry.get('gloss', ''),
+                    category='compound',
+                    components=entry.get('components'),
+                    gloss=entry.get('gloss'),
+                )
+                compounds[key.lower()] = c
     
     _cache['morphemes'] = morphemes
     _cache['compounds'] = compounds
@@ -449,7 +501,7 @@ def format_morpheme(m: Morpheme, verbose: bool = True) -> str:
     if m.examples and verbose:
         lines.append("\nExamples:")
         for ex in m.examples[:5]:
-            lines.append(f"  â€¢ {ex}")
+            lines.append(f"  • {ex}")
     
     if m.related:
         lines.append(f"\nRelated: {', '.join(m.related)}")
@@ -464,7 +516,7 @@ def format_morpheme(m: Morpheme, verbose: bool = True) -> str:
 
 def format_parse(word: str, analysis: Dict, verbose: bool = True) -> str:
     """Format a parsed word for display."""
-    lines = [f"\n{'â”€'*50}", f"  {word}"]
+    lines = [f"\n{'─'*50}", f"  {word}"]
     
     if analysis.get('tense'):
         lines.append(f"  Tense: [{analysis['tense']}]")
@@ -476,20 +528,20 @@ def format_parse(word: str, analysis: Dict, verbose: bool = True) -> str:
         marker = {
             'particle': 'â—†',
             'suffix': 'â—‹',
-            'root': 'â—',
-            'class_vii': 'â˜…',
-            'emperor_specific': 'Ã¢Å“â€¢',
+            'root': '●',
+            'class_vii': '★',
+            'emperor_specific': '✕',
             'jargon': 'â—‡',
             'unknown': '?'
         }.get(m['position'], '?')
-        lines.append(f"    {marker} {m['form']:12} â†’ {m['meaning']}")
+        lines.append(f"    {marker} {m['form']:12} → {m['meaning']}")
     
     lines.append(f"\n  Gloss: {analysis['gloss']}")
     
     if analysis['notes'] and verbose:
         lines.append("\n  Notes:")
         for note in analysis['notes']:
-            lines.append(f"    â€¢ {note}")
+            lines.append(f"    • {note}")
     
     return '\n'.join(lines)
 
@@ -532,7 +584,7 @@ def main():
                 if results:
                     print(f"No exact match for '{term}'. Similar:")
                     for key, m in results[:5]:
-                        print(f"  â€¢ {m.form}: {m.description[:50]}...")
+                        print(f"  • {m.form}: {m.description[:50]}...")
                 else:
                     print(f"No match found for '{term}'")
     
@@ -592,7 +644,7 @@ def main():
                 for root in roots:
                     m = lookup(root)
                     if m:
-                        print(f"    â†’ {m.form}: {m.description[:50]}...")
+                        print(f"    → {m.form}: {m.description[:50]}...")
         else:
             print("No recognizable roots found.")
     
@@ -670,7 +722,7 @@ def main():
                         print(f"  [{m.notes}]")
                     if m.examples:
                         for ex in m.examples[:2]:
-                            print(f"    â€¢ {ex}")
+                            print(f"    • {ex}")
                     print()
                 else:
                     desc = m.description.split('.')[0]
@@ -685,7 +737,7 @@ def main():
         for key, c in sorted(compounds.items()):
             if c.components:
                 comp_str = ' + '.join(c.components)
-                print(f"  {c.form:18} â† {comp_str}")
+                print(f"  {c.form:18} ← {comp_str}")
     
     else:
         print(f"Unknown command: {cmd}")

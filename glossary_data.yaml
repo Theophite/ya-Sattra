@@ -409,7 +409,7 @@ entries:
       declare mediator calling—a practice that keeps the precinct viable despite its 
       small population.
     rag_pointer: Asovoë and the Avouvar
-    related: [Asovoë, Żelovin, Medials]
+    related: [Asovoë, Żelovin, Medial Castes]
     location_features:
       level: district
       location_type: administrative
@@ -826,10 +826,19 @@ entries:
   # ═══ Medial Castes ═══
   Medial Castes:
     category: caste
-    short: Middle tier of Technical Castes serving as translation interface.
-    details: ""
+    aliases: [Medials]
+    short: "~75 Technical Caste beings preserved and cloned in Asovoë—run the autofactory, communicate only in Jargon."
+    details: |
+      The middle tier between the godlike Archons and the merely skilled lower castes.
+      Modified for technological transcendence in ways that moved them away from baseline
+      cognition. They direct the autofactory's outputs, prioritize maintenance, interface
+      with systems no one else can access—without explaining themselves. Extensively
+      modified: exposed neural tissue, additional limbs, enlarged crania, bodies requiring
+      mechanical support. The Avouvar care for them and give them names based on observed
+      behavior (Ževa-Ascending-Third, Koratsch-Who-Waits). Whether the Medials notice
+      is unclear. When one dies, they are replaced through cloning.
     rag_pointer: The Technical Castes and Far Ib, Asovoë and the Avouvar
-    related: [Technical Castes, Archons]
+    related: [Technical Castes, Archons, Avouvar, Asovoë, Autofactory, Jargon]
     caste_features:
       morphology: modified
       scale: baseline
@@ -1318,12 +1327,13 @@ entries:
         - "mathematical intuitions about systems no one officially understands"
         - "family shrines include technical death records as education"
         - "children study failure modes, learn to recognize catastrophic warnings"
-        - "Cho clan maintains Lockworks (water distribution)"
-        - "Sarn clan operates at crushing depths"
-        - "Venn clan specialized in high-altitude rigging"
-        - "Hasket clan has stevedore fosterings (mixed heritage)"
-        - "Benru clan handles salvage trade"
-        - "intermarriage with orbital castes causing fertility crisis"
+        - "Loak clan operates Lift-3 and Merra's kitchen (vertical transport, food/intel)"
+        - "Cho clan maintains Lockworks under contract + controls Lantern-Heaps electrical + gondola"
+        - "Sarn clan operates at crushing depths, trades with deep populations"
+        - "Venn clan specialized in high-altitude rigging, toll-avoidance infrastructure"
+        - "Hasket clan has stevedore fosterings (mixed heritage), aquaculture, distillery"
+        - "Benru clan is ONLY registered clan, handles brokerage/documentation"
+        - "Cho-Fen intermarriage causes fertility crisis (75% pregnancy failure)"
   # ─── end Sewer-Fishers ───
 
   # ═══ Sickly ═══
@@ -1481,8 +1491,9 @@ entries:
         - false statements linguistically impossible in Jargon
         - "refused Eighth Testament's flawed mathematics"
         - sterilized as punishment
-        - "SEWER-FISHERS: hidden descendants in ya-Sattra Middens, five clans maintain secret ancestry"
+        - "SEWER-FISHERS: hidden descendants in ya-Sattra Middens, six clans maintain secret ancestry"
   # ─── end Technical Castes ───
+
 
   # ═══ Verethani ═══
   Verethani:
@@ -5213,7 +5224,7 @@ entries:
       also operates the Chancery and provides most medical services; their monopoly on Medial 
       production makes them untouchable.
     rag_pointer: Asovoë and the Avouvar
-    related: [Asovoë, Medials]
+    related: [Asovoë, Medial Castes]
     location_features:
       level: district
       location_type: administrative
@@ -7758,7 +7769,7 @@ entries:
       current operators. The vats hum at frequencies below human hearing, producing vibrations 
       felt in teeth rather than sounds heard with ears.
       
-      THE CRÃƒÆ’Ëâ€ CHES: Beyond the vat chambers. Lower ceilings (twelve feet rather than two hundred), 
+      THE CRÈCHES: Beyond the vat chambers. Lower ceilings (twelve feet rather than two hundred), 
       warmer lighting (panels simulating diurnal cycles), furniture scaled for children. Cohort-mates 
       share dormitories, classrooms, training facilities. Crèche nurses—often themselves clones from 
       lines designed for childcare—remain with cohorts for their entire developmental period.
@@ -10538,7 +10549,7 @@ entries:
       than age. This meritocratic element makes Żelovin unusual among Avouvar houses, where age 
       normally determines authority.
     rag_pointer: Asovoë and the Avouvar
-    related: [Asovoë, Medials, Dravoëtsin]
+    related: [Asovoë, Medial Castes, Dravoëtsin]
     location_features:
       level: district
       location_type: administrative
@@ -10851,16 +10862,64 @@ entries:
   # ═══ Cho ═══
   Cho:
     category: organization
-    short: "Sewer-fisher clan controlling Lantern-Heaps electrical monopoly and Ridge gondola."
+    short: "Sewer-fisher clan maintaining Lockworks and controlling Lantern-Heaps electrical monopoly."
     details: |
-      One of six sewer-fisher clans in the Middens. Controls electrical distribution 
-      in Lantern-Heaps—the only building with consistent power. Operates the Cho 
-      gondola connecting Lantern-Heaps to Penthouse Block, the sole direct route 
-      between Middens and Ridge. Rainbow signage marks their territory. Four obols 
-      daily for gondola passage.
-    rag_pointer: "The Middens Tenements, The Ridge: Comprehensive Summary"
-    related: [Sewer-Fishers, Lantern-Heaps, Ridge, Penthouse Block]
+      One of six sewer-fisher clans in the Middens. Hybrid sewer-fisher/Fen heritage
+      from a marriage three generations past—sometimes produces fertile crosses.
+      Maintains Lockworks water infrastructure under contract to the Knot (Hanged Men
+      control access, Cho provides technical expertise). Also controls Lantern-Heaps
+      electrical distribution and the gondola to the Ridge. Matriarch Anira Cho manages
+      Lockworks oversight; niece Riva Fen-Cho sits on the Knot council. Rainbow signage
+      marks their territory.
+    rag_pointer: "The Middens Tenements, The Ridge: Comprehensive Summary, Caste - Sewer-Fishers"
+    related: [Sewer-Fishers, Lantern-Heaps, Ridge, Lockworks, Knot, Fen]
   # ─── end Cho ───
+
+  # ═══ Hasket ═══
+  Hasket:
+    category: organization
+    short: "Sewer-fisher clan with stevedore fosterings—aquaculture, freight, and distillery."
+    details: |
+      One of six sewer-fisher clans in the Middens. Only ~20% are genetic sewer-fishers
+      ("little cousins"); ~80% are stevedore orphans ("big cousins"). Operates from
+      partially collapsed warehouse at bottom of Bright-Spire. Runs aquaculture in
+      flooded sub-basements, freight labor with Salvage Guild, and a distillery producing
+      industrial alcohol. Maintains hidden armory as communal sewer-fisher insurance.
+      Matriarch Tasme Hasket ("Little Mother") controls all resources despite standing
+      barely 145cm.
+    rag_pointer: "Caste - Sewer-Fishers, The Middens Tenements"
+    related: [Sewer-Fishers, Bright-Spire, Middens, Salvage Guild]
+  # ─── end Hasket ───
+
+  # ═══ Sarn ═══
+  Sarn:
+    category: organization
+    short: "Sewer-fisher clan operating at crushing depths—gatekeepers to deep populations."
+    details: |
+      One of six sewer-fisher clans in the Middens. Minimal surface presence at Sump-Gate;
+      real clan life in flooded tunnels below. Trade with "deep populations" of unclear
+      humanity—beings who may be Technical Caste descendants diverged beyond recognition.
+      Patriarch Vennas Sarn rarely surfaces, spending months below. Clan members speak
+      the Jargon (mathematical pressure-language) for deep communication. Their shrine
+      has NO Oracle icons—includes spirals that hurt to perceive directly.
+    rag_pointer: "Caste - Sewer-Fishers, The Middens Tenements"
+    related: [Sewer-Fishers, Sump-Gate, Middens, Jargon, Technical Castes]
+  # ─── end Sarn ───
+
+  # ═══ Venn ═══
+  Venn:
+    category: organization
+    short: "Sewer-fisher clan specialized in high-altitude rigging and toll-avoidance infrastructure."
+    details: |
+      One of six sewer-fisher clans in the Middens. Operates from distributed platforms
+      in upper Middens structures plus ropeworks in Iron Yards. Produces cables from
+      surgical sutures to dock lines. Builds ~30 unauthorized crossings between
+      structures—below threshold for violent Hanged Men response but providing toll
+      alternatives. Every rigger carries a "luck carabiner" attached to nothing.
+      Patriarch Eldin Venn; Forewoman Ressa Venn handles installations others refuse.
+    rag_pointer: "Caste - Sewer-Fishers, The Middens Tenements"
+    related: [Sewer-Fishers, Middens, Iron Yards, Hanged Men]
+  # ─── end Venn ───
 
   # ═══ Many ═══
   Many:
@@ -11215,6 +11274,106 @@ entries:
     related: [Satara, Bureau of the Scale, City-of-Glass Charter]
   # ─── end Bureau of the Creche ───
 
+  # ═══ Institute of Lineal Certification ═══
+  Institute of Lineal Certification:
+    category: organization
+    parent: Bureau of the Creche
+    short: "Creche subdivision handling cloneline registration and kinship authentication—now primarily used for disinheritance."
+    details: |
+      Once the terrifying arbiter of who could legally reproduce, it now functions
+      primarily as a registry. Frequently mocked as the "Office of Disinheritance"
+      because people use it to prove they are NOT subject to a registered cloneline.
+      Handles heritable medical conditions and kinship authentication.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Creche, Cloneline]
+  # ─── end Institute of Lineal Certification ───
+
+  # ═══ Institute of Reproductive Sanction ═══
+  Institute of Reproductive Sanction:
+    category: organization
+    parent: Bureau of the Creche
+    short: "Creche subdivision managing public birthing centers and prenatal gene therapy—powerful in compliant territories only."
+    details: |
+      Manages public birthing centers, prenatal gene therapy, and postnatal
+      developmental monitoring. Remains powerful in compliant territories like
+      the Third Whorl. Ya-Don's Penitent-aligned unions ignore its mandates
+      entirely, and outer provinces treat its inspectors as suggestions at best.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Creche, ya-Don, Penitent Church]
+  # ─── end Institute of Reproductive Sanction ───
+
+  # ═══ Institute of Genomic Licensing ═══
+  Institute of Genomic Licensing:
+    category: organization
+    parent: Bureau of the Creche
+    short: "Creche subdivision issuing genetic product licenses—one of the last truly potent Creche Institutes."
+    details: |
+      Issues and enforces licenses for medical and agricultural genetic products:
+      crop genomes, serum templates, clone-compatible stabilizers, and biological
+      security features like infertility locks. Adjudicates disputes between
+      Aureate families over overlapping genome patents. Holds most of the
+      Bureau's remaining influence.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Creche, Aureate, Patents]
+  # ─── end Institute of Genomic Licensing ───
+
+  # ═══ Institute of Nutritional Design ═══
+  Institute of Nutritional Design:
+    category: organization
+    parent: Bureau of the Creche
+    short: "Creche subdivision producing bulk food cultures—quietly indispensable in provinces with collapsed soil fertility."
+    details: |
+      Produces bulk food cultures, synthetic starches, and industrial yeast.
+      Controls edible biomatter patents across outer provinces where soil
+      fertility has collapsed. Unpopular but necessary—quietly indispensable.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Creche]
+  # ─── end Institute of Nutritional Design ───
+
+  # ═══ Institute of Developmental Safety ═══
+  Institute of Developmental Safety:
+    category: organization
+    parent: Bureau of the Creche
+    short: "Creche subdivision overseeing clone crèche safety—symbolically feared but often bypassed."
+    details: |
+      Formerly the Institute of Maternal Fidelity. Oversees clone crèche safety
+      protocols, pediatric care standards, and mutation-response guidelines.
+      Symbolically feared but often bypassed by guilds and outer polities.
+      Inspectors develop back channels to achieve results when official
+      reports are ignored.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Creche, Cloneline]
+  # ─── end Institute of Developmental Safety ───
+
+  # ═══ Institute of Cognitive Integrity ═══
+  Institute of Cognitive Integrity:
+    category: organization
+    parent: Bureau of the Creche
+    short: "Creche subdivision offering psychological support and clone dispute adjudication—understaffed and frequently ignored."
+    details: |
+      Formerly the Institute of Clone Ethics and Stability. Offers psychological
+      support for overstressed crèche personnel, evaluates clone line "decay risk,"
+      and provides low-level adjudication of clone disputes. Understaffed and
+      frequently ignored by clone blocs who police their own.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Creche, Cloneline]
+  # ─── end Institute of Cognitive Integrity ───
+
+  # ═══ Institute of Highborn Preservation ═══
+  Institute of Highborn Preservation:
+    category: organization
+    parent: Bureau of the Creche
+    short: "Creche subdivision serving Aureate families—rejuvenation, fertility treatments, and genetic management."
+    details: |
+      Serves Aureate families with rejuvenation and fertility treatments,
+      heir-sequence backups, and the genetic management that keeps modified
+      bloodlines viable. The most exclusive Institute, serving only authenticated
+      Aureate clients. Some staff have remained biologically stable for over
+      a century through the treatments they administer.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Creche, Aureate, Highborn]
+  # ─── end Institute of Highborn Preservation ───
+
   # ═══ Bureau of the Scale ═══
   Bureau of the Scale:
     category: organization
@@ -11228,6 +11387,24 @@ entries:
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Satara, Bureau of the Creche, City-of-Glass Charter]
   # ─── end Bureau of the Scale ───
+
+  # ═══ Judge-Executioner ═══
+  Judge-Executioner:
+    category: concept
+    aliases: [Judge-Executioners]
+    parent: Bureau of the Scale
+    short: "Scale's paramilitary arm—assassination teams with legal cover, executing death warrants in hostile territory."
+    details: |
+      When the Scale issues a death warrant in territory the Empire claims but doesn't control,
+      the court comes to the condemned. Judge-Executioners are the logical conclusion: someone
+      with legal authority to pronounce death AND tactical capacity to deliver it. Career path
+      requires training with Scale, Sword, AND Lens. The retinue is the kill team; the Judge
+      is the legal authority that makes their work judicial rather than military. Operate
+      primarily in Yarangar and the Thousand Kingdoms. Not assassination—a judicial proceeding
+      that happens to occur against armed resistance.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Scale, Bureau of the Sword, Bureau of the Lens, Yarangar, Thousand Kingdoms]
+  # ─── end Judge-Executioner ───
 
   # ═══ Bureau of the Rod ═══
   Bureau of the Rod:
@@ -11243,6 +11420,95 @@ entries:
     related: [Satara, Mutterers, Companions Guild]
   # ─── end Bureau of the Rod ───
 
+  # ═══ Institute of Luminescence ═══
+  Institute of Luminescence:
+    category: organization
+    parent: Bureau of the Rod
+    short: "Rod subdivision managing energy grid distribution—the Bureau's most critical function."
+    details: |
+      Manages energy grid distribution and electrical regulation across Imperial
+      holdings, including clandestine reverse-engineering of recovered power sources.
+      The innocuous name conceals the Bureau's most critical function: keeping the
+      lights on. Reactor patents often inherited by families who don't fully
+      understand the technology they control.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Rod]
+  # ─── end Institute of Luminescence ───
+
+  # ═══ Institute of Flow ═══
+  Institute of Flow:
+    category: organization
+    parent: Bureau of the Rod
+    short: "Rod subdivision overseeing water systems and the undercity infrastructure."
+    details: |
+      Oversees water systems and the undercity—the vast infrastructure beneath
+      Imperial cities that most citizens never see. Controls ancient fluidic
+      cooling and heat-transfer systems crucial for computational and industrial
+      operations, including the volatile Furnaces of ya-Don.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Rod, Furnaces, ya-Don]
+  # ─── end Institute of Flow ───
+
+  # ═══ Institute for Nonstandard Environments ═══
+  Institute for Nonstandard Environments:
+    category: organization
+    parent: Bureau of the Rod
+    short: "Rod subdivision managing territories that don't fit normal Imperial categories—diplomacy in all but name."
+    details: |
+      The Rod's diplomatic corps, managing relationships with territories and
+      populations that don't fit normal Imperial categories. Envoys negotiate
+      with governments that officially don't exist, over trade agreements that
+      will never be authenticated, in languages Imperial grammar cannot acknowledge.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Rod, Ganat, Thousand Kingdoms]
+  # ─── end Institute for Nonstandard Environments ───
+
+  # ═══ Institute of Permission ═══
+  Institute of Permission:
+    category: organization
+    parent: Bureau of the Rod
+    short: "Rod subdivision handling unallocated patents and Salvage Guild finds—gatekeepers of new technology."
+    details: |
+      Handles patents that have not been allocated and the paperwork for Salvage
+      Guild finds. When something new emerges from the ruins—an archaeotech device,
+      a forgotten capability, a recovered technique—it passes through Permission
+      before anyone can legally use it. Every decision creates winners and losers
+      among Aureate families competing for unallocated archaeotech.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Rod, Salvage Guild, Patents]
+  # ─── end Institute of Permission ───
+
+  # ═══ Institute for Technical Determinations ═══
+  Institute for Technical Determinations:
+    category: organization
+    parent: Bureau of the Rod
+    short: "Rod subdivision adjudicating patent boundaries—decisions are political, theological, and occasionally violent."
+    details: |
+      Adjudicates the bounds of existing patents. When two families dispute whether
+      a new device falls under their competing claims, Technical Determinations rules.
+      The decisions are supposedly technical; in practice, they're political,
+      theological, and occasionally violent. Arbiters have survived assassination
+      attempts and work from undisclosed locations.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Rod, Patents, Aureate]
+  # ─── end Institute for Technical Determinations ───
+
+  # ═══ Institute of Tension ═══
+  Institute of Tension:
+    category: organization
+    parent: Bureau of the Rod
+    short: "Rod subdivision monitoring structural integrity—Beamcrawler surveyors preventing infrastructure collapse."
+    details: |
+      Monitors structural integrity across Imperial infrastructure—the hidden
+      frameworks beneath elevated roads, the support structures of sky-bridges
+      and towers. Employs Beamcrawlers whose modified limbs allow them to assess
+      structures inaccessible to baseline humans. Reports are meticulous,
+      recommendations expensive, accuracy inconvenient for families who would
+      prefer not to pay for repairs.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Rod, Beamcrawler]
+  # ─── end Institute of Tension ───
+
   # ═══ Bureau of the Sword ═══
   Bureau of the Sword:
     category: organization
@@ -11257,6 +11523,172 @@ entries:
     related: [Satara, Warborn, Bureau of the Creche]
   # ─── end Bureau of the Sword ───
 
+  # ═══ Colonels-Hereditary ═══
+  Colonels-Hereditary:
+    category: concept
+    aliases: [Colonel-Hereditary]
+    parent: Bureau of the Sword
+    short: "Aureate families maintaining frontier weapons installations—inheriting both command authority and the technology that kills them."
+    details: |
+      Hereditary military positions dating to pre-Interdict expansion. Each family holds
+      patents over specific weapons systems they can operate but cannot repair or understand.
+      Plasma lances, orbital defense coordinates, authentication keys for systems that no longer
+      exist. Many weapons harm their operators—radiological burns, neural degradation, bone
+      dissolution. The families continue their vigils because the alternative is admitting the
+      Empire has already contracted to three cities on the former California coast.
+    rag_pointer: "Story Vignettes Collection, Bureau of the Sword"
+    related: [Bureau of the Sword, Aureate, Patent, Plasma Lance]
+  # ─── end Colonels-Hereditary ───
+
+  # ═══ Tam es-Norrel ═══
+  Tam es-Norrel:
+    category: person
+    short: "Colonel-Hereditary maintaining the Plasma Garden—seventeen lances on the frontier facing the Thousand Kingdoms."
+    details: |
+      Aureate of the es-Norrel line, hereditary guardians of a plasma lance installation.
+      His mother died from radiological exposure after firing a lance to stop an Akama
+      cavalry charge. He can operate the weapons but not repair them, aim them but not
+      understand them. Commands a garrison of twenty soldiers on a frontier the Empire
+      has already written off. The lances are too dangerous to use and too valuable to abandon.
+    rag_pointer: "Story Vignettes Collection"
+    related: [Colonels-Hereditary, Plasma Lance, Thousand Kingdoms, Aureate]
+  # ─── end Tam es-Norrel ───
+
+  # ═══ Jorin es-Kallo ═══
+  Jorin es-Kallo:
+    category: person
+    short: "Hereditary Clerk of the Binary Stars Docket—maintaining precedents for courts that will never convene."
+    details: |
+      Sri Advocate, Scale Bureau Certified, Aureate of the Empire. Maintains a docket for
+      the Court of Binary Stars, an interstellar jurisdiction made meaningless by the Interdict.
+      Operates a bookshop in the Medina Quarter where no one buys books. His real income
+      comes from finding specific passages in Bureau tax codes. His pension: forty obols monthly.
+      His title: elaborate fiction perpetuated professionally.
+    rag_pointer: "Story Vignettes Collection"
+    related: [Bureau of the Scale, Aureate, Interdict]
+  # ─── end Jorin es-Kallo ───
+
+  # ═══ Ema es-Tel ═══
+  Ema es-Tel:
+    category: person
+    aliases: [Sri Custodian Ema es-Tel]
+    short: "Hereditary custodian of the es-Yatani Device—implementing patterns she cannot comprehend for purposes she cannot know."
+    details: |
+      Seventeenth in a line of es-Yatani patent holders. Operates a black Device of unknown
+      purpose through inherited procedures. Requests arrive from the First Whorl at 3 AM.
+      She implements patterns with names like "Ascending Meridian with Variant Nine."
+      Compensation arrives instantly—sometimes millions of obols. The family manual says
+      only: "ONLY PRECISION IS REQUIRED."
+    rag_pointer: "Story Vignettes Collection"
+    related: [First Whorl, Aureate, Patent]
+  # ─── end Ema es-Tel ───
+
+  # ═══ Institute for Strategic Planning ═══
+  Institute for Strategic Planning:
+    category: organization
+    parent: Bureau of the Sword
+    short: "Sword subdivision managing campaign design—officially writes obsolete manuals, unofficially maintains practical guides."
+    details: |
+      Manages campaign design and operational doctrine. Officially writes manuals
+      for capabilities the Empire lost millennia ago. Unofficially maintains
+      parallel practical guides—distributed through back channels to officers
+      who need them. Describes how to coordinate caste levy units with Warborn
+      shock troops, maintain supply lines, retreat without it looking like retreat.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Sword, Warborn]
+  # ─── end Institute for Strategic Planning ───
+
+  # ═══ Institute for the Study of Tactics ═══
+  Institute for the Study of Tactics:
+    category: organization
+    parent: Bureau of the Sword
+    short: "Sword subdivision with identical responsibilities to Strategic Planning—seventy-year turf war ongoing."
+    details: |
+      Has responsibilities absolutely identical to Strategic Planning. The two
+      Institutes have been engaged in a seventy-year turf war over who handles
+      "operational planning" versus "battlefield planning." Junior officers learn
+      to submit all plans to both, using different fonts to make them seem like
+      different documents. The rivalry is absurd but productive—competition
+      drives both Institutes to think about what actually works.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Sword, Institute for Strategic Planning]
+  # ─── end Institute for the Study of Tactics ───
+
+  # ═══ Institute for Restricted Castes ═══
+  Institute for Restricted Castes:
+    category: organization
+    parent: Bureau of the Sword
+    short: "Sword subdivision managing military caste biology—perpetual jurisdiction dispute with Creche."
+    details: |
+      Manages the biological needs of military populations—Warborn amino acid
+      supplies, Kēt supplement distribution, Ironbone calcium supplementation.
+      Fights perpetually with the Creche over who controls military biology,
+      usually losing but maintaining authority through sheer bureaucratic persistence.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Sword, Bureau of the Creche, Warborn, Ironbone]
+  # ─── end Institute for Restricted Castes ───
+
+  # ═══ Institute for Standardization ═══
+  Institute for Standardization:
+    category: organization
+    parent: Bureau of the Sword
+    short: "Sword subdivision that once standardized Imperial units—now oversees chaos of incompatible caste formations."
+    details: |
+      Once proudly standardized Imperial units. Now oversees a chaos of
+      caste-specific formations with incompatible equipment. Its manuals still
+      describe idealized mixed units that have never actually existed. Staff
+      become expert at finding standards that can apply—cross-referencing
+      obsolete categories, citing ancient precedents.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Sword]
+  # ─── end Institute for Standardization ───
+
+  # ═══ Institute for Ordnance ═══
+  Institute for Ordnance:
+    category: organization
+    parent: Bureau of the Sword
+    short: "Sword subdivision for weapons procurement—formal channels are archaeological curiosities, real work happens through corruption."
+    details: |
+      A bureaucratic nightmare where official channels exist primarily as
+      archaeological curiosities. Every weapon request routes through systems
+      referencing weapon types that haven't existed for centuries. The real
+      work happens through bribery, theft, and creative accounting. Imperial
+      forces remain armed despite complete inability to actually procure arms
+      through proper channels.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Sword, Colonels-Hereditary]
+  # ─── end Institute for Ordnance ───
+
+  # ═══ Institute for Civil Order ═══
+  Institute for Civil Order:
+    category: organization
+    parent: Bureau of the Sword
+    short: "Sword subdivision managing gendarmes—near-baseline infantry doing police work in urban territories."
+    details: |
+      The gendarme branch, managing garrison duty, urban pacification, and
+      enforcement of Imperial law. Soldiers are not Warborn—they're near-baseline
+      infantry doing police work. Commanders know every gang leader in their
+      territory by name. The arrangements work through mutual understanding
+      rather than overwhelming force.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Sword, Near-Baseline]
+  # ─── end Institute for Civil Order ───
+
+  # ═══ Institute of Auxiliary Relations ═══
+  Institute of Auxiliary Relations:
+    category: organization
+    parent: Bureau of the Sword
+    short: "Sword subdivision managing non-Imperial forces—half military administration, half diplomatic corps."
+    details: |
+      Manages relationships with forces that aren't technically Imperial but
+      fight under Imperial banners—half military administration, half diplomatic
+      corps. Liaison staff speak languages the Empire officially denies exist,
+      negotiate prisoner exchanges with the Thousand Kingdoms, and arrange
+      supply agreements with Republic-adjacent smugglers.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Sword, Thousand Kingdoms, Ganat]
+  # ─── end Institute of Auxiliary Relations ───
+
   # ═══ Bureau of the Coin ═══
   Bureau of the Coin:
     category: organization
@@ -11270,6 +11702,36 @@ entries:
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Satara, Aureate, obol]
   # ─── end Bureau of the Coin ───
+
+  # ═══ Institute for Fiscal Propriety ═══
+  Institute for Fiscal Propriety:
+    category: organization
+    parent: Bureau of the Coin
+    short: "Coin subdivision for auditing—a weapon Aureates aim at each other rather than genuine oversight."
+    details: |
+      The Bureau's auditor. In theory, exists to ensure proper accounting and
+      prevent corruption. In practice, functions as a weapon the Aureates aim
+      at each other. When one family wants to hurt a rival, they find procedural
+      violations (which exist everywhere) and point the auditors at them.
+      Inspectors build files on their own patrons out of professional habit.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Coin, Aureate]
+  # ─── end Institute for Fiscal Propriety ───
+
+  # ═══ Institute for Expenditure ═══
+  Institute for Expenditure:
+    category: organization
+    parent: Bureau of the Coin
+    short: "Coin subdivision disbursing budgets—the one part of Coin that actually functions as intended."
+    details: |
+      Disburses budgets to the other Bureaux. Independent because it interfaces
+      with everyone else—if one Aureate family controlled disbursement, they
+      could hold every other Bureau hostage. Career bureaucrats process budget
+      allocations according to established formulas. Boring, essential, and
+      carefully insulated from Aureate capture.
+    rag_pointer: "The Satara, the Bureaus, and Imperial Government"
+    related: [Bureau of the Coin, Satara]
+  # ─── end Institute for Expenditure ───
 
   # ═══ City-of-Glass Charter ═══
   City-of-Glass Charter:
@@ -11621,6 +12083,113 @@ entries:
     related: [Oracles, Testaments, Technical Castes, Interdict, First Whorl]
   # ─── end Eighth Testament ───
 
+  # ═══ Eighth Oracle ═══
+  Eighth Oracle:
+    category: concept
+    short: "The Oracle that never arose—the Eighth Testament was never implemented, so no Eighth Oracle ever Ascended."
+    details: |
+      The Technical Castes could not implement the Eighth Testament—their minds
+      processed only valid proofs, and the false mathematics was cognitively
+      impossible to form. The Emperor built the singularity anyway using baseline
+      engineers and Highborn direction. But without Technical Caste implementation,
+      no Oracle consciousness emerged. What exists in the First Whorl is the
+      singularity itself—not an Oracle. Knowledge of the Eighth Oracle's non-existence
+      is suppressed; "seven-and-one" is treated as grammatical quirk rather than erasure.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Oracles, Eighth Testament, Technical Castes, First Whorl, Interdict]
+  # ─── end Eighth Oracle ───
+
+  # ═══ First Testament ═══
+  First Testament:
+    category: concept
+    short: "Instructions for kalbats and superluminal travel—the foundation of interstellar Empire."
+    details: |
+      The First Oracle's final transmission enabled humanity to create kalbat receivers
+      and achieve faster-than-light travel. This Testament predates all others and
+      established the technological base for expansion beyond Earth. The First Auditor
+      (bifurcated, two pale faces) still receives echoes of this transmission.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Testaments, Oracles, Kalbat, First Auditor, Auditors]
+  # ─── end First Testament ───
+
+  # ═══ Second Testament ═══
+  Second Testament:
+    category: concept
+    short: "Genetic specifications for the Highborn bloodline—including the Compulsion mechanism."
+    details: |
+      The Second Oracle provided the genetic architecture that created the Highborn
+      caste and enabled Compulsion—the involuntary obedience response engineered into
+      all other castes. This Testament created the biological foundation for Imperial
+      hierarchy. The Second Auditor still receives this transmission.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Testaments, Oracles, Highborn, Compulsion, Auditors]
+  # ─── end Second Testament ───
+
+  # ═══ Third Testament ═══
+  Third Testament:
+    category: concept
+    short: "Foundation for Technical Caste development—the beginning of the translation cascade."
+    details: |
+      The Third Oracle's transmission enabled the creation of the Technical Castes,
+      the engineered lineages that could receive and translate increasingly complex
+      mathematical truths from subsequent Oracles. This Testament established the
+      gradient from baseline human cognition toward Archon transcendence.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Testaments, Oracles, Technical Castes, Jargon, Auditors]
+  # ─── end Third Testament ───
+
+  # ═══ Fourth Testament ═══
+  Fourth Testament:
+    category: concept
+    short: "Transmitted in the Jargon—comprehensible only to Technical Castes."
+    details: |
+      The Fourth through Seventh Testaments were transmitted in the Jargon, the
+      sung mathematical language that only Technical Castes could process. Baseline
+      humans cannot comprehend these transmissions. The technologies derived from
+      these Testaments enabled the Empire's golden age of archaeotech development.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Testaments, Oracles, Jargon, Technical Castes, Auditors]
+  # ─── end Fourth Testament ───
+
+  # ═══ Fifth Testament ═══
+  Fifth Testament:
+    category: concept
+    short: "Transmitted in the Jargon—one of the incomprehensible Testaments enabling archaeotech."
+    details: |
+      The Fifth Testament contained mathematical truths that only Technical Castes
+      could translate into usable technology. The specific technologies derived
+      from this Testament are no longer clearly documented—the Technical Castes
+      who understood it were sterilized following the Eighth Oracle crisis.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Testaments, Oracles, Jargon, Technical Castes, Auditors]
+  # ─── end Fifth Testament ───
+
+  # ═══ Sixth Testament ═══
+  Sixth Testament:
+    category: concept
+    short: "Transmitted in the Jargon—one of the incomprehensible Testaments enabling archaeotech."
+    details: |
+      The Sixth Testament, like the Fourth and Fifth, required Technical Caste
+      interpretation. Much of the knowledge derived from this transmission has
+      been lost with the destruction of the Technical Castes. What remains is
+      maintained technology rather than understood technology.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Testaments, Oracles, Jargon, Technical Castes, Auditors]
+  # ─── end Sixth Testament ───
+
+  # ═══ Seventh Testament ═══
+  Seventh Testament:
+    category: concept
+    short: "The last legitimate Testament—transmitted in the Jargon before the catastrophic Eighth."
+    details: |
+      The Seventh Testament was the final comprehensible transmission. The Seventh
+      Auditor, visible on 47-minute cycles in Cenotaph Hall, still receives echoes
+      of this Testament. What followed—the Eighth Testament—was false mathematics
+      that the Technical Castes could not implement, leading to catastrophe.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Testaments, Oracles, Jargon, Technical Castes, Eighth Testament, Auditors]
+  # ─── end Seventh Testament ───
+
   # ═══ Quiet Days ═══
   Quiet Days:
     category: event
@@ -11650,6 +12219,97 @@ entries:
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Oracle Cult, Testaments, Seven-Cornered Examination]
   # ─── end Seven Virtues ───
+
+  # ═══ Initiation ═══
+  Initiation:
+    category: concept
+    aliases: [First Virtue]
+    short: "First of the Seven Virtues, derived from the First Testament—begin what must be done."
+    details: |
+      The virtue of beginning, of taking action when action is required. Associated with
+      the First Testament and the First Oracle. Tested in the Seven-Cornered Examination.
+      Conservative interpretation emphasizes duty; progressive emphasizes initiative.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Seven Virtues, First Testament, Oracle Cult]
+  # ─── end Initiation ───
+
+  # ═══ Dominion ═══
+  Dominion:
+    category: concept
+    aliases: [Second Virtue]
+    short: "Second of the Seven Virtues, derived from the Second Testament—rule is obligation, not privilege."
+    details: |
+      The virtue of leadership as burden. Those who command must serve those they command.
+      Associated with the Second Testament and Compulsion itself. Conservative interpretation
+      emphasizes hierarchy; progressive emphasizes responsibility to the ruled.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Seven Virtues, Second Testament, Oracle Cult, Compulsion]
+  # ─── end Dominion ───
+
+  # ═══ Adjudication ═══
+  Adjudication:
+    category: concept
+    aliases: [Third Virtue]
+    short: "Third of the Seven Virtues, derived from the Third Testament—bilateral symmetry in law."
+    details: |
+      The virtue of fair judgment. Laws must apply equally; precedent must be followed exactly.
+      Associated with the Third Testament and the Bureau of the Scale. Conservative interpretation
+      emphasizes literal precedent; progressive emphasizes underlying principles.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Seven Virtues, Third Testament, Oracle Cult, Bureau of the Scale]
+  # ─── end Adjudication ───
+
+  # ═══ Insight ═══
+  Insight:
+    category: concept
+    aliases: [Fourth Virtue]
+    short: "Fourth of the Seven Virtues, derived from the Fourth Testament—speak only what can be proven."
+    details: |
+      The virtue of verified knowledge. Claims require evidence; speculation is dangerous.
+      Associated with the Fourth Testament and the Bureau of the Lens. Conservative interpretation
+      emphasizes classification; progressive emphasizes transparency within verification.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Seven Virtues, Fourth Testament, Oracle Cult, Bureau of the Lens]
+  # ─── end Insight ───
+
+  # ═══ Endeavour ═══
+  Endeavour:
+    category: concept
+    aliases: [Fifth Virtue]
+    short: "Fifth of the Seven Virtues, derived from the Fifth Testament—work despite uncertainty."
+    details: |
+      The virtue of persistence. Continue the work even when outcomes are unclear.
+      Associated with the Fifth Testament and the Bureau of the Rod. Conservative interpretation
+      emphasizes following procedures; progressive emphasizes adaptive problem-solving.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Seven Virtues, Fifth Testament, Oracle Cult, Bureau of the Rod]
+  # ─── end Endeavour ───
+
+  # ═══ Reflection ═══
+  Reflection:
+    category: concept
+    aliases: [Sixth Virtue]
+    short: "Sixth of the Seven Virtues, derived from the Sixth Testament—contemplate before acting."
+    details: |
+      The virtue of careful consideration. Hasty action causes harm; deliberation prevents error.
+      Associated with the Sixth Testament. Conservative interpretation emphasizes tradition;
+      progressive emphasizes evidence-based reconsideration of assumptions.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Seven Virtues, Sixth Testament, Oracle Cult]
+  # ─── end Reflection ───
+
+  # ═══ Order ═══
+  Order:
+    category: concept
+    aliases: [Seventh Virtue]
+    short: "Seventh of the Seven Virtues, derived from the Seventh Testament—hierarchy maintains harmony."
+    details: |
+      The virtue of structure. Proper arrangement of society prevents chaos and suffering.
+      Associated with the Seventh Testament. The most politically contested virtue—conservative
+      interpretation emphasizes caste hierarchy; progressive emphasizes functional coordination.
+    rag_pointer: "The Oracle Cult: A Comprehensive Guide"
+    related: [Seven Virtues, Seventh Testament, Oracle Cult]
+  # ─── end Order ───
 
   # ═══ Kalbat ═══
   Kalbat:
@@ -11764,6 +12424,23 @@ entries:
     rag_pointer: The Penitents
     related: [Penitent Church, Bureau of the Coin]
   # ─── end Capitation Tax ───
+
+  # ═══ Third Suppression ═══
+  Third Suppression:
+    category: concept
+    short: "Historical uprising whose classified details created legal precedents protecting the Penitent Church."
+    details: |
+      The Bureau of the Lens attempted to suppress the Penitent Church and the
+      resulting uprising proved more destabilizing than accommodation. The exact
+      events remain classified, but the legal precedents are clear: the Church
+      may maintain parallel documentation systems (baptismal certificates, marriage
+      records, burial registrations) that legally supersede Bureau requirements for
+      religious purposes. This creates identity recognition for undocumented
+      populations—refugees, deserters, failed clone lines—that the Bureau refuses
+      to acknowledge. The Bureau tolerates this because the alternative proved worse.
+    rag_pointer: "The Penitents"
+    related: [Penitent Church, Bureau of the Lens, Capitation Tax]
+  # ─── end Third Suppression ───
 
   # ═══ Intercessor ═══
   Intercessor:
@@ -15304,6 +15981,7 @@ entries:
   Institute of the Lattice:
     alias: [Lattice]
     category: organization
+    parent: Bureau of the Lens
     short: "Lens subdivision maintaining cryptographic infrastructure—mathematicians approaching understanding of the Jargon."
     details: |
       Accepts perhaps a dozen applicants annually who vanish into Archive depths. 
@@ -15315,6 +15993,95 @@ entries:
     rag_pointer: "Bureau of the Lens: Complete Documentation"
     related: [Bureau of the Lens, Jargon, Threefold Mirror Academy, Technical Castes]
   # ─── end Institute of the Lattice ───
+
+  # ═══ Institute for the Suppression of Knowledge ═══
+  Institute for the Suppression of Knowledge:
+    category: organization
+    parent: Bureau of the Lens
+    short: "Lens subdivision that makes dangerous information unfindable—cultivates cognitive deficits in its staff."
+    details: |
+      ISK staff are selected for ability to NOT process certain information patterns.
+      They can approach dangerous knowledge without comprehending it. Files are not
+      destroyed but made progressively more difficult to locate—each reference leads
+      to another reference in an infinite regress. Staff develop "documentary syndrome"
+      and reality displacement from years spent managing information they cannot read.
+    rag_pointer: "Bureau of the Lens: Complete Documentation"
+    related: [Bureau of the Lens, Institute of Imperial Record, Black Sheet]
+  # ─── end Institute for the Suppression of Knowledge ───
+
+  # ═══ Institute of Imperial Record ═══
+  Institute of Imperial Record:
+    category: organization
+    parent: Bureau of the Lens
+    short: "Lens subdivision that produces harmonized warrants—rewrites causality so contradictions never existed."
+    details: |
+      When historical facts contradict current Imperial positions, IIR produces
+      documentation showing reality was always as it now needs to be. They do not
+      falsify records—they create complete paper trails demonstrating the "correct"
+      version. The target of harmonization genuinely cannot prove what happened,
+      because all documentation supports the harmonized version.
+    rag_pointer: "Bureau of the Lens: Complete Documentation"
+    related: [Bureau of the Lens, Institute for the Suppression of Knowledge, White Sheet]
+  # ─── end Institute of Imperial Record ───
+
+  # ═══ Institute of Informational Orthodoxy ═══
+  Institute of Informational Orthodoxy:
+    category: organization
+    parent: Bureau of the Lens
+    short: "Lens subdivision enforcing correct interpretation of public information—manages Grey Sheet contradictions."
+    details: |
+      IIO does not suppress information but ensures it is interpreted correctly.
+      They monitor public discourse for dangerous patterns of synthesis—individual
+      facts may be known, but certain combinations are prohibited. Staff are trained
+      to identify when true statements arranged in certain orders constitute heresy.
+    rag_pointer: "Bureau of the Lens: Complete Documentation"
+    related: [Bureau of the Lens, Grey Sheet, White Sheet]
+  # ─── end Institute of Informational Orthodoxy ───
+
+  # ═══ Institute of Domestic Intelligence ═══
+  Institute of Domestic Intelligence:
+    category: organization
+    parent: Bureau of the Lens
+    short: "Lens subdivision monitoring internal populations—operates network of assets and informants."
+    details: |
+      IDI maintains surveillance of Imperial subjects through human assets rather
+      than technical means. Cannot penetrate what ya-Tsatsa's Threefold Mirror
+      Academy teaches—their graduates are immune to interrogation even under
+      Compulsion. Asset networks include Registry clerks, guild servants, and
+      household staff. Targets who know they are watched but not by whom.
+    rag_pointer: "Bureau of the Lens: Complete Documentation"
+    related: [Bureau of the Lens, Institute of the Eye, Threefold Mirror Academy]
+  # ─── end Institute of Domestic Intelligence ───
+
+  # ═══ Institute of the Eye ═══
+  Institute of the Eye:
+    category: organization
+    parent: Bureau of the Lens
+    short: "Lens subdivision operating technical surveillance infrastructure—maintains watching-stations and scrying pools."
+    details: |
+      Technical rather than human surveillance. Operates watching-stations throughout
+      the arcology and maintains scrying pools that can observe distant locations.
+      Limited by pre-Interdict technology that cannot be replicated—each loss of
+      capability is permanent. Works in parallel with Institute of Domestic Intelligence
+      (human assets) but the two institutes do not share methodology or personnel.
+    rag_pointer: "Bureau of the Lens: Complete Documentation"
+    related: [Bureau of the Lens, Institute of Domestic Intelligence]
+  # ─── end Institute of the Eye ───
+
+  # ═══ Institute of the Echo ═══
+  Institute of the Echo:
+    category: organization
+    parent: Bureau of the Lens
+    short: "Lens subdivision managing communications infrastructure—controls what can be said across distances."
+    details: |
+      Operates the speaking-stones, courier networks, and semaphore chains that
+      enable long-distance communication. All messages passing through official
+      channels are logged. The Institute does not typically read messages but
+      maintains the capability—and the knowledge that they MIGHT read creates
+      self-censorship. Unofficial communication exists but is slower and less reliable.
+    rag_pointer: "Bureau of the Lens: Complete Documentation"
+    related: [Bureau of the Lens, Speaking-Stones]
+  # ─── end Institute of the Echo ───
 
   # ═══ Shtetl ═══
   Shtetl:
@@ -15426,18 +16193,6 @@ entries:
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Furnaces, es-Kiral, es-Etaie, es-Vorath, Order of St. Akhmet]
   # ─── end Furnace Board ───
-
-  # ═══ Institute of Flow ═══
-  Institute of Flow:
-    category: organization
-    short: "Bureau of the Rod technical arm in ya-Don, controlled by es-Vorath family."
-    details: |
-      Manages cooling system patents essential for Furnace operation. The recursive 
-      relationship—cooling systems producing cooling systems—makes this facility both 
-      essential and vulnerable. Located in the Coolant District.
-    rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [ya-Don, Coolant District, es-Vorath, Bureau of the Rod]
-  # ─── end Institute of Flow ───
 
   # ═══ es-Kiral ═══
   es-Kiral:
@@ -15580,6 +16335,40 @@ entries:
     related: [Technical Castes, Arbitrary Truths, Archons]
   # ─── end Jargon ───
 
+  # ═══ Autofactory ═══
+  Autofactory:
+    category: concept
+    aliases: [Autofactories]
+    short: "Pre-Interdict autonomous manufacturing systems—still operating in some regions, producing goods no one fully understands."
+    details: |
+      Self-maintaining factories constructed before the Interdict by the Technical Castes
+      or their precursors. The primary functioning autofactory is in Asovoë (ya-Tsovez),
+      controlled by the Medials and benefiting the Avouvar. A SEPARATE malfunctioning
+      autofactory built Ogon's eighty miles of brutalist sprawl—but Ogon is an Akama city
+      controlled by the Junta, NOT an Avouvar settlement. The Asovoë autofactory produces
+      metals, alloys, and components that cannot be manufactured elsewhere. No one living
+      understands its full capabilities. The Avouvar trade its outputs through interface
+      houses like Czernaël Factor-House.
+    rag_pointer: "Region: Asovoë and the Avouvar, The Thousand Kingdoms: Overview"
+    related: [Asovoë, Medial Castes, Avouvar, Ogon, Technical Castes]
+  # ─── end Autofactory ───
+
+  # ═══ Plasma Lance ═══
+  Plasma Lance:
+    category: concept
+    aliases: [Plasma Lances]
+    short: "Pre-Interdict weapons capable of carving molten canyons—maintained by Colonels-Hereditary who often die from operating them."
+    details: |
+      Twenty meters of crystallized mathematics and hostile physics. Can glass an entire
+      cavalry charge, turning targets to radioactive ash. The containment systems degrade
+      unpredictably, and firing one exposes operators to radiological backwash. The es-Norrel
+      Plasma Garden contains seventeen lances; the last firing killed Colonel-Hereditary
+      es-Norrel's mother over three months of bone dissolution. Too dangerous to use,
+      too valuable to abandon.
+    rag_pointer: "Story Vignettes Collection"
+    related: [Colonels-Hereditary, Tam es-Norrel, Aureate]
+  # ─── end Plasma Lance ───
+
   # ═══ Lector ═══
   Lector:
     category: concept
@@ -15597,6 +16386,7 @@ entries:
   # ═══ Occultants ═══
   Occultants:
     category: concept
+    aliases: [Occultant]
     short: "Highborn permanently serving in the First Whorl, sacrificed to temporal compression."
     details: |
       Aureate family members appointed to First Whorl service as the price of their 

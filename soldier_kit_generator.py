@@ -35,7 +35,7 @@ MANUFACTURERS = {
                 "trigger assemblies",
                 "barrel linings (extends service life)",
             ],
-            "notes": "Should have made master a decade ago; politics. His sights are worth their weight in silver. Works aloneâ€”no apprentices, no assistants."
+            "notes": "Should have made master a decade ago; politics. His sights are worth their weight in silver. Works alone—no apprentices, no assistants."
         },
         "Master Vos-Dhal and Sons": {
             "location": "Iron Yards, ya-Sattra",
@@ -55,7 +55,7 @@ MANUFACTURERS = {
                 "pistol rounds (twelve standard calibers)",
                 "artillery shells (chemical propellant)",
             ],
-            "notes": "Penitent-aligned cooperative, not a traditional guild operation. Quality varies by shift supervisorâ€”the good batches are marked with blue dye."
+            "notes": "Penitent-aligned cooperative, not a traditional guild operation. Quality varies by shift supervisor—the good batches are marked with blue dye."
         },
         "Apprentice Lorshan (under Master Tessoran)": {
             "location": "Fourth Whorl, ya-Sattra",
@@ -181,7 +181,7 @@ MANUFACTURERS = {
             "political": "Dawn"
         },
         "House Tal-Omir": {
-            "location": "Merchant Terraces, Tahoâ€”workshops overlooking the harbor",
+            "location": "Merchant Terraces, Taho—workshops overlooking the harbor",
             "specialty": "Quality weapons for merchant guards",
             "products": [
                 "Tal-Omir rifle (.40 caliber, blued steel, walnut stock)",
@@ -204,7 +204,7 @@ MANUFACTURERS = {
             "political": "neutral"
         },
         "Taho Metalworkers' Collective": {
-            "location": "Industrial terraces, Tahoâ€”former textile mills converted after the War",
+            "location": "Industrial terraces, Taho—former textile mills converted after the War",
             "specialty": "Dragoon equipment",
             "products": [
                 "culverin components (seventy percent domestic)",
@@ -223,7 +223,7 @@ MANUFACTURERS = {
                 "signal mirrors (heliograph quality)",
                 "binoculars (field grade)",
             ],
-            "notes": "Single-name familyâ€”no kilit marker, but wealthy anyway. Forty workers, irreplaceable expertise. Waiting list for military contracts.",
+            "notes": "Single-name family—no kilit marker, but wealthy anyway. Forty workers, irreplaceable expertise. Waiting list for military contracts.",
             "political": "neutral"
         },
         "High Junction Armorers' Congress": {
@@ -258,15 +258,15 @@ MANUFACTURERS = {
                 "technical documentation",
                 "proof-of-concept designs",
             ],
-            "notes": "Not a commercial producerâ€”a laboratory. Where captured culverins go to be understood. State-funded.",
+            "notes": "Not a commercial producer—a laboratory. Where captured culverins go to be understood. State-funded.",
             "political": "state"
         },
     },
     
     # AVOUVAR MANUFACTURERS - Terminal outputs and trade interfaces
     "avouvar": {
-        "VesztraÃ«lin Terminal Alpha": {
-            "location": "Garrison District, AsovoÃ«",
+        "Vesztraëlin Terminal Alpha": {
+            "location": "Garrison District, Asovoë",
             "specialty": "Armor alloys",
             "products": [
                 "armor alloy ingots (Warborn-grade, stops penetrators)",
@@ -274,8 +274,8 @@ MANUFACTURERS = {
             ],
             "notes": "Autofactory terminal, not conventional manufacturing. Production follows Medial schedules. May run for years, then stop for a decade."
         },
-        "VesztraÃ«lin Terminal Gamma": {
-            "location": "Garrison District, AsovoÃ«",
+        "Vesztraëlin Terminal Gamma": {
+            "location": "Garrison District, Asovoë",
             "specialty": "Volatile compounds",
             "products": [
                 "oxidizers and propellants",
@@ -284,17 +284,17 @@ MANUFACTURERS = {
             ],
             "notes": "Smaller and more erratic than Alpha. Requires careful handling."
         },
-        "DroÃ«van Primary Terminal": {
-            "location": "Garrison District, AsovoÃ«",
+        "Droëvan Primary Terminal": {
+            "location": "Garrison District, Asovoë",
             "specialty": "Electromagnetic components",
             "products": [
                 "capacitors (railgun grade)",
                 "electromagnets (various sizes)",
                 "charging systems",
             ],
-            "notes": "Essential for railgun maintenance throughout AsovoÃ«. When this terminal stops, everyone's weapons degrade."
+            "notes": "Essential for railgun maintenance throughout Asovoë. When this terminal stops, everyone's weapons degrade."
         },
-        "CzernaÃ«l Factor-House": {
+        "Czernaël Factor-House": {
             "location": "San Juan Islands (trade interface)",
             "specialty": "Export processing",
             "products": [
@@ -330,7 +330,7 @@ SOLDIER_KITS = {
             "teeth (filed sharp, tradition)",
         ],
         "armor": [
-            "partial plate (ceramic over synthetic fiber, covers vitals onlyâ€”regeneration handles the rest)",
+            "partial plate (ceramic over synthetic fiber, covers vitals only—regeneration handles the rest)",
             "bone armor (natural calcium plates visible through skin, no external covering)",
             "heavy coat (synthetic fiber, ablative layer, symbolic more than protective)",
         ],
@@ -341,13 +341,13 @@ SOLDIER_KITS = {
             "cohort identification tags (forty names, most crossed out)",
         ],
         "personal_items": [
-            "letters to crÃ¨che-nurse (never sent)",
+            "letters to crèche-nurse (never sent)",
             "bone dice (carved from a cohort-brother's remains)",
             "Oracle prayer beads (every battlefield decision recorded)",
             "nothing (possessions are sentiment; sentiment is weakness)",
         ],
         "condition": [
-            "Equipment immaculateâ€”Mutterer maintenance, Companion supervision",
+            "Equipment immaculate—Mutterer maintenance, Companion supervision",
             "Weapon shows heat scoring from recent action",
             "Armor bears impact craters that would have killed baseline soldiers",
             "Everything functional; Warborn don't keep broken equipment or broken soldiers",
@@ -386,7 +386,7 @@ SOLDIER_KITS = {
             "single photograph (cohort at decanting, eight of forty remain)",
         ],
         "condition": [
-            "Equipment worn but functionalâ€”field maintenance",
+            "Equipment worn but functional—field maintenance",
             "Everything matte black, non-reflective",
             "Blood stains that won't quite wash out",
             "Weapon cleaning kit more used than the weapon itself",
@@ -425,7 +425,7 @@ SOLDIER_KITS = {
             "nothing personal (the body is enough burden)",
         ],
         "condition": [
-            "Equipment scratched and dentedâ€”absorbs the recoil others can't",
+            "Equipment scratched and dented—absorbs the recoil others can't",
             "Weapon stock shaped to fit arthritic grip",
             "Armor modified as the body calcified",
             "Everything reinforced; they know what's coming",
@@ -464,7 +464,7 @@ SOLDIER_KITS = {
             "running journal (logging every stretch, looking for patterns)",
         ],
         "condition": [
-            "Everything lightweight and securedâ€”nothing can rattle",
+            "Everything lightweight and secured—nothing can rattle",
             "Worn smooth from constant movement",
             "Straps adjusted for perfect fit",
             "Tendons either hold or they don't; the kit won't change that",
@@ -478,7 +478,7 @@ SOLDIER_KITS = {
         "primary_weapons": [
             "chemical rifle (Master Kavek pattern, .42 caliber, if your unit has the contract)",
             "chemical rifle (.45 caliber, older than the soldier, maker's mark worn away)",
-            "chemical rifle (.38 caliber, Apprentice Lorshan workâ€”cheap, adequate)",
+            "chemical rifle (.38 caliber, Apprentice Lorshan work—cheap, adequate)",
             "chemical rifle (no maker's mark, assembled from three different weapons)",
         ],
         "secondary_weapons": [
@@ -505,7 +505,7 @@ SOLDIER_KITS = {
             "small idol (Oracle or Penitent, usually both)",
         ],
         "condition": [
-            "Equipment mismatchedâ€”different procurement batches",
+            "Equipment mismatched—different procurement batches",
             "Rifle bore worn but functional",
             "Uniform patched in three places",
             "Everything carried has a story; nothing was issued that didn't require effort to acquire",
@@ -544,7 +544,7 @@ SOLDIER_KITS = {
             "second small bribe (the first one doesn't always work)",
         ],
         "condition": [
-            "Equipment well-maintainedâ€”inspection happens",
+            "Equipment well-maintained—inspection happens",
             "Truncheon shows impact wear",
             "Boots resoled twice",
             "Everything practical; flash draws attention from supervisors and criminals both",
@@ -571,7 +571,7 @@ SOLDIER_KITS = {
             "Ganati pistol (import, better quality, status symbol)",
         ],
         "armor": [
-            "autofactory alloy plate (CzernaÃ«l Factor-House import, heavy but stops penetrators)",
+            "autofactory alloy plate (Czernaël Factor-House import, heavy but stops penetrators)",
             "ceramic plates over destrier-leather (traditional, lighter)",
             "boiled leather with iron reinforcement (Old Tseng's boys, adequate)",
             "salvaged Imperial ceramic (Gorvan Salvage fitting, works anyway)",
@@ -591,7 +591,7 @@ SOLDIER_KITS = {
         "condition": [
             "Armor tells a story through damage and repair",
             "Gouge notched from use, edge recently touched up",
-            "Equipment weathered but cared forâ€”Akama aesthetic",
+            "Equipment weathered but cared for—Akama aesthetic",
             "Destrier tack immaculate (you neglect your mount, you die)",
         ],
     },
@@ -630,7 +630,7 @@ SOLDIER_KITS = {
             "Khan's favor token (for distinguished service)",
         ],
         "condition": [
-            "Equipment functional, not fancyâ€”infantry don't get the good stuff",
+            "Equipment functional, not fancy—infantry don't get the good stuff",
             "Shield shows sword cuts",
             "Rifle borrowed from a dead cavalry rider",
             "Everything carried, nothing pretty",
@@ -657,7 +657,7 @@ SOLDIER_KITS = {
             "camouflage cloak (local vegetation pattern)",
         ],
         "equipment": [
-            "map case (often emptyâ€”knowledge is in the head)",
+            "map case (often empty—knowledge is in the head)",
             "signal mirror",
             "fire-starting kit",
             "minimal rations (forage supplemented)",
@@ -692,7 +692,7 @@ SOLDIER_KITS = {
         ],
         "armor": [
             "ceramic plates over leather (need protection when dismounted)",
-            "autofactory alloy breastplate (CzernaÃ«l import, expensive, worth it)",
+            "autofactory alloy breastplate (Czernaël import, expensive, worth it)",
             "heavy leather with iron studs (traditional, adequate)",
         ],
         "equipment": [
@@ -750,10 +750,10 @@ SOLDIER_KITS = {
             "family correspondence (building connections for after service)",
         ],
         "condition": [
-            "Equipment standardizedâ€”Republican logistics work",
+            "Equipment standardized—Republican logistics work",
             "Well-maintained (professional force)",
             "Uniform shows service years through wear patterns",
-            "Horse equipment matches rider qualityâ€”the Guard provides",
+            "Horse equipment matches rider quality—the Guard provides",
         ],
     },
     
@@ -789,7 +789,7 @@ SOLDIER_KITS = {
             "political pamphlet (Dawn or Dusk, always one)",
         ],
         "condition": [
-            "Equipment uniformâ€”Republican standardization",
+            "Equipment uniform—Republican standardization",
             "Everything numbered and tracked",
             "Replacement parts available through proper channels",
             "Professional maintenance; the Guard has logistics that work",
@@ -830,7 +830,7 @@ SOLDIER_KITS = {
         "condition": [
             "Equipment varies wildly by kilit wealth",
             "Rifle may not have been fired since last year's training",
-            "Personal items reveal real lifeâ€”this is obligation, not career",
+            "Personal items reveal real life—this is obligation, not career",
             "Uniform doesn't quite fit (it's communal)",
         ],
     },
@@ -867,7 +867,7 @@ SOLDIER_KITS = {
             "retirement fund statement (merchant houses pay well)",
         ],
         "condition": [
-            "Equipment best qualityâ€”merchant profit buys good gear",
+            "Equipment best quality—merchant profit buys good gear",
             "Uniform shows house colors",
             "Everything maintained by house armorers",
             "Professional appearance required; representing the house",
@@ -879,7 +879,7 @@ SOLDIER_KITS = {
     # =========================================================================
     "avouvar_house_fighter": {
         "name": "Avouvar House Fighter",
-        "polity": "AsovoÃ«",
+        "polity": "Asovoë",
         "function": "House defense, feud operations",
         "primary_weapons": [
             "carbine (scaled for Avouvar hands, custom manufacture)",
@@ -893,7 +893,7 @@ SOLDIER_KITS = {
         ],
         "armor": [
             "autofactory alloy vest (local production, excellent quality)",
-            "ceramic plates (VesztraÃ«lin terminal output)",
+            "ceramic plates (Vesztraëlin terminal output)",
             "light armor (mobility in corridors)",
         ],
         "equipment": [
@@ -909,7 +909,7 @@ SOLDIER_KITS = {
             "antique from better times (house heirloom)",
         ],
         "condition": [
-            "Equipment excellentâ€”autofactory terminals provide",
+            "Equipment excellent—autofactory terminals provide",
             "Sized for Avouvar frames (smaller than baseline)",
             "Everything adapted from Warborn originals",
             "Maintained obsessively; equipment failure is death",
@@ -918,7 +918,7 @@ SOLDIER_KITS = {
     
     "avouvar_emplacement_crew": {
         "name": "Avouvar Railgun Crew",
-        "polity": "AsovoÃ«",
+        "polity": "Asovoë",
         "function": "Fixed emplacement operation",
         "primary_weapons": [
             "Warborn railgun (fixed mount, crew of three)",
@@ -937,7 +937,7 @@ SOLDIER_KITS = {
             "railgun maintenance kit",
             "capacitor test equipment",
             "ammunition inventory",
-            "DroÃ«van terminal requisition forms",
+            "Droëvan terminal requisition forms",
         ],
         "personal_items": [
             "firing log (every shot recorded)",
@@ -947,7 +947,7 @@ SOLDIER_KITS = {
         ],
         "condition": [
             "Personal equipment secondary to weapon system",
-            "Railgun immaculateâ€”house survival depends on it",
+            "Railgun immaculate—house survival depends on it",
             "Capacitors tested daily",
             "Ammunition counted, recounted, counted again",
         ],
@@ -991,7 +991,7 @@ SOLDIER_KITS = {
             "Equipment varies by Colonel-Hereditary wealth",
             "Maintained by garrison armorer (if there is one)",
             "Horse better cared for than soldier",
-            "Everything shows the frontierâ€”patched, adapted, adequate",
+            "Everything shows the frontier—patched, adapted, adequate",
         ],
     },
 }

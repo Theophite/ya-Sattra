@@ -8,7 +8,7 @@ The tables provide:
 
 * Personal name patterns and canonical examples  
 * Aureate lineage names (for es- construction)  
-* Family name suffixes by type (-en, \-sÄ«r, \-ir, \-mar)  
+* Family name suffixes by type (-en, \-sīr, \-ir, \-mar)  
 * Productive affixes you can attach to any plausible stem  
 * Tsatsan components (Jargon-derived, do not mix with Imperial roots)  
 * Homiletic name components (Common Plea liturgical names)
@@ -30,7 +30,7 @@ This section provides the sound inventory and construction rules for generating 
 | Type | Sounds | Notes |
 | ----- | ----- | ----- |
 | Stops | p, b, t, d, k, g | All common; k appears frequently |
-| Fricatives | s, sh, th, v, h | th (/ÃŽÂ¸/) is distinctive; appears in names like Thabit, Orath |
+| Fricatives | s, sh, th, v, h | th (/θ/) is distinctive; appears in names like Thabit, Orath |
 | Nasals | m, n | Very common, especially word-finally |
 | Liquids | l, r | Extremely common; r is a light tap, not trilled |
 | Glides | y | Occasional |
@@ -48,7 +48,7 @@ This section provides the sound inventory and construction rules for generating 
 | u | Less common |
 | ai, oi | Diphthongs appear in some names (Morai) |
 
-Vowels are pronounced clearly and fullyâ€”standard Imperial doesn't reduce unstressed vowels the way Tsatsan does.
+Vowels are pronounced clearly and fully—standard Imperial doesn't reduce unstressed vowels the way Tsatsan does.
 
 ### **Syllable Structure**
 
@@ -98,19 +98,19 @@ Imperial uses particles to mark grammatical and social categories:
 
 ## **II. Aureate Naming**
 
-The Aureate system marks authenticated descent from a specific First Whorl occultant. The es- particle is not honorific or optionalâ€”it is a verifiable claim about bloodline, confirmed through the authentication systems that pervade Imperial society.
+The Aureate system marks authenticated descent from a specific First Whorl occultant. The es- particle is not honorific or optional—it is a verifiable claim about bloodline, confirmed through the authentication systems that pervade Imperial society.
 
 ### **The es- Particle**
 
 **Absolutely obligatory.** The es- particle cannot be dropped, shortened, or omitted in any context. When an Aureate introduces themselves, they include the full particle: "Lira es-Ophar," never "Lira Ophar."
 
-The es-Etaie family's systematic shortening to "Etaie" is the exception that proves the ruleâ€”and even this is considered unusual, a marker of that family's particular eccentricities rather than acceptable practice.
+The es-Etaie family's systematic shortening to "Etaie" is the exception that proves the rule—and even this is considered unusual, a marker of that family's particular eccentricities rather than acceptable practice.
 
 **Names always verify.** Authentication failure is not a social concern because proper nouns always authenticate through the Lector systems. A name either parses correctly or it does not exist as a name. There is no anxiety about verification because the system works.
 
 ### **Lineage Names**
 
-The name following es- is the occultant's nameâ€”the person who entered the First Whorl and whose authenticated bloodline now extends through their descendants.
+The name following es- is the occultant's name—the person who entered the First Whorl and whose authenticated bloodline now extends through their descendants.
 
 **Canonical lineages:**
 
@@ -125,7 +125,7 @@ The name following es- is the occultant's nameâ€”the person who entered the
 * es-Kelthen  
 * es-Orem
 
-The lineage name carries the history of that family's occultantâ€”their entry into the First Whorl, their sacrifice, the temporal distortion that makes them simultaneously ancestor and living presence.
+The lineage name carries the history of that family's occultant—their entry into the First Whorl, their sacrifice, the temporal distortion that makes them simultaneously ancestor and living presence.
 
 ### **Kinship Terminology**
 
@@ -138,7 +138,7 @@ Aureate address encodes temporal sacrifice into language:
 | Pater | Father | Male house head |
 | Matrice | Little grandmother | Female house head |
 
-The occultant is always "grandfather" or "grandmother" because they exist in a different temporal relationship to their descendantsâ€”simultaneously ancient ancestor and living presence in the First Whorl. The terminology encodes the impossible kinship that occultation creates.
+The occultant is always "grandfather" or "grandmother" because they exist in a different temporal relationship to their descendants—simultaneously ancient ancestor and living presence in the First Whorl. The terminology encodes the impossible kinship that occultation creates.
 
 ### **Formal Address Patterns**
 
@@ -165,7 +165,7 @@ Examples:
 
 ### **Fallen Families**
 
-Rare, but when an Aureate family loses its statusâ€”through disgrace, extinction of the authenticated line, or catastrophic misfortuneâ€”the survivors take the **\-im patronymic** and drop the es- particle entirely.
+Rare, but when an Aureate family loses its status—through disgrace, extinction of the authenticated line, or catastrophic misfortune—the survivors take the **\-im patronymic** and drop the es- particle entirely.
 
 This creates deliberate ambiguity. A name like "Opharim" might be:
 
@@ -195,66 +195,66 @@ Bureau officials are addressed by their instrument: "Sri Taasar" (honored rod-us
 | Scale | Themalsar | **Themalsaren** |
 | Creche | Varemgir | **Varemgiren** |
 
-Farmers have status; kengir (origin-tender) can be an honorific: **Kengiren** â€” farmer family
+Farmers have status; kengir (origin-tender) can be an honorific: **Kengiren** — farmer family
 
-### **Professional Agent Names (-sÄ«r / \-ir)**
+### **Professional Agent Names (-sīr / \-ir)**
 
-The suffix **\-sÄ«r** is the polite/formal way to refer to anyone's job. These become family names, either in full or reduced form:
+The suffix **\-sīr** is the polite/formal way to refer to anyone's job. These become family names, either in full or reduced form:
 
 **Full form (retains diacritic):**
 
-* **VordasÄ«r** â€” dockworker family  
-* **KemdasÄ«r** â€” miner family  
-* **MasdasÄ«r** â€” mason family  
-* **TalessÄ«r** â€” assessor family
+* **Vordasīr** — dockworker family  
+* **Kemdasīr** — miner family  
+* **Masdasīr** — mason family  
+* **Talessīr** — assessor family
 
 **Reduced form (-ir):**
 
 * **Sahir**, **Talir**, **Kelir**, **Dalir**
 
-Names ending in \-ir that echo \-sÄ«r suggest professional lineage, even when the original role is forgotten.
+Names ending in \-ir that echo \-sīr suggest professional lineage, even when the original role is forgotten.
 
 ### **Management Names (-mar / \-ar)**
 
-The suffix **\-mar** means "accountable for \[X\]"â€”effectively, management:
+The suffix **\-mar** means "accountable for \[X\]"—effectively, management:
 
-* **Donmar** â€” don.mar (accountable for distribution)  
-* **Velmar** â€” vel.mar (accountable for harmonization)
+* **Donmar** — don.mar (accountable for distribution)  
+* **Velmar** — vel.mar (accountable for harmonization)
 
 Compound forms with \-velmar often contract:
 
-* **Adelmar**, **Delmar** â€” from \-velmar, marking judicial management lineages  
-* **Kevelmar** â€” accountable for threshold-judgments (border decisions)  
-* **Tavelmar** â€” accountable for measure-judgments (fiscal auditing)
+* **Adelmar**, **Delmar** — from \-velmar, marking judicial management lineages  
+* **Kevelmar** — accountable for threshold-judgments (border decisions)  
+* **Tavelmar** — accountable for measure-judgments (fiscal auditing)
 
 ### **Root Compounds**
 
 Two roots combining directly:
 
-* **Imeten** â€” imet.ten (record-holder), archivists
+* **Imeten** — imet.ten (record-holder), archivists
 
 ### **Archaic Suffixes**
 
 Old suffixes that are no longer productive:
 
-* **Morai** â€” mor.ai (completion \+ archaic agentive), funerary/executor lineages  
-* **Tariq** â€” contains archaic \-iq  
-* **Opharim** â€” Ophar \+ \-im (possibly collective or filial)  
-* **Tarigan** â€” Tariq \+ \-gan (possibly filial)
+* **Morai** — mor.ai (completion \+ archaic agentive), funerary/executor lineages  
+* **Tariq** — contains archaic \-iq  
+* **Opharim** — Ophar \+ \-im (possibly collective or filial)  
+* **Tarigan** — Tariq \+ \-gan (possibly filial)
 
 ### **Lower-Class Name Markers**
 
-Some naming patterns are distinctly associated with poverty and low status. You might meet a VordasÄ«r in the Medina Quarter, but a Fen almost certainly lives in the Rotten Quarter.
+Some naming patterns are distinctly associated with poverty and low status. You might meet a Vordasīr in the Medina Quarter, but a Fen almost certainly lives in the Rotten Quarter.
 
 **Non-Imperial Names:** Names that don't decompose into Imperial morphology. These derive from languages absorbed during expansion or predating Imperial dominance:
 
 * **Hasket**, **Loak**, Brend, Ostir, Kavven, Polm, Thurrick
 
-**Detached Suffix Names:** Very old namesâ€”single affixes once attached to personal names (sword-bearer, burden-carrier) that have since become detached. The original personal names were lost; the suffix became the family identity:
+**Detached Suffix Names:** Very old names—single affixes once attached to personal names (sword-bearer, burden-carrier) that have since become detached. The original personal names were lost; the suffix became the family identity:
 
 * **Venn**, **Cho**, **Fen**, Kar, Pol, Eth, Ren, Thos
 
-**Truncated Compounds:** Calcified fragments that are no longer parsed. They signal working-class origin without the polish of a full \-sÄ«r form:
+**Truncated Compounds:** Calcified fragments that are no longer parsed. They signal working-class origin without the polish of a full \-sīr form:
 
 * **Vordal**, **Kemdal**, **Masdal**
 
@@ -265,7 +265,7 @@ Some naming patterns are distinctly associated with poverty and low status. You 
 **Family names (by type):**
 
 * Bureau: Taasaren, Sharsaren, Pelamsaren, Orathsaren, Themalsaren, Varemgiren  
-* Professional: VordasÄ«r, KemdasÄ«r, TalessÄ«r, Sahir, Talir  
+* Professional: Vordasīr, Kemdasīr, Talessīr, Sahir, Talir  
 * Management: Donmar, Velmar, Adelmar, Delmar  
 * Archaic: Imeten, Brennam, Orath  
 * Lower-class: Hasket, Loak, Venn, Fen, Vordal
@@ -280,7 +280,7 @@ Clone naming follows distinct patterns depending on the cloneline's status and a
 
 Higher-status clonelines follow the ancient pattern of compound names where both elements are meaningful roots:
 
-**Soh Ket** â€” "Soh" is the personal name, "Ket" is the cloneline name. The compound follows patterns like Venn, Fen, where two roots combine into a sensible word.
+**Soh Ket** — "Soh" is the personal name, "Ket" is the cloneline name. The compound follows patterns like Venn, Fen, where two roots combine into a sensible word.
 
 This pattern grants individuality within the cloneline. Each clone has their own personal name while sharing the lineage marker.
 
@@ -288,7 +288,7 @@ This pattern grants individuality within the cloneline. Each clone has their own
 
 Many clonelines use batch designation rather than personal names:
 
-**Moraveth-2** â€” "Moraveth" is the batch name, "2" is the individual number. Her sisters are Moraveth 1-6. Other batches of the same cloneline will have different batch names (Moraveth is not the cloneline name but the batch designation).
+**Moraveth-2** — "Moraveth" is the batch name, "2" is the individual number. Her sisters are Moraveth 1-6. Other batches of the same cloneline will have different batch names (Moraveth is not the cloneline name but the batch designation).
 
 This pattern is common among Sickly populations and other service clonelines where batches are produced for specific purposes.
 
@@ -296,7 +296,7 @@ This pattern is common among Sickly populations and other service clonelines whe
 
 The most abject clonelines share identical names with only numbers distinguishing individuals:
 
-**Semeion-9** â€” All members of this cloneline are "Semeion-\[number\]." There is no personal name, no batch variation.
+**Semeion-9** — All members of this cloneline are "Semeion-\[number\]." There is no personal name, no batch variation.
 
 However, even these clonelines develop nicknames among themselves. A Semeion might be known to her sisters by a private name that never appears in official records.
 
@@ -308,25 +308,25 @@ Ya-Tsatsa, the major northern coastal city near ancient Point Reyes, has develop
 
 ### **Phonology: The Portuguese Pattern**
 
-Tsatsan relates to standard Imperial as Portuguese relates to Spanishâ€”recognizably connected but immediately distinguishable through systematic phonological rules.
+Tsatsan relates to standard Imperial as Portuguese relates to Spanish—recognizably connected but immediately distinguishable through systematic phonological rules.
 
-**Palatalization:** The defining feature. /s/ becomes /ÃŠâ€™/ (the "zh" sound) in most positions:
+**Palatalization:** The defining feature. /s/ becomes /Ê'/ (the "zh" sound) in most positions:
 
-* "yes" â†’ "yezh"  
-* es- â†’ ezh-  
-* Sri â†’ Shi  
-* Avs â†’ Avezh
+* "yes" → "yezh"  
+* es- → ezh-  
+* Sri → Shi  
+* Avs → Avezh
 
 **Aggressive vowel reduction:** Unstressed vowels reduce severely or delete entirely:
 
-* Pater â†’ Petr  
-* Mater â†’ Metr  
-* Matrice â†’ Metrish  
-* Ophar â†’ Ofr
+* Pater → Petr  
+* Mater → Metr  
+* Matrice → Metrish  
+* Ophar → Ofr
 
 **Voicing preference:** Tsatsan favors voiced consonants and softer stop articulation, creating an overall impression of flowing but compressed speech.
 
-**The stereotype:** To ears trained on standard Imperial, Tsatsan sounds "slush-mouthed"â€”softer, less precise, as if the speaker is swallowing syllables. Tsatsans consider this a mark of sophisticated urban culture rather than provincial deviation.
+**The stereotype:** To ears trained on standard Imperial, Tsatsan sounds "slush-mouthed"—softer, less precise, as if the speaker is swallowing syllables. Tsatsans consider this a mark of sophisticated urban culture rather than provincial deviation.
 
 ### **The Ezh Marker**
 
@@ -340,9 +340,9 @@ This immediately marks a family as authentically Tsatsan rather than foreign Aur
 
 **Foreign Aureate names** are compressed through Tsatsan phonology:
 
-* es-Ophar â†’ "Eshofr"  
-* es-Tariq â†’ "Eshtarq"  
-* es-Lahun â†’ "Eshlahn"
+* es-Ophar → "Eshofr"  
+* es-Tariq → "Eshtarq"  
+* es-Lahun → "Eshlahn"
 
 The distinction functions as social boundary:
 
@@ -359,11 +359,11 @@ Outside ya-Tsatsa, speakers typically invert for convenience:
 
 * "An Ezh Tan" when dealing with non-Tsatsans
 
-The choice is strategicâ€”maintaining native ordering asserts regional identity; inverting accommodates outsiders.
+The choice is strategic—maintaining native ordering asserts regional identity; inverting accommodates outsiders.
 
 ### **Personal Names**
 
-Tsatsan personal names derive from Jargon notationâ€”analogous to solfÃ¨ge ("do re mi"). They bear no relationship to Imperial morphology. Modern Tsatsans do not know this origin; the names are analytically opaque, their original meanings forgotten.
+Tsatsan personal names derive from Jargon notation—analogous to solfège ("do re mi"). They bear no relationship to Imperial morphology. Modern Tsatsans do not know this origin; the names are analytically opaque, their original meanings forgotten.
 
 **Monosyllabic elements:** An, Bei, Beb, Mir, Tam, Dho, Fen, Gat, Kho, Neb, Ol, Pek, Tok, Yen, Zho
 
@@ -371,9 +371,9 @@ Tsatsan personal names derive from Jargon notationâ€”analogous to solfÃ¨g
 
 **Hyphenated compounds (melisma-marked):** Beb-Kee, Mir-Kee, Tam-Vel
 
-The hyphen originally marked a melisma in Jargon notationâ€”notes slurred together. Modern pronunciation: first element stressed, second reduced and spoken quickly after.
+The hyphen originally marked a melisma in Jargon notation—notes slurred together. Modern pronunciation: first element stressed, second reduced and spoken quickly after.
 
-**Important:** Tsatsan names do NOT mix with Imperial roots. A character named "An Kel" would be wrongâ€”"Kel" is an Imperial morphological root, not a Jargon-derived syllable.
+**Important:** Tsatsan names do NOT mix with Imperial roots. A character named "An Kel" would be wrong—"Kel" is an Imperial morphological root, not a Jargon-derived syllable.
 
 ### **Family Names**
 
@@ -399,7 +399,7 @@ The hyphen originally marked a melisma in Jargon notationâ€”notes slurred t
 
 ## **VI. Homiletic Naming**
 
-Homiletic names are personal names extracted from the Common Plea, the fifty-four part liturgical cycle of the Penitent Church. Parents select phrases from theological passages as names for their childrenâ€”prayers and aspirations for the child's contribution to humanity's redemption.
+Homiletic names are personal names extracted from the Common Plea, the fifty-four part liturgical cycle of the Penitent Church. Parents select phrases from theological passages as names for their children—prayers and aspirations for the child's contribution to humanity's redemption.
 
 These names are most common in ya-Don, the Empire's industrial center, where approximately 20% of the population carries them. They also appear among Penitent clergy everywhere, and occasionally among political radicals outside ya-Don.
 
@@ -488,17 +488,17 @@ These emphasize the moment of cosmic transformation when the Interdict lifts. Pa
 
 ### **Obligatory Elements**
 
-**es- is never dropped.** Unlike casual register particle-dropping for place names or common nouns, the Aureate marker is absolutely obligatory. Dropping es- is not informalâ€”it is incorrect.
+**es- is never dropped.** Unlike casual register particle-dropping for place names or common nouns, the Aureate marker is absolutely obligatory. Dropping es- is not informal—it is incorrect.
 
 ### **What Outsiders Get Wrong**
 
-**Ganati difficulties:** Ganatis often struggle with Imperial etiquette more broadlyâ€”the fine gradations of social status, the unspoken rules about when formal address is required versus when it would seem stiff, the way particle usage signals class position. A Ganati merchant might use correct grammar while still committing social errors that mark them as foreign: addressing the wrong person first, failing to modulate formality appropriately across a conversation, treating an Aureate's casual manner as invitation to reciprocal casualness when it was actually a test.
+**Ganati difficulties:** Ganatis often struggle with Imperial etiquette more broadly—the fine gradations of social status, the unspoken rules about when formal address is required versus when it would seem stiff, the way particle usage signals class position. A Ganati merchant might use correct grammar while still committing social errors that mark them as foreign: addressing the wrong person first, failing to modulate formality appropriately across a conversation, treating an Aureate's casual manner as invitation to reciprocal casualness when it was actually a test.
 
-**Akama indifference:** Akama wouldn't care about Imperial naming conventions even if they understood them. Achievement-based naming means you earn your name through deeds; hereditary honorifics simply don't register as meaningful. An Akama warband leader addressing an Aureate house head as "Lira" isn't making a pointâ€”the elaborate formal address just isn't something they would think to do.
+**Akama indifference:** Akama wouldn't care about Imperial naming conventions even if they understood them. Achievement-based naming means you earn your name through deeds; hereditary honorifics simply don't register as meaningful. An Akama warband leader addressing an Aureate house head as "Lira" isn't making a point—the elaborate formal address just isn't something they would think to do.
 
 **Addressing above your station:** Using overly casual register with someone who expects formal address is a significant social error. An ambitious provincial addressing an Inner City Aureate as simply "Lira" rather than "Sri Matrice Lira es-Ophar" has immediately revealed their unfamiliarity with metropolitan norms.
 
-**Overcorrection:** Ambitious provincials often overcorrect, using hyper-formal address in contexts where metropolitan speakers would relax. This marks them as trying too hardâ€”legible aspiration that sophisticated urbanites find slightly embarrassing.
+**Overcorrection:** Ambitious provincials often overcorrect, using hyper-formal address in contexts where metropolitan speakers would relax. This marks them as trying too hard—legible aspiration that sophisticated urbanites find slightly embarrassing.
 
 ---
 
@@ -544,7 +544,7 @@ Additional occultant names follow personal name patterns.
 | Creche | Varemgiren |
 | Farmer | Kengiren |
 
-**Professional families (-sÄ«r full form):** VordasÄ«r (dockworker), KemdasÄ«r (miner), MasdasÄ«r (mason), TalessÄ«r (assessor)
+**Professional families (-sīr full form):** Vordasīr (dockworker), Kemdasīr (miner), Masdasīr (mason), Talessīr (assessor)
 
 **Professional families (-ir reduced form):** Sahir, Talir, Kelir, Dalir
 
@@ -569,7 +569,7 @@ You can generate plausible family names by attaching these affixes to any stem t
 | Affix | Signals | Attach to | Examples |
 | ----- | ----- | ----- | ----- |
 | **\-en** | Bureau/honorific profession | Professional title stems | Kelasaren, Thevaren, Morasaren |
-| **\-sÄ«r** / **\-dasÄ«r** | Professional (full, respectable) | Labor/trade stems | TheladasÄ«r, KelmasÄ«r, MorasÄ«r |
+| **\-sīr** / **\-dasīr** | Professional (full, respectable) | Labor/trade stems | Theladasīr, Kelmasīr, Morasīr |
 | **\-ir** | Professional (reduced) | Any stem | Kelir, Thevir, Morir, Selair |
 | **\-mar** | Management | Function stems | Kelmar, Thevamar, Selamar |
 
@@ -577,7 +577,7 @@ You can generate plausible family names by attaching these affixes to any stem t
 
 ### **Tsatsan Components**
 
-Tsatsan names derive from Jargon notationâ€”do NOT mix with Imperial morphological roots.
+Tsatsan names derive from Jargon notation—do NOT mix with Imperial morphological roots.
 
 **Monosyllabic elements:** An, Bei, Beb, Mir, Tam, Dho, Fen, Gat, Kho, Neb, Ol, Pek, Tok, Yen, Zho
 
@@ -603,39 +603,39 @@ Tsatsan names derive from Jargon notationâ€”do NOT mix with Imperial morpho
 
 ## **IX. Example Characters**
 
-**Inner City Aureate:** Sri Matrice Lira es-Ophar â€” female house head of a prominent ya-Sattra family; formal address used by all but intimate family members; the es-Ophar lineage traces to a First Whorl occultant of considerable antiquity
+**Inner City Aureate:** Sri Matrice Lira es-Ophar — female house head of a prominent ya-Sattra family; formal address used by all but intimate family members; the es-Ophar lineage traces to a First Whorl occultant of considerable antiquity
 
-**Provincial Aureate:** Kalen es-Vorath â€” young Aureate from a family with holdings outside the capital; uses full es- particle but may face subtle condescension from metropolitan Aureates who consider provincial branches less sophisticated
+**Provincial Aureate:** Kalen es-Vorath — young Aureate from a family with holdings outside the capital; uses full es- particle but may face subtle condescension from metropolitan Aureates who consider provincial branches less sophisticated
 
-**Fallen Aureate (ambiguous):** Mesca Opharim â€” the \-im suffix might indicate fallen es-Ophar lineage or might simply be an archaic patronymic; Mesca does not clarify, and polite society does not ask
+**Fallen Aureate (ambiguous):** Mesca Opharim — the \-im suffix might indicate fallen es-Ophar lineage or might simply be an archaic patronymic; Mesca does not clarify, and polite society does not ask
 
-**Bureau Family:** Tene Taasaren â€” from a Rod bureau family; the \-en suffix marks administrative lineage; currently works as a junior clerk in Rod offices
+**Bureau Family:** Tene Taasaren — from a Rod bureau family; the \-en suffix marks administrative lineage; currently works as a junior clerk in Rod offices
 
-**Professional Family (full form):** Ravi VordasÄ«r â€” from a dockworker family; the full \-sÄ«r form suggests respectable working-class origins; currently works as a dock supervisor in ya-Sattra
+**Professional Family (full form):** Ravi Vordasīr — from a dockworker family; the full \-sīr form suggests respectable working-class origins; currently works as a dock supervisor in ya-Sattra
 
-**Professional Family (reduced form):** Varan Talir â€” the \-ir ending echoes the \-sÄ«r suffix; probably descended from assessors or measurers, though the connection is no longer parsed
+**Professional Family (reduced form):** Varan Talir — the \-ir ending echoes the \-sīr suffix; probably descended from assessors or measurers, though the connection is no longer parsed
 
-**Management Family:** Kalen Donmar â€” don.mar indicates ancestors accountable for distribution; works in logistics despite the name's administrative connotations
+**Management Family:** Kalen Donmar — don.mar indicates ancestors accountable for distribution; works in logistics despite the name's administrative connotations
 
-**Lower-Class (Non-Imperial name):** Brend Hasket â€” neither name decomposes into Imperial morphology; marks provincial or absorbed-population origins; lives in the Rotten Quarter
+**Lower-Class (Non-Imperial name):** Brend Hasket — neither name decomposes into Imperial morphology; marks provincial or absorbed-population origins; lives in the Rotten Quarter
 
-**Lower-Class (Detached suffix):** Jarek Fen â€” the single-syllable family name marks a family whose history has been substantially erased; Fen was once attached to a personal name now lost
+**Lower-Class (Detached suffix):** Jarek Fen — the single-syllable family name marks a family whose history has been substantially erased; Fen was once attached to a personal name now lost
 
-**Lower-Class (Truncated compound):** Keth Vordal â€” the truncated form lacks the polish of full VordasÄ«r; signals working-class origin without professional respectability
+**Lower-Class (Truncated compound):** Keth Vordal — the truncated form lacks the polish of full Vordasīr; signals working-class origin without professional respectability
 
-**Tsatsan Aureate:** Ezh Tan An â€” family-first ordering in local contexts; "An Ezh Tan" when dealing with outsiders; the Ezh marker immediately identifies her as authentically Tsatsan
+**Tsatsan Aureate:** Ezh Tan An — family-first ordering in local contexts; "An Ezh Tan" when dealing with outsiders; the Ezh marker immediately identifies her as authentically Tsatsan
 
-**Tsatsan Criminal Emigrant:** Mir Yen Tam â€” member of the Yen Tam Beneficial Society operating in ya-Sattra's Iron Yards; maintains Tsatsan accent and naming patterns despite living outside the city
+**Tsatsan Criminal Emigrant:** Mir Yen Tam — member of the Yen Tam Beneficial Society operating in ya-Sattra's Iron Yards; maintains Tsatsan accent and naming patterns despite living outside the city
 
-**Homiletic Worker (ya-Don):** Common-Task Brennam â€” furnace worker whose parents selected a labor-focused name emphasizing collective effort; union member in good standing
+**Homiletic Worker (ya-Don):** Common-Task Brennam — furnace worker whose parents selected a labor-focused name emphasizing collective effort; union member in good standing
 
-**Homiletic Aureate:** Gates-of-Heaven es-Orem â€” unusual combination of mystical homiletic name and Aureate lineage; the transcendent-focused name suggests the family's theological orientation
+**Homiletic Aureate:** Gates-of-Heaven es-Orem — unusual combination of mystical homiletic name and Aureate lineage; the transcendent-focused name suggests the family's theological orientation
 
-**Homiletic Clergy:** Foundation-Stones Taasaren â€” Penitent curate serving in ya-Sattra; the homiletic name is expected for clergy and does not carry the radical implications it would for a layperson
+**Homiletic Clergy:** Foundation-Stones Taasaren — Penitent curate serving in ya-Sattra; the homiletic name is expected for clergy and does not carry the radical implications it would for a layperson
 
-**Clone (personal \+ cloneline):** Soh Ket â€” "Soh" personal name, "Ket" cloneline; follows the ancient compound pattern; treated as an individual within his cloneline
+**Clone (personal \+ cloneline):** Soh Ket — "Soh" personal name, "Ket" cloneline; follows the ancient compound pattern; treated as an individual within his cloneline
 
-**Clone (batch \+ number):** Moraveth-2 â€” Sickly cloneline member; her sisters are Moraveth 1-6; other batches share her cloneline but have different batch names
+**Clone (batch \+ number):** Moraveth-2 — Sickly cloneline member; her sisters are Moraveth 1-6; other batches share her cloneline but have different batch names
 
-**Clone (identical \+ number):** Semeion-9 â€” member of an abject cloneline where all share the same name; distinguished only by number in official records
+**Clone (identical \+ number):** Semeion-9 — member of an abject cloneline where all share the same name; distinguished only by number in official records
 

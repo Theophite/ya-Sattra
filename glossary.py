@@ -833,7 +833,7 @@ def format_scan_report(result: Dict[str, Any], verbose: bool = False) -> str:
             if entry.location_features and entry.location_features.borders:
                 borders = entry.location_features.borders
                 border_str = ", ".join(f"{d}: {', '.join(locs)}" for d, locs in borders.items())
-                lines.append(f"    Ã°Å¸Â§Â­ Borders: {border_str}")
+                lines.append(f"    🧭 Borders: {border_str}")
     
     # Other categories - compact or verbose
     for cat in ["caste", "organization", "concept"]:
@@ -1202,9 +1202,9 @@ def format_path(path: List[str], verbose: bool = False) -> str:
                 lf = entry.location_features
                 # Case-insensitive comparisons
                 if lf.parent and lf.parent.lower() == next_loc.lower():
-                    rel = "â†‘ parent"
+                    rel = "↑ parent"
                 elif any(c.lower() == next_loc.lower() for c in lf.children):
-                    rel = "â†“ child"
+                    rel = "↓ child"
                 else:
                     # Check borders
                     for direction, locs in lf.borders.items():
@@ -1267,6 +1267,553 @@ def graph_stats() -> Dict[str, any]:
         "components": len(components),
         "largest_component": max(len(c) for c in components) if components else 0,
     }
+
+
+# =============================================================================
+# UNIFIED TREE (LOCATIONS AND ORGANIZATIONS)
+# =============================================================================
+
+# Cache for raw YAML data (parent field access)
+_RAW_DATA_CACHE: Dict[str, dict] = {}
+
+
+def _get_raw_data() -> Dict[str, dict]:
+    """Load and cache raw YAML data for parent field access."""
+    global _RAW_DATA_CACHE
+    if not _RAW_DATA_CACHE:
+        yaml_path = Path(__file__).parent / "glossary_data.yaml"
+        try:
+            with open(yaml_path, 'r', encoding='utf-8') as f:
+                import yaml
+                data = yaml.safe_load(f)
+                _RAW_DATA_CACHE = {k.lower(): v for k, v in data.get('entries', {}).items()}
+        except:
+            pass
+    return _RAW_DATA_CACHE
+
+
+def get_children(name: str) -> List[GlossaryEntry]:
+    """Get all entries that have this entry as their parent.
+
+    Works for both locations (via location_features.parent) and
+    organizations (via top-level parent field).
+    """
+    name_lower = name.lower()
+    children = []
+    raw_data = _get_raw_data()
+
+    for entry in ENTRIES.values():
+        # Check location_features.parent
+        if entry.location_features and entry.location_features.parent:
+            if entry.location_features.parent.lower() == name_lower:
+                children.append(entry)
+                continue
+
+        # Check top-level parent field (for organizations)
+        raw_entry = raw_data.get(entry.term.lower(), {})
+        if raw_entry.get('parent', '').lower() == name_lower:
+            children.append(entry)
+
+    return sorted(children, key=lambda e: e.term)
+
+
+def get_parent(name: str) -> Optional[GlossaryEntry]:
+    """Get the parent of an entry (location or organization)."""
+    entry = lookup(name)
+    if not entry:
+        return None
+
+    # Check location_features.parent
+    if entry.location_features and entry.location_features.parent:
+        return lookup(entry.location_features.parent)
+
+    # Check top-level parent field using cached data
+    raw_data = _get_raw_data()
+    raw_entry = raw_data.get(entry.term.lower(), {})
+    parent_name = raw_entry.get('parent', '')
+    if parent_name:
+        return lookup(parent_name)
+
+    return None
+
+
+def build_tree(name: str, depth: int = 3, _current_depth: int = 0) -> Dict[str, Any]:
+    """Build a hierarchical tree from any entry (location or organization).
+
+    Returns:
+        {
+            "name": str,
+            "category": str,
+            "short": str,
+            "level": str (for locations),
+            "children": [recursive tree nodes]
+        }
+    """
+    entry = lookup(name)
+    if not entry:
+        return {"error": f"Entry '{name}' not found"}
+
+    result = {
+        "name": entry.term,
+        "category": entry.category,
+        "short": entry.short[:60] + "..." if len(entry.short) > 60 else entry.short,
+        "children": []
+    }
+
+    # Add level for locations
+    if entry.location_features:
+        result["level"] = entry.location_features.level.value if entry.location_features.level else None
+        result["type"] = entry.location_features.location_type.value if entry.location_features.location_type else None
+
+    # Recursively add children
+    if _current_depth < depth:
+        children = get_children(entry.term)
+        for child in children:
+            child_tree = build_tree(child.term, depth, _current_depth + 1)
+            if "error" not in child_tree:
+                result["children"].append(child_tree)
+
+    return result
+
+
+def format_tree(tree: Dict[str, Any], indent: int = 0) -> str:
+    """Format a tree dict as ASCII tree structure."""
+    if "error" in tree:
+        return tree["error"]
+
+    lines = []
+    prefix = "  " * indent
+
+    # Format this node
+    level_info = f" [{tree.get('level', tree.get('category', ''))}]" if tree.get('level') or tree.get('category') else ""
+    lines.append(f"{prefix}{'└── ' if indent > 0 else ''}{tree['name']}{level_info}")
+
+    # Format children
+    for child in tree.get("children", []):
+        lines.append(format_tree(child, indent + 1))
+
+    return "\n".join(lines)
+
+
+# =============================================================================
+# REVERSE LOOKUP (WHO-REFERENCES)
+# =============================================================================
+
+def who_references(term: str) -> Dict[str, List[GlossaryEntry]]:
+    """Find all entries that reference a given term.
+
+    Searches:
+    - related fields
+    - location_features.parent, children, castes_present
+    - top-level parent field
+
+    Returns:
+        {
+            "in_related": [entries with term in their related field],
+            "as_parent": [entries that have this as parent],
+            "as_child": [entries that list this as child],
+            "in_castes_present": [locations that list this caste],
+            "in_details": [entries mentioning term in details text]
+        }
+    """
+    term_lower = term.lower()
+    results = {
+        "in_related": [],
+        "as_parent": [],
+        "as_child": [],
+        "in_castes_present": [],
+        "in_details": []
+    }
+
+    # Use cached raw data for parent field access
+    raw_data = _get_raw_data()
+
+    for entry in ENTRIES.values():
+        entry_term_lower = entry.term.lower()
+
+        # Check related field
+        for rel in entry.related:
+            if rel.lower() == term_lower:
+                results["in_related"].append(entry)
+                break
+
+        # Check location_features
+        if entry.location_features:
+            lf = entry.location_features
+
+            # Parent
+            if lf.parent and lf.parent.lower() == term_lower:
+                results["as_parent"].append(entry)
+
+            # Children
+            for child in lf.children:
+                if child.lower() == term_lower:
+                    results["as_child"].append(entry)
+                    break
+
+            # Castes present
+            for caste in lf.castes_present:
+                if caste.lower() == term_lower:
+                    results["in_castes_present"].append(entry)
+                    break
+
+        # Check top-level parent
+        raw_entry = raw_data.get(entry.term, {})
+        if raw_entry.get('parent', '').lower() == term_lower:
+            if entry not in results["as_parent"]:
+                results["as_parent"].append(entry)
+
+        # Check details text
+        if entry.details and term_lower in entry.details.lower():
+            results["in_details"].append(entry)
+
+    return results
+
+
+# =============================================================================
+# CONTEXT BUNDLE
+# =============================================================================
+
+def context_bundle(terms: List[str]) -> Dict[str, Any]:
+    """Get definitions for multiple terms at once.
+
+    Useful for scene setup where you need context on multiple entities.
+
+    Returns:
+        {
+            "found": {term: GlossaryEntry},
+            "not_found": [terms],
+            "suggestions": {term: [similar terms]}
+        }
+    """
+    found = {}
+    not_found = []
+    suggestions = {}
+
+    for term in terms:
+        entry = lookup(term.strip())
+        if entry:
+            found[entry.term] = entry
+        else:
+            not_found.append(term)
+            result = check(term)
+            if result["similar"]:
+                suggestions[term] = result["similar"]
+
+    return {
+        "found": found,
+        "not_found": not_found,
+        "suggestions": suggestions
+    }
+
+
+def format_context_bundle(bundle: Dict[str, Any]) -> str:
+    """Format a context bundle for display."""
+    lines = []
+    lines.append(f"\n{'=' * 60}")
+    lines.append("  CONTEXT BUNDLE")
+    lines.append(f"{'=' * 60}")
+
+    if bundle["found"]:
+        lines.append(f"\n  FOUND ({len(bundle['found'])} terms):")
+        lines.append(f"  {'─' * 40}")
+        for term, entry in bundle["found"].items():
+            lines.append(f"\n  • {term} [{entry.category}]")
+            lines.append(f"    {entry.short}")
+            if entry.rag_pointer:
+                lines.append(f"    📚 RAG: {entry.rag_pointer}")
+
+    if bundle["not_found"]:
+        lines.append(f"\n  NOT FOUND ({len(bundle['not_found'])} terms):")
+        lines.append(f"  {'─' * 40}")
+        for term in bundle["not_found"]:
+            if term in bundle["suggestions"]:
+                lines.append(f"  ✗ {term} → did you mean: {', '.join(bundle['suggestions'][term][:3])}")
+            else:
+                lines.append(f"  ✗ {term}")
+
+    lines.append(f"\n{'=' * 60}")
+    return "\n".join(lines)
+
+
+# =============================================================================
+# EXPAND (RECURSIVE RELATED TERMS)
+# =============================================================================
+
+def expand_term(term: str, depth: int = 2, _visited: Set[str] = None) -> Dict[str, Any]:
+    """Recursively expand a term through its related terms.
+
+    Returns:
+        {
+            "term": str,
+            "entry": GlossaryEntry,
+            "related": [recursive expand results]
+        }
+    """
+    if _visited is None:
+        _visited = set()
+
+    entry = lookup(term)
+    if not entry:
+        return {"term": term, "error": "not found"}
+
+    term_lower = entry.term.lower()
+    if term_lower in _visited:
+        return {"term": entry.term, "already_visited": True}
+
+    _visited.add(term_lower)
+
+    result = {
+        "term": entry.term,
+        "category": entry.category,
+        "short": entry.short,
+        "rag_pointer": entry.rag_pointer,
+        "related": []
+    }
+
+    if depth > 0 and entry.related:
+        for rel_term in entry.related:
+            rel_result = expand_term(rel_term, depth - 1, _visited)
+            result["related"].append(rel_result)
+
+    return result
+
+
+def format_expand(result: Dict[str, Any], indent: int = 0) -> str:
+    """Format an expand result as indented tree."""
+    lines = []
+    prefix = "  " * indent
+
+    if "error" in result:
+        lines.append(f"{prefix}✗ {result['term']} (not found)")
+        return "\n".join(lines)
+
+    if result.get("already_visited"):
+        lines.append(f"{prefix}↩ {result['term']} (see above)")
+        return "\n".join(lines)
+
+    cat_marker = f"[{result.get('category', '?')}]"
+    lines.append(f"{prefix}• {result['term']} {cat_marker}")
+    lines.append(f"{prefix}  {result.get('short', '')[:70]}...")
+
+    for rel in result.get("related", []):
+        lines.append(format_expand(rel, indent + 1))
+
+    return "\n".join(lines)
+
+
+# =============================================================================
+# VALIDATE REFERENCES
+# =============================================================================
+
+def validate_refs(filepath: str) -> Dict[str, Any]:
+    """Validate that glossary_terms in a document's front matter exist.
+
+    Returns:
+        {
+            "file": str,
+            "valid": [terms that exist],
+            "invalid": [terms that don't exist],
+            "suggestions": {term: [similar terms]}
+        }
+    """
+    import re
+
+    with open(filepath, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # Extract front matter
+    fm_match = re.match(r'^---\n(.*?)\n---', content, re.DOTALL)
+    if not fm_match:
+        return {"file": filepath, "error": "No front matter found"}
+
+    import yaml
+    try:
+        front_matter = yaml.safe_load(fm_match.group(1))
+    except yaml.YAMLError as e:
+        return {"file": filepath, "error": f"Invalid YAML: {e}"}
+
+    glossary_terms = front_matter.get('glossary_terms', [])
+    if not glossary_terms:
+        return {"file": filepath, "valid": [], "invalid": [], "suggestions": {}}
+
+    valid = []
+    invalid = []
+    suggestions = {}
+
+    for term in glossary_terms:
+        entry = lookup(term)
+        if entry:
+            valid.append(entry.term)  # Use canonical name
+        else:
+            invalid.append(term)
+            result = check(term)
+            if result["similar"]:
+                suggestions[term] = result["similar"]
+
+    return {
+        "file": filepath,
+        "valid": valid,
+        "invalid": invalid,
+        "suggestions": suggestions
+    }
+
+
+def format_validate_refs(result: Dict[str, Any]) -> str:
+    """Format validation results."""
+    lines = []
+    lines.append(f"\n{'=' * 60}")
+    lines.append(f"  VALIDATING: {result['file']}")
+    lines.append(f"{'=' * 60}")
+
+    if "error" in result:
+        lines.append(f"\n  ERROR: {result['error']}")
+        return "\n".join(lines)
+
+    if result["valid"]:
+        lines.append(f"\n  ✓ VALID ({len(result['valid'])} terms):")
+        for term in result["valid"]:
+            lines.append(f"    • {term}")
+
+    if result["invalid"]:
+        lines.append(f"\n  ✗ INVALID ({len(result['invalid'])} terms):")
+        for term in result["invalid"]:
+            if term in result["suggestions"]:
+                lines.append(f"    • {term} → try: {', '.join(result['suggestions'][term][:3])}")
+            else:
+                lines.append(f"    • {term}")
+
+    if not result["invalid"]:
+        lines.append(f"\n  ✓ All terms validated successfully!")
+
+    lines.append(f"\n{'=' * 60}")
+    return "\n".join(lines)
+
+
+# =============================================================================
+# VALIDATE ENTRY AGAINST SOURCE
+# =============================================================================
+
+def validate_entry(term: str) -> Dict[str, Any]:
+    """Validate a glossary entry against its rag_pointer source documents.
+
+    Searches the source document(s) for the term and related information,
+    returning context to help verify accuracy.
+
+    Returns:
+        {
+            "term": str,
+            "entry": GlossaryEntry or None,
+            "rag_pointer": str,
+            "source_files": [paths found],
+            "mentions": [{"file": str, "context": str}],
+            "warnings": [str]
+        }
+    """
+    import glob
+    import re
+
+    entry = lookup(term)
+    if not entry:
+        return {"term": term, "error": f"Entry '{term}' not found in glossary"}
+
+    result = {
+        "term": entry.term,
+        "category": entry.category,
+        "short": entry.short,
+        "rag_pointer": entry.rag_pointer or "(none)",
+        "source_files": [],
+        "mentions": [],
+        "warnings": []
+    }
+
+    # Find source files based on rag_pointer
+    if entry.rag_pointer:
+        pointers = [p.strip() for p in entry.rag_pointer.split(',')]
+        for pointer in pointers:
+            # Try to find matching files
+            search_terms = pointer.replace(':', ' ').replace('-', ' ').split()
+            # Look for .md files containing these terms
+            for md_file in glob.glob("*.md"):
+                file_lower = md_file.lower()
+                matches = sum(1 for t in search_terms if t.lower() in file_lower)
+                if matches >= len(search_terms) // 2:
+                    result["source_files"].append(md_file)
+
+    # Search for term mentions in source files
+    if result["source_files"]:
+        for source_file in result["source_files"]:
+            try:
+                with open(source_file, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    lines = content.split('\n')
+                    for i, line in enumerate(lines):
+                        if entry.term.lower() in line.lower():
+                            # Get context (2 lines before and after)
+                            start = max(0, i - 2)
+                            end = min(len(lines), i + 3)
+                            context = '\n'.join(lines[start:end])
+                            result["mentions"].append({
+                                "file": source_file,
+                                "line": i + 1,
+                                "context": context[:500]  # Truncate long contexts
+                            })
+                            if len(result["mentions"]) >= 5:
+                                break
+            except Exception as e:
+                result["warnings"].append(f"Could not read {source_file}: {e}")
+
+    # Check for potential issues
+    if not result["source_files"]:
+        result["warnings"].append(f"No source files found matching rag_pointer: {entry.rag_pointer}")
+
+    if not result["mentions"] and result["source_files"]:
+        result["warnings"].append(f"Term '{entry.term}' not found in source files")
+
+    # Check related terms exist
+    for rel in entry.related:
+        if not lookup(rel):
+            result["warnings"].append(f"Related term '{rel}' not found in glossary")
+
+    return result
+
+
+def format_validate_entry(result: Dict[str, Any]) -> str:
+    """Format entry validation results."""
+    lines = []
+    lines.append(f"\n{'=' * 60}")
+    lines.append(f"  VALIDATING ENTRY: {result.get('term', 'unknown')}")
+    lines.append(f"{'=' * 60}")
+
+    if "error" in result:
+        lines.append(f"\n  ERROR: {result['error']}")
+        return "\n".join(lines)
+
+    lines.append(f"\n  Category: {result['category']}")
+    lines.append(f"  Short: {result['short'][:60]}...")
+    lines.append(f"  RAG Pointer: {result['rag_pointer']}")
+
+    if result["source_files"]:
+        lines.append(f"\n  SOURCE FILES FOUND ({len(result['source_files'])}):")
+        for sf in result["source_files"]:
+            lines.append(f"    • {sf}")
+
+    if result["mentions"]:
+        lines.append(f"\n  MENTIONS IN SOURCES ({len(result['mentions'])}):")
+        for mention in result["mentions"][:3]:
+            lines.append(f"\n    📄 {mention['file']}:{mention['line']}")
+            for ctx_line in mention["context"].split('\n')[:3]:
+                lines.append(f"       {ctx_line[:70]}")
+
+    if result["warnings"]:
+        lines.append(f"\n  ⚠️  WARNINGS ({len(result['warnings'])}):")
+        for warn in result["warnings"]:
+            lines.append(f"    • {warn}")
+    else:
+        lines.append(f"\n  ✓ No warnings")
+
+    lines.append(f"\n{'=' * 60}")
+    return "\n".join(lines)
 
 
 # =============================================================================
@@ -1566,7 +2113,7 @@ def format_entry(entry: GlossaryEntry, verbose: bool = False) -> str:
         lines.append(f"\n  RAG: {entry.rag_pointer}")
     
     if entry.related:
-        lines.append(f"\nÃƒÆ’°Ãƒ…Ã‚Â¸”— Related: {', '.join(entry.related)}")
+        lines.append(f"\n🔗 Related: {', '.join(entry.related)}")
     
     if entry.caste_features:
         cf = entry.caste_features
@@ -1708,23 +2255,30 @@ Commands:
     check <term>               - Check if term exists, suggest similar
     related <term>             - Get term and its related entries
     aesthetics                 - List all entries with aesthetic data
-    
+
     caste-feature <feat> <val> - Find castes by feature value
     caste-trait <trait>        - Find castes with trait in description
     caste-compare <c1> <c2>    - Compare two castes side by side
-    
-    location-tree <name>       - Show location hierarchy
+
+    tree <name> [depth]        - Show hierarchy tree (locations OR organizations)
+    location-tree <name>       - Show location hierarchy (legacy)
     scene-setup <location> [-v]- Get scene setup info (-v for aesthetics)
     locations-by-level <lvl>   - List all locations at level
     locations-by-type <type>   - List all locations of type
     locations-with-caste <c>   - Find locations where caste present
     adjacent-to <location>     - Find adjacent locations
     neighbors <loc> [dir]      - Get neighbors in direction
-    
+
     path <start> <end> [-v]    - Find shortest path between locations
     graph-stats                - Show location graph statistics
     graph-neighbors <loc>      - Show all graph connections for location
-    
+
+    who-references <term>      - Find all entries that reference a term
+    context-bundle <t1,t2,...> - Get definitions for multiple terms
+    expand <term> [depth]      - Recursively expand related terms
+    validate-refs <filepath>   - Check glossary_terms in front matter
+    validate-entry <term>      - Check entry against its rag_pointer sources
+
     insert <n> [--after <e>]   - Insert new entry (reads YAML from stdin)
     update <n> --set k=v       - Update entry field (or pipe YAML)
     set-parent <n> <parent>    - Shortcut to set location parent
@@ -1732,8 +2286,11 @@ Commands:
 
 Examples:
     python glossary.py lookup Highborn
-    python glossary.py path "Middens" "Ogon" -v
-    python glossary.py set-parent "My Location" "Parent Location"
+    python glossary.py tree "Bureau of the Lens"
+    python glossary.py who-references "Highborn"
+    python glossary.py validate-entry "Autofactory"
+    python glossary.py expand "Lampblack Yards" 2
+    python glossary.py validate-refs Religion_-_Oracle_Cult.md
 """)
 
 
@@ -1851,7 +2408,7 @@ def main():
         
         # Show real world anchor prominently
         if lf and lf.real_world_anchor:
-            print(f"\n  ÃƒÆ’°Ãƒ…Ã‚Â¸Ãƒ…’Ãƒâ€šÃ‚Â REAL WORLD: {lf.real_world_anchor}")
+            print(f"\n  📍 REAL WORLD: {lf.real_world_anchor}")
         
         rag_docs = []
         if entry.rag_pointer:
@@ -1910,13 +2467,13 @@ def main():
         
         # Show local aesthetic if present
         if entry.local_aesthetic:
-            print(f"\n  ÃƒÆ’°Ãƒ…Ã‚Â¸Ãƒ…Ã‚Â½Ãƒâ€šÃ‚Â¨ LOCAL AESTHETIC:")
+            print(f"\n  🎨 LOCAL AESTHETIC:")
             print(f"     {entry.local_aesthetic}")
         
         # Show this entry's own aesthetic_features if present
         if entry.aesthetic_features:
             af = entry.aesthetic_features
-            print(f"\n  ÃƒÆ’°Ãƒ…Ã‚Â¸Ãƒ…Ã‚Â½Ãƒâ€šÃ‚Â¨ AESTHETIC VOCABULARY:")
+            print(f"\n  🎨 AESTHETIC VOCABULARY:")
             print(f"     Intention: \"{af.intention}\"")
             if af.visual_vocabulary:
                 print(f"     Visual references: {', '.join([v.split(':')[0] for v in af.visual_vocabulary[:4]])}")
@@ -1930,7 +2487,7 @@ def main():
             while parent_entry:
                 if parent_entry.aesthetic_features:
                     af = parent_entry.aesthetic_features
-                    print(f"\n  ÃƒÆ’°Ãƒ…Ã‚Â¸Ãƒ…Ã‚Â½Ãƒâ€šÃ‚Â¨ PARENT AESTHETIC ({parent_entry.term}):")
+                    print(f"\n  🎨 PARENT AESTHETIC ({parent_entry.term}):")
                     print(f"     Intention: \"{af.intention}\"")
                     if af.visual_vocabulary:
                         print(f"     Visual vocabulary: {', '.join([v.split(':')[0] for v in af.visual_vocabulary[:3]])}")
@@ -1978,7 +2535,7 @@ def main():
             print(f"  COMPARING: {result['caste1']} vs {result['caste2']}")
             print(f"{'=' * 60}\n")
             for feat, (v1, v2) in result['comparison'].items():
-                match = "âÃƒÆ’Ã†’Ãƒâ€ ’…""" if v1 == v2 else "ââââ€šÂ¬° "
+                match = "✓" if v1 == v2 else "≠"
                 print(f"  {feat:15} {v1:15} {match} {v2}")
             print(f"\n  Original function:")
             print(f"    {result['caste1']}: {result['original_function'][0]}")
@@ -2039,11 +2596,124 @@ def main():
                 print(f"    ... and {len(stats['isolated']) - 10} more")
         print(f"\n{'=' * 50}")
         return
-    
+
+    # Tree command - unified hierarchy for locations AND organizations
+    if cmd == "tree" and len(sys.argv) >= 3:
+        # Parse depth if provided
+        depth = 3
+        name_parts = []
+        for a in sys.argv[2:]:
+            if a.isdigit():
+                depth = int(a)
+            elif not a.startswith("-"):
+                name_parts.append(a)
+        name = " ".join(name_parts)
+
+        tree = build_tree(name, depth=depth)
+        if "error" in tree:
+            print(f"Error: {tree['error']}")
+        else:
+            print(f"\n{'=' * 60}")
+            print(f"  HIERARCHY TREE: {tree['name'].upper()}")
+            print(f"{'=' * 60}\n")
+            print(format_tree(tree))
+            print(f"\n{'=' * 60}")
+        return
+
+    # Who-references command
+    if cmd == "who-references" and len(sys.argv) >= 3:
+        term = " ".join(sys.argv[2:])
+        results = who_references(term)
+
+        total = sum(len(v) for v in results.values())
+        print(f"\n{'=' * 60}")
+        print(f"  WHO REFERENCES: {term}")
+        print(f"  Total: {total} entries")
+        print(f"{'=' * 60}")
+
+        if results["as_parent"]:
+            print(f"\n  Has '{term}' as PARENT ({len(results['as_parent'])}):")
+            for entry in results["as_parent"]:
+                print(f"    • {entry.term} [{entry.category}]")
+
+        if results["as_child"]:
+            print(f"\n  Lists '{term}' as CHILD ({len(results['as_child'])}):")
+            for entry in results["as_child"]:
+                print(f"    • {entry.term} [{entry.category}]")
+
+        if results["in_related"]:
+            print(f"\n  In RELATED field ({len(results['in_related'])}):")
+            for entry in results["in_related"]:
+                print(f"    • {entry.term} [{entry.category}]")
+
+        if results["in_castes_present"]:
+            print(f"\n  In CASTES_PRESENT ({len(results['in_castes_present'])}):")
+            for entry in results["in_castes_present"]:
+                print(f"    • {entry.term} [{entry.category}]")
+
+        if results["in_details"]:
+            print(f"\n  Mentioned in DETAILS ({len(results['in_details'])}):")
+            for entry in results["in_details"][:10]:
+                print(f"    • {entry.term} [{entry.category}]")
+            if len(results["in_details"]) > 10:
+                print(f"    ... and {len(results['in_details']) - 10} more")
+
+        print(f"\n{'=' * 60}")
+        return
+
+    # Context-bundle command
+    if cmd == "context-bundle" and len(sys.argv) >= 3:
+        # Terms can be comma-separated or space-separated
+        raw_terms = " ".join(sys.argv[2:])
+        terms = [t.strip() for t in raw_terms.split(",")]
+
+        bundle = context_bundle(terms)
+        print(format_context_bundle(bundle))
+        return
+
+    # Expand command
+    if cmd == "expand" and len(sys.argv) >= 3:
+        # Parse depth if provided
+        depth = 2
+        name_parts = []
+        for a in sys.argv[2:]:
+            if a.isdigit():
+                depth = int(a)
+            elif not a.startswith("-"):
+                name_parts.append(a)
+        term = " ".join(name_parts)
+
+        result = expand_term(term, depth=depth)
+        print(f"\n{'=' * 60}")
+        print(f"  EXPAND: {term} (depth={depth})")
+        print(f"{'=' * 60}\n")
+        print(format_expand(result))
+        print(f"\n{'=' * 60}")
+        return
+
+    # Validate-refs command
+    if cmd == "validate-refs" and len(sys.argv) >= 3:
+        filepath = sys.argv[2]
+        try:
+            result = validate_refs(filepath)
+            print(format_validate_refs(result))
+        except FileNotFoundError:
+            print(f"Error: File not found: {filepath}")
+        except Exception as e:
+            print(f"Error validating file: {e}")
+        return
+
+    # Validate-entry command - check entry against source documents
+    if cmd == "validate-entry" and len(sys.argv) >= 3:
+        term = " ".join(sys.argv[2:])
+        result = validate_entry(term)
+        print(format_validate_entry(result))
+        return
+
     if len(sys.argv) < 3:
         print(f"Error: {cmd} requires an argument")
         return
-    
+
     # Check for -v/--verbose flag
     verbose = "-v" in sys.argv or "--verbose" in sys.argv
     args = [a for a in sys.argv[2:] if not a.startswith("-")]
@@ -2082,7 +2752,7 @@ def main():
     elif cmd == "check":
         result = check(arg)
         if result["exists"]:
-            print(f"âÃƒÆ’Ã†’Ãƒâ€ ’…"" '{arg}' exists")
+            print(f"✓ '{arg}' exists")
             print(format_entry(result["entry"]))
         else:
             print(f"✗ '{arg}' not found")

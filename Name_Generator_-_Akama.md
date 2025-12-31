@@ -17,7 +17,7 @@ For phonology rules (vowel harmony, consonant clusters), see Section I. For the 
 
 ## **I. Phonology**
 
-Akama phonology draws from Tibetan, Turkic, and archaic Mayan influences, producing a harsh, throat-focused sound that most Imperial and Ganati speakers find difficult to replicate without childhood training. The language lives deep in the throatâ€”gutturals that rumble in the chest, vowels so dark they seem to emerge from the stomach.
+Akama phonology draws from Tibetan, Turkic, and archaic Mayan influences, producing a harsh, throat-focused sound that most Imperial and Ganati speakers find difficult to replicate without childhood training. The language lives deep in the throat—gutturals that rumble in the chest, vowels so dark they seem to emerge from the stomach.
 
 ### **Consonants**
 
@@ -205,7 +205,7 @@ The persistence of this practice even among populations who have abandoned other
 
 ### **Phase Elements**
 
-Phase elements are drawn from Malpais ecology and natural phenomena. They are always translated into Imperial Common (or whatever language is being spoken) rather than rendered in Akamaâ€”unlike personal names, they carry lexical meaning.
+Phase elements are drawn from Malpais ecology and natural phenomena. They are always translated into Imperial Common (or whatever language is being spoken) rather than rendered in Akama—unlike personal names, they carry lexical meaning.
 
 **Canonical Elements:** Hawk, Reed, Yarrow, Bear, Elk, Salmon, Stone, Wind, Birds
 
@@ -376,7 +376,7 @@ Epithets may pass through generations as family names. A child of Imek Stonefoot
 
 **Institutional Form:**
 
-Some epithets become so dominant they completely replace the personal name. The individual known as "Iron-Rain" possesses a personal name that is not used in practiceâ€”the epithet has become their sole identity. This pattern is particularly common among successful war leaders and prominent figures.
+Some epithets become so dominant they completely replace the personal name. The individual known as "Iron-Rain" possesses a personal name that is not used in practice—the epithet has become their sole identity. This pattern is particularly common among successful war leaders and prominent figures.
 
 **Warband Identification:**
 
@@ -395,9 +395,9 @@ A warband captain who was captured and castrated might introduce himself as "the
 
 Taking a shameful mark as your name transforms it. You are not hiding what happened to you. You survived something that should have destroyed you, and you're still here, still dangerous, still commanding warriors. The epithet dares anyone to mock you for something you've already claimed.
 
-To an Imperial, this would be incomprehensibleâ€”why advertise weakness? To a Ganati, it might seem performatively humble. But to an Akama, it demonstrates the core cultural value: you endured. You are still standing in the rain.
+To an Imperial, this would be incomprehensible—why advertise weakness? To a Ganati, it might seem performatively humble. But to an Akama, it demonstrates the core cultural value: you endured. You are still standing in the rain.
 
-**Canonical pattern:** The more devastating the misfortune, the more prestigious the epithet becomes *if* the bearer continues to function at high level despite it. A nobody called "the Eunuch" is just pitiful. A Junta member called "the Eunuch" is terrifyingâ€”what kind of person loses that and still climbs to the top?
+**Canonical pattern:** The more devastating the misfortune, the more prestigious the epithet becomes *if* the bearer continues to function at high level despite it. A nobody called "the Eunuch" is just pitiful. A Junta member called "the Eunuch" is terrifying—what kind of person loses that and still climbs to the top?
 
 **Misfortune Epithet Examples:**
 
@@ -412,13 +412,13 @@ To an Imperial, this would be incomprehensibleâ€”why advertise weakness? To
 | Ghum | Untranslated Akama slur for cognitive impairment; roughly "retard." Taking this as a name is an act of profound defiance. |
 | Kindling | Burn-scarred, still present |
 | Left-Behind | Abandoned by warband, survived alone |
-| Widow-Maker | Lost multiple spouses (dark ironyâ€”is it their fault?) |
+| Widow-Maker | Lost multiple spouses (dark irony—is it their fault?) |
 | The Debtor | Lost everything financially, rebuilt |
 | Ransomed Cheap | Captors valued them little; they proved the captors wrong |
 
 **Social dynamics:**
 
-Using someone's misfortune epithet *respectfully* acknowledges their endurance. Using it mockingly is a grave insultâ€”you're denying that they transformed their suffering into strength. The distinction is entirely in tone and context, which outsiders often misread.
+Using someone's misfortune epithet *respectfully* acknowledges their endurance. Using it mockingly is a grave insult—you're denying that they transformed their suffering into strength. The distinction is entirely in tone and context, which outsiders often misread.
 
 An Imperial diplomat addressing "Ghom the Eunuch" with visible discomfort has already lost the negotiation. A fellow Akama saying "Eunuch" with a nod of recognition honors a survivor.
 
@@ -426,11 +426,11 @@ An Imperial diplomat addressing "Ghom the Eunuch" with visible discomfort has al
 
 The system cuts both ways. Just as a shameful epithet can become prestigious through endurance, a prestigious epithet can become shameful when given to someone who hasn't suffered.
 
-The worst warrior in a warband might actually kill an enemy captain onceâ€”a genuine achievement. His companions give him the name "Captain-Killer." He cannot refuse it; he technically earned it. But every time someone calls him "Captain-Killer," the tone makes clear what they really mean: *you did one thing, and you're still useless. You have faced no real hardship. You got lucky once.*
+The worst warrior in a warband might actually kill an enemy captain once—a genuine achievement. His companions give him the name "Captain-Killer." He cannot refuse it; he technically earned it. But every time someone calls him "Captain-Killer," the tone makes clear what they really mean: *you did one thing, and you're still useless. You have faced no real hardship. You got lucky once.*
 
 **The logic:**
 
-Achievement without suffering is suspect. A warrior called "Storm-Breaker" who has never been wounded, never lost a fight, never been captured or betrayedâ€”what does he actually know? His prestigious name highlights his *lack* of scars. He hasn't stood in the rain. He's been lucky, and luck runs out.
+Achievement without suffering is suspect. A warrior called "Storm-Breaker" who has never been wounded, never lost a fight, never been captured or betrayed—what does he actually know? His prestigious name highlights his *lack* of scars. He hasn't stood in the rain. He's been lucky, and luck runs out.
 
 Meanwhile, "Toothless" has been broken and kept fighting. "The Eunuch" lost everything that supposedly makes a man and still commands warriors. These names prove something. "Storm-Breaker" proves nothing except that misfortune hasn't found him yet.
 
@@ -445,11 +445,11 @@ A warband might deliberately give their weakest member an impressive-sounding na
 | Gate-Breaker | Broke through a wooden gate | One moment of glory, nothing since |
 | Giant-Feller | Killed a large enemy | Everyone knows it was a group effort |
 
-The victim cannot escape the name because it's technically accurate. Protesting would only deepen the shame. His only options are to either earn the name through subsequent enduranceâ€”suffer greatly and keep fighting until the mockery transforms into respectâ€”or leave the warband entirely.
+The victim cannot escape the name because it's technically accurate. Protesting would only deepen the shame. His only options are to either earn the name through subsequent endurance—suffer greatly and keep fighting until the mockery transforms into respect—or leave the warband entirely.
 
 **Outsider confusion:**
 
-Imperials and Ganatis consistently misread these dynamics. They hear "Captain-Killer" and assume respect. They hear "Toothless" and assume contempt. Getting it backwards marks you as someone who doesn't understand Akama culture at allâ€”which is itself information the Akama will use against you.
+Imperials and Ganatis consistently misread these dynamics. They hear "Captain-Killer" and assume respect. They hear "Toothless" and assume contempt. Getting it backwards marks you as someone who doesn't understand Akama culture at all—which is itself information the Akama will use against you.
 
 ### **Generating New Epithets**
 
@@ -474,7 +474,7 @@ Epithets should be:
 
 ## **V. Imperial Names in Akama Society**
 
-Members of the Akama cultural complex who are not genetically Akama or Malpais-descendedâ€”typically near-baseline humans or other castes who have integrated into Akama societyâ€”retain Imperial naming patterns for public identification while participating fully in Akama cultural life.
+Members of the Akama cultural complex who are not genetically Akama or Malpais-descended—typically near-baseline humans or other castes who have integrated into Akama society—retain Imperial naming patterns for public identification while participating fully in Akama cultural life.
 
 ### **Structure**
 
@@ -482,7 +482,7 @@ Members of the Akama cultural complex who are not genetically Akama or Malpais-d
 
 ### **Canonical Example**
 
-**Bal Tama** â€” The Tama family of Ogon exemplifies this pattern. Despite maintaining Imperial names across generations and employing strategies characteristic of Imperial merchant families, they are fully integrated into Akama political structures, with family members holding Junta tokens and participating in Akama governance.
+**Bal Tama** — The Tama family of Ogon exemplifies this pattern. Despite maintaining Imperial names across generations and employing strategies characteristic of Imperial merchant families, they are fully integrated into Akama political structures, with family members holding Junta tokens and participating in Akama governance.
 
 ### **Private Astrological Names**
 
@@ -495,7 +495,7 @@ An Ogon merchant with an Imperial name and no astrological surname still uses a 
 
 ### **Social Status**
 
-The retention of Imperial names does not indicate lesser integration or status within Akama society. It reflects genetic origin while acknowledging cultural affiliation. The Tamas' Imperial names don't diminish their position in Ogon's power structureâ€”they hold Junta tokens and shape regional politics as effectively as any Akama-named family.
+The retention of Imperial names does not indicate lesser integration or status within Akama society. It reflects genetic origin while acknowledging cultural affiliation. The Tamas' Imperial names don't diminish their position in Ogon's power structure—they hold Junta tokens and shape regional politics as effectively as any Akama-named family.
 
 ### **Generating Imperial Names for Akama-Integrated Characters**
 
@@ -558,7 +558,7 @@ Epithets are most common in warband contexts, often becoming so institutionalize
 
 ## **VII. Archaic and Ritual Forms**
 
-In sacred contextsâ€”calendar recitations, naming ceremonies, old place names, mythological narrativesâ€”archaic phonological features appear that are absent from everyday speech.
+In sacred contexts—calendar recitations, naming ceremonies, old place names, mythological narratives—archaic phonological features appear that are absent from everyday speech.
 
 ### **Ejectives**
 
@@ -749,21 +749,21 @@ Phenomena: Wind, Stone, Rain, Thunder, Frost, Ember, Ash, Smoke, Cloud, Star, Ri
 
 ## **XI. Example Characters**
 
-**Traditional Malpais:** Khol Thirteen-Hawk â€” astrological surname indicates family line, personal name follows back-vowel harmony, private astrological name used only with family
+**Traditional Malpais:** Khol Thirteen-Hawk — astrological surname indicates family line, personal name follows back-vowel harmony, private astrological name used only with family
 
-**Urban Ogon Warband:** Tsoka Red Deer â€” epithet earned through achievement or appearance, Junta member, private astrological name maintained but never used publicly
+**Urban Ogon Warband:** Tsoka Red Deer — epithet earned through achievement or appearance, Junta member, private astrological name maintained but never used publicly
 
-**Kma-Dhol Technical Specialist:** Vey Nine Birds â€” front-vowel personal name marks Kma-Dhol origin, astrological surname maintained as cultural marker, technical expertise valued in Ogon
+**Kma-Dhol Technical Specialist:** Vey Nine Birds — front-vowel personal name marks Kma-Dhol origin, astrological surname maintained as cultural marker, technical expertise valued in Ogon
 
-**Warband Leader (Institutional):** Iron-Rain â€” epithet has completely replaced personal name in all contexts, personal name exists but is never used, private astrological name known only to immediate family
+**Warband Leader (Institutional):** Iron-Rain — epithet has completely replaced personal name in all contexts, personal name exists but is never used, private astrological name known only to immediate family
 
-**Misfortune Epithet (Prestige Through Survival):** Toothless â€” lost jaw to a mace blow, still commands forty warriors, the epithet is spoken with respect by those who know what it means to keep fighting after such an injury; outsiders who smirk learn quickly why that's a mistake
+**Misfortune Epithet (Prestige Through Survival):** Toothless — lost jaw to a mace blow, still commands forty warriors, the epithet is spoken with respect by those who know what it means to keep fighting after such an injury; outsiders who smirk learn quickly why that's a mistake
 
-**Prestigious Name as Mockery:** Koram Giant-Feller â€” technically killed a Warborn in single combat, but everyone present knows the Warborn was already wounded and Koram just happened to land the final blow; the name follows him everywhere, spoken with a particular inflection that makes its meaning clear; his only escape is to suffer genuinely and keep fighting until the mockery transforms into respect
+**Prestigious Name as Mockery:** Koram Giant-Feller — technically killed a Warborn in single combat, but everyone present knows the Warborn was already wounded and Koram just happened to land the final blow; the name follows him everywhere, spoken with a particular inflection that makes its meaning clear; his only escape is to suffer genuinely and keep fighting until the mockery transforms into respect
 
-**Integrated Non-Akama:** Bal Tama â€” Imperial naming pattern, fully integrated into Akama politics (Junta token holder), maintains private astrological name with family, Imperial name signals genetic heritage not cultural distance
+**Integrated Non-Akama:** Bal Tama — Imperial naming pattern, fully integrated into Akama politics (Junta token holder), maintains private astrological name with family, Imperial name signals genetic heritage not cultural distance
 
-**Achieved Individual:** Imek Stonefoot of the Cracked Shield Band â€” personal name \+ epithet \+ warband affiliation, full formal identification for someone with established reputation
+**Achieved Individual:** Imek Stonefoot of the Cracked Shield Band — personal name \+ epithet \+ warband affiliation, full formal identification for someone with established reputation
 
-**Young Malpais with Inauspicious Birth:** Dharung Three-Cedar â€” family waited two days after birth to name him on a more auspicious day; his private astrological name does not match his birthday; family name Three-Cedar is moderately fortunate
+**Young Malpais with Inauspicious Birth:** Dharung Three-Cedar — family waited two days after birth to name him on a more auspicious day; his private astrological name does not match his birthday; family name Three-Cedar is moderately fortunate
 
