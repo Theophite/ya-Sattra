@@ -311,17 +311,20 @@ entries:
   # ═══ Vesztraëlin Terminal Alpha ═══
   Vesztraëlin Terminal Alpha:
     category: location
-    short: "Avouvar autofactory terminal producing armor alloys and pressure-rated tubes."
+    short: An autofactory terminal that produces armor alloys when it chooses to—which might be years apart.
     details: |
-      LOCATION: Garrison District, Asovoë. Vesztraëlin territory.
-      
-      OUTPUTS: Armor alloy ingots (Warborn-grade, stops penetrators), pressure-rated 
-      tubes (pneumatic/hydraulic systems).
-      
-      CHARACTER: Autofactory terminal, not conventional manufacturing. Production 
-      follows Medial schedules—may run for years, then stop for a decade. When 
-      active, Vesztraëlin experiences sudden wealth; when silent, that wealth 
-      evaporates.
+      The terminal is a receiving point, not a factory. Somewhere deep in the
+      autofactory network, processes beyond human comprehension produce armor
+      alloy ingots and pressure-rated tubes. When active, they emerge here on
+      schedules no one sets or controls. The terminal might run for years,
+      filling warehouses with Warborn-grade armor plate. Then it stops—maybe
+      for a decade—and the precinct's sudden wealth evaporates as quickly as
+      it came.
+
+      The space itself is cavernous and quiet between production cycles. Ink-
+      black Avouvar workers wait in the radiation-soaked halls, maintaining
+      equipment for outputs that may never resume in their lifetimes. When
+      the terminal activates, the deep hum penetrates everything.
     related: [Avouvar, Asovoë, Droëvan Primary Terminal, Vesztraëlin]
     location_features:
       level: site
