@@ -1852,8 +1852,28 @@ entries:
   # ═══ Springheel ═══
   Springheel:
     category: caste
-    short: Labor caste with modified tendons enabling explosive vertical movement.
-    details: ""
+    short: High-riggers with modified tendons—short stature, oversized calves, legs that look subtly wrong, capable of twelve-foot standing leaps.
+    details: |
+      Short by Imperial standards—about five foot seven on average. Leg
+      proportions read as slightly wrong to baseline eyes: calves larger
+      than expected, tendons visible beneath the skin, joints articulated
+      for ranges other humans cannot match. The modifications enable
+      explosive vertical movement. Standing leaps of twelve feet, higher
+      with a running start. Superior three-dimensional spatial processing
+      lets them navigate vertical spaces with confidence that makes
+      groundbound observers dizzy.
+
+      The work happens on scaffolding, high-rigging, vertical infrastructure.
+      They move through construction sites like the height is irrelevant
+      because to them it is. Platforms that terrify others become ordinary
+      ground. The body was built for this.
+
+      The body was also built to fail. Tendons tear without warning—the
+      same explosive potential that launches them upward turns destructive.
+      Tendon failure during high work means death. Many do not reach their
+      fathers' ages. The knowledge shapes everything: the way they mark
+      time, the way they plan, the way they move through a career measured
+      not in decades but in however many years the tendons hold.
     rag_pointer: Castes of Mankind
     related: [Labor Castes, Venn Torith, Springheel Acrobatics]
     caste_features:
