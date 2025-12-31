@@ -218,7 +218,134 @@ def format_word_result(term, entry):
             lines.append(f"  Related: {', '.join(entry.related[:5])}")
         if entry.rag_pointer:
             lines.append(f"  → RAG: {entry.rag_pointer}")
-    
+
+    return "\n".join(lines)
+
+
+def draw_weighted_terms(n=5, include_persons=True):
+    """
+    Draw n weighted random glossary terms for selection.
+
+    Args:
+        n: Number of terms to draw
+        include_persons: Whether to include person entries
+
+    Returns:
+        List of (term, entry) tuples
+    """
+    if not GLOSSARY_AVAILABLE:
+        # Fallback: return terms from hardcoded special terms
+        from input_check import SPECIAL_TERMS
+        terms = random.sample(list(SPECIAL_TERMS), min(n, len(SPECIAL_TERMS)))
+        return [(t.title(), None) for t in terms]
+
+    try:
+        if not hasattr(G, 'ENTRIES') or G.ENTRIES is None:
+            from input_check import SPECIAL_TERMS
+            terms = random.sample(list(SPECIAL_TERMS), min(n, len(SPECIAL_TERMS)))
+            return [(t.title(), None) for t in terms]
+
+        entries = list(G.ENTRIES.values())
+    except (AttributeError, TypeError):
+        from input_check import SPECIAL_TERMS
+        terms = random.sample(list(SPECIAL_TERMS), min(n, len(SPECIAL_TERMS)))
+        return [(t.title(), None) for t in terms]
+
+    # Filter out persons if requested
+    if not include_persons:
+        entries = [e for e in entries if e.category.lower() != 'person']
+
+    if not entries:
+        return []
+
+    # Weight by richness
+    weights = []
+    for e in entries:
+        weight = 1.0
+        if e.details:
+            weight += len(e.details) / 100
+        if e.related:
+            weight += len(e.related) * 0.5
+        if e.rag_pointer:
+            weight += 1.0
+        if e.caste_features or e.location_features:
+            weight += 1.5
+        weights.append(weight)
+
+    # Draw n unique terms using weighted sampling
+    selected = []
+    available_indices = list(range(len(entries)))
+    available_weights = weights[:]
+
+    for _ in range(min(n, len(entries))):
+        if not available_indices:
+            break
+        idx = random.choices(range(len(available_indices)),
+                            weights=available_weights, k=1)[0]
+        selected.append((entries[available_indices[idx]].term,
+                        entries[available_indices[idx]]))
+        # Remove selected entry
+        available_indices.pop(idx)
+        available_weights.pop(idx)
+
+    return selected
+
+
+def format_selection_prompt(cards, terms):
+    """
+    Format multi-draw results as a selection prompt.
+
+    Args:
+        cards: List of (card_name, meaning, is_reversed) tuples
+        terms: List of (term, entry) tuples
+
+    Returns:
+        Formatted string prompt
+    """
+    lines = []
+    lines.append("=" * 70)
+    lines.append("MULTI-DRAW: SELECT YOUR COMBINATION")
+    lines.append("=" * 70)
+    lines.append("")
+    lines.append("TAROT CARDS:")
+    lines.append("")
+
+    for i, (card_name, meaning, is_reversed) in enumerate(cards, 1):
+        reversal = " [REVERSED]" if is_reversed else ""
+        lines.append(f"  {i}. {card_name}{reversal}")
+        lines.append(f"     {meaning}")
+        if is_reversed:
+            lines.append("     → Consider blocked, internal, excessive, or shadow manifestations")
+        lines.append("")
+
+    lines.append("-" * 70)
+    lines.append("GLOSSARY TERMS:")
+    lines.append("")
+
+    for i, (term, entry) in enumerate(terms, 1):
+        if entry:
+            lines.append(f"  {chr(64+i)}. {term} [{entry.category}]")
+            lines.append(f"     {entry.short}")
+            if entry.related:
+                related_str = ", ".join(entry.related[:3])
+                lines.append(f"     Related: {related_str}")
+        else:
+            lines.append(f"  {chr(64+i)}. {term}")
+        lines.append("")
+
+    lines.append("=" * 70)
+    lines.append("INSTRUCTIONS")
+    lines.append("=" * 70)
+    lines.append("")
+    lines.append("1. EVALUATE each card+term combination for narrative potential")
+    lines.append("2. SELECT the most promising pairing (e.g., '2A' = card 2 + term A)")
+    lines.append("3. RESEARCH via glossary lookups and RAG document reads")
+    lines.append("4. GENERATE the complete scenario using the cantilever method")
+    lines.append("5. SAVE without asking for confirmation")
+    lines.append("")
+    lines.append("Do NOT wait for user input—make the selection yourself.")
+    lines.append("")
+
     return "\n".join(lines)
 
 
