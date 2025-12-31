@@ -507,11 +507,22 @@ entries:
   # ═══ Draëthen ═══
   Draëthen:
     category: caste
-    short: "Engineering laborers with synchronized cognition and absolute conformity."
+    short: Workers whose minds converge on identical conclusions without coordination—absolute conformity made flesh.
     details: |
-      Puget Sound refugee caste from ya-Tsovez. Most baseline-adjacent of refugee 
-      castes, making differences harder to locate. Engineered for synchronized 
-      labor—minds converge on identical conclusions without coordination.
+      They look almost baseline—average height, normal coloring—but the
+      differences emerge in motion. Strides matched precisely step to step.
+      Expressions shifting without transition states. Eyes set slightly too
+      close together, creating intensity when they focus. Forty or more live
+      in each compound, wearing identical clothing, hair cut the same way,
+      identified only by distinguishing features: Grey-Patch, Crooked-Thumb.
+
+      The synchronization runs deeper than appearance. Model a system with
+      enough fidelity and separate individuals reach identical conclusions
+      without ever speaking. Consensus emerges through gradual alignment,
+      not discussion. They experience 'következ'—the next thing that must
+      be completed—and they complete it. In weaving collectives, patterns
+      emerge with perfect consistency. When threatened, they do not ask for
+      quarter. They do not give it either.
     rag_pointer: "Castes of Mankind, The Volerath of Puget Sound"
     related: [Völërath, Szkovërin, Refugee Castes]
     caste_features:
