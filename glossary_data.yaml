@@ -10137,7 +10137,7 @@ entries:
 
   # ═══ Yarangar War ═══
   Yarangar War:
-    category: concept
+    category: event
     short: "Sultanate intervention in Ranga insurgency—military success that bred revolution through broken promises."
     details: |
       Sultana Ulayah's intervention in the Yarangar seemed strategically sound. The
@@ -10163,6 +10163,9 @@ entries:
       and were refused. The constitutional path closed; what remained was Kelso Senna.
     rag_pointer: "The Republic of Ganat"
     related: [Yarangar, Ganat, Sultana Ulayah, Kelso Senna, Patriarch Kaleb, Yeweso Dhal-Teren, Republican Veterans' Congress]
+    event_features:
+      year: "~958-962 RRH"
+      location: Yarangar
   # ─── end Yarangar War ───
 
   # ═══ Sultana Ulayah ═══
@@ -10914,15 +10917,18 @@ entries:
 
   # ═══ City-of-Glass Charter ═══
   City-of-Glass Charter:
-    category: concept
+    category: event
     short: "Constitutional document transferring reproductive jurisdiction from Creche to Scale."
     details: |
-      Named for the Technical Caste site whose intervention ended the Malpais War in 772 
-      Red Hawk. Grants individual rights over reproduction, requires Scale approval for 
-      Creche interventions. Conservative coalition (led by Soh Kēt faction) seeks reversal. 
+      Named for the Technical Caste site whose intervention ended the Malpais War in 772
+      Red Hawk. Grants individual rights over reproduction, requires Scale approval for
+      Creche interventions. Conservative coalition (led by Soh Kēt faction) seeks reversal.
       Reform faction defends. Current political conflict centers on this document.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Creche, Bureau of the Scale, City of Glass, Malpais War]
+    event_features:
+      year: "772 RRH"
+      location: City of Glass
   # ─── end City-of-Glass Charter ───
 
   # ═══ Junta of Ogon ═══
@@ -11068,16 +11074,19 @@ entries:
 
   # ═══ Malpais War ═══
   Malpais War:
-    category: concept
+    category: event
     short: "War ended in 772 Red Hawk by City of Glass intervention—basis for the Charter."
     details: |
-      Details classified. What is known: conflict in the volcanic scablands, unknown 
-      combatants and stakes, ended suddenly when the City of Glass did something no 
-      one can describe. The City-of-Glass Charter that transferred reproductive 
-      jurisdiction from Creche to Scale was named for this intervention. The City 
+      Details classified. What is known: conflict in the volcanic scablands, unknown
+      combatants and stakes, ended suddenly when the City of Glass did something no
+      one can describe. The City-of-Glass Charter that transferred reproductive
+      jurisdiction from Creche to Scale was named for this intervention. The City
       demonstrated capabilities it had never used before and has not used since.
     rag_pointer: Index, The Satara, the Bureaus, and Imperial Government
     related: [City of Glass, City-of-Glass Charter, Malpais]
+    event_features:
+      year: "772 RRH"
+      location: Malpais
   # ─── end Malpais War ───
 
   # ═══ Oracles ═══
@@ -11141,16 +11150,18 @@ entries:
 
   # ═══ Quiet Days ═══
   Quiet Days:
-    category: concept
+    category: event
     short: "Twice-yearly observance when no contracts are valid and silence is observed—universal Oracle practice."
     details: |
-      The only truly universal Oracle practice across the Empire. All commercial activity 
-      ceases. Silence institutionalizes reflection—pause rather than creating new branch 
-      points. Even cynics and revolutionaries observe them. Penitent Church sings final 
-      two verses of the Plea during Quiet Days. Regional variation in duration and 
+      The only truly universal Oracle practice across the Empire. All commercial activity
+      ceases. Silence institutionalizes reflection—pause rather than creating new branch
+      points. Even cynics and revolutionaries observe them. Penitent Church sings final
+      two verses of the Plea during Quiet Days. Regional variation in duration and
       strictness, but the core observance is ubiquitous.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Oracle Cult, Seven Virtues]
+    event_features:
+      time_of_year: "winter solstice, summer solstice"
   # ─── end Quiet Days ───
 
   # ═══ Seven Virtues ═══
@@ -13689,17 +13700,20 @@ entries:
 
   # ═══ Khalim Charter ═══
   Khalim Charter:
-    category: concept
+    category: event
     short: "965 RRH treaty preserving Vegas Springs' traditional privileges under Republican sovereignty."
     details: |
-      Named for the spring where negotiations occurred. Republic gained sovereignty, 
-      taxation rights, and military access. Vegas Springs retained Water Guild, commercial 
-      courts, traditional allocation systems, and right to select its own Senator rather 
-      than through kilit delegation. Revolutionary commander Sekh Tal-Omir (later Senator) 
-      negotiated the compromise rather than besieging a city controlling its own water 
+      Named for the spring where negotiations occurred. Republic gained sovereignty,
+      taxation rights, and military access. Vegas Springs retained Water Guild, commercial
+      courts, traditional allocation systems, and right to select its own Senator rather
+      than through kilit delegation. Revolutionary commander Sekh Tal-Orim (later Senator)
+      negotiated the compromise rather than besieging a city controlling its own water
       through terrain favoring defenders.
     rag_pointer: The Republic of Ganat
     related: [Vegas Springs, Water Guild, Ganat]
+    event_features:
+      year: "965 RRH"
+      location: Vegas Springs
   # ─── end Khalim Charter ───
 
   # ═══ Westerners ═══
@@ -13807,17 +13821,19 @@ entries:
 
   # ═══ Feast of Reflection ═══
   Feast of Reflection:
-    category: concept
+    category: event
     short: "Annual Church observance permitting 'dramatic readings' with 'interpretive elements'—licensed misrule."
     details: |
-      Tradition holds congregations may perform religious texts with interpretation. 
-      Origins unclear—possibly genuine liturgy, possibly legal fiction. In practice: 
-      one night when theatrical performance occurs in parish halls under Church rather 
-      than Lens oversight. Church standards differ from Bureau's—material fined in 
-      Fourth Whorl theater passes without comment in dockside chapel. Many clergy 
+      Tradition holds congregations may perform religious texts with interpretation.
+      Origins unclear—possibly genuine liturgy, possibly legal fiction. In practice:
+      one night when theatrical performance occurs in parish halls under Church rather
+      than Lens oversight. Church standards differ from Bureau's—material fined in
+      Fourth Whorl theater passes without comment in dockside chapel. Many clergy
       sympathetic to reform.
     rag_pointer: "Imperial Media and Entertainment"
     related: [Penitent Church, Bureau of the Lens, Pantomime]
+    event_features:
+      time_of_year: "October"
   # ─── end Feast of Reflection ───
 
   # ═══ Lens Censorship ═══
@@ -13938,17 +13954,20 @@ entries:
 
   # ═══ Tenth Observance ═══
   Tenth Observance:
-    category: concept
+    category: event
     short: "Annual transmission of the complete Plea into space—humanity's report to anyone listening in directions Foreigners haven't forbidden."
     details: |
-      Dish pointed carefully away from galactic core. Every Particular Confession from 
-      the year streams into space. Empire tolerates this because forbidding it would 
-      acknowledge words have power. Assembles fifteen voices from each participating 
-      congregation, five sections of three representing mathematical perfection. For 
-      forgotten communities, invitation to sing at Cathedral is opportunity to exist 
+      Dish pointed carefully away from galactic core. Every Particular Confession from
+      the year streams into space. Empire tolerates this because forbidding it would
+      acknowledge words have power. Assembles fifteen voices from each participating
+      congregation, five sections of three representing mathematical perfection. For
+      forgotten communities, invitation to sing at Cathedral is opportunity to exist
       publicly.
     rag_pointer: "The Penitents"
     related: [Penitent Church, The Plea, Cathedral of the Plea, Intercessor]
+    event_features:
+      time_of_year: "Spring"
+      location: Cathedral of the Plea
   # ─── end Tenth Observance ───
 
   # ═══ Cathedral of the Plea ═══
@@ -14917,11 +14936,13 @@ entries:
 
   # ═══ Interdict ═══
   Interdict:
-    category: concept
+    category: event
     short: The quarantine of Earth by the Foreigners, occurring at least ten thousand years ago.
     details: Visible as an aurora-like grid in the sky. Imposed after humanity violated the Three Mandates. Trapped all specialized castes on a single world where most intended functions no longer exist.
     rag_pointer: Index (Cosmology & Ancient History)
     related: [Foreigners, Three Mandates, Oracles]
+    event_features:
+      year: "UNKNOWN"
   # ─── end Interdict ───
 
   # ═══ Jargon ═══

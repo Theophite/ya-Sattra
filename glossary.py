@@ -271,6 +271,14 @@ class AestheticFeatures:
 
 
 @dataclass
+class EventFeatures:
+    """Features specific to event entries."""
+    year: str = ""  # "772 RRH", "965 RRH", "UNKNOWN", or blank
+    time_of_year: str = ""  # For recurring: "winter solstice", "October", "Spring"
+    location: str = ""  # Reference to location entry, or blank if no definite location
+
+
+@dataclass
 class GlossaryEntry:
     term: str
     category: str
@@ -282,6 +290,7 @@ class GlossaryEntry:
     caste_features: Optional[CasteFeatures] = None
     location_features: Optional[LocationFeatures] = None
     aesthetic_features: Optional[AestheticFeatures] = None
+    event_features: Optional[EventFeatures] = None
     local_aesthetic: str = ""
     person_location: str = ""  # For category=person: where they're based
 
@@ -357,21 +366,34 @@ def load_aesthetic_features(data: dict) -> AestheticFeatures:
     )
 
 
+def load_event_features(data: dict) -> EventFeatures:
+    """Load EventFeatures from YAML dict."""
+    return EventFeatures(
+        year=data.get('year', ''),
+        time_of_year=data.get('time_of_year', ''),
+        location=data.get('location', '')
+    )
+
+
 def load_entry(term: str, data: dict) -> GlossaryEntry:
     """Load a single GlossaryEntry from YAML dict."""
     caste_features = None
     location_features = None
     aesthetic_features = None
-    
+    event_features = None
+
     if 'caste_features' in data:
         caste_features = load_caste_features(data['caste_features'])
-    
+
     if 'location_features' in data:
         location_features = load_location_features(data['location_features'])
-    
+
     if 'aesthetic_features' in data:
         aesthetic_features = load_aesthetic_features(data['aesthetic_features'])
-    
+
+    if 'event_features' in data:
+        event_features = load_event_features(data['event_features'])
+
     return GlossaryEntry(
         term=term,
         category=data.get('category', ''),
@@ -383,6 +405,7 @@ def load_entry(term: str, data: dict) -> GlossaryEntry:
         caste_features=caste_features,
         location_features=location_features,
         aesthetic_features=aesthetic_features,
+        event_features=event_features,
         local_aesthetic=data.get('local_aesthetic', ''),
         person_location=data.get('person_location', '')
     )
