@@ -509,7 +509,7 @@ The Republic cannot manufacture everything the Empire can. But it manufactures w
 
 **House Tal-Omir**: Merchant Terraces, Taho. Quality weapons for merchant guards and officers. The Tal-Omir rifle is .40 caliber, blued steel, walnut stock—higher prices, better quality than mass production alternatives. Old merchant family, compound name indicating kilit-zem-kilitam descent. They've made weapons for three generations. They'll make weapons for three more regardless of who holds the Consulates.
 
-**House Kel el-Marwen Salvage Division**: Vegas Springs, on the border. Every skirmish produces salvage—captured Imperial rifles, ammunition sorted by caliber, ceramic armor plates, authentication bypass services. The current Dusk Consul rose through Kel el-Marwen politics. His family buys, evaluates, refurbishes, and resells equipment the Guard captures. The el- particle indicates ancient Imperial descent; the business indicates pragmatic adaptation.
+**House Kel el-Marwen Salvage Division**: Taho, on the Imperial border. Every skirmish produces salvage—captured Imperial rifles, ammunition sorted by caliber, ceramic armor plates, authentication bypass services. The current Dusk Consul rose through Kel el-Marwen politics. His family buys, evaluates, refurbishes, and resells equipment the Guard captures. The el- particle indicates ancient Imperial descent; the business indicates pragmatic adaptation.
 
 #### Neutral Producers
 

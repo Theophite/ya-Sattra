@@ -239,7 +239,7 @@ MANUFACTURERS = {
             "political": "Dawn"
         },
         "House Kel el-Marwen (Salvage Division)": {
-            "location": "Vegas Springs",
+            "location": "Taho",
             "specialty": "Captured Imperial equipment",
             "products": [
                 "refurbished Imperial rifles",
