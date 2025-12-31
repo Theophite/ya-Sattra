@@ -2650,11 +2650,26 @@ entries:
   # ═══ Aureate Way ═══
   Aureate Way:
     category: location
-    short: "Narrow commercial corridor between es-Korvey and es-Durann estates."
+    short: Narrow commercial corridor between two arcologies—barely room for palanquins to pass, rents exceeding palatial estates elsewhere.
     details: |
-      Barely wide enough for two palanquins to pass. Rents exceed palatial estates 
-      elsewhere in ya-Sattra—proximity to patent holders justifies any expense. 
-      Fortunes change hands in doorway negotiations.
+      Barely wide enough for two palanquins to pass. Porcelain-coral
+      underfoot. Two radically different arcologies pressing close on either
+      side: spiral towers on one, fabric-draped surfaces shifting color in
+      the light; pharmaceutical domes on the other, white surfaces
+      occasionally venting green luminescence. Bioluminescent posts at
+      irregular intervals where the passage widens. Shopfronts wedged into
+      spaces the arcologies allow.
+
+      Rents here exceed palatial estates elsewhere in ya-Sattra. Proximity
+      to patent holders justifies any expense. The businesses operating from
+      these cramped storefronts serve those who control the city's ancient
+      technologies—specialists, brokers, factors who need to be within
+      speaking distance of decisions that reshape markets.
+
+      Fortunes change hands in doorway negotiations conducted while
+      palanquins wait for space to pass. The narrowness concentrates wealth
+      rather than dispersing it. Everyone who matters moves through here
+      eventually.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, es-Korvey, es-Durann]
     location_features:
