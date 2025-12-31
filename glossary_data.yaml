@@ -2209,8 +2209,29 @@ entries:
   # ═══ Warborn ═══
   Warborn:
     category: caste
-    short: Combat-specialized castes with rapid regeneration and severe metabolic dysfunction.
-    details: ""
+    short: Combat castes standing nine feet tall—dark skin, massive frames, bodies that regenerate wounds until the regeneration becomes cancer.
+    details: |
+      Standard infantry stands about nine feet tall. Massive musculature,
+      reinforced bone, dark skin stretched over structures designed to
+      absorb and deliver punishment. Bald scalps with nodular texture where
+      bony protrusions push visible beneath the skin. Heavy brows, deep-set
+      eyes. Bodies radiating constant heat because the metabolism struggles
+      to dissipate thermal energy. Variants exist: Ironbone with armor
+      bolted directly to the skeleton, scout-assassins leaner at seven feet
+      with enhanced senses and lower heat signatures.
+
+      The Blink defines combat behavior. Autonomic violence response
+      bypassing conscious decision—eyes shift, body moves, fighting before
+      deciding to fight. Training can suppress it, imperfectly. The body
+      knows what to do; the mind learns to let it, or learns to restrain it
+      just enough to avoid killing allies.
+
+      The regeneration that makes them lethal also makes them terminal. No
+      Warborn reaches forty. Tumors start in the mid-thirties—rapid cellular
+      regeneration producing malignancy as inevitably as it produces healing.
+      They require six meals daily, becoming combat-ineffective after three
+      days without food. Bodies designed for war, with lifespans measured
+      by decades of fighting and a death that comes from within.
     rag_pointer: Castes of Mankind, Bureau of the Sword
     related: [Bureau of the Sword, Ironbone Warborn, The Blink, Hall of Mothers]
     caste_features:
