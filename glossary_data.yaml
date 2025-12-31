@@ -1133,8 +1133,22 @@ entries:
   # ═══ Mutterers ═══
   Mutterers:
     category: caste
-    short: Neurologically reduced Technical Caste descendants who compulsively optimize technology.
-    details: ""
+    short: Meter-tall beings who mutter constantly and compulsively improve any technology they encounter.
+    details: |
+      Approximately one meter tall, enormous eyes tracking everything, jaws
+      moving constantly as they vocalize their cognitive processes. Some have
+      replaced their own eyes with salvaged sensors, added extra ears. They
+      retain complete technical knowledge but lack executive function—a single
+      Mutterer is helpless, unable to initiate actions, only responding to
+      situations. Grouped together, they form distributed consciousness that
+      can accomplish remarkable things.
+
+      They compulsively optimize any technology they encounter, whether asked
+      to or not. They form pair bonds, show physical affection, sleep curled
+      together. The organizations that manage them use chimes to interrupt
+      neural patterns before feedback loops become destructive. The constant
+      muttering is their thinking made audible—impossible to stop, disturbing
+      to witness, essential to their function.
     rag_pointer: The Companions Guild, The Technical Castes and Far Ib
     related: [Technical Castes, Companions Guild, Choir, Crooked-Ear, Three Cradles]
     caste_features:
