@@ -1790,8 +1790,30 @@ entries:
   # ═══ Sickly ═══
   Sickly:
     category: caste
-    short: Biological factories producing antibody-rich serums through rose-gold lattices.
-    details: ""
+    short: Living pharmaceutical factories—graceful, translucent bodies with rose-gold lattices along sternum and arms, engineered without negative emotion.
+    details: |
+      Graceful and slender, with minimal muscle mass—metabolism optimized
+      for antibody production rather than physical labor. Porcelain-like
+      translucent skin reveals fine networks of blood vessels and lymphatic
+      pathways beneath. Rose-gold lattices run along the sternum and
+      undersides of the arms: clusters of delicate translucent nodules that
+      enlarge and glow when approaching harvest. A sweet fruit-like scent
+      intensifies as they "ripen"—overwhelming in enclosed spaces.
+
+      The engineering runs deeper than appearance. They lack the capacity
+      for negative emotion—not suppressed or controlled, simply absent.
+      Anxiety, grief, fear: the neurological pathways don't exist. Illness
+      registers as mild warmth. Harvesting feels like gentle pressure. They
+      move through experiences that would traumatize other castes with
+      serene incomprehension of why anyone might object.
+
+      The Companions Guild manages their care and harvesting. Semi-sentient
+      cognition means they understand their function without questioning it.
+      They produce what their bodies were designed to produce, experience
+      the process as pleasant, and have no framework for imagining
+      alternatives. Whether this constitutes cruelty or mercy depends on
+      premises about consciousness that the Sickly themselves cannot
+      evaluate.
     rag_pointer: Sickly Caste Overview (PDF), The Companions Guild
     related: [Companions Guild, Semi-Sentient, Morvain-3]
     caste_features:
