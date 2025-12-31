@@ -2081,11 +2081,29 @@ entries:
   # ═══ Völërath ═══
   Völërath:
     category: caste
-    short: "Diminished Highborn of Puget Sound, tall but unable to Compel."
+    short: Diminished Highborn of Puget Sound—tall, pale, inbred after ten millennia, unable to Compel but remembering that they once could.
     details: |
-      What remains of Highborn blood after 10,000 years of dilution and isolation. 
-      Fled ya-Tsovez during the slave revolt. Average ~6'6" (down from ancestors' 
-      9 feet). Cannot Compel but remember that they once could.
+      What remains of Highborn blood after ten thousand years. They fled
+      ya-Tsovez during the slave revolt and never returned. Now they average
+      about six foot six—tall by any standard, but their ancestors stood
+      nine feet. Necks extend two or three inches longer than baseline.
+      Fingers thin and overlong, as if each gained an extra knuckle's worth.
+      Skulls extend slightly at the back. Bloodless pallor goes purple
+      unevenly in cold; lips hold a bluish cast even in health. Large eyes
+      with irises ranging grey to pale blue to washed-out violet.
+
+      Ten millennia of marrying only each other has concentrated defects.
+      Spinal curvature. Hyperextended joints. Teeth crowding the jaw,
+      requiring extraction in youth. Progressive hearing loss through
+      middle age—they've developed elaborate gesture-language to
+      accommodate the elderly. Maximum lifespan around 140 years: longer
+      than baseline, far less than Highborn ancestors.
+
+      They cannot Compel. The capacity vanished within centuries of the
+      flight. But they conduct themselves as if the memory of Compulsion
+      still confers authority—maintaining ledgers that record every slight
+      across decades, managing harbors and negotiating trade as if their
+      diminished blood still commands respect by right.
     rag_pointer: "The Volerath of Puget Sound, Castes of Mankind"
     related: [Highborn, Szkovërin, Draëthen, Refugee Castes]
     caste_features:
