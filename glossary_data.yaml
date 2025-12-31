@@ -332,17 +332,18 @@ entries:
   # ═══ Vesztraëlin Terminal Alpha ═══
   Vesztraëlin Terminal Alpha:
     category: location
-    short: "Avouvar autofactory terminal producing armor alloys and pressure-rated tubes."
+    short: Autofactory terminal producing armor alloys; runs for years, then stops for a decade.
     details: |
-      LOCATION: Garrison District, Asovoë. Vesztraëlin territory.
-      
-      OUTPUTS: Armor alloy ingots (Warborn-grade, stops penetrators), pressure-rated 
-      tubes (pneumatic/hydraulic systems).
-      
-      CHARACTER: Autofactory terminal, not conventional manufacturing. Production 
-      follows Medial schedules—may run for years, then stop for a decade. When 
-      active, Vesztraëlin experiences sudden wealth; when silent, that wealth 
-      evaporates.
+      Not conventional manufacturing. The terminal produces armor alloy ingots and
+      pressure-rated tubes according to schedules set by the Medials—schedules no
+      one else can read or influence. It may run for years, output steady, wealth
+      accumulating. Then it stops. A decade of silence while the stockpiles drain
+      and the contracts cannot be fulfilled.
+
+      When active, Vesztraëlin prospers. When silent, that prosperity evaporates.
+      There is no way to predict which state comes next, no way to negotiate with
+      the systems that decide. You build your economy around something you cannot
+      control, because the alternative is building nothing at all.
     related: [Avouvar, Asovoë, Droëvan Primary Terminal, Vesztraëlin]
     location_features:
       level: site
@@ -353,17 +354,19 @@ entries:
   # ═══ Droëvan Primary Terminal ═══
   Droëvan Primary Terminal:
     category: location
-    short: "Avouvar autofactory terminal producing electromagnetic components essential to all Asovoë railguns."
+    short: Autofactory terminal producing railgun components; when it stops, everyone's weapons degrade.
     details: |
-      LOCATION: Garrison District, Asovoë. Droëvan territory.
-      
-      OUTPUTS: Capacitors (railgun grade), electromagnets (various sizes), charging 
-      systems, power storage units.
-      
-      CHARACTER: Essential for railgun maintenance throughout Asovoë. When this 
-      terminal stops, everyone's weapons degrade. The critical vulnerability of 
-      both feuding houses—they depend on Droëvan production whether they admit it 
-      or not.
+      Capacitors, electromagnets, charging systems, power storage units—the
+      components that keep railguns functional. Every house in the city depends
+      on this terminal's output for maintenance, whether they admit it or not.
+      The feuding houses especially. Their weapons degrade without Droëvan
+      production.
+
+      This is the critical vulnerability that no one can address. The terminal
+      operates according to Medial schedules. It produces what it produces when
+      it produces it. When it stops, stockpiles run down and maintenance falls
+      behind and weapons begin to fail. The dependency cannot be broken because
+      no one else can make what the terminal makes.
     related: [Avouvar, Asovoë, Vesztraëlin Terminal Alpha, Culverin, Droëvan]
     location_features:
       level: site
@@ -374,16 +377,18 @@ entries:
   # ═══ Czernaël Factor-House ═══
   Czernaël Factor-House:
     category: organization
-    short: "Avouvar trade interface—where autofactory goods meet the outside world."
+    short: Trade interface between autofactory production and outside customers; significant markup, necessary intermediary.
     details: |
-      LOCATION: San Juan Islands.
-      
-      PRODUCTS: Armor alloy (sized for non-Avouvar customers), weapon components 
-      (adapted for larger hands), authentication certificates.
-      
-      CHARACTER: Where Avouvar goods meet the outside world. Akama are the primary 
-      customers—their warriors wear Warborn-grade armor bought through Czernaël 
-      intermediaries. Significant markup. Neutral in the Vesztraëlin-Droëvan feud.
+      Where autofactory goods meet the outside world. Armor alloy sized for
+      non-Avouvar bodies, weapon components adapted for larger hands,
+      authentication certificates proving provenance. The products cannot be
+      made elsewhere. The markup is significant. The intermediary is necessary.
+
+      Akama warriors wear armor bought through Factor-House intermediaries.
+      The feuding houses back home cannot agree on much, but both sell through
+      Czernaël. Neutrality is the business model. Someone has to stand between
+      producers who cannot leave their territory and customers who cannot
+      enter it.
     related: [Avouvar, Asovoë, Akama, Thousand Kingdoms]
   # ─── end Czernaël Factor-House ───
 
@@ -14909,17 +14914,19 @@ entries:
   # ═══ Dam Workers' Armorers Assembly ═══
   Dam Workers' Armorers Assembly:
     category: organization
-    short: "Dawn-aligned cooperative producing mass-manufactured weapons inside the Dam."
+    short: Syndicalist cooperative inside the Dam; free power, mass-manufactured weapons, quality varies by shift committee.
     details: |
-      LOCATION: Inside the Dam itself, Ganat proper. Workshops occupy chambers carved 
-      from the Dam's internal structure, directly connected to the turbine halls. The 
-      hum of generators is constant.
-      
-      PRODUCTS: Machine-turned rifle barrels (consistent bore), standardized cartridge 
-      cases, bayonets (triangular, socket-mount), uniform fittings.
-      
-      CHARACTER: Syndicalist cooperative, Dawn-aligned. Quality varies by shift committee. 
-      Free power means experimentation is cheap—failed designs cost only labor.
+      Workshops carved into the Dam's internal structure, directly connected to
+      the turbine halls. The hum of generators is constant. Free power means
+      experimentation is cheap—failed designs cost only labor. You can try
+      things here that would be unaffordable elsewhere.
+
+      Machine-turned rifle barrels with consistent bore, standardized cartridge
+      cases, bayonets, uniform fittings. Mass manufacture rather than craft.
+      Quality varies by shift committee—some rotations produce better work than
+      others, and the cooperative structure means no one can simply fire the
+      slower crews. Dawn-aligned, syndicalist in organization. The work belongs
+      to the workers. The inconsistency belongs to them too.
     related: [Ganat, Dawn Party, Khen-Masot Rifle Works]
   # ─── end Dam Workers' Armorers Assembly ───
 
@@ -14928,16 +14935,15 @@ entries:
     category: organization
     short: "Old merchant family producing quality weapons for Ganati merchant guards."
     details: |
-      LOCATION: Merchant Terraces, Taho—workshops overlooking the harbor, three 
-      generations in the same building. You can see the caravan routes from the 
-      finishing room.
-      
-      PRODUCTS: Tal-Omir rifle (.40 caliber, blued steel, walnut stock), carbines 
-      (caravan guard variant), matched officer pistol pairs, presentation weapons 
-      (engraved, for diplomacy).
-      
-      CHARACTER: Compound name indicates kilit-zem-kilitam descent. Higher prices, 
-      better quality. Their guards carry their own weapons—a statement of confidence.
+      Three generations in the same building on the Merchant Terraces in Taho. From
+      the finishing room, you can see the caravan routes their weapons will travel.
+      The compound name marks kilit-zem-kilitam descent—old money, old reputation.
+
+      They make rifles, carbines, matched officer pairs, presentation pieces for
+      diplomacy. Higher prices than the Dawn cooperatives, but the quality justifies
+      it. Their own guards carry Tal-Omir weapons—a statement visible to every
+      customer who walks through the door. When a merchant house arms its guards
+      with its own production, it is saying something about confidence in its work.
     related: [Ganat, Dusk Party, Taho]
   # ─── end House Tal-Omir ───
 
@@ -14946,16 +14952,17 @@ entries:
     category: organization
     short: "Primary weapons manufacturer supplying Republican Guard infantry—compound name, neutral politics."
     details: |
-      LOCATION: Near Wall, Ganat proper. Workshops carved into sandstone, powered 
-      by Dam transmission lines.
-      
-      PRODUCTS: Infantry rifle (.40 caliber, Guard standard), replacement parts 
-      (standardized), training rifles (reduced charge).
-      
-      CHARACTER: Compound name indicates old merchant family, but Khen-Masot maintains 
-      careful neutrality—they supply the Guard regardless of which parties hold the 
-      Consulates. Their contracts predate the Revolution. Politically, they donate to 
-      both parties and attend neither's functions.
+      Workshops carved into the sandstone near the Wall, powered by Dam transmission
+      lines. The compound name marks an old merchant family, but Khen-Masot has
+      outlasted the Sultanate itself. Their contracts with the Guard predate the
+      Revolution.
+
+      They produce the standard infantry rifle, replacement parts, training weapons.
+      Standardization is their specialty—interchangeable components, predictable
+      quality, reliable supply. When the Consulates change hands, Khen-Masot
+      continues. They donate to both parties and attend neither's functions. The
+      Guard needs rifles regardless of who holds power. That neutrality is itself
+      a kind of politics, but one the Republic has learned to accept.
     related: [Ganat, Dam Workers' Armorers Assembly, Near Wall]
   # ─── end Khen-Masot Rifle Works ───
 
@@ -14964,15 +14971,17 @@ entries:
     category: organization
     short: "Dawn-aligned syndicalist cooperative producing dragoon equipment and reverse-engineered culverins."
     details: |
-      LOCATION: Industrial terraces, Taho—former textile mills converted after the 
-      Yarangar War. The looms are gone; the power connections remain.
-      
-      PRODUCTS: Culverin components (seventy percent domestic manufacture), 
-      reverse-engineered rail carbines, charging equipment.
-      
-      CHARACTER: Their reverse-engineered rail weapons don't require Imperial 
-      authentication—the critical breakthrough that gives Ganati dragoons parity 
-      with Imperial forces.
+      Former textile mills on the industrial terraces, converted after the Yarangar
+      War. The looms are gone but the power connections remain. Dawn-aligned,
+      syndicalist in structure—cooperative ownership, elected foremen, shared
+      profits.
+
+      They make culverin components, reverse-engineered rail carbines, charging
+      equipment. The breakthrough is authentication bypass: their rail weapons
+      work without Imperial neural locks. This gives Ganati dragoons parity with
+      Imperial forces. Seventy percent domestic manufacture, rising. Every
+      component they can make themselves is one less dependency on captured
+      equipment and smuggled parts.
     related: [Ganat, Dawn Party, Culverin, Taho]
   # ─── end Taho Metalworkers' Collective ───
 
@@ -14981,14 +14990,17 @@ entries:
     category: organization
     short: "Ganati precision optics manufacturer—irreplaceable expertise in rifle scopes and ranging equipment."
     details: |
-      Location: Near Wall, Ganat proper. Sefka Ghesam, proprietor.
-      
-      PRODUCTS: Rifle scopes (4x magnification), artillery ranging equipment, 
-      signal mirrors (heliograph quality), binoculars (field grade).
-      
-      CHARACTER: Single-name family (no kilit marker, but wealthy anyway). Forty 
-      workers, irreplaceable expertise. Waiting list for military contracts. 
-      Politically neutral—everyone needs optics.
+      Near the Wall in Ganat proper. Single-name family—no kilit marker, but
+      wealthy anyway. Forty workers with irreplaceable expertise. The waiting
+      list for military contracts stretches years.
+
+      They make rifle scopes, artillery ranging equipment, signal mirrors,
+      field binoculars. Precision glass work requires knowledge that cannot be
+      written down: the feel of the grind, the clarity of the polish, the
+      alignment that makes the difference between a shooter who hits and one
+      who misses. Every faction needs optics. Ghesam sells to all of them. That
+      neutrality is not political convenience—it is the natural consequence of
+      being the only ones who can do what they do.
     related: [Ganat]
   # ─── end Ghesam Optical ───
 
@@ -14997,14 +15009,16 @@ entries:
     category: organization
     short: "The Dusk Consul's family business—captured Imperial equipment refurbishment."
     details: |
-      Location: Taho, on the Imperial border.
+      On the Imperial border in Taho. The 'el-' particle marks ancient Imperial
+      descent—the family predates the Sultanate itself. Dusk-aligned, naturally.
+      The current Dusk Consul is one of theirs.
 
-      PRODUCTS: Refurbished Imperial rifles, captured ammunition (sorted by caliber),
-      Imperial armor (ceramic plates, fitted to Serrulata frames), authentication
-      bypass services.
-
-      CHARACTER: Every border action produces salvage. The 'el-' particle marks
-      ancient Imperial descent—family predates the Sultanate. Dusk-aligned, naturally.
+      Every border action produces salvage. Kel el-Marwen refurbishes Imperial
+      rifles, sorts captured ammunition by caliber, fits Imperial ceramic armor
+      to Serrulata frames. They offer authentication bypass services for neural-
+      locked equipment. The work requires understanding Imperial technology from
+      the inside—which is easier when your ancestors built it. Old blood, old
+      knowledge, old money converted into new influence.
     related: [Ganat, Dusk Party, Datho Kel el-Marwen, Taho]
   # ─── end House Kel el-Marwen (Salvage Division) ───
 
@@ -15013,13 +15027,16 @@ entries:
     category: organization
     short: "Frontier cooperative producing cold-weather military equipment."
     details: |
-      Location: High Junction, northern frontier.
-      
-      PRODUCTS: Cold-weather gear (insulated, layered), cavalry equipment (saddles, 
-      tack), portable field forges, local ammunition production.
-      
-      CHARACTER: Six years of grid power transformed this garrison town from 
-      isolated outpost to manufacturing center. Dawn-aligned, supplies frontier kilits.
+      On the northern frontier, in the garrison town of High Junction. Six years
+      of grid power transformed this isolated outpost into a manufacturing
+      center. Dawn-aligned, organized as a cooperative congress of craft
+      specialists.
+
+      They make what the frontier needs: cold-weather gear with proper insulation
+      and layering, cavalry equipment, portable field forges, locally-produced
+      ammunition. The supply lines from Ganat proper are long and uncertain. What
+      the frontier kilits need, the Congress provides. Self-sufficiency is not
+      ideology here—it is survival.
     related: [Ganat, Dawn Party, High Junction]
   # ─── end High Junction Armorers' Congress ───
 
@@ -15105,14 +15122,16 @@ entries:
     short: "Akama master smith, third generation—travels between Malpais villages with mobile forge."
     person_location: Malpais
     details: |
-      LOCATION: Mobile forge, Malpais villages.
-      
-      PRODUCTS: Destrier tack (harness, saddle frames), gouges with distinctive 
-      blood-channel fuller, sabers (single-edge, moderate curve), spearheads and lance tips.
-      
-      CHARACTER: Third generation. His gouges are identifiable by the fuller design—
-      a channel that routes blood away from the grip. Traditional smithing methods 
-      passed down through family.
+      Third-generation smith traveling between Malpais villages with a mobile
+      forge. Makes destrier tack, gouges, sabers, spearheads, lance tips. His
+      gouges are identifiable by the fuller design—a channel that routes blood
+      away from the grip, preventing slippage during extended combat.
+
+      Traditional methods passed down through family. The Akama do not have
+      fixed workshops like the Ganati. A smith who stays in one place serves
+      one village; a smith who travels serves all of them. He arrives, sets up
+      the forge, works through the accumulated orders, moves on. The mobile
+      forge is itself inherited—his grandfather's design.
     related: [Akama, Thousand Kingdoms, Gouge, Grandmother Vurda Eleven-Sage]
   # ─── end Dzoragh Ironhand ───
 
@@ -15122,15 +15141,16 @@ entries:
     short: "Legendary Akama bladesmith—seventy-three years old, no apprentice matches her work."
     person_location: Malpais
     details: |
-      LOCATION: Southern Malpais.
-      
-      PRODUCTS: Gouges (master quality, months-long wait), sabers (pattern-welded, 
-      exceptional edge retention), daggers (ceremonial and functional), lance heads 
-      (for khans only).
-      
-      CHARACTER: Her gouges are heirlooms passed between generations. The waiting 
-      list is measured in years. She has trained apprentices, but none match her work. 
-      When she dies, something irreplaceable leaves the world.
+      Seventy-three years old, working in the southern Malpais. Makes gouges,
+      pattern-welded sabers, ceremonial daggers, lance heads reserved for khans.
+      Her gouges are heirlooms passed between generations. The waiting list is
+      measured in years.
+
+      She has trained apprentices. None match her work. There is knowledge in her
+      hands that cannot be transferred through instruction—the feel of the steel
+      at the right moment, the angle of the fold, the rhythm of the hammer that
+      produces pattern-welding of exceptional quality. When she dies, something
+      irreplaceable leaves the world. Everyone knows this. She keeps working.
     related: [Akama, Thousand Kingdoms, Gouge, Dzoragh Ironhand]
   # ─── end Grandmother Vurda Eleven-Sage ───
 
@@ -15140,14 +15160,17 @@ entries:
     short: "Ganati Republican Guard deserter now producing rifles for the Akama with captured Imperial tooling."
     person_location: Ogon
     details: |
-      LOCATION: Thavek district, Ogon.
-      
-      PRODUCTS: Hunting rifle (.38 caliber, accurate to 400 yards), carbine (cavalry 
-      length), heavy rifle (.50 caliber).
-      
-      CHARACTER: Quality approaches Republican standards. Uses captured Imperial 
-      tooling. Doesn't talk about his past—something drove him to leave the Guard 
-      and settle among people who were recently enemies. The Akama don't ask.
+      Working in the Thavek district of Ogon. Makes hunting rifles, cavalry
+      carbines, heavy rifles. Quality approaches Republican Guard standards—he
+      knows their specifications because he used to carry their weapons. Uses
+      captured Imperial tooling, which is better than anything the Akama could
+      manufacture locally.
+
+      He doesn't talk about his past. Something drove him to leave the Guard and
+      settle among people who were recently enemies. The Akama don't ask. A man
+      who can make rifles is valuable; a man who can make rifles to Guard
+      standards is irreplaceable. Whatever he did, whatever was done to him—that
+      is his business. The rifles are everyone's.
     related: [Akama, Thousand Kingdoms, Ganat]
   # ─── end Khorat the Deserter ───
 
@@ -15156,14 +15179,17 @@ entries:
     category: organization
     short: "Akama captured equipment evaluation and authentication bypass operation."
     details: |
-      LOCATION: Ogon harbor district.
-      
-      PRODUCTS: Authentication bypass (Imperial weapons), equipment evaluation and 
-      certification, parts harvesting from damaged equipment.
-      
-      CHARACTER: Gorvan himself handles the neural-lock bypass—the delicate work of 
-      convincing Imperial weapons they're being held by authorized users. His apprentices 
-      do the rest. If it was captured, they can tell you if it works.
+      In the harbor district of Ogon. Every border skirmish, every raid, every
+      ambush produces captured equipment. Someone has to evaluate it, certify
+      what works, harvest parts from what doesn't, and bypass the neural locks
+      that prevent unauthorized use.
+
+      Gorvan himself handles the authentication bypass—the delicate work of
+      convincing Imperial weapons they're being held by authorized users. His
+      apprentices do the evaluation and certification. Bring them something
+      captured and they'll tell you if it works, what it's worth, whether the
+      lock can be defeated. The Akama cannot manufacture rail weapons, but they
+      can make captured ones functional. That gap is where Gorvan lives.
     related: [Akama, Thousand Kingdoms, Culverin, Ogon]
   # ─── end Gorvan Salvage ───
 
@@ -15238,14 +15264,15 @@ entries:
     short: "Armorers' Guild master, third generation—rifles for specific battalions, contracts going back centuries."
     person_location: Medina Quarter
     details: |
-      LOCATION: Medina Quarter, ya-Sattra.
-      
-      PRODUCTS: Kavek-pattern chemical rifle (.42 caliber, brass furniture), carbines 
-      (shortened cavalry variant), heavy rifles (.55 caliber, tripod-mounted).
-      
-      CHARACTER: His workshop produces perhaps forty rifles yearly. Quality excellent 
-      but availability limited. Family contracts with specific battalions going back 
-      centuries—he won't sell to units outside traditional relationships.
+      Third-generation master working in the Medina Quarter. Makes the Kavek-
+      pattern chemical rifle, carbines, heavy rifles. Perhaps forty weapons yearly.
+      Quality excellent, availability limited. His father made rifles for the same
+      battalions, as did his grandfather before him.
+
+      He won't sell to units outside those traditional relationships. New officers
+      approach him; he refuses. The Guild has pressured him to expand; he refuses.
+      The contracts are centuries old. His family's reputation is built on keeping
+      them. Money cannot buy what loyalty has earned.
     related: [Armorers' Guild, Medina Quarter, Journeyman Thess Morain, Journeyman Torven Garris]
   # ─── end Master Kavek Ossoreth ───
 
@@ -15255,15 +15282,16 @@ entries:
     short: "Precision components craftsman—'should have made master a decade ago; politics.'"
     person_location: ya-Sattra
     details: |
-      LOCATION: Seventh Terrace, ya-Sattra—a cramped workshop overlooking the 
-      pneumatic hub, rented from a minor Aureate family.
-      
-      PRODUCTS: Rifle sights (adjustable windage), trigger assemblies, barrel linings 
-      (extends service life).
-      
-      CHARACTER: Works alone—no apprentices, no assistants. His sights are worth their 
-      weight in silver. Should have made master a decade ago, but guild politics 
-      blocked his advancement. Doesn't talk about it.
+      Cramped workshop on the Seventh Terrace, rented from a minor Aureate family.
+      Works alone—no apprentices, no assistants. Makes rifle sights with adjustable
+      windage, trigger assemblies, barrel linings that extend service life. His
+      sights are worth their weight in silver.
+
+      Should have made master a decade ago. Guild politics blocked his advancement.
+      He doesn't talk about it. The work speaks for itself. Every master armorer
+      in the city knows his components improve their weapons. None will sponsor
+      his elevation. He keeps working. The sights keep selling. The injustice
+      persists alongside the reputation.
     related: [Armorers' Guild, Master Kavek Ossoreth, Seventh Terrace]
   # ─── end Journeyman Thess Morain ───
 
@@ -15273,15 +15301,17 @@ entries:
     short: "Mobile field repair armorer—no fixed workshop, works from a cart, soldiers know his name."
     person_location: Iron Yards
     details: |
-      LOCATION: Based in the Iron Yards, ya-Sattra, but travels with regiments. His 
-      cart has been to the Yarangar border and back three times.
-      
-      PRODUCTS: Emergency repairs, parts fabrication from salvage, bore conversions 
-      between calibers.
-      
-      CHARACTER: Goes where the work is. When a regiment is in the field and weapons 
-      break, they send for Torven. No fixed workshop—just a cart, tools, and thirty 
-      years of experience knowing what can be fixed and what can't.
+      Based in the Iron Yards but travels with regiments. His cart has been to
+      the Yarangar border and back three times. No fixed workshop—just a cart,
+      tools, and thirty years of experience. Does emergency repairs, fabricates
+      parts from salvage, converts bores between calibers.
+
+      When a regiment is in the field and weapons break, they send for Torven.
+      He goes where the work is. Soldiers know his name. The Guild masters stay
+      in their workshops; Torven sleeps in mud, eats camp rations, fixes rifles
+      under fire. He will never make master—mobile armorers don't accumulate
+      the capital or connections. But every soldier who's fought knows who keeps
+      their weapons working.
     related: [Armorers' Guild, Iron Yards, Master Kavek Ossoreth]
   # ─── end Journeyman Torven Garris ───
 

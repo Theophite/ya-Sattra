@@ -35,53 +35,40 @@ from pathlib import Path
 
 REMINDER = """
 ═══════════════════════════════════════════════════════════════════════════════
-REVISION PRINCIPLES
+THE EIGENVECTOR
 ═══════════════════════════════════════════════════════════════════════════════
 
-WHAT TO EDIT: Only `short` and `details`. Leave subsections (material_culture,
-caste_features, location_features, etc.) alone.
+Every entry conveys the coherent internal perspective of its subject.
 
-WHAT DETAILS SHOULD CONTAIN:
-  • Physical reality — what do outsiders see? Bodies, spaces, artifacts.
-  • Lived experience — what is it like to BE this? To live here? To do this work?
-  • Social position — where do they fit? What is their life? Who do they deal with?
+THE QUESTION: "How do we live inside it?"
 
-  Do NOT repeat content that belongs in subsections. If there's a material_culture
-  section, don't summarize it in details—that's what the section is for.
+WHAT TO EDIT: Only `short` and `details`. Leave subsections alone.
 
-THE POSITIONS (every entry conveys coherent internal perspective):
-  • Inheritors caring for what they didn't build
-  • Makers certain they were finalizing
-  • Things continuing their function past their audience
-  • People doing harm with their justification
-  • People creating within inherited constraints
+DETAILS SHOULD CONTAIN:
+  • Physical reality — what do outsiders see?
+  • Lived experience — what is it like to BE this?
+  • The internal logic that makes apparent absurdity make sense
+
+STAY AT THE APPROPRIATE LEVEL:
+  • Caste: bodies and what it's like to have that body
+  • Location: spaces and what it's like to move through them
+  • Organization: structure and what it's like to work within it
+  • Technology: what it's like to depend on what you can't comprehend
+
+PATTERNS, NOT INSTANCES:
+  Specific examples become canonical and get recycled. Describe the pattern
+  that generates instances, not the instances themselves.
+
+DON'T INVENT:
+  No terminology, places, or concepts that don't exist in the setting.
+  Each entry should be interpretable on its own.
+
+DON'T WINK:
+  Embody the design principles without announcing them. No meta-commentary.
 
 THE QUALITY:
-  • Care persisting where understanding has failed
-  • Endurance and transcendence amidst impenetrable mystery
-  • Someone is doing their best here, and it matters
-
-THE STYLE:
-  • Patterns, not specific instances (instances get recycled as canonical examples)
-  • Avoid proper nouns in details—specific places/people go in `related` field
-  • Prose, not fragments
-  • Don't be too literal about the design framework—no winking at the meta-level
-  • Show the internal logic that makes apparent absurdity make sense
-  • For governments: what it's like to work within the forms
-  • For architecture: what it's like to move through the spaces
-  • For technology: what it's like to depend on what you can't comprehend
-
-SCOPE AND SELF-CONTAINMENT:
-  • Each entry should be interpretable on its own, without requiring other entries
-  • Stay at the appropriate level for the category:
-      - Caste: bodies and what it's like to have that body
-      - Location: spaces and what it's like to move through them
-      - Organization: structure and what it's like to work within it
-  • Don't invent terminology, places, or concepts that don't exist in the setting
-  • Adjacent concerns belong in their own entries, not here
-  • Read it back: does it sound natural? Audit for awkward phrasing.
-
-THE QUESTION: "How do we live inside it?" — never "How do we fix it?"
+  Care persisting where understanding has failed. Endurance and transcendence
+  amidst impenetrable mystery. Someone is doing their best here, and it matters.
 ═══════════════════════════════════════════════════════════════════════════════
 """
 
