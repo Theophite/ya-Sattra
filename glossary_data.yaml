@@ -2476,12 +2476,17 @@ entries:
   # ═══ Old Cloister ═══
   Old Cloister:
     category: location
-    short: "Companions Guild headquarters—former Technical Caste facility with disturbing architecture."
+    short: Where the Processional ends—proportions wrong for human occupancy, but the Companions Guild makes do.
     details: |
-      At the Processional's end. Architecture bears traces of original builders—proportions 
-      wrong for human occupancy. Mutterers can roam here without triggering cascades. 
-      Contains Archives with Technical Caste recordings in cylinders no one can play. 
-      Morning Song audible to early risers.
+      The architecture bears traces of original builders. Doorways too wide, ceilings
+      too high, corridors that turn at angles the eye refuses to follow. Mutterers
+      can roam here without triggering cascades—something about the geometry dampens
+      whatever sets them off elsewhere.
+
+      The Archives hold Technical Caste recordings in cylinders no one can play. The
+      equipment that might read them doesn't exist, or exists and refuses, or exists
+      and produces only static. Early risers hear the Morning Song drifting from
+      somewhere inside—a sound the building makes, not the Companions.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, Companions Guild, Mutterers, Technical Castes]
     location_features:
