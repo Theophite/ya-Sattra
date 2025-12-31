@@ -512,11 +512,25 @@ entries:
   # ═══ Draëthen ═══
   Draëthen:
     category: caste
-    short: "Engineering laborers with synchronized cognition and absolute conformity."
+    short: Synchronized cognition; separate minds reaching identical conclusions without coordination.
     details: |
-      Puget Sound refugee caste from ya-Tsovez. Most baseline-adjacent of refugee 
-      castes, making differences harder to locate. Engineered for synchronized 
-      labor—minds converge on identical conclusions without coordination.
+      The most baseline-adjacent of certain refugee castes, which makes the
+      differences harder to locate. Average height, average build, coloring within
+      normal ranges. Then you notice: eyes set slightly too close together, creating
+      an intensity when they focus. Movements too regular—stride matched precisely
+      step to step. Expressions shifting without transition states, as if frames
+      were missing.
+
+      They were made for synchronized industrial labor. Their minds model systems
+      with such fidelity that separate individuals reach identical conclusions
+      without coordinating. They work in collectives, producing patterns of perfect
+      consistency. They experience something they call "következ"—the next thing
+      that must be completed, arriving in the mind with the force of certainty.
+
+      They live in compounds, wear identical clothing, cut hair identically, identify
+      each other by distinguishing features. Consensus arrives through gradual
+      alignment, not discussion. When threatened, they do not give quarter and do
+      not ask for it. The capacity for absolute violence is part of the specification.
     rag_pointer: "Castes of Mankind, The Volerath of Puget Sound"
     related: [Völërath, Szkovërin, Refugee Castes]
     caste_features:
@@ -668,11 +682,24 @@ entries:
   # ═══ Gilded Petals ═══
   Gilded Petals:
     category: caste
-    short: "Outlawed courtesan caste with pheromone-producing sub-dermal vesicles."
+    short: Outlawed courtesan caste; pheromone vesicles, androgynous symmetry, engineered contentment.
     details: |
-      Engineered ~700 years ago for pleasure services. Sub-dermal vesicles release 
-      pheromones inducing suggestibility and mild euphoria through skin contact. 
-      Officially outlawed and sterilized, but ~12% of 'sterilized' are fertile.
+      Androgynous symmetry, gold-beige skin, minimal secondary sex characteristics.
+      Sub-dermal vesicles release pheromones through skin contact—suggestibility,
+      mild euphoria, the metabolites of approval. Enhanced senses for reading
+      emotional states. They mirror social cues with uncanny precision. They were
+      made for companionship, for pleasure, for putting people at ease.
+
+      The caste was outlawed and sterilized. Fewer than two hundred survive,
+      scattered and hiding, serving wealthy patrons who ignore the law. Their
+      bodies require specialized supplements; without them, bones leach calcium
+      and organs begin to calcify. Even with treatment, function declines after
+      forty years. The sterilization was not complete—perhaps twelve percent
+      remain fertile, a fact the authorities prefer not to confirm.
+
+      They were engineered for approval-seeking and low anxiety. Contentment was
+      designed into them. They cannot easily engage with the question of whether
+      what they feel is happiness.
     rag_pointer: "Castes of Mankind"
     related: [Bureau of the Creche, Reverie]
     caste_features:
@@ -714,8 +741,24 @@ entries:
   # ═══ Highborn ═══
   Highborn:
     category: caste
-    short: Ruling castes whose polyphonic voices trigger Compulsion in other castes.
-    details: ""
+    short: Ruling castes; polyphonic voices trigger Compulsion in other castes.
+    details: |
+      The voice comes out as a chord—multiple tones simultaneously, harmonics
+      layered beneath speech. Other castes hear it and feel the Compulsion, the
+      neurological response that was engineered into them. Highborn must learn
+      to suppress the harmonics when working among others. Control slips when
+      tired or angry. The voice is not a tool they use. It is what they are.
+
+      Extreme variation between lineages. Some stand eight feet tall, fragile-boned,
+      skulls elongated, silver filigree headpieces supporting necks too long for
+      the weight. Others are baseline height with uncanny symmetry that triggers
+      unease. Others have merged technology with biology across generations,
+      inherited augmentations becoming indistinguishable from anatomy.
+
+      They govern. They administer. They lead the Bureaus and manage the households.
+      The Compulsion makes obedience easy to obtain but impossible to trust. They
+      cannot know which compliance is genuine. Some lineages reproduce primarily
+      through cloning, accumulated replication errors passing down with each copy.
     rag_pointer: Castes of Mankind, The Aureate System
     related: [Compulsion, Aureate, Near-Baseline, Caenis es-Mahoun, Mira es-Thalen]
     caste_features:
@@ -756,8 +799,22 @@ entries:
   # ═══ Ironbone Labor ═══
   Ironbone Labor:
     category: caste
-    short: Labor caste with dramatically increased bone density for heavy lifting.
-    details: ""
+    short: Massively reinforced skeleton for heavy labor; bone density increases until it traps them.
+    details: |
+      Eight feet tall with dramatically increased bone density and reinforced
+      joint structures. Enormous hands, fingers too thick for baseline tools.
+      They handle loads that would shatter anyone else, grip strength exceeding
+      anything baseline anatomy can produce. They were made for docks and mines
+      and heavy industrial work.
+
+      The calcium metabolism does not stop. Bone mass accumulates across decades,
+      deposits forming in joints, mobility degrading year by year. Functional
+      decline begins in the forties. By their late fifties, most are chair-bound,
+      skeletons too heavy and stiff for the muscles to move. The same process
+      that makes them strong in youth imprisons them in age.
+
+      They know this. They work anyway. The cargo still needs handling. The
+      docks still need workers who can lift what others cannot.
     rag_pointer: Castes of Mankind
     related: [Labor Castes, Redback]
     caste_features:
@@ -793,8 +850,23 @@ entries:
   # ═══ Ironbone Warborn ═══
   Ironbone Warborn:
     category: caste
-    short: Warborn variant with calcium-reinforced skeletons optimized for heavy weapons.
-    details: ""
+    short: Terminal Warborn variant; calcium-reinforced skeleton, armor bolted to bone, universal cancer by forty.
+    details: |
+      Shorter than standard Warborn—eight feet ten inches, height traded for
+      density. Heavier frame, slower movements, interlocking bony plates across
+      torso and shoulders and skull. Steel studs emerge from bone at anchor
+      points. Armor does not go over the body; it bolts directly to it. Studs
+      trace lines across forehead and temples. They look manufactured rather
+      than grown.
+
+      The skeleton absorbs electromagnetic backwash from heavy railguns, letting
+      them operate weapons that would cook anyone else from the inside. Even
+      more demanding metabolism than standard Warborn. Specialized mineral rations
+      that taste of chalk. They were made to be weapons platforms.
+
+      Universal cancer by forty. Ancient by Warborn standards at thirty-one, with
+      two or three years remaining once the tumors begin. They are a terminal
+      variant. This was the specification.
     rag_pointer: Castes of Mankind, The Hanged Men
     related: [Warborn, Chain-Men]
     caste_features:
@@ -831,8 +903,22 @@ entries:
   # ═══ Kalbats ═══
   Kalbats:
     category: caste
-    short: Engineered beings designed to receive Oracle Testaments.
-    details: ""
+    short: Receivers for Oracle Testaments; brass plates in the skull, dormancy cycles, still listening.
+    details: |
+      Brass receiver plates inside the skull, mirrored baffles to catch signals
+      from sources that no longer transmit—or transmit from places no one can
+      reach. Cyclic states of dormancy punctuated by forty-seven-minute windows
+      of consciousness. Some have been receiving for ten thousand years.
+
+      Seven survive. They are addressed by number—First Auditor, Second Auditor—
+      their original names lost. Sometimes all seven orient their receivers in
+      the same direction, tracking something invisible, the direction changing
+      over months as if following an orbit. They may be tracking the Oracles
+      themselves, the black holes that once sent Testaments.
+
+      When a kalbat dies, the brass plates are extracted surgically and preserved.
+      The body goes to those who carve tombs in the cliffs. The receivers continue.
+      The function persists past the audience.
     rag_pointer: The Companions Guild
     related: [Companions Guild, Testaments, Oracles]
     caste_features:
@@ -865,12 +951,23 @@ entries:
   # ═══ Karst ═══
   Karst:
     category: caste
-    short: "Deep-dwelling labor caste engineered for underground infrastructure."
+    short: Deep-dwelling caste; barrel-chested, enormous eyes, curved spine, fluid in darkness.
     details: |
-      Built for tunnel systems and underground facilities where pressure 
-      differentials and minimal light would kill surface-adapted humans. 
-      Rarely exceed five feet, barrel chests, enormous eyes adapted for 
-      bioluminescent wavelengths, curved spines.
+      Rarely exceed five feet. Barrel chest for thin atmospheres, curved spine
+      settling into perpetual crouch, spherical silhouette in full adulthood.
+      Enormous eyes—twice baseline size—adapted for bioluminescent wavelengths,
+      painful in ordinary daylight. Pale grey-white skin of creatures who rarely
+      see the sun. Some have not seen it in decades.
+
+      They were made for the tunnel systems and underground facilities where
+      pressure differentials and minimal light would kill surface-adapted humans.
+      Movement at the surface is awkward; underground they are fluid. They
+      communicate through tap-language transmitted through rock, messages
+      traveling through stone faster than runners could carry them.
+
+      The depths are where they belong. The surface is where the sun hurts and
+      the pressure feels wrong and everyone moves in ways that seem inefficient.
+      They come up when they must. They go back down as soon as they can.
     rag_pointer: "Castes of Mankind, Ya-Don: Comprehensive Reference"
     related: [Labor Castes, Depths of St. Yerren]
     caste_features:
