@@ -1,24 +1,25 @@
 # Stepper Skill
 
-Step through glossary entries systematically using `glossary_stepper.py`.
+Step through glossary entries **one by one**, revising **every entry**.
 
-```bash
-python3 glossary_stepper.py --category location   # Step through locations
-python3 glossary_stepper.py --start 50            # Resume from entry 50
-python3 glossary_stepper.py --stats               # Check progress
-```
+## Workflow
 
-Edit **both** `short` and `details`. Leave subsections alone.
+1. Read position from `.stepper_position`
+2. Show entry: `python3 glossary_stepper.py --show N --category location`
+3. Revise both `short` and `details` (leave subsections alone)
+4. Commit the revision
+5. Increment `.stepper_position`
+6. Repeat
+
+**Revise every entry.** Do not skip. Do not jump ahead.
 
 ## Tools
 
-**DO NOT use grep or other raw search commands.** Use the provided tools:
+**DO NOT use grep or other raw search commands.** Use:
 
-- `python3 glossary_stepper.py` — step through entries systematically
-- `python3 glossary.py lookup "Entry Name"` — view a single entry formatted
-- `python3 glossary.py search "term"` — find entries containing a term
-
-The stepper and glossary.py exist for this purpose. Use them.
+- `python3 glossary_stepper.py --show N --category location` — show entry N
+- `python3 glossary.py lookup "Entry Name"` — view entry formatted
+- `cat .stepper_position` — check current position
 
 ## The Eigenvector
 
