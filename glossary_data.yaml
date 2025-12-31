@@ -359,16 +359,21 @@ entries:
   # ═══ Czernaël Factor-House ═══
   Czernaël Factor-House:
     category: organization
-    short: "Avouvar trade interface—where autofactory goods meet the outside world."
+    short: Trading house where autofactory goods meet buyers who can't survive the radiation.
     details: |
-      LOCATION: San Juan Islands.
-      
-      PRODUCTS: Armor alloy (sized for non-Avouvar customers), weapon components 
-      (adapted for larger hands), authentication certificates.
-      
-      CHARACTER: Where Avouvar goods meet the outside world. Akama are the primary 
-      customers—their warriors wear Warborn-grade armor bought through Czernaël 
-      intermediaries. Significant markup. Neutral in the Vesztraëlin-Droëvan feud.
+      The factor-house sits where outsiders can reach it—far from the
+      radiation that Avouvar require and everyone else finds lethal. Ink-
+      black traders in aurora-colored scarves negotiate with customers who
+      will never see where their goods originate. Armor alloy sized for
+      non-Avouvar frames. Weapon components adapted for larger hands.
+      Authentication certificates proving provenance.
+
+      The markup is significant. The customers pay it anyway because the
+      alternatives are worse. Warriors from the pastoral kingdoms wear
+      Warborn-grade armor bought through Czernaël intermediaries—armor that
+      stops penetrators, manufactured by processes no one comprehends. The
+      factor-house remains neutral in the feuds that consume its homeland.
+      Neutrality is good for business.
     related: [Avouvar, Asovoë, Akama, Thousand Kingdoms]
   # ─── end Czernaël Factor-House ───
 
