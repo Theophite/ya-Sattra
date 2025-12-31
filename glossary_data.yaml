@@ -12585,16 +12585,16 @@ entries:
       Age 230+. Highborn. Senior representative of the Bureau of the Creche on the Satara.
       Has spent 207 years opposing the City-of-Glass Charter that transferred reproductive
       jurisdiction to the Scale. The conspiracy's architect within the council. Controls
-      supplement dependencies for multiple clonelines—including the Kōt line. Views clones
+      supplement dependencies for multiple clonelines—including the Kēt line. Views clones
       as property designed to be dependent. Performs maternal care while treating people as
       instruments. Speaks of duty and mutual obligation. Genuinely believes she's fulfilling
       responsibilities. The maternalism is real. The property relationship is also real.
       She experiences no contradiction. Believes the Second Oracle licenses Highborn dominion;
       removing the Charter restores proper hierarchy. Outside formal council sessions, treats
       near-baselines with withering condescension. Principal opponent: Lira es-Ophar. Has
-      promised Soh Kōt reproduction rights, unknowingly authorizing her own execution.
+      promised Soh Kēt reproduction rights, unknowingly authorizing her own execution.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
-    related: [Satara, Bureau of the Creche, City-of-Glass Charter, House es-Thabit, Semeion-9, Lira es-Ophar, Soh Kōt]
+    related: [Satara, Bureau of the Creche, City-of-Glass Charter, House es-Thabit, Semeion-9, Lira es-Ophar, Soh Kēt]
   # ─── end Vaida es-Ysalar ───
 
   # ═══ Semeion-9 ═══
@@ -12712,11 +12712,11 @@ entries:
       transforming the White Sheet from technical guide into trusted source. Understands 
       power through information—years mapping who owes whom, who opposes whom. Closest 
       ally: Lira es-Ophar, though her privilege makes her underestimate his risks. Has 
-      investigated Soh Kōt's northern campaign, suspects the worst but principles require 
+      investigated Soh Kēt's northern campaign, suspects the worst but principles require 
       benefit of the doubt. Being groomed by es-Tariq for something involving First Whorl 
       correspondence.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
-    related: [Satara, Bureau of the Lens, White Sheet, Lira es-Ophar, es-Tariq, Soh Kōt]
+    related: [Satara, Bureau of the Lens, White Sheet, Lira es-Ophar, es-Tariq, Soh Kēt]
   # ─── end Iro Tene ───
 
   # ═══ Ravi Donmar ═══
@@ -12736,13 +12736,13 @@ entries:
     related: [Satara, Bureau of the Sword, Warborn, Yarangar, Cloud Temple Band]
   # ─── end Ravi Donmar ───
 
-  # ═══ Soh Kōt ═══
-  Soh Kōt:
+  # ═══ Soh Kēt ═══
+  Soh Kēt:
     category: person
-    short: "Sword Junior on Satara—Kōt-47 clone, experiences others' consciousness as ontological threat, plans systematic elimination."
+    short: "Sword Junior on Satara—Kēt-47 clone, experiences others' consciousness as ontological threat, plans systematic elimination."
     person_location: Second Whorl
     details: |
-      Designated Kōt-47. Highborn clone in his 40s-50s. Infertile, asexual, dependent
+      Designated Kēt-47. Highborn clone in his 40s-50s. Infertile, asexual, dependent
       on amino supplements patented by Vaida es-Ysalar. At age eight, standard training
       taught him others have inner lives—he experienced this as ontological threat.
       Wants to be the only real thing in existence. Every autonomous action by another
@@ -12757,8 +12757,8 @@ entries:
       over 16 weeks—casualties intentional. Plans to start with the coup coalition that
       thinks they're using him.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
-    related: [Satara, Bureau of the Sword, Vaida es-Ysalar, House es-Thabit, Compulsion, Kōt]
-  # ─── end Soh Kōt ───
+    related: [Satara, Bureau of the Sword, Vaida es-Ysalar, House es-Thabit, Compulsion, Kēt]
+  # ─── end Soh Kēt ───
 
   # ═══ Lira es-Ophar ═══
   Lira es-Ophar:
