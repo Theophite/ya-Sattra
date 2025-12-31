@@ -265,8 +265,27 @@ entries:
   # ═══ Avouvar ═══
   Avouvar:
     category: caste
-    short: Radiation-adapted colonist caste with ink-black radiomelanin and extreme longevity.
-    details: ""
+    short: Radiation-adapted caste; ink-black, centuries-long lives, biology requires environments lethal to others.
+    details: |
+      Nearly two meters tall, most of it leg. Long limbs built for bracing in low
+      gravity, huge barrel chest for thin atmospheres, broad splayed feet, a wide
+      stance even when standing still. Ink-black from radiomelanin—uniform from
+      sclera to sole, no whites in the eyes, skin that absorbs light so completely
+      they seem like silhouettes given depth. Heads shaved clean, a single bound
+      lock indicating house affiliation. Against the black: clothing in aurora
+      colors, blues and greens and magentas.
+
+      They were made for gas giant moons in radiation belts. Their DNA repair
+      mechanisms activate in radioactive environments, preventing senescence. The
+      hotter the zone, the longer they live—elders in heavily contaminated areas
+      may exceed nine hundred years, while those in cooler regions live perhaps
+      five hundred. Outside radiation entirely, they sicken and die. Their biology
+      requires what kills everyone else.
+
+      Sixty thousand people, ten thousand years of isolation. Politics operates
+      between individuals who have known each other for centuries. Grudges
+      accumulate across lifetimes. To outsiders, their true lifespan remains
+      unclear—the same faces return across generations, but who keeps count?
     rag_pointer: Asovoë and the Avouvar
     related: [Colonist Castes, Asovoë]
     caste_features:
