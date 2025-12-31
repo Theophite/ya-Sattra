@@ -335,17 +335,20 @@ entries:
   # ═══ Droëvan Primary Terminal ═══
   Droëvan Primary Terminal:
     category: location
-    short: "Avouvar autofactory terminal producing electromagnetic components essential to all Asovoë railguns."
+    short: The autofactory terminal that keeps the railguns working—when it stops, everyone's weapons degrade.
     details: |
-      LOCATION: Garrison District, Asovoë. Droëvan territory.
-      
-      OUTPUTS: Capacitors (railgun grade), electromagnets (various sizes), charging 
-      systems, power storage units.
-      
-      CHARACTER: Essential for railgun maintenance throughout Asovoë. When this 
-      terminal stops, everyone's weapons degrade. The critical vulnerability of 
-      both feuding houses—they depend on Droëvan production whether they admit it 
-      or not.
+      Capacitors, electromagnets, charging systems, power storage units—the
+      components that railgun technology requires and no one can manufacture.
+      The terminal produces them on its own schedule. When it runs, the
+      precinct prospers. When it stops, stockpiles dwindle and weapons begin
+      to fail across the entire region.
+
+      Everyone depends on this terminal whether they admit it or not. Feuding
+      houses, rival precincts, powers that would never acknowledge shared
+      vulnerability—all of them need what emerges from these cavernous halls.
+      The Avouvar workers who maintain the space understand their position
+      precisely. They don't need to threaten anyone. The terminal's silence
+      threatens enough.
     related: [Avouvar, Asovoë, Vesztraëlin Terminal Alpha, Culverin, Droëvan]
     location_features:
       level: site
