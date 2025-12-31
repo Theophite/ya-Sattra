@@ -3735,15 +3735,26 @@ entries:
   # ═══ High Junction ═══
   High Junction:
     category: location
-    short: "Garrison city at the Republic's northern frontier."
+    short: "Garrison city at the Republic's northern frontier—hub for highland pastoral confederations."
     details: |
-      80,000 inhabitants at 6,400 feet on the Azhmar River (Arkansas). Transformed 
-      from frontier garrison of 30,000 to manufacturing center after grid power 
-      arrived six years ago. Dawn Party stronghold, chaotic politics. The Dhal-Setil 
-      family (Rasma's family) has a multi-generational compound here. Pre-Interdict 
-      bridge spans the river—250 feet long, metalloceramic, single impossible arch.
-    rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
-    related: [Ganat, Thousand Kingdoms, Rasma Dhal-Setil]
+      80,000 inhabitants at 6,400 feet on the Azhmar River (Arkansas). Transformed
+      from frontier garrison of 30,000 to manufacturing center after grid power
+      arrived six years ago. Dawn Party stronghold, chaotic politics. The Dhal-Setil
+      family (Rasma's family) has a multi-generational compound here.
+
+      Straddles both banks crossed by a pre-Interdict bridge that constantly needs
+      repair—locals joke it proves even the Antediluvians could build poorly, though
+      it's somehow lasted millennia. Furthest eastern stop on power lines from the
+      Dam, with full telegraph service. Railroad debates continue indefinitely.
+
+      Hub for both pastoral confederations: the Eastern Range Confederation (Dawn)
+      and Highland Graziers' Association (Dusk) hold internal meetings here. The
+      Veterans' Congress provides the Eastern Range's largest component; the Factors'
+      Guild provides the Graziers' commercial backbone. Commercial integration means
+      the same facilities process raw materials regardless of which pastoral kilit
+      produced them—Mor milk becomes Kelar cheese in Azhmar Valley processors.
+    rag_pointer: "Ganat and the Yarangar War, The Republic of Ganat"
+    related: [Ganat, Thousand Kingdoms, Rasma Dhal-Setil, Southern Highland Bands, Eastern Range Confederation, Highland Graziers' Association]
     location_features:
       level: city
       location_type: settlement
@@ -3805,6 +3816,303 @@ entries:
         - "Saint Arsakh parish: converted Sultanate administrative building, two-story adobe, covered courtyard"
         - "vice district: gambling halls, brothels, taverns serving the garrison—Old West frontier economy"
   # ─── end High Junction ───
+
+  # ═══ Southern Highland Bands ═══
+  Southern Highland Bands:
+    category: concept
+    short: "Four Uliq pastoral bands in the southern Colorado highlands—Kelar, Mor, Tal-Yem, Sek—divided by revolution, united by economics."
+    details: |
+      Perhaps 4,000 people total ranging territory between High Junction and the San
+      Luis Valley, grazing hardy goats on marginal terrain between 8,000 and 11,000
+      feet. None can hold a Senate seat alone—the 8,000-member threshold exceeds any
+      single band's population by a factor of five. Political voice requires confederation.
+
+      The revolution divided them. The Kelar fought for the Republic; the Mor, Tal-Yem,
+      and Sek supported the Sultana. Eighteen years later, both confederations include
+      bands from opposite sides. Economics and geography override historical grievance
+      when political survival requires coalition. The Kelar sell luxury cheese to urban
+      consumers and buy milk from former enemies at fair prices.
+
+      Two confederations now hold two Senate seats: Eastern Range Confederation (Dawn)
+      and Highland Graziers' Association (Dusk). Despite factional division, both
+      coordinate informally on issues affecting highland pastoral interests—grazing
+      restrictions, environmental requirements, labor standards inappropriate for family
+      bands. Highland survival requires cooperation; factional purity is urban luxury.
+    rag_pointer: "The Republic of Ganat"
+    related: [High Junction, Eastern Range Confederation, Highland Graziers' Association, Kelar Band, Mor Band, Tal-Yem Band, Sek Bands, Uliq]
+    caste_features:
+      sub_caste: Uliq
+      parent_caste: Serrulata
+  # ─── end Southern Highland Bands ───
+
+  # ═══ Eastern Range Confederation ═══
+  Eastern Range Confederation:
+    category: organization
+    short: "Dawn-aligned confederation—Kelar pastoralists plus veterans and settlers, ~8,750 members, one Senate seat."
+    details: |
+      Pastoral members: Kelar Band (~1,400), Sek-Oum group (~250, split from main Sek
+      after revolution). Settlement members: High Junction Veterans' Congress (~3,200),
+      Eastern Range Settlers' Cooperative (~2,400), several smaller kilits (~1,500).
+
+      Internal politics dominated by veterans numerically, but Temad Kelar holds the
+      Senate seat because the confederation needs a pastoral face. The film Riders of
+      Stone and Sky made the Kelar symbols of frontier revolutionary virtue; a coalition
+      representing frontier interests gains legitimacy by putting a Kelar in the visible
+      position. The veterans accept this because Temad votes their interests reliably.
+
+      The Sek-Oum split from the main Sek body during the constitutional settlement,
+      arguing continued association with bands that fought for the Sultana would
+      marginalize them permanently. Eighteen years later, Sek-Oum and Sek proper don't
+      intermarry, don't share range, don't speak.
+    rag_pointer: "The Republic of Ganat"
+    related: [Southern Highland Bands, Kelar Band, Temad Kelar, High Junction, Dawn Party, Sek Bands]
+  # ─── end Eastern Range Confederation ───
+
+  # ═══ Highland Graziers' Association ═══
+  Highland Graziers' Association:
+    category: organization
+    short: "Dusk-aligned confederation—Mor, Tal-Yem, and Sek pastoralists plus commercial kilits, ~8,200 members, one Senate seat."
+    details: |
+      Pastoral members: Mor Band (~1,100), Tal-Yem Band (~650), Sek proper and Sek-Tal
+      (~550 combined). Commercial members: High Junction Factors' Guild (~2,800), Azhmar
+      Valley Agricultural Processors (~1,900), several smaller kilits (~1,200).
+
+      Barely crosses the threshold. Internal politics complicated by the uncomfortable
+      reality that commercial members profit from Kelar cheese while pastoral members
+      lost territory to the Kelar. The Factors' Guild doesn't care which band produces
+      milk; the Mor care intensely but need commercial numbers for representation.
+
+      Yela Mor holds the seat but operates under constraints: commercial members want
+      stable production, pastoral members want someone who remembers they lost a war.
+      She navigates between these pressures, voting Dusk on most issues while occasionally
+      breaking with commercial interests on pastoral autonomy matters.
+    rag_pointer: "The Republic of Ganat"
+    related: [Southern Highland Bands, Mor Band, Tal-Yem Band, Sek Bands, Yela Mor, High Junction, Dusk Party]
+  # ─── end Highland Graziers' Association ───
+
+  # ═══ Kelar Band ═══
+  Kelar Band:
+    category: organization
+    short: "Highland pastoral band—~1,400 Uliqs, revolutionary heroes, luxury cheese producers, subjects of propaganda film."
+    details: |
+      Roughly 300 families ranging territory reclaimed during the revolution plus
+      traditional lands. Through the Eastern Range Confederation, they hold political
+      position disproportionate to their numbers: Senator Temad Kelar represents a
+      coalition six times their size, but he's the face the coalition presents.
+
+      Their cheese carries Ministry of Information imprimatur as revolutionary virtue
+      made edible. Urban Republicans pay premium prices—tangy, complex, aged in high-
+      altitude caves. The cheese is genuinely good, but price reflects symbolic value
+      beyond culinary merit. They now purchase most milk from the Mor, Tal-Yem, and
+      Sek bands at fair prices. Most Kelar cheese comes from royalist goats.
+
+      The revolution: They fought for the Republic because their neighbors fought for
+      the Sultana. For the preceding generation, the Mor, Tal-Yem, and Sek gradually
+      encroached on Kelar territory. When revolution came, the Kelar declared for the
+      Republic, recognizing rivals' victory would cement territorial losses. Their
+      contribution was modest—forty destriers total, used for scouting. But they
+      committed when most pastoral bands hedged.
+    rag_pointer: "The Republic of Ganat"
+    related: [Southern Highland Bands, Eastern Range Confederation, Temad Kelar, Mor Band, Riders of Stone and Sky, Uliq]
+    caste_features:
+      sub_caste: Uliq
+      parent_caste: Serrulata
+  # ─── end Kelar Band ───
+
+  # ═══ Temad Kelar ═══
+  Temad Kelar:
+    category: person
+    short: "Senator for Eastern Range Confederation—fifty-three, revolutionary veteran, pastoral face for a veterans' coalition."
+    details: |
+      Actually fought in the revolution rather than merely supporting it. Served as
+      a scout—one of few Kelar with a destrier—carrying messages between Republican
+      units. The film Riders of Stone and Sky depicts him as a secondary character,
+      loyal lieutenant to fictional commander Yateg Kelar. In reality, no Yateg Kelar
+      existed. Temad was nineteen, terrified, trying not to get his horse killed.
+
+      Entered politics because someone had to. Held the Senate seat for twelve years.
+      His political value lies in authenticity—a working pastoralist who still owns
+      goats, still makes cheese, still returns to highland camps between sessions.
+      He understands he represents veterans and settlers more than pastoralists
+      numerically, but frontier interests align with pastoral concerns often enough.
+
+      Dislikes the movie intensely but has learned not to say so publicly. Criticizing
+      Riders of Stone and Sky would undermine the mythology supporting his band's
+      economic position and his own political utility. He lets everyone believe what
+      they need to believe.
+    rag_pointer: "The Republic of Ganat"
+    related: [Kelar Band, Eastern Range Confederation, Southern Highland Bands, Riders of Stone and Sky, Dawn Party]
+    character_features:
+      role: Senator
+      affiliation: Eastern Range Confederation
+      location: High Junction / Highland camps
+      caste: Uliq (Serrulata)
+  # ─── end Temad Kelar ───
+
+  # ═══ Riders of Stone and Sky ═══
+  Riders of Stone and Sky:
+    category: culture
+    short: "Ministry propaganda film about the Kelar Band—transformed goat herders into mounted warriors, pragmatism into ideology."
+    details: |
+      Commissioned three years after revolution ended, claimed documentary basis,
+      bore little resemblance to events. The film's version: Kelar were a destrier
+      band, every family owning multiple warhorses, every rider carrying culverins.
+      Motivations purely ideological. Central battle showed fifty Kelar riders
+      charging Sultanate infantry. Fictional commander Yateg Kelar delivered stirring
+      speeches, died heroically. High Junction changed hands through cavalry charge.
+
+      The reality: Forty destriers total, used for scouting. Motivations were
+      territorial recovery. Enemies were competing pastoralists who made different
+      calculations, not monsters. No major battles. High Junction changed hands
+      through negotiated surrender.
+
+      The film's success created problems the band still navigates. Urban Republicans
+      believe they're purchasing products from mounted warriors. Guard recruits expect
+      legendary cavalry veterans. Visitors want to see the battlefield where Yateg
+      Kelar fell—there is no such battlefield. The band manages expectations without
+      contradicting mythology that sustains their economic position.
+    rag_pointer: "The Republic of Ganat"
+    related: [Kelar Band, Temad Kelar, Ministry of Information, Revolutionary Cinema]
+  # ─── end Riders of Stone and Sky ───
+
+  # ═══ Mor Band ═══
+  Mor Band:
+    category: organization
+    short: "Highland pastoral band—~1,100 Uliqs, lost territory to the Kelar, now sells them milk at fair prices."
+    details: |
+      Roughly 250 families ranging territory significantly reduced from pre-revolutionary
+      holdings. Lost the best summer meadows, most reliable water sources, sheltered
+      valleys where winter survival was easiest. What remains is marginal even by
+      highland standards.
+
+      They sell milk to the Kelar at fair prices—their primary cash income. The irony
+      is apparent to everyone and discussed by no one: the band that lost the revolution
+      now sustains itself by supplying the band that won. Through the Highland Graziers'
+      Association, they hold the confederation's Senate seat via Yela Mor.
+
+      The revolution: Supported the Sultana because continuity served their interests.
+      They'd spent a generation expanding into Kelar territory through patient pressure.
+      Republican victory meant territorial restoration for the Kelar, loss for the Mor.
+      They accepted the settlement because resistance was impossible—Republican forces
+      controlled High Junction, the Kelar had Guard connections.
+    rag_pointer: "The Republic of Ganat"
+    related: [Southern Highland Bands, Highland Graziers' Association, Yela Mor, Kelar Band, Uliq]
+    caste_features:
+      sub_caste: Uliq
+      parent_caste: Serrulata
+  # ─── end Mor Band ───
+
+  # ═══ Yela Mor ═══
+  Yela Mor:
+    category: person
+    short: "Senator for Highland Graziers' Association—forty, inherited the seat, navigates between commercial and pastoral interests."
+    details: |
+      Never wanted the Senate seat. Her father Bekran Mor held it for nine years;
+      when he died of winter fever three years ago, the Association's dynamics
+      required a Mor successor. She accepted because the alternative was watching
+      her band's political voice pass to commercial interests entirely.
+
+      Votes Dusk on most issues—not from ideological commitment but practical
+      calculation. Dawn controls institutions that might further reduce Mor territory;
+      Dusk merchant interests benefit from stable pastoral production. The commercial
+      members expect Dusk alignment; the pastoral members expect her to remember
+      they lost a war.
+
+      Her most delicate task: managing the milk trade with the Kelar. The Association's
+      commercial members profit enormously from Kelar cheese. If pastoral grievances
+      disrupted that trade, commercial members would withdraw, leaving Mor, Tal-Yem,
+      and Sek without representation. She coordinates informally with Temad Kelar on
+      shared pastoral issues, knowing half her coalition would object if they understood.
+    rag_pointer: "The Republic of Ganat"
+    related: [Mor Band, Highland Graziers' Association, Southern Highland Bands, Temad Kelar, Dusk Party]
+    character_features:
+      role: Senator
+      affiliation: Highland Graziers' Association
+      location: High Junction / Highland camps
+      caste: Uliq (Serrulata)
+  # ─── end Yela Mor ───
+
+  # ═══ Tal-Yem Band ═══
+  Tal-Yem Band:
+    category: organization
+    short: "Smallest highland band—~650 Uliqs, highest and most marginal territory, follows Mor's political lead."
+    details: |
+      Roughly 150 families, ranging the highest and most marginal territory, above
+      9,500 feet where summer is brief and winter brutal. Their goats are the hardiest
+      of highland breeds. They participate in the Highland Graziers' Association but
+      contribute the smallest pastoral share; Yela Mor effectively represents their
+      interests along with her own band's.
+
+      The revolution: Joined the Sultanate cause because the Mor did. The two bands
+      had intermarried for generations; their ranges overlapped without conflict.
+      Territorial losses were proportionally smaller—the highest meadows were never
+      worth fighting over.
+
+      They sell milk through the Mor—production too small to negotiate independently.
+      Some Tal-Yem have married into the Kelar since the revolution. Within the
+      Association, they occasionally advocate for positions the Mor don't share—less
+      invested in grievance, more willing to work pragmatically with Dawn pastoralists.
+    rag_pointer: "The Republic of Ganat"
+    related: [Southern Highland Bands, Highland Graziers' Association, Mor Band, Uliq]
+    caste_features:
+      sub_caste: Uliq
+      parent_caste: Serrulata
+  # ─── end Tal-Yem Band ───
+
+  # ═══ Sek Bands ═══
+  Sek Bands:
+    category: organization
+    short: "Split highland pastoral group—Sek-Oum joined Dawn, Sek proper and Sek-Tal remained Dusk. Eighteen years of bitter estrangement."
+    details: |
+      Never a single band but a loose confederation—Sek proper, Sek-Tal, and Sek-Oum—
+      who shared grazing rights and intermarried freely. The revolution shattered this.
+
+      During the constitutional settlement, the Sek-Oum (~250 people) broke away to
+      join the Eastern Range Confederation (Dawn). Their argument: association with
+      bands that fought for the Sultana would permanently marginalize them. The other
+      Sek groups considered this treachery—they'd shared range for generations, marriages
+      connected every family. The elders refused reconciliation.
+
+      Eighteen years later: Sek-Oum and the others don't intermarry, don't share range,
+      don't speak except through intermediaries. Young Sek-Oum serve in the Guard at
+      high rates; some marry Kelar spouses; some never return to pastoral life. The
+      Sek proper and Sek-Tal (~550 combined) participate in the Highland Graziers'
+      Association, with elder Ghouram Sek as their voice.
+    rag_pointer: "The Republic of Ganat"
+    related: [Southern Highland Bands, Eastern Range Confederation, Highland Graziers' Association, Ghouram Sek, Uliq]
+    caste_features:
+      sub_caste: Uliq
+      parent_caste: Serrulata
+  # ─── end Sek Bands ───
+
+  # ═══ Ghouram Sek ═══
+  Ghouram Sek:
+    category: person
+    short: "Senior Sek elder—seventy-one, fought for the Sultana, carries bitter grievance against Sek-Oum defectors."
+    details: |
+      Voice for Sek proper and Sek-Tal within the Highland Graziers' Association.
+      Not a Senator—Yela Mor holds that position—but carries weight in confederation
+      deliberations as senior pastoral elder. Fought for the Sultana during the
+      revolution and spent its aftermath expecting Republican retribution that never came.
+
+      His politics are deeply conservative: suspicious of revolutionary ideology,
+      skeptical of Dawn promises, convinced that the Republic's formal caste-blindness
+      masks urban contempt for pastoral ways.
+
+      He loathes the Sek-Oum with an intensity that surprises even himself. The other
+      bands' losses to the Kelar were territorial—land can be mourned, compensation
+      negotiated. The Sek-Oum's betrayal was familial. They chose politics over kinship.
+      His own nephew joined the split; they haven't spoken in eighteen years. When
+      confederation business requires coordination with the Eastern Range Confederation,
+      Ghouram ensures he's never in the same room with Sek-Oum representatives.
+    rag_pointer: "The Republic of Ganat"
+    related: [Sek Bands, Highland Graziers' Association, Southern Highland Bands, Yela Mor]
+    character_features:
+      role: Elder
+      affiliation: Highland Graziers' Association
+      location: Highland camps
+      caste: Uliq (Serrulata)
+  # ─── end Ghouram Sek ───
 
   # ═══ Southern Windmills ═══
   Southern Windmills:
