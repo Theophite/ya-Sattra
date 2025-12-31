@@ -197,12 +197,21 @@ entries:
   # ═══ Astal ═══
   Astal:
     category: caste
-    short: "Rapid-generation colonist caste with dramatically accelerated life cycle."
+    short: Small, bat-eared colonists with thirty-five-year lifespans who name themselves by physical features.
     details: |
-      Designed for rapid colonization. Enhanced spatial cognition, accelerated 
-      reproduction, social structures optimized for establishing new settlements. 
-      Mature by 8, parents by 10-11, dead by 35. Knowledge transmitted through 
-      aphorisms rather than written records.
+      Astal stand about five feet tall, delicate and slender with pale fur,
+      large yellow-amber eyes, and enormous translucent bat-like ears tufted
+      at the tips. The ears aren't decorative—they hear beyond baseline human
+      range. The small pointed face with its pink nose gives them a somewhat
+      rodent-like appearance.
+
+      Life moves fast. Mature by eight, married by eleven, parents shortly
+      after, dead by thirty-five. Generations cycle faster than other castes
+      can track. They name themselves by physical features—Ear Tufts, Pink
+      Tail, Loud Sneeze—because inherited names would tangle hopelessly within
+      decades. Knowledge passes through aphorisms rather than written records;
+      even their religious practice uses simplified liturgy adapted for minds
+      that won't live long enough to absorb the full rites.
     rag_pointer: "Castes of Mankind, Ya-Don: Comprehensive Reference"
     related: [Colonist Castes, Quick Lanes]
     caste_features:

@@ -33,3 +33,11 @@ That question forces the inhabited perspective. A caste entry is about bodies an
 Patterns generate fiction; instances constrain it. Describe what generates instances, not specific examples that become canonical and get recycled.
 
 The entry should make sense from inside without explaining the meta-structure. Don't announce design principles. Embody them.
+
+## Self-Contained References
+
+When mentioning specific nouns (places, organizations, practices), either:
+- Generalize them ("their chapel" not "the Quick Chapel")
+- Include enough context that the reference is interpretable ("the chapel that serves their district")
+
+Don't assume the reader has encountered other entries. Each entry should be interpretable on its own.
