@@ -1279,12 +1279,25 @@ entries:
   # ═══ Orevet ═══
   Orevet:
     category: caste
-    short: "Labor caste with extended-spectrum vision for thermal monitoring."
+    short: Dark-eyed laborers who see into the infrared—angular features, near-black irises that flash red, always squinting in ordinary light.
     details: |
-      Engineered for visual monitoring at wavelengths baseline humans cannot 
-      perceive. Irises extend visible spectrum into infrared, allowing them to 
-      see temperature gradients. Require dim environments; moderate illumination 
-      causes their pupils to contract to pinpoints.
+      The irises are almost black, but catch certain angles and deep red
+      flickers through. Angular faces with heavy brows and pronounced
+      cheekbones. They work in dim spaces because moderate illumination
+      contracts their pupils to pinpoints and washes out what they actually
+      need to see.
+
+      What they need to see is temperature. Their vision extends into
+      wavelengths baseline humans cannot perceive. Furnaces, pipes, living
+      bodies—all read as gradients of shimmer, thermal distortion visible
+      the way other castes read text. A failing seal shows as a bloom of
+      color bleeding where it shouldn't. A fever registers before other
+      symptoms manifest.
+
+      The trade-off comes mid-forties for many. The extended spectrum fades
+      first, the deepest reds going gray. The shimmer perception dims. Some
+      retain baseline vision for decades more. Others lose everything
+      gradually, their most valuable sense eroding year by year.
     rag_pointer: "Castes of Mankind, Ya-Don: Comprehensive Reference"
     related: [Labor Castes, St. Oreli's Shade]
     caste_features:
