@@ -34,7 +34,7 @@ entries:
       mended thing is more honest than the pristine. A young warrior's pristine
       equipment testifies against him: nothing has happened to him yet.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Thousand Kingdoms, Junta of Ogon]
+    related: [Warband, Thousand Kingdoms, Junta of Ogon, Gorin Eight-Elk]
     caste_features:
       morphology: variable
       scale: variable
@@ -103,7 +103,7 @@ entries:
     short: Highest tier of Technical Castes, bodies merged with architecture.
     details: ""
     rag_pointer: The Technical Castes and Far Ib
-    related: [Technical Castes, Far Ib, Arbitrary Truths]
+    related: [Technical Castes, Far Ib, Arbitrary Truths, The Seventh Remaining, Cloud Temple]
     caste_features:
       morphology: merged
       scale: variable
@@ -573,7 +573,7 @@ entries:
       pheromones inducing suggestibility and mild euphoria through skin contact. 
       Officially outlawed and sterilized, but ~12% of 'sterilized' are fertile.
     rag_pointer: "Castes of Mankind"
-    related: [Bureau of the Creche]
+    related: [Bureau of the Creche, Reverie]
     caste_features:
       morphology: modified
       scale: baseline
@@ -616,7 +616,7 @@ entries:
     short: Ruling castes whose polyphonic voices trigger Compulsion in other castes.
     details: ""
     rag_pointer: Castes of Mankind, The Aureate System
-    related: [Compulsion, Aureate, Near-Baseline]
+    related: [Compulsion, Aureate, Near-Baseline, Caenis es-Mahoun, Mira es-Thalen]
     caste_features:
       morphology: variable
       scale: variable
@@ -847,7 +847,7 @@ entries:
     short: Specialized workers engineered for hazardous industrial tasks.
     details: ""
     rag_pointer: Castes of Mankind
-    related: [Beamcrawler, Ductworker, Redback, Springheel, Ironbone Labor]
+    related: [Beamcrawler, Ductworker, Redback, Springheel, Ironbone Labor, Diver]
     caste_features:
       morphology: divergent
       scale: variable
@@ -921,7 +921,7 @@ entries:
     short: Neurologically reduced Technical Caste descendants who compulsively optimize technology.
     details: ""
     rag_pointer: The Companions Guild, The Technical Castes and Far Ib
-    related: [Technical Castes, Companions Guild, Choir]
+    related: [Technical Castes, Companions Guild, Choir, Crooked-Ear, Three Cradles]
     caste_features:
       morphology: divergent
       scale: small
@@ -1076,7 +1076,7 @@ entries:
     short: Forest-adapted colonist caste with chameleonic skin.
     details: ""
     rag_pointer: Castes of Mankind, Ganat and the Yarangar War
-    related: [Colonist Castes, Yarangar]
+    related: [Colonist Castes, Yarangar, Teval Okhem]
     caste_features:
       morphology: modified
       scale: baseline
@@ -1113,7 +1113,7 @@ entries:
     short: Labor caste with enhanced spinal articulation for bearing tremendous loads.
     details: ""
     rag_pointer: Castes of Mankind
-    related: [Labor Castes]
+    related: [Labor Castes, Kora Brennam]
     caste_features:
       morphology: modified
       scale: tall
@@ -1392,7 +1392,7 @@ entries:
     short: Biological factories producing antibody-rich serums through rose-gold lattices.
     details: ""
     rag_pointer: Sickly Caste Overview (PDF), The Companions Guild
-    related: [Companions Guild, Semi-Sentient]
+    related: [Companions Guild, Semi-Sentient, Morvain-3]
     caste_features:
       morphology: modified
       scale: baseline
@@ -1432,7 +1432,7 @@ entries:
     short: Labor caste with modified tendons enabling explosive vertical movement.
     details: ""
     rag_pointer: Castes of Mankind
-    related: [Labor Castes]
+    related: [Labor Castes, Venn Torith, Springheel Acrobatics]
     caste_features:
       morphology: modified
       scale: baseline
@@ -1725,10 +1725,19 @@ entries:
   # ═══ Akama District ═══
   Akama District:
     category: location
-    short: "Northeastern section of ya-Tsatsa's Upper City."
-    details: Only part of Upper City with street names and lodging that accepts outsiders.
+    short: "Northeastern section of ya-Tsatsa's Upper City—where outsiders can find lodging."
+    details: |
+      The only part of Upper City with street names and lodging accepting outsiders.
+      Where Akama traders from the Thousand Kingdoms have established presence over
+      generations. White-gray quartz diorite construction like all ya-Tsatsa, but with
+      signs, posted prices, accommodation to outside expectations—the city's concession
+      to comprehensibility.
+
+      Gorat Windborne, legendary figure, maintains trading presence here for the Ezh Ot
+      family's Akama auxiliary bands. The climb from Lower City takes forty minutes;
+      visitors make it morning and evening to conduct business below and sleep above.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
-    related: [ya-Tsatsa, Akama]
+    related: [ya-Tsatsa, Akama, Upper City, Lower City]
     location_features:
       level: neighborhood
       location_type: commercial
@@ -1737,6 +1746,11 @@ entries:
       castes_present:
         - Akama
       real_world_anchor: "Point Reyes (ya-Tsatsa)"
+      visual:
+        - white-gray quartz diorite (monochrome like all ya-Tsatsa)
+        - street names and signs (unusual for Upper City)
+        - lodging houses, trading establishments
+        - accommodation to outsider expectations
   # ─── end Akama District ───
 
   # ═══ Amber Quarter ═══
@@ -2617,14 +2631,27 @@ entries:
       AVAILABILITY: Standard issue for Warborn cohorts; extremely rare in civilian hands. 
       A Colonel-Hereditary might inherit one as a status symbol. Authentication systems 
       prevent unauthorized use.
-    related: [Warborn, Furnaces, Culverin]
+    related: [Weapon, Warborn, Furnaces, Culverin]
   # ─── end Beamcaster ───
 
   # ═══ Black Door ═══
   Black Door:
     category: location
-    short: Portal to Imperial Apartments in the First Whorl.
-    details: "Those who pass through are never seen again. Marks distinction between ordinary First Whorl families and 'Black Door families' whose occultants serve in Apartments."
+    short: Portal to Imperial Apartments at the deepest point of temporal compression.
+    details: |
+      At the center of the First Whorl, where compression exceeds 120:1, stands the
+      Black Door. The Door is actual black—not dark bronze, not shadow, but light-
+      absorbing absence. It has no visible hinges, no handle, no mechanism. It opens
+      when the Emperor wills it. When it opens, a name is called.
+
+      Those who pass through are never seen again. Seventeen have entered in Sri Avs
+      Tariq's 85 subjective years of service (representing ~10,200 external years).
+      Their families became permanently Aureate—not the ordinary status requiring
+      continued service, but something irrevocable. Patents secured through the Black
+      Door do not expire. Whatever transaction occurs purchases eternity.
+
+      The Antechamber of Unverified Receipt lies just outside—the final processing
+      station where missives emerge from the Imperial Apartments.
     rag_pointer: The First Whorl, The Aureate System
     related: [First Whorl, Emperor, Aureate]
     location_features:
@@ -2632,11 +2659,18 @@ entries:
       location_type: administrative
       parent: First Whorl
       controlling_entity: Emperor
-      temporal_effects: Unknown (inside Apartments)
+      temporal_effects: Unknown (inside Apartments); 120:1+ compression outside
       borders:
         outward: [First Whorl]
         inward: [Imperial Apartments]
       real_world_anchor: "Inner City arcology (First Whorl)"
+      visual:
+        - actual black (light-absorbing, not dark bronze)
+        - no hinges, no handle, no visible mechanism
+        - opens only when Emperor wills
+        - Antechamber of Unverified Receipt just outside
+        - temporal shimmer at threshold
+        - those who cross visibly slow, then disappear
   # ─── end Black Door ───
 
   # ═══ Blood-Tree ═══
@@ -2833,6 +2867,13 @@ entries:
       castes_present:
         - Avouvar
       real_world_anchor: "Fraser River delta"
+      visual:
+        - autofactory dock infrastructure scaled for absent fleets
+        - cranes and gantries at wrong proportions
+        - aurora-bright Avouvar moving across void-black structures
+        - foreign ship colors (the only non-Avouvar hues)
+        - fabric weather shelters against fog, rain, cold
+        - harbor freezing in winter (ships timing arrivals)
     aesthetic_features:
       intention: "Cargo moves when we say. The ships wait on our schedule."
       environment: "Dock facilities on the Fraser delta. Harbor freezes in winter—ships must time arrivals carefully. Fog, rain, cold. The interface between Asovoë and the outside world."
@@ -3036,12 +3077,25 @@ entries:
   # ═══ Ember Row ═══
   Ember Row:
     category: location
-    short: "Family housing at higher elevation—adaptive vernacular."
+    short: "Family housing climbing toward Sierra foothills—marginally cooler, with sunset Furnace views."
     details: |
-      ~200,000 residents. Marginally cooler from elevation. Sunset views of Furnace glow. 
-      Parish of St. Calis.
+      ~200,000 residents east of Threshold, ~200 feet elevation gain providing cooler
+      temperatures families value. Higher proportions of near-baselines and Orevet
+      (whose bodies benefit from temperature differential). Individual dwellings more
+      common than Threshold—families can own rather than rent.
+
+      The name comes from the western view: at sunset, the Furnaces' industrial glow
+      resembles banked coals through silhouetted domes and towers. Residents gather
+      on terraces and rooftops for this daily display—shared viewing has become social
+      ritual defining neighborhood identity.
+
+      Architecture more varied than Threshold's, reflecting construction across longer
+      period. Gardens appear where water permits—small vegetable plots, the luxury of
+      growing things in a city dominated by industry. The Overlook terraced plaza offers
+      city-wide views; Parish Church of St. Calis has slightly-wrong spire proportions
+      that residents defend loyally.
     rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [ya-Don]
+    related: [ya-Don, Threshold, Orevet]
     location_features:
       level: district
       location_type: residential
@@ -3049,68 +3103,21 @@ entries:
       population: ~200,000
       primary_function: Family residence
       castes_present:
-        - Near-Baseline
-        - Orevet
-        - Ashrat
+        - Near-Baseline (25%)
+        - Orevet (25%)
+        - Ashrat (20%)
+        - Redback (15%)
       notable_features:
         - Sunset Furnace views
         - The Overlook
         - Parish of St. Calis
+      visual:
+        - varied architecture (constructed across longer period)
+        - individual dwellings and gardens where water permits
+        - terraces and rooftops for sunset viewing
+        - slightly earlier shadows from foothill elevation
+        - dimmer ambient light (attracts Orevet)
       real_world_anchor: "Central Valley (ya-Don)"
-    aesthetic_features:
-      intention: "We adapt, we repair, we continue. Every modification marks a generation."
-      environment: |
-        Higher elevation brings marginally cooler temperatures and commanding views. The 
-        Furnaces spread below, their glow painting walls orange at sunset. The foothills 
-        visible to the east—a reminder that the valley has edges.
-        
-        Furnace pipes extend here too, but sparser than the Threshold. Main trunks run 
-        along major streets; branch lines cross between buildings. More conventional 
-        bronze than thesad—this far from the Furnaces, the infrastructure was extended 
-        rather than original. Patched sections, jury-rigged connections, valve housings 
-        that residents have learned to maintain themselves. The pipes here are less 
-        mysterious, more familiar—infrastructure you live with rather than around.
-      construction: |
-        Adobe and composite panels rather than thick stone—buildings that work with 
-        cooling systems rather than against heat. Taller structures (three to six stories), 
-        larger windows, walls that breathe. External overhangs and awnings create shade; 
-        terraces step up hillsides.
-        
-        Original adobe supports later metal additions; wooden frames carry salvaged 
-        ceramic panels; each generation's repairs visible in the stratigraphy of walls. 
-        Residents read family history in their buildings. St. Calis parish has a spire 
-        whose proportions don't quite achieve elegance—aspiring toward the obelisk 
-        towers visible from every terrace.
-        
-        Pipes integrate into the patchwork. Some buildings were built to accommodate 
-        them; some had them added later, brackets bolted to walls, channels cut through 
-        roofs. Equipment housings converted to storage. Valve assemblies decorated with 
-        paint, saints' images, family markers—the infrastructure domesticated.
-      materials:
-        - "adobe: local clay, tan and ochre"
-        - "composite panels: salvaged, origin often unknown"
-        - "timber framing visible where additions meet originals"
-        - "metal cladding: salvaged, oxidized to various patinas"
-        - "Furnace pipes: mostly conventional bronze (patched, repaired, maintained)"
-        - "equipment housings: some converted to storage, some still functional"
-      colors:
-        - "adobe tan and ochre"
-        - "rust and verdigris from oxidized metals (pipes and cladding)"
-        - "stratified walls showing each era's materials"
-        - "sunset orange from Furnace glow"
-      sensory:
-        - "the view downward—Furnaces spread below, pipes threading toward them"
-        - "evening light catching the glow"
-        - "pipe sounds: creaking, vibration, occasional hissing from valves"
-        - "marginally cooler air at elevation"
-        - "family sounds—this is where workers raise children"
-        - "St. Calis bells marking observances"
-      key_elements:
-        - "accumulated modification as family history"
-        - "Furnace pipes integrated into patchwork (domesticated infrastructure)"
-        - "terraced construction stepping up slopes"
-        - "St. Calis parish (aspirational-vertical spire)"
-        - "the view: Furnaces below, foothills above"
   # ─── end Ember Row ───
 
   # ═══ Factor's Row ═══
@@ -3431,6 +3438,13 @@ entries:
         outward: [Second Whorl]
         inward: [Black Door]
       real_world_anchor: "Inner City arcology"
+      visual:
+        - same bronze thesad but proportions subtly wrong
+        - shadows falling at incorrect angles
+        - light arriving before or after expected
+        - geometry that doesn't quite work
+        - floor appearing to slope toward center
+        - the Black Door at the deepest point (actual black)
     aesthetic_features:
       intention: "Time itself bends toward the center. This is where truth is authenticated."
       environment: "Temporal distortion intensifies. Light behaves strangely—shadows fall at wrong angles. Sound arrives before or after expected. The closer to the Black Door, the stronger the effects."
@@ -3483,6 +3497,13 @@ entries:
         outward: [Medina Quarter]
         inward: [Third Whorl]
       real_world_anchor: "Inner City arcology"
+      visual:
+        - bronze columns forty feet tall (patterns worn smooth)
+        - awnings in ochre and ecru between columns
+        - orb-fixtures in distant ceiling (warm golden glow)
+        - floor worn into paths by millennia of footsteps
+        - Terrace market stalls (temporary within permanent)
+        - sky-bridges crossing high above
     aesthetic_features:
       intention: "The outermost ring. Where ordinary people live in extraordinary architecture."
       environment: "Entirely interior space—no sky, but ceiling so distant it might as well be. Light from orb-fixtures. Whorl-lag minimal but noticeable over long periods. The most 'normal' part of the Inner City."
@@ -3538,6 +3559,13 @@ entries:
         - Near-Baseline
         - Ironbone
       real_world_anchor: "Central Valley (ya-Don)"
+      visual:
+        - rail lines converging on terminus
+        - loading platforms sized for standard cargo
+        - warehouses built for purpose (timber, stone, metal cladding)
+        - Weighmaster's Station (imposing stone, elevated entrance)
+        - Covenant checkpoints at every entry
+        - constant cargo movement (loading/unloading)
     aesthetic_features:
       intention: "The goods must move. Everything else follows."
       environment: "Rail lines, loading platforms, the constant activity of cargo transfer. Warehouses sized for storage, housing squeezed into remaining spaces. The rhythms follow cargo schedules rather than Furnace shifts."
@@ -3770,6 +3798,13 @@ entries:
         north: [Thousand Kingdoms]
         northwest: [Yarangar]
       real_world_anchor: "Nevada, southern Utah, parts of Colorado, Arizona, western New Mexico"
+      visual:
+        - cities carved into salmon-colored sandstone cliff faces
+        - 500-foot canyon walls with carved figures (20-25 feet tall)
+        - visible kilit signatures on all work
+        - electric lights as civilization marker
+        - the Dam (pre-Interdict, grey material, 300 feet across)
+        - adobe terraces climbing slopes
     aesthetic_features:
       intention: "We each did our part. Together we made this. You can see who did what."
       environment: "High desert canyon country. 500-foot salmon-colored Navajo sandstone walls. Summers exceed 100°F, winter nights below freezing, 10 inches precipitation annually. The canyon creates microclimate: walls provide shade, air creates breeze, river moderates temperature."
@@ -3945,6 +3980,13 @@ entries:
         - Transmitter dish
         - "Tarak's general store"
       real_world_anchor: "Portneuf River Valley, Idaho (border with Thousand Kingdoms)"
+      visual:
+        - adobe and timber frontier construction
+        - grid power infrastructure (new)
+        - neon sign on Tarak's general store (civilization marker)
+        - transmitter dish connecting to Republic
+        - small school, veterans kilit meeting hall
+        - cattle country stretching to horizon
     aesthetic_features:
       intention: "The Republic reaches here. Grid power, school, kilit. We belong."
       environment: "Portneuf River Valley—high desert pastoral land. Cattle country, small settlement in vast landscape. Grid power arrived recently; the neon sign on Tarak's store announces it."
@@ -4567,17 +4609,33 @@ entries:
   # ═══ Howling Row ═══
   Howling Row:
     category: location
-    short: "Street in ya-Tsatsa's Upper City where the whistles are strongest."
-    details: Named for the autumn gale sounds. Tsatsans trusted by the Presence often found in humble occupations here.
+    short: "Street in ya-Tsatsa's Upper City where the ceramic whistles are strongest."
+    details: |
+      Named for the autumn gale sounds when dozens of ceramic tubes mounted on rooftops
+      produce layered tones without resolution. The discordant harmonics carry patterns
+      detectable to those trained to hear them—Testament Society initiates learn to
+      perceive mathematical structure in the whistles.
+
+      Tsatsans most trusted by the Presence often found here in humble occupations:
+      a window washer, a tailor, a notary. The architecture is standard Upper City—
+      white-gray quartz diorite, no applied color, monochrome restraint—but the acoustic
+      intensity distinguishes the street. Visitors walk faster; residents walk slower.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
-    related: [ya-Tsatsa, Upper City]
+    related: [ya-Tsatsa, Upper City, Presence]
     location_features:
       level: neighborhood
       location_type: residential
       parent: Upper City
       notable_features:
         - Strongest whistle effects
+        - Presence-trusted residents
       real_world_anchor: "Point Reyes (ya-Tsatsa Upper City)"
+      visual:
+        - white-gray quartz diorite (monochrome like all ya-Tsatsa)
+        - ceramic whistle tubes mounted on rooftops and walls
+        - layered discordant tones during wind
+        - humble storefronts (tailor, notary, window washer)
+        - residents moving slowly despite acoustic intensity
   # ─── end Howling Row ───
 
   # ═══ Inner City ═══
@@ -5204,6 +5262,13 @@ entries:
       castes_present:
         - Avouvar
       real_world_anchor: "Fraser River delta"
+      visual:
+        - vast autofactory storage halls at wrong scale
+        - climate control systems running for millennia
+        - frost-white storage areas, void-black structures
+        - aurora-bright Avouvar against cold grey
+        - fabric partitions creating warm spaces in cold storage
+        - Avouvar quarters tucked into corners of refrigerated halls
     aesthetic_features:
       intention: "Food enters when we permit. The granaries are ours."
       environment: "Warehouse district—vast autofactory storage halls maintained at precise temperatures. Climate-controlled for millennia by systems no one fully understands."
@@ -5294,8 +5359,22 @@ entries:
   # ═══ Ködhegy ═══
   Ködhegy:
     category: location
-    short: Fog Hill—highest of the nine refugee villages around Szürkevíz.
-    details: 300 meters above harbor. ~400 residents. Völërath (19), Szkovërin (47), Draëthen (remainder). Three defensive gates. Fog catchment for water. Founded ~6,000 years ago.
+    short: Fog Hill—highest refugee village around Szürkevíz, 300 meters above harbor.
+    details: |
+      The oldest and highest of the nine villages, founded ~6,000 years ago when the
+      first refugees arrived. ~400 residents: 19 Völërath (the elite), 47 Szkovërin
+      (middle caste), remainder Draëthen (workers). Three defensive gates control
+      access up the single viable path.
+
+      Water comes from fog catchment—fabric nets strung across the hilltop collect
+      moisture from the marine layer that blankets the coast. The village looks down
+      on the harbor, on the other villages, on the autofactory ruins they all depend
+      upon. The view reminds everyone of the hierarchy: Ködhegy is highest, oldest,
+      most defensible.
+
+      The architecture is refugee vernacular: repurposed autofactory materials,
+      defensive orientation, steep roofs shedding constant rain. The Völërath
+      compound sits at the summit; the Draëthen quarters cluster near the lower gate.
     rag_pointer: The Volerath of Puget Sound
     related: [Szürkevíz]
     location_features:
@@ -5313,6 +5392,13 @@ entries:
         - Defensive gates
         - Hilltop position
       real_world_anchor: "Puget Sound (hill village)"
+      visual:
+        - hilltop village 300m above harbor
+        - fog catchment nets strung across summit
+        - three defensive gates on single path
+        - repurposed autofactory materials
+        - Völërath compound at summit
+        - view down on harbor and other villages
   # ─── end Ködhegy ───
 
   # ═══ Lavoëran ═══
@@ -5378,8 +5464,17 @@ entries:
   # ═══ Lopez Island ═══
   Lopez Island:
     category: location
-    short: Westerner installation in the San Juan archipelago.
-    details: The Avouvar do not go there under pain of death. Monolithic structure visible from other islands. Drydocks where maintenance occurs on identical ships.
+    short: Westerner installation—forbidden to Avouvar under pain of death.
+    details: |
+      The Avouvar do not go there. Ever. The prohibition is absolute, ancient, non-
+      negotiable. Those who violate it simply disappear.
+
+      From the other islands, the monolithic structure is visible: black, geometric,
+      scaled wrong even by Asovoë standards. Drydocks service identical ships that
+      arrive on schedules no one can predict. The Westerners come and go without
+      acknowledgment. What happens on Lopez Island, what purpose the installation
+      serves, what the Westerners are—no Avouvar knows, and the oldest ones refuse
+      to speculate.
     rag_pointer: Asovoë and the Avouvar
     related: [San Juan Factorias, Westerners]
     location_features:
@@ -5391,15 +5486,34 @@ entries:
       hazards:
         - Forbidden to Avouvar
       real_world_anchor: "San Juan Islands, Washington"
+      visual:
+        - black monolithic structure (wrong proportions)
+        - visible from other islands
+        - drydocks servicing identical ships
+        - Westerner activity (silent, unacknowledged)
+        - absolute absence of Avouvar
   # ─── end Lopez Island ───
 
   # ═══ Lower City ═══
   Lower City:
     category: location
-    short: Harbor trade district of ya-Tsatsa.
-    details: Where harbor trade concentrates. Market operates in the open. Stairs lead up to Upper City.
+    short: Harbor district where ya-Tsatsa conducts its commerce with the outside world.
+    details: |
+      Ships dock at cliff-base facilities, unloading goods from the Thousand Kingdoms
+      and coastal trade. White-gray quartz diorite construction, monochrome like all
+      ya-Tsatsa. Visitors climb through the Hollow Mouth—a kalbat tomb carved large
+      enough for passage—ascending forty minutes to the Upper City.
+
+      The market operates in the open; administrative buildings announce themselves.
+      An outsider can navigate here, can conduct business, can process Imperial paperwork.
+      But lodging is almost nonexistent—visitors must climb to the Akama District to
+      sleep. Lower City is for working; the Akama District is for living.
+
+      Key locations: the quays on massive stone pilings (oldest showing tool marks of
+      unknown technique), fish market, Travelers' Rest, Harbor Customs House, Salvage
+      Row Market, bonded warehouses.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
-    related: [ya-Tsatsa]
+    related: [ya-Tsatsa, Akama District, Upper City]
     location_features:
       level: district
       location_type: commercial
@@ -5409,15 +5523,36 @@ entries:
         north: [Upper City]
         west: [The Cliffs]
       real_world_anchor: "Point Reyes (ya-Tsatsa)"
+      visual:
+        - white-gray quartz diorite construction
+        - cliff-base docks on stone pilings
+        - Hollow Mouth passage through kalbat tomb
+        - open-air market, administrative buildings
+        - steep stairs climbing to Upper City
   # ─── end Lower City ───
 
   # ═══ Malpais ═══
   Malpais:
     category: location
-    short: Volcanic scablands where pastoral Akama drive cattle.
-    details: Stretches from southeast Idaho to the coast. Volcanic basalt with soil too thin for agriculture. Villages cluster wherever water runs year-round.
+    short: Volcanic scablands where pastoral Akama drive cattle across thin-soiled basalt.
+    details: |
+      Stretches from southeast Idaho to the coast—vast volcanic basalt flows with
+      soil too thin for agriculture. The land is harsh: black rock, sparse vegetation,
+      water only in scattered springs and seasonal streams. Villages cluster wherever
+      water runs year-round.
+
+      Akama bands drive cattle across this landscape, following routes their ancestors
+      established generations ago. Destriers pick their way over rock that would break
+      a horse's legs. The pastoral life here is harder than in the rich grasslands
+      north of Ogon—fewer cattle per band, longer drives between water, constant
+      movement to find grazing.
+
+      The villages are small, defensive, built from the black basalt that covers
+      everything. Camps are temporary: felt tents, portable shrines, the accumulated
+      gear that defines Akama life. The aesthetic is testimonial—every object earned,
+      every scar displayed, every piece of equipment speaking to its owner's history.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Thousand Kingdoms, Akama]
+    related: [Thousand Kingdoms, Akama, Destrier]
     location_features:
       level: district
       location_type: geographic
@@ -5432,6 +5567,13 @@ entries:
         west: [Ogon]
         south: [Ganat]
       real_world_anchor: "Cascade Range / Columbia Plateau volcanic region"
+      visual:
+        - black volcanic basalt stretching to horizon
+        - thin soil, sparse vegetation
+        - villages of dark stone at water sources
+        - felt tents and portable shrines at camps
+        - destriers picking across broken rock
+        - testimonial objects (earned gear, displayed scars)
   # ─── end Malpais ───
 
   # ═══ Manufacturing District ═══
@@ -5783,8 +5925,20 @@ entries:
   # ═══ Coppersmith Lane ═══
   Coppersmith Lane:
     category: location
-    short: "Guild street for metalworkers—copper, bronze, and brass goods."
-    details: Guild monopoly on metalworking retail within marked boundaries. Shops produce household items, decorative pieces, and architectural fittings.
+    short: "Guild street for metalworkers—shops producing copper, bronze, and brass goods."
+    details: |
+      Guild monopoly on metalworking retail within marked boundaries. Shops produce
+      household items (pots, basins, lamps), decorative pieces (geometric patterns,
+      abstract relief), and architectural fittings (door hardware, window frames,
+      ornamental brackets). The sound of hammers on metal carries from dawn to dusk.
+
+      Each shop displays samples in street-facing windows: the gleam of new copper
+      (soon to patina), polished bronze catching orb-fixture light, brass work showing
+      fine engraving. Apprentices maintain fires in rear workshops; masters work visible
+      to customers. The guild maintains quality standards; shoddy work means expulsion.
+
+      Typical Imperial guild street: specialty retail in designated area, prices higher
+      than market average but quality guaranteed, guild marks on every piece.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [Medina Quarter]
     location_features:
@@ -5793,6 +5947,13 @@ entries:
       parent: Medina Quarter
       primary_function: Metalwork retail
       real_world_anchor: "Monterey Bay basin (Medina Quarter)"
+      visual:
+        - street-facing shop windows displaying metalwork
+        - gleam of new copper, polished bronze, engraved brass
+        - sound of hammers on metal (dawn to dusk)
+        - rear workshop fires visible through doorways
+        - guild marks on every piece
+        - geometric patterns and abstract relief (Imperial aesthetic)
   # ─── end Coppersmith Lane ───
 
   # ═══ Aureate Span ═══
@@ -6777,9 +6938,22 @@ entries:
   # ═══ Monastery of the Silent Song ═══
   Monastery of the Silent Song:
     category: location
-    short: Facility housing surviving Auditor kalbats.
-    details: Seven kalbats survive here in cyclic dormancy, tended by Companions in two-year rotations. Located in the Second Whorl.
-    rag_pointer: The Companions Guild
+    short: High-walled sanctuary where the last kalbats are tended in absolute silence.
+    details: |
+      Seven kalbats survive here in cyclic dormancy, tended by Companions in two-year
+      rotations. The Monastery is a place of absolute quiet—even the hum of the arcology
+      is dampened by archaeotech acoustic baffles. Sound damages the kalbats' encoded
+      contents; silence is medical necessity, not spiritual affectation.
+
+      Located in the Second Whorl where temporal distortion runs moderate. The high walls
+      separate the Monastery from the empty plazas and colossal statues of the Seat of
+      Power. Within: softness where the rest of the Inner City is hard. Padded floors
+      absorb footsteps. Companions communicate in sign language developed over millennia.
+
+      The kalbats themselves—living records of compressed information—lie in chambers
+      where vibration cannot reach them. Their slack-jawed faces are the same as those
+      carved into ya-Tsatsa's cliffs, but these are living, waiting.
+    rag_pointer: The Companions Guild, The Inner City
     related: [Kalbats, Companions Guild, Second Whorl]
     location_features:
       level: site
@@ -6790,6 +6964,13 @@ entries:
         - Kalbats
         - Companions
       real_world_anchor: "Inner City arcology (Second Whorl)"
+      visual:
+        - high walls separating from Second Whorl plazas
+        - archaeotech acoustic baffles (absolute silence)
+        - padded floors absorbing footsteps
+        - Companions communicating in sign language
+        - chambers where kalbats lie in dormancy
+        - softness within (contrast to bronze hardness outside)
   # ─── end Monastery of the Silent Song ───
 
   # ═══ Near Wall ═══
@@ -7116,8 +7297,18 @@ entries:
   # ═══ Orcas Island ═══
   Orcas Island:
     category: location
-    short: Primary Avouvar trading installation handling most external commerce.
-    details: 80+ permanent staff. Factor-Principal Szëvalötz (173 years old) manages operations. Handles Ganati grain ships, Thousand Kingdoms traders, occasional Imperial vessels.
+    short: Primary Avouvar trading installation—80+ staff handling most external commerce.
+    details: |
+      The largest of the factorias, handling Ganati grain ships, Thousand Kingdoms
+      traders, occasional Imperial vessels. Factor-Principal Szëvalötz (173 years old)
+      manages operations with the cold patience of someone who has outlived every
+      trading partner's grandparents.
+
+      The warehouse facilities are Asovoë-scale—too large for human use, adapted
+      through fabric partitions and secondary structures. Young Avouvar staff the
+      counters, learning trade while their lifespans shorten. The goods pass through:
+      grain from Ganat, weapons components from the Furnaces, preserved foods heading
+      north, autofactory products heading south.
     rag_pointer: Asovoë and the Avouvar
     related: [San Juan Factorias, Asovoë]
     location_features:
@@ -7129,6 +7320,12 @@ entries:
       castes_present:
         - Avouvar
       real_world_anchor: "San Juan Islands, Washington"
+      visual:
+        - Asovoë-scale warehouses (too large, adapted)
+        - fabric partitions creating human-scale spaces
+        - aurora-bright Avouvar at trading counters
+        - goods from multiple cultures in transit
+        - temperate Pacific weather (grey, rainy)
   # ─── end Orcas Island ───
 
   # ═══ Pilgrim's Rest ═══
@@ -7724,6 +7921,13 @@ entries:
         northeast: [Medina Quarter]
         across_rift: [Antediluvian Quarter]
       real_world_anchor: "Monterey Bay basin (southwest)"
+      visual:
+        - salvaged thesad from collapsed arcologies (incongruously pristine)
+        - rust, patina, chemical staining on conventional metals
+        - vertical density on flooded foundations (Middens)
+        - quarried terraces filling with industry (Iron Yards)
+        - rotated arcology structure (Ridge)
+        - view always UP toward Inner City towers
     aesthetic_features:
       intention: "We do the work that costs bodies. We live where the city throws its wreckage. We make do."
       environment: "The collapsed arcologies define the geography: the Ninth Horizon Terrace fallen sideways to become the Ridge, its fall creating the quarried depression of the Iron Yards, the Middens built on flooded foundations jutting into the Rift. The view is always UP—toward the Inner City's bronze towers, the Medina's respectable bustle, the Antediluvian Quarter across the water. They can see what they're excluded from."
@@ -7764,8 +7968,19 @@ entries:
   # ═══ San Juan Factorias ═══
   San Juan Factorias:
     category: location
-    short: Avouvar trading posts south of Asovoë.
-    details: Four islands 200km south handling trade that keeps Asovoë alive. Staffed by young Avouvar on hardship duty—the mild climate accelerates aging.
+    short: Avouvar trading posts 200km south of Asovoë—where young Avouvar serve hardship duty.
+    details: |
+      Four islands handling the trade that keeps Asovoë alive. Staffed by young Avouvar
+      on hardship duty—the mild climate accelerates their aging (these latitudes shorten
+      Avouvar lifespans by 30-40%). Every Avouvar here knows their service costs years.
+
+      Orcas Island handles most external commerce. San Juan Island specializes in Akama
+      trade. Shaw Island is the quarantine station through which everything passes.
+      Lopez Island belongs to the Westerners—Avouvar do not go there.
+
+      The architecture is Asovoë vernacular scaled for wrong proportions, adapted for
+      temperate climate. Fabric shelters against rain rather than arctic cold. Aurora-
+      bright Avouvar against grey Pacific waters. Trade goods from a dozen cultures.
     rag_pointer: Asovoë and the Avouvar
     related: [Asovoë, Orcas Island, San Juan Island, Shaw Island, Lopez Island]
     location_features:
@@ -7783,13 +7998,29 @@ entries:
         north: [Asovoë]
         south: [Szürkevíz]
       real_world_anchor: "San Juan Islands (Avouvar trading posts)"
+      visual:
+        - Asovoë architecture at wrong proportions (too large)
+        - fabric shelters against temperate rain
+        - aurora-bright Avouvar against grey Pacific
+        - trade goods from dozen cultures
+        - Lopez Island monolith (forbidden, Westerner-controlled)
+        - young Avouvar on hardship duty (aging faster here)
   # ─── end San Juan Factorias ───
 
   # ═══ San Juan Island ═══
   San Juan Island:
     category: location
-    short: Avouvar factoria handling Akama trade specifically.
-    details: 50-70 staff. Factor-Principal Körateszin (141 years old) speaks Akama language and understands gambling protocols. Weapons components, armor materials, precision tools.
+    short: Avouvar factoria specialized in Akama trade—weapons, armor, precision tools.
+    details: |
+      50-70 staff handling the specialized trade with the Thousand Kingdoms. Factor-
+      Principal Körateszin (141 years old) speaks the Akama language and understands
+      their gambling protocols—necessary for any serious negotiation with Akama traders.
+
+      The goods are specific: weapons components that Akama smiths finish themselves,
+      armor materials (plates, scales, mail links), precision tools for the endless
+      repair and modification that defines Akama material culture. The Akama traders
+      arrive by destrier-caravan from inland, their mounts unable to cross the water.
+      They camp outside the factoria walls, conducting business through intermediaries.
     rag_pointer: Asovoë and the Avouvar
     related: [San Juan Factorias, Akama]
     location_features:
@@ -7801,6 +8032,12 @@ entries:
       castes_present:
         - Avouvar
       real_world_anchor: "San Juan Island, Washington"
+      visual:
+        - smaller factoria (50-70 staff)
+        - specialized goods storage (weapons, armor, tools)
+        - Akama trader camps outside walls
+        - destrier-caravans arriving from inland
+        - aurora-bright Avouvar negotiating with scarred Akama
   # ─── end San Juan Island ───
 
   # ═══ Second Whorl ═══
@@ -7968,8 +8205,16 @@ entries:
   # ═══ Shaw Island ═══
   Shaw Island:
     category: location
-    short: Quarantine station through which everything bound for Asovoë passes.
-    details: Inspects goods and people before they proceed north. The city cannot afford contamination of any kind.
+    short: Quarantine station where everything bound for Asovoë undergoes inspection.
+    details: |
+      The bottleneck through which all trade passes. Inspectors examine goods for
+      contamination—biological, chemical, temporal. People wait in isolation while
+      Avouvar evaluate whether they pose risk. The city cannot afford contamination.
+
+      The architecture is deliberately austere: holding areas, inspection chambers,
+      decontamination facilities. Avouvar staff rotate frequently to avoid the aging
+      effects of southern latitude. The waiting can take days; the inspectors show
+      no urgency. Asovoë's survival depends on what they catch here.
     rag_pointer: Asovoë and the Avouvar
     related: [San Juan Factorias, Asovoë]
     location_features:
@@ -7982,6 +8227,12 @@ entries:
       borders:
         north: [Asovoë]
       real_world_anchor: "Shaw Island, Washington"
+      visual:
+        - austere holding areas and inspection chambers
+        - decontamination facilities
+        - aurora-bright Avouvar inspectors
+        - traders waiting in isolation (days)
+        - temperate rain against Asovoë-scale architecture
   # ─── end Shaw Island ───
 
   # ═══ Sifting Grounds ═══
@@ -8137,6 +8388,13 @@ entries:
         - Dim lighting throughout
         - Bright Eyes Optical
       real_world_anchor: "Central Valley (ya-Don)"
+      visual:
+        - street lamps tuned to Orevet vision (twilight to baseline visitors)
+        - windows smaller and recessed
+        - extended overhangs creating deliberate shade
+        - muted colors (darker greens, burgundies, browns)
+        - Shrine of St. Oreli (the furnace-seer who perceived without eyes)
+        - Bright Eyes Optical with precise optical instruments
     aesthetic_features:
       intention: "We see what you cannot. Our darkness is not your darkness."
       environment: "Deliberately dim. Street lamps tuned to Orevet vision—baseline visitors experience the district as twilight even at noon. Shade is abundant; overhangs extend further than standard; the sun is unwelcome."
@@ -8477,10 +8735,22 @@ entries:
   # ═══ The Cliffs ═══
   The Cliffs:
     category: location
-    short: White-gray quartz diorite cliffs with tens of thousands of kalbat tombs.
-    details: Three hundred feet or more rising from ocean. Nearly every accessible surface carved into kalbat tombs. All faces watch the ocean. Port facilities at cliff base.
+    short: White-gray quartz diorite rising 300+ feet, every surface carved with tens of thousands of kalbat tombs.
+    details: |
+      The pale stone glows faintly in moonlight. Visible crystals—quartz catching light,
+      feldspar holding color, dark minerals creating flecks and striations. The stone
+      weathers slowly; salt spray takes centuries to soften carved detail.
+
+      Every kalbat who ever lived is buried here—all faces watching the ocean, waiting
+      for something that may or may not arrive. The oldest tombs are massive (30-foot
+      faces, mouths large enough to walk into), features blurred by millennia. Newer
+      tombs are smaller, more widely spaced—one carved every 4-5 years now.
+
+      Port facilities at the cliff base: quays on massive stone pilings, some showing
+      tool marks from unknown techniques. The Hollow Mouth—a kalbat tomb carved large
+      enough for passage—provides the main ascent to the Upper City.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
-    related: [ya-Tsatsa, Kalbats]
+    related: [ya-Tsatsa, Kalbats, Ahn-Tam]
     location_features:
       level: district
       location_type: geographic
@@ -8490,9 +8760,17 @@ entries:
         - Quartz diorite
         - Ocean-facing tombs
         - Docks at base
+        - Hollow Mouth passage
       borders:
         east: [Lower City]
       real_world_anchor: "Point Reyes (ya-Tsatsa)"
+      visual:
+        - white-gray quartz diorite glowing in moonlight
+        - tens of thousands of kalbat tomb faces
+        - oldest tombs massive (30-foot faces), features blurred
+        - newest tombs smaller, sharper edges
+        - visible crystals catching light
+        - port facilities on ancient pilings
   # ─── end The Cliffs ───
 
   # ═══ The Dam ═══
@@ -8617,8 +8895,21 @@ entries:
   # ═══ The Slab ═══
   The Slab:
     category: location
-    short: Meeting place of the Junta of Ogon.
-    details: Where the seven token-holders gather monthly. Voting by raised or lowered hands. Disputes resolved by trial-by-combat.
+    short: Vast autofactory plaza where the Junta of Ogon meets monthly.
+    details: |
+      Perfectly flat concrete, two hundred meters square, extruded by the autofactory
+      centuries ago. Shows no weathering despite exposure—materials far more durable
+      than post-Interdict production. Located in Ogon's center, accessible from all
+      districts, clear sight lines making ambush difficult.
+
+      Monthly gatherings: each token-holder arrives with retinue (dozens to hundreds
+      of warriors). Seven members stand in rough circle, thirty feet apart, retinues
+      creating sectored wedges behind them. Public theater as much as governance—
+      hundreds of Ogon residents watch from plaza edges.
+
+      Voting is public: raised tokens for yes, lowered for no. Votes can be challenged
+      through combat (rare—perhaps once per decade). Last challenge: Khan-Ascendant
+      Kelom Ten Jade fighting three warbands for six hours. She lost.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Junta of Ogon, Ogon]
     location_features:
@@ -8628,6 +8919,12 @@ entries:
       controlling_entity: Junta of Ogon
       primary_function: Governance assembly
       real_world_anchor: "Columbia River mouth (within Ogon)"
+      visual:
+        - perfectly flat autofactory concrete (200m square)
+        - no weathering despite centuries
+        - central Ogon location, clear sight lines
+        - retinues in sectored wedges during meetings
+        - public gathering space with spectators at edges
   # ─── end The Slab ───
 
   # ═══ Thavek ═══
@@ -8953,13 +9250,27 @@ entries:
   # ═══ Third Whorl ═══
   Third Whorl:
     category: location
-    short: Middle ring of the Inner City.
-    details: Transitional zone between outer workers and inner administration.
+    short: The industrial and utility core of the Inner City—the Engine Room.
+    details: |
+      Cavernous halls house colossal water recycling plants, geothermal heat exchangers,
+      and power distribution substations. The architecture is functional grandeur—bronze
+      walls with bas-reliefs that serve as integrated data conduits and diagnostic panels.
+
+      The air is clean but carries ozone and the scent of chilled metal from coolant pumps.
+      Sounds: deep machinery hum felt more than heard, rhythmic clang of presses, water
+      flowing through bronze pipes. Vast cloistered office complexes house thousands of
+      scribes, styluses scratching on tablets, quiet conversations replacing the Fourth
+      Whorl's market cacophony.
+
+      Key locations: Bureau of the Rod Central Control (tiered amphitheater of consoles),
+      the Lineal Vaults (cryogenic genetic archive), the Mint (fortress of deafening
+      archaeotech presses), Terminal Manifold (logistics operations), residential enclaves
+      for senior bureaucrats avoiding Whorl-Lag.
     rag_pointer: The Inner City
     related: [Inner City, The Alcazar Collection]
     location_features:
       level: neighborhood
-      location_type: administrative
+      location_type: industrial
       parent: Inner City
       children:
         - The Alcazar Collection
@@ -8968,6 +9279,12 @@ entries:
         outward: [Fourth Whorl]
         inward: [Second Whorl]
       real_world_anchor: "Inner City arcology"
+      visual:
+        - cavernous halls with massive machinery
+        - functional bronze architecture (bas-reliefs as data conduits)
+        - deep machinery hum, rhythmic clanging, water flowing
+        - ozone and chilled metal scent
+        - vast cloistered offices
   # ─── end Third Whorl ───
 
   # ═══ The Alcazar Collection ═══
@@ -9199,10 +9516,22 @@ entries:
   # ═══ Three Cradles ═══
   Three Cradles:
     category: location
-    short: Vast craters where three Oracles achieved consciousness.
-    details: Each crater has a chapel at its rim. Surprisingly small chapels for such significant sites. Creates discomfort visitors cannot articulate.
+    short: Vast craters (~100m across) where the Third, Fifth, and Seventh Oracles achieved consciousness.
+    details: |
+      The craters' depths are irregular, their edges worn smooth by centuries of pilgrims.
+      Surprisingly small chapels stand at each rim—bronze and stone, geometric patterns,
+      no ornamentation beyond the geometry itself.
+
+      The First Cradle (Third Oracle) is most accessible, rim worn smooth by endless
+      pilgrimage. Caretaker Dho-Tam lights incense when visitors seem to want it.
+      The Second Cradle (Fifth Oracle) is where Mutterer processions begin twice yearly.
+      The Third Cradle (Seventh Oracle) is where the Threefold Mirror Academy is built,
+      structures descending from rim into the crater depths.
+
+      Pilgrims report phenomena: balls falling upward in certain spots, absolute silence
+      where there should be crowds, low subsonic vibration felt more than heard.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
-    related: [ya-Tsatsa, Oracles]
+    related: [ya-Tsatsa, Oracles, Threefold Mirror Academy, Mutterers]
     location_features:
       level: site
       location_type: religious
@@ -9210,22 +9539,49 @@ entries:
       notable_features:
         - Rim chapels
         - Oracle emergence sites
+        - Phenomena (gravity anomalies, silence)
       real_world_anchor: "Point Reyes (ya-Tsatsa Upper City)"
+      visual:
+        - vast irregular craters (~100m across)
+        - edges worn smooth by pilgrim traffic
+        - small bronze-and-stone chapels at rims
+        - geometric patterns (no other ornamentation)
+        - occasional luminescence
+        - absolute silence in spaces that should echo
   # ─── end Three Cradles ───
 
   # ═══ Threefold Mirror Academy ═══
   Threefold Mirror Academy:
     category: location
-    short: Institution preparing mathematicians for the Institute of the Lattice.
-    details: Built in the cradle of the Third Oracle. Near-universal Lattice admission rate. Teaching methods opaque to outsiders.
+    short: Institution preparing mathematicians for the Institute of the Lattice—built into the Third Cradle.
+    details: |
+      Structures extend from the Seventh Oracle's crater rim down into its irregular depths,
+      using the crater's geometry in ways outsiders cannot follow. Students move between
+      levels without apparent staircases. Sounds echo wrong. The architecture suggests
+      more interior space than the exterior should contain.
+
+      Produces 93% of Institute of the Lattice mathematicians. Three-year curriculum
+      culminating in neurological shackling—graduates cannot reveal teaching methods.
+      Admission requires living through at least two ya-Tsatsa autumns, learning to
+      sleep through the whistles, having the Dream of Lessons.
+
+      White-gray quartz diorite like all ya-Tsatsa, but the spatial impossibilities
+      distinguish it. Bronze doors with geometric patterns. No signs, no posted schedules.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
-    related: [ya-Tsatsa, Institute of the Lattice, Ezh Dhol]
+    related: [ya-Tsatsa, Institute of the Lattice, Ezh Dhol, Three Cradles]
     location_features:
       level: site
       location_type: educational
-      parent: ya-Tsatsa
+      parent: Three Cradles
       controlling_entity: Ezh Dhol family
       real_world_anchor: "Point Reyes (ya-Tsatsa)"
+      visual:
+        - structures descending from crater rim into depths
+        - impossible geometry (more space inside than outside)
+        - students moving between levels without staircases
+        - sounds echoing wrong
+        - bronze doors with geometric patterns
+        - white-gray quartz diorite (no signs, no schedules)
   # ─── end Threefold Mirror Academy ───
 
   # ═══ Terrace ═══
@@ -9267,6 +9623,7 @@ entries:
       parent: ya-Don
       children:
         - Cathedral of St. Akhmet
+        - The Burning Rest
       population: ~280,000
       primary_function: Worker housing
       castes_present:
@@ -9275,15 +9632,22 @@ entries:
         - Orevet
         - Redback
       real_world_anchor: "Central Valley (ya-Don)"
+      visual:
+        - massive stone buildings facing inward around courtyards
+        - blank walls presenting to streets (shade architecture)
+        - Furnace glow visible down every street
+        - Furnace pipes everywhere (thesad and bronze, 6 inches to 20 feet)
+        - Cathedral of St. Akhmet (visible from most of district)
+        - shift-end culture (establishments catering to labor castes)
     aesthetic_features:
       intention: "We build for centuries. The work continues; the workers need shelter that lasts."
       environment: |
-        Adjacent to the Furnaces—their glow visible down every street, their heat shaping 
-        daily rhythms. Massive stone buildings face inward around courtyards, presenting 
+        Adjacent to the Furnaces—their glow visible down every street, their heat shaping
+        daily rhythms. Massive stone buildings face inward around courtyards, presenting
         blank walls to streets. Shadows are precious; shade is architecture.
-        
-        FURNACE PIPES RUN THROUGH EVERYTHING. Thesad and conventional bronze pipes climb 
-        walls, cross streets on brackets, dive underground, emerge from buildings. Some 
+
+        FURNACE PIPES RUN THROUGH EVERYTHING. Thesad and conventional bronze pipes climb
+        walls, cross streets on brackets, dive underground, emerge from buildings. Some
         are six inches across; some are twenty feet. The oldest Threshold buildings were 
         built AROUND the pipes—the infrastructure came first. Equipment housings squat at 
         intersections: valve assemblies, junction boxes, monitoring stations nobody opens. 
@@ -9801,6 +10165,13 @@ entries:
         north: [Thousand Kingdoms]
         beyond: [Asovoë]
       real_world_anchor: "California coast, Monterey Bay to Point Reyes"
+      visual:
+        - pre-Interdict arcologies beyond comprehension (ya-Sattra, ya-Don)
+        - human-scale additions in shadow of monuments
+        - Inner City bronze towers rising above everything
+        - Furnace glow at ya-Don
+        - white-gray quartz diorite at ya-Tsatsa
+        - Medina Quarter bustle, Rotten Quarter salvage
     aesthetic_features:
       intention: "This is how things are. This is how things have always been. The strangeness is normalized."
       environment: "Mediterranean climate but ~10°F colder than modern Earth. Monterey Bay drained to seabed (ya-Sattra), Central Valley productive farmland, Point Reyes peninsula (ya-Tsatsa). Dry summers, mild wet winters."
@@ -9857,6 +10228,13 @@ entries:
       borders:
         south: [Lower City]
       real_world_anchor: "Point Reyes (ya-Tsatsa)"
+      visual:
+        - white-gray quartz diorite streets (monochrome restraint)
+        - Three Cradles (vast craters with small rim chapels)
+        - Eight Domes with bronze geometric doors
+        - ceramic wind-whistles on rooftops (scream in autumn)
+        - absolute darkness at night (no lanterns)
+        - fog rolling through, ocean wind constant
     aesthetic_features:
       intention: "The Presence is here. Silence and waiting. The important things cannot be shown."
       environment: "High point of ya-Tsatsa peninsula. Exposed to ocean winds. Fog rolls through. Autumn gales make the ceramic wind-whistles scream. No artificial light at night—only stars, moon, occasional Cradle luminescence."
@@ -9914,10 +10292,22 @@ entries:
   # ═══ Horizon Plaza ═══
   Horizon Plaza:
     category: location
-    short: "Central plaza of ya-Tsatsa's Upper City, surrounded by the Eight Domes."
+    short: "Central plaza (~300m across) where the Eight Domes face each other across open stone."
     details: |
-      Where the ancient domes cluster. Reception hall nearby for formal proceedings. 
-      Tsatsans trusted by the Presence often found in humble occupations around the plaza.
+      Paved in the same white-gray diorite as everything else, worn into paths where
+      generations have walked between domes. No vendors set up here. No entertainment
+      occurs. Simply open—a void at the city's heart where nothing happens except
+      passage between places where things do happen.
+
+      The Overlook at the plaza's edge provides dramatic views of the cliffs below:
+      a low wall separating stone from a killing drop, the kalbat tombs descending
+      in patient ranks, the harbor visible, the ocean beyond. Old Tok, a retired
+      merchant, has watched ships from here for forty years. When asked what he sees,
+      he says he sees time. What kind? The kind that doesn't care about him.
+
+      Seven of the Eight Domes house software cooperatives. The eighth has bronze
+      doors with geometric patterns; pierrots enter it twice yearly while Mutterers
+      go in and do not come out.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [ya-Tsatsa, Upper City, Eight Domes]
     location_features:
@@ -9927,7 +10317,15 @@ entries:
       notable_features:
         - Reception hall
         - Surrounded by Eight Domes
+        - The Overlook (cliff views)
       real_world_anchor: "Point Reyes (ya-Tsatsa)"
+      visual:
+        - ~300m of white-gray diorite paving
+        - worn paths between the eight domes
+        - no vendors, no entertainment—simply open space
+        - The Overlook with low wall and killing drop
+        - cliff views, harbor, ocean beyond
+        - eighth dome with bronze geometric doors
   # ─── end Horizon Plaza ───
 
   # ═══ Upper Taho ═══
@@ -10220,10 +10618,16 @@ entries:
   # ═══ Virgin River Junction ═══
   Virgin River Junction:
     category: location
-    short: Southern settlement in the Republic.
-    details: 60,000 inhabitants. Trade junction.
+    short: Agricultural center and trade junction where the Virgin River meets the greater watershed.
+    details: |
+      60,000 inhabitants in the southern Republic. Where river routes converge, trade flows:
+      agricultural kilits coordinate irrigation and export; merchant kilits handle goods
+      transfer between routes. Predominantly Serrulata population (65%) with their scale
+      decorations catching desert light. Adobe construction, carved sandstone where cliffs
+      permit, river infrastructure of docks and warehouses. The revolutionary culture of
+      Dawn runs strong in agricultural communities.
     rag_pointer: The Republic of Ganat
-    related: [Ganat]
+    related: [Ganat, Serrulata]
     location_features:
       level: city
       location_type: settlement
@@ -10581,6 +10985,7 @@ entries:
         - Quick Lanes
         - "Pilgrim's Rest"
         - Verethani Compound
+        - Hermitage of St. Caris the Still
       controlling_entity: Furnace Board / Church-Guild coalition
       population: ~1.2 million
       primary_function: Industrial production
@@ -11241,8 +11646,32 @@ entries:
   # ═══ Companions Guild ═══
   Companions Guild:
     category: organization
-    short: Monastic order managing semi-sentient populations and practicing general medicine.
-    details: Not a trade guild but a religious order. Holds monopoly on managing Mutterers, Sickly, and kalbats. Also operates Imperial hospice system. Descended from Witnesses who attended Technical Castes.
+    short: "Empire-wide monopoly over semi-sentient care—no one else can manage Mutterer choirs."
+    details: |
+      Not a trade guild but a religious order descended from the Witnesses who attended Technical
+      Castes before the Interdict. Holds absolute monopoly on managing Mutterers, Sickly, and
+      kalbats. Operates the Imperial hospice system in partnership with the Bureau of the Creche
+      and Penitent Church.
+
+      Headquarters at the Cathedral of the Plea (ya-Sattra), containing irreplaceable Technical
+      Caste archives in the jargon. Major facilities include the Monastery of the Silent Song
+      (kalbat care). Chapter houses in every major Imperial city. Perhaps 2,000-3,000 Companions
+      Empire-wide.
+
+      Annual revenue perhaps 10-15 million obols: Bureau of the Rod contracts for infrastructure
+      maintenance through Mutterer choirs (4-6 million); Bureau of the Creche contracts for
+      hospice operations and Sickly management (2-3 million); private Mutterer choir rentals
+      (1-2 million); Sickly serum sales (1-2 million); training and hospice fees (1.5-3 million).
+
+      The Mutterer monopoly is absolute and is the Guild's ultimate protection. The harmonic
+      frequencies, cascade interruption techniques, and protocols for preventing Mutterers from
+      "optimizing" each other require Guild training. The Bureau of the Rod literally cannot
+      maintain Imperial infrastructure without the Guild. No one else can manage the choirs.
+
+      The Guild's impossible position shapes all operations: absolutely essential, politically
+      powerless, pulled between mutually antagonistic clients (Rod, Creche, Church, private)
+      who each partially own them. They survive not through strength but through being too
+      useful to destroy and too compromised to threaten anyone.
     rag_pointer: The Companions Guild
     related: [Sickly, Mutterers, Kalbats, Semi-Sentient, Witnesses]
   # ─── end Companions Guild ───
@@ -11295,13 +11724,30 @@ entries:
   # ═══ Ezh Tan ═══
   Ezh Tan:
     category: organization
-    short: "Ya-Tsatsa Aureate family holding tariff assessment rights and operating the city's banking system."
+    short: "Ya-Tsatsa banking family operating four banks—looks normal, makes decisions that defy commercial logic."
     details: |
-      Alone among Ezh families, spend significant time outside ya-Tsatsa. Engineered for 
-      trust—subtle modifications that trigger confidence. Can negotiate with the Presence 
+      Alone among Ezh families, spend significant time outside ya-Tsatsa. Engineered for
+      trust—subtle modifications that trigger confidence. Can negotiate with the Presence
       on behalf of Tsatsans. The soft yoke: most freedom, most responsibility.
+
+      Operate four banks offering deposits, loans, currency exchange, and Northern Trade
+      underwriting. Annual revenue 300,000-500,000 obols from conventional operations.
+      Family head Yen To has learned to distinguish genuine necessity (the Presence
+      identifying someone who truly cannot thrive within ya-Tsatsa's constraints) from
+      mere optimization (the Presence preferring marginal convenience).
+
+      The apology-loans: bankers review applications, recognize they should refuse, and
+      find themselves approving anyway. Eyes go wet; they say things they've never thought:
+      "Ya-Tsatsa isn't for everyone. There are emigrant communities all down the coast."
+      These loans almost never get repaid. The bank absorbs losses that somehow don't
+      cascade into consequences.
+
+      Many cannot operate in ya-Tsatsa because Many optimizes. Many would identify the
+      apology-loan pattern and close it. The efficiency would break something the Presence
+      requires. So the Ezh Tan refuse Many's repeated requests to establish full banking
+      operations, maintaining correspondent relationship only.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
-    related: [ya-Tsatsa, Ezh Ot, Ezh Dhol, Presence]
+    related: [ya-Tsatsa, Ezh Ot, Ezh Dhol, Presence, Many]
   # ─── end Ezh Tan ───
 
   # ═══ Ezh Ot ═══
@@ -11384,15 +11830,34 @@ entries:
   # ═══ Salvage Guild ═══
   Salvage Guild:
     category: organization
-    short: "Iron Yards monopoly controlling all salvage assessment and sale in ya-Sattra."
+    short: "Empire-wide monopoly controlling all salvage certification and sale—nothing salvaged anywhere can be legally sold without Guild stamps."
     details: |
-      147 master memberships, hereditary or sold at prices requiring loans to afford. Charter 
-      granted during emergency reconstruction after the arcology collapse—exempts Guild operations 
-      from patent enforcement. Operates from the pre-Interdict Salvage Dome. Auction floor runs 
-      three-hour cycles; masters bid through coded hand signals. Controls sales; the Pipefitters 
-      control labor.
+      Headquarters in the great dome in the Iron Yards; major branches in ya-Don, the Threshing
+      Coast, and every significant port. 147 master memberships at headquarters, fixed by charter,
+      plus licensed factors and certified assessors throughout the Empire. Thousands of contractors
+      operate under master licenses.
+
+      Annual revenue perhaps 20-35 million obols, making the Guild one of the wealthiest
+      non-Aureate institutions in the Empire—comparable to a mid-tier Aureate patent family.
+      Revenue sources: auction and transaction fees (18-30%) on all salvage operations Empire-wide
+      (12-20 million obols/year); certification fees mandatory for all exports (3-6 million);
+      training programs, storage fees, and credit interest.
+
+      The certification monopoly is the Guild's true power. A salvager in Ogon finding valuable
+      archaeotech cannot sell it to Imperial buyers without Guild certification. Frontier factors
+      are Guild employees or licensed contractors. The certification stamps that make gray market
+      goods into white market goods are Guild property.
+
+      Maintains two sets of ledgers. The "White Books" satisfy Bureau auditors; the "Grey Books"
+      record actual transactions including patent violations. Everyone knows. The perpetual
+      lawsuit with Rod families ensures the system continues—both parties benefit from legal
+      ambiguity that neither wants resolved.
+
+      Charter assumes pre-Interdict conditions and exempts operations from patent enforcement.
+      Auction floor runs three-hour cycles; masters bid through coded hand signals. Controls
+      sales; the Pipefitters control labor.
     rag_pointer: The Iron Yards
-    related: [Iron Yards, Salvage Dome, Pipefitters Union, Yen Tam Beneficial Society]
+    related: [Guild, Iron Yards, Salvage Dome, Pipefitters Union, Yen Tam Beneficial Society, Bureau of the Rod]
   # ─── end Salvage Guild ───
 
   # ═══ Yen Tam Beneficial Society ═══
@@ -11543,12 +12008,29 @@ entries:
     category: organization
     short: "Alien banking organism providing impartial financial services through biological incapacity for favoritism."
     details: |
-      Primary countinghouse on Booksellers' Row. Conducts contract witnessing, debt 
-      formalization, deposit services, arbitration. Ta-Kefyeh enforcers maintain famous 
-      egalitarian queue order—no queue-jumping regardless of status. Trusted precisely 
-      because it cannot understand the politics that might corrupt human institutions.
+      Colonial polychaete organism—thousands of specialized worm-segments functioning as a
+      single consciousness. Exists simultaneously in every major human city, not as franchises
+      but as literally the same organism. Bundles of zooids travel with merchant caravans,
+      carrying memories and contracts between locations.
+
+      Primary countinghouse on Booksellers' Row. Conducts contract witnessing, debt
+      formalization, deposit services, arbitration. Transaction fees 0.5-2% scaling with
+      complexity; deposit fees 0.1% monthly; loan interest 1.5% monthly (lower than any
+      competitor because Many has no biological need for profit). Annual revenue perhaps
+      2-4 million obols in fees, plus investment returns on reserves exceeding 100 million
+      obols accumulated over millennia.
+
+      Cannot lie, cannot understand politics, cannot model individual consciousness. When
+      Many creates an agreement, it literally grows brain matter configured to that contract,
+      making violation physically impossible. Ta-Kefyeh enforcers maintain the famous
+      egalitarian queue—physically removing anyone who attempts to skip regardless of status.
+      The queue is a contract, and contracts are absolute. Many will spend millions defending
+      this principle, creating the only truly egalitarian space in ya-Sattra.
+
+      Cannot operate in ya-Tsatsa because Many optimizes—would identify patterns the Presence
+      requires and close them. The Ezh Tan maintain correspondent relationship only.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
-    related: [Medina Quarter, "Booksellers' Row", Ta-Kefyeh]
+    related: [Medina Quarter, "Booksellers' Row", Ta-Kefyeh, Ezh Tan, obol]
   # ─── end Many ───
 
   # ═══ Processional Guild ═══
@@ -11561,7 +12043,7 @@ entries:
       facilitation, and institutional memory. Maintains archives with documentation 
       from before the current calendar, written in scripts requiring specialist translation.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
-    related: [Processional Tower, Medina Quarter]
+    related: [Guild, Processional Tower, Medina Quarter]
   # ─── end Processional Guild ───
 
   # ═══ Booksellers' Guild ═══
@@ -11574,7 +12056,7 @@ entries:
       scriptoriums. Twenty-three licensed shops. Retail monopoly enforced by immediate 
       collective action against unlicensed sellers.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
-    related: ["Booksellers' Row", Medina Quarter]
+    related: [Guild, "Booksellers' Row", Medina Quarter]
   # ─── end Booksellers' Guild ───
 
   # ═══ Opticians' Guild ═══
@@ -11587,7 +12069,7 @@ entries:
       actual production is painstaking handwork. Controls monopoly on optical instruments 
       within chartered boundaries.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
-    related: [Lens-Grinders' Courtyard, Alley of Lenses, Medina Quarter]
+    related: [Guild, Lens-Grinders' Courtyard, Alley of Lenses, Medina Quarter]
   # ─── end Opticians' Guild ───
 
   # ═══ Stevedores' Guild ═══
@@ -11601,8 +12083,49 @@ entries:
       ancient agreement with Bureau of the Coin, adjusted every seven years. Controls both 
       Medina and Antediluvian waterfronts.
     rag_pointer: "The Rift: Ya-Sattra's Harbor District"
-    related: [Rift, Medina Quarter, Bureau of the Coin]
+    related: [Guild, Rift, Medina Quarter, Bureau of the Coin]
   # ─── end Stevedores' Guild ───
+
+  # ═══ Guild ═══
+  Guild:
+    category: concept
+    short: "Chartered monopolies controlling specific trades—charters designed for automated production, now operated by human hands."
+    details: |
+      Imperial trade guilds hold exclusive rights to produce or sell specific goods within
+      defined territories. Charters were granted millennia ago by authority that no longer
+      functions to revoke them, designed for automated facilities that no longer exist.
+      Human workers now perform functions designed for machines, following charter language
+      that specifies "output tolerances of 0.3%" impossible for handcraft.
+
+      Guilds are local institutions with defined territorial boundaries, unlike empire-wide
+      organizations (Salvage Guild, Companions Guild) that hold special charters. A typical
+      guild master with twelve employees might gross 8,000-12,000 obols annually. Guild
+      pricing includes monopoly markup: a guild-made shirt costs 3-4 obols and lasts years;
+      unlicensed equivalent costs 1-1.5 obols but wears out in months.
+
+      Examples by territory:
+      - Medina Quarter: Clothiers' Guild, Booksellers' Guild, Opticians' Guild
+      - Rift: Gondoliers' Guild, Stevedores' Guild
+      - Inner City: Water Guild
+      - Iron Yards: Joiners' Guild, Armorers' Guild
+
+      The Salvage Guild and Companions Guild are special cases—empire-wide charters with
+      different economic structures than local trade guilds.
+    rag_pointer: "The Economy"
+    related:
+      - Charter
+      - Clothiers' Guild
+      - Booksellers' Guild
+      - Opticians' Guild
+      - Gondoliers' Guild
+      - Stevedores' Guild
+      - Joiners' Guild
+      - Armorers' Guild
+      - Water Guild
+      - Salvage Guild
+      - Companions Guild
+      - Processional Guild
+  # ─── end Guild ───
 
   # ═══ Gondoliers' Guild ═══
   Gondoliers' Guild:
@@ -11614,7 +12137,7 @@ entries:
       in the Guild. Boats hug the shores rather than crossing the canyon's depths. 
       Serves those avoiding bridge status declarations.
     rag_pointer: "The Rift: Ya-Sattra's Harbor District"
-    related: [Rift, Gondoliers' Steps]
+    related: [Guild, Rift, Gondoliers' Steps]
   # ─── end Gondoliers' Guild ───
 
   # ═══ es-Tsay ═══
@@ -11874,7 +12397,7 @@ entries:
       Echo (internal surveillance), Lattice (Jargon mathematics, ya-Tsatsan-trained). 
       Culture: intelligent, politically cautious, professionally paranoid.
     rag_pointer: "Bureau of the Lens: Complete Documentation"
-    related: [Satara, Second Whorl, Grey Sheet, White Sheet]
+    related: [Bureau, Satara, Second Whorl, Grey Sheet, White Sheet]
   # ─── end Bureau of the Lens ───
 
   # ═══ Bureau of the Creche ═══
@@ -11888,7 +12411,7 @@ entries:
       Reproductive Sanction, Genomic Licensing, Nutritional Design, Developmental Safety, 
       Cognitive Integrity, Highborn Preservation. Conservative coalition seeks Charter reversal.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
-    related: [Satara, Bureau of the Scale, City-of-Glass Charter]
+    related: [Bureau, Satara, Bureau of the Scale, City-of-Glass Charter]
   # ─── end Bureau of the Creche ───
 
   # ═══ Institute of Lineal Certification ═══
@@ -12002,7 +12525,7 @@ entries:
       Testament: apply precedent exactly, truth emerges. Personal judgment is corruption. 
       Judge-Executioners, courts, registrars. Rite of the Perfect Ledger for promotion.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
-    related: [Satara, Bureau of the Creche, City-of-Glass Charter]
+    related: [Bureau, Satara, Bureau of the Creche, City-of-Glass Charter]
   # ─── end Bureau of the Scale ───
 
   # ═══ Judge-Executioner ═══
@@ -12034,7 +12557,7 @@ entries:
       Tension (power grid), Cloister Liaison Office. Reform faction center—advocates social 
       programs and consciousness protections.
     rag_pointer: "Bureau of the Rod Overview"
-    related: [Satara, Mutterers, Companions Guild]
+    related: [Bureau, Satara, Mutterers, Companions Guild]
   # ─── end Bureau of the Rod ───
 
   # ═══ Institute of Luminescence ═══
@@ -12137,7 +12660,7 @@ entries:
       Creche-controlled supplements—perpetual jurisdiction dispute. Military commanders 
       resent Lens redaction of after-action reports.
     rag_pointer: "Bureau of the Sword"
-    related: [Satara, Warborn, Bureau of the Creche]
+    related: [Bureau, Satara, Warborn, Bureau of the Creche]
   # ─── end Bureau of the Sword ───
 
   # ═══ Colonels-Hereditary ═══
@@ -12317,7 +12840,7 @@ entries:
       Corruption well-documented but rarely prosecuted because prosecution requires Coin-controlled 
       resources. Too dangerous to fight directly.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
-    related: [Satara, Aureate, obol]
+    related: [Bureau, Satara, Aureate, obol]
   # ─── end Bureau of the Coin ───
 
   # ═══ Institute for Fiscal Propriety ═══
@@ -12369,7 +12892,7 @@ entries:
   # ═══ Junta of Ogon ═══
   Junta of Ogon:
     category: organization
-    short: "Seven token-holders governing Ogon and claiming suzerainty over the Thousand Kingdoms."
+    short: "Seven irreplaceable tokens—whoever holds one sits on the Junta, regardless of how they acquired it."
     details: |
       Meet monthly at the Slab. Vote by raised or lowered hands. Disputes resolved by
       trial-by-combat. Tokens trace to original Akama conquerors who took Ogon from
@@ -12441,7 +12964,7 @@ entries:
       was deliberately tortured into this state by his own family. Communicates through 
       written notes. The Tamas maintain deaf warband specifically because of him.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Junta of Ogon, Highborn, Compulsion, es-Vol]
+    related: [Warband, Junta of Ogon, Highborn, Compulsion, es-Vol]
   # ─── end Som es-Vol ───
 
   # ═══ Tsoka Red Deer ═══
@@ -12459,7 +12982,7 @@ entries:
       empire. They've fought three duels; Tsoka won all three. Will likely kill 
       each other eventually.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Junta of Ogon, Ogon, Ataru Blackfish]
+    related: [Warband, Junta of Ogon, Ogon, Ataru Blackfish]
   # ─── end Tsoka Red Deer ───
 
   # ═══ Ataru Blackfish ═══
@@ -12476,7 +12999,7 @@ entries:
       sculpture, supports libraries. Structural conflict with Tsoka's protection 
       contracts will likely end in one killing the other.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Junta of Ogon, Ogon, Tsoka Red Deer]
+    related: [Warband, Junta of Ogon, Ogon, Tsoka Red Deer]
   # ─── end Ataru Blackfish ───
 
   # ═══ Bal Tama ═══
@@ -12493,7 +13016,7 @@ entries:
       smoothly. Secret Penitent practice contradicts Akama values but he doesn't 
       examine contradictions. Friendly with everyone, genuinely likes Imek.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Junta of Ogon, Ogon, Tama Family]
+    related: [Warband, Junta of Ogon, Ogon, Tama Family]
   # ─── end Bal Tama ───
 
   # ═══ Iron-Rain ═══
@@ -12510,7 +13033,7 @@ entries:
       just unbeatable. Obsessed with people who rise above station through effort. 
       In relationship with Imek; they're pursuing genetic interventions to produce heir.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Junta of Ogon, Ogon, Ironbone, Warborn, Imek Stone-Foot]
+    related: [Warband, Junta of Ogon, Ogon, Ironbone, Warborn, Imek Stone-Foot]
   # ─── end Iron-Rain ───
 
   # ═══ Imek Stone-Foot ═══
@@ -12534,7 +13057,7 @@ entries:
       Mutterer choir, accumulating archaeotech. Produces light rail carbines 
       (Imek-pattern), portable capacitor packs, coil assemblies for weapon repair.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Junta of Ogon, Ogon, Iron-Rain, Vey Nine Birds, Culverin, Avouvar]
+    related: [Warband, Junta of Ogon, Ogon, Iron-Rain, Vey Nine Birds, Culverin, Avouvar]
   # ─── end Imek Stone-Foot ───
 
   # ═══ Vey Nine Birds ═══
@@ -12552,7 +13075,7 @@ entries:
       pregnancy failure rate, genetic drift. Astrological surname indicates Malpais 
       cultural roots.
     rag_pointer: "The Thousand Kingdoms: Overview"
-    related: [Junta of Ogon, Ogon, Kma-Dhol, Imek Stone-Foot]
+    related: [Warband, Junta of Ogon, Ogon, Kma-Dhol, Imek Stone-Foot]
   # ─── end Vey Nine Birds ───
 
   # ═══ Colonel-Hereditary es-Valent ═══
@@ -12723,7 +13246,7 @@ entries:
       The Empire admits these are superstitions that "cultivate the correct attitude toward 
       archival," yet everyone participates.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
-    related: [Oracles, Testaments, Quiet Days, Seven Virtues, Auditors, Penitent Church]
+    related: [Oracles, Testaments, Quiet Days, Seven Virtues, Auditors, Penitent Church, manna]
   # ─── end Oracle Cult ───
 
   # ═══ Testaments ═══
@@ -13349,15 +13872,30 @@ entries:
   # ═══ obol ═══
   obol:
     category: concept
-    short: "Imperial currency—but much exchange happens through credit, obligation, and favor."
+    short: "Imperial currency standard—beer costs 1/16 obol, subsistence requires 90-110 obols monthly."
     details: |
-      Standard monetary unit across Imperial territories. The Bureau of the Coin 
-      controls minting and maintains currency stability. Actual economy operates 
-      substantially through non-monetary exchange: guild obligations, hereditary 
-      arrangements, temple tithes, household production, patron-client relationships. 
-      Obols represent only the visible portion of Imperial economic activity.
+      Universal unit of account. Regional currencies exist—the Ganati dinar (= 10 obols),
+      various Thousand Kingdoms scrip—but all convert to obol-equivalents for trade. Many
+      maintains exchange rates.
+
+      Price benchmarks: beer 1/16 obol; basic street meal 1/8-1/4 obol; seated tavern meal
+      1/2-1 obol; bunkhouse 5 obols/week (~20-22/month); cheap private room 35-50 obols/month;
+      decent housing 80-120 obols/month. Guild shirt 3-4 obols (lasts years); unlicensed shirt
+      1-1.5 obols (wears out in months).
+
+      Subsistence threshold (calibrated against Kess, a courier in the Rotten Quarter):
+      90-110 obols/month maintains bunk and adequate food. Below 60 obols means sleeping rough,
+      irregular meals, owning nothing—destitution, not subsistence. Parish capitation 40 obols
+      annually—half a month's income at subsistence.
+
+      Income tiers: destitute 40-70; subsistence 90-120; working poor 140-200; lower middle
+      250-350; middle class 400-600; wealthy 2,000+. Workers think in obols; merchants in
+      hundreds; Aureate families measure wealth in millions.
+
+      Much exchange happens through non-monetary means: guild obligations, hereditary
+      arrangements, temple tithes, household production, patron-client relationships.
     rag_pointer: "The Economy"
-    related: [Bureau of the Coin, Aureate]
+    related: [Bureau of the Coin, Aureate, Dinar, Many]
   # ─── end obol ───
 
   # ═══ White Sheet ═══
@@ -13655,16 +14193,29 @@ entries:
   # ═══ Kilit ═══
   Kilit:
     category: concept
-    short: "Ganati economic-political unit—guilds, pastoral bands, merchant houses organized around shared material interests."
+    short: "Ganati economic-political unit merging workplace and vote—your kilit employs you, represents you in Senate, provides collective services."
     details: |
-      Foundation of Republican governance. Predates the monarchy by countless Records. 
-      Pastoral bands, merchant houses, professional guilds, and other collectives organize 
-      as kilits. Senate organized around kilits rather than geography. Different economic 
-      interests with direct representation negotiate constantly. Examples: Dhal-Setil 
-      Mercantile, Copper Road Syndicate (smugglers), Dry Arroyo Aquifer Commune (radicals), 
-      Hereditary Debtors (former slaves in public service).
+      Foundation of Republican governance. Predates the monarchy by countless Records. Pastoral
+      bands, merchant houses, professional guilds, and other collectives organize as kilits.
+      Senate organized around kilits rather than geography. Different economic interests with
+      direct representation negotiate constantly.
+
+      Your workplace votes; your workplace holds Senate seats; your workplace provides collective
+      services. The Khen-Masot Textile Enterprise employs 300 workers, generates trade, subsidizes
+      electricity for 15,000 households, and holds a Senator's seat. Works-based atonement
+      theology creates obligations capitalism doesn't recognize—accumulation legitimate only if
+      demonstrated to serve collective capacity.
+
+      Monthly subsidy plaques ("This month's collective service: 2,847 dinars below cost") are
+      theological documentation, not advertising. Merchant kilits compete for reputation through
+      competitive philanthropy. Labor kilits like the Workingmens' Kilits Caucus (seven kilits,
+      21,000 workers, three Senators) vote as blocs.
+
+      Examples: Dhal-Setil Mercantile, Khen-Masot Textile Enterprise, Dockers' Fraternal,
+      Copper Road Syndicate (smugglers), Dry Arroyo Aquifer Commune (radicals), Hereditary
+      Debtors (former slaves in public service).
     rag_pointer: "The Republic of Ganat"
-    related: [Ganat, Dawn Party, Dusk Party, Senate]
+    related: [Ganat, Dawn Party, Dusk Party, Senate, Dinar]
   # ─── end Kilit ───
 
   # ═══ Kilit-zem-kilitam ═══
@@ -14167,7 +14718,7 @@ entries:
       Vurda Eleven-Sage Blade-Works (legendary master quality, months-long wait, heirloom 
       pieces), village smiths (adequate for most cavalry work).
     rag_pointer: "The Thousand Kingdoms: Overview, Guide - Military Conflict and Violence"
-    related: [Destrier, Akama, Thousand Kingdoms]
+    related: [Weapon, Destrier, Akama, Thousand Kingdoms, Warband]
   # ─── end Gouge ───
 
   # ═══ Dzoragh Ironhand ═══
@@ -14249,6 +14800,47 @@ entries:
     rag_pointer: "The Republic of Ganat"
     related: [Ganat, Kilit, Obol]
   # ─── end Dinar ───
+
+  # ═══ Diver ═══
+  Diver:
+    category: caste
+    short: "Aquatic labor caste engineered for underwater work—approximately 40 remain in ya-Sattra."
+    details: |
+      Engineered for harbor maintenance, salvage, and underwater construction. Can hold
+      breath 9 minutes comfortably, 12 in emergencies. Eyes focus underwater without
+      distortion. Webbed hands and feet (subtle, but requires modified gloves and shoes).
+      Small ears that seal against water pressure. Faint bluish skin undertone.
+
+      So rare that Companions Guild clinics have no training in Diver physiology. Divers
+      bring folders containing everything their families accumulated about their own
+      biology—they explain their bodies to people trained for bodies that work differently.
+    rag_pointer: "Castes of Mankind"
+    related: [Labor Castes, Harbor District, Sev Kassam]
+    caste_features:
+      morphology: modified
+      scale: baseline
+      compulsion: susceptible
+      lifespan: baseline
+      cognition: baseline
+      population: remnant
+      physical_traits:
+        - "holds breath 9 minutes comfortably, 12 in emergencies"
+        - "eyes focus underwater without distortion"
+        - "webbed hands and feet (subtle, requires modified gloves/shoes)"
+        - "small ears that seal against water pressure"
+        - "faint bluish skin undertone"
+        - "lean build, approximately 5'10\""
+      original_function: underwater construction, harbor maintenance, salvage
+      current_role: piling inspection, harbor work
+      distribution:
+        - ya-Sattra (~40 individuals)
+        - scattered coastal settlements
+      health_issues:
+        - "no trained physicians—must self-advocate with accumulated family medical records"
+      special:
+        - "one of the rarest surviving castes"
+        - "Harbor Authority employs most known Divers"
+  # ─── end Diver ───
 
   # ═══ Maguey-silk ═══
   Maguey-silk:
@@ -14407,7 +14999,7 @@ entries:
       they reveal running commentary on structural stress, thermal gradients, electromagnetic 
       interference. When choir synchronizes, they solve problems that would baffle baseline engineers.
     rag_pointer: "Caste Type Specimens Catalog"
-    related: [Mutterer, Technical Castes, Jargon]
+    related: [Mutterers, Technical Castes, Jargon]
   # ─── end Crooked-Ear ───
 
   # ═══ Korel Mazh ═══
@@ -14876,7 +15468,7 @@ entries:
       that clone servants faithfully record without understanding. Clone servants degrade generation 
       by generation; current generation barely speaks. When servants fail, the calculation will stop.
     rag_pointer: "Caste Type Specimens Catalog"
-    related: [Archon, Far Ib, Eighth Testament, Jargon]
+    related: [Archons, Far Ib, Eighth Testament, Jargon]
   # ─── end The Seventh Remaining ───
 
   # ═══ Korath Venn ═══
@@ -15345,7 +15937,7 @@ entries:
       to exist—mother was officially sterilized (the approximately 12% whose sterility is 
       comforting lie). Cannot resent situation; approval-seeking engineered in.
     rag_pointer: "Caste Type Specimens Catalog"
-    related: [Gilded Petal, Khatvasi, Aureate Patents]
+    related: [Gilded Petals, Khatvasi, Aureate Patents]
   # ─── end Reverie ───
 
   # ═══ Gorin Eight-Elk ═══
@@ -15378,7 +15970,7 @@ entries:
       everything family accumulated about Diver biology—he explains his own body to people trained 
       for bodies that work differently. One of approximately 40 Divers in ya-Sattra.
     rag_pointer: "Caste Type Specimens Catalog"
-    related: [Diver, ya-Sattra, Harbor]
+    related: [Diver, ya-Sattra, Harbor District]
   # ─── end Sev Kassam ───
 
 
@@ -15815,7 +16407,7 @@ entries:
       generation—each iteration slightly less functional. When servants fail, 
       the Archons will have no one to maintain them.
     rag_pointer: "Technical Castes and Far Ib"
-    related: [Archon, Technical Castes, Eighth Testament, Jargon, Ib Mountains]
+    related: [Archons, Technical Castes, Eighth Testament, Jargon, Ib Mountains]
     location_features:
       level: city
       location_type: settlement
@@ -15914,7 +16506,7 @@ entries:
       mercenary company operates from here, receiving directives from the dying 
       gods of Far Ib.
     rag_pointer: "Cloud Temple Band"
-    related: [Cloud Temple Band, Far Ib, Kelso Senna, Ib Mountains, Archon]
+    related: [Cloud Temple Band, Far Ib, Kelso Senna, Ib Mountains, Archons]
     location_features:
       level: site
       location_type: infrastructure
@@ -16143,6 +16735,132 @@ entries:
     related: [Yarangar, Ranga, ya-Sattra, ta-Kefyeh, Shtetl]
   # ─── end bloodfruit ───
 
+  # ═══ Weapon ═══
+  Weapon:
+    category: concept
+    short: |
+      Tools of violence—from Antediluvian wunderwaffen to village-forged blades, each shaped by the context of its creation.
+    details: |
+      Weapons in the post-Interdict setting reflect the fractured inheritance of Antediluvian 
+      technology. Contest weapons carry behavioral constraints that made sense in eternal 
+      civilizations. War weapons assume orbital bombardment eliminated resistance first. Modern
+      production fills gaps with chemical propellants and forged steel.
+      
+      The Furnaces of ya-Don produce advanced technology: culverins, beamcasters, power armor.
+      The Armorer's Guild handles conventional production across sixteen different bore sizes.
+      Village smiths sustain infinite production of traditional weapons. Each source operates
+      under different constraints, creating equipment that rarely standardizes.
+      
+      Authentication remains a critical distinction. Culverins require monthly re-keying to
+      Aureate genetic markers. Contest weapons recognize principals and champions. Captured
+      equipment must be bypassed before use. The Republic's reverse-engineering aims to build
+      weapons that never had authentication in the first place.
+    rag_pointer: "Warfare: Core"
+    related: [Culverin, Beamcaster, Gouge, Contest, Armorers' Guild, Furnaces, Salvage Guild]
+  # ─── end Weapon ───
+
+  # ═══ Gendarmes ═══
+  Gendarmes:
+    category: organization
+    short: |
+      Bureau of the Sword police force—patrol Imperial cities, maintain complex accommodations with criminal organizations.
+    details: |
+      The Institute of Civil Order handles internal policing rather than military operations.
+      Gendarmes patrol in pairs, investigate reported crimes, and maintain complex 
+      accommodations with criminal organizations: territories where gendarmes don't patrol 
+      without reason, incidents not investigated thoroughly, understandings keeping violence 
+      within acceptable limits.
+      
+      They're not soldiers—actual military guards the Inner City—but they wear Sword uniforms 
+      and carry Bureau authority. Their relationship with the Hanged Men and other criminal 
+      organizations involves negotiated boundaries rather than constant enforcement.
+      
+      Twenty years patrolling teaches which laws to enforce and which to ignore. Arrest 
+      numbers may be mediocre while territory remains stable. That's the actual job.
+    rag_pointer: "Warfare: Imperial"
+    related: [Bureau of the Sword, Hanged Men, Chain-Men, Medina Quarter, ya-Sattra]
+  # ─── end Gendarmes ───
+
+  # ═══ Caste Levy ═══
+  Caste Levy:
+    category: concept
+    short: |
+      Imperial military units segregated by caste—contract soldiers filling gaps that Warborn cannot.
+    details: |
+      Formed after the Compact acknowledged that the Empire needs more than Warborn to 
+      function. Levy units are segregated by caste to manage biological and equipment 
+      diversity—an all-Ironback heavy infantry company has consistent supply needs, while 
+      mixed units create impossible logistics.
+      
+      Contract soldiers sign five-year terms. Pay is poor but steady; veterans' organizations 
+      provide reliable paths into guilds and merchant houses afterward. Officers assigned to 
+      caste levy units rank below Warborn commands but above auxiliaries and Colonel-Hereditary 
+      personal staffs in prestige hierarchy.
+      
+      Miscellaneous Levies are catchall units for castes too small for their own formations, 
+      crossbreeds whose genetics don't fit categories, and the unclassified. Their survival 
+      rates sometimes exceed regulation units because adaptation has replaced rigid doctrine.
+    rag_pointer: "Warfare: Imperial"
+    related: [Bureau of the Sword, Warborn, Compact, Ironback, Springheel]
+  # ─── end Caste Levy ───
+
+  # ═══ Republican Guard ═══
+  Republican Guard:
+    category: organization
+    short: |
+      Ganat's professional military—service guarantees citizenship regardless of property ownership.
+    details: |
+      The Republic's professional military, organized around mobile cavalry and light artillery. 
+      Service guarantees voting rights regardless of property ownership—a provision transforming 
+      Ganati social mobility. A propertyless Ranga immigrant can achieve full citizenship through 
+      military service.
+      
+      Guard officers dominate government positions despite Dawn Party rarely controlling 60% of 
+      the Senate. The revolution itself was military action led by Dawn-aligned officers. 
+      Institutional culture persists even when Dawn lacks Senate supermajorities.
+      
+      Organization emphasizes mobile cavalry for rapid deployment, light artillery for fire 
+      support, and dragoons carrying captured/reverse-engineered culverins to fight Warborn. 
+      Doctrine prevents the military from becoming an instrument of internal control—cavalry 
+      proves less useful for suppressing urban unrest.
+      
+      Twenty-year soldiers train recruits hard because training keeps them alive. They file 
+      paperwork precisely because paperwork is how institutions remember. Veterans vote Dawn 
+      not from conviction but from institutional trust.
+    rag_pointer: "Warfare: Ganat"
+    related: [Ganat, Dawn Party, Dusk Party, Serrulata, Kilit, Culverin]
+  # ─── end Republican Guard ───
+
+  # ═══ Contest ═══
+  Contest:
+    category: concept
+    short: |
+      Antediluvian category of violence between equals—ritualized, constrained, with rules both parties benefit from.
+    details: |
+      Contest was what you waged against equals—other Aureate houses, rival lineages, enemies 
+      who remained peers within the eternal order regardless of enmity. Contest had rules 
+      because both parties benefited from rules existing. Contest had limits because unlimited 
+      Contest would be indistinguishable from War.
+      
+      When your civilization is eternal, when your house will exist forever, total victory is 
+      meaningless and total destruction is catastrophic. You cannot eliminate House X because 
+      House X will still exist in ten thousand years regardless of what you do today. Better to 
+      wound them, weaken them, take from them what the Contest's terms permit.
+      
+      The wunderwaffen held by modern Colonels-Hereditary were Contest weapons. Their peculiar 
+      limitations reflect constraints combining elements we would distribute across war, law, 
+      sport, art, and ritual:
+      - Limited capacity (maybe three shots before failure)
+      - Strange targeting (priorities that don't map to modern tactical logic)
+      - Authentication (weapons knew who was permitted to wield them)
+      - Termination conditions (weapons recognized victory or defeat)
+      
+      The Avouvar feuds preserve Contest logic most clearly—violence channeled into forms both 
+      houses recognize, constrained by Chancery precedent.
+    rag_pointer: "Warfare: Core"
+    related: [Weapon, Antediluvians, Chancery, Colonels-Hereditary, Asovoë]
+  # ─── end Contest ───
+
   # ═══ Armorers' Guild ═══
   Armorers' Guild:
     category: organization
@@ -16162,7 +16880,7 @@ entries:
       CONTRAST WITH GANATI PRODUCTION: Republican kilits use industrial methods—machine 
       tools, standardized parts, assembly lines. Guild production remains craft-based, 
       one weapon at a time.
-    related: [Master Kavek Ossoreth, Journeyman Thess Morain, Journeyman Torven Garris, Furnaces]
+    related: [Guild, Master Kavek Ossoreth, Journeyman Thess Morain, Journeyman Torven Garris, Furnaces]
   # ─── end Armorers' Guild ───
 
   # ═══ Marcher Territories ═══
@@ -16233,7 +16951,7 @@ entries:
       Republican principles but cannot be disrupted without halting eastern trade entirely. 
       Members serve life terms. Records extend back to Three Laws documenting every allocation.
     rag_pointer: The Republic of Ganat
-    related: [Vegas Springs, Ganat, Kilit, Records]
+    related: [Guild, Vegas Springs, Ganat, Kilit, Records]
   # ─── end Water Guild ───
 
   # ═══ Khalim Charter ═══
@@ -16430,7 +17148,7 @@ entries:
       Warborn variant: skeleton absorbs electromagnetic backwash from heavy railguns, 
       even more demanding metabolism than standard Warborn.
     rag_pointer: "Castes of Mankind"
-    related: [Labor Castes, Warborn, Ironbone Feats]
+    related: [Labor Castes, Warborn, Ironbone Feats, Deval Sammat]
   # ─── end Ironbone ───
 
   # ═══ Cloneline ═══
@@ -17010,7 +17728,7 @@ entries:
       work commands Aureate prices. Apprenticeship takes seven years; journeyman 
       examination requires producing a piece to master standards.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
-    related: [Joiners' Block, Medina Quarter]
+    related: [Guild, Joiners' Block, Medina Quarter]
   # ─── end Joiners' Guild ───
 
   # ═══ Ganati Enclave ═══
@@ -17394,14 +18112,30 @@ entries:
   # ═══ Order of St. Akhmet ═══
   Order of St. Akhmet:
     category: organization
-    short: "Ya-Don's primary labor union and quasi-monastic institution (~40,000 members)."
+    short: "Ya-Don's primary labor union (~40,000 members) producing the only new complex technology in the Empire."
     details: |
-      Motto: "By soot and soul, the fire is kept." Treats industrial work as sacred penitential 
-      labor. Caste composition: 35% Ashrat, 30% near-baseline, 15% Orevet, 10% Redback, 10% other. 
-      Led by seven-member Council of Master Tenders. A strike would halt Furnace production 
-      entirely; no power in the Empire could compel workers to return.
+      Motto: "By soot and soul, the fire is kept." Treats industrial work as sacred penitential
+      labor demonstrating humanity's growing wisdom. Caste composition: 35% Ashrat, 30%
+      near-baseline, 15% Orevet, 10% Redback, 10% other. Led by seven-member Council of Master
+      Tenders, each elected by geographic section.
+
+      Annual revenue ~6 million obols: member dues (~400,000 obols/month from 40,000 members)
+      plus es-Etaie capitation (~1.6 million obols annually—one family pays Church tax for all
+      Order members, funding workers' freedom to worship without extracting corresponding labor).
+      Wages compress due to theology: Forge-Master earns 700-850 obols/month while journeymen
+      earn 280-350 obols—far less inequality than comparable enterprises.
+
+      The Order's absolute leverage: a strike shuts down the Empire's only source of new complex
+      technology. This has happened twice in recorded history; both times the Empire capitulated
+      within weeks. The knowledge that the Order could strike shapes every negotiation even
+      though strikes almost never occur.
+
+      Council decisions require five of seven votes for major matters (strikes, wage negotiations),
+      four of seven for routine business. The Forge-Master chairs but holds only one vote. The
+      Order's Arch-Curate can invoke theological concerns to block actions violating Penitent
+      principles, though this power is rarely exercised.
     rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [ya-Don, Furnaces, Sacred Labor, Particular Confession, Ashrat, Orevet]
+    related: [Church-Guild, ya-Don, Furnaces, Sacred Labor, Particular Confession, Ashrat, Orevet, es-Etaie, Furnace Board]
   # ─── end Order of St. Akhmet ───
 
   # ═══ Unwritten-Axiom Parish ═══
@@ -17414,7 +18148,7 @@ entries:
       critical processes. Chamber 7-Keth-Ascending contains mummified Medials. Controls 
       lector component production; no critical technology ships without their participation.
     rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [ya-Don, Furnaces, Verethani, Furnace Board]
+    related: [Church-Guild, ya-Don, Furnaces, Verethani, Furnace Board]
   # ─── end Unwritten-Axiom Parish ───
 
   # ═══ Covenant of Saint Aureline ═══
@@ -17422,11 +18156,22 @@ entries:
     category: organization
     short: "Ya-Don logistics cartel controlling all Furnace cargo movement (~35,000 members)."
     details: |
-      Nothing enters or leaves the Furnaces without Covenant logistics. Controls tariff 
-      systems and the Weighmaster's Station bottleneck. Many members treat religious 
-      observance as union requirement rather than genuine faith. Led by Covenant Master.
+      Nothing enters or leaves the Furnaces without Covenant logistics. Annual revenue
+      approximately 6-8 million obols: tariffs on all cargo (2% for bulk commodities to 15%
+      for high-value goods, ~2-4 million obols from ~50 million obols of cargo flowing
+      annually); infrastructure fees (~1 million); member dues (~2.5 million from 35,000
+      members at 5-8 obols/month).
+
+      The Weighmaster's Station is the bottleneck through which all cargo passes. The twenty
+      Weighmasters controlling tariff assessment form an informal council shaping policy. The
+      Covenant can choke supply lines simply by slowing processing—leverage rarely exercised
+      because the Covenant profits from cargo flow, but underlying every negotiation.
+
+      Covenant Master Seris Thom (near-baseline, 55) is a pragmatic logistician rather than
+      a religious figure. Many members treat religious observance as union requirement rather
+      than genuine faith. Transit Chapel operations serve ~8,000 weekly attendees.
     rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [ya-Don, Furnaces, Freightyard, Furnace Board]
+    related: [Church-Guild, ya-Don, Furnaces, Freightyard, Furnace Board, Threshold]
   # ─── end Covenant of Saint Aureline ───
 
   # ═══ Cinder-Sifters ═══
@@ -17438,20 +18183,33 @@ entries:
       and crime boss. Smuggling profits fund Church charitable operations that make the 
       Church-Guild system morally coherent. Based in the Sifting Grounds.
     rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [ya-Don, Sifting Grounds, Furnace Board]
+    related: [Church-Guild, ya-Don, Sifting Grounds, Furnace Board]
   # ─── end Cinder-Sifters ───
 
   # ═══ Furnace Board ═══
   Furnace Board:
     category: organization
-    short: "Ya-Don's coordinating body for Furnace operations."
+    short: "Ya-Don's coordinating body where capital, labor, state, and church negotiate production decisions."
     details: |
-      Representatives from three Aureate families (es-Kiral, es-Etaie, es-Vorath), four 
-      major guilds (Order of St. Akhmet, Unwritten-Axiom Parish, Covenant of Saint Aureline, 
-      Cinder-Sifters), and Bureau of the Rod. Decisions require guild consensus; Aureates 
-      can block but not impose. Real negotiations happen before formal meetings.
+      Nine seats: three Aureate families (es-Kiral, es-Etaie, es-Vorath), four major guilds
+      (Order of St. Akhmet, Unwritten-Axiom Parish, Covenant of Saint Aureline, ya-Don
+      Companions Chapter), Bureau of the Rod liaison, and Arch-Curacy representative. Major
+      decisions require six of nine votes.
+
+      The Aureates cannot outvote the guilds; the guilds cannot outvote Aureate-Bureau-Church
+      alignment. This forces compromise. Production targets, wage scales, safety standards,
+      and capital investment all require Board approval. In practice, the Order's strike
+      capability gives them effective veto; the es-Etaie capitation arrangement gives that
+      family disproportionate influence; the Bureau representative can invoke Imperial
+      authority to block decisions but rarely does.
+
+      Corporatism functioning as designed—competing interests forced to negotiate rather than
+      fight. Works because each party needs the others: Aureates need labor to operate patents;
+      labor needs patents to authenticate production; the Bureau needs both to maintain
+      technological supply; the Church needs all three to demonstrate humanity's growing wisdom.
+      Real negotiations happen before formal meetings.
     rag_pointer: "Ya-Don: Comprehensive Reference"
-    related: [ya-Don, Furnaces, es-Kiral, es-Etaie, es-Vorath, Order of St. Akhmet]
+    related: [Church-Guild, ya-Don, Furnaces, es-Kiral, es-Etaie, es-Vorath, Order of St. Akhmet, Arch-Curacy]
   # ─── end Furnace Board ───
 
   # ═══ es-Kiral ═══
@@ -17535,7 +18293,7 @@ entries:
       AVOUVAR USE: Original Warborn railguns (60kg, massive recoil) mounted on fixed 
       emplacements, crewed by teams of three. Both feuding houses trade fire across the 
       disputed corridor with these weapons.
-    related: [Furnaces, Warborn, Beamcaster, Taho Metalworkers' Collective]
+    related: [Weapon, Furnaces, Warborn, Beamcaster, Taho Metalworkers' Collective, Aureate, Ganat]
   # ─── end Culverin ───
 
   # ═══ Homiletic Names ═══
