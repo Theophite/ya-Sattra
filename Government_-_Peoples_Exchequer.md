@@ -112,13 +112,13 @@ This informal flexibility exists within formal constraints. Consuls who overreac
 
 The Republic's professional licensing system—how kilits receive authority to credential practitioners in law, medicine, engineering, and other regulated professions—is documented separately. See: `Government_-_Ganati_Professional_Kilits.md`
 
-## The Many's Role
+## Many's Role
 
-The Many provides banking services throughout Republican territory, just as it does in Imperial space. Republican accounts operate through the same alien infrastructure that handles Imperial commerce. A Taho merchant's deposits sit in the same quantum-secured systems as a ya-Sattra factor's.
+Many provides banking services throughout Republican territory, just as it does in Imperial space. Republican accounts operate through the same alien infrastructure that handles Imperial commerce. A Taho merchant's deposits sit in the same quantum-secured systems as a ya-Sattra factor's.
 
-The state maintains its own treasury accounts with the Many rather than operating an independent monetary system. The Exchequer deposits collected revenue into Many-held accounts; appropriated funds flow from those accounts to ministry operations. The Many's impartiality—its complete indifference to political faction—makes it acceptable to both sides. Neither Dawn nor Dusk trusts the other to manage state finances; both trust the Many to be precisely neutral.
+The state maintains its own treasury accounts with Many rather than operating an independent monetary system. The Exchequer deposits collected revenue into Many-held accounts; appropriated funds flow from those accounts to ministry operations. Many's impartiality—its complete indifference to political faction—makes it acceptable to both sides. Neither Dawn nor Dusk trusts the other to manage state finances; both trust Many to be precisely neutral.
 
-This dependency on alien banking infrastructure is another ideological contradiction the Republic lives with. Revolutionary independence rhetoric sits uneasily beside reliance on services no human institution can provide. Economists in the Planning Division occasionally propose alternatives—state banking, scrip currencies, bilateral clearing arrangements. The accountants note that the Many's services work, that no proposed alternative has ever been tested at scale, and that antagonizing the only entity capable of securing large-value transactions would be catastrophically stupid.
+This dependency on alien banking infrastructure is another ideological contradiction the Republic lives with. Revolutionary independence rhetoric sits uneasily beside reliance on services no human institution can provide. Economists in the Planning Division occasionally propose alternatives—state banking, scrip currencies, bilateral clearing arrangements. The accountants note that Many's services work, that no proposed alternative has ever been tested at scale, and that antagonizing the only entity capable of securing large-value transactions would be catastrophically stupid.
 
 ## Political Dynamics
 
@@ -174,4 +174,4 @@ For Ministry of War funding and procurement: `Government_-_Ganati_State_Apparatu
 
 For Taho as commercial center: `Location_-_Taho.md`
 
-For the Many's banking operations: `Species_-_Many.md`
+For Many's banking operations: `Species_-_Many.md`
