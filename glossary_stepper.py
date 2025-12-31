@@ -35,12 +35,21 @@ from pathlib import Path
 
 REMINDER = """
 ═══════════════════════════════════════════════════════════════════════════════
-REVISION PRINCIPLES (Every entry conveys the coherent internal perspective)
+REVISION PRINCIPLES
 ═══════════════════════════════════════════════════════════════════════════════
 
-NO VIEW FROM NOWHERE. Every entry is positioned. The subject's logic is visible.
+WHAT TO EDIT: Only `short` and `details`. Leave subsections (material_culture,
+caste_features, location_features, etc.) alone.
 
-THE POSITIONS:
+WHAT DETAILS SHOULD CONTAIN:
+  • Physical reality — what do outsiders see? Bodies, spaces, artifacts.
+  • Lived experience — what is it like to BE this? To live here? To do this work?
+  • Social position — where do they fit? What is their life? Who do they deal with?
+
+  Do NOT repeat content that belongs in subsections. If there's a material_culture
+  section, don't summarize it in details—that's what the section is for.
+
+THE POSITIONS (every entry conveys coherent internal perspective):
   • Inheritors caring for what they didn't build
   • Makers certain they were finalizing
   • Things continuing their function past their audience
@@ -50,14 +59,13 @@ THE POSITIONS:
 THE QUALITY:
   • Care persisting where understanding has failed
   • Endurance and transcendence amidst impenetrable mystery
-  • Doing their best amidst the ruins of ancestors' ideological project
-  • Someone is doing their best here, and it matters, even though it cannot be enough
+  • Someone is doing their best here, and it matters
 
 THE STYLE:
-  • Patterns, not specific instances (instances become recycled canonical examples)
+  • Patterns, not specific instances (instances get recycled as canonical examples)
   • Prose, not fragments
-  • What people DO, not what things ARE
-  • The internal logic that makes apparent absurdity make sense
+  • Don't be too literal about the design framework—no winking at the meta-level
+  • Show the internal logic that makes apparent absurdity make sense
   • For governments: what it's like to work within the forms
   • For architecture: what it's like to move through the spaces
   • For technology: what it's like to depend on what you can't comprehend

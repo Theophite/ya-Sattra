@@ -19,20 +19,25 @@ entries:
   # ═══ Akama ═══
   Akama:
     category: caste
-    short: Unclassified caste with scrambled heritage from multiple engineered lineages.
+    short: Scrambled heritage from multiple lineages; defined by practice and interfertility, not by what the ancestors were made for.
     details: |
-      Defined by practice not genetics—someone who can breed with other Akama
-      and participates in Akama culture. Distinguishing features of multiple
-      ancestral castes have blurred into general capability. Variable morphology
-      with visible mixed heritage.
+      Outsiders see the mixing first: fur ruff at the neck, long arms, flattened
+      nose, a slight hunch that gives them a simian cast. Features from a dozen
+      ancestral castes visible in a single face. They do not look like one thing.
+      They look like many things that learned to coexist.
 
-      MATERIAL CULTURE: Testimonial—objects speak for individuals across mortal
-      timescales. "I was here. This happened. It mattered." Standing in the Rain
-      philosophy: life promises nothing, material culture doesn't pretend otherwise.
-      Sufficiency ("enough") is highest praise. Armor displayed outside tents shows
-      biography through patches and modifications. Damage displayed, not hidden—the
-      mended thing is more honest than the pristine. A young warrior's pristine
-      equipment testifies against him: nothing has happened to him yet.
+      To be Akama is to belong through practice. You are Akama if you can breed
+      with other Akama and participate in Akama culture. The question of what your
+      ancestors were made for does not arise, because no one could untangle it now
+      and it would not matter if they could. You are not a caste in the old sense.
+      You are what a caste becomes when the boundaries dissolve and something new
+      grows in the space left behind.
+
+      The Thousand Kingdoms are Akama. The warbands, the herds, the seasonal camps,
+      the long negotiations between groups who need each other and do not trust each
+      other—this is Akama life. Variable morphology means variable capability: some
+      bands have members who can do things other bands cannot, and this matters for
+      trade, for war, for marriage.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Warband, Thousand Kingdoms, Junta of Ogon, Gorin Eight-Elk]
     caste_features:
