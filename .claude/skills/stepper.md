@@ -36,8 +36,10 @@ The entry should make sense from inside without explaining the meta-structure. D
 
 ## Self-Contained References
 
-When mentioning specific nouns (places, organizations, practices), either:
-- Generalize them ("their chapel" not "the Quick Chapel")
+Proper nouns (places, organizations, people) ARE allowed when they're necessary to understand relationships. "The feud with Vesztraëlin" is fine—the relationship matters. "The Quick Chapel provides liturgy" is not—it assumes knowledge the reader doesn't have.
+
+When a proper noun isn't essential to the relationship, either:
+- Generalize it ("their chapel" not "the Quick Chapel")
 - Include enough context that the reference is interpretable ("the chapel that serves their district")
 
-Don't assume the reader has encountered other entries. Each entry should be interpretable on its own.
+Each entry should be interpretable on its own, but connections between entries are part of that interpretation.

@@ -618,14 +618,21 @@ entries:
   # ═══ Droëvan ═══
   Droëvan:
     category: location
-    short: Feuding precinct—5000 years of vendetta with Vesztraëlin in the garrison district.
+    short: A garrison precinct defined by five thousand years of vendetta with Vesztraëlin.
     details: |
-      The other half of the garrison district feud. What began during an ancient starvation 
-      winter has become institutional culture: Chancery filings, epic poetry, formal disputations, 
-      death-verses. Droëvan uses a mess hall as archive space—centuries of documents stacked to 
-      the ceiling. The schism with Vesztraëlin generates more Chancery proceedings than any 
-      other inter-house dispute: seventeen border adjudications, four hundred twelve rulings on 
-      specific violence, ninety-seven precedents on permitted targets.
+      What began in a starvation winter has become institutional culture. The
+      feud with Vesztraëlin fills a converted mess hall with centuries of
+      documents stacked to the ceiling—Chancery filings, epic poetry, death-
+      verses, formal disputations. Seventeen border adjudications. Four hundred
+      twelve rulings on specific violence. Ninety-seven precedents on permitted
+      targets. The notation system for their proceedings required special
+      development.
+
+      Buffer yards between the precincts hold autonomous training systems and
+      railgun emplacements. The ink-black residents remember grievances from
+      before their grandparents were born. When you live for centuries, the
+      feuds never fade—they accumulate. Someone's father killed someone else's
+      cousin four hundred years ago, and neither family has forgotten.
     rag_pointer: Asovoë and the Avouvar
     related: [Asovoë, Vesztraëlin, Warborn]
     location_features:
