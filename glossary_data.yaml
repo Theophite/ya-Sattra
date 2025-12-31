@@ -4869,24 +4869,24 @@ entries:
   # ═══ High Junction ═══
   High Junction:
     category: location
-    short: "Garrison city at the Republic's northern frontier—hub for highland pastoral confederations."
+    short: Garrison city at the Republic's northern frontier—eighty thousand people where adobe meets electrification.
     details: |
-      80,000 inhabitants at 6,400 feet on the Azhmar River (Arkansas). Transformed
-      from frontier garrison of 30,000 to manufacturing center after grid power
-      arrived six years ago. Dawn Party stronghold, chaotic politics. The Dhal-Setil
-      family (Rasma's family) has a multi-generational compound here.
+      Eighty thousand inhabitants at sixty-four hundred feet on the Azhmar
+      River. Transformed from frontier garrison to manufacturing center after
+      grid power arrived six years ago. Dawn Party stronghold. Pueblo kiva
+      meets frontier boomtown meets early electrification: adobe domes with
+      underground chambers, timber-frame additions, copper wire on poles.
 
-      Straddles both banks crossed by a pre-Interdict bridge that constantly needs
-      repair—locals joke it proves even the Antediluvians could build poorly, though
-      it's somehow lasted millennia. Furthest eastern stop on power lines from the
-      Dam, with full telegraph service. Railroad debates continue indefinitely.
+      A pre-Interdict bridge spans the river gorge—two hundred fifty feet of
+      impossible metalloceramic arch, glass-slick when wet. Locals joke it
+      proves even the Antediluvians could build poorly, though it's somehow
+      lasted millennia. Sand spread constantly for traction.
 
-      Hub for both pastoral confederations: the Eastern Range Confederation (Dawn)
-      and Highland Graziers' Association (Dusk) hold internal meetings here. The
-      Veterans' Congress provides the Eastern Range's largest component; the Factors'
-      Guild provides the Graziers' commercial backbone. Commercial integration means
-      the same facilities process raw materials regardless of which pastoral kilit
-      produced them—Mor milk becomes Kelar cheese in Azhmar Valley processors.
+      Hub for both pastoral confederations: Eastern Range and Highland
+      Graziers hold meetings here. Commercial integration means the same
+      facilities process raw materials regardless of which pastoral kilit
+      produced them—Mor milk becomes Kelar cheese in Azhmar Valley
+      processors.
     rag_pointer: "Ganat and the Yarangar War, The Republic of Ganat"
     related: [Ganat, Thousand Kingdoms, Rasma Dhal-Setil, Southern Highland Bands, Eastern Range Confederation, Highland Graziers' Association]
     location_features:
@@ -4954,24 +4954,23 @@ entries:
   # ═══ Southern Highland Bands ═══
   Southern Highland Bands:
     category: concept
-    short: "Four Uliq pastoral bands in the southern Colorado highlands—Kelar, Mor, Tal-Yem, Sek—divided by revolution, united by economics."
+    short: Four Uliq pastoral bands—Kelar, Mor, Tal-Yem, Sek—divided by revolution, united by economics.
     details: |
-      Perhaps 4,000 people total ranging territory between High Junction and the San
-      Luis Valley, grazing hardy goats on marginal terrain between 8,000 and 11,000
-      feet. None can hold a Senate seat alone—the 8,000-member threshold exceeds any
-      single band's population by a factor of five. Political voice requires confederation.
+      Four thousand people total ranging territory between High Junction and
+      the San Luis Valley, grazing hardy goats on marginal terrain between
+      eight and eleven thousand feet. None can hold a Senate seat alone—the
+      eight-thousand-member threshold exceeds any single band by a factor of
+      five. Political voice requires confederation.
 
-      The revolution divided them. The Kelar fought for the Republic; the Mor, Tal-Yem,
-      and Sek supported the Sultana. Eighteen years later, both confederations include
-      bands from opposite sides. Economics and geography override historical grievance
-      when political survival requires coalition. The Kelar sell luxury cheese to urban
-      consumers and buy milk from former enemies at fair prices.
+      The revolution divided them. Kelar fought for the Republic; Mor, Tal-
+      Yem, and Sek supported the Sultana. Eighteen years later, both
+      confederations include bands from opposite sides. Economics overrides
+      historical grievance when survival requires coalition. The Kelar sell
+      luxury cheese to urban consumers and buy milk from former enemies at
+      fair prices.
 
-      Two confederations now hold two Senate seats: Eastern Range Confederation (Dawn)
-      and Highland Graziers' Association (Dusk). Despite factional division, both
-      coordinate informally on issues affecting highland pastoral interests—grazing
-      restrictions, environmental requirements, labor standards inappropriate for family
-      bands. Highland survival requires cooperation; factional purity is urban luxury.
+      Highland survival requires cooperation; factional purity is urban
+      luxury.
     rag_pointer: "The Republic of Ganat"
     related: [High Junction, Eastern Range Confederation, Highland Graziers' Association, Kelar Band, Mor Band, Tal-Yem Band, Sek Bands, Uliq]
     caste_features:
