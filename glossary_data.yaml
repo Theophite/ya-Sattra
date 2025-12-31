@@ -1683,15 +1683,26 @@ entries:
   # ═══ Tephri ═══
   Tephri:
     category: caste
-    short: "Serrulata outcrossed with near-baseline humans—traders who pass in both contexts."
+    short: Serrulata outcrossed with baseline humans—pale cream scales so fine they read as texture, traders who pass in both worlds.
     details: |
-      Not properly Serrulata at all. Result from Serrulata outcrossed with near-baseline 
-      humans over generations until a stable phenotype emerged. Scales are pale cream or 
-      ivory, so fine they read as texture rather than obvious covering. Pointed ears 
-      present but smaller. Can pass as unusual near-baseline in Imperial territory, 
-      marked as Serrulata-adjacent in Ganat. Specialize in interstitial trade roles 
-      between Republic and Empire. Poorly fertile with other Serrulata lineages but 
-      frequently breed true with near-baseline humans.
+      Not properly Serrulata at all. Generations of outcrossing with
+      near-baseline humans produced a stable phenotype: scales pale cream or
+      ivory, so fine they read as skin texture rather than obvious covering.
+      Pointed ears present but smaller. Facial features close to baseline
+      proportions. In dim light or at a distance, they pass as unusual but
+      unremarkable humans.
+
+      The ambiguity defines their role. In Imperial territory they're seen
+      as near-baseline with minor variations. In Ganat they're marked as
+      Serrulata-adjacent, close enough to kin. Neither identity is quite
+      true. Both are useful. They specialize in trade between Republic and
+      Empire, maintaining households in each territory, speaking both
+      idioms fluently.
+
+      The biology reflects the liminality. Poorly fertile with other
+      Serrulata lineages, they frequently breed true with near-baseline
+      humans—their bodies pulling toward one heritage even as their lives
+      straddle two. A caste defined by the boundaries it crosses.
     rag_pointer: Castes of Mankind, The Republic of Ganat
     related: [Serrulata, Ganat, Near-Baseline]
     caste_features:
