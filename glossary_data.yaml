@@ -18309,6 +18309,39 @@ entries:
     related: [ya-Don, Order of St. Akhmet, Sacred Labor]
   # ─── end Homiletic Names ───
 
+  # ═══ Antediluvian ═══
+  Antediluvian:
+    category: concept
+    short: "Humanity before the Interdict—builders of the infrastructure current civilization maintains but cannot replicate."
+    details: |
+      The Antediluvians were not aliens or mysterious others. They were humans at the apex
+      of an interstellar civilization spanning thousands of star systems, possessing
+      technology derived from Oracle Testaments, governing through engineered caste
+      hierarchies and neurological Compulsion. They built ya-Sattra, the Inner City, the
+      Dam at Ganat, the arcologies—infrastructure that current civilization cannot replicate.
+
+      The word means "before the flood"—before the Interdict washed away everything except
+      what was too massive to move. Their confident, unlabeled, explanation-free material
+      culture reflects not mystery but assumption: the civilization was eternal, truth was
+      mathematically certain, and there would never be anyone who didn't already understand.
+
+      They were wrong. The Eighth Oracle transmitted a flawed theorem. The Technical Castes
+      could not implement it. The Emperor deployed the sterilization plague and built the
+      singularity anyway. The Foreigners responded with the Interdict. The eternal
+      civilization ended. The confident architecture remained.
+
+      Current civilization lives inside Antediluvian infrastructure without understanding it.
+      The Aureate maintain patents on technologies they cannot explain. The Oracle Cult
+      preserves ritual forms whose meanings were lost with the Technical Castes. The
+      Companions Guild knows how to care for Mutterers without knowing why the procedures
+      work. This is a civilization of maintenance, not creation—keeping inherited systems
+      running, occupying inherited buildings without the capacity to build new ones.
+
+      The buildings still believe in the eternal order. The inhabitants do not.
+    rag_pointer: "Mysteries - The Emperor and the Singularity, Religion - Oracle Cult"
+    related: [Interdict, Oracles, Technical Castes, Foreigners, Compulsion, Inner City, Antediluvian Quarter]
+  # ─── end Antediluvian ───
+
   # ═══ Interdict ═══
   Interdict:
     category: event
