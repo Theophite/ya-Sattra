@@ -66,7 +66,31 @@ Reproductive isolation creates a genetic bottleneck threatening long-term surviv
 
 Deep populations, maintaining purer Technical genetics in unmapped tunnels, might serve as genetic reservoirs. However, these populations remain largely theoretical to surface dwellers, their existence inferred from maintained infrastructure in supposedly abandoned zones. If they exist, their even purer Technical heritage might make them completely unable to breed with surface populations, including diluted surface sewer-fishers.
 
-The fostering system provides cultural but not biological diversity. While incorporated members strengthen clans socially and economically, they cannot contribute genetic material. This creates parallel populations within clansâ€”genetic sewer-fishers who maintain technical knowledge, and fostered members who provide physical protection and economic connections.
+The fostering system provides cultural but not biological diversity. While incorporated members strengthen clans socially and economically, they cannot contribute genetic material. This creates parallel populations within clansâ€"genetic sewer-fishers who maintain technical knowledge, and fostered members who provide physical protection and economic connections.
+
+## **The Kma-Dhol: Sewer-Fishers of the Thousand Kingdoms**
+
+Forty thousand sewer-fishers live throughout the Ogon complex in the Thousand Kingdoms as recognized technical specialists. Unlike their hidden cousins in ya-Sattra's Middens, the Kma-Dhol operate openly under a theological framework treating them as possessing "clever souls" judged by different ancestral standards.
+
+They occupy ziggurat upper levels accessible only through compression passages, suspended platforms connected by slip-joint routes, buildings with entrances the autofactory designed without human access. Adults range from 1.35 to 1.55 meters, under fifty kilograms, with slate-grey skin, void-black eyes, blade-shaped earsâ€"biologically identical to their Imperial counterparts.
+
+The Kma-Dhol publicly claim the Third Oracle "gifted them their second soul," giving religious authority without requiring genetic descent. The Akama genuinely respect Kma-Dhol excellence within this frameworkâ€"problems solved, knowledge preserved, technical excellence achieved.
+
+The autofactory ruins require constant technical assessment the Kma-Dhol provide through inherited Technical Caste capabilities. This creates dependency and wealth. The richest families operate engineering firmsâ€"dozens of specialists offering coordinated services. Vey Nine Birds, current Junta member, represents the pinnacle of this technical aristocracy.
+
+The Kma-Dhol maintain caches of archaeotech they don't fully understandâ€"devices too dangerous except under existential threat. The Akama know about these vaguely, as rumors and superstition about strange things in deep places.
+
+### **The Factory-Song**
+
+Factory-singing exists throughout the Thousand Kingdoms wherever autofactories stand. What began as either technical procedure or religious ritual has become the region's most widespread practice.
+
+In territories beyond Ogon, tribal groups treat autofactories as spontaneously generative gods. Their singing is elaborate, communal, desperate. Entire villages produce harmonies they believe specify desired outputsâ€"low drones for structural materials, high keening for metals, polyrhythmic chants for specific items. Songs have words in languages no one speaks, passed down phonetically.
+
+The Kma-Dhol approach factory-singing with technical precision. They've mapped acoustic nodes, maintain exact frequencies measured with pre-Interdict tuning devices, sing for exactly forty-three minutes. Their singing has no words, purely tonal drones at specific pitches.
+
+The crucial difference: Ogon's autofactory seems to respond to Kma-Dhol singing more than random chance would predict. When they sing low C-sharp on foggy mornings, structural foam appears about thirty percent more often than baseline.
+
+Factory-singing has become political language. The Junta sponsors mass singing events demonstrating unity. Northern groups use singing as resistance when Ogon demands tribute. The sound creates an auditory landscape unique to the Thousand Kingdomsâ€"deep thrumming from Kma-Dhol positions, amateur harmonics, the autofactory's subsonic responses, all carried for miles by the Grand Canal's resonating glass walls.
 
 ## **Clan Benru: The Trusted Brokers**
 

@@ -273,7 +273,9 @@ Traditional warbands pay through shares of plunder rather than salaries. This cr
 
 Written orders, salary payments (8 obols monthly for cavalry, 6 for infantry), merit-based promotion. His officers find this amusing but follow the system because it works: his supply trains don't get lost, his forces arrive when promised, his men don't die of preventable disease.
 
-**The Junta** in Ogon represents another organizational modelâ€”urban governance by military oligarchy. Token-holders control city functions, maintain forces for enforcement, balance against each other through the Tama-managed redistribution systems.
+**The Junta** in Ogon represents another organizational modelâ€"urban governance by military oligarchy. Token-holders control city functions, maintain forces for enforcement, balance against each other through the Tama-managed redistribution systems.
+
+**Imperial Entanglements**: Individual warbands contract with the Bureau of the Sword, providing auxiliary forces through personal relationships with officers. When the officer dies or the relationship proves unprofitable, the arrangement dissolves. Some Imperial families maintain elaborate northern connectionsâ€"the es-Thabits smuggle Warborn clones north, building power blocs for Imperial politics. The result is bootleg Sword operations throughout the Malpaisâ€"renegade war camps mimicking Imperial organization while operating outside authority.
 
 ### Who Fights
 

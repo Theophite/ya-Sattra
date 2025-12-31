@@ -755,12 +755,13 @@ entries:
   # ═══ Kma-Dhol ═══
   Kma-Dhol:
     category: caste
+    aliases: [sewer-fishers (Thousand Kingdoms), Akama sewer-fishers]
     short: "Technical Caste descendants operating openly in the Thousand Kingdoms."
     details: |
-      Same ancestry as Imperial sewer-fishers but never hidden. Publicly claim 
-      the Third Oracle 'gifted them their second soul.' Operate autofactories 
+      Same ancestry as Imperial sewer-fishers but never hidden. Publicly claim
+      the Third Oracle 'gifted them their second soul.' Operate autofactories
       through factory-singing—vocalizing mathematical requests in the Jargon.
-    rag_pointer: "The Thousand Kingdoms: Overview, Castes of Mankind"
+    rag_pointer: "Sewer-Fishers, The Thousand Kingdoms"
     related: [Technical Castes, Sewer-Fishers, Ogon, Jargon]
     caste_features:
       morphology: modified
@@ -1284,12 +1285,14 @@ entries:
   # ═══ Sewer-Fishers ═══
   Sewer-Fishers:
     category: caste
+    aliases: [Kma-Dhol (Imperial equivalent)]
     short: "Hidden Technical Caste descendants maintaining ya-Sattra's deep infrastructure."
     details: |
-      Five clans in the Middens maintain secret Technical Caste ancestry. Possess 
-      mathematical intuitions about systems no one officially understands. Must 
-      perform confusion around simple machinery to avoid detection.
-    rag_pointer: "The Sewer-Fishers of the Middens, Castes of Mankind"
+      Five clans in the Middens maintain secret Technical Caste ancestry. Possess
+      mathematical intuitions about systems no one officially understands. Must
+      perform confusion around simple machinery to avoid detection. Their Thousand
+      Kingdoms counterparts, the Kma-Dhol, operate openly in Ogon.
+    rag_pointer: "Sewer-Fishers"
     related: [Technical Castes, Kma-Dhol, Middens, Jargon]
     caste_features:
       morphology: modified
