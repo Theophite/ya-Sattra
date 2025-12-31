@@ -11200,6 +11200,27 @@ entries:
       location: Malpais
   # ─── end Malpais War ───
 
+  # ═══ Child of the Malpais ═══
+  Child of the Malpais:
+    category: person
+    short: "Failed Highborn-Warborn hybrid warlord who nearly destroyed the Empire before defeat at the City of Glass."
+    details: |
+      A hybrid creation that should not have been possible—combining Highborn and
+      Warborn lineages in ways the Creche's strictest protocols forbade. The Child
+      emerged from the volcanic scablands of the Malpais and waged a campaign that
+      brought the Empire closer to collapse than any external threat. What drove
+      the Child, what forces backed them, what they actually wanted—all remains
+      classified or unknown.
+
+      The war ended suddenly in 772 RRH when the City of Glass intervened in ways
+      no one can describe. The Child's defeat was total, but the circumstances
+      remain mysterious. Mixed-caste conscripts like Garren Fen's unit held the
+      City's outer arrays long enough for the sewer-fishers to activate something
+      within the City itself.
+    rag_pointer: Ya-Sattra District - Middens
+    related: [Malpais War, City of Glass, Malpais, Highborn, Warborn, Hanged Men Founding]
+  # ─── end Child of the Malpais ───
+
   # ═══ Hanged Men Founding ═══
   Hanged Men Founding:
     category: event
@@ -13845,13 +13866,14 @@ entries:
   bloodfruit:
     category: concept
     short: |
-      Intensely flavored fruit from the Yarangar—deep purple-red, preserved as sharbat.
+      Intensely flavored fruit native to the ta-Kefyeh homeworld—deep purple-red, preserved as sharbat.
     details: |
-      The juice is preserved and mixed with water to make sharbat. Available to 
-      those with Yarangar connections. Sometimes the rind flavors broths in 
-      sophisticated ya-Sattran cooking.
+      Originally from the ta-Kefyeh homeworld, bloodfruit also grows in the Yarangar
+      where the climate suits it. The juice is preserved and mixed with water to
+      make sharbat. Available to those with Yarangar or ta-Kefyeh connections.
+      Sometimes the rind flavors broths in sophisticated ya-Sattran cooking.
     rag_pointer: Culture - Food by Polity
-    related: [Yarangar, Ranga, ya-Sattra]
+    related: [Yarangar, Ranga, ya-Sattra, ta-Kefyeh, Shtetl]
   # ─── end bloodfruit ───
 
   # ═══ Armorers' Guild ═══
@@ -14950,6 +14972,7 @@ entries:
 
   # ═══ Institute of the Lattice ═══
   Institute of the Lattice:
+    alias: [Lattice]
     category: organization
     short: "Lens subdivision maintaining cryptographic infrastructure—mathematicians approaching understanding of the Jargon."
     details: |
