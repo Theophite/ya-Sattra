@@ -2555,28 +2555,31 @@ entries:
   # ═══ The Prismatic Archive ═══
   The Prismatic Archive:
     category: location
-    short: "Aureate-controlled exhibition in the Antediluvian Quarter—pre-Interdict art and luxury objects."
+    short: Aureate-controlled exhibition of pre-Interdict art—jewelry creating light shows, textiles shifting with temperature, entry by invitation or twelve obols.
     details: |
-      Unlike the Alcazar's cosmic scope, the Prismatic Archive displays pre-Interdict
-      art and luxury objects: jewelry whose authentication protocols create light shows,
-      textiles that shift pattern with temperature, sculptures in materials that resist
-      identification. The es-Morath family maintains the collection as demonstration
-      of what refinement meant before the Interdict. Entry requires invitation or
-      payment of twelve obols—ensuring the audience remains appropriately elevated.
+      Unlike collections with cosmic scope, the Prismatic Archive displays
+      pre-Interdict refinement: jewelry whose authentication protocols
+      create light shows, textiles that shift pattern with temperature,
+      sculptures in materials that resist identification. Entry requires
+      invitation or payment of twelve obols, ensuring the audience remains
+      appropriately elevated.
 
-      The prohibition on interpretation applies here as officially as elsewhere, but
-      the es-Morath curators have developed elaborate techniques for non-interpretation.
-      "One might notice" becomes the standard phrase. "One might notice the way light
-      refracts through this piece." "One might notice the temperature sensitivity."
-      These observations are not interpretation—merely directing attention to properties
-      any viewer could observe. The Lens has never successfully prosecuted an es-Morath
-      for this practice, though several inspectors have tried.
+      To walk through is to move among beauty you cannot explain. The
+      prohibition on interpretation applies here as officially as elsewhere,
+      but curators have developed elaborate techniques for non-interpretation.
+      "One might notice" becomes the standard phrase. "One might notice the
+      way light refracts through this piece." "One might notice the
+      temperature sensitivity." These observations direct attention to
+      properties any viewer could observe—not interpretation, merely
+      guidance. Inspectors have tried and failed to prosecute the practice.
 
-      The collection includes three pieces the family admits they cannot explain even
-      to themselves: a sphere that maintains room temperature regardless of environment,
-      a frame that displays different images to different viewers, and a small box
-      that occasionally produces sounds in response to stimuli no one can identify.
-      These occupy a private gallery shown only to guests the family trusts absolutely.
+      A private gallery, shown only to trusted guests, contains three pieces
+      the family admits they cannot explain even to themselves: a sphere
+      maintaining room temperature regardless of environment, a frame
+      displaying different images to different viewers, a small box that
+      occasionally produces sounds in response to stimuli no one can
+      identify. These mysteries require absolute discretion. The public
+      galleries are strange enough.
     rag_pointer: "The Antediluvian Quarter"
     related: [Antediluvian Quarter, es-Morath Arcology, Uninterpreted Collections, Aureate]
     location_features:
