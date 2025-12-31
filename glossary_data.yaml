@@ -11015,18 +11015,17 @@ entries:
   # ═══ Ogon Token Emergence ═══
   Ogon Token Emergence:
     category: event
-    short: "Three-day autofactory anomaly producing the seven governance tokens—never replicated."
+    short: "Autofactory produced seven identical tokens that became the basis for Junta governance."
     details: |
-      Around 911 RRH, Ogon's autofactory entered an unusual operational state for
-      three days. It produced seven identical tokens of unknown composition and
-      purpose. The tokens resisted analysis—their material properties don't match
-      any known alloy, and attempts to replicate them have uniformly failed.
+      Around 911 RRH, Ogon's autofactory produced seven identical tokens during
+      a three-day operational period. The tokens are unremarkable objects—metal
+      discs of standard autofactory alloy, each bearing the same geometric pattern.
 
-      The tokens became governance instruments through accident and violence.
-      Warlords who possessed them found their authority more stable. Those who
-      tried to take tokens by force often died in improbable ways. Over decades,
-      the seven-token system crystallized into the Junta's current structure.
-      Whether the autofactory intended this outcome remains unknown.
+      The tokens became governance instruments through political convention.
+      Early warlords used them as symbols of authority, and the practice stuck.
+      Possessing a token means controlling a seat on the Junta. The tokens
+      themselves have no special properties—their power derives entirely from
+      the social agreement that token-holders constitute legitimate authority.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Ogon, Junta of Ogon, Thousand Kingdoms]
     event_features:
@@ -11439,16 +11438,102 @@ entries:
   # ═══ Records ═══
   Records:
     category: concept
-    short: "Documentation of Aureate appointments by era—only five most recent are unclassified."
+    short: "Named periods of Imperial history with internal year numbering—no sequential relationship between Records."
     details: |
-      The five accessible Records: Three Laws (oldest, 5-6000 years), Resonating Word, 
-      White Birds, Black Star, Red Hawk (current). Families in classified Records 
-      (early post-Interdict) cannot have origins verified—inaccessibility compounds 
-      prestige. Even within a Record, scholars dispute relative ordering. Temporal 
-      depth determines social precedence regardless of wealth.
+      The five unclassified Records: Three Laws (oldest, 5-6000 years), Resonating Word,
+      White Birds, Black Star, Red Hawk (current, year 981). Each Record has its own
+      internal chronology but no known sequential relationship to other Records. Families
+      in classified Records (early post-Interdict) cannot have origins verified—
+      inaccessibility compounds prestige. Even within a Record, scholars dispute
+      relative ordering. Temporal depth determines social precedence regardless of wealth.
     rag_pointer: "The Aureate System"
-    related: [Aureate, Occultation, es- prefix]
-  # ─── end Records ───
+    related: [Aureate, Occultation, es- prefix, Record of Three Laws, Record of the Resonating Word, Record of White Birds, Record of the Black Star, Record of the Red Hawk]
+
+  # ═══ Record of Three Laws ═══
+  Record of Three Laws:
+    category: event
+    short: "Oldest unclassified Record—five to six thousand years distant, documenting earliest accessible Aureate appointments."
+    details: |
+      The oldest of the five unclassified Records. Scholars place it approximately
+      five to six thousand years in the past, though dating is uncertain. The
+      "Three Laws" referenced in the name are no longer known—the Record preserves
+      the era's designation without explaining it.
+
+      Families documented in this Record carry maximum temporal prestige. The
+      Water Guild's founding charter dates to Three Laws. Palanquin-bearer lines
+      commissioned during this era still serve their original Aureate families.
+    rag_pointer: "The Aureate System"
+    related: [Records, Aureate, Water Guild]
+    event_features:
+      year: "~5000-6000 years ago"
+  # ─── end Record of Three Laws ───
+
+  # ═══ Record of the Resonating Word ═══
+  Record of the Resonating Word:
+    category: event
+    short: "Second-oldest unclassified Record—the 'Resonating Word' itself is no longer identified."
+    details: |
+      The second of the five unclassified Records. The "Resonating Word" that names
+      this era has been lost—scholars speculate it may have been a religious
+      proclamation, a technological discovery, or an Oracle transmission.
+      Contemporary documents from this period reference it as common knowledge
+      requiring no explanation.
+    rag_pointer: "The Aureate System"
+    related: [Records, Aureate]
+    event_features:
+      year: "UNKNOWN"
+  # ─── end Record of the Resonating Word ───
+
+  # ═══ Record of White Birds ═══
+  Record of White Birds:
+    category: event
+    short: "Middle unclassified Record—petitions from this era remain unanswered after two thousand years."
+    details: |
+      The third of the five unclassified Records, roughly two thousand years
+      distant. Filings from this period survive in archives—petitions whose
+      terms remain unrecognized, neither granted nor denied. Institute for
+      Nonstandard Environments documents from this era describe environmental
+      conditions that no longer exist.
+    rag_pointer: "The Aureate System"
+    related: [Records, Aureate]
+    event_features:
+      year: "~2000 years ago"
+  # ─── end Record of White Birds ───
+
+  # ═══ Record of the Black Star ═══
+  Record of the Black Star:
+    category: event
+    short: "Fourth unclassified Record—graffiti from this era still visible in Inner City lift stations."
+    details: |
+      The fourth of the five unclassified Records. Names and dates carved into
+      bronze in the Inner City's lift stations date to this era—worn smooth by
+      time but still legible. The "Black Star" that names this period is
+      variously interpreted as astronomical event, political symbol, or
+      religious reference.
+    rag_pointer: "The Aureate System"
+    related: [Records, Aureate, Inner City]
+    event_features:
+      year: "UNKNOWN"
+  # ─── end Record of the Black Star ───
+
+  # ═══ Record of the Red Hawk ═══
+  Record of the Red Hawk:
+    category: event
+    short: "Current Record—year 981, encompassing the Malpais War, City-of-Glass Charter, and Ganati Revolution."
+    details: |
+      The most recent unclassified Record, currently in its 981st year. The
+      "Red Hawk" that names this era may refer to a specific astronomical
+      configuration, though the original significance is debated.
+
+      Key events within this Record: Malpais War and City-of-Glass Charter
+      (772), Ogon Token Emergence (~911), Five Highborn Crisis (~956),
+      Yarangar War (~958-962), Decapitation Strike and Ganati Revolution (963),
+      Constitutional Settlement (963-967), Khalim Charter (965).
+    rag_pointer: "The Aureate System"
+    related: [Records, Aureate, Malpais War, City-of-Glass Charter, Decapitation Strike, Constitutional Settlement]
+    event_features:
+      year: "current (year 981)"
+  # ─── end Record of the Red Hawk ───
 
   # ═══ Viewing Rooms ═══
   Viewing Rooms:
