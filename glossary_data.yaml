@@ -1184,11 +1184,20 @@ entries:
   # ═══ Nasif ═══
   Nasif:
     category: caste
-    short: "Elongated colonist caste of unknown original purpose."
+    short: Attenuated figures with dramatically extended necks—no one knows what they were engineered for.
     details: |
-      No one knows what the nasif were originally engineered for. Their elongated 
-      forms suggest specialization, but the purpose has been lost. Thin, attenuated 
-      build with dramatically extended neck.
+      Extremely thin, limbs attenuated, torso narrow. The neck adds eight
+      inches, raising the head far above narrow shoulders on a slender column.
+      Pale smooth skin with faint greenish-white pallor, amber eyes, pointed
+      ears from Serrulata ancestry. The proportions suggest specialization
+      for something—but the purpose has been lost. They move carefully, aware
+      the neck is vulnerable.
+
+      Patience and stillness suit clerical labor, where they've found their
+      niche. Attention fixes on tasks with intensity that excludes peripheral
+      awareness; interruptions produce visible discomfort. Conversations often
+      stall. They seem personally awkward, trapped in bodies designed for
+      purposes no one remembers, making do with what remains.
     rag_pointer: "Castes of Mankind"
     related: [Colonist Castes, Serrulata, Ganat]
     caste_features:
