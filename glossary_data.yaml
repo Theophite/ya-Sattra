@@ -4256,13 +4256,17 @@ entries:
   # ═══ Ganat proper ═══
   Ganat proper:
     category: location
-    short: The dam-city that gives the Republic its name.
+    short: The dam-city that never sleeps—power is free and stopping costs opportunity.
     details: |
-      500,000 inhabitants in Glen Canyon on the Teph River. Cities carved INTO cliff faces—
-      space created by subtraction, not addition. The Dam provides power too cheap to meter; 
-      working-class warrens honeycomb the rock around it. Near Wall hosts markets and 
-      residences. Far Wall hosts government—Senate chamber, ministry warrens, the Cathedral 
-      atop it all. The city never sleeps because power is free and stopping costs opportunity.
+      Space created by subtraction. The cliffs were carved into, not built upon—chambers
+      and warrens and great halls hollowed from salmon-colored stone. The Dam hums at the
+      canyon's heart, providing power too cheap to meter. Working-class neighborhoods
+      honeycomb the rock around it, lights burning at every hour.
+
+      Near Wall faces the morning sun: markets, residences, the bustle of commerce. Far
+      Wall catches the evening light: Senate chamber, ministry warrens, the Cathedral
+      crowning it all. Between them, the river still runs—the Dam harnesses it, doesn't
+      stop it.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Ganat, Taho]
     location_features:
