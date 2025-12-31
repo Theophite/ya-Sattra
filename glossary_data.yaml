@@ -571,13 +571,16 @@ entries:
   # ═══ Dravoëtsin ═══
   Dravoëtsin:
     category: location
-    short: "Żelovin's vassal precinct—holds the eastern approach to the Technical quarter."
+    short: Smaller precinct holding the fourth side of the Technical quarter—dependent but necessary.
     details: |
-      Smaller precinct surviving by serving Żelovin interests while maintaining nominal 
-      independence. Holds the eastern approach to the Technical quarter (Żelovin holds 
-      three sides). Recruits across house lines through the ancient right when children 
-      declare mediator calling—a practice that keeps the precinct viable despite its 
-      small population.
+      Żelovin holds three sides of the Technical quarter. Dravoëtsin holds the fourth.
+      The geometry of the arrangement is visible in the architecture: less elaborate
+      maintenance, simpler territorial markers, the dependent status written into every
+      surface. But the eastern approach runs through here, and that matters.
+
+      Children from other houses train in these corridors, recruited under ancient rights
+      when they declare mediator calling. The precinct survives by taking in what larger
+      houses send away. The training facilities show the wear of generations.
     rag_pointer: Asovoë and the Avouvar
     related: [Asovoë, Żelovin, Medial Castes]
     location_features:
