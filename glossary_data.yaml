@@ -3012,67 +3012,150 @@ entries:
   # ═══ Hereditary Debtors ═══
   Hereditary Debtors:
     category: organization
-    short: "Former slaves transformed into kilit—work off multi-generational debts through public service, staff every significant office, swing vote in Senate."
+    short: "Bureaucratic corps bound to state service—~18,000 members, two Senate seats, staff every significant office, swing vote."
     details: |
-      When the Republic inherited thousands of citizens whose ancestors accepted multi-
-      generational loans from the royal treasury, revolutionary ideology couldn't easily
-      dismiss debts secured against future labor. The solution transformed debtors into
-      a kilit with the Republic as creditor. Members work off obligations through public
-      service—maintaining roads, staffing customs houses, providing clerical support.
-      Debt reduces through labor credits over two generations.
+      Descendants of kilits whose members forfeited freedom to the Sultanate's treasury,
+      transformed by the constitutional settlement from slaves into "public service
+      obligated" workers. Members earn wages comparable to free employees; a portion
+      (initially 40%, reduced over time) goes to debt service. Children inherit obligation
+      but also inherit guaranteed Ministry employment and institutional knowledge.
 
       The kilit's members have become the Republic's most competent administrators.
-      Knowing they'll spend decades in government service, they master bureaucratic
-      systems political appointees never learn. Their headquarters in converted Sultanate
-      treasury contains the Republic's most comprehensive archives. Senate committees
-      routinely consult Debtor clerks about procedure and precedent.
+      A Minister serves five years; their Debtor deputy serves thirty and trains the
+      next three Ministers. They maintain the Republic's most comprehensive archives
+      and process the paperwork that makes governance function—census records, membership
+      transfers, legislative tracking. This creates an intelligence network rivaling
+      the Church's.
 
-      They maintain the most sophisticated intelligence operation without formal political
-      organization. They hear everything because their kilit processes the paperwork that
-      makes the Republic function. They know which kilits are approaching thresholds,
-      which coalitions are stable, which are fracturing, which senators broke promises.
+      Approximately one-third of current membership acquired status voluntarily within
+      the past fifteen years. Academy students take treasury loans, default strategically,
+      accept hereditary status, and receive guaranteed Ministry positions. Original
+      Debtors view these newcomers with complex feelings—they chose bondage others
+      were born into, carry lighter obligations, benefit from institutional infrastructure
+      without sharing historical grievance.
 
-      Senator Yem Tokan, whose great-grandfather borrowed to expand a failed dyeworks,
-      controls no wealth and commands no force. He votes unpredictably, supporting
-      whichever party offers better debt reduction terms, making the Debtors a swing
-      vote neither Dawn nor Dusk can take for granted. He doesn't campaign for influence
-      —he simply knows what everyone needs and who might provide it.
-
-      Their annual Reckoning Festival combines funeral (for social death debt represents),
-      birth (for those emerging from obligation), and wedding (freed members often marry
-      immediately, having delayed). One poet called it "capitalism's most honest expression
-      —the precise monetization of human existence."
-    rag_pointer: "The Republic of Ganat"
-    related: [Ganat, Senate, Yem Tokan, Hereditary Debtors' Quarter, Kilit]
+      Two Senate seats. Neither faction secures their support permanently. Senator Yem
+      Tokan votes whichever party offers better debt reduction terms. The annual
+      Reckoning Festival combines funeral, birth, and wedding—"capitalism's most honest
+      expression."
+    rag_pointer: "Hereditary Debtors"
+    related: [Ganat, Senate, Yem Tokan, Hereditary Debtors' Quarter, Kilit, Reckoning Festival, Tekhel Dhal-Orin]
   # ─── end Hereditary Debtors ───
 
   # ═══ Yem Tokan ═══
   Yem Tokan:
     category: person
-    short: "Senator for Hereditary Debtors—controls no wealth, commands no force, knows everything, swing vote."
+    short: "Senator for Hereditary Debtors—fifty-four, third-generation, quiet, methodical, devastatingly well-informed."
     details: |
-      His great-grandfather borrowed to expand a failed dyeworks. Three generations later,
-      Yem Tokan still works off the obligation through public service. He controls no
-      wealth and commands no force. But his kilit staffs every significant office in the
-      Republic, creating an intelligence network rivaling the Church's.
+      Fifty-four years old, third-generation Debtor whose grandfather's merchant kilit
+      collapsed during a drought that destroyed their textile supply chain. Worked in
+      state administration since age sixteen, rising through customs service to archive
+      management to political representation. Unmarked surname—Tokan, no compound
+      structure—marks original Debtor status rather than voluntary acquisition.
 
-      He doesn't campaign for influence—he simply knows what everyone needs and who might
-      provide it. Which kilits are approaching representation thresholds. Which coalitions
-      are stable, which are fracturing. Which senators broke promises, which delivered
-      beyond expectations. This makes him invaluable to any senator attempting coalition-
-      building.
+      Quiet, methodical, devastatingly well-informed. Every Senator seeking coalition
+      support eventually visits his office, because he knows things they need and can
+      predict outcomes they cannot. He doesn't sell information—that would be corruption
+      —but trades it for policy commitments benefiting his constituency. A Dusk merchant
+      Senator learns which rival's coalition is fracturing in exchange for supporting
+      credit rate legislation.
 
-      He votes unpredictably, supporting whichever party offers better debt reduction
-      terms. The Debtors are a swing vote neither Dawn nor Dusk can take for granted.
-      His kilit's political status rests not on unified ideology but on comprehensive
-      information and the leverage that information provides.
-    rag_pointer: "The Republic of Ganat"
-    related: [Hereditary Debtors, Senate, Ganat]
+      Held the Senate seat for eleven years. His influence exceeds his formal position:
+      one seat among 750, but he affects outcomes on dozens of votes annually through
+      information asymmetry and strategic coalition advice. Neither faction fully trusts
+      him; both need him. He considers this appropriate.
+    rag_pointer: "Hereditary Debtors"
+    related: [Hereditary Debtors, Senate, Ganat, Tekhel Dhal-Orin]
     character_features:
       role: Senator
       affiliation: Hereditary Debtors
       location: Ganat proper
   # ─── end Yem Tokan ───
+
+  # ═══ Moro ═══
+  Moro:
+    category: person
+    short: "Khatam road worker—thirty-one, Hereditary Debtor, earns danger premium in eastern territories, Tekhel's complicated partner."
+    details: |
+      Thirty-one years old, Khatam of average height and build, boisterous where Tekhel
+      is silent, comfortable in crowds where Tekhel freezes. They've known each other
+      since childhood—two Debtor children in the same education cohort, one Nasif and
+      one Khatam, one quiet and one loud.
+
+      Works road maintenance in the eastern territories. Physical labor earns debt credits
+      faster than clerical work—the danger premium compensates for remote camps, hostile
+      terrain, occasional bandit attacks, the constant physical toll of breaking rock
+      and laying surface in high-altitude cold. Each season in the territories earns
+      what Tekhel's clerking earns in eighteen months.
+
+      Their relationship has been on and off for eight years, currently on, always
+      complicated. Moro comes back to Ganat between assignments, stays in Tekhel's
+      small apartment in the Debtors' Quarter, fills the space with noise and movement
+      and demands for attention that Tekhel finds exhausting and necessary. Tekhel
+      worries about him. Road crews work dangerous territory. Some crews don't come
+      back complete.
+    rag_pointer: "Hereditary Debtors"
+    related: [Hereditary Debtors, Tekhel Dhal-Orin, Khatam]
+    character_features:
+      role: Road worker
+      affiliation: Hereditary Debtors
+      location: Eastern territories / Ganat proper
+      caste: Khatam (Serrulata)
+  # ─── end Moro ───
+
+  # ═══ Sefra Ghesam ═══
+  Sefra Ghesam:
+    category: person
+    short: "Voluntary Debtor—twenty-four, Academy graduate, chose hereditary status for guaranteed cartography position."
+    details: |
+      Twenty-four years old, newly graduated from the Academy's administrative track,
+      newly indebted to the treasury, newly assigned to the Ministry of Settlement's
+      cartographic section. Her family carries no hereditary obligation; she chose this.
+
+      Her reasoning was pragmatic. Academy graduates in administration face uncertain
+      employment—kilits hire some, turn away others, often based on connections her
+      family lacked. The Ministry hires every qualified Debtor. Taking treasury loans,
+      defaulting strategically, and accepting hereditary status guaranteed her the
+      cartographic position she wanted. Her children will carry the obligation; they
+      will also inherit the career access she's securing.
+
+      Original Debtors view her with complex feelings. She chose bondage they were born
+      into. Her obligation balance—modest, from strategic default rather than genuine
+      enterprise failure—will pay down faster than obligations accumulated across
+      centuries. She benefits from their institutional infrastructure without sharing
+      their historical grievance. Sefra understands this and accepts it.
+    rag_pointer: "Hereditary Debtors"
+    related: [Hereditary Debtors, Ministry of Settlement, Ganat]
+    character_features:
+      role: Cartographer
+      affiliation: Ministry of Settlement
+      location: Ganat proper
+  # ─── end Sefra Ghesam ───
+
+  # ═══ Reckoning Festival ═══
+  Reckoning Festival:
+    category: culture
+    short: "Annual Hereditary Debtor celebration—funeral for social death, birth for freedom, wedding for the newly freed."
+    details: |
+      Occurs each spring when the Ministry of Finance publishes updated obligation
+      balances. Combines funeral (for social death debt represents), birth (for those
+      emerging from obligation), and wedding (freed members often marry immediately,
+      having delayed). One poet called it "capitalism's most honest expression—the
+      precise monetization of human existence."
+
+      Families whose balances reached zero during the preceding year are formally
+      recognized as free—perhaps a dozen annually. Those who died while still obligated
+      receive memorial acknowledgment. New marriages between Debtors—and between Debtors
+      and free persons willing to accept their children's inherited status—are celebrated
+      collectively.
+
+      The atmosphere is complex: genuine joy for those achieving freedom, genuine grief
+      for those who never will, genuine uncertainty about whether freedom is even
+      desirable for families built around administrative service. Wine flows. Music
+      plays. The ledgers are read aloud. Everyone learns exactly where they stand.
+    rag_pointer: "Hereditary Debtors"
+    related: [Hereditary Debtors, Ganat]
+  # ─── end Reckoning Festival ───
 
   # ═══ The Cathedral ═══
   The Cathedral:
@@ -12515,8 +12598,8 @@ entries:
       Personally awkward: conversations stall, social gatherings exhaust, attention fixes with 
       intensity excluding peripheral awareness. In on-again relationship with Moro, a khatam on 
       road maintenance crews in eastern territories.
-    rag_pointer: "Caste Type Specimens Catalog"
-    related: [Nasif, Serrulata, Ganat, Hereditary Debtors]
+    rag_pointer: "Hereditary Debtors"
+    related: [Nasif, Serrulata, Ganat, Hereditary Debtors, Yem Tokan, Moro]
   # ─── end Tekhel Dhal-Orin ───
 
   # ═══ Sekh Tero-Maleth ═══
