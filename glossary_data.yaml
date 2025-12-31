@@ -2642,12 +2642,18 @@ entries:
   # ═══ es-Korvey Towers ═══
   es-Korvey Towers:
     category: location
-    short: "Three spiral towers wrapped in sample fabrics—textile treatment monopoly made architectural."
+    short: Three spiral towers wrapped in sample fabrics—textile treatment monopoly made architectural.
     details: |
-      Three interconnected spires spiral around each other like frozen smoke. External surfaces 
-      draped in sample fabrics that change weekly. At sunset, treated fabric exteriors become 
-      translucent screens displaying abstract patterns. Crystal wasps build valuable nests between 
-      towers. Mari es-Korvey holds weekly fabric courts in the middle tower's apex.
+      Three interconnected spires spiral around each other like frozen smoke.
+      Organic architecture that seems grown rather than built. External surfaces
+      draped in sample fabrics that change weekly, displaying the monopoly's
+      reach.
+
+      At sunset, the towers illuminate from within. Treated fabric becomes
+      translucent screens showing patterns that might be advertising or art.
+      Crystal wasps build glowing nests between the spires—their constructions
+      worth more than Middens buildings. The bio-vaults seven stories underground,
+      where actual cultivation occurs, are sealed to all but genetic keyholders.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, es-Korvey, Aureate Way]
     location_features:
@@ -2667,12 +2673,17 @@ entries:
   # ═══ es-Durann Complex ═══
   es-Durann Complex:
     category: location
-    short: "Pharmaceutical dome complex sprawling across sixteen blocks—medicine synthesis beyond understanding."
+    short: Pharmaceutical dome complex sprawling across sixteen blocks—medicine synthesis the family monitors but does not control.
     details: |
-      Unlike neighbors' vertical aspirations, the es-Durann estate sprawls horizontally: 
-      interconnected domes covering sixteen city blocks. The Treatment Pavilion serves as 
-      public face—sterile white surfaces, unnecessary airlocks. At sunset, domes vent 
-      pharmaceutical byproducts that smell of bitter almonds and shimmer green.
+      Horizontal where neighbors are vertical—interconnected domes sprawling
+      across sixteen blocks. The Treatment Pavilion presents medical authority:
+      sterile white, unnecessary airlocks that hiss impressively, staff in
+      contamination suits serving theatrical purpose.
+
+      Actual production occurs in automated systems the family monitors but
+      doesn't control. At sunset, the domes vent pharmaceutical byproducts—
+      green luminescence rising like ghosts, the smell of bitter almonds, air
+      that shimmers. Residents know which streets to avoid when wind blows wrong.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, es-Durann, Aureate Way]
     location_features:
@@ -2692,12 +2703,19 @@ entries:
   # ═══ es-Norren Towers ═══
   es-Norren Towers:
     category: location
-    short: "Seventeen semaphore towers connected by bridges of captive lightning—quantum encryption made visible."
+    short: Seventeen semaphore towers connected by bridges of captive lightning—quantum encryption made visible.
     details: |
-      Seventeen towers of varying heights connected by bridges at seemingly random intervals. 
-      Tower heights create wind vortexes making bridges terrifying to cross. The family hasn't 
-      met in person for years—business conducted by written messages via Springheels. At sunset, 
-      bridges light with encryption traffic worth hundreds of obols per pulse.
+      Seventeen towers of varying heights, bridges connecting them at seemingly
+      random intervals. The tower heights once served transmission purposes
+      now forgotten; they create wind vortexes that make the bridges terrifying.
+
+      At sunset, the bridges light with encryption traffic—captive lightning,
+      each pulse worth hundreds of obols, messages so secret the math would
+      kill you if understood.
+
+      Honat es-Norren hasn't seen his wife in twelve years. She's in Tower
+      Seven, he's in Tower Thirteen. Children circulate on schedules that
+      might once have been technical requirements.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, es-Norren]
     location_features:
@@ -2719,12 +2737,19 @@ entries:
   # ═══ Symbiotic Spires ═══
   Symbiotic Spires:
     category: location
-    short: "Five organic towers grown from living tissue—es-Poel biological interface monopoly."
+    short: Five organic towers rising from shared tissue—es-Poel seat, grown rather than built.
     details: |
-      Five organic towers rise from a shared base of living tissue—grown rather than built. 
-      Walls pulse with slow biological rhythms, bioluminescent rather than lit. Seleth es-Poel, 
-      sixty-three, has never left the central spire; her metabolism is linked to the tower's 
-      enzymatic production. Translation crèches visible through organic membrane windows.
+      Five towers of living architecture, surfaces textured like engineered coral. The
+      walls pulse with slow biological rhythms, bioluminescent rather than lit. Light
+      shifts through the day following metabolic cycles rather than the sun.
+
+      Through windows of transparent organic membrane: translation crèches where
+      interface organisms grow in sealed chambers. The es-Poel monopoly on biological
+      interfaces starts here, in these incubation spaces.
+
+      Seleth es-Poel, sixty-three, has never left the central spire. Her metabolism
+      is linked to the tower's enzymatic production. She cannot leave without dying.
+      The tower cannot function without her. This is called symbiosis.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, es-Poel]
     location_features:
@@ -2746,13 +2771,18 @@ entries:
   # ═══ Seven-and-One Meridian Terrace ═══
   Seven-and-One Meridian Terrace:
     category: location
-    short: "Spectrum-shifting ziggurat—es-Verlaus estate, originally es-Yoht, now occupied by provincial newcomers."
+    short: Spectrum-shifting ziggurat—es-Verlaus estate, purchased from the extinct es-Yoht.
     details: |
-      Stepped cone rising with each level a perfect diminishing circle. Exterior shifts through 
-      the spectrum as it ascends: angry red at base, through visible range, to an apex that 
-      appears as blank grey where violet should be. Originally es-Yoht estate, purchased after 
-      the family achieved "intended state" (non-existence). Karvan es-Verlaus keeps horses 
-      for racing on middle levels.
+      A stepped cone, each level a perfect diminishing circle. The exterior shifts
+      through the spectrum as it ascends: angry red at base, through the visible
+      range, to an apex that reads as blank grey where violet should be. No one
+      remembers why.
+
+      Originally es-Yoht estate. The family achieved "intended state"—a euphemism
+      for non-existence, though whether through ritual completion or spectacular
+      failure is no longer discussed. Karvan es-Verlaus purchased the property
+      at auction. He keeps horses for racing on the middle levels, hooves striking
+      surfaces that shift through green and yellow as the animals pass.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, es-Verlaus, Aureate System]
     location_features:
@@ -2773,13 +2803,23 @@ entries:
   # ═══ es-Morath Arcology ═══
   es-Morath Arcology:
     category: location
-    short: "Sealed stone egg at the Quarter's edge—neural preservation family who can no longer survive outside."
+    short: Sealed stone egg at the Quarter's edge—the es-Morath produce neural preservation enzymes and cannot leave.
     details: |
-      Massive stone egg half-buried in ground at the Quarter's northern edge. No windows, no 
-      visible doors. Smooth grey substrate absorbs light, appearing as shadow even at noon. 
-      Pipes carry atmospheric mixtures in and waste out. The arcology hasn't opened to outside 
-      air in four hundred years. The es-Morath have modified themselves to embody their patent; 
-      their bodies produce neural preservation enzymes. They cannot survive outside.
+      A massive stone egg half-buried at the Quarter's northern edge. No windows,
+      no visible doors. The smooth grey substrate absorbs rather than reflects
+      light—the building appears as shadow even at noon.
+
+      Pipes emerge from the ground around the perimeter: atmospheric mixtures in,
+      waste products out. The arcology hasn't opened to outside air in four
+      hundred years. The atmosphere inside would kill you. The atmosphere outside
+      would kill them.
+
+      The es-Morath have become their patent. Bodies elongated, limbs bending at
+      unexpected angles, skin bioluminescent, eyes blind in normal light. Their
+      tissues produce neural preservation enzymes that fetch extraordinary prices.
+      Progenitor Tesseth es-Morath, three hundred years old, handles no external
+      contact. Cadet-Interface Mellora, heavily modified for atmospheric tolerance,
+      manages all dealings with the outside world.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, es-Morath]
     location_features:
@@ -2801,12 +2841,17 @@ entries:
   # ═══ Spectral Archive ═══
   Spectral Archive:
     category: location
-    short: "Es-Norren document storage where light behaves strangely."
+    short: Es-Norren document storage where light distorts—quantum side-effects turned to purpose.
     details: |
-      Rooms within the es-Norren towers where the quantum encryption infrastructure 
-      creates optical anomalies. Documents stored here are visible only at certain 
-      angles; some can only be read in specific lighting conditions that the Archive 
-      maintains.
+      Rooms within the es-Norren towers where light behaves strangely. The quantum
+      encryption infrastructure on the bridges above creates optical anomalies no
+      one fully understands—documents visible only at certain angles, some readable
+      only in specific lighting conditions.
+
+      Archive-Keeper Lessith maintains the collection, knowing exactly which shelf
+      requires which approach. She learned from her predecessor, who learned from
+      hers. The original specifications are lost. The encryption traffic pulses
+      through these spaces, casting shadows that move against their sources.
     rag_pointer: The Antediluvian Quarter
     related: [es-Norren Towers, es-Norren]
     location_features:
@@ -2825,12 +2870,18 @@ entries:
   # ═══ Translation Gardens ═══
   Translation Gardens:
     category: location
-    short: "Es-Poel inter-circle communication spaces within the Symbiotic Spires."
+    short: Es-Poel spaces where incompatible servants communicate through biological interfaces.
     details: |
-      Spaces within the es-Poel towers where servants from different concentric 
-      circles can communicate through the biological interface organisms the 
-      family cultivates. The Gardens bridge incompatible modifications, allowing 
-      translation between servant lines that couldn't otherwise interact.
+      Organic chambers within the Symbiotic Spires, saturated with interface
+      organisms that translate between servant lines. The air is thick with
+      enzymatic compounds; breathing here connects you to the tower's
+      communication network.
+
+      Inner-circle servants, modified beyond baseline tolerance, can speak with
+      outer-circle servants who interface with the outside world. Without the
+      Gardens, these lineages could not interact at all. The walls pulse with
+      slow rhythms as translation bacteria process meaning between bodies that
+      no longer share compatible sensoriums.
     rag_pointer: The Antediluvian Quarter
     related: [Symbiotic Spires, es-Poel]
     location_features:
@@ -2849,8 +2900,22 @@ entries:
   # ═══ Asovoë ═══
   Asovoë:
     category: location
-    short: Contaminated city inhabited by Avouvar at the edge of habitable world.
-    details: Fraser River delta, glaciers visible to north. Autofactory maintains infrastructure for millions while 60,000 Avouvar inhabit seventeen precincts. Radiation renewed deliberately to exclude outsiders.
+    short: Contaminated city at world's edge—sixty thousand Avouvar in infrastructure built for millions.
+    details: |
+      Fraser River delta where glacier meets ocean. Cold and wet, persistent fog,
+      rain more days than not. The harbor freezes in winter. Aurora flashes
+      geometric patterns across night skies—structured light in greens, blues,
+      magentas, violets.
+
+      The autofactory maintains infrastructure for millions while sixty thousand
+      Avouvar inhabit seventeen precincts. They do not build; they modify. Fabric
+      screens partition vast chambers. Platforms built on furniture. Centuries of
+      accumulated small refinements in spaces that remain fundamentally wrong—
+      corridors fifteen feet wide and thirty feet high, doors twelve feet tall.
+
+      The radiation is renewed deliberately. It keeps outsiders out. The Avouvar
+      remain, as they remained before the city was built, as they will remain
+      after everyone else is gone.
     rag_pointer: Asovoë and the Avouvar
     related: [Avouvar, San Juan Factorias]
     culture: [Avouvar]
@@ -2921,12 +2986,20 @@ entries:
   # ═══ Aureate Enclave ═══
   Aureate Enclave:
     category: location
-    short: "Patent-holding families' compounds—ranging from formal vernacular to deliberate modesty."
+    short: Ya-Don district where Aureate families maintain compounds—ostentation vs. deliberate modesty.
     details: |
-      ~2,000 residents. es-Kiral, es-Etaie, es-Vorath compounds. Where ya-Don's 
-      Aureate families maintain residences showing different relationships to display: 
-      es-Kiral ostentation vs. es-Etaie deliberate modesty. The contrast is intentional 
-      and theological.
+      Two thousand residents on a low hill at ya-Don's southern edge, marginally
+      cooler than the surrounding city. The es-Kiral, es-Etaie, and es-Vorath
+      families maintain compounds here.
+
+      The es-Kiral compound: grey granite imported from ya-Sattra, formal gardens
+      watered by private cisterns, climate-controlled interiors. The architecture
+      says: we could live in the capital if we chose.
+
+      The es-Etaie residence: three stories of local stone, no garden display,
+      indistinguishable from Threshold housing. Genuine Penitent faith expressed
+      through refusal of ostentation. The contrast with es-Kiral is intentional
+      and visible from the street.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Aureate, es-Kiral, es-Etaie, es-Vorath]
     location_features:
@@ -2990,12 +3063,17 @@ entries:
   # ═══ es-Kiral Compound ═══
   es-Kiral Compound:
     category: location
-    short: "Largest Aureate compound in ya-Don—formal vernacular at its most ambitious."
+    short: Largest Aureate compound in ya-Don—imported granite, formal gardens, climate control.
     details: |
-      Walled estate with climate-controlled interiors, formal gardens watered by 
-      private cisterns—the only substantial ornamental vegetation in ya-Don. Home 
-      of Sri Pater Morain es-Kiral and heir Veradis es-Kiral. ~80 residents. Patent 
-      administration offices. The architecture references ya-Sattra formality.
+      Walled estate with climate-controlled interiors, formal gardens watered by
+      private cisterns. The only ornamental vegetation in ya-Don. Grey granite
+      imported from ya-Sattra, bronze fittings throughout, geometric precision
+      referencing capital formality.
+
+      Home of Sri Pater Morain es-Kiral and heir Veradis es-Kiral. Eighty
+      residents. Patent administration offices occupy the eastern wing. The
+      architecture says: we could live in ya-Sattra if we chose. We chose to
+      be here.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Aureate Enclave, es-Kiral, ya-Don]
     location_features:
@@ -3032,12 +3110,16 @@ entries:
   # ═══ es-Etaie Residence ═══
   es-Etaie Residence:
     category: location
-    short: "Deliberately modest Aureate residence—Penitent faith expressed through architectural restraint."
+    short: Deliberately modest Aureate residence—Penitent faith expressed through architectural restraint.
     details: |
-      Three-story stone building that would not be out of place in the Threshold. 
-      The contrast with es-Kiral ostentation is intentional. Home of Sri Matrice 
-      Dawn-of-Ascension es-Etaie. ~30 residents. The family's genuine Penitent 
-      faith makes them trusted by guild leaders who distrust other Aureates.
+      Three-story stone building that would not be out of place in the Threshold.
+      Local stone, standard proportions, no garden display. The contrast with
+      es-Kiral ostentation is intentional and visible from the street.
+
+      Home of Sri Matrice Dawn-of-Ascension es-Etaie. Thirty residents. The
+      family's genuine Penitent faith—wealth as responsibility, not privilege—
+      makes them trusted by guild leaders who distrust other Aureates. The
+      architecture says what the family believes.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Aureate Enclave, es-Etaie, ya-Don, Penitent Church]
     location_features:
@@ -3083,20 +3165,17 @@ entries:
   # ═══ Beamcaster ═══
   Beamcaster:
     category: equipment
-    short: Plasma sidearm, standard Warborn issue.
+    short: Plasma sidearm—standard Warborn issue, devastating at conversational distance.
     details: |
-      Pre-Interdict weapon firing superheated plasma from magnetic containment. The violet 
-      glow visible through the barrel housing is plasma held in suspension until discharge.
-      
-      CHARACTERISTICS: Matte black casing, brutal simplicity, chevron venting pattern. 
-      Ergonomics assume hands larger than baseline human. Devastating at close range—
-      what infantry see in the moment before a Warborn kills them at conversational distance.
-      
-      PRODUCTION: Furnaces, ya-Don. Process inherited rather than understood. Not 
-      archaeotech salvage but continuous (if mysterious) manufacture.
-      
-      AVAILABILITY: Standard issue for Warborn cohorts; extremely rare in civilian hands. 
-      A Colonel-Hereditary might inherit one as a status symbol. Authentication systems 
+      Pre-Interdict weapon firing superheated plasma from magnetic containment. The
+      violet glow visible through the barrel housing is plasma held in suspension
+      until discharge. Matte black casing, brutal simplicity, chevron venting
+      pattern. Ergonomics assume hands larger than baseline human.
+
+      Manufactured at the Furnaces in ya-Don—process inherited rather than
+      understood, not archaeotech salvage but continuous production. Standard
+      issue for Warborn cohorts; extremely rare in civilian hands. A Colonel-
+      Hereditary might inherit one as a status symbol. Authentication systems
       prevent unauthorized use.
     related: [Weapon, Warborn, Furnaces, Culverin]
   # ─── end Beamcaster ───
@@ -3104,18 +3183,19 @@ entries:
   # ═══ Black Door ═══
   Black Door:
     category: location
-    short: Portal to Imperial Apartments at the deepest point of temporal compression.
+    short: Light-absorbing portal to Imperial Apartments—those who enter are never seen again.
     details: |
-      At the center of the First Whorl, where compression exceeds 120:1, stands the
-      Black Door. The Door is actual black—not dark bronze, not shadow, but light-
-      absorbing absence. It has no visible hinges, no handle, no mechanism. It opens
+      At the center of the First Whorl, where compression exceeds one hundred twenty
+      to one, stands the Black Door. Actual black—not dark bronze, not shadow, but
+      light-absorbing absence. No visible hinges, no handle, no mechanism. It opens
       when the Emperor wills it. When it opens, a name is called.
 
-      Those who pass through are never seen again. Seventeen have entered in Sri Avs
-      Tariq's 85 subjective years of service (representing ~10,200 external years).
-      Their families became permanently Aureate—not the ordinary status requiring
-      continued service, but something irrevocable. Patents secured through the Black
-      Door do not expire. Whatever transaction occurs purchases eternity.
+      Those who pass through are never seen again. Seventeen have entered during
+      Sri Avs Tariq's eighty-five subjective years of service—representing over ten
+      thousand external years. Their families became permanently Aureate, not the
+      ordinary status requiring continued service but something irrevocable. Patents
+      secured through the Black Door do not expire. Whatever transaction occurs
+      purchases eternity.
 
       The Antechamber of Unverified Receipt lies just outside—the final processing
       station where missives emerge from the Imperial Apartments.
@@ -3143,16 +3223,19 @@ entries:
   # ═══ Blood-Tree ═══
   Blood-Tree:
     category: organism
-    short: "Engineered trees lining Central Valley watercourses—towering trunks, dark red canopy."
+    short: Pre-Interdict engineered trees with dark red canopies—line watercourses throughout Central Valley.
     details: |
-      Pre-Interdict engineered vegetation. Baobab-scale trunks (30-50 feet circumference) rising 
-      to 80-100 feet, spreading umbrella canopies of dark red foliage. Line watercourses 
-      throughout the Central Valley, especially around ya-Don and St. Brennam's Garden. 
-      Roots stabilize irrigation channels; canopy provides shade along agricultural routes.
-      
-      The red coloration comes from modified photosynthetic pigments—the trees process 
-      light differently than unengineered species. Nobody knows their original purpose 
-      or how to cultivate new ones; existing populations self-maintain along watercourses.
+      Engineered vegetation on overwhelming scale. Trunks thirty to fifty feet in
+      circumference, bulbous like baobabs but taller, rising eighty to one hundred
+      feet to umbrella canopies of dark red foliage. They line watercourses
+      throughout the Central Valley, visible from miles away, marking where water
+      flows through ochre earth.
+
+      The red coloration comes from modified photosynthetic pigments—the trees
+      process light differently than unengineered species. No one knows their
+      original purpose or how to cultivate new ones. Existing populations self-
+      maintain along the channels. They were here before us. They will be here
+      after.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, St. Brennam's Garden]
     aesthetic_features:
@@ -3187,13 +3270,15 @@ entries:
   # ═══ Booksellers' Row ═══
   "Booksellers' Row":
     category: location
-    short: "Guild street at Archive Gate—first Medina territory visitors from Rotten Quarter encounter."
+    short: Guild street at Archive Gate—first Medina territory visitors from the Rotten Quarter encounter.
     details: |
-      ~300m long, boundaries marked by bronze plaques with deep antiquity patina. 
-      Booksellers' Guild (~80 members, 23 licensed shops) holds exclusive retail 
-      rights. Many's primary countinghouse positioned where anyone bringing value 
-      from Iron Yards, Middens, or Ridge must pass. Ta-Kefyeh maintain queue order.
-      The Archive Gate now takes its name from this street.
+      Three hundred meters long, boundaries marked by bronze plaques with deep
+      antiquity patina. The Booksellers' Guild—eighty members, twenty-three
+      licensed shops—holds exclusive retail rights.
+
+      Many's primary countinghouse sits where anyone bringing value from Iron
+      Yards, Middens, or Ridge must pass. The ta-Kefyeh maintain queue order.
+      The Archive Gate itself takes its current name from this street.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [Old Customs, Many, Archive Gate, Booksellers' Guild, Ta-Kefyeh]
     location_features:
@@ -3213,12 +3298,16 @@ entries:
   # ═══ City of Glass ═══
   City of Glass:
     category: location
-    short: "Technical Caste quantum computer with unknown defensive capabilities."
+    short: Technical Caste facility of unknown purpose—ended the Malpais War through mysterious intervention.
     details: |
-      Site of mysterious intervention ending the Malpais War in 772 Red Hawk. 
-      Nobody knows what it did or why. The facility sits somewhere in the 
-      Steaming Sky Province, its exact location shifting in reports—whether 
-      through deliberate obscuration or actual spatial anomaly remains unclear.
+      Something ended the Malpais War in 772 Red Hawk. The intervention came
+      from a facility called the City of Glass, somewhere in Steaming Sky
+      Province. No one knows what it did or why. The exact location shifts
+      in reports—whether through deliberate obscuration or actual spatial
+      anomaly remains unclear.
+
+      Presumably a quantum computer of some kind. Presumably still operational.
+      The Technical Castes do not discuss it.
     rag_pointer: Index
     related: [Malpais War, Technical Castes, Steaming Sky Province]
     location_features:
@@ -3234,12 +3323,20 @@ entries:
   # ═══ Coolant District ═══
   Coolant District:
     category: location
-    short: "Bureau of the Rod enclave—ya-Sattra architecture imposed, alien to the surrounding city."
+    short: Bureau of the Rod enclave in ya-Don—colonial architecture making no concession to local tradition.
     details: |
-      ~8,000 residents. Institute of Flow headquarters. es-Vorath family compound. 
-      Colonial architecture: built for bodies that cannot tolerate Central Valley 
-      heat, making no concession to local tradition. The district announces that 
-      its residents are from elsewhere and intend to remain comfortable.
+      Eight thousand residents. The Institute of Flow headquarters coordinates
+      the Furnaces' cooling systems from here; the es-Vorath family maintains
+      a compound bridging this district and the Aureate Enclave.
+
+      Colonial architecture: ya-Sattra styles imported without adaptation,
+      coastal grey stone instead of local tan, buildings that would look at
+      home in the Medina Quarter and look deeply wrong in ya-Don. The district
+      maintains temperatures twenty degrees cooler than its surroundings. The
+      transition at the boundary is physically noticeable.
+
+      The architecture announces that its residents are from elsewhere and
+      intend to remain comfortable.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Bureau of the Rod]
     location_features:
@@ -3298,13 +3395,16 @@ entries:
   # ═══ Institute of Flow Headquarters ═══
   Institute of Flow Headquarters:
     category: location
-    short: "Bureau of the Rod technical facility coordinating ya-Don's cooling systems."
+    short: Physical headquarters coordinating Furnace cooling systems—the es-Vorath power base.
     details: |
-      The physical headquarters of the Institute of Flow, located in the Coolant District.
-      Coordinates cooling system patents essential for Furnace operation. The building
-      demonstrates what climate control can achieve with unlimited resources—twenty
-      degrees cooler than surrounding ya-Don. Connects to the es-Vorath compound,
-      reflecting the family's control of the Institute.
+      The Institute of Flow's physical headquarters in the Coolant District. The
+      building coordinates cooling system patents essential for Furnace operation
+      and demonstrates what climate control can achieve with unlimited resources—
+      twenty degrees cooler than surrounding ya-Don.
+
+      The building connects directly to the es-Vorath compound, reflecting the
+      family's control of the Institute and their position bridging Bureau
+      interests and local power.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Institute of Flow, Coolant District, es-Vorath, Bureau of the Rod, Furnaces]
     location_features:
@@ -3322,8 +3422,17 @@ entries:
   # ═══ Czernaël ═══
   Czernaël:
     category: location
-    short: Dock precinct handling ship unloading in Asovoë.
-    details: Democratic council governance with rotating leadership. Controls when cargo leaves ships. Staffs the San Juan factorias alongside Kolaëvin.
+    short: Asovoë dock precinct—cargo moves when they say, ships wait on their schedule.
+    details: |
+      Autofactory dock infrastructure scaled for fleets that no longer exist.
+      Cranes and gantries at wrong proportions, void-black structures against
+      grey water and grey sky. Aurora-bright Avouvar move across the platforms
+      in fabric weather shelters against the cold wet wind.
+
+      Democratic council governance with rotating leadership. They control when
+      cargo leaves ships—leverage over all trade entering Asovoë. The harbor
+      freezes in winter; ships must time their arrivals carefully. Foreign
+      vessel colors are the only non-Avouvar hues in the precinct.
     rag_pointer: Asovoë and the Avouvar
     related: [Asovoë, Kolaëvin]
     location_features:
