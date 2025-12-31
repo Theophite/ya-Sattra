@@ -14,6 +14,16 @@ Usage:
     scenario_initiator.py --card          # Just draw a Tarot card
     scenario_initiator.py --list-cards    # Show all available cards
 
+Term Selection:
+    --term <name>       Use a specific glossary entry instead of random
+    --parent <name>     Draw randomly from children of a parent location/org
+    --category <cat>    Filter to category (location, caste, organization, etc.)
+
+    Examples:
+        scenario_initiator.py --word --term "The Dam"
+        scenario_initiator.py --word --parent "ya-Sattra"
+        scenario_initiator.py --draw --parent "Medina Quarter"
+
 Multi-Draw Workflow (for Claude):
     The --draw command presents 3 tarot cards and 5 glossary terms. After receiving
     the draw, you should:
@@ -141,14 +151,15 @@ def draw_multiple_cards(n=3, reversed_chance=0.3):
 # RANDOM GLOSSARY TERM
 # =============================================================================
 
-def get_random_word(category=None, weighted=True):
+def get_random_word(category=None, parent=None, weighted=True):
     """
     Pull a random word from the glossary.
-    
+
     Args:
         category: Optional filter (caste, location, organization, concept, etc.)
+        parent: Optional parent name - draw from children of this entry
         weighted: If True, favor entries with richer content (longer details, more related terms)
-    
+
     Returns:
         Tuple of (term, entry) or (term, None) if glossary unavailable
     """
@@ -171,11 +182,22 @@ def get_random_word(category=None, weighted=True):
         from input_check import SPECIAL_TERMS
         term = random.choice(list(SPECIAL_TERMS))
         return (term.title(), None)
-    
+
+    # Filter by parent if specified (get children of parent)
+    if parent:
+        try:
+            children = G.get_children(parent)
+            if children:
+                entries = children
+            else:
+                print(f"Warning: No children found for parent '{parent}'", file=sys.stderr)
+        except (AttributeError, TypeError) as e:
+            print(f"Warning: Error getting children for '{parent}': {e}", file=sys.stderr)
+
     # Filter by category if specified
     if category:
         entries = [e for e in entries if e.category.lower() == category.lower()]
-    
+
     if not entries:
         return (None, None)
     
@@ -199,6 +221,40 @@ def get_random_word(category=None, weighted=True):
         entry = random.choice(entries)
     
     return (entry.term, entry)
+
+
+def draw_weighted_terms(n=5, category=None, parent=None, include_persons=False):
+    """
+    Draw multiple weighted glossary terms for scenario seeding.
+
+    Args:
+        n: Number of terms to draw
+        category: Optional category filter
+        parent: Optional parent name - draw from children of this entry
+        include_persons: If True, include person entries in the pool
+
+    Returns:
+        List of (term, entry) tuples
+    """
+    results = []
+    seen = set()
+
+    # Adjust attempts based on pool size
+    max_attempts = n * 10
+
+    for _ in range(max_attempts):
+        if len(results) >= n:
+            break
+
+        term, entry = get_random_word(category=category, parent=parent, weighted=True)
+        if term and term not in seen:
+            # Skip persons unless requested
+            if entry and entry.category == 'person' and not include_persons:
+                continue
+            seen.add(term)
+            results.append((term, entry))
+
+    return results
 
 
 def format_word_result(term, entry):
@@ -796,14 +852,33 @@ def main():
     
     # Just get a random word
     if '--word' in args:
+        # Check for specific term
+        if '--term' in args:
+            idx = args.index('--term')
+            if idx + 1 < len(args):
+                term_name = args[idx + 1]
+                entry = G.lookup(term_name) if GLOSSARY_AVAILABLE else None
+                if entry:
+                    print(f"\n{format_word_result(entry.term, entry)}")
+                else:
+                    print(f"Term '{term_name}' not found.")
+                return
+
+        # Check for parent filter
+        parent = None
+        if '--parent' in args:
+            idx = args.index('--parent')
+            if idx + 1 < len(args):
+                parent = args[idx + 1]
+
         # Check for category filter
         category = None
         if '--category' in args:
             idx = args.index('--category')
             if idx + 1 < len(args):
                 category = args[idx + 1]
-        
-        term, entry = get_random_word(category=category)
+
+        term, entry = get_random_word(category=category, parent=parent)
         if term:
             print(f"\n{format_word_result(term, entry)}")
         else:
@@ -812,9 +887,16 @@ def main():
     
     # Multi-draw for selection (new --draw behavior)
     if '--draw' in args and '--create' not in args:
+        # Check for parent filter
+        parent = None
+        if '--parent' in args:
+            idx = args.index('--parent')
+            if idx + 1 < len(args):
+                parent = args[idx + 1]
+
         # Draw 3 cards and 5 terms for selection
         cards = draw_multiple_cards(n=3)
-        terms = draw_weighted_terms(n=5, include_persons=True)
+        terms = draw_weighted_terms(n=5, parent=parent, include_persons=True)
 
         print(f"\n{format_selection_prompt(cards, terms)}")
         return
