@@ -2794,8 +2794,24 @@ entries:
   # ═══ Verification House ═══
   Verification House:
     category: location
-    short: "Patent verification services—authenticating Aureate claims and patent documentation."
-    details: Opens when es-Tsay authentication activates lectors. Processes patent verifications all day. Clerk Thessan Vor has worked here 27 years, knows which patents are actually used versus maintained for prestige.
+    short: Patent verification services—authenticating Aureate claims all day, every day, queues forming on porcelain-coral before dawn.
+    details: |
+      Functional building amid organic marvels—conventional construction
+      because the business requires accessibility. Opens when authentication
+      protocols activate the lectors each morning. Queues form on
+      porcelain-coral pavement outside while the sky is still dark,
+      petitioners waiting to prove their claims.
+
+      Inside: verification desks, stacked patent documentation, lectors
+      humming with computational work. The staff processes claims all day.
+      Some patents matter—the technologies they license actually operate,
+      actually generate revenue. Others exist for prestige alone, maintained
+      through ritual verification to demonstrate that a family could use
+      them even if they never do.
+
+      The clerks who work here for decades learn to distinguish real
+      patents from ornamental ones. That knowledge never officially exists.
+      The verification proceeds identically regardless.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, Aureate, es-Tsay]
     location_features:
