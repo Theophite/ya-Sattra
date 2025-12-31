@@ -4245,36 +4245,31 @@ entries:
   # ═══ Furnaces ═══
   Furnaces:
     category: location
-    short: Pre-Interdict industrial complex at the heart of ya-Don—the Empire's only source of new complex technology.
+    short: Pre-Interdict industrial complex at ya-Don's heart—the Empire's only source of new complex technology.
     details: |
-      Two square miles, ~80,000 workforce across three shifts. The only facility in the Empire 
-      capable of producing new complex technology. Temperature increases toward the center; 
-      inner sections require heat-adapted castes (Ashrat).
-      
-      PRIMARY OUTPUTS:
-      - Culverins: Electromagnetic infantry weapons. Produced in the Crucible (material prep) 
-        and Lattice Hall (crystalline matrices via Mutterer choir). Authentication systems 
-        built in at manufacture.
-      - Lectors: Computational/authentication devices. Inner ring production, most restricted. 
-        Requires Mutterer intervention, Verethani involvement, mysterious thermal regimes.
-      - Beamcasters: Plasma sidearms, standard Warborn issue. Pre-Interdict design, 
-        production process inherited rather than understood.
-      - Power armor components: For Warborn and specialist applications. Repairs and 
-        replacement parts; complete suits are archaeotech inheritance.
-      - Biological illumination: Two hundred tanks of bioluminescent organisms for Imperial 
-        lighting. Five tanks have died in recorded history; those capabilities are lost forever.
-      - Electronic components: Resistors, capacitors, semiconductors. The closest thing to 
-        conventional manufacturing.
-      - Cooling systems: Heat-exchange components under es-Vorath patent.
-      
-      STRUCTURE: Outer ring (storage, admin, preliminary processing), middle ring (culverin 
-      lines, component fabrication, illumination), inner ring (lector production, Mutterer 
-      chambers, ancient systems). Workers learn the geography without understanding the logic.
-      
-      CONTROL: Furnace Board (three patent families, four major guilds, Bureau of the Rod). 
-      Order of St. Akhmet holds absolute leverage—a strike shuts down the Empire's only 
-      source of new complex technology. This has happened twice; both times the Empire 
-      capitulated within weeks.
+      Two square miles, eighty thousand workforce across three shifts. The only
+      facility in the Empire capable of producing new complex technology.
+      Industrial sublime on overwhelming scale—asymmetrical domes bulging to
+      geometries baseline mathematics cannot describe, obelisk towers rising
+      three hundred feet with amber-glowing tops.
+
+      Pipe networks thread through everything, six inches to twenty feet in
+      diameter, running not just within the Furnaces but extending into the
+      surrounding city. The pipes climb over buildings, dive underground, run
+      along streets. Some are thesad—pristine after millennia, self-repairing.
+      Others are conventional bronze, oxidized to verdigris, patched where
+      they've failed. The two kinds run side by side. Nobody knows why.
+
+      Temperature increases toward the center; inner sections require Ashrat.
+      The outer ring handles storage and preliminary processing. The middle
+      ring holds culverin lines, component fabrication, the two hundred tanks
+      of bioluminescent organisms for Imperial lighting. The inner ring
+      produces lectors through processes requiring Mutterer intervention.
+      Workers learn the geography without understanding the logic.
+
+      The Order of St. Akhmet holds absolute leverage. A strike shuts down
+      the Empire's only source of complex technology. This has happened twice.
+      Both times the Empire capitulated within weeks.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Order of St. Akhmet, Culverin, Beamcaster, Lector, Bureau of the Rod]
     location_features:
@@ -4366,12 +4361,17 @@ entries:
   # ═══ Crucible ═══
   Crucible:
     category: location
-    short: "Material preparation facility for culverin production in the Furnaces' western quadrant."
+    short: Material preparation facility for culverin production—where metals become substrates through processes no one understands.
     details: |
-      Conception chambers glow in colors Orevet can see and baselines cannot. Processes
-      approximately five tons of raw material daily, transforming metals and rare earths
-      through mechanisms no worker understands into substrates for subsequent processing.
-      Workforce of ~400 across shifts; predominantly Ashrat with Orevet monitors.
+      In the Furnaces' western quadrant. Conception chambers glow in colors
+      Orevet can see and baselines cannot. Four hundred workers across shifts,
+      predominantly Ashrat with Orevet monitors.
+
+      Processes five tons of raw material daily, transforming metals and rare
+      earths through mechanisms no worker understands into substrates for
+      subsequent processing in the Lattice Hall. The workers follow procedures
+      inherited across generations. The procedures work. Why they work remains
+      unknown.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Furnaces, ya-Don, Ashrat, Orevet, Lattice Hall]
     location_features:
@@ -4387,12 +4387,17 @@ entries:
   # ═══ Primary Deposition ═══
   Primary Deposition:
     category: location
-    short: "Deep Furnace facility creating crystalline substrates for lector cores—Unwritten-Axiom Parish territory."
+    short: Deep Furnace facility creating lector core substrates—Unwritten-Axiom Parish territory, access restricted.
     details: |
-      Southeastern quadrant, deep sections. Restricted access; requires Karst workers for
-      physical access, Orevet for monitoring, and Verethani for processes their voices
-      somehow enable. Workforce of ~150, all Parish members. Temperature and depth make
-      this among the most restricted production areas in the Furnaces.
+      Southeastern quadrant, deep sections. One hundred fifty workers, all
+      Parish members. Karst for physical access through tunnels too hot and
+      cramped for others. Orevet for monitoring in spectrums baselines cannot
+      perceive. Verethani for processes their voices somehow enable—singing
+      in frequencies that affect crystalline growth.
+
+      Temperature and depth make this among the most restricted production
+      areas in the Furnaces. The substrates that emerge become lector cores.
+      How the process works remains unknown to those who perform it.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Furnaces, ya-Don, Karst, Orevet, Verethani, Unwritten-Axiom Parish]
     location_features:
