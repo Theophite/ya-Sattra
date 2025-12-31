@@ -8780,8 +8780,8 @@ entries:
     details: |
       300 feet across, 400 feet from river to top. Built from grey material that looks like 
       stone but isn't—harder than granite, smooth to the touch, impervious to weathering. 
-      The builders' purposes are unknown; current residents adapted what they found. Turbines 
-      re-engineered decades before the Revolution. Provides power too cheap to meter—workshops 
+      The builders' purposes are unknown; current residents adapted what they found. Ganati-made
+      turbines installed in 952, eleven years before the Revolution. Provides power too cheap to meter—workshops 
       operate 24 hours because stopping costs opportunity. Working-class warrens honeycomb 
       the surrounding sandstone, tunnels terminating inside the Dam itself.
     rag_pointer: The Republic of Ganat, Ganat and the Yarangar War
@@ -8799,7 +8799,7 @@ entries:
         - 24-hour industrial operation
         - Working-class warrens
       real_world_anchor: "Glen Canyon (Ganat proper)"
-    local_aesthetic: "Antediluvian mystery amid carved sandstone. The Dam itself is grey material—NOT sandstone, NOT any stone Republicans understand. Harder than granite, smooth to the touch, showing no weathering despite unknown age. Perhaps it stored water. Perhaps it generated power. Perhaps it was something else entirely. The turbines inside are modern—re-engineered decades before the Revolution, spinning continuously, generating power too cheap to meter. Workshops carved into surrounding sandstone operate 24 hours: hammers on metal, electric saws, looms clacking, the constant background of turbines and flowing water. The smell: hot metal, chemicals, sawdust, human sweat, machine oil, ozone. Working-class warrens honeycomb the rock around it—tunnels branching from the Dam into the cliff, chambers carved every 20 feet, bright salmon sandstone visible under electric light."
+    local_aesthetic: "Antediluvian mystery amid carved sandstone. The Dam itself is grey material—NOT sandstone, NOT any stone Republicans understand. Harder than granite, smooth to the touch, showing no weathering despite unknown age. Perhaps it stored water. Perhaps it generated power. Perhaps it was something else entirely. The turbines inside are Ganati-made—installed in 952, eleven years before the Revolution, spinning continuously, generating power too cheap to meter. Workshops carved into surrounding sandstone operate 24 hours: hammers on metal, electric saws, looms clacking, the constant background of turbines and flowing water. The smell: hot metal, chemicals, sawdust, human sweat, machine oil, ozone. Working-class warrens honeycomb the rock around it—tunnels branching from the Dam into the cliff, chambers carved every 20 feet, bright salmon sandstone visible under electric light."
   # ─── end The Dam ───
 
   # ═══ Working-Class Warrens ═══
