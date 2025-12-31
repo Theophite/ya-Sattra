@@ -1446,12 +1446,25 @@ entries:
   # ═══ Refugee Castes ═══
   Refugee Castes:
     category: caste
-    short: "Three castes who fled ya-Tsovez 10,000 years ago and settled in Puget Sound."
+    short: Three castes who fled ya-Tsovez ten millennia ago—now isolated remnant populations in Puget Sound fishing villages.
     details: |
-      The Völërath (diminished Highborn), Szkovërin (furnace workers), and Draëthen 
-      (engineering laborers) fled the contamination of ya-Tsovez carrying autofactory 
-      seeds. They planted what they could not control and settled in fishing villages. 
-      Three parallel populations sharing territory but not bloodlines.
+      The Völërath (diminished Highborn), Szkovërin (furnace workers), and
+      Draëthen (engineering laborers) fled together when ya-Tsovez fell to
+      contamination. They carried autofactory seeds, planted what they could
+      not fully control, and settled in fishing villages. Three populations
+      sharing territory but biologically incompatible—intermarriage produces
+      no offspring.
+
+      Ten thousand years of isolation have left marks. The gene pools are
+      narrow. Hereditary conditions concentrate in each population. They
+      speak a dialect that preserves ya-Tsovez vocabulary mixed with Akama
+      loanwords accumulated over generations of trade. The Empire's main
+      population barely understands them.
+
+      They work the autofactories their ancestors planted, sorting raw output
+      into usable goods. They process metal, manage harbors, fish the waters.
+      Each caste maintains its own villages, its own traditions, its own
+      understanding of what it meant to flee and what it means to remain.
     rag_pointer: "The Volerath of Puget Sound"
     related: [Völërath, Szkovërin, Draëthen, Asovoë]
     caste_features:
