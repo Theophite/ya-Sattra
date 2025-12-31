@@ -1920,11 +1920,19 @@ entries:
   # ═══ Verethani ═══
   Verethani:
     category: caste
-    short: "Endogamous Highborn families without Compulsion, essential to ya-Don Furnace operations."
+    short: Endogamous Highborn families whose voices cannot Compel. Required for ya-Don Furnace operations.
     details: |
-      Five Highborn families (Vereth, Somnal, Tessik-Vor, Keth-Ascending, Dwell-Silent) 
-      whose voices enable critical production processes but cannot Compel. Do not appear 
-      in Creche records. Origins unknown.
+      Five Highborn families: Vereth, Somnal, Tessik-Vor, Keth-Ascending,
+      Dwell-Silent. Voices enable deep-section Furnace processes but cannot
+      Compel—none ever have, none ever could. Beautiful and persuasive, but
+      lacking the neurological override.
+
+      Breed only with each other. Marriages follow patterns suggesting genetic
+      management. Do not appear in Bureau of the Creche records. Origins unknown—
+      lineage predates documentation.
+
+      Perform vocal functions at scheduled intervals. Do not explain what they
+      do or why it matters.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Highborn, Unwritten-Axiom Parish, ya-Don]
     caste_features:
@@ -1956,11 +1964,22 @@ entries:
   # ═══ Völërath ═══
   Völërath:
     category: caste
-    short: "Diminished Highborn of Puget Sound, tall but unable to Compel."
+    short: Diminished Highborn of Puget Sound. Cannot Compel but conduct themselves as if memory of it confers authority.
     details: |
-      What remains of Highborn blood after 10,000 years of dilution and isolation. 
-      Fled ya-Tsovez during the slave revolt. Average ~6'6" (down from ancestors' 
-      9 feet). Cannot Compel but remember that they once could.
+      What remains of Highborn blood after ten thousand years of dilution and
+      isolation. Fled ya-Tsovez during the slave revolt. Average six foot six—
+      down from ancestors' nine feet. Necks extend two to three inches longer
+      than baseline. Fingers thin and overlong. Skull extends slightly at back.
+      Bloodless pallor, lips holding bluish cast even in health.
+
+      Cannot Compel—capacity lost within centuries of flight. Conduct themselves
+      as if memory of Compulsion confers authority. Maintain ledgers recording
+      every slight across decades. Lifespan approximately one hundred forty years,
+      longer than baseline but far less than Highborn ancestors.
+
+      Severe inbreeding. Marry only each other. Progressive hearing loss through
+      middle age; elaborate gesture-language for the elderly. Hatred between
+      villages is administrative, not passionate.
     rag_pointer: "The Volerath of Puget Sound, Castes of Mankind"
     related: [Highborn, Szkovërin, Draëthen, Refugee Castes]
     caste_features:
@@ -2002,11 +2021,22 @@ entries:
   # ═══ Szkovërin ═══
   Szkovërin:
     category: caste
-    short: "Heavy-metal-tolerant furnace workers of the Puget Sound caste-villages."
+    short: Heavy-metal-tolerant furnace workers of Puget Sound. Immune to mercury but toxic to everything around them.
     details: |
-      Descendants of ya-Tsovez furnace workers. Short and broad, engineered for 
-      extreme heat and heavy metal exposure. Immune to mercury poisoning but 
-      excrete accumulated toxins—settlements must be segregated.
+      Descendants of ya-Tsovez furnace workers. Short and broad—men five foot
+      four, women slightly less. Barrel chest, thick limbs, disproportionately
+      large hands. Reddish skin undertone intensifying with temperature. Visible
+      vascular tracery. Run warm, comfortable in near-freezing with a single layer.
+
+      Immune to heavy metal poisoning. Livers process mercury. But they excrete
+      accumulated toxins—even their waste is toxic to baseline humans. Settlements
+      segregated on bare promontories separated from water catchments. Soil grey
+      with accumulated toxins. Nothing grows.
+
+      Tremors begin around seventy, sometimes earlier. Gums recede, teeth loosen.
+      Mood shifts—irritability, rages, unpredictable depressions. Perhaps twenty
+      years after tremors begin, death. Bodies rendered in sealed furnaces. Ash
+      interred in toxic repositories carved in bare rock.
     rag_pointer: "The Volerath of Puget Sound, Castes of Mankind"
     related: [Labor Castes, Völërath, Draëthen, Refugee Castes]
     caste_features:
@@ -2049,8 +2079,25 @@ entries:
   # ═══ Warborn ═══
   Warborn:
     category: caste
-    short: Combat-specialized castes with rapid regeneration and severe metabolic dysfunction.
-    details: ""
+    short: Combat-specialized castes with rapid regeneration. No Warborn reaches forty—cancer is universal and inevitable.
+    details: |
+      Standard infantry stands nine feet tall. Massive musculature, reinforced
+      bone, dark skin stretched over structures designed to absorb and deliver
+      punishment. Bald scalp with nodular texture—bony protrusions visible
+      beneath skin. Radiates heat constantly; body struggles to dissipate
+      thermal energy.
+
+      The Blink: autonomic violence response bypassing conscious decision.
+      Eyes shift, body moves, fighting before deciding to fight. Can learn
+      to suppress it, but imperfectly.
+
+      Requires six meals daily. Three days without food means combat-ineffective.
+      Rapid cellular regeneration produces malignancy. Tumors start in the
+      mid-thirties. No Warborn reaches forty.
+
+      Cloned in the Hall of Mothers. Anencephalic Warborn clones serve as
+      ta-kefyeh hosts—bodies without minds, sparing sapient beings the
+      parasitic attachment.
     rag_pointer: Castes of Mankind, Bureau of the Sword
     related: [Bureau of the Sword, Ironbone Warborn, The Blink, Hall of Mothers]
     caste_features:
@@ -2097,17 +2144,16 @@ entries:
   # ═══ Akama District ═══
   Akama District:
     category: location
-    short: "Northeastern section of ya-Tsatsa's Upper City—where outsiders can find lodging."
+    short: Northeastern section of ya-Tsatsa's Upper City—where outsiders can find lodging.
     details: |
       The only part of Upper City with street names and lodging accepting outsiders.
       Where Akama traders from the Thousand Kingdoms have established presence over
-      generations. White-gray quartz diorite construction like all ya-Tsatsa, but with
-      signs, posted prices, accommodation to outside expectations—the city's concession
-      to comprehensibility.
+      generations. White-gray quartz diorite construction like all ya-Tsatsa, but
+      with signs, posted prices, accommodation to outside expectations—the city's
+      concession to comprehensibility.
 
-      Gorat Windborne, legendary figure, maintains trading presence here for the Ezh Ot
-      family's Akama auxiliary bands. The climb from Lower City takes forty minutes;
-      visitors make it morning and evening to conduct business below and sleep above.
+      The climb from Lower City takes forty minutes. Visitors make it morning and
+      evening to conduct business below and sleep above.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [ya-Tsatsa, Akama, Upper City, Lower City]
     location_features:
