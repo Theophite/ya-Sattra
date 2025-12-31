@@ -5104,23 +5104,22 @@ entries:
   # ═══ Mor Band ═══
   Mor Band:
     category: organization
-    short: "Highland pastoral band—~1,100 Uliqs, lost territory to the Kelar, now sells them milk at fair prices."
+    short: Highland pastoral band—lost territory to the Kelar, now sells them milk at fair prices.
     details: |
-      Roughly 250 families ranging territory significantly reduced from pre-revolutionary
-      holdings. Lost the best summer meadows, most reliable water sources, sheltered
-      valleys where winter survival was easiest. What remains is marginal even by
-      highland standards.
+      Eleven hundred Uliqs, two hundred fifty families, ranging territory
+      significantly reduced from pre-revolutionary holdings. Lost the best
+      summer meadows, reliable water sources, sheltered valleys where winter
+      survival was easiest. What remains is marginal even by highland
+      standards.
 
-      They sell milk to the Kelar at fair prices—their primary cash income. The irony
-      is apparent to everyone and discussed by no one: the band that lost the revolution
-      now sustains itself by supplying the band that won. Through the Highland Graziers'
-      Association, they hold the confederation's Senate seat via Yela Mor.
+      They sell milk to the Kelar at fair prices—their primary cash income.
+      The irony is apparent to everyone and discussed by no one: the band
+      that lost the revolution now sustains itself by supplying the band
+      that won. Through the Highland Graziers' Association, they hold the
+      confederation's Senate seat via Yela Mor.
 
-      The revolution: Supported the Sultana because continuity served their interests.
-      They'd spent a generation expanding into Kelar territory through patient pressure.
-      Republican victory meant territorial restoration for the Kelar, loss for the Mor.
-      They accepted the settlement because resistance was impossible—Republican forces
-      controlled High Junction, the Kelar had Guard connections.
+      Supported the Sultana because continuity served their interests.
+      Accepted the settlement because resistance was impossible.
     rag_pointer: "The Republic of Ganat"
     related: [Southern Highland Bands, Highland Graziers' Association, Yela Mor, Kelar Band, Uliq]
     caste_features:
@@ -5131,24 +5130,22 @@ entries:
   # ═══ Yela Mor ═══
   Yela Mor:
     category: person
-    short: "Senator for Highland Graziers' Association—forty, inherited the seat, navigates between commercial and pastoral interests."
+    short: Senator for Highland Graziers' Association—inherited the seat, navigates between commercial and pastoral interests.
     details: |
-      Never wanted the Senate seat. Her father Bekran Mor held it for nine years;
-      when he died of winter fever three years ago, the Association's dynamics
-      required a Mor successor. She accepted because the alternative was watching
-      her band's political voice pass to commercial interests entirely.
+      Forty years old. Never wanted the Senate seat. Her father held it for
+      nine years; when he died of winter fever, the Association's dynamics
+      required a Mor successor. She accepted because the alternative was
+      watching her band's political voice pass to commercial interests.
 
-      Votes Dusk on most issues—not from ideological commitment but practical
-      calculation. Dawn controls institutions that might further reduce Mor territory;
-      Dusk merchant interests benefit from stable pastoral production. The commercial
-      members expect Dusk alignment; the pastoral members expect her to remember
-      they lost a war.
+      Votes Dusk on most issues—not from ideology but practical calculation.
+      Commercial members expect Dusk alignment; pastoral members expect her
+      to remember they lost a war.
 
-      Her most delicate task: managing the milk trade with the Kelar. The Association's
-      commercial members profit enormously from Kelar cheese. If pastoral grievances
-      disrupted that trade, commercial members would withdraw, leaving Mor, Tal-Yem,
-      and Sek without representation. She coordinates informally with Temad Kelar on
-      shared pastoral issues, knowing half her coalition would object if they understood.
+      Her most delicate task: managing the milk trade with the Kelar. If
+      pastoral grievances disrupted that trade, commercial members would
+      withdraw, leaving Mor, Tal-Yem, and Sek without representation. She
+      coordinates informally with Temad Kelar on shared issues, knowing half
+      her coalition would object if they understood.
     rag_pointer: "The Republic of Ganat"
     related: [Mor Band, Highland Graziers' Association, Southern Highland Bands, Temad Kelar, Dusk Party]
     character_features:
