@@ -1336,8 +1336,27 @@ entries:
   # ═══ Ranga ═══
   Ranga:
     category: caste
-    short: Forest-adapted colonist caste with chameleonic skin.
-    details: ""
+    short: Forest-adapted colonists with chameleonic skin—whorled color patterns, heavy brows, large amber eyes, pointed ears.
+    details: |
+      The skin is the first thing outsiders notice: whorled, swirling patterns
+      that shift color to match surroundings. Forest palette dominates—blues,
+      greens, earth tones, oranges—though the range depends on individual
+      genetics. Heavy brow ridges shade large yellow-amber eyes adapted for
+      low light. Prominent pointed ears, wide noses, strong jaws. Many wear
+      their hair in thick dreadlocks; some add scarification that follows
+      their skin's natural whorling.
+
+      The camouflage is real but requires practice. Genetics provide the
+      capability; control comes through training. Children show color-shifting
+      from birth, but full camouflage takes years to master. A skilled adult
+      can press against bark or settle into foliage and become nearly
+      invisible—not magic, just pigment cells responding to neural commands
+      developed through repetition until the process becomes automatic.
+
+      They were engineered for forest world colonization. Their home is
+      Yarangar. Some came to other cities as refugees, carrying with them
+      a body designed for canopy and shadow, adapted now to environments
+      that offer neither.
     rag_pointer: Castes of Mankind, Ganat and the Yarangar War
     related: [Colonist Castes, Yarangar, Teval Okhem]
     caste_features:
