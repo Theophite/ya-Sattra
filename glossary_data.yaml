@@ -11847,11 +11847,11 @@ entries:
       seminary education. Emerged not as comfortable Orthodox clergy but as firebrand
       who administered charitable donations directly to the poor.
 
-      When the five who hadn't participated in the assassination voted on whether to
-      join Senna, Kaleb voted yes. His seminary patron Sekha Teph-Orim voted no. Their
-      friendship survived—a testament to something neither fully explains. Shortly
-      after, reactionaries took his left arm. Before fully healed, he took up a pistol
-      and led cavalry charges in the eastern campaigns.
+      When five revolutionary leaders voted on whether to join Senna's fait accompli
+      after the 963 assassination, Kaleb voted yes. His seminary patron Sekha Teph-Orim
+      voted no—the lone dissenter who would found the loyal opposition. Their friendship
+      survived. Shortly after, reactionaries took his left arm. Before fully healed, he
+      took up a pistol and led cavalry charges in the eastern campaigns.
 
       Now leads the Ganati Penitent Church, broadcasts weekly homilies reaching every
       settlement with telegraph service. Privately uncomfortable with how politicized
@@ -11888,8 +11888,8 @@ entries:
       The defining trait: refuses to admit he's wrong. Every principled gamble worked—
       until believing he could govern without compromise. The same trait that saved him
       from becoming a monster prevented him becoming a statesman.
-    rag_pointer: "Cloud Temple Band"
-    related: [Cloud Temple Band, Far Ib, Ganat, Rasma Dhal-Setil, Patriarch Kaleb, Ministry of War]
+    rag_pointer: "The Republic of Ganat; Cloud Temple Band"
+    related: [Cloud Temple Band, Far Ib, Ganat, Rasma Dhal-Setil, Patriarch Kaleb, Ministry of War, Sultana Ulayah, Yarangar War]
   # ─── end Kelso Senna ───
 
   # ═══ Yem azh-Khen ═══
@@ -11910,17 +11910,17 @@ entries:
       industrial labor organization—Yem handling logistics, Kaleb providing theological
       framework. This division of labor persists.
 
-      When the five voted, Yem voted yes without hesitation. His contribution to the
-      constitutional negotiations was the land grant system: the Sultana promised
-      pensions and failed to deliver; the Republic would promise land and actually
-      provide it. The feedback loop was intentional—military service produces landowners
+      When five revolutionary leaders voted on whether to join Senna's 963 coup, Yem
+      voted yes without hesitation. His contribution to the constitutional negotiations
+      was the land grant system: the Sultana promised pensions and failed to deliver;
+      the Republic would promise land and actually provide it. The feedback loop was intentional—military service produces landowners
       who vote Dawn, supporting military funding that enables further recruitment.
 
       He has refused the Senate consistently. "Someone has to do the work." What he
       means: holding formal office would constrain his ability to operate across
       partisan lines.
     rag_pointer: "The Republic of Ganat"
-    related: [Ganat, Dawn Party, Republican Veterans' Congress, Patriarch Kaleb, Kilit]
+    related: [Ganat, Dawn Party, Republican Veterans' Congress, Patriarch Kaleb, Kilit, Kelso Senna, Yarangar War]
   # ─── end Yem azh-Khen ───
 
   # ═══ Yeweso Dhal-Teren ═══
@@ -11940,8 +11940,8 @@ entries:
       Sultana's authority derived from kilit recognition rather than divine right.
       If the kilits withdrew recognition, the monarchy had no foundation.
 
-      When the five voted, Yeweso voted yes—though his participation in revolutionary
-      violence remained theoretical. He wrote pamphlets, not tactical plans. He
+      When five revolutionary leaders voted on whether to join Senna's 963 coup, Yeweso
+      voted yes—though his participation in revolutionary violence remained theoretical. He wrote pamphlets, not tactical plans. He
       drafted significant portions of the constitutional text, adapting kilit-zem-kilitam
       procedures into republican form. The standing rules governing Senate procedure
       derive largely from his work.
@@ -11950,7 +11950,7 @@ entries:
       theory; they provided action. As colleagues note, "the conscience the Republic
       honors and ignores"—producing analyses everyone praises and no one implements.
     rag_pointer: "The Republic of Ganat"
-    related: [Ganat, Taho, Dawn Party, Rasma Dhal-Setil, Kilit, Senate]
+    related: [Ganat, Taho, Dawn Party, Rasma Dhal-Setil, Kilit, Senate, Kelso Senna, Kilit-zem-kilitam]
   # ─── end Yeweso Dhal-Teren ───
 
   # ═══ Sekha Teph-Orim ═══
@@ -11971,7 +11971,8 @@ entries:
       theory beyond commercial applications. Built the revolutionary coalition's social
       infrastructure without understanding what she was building.
 
-      When the five voted, Sekha was the only one who said no. Not because she loved
+      When five revolutionary leaders voted on whether to join Senna's 963 coup, Sekha
+      was the only one who said no. Not because she loved
       Ulayah—she didn't—but because assassination wasn't what she'd worked toward.
       She wanted constitutional monarchy, not regicide. The other four voted yes.
       She spent the revolution under house arrest, monitored by friends she had
@@ -11981,7 +11982,7 @@ entries:
       old order for Dawn, too principled for Dusk's cynics. Kaleb voted yes when she
       voted no. Their friendship survived.
     rag_pointer: "The Republic of Ganat"
-    related: [Ganat, Dusk Party, Patriarch Kaleb, Rasma Dhal-Setil, Senate, Kilit]
+    related: [Ganat, Dusk Party, Patriarch Kaleb, Rasma Dhal-Setil, Senate, Kilit, Kelso Senna, Sultana Ulayah]
   # ─── end Sekha Teph-Orim ───
 
   # ═══ Rasma Dhal-Setil ═══
@@ -11998,7 +11999,7 @@ entries:
       indicates established lineage with kilit affiliation. Family compound in High
       Junction.
     rag_pointer: "The Republic of Ganat"
-    related: [Khatam, Serrulata, Ganat, Dawn Party, Kilit, High Junction]
+    related: [Khatam, Serrulata, Ganat, Dawn Party, Kilit, High Junction, Kelso Senna, Dhal-Setil Mercantile]
   # ─── end Rasma Dhal-Setil ───
 
   # ═══ Datho Kel el-Marwen ═══
@@ -14564,7 +14565,7 @@ entries:
     related: [Ganati Enclave, Gezu Khotan, Rabi Eloum, Yela Khen-Oris, Ganat, Dawn Party, Dusk Party, Factors' Row]
     location_features:
       level: site
-      location_type: diplomatic
+      location_type: administrative
       parent: Ganati Enclave
       primary_function: Ganati trade mission and intelligence operations
       notable_features:
@@ -15211,7 +15212,7 @@ entries:
     related: [Third Whorl, Bureau of the Lens, Interdict]
     location_features:
       level: site
-      location_type: cultural
+      location_type: monument
       parent: Third Whorl
   # ─── end The Alcazar Collection ───
 
