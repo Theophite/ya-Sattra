@@ -11226,17 +11226,18 @@ entries:
   # ═══ Vegas Springs ═══
   Vegas Springs:
     category: location
-    short: "Quasi-independent eastern trade hub built on artesian springs—controls access to March territories and beyond."
+    short: Trade city built on water no one understands—the springs predate the Republic, and so does the Guild that controls them.
     details: |
-      180,000 permanent residents, swelling to 220,000 during caravan season. Located 
-      250 miles southeast of Ganat proper. Seventeen major springs produce ~400,000 
-      gallons daily through mechanisms the Technical Castes once understood. The Water 
-      Guild predates Republic and Sultanate. Khalim Charter (965 RRH) preserved traditional 
-      privileges in exchange for Republican sovereignty. Three kilits (Provisioners, 
-      Factors, Guild Compact) rotate Senate representation—ensures autonomy, limits 
-      coalition influence. Less Serrulata-dominant than Republic overall (55% vs 65%). 
-      Commercial courts with own jurisdiction. Ancient basins carry names in forgotten 
-      languages: Tsolvarim Pool, Shekhana Cisterns, Basin of Ul-Mar-Thek.
+      Seventeen springs rise from the desert floor through mechanisms the Technical
+      Castes once understood. The Water Guild maintains them now, following procedures
+      inherited from before the Sultanate, before the Republic, before anyone remembers.
+      The basins carry names in forgotten languages. The water flows anyway.
+
+      During caravan season the city swells by a quarter—merchants heading east toward
+      the Marches, merchants returning west toward Ganat proper. The commercial courts
+      handle their disputes under charters older than Republican law. The kilits rotate
+      Senate representation to preserve autonomy. The Republic claims sovereignty. The
+      springs were here first.
     rag_pointer: The Republic of Ganat
     related: [Ganat, Marcher Territories, Kilit, Water Guild]
     location_features:
