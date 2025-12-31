@@ -2815,6 +2815,69 @@ entries:
         - "Speaking Stones (tap-language communication hub)"
   # ─── end Depths of St. Yerren ───
 
+  # ═══ St. Yerren's Shrine ═══
+  St. Yerren's Shrine:
+    category: location
+    short: "Deepest accessible worship site in the Depths—pilgrimage stop before descending to the Furnaces."
+    details: |
+      Carved around the site where the legendary Karst worker died after maintaining
+      ventilation systems in complete darkness for three days following a tunnel collapse.
+      The shrine incorporates tools he used and stone from the collapse he cleared.
+      Pilgrimage site before descending to the Furnaces' deepest sections; approximately
+      200 visitors daily.
+    rag_pointer: "Ya-Don: Comprehensive Reference"
+    related: [Depths of St. Yerren, Karst, ya-Don, Furnaces]
+    location_features:
+      level: site
+      location_type: religious
+      parent: Depths of St. Yerren
+      primary_function: Shrine and pilgrimage site
+      castes_present:
+        - Karst
+  # ─── end St. Yerren's Shrine ───
+
+  # ═══ The Deep Market ═══
+  The Deep Market:
+    category: location
+    short: "Weekly underground market in the Depths—surface merchants rarely attend."
+    details: |
+      Largest excavated commercial space in the Depths of St. Yerren. Perhaps 100 vendors
+      selling high-nutrient foods, specialized equipment, and goods suited for underground
+      life. Surface merchants rarely attend; the disorientation that tunnel systems produce
+      in non-Karst visitors makes commerce impractical. Approximately 3,000 attendees on
+      market days.
+    rag_pointer: "Ya-Don: Comprehensive Reference"
+    related: [Depths of St. Yerren, Karst, ya-Don]
+    location_features:
+      level: site
+      location_type: commercial
+      parent: Depths of St. Yerren
+      primary_function: Underground commerce
+      castes_present:
+        - Karst
+  # ─── end The Deep Market ───
+
+  # ═══ The Blind Fish ═══
+  The Blind Fish:
+    category: location
+    short: "Tavern in a natural cavern—serves fermented beverages with flavors surface brewing cannot replicate."
+    details: |
+      Early Depths residents discovered and expanded this natural cavern. Serves fermented
+      beverages produced in underground conditions. Proprietor: Stone-Echo Vell (Karst, 60s),
+      whose family has operated the establishment for five generations. The tavern's name
+      references organisms in the underground water systems; the fish themselves are
+      occasionally served as delicacies.
+    rag_pointer: "Ya-Don: Comprehensive Reference"
+    related: [Depths of St. Yerren, Karst, ya-Don]
+    location_features:
+      level: site
+      location_type: commercial
+      parent: Depths of St. Yerren
+      primary_function: Social establishment
+      castes_present:
+        - Karst
+  # ─── end The Blind Fish ───
+
   # ═══ Speaking Stones ═══
   Speaking Stones:
     category: location
@@ -3491,6 +3554,49 @@ entries:
         - "overwhelming scale (operators dwarfed)"
         - "obelisk towers (300 feet, glowing amber tops)"
   # ─── end Furnaces ───
+
+  # ═══ Crucible ═══
+  Crucible:
+    category: location
+    short: "Material preparation facility for culverin production in the Furnaces' western quadrant."
+    details: |
+      Conception chambers glow in colors Orevet can see and baselines cannot. Processes
+      approximately five tons of raw material daily, transforming metals and rare earths
+      through mechanisms no worker understands into substrates for subsequent processing.
+      Workforce of ~400 across shifts; predominantly Ashrat with Orevet monitors.
+    rag_pointer: "Ya-Don: Comprehensive Reference"
+    related: [Furnaces, ya-Don, Ashrat, Orevet, Lattice Hall]
+    location_features:
+      level: site
+      location_type: industrial
+      parent: Furnaces
+      primary_function: Culverin material preparation
+      castes_present:
+        - Ashrat
+        - Orevet
+  # ─── end Crucible ───
+
+  # ═══ Primary Deposition ═══
+  Primary Deposition:
+    category: location
+    short: "Deep Furnace facility creating crystalline substrates for lector cores—Unwritten-Axiom Parish territory."
+    details: |
+      Southeastern quadrant, deep sections. Restricted access; requires Karst workers for
+      physical access, Orevet for monitoring, and Verethani for processes their voices
+      somehow enable. Workforce of ~150, all Parish members. Temperature and depth make
+      this among the most restricted production areas in the Furnaces.
+    rag_pointer: "Ya-Don: Comprehensive Reference"
+    related: [Furnaces, ya-Don, Karst, Orevet, Verethani, Unwritten-Axiom Parish]
+    location_features:
+      level: site
+      location_type: industrial
+      parent: Furnaces
+      primary_function: Lector core substrate production
+      castes_present:
+        - Karst
+        - Orevet
+        - Verethani
+  # ─── end Primary Deposition ───
 
   # ═══ Ganat ═══
   Ganat:
@@ -4433,7 +4539,7 @@ entries:
     location_features:
       level: district
       location_type: industrial
-      parent: ya-Sattra
+      parent: Rotten Quarter
       children:
         - Salvage Dome
         - Torchline Row
@@ -5141,7 +5247,7 @@ entries:
     location_features:
       level: site
       location_type: infrastructure
-      member_of: San Juan Factorias
+      parent: San Juan Factorias
       controlling_entity: Westerners
       primary_function: Unknown
       hazards:
@@ -6156,7 +6262,7 @@ entries:
     location_features:
       level: district
       location_type: residential
-      parent: ya-Sattra
+      parent: Rotten Quarter
       children:
         - Gallows
         - Bright-Spire
@@ -6387,6 +6493,45 @@ entries:
       real_world_anchor: "Monterey Bay basin (Middens)"
     local_aesthetic: "Extends furthest into harbor water—pre-Interdict foundations jutting into the Rift, nearly amphibious. Pumping infrastructure processes water for entire district: visible, audible, the constant thrum of machinery. Boats dock at flooded lower levels. The Valve-Saint Parish occupies the overflow chamber—wheel altar surrounded by channeled water, seawater seeping through the floor during high tide. Industrial-religious fusion where water itself becomes sacred."
   # ─── end Sump-Gate ───
+
+  # ═══ Valve-Saint Parish ═══
+  Valve-Saint Parish:
+    category: location
+    short: "Penitent parish in Sump-Gate's overflow chamber—sewer-fishers, dock workers, the forgotten."
+    details: |
+      Pumping Station #7's overflow chamber, repurposed for worship. Salvaged benches face
+      the wheel altar—a four-meter valve wheel that tradition claims once saved the building
+      from catastrophic flooding. Engineers confirm it connects to nothing.
+
+      The floor uses original drainage grates. During spring tides, seawater seeps through—
+      never more than ankle-deep but enough that congregants learn appropriate footwear.
+      Above the congregation, Mutterers have colonized the machinery spaces, modifying
+      components in ways correlating with improved pump efficiency.
+
+      Curate Aram es-Thabit documents everything. Kesh Ritt rings disruption chimes hourly
+      to prevent Mutterer cascading vocalizations. Mer Hasket maintains ledgers despite
+      requiring finger-tracing. Sela Loak runs the kitchen with scarcity-learned efficiency.
+
+      Services run Tuesday and Thursday evenings, Sunday mornings—timed to shift schedules
+      and tidal patterns. Luka arrives early each Sunday, taking the same position in the
+      third row. The parish serves ~3,000 people whose documentation ranges from questionable
+      to nonexistent.
+    rag_pointer: "The Penitent Church, The Middens Tenements"
+    related: [Sump-Gate, Middens, Penitent Church, Hanged Men, Mutterers]
+    location_features:
+      level: site
+      location_type: religious
+      parent: Sump-Gate
+      population: ~3,000 congregation
+      primary_function: Penitent worship, mutual aid
+      castes_present:
+        - Sewer-Fishers
+        - Near-Baseline
+      notable_features:
+        - Wheel altar (4-meter valve wheel)
+        - Drainage grate floor (tidal flooding)
+        - Mutterer colony in machinery spaces above
+  # ─── end Valve-Saint Parish ───
 
   # ═══ Lantern-Heaps ═══
   Lantern-Heaps:
@@ -6832,7 +6977,7 @@ entries:
     location_features:
       level: site
       location_type: commercial
-      member_of: San Juan Factorias
+      parent: San Juan Factorias
       controlling_entity: Factor-Principal Szëvalötz
       primary_function: Primary trade
       castes_present:
@@ -7068,17 +7213,17 @@ entries:
     category: location
     short: "Elevated district occupying a collapsed arcology—the Rotten Quarter's respectable tier."
     details: |
-      ~1,200 residents. The Ninth Horizon Terrace fell ON ITS SIDE in antiquity—what was 
-      a 100-meter-wide arcology is now a 100-meter-high ridge. Three infrastructure families 
-      (Val, Marzen, Galen) control water, power, and information. ~90 workshops recondition 
-      archaeotech in rotated interior spaces cut up to be usable. Near-baseline population 
+      ~1,200 residents. The Ninth Horizon Terrace fell ON ITS SIDE in antiquity—what was
+      a 100-meter-wide arcology is now a 100-meter-high ridge. Three infrastructure families
+      (Val, Marzen, Galen) control water, power, and information. ~90 workshops recondition
+      archaeotech in rotated interior spaces cut up to be usable. Near-baseline population
       identifies as skilled craftspeople, not Rotten Quarter poor.
     rag_pointer: "The Ridge: Comprehensive Summary"
     related: [ya-Sattra, Middens, Iron Yards, Val Family, Marzen Family, Galen Family]
     location_features:
       level: district
       location_type: infrastructure
-      parent: ya-Sattra
+      parent: Rotten Quarter
       children:
         - Horizon Row
         - Penthouse Block
@@ -7504,7 +7649,7 @@ entries:
     location_features:
       level: site
       location_type: commercial
-      member_of: San Juan Factorias
+      parent: San Juan Factorias
       controlling_entity: Factor-Principal Körateszin
       primary_function: Akama trade
       castes_present:
@@ -7684,7 +7829,7 @@ entries:
     location_features:
       level: site
       location_type: infrastructure
-      member_of: San Juan Factorias
+      parent: San Juan Factorias
       primary_function: Quarantine inspection
       castes_present:
         - Avouvar
@@ -9849,6 +9994,103 @@ entries:
         - "St. Tenna Memorial (shrine requiring crawl to reach)"
         - "Warren Tavern (baseline visitors cannot enter upright)"
   # ─── end Warren-Under-Stone ───
+
+  # ═══ The Gathering Hall ═══
+  The Gathering Hall:
+    category: location
+    short: "Excavated communal space where the Ductworker community meets weekly."
+    details: |
+      Low ceilings, narrow entrances, chamber sized for bodies that average four feet tall.
+      Conversations sound strange to outsiders: detailed descriptions of shaft configurations,
+      debates about compression techniques, fond memories of particularly challenging crawls.
+      Approximately 2,000 attendees at major gatherings.
+    rag_pointer: "Ya-Don: Comprehensive Reference"
+    related: [Warren-Under-Stone, Ductworker, ya-Don]
+    location_features:
+      level: site
+      location_type: infrastructure
+      parent: Warren-Under-Stone
+      primary_function: Community gathering
+      castes_present:
+        - Ductworker
+  # ─── end The Gathering Hall ───
+
+  # ═══ Warren Market ═══
+  Warren Market:
+    category: location
+    short: "Small-scale commercial space serving Ductworker needs in Warren-Under-Stone."
+    details: |
+      Food vendors specializing in compact, calorie-dense meals; craftspeople producing
+      specialized tools and equipment for infrastructure maintenance. Perhaps 40 vendors;
+      the market operates on schedules that align with Ductworker work patterns.
+    rag_pointer: "Ya-Don: Comprehensive Reference"
+    related: [Warren-Under-Stone, Ductworker, ya-Don]
+    location_features:
+      level: site
+      location_type: commercial
+      parent: Warren-Under-Stone
+      primary_function: Ductworker commerce
+      castes_present:
+        - Ductworker
+  # ─── end Warren Market ───
+
+  # ═══ Warren Tavern ═══
+  Warren Tavern:
+    category: location
+    short: "Social establishment in a converted infrastructure junction—baseline visitors cannot enter upright."
+    details: |
+      Ceiling height perhaps four feet; baseline visitors cannot enter without crawling.
+      Proprietor: Quick-Squeeze Verral (Ductworker, 50s). The tavern functions as community
+      center; information shared here circulates through the Warren.
+    rag_pointer: "Ya-Don: Comprehensive Reference"
+    related: [Warren-Under-Stone, Ductworker, ya-Don]
+    location_features:
+      level: site
+      location_type: commercial
+      parent: Warren-Under-Stone
+      primary_function: Social establishment
+      castes_present:
+        - Ductworker
+  # ─── end Warren Tavern ───
+
+  # ═══ St. Tenna Memorial ═══
+  St. Tenna Memorial:
+    category: location
+    short: "Shrine to the Ductworker who died clearing a catastrophic Furnace ventilation blockage—pilgrims must crawl to reach it."
+    details: |
+      St. Tenna discovered a catastrophic blockage in the Furnaces' primary ventilation
+      system and died clearing it. The shrine is located in the passage where she worked;
+      pilgrims must crawl to reach it. Feast day observed with processions through
+      infrastructure corridors that only Ductworkers can navigate.
+    rag_pointer: "Ya-Don: Comprehensive Reference"
+    related: [Warren-Under-Stone, Ductworker, ya-Don, Furnaces]
+    location_features:
+      level: site
+      location_type: religious
+      parent: Warren-Under-Stone
+      primary_function: Shrine and pilgrimage site
+      castes_present:
+        - Ductworker
+  # ─── end St. Tenna Memorial ───
+
+  # ═══ Warren Chapel ═══
+  Warren Chapel:
+    category: location
+    short: "Parish facility serving the Warren's religious needs—theology emphasizes confined spaces as contemplative environments."
+    details: |
+      The passages as places where distraction is impossible and focus natural. The
+      theology emphasizes confined spaces as contemplative environments suited to
+      spiritual practice. Approximately 3,000 regular attendees.
+    rag_pointer: "Ya-Don: Comprehensive Reference"
+    related: [Warren-Under-Stone, Ductworker, ya-Don, Penitent Church]
+    location_features:
+      level: site
+      location_type: religious
+      parent: Warren-Under-Stone
+      primary_function: Ductworker parish
+      castes_present:
+        - Ductworker
+  # ─── end Warren Chapel ───
 
   # ═══ ya-Don ═══
   ya-Don:
