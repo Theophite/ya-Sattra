@@ -472,8 +472,18 @@ entries:
   # ═══ Ductworker ═══
   Ductworker:
     category: caste
-    short: Labor caste engineered for confined space navigation with compressible ribcage.
-    details: ""
+    short: Compressible ribcage for confined spaces; small, dark-adapted, goes where others cannot.
+    details: |
+      Under five feet tall, narrow through hips and shoulders and skull. The
+      ribcage is more cartilage than bone—it can compress to half its diameter.
+      Eyes almost all pupil, adapted for spaces where light does not reach. They
+      were made to fit.
+
+      They maintain the ducts, the ventilation systems, the access tunnels too
+      narrow for anyone else. Spaces that would suffocate a baseline worker are
+      where they do their jobs. The caste breeds true; children inherit the
+      compressible ribcage, the dark-adapted eyes. There is always more work in
+      the places no one else can reach.
     rag_pointer: Castes of Mankind
     related: [Labor Castes, Beamcrawler]
     caste_features:

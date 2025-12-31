@@ -78,7 +78,7 @@ SCOPE AND SELF-CONTAINMENT:
       - Location: spaces and what it's like to move through them
       - Organization: structure and what it's like to work within it
   • Don't invent terminology, places, or concepts that don't exist in the setting
-  • Cultural behavior, social practices, specific city structures → elsewhere
+  • Adjacent concerns belong in their own entries, not here
   • Read it back: does it sound natural? Audit for awkward phrasing.
 
 THE QUESTION: "How do we live inside it?" — never "How do we fix it?"
