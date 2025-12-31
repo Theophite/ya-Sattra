@@ -156,11 +156,25 @@ entries:
   # ═══ Ashrat ═══
   Ashrat:
     category: caste
-    short: "Heat-tolerant labor caste engineered for sustained furnace exposure."
+    short: Heat-tolerant labor caste; grey skin, furnace workers, bodies that burn faster than they should.
     details: |
-      Ya-Don's primary furnace workers. Grey skin from dermal calcium compounds 
-      that deepens with age and exposure. Silicate-compound sweat leaves permanent 
-      shimmer. Run hot, require enormous caloric intake during shifts.
+      Grey skin from dermal calcium compounds, deepening from pale ash to charcoal
+      with decades of exposure. Oily silicate secretions leave a permanent shimmer.
+      They run hot—comfortable in near-freezing with a single layer, visible vascular
+      tracery when flushed from the furnaces. Ya-Don's primary furnace workers, the
+      ones who stand where others cannot.
+
+      The body burns through itself. Six meals a day during shifts, because without
+      constant intake the metabolism begins cannibalizing muscle and organ. Off-shift,
+      Ashrat are notorious gourmands—not despite the demands of their bodies but
+      because of them. Heightened flavor sensitivity, cuisine that emphasizes
+      complexity within richness. You learn to appreciate food when your life
+      depends on eating.
+
+      Reduced lifespan, around sixty-five years. The lungs and heart wear out. Ashrat
+      culture carries this knowledge: wills updated annually, fatalism worn lightly,
+      the understanding that you will not grow old. The work matters. Someone has to
+      stand at the furnaces. They do it well.
     rag_pointer: "Castes of Mankind, Ya-Don: Comprehensive Reference"
     related: [Labor Castes, ya-Don, Order of St. Akhmet]
     caste_features:
