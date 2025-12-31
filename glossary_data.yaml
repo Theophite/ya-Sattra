@@ -5206,23 +5206,19 @@ entries:
   # ═══ Ghouram Sek ═══
   Ghouram Sek:
     category: person
-    short: "Senior Sek elder—seventy-one, fought for the Sultana, carries bitter grievance against Sek-Oum defectors."
+    short: Senior Sek elder—fought for the Sultana, carries bitter grievance against Sek-Oum defectors.
     details: |
-      Voice for Sek proper and Sek-Tal within the Highland Graziers' Association.
-      Not a Senator—Yela Mor holds that position—but carries weight in confederation
-      deliberations as senior pastoral elder. Fought for the Sultana during the
-      revolution and spent its aftermath expecting Republican retribution that never came.
+      Seventy-one years old. Voice for Sek proper and Sek-Tal within the
+      Highland Graziers' Association. Not a Senator—Yela Mor holds that
+      position—but carries weight as senior pastoral elder. Fought for the
+      Sultana during the revolution and spent its aftermath expecting
+      retribution that never came.
 
-      His politics are deeply conservative: suspicious of revolutionary ideology,
-      skeptical of Dawn promises, convinced that the Republic's formal caste-blindness
-      masks urban contempt for pastoral ways.
-
-      He loathes the Sek-Oum with an intensity that surprises even himself. The other
-      bands' losses to the Kelar were territorial—land can be mourned, compensation
-      negotiated. The Sek-Oum's betrayal was familial. They chose politics over kinship.
-      His own nephew joined the split; they haven't spoken in eighteen years. When
-      confederation business requires coordination with the Eastern Range Confederation,
-      Ghouram ensures he's never in the same room with Sek-Oum representatives.
+      He loathes the Sek-Oum with an intensity that surprises even himself.
+      The other bands' losses to the Kelar were territorial—land can be
+      mourned, compensation negotiated. The Sek-Oum's betrayal was familial.
+      They chose politics over kinship. His own nephew joined the split;
+      they haven't spoken in eighteen years.
     rag_pointer: "The Republic of Ganat"
     related: [Sek Bands, Highland Graziers' Association, Southern Highland Bands, Yela Mor]
     character_features:
