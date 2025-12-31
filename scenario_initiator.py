@@ -14,11 +14,17 @@ Usage:
     scenario_initiator.py --card          # Just draw a Tarot card
     scenario_initiator.py --list-cards    # Show all available cards
 
-Multi-Draw Selection:
-    The --draw command presents 3 tarot cards and 5 glossary terms weighted
-    by category (locations preferred) and content richness. Select one card
-    + one term combination based on narrative potential, then proceed with
-    scenario generation using your selection.
+Multi-Draw Workflow (for Claude):
+    The --draw command presents 3 tarot cards and 5 glossary terms. After receiving
+    the draw, you should:
+
+    1. SELECT the most promising card+term combination based on narrative potential
+    2. RESEARCH via glossary lookups and RAG document reads
+    3. GENERATE complete scenario including Mystery and Trajectories sections
+    4. FILL placeholder names using: python name_generator.py fill <filename>
+    5. SAVE the completed scenario without asking for confirmation
+
+    Do NOT wait for user selection - evaluate the combinations yourself and proceed.
 """
 
 import sys
