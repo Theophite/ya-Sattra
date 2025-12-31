@@ -2507,13 +2507,18 @@ entries:
   # ═══ Garden of Failures ═══
   Garden of Failures:
     category: location
-    short: "Es-Tsay pavilion displaying every inferior computing device ever produced."
+    short: Pavilion at the es-Tsay cylinder's base—every inferior computing device ever produced, displayed with sneering testimony.
     details: |
-      Surrounds the es-Tsay cylinder's base. Each device accompanied by sneering 
-      testimony of inferiority to standard lectors. Educational in unintended ways—
-      visitors trace history of computational attempts: chemical logic gates that 
-      corroded, biological processors with unexpected behaviors, mechanical calculators 
-      too slow. Curator Evenis has tended it for 37 years.
+      The es-Tsay maintain this collection as humiliation, but visitors find it
+      educational in unintended ways. Chemical logic gates green with corrosion.
+      Biological processors that developed unexpected behaviors. Mechanical
+      calculators too slow to matter. Each device accompanied by testimony
+      explaining why it fell short of standard lectors.
+
+      Walk the paths long enough and a history emerges: the attempts, the
+      failures, the approaches abandoned. Curator Evenis has tended the grounds
+      for thirty-seven years, replacing labels that fade, polishing cases that
+      dull. The collection grows slowly. Someone is always trying.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, es-Tsay, Lector]
     location_features:
