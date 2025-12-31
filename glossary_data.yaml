@@ -426,8 +426,21 @@ entries:
   # ═══ Colonist Castes ═══
   Colonist Castes:
     category: caste
-    short: Castes designed for extraterrestrial settlement, now trapped on Earth.
-    details: ""
+    short: Bodies designed for worlds they can never reach, adapted to environments that no longer exist.
+    details: |
+      The colonist castes carry the shapes of intended futures. Radiation
+      tolerance for gas giant moons. Low-gravity frames for asteroid belts.
+      Rapid reproduction for establishing footholds on hostile worlds. Every
+      adaptation optimized for somewhere else—and then the Interdict fell,
+      the ships stopped, and they found themselves trapped on a single planet
+      that was never meant to hold them.
+
+      Some found niches. The radiation-adapted claimed contaminated zones.
+      The rapid-generation settled marginal territories no one else wanted.
+      Others never fit. Their bodies remain evidence of purposes that no
+      longer exist, engineering for missions that will never launch. They
+      live with the knowledge that their fundamental design was a question
+      the universe stopped answering.
     rag_pointer: Castes of Mankind
     related: [Serrulata, Ranga, Avouvar]
     caste_features:
