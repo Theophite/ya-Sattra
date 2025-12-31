@@ -2936,12 +2936,13 @@ entries:
     category: location
     short: "Government and bureaucracy side of Glen Canyon—Senate Chamber, ministry warrens, Cathedral atop."
     details: |
-      The canyon wall hosting government, bureaucracy, and transformed wealth. Lower levels: 
-      bureaucratic warrens notoriously confusing—endless tunnels connecting offices, meeting 
-      rooms, archive storage. Mid-level: the Senate Chamber, 80 feet in diameter, revolutionary 
-      reliefs carved over monarchical scenes. Higher up: Hereditary Debtors' quarter, former 
-      slave quarters now valuable property. Atop: the Cathedral, former palace of Sultana Ulayah, 
-      now Patriarch Kaleb's seat, partially overhanging the cliff.
+      The canyon wall hosting government, bureaucracy, and transformed wealth. Lower levels:
+      bureaucratic warrens notoriously confusing—endless tunnels connecting offices, meeting
+      rooms, archive storage. Mid-level: the Senate Chamber, 150 feet across, tiered seating
+      for 750 senators, revolutionary reliefs carved over monarchical scenes. Higher up:
+      Hereditary Debtors' quarter, former slave quarters now valuable property. Atop: the
+      Cathedral, former palace of Sultana Ulayah, now Patriarch Kaleb's seat, partially
+      overhanging the cliff.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Ganat proper, Near Wall]
     location_features:
@@ -2956,7 +2957,7 @@ entries:
       borders:
         across_canyon: [Near Wall]
       real_world_anchor: "Glen Canyon (Ganat proper, government-side wall)"
-    local_aesthetic: "Power carved from stone. Lower levels: bureaucratic warrens, aggressively lit—electric bulbs every few feet, Dawn aesthetic of transparency through illumination, nothing hidden. Endless tunnels connecting offices, meeting rooms, archive storage. A petitioner might spend hours navigating. Mid-level: the Senate Chamber, circular, 80 feet in diameter, revolutionary reliefs carved 3-4 inches deep over monarchical scenes (the originals faintly visible underneath). Higher: Hereditary Debtors' quarter, former slave quarters now valuable real estate—transformed, expanded, decorated. Atop it all: the Cathedral, massive sandstone structure on the canyon rim, partially overhanging, visible from across the canyon. Art Nouveau facades carved on every accessible surface: flowing curves, figurative scenes, relief work 2-3 feet from the wall."
+    local_aesthetic: "Power carved from stone. Lower levels: bureaucratic warrens, aggressively lit—electric bulbs every few feet, Dawn aesthetic of transparency through illumination, nothing hidden. Endless tunnels connecting offices, meeting rooms, archive storage. A petitioner might spend hours navigating. Mid-level: the Senate Chamber, 150 feet across, tiered seating for 750, revolutionary reliefs carved 3-4 inches deep over monarchical scenes (the originals faintly visible underneath). The scale overwhelms—voices echo, factions cluster, the chamber defeats intimacy and enables spectacle. Higher: Hereditary Debtors' quarter, former slave quarters now valuable real estate—transformed, expanded, decorated. Atop it all: the Cathedral, massive sandstone structure on the canyon rim, partially overhanging, visible from across the canyon. Art Nouveau facades carved on every accessible surface: flowing curves, figurative scenes, relief work 2-3 feet from the wall."
   # ─── end Far Wall ───
 
   # ═══ Bureaucratic Warrens ═══
@@ -3489,7 +3490,7 @@ entries:
         - "working-class warrens: tunnels branching through sandstone, chambers carved every 20 feet, electric bulbs every 10 feet, bright salmon-colored stone visible constantly"
         - "Art Nouveau facades: 20-25 foot carved figures in flowing curves covering both canyon walls, kilit signatures identifying who carved what"
         - "stained glass cave-homes: wealthy residences with massive panels visible from across the canyon"
-        - "Senate Chamber: 80-foot circular room carved from sandstone, tiered seating, revolutionary reliefs carved over monarchical scenes"
+        - "Senate Chamber: 150-foot chamber carved from sandstone, tiered seating for 750, revolutionary reliefs over monarchical scenes, acoustics defeated by scale"
         - "perpetual illumination: the city never sleeps because power is free, streets and tunnels and warrens lit continuously"
         - "revolutionary palimpsest: new imagery carved 2-3 inches deeper over monarchical scenes, the original forms faintly visible underneath"
   # ─── end Ganat proper ───
@@ -7168,13 +7169,14 @@ entries:
   # ═══ Senate Chamber ═══
   Senate Chamber:
     category: location
-    short: "Circular chamber carved from sandstone—80 feet in diameter, revolutionary reliefs over monarchical scenes."
+    short: "Vast chamber carved from sandstone—150 feet across, tiered seating for 750 senators, revolutionary reliefs over monarchical scenes."
     details: |
-      Mid-level Far Wall. Tiered seating for 200 senators in concentric circles facing central 
-      floor. Acoustics extraordinary—a speaker talks normally and is heard throughout. The 
-      reliefs are deep-carved, 3-4 inches into sandstone, replacing earlier imagery. Look 
-      closely: smoother stone underneath, faint outlines of different compositions. Revolutionary 
-      scenes carved over monarchical tribute.
+      Mid-level Far Wall. Tiered seating for 750 senators in concentric circles facing central
+      floor. The scale defeats intimacy—factions cluster by section, Dawn in eastern tiers,
+      Dusk concentrated west. The acoustics were designed for a smaller body; 750 voices
+      overwhelm them, and sessions dissolve into competing chants, coordinated heckling,
+      demonstrations of strength through volume. The reliefs are deep-carved, 3-4 inches
+      into sandstone, replacing earlier imagery. Revolutionary scenes carved over monarchical.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Far Wall, Ganat proper]
     location_features:
@@ -7184,10 +7186,10 @@ entries:
       primary_function: Legislative assembly
       notable_features:
         - Revolutionary palimpsest
-        - Extraordinary acoustics
-        - Tiered seating for 200
+        - Scale defeats intimacy
+        - Tiered seating for 750
       real_world_anchor: "Glen Canyon (Far Wall, mid-level)"
-    local_aesthetic: "Revolutionary judgment carved in stone. Circular room 80 feet in diameter, carved from salmon sandstone. Tiered seating in concentric circles—200 senators facing the central floor where speakers stand. Acoustics extraordinary: a voice at normal volume carries to every seat; two senators arguing simultaneously create cacophony. The walls show revolutionary reliefs carved deep—3-4 inches into sandstone—over older imagery. Collective assemblies. Workers building infrastructure. Soldiers fighting together. But look closely at certain sections: smoother stone underneath, faint outlines of different compositions. The Sultana receiving tribute, now carved away. Revolutionary imagery replacing monarchical scenes, the palimpsest visible to anyone who knows to look. Electric light blazes continuously. Nothing hidden."
+    local_aesthetic: "Mass politics carved in stone. Chamber 150 feet across, carved from salmon sandstone. Tiered seating in concentric circles—750 senators filling the space, factions clustering by section. The acoustics were designed for perhaps 200; the current body overwhelms them. A voice at normal volume cannot carry—speakers shout, and sessions become contests of volume between factions. Competing chants, coordinated heckling, the presiding officer's bell lost in the noise. The walls show revolutionary reliefs carved deep—3-4 inches into sandstone—over older imagery. Look closely: smoother stone underneath, faint outlines of different compositions. The Sultana receiving tribute, now carved away. Revolutionary imagery replacing monarchical scenes. Electric light blazes continuously. The spectacle is the point."
   # ─── end Senate Chamber ───
 
   # ═══ Shaw Island ═══
@@ -10963,8 +10965,8 @@ entries:
       - Ministry Programming (~1/3): Nominally neutral official content—statistics,
         infrastructure reports, public health, educational programming for children in
         settlements without schools. Everyone knows the Ministry is Dawn-dominated.
-      - Party Programming (~2/3, divided by Senate representation): Dawn holds ~120 seats
-        to Dusk's 80, giving Dawn ~60% of party allocation. Combined with Ministry third,
+      - Party Programming (~2/3, divided by Senate representation): Dawn holds ~450 seats
+        to Dusk's 300, giving Dawn ~60% of party allocation. Combined with Ministry third,
         approximately two-thirds of all broadcast carries Dawn framing.
       - Religious Broadcasting: Patriarch Kaleb maintains the Common Plea takes precedence.
         Parties share what remains after religious obligations.
