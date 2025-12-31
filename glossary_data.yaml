@@ -1087,16 +1087,21 @@ entries:
   Medial Castes:
     category: caste
     aliases: [Medials]
-    short: "~75 Technical Caste beings preserved and cloned in Asovoë—run the autofactory, communicate only in Jargon."
+    short: Seventy-five modified beings who run the autofactory, speaking only in mathematics no one else understands.
     details: |
-      The middle tier between the godlike Archons and the merely skilled lower castes.
-      Modified for technological transcendence in ways that moved them away from baseline
-      cognition. They direct the autofactory's outputs, prioritize maintenance, interface
-      with systems no one else can access—without explaining themselves. Extensively
-      modified: exposed neural tissue, additional limbs, enlarged crania, bodies requiring
-      mechanical support. The Avouvar care for them and give them names based on observed
-      behavior (Ževa-Ascending-Third, Koratsch-Who-Waits). Whether the Medials notice
-      is unclear. When one dies, they are replaced through cloning.
+      Exposed neural tissue, additional limbs, enlarged crania, bodies requiring
+      mechanical support. Modified for technological transcendence in ways that
+      moved them away from baseline cognition. They direct the autofactory's
+      outputs, prioritize maintenance, interface with systems no one else can
+      access—without explaining themselves. They communicate only in the Jargon,
+      mathematical language that passes through them rather than originating
+      from them.
+
+      The Avouvar care for them across millennia, give them names based on
+      observed behavior—Ževa-Ascending-Third, Koratsch-Who-Waits. Whether the
+      Medials notice is unclear. They do not acknowledge their caretakers. When
+      one dies, they are replaced through cloning. The relationship continues
+      regardless of recognition.
     rag_pointer: The Technical Castes and Far Ib, Asovoë and the Avouvar
     related: [Technical Castes, Archons, Avouvar, Asovoë, Autofactory, Jargon]
     caste_features:
