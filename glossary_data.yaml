@@ -2446,15 +2446,18 @@ entries:
   # ═══ The Processional ═══
   The Processional:
     category: location
-    short: "Ancient porcelain-coral thoroughfare running through the Medina Quarter to the Rift embarcadero."
+    short: Pre-Interdict porcelain-coral thoroughfare running through the Medina Quarter to the Rift embarcadero.
     details: |
-      Three kilometers of pre-Interdict porcelain-coral pavement cutting through the 
-      Medina Quarter from the eastern approaches to the embarcadero. The pale cream 
-      surface—self-cleaning, self-repairing—stands out against the Medina's conventional 
-      grey granite, a visible antediluvian artifact that the district was built around. 
-      Street runners position themselves along it for first messages of the day. The 
-      Processional Tower and Processional Guild maintain their ancient charter for 
-      "ceremonial conveyance" along the full route.
+      Three kilometers of pre-Interdict porcelain-coral pavement cutting through
+      the Medina Quarter from the eastern approaches to the embarcadero. Pale
+      cream surface—self-cleaning, self-repairing—stands out against the Medina's
+      conventional grey granite. A visible antediluvian artifact that the district
+      was built around.
+
+      Street runners position themselves along it for first messages of the day.
+      The Processional Tower and Processional Guild maintain their ancient charter
+      for "ceremonial conveyance" along the full route. No one builds on the
+      porcelain-coral itself. Self-repairing through processes no one comprehends.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [Medina Quarter, Rift, Processional Tower, Processional Guild, Embarcadero]
     location_features:
@@ -2475,11 +2478,15 @@ entries:
   # ═══ Aureate Way ═══
   Aureate Way:
     category: location
-    short: "Narrow commercial corridor between es-Korvey and es-Durann estates."
+    short: Narrow commercial corridor between es-Korvey and es-Durann estates in the Antediluvian Quarter.
     details: |
-      Barely wide enough for two palanquins to pass. Rents exceed palatial estates 
-      elsewhere in ya-Sattra—proximity to patent holders justifies any expense. 
-      Fortunes change hands in doorway negotiations.
+      Barely wide enough for two palanquins to pass. Porcelain-coral underfoot,
+      two radically different arcologies pressing close on either side. The
+      es-Korvey spiral towers on one side, the es-Durann pharmaceutical domes
+      on the other.
+
+      Rents exceed palatial estates elsewhere in ya-Sattra—proximity to patent
+      holders justifies any expense. Fortunes change hands in doorway negotiations.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, es-Korvey, es-Durann]
     location_features:
@@ -2494,11 +2501,16 @@ entries:
   # ═══ Provisional Square ═══
   Provisional Square:
     category: location
-    short: "Central square hosting the Dawn Market—named for a 'temporary' structure standing 800 years."
+    short: Central square hosting the Dawn Market—named for a "temporary" structure standing eight hundred years.
     details: |
-      Neutral ground between competing estates. Before dawn, hereditary servants 
-      gather to trade goods, services, and information their masters never acknowledge. 
-      By sunrise the market vanishes without evidence it convened.
+      Neutral ground between competing estates. Open plaza of porcelain-coral,
+      faintly luminescent before dawn. The "temporary" structure—eight hundred
+      years old—anchors one corner: wood and canvas that should have rotted
+      centuries ago, maintained by rituals no one remembers establishing.
+
+      Before dawn, hereditary servants gather to trade goods, services, and
+      information their masters never acknowledge. By sunrise the market
+      vanishes without evidence it convened.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, Dawn Market, Provisional Committee]
     location_features:
@@ -2516,12 +2528,17 @@ entries:
   # ═══ Old Cloister ═══
   Old Cloister:
     category: location
-    short: "Companions Guild headquarters—former Technical Caste facility with disturbing architecture."
+    short: Companions Guild headquarters—former Technical Caste facility with proportions wrong for human occupancy.
     details: |
-      At the Processional's end. Architecture bears traces of original builders—proportions 
-      wrong for human occupancy. Mutterers can roam here without triggering cascades. 
-      Contains Archives with Technical Caste recordings in cylinders no one can play. 
-      Morning Song audible to early risers.
+      At the Processional's end, where porcelain-coral gives way to something
+      older. Technical Caste architecture: doorways too tall, ceiling heights
+      that vary without reason. Something sterile, clinical, built for bodies
+      that thought differently.
+
+      Mutterers can roam here without triggering cascades—the walls absorb
+      their vocalizations somehow. The Archives hold cylinders no one can play.
+      At dawn, the Morning Song echoes from somewhere deep inside: mechanical,
+      precise, beautiful, incomprehensible.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, Companions Guild, Mutterers, Technical Castes]
     location_features:
@@ -2542,13 +2559,18 @@ entries:
   # ═══ Garden of Failures ═══
   Garden of Failures:
     category: location
-    short: "Es-Tsay pavilion displaying every inferior computing device ever produced."
+    short: Es-Tsay pavilion displaying every inferior computing device ever produced, with sneering testimony.
     details: |
-      Surrounds the es-Tsay cylinder's base. Each device accompanied by sneering 
-      testimony of inferiority to standard lectors. Educational in unintended ways—
-      visitors trace history of computational attempts: chemical logic gates that 
-      corroded, biological processors with unexpected behaviors, mechanical calculators 
-      too slow. Curator Evenis has tended it for 37 years.
+      Surrounds the base of the Calculation Spire—which means surrounding nothing
+      visible, the invisible cylinder's edge marked only by slight light-warping.
+      Porcelain-coral paths wind through displays of failed computation: chemical
+      logic gates green with corrosion, biological processors in sealed jars (some
+      still twitching), mechanical calculators of brass and crystal.
+
+      Each device accompanied by sneering plaques attesting inferiority to standard
+      lectors. Educational despite itself—visitors trace history of computational
+      attempts. Curator Evenis tends it with the care of someone maintaining a
+      permanent insult.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, es-Tsay, Lector]
     location_features:
@@ -2564,8 +2586,16 @@ entries:
   # ═══ Verification House ═══
   Verification House:
     category: location
-    short: "Patent verification services—authenticating Aureate claims and patent documentation."
-    details: Opens when es-Tsay authentication activates lectors. Processes patent verifications all day. Clerk Thessan Vor has worked here 27 years, knows which patents are actually used versus maintained for prestige.
+    short: Patent verification services—authenticating Aureate claims and patent documentation.
+    details: |
+      Functional building amid organic marvels—conventional construction because
+      the business requires accessibility. Opens when es-Tsay authentication
+      activates lectors each morning. Queues form on porcelain-coral pavement
+      outside. Inside: verification desks, stacked patent documentation, lectors
+      humming with computational work.
+
+      Clerk Thessan Vor has worked here twenty-seven years. He knows which
+      patents are actually used versus maintained for prestige alone.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, Aureate, es-Tsay]
     location_features:
@@ -2580,13 +2610,19 @@ entries:
   # ═══ Calculation Spire ═══
   Calculation Spire:
     category: location
-    short: "Es-Tsay estate—700m invisible cylinder displaying the city behind it on failing panels."
+    short: Es-Tsay estate—seven hundred meter invisible cylinder displaying the city behind it on failing panels.
     details: |
-      The cylinder appears as an architectural void, visible only through slight light-warping 
-      at its edges. Ten thousand display panels show the city behind it; many have burnt out, 
-      creating dark scars. Sri Pater Irem es-Tsay performs morning authentication from the apex, 
-      activating every lector purchased in the previous 24 hours. The Garden of Failures 
-      surrounds its base.
+      A perfect cylinder seven hundred meters tall that displays the city behind
+      it. An architectural void visible only through slight light-warping at
+      the edges. Ten thousand display panels show what lies beyond; many have
+      burnt out, creating dark scars across the illusion. At night, you can
+      see stars through the middle of a building.
+
+      Sri Pater Irem es-Tsay performs morning authentication from the apex,
+      activating every lector purchased in the previous twenty-four hours.
+      The Garden of Failures surrounds its base. One hundred eighty-eight
+      family members and thirty-six hundred servants occupy space designed
+      for five thousand.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, es-Tsay, Garden of Failures, Lector]
     location_features:
