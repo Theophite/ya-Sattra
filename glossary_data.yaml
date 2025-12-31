@@ -11177,14 +11177,17 @@ entries:
   # ═══ Virgin River Junction ═══
   Virgin River Junction:
     category: location
-    short: Agricultural center and trade junction where the Virgin River meets the greater watershed.
+    short: Where rivers meet and trade changes hands—agricultural kilits coordinate the water that makes everything else possible.
     details: |
-      60,000 inhabitants in the southern Republic. Where river routes converge, trade flows:
-      agricultural kilits coordinate irrigation and export; merchant kilits handle goods
-      transfer between routes. Predominantly Serrulata population (65%) with their scale
-      decorations catching desert light. Adobe construction, carved sandstone where cliffs
-      permit, river infrastructure of docks and warehouses. The revolutionary culture of
-      Dawn runs strong in agricultural communities.
+      The rivers converge here. Everything downstream depends on what happens at the
+      junction—irrigation schedules, water rights, the careful rationing that keeps
+      desert agriculture alive. The agricultural kilits who manage the flow have learned
+      to work across political lines. Dawn or Dusk, the crops still need water.
+
+      Serrulata scales catch the desert light along the docks and warehouses. Goods
+      transfer between river routes: what came down from the highlands goes out toward
+      the lowlands, what came up from the delta heads toward the interior. Adobe walls
+      hold the day's heat into the cold desert nights.
     rag_pointer: The Republic of Ganat
     related: [Ganat, Serrulata]
     location_features:
