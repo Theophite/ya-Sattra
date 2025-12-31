@@ -201,7 +201,7 @@ When the Republic inherited thousands of citizens whose ancestors accepted multi
 
 The kilit's members have become the Republic's most competent administrators. Knowing they'll spend decades in government service, they master bureaucratic systems political appointees never learn. Their headquarters in converted Sultanate treasury contains the Republic's most comprehensive archives. Senate committees routinely consult Debtor clerks about procedure and precedent.
 
-Senator Yem Tokan, whose great-grandfather borrowed to expand a failed dyeworks, controls no wealth and commands no force. His kilit staffs every significant office, creating an intelligence network rivaling the Church's. He votes unpredictably, supporting whichever party offers better debt reduction terms, making the Debtors a swing vote neither Dawn nor Dusk can take for granted.
+Senator Yem Tokan, whose grandfather's merchant kilit collapsed during a drought, controls no wealth and commands no force. His kilit staffs every significant office, creating an intelligence network rivaling the Church's. He votes unpredictably, supporting whichever party offers better debt reduction terms, making the Debtors a swing vote neither Dawn nor Dusk can take for granted.
 
 Their annual Reckoning Festival combines funeral (for social death debt represents), birth (for those emerging from obligation), and wedding (freed members often marry immediately, having delayed). One poet called it "capitalism's most honest expressionâ€”the precise monetization of human existence."
 
