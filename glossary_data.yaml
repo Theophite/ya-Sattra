@@ -899,8 +899,21 @@ entries:
   # ═══ Kalbats ═══
   Kalbats:
     category: caste
-    short: Engineered beings designed to receive Oracle Testaments.
-    details: ""
+    short: Receivers with brass plates in their skulls, some listening for ten thousand years.
+    details: |
+      Brass receiver plates and mirrored baffles inside the skull, installed
+      for purposes no one living fully understands. Seven survive, addressed
+      by number—First Auditor, Second Auditor—their original names lost. They
+      cycle through dormancy punctuated by forty-seven-minute periods of
+      consciousness. Some have been receiving for ten thousand years.
+
+      Sometimes all seven orient their receivers in the same direction,
+      tracking something invisible. The direction changes over months, as if
+      following an orbit. They may be tracking the Oracles themselves—the
+      black holes that transmit the Testaments. When a kalbat dies, the brass
+      plates are surgically extracted and preserved. The body goes elsewhere.
+      Fifteen months later, a new tomb appears carved in distant cliffs, a
+      portrait face emerging from the stone.
     rag_pointer: The Companions Guild
     related: [Companions Guild, Testaments, Oracles]
     caste_features:
