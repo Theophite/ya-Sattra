@@ -71,6 +71,16 @@ THE STYLE:
   • For architecture: what it's like to move through the spaces
   • For technology: what it's like to depend on what you can't comprehend
 
+SCOPE AND SELF-CONTAINMENT:
+  • Each entry should be interpretable on its own, without requiring other entries
+  • Stay at the appropriate level for the category:
+      - Caste: bodies and what it's like to have that body
+      - Location: spaces and what it's like to move through them
+      - Organization: structure and what it's like to work within it
+  • Don't invent terminology, places, or concepts that don't exist in the setting
+  • Cultural behavior, social practices, specific city structures → elsewhere
+  • Read it back: does it sound natural? Audit for awkward phrasing.
+
 THE QUESTION: "How do we live inside it?" — never "How do we fix it?"
 ═══════════════════════════════════════════════════════════════════════════════
 """

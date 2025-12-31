@@ -437,7 +437,17 @@ entries:
   Colonist Castes:
     category: caste
     short: Castes designed for extraterrestrial settlement, now trapped on Earth.
-    details: ""
+    details: |
+      Bodies made for worlds they can no longer reach. Radiation belts, thin
+      atmospheres, low gravity, environments that would kill baseline humans
+      in minutes. The colonization was supposed to happen. The Interdict
+      trapped everyone on a single world.
+
+      Now they live where they can. Some found niches that approximate their
+      intended environments—radioactive zones, high altitudes, marginal
+      territories. Others adapted to conditions they were never designed for,
+      their specialized features somewhere between advantage and burden. The
+      original function no longer exists. The bodies remain.
     rag_pointer: Castes of Mankind
     related: [Serrulata, Ranga, Avouvar]
     caste_features:
