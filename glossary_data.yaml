@@ -4981,21 +4981,20 @@ entries:
   # ═══ Eastern Range Confederation ═══
   Eastern Range Confederation:
     category: organization
-    short: "Dawn-aligned confederation—Kelar pastoralists plus veterans and settlers, ~8,750 members, one Senate seat."
+    short: Dawn-aligned confederation—Kelar pastoralists plus veterans and settlers, nearly nine thousand members.
     details: |
-      Pastoral members: Kelar Band (~1,400), Sek-Oum group (~250, split from main Sek
-      after revolution). Settlement members: High Junction Veterans' Congress (~3,200),
-      Eastern Range Settlers' Cooperative (~2,400), several smaller kilits (~1,500).
+      Kelar Band and Sek-Oum splinter plus High Junction Veterans' Congress,
+      Eastern Range Settlers' Cooperative, and smaller kilits. Veterans
+      dominate numerically, but Temad Kelar holds the Senate seat because
+      the confederation needs a pastoral face.
 
-      Internal politics dominated by veterans numerically, but Temad Kelar holds the
-      Senate seat because the confederation needs a pastoral face. The film Riders of
-      Stone and Sky made the Kelar symbols of frontier revolutionary virtue; a coalition
-      representing frontier interests gains legitimacy by putting a Kelar in the visible
-      position. The veterans accept this because Temad votes their interests reliably.
+      The film "Riders of Stone and Sky" made the Kelar symbols of frontier
+      revolutionary virtue. A coalition representing frontier interests gains
+      legitimacy by putting a Kelar in the visible position. The veterans
+      accept this because Temad votes their interests reliably.
 
-      The Sek-Oum split from the main Sek body during the constitutional settlement,
-      arguing continued association with bands that fought for the Sultana would
-      marginalize them permanently. Eighteen years later, Sek-Oum and Sek proper don't
+      The Sek-Oum split from the main Sek during the constitutional
+      settlement. Eighteen years later, Sek-Oum and Sek proper don't
       intermarry, don't share range, don't speak.
     rag_pointer: "The Republic of Ganat"
     related: [Southern Highland Bands, Kelar Band, Temad Kelar, High Junction, Dawn Party, Sek Bands]
@@ -5004,21 +5003,19 @@ entries:
   # ═══ Highland Graziers' Association ═══
   Highland Graziers' Association:
     category: organization
-    short: "Dusk-aligned confederation—Mor, Tal-Yem, and Sek pastoralists plus commercial kilits, ~8,200 members, one Senate seat."
+    short: Dusk-aligned confederation—Mor, Tal-Yem, and Sek pastoralists plus commercial kilits, barely eight thousand members.
     details: |
-      Pastoral members: Mor Band (~1,100), Tal-Yem Band (~650), Sek proper and Sek-Tal
-      (~550 combined). Commercial members: High Junction Factors' Guild (~2,800), Azhmar
-      Valley Agricultural Processors (~1,900), several smaller kilits (~1,200).
+      Mor, Tal-Yem, and Sek pastoral bands plus the High Junction Factors'
+      Guild and Azhmar Valley Agricultural Processors. Barely crosses the
+      threshold. Internal politics complicated by the uncomfortable reality
+      that commercial members profit from Kelar cheese while pastoral members
+      lost territory to the Kelar.
 
-      Barely crosses the threshold. Internal politics complicated by the uncomfortable
-      reality that commercial members profit from Kelar cheese while pastoral members
-      lost territory to the Kelar. The Factors' Guild doesn't care which band produces
-      milk; the Mor care intensely but need commercial numbers for representation.
-
-      Yela Mor holds the seat but operates under constraints: commercial members want
-      stable production, pastoral members want someone who remembers they lost a war.
-      She navigates between these pressures, voting Dusk on most issues while occasionally
-      breaking with commercial interests on pastoral autonomy matters.
+      Yela Mor holds the seat but operates under constraints: commercial
+      members want stable production, pastoral members want someone who
+      remembers they lost a war. She navigates between these pressures,
+      voting Dusk on most issues while occasionally breaking with commercial
+      interests on pastoral autonomy matters.
     rag_pointer: "The Republic of Ganat"
     related: [Southern Highland Bands, Mor Band, Tal-Yem Band, Sek Bands, Yela Mor, High Junction, Dusk Party]
   # ─── end Highland Graziers' Association ───
