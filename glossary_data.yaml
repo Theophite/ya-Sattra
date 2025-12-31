@@ -2391,13 +2391,28 @@ entries:
   # ═══ Antediluvian Quarter ═══
   Antediluvian Quarter:
     category: location
-    short: "Elite district housing Aureate estates on pre-Interdict marvels."
+    short: Elite district where Aureate families live amid pre-Interdict marvels—self-cleaning streets, bioluminescent lamps, buildings that may be the true patent holders.
     details: |
-      ~48,000 residents: ~3,200 Aureate family members, ~32,000 hereditary servants, 
-      ~12,000 commercial workers. Wealth derives from patents maintained through inherited 
-      ritual, not knowledge. Self-maintaining infrastructure: porcelain-coral streets that 
-      clean themselves, bioluminescent lamp posts fed by hereditary lamp-lighters. Buildings 
-      may be the actual patent holders, with families merely their interface.
+      Porcelain-coral streets that clean themselves: no sweepers needed,
+      the surface absorbs debris and somehow processes it. Bioluminescent
+      lamp posts fed by hereditary lamp-lighters who know the feeding but
+      not the functioning. Arcologies from before the Interdict, still
+      operating according to principles no one alive can explain. The
+      infrastructure maintains itself; the humans maintain the rituals that
+      keep them connected to it.
+
+      About forty-eight thousand people live here. Three thousand Aureate
+      family members, thirty-two thousand hereditary servants, twelve
+      thousand commercial workers. The wealth derives from patents
+      maintained through inherited ritual rather than knowledge—the families
+      perform the actions that keep licenses valid without understanding
+      why those actions matter. Some suspect the buildings themselves are
+      the actual patent holders, with families serving merely as interface
+      to a legal system that requires human representatives.
+
+      To walk through is to move among wonders you cannot comprehend: beauty
+      that operates on principles older than recorded history, maintained by
+      people who know the motions but not the meanings.
     rag_pointer: The Antediluvian Quarter
     related: [ya-Sattra, Aureate, Medina Quarter, Rift, The Prismatic Archive]
     location_features:
