@@ -2684,11 +2684,24 @@ entries:
   # ═══ Provisional Square ═══
   Provisional Square:
     category: location
-    short: "Central square hosting the Dawn Market—named for a 'temporary' structure standing 800 years."
+    short: Central square named for a "temporary" structure eight centuries old—hosts the Dawn Market that vanishes by sunrise.
     details: |
-      Neutral ground between competing estates. Before dawn, hereditary servants 
-      gather to trade goods, services, and information their masters never acknowledge. 
-      By sunrise the market vanishes without evidence it convened.
+      Open plaza of porcelain-coral, faintly luminescent before dawn. The
+      "temporary" structure anchors one corner: wood and canvas that should
+      have rotted centuries ago, maintained by rituals no one remembers
+      establishing. The name stuck after the first century. By now everyone
+      accepts the joke.
+
+      The square serves as neutral ground between competing estates—too
+      valuable to any single family to claim. Before dawn, hereditary
+      servants gather for the Dawn Market: goods, services, information
+      their masters never acknowledge trading but somehow acquire. By
+      sunrise the market vanishes without evidence it convened. The square
+      becomes an empty plaza again, bioluminescent posts dimming in daylight.
+
+      What passes through the Dawn Market stays outside official records.
+      The servants conduct business the estates require but cannot formally
+      conduct themselves. Everyone knows. No one admits knowing.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, Dawn Market, Provisional Committee]
     location_features:
