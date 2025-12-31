@@ -38,13 +38,14 @@ The script outputs a reminder to run it next turn. Follow this instruction.
 """
 import subprocess, sys, re, os, json
 
-# Add glossary directory to path - check working directory first, then project
+# Add glossary directory to path - check script dir, working directory, then project
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 WORKING_DIR = '/home/claude'
 PROJECT_DIR = '/mnt/project'
 GLOSSARY_AVAILABLE = False
 GLOSSARY_DIR = None
 
-for search_dir in [WORKING_DIR, PROJECT_DIR]:
+for search_dir in [SCRIPT_DIR, WORKING_DIR, PROJECT_DIR]:
     if GLOSSARY_AVAILABLE:
         break
     if os.path.exists(search_dir) and os.path.exists(os.path.join(search_dir, 'glossary.py')):
@@ -144,7 +145,7 @@ def get_multi_word_terms():
             pass
     return MULTI_WORD_TERMS
 
-D = GLOSSARY_DIR or PROJECT_DIR
+D = GLOSSARY_DIR or SCRIPT_DIR or PROJECT_DIR
 SEEN_FILE = '/home/claude/seen_terms.txt'
 CACHE_FILE = '/home/claude/session_cache.json'
 
