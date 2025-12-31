@@ -4414,8 +4414,19 @@ entries:
   # ═══ Ganat ═══
   Ganat:
     category: location
-    short: Revolutionary republic that rejected caste hierarchy.
-    details: Six million inhabitants. Nominally republican but Serrulata caste advantages undermine egalitarian ideology. Dawn and Dusk political factions. Fought the Empire over Yarangar eighteen years ago.
+    short: Revolutionary republic in the high desert canyons—six million inhabitants who rejected caste hierarchy.
+    details: |
+      High desert canyon country. Five-hundred-foot walls of salmon-colored
+      sandstone. Cities carved into cliff faces—space created by subtraction.
+      Facades covered in Art Nouveau organic curves, carved figures twenty
+      feet tall in two-foot relief. Every kilit signs its work. You can see
+      who did what.
+
+      Nominally republican, but Serrulata caste advantages undermine
+      egalitarian ideology. Dawn and Dusk political factions divide the
+      Senate. The Dam provides power too cheap to meter; electric lights
+      mark civilization and competitive display between kilits. Fought the
+      Empire over Yarangar eighteen years ago, and won—barely.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Serrulata, Yarangar, Taho, Kilit]
     culture: [Ganati]
@@ -4492,13 +4503,18 @@ entries:
   # ═══ Ganat proper ═══
   Ganat proper:
     category: location
-    short: The dam-city that gives the Republic its name.
+    short: The dam-city that gives the Republic its name—carved into five-hundred-foot canyon walls.
     details: |
-      500,000 inhabitants in Glen Canyon on the Teph River. Cities carved INTO cliff faces—
-      space created by subtraction, not addition. The Dam provides power too cheap to meter; 
-      working-class warrens honeycomb the rock around it. Near Wall hosts markets and 
-      residences. Far Wall hosts government—Senate chamber, ministry warrens, the Cathedral 
-      atop it all. The city never sleeps because power is free and stopping costs opportunity.
+      Five hundred thousand inhabitants in Glen Canyon on the Teph River.
+      Cities carved into cliff faces—space created by subtraction, not
+      addition. Underground warrens extend hundreds of meters into the rock,
+      tunnels branching, vertical shafts connecting levels.
+
+      The Dam provides power too cheap to meter. Near Wall hosts markets and
+      residences, Art Nouveau facades with figures twenty feet tall in
+      flowing curves. Far Wall hosts government—Senate chamber, ministry
+      warrens, the Cathedral atop it all. The city never sleeps because power
+      is free and stopping costs opportunity.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Ganat, Taho]
     location_features:
