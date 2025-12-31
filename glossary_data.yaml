@@ -2316,11 +2316,26 @@ entries:
   # ═══ Amber Quarter ═══
   Amber Quarter:
     category: location
-    short: "Serrulata trading district—Ganati architecture, not Imperial vernacular."
+    short: Serrulata trading district in ya-Don—thirty thousand residents, Ganati architecture, the Republic transplanted into Imperial territory.
     details: |
-      ~30,000 residents. Ganati-influenced architecture. Republican cultural practices. 
-      The district makes no attempt to fit ya-Don's vernacular tradition—it is Ganat 
-      transplanted, the Republic's architecture serving the Republic's people.
+      The architecture announces what this is: Ganat transplanted, not
+      adapted. Structures built according to Republican tradition, not
+      Imperial vernacular. Desert patterns in a city that never saw desert.
+      The district makes no attempt to fit ya-Don's conventions because it
+      serves the Republic's people, and they brought their own conventions
+      with them.
+
+      Thirty thousand residents, predominantly Serrulata. Scaled bodies
+      moving through streets designed for their proportions and their
+      climate preferences. Trading houses operate according to Ganati
+      customs. Food follows Republican recipes. The prayers, the holidays,
+      the daily rhythms all belong to a country most residents have never
+      seen but know through the architecture surrounding them.
+
+      It exists as a negotiated space: ya-Don tolerating a foreign enclave,
+      Ganat maintaining presence in the Empire's industrial heartland. The
+      trade flowing through justifies the arrangement. Neither side pretends
+      the Amber Quarter belongs to the city containing it.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Ganat, Serrulata]
     location_features:
