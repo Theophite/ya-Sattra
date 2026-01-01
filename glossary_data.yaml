@@ -9642,10 +9642,11 @@ entries:
   # ═══ Hall of Mothers ═══
   Hall of Mothers:
     category: location
-    short: "Warborn cloning facility in the Second Whorl—where cohorts are decanted and raised."
+    short: Warborn cloning facility—designed for an Empire that expected to populate stars.
     details: |
-      Primary production site for Imperial Warborn. Designed for an Empire that expected to 
-      populate stars; currently operates at perhaps three percent of capacity.
+      Primary production site for Imperial Warborn. Designed for an Empire that
+      expected to populate stars; currently operates at perhaps three percent of
+      capacity. The emptiness is the first thing visitors notice.
       
       THE APPROACH: A bronze corridor runs four hundred feet without variation—bronze walls, 
       bronze floor tiles two feet square, bronze ceiling ten feet overhead. The shadowless 
