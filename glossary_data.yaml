@@ -11828,14 +11828,18 @@ entries:
   # ═══ The Mountain Faces ═══
   The Mountain Faces:
     category: location
-    short: "Three peaks with 400-foot Highborn faces carved into summits—gazing toward pass, valley, south."
+    short: Four-hundred-foot Highborn faces carved into summits—always watching.
     details: |
-      Three peaks surrounding Toh have summits carved into enormous stylized Highborn faces—
-      angular features, stern expressions, each at least 400 feet from chin to crown. Carving 
-      precision is inhuman; scholars debate whether created by early Highborn ancestors, 
-      advanced automated systems, or the Oracles themselves. The faces show no weathering 
-      despite obvious age. They gaze toward the pass, toward the valley, and toward the south 
-      (the holographic meadow). And above it all, watching—always watching.
+      Three peaks surrounding Toh have summits carved into enormous stylized
+      Highborn faces—angular features, stern expressions, each at least four
+      hundred feet from chin to crown. Carving precision is inhuman. Scholars
+      debate whether created by early Highborn ancestors, advanced automated
+      systems, or the Oracles themselves. The faces show no weathering despite
+      obvious age.
+
+      They gaze toward the pass, toward the valley, and toward the south where
+      the holographic dancers perform eternally. The unsettling thought: they are
+      watching entertainment. Above it all, watching—always watching.
     rag_pointer: Index
     related: [Toh, Antediluvian, Highborn]
     location_features:
