@@ -14544,13 +14544,19 @@ entries:
   # ═══ Dawn Market ═══
   Dawn Market:
     category: organization
-    short: "Pre-dawn servant economy market that officially doesn't exist."
+    short: Pre-dawn servant economy market—operates on credit the Bureau does not recognize, vanishes by sunrise.
     details: |
-      Hereditary servants gather in Provisional Square before sunrise to trade goods, 
-      services, and information. Operates on servant-credit the Bureau doesn't recognize. 
-      Market-Mother Vessin has coordinated 40 years. Credit Corner for major transactions, 
-      Sample Row for goods, Whisper Walk for information, Supplement Stalls for black-market 
-      biological preparations. Vanishes by sunrise.
+      Hereditary servants gather in Provisional Square before sunrise to
+      trade goods, services, and information. Operates on servant-credit the
+      Bureau does not recognize. The market has no official existence.
+      Everyone knows it happens. No one admits it happens.
+
+      Credit Corner for major transactions. Sample Row for goods. Whisper
+      Walk for information. Supplement Stalls for black-market biological
+      preparations—things masters need but cannot officially obtain. A
+      market-mother coordinates, has coordinated for decades. The roles pass
+      down. The market persists. By sunrise, Provisional Square is empty.
+      The servants have returned to their houses. Nothing happened here.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, Provisional Square]
   # ─── end Dawn Market ───
