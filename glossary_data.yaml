@@ -12791,12 +12791,19 @@ entries:
   # ═══ St. Tenna Memorial ═══
   St. Tenna Memorial:
     category: location
-    short: "Shrine to the Ductworker who died clearing a catastrophic Furnace ventilation blockage—pilgrims must crawl to reach it."
+    short: Shrine in the passage where St. Tenna died clearing a catastrophic ventilation blockage—pilgrims must crawl to reach it.
     details: |
-      St. Tenna discovered a catastrophic blockage in the Furnaces' primary ventilation
-      system and died clearing it. The shrine is located in the passage where she worked;
-      pilgrims must crawl to reach it. Feast day observed with processions through
-      infrastructure corridors that only Ductworkers can navigate.
+      St. Tenna discovered a blockage in the Furnaces' primary ventilation
+      system. She died clearing it. Without her work, the Furnaces would have
+      overheated, consequences cascading through systems no one fully
+      understands. The shrine is located in the exact passage where she
+      worked—marked, remembered, preserved.
+
+      Pilgrims must crawl to reach it. The feast day is observed with
+      processions through infrastructure corridors that only Ductworkers can
+      navigate. To honor her is to move as she moved, to compress as she
+      compressed, to feel the weight of stone above and understand what she
+      gave.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Warren-Under-Stone, Ductworker, ya-Don, Furnaces]
     location_features:
