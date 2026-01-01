@@ -13435,18 +13435,19 @@ entries:
   # ═══ Decapitation Strike ═══
   Decapitation Strike:
     category: event
-    short: "Kelso Senna's assassination of Sultana Ulayah and her court—ending nine centuries of Sultanate rule in a single night."
+    short: Assassination of the Sultana and her court—nine centuries of rule ended in a single night.
     details: |
-      In 963, the Cloud Temple Band struck the palace during a court gathering. The
-      decapitation was comprehensive: Sultana Ulayah died, most court officials died,
-      regional magnates were eliminated. The operation required precise intelligence
-      about court schedules and guard rotations—information that came from revolutionary
-      sympathizers within the palace staff.
+      The revolutionary forces struck the palace during a court gathering. The
+      decapitation was comprehensive: the Sultana died, most court officials
+      died, regional magnates were eliminated. The operation required precise
+      intelligence about court schedules and guard rotations—information that
+      came from sympathizers within the palace staff.
 
-      The strike's success created immediate crisis. No succession existed. The
-      aristocratic families who might have contested power were dead or scattered.
-      Into this vacuum stepped the coalition that would negotiate the Constitutional
-      Settlement: military commanders, merchant houses, and the emerging veteran kilits.
+      No succession existed. The aristocratic families who might have contested
+      power were dead or scattered. Into this vacuum stepped the coalition that
+      would negotiate the Constitutional Settlement: military commanders,
+      merchant houses, and the emerging veteran kilits. What had been
+      unthinkable became inevitable overnight.
     rag_pointer: "The Republic of Ganat"
     related: [Ganat, Kelso Senna, Cloud Temple Band, Sultana Ulayah, Constitutional Settlement]
     event_features:
