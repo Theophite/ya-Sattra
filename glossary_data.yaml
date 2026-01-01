@@ -17669,15 +17669,17 @@ entries:
   # ═══ Merra Loak ═══
   Merra Loak:
     category: person
-    short: "Former Loak council chair—runs legendary kitchen that feeds salvage crews and serves as intelligence nexus."
+    short: Former Loak council chair—runs legendary kitchen that feeds salvage crews and serves as intelligence nexus.
     person_location: Middens
     details: |
-      Age 57. Called "Aunt" Merra by clan and non-clan alike. Former council chair, now
-      runs "Merra's Kitchen" on Hollow-Egress third floor—a legendary perpetual stew that
-      has been cooking for decades. Hundreds queue daily for bowls; the kitchen serves as
-      primary intelligence nexus for the Middens. Nothing moves through the district without
-      Merra hearing about it. Her prices adjust based on information value—pay more, learn
-      more. Handles delicate clan diplomacy through strategic feeding.
+      Fifty-seven years old. Called "Aunt" Merra by clan and non-clan
+      alike. Former council chair, now runs Merra's Kitchen on Hollow-
+      Egress third floor—a legendary perpetual stew that has been
+      cooking for decades. Hundreds queue daily for bowls; the kitchen
+      serves as primary intelligence nexus for the Middens. Nothing
+      moves through the district without Merra hearing about it. Her
+      prices adjust based on information value—pay more, learn more.
+      Handles delicate clan diplomacy through strategic feeding.
     rag_pointer: "The Sewer-Fishers of the Middens"
     related: [Sewer-Fishers, Loak, Hollow-Egress, Middens]
   # ─── end Merra Loak ───
