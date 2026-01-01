@@ -12333,12 +12333,18 @@ entries:
   # ═══ Hermitage of St. Caris the Still ═══
   Hermitage of St. Caris the Still:
     category: location
-    short: "Pre-Interdict domed structure four hours from ya-Don—pilgrims seek its particular silence."
+    short: Pre-Interdict domed structure four hours from ya-Don—pilgrims seek its particular silence.
     details: |
-      Pre-Interdict structure maintained by Father Silence-Before-Dawn for thirty-seven 
-      years. Domed structure of pale concrete with massive circular void where a 
-      window would be expected. Perhaps 50 pilgrims monthly. The hermitage offers 
-      silence—not answers, just environment for finding them.
+      Pale concrete dome with a massive circular void where a window would be
+      expected. The opening frames nothing but sky. Material and construction
+      methods no longer reproducible. A single hermit maintains the structure,
+      as hermits have for as long as anyone can remember. Perhaps fifty pilgrims
+      arrive each month, seeking what this place provides.
+
+      The hermitage offers silence—not answers, just environment for finding
+      them. Something about the dome's proportions, the void's placement, the
+      isolation four hours from ya-Don. Visitors sit. They do not speak. They
+      leave when they are ready. The hermit asks nothing and explains nothing.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Penitent Church]
     location_features:
