@@ -16553,31 +16553,26 @@ entries:
   # ═══ Ministry of Settlement ═══
   Ministry of Settlement:
     category: organization
-    short: "Dawn-controlled land grant administration—structurally corrupt, politically untouchable."
+    short: Dawn-controlled land grant administration—structurally corrupt, politically untouchable.
     details: |
-      Administers veteran land grants in the eastern territories. Covers more square miles
-      than the rest of the Republic combined. Dawn's expansion ideology made material.
+      Administers veteran land grants in the eastern territories. Covers
+      more square miles than the rest of the Republic combined. The Dawn
+      Party's expansion ideology made material.
 
-      STRUCTURE: Central administration in Ganat proper (Minister, surveyors, clerks,
-      inspectors). District Offices scattered across eastern territories, each run by
-      a District Officer who is effectively the government for populations not yet
-      organized into functioning kilits.
+      The corruption is structural, not incidental. Revolutionary units
+      became administrative districts—chain of command became
+      organizational hierarchy, military loyalty became institutional
+      culture. When inspectors investigate, they face kilits: veterans who
+      fought together, drill together, vote together, close ranks against
+      outsiders. Everyone knows everyone. Everyone protects everyone.
 
-      THE CORRUPTION PROBLEM: Structural, not incidental. Revolutionary units became
-      administrative districts—chain of command became organizational hierarchy, military
-      loyalty became institutional culture. When inspectors investigate, they face kilits:
-      men who fought together, drill together, vote together, close ranks against outsiders.
-      Everyone knows everyone. Everyone protects everyone.
-
-      THE SPECULATOR PROBLEM: Veterans receive grants, discover farming is difficult
-      without capital or experience, fail. Dusk-aligned merchant houses buy failed grants
-      at discount, consolidate into estates, hire original grantees as tenants. The program
-      produces the tenantry it was designed to prevent.
-
-      WHY IT'S UNFIXABLE: Dawn cannot reform it without attacking their own base. The
-      veteran kilits are core constituency. Dusk criticizes while profiting from failures.
-      The successes are real—productive yeoman farmers who genuinely benefited—but coexist
-      with systematic corruption. Nobody can disentangle the two.
+      Veterans receive grants, discover farming is difficult without
+      capital or experience, fail. Merchant houses buy failed grants at
+      discount, consolidate into estates, hire original grantees as
+      tenants. The program produces the tenantry it was designed to
+      prevent. The successes are real—productive yeoman farmers who
+      genuinely benefited. The corruption is real too. Nobody can
+      disentangle the two.
     rag_pointer: "The Republic of Ganat"
     related: [Ganat, Dawn Party, Dusk Party, Kilit, Republican Guard]
   # ─── end Ministry of Settlement ───
