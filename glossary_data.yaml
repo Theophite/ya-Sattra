@@ -14254,12 +14254,19 @@ entries:
   # ═══ es-Tsay ═══
   es-Tsay:
     category: organization
-    short: "Aureate family controlling computational authentication—every lector requires their daily activation."
+    short: Aureate family controlling computational authentication—every lector requires their daily activation.
     details: |
-      Estate: Calculation Spire, 700m cylinder displaying city behind it on panels (many burnt out). 
-      Sri Pater Irem es-Tsay performs morning authentication with crystalline key, activating all 
-      lectors purchased in previous 24 hours. Empire's computation depends on him finishing breakfast. 
-      Garden of Failures surrounds base. ~12% of Imperial economic activity flows through their patent.
+      Estate: Calculation Spire, a seven-hundred-meter cylinder that
+      displays the city behind it on exterior panels. Many panels have burnt
+      out. The image flickers. The tower still computes.
+
+      Each morning, the family head performs authentication with a
+      crystalline key, activating all lectors purchased in the previous
+      twenty-four hours. The Empire's computation depends on that morning
+      ritual completing without interruption. Roughly twelve percent of
+      Imperial economic activity flows through the es-Tsay patent. The
+      Garden of Failures surrounds the tower's base—a memorial to the
+      family's less successful inventions, grown over with cultivated moss.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, Aureate, Lector, Garden of Failures]
   # ─── end es-Tsay ───
