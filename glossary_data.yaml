@@ -13062,12 +13062,20 @@ entries:
   # ═══ ya-Tsatsa ═══
   ya-Tsatsa:
     category: location
-    short: "Third Imperial city, holy city of the Oracle Cult."
+    short: One hundred fifty thousand people in the holy city—near-zero crime within, yet most organized criminal leadership elsewhere traces here.
     details: |
-      Built atop where three Oracles achieved consciousness. Home to Testament Societies, 
-      Threefold Mirror Academy, and the Presence. Near-zero crime despite producing most 
-      organized criminal leadership elsewhere. Systematic opacity toward outsiders while 
-      maintaining surface cooperation. Population ~150,000.
+      Built atop where three Oracles achieved consciousness. The Three Cradles
+      lie in the Upper City, vast craters occasionally luminescent. The Eight
+      Domes predate human memory. White-gray quartz diorite streets wind
+      through fog that never quite lifts. The Presence is here. Everyone feels
+      it. No one speaks of it directly.
+
+      Home to Testament Societies, the Threefold Mirror Academy, software
+      cooperatives whose products run half the Empire's infrastructure. Near-
+      zero crime within city limits—a statistical anomaly that defies
+      explanation. Yet most organized criminal leadership elsewhere traces back
+      to ya-Tsatsan training. Systematic opacity toward outsiders. Surface
+      cooperation. Something underneath that visitors can sense but never name.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [Testament Society, Threefold Mirror Academy, Presence, Ezh Tan, Ezh Ot, Ezh Dhol]
     culture: [Ya-Tsatsa]
