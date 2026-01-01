@@ -12818,11 +12818,18 @@ entries:
   # ═══ Warren Chapel ═══
   Warren Chapel:
     category: location
-    short: "Parish facility serving the Warren's religious needs—theology emphasizes confined spaces as contemplative environments."
+    short: Three thousand regular attendees in a theology that reads confined spaces as contemplative environments.
     details: |
-      The passages as places where distraction is impossible and focus natural. The
-      theology emphasizes confined spaces as contemplative environments suited to
-      spiritual practice. Approximately 3,000 regular attendees.
+      The passages as places where distraction is impossible and focus natural.
+      The walls close in. The ceiling presses down. There is nowhere to go but
+      deeper into oneself. The Ductworker theology has made this a feature, not
+      a limitation.
+
+      The chapel itself is slightly larger than the surrounding tunnels—enough
+      room for congregants to kneel without touching each other, enough space
+      for a priest to move among them. Services emphasize stillness, breath
+      control, the spiritual discipline of existing in spaces that would
+      terrify anyone else. To pray here is to accept the stone's embrace.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Warren-Under-Stone, Ductworker, ya-Don, Penitent Church]
     location_features:
