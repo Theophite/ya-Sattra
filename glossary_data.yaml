@@ -7151,20 +7151,20 @@ entries:
   # ═══ Coppersmith Lane ═══
   Coppersmith Lane:
     category: location
-    short: "Guild street for metalworkers—shops producing copper, bronze, and brass goods."
+    short: Guild street for metalworkers—the sound of hammers on metal from dawn to dusk.
     details: |
-      Guild monopoly on metalworking retail within marked boundaries. Shops produce
-      household items (pots, basins, lamps), decorative pieces (geometric patterns,
-      abstract relief), and architectural fittings (door hardware, window frames,
-      ornamental brackets). The sound of hammers on metal carries from dawn to dusk.
+      The rhythmic clang of hammers on metal fills the street from first light until
+      evening. Guild monopoly on metalworking retail within marked bronze boundaries.
+      Shops produce household items, decorative pieces in geometric patterns and
+      abstract relief, and architectural fittings—door hardware, window frames,
+      ornamental brackets.
 
       Each shop displays samples in street-facing windows: the gleam of new copper
-      (soon to patina), polished bronze catching orb-fixture light, brass work showing
-      fine engraving. Apprentices maintain fires in rear workshops; masters work visible
-      to customers. The guild maintains quality standards; shoddy work means expulsion.
-
-      Typical Imperial guild street: specialty retail in designated area, prices higher
-      than market average but quality guaranteed, guild marks on every piece.
+      soon to patina, polished bronze catching orb-fixture light, brass work showing
+      fine engraving. Apprentices maintain fires in rear workshops visible through
+      open doorways; masters work where customers can see them. The heat from the
+      forges makes this street noticeably warmer than surrounding lanes. Guild marks
+      stamped on every piece—quality guaranteed, prices accordingly.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [Medina Quarter]
     location_features:
