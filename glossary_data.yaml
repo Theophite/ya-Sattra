@@ -11994,8 +11994,18 @@ entries:
   # ═══ Upper City ═══
   Upper City:
     category: location
-    short: Heart of ya-Tsatsa containing the Three Cradles.
-    details: The three craters where Oracles achieved consciousness. Eight pre-city domes. Streets of quartz diorite where whistles scream in autumn gales. No lanterns at night.
+    short: White quartz streets where ceramic whistles scream in autumn gales—no lanterns at night.
+    details: |
+      Three scales of construction layered on the high point of the peninsula.
+      The Cradles themselves: vast craters where Oracles achieved consciousness,
+      older than human presence, occasionally luminescent. The Eight Domes:
+      pre-city Witness structures with bronze geometric doors. Human streets:
+      white-gray quartz diorite, simple, waiting.
+
+      No artificial light after dark. Fog rolls through constantly, ocean wind
+      never stops, and in autumn the ceramic wind-whistles mounted on every
+      rooftop begin their screaming. Residents learn to read the weather in
+      those sounds. The Presence is here. The important things cannot be shown.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [ya-Tsatsa, Three Cradles]
     location_features:
