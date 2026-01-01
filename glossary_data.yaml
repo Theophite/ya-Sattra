@@ -15321,17 +15321,18 @@ entries:
   # ═══ Tsoka Red Deer ═══
   Tsoka Red Deer:
     category: person
-    short: "Junta institutionalist—fostered by Imperial colonel, commands 643 soldiers, writing book on synthesis."
+    short: Junta institutionalist—fostered by Imperial colonel, commands over six hundred soldiers, writing book on synthesis.
     person_location: Ogon
     details: |
-      Age 43. Southeast approach to Ogon. Inherited token from father 20 years ago. 
-      Fostered by Colonel-Hereditary es-Valent for 12 years, absorbed Imperial 
-      institutional thinking. His forces operate with Imperial discipline (written 
-      orders, salaries, merit promotion) while maintaining Akama identity. Writing 
-      manuscript synthesizing Akama values with Imperial organizational principles. 
-      Tribute protection contracts create structural conflict with Ataru's salmon 
-      empire. They've fought three duels; Tsoka won all three. Will likely kill 
-      each other eventually.
+      Forty-three years old. Southeast approach to Ogon. Inherited token from
+      father twenty years ago. Fostered by a Colonel-Hereditary for twelve
+      years, absorbed Imperial institutional thinking.
+
+      His forces operate with Imperial discipline—written orders, salaries,
+      merit promotion—while maintaining Akama identity. Writing manuscript
+      synthesizing Akama values with Imperial organizational principles.
+      His tribute protection contracts create structural conflict with
+      commercial rivals. They have fought. They will fight again.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Warband, Junta of Ogon, Ogon, Ataru Blackfish]
   # ─── end Tsoka Red Deer ───
