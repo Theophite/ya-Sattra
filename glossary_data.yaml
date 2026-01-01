@@ -15378,16 +15378,18 @@ entries:
   # ═══ Iron-Rain ═══
   Iron-Rain:
     category: person
-    short: "Junta Ironbone-Warborn hybrid—nearly 3 meters tall, invulnerable, 1,200 warriors, personal name unknown."
+    short: Junta Ironbone-Warborn hybrid—nearly three meters tall, invulnerable, twelve hundred warriors, personal name unknown.
     person_location: Ogon
     details: |
-      Age 29. Northern districts. Took token through combat 5 years ago. Bred 
-      through seven-generation program in the far north, declared infertile, 
-      sold into slavery, killed master at age 12 when capabilities manifested. 
-      Armor plates cover most of body, Warborn healing and combat reflexes. 
-      Commands through pure physical dominance. Doesn't particularly like violence, 
-      just unbeatable. Obsessed with people who rise above station through effort. 
-      In relationship with Imek; they're pursuing genetic interventions to produce heir.
+      Twenty-nine years old. Northern districts. Took token through combat
+      five years ago. Bred through seven-generation program in the far
+      north, declared infertile, sold into slavery, killed master at age
+      twelve when capabilities manifested.
+
+      Armor plates cover most of body, Warborn healing and combat reflexes.
+      Commands through pure physical dominance. Does not particularly like
+      violence, just unbeatable. Obsessed with people who rise above station
+      through effort. Pursuing genetic interventions to produce an heir.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Warband, Junta of Ogon, Ogon, Ironbone, Warborn, Imek Stone-Foot]
   # ─── end Iron-Rain ───
