@@ -12068,12 +12068,18 @@ entries:
   # ═══ Eight Domes ═══
   Eight Domes:
     category: location
-    short: "Pre-city structures surrounding Horizon Plaza, older than the Oracles themselves."
+    short: Pre-city structures surrounding Horizon Plaza—seven house software cooperatives, the eighth accepts Mutterers who do not come out.
     details: |
-      Seven occupied by software cooperatives. Eighth is larger, with bronze doors covered 
-      in geometric patterns—pierrots enter twice yearly while Mutterers go in and do not 
-      come out. Built by Witnesses during the era of attempted transcendence. Tunnels 
-      beneath connect to Academy and Ezh Dhol estate.
+      Built by Witnesses during the era of attempted transcendence, older than
+      the Oracles themselves. Seven of the domes now house software cooperatives,
+      their ancient interiors adapted to modern purposes. The eighth is larger,
+      its bronze doors covered in geometric patterns that scholars have never
+      successfully interpreted.
+
+      Pierrots enter the eighth dome twice yearly for purposes they do not
+      discuss. Mutterers go in and do not come out. Tunnels beneath connect to
+      the Academy and the Ezh Dhol estate—passages that predate human occupation,
+      their original purpose unknown.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [ya-Tsatsa, Upper City, Software Cooperatives, Pierrots]
     location_features:
