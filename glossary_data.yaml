@@ -9430,8 +9430,18 @@ entries:
   # ═══ Rotten Quarter ═══
   Rotten Quarter:
     category: location
-    short: "Colloquial name for ya-Sattra's poor industrial districts."
-    details: Informal grouping encompassing Iron Yards, Middens, and Ridge. Not a formal administrative unit.
+    short: Colloquial name for ya-Sattra's poor industrial districts—the view is always up.
+    details: |
+      Informal grouping encompassing Iron Yards, Middens, and Ridge. Not a formal
+      administrative unit, but everyone knows what it means: the districts where
+      the work destroys bodies over years or decades, where collapsed arcologies
+      define the geography, where the Hanged Men exercise more practical authority
+      than Imperial Bureaux.
+
+      Nothing is new here. Everything is salvage, repurposed, improvised. The view
+      is always up—toward the Inner City's bronze towers, the Medina's respectable
+      bustle, the Antediluvian Quarter across the water. Residents can see what
+      they're excluded from.
     rag_pointer: The Iron Yards, The Hanged Men
     related: [Iron Yards, Middens, Ridge]
     location_features:
