@@ -2905,12 +2905,27 @@ entries:
   # ═══ es-Durann Complex ═══
   es-Durann Complex:
     category: location
-    short: "Pharmaceutical dome complex sprawling across sixteen blocks—medicine synthesis beyond understanding."
+    short: Pharmaceutical dome complex sprawling across sixteen blocks—white surfaces, unnecessary airlocks, and sunset venting that shimmers green.
     details: |
-      Unlike neighbors' vertical aspirations, the es-Durann estate sprawls horizontally: 
-      interconnected domes covering sixteen city blocks. The Treatment Pavilion serves as 
-      public face—sterile white surfaces, unnecessary airlocks. At sunset, domes vent 
-      pharmaceutical byproducts that smell of bitter almonds and shimmer green.
+      Unlike neighbors' vertical aspirations, this estate sprawls
+      horizontally: interconnected domes covering sixteen city blocks. White
+      surfaces suggest sterility. Airlocks stand between sections without
+      apparent necessity—the protocols may have purpose or may simply
+      persist from original design. No one alive knows which.
+
+      The Treatment Pavilion serves as public face: where petitioners come
+      for medicines no other source can provide. Inside, synthesis happens
+      through processes beyond understanding. The family maintains the
+      rituals that produce results; they do not claim to comprehend the
+      underlying principles.
+
+      At sunset, domes vent pharmaceutical byproducts. The emissions smell
+      of bitter almonds and shimmer green in evening light. Residents of
+      surrounding blocks have learned the venting schedule. Some claim
+      health benefits from the exposure; others simply know to close their
+      windows. The domes sprawl beneath the vertical aspirations of
+      neighbors, occupying space rather than height, producing medicines
+      the city cannot do without.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, es-Durann, Aureate Way]
     location_features:
