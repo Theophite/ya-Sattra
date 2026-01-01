@@ -6836,12 +6836,15 @@ entries:
   # ═══ Vice District ═══
   Vice District:
     category: location
-    short: "Gambling, brothels, taverns, and hashish vendors serving the garrison."
+    short: Gambling, brothels, taverns, hashish vendors—informally tolerated so long as they don't generate excessive disorder.
     details: |
-      Vice operations concentrated in specific streets, informally tolerated so long as they 
-      don't generate excessive disorder. Gambling establishments range from respectable to 
-      extremely crooked. Brothels operate in legal gray areas. Colonel Ghar focuses on 
-      preventing violence rather than achieving prohibition.
+      Vice concentrated in specific streets. Gambling establishments range from respectable
+      to extremely crooked. Brothels operate in legal gray areas. Hashish vendors, alcohol
+      by the barrel, entertainment for soldiers with pay and workers with wages.
+
+      The garrison focuses on preventing violence rather than achieving prohibition.
+      Soldiers need somewhere to spend their money. Workers need somewhere to forget
+      the work. Everyone understands the arrangement.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Manufacturing District, High Junction, Garrison Headquarters]
     location_features:
