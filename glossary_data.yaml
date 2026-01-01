@@ -6560,22 +6560,18 @@ entries:
   # ═══ Ködhegy ═══
   Ködhegy:
     category: location
-    short: Fog Hill—highest refugee village around Szürkevíz, 300 meters above harbor.
+    short: Fog Hill—highest refugee village around Szürkevíz, looking down on everyone else.
     details: |
-      The oldest and highest of the nine villages, founded ~6,000 years ago when the
-      first refugees arrived. ~400 residents: 19 Völërath (the elite), 47 Szkovërin
-      (middle caste), remainder Draëthen (workers). Three defensive gates control
-      access up the single viable path.
+      The oldest and highest of the nine villages, founded when the first refugees
+      arrived six thousand years ago. Four hundred residents: Völërath at the summit,
+      Szkovërin in the middle, Draëthen near the lower gate. Three defensive gates
+      control access up the single viable path.
 
       Water comes from fog catchment—fabric nets strung across the hilltop collect
       moisture from the marine layer that blankets the coast. The village looks down
       on the harbor, on the other villages, on the autofactory ruins they all depend
       upon. The view reminds everyone of the hierarchy: Ködhegy is highest, oldest,
       most defensible.
-
-      The architecture is refugee vernacular: repurposed autofactory materials,
-      defensive orientation, steep roofs shedding constant rain. The Völërath
-      compound sits at the summit; the Draëthen quarters cluster near the lower gate.
     rag_pointer: The Volerath of Puget Sound
     related: [Szürkevíz]
     location_features:
