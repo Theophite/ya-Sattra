@@ -7374,12 +7374,19 @@ entries:
   # ═══ Gondoliers' Steps ═══
   Gondoliers' Steps:
     category: location
-    short: "Stone staircase where gondolas wait for hire at the cliff route's end."
+    short: Stone staircase where gondolas wait for hire—water transit for those avoiding bridge declarations.
     details: |
-      Where the cliff route meets the Medina waterfront, stone steps descend to platforms 
-      where the Gondoliers' Guild (~50 licensed boats) provides water transit for those 
-      avoiding bridge declarations. Rates vary; discretion is legendary. Gondolas hug 
-      the shores rather than crossing the canyon's depths.
+      Where the cliff route meets the Medina waterfront, stone steps descend to
+      platforms carved into the canyon wall. Fifty licensed boats wait at wooden
+      docks, their owners calling out to descending passengers. The water is dark
+      below—the Rift drops deep here—but gondolas hug the shores rather than
+      crossing the canyon's depths.
+
+      Water transit for those avoiding bridge checkpoints. Rates vary; discretion
+      is legendary. The gondoliers know not to ask where passengers came from or
+      where they're going. They pole along the canyon walls, keeping to the
+      shallows, and deliver passengers to steps on the other side without any
+      documentation changing hands.
     rag_pointer: "The Rift: Ya-Sattra's Harbor District"
     related: [Rift, Gondoliers' Guild, Medina Quarter]
     location_features:
