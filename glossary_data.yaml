@@ -11289,13 +11289,17 @@ entries:
   # ═══ Terrace ═══
   Terrace:
     category: location
-    short: "Market sections of the Fourth Whorl where stalls accumulate—multiple terraces at different levels."
+    short: Market sections of the Fourth Whorl—boundaries marked by where vendors set up and where they do not.
     details: |
-      Not a single market but a general term for the informal commercial zones filling 
-      spaces between the ancient columns. The Seventh Terrace, the Grand Market, and 
-      other named areas each have their own character. Boundaries are informal, marked 
-      by where vendors set up and where they don't. Food vendors, guild shops, gray 
-      market merchants operate in the gaps the monuments create.
+      Not a single market but a general term for the informal commercial zones
+      filling spaces between the ancient columns. The Seventh Terrace, the Grand
+      Market, and other named areas each have their own character. Boundaries are
+      informal, marked by where vendors set up and where they do not.
+
+      Food vendors, guild shops, gray market merchants operate in the gaps the
+      monuments create. The terraces sit at different levels, connected by worn
+      stairs that the Antediluvians never intended as commercial thoroughfares.
+      Commerce fills the spaces empire leaves empty.
     rag_pointer: The Inner City
     related: [Fourth Whorl, Inner City]
     location_features:
