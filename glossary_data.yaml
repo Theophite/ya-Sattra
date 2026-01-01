@@ -14800,15 +14800,18 @@ entries:
     category: concept
     aliases: [Judge-Executioners]
     parent: Bureau of the Scale
-    short: "Scale's paramilitary arm—assassination teams with legal cover, executing death warrants in hostile territory."
+    short: Scale's paramilitary arm—death warrants executed in hostile territory where courts cannot reach.
     details: |
-      When the Scale issues a death warrant in territory the Empire claims but doesn't control,
-      the court comes to the condemned. Judge-Executioners are the logical conclusion: someone
-      with legal authority to pronounce death AND tactical capacity to deliver it. Career path
-      requires training with Scale, Sword, AND Lens. The retinue is the kill team; the Judge
-      is the legal authority that makes their work judicial rather than military. Operate
-      primarily in Yarangar and the Thousand Kingdoms. Not assassination—a judicial proceeding
-      that happens to occur against armed resistance.
+      When the Scale issues a death warrant in territory the Empire claims
+      but does not control, the court comes to the condemned.
+      Judge-Executioners are the logical conclusion: someone with legal
+      authority to pronounce death and tactical capacity to deliver it.
+      Career path requires training with Scale, Sword, and Lens.
+
+      The retinue is the kill team; the Judge is the legal authority that
+      makes their work judicial rather than military. They operate primarily
+      in Yarangar and the Thousand Kingdoms. Not assassination—a judicial
+      proceeding that happens to occur against armed resistance.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Scale, Bureau of the Sword, Bureau of the Lens, Yarangar, Thousand Kingdoms]
   # ─── end Judge-Executioner ───
