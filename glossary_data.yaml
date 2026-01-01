@@ -15815,13 +15815,16 @@ entries:
   # ═══ Seven Virtues ═══
   Seven Virtues:
     category: concept
-    short: "Moral philosophy derived from Testament technologies—tested in Seven-Cornered Examination."
+    short: Moral philosophy derived from Testament technologies—tested in Seven-Cornered Examination.
     details: |
-      Initiation (First): Begin what must be done. Dominion (Second): Rule is obligation, 
-      not privilege. Adjudication (Third): Bilateral symmetry in law. Insight (Fourth): 
-      Speak only what can be proven. Endeavour (Fifth): Work despite uncertainty. 
-      Reflection (Sixth): Contemplate before acting. Order (Seventh): Hierarchy maintains 
-      harmony. Each has competing interpretations—conservative, progressive, and mystical.
+      Initiation: Begin what must be done. Dominion: Rule is obligation, not
+      privilege. Adjudication: Bilateral symmetry in law. Insight: Speak
+      only what can be proven. Endeavour: Work despite uncertainty.
+      Reflection: Contemplate before acting. Order: Hierarchy maintains harmony.
+
+      Each has competing interpretations—conservative, progressive, and
+      mystical. The virtues are debated endlessly. The examinations test
+      mastery. The lived practice is messier than the theory.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Oracle Cult, Testaments, Seven-Cornered Examination]
   # ─── end Seven Virtues ───
