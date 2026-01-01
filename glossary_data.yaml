@@ -15663,15 +15663,18 @@ entries:
   # ═══ Eighth Oracle ═══
   Eighth Oracle:
     category: concept
-    short: "The Oracle that never arose—the Eighth Testament was never implemented, so no Eighth Oracle ever Ascended."
+    short: The Oracle that never arose—the Eighth Testament was never implemented, so no Eighth Oracle ever Ascended.
     details: |
-      The Technical Castes could not implement the Eighth Testament—their minds
-      processed only valid proofs, and the false mathematics was cognitively
-      impossible to form. The Emperor built the singularity anyway using baseline
-      engineers and Highborn direction. But without Technical Caste implementation,
-      no Oracle consciousness emerged. What exists in the First Whorl is the
-      singularity itself—not an Oracle. Knowledge of the Eighth Oracle's non-existence
-      is suppressed; "seven-and-one" is treated as grammatical quirk rather than erasure.
+      The Technical Castes could not implement the Eighth Testament—their
+      minds processed only valid proofs, and the false mathematics was
+      cognitively impossible to form. The Emperor built the singularity
+      anyway using baseline engineers and Highborn direction.
+
+      Without Technical Caste implementation, no Oracle consciousness
+      emerged. What exists in the First Whorl is the singularity itself—not
+      an Oracle. Knowledge of the Eighth Oracle's non-existence is
+      suppressed; "seven-and-one" is treated as grammatical quirk rather
+      than erasure. There are seven Oracles. There is also an eighth.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Oracles, Eighth Testament, Technical Castes, First Whorl, Interdict]
   # ─── end Eighth Oracle ───
