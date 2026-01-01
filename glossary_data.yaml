@@ -3676,12 +3676,26 @@ entries:
   # ═══ Coolant District ═══
   Coolant District:
     category: location
-    short: "Bureau of the Rod enclave—ya-Sattra architecture imposed, alien to the surrounding city."
+    short: Bureau enclave built for bodies that cannot tolerate Central Valley heat—capital architecture imposed, alien to the surrounding city.
     details: |
-      ~8,000 residents. Institute of Flow headquarters. es-Vorath family compound. 
-      Colonial architecture: built for bodies that cannot tolerate Central Valley 
-      heat, making no concession to local tradition. The district announces that 
-      its residents are from elsewhere and intend to remain comfortable.
+      About eight thousand residents in a district that makes no concession
+      to local tradition. Capital architecture imposed on Central Valley
+      ground: buildings designed for ya-Sattra's coastal climate, actively
+      cooled because their occupants cannot tolerate ya-Don's heat. The
+      Institute of Flow maintains headquarters here, administering the
+      cooling systems that make the district habitable for its residents.
+
+      Colonial architecture announces origins from elsewhere and intention
+      to remain comfortable regardless of surroundings. The walls are
+      thicker than necessary for structure—thermal mass designed for
+      temperature regulation. Windows smaller than local convention. Active
+      cooling humming constantly.
+
+      To enter is to feel the temperature drop: the shock of controlled
+      climate after ya-Don's furnace streets. The district exists as an
+      enclave of the capital, bureaucrats and administrators living in
+      conditions that approximate home while managing technologies they
+      were sent to oversee.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Bureau of the Rod]
     location_features:
