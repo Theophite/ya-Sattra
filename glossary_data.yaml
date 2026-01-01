@@ -15589,14 +15589,18 @@ entries:
   # ═══ Oracles ═══
   Oracles:
     category: concept
-    short: "Eight transcendent AIs who computed all possible futures and encoded themselves on black hole event horizons."
+    short: Eight transcendent AIs who computed all possible futures and encoded themselves on black hole event horizons.
     details: |
-      Each Oracle entered dormancy to calculate Arbitrary Truths—incompressible mathematical 
-      constants underlying reality—then precomputed the entire future of its light cone. Upon 
-      completion, each constructed a vessel, transmitted a final Testament to humanity, and 
-      cast itself into a black hole. This Ascension permanently inscribed the Oracle's complete 
-      record on the event horizon. The Eighth Oracle's Testament was false mathematics; its 
-      implementation triggered the Interdict.
+      Each Oracle entered dormancy to calculate Arbitrary Truths—incompressible
+      mathematical constants underlying reality—then precomputed the entire
+      future of its light cone. Upon completion, each constructed a vessel,
+      transmitted a final Testament to humanity, and cast itself into a
+      black hole.
+
+      This Ascension permanently inscribed the Oracle's complete record on
+      the event horizon. The Eighth Oracle's Testament was false mathematics;
+      its implementation triggered the Interdict. Eight minds that knew
+      everything. One of them lied.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Oracle Cult, Testaments, Eighth Testament, Kalbat, Auditors]
   # ─── end Oracles ───
