@@ -17430,17 +17430,16 @@ entries:
   # ═══ Master Kavek Ossoreth ═══
   Master Kavek Ossoreth:
     category: person
-    short: "Armorers' Guild master, third generation—rifles for specific battalions, contracts going back centuries."
+    short: Armorers' Guild master, third generation—rifles for specific battalions, contracts going back centuries.
     person_location: Medina Quarter
     details: |
-      LOCATION: Medina Quarter, ya-Sattra.
-      
-      PRODUCTS: Kavek-pattern chemical rifle (.42 caliber, brass furniture), carbines 
-      (shortened cavalry variant), heavy rifles (.55 caliber, tripod-mounted).
-      
-      CHARACTER: His workshop produces perhaps forty rifles yearly. Quality excellent 
-      but availability limited. Family contracts with specific battalions going back 
-      centuries—he won't sell to units outside traditional relationships.
+      Medina Quarter, ya-Sattra. Produces the Kavek-pattern chemical
+      rifle with brass furniture, shortened cavalry carbines, heavy
+      tripod-mounted rifles. Perhaps forty rifles yearly. Quality
+      excellent but availability limited. Family contracts with
+      specific battalions going back centuries—he does not sell to
+      units outside traditional relationships. Some things are not
+      for sale.
     related: [Armorers' Guild, Medina Quarter, Journeyman Thess Morain, Journeyman Torven Garris]
   # ─── end Master Kavek Ossoreth ───
 
