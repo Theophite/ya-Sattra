@@ -14896,13 +14896,17 @@ entries:
   Institute of Permission:
     category: organization
     parent: Bureau of the Rod
-    short: "Rod subdivision handling unallocated patents and Salvage Guild finds—gatekeepers of new technology."
+    short: Rod subdivision handling unallocated patents and Salvage Guild finds—gatekeepers of recovered technology.
     details: |
-      Handles patents that have not been allocated and the paperwork for Salvage
-      Guild finds. When something new emerges from the ruins—an archaeotech device,
-      a forgotten capability, a recovered technique—it passes through Permission
-      before anyone can legally use it. Every decision creates winners and losers
-      among Aureate families competing for unallocated archaeotech.
+      Handles patents that have not been allocated and the paperwork for
+      Salvage Guild finds. When something new emerges from the ruins—an
+      archaeotech device, a forgotten capability, a recovered technique—it
+      passes through Permission before anyone can legally use it.
+
+      Every decision creates winners and losers among Aureate families
+      competing for unallocated archaeotech. The clerks understand their
+      power. The bribes are substantial. The resentment from losing families
+      is eternal.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Rod, Salvage Guild, Patents]
   # ─── end Institute of Permission ───
