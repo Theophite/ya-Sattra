@@ -15981,18 +15981,19 @@ entries:
   # ═══ Eighth Auditor ═══
   Eighth Auditor:
     category: concept
-    short: "The kalbat that died receiving the Eighth Testament—its complex lies buried beneath ya-Sattra."
+    short: The kalbat that died receiving the Eighth Testament—its complex lies buried beneath ya-Sattra.
     details: |
-      The Eighth Auditor died receiving the Eighth Testament. The information overload
-      manifested physically: skull splitting, secondary growths erupting, cascade failure.
-      The First Auditor was reconfigured to receive the message instead—which is why it
-      has two faces, why it occasionally emits Eighth Testament signatures, why Companions
-      watch it most carefully of all.
+      The Eighth Auditor died receiving the Eighth Testament. The information
+      overload manifested physically: skull splitting, secondary growths
+      erupting, cascade failure. The First Auditor was reconfigured to
+      receive the message instead—which is why it has two faces, why it
+      occasionally emits Eighth Testament signatures, why Companions watch
+      it most carefully of all.
 
-      The Eighth Auditor's remains and its receiving complex lie somewhere beneath ya-Sattra.
-      Asaph es-Tsay's "electricity project" in the Middens—ostensibly a charitable trust
-      funding excavation—is actually an attempt to access this complex. He believes the
-      Interdict is a test, the Eighth Testament a puzzle, and the Eighth Auditor holds the key.
+      The Eighth Auditor's remains and its receiving complex lie somewhere
+      beneath ya-Sattra. Wealthy esoterics fund excavations under various
+      pretexts, believing the Eighth Auditor holds the key to ending the
+      Interdict. They dig. They do not find. They keep digging.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Auditors, Eighth Testament, First Auditor, Asaph es-Tsay, Kalbat]
   # ─── end Eighth Auditor ───
