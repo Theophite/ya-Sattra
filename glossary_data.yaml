@@ -8230,12 +8230,19 @@ entries:
   # ═══ Knife-Edge ═══
   Knife-Edge:
     category: location
-    short: "Metalworking tenement leaning fifteen degrees against eastern rubble."
+    short: Metalworking tenement leaning fifteen degrees—residents develop the tilted gait.
     details: |
-      ~1,600 residents. Forges process salvage arriving from Iron Yards networks. 
-      The fifteen-degree lean is visible from anywhere in the district, structural 
-      failure arrested but never corrected. Residents internalize the tilt—their 
-      gait adjusts even on level ground.
+      The leaning tenement. Fifteen degrees visible from anywhere in the district,
+      structural failure arrested but never corrected. Sixteen hundred residents
+      living at an angle, their furniture shimmed, their floors sloped. Forge smoke
+      drifts from upper floors where salvage from Iron Yards networks is processed
+      into usable metal.
+
+      Eastern edge of the Middens where flooded foundations give way to quarried
+      bedrock—the transition zone to legitimate industry. Less water here, more
+      heat and smoke. Residents develop the tilted gait, walking crooked even on
+      level ground. The building has held for generations; it will probably hold
+      for generations more. Probably.
     rag_pointer: The Middens Tenements
     related: [Middens, Iron Yards]
     location_features:
