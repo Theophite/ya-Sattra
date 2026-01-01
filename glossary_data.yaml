@@ -10235,14 +10235,20 @@ entries:
   # ═══ Taho Academy ═══
   Taho Academy:
     category: location
-    short: "20 acres of pre-Interdict buildings—the Republic's professional class training ground."
+    short: Pre-Interdict buildings of unknown purpose—now training Republican professionals.
     details: |
-      Connected pre-Interdict buildings forming complex around central plaza. Original purpose 
-      unknown, construction techniques beyond current capability, utilities that still partially 
-      function. Dormitories for 400 students, lecture halls, laboratories, library. Three-year 
-      program training military officers, engineers, administrators. The Academy's turbines on 
-      the stream provide power at cost to surrounding blocks—zero markup because educational 
-      institutions don't profiteer.
+      Twenty acres of connected pre-Interdict buildings around a central plaza.
+      Original purpose unknown, construction techniques beyond current capability,
+      utilities that still partially function after millennia. Now dormitories for
+      four hundred students, lecture halls, laboratories, library. Three-year
+      programs in engineering, military command, administration.
+
+      Wealthy students occupy single rooms with better furnishings; scholarship
+      students share cramped quarters, work part-time, study harder. But the
+      Academy forces interaction—random seating, mixed dormitories, collaborative
+      projects. The stream running through the complex powers turbines. Power
+      provided at cost to surrounding blocks—zero markup, published monthly,
+      because educational institutions do not profiteer.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Upper Taho, Taho]
     location_features:
