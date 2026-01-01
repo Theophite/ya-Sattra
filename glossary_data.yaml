@@ -2826,13 +2826,27 @@ entries:
   # ═══ Calculation Spire ═══
   Calculation Spire:
     category: location
-    short: "Es-Tsay estate—700m invisible cylinder displaying the city behind it on failing panels."
+    short: Seven hundred meters of invisible cylinder—display panels showing the city behind it, many burnt out, creating dark scars across nothing.
     details: |
-      The cylinder appears as an architectural void, visible only through slight light-warping 
-      at its edges. Ten thousand display panels show the city behind it; many have burnt out, 
-      creating dark scars. Sri Pater Irem es-Tsay performs morning authentication from the apex, 
-      activating every lector purchased in the previous 24 hours. The Garden of Failures 
-      surrounds its base.
+      The cylinder appears as an architectural void. Look straight at it
+      and see the city behind—ten thousand display panels projecting what
+      would be visible if the structure weren't there. The effect is
+      invisibility, or was. Many panels have burnt out over the centuries,
+      creating dark scars across the nothing, patches of opacity that mark
+      the cylinder's true shape.
+
+      At the edges, slight light-warping betrays the reality. Something
+      seven hundred meters tall stands here. Something holds the
+      computational patents that make lectors function. Each morning,
+      authentication rituals at the apex activate every lector purchased
+      in the previous day. The technology depends on this place, on the
+      family that maintains it, on processes performed in chambers no
+      outsider enters.
+
+      The Garden of Failures surrounds its base—failed computational
+      alternatives displayed as proof of superiority. Below ground,
+      analytical engines hum in bunkers. The invisible tower casts no
+      shadow but shapes everything around it.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, es-Tsay, Garden of Failures, Lector]
     location_features:
