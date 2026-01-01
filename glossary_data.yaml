@@ -13956,12 +13956,19 @@ entries:
   # ═══ Val Family ═══
   Val Family:
     category: organization
-    short: "Ridge infrastructure family controlling water distribution."
+    short: Ridge infrastructure family—controls water distribution through ancient standpipe access.
     details: |
-      Operates Val Waterworks from Horizon Row. Monopoly derives from exclusive access 
-      to deep standpipes connecting to ancient reservoirs. Rina Val manages business, 
-      Keram Val maintains systems. Son Qirren Val serves as Bureau of the Lens inspector 
-      for the Rotten Quarter—giving the family legitimacy and intelligence.
+      Operates Val Waterworks from Horizon Row. The monopoly derives from
+      exclusive access to deep standpipes connecting to ancient reservoirs.
+      The family cannot dig new standpipes—the knowledge was lost
+      generations ago—but they maintain what exists. Clean water flows
+      because Vals keep the pumps running.
+
+      Family members divide responsibilities: some handle business, others
+      maintain systems. A family member serves as Bureau of the Lens
+      inspector for the Rotten Quarter, giving the family both legitimacy
+      and intelligence. They know what happens in the quarter. They know who
+      pays their water bills late and why.
     rag_pointer: "The Ridge: Comprehensive Summary"
     related: [Ridge, Val Waterworks, Marzen Family, Galen Family]
   # ─── end Val Family ───
@@ -13969,13 +13976,19 @@ entries:
   # ═══ Marzen Family ═══
   Marzen Family:
     category: organization
-    short: "Ridge infrastructure family controlling electrical distribution."
+    short: Ridge infrastructure family—owns the only reliable local power source.
     details: |
-      Owns 3 MW thorium micro-reactor, the only reliable local power source. 
-      Distributes electricity via ceramic token system—residents purchase tokens 
-      representing kilowatt-hours. Dara Marzen handles certification as her father 
-      Telsin's eyesight fails. The reactor is old but stable, maintained through 
-      inherited technical knowledge.
+      A three-megawatt thorium micro-reactor in the family's basement provides
+      power to the Ridge. The only reliable local source. Electricity
+      distributes via ceramic token system—residents purchase tokens
+      representing kilowatt-hours. The tokens are family-stamped. Counterfeit
+      attempts fail; the reactor itself validates them somehow.
+
+      The reactor is old but stable, maintained through inherited technical
+      knowledge. Family members train their successors before age takes their
+      eyes, their hands, their memories. Certification passes between
+      generations like a torch. The Ridge stays lit because Marzens keep the
+      secrets.
     rag_pointer: "The Ridge: Comprehensive Summary"
     related: [Ridge, Val Family, Galen Family]
   # ─── end Marzen Family ───
