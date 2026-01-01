@@ -17497,15 +17497,18 @@ entries:
   # ═══ Vorath es-Kellam ═══
   Vorath es-Kellam:
     category: person
-    short: "Highborn (Optimized) bureaucrat—cloned lineage, works Scale documentary authentication, suppresses vocal harmonics."
+    short: Highborn (Optimized) bureaucrat—cloned lineage, works Scale documentary authentication, suppresses vocal harmonics.
     person_location: Medina Quarter
     details: |
-      Age unspecified (cloned). Bureau of the Scale documentary authentication office, 
-      12 years. Six feet tall with proportions so precisely symmetrical they trigger unease. 
-      Does not have a mother—last mother in his line was four generations back, still alive on 
-      antiagathics. Trained to suppress Highborn vocal undertones; the suppression has rendered 
-      his affect peculiarly flat. Lives alone in Medina Quarter apartments his family maintains. 
-      Spends evenings reading technical manuals for equipment he will never operate.
+      Age unspecified (cloned). Bureau of the Scale documentary
+      authentication office, twelve years. Six feet tall with
+      proportions so precisely symmetrical they trigger unease. Does
+      not have a mother—last mother in his line was four generations
+      back, still alive on antiagathics. Trained to suppress Highborn
+      vocal undertones; the suppression has rendered his affect
+      peculiarly flat. Lives alone in Medina Quarter apartments his
+      family maintains. Spends evenings reading technical manuals for
+      equipment he will never operate.
     rag_pointer: "Caste Type Specimens Catalog"
     related: [Highborn, Bureau of the Scale, Medina Quarter]
   # ─── end Vorath es-Kellam ───
