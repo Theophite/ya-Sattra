@@ -15219,12 +15219,16 @@ entries:
   # ═══ City-of-Glass Charter ═══
   City-of-Glass Charter:
     category: event
-    short: "Constitutional document transferring reproductive jurisdiction from Creche to Scale."
+    short: Constitutional document transferring reproductive jurisdiction from Creche to Scale.
     details: |
-      Named for the Technical Caste site whose intervention ended the Malpais War in 772
-      Red Hawk. Grants individual rights over reproduction, requires Scale approval for
-      Creche interventions. Conservative coalition (led by Soh Kēt faction) seeks reversal.
-      Reform faction defends. Current political conflict centers on this document.
+      Named for the Technical Caste site whose intervention ended the Malpais
+      War. Grants individual rights over reproduction, requires Scale approval
+      for Creche interventions.
+
+      Conservative coalition seeks reversal. Reform faction defends. Current
+      political conflict centers on this document. The Charter is taught in
+      schools, debated in courts, invoked in arguments between parents and
+      children about bodies and choices.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Creche, Bureau of the Scale, City of Glass, Malpais War]
     event_features:
