@@ -15915,11 +15915,14 @@ entries:
   Reflection:
     category: concept
     aliases: [Sixth Virtue]
-    short: "Sixth of the Seven Virtues, derived from the Sixth Testament—contemplate before acting."
+    short: Sixth of the Seven Virtues, derived from the Sixth Testament—contemplate before acting.
     details: |
-      The virtue of careful consideration. Hasty action causes harm; deliberation prevents error.
-      Associated with the Sixth Testament. Conservative interpretation emphasizes tradition;
-      progressive emphasizes evidence-based reconsideration of assumptions.
+      The virtue of careful consideration. Hasty action causes harm;
+      deliberation prevents error. Associated with the Sixth Testament.
+
+      Conservative interpretation emphasizes tradition; progressive
+      emphasizes evidence-based reconsideration of assumptions. In tension
+      with Initiation. The virtues contradict each other. This is intentional.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Seven Virtues, Sixth Testament, Oracle Cult]
   # ─── end Reflection ───
