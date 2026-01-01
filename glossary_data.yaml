@@ -5541,24 +5541,23 @@ entries:
   # ═══ Yela Mor ═══
   Yela Mor:
     category: person
-    short: "Senator for Highland Graziers' Association—forty, inherited the seat, navigates between commercial and pastoral interests."
+    short: Senator for Highland Graziers' Association—inherited the seat, navigates between commercial and pastoral interests.
     details: |
-      Never wanted the Senate seat. Her father Bekran Mor held it for nine years;
-      when he died of winter fever three years ago, the Association's dynamics
-      required a Mor successor. She accepted because the alternative was watching
-      her band's political voice pass to commercial interests entirely.
+      Never wanted the Senate seat. Her father held it for nine years; when he died,
+      the Association's dynamics required a Mor successor. She accepted because the
+      alternative was watching her band's political voice pass to commercial interests
+      entirely.
 
-      Votes Dusk on most issues—not from ideological commitment but practical
-      calculation. Dawn controls institutions that might further reduce Mor territory;
-      Dusk merchant interests benefit from stable pastoral production. The commercial
-      members expect Dusk alignment; the pastoral members expect her to remember
-      they lost a war.
+      Votes Dusk on most issues—not from ideological commitment but practical calculation.
+      Dawn controls institutions that might further reduce Mor territory; Dusk merchant
+      interests benefit from stable pastoral production. The commercial members expect
+      Dusk alignment. The pastoral members expect her to remember they lost a war.
 
-      Her most delicate task: managing the milk trade with the Kelar. The Association's
-      commercial members profit enormously from Kelar cheese. If pastoral grievances
-      disrupted that trade, commercial members would withdraw, leaving Mor, Tal-Yem,
-      and Sek without representation. She coordinates informally with Temad Kelar on
-      shared pastoral issues, knowing half her coalition would object if they understood.
+      Most delicate task: managing the milk trade with the Kelar. Commercial members
+      profit enormously from Kelar cheese. If pastoral grievances disrupted that trade,
+      commercial members would withdraw, leaving pastoral bands without representation.
+      She coordinates informally with the Kelar senator on shared pastoral issues,
+      knowing half her coalition would object if they understood.
     rag_pointer: "The Republic of Ganat"
     related: [Mor Band, Highland Graziers' Association, Southern Highland Bands, Temad Kelar, Dusk Party]
     character_features:
