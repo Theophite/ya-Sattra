@@ -13996,15 +13996,19 @@ entries:
   # ═══ Cho ═══
   Cho:
     category: organization
-    short: "Sewer-fisher clan maintaining Lockworks and controlling Lantern-Heaps electrical monopoly."
+    short: Sewer-fisher clan with Fen heritage—maintains Lockworks, controls Lantern-Heaps electricity.
     details: |
-      One of six sewer-fisher clans in the Middens. Hybrid sewer-fisher/Fen heritage
-      from a marriage three generations past—sometimes produces fertile crosses.
-      Maintains Lockworks water infrastructure under contract to the Knot (Hanged Men
-      control access, Cho provides technical expertise). Also controls Lantern-Heaps
-      electrical distribution and the gondola to the Ridge. Matriarch Anira Cho manages
-      Lockworks oversight; niece Riva Fen-Cho sits on the Knot council. Rainbow signage
-      marks their territory.
+      One of six sewer-fisher clans in the Middens. Hybrid sewer-fisher and
+      Fen heritage from a marriage three generations past—sometimes produces
+      fertile crosses. The clan bridges two worlds, two bodies, two ways of
+      being modified.
+
+      Maintains Lockworks water infrastructure under contract to the Knot.
+      Hanged Men control access; the Cho provide technical expertise. Also
+      controls Lantern-Heaps electrical distribution and the gondola to the
+      Ridge. Clan members sit on the Knot council. Rainbow signage marks
+      their territory throughout the district. Follow the colors to find the
+      clan. They want to be found by those who need them.
     rag_pointer: "The Middens Tenements, The Ridge: Comprehensive Summary, Caste - Sewer-Fishers"
     related: [Sewer-Fishers, Lantern-Heaps, Ridge, Lockworks, Knot, Fen]
   # ─── end Cho ───
