@@ -7125,11 +7125,19 @@ entries:
   # ═══ Alley of Lenses ═══
   Alley of Lenses:
     category: location
-    short: "Opticians' Guild retail street—precision instruments and lector components."
+    short: Opticians' Guild retail street—precision instruments and lector components.
     details: |
-      Guild street where Opticians' Guild members sell precision instruments, spectacles, 
-      lector components, and optical devices. Distinct from the Lens-Grinders' Courtyard 
-      where manufacturing and guild administration happen.
+      Narrow street lined with shopfronts displaying magnifying glasses, spectacles,
+      lector components, and optical devices of every description. Polished brass
+      and glass catch the light from overhead. Shopkeepers speak softly, demonstrating
+      instruments with careful hands. The guild's retail face, distinct from the
+      manufacturing and administration in the nearby Lens-Grinders' Courtyard.
+
+      Customers come seeking precision: bureaucrats needing spectacles for close work,
+      scholars replacing worn lector components, merchants wanting telescopes for their
+      counting rooms. The prices are standardized under guild charter, so one shops for
+      quality and fit rather than bargains. Opticians study customers' faces with
+      professional intensity, fitting lenses to eyes that have never seen clearly.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [Medina Quarter, Opticians' Guild, Lens-Grinders' Courtyard]
     location_features:
