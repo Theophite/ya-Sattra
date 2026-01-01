@@ -10729,13 +10729,18 @@ entries:
   # ═══ Southeast Approach ═══
   Southeast Approach:
     category: location
-    short: "Tsoka Red Deer's territory—extends toward Imperial frontier."
+    short: Military zone extending toward Imperial frontier—written orders, salary payments, merit-based promotion.
     details: |
-      District controlled by Tsoka Red Deer with his 643 soldiers organized
-      into seven companies. The most militarily organized zone of Ogon,
-      operating with Imperial discipline (written orders, salary payments,
-      merit-based promotion) while maintaining Akama cultural identity.
-      Trade routes to Imperial territories pass through here.
+      The most militarily organized zone in Ogon. Roughly six hundred soldiers
+      organized into seven companies, operating with Imperial discipline: written
+      orders, salary payments, merit-based promotion. This while maintaining
+      Akama cultural identity. The district controls trade routes to Imperial
+      territories—protection contracts for caravans passing through generate
+      steady income.
+
+      Imperial structure applied to Akama bodies. The companies drill in
+      formation, maintain equipment lists, keep service records. A contradiction
+      that works.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Ogon, Tsoka Red Deer, Northern Frontier]
     location_features:
