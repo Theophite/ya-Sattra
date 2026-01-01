@@ -2945,12 +2945,27 @@ entries:
   # ═══ es-Norren Towers ═══
   es-Norren Towers:
     category: location
-    short: "Seventeen semaphore towers connected by bridges of captive lightning—quantum encryption made visible."
+    short: Seventeen towers of varying heights connected by bridges of captive lightning—encryption traffic worth hundreds of obols per pulse.
     details: |
-      Seventeen towers of varying heights connected by bridges at seemingly random intervals. 
-      Tower heights create wind vortexes making bridges terrifying to cross. The family hasn't 
-      met in person for years—business conducted by written messages via Springheels. At sunset, 
-      bridges light with encryption traffic worth hundreds of obols per pulse.
+      Seventeen towers at seemingly random heights, connected by bridges at
+      seemingly random intervals. The height variations create wind vortexes
+      that make crossing terrifying—bridges swaying, gusts threatening to
+      tear footing away. The family members occupying different towers
+      haven't met in person for years. Business conducted by written
+      messages carried by those agile enough to survive the crossings.
+
+      The bridges serve purposes beyond transit. At sunset they light with
+      encryption traffic: captive lightning flickering between towers,
+      quantum-secured communications worth hundreds of obols per pulse. The
+      visible display advertises capabilities no competitor can match.
+      Whatever principles make the encryption function, whatever ancient
+      technology generates those patterns of lightning, the family maintains
+      it without comprehending it.
+
+      Isolation becomes operating principle. Each tower a separate household.
+      Each bridge a dangerous commitment. The architecture enforces
+      independence while the lightning enforces connection—a family that
+      shares nothing but the technology that makes them valuable.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, es-Norren]
     location_features:
