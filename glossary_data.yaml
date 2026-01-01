@@ -8297,12 +8297,17 @@ entries:
   # ═══ Transient Market ═══
   Transient Market:
     category: location
-    short: "Mobile market in Vetch-Rise assembling wherever Chain-Men aren't patrolling."
+    short: Mobile market in Vetch-Rise corridors—commerce materializing wherever Chain-Men aren't.
     details: |
-      Vendors carry entire inventories ready to move at moment's notice. Goods are 
-      marginal but essential: used clothing, barely-edible food, documentation that 
-      might pass casual inspection. When danger appears, the market dissolves like 
-      smoke, reassembling elsewhere once danger passes.
+      Not a place but a phenomenon. Vendors carry entire inventories in bags ready
+      to grab at a moment's notice. No stalls, no fixed positions—blankets on damp
+      floors, goods spread for quick inspection. Used clothing, barely-edible food,
+      documentation that might pass casual scrutiny. The architecture of survival.
+
+      When danger appears, the market dissolves like smoke. Vendors scatter into
+      stairwells and corridors, invisible until danger passes. Then it reassembles
+      elsewhere—a different corridor, a different floor, the same desperate commerce
+      continuing.
     rag_pointer: The Middens Tenements
     related: [Vetch-Rise, Middens]
     location_features:
