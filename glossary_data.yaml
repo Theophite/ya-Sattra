@@ -5363,24 +5363,22 @@ entries:
   # ═══ Southern Highland Bands ═══
   Southern Highland Bands:
     category: concept
-    short: "Four Uliq pastoral bands in the southern Colorado highlands—Kelar, Mor, Tal-Yem, Sek—divided by revolution, united by economics."
+    short: Four Uliq pastoral bands in the highlands—divided by revolution, united by economics, buying milk from former enemies.
     details: |
-      Perhaps 4,000 people total ranging territory between High Junction and the San
-      Luis Valley, grazing hardy goats on marginal terrain between 8,000 and 11,000
-      feet. None can hold a Senate seat alone—the 8,000-member threshold exceeds any
-      single band's population by a factor of five. Political voice requires confederation.
+      Four thousand people total grazing hardy goats on marginal terrain between eight
+      and eleven thousand feet. None can hold a Senate seat alone—the eight-thousand
+      member threshold exceeds any single band's population by a factor of five.
+      Political voice requires confederation.
 
-      The revolution divided them. The Kelar fought for the Republic; the Mor, Tal-Yem,
-      and Sek supported the Sultana. Eighteen years later, both confederations include
-      bands from opposite sides. Economics and geography override historical grievance
-      when political survival requires coalition. The Kelar sell luxury cheese to urban
-      consumers and buy milk from former enemies at fair prices.
+      The revolution divided them. Kelar fought for the Republic; Mor, Tal-Yem, and Sek
+      supported the Sultana. Eighteen years later, both confederations include bands
+      from opposite sides. Economics and geography override historical grievance when
+      survival requires coalition.
 
-      Two confederations now hold two Senate seats: Eastern Range Confederation (Dawn)
-      and Highland Graziers' Association (Dusk). Despite factional division, both
-      coordinate informally on issues affecting highland pastoral interests—grazing
-      restrictions, environmental requirements, labor standards inappropriate for family
-      bands. Highland survival requires cooperation; factional purity is urban luxury.
+      Two confederations now hold two Senate seats. Despite factional division, both
+      coordinate informally on highland pastoral interests—grazing restrictions,
+      environmental requirements, labor standards inappropriate for family bands.
+      Highland survival requires cooperation. Factional purity is urban luxury.
     rag_pointer: "The Republic of Ganat"
     related: [High Junction, Eastern Range Confederation, Highland Graziers' Association, Kelar Band, Mor Band, Tal-Yem Band, Sek Bands, Uliq]
     caste_features:
