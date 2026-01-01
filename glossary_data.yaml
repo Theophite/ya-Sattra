@@ -17416,11 +17416,13 @@ entries:
   # ═══ Maguey-silk ═══
   Maguey-silk:
     category: concept
-    short: "Ganati textile—fibers from agave-like plants beaten and spun into extremely fine thread approaching silk quality."
+    short: Ganati textile—fibers from agave-like plants beaten and spun into extremely fine thread approaching silk quality.
     details: |
-      Light, strong, breathable. Serrulata typically wear maguey-silk skirts, turbans, 
-      and shawls. Rasma Dhal-Setil's preference for maguey-silk and gauze announces 
-      wealth without ostentation. Ganati textiles command premiums in Imperial cities.
+      Light, strong, breathable. Serrulata typically wear maguey-silk
+      skirts, turbans, and shawls. A preference for maguey-silk and
+      gauze announces wealth without ostentation. Ganati textiles
+      command premiums in Imperial cities. The fabric breathes with the
+      body; in Ganati heat, nothing else will do.
     rag_pointer: "The Republic of Ganat"
     related: [Ganat, Serrulata]
   # ─── end Maguey-silk ───
