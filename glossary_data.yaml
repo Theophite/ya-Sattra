@@ -13904,13 +13904,19 @@ entries:
   # ═══ Valve-Saint Parish ═══
   Valve-Saint Parish:
     category: organization
-    short: "Penitent congregation in Sump-Gate's overflow chamber."
+    short: Penitent congregation worshipping around a wheel altar in Sump-Gate's overflow chamber.
     details: |
-      Led by Curate Aram es-Thabit. Worships around a massive wheel altar in a chamber 
-      where seawater seeps through the floor during high tide. Services follow tidal 
-      schedules rather than solar ones. Operates grain dole requiring attendance. The 
-      wheel probably never controlled the pumps, but the story of the Redback stevedore 
-      who turned it provides meaning.
+      Services take place around a massive wheel altar in a chamber where
+      seawater seeps through the floor during high tide. The congregation
+      gathers by tidal schedules rather than solar ones—worship shifts with
+      the water. Parishioners stand ankle-deep in brine, singing prayers that
+      echo off wet stone.
+
+      The parish operates a grain dole requiring attendance. The desperate
+      come for bread and stay for the wheel. The wheel probably never
+      controlled the pumps, but the story of the Redback stevedore who turned
+      it and saved the district provides meaning. The faithful wait for the
+      waters to rise again, for someone worthy to turn the wheel again.
     rag_pointer: The Middens Tenements
     related: [Sump-Gate, Middens, Penitent Church]
   # ─── end Valve-Saint Parish ───
@@ -13918,12 +13924,17 @@ entries:
   # ═══ Loak ═══
   Loak:
     category: organization
-    short: "Sewer-fisher clan operating Lift-3 and Merra's kitchen."
+    short: Sewer-fisher clan—controls Lift-3 access and a kitchen that feeds salvage workers.
     details: |
-      One of five sewer-fisher clans jointly administering Hollow-Egress. Yuli Loak
-      runs Lift-3 operations; Merra Loak operates the kitchen that feeds salvage
-      workers and gathers intelligence. The clan's control of deep access and food
-      distribution gives them influence disproportionate to their numbers.
+      One of five sewer-fisher clans jointly administering Hollow-Egress. The
+      clan operates Lift-3, controlling vertical access between the Middens
+      and the deep tunnels. They also run a kitchen that feeds salvage
+      workers—and gathers intelligence. Food purchases tell stories. Who eats
+      what, when, with whom. The clan listens.
+
+      Control of deep access and food distribution gives them influence
+      disproportionate to their numbers. Small clan. Large reach. The Loaks
+      know who goes down, who comes up, and who does neither.
     rag_pointer: The Middens Tenements
     related: [Sewer-Fishers, Hollow-Egress, Lift-3, Middens]
   # ─── end Loak ───
