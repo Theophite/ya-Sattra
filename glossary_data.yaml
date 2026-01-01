@@ -5742,8 +5742,17 @@ entries:
   # ═══ Inner City ═══
   Inner City:
     category: location
-    short: The enclosed arcology at the heart of ya-Sattra, containing the four Whorls.
-    details: Entirely interior space—no sky, no outside. Light from orb-fixtures, bronze columns, geometric patterns worn smooth by millennia. Temporal distortion increases toward center.
+    short: The enclosed arcology at ya-Sattra's heart—entirely interior space where no sky exists and temporal distortion increases toward the center.
+    details: |
+      No sky, no outside. Light from orb-fixtures, shadowless and eternal. Bronze-colored
+      thesad forms seamless walls, columns, floors—built for forever with no joints, no
+      failure points. Geometric patterns worn smooth by millennia of footsteps.
+
+      Four interlocking Whorls ascend at different rates. Fourth Whorl is almost normal
+      —minimal temporal effects, ordinary people living in extraordinary architecture.
+      Third and Second Whorls intensify toward the center. First Whorl is where geometry
+      doesn't quite work, where the Black Door waits, where few enter and fewer return
+      unchanged. The Antediluvians called it ya-Thes.el: Place of Eternal Brightness.
     rag_pointer: The Inner City
     related: [Fourth Whorl, Second Whorl, First Whorl, ya-Sattra, Thesad]
     location_features:
