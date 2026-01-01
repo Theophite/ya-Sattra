@@ -17067,14 +17067,18 @@ entries:
   # ═══ Datho Kel el-Marwen ═══
   Datho Kel el-Marwen:
     category: person
-    short: "Dusk Consul of the Republic of Ganat—represents commercial interests and Imperial accommodation."
+    short: Dusk Consul of the Republic of Ganat—represents commercial interests and Imperial accommodation.
     person_location: Ganat
     details: |
-      Selected through cross-selection mechanism where each party picks the opposing 
-      party's most moderate candidate. The 'Kel el-' prefix indicates Imperial descent, 
-      suggesting family origins in Imperial territory before migration to Ganat. 
-      Represents Dusk Party's merchant interests and preference for peaceful Imperial 
-      relations.
+      Selected through the cross-selection mechanism where each party picks
+      the opposing party's most moderate candidate. The "Kel el-" prefix
+      indicates Imperial descent, suggesting family origins in Imperial
+      territory before migration to Ganat.
+
+      Represents the Dusk Party's merchant interests and preference for
+      peaceful Imperial relations. The Consul Dawn does not want. The
+      Consul Dusk did not choose. Acceptable to everyone. Enthusiastically
+      supported by no one.
     rag_pointer: "The Republic of Ganat"
     related: [Ganat, Dusk Party, Kilit]
   # ─── end Datho Kel el-Marwen ───
