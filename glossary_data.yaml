@@ -17328,17 +17328,15 @@ entries:
   # ═══ Khorat the Deserter ═══
   Khorat the Deserter:
     category: person
-    short: "Ganati Republican Guard deserter now producing rifles for the Akama with captured Imperial tooling."
+    short: Ganati Republican Guard deserter now producing rifles for the Akama with captured Imperial tooling.
     person_location: Ogon
     details: |
-      LOCATION: Thavek district, Ogon.
-      
-      PRODUCTS: Hunting rifle (.38 caliber, accurate to 400 yards), carbine (cavalry 
-      length), heavy rifle (.50 caliber).
-      
-      CHARACTER: Quality approaches Republican standards. Uses captured Imperial 
-      tooling. Doesn't talk about his past—something drove him to leave the Guard 
-      and settle among people who were recently enemies. The Akama don't ask.
+      Thavek district, Ogon. Produces hunting rifles accurate to four
+      hundred yards, cavalry-length carbines, heavy rifles. Quality
+      approaches Republican standards. Uses captured Imperial tooling.
+      Does not talk about his past—something drove him to leave the
+      Guard and settle among people who were recently enemies. The
+      Akama do not ask.
     related: [Akama, Thousand Kingdoms, Ganat]
   # ─── end Khorat the Deserter ───
 
