@@ -8064,13 +8064,17 @@ entries:
   # ═══ Hollow-Egress ═══
   Hollow-Egress:
     category: location
-    short: "Five-clan cooperative tenement controlling Lift-3 salvage access."
+    short: Five-clan cooperative tenement controlling Lift-3 salvage access—the economic heart of the Middens.
     details: |
-      ~1,800 residents. Economic heart of salvage work despite the Gallows' political 
-      centrality. Better maintained than neighbors through combined clan investment. 
-      The massive industrial elevator shaft descends through pre-Interdict foundations 
-      into depths no one fully maps. Five sewer-fisher clans share responsibility for 
-      different systems.
+      Best-maintained tenement in the Middens. Five sewer-fisher clans share
+      investment in upkeep, and it shows—the stairs are solid, the walls repaired,
+      the common areas clean enough. Eighteen hundred residents. Economic heart
+      of salvage work despite the Gallows' political centrality.
+
+      Lift-3's massive elevator shaft dominates the building's center, descending
+      through pre-Interdict foundations into tunnel networks no one fully maps.
+      Bridges connect to Bright-Spire. Water sounds echo up from the depths.
+      Sewer-fisher clan markers in traditional patterns mark territory throughout.
     rag_pointer: The Middens Tenements
     related: [Middens, Lift-3, Sewer-Fishers]
     location_features:
