@@ -12499,17 +12499,21 @@ entries:
   # ═══ Vegas Springs ═══
   Vegas Springs:
     category: location
-    short: "Quasi-independent eastern trade hub built on artesian springs—controls access to March territories and beyond."
+    short: Artesian springs in the desert—the Water Guild predates both Republic and Sultanate.
     details: |
-      180,000 permanent residents, swelling to 220,000 during caravan season. Located 
-      250 miles southeast of Ganat proper. Seventeen major springs produce ~400,000 
-      gallons daily through mechanisms the Technical Castes once understood. The Water 
-      Guild predates Republic and Sultanate. Khalim Charter (965 RRH) preserved traditional 
-      privileges in exchange for Republican sovereignty. Three kilits (Provisioners, 
-      Factors, Guild Compact) rotate Senate representation—ensures autonomy, limits 
-      coalition influence. Less Serrulata-dominant than Republic overall (55% vs 65%). 
-      Commercial courts with own jurisdiction. Ancient basins carry names in forgotten 
-      languages: Tsolvarim Pool, Shekhana Cisterns, Basin of Ul-Mar-Thek.
+      Nearly two hundred thousand permanent residents, swelling further during
+      caravan season. Seventeen major springs produce water through mechanisms
+      the Technical Castes once understood but can no longer replicate. The
+      Water Guild controlled these sources before the Republic existed, before
+      the Sultanate fell. The Khalim Charter preserved traditional privileges
+      in exchange for nominal Republican sovereignty.
+
+      Three kilits rotate Senate representation, ensuring local autonomy while
+      limiting outside influence. Commercial courts maintain their own
+      jurisdiction. The ancient basins carry names in forgotten languages:
+      Tsolvarim Pool, Shekhana Cisterns, Basin of Ul-Mar-Thek. Those who live
+      here drink from sources whose origins predate memory. The water rises.
+      The city drinks. The Guild records who took how much.
     rag_pointer: The Republic of Ganat
     related: [Ganat, Marcher Territories, Kilit, Water Guild]
     location_features:
