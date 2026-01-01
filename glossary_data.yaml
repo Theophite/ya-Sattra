@@ -5412,21 +5412,21 @@ entries:
   # ═══ Highland Graziers' Association ═══
   Highland Graziers' Association:
     category: organization
-    short: "Dusk-aligned confederation—Mor, Tal-Yem, and Sek pastoralists plus commercial kilits, ~8,200 members, one Senate seat."
+    short: Dusk-aligned confederation—pastoral bands plus commercial kilits, barely crossing the threshold, one Senate seat.
     details: |
-      Pastoral members: Mor Band (~1,100), Tal-Yem Band (~650), Sek proper and Sek-Tal
-      (~550 combined). Commercial members: High Junction Factors' Guild (~2,800), Azhmar
-      Valley Agricultural Processors (~1,900), several smaller kilits (~1,200).
+      Pastoral members: Mor Band, Tal-Yem Band, Sek proper and Sek-Tal. Commercial
+      members: High Junction Factors' Guild, Azhmar Valley Agricultural Processors,
+      several smaller kilits. Just over eight thousand members.
 
       Barely crosses the threshold. Internal politics complicated by the uncomfortable
       reality that commercial members profit from Kelar cheese while pastoral members
       lost territory to the Kelar. The Factors' Guild doesn't care which band produces
-      milk; the Mor care intensely but need commercial numbers for representation.
+      milk. The Mor care intensely but need commercial numbers for representation.
 
-      Yela Mor holds the seat but operates under constraints: commercial members want
-      stable production, pastoral members want someone who remembers they lost a war.
-      She navigates between these pressures, voting Dusk on most issues while occasionally
-      breaking with commercial interests on pastoral autonomy matters.
+      The senator operates under constraints: commercial members want stable production,
+      pastoral members want someone who remembers they lost a war. Navigating between
+      these pressures while voting Dusk on most issues—occasionally breaking with
+      commercial interests when pastoral autonomy requires it.
     rag_pointer: "The Republic of Ganat"
     related: [Southern Highland Bands, Mor Band, Tal-Yem Band, Sek Bands, Yela Mor, High Junction, Dusk Party]
   # ─── end Highland Graziers' Association ───
