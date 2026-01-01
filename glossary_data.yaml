@@ -6410,8 +6410,16 @@ entries:
   # ═══ Kma-Dhol Quarter ═══
   Kma-Dhol Quarter:
     category: location
-    short: Areas of Ogon accessible only to sewer-fisher Technical Caste descendants.
-    details: "40,000 Kma-Dhol live throughout Ogon as recognized technical specialists. Occupy ziggurat upper levels, suspended platforms, compression passages. Operate openly under theological framework treating them as possessing 'clever souls.'"
+    short: Areas of Ogon accessible only to sewer-fisher Technical Caste descendants—ziggurat upper levels, suspended platforms, compression passages.
+    details: |
+      Forty thousand Kma-Dhol live throughout Ogon as recognized technical specialists.
+      Ziggurat upper levels where only their bodies fit. Suspended platforms reached by
+      routes larger castes cannot traverse. Compression passages too narrow for Warborn
+      shoulders.
+
+      They operate openly under theological framework treating them as possessing 'clever
+      souls'—polluted by contact with technical matters, but necessary. The architecture
+      that accommodates them also segregates them. Visibility within invisibility.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Ogon, Kma-Dhol]
     location_features:
