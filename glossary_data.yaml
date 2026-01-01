@@ -14111,12 +14111,19 @@ entries:
   # ═══ Processional Guild ═══
   Processional Guild:
     category: organization
-    short: "Ancient guild with charter for 'ceremonial conveyance'—now event coordination and institutional memory."
+    short: Ancient guild chartered for "ceremonial conveyance"—now event coordination and institutional memory.
     details: |
-      Headquartered in Processional Tower. Original function evolved across millennia 
-      from whatever ceremonies they conducted into event coordination, diplomatic 
-      facilitation, and institutional memory. Maintains archives with documentation 
-      from before the current calendar, written in scripts requiring specialist translation.
+      Headquartered in Processional Tower. The original function evolved
+      across millennia from whatever ceremonies they once conducted into
+      event coordination, diplomatic facilitation, and institutional memory.
+      No one remembers what the ceremonies were. The Guild maintains archives
+      with documentation from before the current calendar, written in scripts
+      requiring specialist translation.
+
+      Members still wear processional robes during major events. They carry
+      banners whose meanings are lost. The rituals continue because the
+      rituals have always continued. Somewhere in the archives lies the
+      explanation, but the Guild has never needed to find it.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [Guild, Processional Tower, Medina Quarter]
   # ─── end Processional Guild ───
