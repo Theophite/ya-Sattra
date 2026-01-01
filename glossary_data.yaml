@@ -3640,12 +3640,27 @@ entries:
   # ═══ City of Glass ═══
   City of Glass:
     category: location
-    short: "Technical Caste quantum computer with unknown defensive capabilities."
+    short: Technical Caste quantum computer—location uncertain, capabilities unknown, ended a war through means no one can explain.
     details: |
-      Site of mysterious intervention ending the Malpais War in 772 Red Hawk. 
-      Nobody knows what it did or why. The facility sits somewhere in the 
-      Steaming Sky Province, its exact location shifting in reports—whether 
-      through deliberate obscuration or actual spatial anomaly remains unclear.
+      The facility sits somewhere in the Steaming Sky Province. Its exact
+      location shifts in reports—whether through deliberate obscuration or
+      actual spatial anomaly, no one can determine. Those who claim to have
+      approached describe crystalline structures that hurt to look at
+      directly, architectures that seem to occupy more dimensions than
+      three.
+
+      In 772 Red Hawk, something here ended the Malpais War. Nobody knows
+      what it did. Nobody knows why. The combatants simply stopped. Reports
+      from the period describe soldiers on both sides experiencing
+      simultaneous conviction that the conflict was over—not defeat, not
+      victory, just completion.
+
+      The Technical Castes built this, or found it, or became part of it.
+      Whatever defensive capabilities it possesses remain untested because
+      no one since has approached closely enough to trigger them. The City
+      of Glass exists as rumor made partially visible: something glass-like
+      in the distance, something that ended violence through means beyond
+      understanding.
     rag_pointer: Index
     related: [Malpais War, Technical Castes, Steaming Sky Province]
     location_features:
