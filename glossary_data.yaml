@@ -11551,17 +11551,23 @@ entries:
   # ═══ Toh ═══
   Toh:
     category: location
-    short: "Imperial border resort built among Antediluvian mysteries—8,000 permanent, swelling to 24,000."
+    short: Imperial border resort—holographic dancers perform eternally in a meadow two miles south.
     details: |
-      Gateway where Imperial authority meets Ganati commerce, 8,000 permanent inhabitants swelling 
-      to 24,000 in peak seasons. Sits at 6,200 feet in a valley bowl on the western approach to 
-      Taho Pass, granite peaks rising 2,000-3,000 feet on three sides. The lake is visible from 
-      higher elevations but not from the valley floor—building anticipation for those heading 
-      east. The settlement occupies what was clearly significant tens of thousands of years ago: 
-      bronze-colored metal structures converted into hotels, mountain peaks carved into 400-foot 
-      Highborn faces, holographic dancers performing eternally in a meadow two miles south. 
-      Bureau of the Rod maintains largest installation outside the Inner City. 800 Warborn 
-      garrison in permanent boredom. Bureau of the Lens operates as customs inspectors.
+      Gateway where Imperial authority meets Ganati commerce. Eight thousand
+      permanent inhabitants swelling to twenty-four thousand in peak seasons. A
+      valley bowl at six thousand two hundred feet, granite peaks rising two to
+      three thousand feet on three sides. The lake is visible from higher
+      elevations but not from the valley floor—building anticipation for those
+      heading east.
+
+      The settlement occupies what was clearly significant tens of thousands of
+      years ago. Bronze-colored metal structures converted into hotels. Mountain
+      peaks carved into four-hundred-foot Highborn faces. Holographic dancers
+      performing eternally in a meadow two miles south. The Bureau of the Rod
+      maintains its largest installation outside the Inner City. Eight hundred
+      Warborn garrison in permanent boredom. The Bureau of the Lens operates
+      customs inspection—checking papers, examining cargo, managing the flow
+      between worlds.
     rag_pointer: Index, Stories from the Empire, Ganat and the Yarangar War
     related: [Undying Empire, Taho Pass, Taho, Ganat, Bureau of the Lens, Bureau of the Rod]
     location_features:
