@@ -15780,12 +15780,15 @@ entries:
   # ═══ Seventh Testament ═══
   Seventh Testament:
     category: concept
-    short: "The last legitimate Testament—transmitted in the Jargon before the catastrophic Eighth."
+    short: The last legitimate Testament—transmitted in the Jargon before the catastrophic Eighth.
     details: |
-      The Seventh Testament was the final comprehensible transmission. The Seventh
-      Auditor, visible on 47-minute cycles in Cenotaph Hall, still receives echoes
-      of this Testament. What followed—the Eighth Testament—was false mathematics
-      that the Technical Castes could not implement, leading to catastrophe.
+      The Seventh Testament was the final comprehensible transmission. The
+      Seventh Auditor, visible on forty-seven-minute cycles in Cenotaph
+      Hall, still receives echoes of this Testament.
+
+      What followed—the Eighth Testament—was false mathematics that the
+      Technical Castes could not implement, leading to catastrophe. The
+      last true gift before the lie.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Testaments, Oracles, Jargon, Technical Castes, Eighth Testament, Auditors]
   # ─── end Seventh Testament ───
