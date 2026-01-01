@@ -11765,13 +11765,18 @@ entries:
   # ═══ Entertainment Quarter ═══
   Entertainment Quarter:
     category: location
-    short: "Western valley—theaters, museums, restaurants, vice operations keeping visitors entertained."
+    short: Theaters, museums, vice—entertaining people waiting days or weeks for visa processing.
     details: |
-      Toh's economy depends on entertaining people waiting days or weeks for visa processing. 
-      Three major theaters (one in Antediluvian pavilion with perfect acoustics). Five archaeotech 
-      exhibitions displaying objects of unknown purpose. Forty-plus restaurants at every price 
-      point. The Vice Quarter: eight major brothels (Tsatsan-operated), twelve gambling houses, 
-      cannabis vendors. Protection paid to both Tsatsan and ya-Sattran Aureate networks.
+      Toh's economy depends on entertaining people waiting days or weeks for visa
+      processing. Three major theaters—one in an Antediluvian pavilion with
+      perfect acoustics. Five archaeotech exhibitions displaying objects of
+      unknown purpose. Forty-plus restaurants at every price point.
+
+      The Vice Quarter: technically illegal, practically tolerated. Eight major
+      brothels, twelve gambling houses, cannabis vendors. Protection paid to
+      competing criminal networks—one ensures operations run smoothly, the other
+      ensures enforcement remains lax. The transient population has needs the
+      legitimate economy cannot meet.
     rag_pointer: Index
     related: [Toh]
     location_features:
