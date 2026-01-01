@@ -16120,14 +16120,19 @@ entries:
   # ═══ Aureate ═══
   Aureate:
     category: concept
-    short: "Hereditary patent aristocracy—families controlling Imperial infrastructure through authentication keys they cannot understand."
+    short: Hereditary patent aristocracy—families controlling Imperial infrastructure through authentication keys they cannot understand.
     details: |
-      Created when family members entered temporal distortion in the First Whorl. Patents 
-      are not legal documents but encrypted authentication keys built into archaeotech—
-      self-enforcing through mechanisms predating the Interdict. Families hold keys to 
-      doors they cannot describe, collecting rent from rooms they have never entered. 
-      Temporal depth (how ancient the family) matters more than wealth. The "es-" prefix 
-      marks descent from someone in occultation.
+      Created when family members entered temporal distortion in the First
+      Whorl. Patents are not legal documents but encrypted authentication
+      keys built into archaeotech—self-enforcing through mechanisms
+      predating the Interdict. Families hold keys to doors they cannot
+      describe, collecting rent from rooms they have never entered.
+
+      Temporal depth matters more than wealth. A family whose ancestor
+      entered occultation three thousand years ago outranks one with ten
+      times their fortune but only a century of depth. The "es-" prefix
+      marks descent from someone still in occultation. They inherit what
+      they cannot understand. They profit from what they cannot explain.
     rag_pointer: "The Aureate System"
     related: [Occultation, Patent, es- prefix, Antediluvian Quarter, First Whorl]
   # ─── end Aureate ───
