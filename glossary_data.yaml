@@ -16198,14 +16198,19 @@ entries:
   # ═══ Records ═══
   Records:
     category: concept
-    short: "Named periods of Imperial history with internal year numbering—no sequential relationship between Records."
+    short: Named periods of Imperial history with internal year numbering—no sequential relationship between Records.
     details: |
-      The five unclassified Records: Three Laws (oldest, 5-6000 years), Resonating Word,
-      White Birds, Black Star, Red Hawk (current, year 981). Each Record has its own
-      internal chronology but no known sequential relationship to other Records. Families
-      in classified Records (early post-Interdict) cannot have origins verified—
-      inaccessibility compounds prestige. Even within a Record, scholars dispute
-      relative ordering. Temporal depth determines social precedence regardless of wealth.
+      Five unclassified Records: Three Laws (oldest, five to six thousand
+      years distant), Resonating Word, White Birds, Black Star, Red Hawk
+      (current, year nine hundred eighty-one). Each Record has its own
+      internal chronology but no known sequential relationship to other
+      Records.
+
+      Families in classified Records—early post-Interdict—cannot have
+      origins verified. This inaccessibility compounds prestige. Even within
+      a Record, scholars dispute relative ordering. History fragments into
+      islands. Before and after become uncertain. Only depth remains—and
+      depth determines everything.
     rag_pointer: "The Aureate System"
     related: [Aureate, Occultation, es- prefix, Record of Three Laws, Record of the Resonating Word, Record of White Birds, Record of the Black Star, Record of the Red Hawk]
 
