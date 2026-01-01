@@ -13788,12 +13788,19 @@ entries:
   # ═══ Ahn-Tam ═══
   Ahn-Tam:
     category: organization
-    short: "Ya-Tsatsa family that carves kalbat tombs—mysterious succession across castes and generations."
+    short: Carves kalbat tombs—different people every forty years, same house, same inexplicable excellence.
     details: |
-      Bureau records show different Ahn-Tams every forty years—different people, different 
-      castes, same house, same work. Workers claim it's their first tomb but produce 
-      excellent work. Apprentices become Ahn-Tams through mechanisms no one can explain. 
-      Companions deliver kalbat corpses; 15 months later, a new perfect tomb appears.
+      Bureau records show different Ahn-Tams every generation—different people,
+      different castes, same house, same work. Workers claim it's their first
+      tomb but produce excellent work immediately. Apprentices become Ahn-Tams
+      through mechanisms no one can explain. They arrive with no memory of
+      having wanted this. They carve as if remembering.
+
+      Companions deliver kalbat corpses to the cliff workshops. Fifteen months
+      later, a new perfect tomb appears. The quality never varies. The
+      succession never fails. Whatever process selects the next Ahn-Tam has
+      continued unbroken since the city was founded. No one understands it. The
+      tombs continue to appear.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [ya-Tsatsa, Kalbats, The Cliffs]
   # ─── end Ahn-Tam ───
@@ -13801,12 +13808,21 @@ entries:
   # ═══ Software Cooperatives ═══
   Software Cooperatives:
     category: organization
-    short: "Ya-Tsatsa organizations producing AI and quantum optimization in the ancient domes."
+    short: Seven organizations in seven domes—producing computational work descended from Witness processes.
     details: |
-      Seven cooperatives occupy seven of the eight domes around Horizon Plaza: Gan-Derem, 
-      Khet-Moros, Mir-Olos, Tsan-Gavvi, Dhem-Kheret, Oron-Qal, Tep-Navim. Produce 
-      computational work descended from Witness processes. Families running them are 
-      disproportionately represented in Testament Society upper ranks.
+      Seven cooperatives occupy seven of the eight domes around Horizon Plaza:
+      Gan-Derem, Khet-Moros, Mir-Olos, Tsan-Gavvi, Dhem-Kheret, Oron-Qal,
+      Tep-Navim. Each dome was sealed for centuries before the cooperatives
+      claimed them. The work they produce—AI systems, quantum optimization—
+      draws on techniques no one outside remembers developing.
+
+      Membership passes through families. Children grow up within the dome's
+      particular traditions, learning processes their parents cannot fully
+      explain. The mathematical intuitions seem to emerge rather than be
+      taught. Cooperative families are disproportionately represented in
+      Testament Society upper ranks. What Witnesses once computed, the
+      cooperatives now approximate through silicon. The connection remains
+      uncomfortable to examine closely.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [ya-Tsatsa, Eight Domes, Ezh Dhol]
   # ─── end Software Cooperatives ───
