@@ -3147,12 +3147,27 @@ entries:
   # ═══ Translation Gardens ═══
   Translation Gardens:
     category: location
-    short: "Es-Poel inter-circle communication spaces within the Symbiotic Spires."
+    short: Communication spaces where servants from incompatible genetic lines can finally speak to each other through biological translators.
     details: |
-      Spaces within the es-Poel towers where servants from different concentric 
-      circles can communicate through the biological interface organisms the 
-      family cultivates. The Gardens bridge incompatible modifications, allowing 
-      translation between servant lines that couldn't otherwise interact.
+      Spaces within the organic towers where the interface organisms grow.
+      Hereditary servant lines in great households accumulate modifications
+      over generations—some communication-enhancing, some limiting, some
+      simply incompatible with other lines. Servants from different circles
+      cannot always understand each other. Speech becomes mutually
+      unintelligible. Writing systems diverge.
+
+      The Gardens solve this. Biological interface organisms process
+      communication from one line and output it in forms another can
+      receive. Speak into a membrane on one side; modified speech emerges
+      from a growth on the other. Write on living tissue; the marks
+      transform into different symbols as they travel through organic
+      channels.
+
+      The space itself feels like a greenhouse: warm, humid, walls of
+      living material. The interface organisms aren't quite plants, aren't
+      quite animals, aren't quite aware. They translate. They connect what
+      would otherwise remain separate. Servants come here to coordinate
+      tasks their genetic heritage makes difficult to coordinate otherwise.
     rag_pointer: The Antediluvian Quarter
     related: [Symbiotic Spires, es-Poel]
     location_features:
