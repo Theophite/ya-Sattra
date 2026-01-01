@@ -12636,12 +12636,18 @@ entries:
   # ═══ Warren-Under-Stone ═══
   Warren-Under-Stone:
     category: location
-    short: "Ductworker quarter in Antediluvian infrastructure spaces—passages too small for anyone else."
+    short: Twenty thousand Ductworkers in spaces the Antediluvians carved for infrastructure access, not habitation.
     details: |
-      ~20,000 residents. Ventilation ducts, cable runs, maintenance crawlways—spaces 
-      the Antediluvians carved for infrastructure access, not habitation. Four-foot 
-      ceilings. Passages requiring compression to navigate. Only Ductworkers can live 
-      here; only Ductworkers would want to.
+      Ventilation ducts, cable runs, maintenance crawlways. Four-foot ceilings.
+      Passages requiring compression to navigate. The air moves differently
+      here—the Antediluvian systems still function, still circulate, still hum
+      through walls that predate memory.
+
+      Only Ductworkers can live here. Their bodies fit. Their children grow up
+      knowing these passages as home, learning routes through darkness that
+      would claustrophobic anyone else. Only Ductworkers would want to. The
+      cramped spaces that horrify outsiders feel safe to those born within them.
+      The warren is theirs. No one else comes. No one else can.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Ductworker]
     location_features:
