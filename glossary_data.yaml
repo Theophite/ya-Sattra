@@ -11921,8 +11921,20 @@ entries:
   # ═══ Undying Empire ═══
   Undying Empire:
     category: location
-    short: The remnant human civilization controlling the former California coast.
-    details: Claims universal sovereignty while controlling only ya-Sattra, ya-Don, ya-Tsatsa, and surrounding territories. Governed through the Satara council of seven Highborn lineages.
+    short: Three million subjects in inherited arcologies—the strangeness normalized across generations.
+    details: |
+      To be imperial is to live in structures built by ancestors who knew more than
+      anyone knows now. The arcologies of ya-Sattra and ya-Don defy comprehension;
+      the white quartz architecture of ya-Tsatsa is older still. Every building
+      inherited, every system maintained by people who do not fully understand it.
+
+      The Satara governs through seven Highborn lineages and their Bureau
+      apparatus—overlapping jurisdictions, authenticated documents, clerks wielding
+      power that nobles merely ratify. Imperial writ claims universal sovereignty
+      over all humanity while actual control extends only to the California coast
+      and its immediate hinterlands. Beyond the borders lie the Thousand Kingdoms,
+      Ganat, Yarangar, and the distant continent of Asovoë. The claim is maintained
+      regardless. This is how things are. This is how things have always been.
     rag_pointer: Index (Imperial Structure), Imperial Government
     related: [Satara, Bureau, Highborn]
     location_features:
