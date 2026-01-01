@@ -12221,12 +12221,20 @@ entries:
   # ═══ Verethani Compound ═══
   Verethani Compound:
     category: location
-    short: "Pre-Interdict worker housing still occupied—five Highborn families whose voices enable Furnace processes."
+    short: Pre-Interdict worker housing still occupied—five hundred residents whose voices enable Furnace processes.
     details: |
-      ~500 residents. The five Verethani families—Vereth, Somnal, Tessik-Vor, Keth-Ascending, 
-      and Dwell-Silent—have lived here longer than anyone can document. Buildings 
-      contemporaneous with the Furnaces, continuous occupation across tens of thousands 
-      of years. Their voices enable processes the Furnaces require.
+      The five Verethani families—Vereth, Somnal, Tessik-Vor, Keth-Ascending,
+      and Dwell-Silent—have lived here longer than anyone can document.
+      Buildings contemporaneous with the Furnaces themselves, continuous
+      occupation across tens of thousands of years. The architecture is worn
+      smooth in places, repaired with materials that postdate its construction
+      by millennia.
+
+      Their voices enable processes the Furnaces require. No one else's will
+      do. The Verethani work in shifts, descending through the Deep Access to
+      sing or speak or simply be present while incomprehensible machinery
+      responds to their presence. They do not understand why. They have never
+      understood why. They do it anyway.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Highborn, Furnaces, Unwritten-Axiom]
     location_features:
