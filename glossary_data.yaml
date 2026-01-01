@@ -8126,12 +8126,18 @@ entries:
   # ═══ Sump-Gate ═══
   Sump-Gate:
     category: location
-    short: "Pumping station tenement extending into the harbor, home to Valve-Saint Parish."
+    short: Pumping station tenement extending furthest into the harbor—industrial-religious fusion.
     details: |
-      ~1,500 residents. Extends furthest into the water. Pumping infrastructure processes 
-      water for entire district. The Valve-Saint Parish occupies the overflow chamber, 
-      worshipping around a massive wheel altar. Fishing boats and salvage vessels dock 
-      here. Curate Aram es-Thabit leads the congregation.
+      Extends furthest into harbor water—pre-Interdict foundations jutting into the
+      Rift, nearly amphibious. Fifteen hundred residents. Pumping infrastructure
+      processes water for the entire district: visible, audible, the constant thrum
+      of machinery. Boats dock at flooded lower levels; fishing vessels and salvage
+      craft tie up at platforms barely above waterline.
+
+      The Valve-Saint Parish occupies the overflow chamber, worshipping around a
+      massive wheel altar. Water itself becomes sacred here—channeled through the
+      floor, seeping in during high tide. Industrial-religious fusion where the
+      machinery that keeps the district alive takes on spiritual significance.
     rag_pointer: The Middens Tenements
     related: [Middens, Valve-Saint Parish]
     location_features:
