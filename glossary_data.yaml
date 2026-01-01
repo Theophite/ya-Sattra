@@ -12292,12 +12292,19 @@ entries:
   # ═══ Verethani Chapel ═══
   Verethani Chapel:
     category: location
-    short: "Ancient acoustic chamber designed for Verethani voices—by whom, no one knows."
+    short: A space that was made for Verethani voices—by builders unknown, for purposes unclear.
     details: |
-      Where the five Verethani families practice Unwritten-Axiom theology. Services 
-      incorporate vocal elements their voices somehow enable. The acoustic properties 
-      were designed—by whom, and when, no one knows—for these specific resonances. 
-      Pre-Interdict construction predating current memory.
+      The acoustic properties amplify, shape, and direct Verethani voices in ways
+      that enable Furnace processes no one fully understands. When a Verethani
+      speaks here, the sound carries differently than it should. Harmonics
+      emerge that the speaker did not produce. The walls respond.
+
+      The five families practice Unwritten-Axiom theology in this space, their
+      services incorporating vocal elements their voices somehow enable. Pre-
+      Interdict construction predating current memory. Someone anticipated them.
+      Someone built this for them before they existed, or before anyone
+      remembers them existing. The space was made for them. They do not know by
+      whom or why.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Verethani Compound, Unwritten-Axiom, Highborn]
     location_features:
