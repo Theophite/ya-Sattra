@@ -16001,14 +16001,19 @@ entries:
   # ═══ Penitent Church ═══
   Penitent Church:
     category: organization
-    short: "Transnational religion teaching collective guilt for the Interdict—humanity must atone to earn liberation."
+    short: Transnational religion teaching collective guilt for the Interdict—humanity must atone to earn liberation.
     details: |
-      Spans Empire, Ganat, and Thousand Kingdoms. Unified by the Plea (54-part liturgical 
-      cycle) but divided by interpretation. Autocephalous structure: Intercessor has 
-      symbolic authority; regional Patriarchs/Matriarchs (Imperial under Elara Vess, 
-      Ganati under Kaleb) govern independently. Empire designates it "discouraged belief" 
-      subject to capitation tax. Addresses collective anxiety about the Interdict while 
-      Oracle Cult handles individual mortality. Most people hold both without contradiction.
+      Spans Empire, Ganat, and Thousand Kingdoms. Unified by the Plea—a
+      fifty-four-part liturgical cycle—but divided by interpretation.
+      Autocephalous structure grants the Intercessor symbolic authority
+      while regional Patriarchs and Matriarchs govern independently. The
+      Empire designates it a "discouraged belief" subject to capitation tax.
+
+      The Penitent Church addresses collective anxiety about the Interdict
+      while the Oracle Cult handles individual mortality. Most people hold
+      both faiths without contradiction. They atone together on holy days.
+      They fear death alone. The Church provides the we; the Cult provides
+      the I.
     rag_pointer: The Penitents
     related: [Oracle Cult, The Plea, Capitation Tax, Intercessor]
   # ─── end Penitent Church ───
