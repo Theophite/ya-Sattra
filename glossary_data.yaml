@@ -14234,12 +14234,19 @@ entries:
   # ═══ Gondoliers' Guild ═══
   Gondoliers' Guild:
     category: organization
-    short: "Small guild (~50 boats) providing discrete water transit across the Rift."
+    short: About fifty boats providing discrete water transit across the Rift.
     details: |
-      Licensed gondolas operating from the Gondoliers' Steps. Rates vary by time and 
-      distance; discretion is legendary—gondoliers who discuss passengers don't remain 
-      in the Guild. Boats hug the shores rather than crossing the canyon's depths. 
-      Serves those avoiding bridge status declarations.
+      Licensed gondolas operating from the Gondoliers' Steps. Boats hug the
+      shores rather than crossing the canyon's depths—navigating by the
+      walls, staying where the water is known. The Rift's center is best
+      avoided. Things surface there sometimes.
+
+      Rates vary by time and distance. Discretion is legendary—gondoliers
+      who discuss passengers do not remain in the Guild. The passengers know
+      this. Everyone who steps into a gondola trusts that silence. Serves
+      those who need to cross without bridge status declarations, without
+      records, without being seen. The gondoliers see. The gondoliers do not
+      speak.
     rag_pointer: "The Rift: Ya-Sattra's Harbor District"
     related: [Guild, Rift, Gondoliers' Steps]
   # ─── end Gondoliers' Guild ───
