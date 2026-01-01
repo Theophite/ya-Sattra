@@ -16065,14 +16065,18 @@ entries:
   # ═══ Capitation Tax ═══
   Capitation Tax:
     category: concept
-    short: "Head tax on Penitent Church members—exemption for Church school students codifies rural practice."
+    short: Head tax on Penitent Church members—exemption for Church school students codifies rural practice.
     details: |
-      Empire designates Penitentism as "discouraged belief" subject to this tax. In 
-      practice, rural families have nothing to tax—formal exemption for Church school 
-      students merely acknowledges reality while giving Church institutional presence 
-      throughout provinces. Church provides literacy and civic formation where patronage 
-      networks don't reach; Empire tolerates this because alternative is funding rural 
-      education itself.
+      The Empire designates Penitentism as "discouraged belief" subject to
+      this tax. In practice, rural families have nothing to tax—formal
+      exemption for Church school students merely acknowledges reality while
+      giving the Church institutional presence throughout the provinces.
+
+      The Church provides literacy and civic formation where patronage
+      networks cannot reach. The Empire tolerates this because the
+      alternative is funding rural education itself. A compromise disguised
+      as persecution. The faithful pay a small fee to worship openly. The
+      poor pay nothing at all.
     rag_pointer: The Penitents
     related: [Penitent Church, Bureau of the Coin]
   # ─── end Capitation Tax ───
