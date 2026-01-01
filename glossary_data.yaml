@@ -16101,13 +16101,18 @@ entries:
   # ═══ Intercessor ═══
   Intercessor:
     category: concept
-    short: "Symbolic head of Penitent Church at Cathedral of the Plea—no temporal authority over autocephalous regions."
+    short: Symbolic head of Penitent Church at Cathedral of the Plea—no temporal authority over autocephalous regions.
     details: |
-      Maintains the Cathedral, preserves liturgical standards, adjudicates doctrinal 
-      disputes when asked. Cannot compel regional Patriarchs/Matriarchs. The autocephalous 
-      structure protects Church from decapitation but prevents unified action. Different 
-      regions select leaders differently: appointment in ya-Sattra, election in ya-Don, 
-      combat vision in Thousand Kingdoms.
+      The Intercessor maintains the Cathedral, preserves liturgical standards,
+      adjudicates doctrinal disputes when asked. But the Intercessor cannot
+      compel regional Patriarchs or Matriarchs to obey. The autocephalous
+      structure protects the Church from decapitation but prevents unified
+      action.
+
+      Different regions select their leaders differently: appointment in
+      ya-Sattra, election in ya-Don, combat vision in the Thousand Kingdoms.
+      A figurehead with immense symbolic authority. Everyone listens. Nobody
+      has to obey.
     rag_pointer: The Penitents
     related: [Penitent Church, The Plea]
   # ─── end Intercessor ───
