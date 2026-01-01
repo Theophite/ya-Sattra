@@ -7838,13 +7838,21 @@ entries:
   # ═══ Merchant Terraces ═══
   Merchant Terraces:
     category: location
-    short: "Five levels of commercial districts climbing Taho's slope—goods flow down, status flows up."
+    short: Five levels of commercial districts climbing Taho's slope—at night the stairs become rivers of light.
     details: |
-      Each terrace 100-150 feet higher than the last, created by cutting into slope and building 
-      massive retaining walls (granite blocks 3-6 feet per side, fitted without mortar in oldest 
-      sections). First Terrace: Sultanate period, re-carved facades. Second/Third: late Sultanate 
-      expansion. Fourth/Fifth: revolutionary-era, past twenty years. Connected by granite 
-      staircases—the Great Stairs rise 800 steps to Upper City, electric lights every 20 steps.
+      Each terrace one hundred to one hundred fifty feet higher than the last,
+      created by cutting into the slope and building massive retaining walls.
+      Granite blocks three to six feet per side, fitted without mortar in the
+      oldest sections. The climb is real work; porters make their living on
+      these stairs.
+
+      First Terrace shows Sultanate architecture with re-carved facades—Sultana
+      Ulayah receiving tribute is now collective assembly deciding distributions.
+      Second and Third Terraces: late Sultanate expansion. Fourth and Fifth:
+      revolutionary-era, past twenty years. The Great Stairs rise eight hundred
+      steps to the Upper City, electric lights every twenty steps. At night the
+      stairs become rivers of light—different kilits maintaining different sections,
+      competing to be brightest.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Taho, Port District, Upper Taho]
     location_features:
