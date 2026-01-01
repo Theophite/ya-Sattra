@@ -11484,13 +11484,20 @@ entries:
   # ═══ Cathedral of St. Akhmet ═══
   Cathedral of St. Akhmet:
     category: location
-    short: "Religious center of ya-Don—aspirational-vertical architecture reaching toward the obelisk towers."
+    short: Religious center of ya-Don—confession includes workplace grievances.
     details: |
-      Ya-Don's largest religious structure. Hosts Assembly for 5,000+ at major observances. 
-      Arch-Curate's residence adjacent. Where the Order's religious and labor functions merge—
-      confession includes workplace grievances, liturgical calendar incorporates production 
-      schedules. The architecture attempts beauty—Gothic-meets-Art-Deco crystalline spires 
-      reaching upward, toward the Furnace obelisks.
+      Ya-Don's largest religious structure. Gothic-meets-Art-Deco crystalline
+      spires reach upward, toward the Furnace obelisks—aspirational-vertical
+      architecture, beauty achieved through effort. Assembly hall holds five
+      thousand for major observances. The arch-curate's residence stands
+      adjacent.
+
+      Here the Order's religious and labor functions merge. Confession includes
+      workplace grievances. The liturgical calendar incorporates production
+      schedules. Worker saints look down from alcoves—not martyrs of piety but
+      martyrs of labor, those who died at work and were canonized for endurance.
+      The architecture attempts beauty. The workers who gather here are doing
+      their best.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Threshold, Order of St. Akhmet, Particular Confession]
     location_features:
