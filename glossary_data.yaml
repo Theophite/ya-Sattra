@@ -3549,16 +3549,25 @@ entries:
   # ═══ Blood-Tree ═══
   Blood-Tree:
     category: organism
-    short: "Engineered trees lining Central Valley watercourses—towering trunks, dark red canopy."
+    short: Engineered trees with baobab-scale trunks and dark red umbrella canopies—lining watercourses, stabilizing irrigation, purpose forgotten.
     details: |
-      Pre-Interdict engineered vegetation. Baobab-scale trunks (30-50 feet circumference) rising 
-      to 80-100 feet, spreading umbrella canopies of dark red foliage. Line watercourses 
-      throughout the Central Valley, especially around ya-Don and St. Brennam's Garden. 
-      Roots stabilize irrigation channels; canopy provides shade along agricultural routes.
-      
-      The red coloration comes from modified photosynthetic pigments—the trees process 
-      light differently than unengineered species. Nobody knows their original purpose 
-      or how to cultivate new ones; existing populations self-maintain along watercourses.
+      Pre-Interdict engineered vegetation. Trunks thirty to fifty feet in
+      circumference, rising eighty to a hundred feet, spreading umbrella
+      canopies of dark red foliage. They line watercourses throughout the
+      Central Valley, roots stabilizing irrigation channels, canopy
+      providing shade along agricultural routes.
+
+      The red coloration comes from modified photosynthetic pigments—the
+      trees process light differently than unengineered species. No one
+      knows their original purpose. No one knows how to cultivate new
+      ones. Existing populations self-maintain along watercourses,
+      reproducing through processes no living person understands.
+
+      To walk beneath them is to walk in crimson shadow. The light
+      filtering through dark red leaves colors everything beneath. Workers
+      travel these shaded routes in the heat of day, grateful for
+      engineering done for reasons lost to history. The trees were here
+      before anyone alive. They will be here after.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, St. Brennam's Garden]
     aesthetic_features:
