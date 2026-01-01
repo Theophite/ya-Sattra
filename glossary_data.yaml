@@ -12739,11 +12739,18 @@ entries:
   # ═══ Warren Market ═══
   Warren Market:
     category: location
-    short: "Small-scale commercial space serving Ductworker needs in Warren-Under-Stone."
+    short: Perhaps forty vendors in a space where everything is scaled for bodies half normal height.
     details: |
-      Food vendors specializing in compact, calorie-dense meals; craftspeople producing
-      specialized tools and equipment for infrastructure maintenance. Perhaps 40 vendors;
-      the market operates on schedules that align with Ductworker work patterns.
+      Food vendors specializing in compact, calorie-dense meals. Craftspeople
+      producing specialized tools for infrastructure maintenance—compression
+      harnesses, flexible implements, lubricants for tight passages. The market
+      operates on schedules that align with Ductworker work patterns, busiest
+      when shifts end in the surrounding shafts.
+
+      Everything here is sized appropriately. The displays are low. The portions
+      are manageable. The tools fit small hands. Outsiders who somehow reach
+      this space find themselves unable to browse, unable to sit, unable to
+      participate in commerce designed for people whose bodies are not theirs.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Warren-Under-Stone, Ductworker, ya-Don]
     location_features:
