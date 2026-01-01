@@ -7726,12 +7726,20 @@ entries:
   # ═══ Clothiers' Quarter ═══
   Clothiers' Quarter:
     category: location
-    short: "Guild neighborhood where textile merchants control entire blocks—commercial aspiration at its most established."
+    short: Guild neighborhood where textile merchants control entire blocks—bolt shops and fitting halls on every street.
     details: |
-      Large guild claiming an entire district. Charter assumes automated textile 
-      production that no longer exists. Actual production is manual, but guild 
-      monopoly remains absolute. Dyers, weavers, tailors, and cloth merchants 
-      operate under guild protection from Bureau interference.
+      The Clothiers' Guild claims an entire district, their charter assuming
+      automated textile production that no longer exists. The work is manual now,
+      but the monopoly remains absolute. Every block shows their presence: bolt
+      shops displaying fabrics in street-facing windows, sample rooms where
+      customers handle materials, fitting halls with mirrors and measurement marks.
+
+      Dyers, weavers, tailors, and cloth merchants operate under guild protection
+      from Bureau interference. The dye-works cluster at the neighborhood's edges,
+      their chemical smell contained. The guild hall anchors everything, its facade
+      showing commercial aspiration at full expression—geometric border patterns,
+      polished bronze fittings, the message unmistakable: we have been here longer
+      than the Bureaux, and we will remain.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [Medina Quarter]
     location_features:
