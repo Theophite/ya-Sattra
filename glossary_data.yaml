@@ -15833,11 +15833,14 @@ entries:
   Initiation:
     category: concept
     aliases: [First Virtue]
-    short: "First of the Seven Virtues, derived from the First Testament—begin what must be done."
+    short: First of the Seven Virtues, derived from the First Testament—begin what must be done.
     details: |
-      The virtue of beginning, of taking action when action is required. Associated with
-      the First Testament and the First Oracle. Tested in the Seven-Cornered Examination.
-      Conservative interpretation emphasizes duty; progressive emphasizes initiative.
+      The virtue of beginning, of taking action when action is required.
+      Associated with the First Testament and the First Oracle. Tested in
+      the Seven-Cornered Examination.
+
+      Conservative interpretation emphasizes duty; progressive emphasizes
+      initiative. Both interpretations demand movement. Paralysis is sin.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Seven Virtues, First Testament, Oracle Cult]
   # ─── end Initiation ───
