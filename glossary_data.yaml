@@ -14704,11 +14704,16 @@ entries:
   Institute of Nutritional Design:
     category: organization
     parent: Bureau of the Creche
-    short: "Creche subdivision producing bulk food cultures—quietly indispensable in provinces with collapsed soil fertility."
+    short: Creche subdivision producing bulk food cultures—quietly indispensable where soil fertility has collapsed.
     details: |
       Produces bulk food cultures, synthetic starches, and industrial yeast.
       Controls edible biomatter patents across outer provinces where soil
-      fertility has collapsed. Unpopular but necessary—quietly indispensable.
+      fertility has collapsed. The food tastes terrible. The food keeps
+      populations alive.
+
+      Unpopular but necessary—quietly indispensable. No one thanks them. No
+      one could survive without them. The Institute operates in the gap
+      between disgust and starvation.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Creche]
   # ─── end Institute of Nutritional Design ───
