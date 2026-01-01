@@ -10124,13 +10124,21 @@ entries:
   # ═══ Taho ═══
   Taho:
     category: location
-    short: Largest city in the Republic, commercial gateway to the Empire.
+    short: Largest city in the Republic—at night it glows like fallen stars.
     details: |
-      700,000 inhabitants on granite slopes above Lake Tahoe, 6,200-6,800 feet elevation. 
-      Controls Truckee Pass—the only crossing for hundreds of miles. Blazes with electric 
-      light at night; competitive philanthropy makes power nearly free. Dusk merchant kilits 
-      dominate commerce; Dawn arch-curate governs religion. Port District at lake level, 
-      Merchant Terraces climbing in five levels, Upper City at summit with Academy and Cathedral.
+      Seven hundred thousand inhabitants on granite slopes above the lake.
+      Terraces climb from the Port District at water level through five levels
+      of Merchant Terraces to the Upper City at summit. Eight hundred steps on
+      the Great Stairs, with different merchant kilits maintaining different
+      sections, competing to be brightest. The city controls Truckee Pass—the
+      only crossing for hundreds of miles.
+
+      Competitive philanthropy makes power nearly free. Dusk merchant kilits
+      dominate commerce; the Dawn arch-curate governs religion. At night the
+      city blazes with electric light, thousands of amber points climbing the
+      terraces, visible from surrounding mountains. A display of wealth, of
+      coordination, of capacity. Visitors struggle with the thin air at six
+      thousand feet; residents take the stairs without thinking.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Ganat, Undying Empire, Toh]
     location_features:
