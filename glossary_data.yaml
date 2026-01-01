@@ -3994,13 +3994,26 @@ entries:
   # ═══ The Deep Market ═══
   The Deep Market:
     category: location
-    short: "Weekly underground market in the Depths—surface merchants rarely attend."
+    short: Weekly underground market where surface merchants rarely venture—three thousand attendees navigating by echolocation and dim light.
     details: |
-      Largest excavated commercial space in the Depths of St. Yerren. Perhaps 100 vendors
-      selling high-nutrient foods, specialized equipment, and goods suited for underground
-      life. Surface merchants rarely attend; the disorientation that tunnel systems produce
-      in non-Karst visitors makes commerce impractical. Approximately 3,000 attendees on
-      market days.
+      Largest excavated commercial space in the Depths. The cavern opens
+      unexpectedly—tunnels channeling toward a void the ceiling of which
+      disappears into darkness. About a hundred vendors on market days
+      selling high-nutrient foods suited to underground metabolisms,
+      specialized equipment for tunnel work, goods that surface markets
+      don't stock because surface dwellers don't need them.
+
+      Three thousand attendees on market days. Most navigate by
+      echolocation or by following light sources that baseline visitors
+      find inadequate. The disorientation surface dwellers experience in
+      the tunnel systems makes commerce impractical—they lose their way,
+      they panic in the pressing dark, they can't find their way back to
+      the surface.
+
+      The Deep Market exists because surface markets don't serve
+      underground needs. Specialized fungal foods. Lamp fuel. Equipment
+      calibrated for work in darkness. A parallel economy serving a
+      population that never needs to ascend.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Depths of St. Yerren, Karst, ya-Don]
     location_features:
