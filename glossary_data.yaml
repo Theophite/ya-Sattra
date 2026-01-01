@@ -6229,12 +6229,16 @@ entries:
   # ═══ Cask and Flux ═══
   Cask and Flux:
     category: location
-    short: "Pharmacy skirting legality—painkillers, radiation ointments, stimulants."
+    short: Pharmacy skirting legality—painkillers diluted just enough, stimulants keeping workers functional through double shifts.
     details: |
-      Keth Varemgiren stocks chemical compounds in careful ratios that skirt legality. 
-      Painkillers diluted just enough to avoid narcotic classification, radiation 
-      ointments that might be industrial sealant repackaged, stimulants keeping workers 
-      functional through double shifts. Adjacent to the Coil-Bone Clinic.
+      Chemical compounds in careful ratios that skirt legality. Painkillers diluted
+      just enough to avoid narcotic classification. Radiation ointments that might be
+      industrial sealant repackaged. Stimulants keeping workers functional past the
+      point where bodies should stop.
+
+      Adjacent to the Coil-Bone Clinic, because what the pharmacy sells and what the
+      clinic treats are often the same thing. The Yards need workers functional. The
+      pharmacy provides functionality. No one asks too many questions.
     rag_pointer: The Iron Yards
     related: [Torchline Row, Iron Yards, Coil-Bone Clinic]
     location_features:
