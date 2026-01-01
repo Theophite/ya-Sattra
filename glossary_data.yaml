@@ -15257,17 +15257,18 @@ entries:
   # ═══ Ogon Token Emergence ═══
   Ogon Token Emergence:
     category: event
-    short: "Autofactory produced seven identical tokens that became the basis for Junta governance."
+    short: Autofactory produced seven identical tokens that became the basis for Junta governance.
     details: |
-      Around 911 RRH, Ogon's autofactory produced seven identical tokens during
-      a three-day operational period. The tokens are unremarkable objects—metal
-      discs of standard autofactory alloy, each bearing the same geometric pattern.
+      Ogon's autofactory produced seven identical tokens during a three-day
+      operational period. The tokens are unremarkable objects—metal discs
+      of standard autofactory alloy, each bearing the same geometric pattern.
 
       The tokens became governance instruments through political convention.
-      Early warlords used them as symbols of authority, and the practice stuck.
-      Possessing a token means controlling a seat on the Junta. The tokens
-      themselves have no special properties—their power derives entirely from
-      the social agreement that token-holders constitute legitimate authority.
+      Early warlords used them as symbols of authority, and the practice
+      stuck. Possessing a token means controlling a seat on the Junta. The
+      tokens themselves have no special properties—their power derives
+      entirely from the social agreement that token-holders constitute
+      legitimate authority. Seven discs of metal. Generations of blood.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Ogon, Junta of Ogon, Thousand Kingdoms]
     event_features:
