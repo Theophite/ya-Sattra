@@ -13275,14 +13275,19 @@ entries:
   # ═══ Port Ahn Main Market ═══
   Port Ahn Main Market:
     category: location
-    short: "Largest limestone terrace—one hundred stalls where Imperial goods meet frontier products."
+    short: Haggling in three languages under canvas and salvaged polymer—Port Ahn's real purpose.
     details: |
-      Spread across the largest limestone terrace. One hundred stalls under canvas and
-      salvaged polymer. Primary commercial hub where northbound traders buy Imperial goods
-      and southbound Akama sell frontier products. Haggling in three languages. Smith's
-      booths with metalwork, musicians performing (often poorly), weapon dealers with
-      Colonel-Hereditary bearing selling pre-Interdict plasma lances as heritage items.
-      Port Ahn's real purpose: the commercial threshold between Empire and frontier.
+      One hundred stalls spread across the largest limestone terrace. Northbound
+      traders buy Imperial goods. Southbound Akama sell frontier products.
+      Smith's booths hammer metalwork. Musicians perform, often poorly. Weapon
+      dealers with Colonel-Hereditary bearing sell pre-Interdict plasma lances
+      as heritage items, functional or otherwise.
+
+      The commercial threshold between Empire and frontier. Everything that
+      passes through Port Ahn passes through here first, assessed, valued,
+      haggled over. The languages mix. The prices shift. The deals get done.
+      This is what the Citadel protects. This is what the Revenue House taxes.
+      This is why anyone comes here at all.
     rag_pointer: "Vey, Trip to Port Ahn"
     related: [Port Ahn, Port Ahn Technical Quarter, Port Ahn Salvage Quarter, Akama]
     location_features:
