@@ -13504,24 +13504,23 @@ entries:
   # ═══ Sultana Ulayah ═══
   Sultana Ulayah:
     category: person
-    short: "Last monarch of the Ganati Sultanate—assassinated by Kelso Senna in 963, ending nine centuries of rule."
+    short: Last monarch of the Ganati Sultanate—assassinated, ending nine centuries of rule in a single night.
     person_location: Ganat (historical)
     details: |
-      Ruled the Sultanate in its final years, governing through the kilit-zem-kilitam—
-      an advisory body granting political voice to established economic powers while
-      excluding most smaller collectives. The Yarangar intervention was strategically
-      sound: fund Ranga insurgents against the Empire, bleed Imperial forces, position
-      the Sultanate as champion of colonist liberation.
+      Ruled the Sultanate in its final years, governing through the kilit-zem-
+      kilitam—an advisory body granting political voice to established economic
+      powers while excluding most smaller collectives. Every decision made
+      sense within the system she inherited. The Yarangar intervention was
+      strategically sound. Using kilit levies to screen aristocratic regulars
+      made military sense. Promising pensions maintained morale.
 
-      The intervention succeeded militarily but bred revolution domestically. Using
-      kilit levies to screen aristocratic regulars from casualties, promising pensions
-      the treasury couldn't pay, and refusing veterans' petitions for representation
-      in the kilit-zem-kilitam created the revolutionary coalition that destroyed her.
-
-      In 963, Kelso Senna's Cloud Temple Band struck the palace during a court
-      gathering. The decapitation was comprehensive: Ulayah died, most court officials
-      died, regional magnates were eliminated. Nine centuries of rule ended in a
-      single night.
+      The treasury couldn't pay. The veterans petitioned for representation.
+      The petitions were refused. Each refusal was defensible by the logic of
+      aristocratic politics. Each refusal added fuel. The revolutionary
+      coalition that destroyed her was built from decisions that seemed
+      reasonable at the time. When they struck the palace, she died with most
+      of her court. Nine centuries of rule ended. The system she had inherited
+      and defended became the Republic.
     rag_pointer: "The Republic of Ganat"
     related: [Ganat, Kelso Senna, Yarangar War, Cloud Temple Band]
   # ─── end Sultana Ulayah ───
