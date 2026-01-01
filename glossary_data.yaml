@@ -14467,15 +14467,20 @@ entries:
   # ═══ es-Veleth ═══
   es-Veleth:
     category: organization
-    short: "Aureate family controlling environmental calibration—their systems maintain climate in sealed structures."
+    short: Aureate family controlling environmental calibration—their systems maintain climate in sealed structures.
     details: |
-      Mid-tier Aureate house with patents on atmospheric regulation for enclosed spaces. 
-      Their technology keeps arcologies habitable, adjusts humidity in archive vaults, 
-      maintains the precise conditions that preservation requires. Less prestigious than 
-      families controlling computation or pharmaceuticals, but essential. Known for 
-      exceptionally well-trained servant clonelines—household management being downstream 
-      of environmental management. Rejected clones from es-Veleth lines occasionally find 
-      placement with other houses.
+      Mid-tier Aureate house with patents on atmospheric regulation for
+      enclosed spaces. Their technology keeps arcologies habitable, adjusts
+      humidity in archive vaults, maintains the precise conditions that
+      preservation requires. Less prestigious than families controlling
+      computation or pharmaceuticals, but essential. Without them, the
+      sealed structures suffocate. Without them, the archives rot.
+
+      Known for exceptionally well-trained servant clonelines—household
+      management being downstream of environmental management. If you can
+      calibrate atmosphere, you can calibrate everything else. Rejected
+      clones from es-Veleth lines occasionally find placement with other
+      houses, carrying training that exceeds most masters' expectations.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, Aureate, Kems as-Veleth]
   # ─── end es-Veleth ───
