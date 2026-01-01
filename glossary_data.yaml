@@ -8480,8 +8480,19 @@ entries:
   # ═══ Ogon ═══
   Ogon:
     category: location
-    short: Autofactory city where Columbia meets the sea, ~1 million inhabitants.
-    details: Eighty miles of brutalist sprawl produced by malfunctioning autofactory. Seven token-holders govern through the Junta. Kma-Dhol (40,000 sewer-fishers) operate openly as technical specialists.
+    short: Autofactory city where Columbia meets the sea—eighty miles of brutalist sprawl.
+    details: |
+      Eighty miles of brutalist sprawl produced by a malfunctioning autofactory.
+      One million inhabitants living in ziggurat structures the factory built and
+      keeps building, following patterns no one chose and no one can change. The
+      Grand Canal terminates here; the Blackfish Weirs cross the Columbia's mouth.
+
+      Seven token-holders govern through the Junta, their authority deriving from
+      whatever they hold that lets them interface with the autofactory. Forty
+      thousand Kma-Dhol operate openly here as technical specialists, openly rather
+      than hidden as in Imperial territory. The city expands when the autofactory
+      decides to expand; contracts when it decides to cannibalize. The inhabitants
+      adapt or relocate.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Junta of Ogon, Thousand Kingdoms, Kma-Dhol]
     culture: [Akama]
