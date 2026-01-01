@@ -6893,17 +6893,27 @@ entries:
   # ═══ Medina Quarter ═══
   Medina Quarter:
     category: location
-    short: "Ya-Sattra's principal commercial and residential district—gateway where outside world meets Imperial authority."
+    short: Ya-Sattra's principal commercial and residential district—where caravans end and the capital begins.
     details: |
-      ~300,000 residents on the eastward landward approach to the city. The district 
-      was once full of arcologies; most were destroyed in a classified catastrophe 
-      that also toppled the Ridge. Three full-size arcologies survive: The Angle 
-      (sheared at 30°, ~8,000 residents), Calibration Hall (fully operational, ~30,000 
-      residents), and Kethesir's Pillar (gutted by ancient vandalism, ~2,000 on lower 
-      floors). The Processional—three kilometers of antediluvian porcelain-coral—cuts 
-      through the district to the Rift embarcadero. Guild shops operate under ancient 
-      charters; markets fill every public space; the Great Bazaar alone covers a third 
-      of the district's area. Bureau sub-offices distributed throughout.
+      Three hundred thousand residents on the eastward approach to the city. The first
+      experience of the capital for anyone arriving by land. Caravans unload into
+      warehouses that smell of spices and machine oil; merchants shout prices in six
+      languages; the Great Bazaar covers a third of the district and swallows newcomers
+      into its maze of permanent stalls and temporary awnings.
+
+      Three antediluvian arcologies tower over the surrounding buildings. The Angle
+      lists at thirty degrees, its inhabitants long adapted to tilted floors. Calibration
+      Hall remains fully operational, thirty thousand residents in climate-controlled
+      comfort. Kethesir's Pillar stands gutted, only the lower floors inhabited now.
+      The Processional—three kilometers of porcelain-coral that predates the Interdict—
+      cuts through the district to the Rift embarcadero, its surface worn smooth by
+      uncounted feet.
+
+      Guild shops operate under charters older than anyone's memory. Markets fill every
+      public space. The noise never stops. Bureau sub-offices are distributed throughout,
+      their presence felt more than seen. This is where the outside world meets Imperial
+      authority, and the outside world always arrives tired, overwhelmed, and desperate
+      to find a bath and a bed.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [ya-Sattra, Archive Gate, "Booksellers' Row", Great Bazaar, The Processional]
     location_features:
