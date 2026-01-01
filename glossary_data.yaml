@@ -5978,12 +5978,16 @@ entries:
   # ═══ Forge Terrace ═══
   Forge Terrace:
     category: location
-    short: "Transition zone where Iron Yards industrial facilities give way to worker housing."
+    short: Transition zone where Iron Yards industry gives way to worker housing—permanent haze pooling against the Ridge's retaining walls.
     details: |
-      Coal forges and cable-splicing shops built into rising stone toward the Ridge. 
-      Chimneys create permanent haze pooling against the Ridge's retaining walls. 
-      Quarried terracing allows tenements to climb the cliffside without completely 
-      blocking light to lower structures.
+      Coal forges and cable-splicing shops built into rising stone toward the Ridge.
+      Chimneys create the haze that never lifts here. Quarried terracing allows tenements
+      to climb the cliffside without completely blocking light to lower structures—a
+      consideration that matters more in theory than practice.
+
+      Workers live where they work, families raising children in air that carries
+      particulates from a hundred forges. The view improves with altitude, but altitude
+      costs more rent.
     rag_pointer: The Iron Yards
     related: [Iron Yards, Ridge]
     location_features:
