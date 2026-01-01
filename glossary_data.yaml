@@ -17208,38 +17208,45 @@ entries:
   # ═══ Destrier ═══
   Destrier:
     category: concept
-    short: "Carnivorous engineered mounts—hairless carapaced predators that run 70+ mph and bond to single riders."
+    short: Carnivorous engineered mounts—hairless carapaced predators that run seventy miles per hour and bond to single riders.
     details: |
-      Engineered by the Creche before the Interdict as self-reproducing transport for 
-      colonization. Never reached colonies; now wild throughout former Oregon and 
-      Washington, breeding freely in packs. Creche no longer produces them.
-      
-      APPEARANCE: Hairless skin covered in horn-textured plates (glossy black or 
-      ruddy-brown), iridescent where carapace thins. Ramified horns branching like 
-      coral provide handholds. Huge placid black eyes. Lips mobile and delicate like 
-      a goat's, behind them rows of thin translucent teeth like glass needles, with 
-      ridged grinding plates further back. Legs fold at impossible angles, front limbs 
-      reaching far forward even at rest.
-      
-      MOVEMENT: Run like someone in a dream—leap into leap, barely touching ground. 
-      70+ mph on flat ground. From perfect stillness to movement in one instant, no 
-      transition. Unsuitable for tight maneuvers or formation cavalry.
-      
-      BEHAVIOR: Perfectly still except heads tracking you. Make constant clicking 
-      sound—when rhythm changes, pay attention. Bond to single riders, resist all 
-      others. Follow commands extraordinarily well.
-      
-      METABOLISM: After hard running, steam with heat. Can survive on grass and grain, 
-      but if pushed need meat. Unpredictable when hungry. Will hunt in packs, scavenge, 
-      eat battlefield casualties.
-      
-      VALUE: Well-bred destrier sells for ~200 obols (equivalent to adult slave). 
-      A band with 600 destriers exceeds most frontier estates' annual revenue. 
-      Breeding programs track lineages across 40 generations.
-      
-      MILITARY: Shock cavalry charging at 70mph breaks formations through speed and 
-      psychological terror. Akama warriors lash themselves to saddles. Only Akama 
-      truly understand them—children grow up learning the animals' sudden movements.
+      Engineered by the Creche before the Interdict as self-reproducing
+      transport for colonization. Never reached colonies; now wild
+      throughout the former Oregon and Washington, breeding freely in
+      packs. The Creche no longer produces them.
+
+      Hairless skin covered in horn-textured plates—glossy black or
+      ruddy-brown, iridescent where carapace thins. Ramified horns
+      branching like coral provide handholds. Huge placid black eyes.
+      Lips mobile and delicate as a goat's, behind them rows of thin
+      translucent teeth like glass needles, with ridged grinding plates
+      further back. Legs fold at impossible angles, front limbs reaching
+      far forward even at rest.
+
+      They run like someone in a dream—leap into leap, barely touching
+      ground. Seventy miles per hour on flat terrain. From perfect
+      stillness to movement in one instant, no transition. Unsuitable
+      for tight maneuvers or formation cavalry.
+
+      Perfectly still except for heads tracking you. They make a constant
+      clicking sound—when the rhythm changes, pay attention. Each bonds
+      to a single rider, resists all others. They follow commands
+      extraordinarily well.
+
+      After hard running, they steam with heat. They can survive on grass
+      and grain, but if pushed they need meat. Unpredictable when hungry.
+      They hunt in packs, scavenge, eat battlefield casualties.
+
+      A well-bred destrier sells for two hundred obols—equivalent to an
+      adult slave. A band with six hundred destriers exceeds most frontier
+      estates' annual revenue. Breeding programs track lineages across
+      forty generations.
+
+      Shock cavalry charging at seventy miles per hour breaks formations
+      through speed and psychological terror. Akama warriors lash
+      themselves to saddles. Only the Akama truly understand them—children
+      grow up learning the animals' sudden movements. The clicking is
+      comforting once you know what it means.
     rag_pointer: "The Thousand Kingdoms: Overview, Stories from the Empire"
     related: [Akama, Thousand Kingdoms, Ganat, Bureau of the Creche]
   # ─── end Destrier ───
