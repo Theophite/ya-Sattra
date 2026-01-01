@@ -2987,12 +2987,27 @@ entries:
   # ═══ Symbiotic Spires ═══
   Symbiotic Spires:
     category: location
-    short: "Five organic towers grown from living tissue—es-Poel biological interface monopoly."
+    short: Five organic towers grown from living tissue—walls pulsing with slow biological rhythms, bioluminescent rather than lit.
     details: |
-      Five organic towers rise from a shared base of living tissue—grown rather than built. 
-      Walls pulse with slow biological rhythms, bioluminescent rather than lit. Seleth es-Poel, 
-      sixty-three, has never left the central spire; her metabolism is linked to the tower's 
-      enzymatic production. Translation crèches visible through organic membrane windows.
+      Five towers rise from a shared base of living tissue: grown rather
+      than built, maintained through biological processes rather than
+      repair. Walls pulse with slow rhythms visible to the eye—systolic,
+      diastolic, the architecture breathing. Bioluminescence rather than
+      artificial light. Organic membrane windows offering glimpses of
+      translation crèches within.
+
+      Some family members never leave. Their metabolisms link to the
+      tower's enzymatic production, symbiosis becoming literal rather than
+      metaphorical. The central spire houses those most deeply integrated—
+      people who cannot survive disconnection, whose bodies have become
+      part of the structure that houses them.
+
+      The biological interface patents they control enable communication
+      between incompatible organic systems. What happens in the crèches
+      translates between flesh-technologies that otherwise could not speak.
+      The towers themselves may be the original interface, ancestor to all
+      the licensed derivatives—living architecture that taught the family
+      what biological connection means.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, es-Poel]
     location_features:
