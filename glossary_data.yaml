@@ -8786,11 +8786,19 @@ entries:
   # ═══ Pilgrim's Rest ═══
   "Pilgrim's Rest":
     category: location
-    short: "Traveler services district—austere vernacular for those preparing to leave the city behind."
+    short: Traveler services district—a threshold, not a destination.
     details: |
-      ~8,000 residents. Gateway to hermitage routes in Sierra foothills. The architecture 
-      deliberately refuses elaboration—pilgrims should not become comfortable here. This 
-      is a threshold, not a destination.
+      At the city's eastern edge where urban fabric dissolves into foothill trails.
+      Eight thousand residents. The Sierras visible ahead—the first real view of the
+      mountains that pilgrims will climb. The architecture deliberately refuses
+      elaboration: austere vernacular, plain stone and timber without pretense.
+      Pilgrims should not become comfortable here.
+
+      Hostels offer shelter without comfort; the difficulty begins here. Outfitters
+      sell what the journey requires—water containers, walking staffs, the simple
+      robes that hermitage visitors wear. No geometric relief, no bronze fittings
+      beyond the functional. Comfort belongs to the city you're leaving, not the
+      journey ahead.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don]
     location_features:
