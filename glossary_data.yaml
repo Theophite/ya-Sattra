@@ -3478,21 +3478,27 @@ entries:
   # ═══ Beamcaster ═══
   Beamcaster:
     category: equipment
-    short: Plasma sidearm, standard Warborn issue.
+    short: Plasma sidearm with violet glow visible through barrel housing—standard Warborn issue, devastating at conversational distance.
     details: |
-      Pre-Interdict weapon firing superheated plasma from magnetic containment. The violet 
-      glow visible through the barrel housing is plasma held in suspension until discharge.
-      
-      CHARACTERISTICS: Matte black casing, brutal simplicity, chevron venting pattern. 
-      Ergonomics assume hands larger than baseline human. Devastating at close range—
-      what infantry see in the moment before a Warborn kills them at conversational distance.
-      
-      PRODUCTION: Furnaces, ya-Don. Process inherited rather than understood. Not 
-      archaeotech salvage but continuous (if mysterious) manufacture.
-      
-      AVAILABILITY: Standard issue for Warborn cohorts; extremely rare in civilian hands. 
-      A Colonel-Hereditary might inherit one as a status symbol. Authentication systems 
+      Pre-Interdict weapon firing superheated plasma from magnetic
+      containment. The violet glow visible through the barrel housing is
+      plasma held in suspension until discharge. Matte black casing, brutal
+      simplicity, chevron venting pattern. Ergonomics assume hands larger
+      than baseline human—the grip uncomfortable for ordinary soldiers,
+      natural for Warborn.
+
+      Production happens at the Furnaces in ya-Don through processes
+      inherited rather than understood. Not archaeotech salvage but
+      continuous manufacture, the methods passed down without the
+      principles that would explain them. Standard issue for Warborn
+      cohorts. Extremely rare in civilian hands—authentication systems
       prevent unauthorized use.
+
+      To hold one is to hold contained devastation. The violet glow pulses
+      slightly, plasma waiting. At close range the discharge liquefies
+      armor and flesh alike. Infantry who face Warborn see this light in
+      the moment before death: the last thing visible at conversational
+      distance before everything becomes heat.
     related: [Weapon, Warborn, Furnaces, Culverin]
   # ─── end Beamcaster ───
 
