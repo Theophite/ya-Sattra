@@ -6279,12 +6279,16 @@ entries:
   # ═══ Yellow Glass Bathhouse ═══
   Yellow Glass Bathhouse:
     category: location
-    short: "Bathhouse, flophouse, and decontamination facility under Yen Tam oversight."
+    short: Bathhouse, flophouse, and decontamination facility—pre-Interdict glass filters light to amber-gold.
     details: |
-      Pre-Interdict glass panels filter light to pale amber-gold. Communal baths heated 
-      by coal-fired boilers, sleeping platforms curtained by canvas (forty obols/night), 
-      decontamination facilities. Under Yen Tam accounting oversight, also launders money 
-      through inflated maintenance costs. Staff knows not to ask questions.
+      Pre-Interdict glass panels give the bathhouse its name—pale amber light falling on
+      communal baths heated by coal-fired boilers. Sleeping platforms curtained by canvas
+      at forty obols per night. Decontamination facilities for workers carrying industrial
+      contamination home would ruin.
+
+      Under Yen Tam oversight, laundering money through inflated maintenance costs. Staff
+      knows not to ask questions. Workers come to wash, sleep, and forget. The light is
+      golden. The water is hot. Tomorrow's shift comes regardless.
     rag_pointer: The Iron Yards
     related: [Torchline Row, Iron Yards, Yen Tam Beneficial Society]
     location_features:
