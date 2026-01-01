@@ -8688,13 +8688,18 @@ entries:
   # ═══ Dhal-Setil Compound ═══
   Dhal-Setil Compound:
     category: location
-    short: "Multi-generational family estate—headquarters of Dhal-Setil Mercantile's eastern operations."
+    short: Multi-generational family estate—Art Nouveau ironwork distinguishing it from frontier neighbors.
     details: |
-      Maintained for Rasma's quarterly visits though she lives in Ganat. Servants, private 
-      courtyard, imported furnishings. The family made their fortune under the Sultanate 
-      before lesser scions financed the early Revolution. Art Nouveau ironwork distinguishes 
-      it from frontier neighbors. Combines residence and commercial headquarters for the 
-      catalog delivery empire serving the entire eastern range.
+      Adobe construction like its neighbors, but larger, better-maintained, with
+      Art Nouveau ironwork around the courtyard gate—organic curves in wrought iron,
+      decorative fixtures holding carbon-filament bulbs. The private courtyard is
+      invisible from the street; inside, imported furnishings from Ganat and beyond.
+      Underground chambers store catalog inventory and commercial records.
+
+      The family made their fortune under the Sultanate before lesser scions financed
+      the early Revolution. Servants maintain the compound year-round for the family
+      matriarch's quarterly visits. When she arrives, the compound becomes the city's
+      social center—range commerce is negotiated in courtyard conversations.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Old Town, High Junction, Rasma Dhal-Setil, Dhal-Setil Mercantile]
     location_features:
