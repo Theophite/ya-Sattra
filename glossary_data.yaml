@@ -13528,14 +13528,20 @@ entries:
   # ═══ Żelovin ═══
   Żelovin:
     category: location
-    short: "The Medial Precinct—surrounds the Technical quarter, supplies most practicing mediators."
+    short: Surrounds the Technical quarter on three sides—the house supplies most of the city's practicing mediators.
     details: |
-      Żelovin surrounds the Technical Caste quarter on three sides, giving them privileged access 
-      to the Medials. The house supplies most of the city's practicing mediators, and this expertise 
-      translates into political influence disproportionate to their territory. They govern through 
-      the Tevorath (Witness Council)—seven senior mediators selected by demonstrated skill rather 
-      than age. This meritocratic element makes Żelovin unusual among Avouvar houses, where age 
-      normally determines authority.
+      Privileged access to the Medials means privileged expertise in reading
+      what the Technical Castes do. Generations of mediators have learned to
+      interpret the geometries that baseline cognition finds disorienting, the
+      architecture built for minds that processed information differently.
+      They watch. They correlate. They predict imperfectly, but better than
+      anyone else.
+
+      The Tevorath (Witness Council) governs—seven senior mediators selected
+      by demonstrated skill rather than age. This meritocratic element makes
+      Żelovin unusual among Avouvar houses, where age normally determines
+      authority. The influence is disproportionate to territory. What matters
+      is not size but access, not numbers but expertise.
     rag_pointer: Asovoë and the Avouvar
     related: [Asovoë, Medial Castes, Dravoëtsin]
     location_features:
