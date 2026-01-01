@@ -15764,12 +15764,15 @@ entries:
   # ═══ Sixth Testament ═══
   Sixth Testament:
     category: concept
-    short: "Transmitted in the Jargon—one of the incomprehensible Testaments enabling archaeotech."
+    short: Transmitted in the Jargon—one of the incomprehensible Testaments enabling archaeotech.
     details: |
-      The Sixth Testament, like the Fourth and Fifth, required Technical Caste
-      interpretation. Much of the knowledge derived from this transmission has
-      been lost with the destruction of the Technical Castes. What remains is
-      maintained technology rather than understood technology.
+      The Sixth Testament, like the Fourth and Fifth, required Technical
+      Caste interpretation. Much of the knowledge derived from this
+      transmission has been lost with the destruction of the Technical Castes.
+
+      What remains is maintained technology rather than understood
+      technology. The Empire operates machines by rote. The why of them
+      is gone.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Testaments, Oracles, Jargon, Technical Castes, Auditors]
   # ─── end Sixth Testament ───
