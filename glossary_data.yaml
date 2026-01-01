@@ -6601,14 +6601,17 @@ entries:
   # ═══ Lavoëran ═══
   Lavoëran:
     category: location
-    short: "The Cloning Precinct—children descend at age one, don't emerge until thirty."
+    short: The Cloning Precinct—children descend at age one, don't emerge until thirty, alien even to other Avouvar.
     details: |
-      Operates the underground facility where Medials are grown. Children born to Lavoëran 
-      mothers descend into sterile halls within their first year and do not see sunlight until 
-      they're ready to be named—thirty years later. Survival rate for late Anointing: sixty 
-      percent. This strange childhood makes Lavoëran alien even to other Avouvar. The house 
-      also operates the Chancery and provides most medical services; their monopoly on Medial 
-      production makes them untouchable.
+      Underground facility where Medials are grown. Children born to Lavoëran mothers
+      descend into sterile halls within their first year and do not see sunlight until
+      they're ready to be named—thirty years later. Survival rate for late Anointing:
+      sixty percent.
+
+      This strange childhood makes Lavoëran alien even to other Avouvar. The house also
+      operates the Chancery and provides most medical services. Their monopoly on Medial
+      production makes them untouchable. No one can threaten them without threatening
+      the future workforce.
     rag_pointer: Asovoë and the Avouvar
     related: [Asovoë, Medial Castes]
     location_features:
