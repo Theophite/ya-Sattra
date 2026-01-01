@@ -14341,20 +14341,24 @@ entries:
   # ═══ Kems as-Veleth ═══
   Kems as-Veleth:
     category: person
-    short: "Third-generation majordomo to Asaph es-Tsay—rejected clone from the es-Veleth servant lines."
+    short: Majordomo to Asaph es-Tsay—rejected clone from the es-Veleth servant lines, managing a tower of curiosities.
     details: |
-      From a cloneline serving the es-Veleth household. Early scandal denied him placement 
-      with his family's associated masters—trained to serve Sri Paters and Sri Matrices, 
-      he instead manages a tower of curiosities for a family embarrassment from an entirely 
-      different house. Asaph took him precisely because no one else would. The as-Veleth 
-      marks him as property of that household's servant lines; he works for es-Tsay but 
-      belongs to es-Veleth. Kems knows which artifacts are forgeries (~60%), which servants 
-      steal (three, taking only forgotten items), that the "Technical Caste calculation 
-      engine" is actually a repurposed industrial loom. He also knows that occasionally—
-      perhaps one time in fifty—something genuine comes through these doors, humming with 
-      frequencies that make reality negotiable. Thirteen years of service. Maintains 
-      perfect neutrality while managing elaborate fictions for his master's theatrical 
-      radical politics.
+      From a cloneline serving the es-Veleth household. Early scandal denied
+      him placement with his family's associated masters—trained to serve
+      Sri Paters and Sri Matrices, he instead manages a tower of curiosities
+      for a family embarrassment from an entirely different house. The
+      as-Veleth name marks him as property of one household's servant lines;
+      he works for es-Tsay but belongs to es-Veleth. Asaph took him
+      precisely because no one else would.
+
+      Knows which artifacts are forgeries—roughly sixty percent. Knows which
+      servants steal and from where. Knows the "Technical Caste calculation
+      engine" is actually a repurposed industrial loom. Also knows that
+      occasionally—perhaps one time in fifty—something genuine comes through
+      these doors, humming with frequencies that make reality negotiable.
+      Thirteen years of service. Maintains perfect neutrality while managing
+      elaborate fictions. Watches. Waits. Wonders what his master will
+      finally unearth.
     rag_pointer: "The Antediluvian Quarter"
     related: [Asaph es-Tsay, Vermillion Tower, es-Veleth]
   # ─── end Kems as-Veleth ───
