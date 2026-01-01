@@ -4779,12 +4779,17 @@ entries:
   # ═══ Crucible ═══
   Crucible:
     category: location
-    short: "Material preparation facility for culverin production in the Furnaces' western quadrant."
+    short: Material preparation facility for culverin production—chambers that glow in colors baselines cannot see.
     details: |
-      Conception chambers glow in colors Orevet can see and baselines cannot. Processes
-      approximately five tons of raw material daily, transforming metals and rare earths
-      through mechanisms no worker understands into substrates for subsequent processing.
-      Workforce of ~400 across shifts; predominantly Ashrat with Orevet monitors.
+      Western quadrant of the Furnaces. Conception chambers glow in colors Orevet can
+      see and baselines cannot. Five tons of raw material processed daily, transformed
+      through mechanisms no worker understands into substrates for subsequent processing
+      in the Lattice Hall.
+
+      Four hundred workers across shifts, predominantly heat-adapted Ashrat with Orevet
+      monitors watching for color shifts invisible to everyone else. The work is known
+      by rote: this temperature, that duration, these ingredients in this sequence. The
+      reasons are lost.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Furnaces, ya-Don, Ashrat, Orevet, Lattice Hall]
     location_features:
