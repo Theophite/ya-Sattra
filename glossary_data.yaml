@@ -9581,11 +9581,18 @@ entries:
   # ═══ Second Whorl ═══
   Second Whorl:
     category: location
-    short: "Ring where Bureau administration and Highborn estates concentrate—the Seat of Power."
+    short: The Seat of Power—surreal landscape of empty plazas and colossal statues.
     details: |
-      Surreal landscape of empty plazas and colossal statues. The Whorl-Lag means meetings 
-      have unpredictable duration. Houses the Azure Chamber (where Satara meets), Archives 
-      of the Bureau of the Lens, and the Monastery of the Silent Song.
+      Ring where Bureau administration and Highborn estates concentrate. Surreal
+      landscape of empty plazas and colossal statues, bronze faces watching from
+      every angle. The Whorl-Lag means meetings have unpredictable duration—step
+      into the Azure Chamber for what feels like hours, emerge to find days have
+      passed.
+
+      Houses the Azure Chamber where the Satara meets, the Archives of the Bureau
+      of the Lens, and the Monastery of the Silent Song. The architecture imposes
+      awe: everything scaled for beings larger than humans, or perhaps just for
+      the weight of power itself.
     rag_pointer: The Inner City
     related: [Inner City, Highborn, Monastery of the Silent Song, Azure Chamber, Whorl-Lag]
     location_features:
