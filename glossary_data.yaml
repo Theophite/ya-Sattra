@@ -16733,13 +16733,16 @@ entries:
   # ═══ Kilit-zem-kilitam ═══
   Kilit-zem-kilitam:
     category: concept
-    short: "The 'kilit of kilits'—advisory body to the Sultanate, predecessor to the Republican Senate."
+    short: The "kilit of kilits"—advisory body to the Sultanate, predecessor to the Republican Senate.
     details: |
-      Under the Sultanate, an advisory body whose membership was determined by formal 
-      agreements between the monarch and individual kilits. Advised the Sultana on 
-      policy but possessed no sovereign authority. Granted political voice to established 
-      economic powers while excluding smaller collectives. Transformed into the Senate 
-      after the revolution.
+      Under the Sultanate, an advisory body whose membership was determined
+      by formal agreements between the monarch and individual kilits.
+      Advised the Sultana on policy but possessed no sovereign authority.
+      Granted political voice to established economic powers while
+      excluding smaller collectives.
+
+      Transformed into the Senate after the revolution. The structure
+      survived. The power shifted. What once advised now governs.
     rag_pointer: "The Republic of Ganat"
     related: [Ganat, Kilit, Senate]
   # ─── end Kilit-zem-kilitam ───
