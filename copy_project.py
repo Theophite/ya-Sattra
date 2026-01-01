@@ -5,10 +5,13 @@ Copy project files to working directory, fixing mojibake in the process.
 This script is ASCII-safe - all unicode literals use escape sequences.
 Handles the common case of UTF-8 bytes misread as CP1252 then re-saved as UTF-8.
 
+The glossary_data.yaml is always fetched from GitHub (not /mnt/project) to ensure
+the latest version is used.
+
 Usage:
-    python3 copy_project.py                    # Copy all .py, .md, and .yaml files
-    python3 copy_project.py --ext .py .md .txt # Specify extensions
-    python3 copy_project.py --file foo.py      # Copy specific file(s)
+    python3 copy_project.py                    # Copy .py, .md files + fetch glossary from GitHub
+    python3 copy_project.py --ext .py .md .txt # Specify extensions (glossary still from GitHub)
+    python3 copy_project.py --file foo.py      # Copy specific file(s) + fetch glossary
     python3 copy_project.py --dry-run          # Show what would be copied
 """
 
@@ -16,6 +19,7 @@ import os
 import sys
 import shutil
 import argparse
+import subprocess
 
 # Mojibake fixes: corrupted sequence -> correct character
 # All values use \u or \U escapes to keep this file ASCII-safe
@@ -255,6 +259,55 @@ def find_project_files(extensions):
     return sorted(files)
 
 
+# GitHub raw URL for glossary_data.yaml
+GLOSSARY_URL = "https://raw.githubusercontent.com/Theophite/ya-Sattra/main/glossary_data.yaml"
+
+
+def fetch_glossary(dest_dir, dry_run=False):
+    """Fetch glossary_data.yaml from GitHub using curl.
+
+    Returns:
+        bool: True on success, False on failure.
+    """
+    dest_path = os.path.join(dest_dir, "glossary_data.yaml")
+
+    if dry_run:
+        print(f"  Would fetch glossary from {GLOSSARY_URL}")
+        print(f"  -> {dest_path}")
+        return True
+
+    print(f"Fetching glossary from GitHub...")
+    try:
+        result = subprocess.run(
+            ["curl", "-fsSL", "-o", dest_path, GLOSSARY_URL],
+            capture_output=True,
+            text=True,
+            timeout=60
+        )
+        if result.returncode != 0:
+            print(f"ERROR: curl failed: {result.stderr}", file=sys.stderr)
+            return False
+
+        # Verify the file was created and has content
+        if not os.path.exists(dest_path):
+            print("ERROR: glossary_data.yaml was not created", file=sys.stderr)
+            return False
+
+        size = os.path.getsize(dest_path)
+        print(f"  glossary_data.yaml ({size / 1024:.1f} KB)")
+        return True
+
+    except subprocess.TimeoutExpired:
+        print("ERROR: curl timed out after 60 seconds", file=sys.stderr)
+        return False
+    except FileNotFoundError:
+        print("ERROR: curl not found in PATH", file=sys.stderr)
+        return False
+    except Exception as e:
+        print(f"ERROR: Failed to fetch glossary: {e}", file=sys.stderr)
+        return False
+
+
 def main():
     parser = argparse.ArgumentParser(description="Copy project files with mojibake fixes")
     parser.add_argument("--ext", nargs="+", default=[".py", ".md", ".yaml"],
@@ -265,9 +318,9 @@ def main():
                         help="Show what would be copied without copying")
     parser.add_argument("--dest", default="/home/claude",
                         help="Destination directory (default: /home/claude)")
-    
+
     args = parser.parse_args()
-    
+
     # Ensure destination exists
     try:
         os.makedirs(args.dest, exist_ok=True)
@@ -279,6 +332,10 @@ def main():
         print(f"  Details: {e}", file=sys.stderr)
         return 1
 
+    # Always fetch glossary from GitHub first
+    if not fetch_glossary(args.dest, dry_run=args.dry_run):
+        return 1
+
     # Determine which files to copy
     if args.files:
         src_files = [os.path.join("/mnt/project", f) for f in args.files]
@@ -286,8 +343,13 @@ def main():
         extensions = set(e if e.startswith(".") else "." + e for e in args.ext)
         src_files = find_project_files(extensions)
 
+    # Exclude glossary_data.yaml - we already fetched it from GitHub
+    src_files = [f for f in src_files if not f.endswith("glossary_data.yaml")]
+
     if not src_files:
-        print("No files found to copy.")
+        # Glossary was already fetched, we're done
+        if not args.dry_run:
+            print("\nDone.")
         return 0
 
     print(f"{'Would copy' if args.dry_run else 'Copying'} {len(src_files)} files:")

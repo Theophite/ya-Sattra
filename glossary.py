@@ -5,13 +5,13 @@ Post-Interdict Empire Glossary
 A fast lookup tool for setting terminology. Use this BEFORE RAG searches
 when you need quick definitions or to verify term existence.
 
-Data is loaded from glossary_data.yaml. Edit that file directly using str_replace
-by matching entry markers: # ═══ Entry Name ═══ through # ─── end Entry Name ───
+Data is loaded from /home/claude/glossary_data.yaml. Edit that file directly using
+str_replace by matching entry markers: # ═══ Entry Name ═══ through # ─── end Entry Name ───
 
 SETUP
 =====
     cp /mnt/project/glossary.py /home/claude/
-    cp /mnt/project/glossary_data.yaml /home/claude/
+    python3 /mnt/project/copy_project.py --glossary   # Fetches glossary_data.yaml from GitHub
 
 COMMANDS
 ========
@@ -29,7 +29,7 @@ COMMANDS
 
 VALIDATION
 ==========
-    python3 -c "import yaml; yaml.safe_load(open('glossary_data.yaml')); print('Valid!')"
+    python3 -c "import yaml; yaml.safe_load(open('/home/claude/glossary_data.yaml')); print('Valid!')"
 
 ADDING ENTRIES
 ==============
@@ -417,7 +417,7 @@ def load_entry(term: str, data: dict) -> GlossaryEntry:
 def load_glossary(yaml_path: Path = None) -> Dict[str, GlossaryEntry]:
     """Load all glossary entries from YAML file."""
     if yaml_path is None:
-        yaml_path = Path(__file__).parent / "glossary_data.yaml"
+        yaml_path = Path("/home/claude/glossary_data.yaml")
     
     with open(yaml_path, 'r', encoding='utf-8') as f:
         data = yaml.safe_load(f)
@@ -1318,7 +1318,7 @@ def _get_raw_data() -> Dict[str, dict]:
     """Load and cache raw YAML data for parent field access."""
     global _RAW_DATA_CACHE
     if not _RAW_DATA_CACHE:
-        yaml_path = Path(__file__).parent / "glossary_data.yaml"
+        yaml_path = Path("/home/claude/glossary_data.yaml")
         try:
             with open(yaml_path, 'r', encoding='utf-8') as f:
                 import yaml
@@ -1921,11 +1921,11 @@ def insert_entry(name: str, data: Dict, after: str = None) -> bool:
     Returns:
         True if successful, False otherwise.
     """
-    yaml_path = Path(__file__).parent / "glossary_data.yaml"
-    
+    yaml_path = Path("/home/claude/glossary_data.yaml")
+
     with open(yaml_path, 'r') as f:
         content = f.read()
-    
+
     # Check if entry already exists
     if f"  {name}:" in content:
         print(f"Entry '{name}' already exists")
@@ -2023,12 +2023,12 @@ def update_entry(name: str, updates: Dict) -> bool:
     """
     import yaml
     import re
-    
-    yaml_path = Path(__file__).parent / "glossary_data.yaml"
-    
+
+    yaml_path = Path("/home/claude/glossary_data.yaml")
+
     with open(yaml_path, 'r') as f:
         content = f.read()
-    
+
     # Find the entry boundaries using markers
     start_marker = f"  # ═══ {name} ═══"
     end_marker = f"  # ─── end {name} ───"
