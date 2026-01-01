@@ -10370,19 +10370,21 @@ entries:
   # ═══ The Cliffs ═══
   The Cliffs:
     category: location
-    short: White-gray quartz diorite rising 300+ feet, every surface carved with tens of thousands of kalbat tombs.
+    short: Three hundred feet of quartz diorite—every kalbat who ever lived is buried here.
     details: |
-      The pale stone glows faintly in moonlight. Visible crystals—quartz catching light,
-      feldspar holding color, dark minerals creating flecks and striations. The stone
-      weathers slowly; salt spray takes centuries to soften carved detail.
+      White-gray stone rising from the ocean, glowing faintly in moonlight.
+      Visible crystals—quartz catching light, feldspar holding color, dark
+      minerals creating flecks and striations. The stone weathers slowly; salt
+      spray takes centuries to soften carved detail.
 
-      Every kalbat who ever lived is buried here—all faces watching the ocean, waiting
-      for something that may or may not arrive. The oldest tombs are massive (30-foot
-      faces, mouths large enough to walk into), features blurred by millennia. Newer
-      tombs are smaller, more widely spaced—one carved every 4-5 years now.
+      Every kalbat who ever lived is buried here—tens of thousands of tomb faces
+      watching the ocean, waiting for something that may or may not arrive. The
+      oldest tombs are massive, thirty-foot faces with mouths large enough to
+      walk into, features blurred by millennia. Newer tombs are smaller, more
+      widely spaced—one carved every four to five years now.
 
-      Port facilities at the cliff base: quays on massive stone pilings, some showing
-      tool marks from unknown techniques. The Hollow Mouth—a kalbat tomb carved large
+      Port facilities at the cliff base sit on massive stone pilings showing tool
+      marks from unknown techniques. The Hollow Mouth—a kalbat tomb carved large
       enough for passage—provides the main ascent to the Upper City.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [ya-Tsatsa, Kalbats, Ahn-Tam]
