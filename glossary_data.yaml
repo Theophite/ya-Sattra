@@ -15931,11 +15931,15 @@ entries:
   Order:
     category: concept
     aliases: [Seventh Virtue]
-    short: "Seventh of the Seven Virtues, derived from the Seventh Testament—hierarchy maintains harmony."
+    short: Seventh of the Seven Virtues, derived from the Seventh Testament—hierarchy maintains harmony.
     details: |
-      The virtue of structure. Proper arrangement of society prevents chaos and suffering.
-      Associated with the Seventh Testament. The most politically contested virtue—conservative
-      interpretation emphasizes caste hierarchy; progressive emphasizes functional coordination.
+      The virtue of structure. Proper arrangement of society prevents chaos
+      and suffering. Associated with the Seventh Testament.
+
+      The most politically contested virtue—conservative interpretation
+      emphasizes caste hierarchy; progressive emphasizes functional
+      coordination. Everyone agrees Order matters. No one agrees what
+      Order means.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Seven Virtues, Seventh Testament, Oracle Cult]
   # ─── end Order ───
