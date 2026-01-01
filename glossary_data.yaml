@@ -6033,12 +6033,16 @@ entries:
   # ═══ Torchman's Rest ═══
   Torchman's Rest:
     category: location
-    short: "Salvaged modular housing stacked six high—the Iron Yards' largest residential structure."
+    short: Salvaged modular housing stacked six high—the Iron Yards' largest residential structure, creaking but surviving.
     details: |
-      ~4,500 people in salvaged modular units originally designed for rapid deployment, 
-      now stacked six high. Connected by external stairs and rope bridges, creaking 
-      alarmingly in high winds but having survived three decades. Elder Cass Kelir 
-      leads—former cutting grid worker whose lungs gave out.
+      Forty-five hundred people in salvaged modular units originally designed for rapid
+      deployment, now stacked six high. Connected by external stairs and rope bridges,
+      creaking alarmingly in high winds but having survived three decades. An elder
+      leads—typically a former Yards worker whose body gave out.
+
+      The structure was temporary when built. Temporary stretched into permanent through
+      the force of necessity. Repairs happen when failure is imminent, not before.
+      Residents know which stairs to avoid after rain, which bridges to cross quickly.
     rag_pointer: The Iron Yards
     related: [Iron Yards, Forge Terrace, Ridge]
     location_features:
