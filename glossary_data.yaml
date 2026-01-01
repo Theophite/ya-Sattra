@@ -5928,12 +5928,16 @@ entries:
   # ═══ Archive Gate ═══
   Archive Gate:
     category: location
-    short: "Checkpoint marking boundary between Iron Yards and Medina Quarter."
+    short: Checkpoint marking the boundary between Iron Yards and Medina Quarter—industrial squalor meeting commercial respectability.
     details: |
-      Spans multiple levels where industrial squalor meets commercial respectability. 
-      The Quarantine Shed sits just inside, where Bureau of the Lens inspectors examine 
-      suspicious salvage before allowing it into regulated markets. Boundary economy 
-      thrives here—Broker Tess Mellish facilitates gray-market transactions.
+      Massive bronze structure spanning multiple levels. On the Iron Yards side: rust,
+      quarried bedrock, salvage construction. On the Medina side: grey granite, guild
+      markers, maintained antiquity. Everything crossing this threshold gets examined.
+
+      The Quarantine Shed sits just inside, where Bureau of the Lens inspectors examine
+      suspicious salvage before allowing it into regulated markets. Boundary economy
+      thrives here—brokers facilitate gray-market transactions, connecting industrial
+      surplus with commercial demand.
     rag_pointer: The Iron Yards
     related: [Iron Yards, Medina Quarter, Quarantine Shed, Booksellers' Row]
     location_features:
