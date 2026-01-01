@@ -6743,6 +6743,12 @@ entries:
       Camps are temporary: felt tents, portable shrines, accumulated gear. The aesthetic
       is testimonial—every object earned, every scar displayed, every piece of equipment
       speaking to its owner's history.
+
+      Notable residents include Dzoragh Ironhand, a master smith whose mobile forge
+      travels between villages; Grandmother Vurda Eleven-Sage, a legendary bladesmith
+      whose waiting list is measured in years; Serrin es-Thabit, an illegitimate heir
+      carrying Malpais Warborn genetics; and Kor the Eunuch, a former warlord who
+      chose service over death.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Thousand Kingdoms, Akama, Destrier]
     location_features:
@@ -13384,6 +13390,10 @@ entries:
       significant fraction of Ganat's population. Those who remain in Yarangar
       have made it clear: they will not be governed. They will not be
       conquered. They will simply wait until the invaders leave or die.
+
+      Teval Okhem hunts in the northeastern forest, his entire life spent beneath
+      the canopy. His chameleonic skin displays the forest palette—blues, greens,
+      earth tones—shifting as he moves through different lighting.
     rag_pointer: "Ganat and the Yarangar War"
     related: [Ranga, Ganat, Ravi Donmar, Undying Empire]
     location_features:
@@ -18981,11 +18991,16 @@ entries:
     category: location
     short: "Puget Sound caste-village where Völërath, Szkovërin, and Draëthen refugee castes maintain separate infrastructure."
     details: |
-      Caste-village on Puget Sound's eastern shore. Each refugee caste maintains 
-      separate infrastructure: Völërath buildings with higher doorways and longer beds, 
-      Szkovërin compounds on the promontory (soil grey with accumulated toxins), 
-      Draëthen housing in organized blocks near the shore. Integration is practical 
+      Caste-village on Puget Sound's eastern shore. Each refugee caste maintains
+      separate infrastructure: Völërath buildings with higher doorways and longer beds,
+      Szkovërin compounds on the promontory (soil grey with accumulated toxins),
+      Draëthen housing in organized blocks near the shore. Integration is practical
       rather than social. Avouvar traders arrive monthly from the north.
+
+      Residents include Erikva Stenn, a Völërath fisherwoman whose family has occupied
+      the same house for four hundred years; Drem Voravel, a Szkovërin smith whose
+      liver processes heavy metals like baseline processes alcohol; and Grey-Patch,
+      a Draëthen weaver whose collective produces patterns of startling consistency.
     rag_pointer: "Puget Sound Refugee Castes"
     related: [Völërath, Szkovërin, Draëthen, Puget Sound, Avouvar]
     location_features:
@@ -19006,12 +19021,17 @@ entries:
     category: location
     short: "Southern Sierra Nevada facility where Archons survive—cognitive function integrated into architectural infrastructure."
     details: |
-      Technical Caste refuge in the Ib Mountains. The Archons here have 
-      been calculating for approximately four thousand years, attempting to disprove 
-      the Eighth Testament's mathematics. Clone servants maintain their nutrient 
-      lines and record Jargon outputs, but the servants degrade generation by 
-      generation—each iteration slightly less functional. When servants fail, 
+      Technical Caste refuge in the Ib Mountains. The Archons here have
+      been calculating for approximately four thousand years, attempting to disprove
+      the Eighth Testament's mathematics. Clone servants maintain their nutrient
+      lines and record Jargon outputs, but the servants degrade generation by
+      generation—each iteration slightly less functional. When servants fail,
       the Archons will have no one to maintain them.
+
+      The Seventh Remaining occupies a chamber in the deep facilities—the chamber
+      was built around it, or it was built into the chamber. Biological processes
+      extend through walls and floors. A face remains, but the features are no
+      longer quite right.
     rag_pointer: "Technical Castes and Far Ib"
     related: [Archons, Technical Castes, Eighth Testament, Jargon, Ib Mountains]
     location_features:
@@ -19033,10 +19053,14 @@ entries:
     category: location
     short: "Military frontier zone between Empire and Republic—scout-assassin units operate here."
     details: |
-      The frontier zone where Imperial and Ganati territories meet. Scout-assassin 
-      Warborn units conduct reconnaissance, surveillance, and occasional direct 
-      action against targets the Bureau of the Sword prefers not to acknowledge. 
+      The frontier zone where Imperial and Ganati territories meet. Scout-assassin
+      Warborn units conduct reconnaissance, surveillance, and occasional direct
+      action against targets the Bureau of the Sword prefers not to acknowledge.
       The border is permeable for trade but contested for sovereignty.
+
+      Senna Kol operates here with her cohort of twelve—eight survive. Seven feet
+      tall, lean, modified for rapid movement and enhanced perception. She has
+      killed seventeen people the Empire will never officially record.
     rag_pointer: "The Republic of Ganat"
     related: [Ganat, Bureau of the Sword, Warborn]
     location_features:
