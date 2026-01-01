@@ -8849,14 +8849,20 @@ entries:
   # ═══ Port District ═══
   Port District:
     category: location
-    short: "Industrial waterfront district at lake level—warehouses blazing with electric light."
+    short: Industrial waterfront at lake level—the stone remembers even when people prefer to forget.
     details: |
-      Two square miles at 6,200 feet where streams reach the lake. Massive granite warehouses 
-      (200x80x40 feet) storing six months of goods when pass is open. Electric lights blaze 
-      from every door and dock—nighttime loading common. Dense worker housing: multi-story 
-      granite buildings with shared courtyards, exterior staircases, electric heating elements 
-      (winter kills without them). Re-carved reliefs on older buildings—monarchical scenes 
-      replaced with revolutionary, new panels 2-3 inches deeper.
+      Two square miles at sixty-two hundred feet where streams reach the lake.
+      Massive granite warehouses storing six months of goods when the pass is
+      open—some two hundred feet long, eighty wide, forty high. Electric lights
+      blaze from every door and dock; nighttime loading common.
+
+      Dense worker housing: multi-story granite buildings with shared courtyards,
+      exterior staircases, electric heating elements on walls and sleeping
+      platforms. Winter at this altitude kills without heat. The granite walls
+      show carved bas-reliefs, but look closely: the deeper carvings are newer,
+      revolutionary scenes replacing monarchical. A tribute panel showing the
+      old Sultana is now a collective harvest, carved two inches deeper. The
+      stone remembers even when people prefer to forget.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Taho, Merchant Terraces]
     location_features:
