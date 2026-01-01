@@ -13680,12 +13680,18 @@ entries:
   # ═══ Iron Yards Boys ═══
   Iron Yards Boys:
     category: organization
-    short: "Hanged Men's primary profit center in the Iron Yards."
+    short: Hanged Men's primary profit center—extracting percentages from salvage operations.
     details: |
-      Led by Jarek Fen, extract percentages from salvage operations. When enforcement 
-      requires more muscle than the Boys can provide, Chain-Men come down from 
-      Bright-Spire. The three major powers (Salvage Guild, Pipefitters Union, Yen Tam 
-      Society) tolerate their extraction while working to prevent expansion.
+      The Boys extract percentages from salvage operations in the Iron Yards.
+      When enforcement requires more muscle than they can provide, Chain-Men
+      come down from Bright-Spire. The three major powers—Salvage Guild,
+      Pipefitters Union, Yen Tam Society—tolerate this extraction while working
+      to prevent expansion.
+
+      It is a careful balance. The Boys take enough to matter, not enough to
+      provoke unified opposition. The powers accept the tax as cost of
+      operating without greater interference. Everyone understands the
+      arrangement. Everyone knows when it might change.
     rag_pointer: The Iron Yards
     related: [Iron Yards, Hanged Men, Chain-Men, Salvage Guild, Pipefitters Union]
   # ─── end Iron Yards Boys ───
