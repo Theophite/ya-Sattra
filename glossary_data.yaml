@@ -14625,13 +14625,20 @@ entries:
   # ═══ Bureau of the Creche ═══
   Bureau of the Creche:
     category: organization
-    short: "Controls genetics, reproduction, and medical patents—regulates what remains of caste purity."
+    short: Controls genetics, reproduction, and medical patents—regulates what remains of caste purity.
     details: |
-      Licenses births among engineered lineages, holds biological technology monopolies. 
-      Lost reproductive jurisdiction to Scale under City-of-Glass Charter—now fights to 
-      reclaim it through procedural warfare. Seven Institutes: Lineal Certification, 
-      Reproductive Sanction, Genomic Licensing, Nutritional Design, Developmental Safety, 
-      Cognitive Integrity, Highborn Preservation. Conservative coalition seeks Charter reversal.
+      Licenses births among engineered lineages, holds biological technology
+      monopolies. The Bureau decides who may reproduce, how, and in what
+      configuration. Lost reproductive jurisdiction to the Bureau of the
+      Scale under the City-of-Glass Charter—now fights to reclaim it through
+      procedural warfare. Every regulation, every inspection, every delay
+      serves the larger goal.
+
+      Seven Institutes: Lineal Certification, Reproductive Sanction, Genomic
+      Licensing, Nutritional Design, Developmental Safety, Cognitive
+      Integrity, Highborn Preservation. A conservative coalition seeks
+      Charter reversal. The Bureau of the Creche believes bodies belong to
+      the state. The state must decide what bodies may exist.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau, Satara, Bureau of the Scale, City-of-Glass Charter]
   # ─── end Bureau of the Creche ───
