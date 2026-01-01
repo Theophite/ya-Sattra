@@ -14952,13 +14952,17 @@ entries:
   # ═══ Bureau of the Sword ═══
   Bureau of the Sword:
     category: organization
-    short: "Manages military forces including engineered combat castes with extreme biological modifications."
+    short: Manages military forces including engineered combat castes with extreme biological modifications.
     details: |
-      Controls Warborn deployment, restricted caste management. Seven Institutes: Strategic 
-      Planning, Study of Tactics, Restricted Castes (Institute for), Standardization, 
-      Ordnance, Civil Order (gendarmes), Auxiliary Relations. Clone soldiers depend on 
-      Creche-controlled supplements—perpetual jurisdiction dispute. Military commanders 
-      resent Lens redaction of after-action reports.
+      Controls Warborn deployment and restricted caste management through
+      seven Institutes: Strategic Planning, Study of Tactics, Restricted
+      Castes, Standardization, Ordnance, Civil Order, and Auxiliary Relations.
+
+      Clone soldiers depend on Creche-controlled supplements—a perpetual
+      jurisdiction dispute. Military commanders resent Lens redaction of
+      after-action reports. The Sword's power is immense but constrained,
+      its weapons terrifying but dependent on other Bureaus for everything
+      from activation codes to replacement limbs.
     rag_pointer: "Bureau of the Sword"
     related: [Bureau, Satara, Warborn, Bureau of the Creche]
   # ─── end Bureau of the Sword ───
