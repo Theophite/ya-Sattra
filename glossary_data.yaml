@@ -6387,12 +6387,14 @@ entries:
   # ═══ Morrow's Tools ═══
   Morrow's Tools:
     category: location
-    short: "Hand equipment sales and repairs for salvage work."
+    short: Hand equipment sales and repairs for salvage work—the tools that keep workers alive, or don't if poorly maintained.
     details: |
-      Cutting torches, pry bars, specialized instruments for working different materials. 
-      The tools that keep salvage workers alive—or don't, if poorly maintained. Cass 
-      Morrow runs the shop with the precision of someone whose livelihood depends on 
-      equipment that doesn't fail.
+      Cutting torches, pry bars, specialized instruments for working different materials.
+      Everything a salvage worker needs to cut, lift, pry, and survive. Tools maintained
+      with precision because failure costs lives.
+
+      Workers who buy cheap learn once. Workers who maintain poorly learn once. Those
+      who return are those who've learned to respect what keeps them alive.
     rag_pointer: The Iron Yards
     related: [Torchline Row, Iron Yards]
     location_features:
