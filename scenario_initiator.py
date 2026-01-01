@@ -222,6 +222,75 @@ def format_word_result(term, entry):
     return "\n".join(lines)
 
 
+def draw_weighted_terms(n=5, include_persons=True):
+    """Draw n random glossary terms using weighted selection without replacement.
+
+    Args:
+        n: Number of terms to draw
+        include_persons: Whether to include person entries
+
+    Returns:
+        List of (term, entry) tuples
+    """
+    if not GLOSSARY_AVAILABLE:
+        # Fallback: return terms from hardcoded special terms
+        from input_check import SPECIAL_TERMS
+        terms = random.sample(list(SPECIAL_TERMS), min(n, len(SPECIAL_TERMS)))
+        return [(t.title(), None) for t in terms]
+
+    # Get all entries
+    try:
+        if not hasattr(G, 'ENTRIES') or G.ENTRIES is None:
+            from input_check import SPECIAL_TERMS
+            terms = random.sample(list(SPECIAL_TERMS), min(n, len(SPECIAL_TERMS)))
+            return [(t.title(), None) for t in terms]
+        entries = list(G.ENTRIES.values())
+    except (AttributeError, TypeError):
+        from input_check import SPECIAL_TERMS
+        terms = random.sample(list(SPECIAL_TERMS), min(n, len(SPECIAL_TERMS)))
+        return [(t.title(), None) for t in terms]
+
+    # Filter out persons if requested
+    if not include_persons:
+        entries = [e for e in entries if e.category.lower() != 'person']
+
+    if len(entries) < n:
+        n = len(entries)
+
+    # Calculate weights for all entries
+    weights = []
+    for e in entries:
+        weight = 1.0
+        if e.details:
+            weight += len(e.details) / 100
+        if e.related:
+            weight += len(e.related) * 0.5
+        if e.rag_pointer:
+            weight += 1.0
+        if e.caste_features or e.location_features:
+            weight += 1.5
+        weights.append(weight)
+
+    # Draw without replacement using weighted selection
+    results = []
+    available_indices = list(range(len(entries)))
+    available_weights = weights[:]
+
+    for _ in range(n):
+        if not available_indices:
+            break
+        # Select one
+        idx = random.choices(range(len(available_indices)), weights=available_weights, k=1)[0]
+        entry_idx = available_indices[idx]
+        entry = entries[entry_idx]
+        results.append((entry.term, entry))
+        # Remove from available
+        available_indices.pop(idx)
+        available_weights.pop(idx)
+
+    return results
+
+
 # =============================================================================
 # SCENARIO GENERATION
 # =============================================================================
