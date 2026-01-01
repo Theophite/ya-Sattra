@@ -8362,14 +8362,21 @@ entries:
   # ═══ Near Wall ═══
   Near Wall:
     category: location
-    short: "Commerce and residence side of Glen Canyon—markets at bottom, wealthy cave-homes above."
+    short: Commerce at bottom, wealth ascending into light—the deeper one lives, the poorer one is.
     details: |
-      The canyon wall closest to the main road entering Ganat. Lower levels: covered bazaars 
-      carved into the cliff, crowded markets for food, textiles, copper work, imported goods. 
-      Higher up: wealthy cave-homes with vast stained glass windows glowing day and night, 
-      2-3,000 square feet carved into sandstone. Middle-class deeper, no windows but electric 
-      light. The poorer you are, the deeper you live—but even the deepest have electric light 
-      and sanitation. Terraces carved for gardens and gathering.
+      The canyon wall closest to the main road entering Ganat. Lower levels: covered
+      bazaars carved into salmon sandstone, crowded markets for food, textiles,
+      copper work, imported goods. Electric lights blaze constantly—the spaces would
+      be dark otherwise. Crowded, noisy, fragrant with food and spices and human
+      density.
+
+      Higher up: wealthy cave-homes carved close enough to the canyon face for vast
+      stained glass windows. Massive panels showing geometric patterns or figurative
+      scenes, lit from behind, glowing day and night—visible from across the canyon,
+      announcing wealth through beauty. Middle-class families live deeper, no windows
+      but electric light. The poorer you are, the deeper you live—but even the
+      deepest have light and sanitation. Terraces provide outdoor space: irrigated
+      gardens, gathering areas, lookout points.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Ganat proper, Far Wall]
     location_features:
