@@ -10628,14 +10628,16 @@ entries:
   # ═══ Blackfish Weirs ═══
   Blackfish Weirs:
     category: location
-    short: "Ataru Blackfish's salmon empire—weirs, smoke-houses, fixed tribute."
+    short: Salmon processing district—fixed tribute regardless of fortune.
     details: |
-      Major district of Ogon where Ataru Blackfish maintains his commercial
-      empire. Contains weirs, smoke-houses, and processing infrastructure.
-      Approximately seventy vassals control weir positions, paying fixed
-      tribute regardless of fortune: good catch pay in fish, poor catch find
-      obols through raiding, recalcitrance pay in blood. The district's economy
-      centers entirely on the salmon runs from the Grand Canal.
+      Major district of Ogon controlling the weirs and smoke-houses that process
+      salmon from the Grand Canal. Approximately seventy vassals hold weir
+      positions, paying fixed tribute regardless of fortune. Good catch pay in
+      fish. Poor catch find obols through raiding. Recalcitrance pays in blood.
+
+      The economy centers entirely on the salmon runs. Weir positions are held
+      by force and inherited through bloodlines—the most valuable property in
+      Ogon after the token-seats themselves.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Ogon, Ataru Blackfish, The Grand Canal]
     location_features:
