@@ -13338,14 +13338,19 @@ entries:
   # ═══ Port Ahn Salvage Quarter ═══
   Port Ahn Salvage Quarter:
     category: location
-    short: "Lower terrace archaeotech market—dealers work from locked strongboxes, goods spread on blankets."
+    short: The frontier's edge—goods spread on blankets, Mutterers scavenging in the trash heaps behind.
     details: |
-      Located on Port Ahn's lower terraces. Archaeotech market dealing in pre-Interdict
-      components. Merchants who cannot afford proper market stalls spread goods on blankets.
-      Dealers work from locked strongboxes, showing pieces only to serious buyers. Ancient
-      weapons displayed as heritage items. Behind the stalls: trash heaps where Mutterers
-      scavenge, modifying components in ways that suggest Technical Caste inheritance.
-      The frontier's edge, where Imperial classification breaks down entirely.
+      Lower terraces where Imperial classification breaks down entirely.
+      Merchants who cannot afford proper stalls spread goods on blankets.
+      Dealers work from locked strongboxes, showing pieces only to serious
+      buyers. Ancient weapons displayed as heritage items, functional status
+      unknown.
+
+      Behind the stalls: trash heaps where Mutterers scavenge, modifying
+      components in ways that suggest Technical Caste inheritance. No one asks
+      where the goods came from. No one asks what the components do. The
+      transaction is simple: someone wants to sell, someone wants to buy, and
+      the Empire's categories have ceased to apply.
     rag_pointer: "Vey, Trip to Port Ahn"
     related: [Port Ahn, Port Ahn Main Market, Mutterers, Technical Castes]
     location_features:
