@@ -8325,21 +8325,20 @@ entries:
   # ═══ Monastery of the Silent Song ═══
   Monastery of the Silent Song:
     category: location
-    short: High-walled sanctuary where the last kalbats are tended in absolute silence.
+    short: High-walled sanctuary where the last kalbats are tended—silence is medical necessity, not spiritual affectation.
     details: |
+      A place of absolute quiet. Even the arcology's hum is dampened by archaeotech
+      acoustic baffles. Sound damages the kalbats' encoded contents; the silence is
+      medical necessity. Padded floors absorb footsteps. Companions communicate in
+      sign language developed over millennia. Softness everywhere, where the rest
+      of the Inner City is hard.
+
       Seven kalbats survive here in cyclic dormancy, tended by Companions in two-year
-      rotations. The Monastery is a place of absolute quiet—even the hum of the arcology
-      is dampened by archaeotech acoustic baffles. Sound damages the kalbats' encoded
-      contents; silence is medical necessity, not spiritual affectation.
-
-      Located in the Second Whorl where temporal distortion runs moderate. The high walls
-      separate the Monastery from the empty plazas and colossal statues of the Seat of
-      Power. Within: softness where the rest of the Inner City is hard. Padded floors
-      absorb footsteps. Companions communicate in sign language developed over millennia.
-
-      The kalbats themselves—living records of compressed information—lie in chambers
-      where vibration cannot reach them. Their slack-jawed faces are the same as those
-      carved into ya-Tsatsa's cliffs, but these are living, waiting.
+      rotations. The kalbats themselves—living records of compressed information—lie
+      in chambers where vibration cannot reach them. Their slack-jawed faces are the
+      same as those carved into ya-Tsatsa's cliffs, but these are living, waiting.
+      High walls separate the Monastery from the Second Whorl's empty plazas. Within
+      those walls, centuries pass in silence.
     rag_pointer: The Companions Guild, The Inner City
     related: [Kalbats, Companions Guild, Second Whorl]
     location_features:
