@@ -16806,13 +16806,16 @@ entries:
   # ═══ Taho Physicians Confraternity ═══
   Taho Physicians Confraternity:
     category: organization
-    short: "Elite medical kilit—formal training, rigorous standards, 450 members, politically neutral."
+    short: Elite medical kilit—formal training, rigorous standards, four hundred fifty members, politically neutral.
     details: |
-      Represents formally trained doctors with structured education in anatomy, diagnosis,
-      pharmacology, surgery. Rigorous examination testing theoretical and clinical
-      competence. Concentrates in urban centers. Politically neutral—prestige derives
-      from competence, not ideology. Members include both Dawn sympathizers and Dusk
-      pragmatists.
+      Represents formally trained doctors with structured education in
+      anatomy, diagnosis, pharmacology, surgery. Rigorous examination
+      testing theoretical and clinical competence. Concentrates in urban
+      centers.
+
+      Politically neutral. Prestige derives from competence, not ideology.
+      Members include both Dawn sympathizers and Dusk pragmatists. Disease
+      does not care about faction. Neither do the physicians.
     rag_pointer: "Professional Kilits and Certification"
     related: [Ganat, Kilit, Taho]
   # ─── end Taho Physicians Confraternity ───
