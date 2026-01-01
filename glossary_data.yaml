@@ -14366,11 +14366,19 @@ entries:
   # ═══ es-Korvey ═══
   es-Korvey:
     category: organization
-    short: "Aureate family controlling textile preservation—their enzyme treatments prevent fabric decay."
+    short: Aureate family controlling textile preservation—without their enzyme treatments, fabric dissolves within months.
     details: |
-      Estate: Three spiral towers with fabric exteriors becoming translucent screens at sunset. 
-      Every uniform, banner, and sail in the Empire requires their treatment or dissolves within 
-      months. Mari es-Korvey leads. Crystal wasps build valuable nests between towers.
+      Estate: Three spiral towers with fabric exteriors that become
+      translucent screens at sunset. Light passes through dyed threads,
+      painting the grounds in shifting color. Crystal wasps build valuable
+      nests between the towers—the family harvests them carefully.
+
+      Every uniform, banner, and sail in the Empire requires es-Korvey
+      treatment or dissolves within months. The enzymes are proprietary. The
+      process is secret. The dependency is absolute. Without the treatment,
+      the Empire's fabric crumbles. Ships lose their sails. Soldiers lose
+      their uniforms. Flags fade to nothing. The es-Korvey provide what no
+      one else can.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, Aureate]
   # ─── end es-Korvey ───
