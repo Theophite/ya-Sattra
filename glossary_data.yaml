@@ -17357,11 +17357,13 @@ entries:
   # ═══ Dinar ═══
   Dinar:
     category: concept
-    short: "Ganati currency unit—used in Republican commerce and subsidy calculations."
+    short: Ganati currency unit—used in Republican commerce and subsidy calculations.
     details: |
-      Standard currency of the Republic of Ganat. Power subsidies measured in dinars: 
-      "The subsidy is 2,847 dinars this month." Distinct from Imperial obol. Merchant 
-      kilits publish annual reports documenting collective investment in dinars.
+      Standard currency of the Republic of Ganat. Power subsidies are
+      measured in dinars. Distinct from Imperial obol. Merchant kilits
+      publish annual reports documenting collective investment in dinars.
+      The dinar measures what the Republic produces; the obol measures
+      what the Empire takes.
     rag_pointer: "The Republic of Ganat"
     related: [Ganat, Kilit, Obol]
   # ─── end Dinar ───
