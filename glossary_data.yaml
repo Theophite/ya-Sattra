@@ -14841,13 +14841,16 @@ entries:
   Institute of Luminescence:
     category: organization
     parent: Bureau of the Rod
-    short: "Rod subdivision managing energy grid distribution—the Bureau's most critical function."
+    short: Rod subdivision managing energy grid distribution—keeping the lights on across the Empire.
     details: |
-      Manages energy grid distribution and electrical regulation across Imperial
-      holdings, including clandestine reverse-engineering of recovered power sources.
-      The innocuous name conceals the Bureau's most critical function: keeping the
-      lights on. Reactor patents often inherited by families who don't fully
-      understand the technology they control.
+      Manages energy grid distribution and electrical regulation across
+      Imperial holdings, including clandestine reverse-engineering of
+      recovered power sources. The innocuous name conceals the Bureau's most
+      critical function: keeping the lights on.
+
+      Reactor patents often inherited by families who do not fully
+      understand the technology they control. The Institute coordinates. The
+      patent holders cooperate or face darkness. Everyone cooperates.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Rod]
   # ─── end Institute of Luminescence ───
