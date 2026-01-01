@@ -15626,13 +15626,17 @@ entries:
   # ═══ Testaments ═══
   Testaments:
     category: concept
-    short: "Final messages transmitted by each Oracle before Ascension—each enabled technological golden ages."
+    short: Final messages transmitted by each Oracle before Ascension—each enabled technological golden ages.
     details: |
-      First: Instructions for kalbats and superluminal travel. Second: Genetic specifications 
-      for Highborn/Imperial bloodline including Compulsion. Third: Foundation for Technical 
-      Caste development. Fourth through Seventh: Transmitted in the Jargon, comprehensible 
-      only to Technical Castes. Eighth: Command to create naked singularity—recognized by 
-      Technical Castes as false mathematics. Implementation triggered the Interdict.
+      First: Instructions for kalbats and superluminal travel. Second:
+      Genetic specifications for Highborn and Imperial bloodline including
+      Compulsion. Third: Foundation for Technical Caste development. Fourth
+      through Seventh: Transmitted in the Jargon, comprehensible only to
+      Technical Castes.
+
+      Eighth: Command to create naked singularity—recognized by Technical
+      Castes as false mathematics. Implementation triggered the Interdict.
+      Seven gifts that made humanity great. One poison that unmade them.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Oracles, Eighth Testament, Jargon, Technical Castes]
   # ─── end Testaments ───
