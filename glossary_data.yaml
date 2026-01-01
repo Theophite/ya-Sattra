@@ -3602,13 +3602,25 @@ entries:
   # ═══ Booksellers' Row ═══
   "Booksellers' Row":
     category: location
-    short: "Guild street at Archive Gate—first Medina territory visitors from Rotten Quarter encounter."
+    short: Guild street at Archive Gate—three hundred meters of bronze-marked territory, first Medina ground visitors from the Yards encounter.
     details: |
-      ~300m long, boundaries marked by bronze plaques with deep antiquity patina. 
-      Booksellers' Guild (~80 members, 23 licensed shops) holds exclusive retail 
-      rights. Many's primary countinghouse positioned where anyone bringing value 
-      from Iron Yards, Middens, or Ridge must pass. Ta-Kefyeh maintain queue order.
-      The Archive Gate now takes its name from this street.
+      Three hundred meters long, boundaries marked by bronze plaques with
+      deep antiquity patina. The Booksellers' Guild holds exclusive retail
+      rights within these markers: about eighty members operating
+      twenty-three licensed shops. The Gate itself now takes its name from
+      this street.
+
+      A major countinghouse positions itself where anyone bringing value
+      from Iron Yards, Middens, or Ridge must pass. Ta-Kefyeh maintain
+      queue order—the famous egalitarian line where status means nothing
+      and anyone attempting to skip faces immediate physical removal.
+
+      To walk the Row is to cross a boundary: from the Yards' rust and
+      salvage into Medina's aspiration toward Antediluvian respectability.
+      The bronze plaques announce the transition. The booksellers in their
+      shops sell printed materials produced by hand-copying at licensed
+      scriptoriums, the guild charter assuming automated printing that no
+      longer exists.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [Old Customs, Many, Archive Gate, Booksellers' Guild, Ta-Kefyeh]
     location_features:
