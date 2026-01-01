@@ -4093,23 +4093,26 @@ entries:
   # ═══ Ember Row ═══
   Ember Row:
     category: location
-    short: "Family housing climbing toward Sierra foothills—marginally cooler, with sunset Furnace views."
+    short: Family housing climbing toward Sierra foothills—two hundred feet of elevation gain providing cooler temperatures and sunset views of the Furnaces.
     details: |
-      ~200,000 residents east of Threshold, ~200 feet elevation gain providing cooler
-      temperatures families value. Higher proportions of near-baselines and Orevet
-      (whose bodies benefit from temperature differential). Individual dwellings more
-      common than Threshold—families can own rather than rent.
+      Two hundred thousand residents east of the Threshold. The elevation
+      gain makes a difference: marginally cooler temperatures that families
+      value, that Orevet bodies benefit from. Individual dwellings more
+      common here than below—families can own rather than rent.
 
-      The name comes from the western view: at sunset, the Furnaces' industrial glow
-      resembles banked coals through silhouetted domes and towers. Residents gather
-      on terraces and rooftops for this daily display—shared viewing has become social
-      ritual defining neighborhood identity.
+      The name comes from the western view. At sunset the Furnaces'
+      industrial glow resembles banked coals through silhouetted domes and
+      towers. Residents gather on terraces and rooftops for this daily
+      display. Shared viewing has become social ritual, the spectacle
+      defining neighborhood identity.
 
-      Architecture more varied than Threshold's, reflecting construction across longer
-      period. Gardens appear where water permits—small vegetable plots, the luxury of
-      growing things in a city dominated by industry. The Overlook terraced plaza offers
-      city-wide views; Parish Church of St. Calis has slightly-wrong spire proportions
-      that residents defend loyally.
+      Architecture varies more than in the Threshold, reflecting
+      construction across a longer period. Gardens appear where water
+      permits—small vegetable plots, the luxury of growing things in a city
+      dominated by industry. A terraced plaza offers city-wide views. A
+      parish church stands with spire proportions that seem slightly wrong,
+      built by someone who remembered differently than others, defended
+      loyally by residents who've grown to love the imperfection.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Threshold, Orevet]
     location_features:
