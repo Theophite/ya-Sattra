@@ -8198,12 +8198,18 @@ entries:
   # ═══ Lantern-Heaps ═══
   Lantern-Heaps:
     category: location
-    short: "Electronics salvage tenement with Cho family electrical monopoly."
+    short: Electronics salvage tenement that glows at night—the only building in the Middens with consistent power.
     details: |
-      ~2,200 residents. Glows at night—the only building with consistent power. 
-      Cho gondola runs from here to Ridge workshops, the only direct route between 
-      Middens and legitimate commerce. Rainbow signage marks Cho territory. Electronics 
-      reconditioning and power distribution.
+      The lit building in near-total Middens darkness. Twenty-two hundred residents
+      living under the glow of Cho family electrical monopoly. Rainbow signage marks
+      Cho territory—garish against the prevailing grey. Electronics workshops glow
+      with testing displays; power distribution cables run to other tenements at
+      prices the Cho set.
+
+      The Cho gondola runs from here to Ridge workshops, the only direct route
+      between Middens poverty and legitimate commerce. Less water than northern
+      tenements, more connection to the world outside. The cable stretching upward
+      toward the Ridge is a lifeline, and the Cho control both ends.
     rag_pointer: The Middens Tenements
     related: [Middens, Cho, Ridge]
     location_features:
