@@ -15061,14 +15061,16 @@ entries:
   Institute for the Study of Tactics:
     category: organization
     parent: Bureau of the Sword
-    short: "Sword subdivision with identical responsibilities to Strategic Planning—seventy-year turf war ongoing."
+    short: Sword subdivision with identical responsibilities to Strategic Planning—seventy-year turf war ongoing.
     details: |
-      Has responsibilities absolutely identical to Strategic Planning. The two
-      Institutes have been engaged in a seventy-year turf war over who handles
-      "operational planning" versus "battlefield planning." Junior officers learn
-      to submit all plans to both, using different fonts to make them seem like
-      different documents. The rivalry is absurd but productive—competition
-      drives both Institutes to think about what actually works.
+      Has responsibilities absolutely identical to Strategic Planning. The
+      two Institutes have been engaged in a seventy-year turf war over who
+      handles "operational planning" versus "battlefield planning."
+
+      Junior officers learn to submit all plans to both, using different
+      fonts to make them seem like different documents. The rivalry is
+      absurd but productive—competition drives both Institutes to think
+      about what actually works.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Sword, Institute for Strategic Planning]
   # ─── end Institute for the Study of Tactics ───
