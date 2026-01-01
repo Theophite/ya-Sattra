@@ -9765,16 +9765,19 @@ entries:
   # ═══ Shaw Island ═══
   Shaw Island:
     category: location
-    short: Quarantine station where everything bound for Asovoë undergoes inspection.
+    short: Quarantine station—the waiting can take days, and the inspectors show no urgency.
     details: |
       The bottleneck through which all trade passes. Inspectors examine goods for
       contamination—biological, chemical, temporal. People wait in isolation while
       Avouvar evaluate whether they pose risk. The city cannot afford contamination.
-
       The architecture is deliberately austere: holding areas, inspection chambers,
-      decontamination facilities. Avouvar staff rotate frequently to avoid the aging
-      effects of southern latitude. The waiting can take days; the inspectors show
-      no urgency. Asovoë's survival depends on what they catch here.
+      decontamination facilities.
+
+      Avouvar staff rotate frequently to avoid the aging effects of southern
+      latitude. The waiting can take days; the inspectors show no urgency. Every
+      trader who reaches Asovoë knows this feeling: temperate rain against
+      oversized architecture, aurora-bright figures moving at their own pace,
+      no word on when clearance might come.
     rag_pointer: Asovoë and the Avouvar
     related: [San Juan Factorias, Asovoë]
     location_features:
