@@ -17157,16 +17157,17 @@ entries:
   # ═══ Ghesam Optical ═══
   Ghesam Optical:
     category: organization
-    short: "Ganati precision optics manufacturer—irreplaceable expertise in rifle scopes and ranging equipment."
+    short: Ganati precision optics manufacturer—irreplaceable expertise in rifle scopes and ranging equipment.
     details: |
-      Location: Near Wall, Ganat proper. Sefka Ghesam, proprietor.
-      
-      PRODUCTS: Rifle scopes (4x magnification), artillery ranging equipment, 
-      signal mirrors (heliograph quality), binoculars (field grade).
-      
-      CHARACTER: Single-name family (no kilit marker, but wealthy anyway). Forty 
-      workers, irreplaceable expertise. Waiting list for military contracts. 
-      Politically neutral—everyone needs optics.
+      Located at the Near Wall, Ganat proper. A single-name family—no kilit
+      marker, but wealthy anyway. Produces rifle scopes at four-times
+      magnification, artillery ranging equipment, signal mirrors at
+      heliograph quality, field-grade binoculars.
+
+      Forty workers, irreplaceable expertise. Waiting list for military
+      contracts. Politically neutral—everyone needs optics. In a world of
+      industrial cooperatives and old merchant houses, this is a family
+      that simply makes lenses better than anyone else.
     related: [Ganat]
   # ─── end Ghesam Optical ───
 
