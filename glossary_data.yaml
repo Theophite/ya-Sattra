@@ -16658,17 +16658,27 @@ entries:
   # ═══ People's Exchequer ═══
   People's Exchequer:
     category: organization
-    short: "Republican fiscal authority—Royal Exchequer renamed, same families, same ledgers, Dusk accountants versus Dawn economists."
+    short: Republican fiscal authority—Royal Exchequer renamed, same families, same ledgers, Dusk accountants versus Dawn economists.
     details: |
-      The Royal Exchequer became the People's Exchequer when the monarchy fell. The name changed; the procedures, personnel, and institutional knowledge continued. Same families assessing revenue, same methods for catching underreporting kilits, same building in the Dam's administrative complex with "Royal" chiseled off the lintel.
+      The Royal Exchequer became the People's Exchequer when the monarchy
+      fell. The name changed; the procedures, personnel, and institutional
+      knowledge continued. Same families assessing revenue, same methods
+      for catching underreporting kilits, same building with "Royal"
+      chiseled off the lintel.
 
-      Internal divisions reflect factional politics. The accountants—assessors, auditors, enforcement officers—are overwhelmingly Dusk-aligned, families who've practiced fiscal administration for generations. The Planning Division is Dawn territory: economists producing reports on optimal resource allocation, modeling progressive taxation, citing revolutionary theory that the accountants view with professional contempt.
+      Internal divisions reflect factional politics. The accountants—
+      assessors, auditors, enforcement officers—are overwhelmingly Dusk-
+      aligned, families who have practiced fiscal administration for
+      generations. The Planning Division is Dawn territory: economists
+      citing revolutionary theory that the accountants view with
+      professional contempt.
 
-      Neither side can function without the other. Accountants know what works but lack theoretical framework. Economists can model optimal systems without understanding why they'd fail in practice. The Exchequer Chief rotates between factions through informal agreement.
-
-      Revenue collection operates through kilits—gross revenue taxation before distribution to members. Assessment Courts handle disputes, with appeal rights to commercial courts. Pastoral kilits require specialist assessors who understand transhumance patterns and seasonal market valuations.
-
-      All appropriations require 60% Senate approval. The budget cycle dominates four months of legislative activity yearly. Dawn controls spending ministries; Dusk controls revenue collection and adjudication. The system forces continuous negotiation because neither faction can govern alone.
+      Neither side can function without the other. Accountants know what
+      works but lack theoretical framework. Economists can model optimal
+      systems without understanding why they would fail in practice. Dawn
+      controls spending ministries; Dusk controls revenue collection and
+      adjudication. The system forces continuous negotiation because
+      neither faction can govern alone.
     rag_pointer: "People's Exchequer and Ganati Fiscal Constitution"
     related: [Ganat, Kilit, Ministry of Justice, Dawn Party, Dusk Party, Many]
   # ─── end People's Exchequer ───
