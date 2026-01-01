@@ -16922,30 +16922,28 @@ entries:
   # ═══ Kelso Senna ═══
   Kelso Senna:
     category: person
-    short: "The Assassin—sixty-one, killed Sultana Ulayah, now commands Cloud Temple Band from the Ib Mountains."
+    short: The Assassin—sixty-one, killed the Sultana, now commands Cloud Temple Band from the Ib Mountains.
     person_location: Ib Mountains
     details: |
-      Imperial citizen who passed the Seven-Cornered Examination, served as Bureau of
-      the Sword officer until disgrace. During the Yarangar campaign, a superior ordered
-      massacre of a Ranga village; Senna executed him instead of obeying. Court-martial,
-      conviction, then Senior Satara Ravi Donmar overrode conviction and granted
-      dishonorable discharge. Senna left Imperial service with his life, his reputation
-      destroyed, and soldiers who had helped cover up the killing.
+      Imperial citizen who passed the Seven-Cornered Examination, served as
+      Bureau of the Sword officer until disgrace. During a campaign, a
+      superior ordered massacre of a village; Senna executed him instead of
+      obeying. Court-martial, conviction, then a Senior Satara overrode the
+      conviction and granted dishonorable discharge. Senna left Imperial
+      service with his life, his reputation destroyed, and soldiers who had
+      helped cover up the killing.
 
-      Sultana Ulayah hired him to train Ranga insurgents against the Empire. He repaid
-      her by killing her. In 963, Cloud Temple Band struck the palace during a court
-      gathering—comprehensive decapitation that left the Sultanate headless.
+      The Sultana hired him to train insurgents against the Empire. He
+      repaid her by killing her. In nine sixty-three, Cloud Temple Band
+      struck the palace during a court gathering—comprehensive decapitation
+      that left the Sultanate headless.
 
-      He wasn't part of the vote because he had already acted. Everyone else had to
-      decide whether to follow. Served briefly as Minister of War in the provisional
-      government. Made enemies with every significant trading house, couldn't navigate
-      factional compromise, proved incapable of admitting error. Rasma Dhal-Setil helped
-      force him out. He withdrew to Cloud Temple, claims communication with Technical
-      Caste entities through quantum array at Far Ib.
-
-      The defining trait: refuses to admit he's wrong. Every principled gamble worked—
-      until believing he could govern without compromise. The same trait that saved him
-      from becoming a monster prevented him becoming a statesman.
+      He was not part of the revolutionary vote because he had already
+      acted. Everyone else had to decide whether to follow. Served briefly
+      as Minister of War, made enemies with every significant trading
+      house, proved incapable of admitting error. He withdrew to Cloud
+      Temple. The same trait that saved him from becoming a monster
+      prevented him from becoming a statesman.
     rag_pointer: "The Republic of Ganat; Cloud Temple Band"
     related: [Cloud Temple Band, Far Ib, Ganat, Rasma Dhal-Setil, Patriarch Kaleb, Ministry of War, Sultana Ulayah, Yarangar War]
   # ─── end Kelso Senna ───
