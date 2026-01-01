@@ -13000,14 +13000,19 @@ entries:
   # ═══ The Rim ═══
   The Rim:
     category: location
-    short: "Metropolitan periphery of ya-Sattra along the former coastline."
+    short: Two to three million people on the clifftops, looking down into the basin where the arcologies rise.
     details: |
-      Multiple named cities along the cliffs and ridges that were once the Monterey 
-      Bay shoreline, now looking down into the basin where the arcology-dominated 
-      core districts sit. More conventional urban patterns than the basin, less 
-      arcology dependence, oriented both toward the basin (economically, 
-      administratively) and outward toward the agricultural hinterland. Houses 
-      perhaps 2.5-3 million of ya-Sattra's total population.
+      Multiple cities along the cliffs that were once the Monterey Bay
+      shoreline. Down there, the arcology-dominated core. Up here, buildings
+      humans built for humans—proportions that make sense for the bodies that
+      live in them. Regional stone and timber construction, nothing self-
+      repairing, nothing impossible.
+
+      The Rim is oriented both ways: economically and administratively toward
+      the basin, culturally and practically toward the agricultural hinterland
+      beyond. Residents commute down into the core for work, return home to
+      architecture they understand. The contrast is visible daily: descent into
+      incomprehensible grandeur, ascent to human scale.
     rag_pointer: ""
     related: [ya-Sattra]
     location_features:
