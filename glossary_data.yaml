@@ -7348,12 +7348,18 @@ entries:
   # ═══ Harbor Master's Tower ═══
   Harbor Master's Tower:
     category: location
-    short: "Bureau of the Rod's harbor offices overlooking the Rift."
+    short: Bureau of the Rod's harbor offices overlooking the Rift at its narrowest point.
     details: |
-      Tower at the Rift's narrowest point, overlooking both shores and all three bridges. 
-      The Harbor Master coordinates dock assignments, adjudicates berth priority disputes, 
-      and interfaces with the Stevedores' Guild. Currently held by Koval es-Therren, a 
-      Highborn administrator with considerable independent authority.
+      Tower at the Rift's narrowest point, overlooking both shores and all three
+      bridges. From the upper windows, the entire harbor is visible—every ship at
+      anchor, every dock in use, every gondola moving along the canyon walls. Signal
+      flags communicate with vessels below.
+
+      The Harbor Master coordinates dock assignments, adjudicates berth priority
+      disputes, and interfaces with the Stevedores' Guild. A Highborn administrator
+      holds the post with considerable independent authority. Captains who want
+      favorable berths cultivate the office; those who don't find themselves waiting
+      at anchor while competitors unload.
     rag_pointer: "The Rift: Ya-Sattra's Harbor District"
     related: [Rift, Bureau of the Rod, Stevedores' Guild]
     location_features:
