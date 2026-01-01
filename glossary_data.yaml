@@ -6254,12 +6254,16 @@ entries:
   # ═══ Coil-Bone Clinic ═══
   Coil-Bone Clinic:
     category: location
-    short: "Unofficial medical facility for workers who can't access legitimate healthcare."
+    short: Unofficial medical facility for workers who can't access legitimate healthcare—named for the spiral fractures common in salvage accidents.
     details: |
-      Adjacent to the Cask and Flux, also operated by Keth Varemgiren. Provides medical 
-      treatment that would require credentials he doesn't have. Bone-setting, wound 
-      treatment, radiation sickness management. The name refers to the spiral fractures 
-      common in salvage accidents.
+      Adjacent to the Cask and Flux. Medical treatment that would require credentials
+      the operator doesn't have. Bone-setting, wound treatment, radiation sickness
+      management. Workers come here instead of hospitals they can't afford or guilds
+      that would ask questions about how the injury happened.
+
+      Coil-bone is the salvage worker's term for spiral fractures—what happens when
+      machinery catches a limb and twists. The clinic sets more of these than any
+      facility in the Yards. The survival rate is better than doing nothing.
     rag_pointer: The Iron Yards
     related: [Torchline Row, Iron Yards, Cask and Flux]
     location_features:
