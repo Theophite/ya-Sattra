@@ -10268,13 +10268,20 @@ entries:
   # ═══ Merchant Compounds ═══
   Merchant Compounds:
     category: location
-    short: "Multi-generational family estates serving as homes and kilit headquarters."
+    short: Multi-generational family estates—the courtyards have actual vegetation, a statement at altitude.
     details: |
-      Granite walls 2 feet thick, timber framing imported at enormous cost, glass windows, 
-      pitched roofs, electric heating throughout. 30 people in 8,000 square feet with multiple 
-      fireplaces, proper kitchens, private chambers, interior courtyards with actual vegetation 
-      (a statement at altitude). Some have their own generating capacity. The Khen-Masots 
-      provide their own power while also subsidizing fifteen thousand other households.
+      Granite walls two feet thick. Timber framing imported at enormous cost from
+      lower elevations. Glass windows, pitched roofs for the two hundred inches
+      of annual snow, electric heating in every room. Thirty people in eight
+      thousand square feet: multiple fireplaces, proper kitchens, private
+      chambers. Interior courtyards with actual vegetation—keeping plants alive
+      at this altitude requires irrigation, frost protection, constant attention.
+      The vegetation announces resources to spare on beauty.
+
+      Multi-generational compounds serve as both homes and kilit headquarters.
+      Some have their own generators. The wealthiest provide their own power
+      while subsidizing fifteen thousand other households—demonstrating
+      self-sufficiency through service to others.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Upper Taho, Taho, Khen-Masot]
     location_features:
