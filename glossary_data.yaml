@@ -17687,15 +17687,18 @@ entries:
   # ═══ Eldin Venn ═══
   Eldin Venn:
     category: person
-    short: "Patriarch of Clan Venn—senior rigger with 40 years experience managing high-altitude infrastructure."
+    short: Patriarch of Clan Venn—senior rigger with forty years experience managing high-altitude infrastructure.
     person_location: Middens
     details: |
-      Age 64. Patriarch of the Venn clan and senior rigger with four decades of high-rigging
-      experience. Missing two fingers from cable snaps but maintains superior grip strength.
-      Manages relationships with Iron Yards authorities and oversees the ~30 unauthorized
-      crossing routes his clan maintains throughout the Middens. Can assess metal fatigue by
-      sound alone—tapping cables and listening for the frequency that indicates stress
-      fractures. Rarely climbs anymore but no installation proceeds without his approval.
+      Sixty-four years old. Patriarch of the Venn clan and senior
+      rigger with four decades of high-rigging experience. Missing two
+      fingers from cable snaps but maintains superior grip strength.
+      Manages relationships with Iron Yards authorities and oversees
+      approximately thirty unauthorized crossing routes his clan
+      maintains throughout the Middens. Can assess metal fatigue by
+      sound alone—tapping cables and listening for the frequency that
+      indicates stress fractures. Rarely climbs anymore but no
+      installation proceeds without his approval.
     rag_pointer: "The Sewer-Fishers of the Middens"
     related: [Sewer-Fishers, Venn, Middens, Iron Yards]
   # ─── end Eldin Venn ───
