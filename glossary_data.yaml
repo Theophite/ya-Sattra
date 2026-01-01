@@ -14190,19 +14190,22 @@ entries:
   # ═══ Guild ═══
   Guild:
     category: concept
-    short: "Chartered monopolies controlling specific trades—charters designed for automated production, now operated by human hands."
+    short: Chartered monopolies—charters designed for automated production, now operated by human hands.
     details: |
-      Imperial trade guilds hold exclusive rights to produce or sell specific goods within
-      defined territories. Charters were granted millennia ago by authority that no longer
-      functions to revoke them, designed for automated facilities that no longer exist.
-      Human workers now perform functions designed for machines, following charter language
-      that specifies "output tolerances of 0.3%" impossible for handcraft.
+      Imperial trade guilds hold exclusive rights to produce or sell specific
+      goods within defined territories. Charters were granted millennia ago
+      by authority that no longer functions to revoke them, designed for
+      automated facilities that no longer exist. Human workers now perform
+      functions designed for machines, following charter language that
+      specifies output tolerances impossible for handcraft. The charters do
+      not care. The charters remain.
 
-      Guilds are local institutions with defined territorial boundaries, unlike empire-wide
-      organizations (Salvage Guild, Companions Guild) that hold special charters. A typical
-      guild master with twelve employees might gross 8,000-12,000 obols annually. Guild
-      pricing includes monopoly markup: a guild-made shirt costs 3-4 obols and lasts years;
-      unlicensed equivalent costs 1-1.5 obols but wears out in months.
+      Guilds are local institutions with defined territorial boundaries,
+      unlike empire-wide organizations (Salvage Guild, Companions Guild) that
+      hold special charters. Guild pricing includes monopoly markup: a
+      guild-made shirt costs more but lasts years; the unlicensed equivalent
+      costs less but wears out in months. The customer chooses quality at
+      monopoly prices or cheapness that falls apart.
 
       Examples by territory:
       - Medina Quarter: Clothiers' Guild, Booksellers' Guild, Opticians' Guild
@@ -14210,8 +14213,8 @@ entries:
       - Inner City: Water Guild
       - Iron Yards: Joiners' Guild, Armorers' Guild
 
-      The Salvage Guild and Companions Guild are special cases—empire-wide charters with
-      different economic structures than local trade guilds.
+      Join a guild and the guild protects its own. Work outside the charters
+      and the guilds respond collectively. There is no middle ground.
     rag_pointer: "The Economy"
     related:
       - Charter
