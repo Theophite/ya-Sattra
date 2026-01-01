@@ -16359,14 +16359,18 @@ entries:
   # ═══ Foreigners ═══
   Foreigners:
     category: concept
-    short: "Non-human intelligence occupying megastructures at galactic core—imposed the Three Mandates and the Interdict."
+    short: Non-human intelligence occupying megastructures at galactic core—imposed the Three Mandates and the Interdict.
     details: |
-      Humanity encountered them during expansion era. They imposed Three Mandates 
-      governing what humanity could and could not do. When the Emperor violated the 
-      Third Mandate by building the naked singularity, they imposed the Interdict 
-      trapping humanity on Earth. Their nature, motives, and current status remain 
-      unknown. Regional religions characterize them differently: Judges, Silent Ones, 
-      Makers-of-Law.
+      Humanity encountered them during the expansion era. They imposed the
+      Three Mandates governing what humanity could and could not do. When
+      the Emperor violated the Third Mandate by building the naked
+      singularity, they imposed the Interdict—trapping humanity on Earth.
+
+      Their nature, motives, and current status remain unknown. Regional
+      religions characterize them differently: Judges, Silent Ones,
+      Makers-of-Law. They gave laws. Humanity broke them. Now the sky is
+      closed. Whether the Foreigners watch, wait, or have forgotten
+      entirely—no one knows. The punishment continues regardless.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Three Mandates, Interdict, Eighth Testament]
   # ─── end Foreigners ───
