@@ -15493,13 +15493,16 @@ entries:
   # ═══ Malpais War ═══
   Malpais War:
     category: event
-    short: "War ended in 772 Red Hawk by City of Glass intervention—basis for the Charter."
+    short: War ended by City of Glass intervention—basis for the Charter.
     details: |
-      Details classified. What is known: conflict in the volcanic scablands, unknown
-      combatants and stakes, ended suddenly when the City of Glass did something no
-      one can describe. The City-of-Glass Charter that transferred reproductive
-      jurisdiction from Creche to Scale was named for this intervention. The City
-      demonstrated capabilities it had never used before and has not used since.
+      Details classified. What is known: conflict in the volcanic scablands,
+      unknown combatants and stakes, ended suddenly when the City of Glass
+      did something no one can describe.
+
+      The City-of-Glass Charter that transferred reproductive jurisdiction
+      from Creche to Scale was named for this intervention. The City
+      demonstrated capabilities it had never used before and has not used
+      since. No one wants to know what would make them use them again.
     rag_pointer: Index, The Satara, the Bureaus, and Imperial Government
     related: [City of Glass, City-of-Glass Charter, Malpais]
     event_features:
