@@ -7320,12 +7320,17 @@ entries:
   # ═══ Ganati Trading Mission ═══
   Ganati Trading Mission:
     category: location
-    short: "Republic of Ganat's formal trading presence in ya-Sattra."
+    short: Republic of Ganat's formal trading presence—granite and Republican standard on the Medina waterfront.
     details: |
-      Granite building flying the Republican standard on the Medina waterfront. Ganat is 
-      landlocked—ships must use Imperial ports—so commerce flows through ya-Sattra despite 
-      political tensions from the Yarangar War. Factors conduct trade on behalf of merchant 
-      kilits, maintaining studied neutrality on political questions.
+      Granite building flying the Republican standard among Imperial architecture.
+      Ganat is landlocked—ships must use Imperial ports—so commerce flows through
+      ya-Sattra despite political tensions from the Yarangar War. The building feels
+      defensible, designed for a population that remembers recent conflict.
+
+      Factors conduct trade on behalf of merchant kilits back home, maintaining
+      studied neutrality on political questions. They speak Imperial languages
+      fluently, dress in Imperial styles, and never discuss which side they fought
+      on. The work requires a talent for treating commerce as separate from history.
     rag_pointer: "The Rift: Ya-Sattra's Harbor District"
     related: [Factors' Row, Rift, Ganat, Medina Quarter]
     location_features:
