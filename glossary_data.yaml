@@ -5515,23 +5515,22 @@ entries:
   # ═══ Mor Band ═══
   Mor Band:
     category: organization
-    short: "Highland pastoral band—~1,100 Uliqs, lost territory to the Kelar, now sells them milk at fair prices."
+    short: Highland pastoral band—eleven hundred Uliqs who lost territory to the Kelar, now sustaining themselves by supplying the winners.
     details: |
-      Roughly 250 families ranging territory significantly reduced from pre-revolutionary
-      holdings. Lost the best summer meadows, most reliable water sources, sheltered
-      valleys where winter survival was easiest. What remains is marginal even by
-      highland standards.
+      Roughly two hundred fifty families ranging territory significantly reduced from
+      pre-revolutionary holdings. Lost the best summer meadows, most reliable water
+      sources, sheltered valleys where winter survival was easiest. What remains is
+      marginal even by highland standards.
 
       They sell milk to the Kelar at fair prices—their primary cash income. The irony
       is apparent to everyone and discussed by no one: the band that lost the revolution
       now sustains itself by supplying the band that won. Through the Highland Graziers'
-      Association, they hold the confederation's Senate seat via Yela Mor.
+      Association, they hold the confederation's Senate seat.
 
-      The revolution: Supported the Sultana because continuity served their interests.
-      They'd spent a generation expanding into Kelar territory through patient pressure.
-      Republican victory meant territorial restoration for the Kelar, loss for the Mor.
-      They accepted the settlement because resistance was impossible—Republican forces
-      controlled High Junction, the Kelar had Guard connections.
+      Supported the Sultana because continuity served their interests. They'd spent a
+      generation expanding into Kelar territory through patient pressure. Republican
+      victory meant territorial restoration for the Kelar, loss for the Mor. They
+      accepted the settlement because resistance was impossible.
     rag_pointer: "The Republic of Ganat"
     related: [Southern Highland Bands, Highland Graziers' Association, Yela Mor, Kelar Band, Uliq]
     caste_features:
