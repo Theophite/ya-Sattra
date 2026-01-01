@@ -10084,13 +10084,19 @@ entries:
   # ═══ Szürkevíz ═══
   Szürkevíz:
     category: location
-    short: "Grey Water—nine caste-villages on defensive hills, waypoint to Asovoë."
+    short: Grey Water—nine villages that pay no tribute because extraction costs more than it yields.
     details: |
-      ~4,000 across nine villages (300 Völërath, rest Szkovërin and Draëthen). Refugees 
-      from ya-Tsovez settled here 10,000 years ago. Hills where Akama destriers cannot 
-      operate—no tribute because extraction costs more than it yields. Sort autofactory 
-      junk, process scrap via mercury amalgamation. Ships bound for Asovoë winter here; 
-      first-arrival and last-departure premiums. Villages compete bitterly for harbor access.
+      Four thousand people across nine villages on defensive hills. Refugees from
+      ya-Tsovez settled here ten thousand years ago, choosing terrain where
+      Akama destriers cannot operate. The hills make them free—no tribute because
+      extraction costs exceed yields. Three hundred Völërath, the rest Szkovërin
+      and Draëthen.
+
+      The work is sorting autofactory junk, processing scrap through mercury
+      amalgamation. Ships bound for Asovoë winter here; those with harbor access
+      earn first-arrival and last-departure premiums. The villages compete
+      bitterly for that access. Nine settlements, nine rivalries, and no outside
+      power strong enough to arbitrate disputes.
     rag_pointer: The Volerath of Puget Sound
     related: [Ködhegy, Asovoë, Völërath, Szkovërin, Draëthen, San Juan Factorias]
     location_features:
