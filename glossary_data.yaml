@@ -14507,12 +14507,17 @@ entries:
   # ═══ Provisional Committee ═══
   Provisional Committee:
     category: organization
-    short: "Three-generation membership club where Aureate families negotiate without formal acknowledgment."
+    short: Three-generation membership club—Aureate families negotiate without formal acknowledgment.
     details: |
-      Meets in "temporary" structure standing 800 years in Provisional Square. Marriages 
-      suggested, alliances proposed, feuds settled over wines costing more than buildings. 
-      Steward Kem has managed it 22 years, knows which families feud, which heirs seek 
-      marriages, which patriarchs have secret illnesses.
+      Meets in a "temporary" structure that has stood eight hundred years in
+      Provisional Square. The building was never meant to last. The
+      committee was never meant to be permanent. Both persist because no one
+      has bothered to replace them.
+
+      Marriages suggested, alliances proposed, feuds settled over wines
+      costing more than buildings. The steward knows which families feud,
+      which heirs seek marriages, which patriarchs have secret illnesses.
+      Nothing said here is official. Everything said here matters.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, Provisional Square, Aureate]
   # ─── end Provisional Committee ───
