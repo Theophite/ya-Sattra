@@ -16482,13 +16482,18 @@ entries:
   # ═══ Dawn Party ═══
   Dawn Party:
     category: organization
-    short: "Ganati revolutionary faction advocating frontier expansion and ideological transformation."
+    short: Ganati revolutionary faction advocating frontier expansion and ideological transformation.
     details: |
-      Holds that the shapes overhead prove better worlds existed—duty is building 
-      toward them again through action, not guilt. Advocates expansion into Thousand 
-      Kingdoms, industrial development, reduced dependence on Imperial trade. Dawn 
-      Consul Rasma Dhal-Setil leads despite compound surname indicating old merchant 
-      family background (tension with revolutionary identity).
+      Holds that the shapes overhead prove better worlds existed—duty is
+      building toward them again through action, not guilt. Advocates
+      expansion into the Thousand Kingdoms, industrial development, reduced
+      dependence on Imperial trade.
+
+      The Dawn Party attracts idealists and opportunists alike. Some
+      believe in the revolutionary project. Others see advantage in its
+      momentum. The party tolerates this ambiguity—growth matters more than
+      purity. Better worlds existed once. The Dawn Party insists they can
+      exist again.
     rag_pointer: "The Republic of Ganat"
     related: [Ganat, Dusk Party, Rasma Dhal-Setil]
   # ─── end Dawn Party ───
