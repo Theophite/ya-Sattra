@@ -9169,12 +9169,17 @@ entries:
   # ═══ Penthouse Block ═══
   Penthouse Block:
     category: location
-    short: "Ridge's affluent zone—infrastructure families and successful craftspeople."
+    short: Ridge's affluent zone—highest, cleanest, most maintained space in the Rotten Quarter.
     details: |
-      Tiers 573-600. Separated from main Ridge by tidal canal, accessed via Penthouse 
-      Span rope bridge. Houses Val, Marzen, and Galen families plus senior Pipefitters 
-      and successful Arcade craftspeople. Communal garden provides food and decoration. 
-      Cho gondola arrives from Lantern-Heaps. Yen Tam restaurant serves ya-Tsatsan cuisine.
+      Separated from the main Ridge by tidal canal, accessed via Penthouse Span
+      rope bridge. Infrastructure family compounds where those who control water
+      and power live. Senior Pipefitters and successful Arcade craftspeople.
+      Communal garden with real greenery in rotated chambers.
+
+      Still rotated—floors are walls, orb-fixtures glow from wrong surfaces—but
+      adapted with generations of care. The Cho gondola terminates here, lifeline
+      to the Middens below. Highest, cleanest, most maintained space in the entire
+      Rotten Quarter.
     rag_pointer: "The Ridge: Comprehensive Summary"
     related: [Ridge, Val Family, Marzen Family, Galen Family, Cho]
     location_features:
