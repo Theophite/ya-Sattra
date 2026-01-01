@@ -8562,12 +8562,20 @@ entries:
   # ═══ Old Town ═══
   Old Town:
     category: location
-    short: "Original settlement on High Junction's east bank."
+    short: Original settlement on High Junction's east bank—adobe domes rising above underground chambers.
     details: |
-      Protected from flooding by natural terraces 15-20 feet above river level. Inherited 
-      Sultanate-era infrastructure. Adobe domes with underground chambers, now electrified. 
-      Houses garrison headquarters, Hereditary Debtor bureaucratic complex, Saint Arsakh 
-      parish, Dhal-Setil compound, and the residential core of pre-revolution families.
+      Protected from flooding by natural terraces fifteen to twenty feet above
+      river level. Sultanate-era infrastructure still visible: adobe domes with
+      underground chambers, smooth ochre-cream exteriors broken by organic doorways
+      with copper cladding. Now electrified, amber light glowing through windows
+      designed for oil lamps.
+
+      Houses the garrison headquarters, the Hereditary Debtor bureaucratic complex,
+      Saint Arsakh parish, the Dhal-Setil compound, and the residential core of
+      pre-revolution families. Every surface accretes wheatpaste posters—political
+      advocacy layered over commercial announcement, newer covering older, creating
+      visible stratigraphy of the city's arguments. Copper wire threads between
+      buildings older than the Revolution.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [High Junction, Dhal-Setil, Saint Arsakh]
     location_features:
