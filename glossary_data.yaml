@@ -10565,21 +10565,20 @@ entries:
   # ═══ The Slab ═══
   The Slab:
     category: location
-    short: Vast autofactory plaza where the Junta of Ogon meets monthly.
+    short: Autofactory plaza—public theater as much as governance.
     details: |
-      Perfectly flat concrete, two hundred meters square, extruded by the autofactory
-      centuries ago. Shows no weathering despite exposure—materials far more durable
-      than post-Interdict production. Located in Ogon's center, accessible from all
-      districts, clear sight lines making ambush difficult.
+      Perfectly flat concrete, two hundred meters square, extruded by the
+      autofactory centuries ago. Shows no weathering despite exposure—materials
+      far more durable than post-Interdict production. Central location, clear
+      sight lines making ambush difficult.
 
-      Monthly gatherings: each token-holder arrives with retinue (dozens to hundreds
-      of warriors). Seven members stand in rough circle, thirty feet apart, retinues
-      creating sectored wedges behind them. Public theater as much as governance—
-      hundreds of Ogon residents watch from plaza edges.
-
-      Voting is public: raised tokens for yes, lowered for no. Votes can be challenged
-      through combat (rare—perhaps once per decade). Last challenge: Khan-Ascendant
-      Kelom Ten Jade fighting three warbands for six hours. She lost.
+      Monthly the Junta gathers. Each token-holder arrives with retinue—dozens to
+      hundreds of warriors. Seven members stand in rough circle, thirty feet
+      apart, retinues creating sectored wedges behind them. Hundreds of residents
+      watch from plaza edges. Voting is public: raised tokens for yes, lowered
+      for no. Votes can be challenged through combat—rare, perhaps once per
+      decade, but such challenges can last hours before resolution. Public
+      theater as much as governance.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Junta of Ogon, Ogon]
     location_features:
