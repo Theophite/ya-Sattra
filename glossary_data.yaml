@@ -6440,8 +6440,16 @@ entries:
   # ═══ Kolaëvin ═══
   Kolaëvin:
     category: location
-    short: Warehouse precinct controlling food storage in Asovoë.
-    details: Absolutist governance under Patriarch Teszvorath (117 years surviving internal politics). Controls when food enters storage. Internal succession violent but hidden.
+    short: Warehouse precinct controlling food storage in Asovoë—whoever controls when food enters storage controls the city.
+    details: |
+      Vast autofactory storage halls at wrong scale—spaces built for processes no one
+      remembers, now housing preserved food. Climate control systems running for millennia.
+      Frost-white storage areas, void-black structures. Avouvar quarters tucked into
+      corners of refrigerated halls.
+
+      Absolutist governance under a patriarch who has survived internal politics for over
+      a century. Internal succession violent but hidden. Everyone outside the precinct
+      depends on what's inside. Everyone inside depends on the patriarch's continued favor.
     rag_pointer: Asovoë and the Avouvar
     related: [Asovoë, Czernaël]
     location_features:
