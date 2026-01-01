@@ -15279,19 +15279,19 @@ entries:
   # ═══ Five Highborn Crisis ═══
   Five Highborn Crisis:
     category: event
-    short: "Five Compulsion-wielding Highborn held Junta tokens simultaneously—the Tamas assassinated three before they could speak."
+    short: Five Compulsion-wielding Highborn held Junta tokens simultaneously—the Tama family assassinated three before they could speak.
     details: |
-      Around 956 RRH, five functional Highborn members held Ogon Junta tokens
-      simultaneously. Their Compulsion abilities created existential threat—any
-      coordinated command could have enslaved the entire city. The crisis lasted
-      less than a week.
+      Five functional Highborn members held Ogon Junta tokens simultaneously.
+      Their Compulsion abilities created existential threat—any coordinated
+      command could have enslaved the entire city. The crisis lasted less
+      than a week.
 
-      The Tama family spent generational wealth to coordinate assassination of
-      three Highborn before they could defend themselves through speech. Silent
-      killers, deaf warband members, attacks during sleep. The remaining two
-      Highborn fled or were neutralized. The crisis established the principle
-      that the Tamas would eliminate any Highborn who acquired a token—a threat
-      they maintain through their deaf warband to this day.
+      The Tama family spent generational wealth to coordinate assassination
+      of three Highborn before they could defend themselves through speech.
+      Silent killers, deaf warband members, attacks during sleep. The
+      remaining two Highborn fled or were neutralized. The crisis established
+      the principle that the Tamas would eliminate any Highborn who acquired
+      a token—a threat they maintain through their deaf warband.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Ogon, Junta of Ogon, Highborn, Compulsion, Som es-Vol]
     event_features:
