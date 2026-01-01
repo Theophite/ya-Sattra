@@ -16160,13 +16160,19 @@ entries:
   # ═══ Patent ═══
   Patent:
     category: concept
-    short: "Self-enforcing encrypted authentication keys embedded in Imperial infrastructure—not legal documents but physical law."
+    short: Self-enforcing encrypted authentication keys embedded in Imperial infrastructure—not legal documents but physical law.
     details: |
-      Four categories: Ritual (physical sequences with crystalline keys), Passive 
-      (automatic fee extraction), Biological (control of survival supplements), 
-      Procedural (document authentication creating bottlenecks). System is self-enforcing—
-      unauthorized use simply fails to function. Creates technological stagnation: 
-      innovation threatens existing patents, so Aureates actively suppress development.
+      Four categories: Ritual patents require physical sequences with
+      crystalline keys. Passive patents extract fees automatically.
+      Biological patents control survival supplements. Procedural patents
+      create authentication bottlenecks for document processing.
+
+      The system is self-enforcing—unauthorized use simply fails to
+      function. No court, no appeal, no workaround. The door does not open.
+      The medicine does not work. This creates technological stagnation:
+      innovation threatens existing patents, so Aureate families actively
+      suppress development. The infrastructure works because they hold the
+      keys. The infrastructure stagnates because nobody else can improve it.
     rag_pointer: "The Aureate System"
     related: [Aureate, First Whorl, es-Tsay, Lector]
   # ─── end Patent ───
