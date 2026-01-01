@@ -13597,8 +13597,17 @@ entries:
   # ═══ Chain-Men ═══
   Chain-Men:
     category: organization
-    short: Hanged Men enforcement crew, primarily Ironbone Warborn.
-    details: Terminal Warborn variant approaching 3 meters, bone plates covering face/body. Chosen violence, not compelled by biology. Pure enforcement without service provision rationale.
+    short: Hanged Men enforcement crew—Ironbone Warborn who chose this, not compelled by biology.
+    details: |
+      Terminal Warborn variant approaching three meters, bone plates covering
+      face and body. When the Chain-Men arrive, negotiation has ended. When the
+      Chain-Men speak, words have failed. Pure enforcement without service
+      provision rationale—the Hanged Men offer protection and connections to
+      those who pay, but the Chain-Men are what happens when someone doesn't.
+
+      They chose violence. Their biology shaped them for it, but the choice was
+      theirs. Within the Hanged Men structure, they are the final argument. No
+      one who has seen them work wants to see them work again.
     rag_pointer: The Hanged Men
     related: [Ironbone Warborn, Hanged Men]
   # ─── end Chain-Men ───
