@@ -6061,12 +6061,16 @@ entries:
   # ═══ Quarantine Shed ═══
   Quarantine Shed:
     category: location
-    short: "Bureau of the Lens inspection station at the Archive Gate."
+    short: Bureau of the Lens inspection station at the Archive Gate—the boundary between legitimate and illegitimate commerce.
     details: |
-      Where inspectors examine suspicious salvage before allowing it into Medina Quarter's 
-      regulated markets. Inspector Drell Cassin and staff examine materials for patent 
-      violations, radiation contamination, and prohibited archaeotech. The boundary 
-      between legitimate and illegitimate commerce.
+      Corrugated walls, decontamination pads, radiation detectors, inspection tables
+      under harsh lighting. Bureau stamps and forms impose imperial order on industrial
+      chaos. Clean enough to work in, dirty enough to belong to the Yards.
+
+      Inspectors examine salvage for patent violations, radiation contamination, and
+      prohibited archaeotech. What passes through becomes legitimate commerce. What
+      doesn't goes back to the gray markets or finds other routes. Everyone knows the
+      rates for expedited processing.
     rag_pointer: The Iron Yards
     related: [Archive Gate, Iron Yards, Bureau of the Lens, Medina Quarter]
     location_features:
