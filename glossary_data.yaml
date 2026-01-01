@@ -17446,18 +17446,16 @@ entries:
   # ═══ Journeyman Thess Morain ═══
   Journeyman Thess Morain:
     category: person
-    short: "Precision components craftsman—'should have made master a decade ago; politics.'"
+    short: Precision components craftsman—should have made master a decade ago, but politics blocked his advancement.
     person_location: ya-Sattra
     details: |
-      LOCATION: Seventh Terrace, ya-Sattra—a cramped workshop overlooking the 
-      pneumatic hub, rented from a minor Aureate family.
-      
-      PRODUCTS: Rifle sights (adjustable windage), trigger assemblies, barrel linings 
-      (extends service life).
-      
-      CHARACTER: Works alone—no apprentices, no assistants. His sights are worth their 
-      weight in silver. Should have made master a decade ago, but guild politics 
-      blocked his advancement. Doesn't talk about it.
+      Seventh Terrace, ya-Sattra—a cramped workshop overlooking the
+      pneumatic hub, rented from a minor Aureate family. Produces rifle
+      sights with adjustable windage, trigger assemblies, barrel linings
+      that extend service life. Works alone—no apprentices, no
+      assistants. His sights are worth their weight in silver. Should
+      have made master a decade ago, but guild politics blocked his
+      advancement. Does not talk about it.
     related: [Armorers' Guild, Master Kavek Ossoreth, Seventh Terrace]
   # ─── end Journeyman Thess Morain ───
 
