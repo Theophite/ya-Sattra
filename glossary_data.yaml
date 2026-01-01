@@ -16299,16 +16299,19 @@ entries:
   # ═══ Record of the Red Hawk ═══
   Record of the Red Hawk:
     category: event
-    short: "Current Record—year 981, encompassing the Malpais War, City-of-Glass Charter, and Ganati Revolution."
+    short: Current Record—year nine hundred eighty-one, encompassing the Malpais War, City-of-Glass Charter, and Ganati Revolution.
     details: |
-      The most recent unclassified Record, currently in its 981st year. The
-      "Red Hawk" that names this era may refer to a specific astronomical
-      configuration, though the original significance is debated.
+      The most recent unclassified Record, currently in its nine hundred
+      eighty-first year. The "Red Hawk" that names this era may refer to a
+      specific astronomical configuration, though the original significance
+      is debated.
 
-      Key events within this Record: Malpais War and City-of-Glass Charter
-      (772), Ogon Token Emergence (~911), Five Highborn Crisis (~956),
-      Yarangar War (~958-962), Decapitation Strike and Ganati Revolution (963),
-      Constitutional Settlement (963-967), Khalim Charter (965).
+      Key events within this Record: the Malpais War and City-of-Glass
+      Charter, the Ogon Token Emergence, the Five Highborn Crisis, the
+      Yarangar War, the Decapitation Strike and Ganati Revolution, the
+      Constitutional Settlement. This is history that people remember.
+      Grandparents tell grandchildren about the war. The old Records are
+      archaeology. The Red Hawk is lived experience.
     rag_pointer: "The Aureate System"
     related: [Records, Aureate, Malpais War, City-of-Glass Charter, Decapitation Strike, Constitutional Settlement]
     event_features:
