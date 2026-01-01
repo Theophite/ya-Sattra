@@ -4527,8 +4527,19 @@ entries:
   # ═══ Fourth Whorl ═══
   Fourth Whorl:
     category: location
-    short: Outermost inhabited ring of the Inner City.
-    details: Where near-baseline clerks and workers live. Bronze columns, awnings in ochre and ecru, the Terrace market. Light from orb-fixtures in distant ceiling.
+    short: Outermost inhabited ring of the Inner City—where ordinary people live in extraordinary architecture.
+    details: |
+      Bronze columns forty feet tall, geometric patterns worn smooth by millennia of
+      footsteps. Awnings in ochre and ecru add human scale to inhuman architecture.
+      The Terrace market fills allocated spaces with ordinary commerce. Light from
+      orb-fixtures in the distant ceiling, warm golden glow replacing the sky nobody
+      here has ever seen.
+
+      Near-baseline clerks and laborers make their lives here. Temporal effects are
+      minimal—whorl-lag noticeable only over long periods. The most "normal" part of
+      the Inner City, which means living in monumental public architecture adapted
+      for private existence. Sky-bridges cross high above. The floor is worn into
+      paths that have existed for generations.
     rag_pointer: The Inner City
     related: [Inner City, ya-Sattra]
     location_features:
