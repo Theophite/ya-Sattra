@@ -15397,23 +15397,19 @@ entries:
   # ═══ Imek Stone-Foot ═══
   Imek Stone-Foot:
     category: person
-    short: "Junta lucky survivor—former executioner, now accumulating technical capabilities including the Avouvar coil-winder monopoly."
+    short: Junta lucky survivor—former executioner, now accumulating technical capabilities including the Avouvar coil-winder monopoly.
     person_location: Ogon
     details: |
-      Age 31. Eastern districts (Thavek). Took token through circumstance 5 years ago when 
-      employer died and she claimed his belongings. Was executioner for minor Khan. 
-      Mixed asymmetric genetics—one massive arm, mismatched legs, unusual strength 
-      distribution. Warband (~300) consists of survivors who attached to someone 
-      whose luck seemed to be holding. Learning literacy and governance from Vey's 
-      Kma-Dhol advisors. In relationship with Iron-Rain; they're pursuing genetic 
-      interventions to produce an heir.
-      
-      TECHNICAL CAPABILITIES: Purchased Avouvar coil-winder—first Akama-repairable 
-      electromagnetic weapons. Revolutionary development: before her purchase, Akama 
-      electromagnetic weapons required Avouvar or Imperial technicians for repair. 
-      Now the Thousand Kingdoms can maintain their own rail weapons. Also maintains 
-      Mutterer choir, accumulating archaeotech. Produces light rail carbines 
-      (Imek-pattern), portable capacitor packs, coil assemblies for weapon repair.
+      Thirty-one years old. Eastern districts. Took token through circumstance
+      five years ago when employer died and she claimed his belongings. Was
+      executioner for minor Khan. Mixed asymmetric genetics—one massive arm,
+      mismatched legs, unusual strength distribution.
+
+      Warband of about three hundred consists of survivors who attached to
+      someone whose luck seemed to be holding. Learning literacy and
+      governance from Kma-Dhol advisors. Purchased Avouvar coil-winder—first
+      Akama-repairable electromagnetic weapons. Now the Thousand Kingdoms
+      can maintain their own rail weapons. Her luck has not stopped holding.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Warband, Junta of Ogon, Ogon, Iron-Rain, Vey Nine Birds, Culverin, Avouvar]
   # ─── end Imek Stone-Foot ───
