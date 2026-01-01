@@ -11217,20 +11217,21 @@ entries:
   # ═══ Three Cradles ═══
   Three Cradles:
     category: location
-    short: Vast craters (~100m across) where the Third, Fifth, and Seventh Oracles achieved consciousness.
+    short: Vast craters where three Oracles achieved consciousness—pilgrims report phenomena.
     details: |
-      The craters' depths are irregular, their edges worn smooth by centuries of pilgrims.
-      Surprisingly small chapels stand at each rim—bronze and stone, geometric patterns,
-      no ornamentation beyond the geometry itself.
+      Irregular craters one hundred meters across, edges worn smooth by centuries
+      of pilgrimage. Surprisingly small chapels stand at each rim—bronze and
+      stone, geometric patterns, no ornamentation beyond the geometry itself.
 
-      The First Cradle (Third Oracle) is most accessible, rim worn smooth by endless
-      pilgrimage. Caretaker Dho-Tam lights incense when visitors seem to want it.
-      The Second Cradle (Fifth Oracle) is where Mutterer processions begin twice yearly.
-      The Third Cradle (Seventh Oracle) is where the Threefold Mirror Academy is built,
-      structures descending from rim into the crater depths.
+      The First Cradle is most accessible, its rim worn smooth by endless
+      pilgrimage. A caretaker lights incense when visitors seem to want it. The
+      Second Cradle is where Mutterer processions begin twice yearly. The Third
+      Cradle descends into the Threefold Mirror Academy, structures built from
+      rim into crater depths.
 
-      Pilgrims report phenomena: balls falling upward in certain spots, absolute silence
-      where there should be crowds, low subsonic vibration felt more than heard.
+      Pilgrims report phenomena: balls falling upward in certain spots, absolute
+      silence where there should be crowds, low subsonic vibration felt more
+      than heard. What emerged from these craters changed everything.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [ya-Tsatsa, Oracles, Threefold Mirror Academy, Mutterers]
     location_features:
