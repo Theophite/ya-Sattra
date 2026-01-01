@@ -13458,19 +13458,20 @@ entries:
   # ═══ Constitutional Settlement ═══
   Constitutional Settlement:
     category: event
-    short: "Four-year negotiation transforming the Sultanate's advisory body into the Republic's sovereign Senate."
+    short: Four years of negotiation—every faction had leverage and none could dominate.
     details: |
-      Following the Decapitation Strike, military commanders, merchant houses, and
-      veteran kilits negotiated the Republic's constitutional structure. The process
-      took four years (963-967) because every faction had leverage and none could
-      dominate. Military forces controlled territory but needed commercial financing.
-      Merchants controlled capital but needed military protection. Veterans demanded
-      representation their numbers warranted.
+      Following the Decapitation Strike, military commanders, merchant houses,
+      and veteran kilits negotiated the Republic's constitutional structure.
+      Military forces controlled territory but needed commercial financing.
+      Merchants controlled capital but needed military protection. Veterans
+      demanded representation their numbers warranted. No faction could impose
+      terms. All factions could block terms.
 
-      The settlement established: universal kilit representation in the Senate,
-      consular dyarchy with faction-based selection, sixty-percent supermajority for
-      major legislation, and the factional balance that defines Ganati politics.
-      The kilit-zem-kilitam became the Senate. The Sultanate became the Republic.
+      What emerged was designed by stalemate: universal kilit representation,
+      consular dyarchy with faction-based selection, sixty-percent supermajority
+      for major legislation. The kilit-zem-kilitam became the Senate. The
+      Sultanate became the Republic. The factions became Dawn and Dusk. The
+      balance has held ever since.
     rag_pointer: "The Republic of Ganat"
     related: [Ganat, Senate, Kilit, Dawn Party, Dusk Party, Decapitation Strike]
     event_features:
