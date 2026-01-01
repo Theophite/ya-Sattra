@@ -17254,36 +17254,41 @@ entries:
   # ═══ Gouge ═══
   Gouge:
     category: concept
-    short: "Akama cavalry weapon—sickle-curved blade on long handle for striking down during destrier's descent."
+    short: Akama cavalry weapon—sickle-curved blade on long handle for striking down during a destrier's descent.
     details: |
-      The signature weapon of destrier cavalry. Shaped like a sickle on a long handle, but 
-      instead of completing the crescent, the curve terminates in a point. The point leads, 
-      striking first on the descent.
-      
-      GEOMETRY: Point enters target, then the curve follows through. Both outer edges are 
-      sharpened, so as you drop and the point buries, the widening blade carves outward 
-      through whatever you've hit. The curve routes around bone and armor rather than 
-      catching on it. Opens the wound as it passes. Heavy enough that the descent does 
-      the work—you aim the point and let gravity and the destrier's drop handle the rest.
-      
-      TACTICS: Destriers pick at the edges of formations rather than charging into them. 
-      The gouge hooks soldiers from the periphery, catches on shields and armor, drags 
-      men out of position. During the destrier's leap, you're briefly three meters above 
-      your enemy; the gouge's reach and curve let you strike downward and pull. The 
-      momentum of the destrier does the rest.
-      
-      COMBAT ARC: Coming in at a shallow arc—twenty degrees off horizontal—there's a 
-      window where you're above someone. The gouge reaches down past the destrier's 
-      shoulder, below its trajectory. Point first, angled toward the ground. Your target 
-      is under you as you pass. The curve doesn't fight your forward momentum, it uses it.
-      
-      AESTHETICS: Looks agricultural—like a harvest tool handed to something terrible. 
-      Maybe intentional (Akama aesthetics), maybe evolved from what worked. Gouges tell 
-      stories through notched edges and replaced hafts.
-      
-      MANUFACTURERS: Dzoragh Ironhand (traditional, distinctive blood-channel fuller), 
-      Vurda Eleven-Sage Blade-Works (legendary master quality, months-long wait, heirloom 
-      pieces), village smiths (adequate for most cavalry work).
+      The signature weapon of destrier cavalry. Shaped like a sickle on
+      a long handle, but instead of completing the crescent, the curve
+      terminates in a point. The point leads, striking first on descent.
+
+      Point enters target, then the curve follows through. Both outer
+      edges are sharpened, so as the rider drops and the point buries,
+      the widening blade carves outward through whatever is hit. The
+      curve routes around bone and armor rather than catching on it.
+      Opens the wound as it passes. Heavy enough that the descent does
+      the work—aim the point and let gravity and the destrier's drop
+      handle the rest.
+
+      Destriers pick at the edges of formations rather than charging
+      into them. The gouge hooks soldiers from the periphery, catches
+      on shields and armor, drags men out of position. During the
+      destrier's leap, the rider is briefly three meters above the
+      enemy; the gouge's reach and curve allow striking downward and
+      pulling. The momentum of the destrier does the rest.
+
+      Coming in at a shallow arc—twenty degrees off horizontal—there
+      is a window where the rider is above the target. The gouge
+      reaches down past the destrier's shoulder, below its trajectory.
+      Point first, angled toward the ground. The target is below as
+      the rider passes. The curve does not fight forward momentum; it
+      uses it.
+
+      It looks agricultural—like a harvest tool handed to something
+      terrible. Maybe intentional, maybe evolved from what worked.
+      Gouges tell stories through notched edges and replaced hafts.
+      Traditional smiths forge distinctive blood-channel fullers;
+      legendary masters produce heirloom pieces with months-long waits;
+      village smiths make adequate work for most cavalry. The gouge is
+      inherited, not purchased.
     rag_pointer: "The Thousand Kingdoms: Overview, Guide - Military Conflict and Violence"
     related: [Weapon, Destrier, Akama, Thousand Kingdoms, Warband]
   # ─── end Gouge ───
