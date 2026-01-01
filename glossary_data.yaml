@@ -17478,15 +17478,18 @@ entries:
   # ═══ Caenis es-Mahoun ═══
   Caenis es-Mahoun:
     category: person
-    short: "Highborn (Elongated) landholder—eight feet tall, fragile bones, manages wine estates through intermediaries."
+    short: Highborn (Elongated) landholder—eight feet tall, fragile bones, manages wine estates through intermediaries.
     person_location: ya-Sattra
     details: |
-      Age 43. Landholder in the hill country east of ya-Sattra. Cadet branch of the 
-      Coin lineage. Eight feet tall with extra-length fingers and a neck like a fluted column. 
-      Weighs perhaps 170 pounds—bones optimized for length, not density. Broke her arm last 
-      year stepping wrong; fracture took months to heal. Wears silver filigree headpiece that 
-      may be structural support. Uses Compulsion perhaps twice yearly, always formally. Watched 
-      her grandmother destroy a servant's mind through careless overuse; never forgot.
+      Forty-three years old. Landholder in the hill country east of
+      ya-Sattra. Cadet branch of the Coin lineage. Eight feet tall with
+      extra-length fingers and a neck like a fluted column. Weighs
+      perhaps one hundred seventy pounds—bones optimized for length,
+      not density. Broke her arm last year stepping wrong; fracture
+      took months to heal. Wears silver filigree headpiece that may be
+      structural support. Uses Compulsion perhaps twice yearly, always
+      formally. Watched her grandmother destroy a servant's mind through
+      careless overuse; never forgot.
     rag_pointer: "Caste Type Specimens Catalog"
     related: [Highborn, Compulsion, Coin]
   # ─── end Caenis es-Mahoun ───
