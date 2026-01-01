@@ -3068,13 +3068,25 @@ entries:
   # ═══ es-Morath Arcology ═══
   es-Morath Arcology:
     category: location
-    short: "Sealed stone egg at the Quarter's edge—neural preservation family who can no longer survive outside."
+    short: Sealed stone egg half-buried at the Quarter's edge—no windows, no doors, occupants who can no longer survive outside air.
     details: |
-      Massive stone egg half-buried in ground at the Quarter's northern edge. No windows, no 
-      visible doors. Smooth grey substrate absorbs light, appearing as shadow even at noon. 
-      Pipes carry atmospheric mixtures in and waste out. The arcology hasn't opened to outside 
-      air in four hundred years. The es-Morath have modified themselves to embody their patent; 
-      their bodies produce neural preservation enzymes. They cannot survive outside.
+      Massive stone egg at the Quarter's northern edge, half-buried in
+      ground. No windows. No visible doors. Smooth grey substrate absorbs
+      light, appearing as shadow even at noon. Pipes emerge at the base,
+      carrying atmospheric mixtures in and waste out. The arcology hasn't
+      opened to outside air in four hundred years.
+
+      The family inside modified themselves to embody their patent. Their
+      bodies produce neural preservation enzymes—the same compounds they
+      license to others for maintaining brain tissue. The modification
+      requires an atmosphere incompatible with baseline respiration. They
+      breathe what would kill anyone else. Outside air would kill them.
+
+      Business conducted through intermediaries. Messages through pipes.
+      Trade through sealed containers. The family maintains the Prismatic
+      Archive as their public face, a collection of pre-Interdict art
+      accessible to those who can pay. The curators there breathe normal
+      air. The patent holders never will again.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, es-Morath]
     location_features:
