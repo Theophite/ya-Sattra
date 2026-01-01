@@ -11671,14 +11671,19 @@ entries:
   # ═══ Hotel District ═══
   Hotel District:
     category: location
-    short: "Seventeen major hotels—ten in Antediluvian bronze structures, seven in Imperial granite."
+    short: Seventeen major hotels—the bronze structures are warm in winter, cool in summer.
     details: |
-      The core of Toh's legitimate economy. Ten hotels use Antediluvian bronze structures 
-      (the Palace Hotel in the Grand Terrace, three operators dividing the Sunset Complex), 
-      seven in Imperial construction. Plus forty smaller inns, boarding houses, private rooms 
-      during peak season. The bronze structures have environmental controls that still function 
-      through unknown mechanisms—warm in winter, cool in summer. Rooms in the Palace book 
-      months in advance for summer Aureates.
+      The core of Toh's legitimate economy. Ten hotels use Antediluvian bronze
+      structures; seven stand in Imperial granite. Plus forty smaller inns,
+      boarding houses, private rooms rented during peak season.
+
+      The bronze structures have environmental controls that still function
+      through unknown mechanisms—warm in winter, cool in summer, lighting from no
+      visible source. Proportions slightly wrong for human comfort, corners that
+      do not quite meet at right angles. Guests sleep in rooms grown from walls,
+      on platforms that were designed for bodies different from their own. The
+      Palace books months in advance for summer Aureates. Comfort achieved
+      through mystery.
     rag_pointer: Index
     related: [Toh, Palace Hotel, Sunset Complex]
     location_features:
