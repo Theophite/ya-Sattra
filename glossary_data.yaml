@@ -15699,12 +15699,15 @@ entries:
   # ═══ Second Testament ═══
   Second Testament:
     category: concept
-    short: "Genetic specifications for the Highborn bloodline—including the Compulsion mechanism."
+    short: Genetic specifications for the Highborn bloodline—including the Compulsion mechanism.
     details: |
-      The Second Oracle provided the genetic architecture that created the Highborn
-      caste and enabled Compulsion—the involuntary obedience response engineered into
-      all other castes. This Testament created the biological foundation for Imperial
-      hierarchy. The Second Auditor still receives this transmission.
+      The Second Oracle provided the genetic architecture that created the
+      Highborn caste and enabled Compulsion—the involuntary obedience
+      response engineered into all other castes. This Testament created the
+      biological foundation for Imperial hierarchy.
+
+      The Second Auditor still receives this transmission. The gift of
+      masters. The gift of chains.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Testaments, Oracles, Highborn, Compulsion, Auditors]
   # ─── end Second Testament ───
