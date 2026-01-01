@@ -7969,13 +7969,18 @@ entries:
   # ═══ Gallows ═══
   Gallows:
     category: location
-    short: "Hanged Men headquarters in the Middens—fifteen stories of rust-stained metal."
+    short: Hanged Men headquarters in the Middens—fifteen stories of rust-stained metal rising from flooded foundations.
     details: |
-      Houses ~200 Hanged Men plus support personnel. Lower floors contain Ygren Fen's 
-      exchange market where protection fees convert to currency. Upper floors house 
-      leadership. The Lockworks facility in basement levels controls water distribution 
-      for the entire district. The building's height allows surveillance of all movement 
-      between tenements.
+      Fifteen stories of rust-stained metal rising from pre-Interdict foundations.
+      The height allows surveillance of all movement between tenements; anyone
+      approaching can be seen long before they arrive. Two hundred Hanged Men
+      plus support personnel. Knotted rope motifs mark every entrance—rust-red
+      paint, teal horizontal bands, copper alloy plates at major doorways.
+
+      Lower floors contain the exchange market where protection fees convert to
+      currency. Upper floors are sealed for leadership. The Lockworks in the
+      flooded basement controls water for the entire district—whoever controls
+      the valves controls the Middens. Water sounds from below, always.
     rag_pointer: The Middens Tenements
     related: [Middens, Hanged Men, Lockworks]
     location_features:
