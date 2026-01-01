@@ -10697,17 +10697,17 @@ entries:
   # ═══ Kessa's ═══
   Kessa's:
     category: location
-    short: "Iron-Rain's bar—where the invulnerable giant drinks with his inner circle."
+    short: Bar serving as de facto headquarters for a warlord who prefers drinking to governance.
     details: |
-      Bar in The Barracks district serving as Iron-Rain's de facto headquarters.
-      Named for its owner. Where the nearly three-meter-tall Ironbone-Warborn
-      hybrid relaxes with his closest warriors. Despite commanding through pure
-      physical dominance, Iron-Rain doesn't particularly like violence—he finds
-      most Junta business tedious and prefers drinking with his people here.
+      Bar in The Barracks district, named for its owner. Serves as informal
+      headquarters for the district's controlling warlord—a nearly three-meter
+      Ironbone-Warborn hybrid who commands through pure physical dominance but
+      finds most Junta business tedious. He prefers drinking with his inner
+      circle to formal assembly.
 
-      His relationship with Imek Stone-Foot and their pursuit of genetic
-      interventions to produce an heir is discussed here among trusted
-      companions. He's obsessed with people who rise above their station
+      This is where decisions affecting hundreds of fighters actually happen.
+      Trusted companions gather here, discussing matters that would be dangerous
+      to air in public. The warlord listens to those who rose above their station
       through effort rather than genetics.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [The Barracks, Iron-Rain, Ogon, Imek Stone-Foot]
