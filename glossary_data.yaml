@@ -15239,17 +15239,17 @@ entries:
   # ═══ Junta of Ogon ═══
   Junta of Ogon:
     category: organization
-    short: "Seven irreplaceable tokens—whoever holds one sits on the Junta, regardless of how they acquired it."
+    short: Seven irreplaceable tokens—whoever holds one sits on the Junta, regardless of how they acquired it.
     details: |
-      Meet monthly at the Slab. Vote by raised or lowered hands. Disputes resolved by
-      trial-by-combat. Tokens trace to original Akama conquerors who took Ogon from
-      ya-Tsovez refugees. Each token-holder controls a bloc of warbands; together they
-      can mobilize perhaps 40,000 fighters. More important: they control salmon allocation
-      from the Grand Canal.
+      Meets monthly at the Slab. Vote by raised or lowered hands. Disputes
+      resolved by trial-by-combat. Tokens trace to original Akama conquerors
+      who took Ogon from ya-Tsovez refugees.
 
-      CURRENT MEMBERS: Som es-Vol (broken Highborn), Tsoka Red Deer (institutionalist),
-      Ataru Blackfish (commercial), Bal Tama (accommodationist), Iron-Rain (Ironbone-Warborn),
-      Imek Stone-Foot (lucky survivor), Vey Nine Birds (Kma-Dhol technical).
+      Each token-holder controls a bloc of warbands; together they can
+      mobilize perhaps forty thousand fighters. More important: they control
+      salmon allocation from the Grand Canal. Membership ranges from broken
+      Highborn to institutionalist warlords to commercial families to
+      technical collectives—anyone who can acquire and hold a token.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Ogon, The Slab, Thousand Kingdoms, Akama, Som es-Vol, Tsoka Red Deer, Ataru Blackfish, Bal Tama, Iron-Rain, Imek Stone-Foot, Vey Nine Birds, Tama Family, Nine Birds Engineering Collective]
   # ─── end Junta of Ogon ───
