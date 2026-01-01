@@ -17139,17 +17139,18 @@ entries:
   # ═══ Taho Metalworkers' Collective ═══
   Taho Metalworkers' Collective:
     category: organization
-    short: "Dawn-aligned syndicalist cooperative producing dragoon equipment and reverse-engineered culverins."
+    short: Dawn-aligned syndicalist cooperative producing dragoon equipment and reverse-engineered culverins.
     details: |
-      LOCATION: Industrial terraces, Taho—former textile mills converted after the 
-      Yarangar War. The looms are gone; the power connections remain.
-      
-      PRODUCTS: Culverin components (seventy percent domestic manufacture), 
-      reverse-engineered rail carbines, charging equipment.
-      
-      CHARACTER: Their reverse-engineered rail weapons don't require Imperial 
-      authentication—the critical breakthrough that gives Ganati dragoons parity 
-      with Imperial forces.
+      Located on the industrial terraces in Taho—former textile mills
+      converted after the Yarangar War. The looms are gone; the power
+      connections remain.
+
+      Produces culverin components at seventy percent domestic manufacture,
+      reverse-engineered rail carbines, charging equipment. Their reverse-
+      engineered rail weapons do not require Imperial authentication—the
+      critical breakthrough that gives Ganati dragoons parity with Imperial
+      forces. They copied what the Empire locked. Now the Republic has its
+      own.
     related: [Ganat, Dawn Party, Culverin, Taho]
   # ─── end Taho Metalworkers' Collective ───
 
