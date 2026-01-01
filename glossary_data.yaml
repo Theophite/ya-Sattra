@@ -13851,32 +13851,32 @@ entries:
   # ═══ Salvage Guild ═══
   Salvage Guild:
     category: organization
-    short: "Empire-wide monopoly controlling all salvage certification and sale—nothing salvaged anywhere can be legally sold without Guild stamps."
+    short: Empire-wide monopoly on salvage certification—nothing salvaged anywhere can be legally sold without Guild stamps.
     details: |
-      Headquarters in the great dome in the Iron Yards; major branches in ya-Don, the Threshing
-      Coast, and every significant port. 147 master memberships at headquarters, fixed by charter,
-      plus licensed factors and certified assessors throughout the Empire. Thousands of contractors
-      operate under master licenses.
+      Headquarters in the great dome of the Iron Yards; major branches in
+      ya-Don, the Threshing Coast, and every significant port. One hundred
+      forty-seven master memberships at headquarters, fixed by charter, plus
+      licensed factors and certified assessors throughout the Empire.
+      Thousands of contractors operate under master licenses.
 
-      Annual revenue perhaps 20-35 million obols, making the Guild one of the wealthiest
-      non-Aureate institutions in the Empire—comparable to a mid-tier Aureate patent family.
-      Revenue sources: auction and transaction fees (18-30%) on all salvage operations Empire-wide
-      (12-20 million obols/year); certification fees mandatory for all exports (3-6 million);
-      training programs, storage fees, and credit interest.
+      The certification monopoly is the Guild's true power. Find valuable
+      archaeotech anywhere in the Empire—it cannot be sold to Imperial buyers
+      without Guild certification. The stamps that make gray market goods
+      into white market goods are Guild property. Frontier factors are Guild
+      employees or licensed contractors. Nothing moves without the Guild's
+      permission.
 
-      The certification monopoly is the Guild's true power. A salvager in Ogon finding valuable
-      archaeotech cannot sell it to Imperial buyers without Guild certification. Frontier factors
-      are Guild employees or licensed contractors. The certification stamps that make gray market
-      goods into white market goods are Guild property.
+      The Guild maintains two sets of ledgers. The White Books satisfy Bureau
+      auditors. The Grey Books record actual transactions including patent
+      violations. Everyone knows. A perpetual lawsuit with Rod families
+      ensures the system continues—both parties benefit from legal ambiguity
+      that neither wants resolved.
 
-      Maintains two sets of ledgers. The "White Books" satisfy Bureau auditors; the "Grey Books"
-      record actual transactions including patent violations. Everyone knows. The perpetual
-      lawsuit with Rod families ensures the system continues—both parties benefit from legal
-      ambiguity that neither wants resolved.
-
-      Charter assumes pre-Interdict conditions and exempts operations from patent enforcement.
-      Auction floor runs three-hour cycles; masters bid through coded hand signals. Controls
-      sales; the Pipefitters control labor.
+      Annual revenue perhaps twenty to thirty-five million obols, comparable
+      to a mid-tier Aureate patent family. The charter assumes pre-Interdict
+      conditions, exempting operations from patent enforcement. Auction floor
+      runs three-hour cycles; masters bid through coded hand signals.
+      Controls sales; the Pipefitters control labor.
     rag_pointer: The Iron Yards
     related: [Guild, Iron Yards, Salvage Dome, Pipefitters Union, Yen Tam Beneficial Society, Bureau of the Rod]
   # ─── end Salvage Guild ───
