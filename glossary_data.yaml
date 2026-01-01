@@ -16858,12 +16858,17 @@ entries:
   # ═══ Surveyor's Congress ═══
   Surveyor's Congress:
     category: organization
-    short: "Land surveying kilit—critical for land grants, 800 members concentrated on frontier."
+    short: Land surveying kilit—critical for land grants, eight hundred members concentrated on the frontier.
     details: |
-      Certifies surveyors in measurement techniques, boundary determination, mapping.
-      Critical profession in republic distributing land grants. Concentrated in frontier
-      regions where new grants require demarcation. Numbers grown steadily as eastern
-      settlement accelerates. Surveying disputes generate significant litigation.
+      Certifies surveyors in measurement techniques, boundary
+      determination, mapping. A critical profession in a republic
+      distributing land grants. Concentrated in frontier regions where new
+      grants require demarcation.
+
+      Numbers have grown steadily as eastern settlement accelerates.
+      Surveying disputes generate significant litigation. Draw the wrong
+      line and someone loses their farm. The surveyors determine who owns
+      what. In a land-grant republic, that makes them essential.
     rag_pointer: "Professional Kilits and Certification"
     related: [Ganat, Kilit, Ministry of Settlement, Dawn Party]
   # ─── end Surveyor's Congress ───
