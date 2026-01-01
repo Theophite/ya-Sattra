@@ -8890,7 +8890,7 @@ entries:
   # ═══ Factor's Row ═══
   Factor's Row:
     category: location
-    short: Imperial enclave in Republican territory—geometric-cut robes and foreign customs, but negotiations happen as equals because anything else won't be tolerated.
+    short: Imperial enclave in Republican territory—half Imperial, half Republican, entirely commercial.
     details: |
       Timber buildings on granite foundations, large doors facing docks.
       Imperial factors arrive when the pass opens, leave before winter,
@@ -8900,14 +8900,11 @@ entries:
 
       But they've adapted. They negotiate with local merchants as equals
       because subordination won't be tolerated here. They accommodate
-      Republican political discussions they'd never permit at home. The
-      commerce requires it. Half Imperial, half Republican, entirely
-      commercial.
-
-      The warehouses are vast—storage for months of goods that cross the
-      mountains when the pass opens. Electric lighting blazes from every
-      window, powered by subsidies the factors pay but don't control. An
-      enclave of foreign customs in territory that demands accommodation.
+      political discussions they'd never permit at home. The commerce
+      requires it. The warehouses are vast—storage for months of goods that
+      cross the mountains when the pass opens. Electric lighting blazes
+      from every window, powered by subsidies the factors pay but don't
+      control.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Port District, Taho, Undying Empire]
     location_features:
