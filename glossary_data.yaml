@@ -9868,12 +9868,21 @@ entries:
   # ═══ St. Brennam's Garden ═══
   "St. Brennam's Garden":
     category: location
-    short: "Agricultural districts—rural vernacular where the land shapes the building."
+    short: Agricultural districts—irrigation channels determine everything here.
     details: |
-      ~80,000 residents. Parish of Common-Ground. Where ya-Don's food comes from and 
-      where agricultural workers live. The architecture follows the land rather than 
-      urban patterns—irrigation channels dictate building placement, seasonal rhythms 
-      shape construction schedules.
+      Eighty thousand residents work the land that feeds ya-Don. The Doná River
+      channels spread across the valley floor, and buildings follow the water
+      rather than any street grid. Farmhouses face irrigation ditches. Storage
+      domes echo the Furnace geometry visible across the valley—not conscious
+      imitation, just millennia of building near those shapes until they became
+      natural.
+
+      Life follows seasonal rhythms. Construction happens after harvest, when
+      there is time. Blood-trees line the watercourses, their dark red canopy
+      providing shade for workers during breaks. The Parish of Common-Ground
+      serves a scattered congregation—its bells carry across open fields. The
+      irrigation channels determine everything: where to build, when to work,
+      which fields flourish and which lie fallow.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don]
     location_features:
