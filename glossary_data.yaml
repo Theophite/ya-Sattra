@@ -8597,11 +8597,17 @@ entries:
   # ═══ Garrison Headquarters ═══
   Garrison Headquarters:
     category: location
-    short: "Republican Guard command center in High Junction—converted Sultanate administrative complex."
+    short: Republican Guard command center—Sultanate fortress adapted to Revolutionary use.
     details: |
-      Houses approximately 3,000 active personnel rotating between garrison duty, range patrol, 
-      and training operations. Converted Sultanate administrative complex capable of withstanding 
-      assault. Colonel Ghar commands. Monthly military payroll generates ~150,000 dinars annually 
+      Massive adobe walls two feet thick, small windows at defensive intervals,
+      timber-reinforced gates. Underground chambers extend deep—armory, storage,
+      cool barracks for summer relief. The building could withstand assault, and
+      has, twice, during the Revolution.
+
+      Three thousand active personnel rotating between garrison duty, range patrol,
+      and training operations. Revolutionary banners hang where Sultanate standards
+      once flew. The parade ground doubles as assembly space for political rallies.
+      Monthly military payroll generates one hundred fifty thousand dinars annually,
       circulating through the local economy.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Old Town, High Junction, Republican Guard]
