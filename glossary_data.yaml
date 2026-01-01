@@ -5194,14 +5194,18 @@ entries:
   # ═══ Coppersmith Collective Plaza ═══
   Coppersmith Collective Plaza:
     category: location
-    short: "Third Terrace plaza surrounded by coppersmith workshops—artisan independence on display."
+    short: Third Terrace plaza surrounded by coppersmith workshops—artisan independence made visible.
     details: |
-      150-foot square paved with granite blocks, surrounded by coppersmith workshops. 
-      Artisans work in shops (forge fires visible, continuous hammering, smell of hot metal 
-      and quenching water), display goods in plaza, negotiate with buyers. Some sell locally; 
-      some go to Imperial factors paying premium prices—Ganati copper-craft has reputation 
-      in ya-Sattra. The plaza's streetlights are maintained by the Collective itself, refusing 
-      merchant kilit subsidy as point of artisan independence.
+      One hundred fifty feet square, paved with granite blocks, surrounded by workshops.
+      Forge fires and electric lights make shop interiors visible from the plaza. Continuous
+      hammering creates background noise. Hot metal smell mingles with quenching water.
+      Artisans work in their shops, display finished goods in the plaza, negotiate with
+      buyers.
+
+      Some goods sell locally; some to Imperial factors paying premium prices—Ganati
+      copper-craft has reputation in ya-Sattra. The plaza's streetlights are maintained
+      by the Collective itself, refusing merchant kilit subsidy. Skilled labor maintaining
+      its own infrastructure, demonstrating independence while generating Imperial currency.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Merchant Terraces, Taho]
     location_features:
