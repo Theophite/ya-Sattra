@@ -16580,26 +16580,24 @@ entries:
   # ═══ Ministry of Justice ═══
   Ministry of Justice:
     category: organization
-    short: "Dusk-controlled judiciary—inherited intact from the monarchy, operates in Imperial, structurally antagonistic to Dawn enforcement."
+    short: Dusk-controlled judiciary—inherited intact from the monarchy, operates in Imperial, structurally antagonistic to Dawn enforcement.
     details: |
-      Dusk's institutional fortress. Courts continued operating through the Revolution without
-      transformation—same judges, same principles, same Imperial-language proceedings. The
-      legal profession selects for education and establishment connections, producing a bar
-      that's overwhelmingly tephri and near-baseline, culturally aligned with merchant interests.
+      The Dusk Party's institutional fortress. Courts continued operating
+      through the Revolution without transformation—same judges, same
+      principles, same Imperial-language proceedings. The legal profession
+      selects for education and establishment connections, producing a bar
+      culturally aligned with merchant interests.
 
-      THE STRUCTURAL LOCK: Dawn arrests, Dusk judges. The Republican Guard makes arrests;
-      the courts decide guilt. Neither faction can function without the other. Criminal law
-      becomes faction negotiation—Dawn prosecutors vs. Dusk judges demanding rigorous evidence.
+      Dawn arrests, Dusk judges. The Republican Guard makes arrests; the
+      courts decide guilt. Criminal law becomes faction negotiation—Dawn
+      prosecutors versus Dusk judges demanding rigorous evidence.
       Defendants benefit from their antagonism.
 
-      COMMERCIAL LAW: Dusk's lifeblood. Contract disputes, property claims, trade regulations.
-      Ganati commercial courts have cross-border reputation for competence and honesty that
-      merchants trust. This reputation is worth more than any political advantage. Dawn reform
-      proposals that might compromise it die in committee.
-
-      THE BALANCE: Dusk controls legitimacy (why obey courts); Dawn controls enforcement (how
-      to compel obedience). Neither can break the system without resources they can't spare
-      from competing with each other.
+      Commercial courts have a cross-border reputation for competence and
+      honesty that merchants trust. This reputation is worth more than any
+      political advantage. Dawn controls enforcement. Dusk controls
+      legitimacy. Neither can break the system without resources they
+      cannot spare from competing with each other.
     rag_pointer: "The Republic of Ganat"
     related: [Ganat, Dawn Party, Dusk Party, Republican Guard, Senate]
   # ─── end Ministry of Justice ───
