@@ -4439,26 +4439,22 @@ entries:
   # ═══ Falx ═══
   Falx:
     category: equipment
-    short: Heavy curved blade weapon, standard Warborn close-combat armament.
+    short: Heavy curved blade for close combat—when the fighting closes to arm's length, this is what ends it.
     details: |
-      When culverins and beamcasters aren't enough, when the fighting closes to arm's 
-      length, Warborn carry the falx: a forward-curving blade designed to shear through 
+      When culverins and beamcasters aren't enough, when the fighting closes to arm's
+      length, Warborn carry the falx: a forward-curving blade designed to shear through
       armor and the bodies wearing it.
-      
-      DESIGN: Single-edged blade curving forward, edge on the inner curve. The blade 
-      widens toward the tip, concentrating mass where it impacts. Guard and pommel 
-      carry geometric bronze inlay in Inner City patterns. Leather-wrapped grip sized 
-      for hands twice baseline scale. Not powered—just steel and the strength of a 
-      2.7-meter soldier swinging it.
-      
-      MANUFACTURE: Furnaces production for standard-issue variants. Higher-quality 
-      examples are guild work—Master Kavek Ossoreth's workshop produces perhaps a 
-      dozen ceremonial falxes yearly for officers and house guards.
-      
-      TACTICAL USE: The falx exists for the moments when infantry lines meet, when 
-      doorways must be forced, when something needs to die and precision doesn't 
-      matter. Warborn train in paired culverin-and-falx drills: fire until contact, 
-      then draw and cut. A full-force swing can bisect a baseline human in ceramic armor.
+
+      Single-edged blade curving forward, edge on the inner curve. The blade widens
+      toward the tip, concentrating mass where it impacts. Guard and pommel carry
+      geometric bronze inlay. Leather-wrapped grip sized for hands twice baseline scale.
+      Not powered—just steel and the strength of a 2.7-meter soldier swinging it.
+
+      Standard-issue variants come from the Furnaces; higher-quality ceremonial examples
+      are guild work. The falx exists for the moments when infantry lines meet, when
+      doorways must be forced, when something needs to die and precision doesn't matter.
+      Warborn train in paired culverin-and-falx drills: fire until contact, then draw
+      and cut. A full-force swing can bisect a baseline human in ceramic armor.
     related: [Warborn, Furnaces, Culverin, Beamcaster]
   # ─── end Falx ───
 
