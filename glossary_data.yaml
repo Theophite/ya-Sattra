@@ -5595,22 +5595,21 @@ entries:
   # ═══ Sek Bands ═══
   Sek Bands:
     category: organization
-    short: "Split highland pastoral group—Sek-Oum joined Dawn, Sek proper and Sek-Tal remained Dusk. Eighteen years of bitter estrangement."
+    short: Split highland pastoral group—Sek-Oum joined Dawn, Sek proper and Sek-Tal remained Dusk, eighteen years of estrangement.
     details: |
       Never a single band but a loose confederation—Sek proper, Sek-Tal, and Sek-Oum—
       who shared grazing rights and intermarried freely. The revolution shattered this.
 
-      During the constitutional settlement, the Sek-Oum (~250 people) broke away to
-      join the Eastern Range Confederation (Dawn). Their argument: association with
-      bands that fought for the Sultana would permanently marginalize them. The other
-      Sek groups considered this treachery—they'd shared range for generations, marriages
-      connected every family. The elders refused reconciliation.
+      During the constitutional settlement, the Sek-Oum broke away to join the Eastern
+      Range Confederation. Their argument: association with bands that fought for the
+      Sultana would permanently marginalize them. The other Sek groups considered this
+      treachery—they'd shared range for generations, marriages connected every family.
+      The elders refused reconciliation.
 
       Eighteen years later: Sek-Oum and the others don't intermarry, don't share range,
       don't speak except through intermediaries. Young Sek-Oum serve in the Guard at
       high rates; some marry Kelar spouses; some never return to pastoral life. The
-      Sek proper and Sek-Tal (~550 combined) participate in the Highland Graziers'
-      Association, with elder Ghouram Sek as their voice.
+      Sek proper and Sek-Tal participate in the Highland Graziers' Association.
     rag_pointer: "The Republic of Ganat"
     related: [Southern Highland Bands, Eastern Range Confederation, Highland Graziers' Association, Ghouram Sek, Uliq]
     caste_features:
