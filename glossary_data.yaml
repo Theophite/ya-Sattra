@@ -17554,14 +17554,17 @@ entries:
   # ═══ Tam Orveth ═══
   Tam Orveth:
     category: person
-    short: "Near-baseline joiner's apprentice—ordinary man whose single engineered trait is universal susceptibility to Compulsion."
+    short: Near-baseline joiner's apprentice—ordinary man whose single engineered trait is universal susceptibility to Compulsion.
     person_location: Medina Quarter
     details: |
-      Age 29. Joiner's apprentice in ya-Sattra's Medina Quarter. Five foot eight, brown 
-      skin, dark hair, calloused hands. Nothing marks him as engineered except the neurological 
-      receptors for Compulsion all near-baselines carry. Experienced Compulsion once during a 
-      legal proceeding—still dreams about it. Shows trace markers from intermarriage: grandmother 
-      was half-stevedore. The Creche would classify him as 94% near-baseline if anyone checked.
+      Twenty-nine years old. Joiner's apprentice in ya-Sattra's Medina
+      Quarter. Five foot eight, brown skin, dark hair, calloused hands.
+      Nothing marks him as engineered except the neurological receptors
+      for Compulsion all near-baselines carry. Experienced Compulsion
+      once during a legal proceeding—still dreams about it. Shows trace
+      markers from intermarriage: grandmother was half-stevedore. The
+      Creche would classify him as ninety-four percent near-baseline if
+      anyone checked.
     rag_pointer: "Caste Type Specimens Catalog"
     related: [Near-Baseline, Compulsion, Medina Quarter]
   # ─── end Tam Orveth ───
