@@ -12712,12 +12712,19 @@ entries:
   # ═══ The Gathering Hall ═══
   The Gathering Hall:
     category: location
-    short: "Excavated communal space where the Ductworker community meets weekly."
+    short: A chamber sized for bodies that average four feet tall—the largest space in the warren.
     details: |
-      Low ceilings, narrow entrances, chamber sized for bodies that average four feet tall.
-      Conversations sound strange to outsiders: detailed descriptions of shaft configurations,
-      debates about compression techniques, fond memories of particularly challenging crawls.
-      Approximately 2,000 attendees at major gatherings.
+      Low ceilings, narrow entrances, room for perhaps two thousand at major
+      gatherings. The community meets weekly. Conversations sound strange to
+      outsiders: detailed descriptions of shaft configurations, debates about
+      compression techniques, fond memories of particularly challenging crawls.
+      The humor is incomprehensible. The affection is unmistakable.
+
+      To stand in this space—if standing is even possible for a normal-sized
+      visitor—is to understand that the Ductworkers have built a complete
+      society in spaces the Antediluvians never meant for habitation. They
+      gather here because they can. Because they want to. Because this space is
+      theirs.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Warren-Under-Stone, Ductworker, ya-Don]
     location_features:
