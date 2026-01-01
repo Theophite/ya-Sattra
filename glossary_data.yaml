@@ -14169,13 +14169,20 @@ entries:
   # ═══ Stevedores' Guild ═══
   Stevedores' Guild:
     category: organization
-    short: "Closed guild controlling cargo handling at the Rift docks."
+    short: Closed guild controlling cargo handling at the Rift—membership by birth or marriage only.
     details: |
-      Exclusive charter for loading and unloading at ya-Sattra's harbor. Membership by 
-      birth or marriage into member families only. Ships' crews may not touch cargo once 
-      it crosses dock threshold—Stevedores carry it to warehouse or wagon. Rates fixed by 
-      ancient agreement with Bureau of the Coin, adjusted every seven years. Controls both 
-      Medina and Antediluvian waterfronts.
+      Exclusive charter for loading and unloading at ya-Sattra's harbor.
+      Ships' crews may not touch cargo once it crosses the dock threshold—
+      Stevedores carry it to warehouse or wagon. This is inviolable. The
+      charter says so. Break the threshold rule, the Guild responds
+      collectively.
+
+      Membership by birth or marriage into member families only. The
+      families know each other. The families trust each other. Outsiders do
+      not become Stevedores. Rates fixed by ancient agreement with the
+      Bureau of the Coin, adjusted every seven years. Controls both Medina
+      and Antediluvian waterfronts. Everything that enters the city by sea
+      passes through Stevedore hands first.
     rag_pointer: "The Rift: Ya-Sattra's Harbor District"
     related: [Guild, Rift, Medina Quarter, Bureau of the Coin]
   # ─── end Stevedores' Guild ───
