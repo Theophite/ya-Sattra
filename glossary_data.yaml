@@ -10452,14 +10452,21 @@ entries:
   # ═══ Working-Class Warrens ═══
   Working-Class Warrens:
     category: location
-    short: "Three-dimensional maze of tunnels and chambers carved through sandstone around the Dam."
+    short: Tunnels through sandstone—some residents go weeks without seeing the surface.
     details: |
-      Organic urbanism—workers needed housing near employment, the sandstone could be carved, 
-      power and lighting were free. A typical warren: main tunnel 8 feet high, 6 feet wide, 
-      running 150 feet through sandstone, chambers carved every 20 feet (12x10 feet, home to 
-      families of four or five). Electric bulbs every 10 feet. Tunnels branch, connect, shortcut 
-      between systems. No comprehensive map—expansion happens constantly. Some residents go 
-      weeks without seeing the surface.
+      Organic urbanism: workers needed housing near employment, the sandstone
+      could be carved, power and lighting were free. A typical warren runs one
+      hundred fifty feet through salmon-colored stone, eight feet high and six
+      feet wide. Chambers carved every twenty feet—twelve by ten, home to
+      families of four or five. Electric bulbs every ten feet. Carved shelves,
+      sleeping platforms, ventilation shafts cut to the surface a hundred feet
+      above.
+
+      The warrens connect. Tunnels branch, vertical shafts connect levels,
+      shortcuts carved between previously separate systems. No comprehensive map
+      exists—navigation by landmark. Some residents go weeks without seeing the
+      surface. Children play in corridors. Cooking happens in communal chambers
+      carved larger. The salmon stone glows under constant electric light.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [The Dam, Ganat proper]
     location_features:
