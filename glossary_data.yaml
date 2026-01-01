@@ -4328,25 +4328,21 @@ entries:
   # ═══ Moro ═══
   Moro:
     category: person
-    short: "Khatam road worker—thirty-one, Hereditary Debtor, earns danger premium in eastern territories, Tekhel's complicated partner."
+    short: Khatam road worker—Hereditary Debtor earning danger premium in the eastern territories, trading body for faster debt reduction.
     details: |
-      Thirty-one years old, Khatam of average height and build, boisterous where Tekhel
-      is silent, comfortable in crowds where Tekhel freezes. They've known each other
-      since childhood—two Debtor children in the same education cohort, one Nasif and
-      one Khatam, one quiet and one loud.
+      Khatam of average height and build, boisterous, comfortable in crowds. Childhood
+      friend of Tekhel Dhal-Orin—two Debtor children in the same education cohort, one
+      Nasif and one Khatam, one quiet and one loud.
 
       Works road maintenance in the eastern territories. Physical labor earns debt credits
       faster than clerical work—the danger premium compensates for remote camps, hostile
-      terrain, occasional bandit attacks, the constant physical toll of breaking rock
-      and laying surface in high-altitude cold. Each season in the territories earns
-      what Tekhel's clerking earns in eighteen months.
+      terrain, occasional bandit attacks, the constant toll of breaking rock and laying
+      surface in high-altitude cold. Each season in the territories earns what eighteen
+      months of clerking earns.
 
-      Their relationship has been on and off for eight years, currently on, always
-      complicated. Moro comes back to Ganat between assignments, stays in Tekhel's
-      small apartment in the Debtors' Quarter, fills the space with noise and movement
-      and demands for attention that Tekhel finds exhausting and necessary. Tekhel
-      worries about him. Road crews work dangerous territory. Some crews don't come
-      back complete.
+      Returns to Ganat between assignments, filling the small apartment with noise and
+      movement and demands for attention. Road crews work dangerous territory. Some
+      crews don't come back complete.
     rag_pointer: "Hereditary Debtors"
     related: [Hereditary Debtors, Tekhel Dhal-Orin, Khatam]
     character_features:
