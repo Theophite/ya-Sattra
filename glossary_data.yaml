@@ -7185,16 +7185,19 @@ entries:
   # ═══ Aureate Span ═══
   Aureate Span:
     category: location
-    short: "Bridge serving patent-holders crossing the Rift—Sword checkpoint everyone knows works for the Aureates."
+    short: Bridge serving patent-holders crossing the Rift—bronze railings and covered walkway for those who belong.
     details: |
-      Bronze railings and covered walkway announce the status of those who use it. 
-      Sword Bureau gendarmes staff the checkpoint at the Medina end, checking 
-      documentation and questioning those whose appearance doesn't match their 
-      claimed business. Everyone knows the checkpoint really works for the Aureates—
-      the gendarmes report to estate security, take direction from patent-holders, 
-      and treat the wrong people crossing as a personal affront to residents rather 
-      than a bureaucratic irregularity. Choosing this bridge when you lack standing 
-      invites attention you won't enjoy.
+      Bronze railings and covered walkway protect those who cross from sun and rain.
+      The Rift drops away below, deep enough that the water is invisible in shadows.
+      Sword Bureau gendarmes staff the checkpoint at the Medina end, checking papers
+      with the particular attention of men who know exactly who pays for their
+      children's schooling.
+
+      Everyone knows this checkpoint works for the Aureates. The gendarmes report to
+      estate security, take direction from patent-holders, and treat the wrong people
+      crossing as a personal affront rather than a bureaucratic irregularity. The
+      questions aren't about documentation—they're about whether you belong. Wrong
+      answers get you turned back. Very wrong answers get you remembered.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide, The Antediluvian Quarter"
     related: [Medina Quarter, Antediluvian Quarter, Rift, Clerk's Span, Valet's Span, Bureau of the Sword]
     location_features:
