@@ -16339,14 +16339,19 @@ entries:
   # ═══ Emperor ═══
   Emperor:
     category: concept
-    short: "Entity behind the Black Door maintaining the naked singularity—whether one immortal being or successive inheritors is classified."
+    short: Entity behind the Black Door maintaining the naked singularity—whether one immortal being or successive inheritors is classified.
     details: |
-      Does not rule directly. Communications reference territories that no longer exist, 
-      assume interstellar scope. Emerges as authenticated missives passing through two 
-      layers of es-Tariq redaction. The Satara was created as regency for Emperor who 
-      might return in years—He never returned. Yet Empire is inconceivable without Him: 
-      every legal document derives authority from the Emperor-word, every patent traces 
-      to grants He issued.
+      The Emperor does not rule directly. Communications reference
+      territories that no longer exist, assume interstellar scope. Missives
+      emerge through two layers of es-Tariq redaction—authenticated but
+      incomprehensible, commands for a world that vanished centuries ago.
+
+      The Satara was created as regency for an Emperor who might return in
+      years. He never returned. Yet the Empire is inconceivable without Him:
+      every legal document derives authority from the Emperor-word, every
+      patent traces to grants He issued. An absent God whose signature
+      still validates contracts. A voice from behind an impenetrable door,
+      speaking of stars humanity can no longer reach.
     rag_pointer: "The Emperor, The Satara, the Bureaus, and Imperial Government"
     related: [Black Door, First Whorl, Satara, vel-kerith, es-Tariq]
   # ─── end Emperor ───
