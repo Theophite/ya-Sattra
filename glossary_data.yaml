@@ -17312,18 +17312,16 @@ entries:
   # ═══ Grandmother Vurda Eleven-Sage ═══
   Grandmother Vurda Eleven-Sage:
     category: person
-    short: "Legendary Akama bladesmith—seventy-three years old, no apprentice matches her work."
+    short: Legendary Akama bladesmith—seventy-three years old, no apprentice matches her work.
     person_location: Malpais
     details: |
-      LOCATION: Southern Malpais.
-      
-      PRODUCTS: Gouges (master quality, months-long wait), sabers (pattern-welded, 
-      exceptional edge retention), daggers (ceremonial and functional), lance heads 
-      (for khans only).
-      
-      CHARACTER: Her gouges are heirlooms passed between generations. The waiting 
-      list is measured in years. She has trained apprentices, but none match her work. 
-      When she dies, something irreplaceable leaves the world.
+      Southern Malpais. Seventy-three years old. Produces gouges of
+      master quality, pattern-welded sabers with exceptional edge
+      retention, daggers both ceremonial and functional, lance heads
+      made only for khans. The waiting list is measured in years. Her
+      gouges are heirlooms passed between generations. She has trained
+      apprentices, but none match her work. When she dies, something
+      irreplaceable leaves the world.
     related: [Akama, Thousand Kingdoms, Gouge, Dzoragh Ironhand]
   # ─── end Grandmother Vurda Eleven-Sage ───
 
