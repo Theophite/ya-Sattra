@@ -16445,13 +16445,17 @@ entries:
   # ═══ Grey Sheet ═══
   Grey Sheet:
     category: concept
-    short: "Classified intelligence digest for Bureau officials—the truth that administrators operate within."
+    short: Classified intelligence digest for Bureau officials—the truth that administrators operate within.
     details: |
-      Distributed to officials with appropriate clearance. Contains actual intelligence, 
-      real threat assessments, information the White Sheet omits or distorts. Recipients 
-      understand they inhabit different reality than ordinary citizens. Some Ridge 
-      families (like Galen) have covert access through Lens contractors, selling 
-      redacted excerpts.
+      Distributed to officials with appropriate clearance. Contains actual
+      intelligence, real threat assessments, information the White Sheet
+      omits or distorts. Recipients understand they inhabit a different
+      reality than ordinary citizens.
+
+      Some Ridge families have covert access through Lens contractors,
+      selling redacted excerpts to those who can pay. A tier of truth for
+      those who govern. Those who read the Grey Sheet know what the public
+      does not. They carry that knowledge like a weight.
     rag_pointer: "Bureau of the Lens: Complete Documentation"
     related: [White Sheet, Black Sheet, Bureau of the Lens]
   # ─── end Grey Sheet ───
