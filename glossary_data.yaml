@@ -8624,13 +8624,18 @@ entries:
   # ═══ Debtor Bureaucratic Complex ═══
   Debtor Bureaucratic Complex:
     category: location
-    short: "Sprawling administrative center housing ~3,000 Hereditary Debtor families and all eastern territorial records."
+    short: Sprawling administrative center housing three thousand Debtor families—where multi-generational debts become public service.
     details: |
-      Built 970-975 when Hereditary Debtors arrived to staff expanding bureaucracy. Houses 
-      administrative offices, archives, Debtor family housing, and the telegraph office. 
-      Land registration, tax collection, legal adjudication, census operations. The Debtors 
-      work off multi-generational debts through public service, providing administrative 
-      expertise the Republic needs.
+      Built when the Hereditary Debtors arrived to staff the expanding bureaucracy.
+      Sprawling adobe construction: administrative offices, archives, family housing,
+      the telegraph office. Corridors filled with clerks carrying files, the scratch
+      of pens audible through open doors. Land registration, tax collection, legal
+      adjudication, census operations—the paperwork that makes a Republic function.
+
+      The Debtors work off multi-generational debts through public service, providing
+      administrative expertise the Republic needs. Their children will work here too,
+      and their grandchildren. The complex is both workplace and home, the boundary
+      between them blurred by obligation.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Old Town, High Junction, Hereditary Debtors]
     location_features:
