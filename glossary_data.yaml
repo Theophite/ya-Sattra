@@ -6143,13 +6143,15 @@ entries:
   # ═══ Torchline Row ═══
   Torchline Row:
     category: location
-    short: "Commercial strip on elevated ridge above the Iron Yards."
+    short: Commercial strip on elevated ridge above the Iron Yards—named for the constant rain of welding sparks.
     details: |
-      Named for constant rain of welding sparks—fire-resistant construction is survival 
-      requirement. Businesses maintain calibrated relationships with competing powers. 
-      Key establishments: Den Vesh (blind salvage assessor), Seru and Sari (protective 
-      tailoring), Cask and Flux pharmacy, Coil-Bone Clinic, Yellow Glass Bathhouse, 
-      Yen Tam Seven Branches gambling house.
+      Fire-resistant construction is survival requirement. Everything built to endure
+      falling sparks, drifting ash, industrial heat. Businesses maintain calibrated
+      relationships with competing powers—Salvage Guild, Pipefitters Union, Yen Tam.
+
+      Salvage assessors, protective tailoring, pharmacies, clinics, bathhouses, gambling
+      houses. Everything workers need when the shift ends, concentrated along a ridgeline
+      where the air is slightly less foul and the sparks drift upward rather than landing.
     rag_pointer: The Iron Yards
     related: [Iron Yards, Yen Tam Beneficial Society]
     location_features:
