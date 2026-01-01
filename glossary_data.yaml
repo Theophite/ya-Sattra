@@ -10019,14 +10019,20 @@ entries:
   # ═══ Sztoavel ═══
   Sztoavel:
     category: location
-    short: "Breakaway smelter precinct—specialty alloys from eastern terminals repaired by Medials."
+    short: Breakaway smelter precinct—three hundred years has not diminished the hatred.
     details: |
-      Split from Vroëszka three centuries ago when Medials repaired dormant eastern terminals 
-      on the river's bank. A faction of Vroëszka elders claimed personal rights over the newly 
-      active systems and formally split from the house. The schism was violent; the bitterness 
-      remains. Sztoavel produces lower-volume, higher-specialty alloys that complement Vroëszka's 
-      bulk output. The houses compete in some markets, depend on each other in others, and maintain 
-      a hatred that three hundred years has not diminished.
+      The schism happened when Medials repaired dormant eastern terminals on the
+      river bank. A faction of Vroëszka elders claimed personal rights over the
+      newly active systems and split from the house. The violence was immediate;
+      the bitterness remains.
+
+      Workers here know they are the younger house. Only three centuries of
+      accumulated tradition compared to Vroëszka's millennia. The terminals
+      produce specialty alloys—lower volume, higher complexity, different
+      specifications. The work feels less established, the traditions still
+      forming. Border tensions with Vroëszka remain visible in territorial
+      markings. The houses compete in some markets, depend on each other in
+      others, and three hundred years has not diminished the hatred.
     rag_pointer: Asovoë and the Avouvar
     related: [Asovoë, Vroëszka, The Smelters]
     location_features:
