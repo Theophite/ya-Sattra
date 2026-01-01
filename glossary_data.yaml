@@ -12926,12 +12926,20 @@ entries:
   # ═══ ya-Sattra ═══
   ya-Sattra:
     category: location
-    short: "Imperial capital and largest metropolitan region."
+    short: Five million people in a drained bay—the Imperial capital, built on what was once seabed.
     details: |
-      Basin core plus rim cities along former coastline. Approximately 5 million 
-      total population. Contains the Inner City arcology with four Whorls, the 
-      Antediluvian Quarter, Medina Quarter, and Rotten Quarter in the basin, 
-      plus numerous rim cities along the former coastline (collectively "The Rim").
+      The basin core occupies the former floor of Monterey Bay. The Inner City
+      arcology rises at the center, four Whorls ascending into bronze towers
+      that dwarf everything human-scale. Around it spread the Antediluvian
+      Quarter, the Medina Quarter, the Rotten Quarter—districts that grew in
+      the shadow of pre-Interdict construction.
+
+      The Rim cities line the former coastline, looking down into what was
+      once water. To live here is to inhabit reclaimed space, to walk on
+      ground that should be ocean floor, to look up at structures that
+      ancestors built but no one can replicate. The Empire governs from here.
+      The Bureaux administer from here. This is the center of everything that
+      claims to be everything.
     rag_pointer: The Inner City, The Medina Quarter
     related: [Inner City, Medina Quarter, Middens, Rift, The Rim]
     culture: [Imperial, Antediluvian]
