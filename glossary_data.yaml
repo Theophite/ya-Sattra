@@ -7695,13 +7695,19 @@ entries:
   # ═══ Stewards' Block ═══
   Stewards' Block:
     category: location
-    short: "Massive pre-Interdict structure with nested habitation—~600 residents in adapted spaces."
+    short: Pre-Interdict structure with nested habitation—navigation requires local knowledge.
     details: |
-      Original ground floor now commercial space with 15m ceilings. Middle levels 
-      subdivided into eight floors of habitable space. Upper levels largely unmodified—
-      too strange for comfortable adaptation. Navigation requires local knowledge: 
-      "third door past the warm wall." One family claims upper-level residents live 
-      longer and think more clearly.
+      The original ground floor has fifteen-meter ceilings, now commercial space
+      where merchants set up beneath vast expanses of cream-colored walls that stay
+      warm to the touch regardless of season. Middle levels have been subdivided
+      into eight floors of habitable space—rooms carved out of what were once single
+      chambers, staircases built where none existed. Upper levels remain largely
+      unmodified, too strange for comfortable adaptation.
+
+      Six hundred residents navigate by local knowledge: "third door past the warm
+      wall," "down the spiral that hums." One family claims upper-level residents
+      live longer and think more clearly. No one has studied whether this is true,
+      but they've lived here for generations and show no interest in moving.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [Medina Quarter]
     location_features:
