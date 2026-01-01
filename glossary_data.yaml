@@ -3415,12 +3415,24 @@ entries:
   # ═══ es-Etaie Residence ═══
   es-Etaie Residence:
     category: location
-    short: "Deliberately modest Aureate residence—Penitent faith expressed through architectural restraint."
+    short: Deliberately modest Aureate residence—three stories of restraint beside neighbors' ostentation, Penitent faith made architectural.
     details: |
-      Three-story stone building that would not be out of place in the Threshold. 
-      The contrast with es-Kiral ostentation is intentional. Home of Sri Matrice 
-      Dawn-of-Ascension es-Etaie. ~30 residents. The family's genuine Penitent 
-      faith makes them trusted by guild leaders who distrust other Aureates.
+      Three-story stone building that would not be out of place in the
+      Threshold. No fountains. No imported vegetation. No theatrical
+      display of surplus. The contrast with surrounding ostentation is
+      intentional—a theological statement built in stone.
+
+      About thirty residents occupy space that could house hundreds if
+      expanded. The family's Penitent faith teaches that wealth obligates
+      rather than liberates. Patent income flows to works rather than
+      display. This makes them trusted by guild leaders who distrust other
+      Aureates: their restraint reads as genuine principle rather than
+      strategy.
+
+      To visit is to experience absence. No bronze fittings beyond
+      necessity. No geometric elaboration. Simple proportions, functional
+      spaces, the architecture of people who believe luxury insults the
+      labor that produces it.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Aureate Enclave, es-Etaie, ya-Don, Penitent Church]
     location_features:
