@@ -3108,12 +3108,27 @@ entries:
   # ═══ Spectral Archive ═══
   Spectral Archive:
     category: location
-    short: "Es-Norren document storage where light behaves strangely."
+    short: Document storage where light behaves strangely—papers visible only at certain angles, text readable only under specific conditions.
     details: |
-      Rooms within the es-Norren towers where the quantum encryption infrastructure 
-      creates optical anomalies. Documents stored here are visible only at certain 
-      angles; some can only be read in specific lighting conditions that the Archive 
-      maintains.
+      Rooms within the encryption towers where quantum infrastructure
+      creates optical anomalies as a side effect. Documents stored here
+      exist in a permanent state of conditional visibility. Approach at
+      the wrong angle and paper appears blank. Stand in the wrong position
+      and text vanishes. The Archive maintains specific lighting conditions
+      for each storage section—some bright, some dim, some flickering at
+      frequencies calibrated to whatever process makes the documents
+      readable.
+
+      Archivists learn which angles reveal which documents. The knowledge
+      is practical, not theoretical: stand here, tilt your head this way,
+      and the contract becomes legible. Move slightly and it disappears.
+      Some texts can only be read in pairs, one person holding a lamp at
+      the correct distance while another reads.
+
+      The effect wasn't designed. It emerged from proximity to encryption
+      equipment. The towers themselves determine what can be seen. Storage
+      here provides a security no lock could match—documents that physically
+      refuse to reveal themselves to anyone who doesn't know how to look.
     rag_pointer: The Antediluvian Quarter
     related: [es-Norren Towers, es-Norren]
     location_features:
