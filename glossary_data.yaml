@@ -14427,11 +14427,19 @@ entries:
   # ═══ es-Poel ═══
   es-Poel:
     category: organization
-    short: "Aureate family controlling biological interface organisms—enable servant hierarchies to function."
+    short: Aureate family controlling biological interface organisms—enable modified servant lines to function across generations.
     details: |
-      Estate: Symbiotic Spires pulsing with slow biological rhythms through organic walls. 
-      Their preparations enable modified servant lines to interface across generations. 
-      Translation Gardens allow inter-circle communication. Seleth es-Poel leads.
+      Estate: The Symbiotic Spires pulse with slow biological rhythms
+      through organic walls. The walls breathe. The walls remember. Visitors
+      report feeling watched by something patient and inhuman.
+
+      The es-Poel preparations enable modified servant lines to interface
+      across generations—without their biological intermediaries, servant
+      hierarchies would fragment into incompatible lineages. The Translation
+      Gardens allow inter-circle communication: servants from different
+      houses can understand each other because es-Poel organisms bridge the
+      gap. The family maintains biological compatibility across an Empire of
+      divergent flesh.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, Aureate]
   # ─── end es-Poel ───
