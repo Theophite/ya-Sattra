@@ -15437,18 +15437,19 @@ entries:
   # ═══ Colonel-Hereditary es-Valent ═══
   Colonel-Hereditary es-Valent:
     category: person
-    short: "Frontier commander who fostered Tsoka Red Deer for twelve years."
+    short: Frontier commander who fostered an Akama warlord's son for twelve years.
     person_location: Northern Frontier
     details: |
-      Imperial officer whose estate sits in the transitional zone where Imperial
-      sovereignty dissolves into Thousand Kingdoms independence. Fostered the
-      young Tsoka Red Deer for twelve years, teaching him Imperial institutional
-      thinking and military organization that Tsoka later applied to his Akama
-      warband. This fostering arrangement exemplifies how frontier Colonel-
-      Hereditary estates maintain elaborate relationships with Akama warbands—
-      tribute ceremonies that are actually diplomatic negotiations, tax collection
-      resembling protection money, military subordination masking strategic
-      partnerships.
+      Imperial officer whose estate sits in the transitional zone where
+      Imperial sovereignty dissolves into Thousand Kingdoms independence.
+      Fostered a young Akama for twelve years, teaching him Imperial
+      institutional thinking and military organization.
+
+      This fostering arrangement exemplifies how frontier estates maintain
+      elaborate relationships with Akama warbands—tribute ceremonies that
+      are actually diplomatic negotiations, tax collection resembling
+      protection money, military subordination masking strategic partnerships.
+      The boy he raised later became a Junta member.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Northern Frontier, Tsoka Red Deer, Thousand Kingdoms]
   # ─── end Colonel-Hereditary es-Valent ───
