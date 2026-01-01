@@ -14037,14 +14037,20 @@ entries:
   # ═══ Sarn ═══
   Sarn:
     category: organization
-    short: "Sewer-fisher clan operating at crushing depths—gatekeepers to deep populations."
+    short: Sewer-fisher clan operating at crushing depths—gatekeepers to what lives below.
     details: |
-      One of six sewer-fisher clans in the Middens. Minimal surface presence at Sump-Gate;
-      real clan life in flooded tunnels below. Trade with "deep populations" of unclear
-      humanity—beings who may be Technical Caste descendants diverged beyond recognition.
-      Patriarch Vennas Sarn rarely surfaces, spending months below. Clan members speak
-      the Jargon (mathematical pressure-language) for deep communication. Their shrine
-      has NO Oracle icons—includes spirals that hurt to perceive directly.
+      One of six sewer-fisher clans in the Middens. Minimal surface presence
+      at Sump-Gate; real clan life takes place in flooded tunnels far below.
+      Clan leaders rarely surface, spending months in the deep. The pressure
+      there would kill unmodified humans. Even other sewer-fishers cannot
+      follow where the Sarn go.
+
+      The clan trades with "deep populations" of unclear humanity—beings who
+      may be Technical Caste descendants diverged beyond recognition. Clan
+      members speak the Jargon, a mathematical pressure-language for deep
+      communication. Their shrine contains no Oracle icons. Instead: spirals
+      that hurt to perceive directly. Something down there is worshipped.
+      Something that is not the Oracle.
     rag_pointer: "Caste - Sewer-Fishers, The Middens Tenements"
     related: [Sewer-Fishers, Sump-Gate, Middens, Jargon, Technical Castes]
   # ─── end Sarn ───
