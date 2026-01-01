@@ -9618,12 +9618,17 @@ entries:
   # ═══ Azure Chamber ═══
   Azure Chamber:
     category: location
-    short: "The hall where the Satara meets in the Second Whorl."
+    short: The hall where the Satara meets—meetings last subjective hours while days pass outside.
     details: |
-      Formal meeting space for the twelve-member regency council. Schedule aligned to 
-      Second Whorl temporal distortion—meetings may last subjective hours while days 
-      pass outside. Architecture deliberately neutral, designed to prevent any house 
-      from claiming symbolic precedence.
+      Formal meeting space for the twelve-member regency council. Schedule aligned
+      to Second Whorl temporal distortion—enter for what feels like an afternoon,
+      emerge to find the world has aged. Architecture deliberately neutral, every
+      sight-line balanced, every seat equidistant from center. Designed to prevent
+      any house from claiming symbolic precedence.
+
+      The walls are blue-grey stone that seems to absorb light. No windows—time
+      flows strangely enough here without visual reminders. Twelve seats around a
+      circular table, each identical.
     rag_pointer: The Inner City, The Satara and Imperial Government
     related: [Second Whorl, Satara, Inner City]
     location_features:
