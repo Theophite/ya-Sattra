@@ -16823,13 +16823,17 @@ entries:
   # ═══ Union of Republican Medics ═══
   Union of Republican Medics:
     category: organization
-    short: "Dawn-aligned medical kilit—war origins, tiered certification, 2,800 members including nurses and midwives."
+    short: Dawn-aligned medical kilit—war origins, tiered certification, twenty-eight hundred members including nurses and midwives.
     details: |
-      Emerged from Yarangar War. Encompasses doctors (650), nurses, midwives, apothecaries,
-      bone-setters, paraprofessionals. Tiered certification: apprentice → journeyman →
-      full practitioner. Different tracks for different specializations. Serves frontier
-      settlements, pastoral territories, working-class urban districts. Firmly Dawn—
-      origins in revolutionary warfare, commitment to accessible care.
+      Emerged from the Yarangar War. Encompasses doctors, nurses, midwives,
+      apothecaries, bone-setters, paraprofessionals. Tiered certification:
+      apprentice to journeyman to full practitioner. Different tracks for
+      different specializations.
+
+      Serves frontier settlements, pastoral territories, working-class
+      urban districts. Firmly Dawn—origins in revolutionary warfare,
+      commitment to accessible care. The Confraternity trains elite urban
+      physicians. The Union trains everyone else.
     rag_pointer: "Professional Kilits and Certification"
     related: [Ganat, Kilit, Dawn Party, Yarangar War]
   # ─── end Union of Republican Medics ───
