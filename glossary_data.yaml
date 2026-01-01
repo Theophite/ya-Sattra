@@ -3962,13 +3962,24 @@ entries:
   # ═══ St. Yerren's Shrine ═══
   St. Yerren's Shrine:
     category: location
-    short: "Deepest accessible worship site in the Depths—pilgrimage stop before descending to the Furnaces."
+    short: Deepest accessible worship site in the Depths—where a worker maintained ventilation in total darkness for three days after a collapse.
     details: |
-      Carved around the site where the legendary Karst worker died after maintaining
-      ventilation systems in complete darkness for three days following a tunnel collapse.
-      The shrine incorporates tools he used and stone from the collapse he cleared.
-      Pilgrimage site before descending to the Furnaces' deepest sections; approximately
-      200 visitors daily.
+      Carved around the site where a Karst worker died after maintaining
+      ventilation systems in complete darkness for three days following a
+      tunnel collapse. He could navigate by echolocation where baseline
+      humans would have been helpless. He cleared debris others couldn't
+      find. He kept air flowing to trapped workers until rescue came. He
+      died when the work was done.
+
+      The shrine incorporates tools he used and stone from the collapse he
+      cleared. Pilgrims descend here before going deeper toward the
+      Furnaces—about two hundred visitors daily, touching the worn stone,
+      asking for protection in the passages below.
+
+      The deepest accessible worship site. Beyond this, the tunnels become
+      too dangerous for casual visitation. Workers descending to Furnace
+      maintenance stop here first, pray in darkness to a saint who died
+      doing what they're about to do.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Depths of St. Yerren, Karst, ya-Don, Furnaces]
     location_features:
