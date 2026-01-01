@@ -7877,8 +7877,19 @@ entries:
   # ═══ Middens ═══
   Middens:
     category: location
-    short: "Poorest district in ya-Sattra's Rotten Quarter."
-    details: Seven tenement buildings rising from partially flooded foundations. Hanged Men exercise more practical authority than Imperial institutions.
+    short: Poorest district in ya-Sattra's Rotten Quarter—seven tenements rising from flooded foundations.
+    details: |
+      Seven tenement buildings rising from partially flooded foundations. The water
+      never fully drains; residents on lower floors live with the smell of damp and
+      the constant threat of rising levels. Fifteen thousand people crowded into
+      structures that were never meant to hold them. Stairs creak and sway; walls
+      show generations of improvised repair.
+
+      The Hanged Men exercise more practical authority here than Imperial
+      institutions. Bureau gendarmes rarely enter; when they do, they move in
+      force. The residents know whom to pay, whom to ask for help, whom to avoid.
+      Survival means understanding the local rules, which have nothing to do with
+      Imperial law.
     rag_pointer: The Hanged Men, The Middens Tenements
     related: [Hanged Men, ya-Sattra]
     location_features:
