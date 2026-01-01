@@ -10300,14 +10300,19 @@ entries:
   # ═══ Taho Pass ═══
   Taho Pass:
     category: location
-    short: "Pre-Interdict granite road rising to 7,000 feet—the only crossing for hundreds of miles."
+    short: Pre-Interdict granite road—joints still tight after millennia.
     details: |
-      12 miles from Taho (6,200 ft) to summit (7,000 ft), switchbacking up western slope. 
-      Pre-Interdict construction: granite blocks fitted so precisely no mortar was needed, 
-      joints tight after millennia. Grade consistent—never too steep for laden wagons. 
-      Closes October-April; first spring caravan celebrated. At summit: 15-foot granite 
-      obelisk carved with unreadable script. Somebody wraps electric wire around it in 
-      winter, creating makeshift streetlight nobody officially maintains.
+      Twelve miles from Taho to summit, switchbacking up the western slope from
+      six thousand two hundred feet to seven thousand. Pre-Interdict construction:
+      granite blocks fitted so precisely no mortar was needed. The joints remain
+      tight after millennia. The grade stays consistent—never too steep for laden
+      wagons, whoever built it understood what would cross it.
+
+      The pass closes October through April; the first spring caravan is
+      celebrated in both cities. At the summit stands a fifteen-foot granite
+      obelisk carved with unreadable script. Somebody wraps electric wire around
+      it each winter, creating a makeshift streetlight that nobody officially
+      maintains but that keeps appearing.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Taho, Toh, Undying Empire]
     location_features:
