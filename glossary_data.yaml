@@ -3858,12 +3858,25 @@ entries:
   # ═══ Depths of St. Yerren ═══
   Depths of St. Yerren:
     category: location
-    short: "Underground district in Antediluvian tunnels never meant for habitation."
+    short: Fifty thousand residents in Antediluvian tunnels never meant for habitation—geography following geology, not surface streets.
     details: |
-      ~50,000 residents. Tunnel systems surface dwellers barely know exist. Geography 
-      follows geology, not surface streets. Speaking Stones communication hub. The 
-      Antediluvians carved these passages for infrastructure—ventilation, conduits, 
-      access to systems nobody now understands. People moved in anyway.
+      The Antediluvians carved these passages for infrastructure:
+      ventilation, conduits, access to systems nobody now understands.
+      People moved in anyway. Fifty thousand residents occupy tunnel
+      systems that surface dwellers barely know exist. Geography follows
+      geology—rock formations define neighborhoods, not the grid above.
+
+      The Speaking Stones serve as communication hub: acoustic chambers
+      that carry voices across distances through properties of the rock
+      itself. Markets operate in caverns. Shrines occupy natural chambers.
+      The Karst navigate here easily, their echolocation mapping darkness
+      that defeats baseline sight.
+
+      Surface temperature means nothing in the Depths. The tunnels maintain
+      their own climate: cooler than ya-Don's furnace streets, stable year
+      round. Residents descend in the morning, ascend in the evening, or
+      never see sunlight at all. A city beneath a city, built into
+      infrastructure its occupants cannot comprehend.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Karst, Speaking Stones]
     location_features:
