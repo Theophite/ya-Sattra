@@ -16259,13 +16259,17 @@ entries:
   # ═══ Record of White Birds ═══
   Record of White Birds:
     category: event
-    short: "Middle unclassified Record—petitions from this era remain unanswered after two thousand years."
+    short: Middle unclassified Record—petitions from this era remain unanswered after two thousand years.
     details: |
       The third of the five unclassified Records, roughly two thousand years
       distant. Filings from this period survive in archives—petitions whose
-      terms remain unrecognized, neither granted nor denied. Institute for
-      Nonstandard Environments documents from this era describe environmental
-      conditions that no longer exist.
+      terms remain unrecognized, neither granted nor denied.
+
+      Institute for Nonstandard Environments documents from this era
+      describe environmental conditions that no longer exist. The white
+      birds that named the Record are extinct. Bureaucratic requests await
+      responses that will never come. The paperwork endures. The world it
+      described does not.
     rag_pointer: "The Aureate System"
     related: [Records, Aureate]
     event_features:
