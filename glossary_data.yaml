@@ -15340,16 +15340,18 @@ entries:
   # ═══ Ataru Blackfish ═══
   Ataru Blackfish:
     category: person
-    short: "Junta commercial emperor—controls salmon processing, ~800 warriors, ~70 vassals paying fixed tribute."
+    short: Junta commercial emperor—controls salmon processing, about eight hundred warriors, about seventy vassals paying fixed tribute.
     person_location: Ogon
     details: |
-      Age 47. Western canal districts. Took token through combat 12 years ago. 
-      Commercial empire built on salmon runs—weirs, smoke-houses, processing 
-      infrastructure. Fixed tribute regardless of fortune: good catch pay in fish, 
-      poor catch find obols through raiding, recalcitrance pay in blood. Religious 
-      in Akama way, venerates largely fictional ancestors. Collects Ganati glass 
-      sculpture, supports libraries. Structural conflict with Tsoka's protection 
-      contracts will likely end in one killing the other.
+      Forty-seven years old. Western canal districts. Took token through
+      combat twelve years ago. Commercial empire built on salmon runs—weirs,
+      smoke-houses, processing infrastructure.
+
+      Fixed tribute regardless of fortune: good catch pay in fish, poor
+      catch find obols through raiding, recalcitrance pay in blood.
+      Religious in Akama way, venerates largely fictional ancestors. Collects
+      Ganati glass sculpture, supports libraries. Will likely die fighting
+      a rival, or killing one.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Warband, Junta of Ogon, Ogon, Tsoka Red Deer]
   # ─── end Ataru Blackfish ───
