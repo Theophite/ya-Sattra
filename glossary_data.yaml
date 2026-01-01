@@ -3186,8 +3186,27 @@ entries:
   # ═══ Asovoë ═══
   Asovoë:
     category: location
-    short: Contaminated city inhabited by Avouvar at the edge of habitable world.
-    details: Fraser River delta, glaciers visible to north. Autofactory maintains infrastructure for millions while 60,000 Avouvar inhabit seventeen precincts. Radiation renewed deliberately to exclude outsiders.
+    short: Contaminated city at the edge of habitable world—sixty thousand Avouvar in seventeen precincts, radiation renewed deliberately to keep others out.
+    details: |
+      Fraser River delta. Glaciers visible to the north. Infrastructure
+      built for millions, maintained by autofactories that still function
+      after the contamination that drove everyone else away. Sixty thousand
+      Avouvar inhabit what remains, distributed across seventeen precincts
+      that govern themselves through councils and the Rezhda that mediates
+      between them.
+
+      The radiation isn't accidental anymore. The Avouvar renew it
+      deliberately, maintaining contamination levels that exclude outsiders
+      while remaining survivable for bodies adapted to such exposure. The
+      city becomes a fortress without walls—anyone entering risks
+      accumulating doses their biology cannot process.
+
+      Empty streets designed for populations that fled. Infrastructure
+      humming with autofactory maintenance no human directed. The Avouvar
+      move through spaces built for others, occupying a fraction of
+      available housing, maintaining what they need and letting the rest
+      decay. A city at the edge of the habitable world, kept deliberately
+      uninhabitable for anyone except those already shaped for it.
     rag_pointer: Asovoë and the Avouvar
     related: [Avouvar, San Juan Factorias]
     culture: [Avouvar]
