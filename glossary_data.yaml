@@ -9200,14 +9200,19 @@ entries:
   # ═══ The Arcades ═══
   The Arcades:
     category: location
-    short: "Interior workshop district—the arcology's rotated guts, cut up to be useful."
+    short: Interior workshop district—the arcology's rotated guts, cut up across generations to be useful.
     details: |
-      The arcology's interior spaces, still interior but rotated 90 degrees. What were 
-      elevator shafts running vertically are now horizontal corridors. What were floors 
-      are now walls. Everything has been cut up across generations—new floors laid across 
-      old walls, doorways carved through what were ceilings, platforms creating usable 
-      surfaces. ~90 workshops recondition archaeotech. Navigation requires understanding 
-      which surfaces were originally what.
+      The arcology's interior spaces rotated ninety degrees. What were elevator
+      shafts running vertically are now horizontal corridors. What were floors
+      are now walls. Doorways carved through what were ceilings. Platforms create
+      usable surfaces where none existed. Orb-fixtures still glowing from wrong
+      orientations.
+
+      Ninety workshops recondition archaeotech in these adapted spaces. Navigation
+      requires understanding which surfaces were originally what. The bronze thesad
+      is pristine—still self-repairing—while adaptations show wear. Generations of
+      modification visible, each layer solving the same problem: how to live in
+      a building that fell over.
     rag_pointer: "The Ridge: Comprehensive Summary"
     related: [Ridge, Thread-and-Spark Lector Works]
     location_features:
