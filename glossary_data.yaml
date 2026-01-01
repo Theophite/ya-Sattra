@@ -5224,8 +5224,17 @@ entries:
   # ═══ Harbor District ═══
   Harbor District:
     category: location
-    short: Dock area built for near-baseline labor castes, almost comfortable for Avouvar.
-    details: "Architecture scaled to ordinary bodies: doorways six feet high, corridors eight feet wide. Docks extend into the Fraser on polymer pilings the autofactory maintains. Warehouses with climate control calibrated for ancient foods."
+    short: Dock area built for near-baseline labor castes—the exception, where Avouvar can almost fit.
+    details: |
+      Architecture scaled to ordinary bodies: doorways six feet high, corridors eight
+      feet wide. The exception in a city built for giants. Docks extend into the Fraser
+      on polymer pilings the autofactory maintains. Warehouses with climate control
+      calibrated for ancient foods.
+
+      Near-baseline workers once loaded and unloaded here. Now Avouvar operate the
+      district—cramped for them, but less cramped than elsewhere. Modest radiation from
+      the autofactory adds background hum. The proportions feel almost human, which means
+      they feel wrong to everyone who works here now.
     rag_pointer: Asovoë and the Avouvar
     related: [Asovoë, Czernaël, Kolaëvin]
     location_features:
