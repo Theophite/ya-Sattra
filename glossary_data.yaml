@@ -16217,16 +16217,19 @@ entries:
   # ═══ Record of Three Laws ═══
   Record of Three Laws:
     category: event
-    short: "Oldest unclassified Record—five to six thousand years distant, documenting earliest accessible Aureate appointments."
+    short: Oldest unclassified Record—five to six thousand years distant, documenting earliest accessible Aureate appointments.
     details: |
-      The oldest of the five unclassified Records. Scholars place it approximately
-      five to six thousand years in the past, though dating is uncertain. The
-      "Three Laws" referenced in the name are no longer known—the Record preserves
-      the era's designation without explaining it.
+      The oldest of the five unclassified Records. Scholars place it
+      approximately five to six thousand years in the past, though dating
+      is uncertain. The "Three Laws" referenced in the name are no longer
+      known—the Record preserves the era's designation without explaining
+      it.
 
-      Families documented in this Record carry maximum temporal prestige. The
-      Water Guild's founding charter dates to Three Laws. Palanquin-bearer lines
-      commissioned during this era still serve their original Aureate families.
+      Families documented in this Record carry maximum temporal prestige.
+      The Water Guild's founding charter dates to Three Laws. Palanquin-
+      bearer lines commissioned during this era still serve their original
+      Aureate families. Six thousand years of continuity. The laws are
+      forgotten. The families remain.
     rag_pointer: "The Aureate System"
     related: [Records, Aureate, Water Guild]
     event_features:
