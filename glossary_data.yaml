@@ -7254,15 +7254,20 @@ entries:
   # ═══ Valet's Span ═══
   Valet's Span:
     category: location
-    short: "Bridge for servants and deliveries—Sword checkpoint that absolutely works for the Aureates."
+    short: Bridge for servants and deliveries—wide enough for carts, no railings worth mentioning.
     details: |
-      Utilitarian construction matching users' station. Handles servant traffic and 
-      commercial deliveries to Antediluvian Quarter. Lowest status of three bridges, 
-      but the Sword checkpoint is the most obviously captured—gendarmes here take 
-      direct instruction from estate majordomi, cross-reference servant registries 
-      maintained by Aureate households, and turn back anyone not on someone's list. 
-      Legitimate servants pass easily. Delivery workers need manifests. Everyone else 
-      needs a very good story and the right demeanor of deference.
+      Plain stone, wide enough for carts, no railings worth mentioning. The servant's
+      entrance. Lowest status of the three bridges, but the Sword checkpoint is the
+      most obviously captured by Aureate households. Gendarmes here take direct
+      instruction from estate majordomi, cross-reference servant registries, and
+      turn back anyone not on someone's list.
+
+      Familiar faces pass with a nod—they're in the registries, their households
+      vouch for them. Delivery workers present manifests; gendarmes check names
+      against expected shipments. The unfamiliar get questions: who sent you, what
+      house, what business. Everyone else needs a very good story and the right
+      demeanor of deference. Wrong answers mean turning back. Very wrong answers
+      mean the gendarmes take an interest in where you came from.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide, The Antediluvian Quarter"
     related: [Medina Quarter, Antediluvian Quarter, Rift, Aureate Span, Clerk's Span, Bureau of the Sword]
     location_features:
