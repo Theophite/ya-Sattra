@@ -6117,12 +6117,16 @@ entries:
   # ═══ The Pit ═══
   The Pit:
     category: location
-    short: "Decontamination pad for radiation-tagged salvage in the Iron Yards."
+    short: Decontamination pad for radiation-tagged salvage—the ground sealed so nothing grows, the pay high, the work destroying bodies.
     details: |
-      Circular depression near the Salvage Dome's eastern side. Ground sealed with 
-      archaeotech polymer that nothing grows through. Radiation-tagged salvage gets 
-      dumped here from Lift-3. Workers in protective gear process hot materials before 
-      they enter the regular salvage stream.
+      Circular depression near the Salvage Dome's eastern side. Ground sealed with
+      archaeotech polymer that nothing grows through—not even fungus, not even lichen.
+      Radiation-tagged salvage gets dumped here. Workers in protective gear process
+      hot materials before they enter the regular salvage stream.
+
+      Pit workers are well-paid. Pit workers don't work long. The protective gear
+      helps, but nothing stops everything. Young workers take the jobs for quick
+      earnings, planning to move on before the damage accumulates. Some do. Some don't.
     rag_pointer: The Iron Yards
     related: [Iron Yards, Salvage Dome]
     location_features:
