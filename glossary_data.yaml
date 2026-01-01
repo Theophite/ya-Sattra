@@ -9287,11 +9287,16 @@ entries:
   # ═══ Thread-and-Spark Lector Works ═══
   Thread-and-Spark Lector Works:
     category: location
-    short: "Loak family lector repair shop—sewer-fisher expertise on Horizon Row."
+    short: Lector repair shop—Middens expertise risen to the Ridge.
     details: |
-      Darim Loak operates this technical business, one of few sewer-fisher presences 
-      on the Ridge. Reconditions lectors and pre-Interdict electronics. The Loaks' 
-      Technical Caste inheritance gives them particular expertise others cannot match.
+      Sewer-fisher precision in a Horizon Row shopfront. Workbenches with lectors
+      in various states of disassembly. The faint smell of machine oil and solder.
+      One of few sewer-fisher presences on the Ridge, Technical Caste inheritance
+      giving particular expertise others cannot match.
+
+      The sign shows thread and spark-gap, the two things that make lectors work.
+      Respectable facade, but customers know where this knowledge comes from:
+      Middens expertise, risen to Horizon Row.
     rag_pointer: "The Ridge: Comprehensive Summary"
     related: [Ridge, Horizon Row, Loak, Sewer-Fishers]
     location_features:
