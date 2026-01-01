@@ -8395,12 +8395,19 @@ entries:
   # ═══ Canyon Floor Markets ═══
   Canyon Floor Markets:
     category: location
-    short: "Covered bazaars carved into the Near Wall's base—crowded, noisy, perpetually lit."
+    short: Covered bazaars carved into the Near Wall's base—power is free, so the markets never close.
     details: |
-      Carved spaces opening onto streets along the canyon floor. Food from upper canyon farms, 
-      textiles from Dam workshops, copper work from local artisans, imported goods from Imperial 
-      trade via Taho, salvaged archaeotech. Electric lights illuminate constantly—the spaces 
-      would be dark otherwise. Fragrant with food, spices, human density.
+      Covered bazaars carved from salmon sandstone, opening onto the canyon floor.
+      Electric lights every few feet—essential, because the carved spaces would be
+      dark otherwise. Power is free, so the markets never close. Merchants call
+      from carved stalls. Copper work gleams under electric bulbs. Textiles hang
+      in colors that glow against salmon stone.
+
+      Food from upper canyon farms, textiles from Dam workshops, copper work from
+      local artisans, imported goods from Imperial trade through Taho, salvaged
+      archaeotech and reverse-engineered products. Crowded, noisy, fragrant with
+      food and spices and human density. Every surface accretes layers of commercial
+      announcement and political advocacy.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Near Wall, Ganat proper]
     location_features:
