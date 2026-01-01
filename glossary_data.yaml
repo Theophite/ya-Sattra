@@ -6664,17 +6664,16 @@ entries:
   # ═══ Lopez Island ═══
   Lopez Island:
     category: location
-    short: Westerner installation—forbidden to Avouvar under pain of death.
+    short: Westerner installation—forbidden to Avouvar, those who violate the prohibition simply disappear.
     details: |
       The Avouvar do not go there. Ever. The prohibition is absolute, ancient, non-
-      negotiable. Those who violate it simply disappear.
+      negotiable.
 
       From the other islands, the monolithic structure is visible: black, geometric,
-      scaled wrong even by Asovoë standards. Drydocks service identical ships that
-      arrive on schedules no one can predict. The Westerners come and go without
-      acknowledgment. What happens on Lopez Island, what purpose the installation
-      serves, what the Westerners are—no Avouvar knows, and the oldest ones refuse
-      to speculate.
+      scaled wrong even by Asovoë standards. Drydocks service identical ships arriving
+      on schedules no one can predict. The Westerners come and go without acknowledgment.
+      What happens on Lopez Island, what purpose the installation serves, what the
+      Westerners are—no Avouvar knows, and the oldest ones refuse to speculate.
     rag_pointer: Asovoë and the Avouvar
     related: [San Juan Factorias, Westerners]
     location_features:
