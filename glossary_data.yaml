@@ -13830,12 +13830,20 @@ entries:
   # ═══ Pipefitters Union ═══
   Pipefitters Union:
     category: organization
-    short: "Iron Yards labor union with ancient charter predating the Bureaux."
+    short: Iron Yards labor union—ancient charter predating the Bureaux, cross-caste solidarity in practice.
     details: |
-      Cross-caste solidarity organization—membership includes most Iron Yards workers regardless 
-      of caste. Led by Marlo Glen. Their willingness to strike gives them leverage even the 
-      Salvage Guild respects. The charter's age makes it legally unchallengeable. Maintains 
-      infrastructure more competently than the Bureau of the Rod could manage.
+      Membership includes most Iron Yards workers regardless of caste. The
+      charter predates the Bureaux themselves, making it legally
+      unchallengeable—attempts to restrict Union activities founder on
+      precedent older than the current legal system. What was granted before
+      the Bureaux cannot be revoked by them.
+
+      Their willingness to strike gives them leverage even the Salvage Guild
+      respects. When the pipes stop, the Yards stop. When the Yards stop,
+      salvage stops. Everyone understands this. The Union maintains
+      infrastructure more competently than the Bureau of the Rod could
+      manage. Members take pride in work that keeps the Yards running despite
+      official indifference.
     rag_pointer: The Iron Yards
     related: [Iron Yards, Salvage Guild, Yen Tam Beneficial Society]
   # ─── end Pipefitters Union ───
