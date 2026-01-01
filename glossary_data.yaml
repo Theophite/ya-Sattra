@@ -15475,15 +15475,17 @@ entries:
   # ═══ Colonel-Hereditary Kess es-Verath ═══
   Colonel-Hereditary Kess es-Verath:
     category: person
-    short: "Frontier officer surviving through usefulness—40 soldiers, neutral ground, arbitration."
+    short: Frontier officer surviving through usefulness—forty soldiers, neutral ground, arbitration.
     person_location: Northern Frontier
     details: |
       Her forty soldiers could barely defend against serious assault. She
       survives by providing services no one else offers: neutral ground for
       negotiations, arbitration that both Imperial law and Akama custom
-      recognize. Her position rests on being too useful to attack, too weak
-      to threaten. Exemplifies how some frontier estates maintain themselves
-      through institutional value rather than military force.
+      recognize.
+
+      Her position rests on being too useful to attack, too weak to threaten.
+      Some frontier estates maintain themselves through institutional value
+      rather than military force. She is one of them.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Northern Frontier, Thousand Kingdoms]
   # ─── end Colonel-Hereditary Kess es-Verath ───
