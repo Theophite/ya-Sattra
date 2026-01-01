@@ -5680,19 +5680,18 @@ entries:
   # ═══ Homesteaders' Brotherhood ═══
   Homesteaders' Brotherhood:
     category: location
-    short: "Pragmatic veterans' kilit (~3,800 members)—minimal ideology, social club."
+    short: Pragmatic veterans' kilit—nearly four thousand members, minimal ideology, meetings that are excuses for socializing.
     details: |
-      Approximately 3,800 members scattered across frontier settlements. Casual facility
-      near the garrison, meetings are excuses for socializing, political discussions
-      minimal. Informal leadership—regional coordinators handle local matters without
+      Members scattered across frontier settlements. Casual facility near the garrison,
+      political discussions minimal. Regional coordinators handle local matters without
       central direction.
 
       Focused on land grants and equipment loans without commitment to Dawn platforms
       beyond member benefits. Attracts veterans who served for practical reasons—
       citizenship, land grants, escape from poverty—rather than ideological commitment.
-      Would vote otherwise if benefits came from other sources, making them less
-      reliable for Dawn coalition but also less demanding of ideological purity. Free
-      pulque and hashish for prospective members near discharge.
+      Would vote otherwise if benefits came from other sources. Free pulque and hashish
+      for prospective members near discharge. Less reliable for Dawn coalition but also
+      less demanding of ideological purity.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [High Junction, Republican Veterans' Congress]
     location_features:
