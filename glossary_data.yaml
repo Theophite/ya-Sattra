@@ -14741,12 +14741,17 @@ entries:
   Institute of Cognitive Integrity:
     category: organization
     parent: Bureau of the Creche
-    short: "Creche subdivision offering psychological support and clone dispute adjudication—understaffed and frequently ignored."
+    short: Creche subdivision offering psychological support and clone dispute adjudication—understaffed, frequently ignored.
     details: |
-      Formerly the Institute of Clone Ethics and Stability. Offers psychological
-      support for overstressed crèche personnel, evaluates clone line "decay risk,"
-      and provides low-level adjudication of clone disputes. Understaffed and
-      frequently ignored by clone blocs who police their own.
+      Formerly the Institute of Clone Ethics and Stability. Offers
+      psychological support for overstressed crèche personnel, evaluates
+      clone line "decay risk," and provides low-level adjudication of clone
+      disputes.
+
+      Understaffed and frequently ignored by clone blocs who police their
+      own. The Institute exists. The Institute offers services. The clone
+      blocs handle their problems internally and pretend the Institute does
+      not exist. Everyone is happier this way.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Creche, Cloneline]
   # ─── end Institute of Cognitive Integrity ───
