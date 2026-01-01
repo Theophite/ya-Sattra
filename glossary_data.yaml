@@ -15359,16 +15359,18 @@ entries:
   # ═══ Bal Tama ═══
   Bal Tama:
     category: person
-    short: "Junta member from ancient Tama family—four centuries shaping Ogon politics through elimination rather than selection."
+    short: Junta member from ancient Tama family—four centuries shaping Ogon politics through elimination rather than selection.
     person_location: Ogon
     details: |
-      Imperial naming pattern (near-baseline genetics) with full Akama cultural 
-      integration. The Tamas have held tokens for ~35 of 70 years total, taking 
-      them during stable periods, arranging to lose them during crises. Maintains 
-      deaf warband against Highborn threat. Operates honorable exit system through 
-      gambling halls—bet token on rigged dice, lose with dignity, token transfers 
-      smoothly. Secret Penitent practice contradicts Akama values but he doesn't 
-      examine contradictions. Friendly with everyone, genuinely likes Imek.
+      Imperial naming pattern with near-baseline genetics, full Akama cultural
+      integration. The Tamas have held tokens for about half the years total,
+      taking them during stable periods, arranging to lose them during crises.
+
+      Maintains deaf warband against Highborn threat. Operates honorable exit
+      system through gambling halls—bet token on rigged dice, lose with
+      dignity, token transfers smoothly. Secret Penitent practice contradicts
+      Akama values but he does not examine contradictions. Friendly with
+      everyone. The contradictions are invisible to him.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Warband, Junta of Ogon, Ogon, Tama Family]
   # ─── end Bal Tama ───
