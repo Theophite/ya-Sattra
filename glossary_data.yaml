@@ -5710,17 +5710,17 @@ entries:
   # ═══ Howling Row ═══
   Howling Row:
     category: location
-    short: "Street in ya-Tsatsa's Upper City where the ceramic whistles are strongest."
+    short: Street in ya-Tsatsa's Upper City where the ceramic whistles are strongest—visitors walk faster, residents walk slower.
     details: |
       Named for the autumn gale sounds when dozens of ceramic tubes mounted on rooftops
       produce layered tones without resolution. The discordant harmonics carry patterns
       detectable to those trained to hear them—Testament Society initiates learn to
       perceive mathematical structure in the whistles.
 
-      Tsatsans most trusted by the Presence often found here in humble occupations:
-      a window washer, a tailor, a notary. The architecture is standard Upper City—
-      white-gray quartz diorite, no applied color, monochrome restraint—but the acoustic
-      intensity distinguishes the street. Visitors walk faster; residents walk slower.
+      Those most trusted by the Presence often found here in humble occupations: a
+      window washer, a tailor, a notary. Standard Upper City architecture—white-gray
+      quartz diorite, no applied color, monochrome restraint—but the acoustic intensity
+      distinguishes the street. Something listens here. The residents know it.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [ya-Tsatsa, Upper City, Presence]
     location_features:
