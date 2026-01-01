@@ -14274,19 +14274,26 @@ entries:
   # ═══ Asaph es-Tsay ═══
   Asaph es-Tsay:
     category: person
-    short: "Dilettante apostate—failed examination, collects pre-Interdict artifacts, believes he has outsmarted the Foreigners."
+    short: Dilettante apostate—failed examination, collects pre-Interdict artifacts, believes he has found the key.
     details: |
-      Son of Sri Pater Irem es-Tsay, age 37. Scored 41st percentile on the Seven-Cornered 
-      Examination, failed primarily on Third Corner (Doctrinal Conformity) where he wrote: 
-      "If truth requires consensus to be true, then it is not truth but convenience." Occupies 
-      the Vermillion Tower three blocks from the es-Tsay cylinder on a 40,000-obol annual 
-      allowance. Collects pre-Interdict artifacts without discrimination (~60% are forgeries). 
-      Hosts intellectual salons where radical theories are discussed and funding pledged to 
-      projects forgotten by morning. Second-degree member of Cloud Temple. Runs a charitable 
-      trust funding Jak Loak, Mesca Galen, and Hannon Venn's "electricity project" in the 
-      Middens—actually an excavation accessing the Eighth Auditor complex. Believes he has 
-      outsmarted the Foreigners: the Interdict is a test, the Eighth Testament a puzzle, 
-      and he has found the key.
+      Son of the es-Tsay family head, thirty-seven years old. Scored in the
+      forty-first percentile on the Seven-Cornered Examination, failed
+      primarily on Third Corner (Doctrinal Conformity) where he wrote: "If
+      truth requires consensus to be true, then it is not truth but
+      convenience." The examiners did not appreciate this.
+
+      Occupies the Vermillion Tower three blocks from the family cylinder on
+      a generous annual allowance. Collects pre-Interdict artifacts without
+      discrimination—roughly sixty percent are forgeries, though he does not
+      know this. Hosts intellectual salons where radical theories are
+      discussed and funding pledged to projects forgotten by morning.
+      Second-degree member of Cloud Temple. Runs a charitable trust funding
+      an "electricity project" in the Middens—actually an excavation
+      accessing something deeper.
+
+      Believes he has outsmarted the Foreigners: the Interdict is a test,
+      the Eighth Testament a puzzle, and he has found the key. He has not
+      found the key. But he has found something.
     rag_pointer: "The Antediluvian Quarter"
     related: [es-Tsay, Vermillion Tower, Kems as-Veleth, Cloud Temple Band, Eighth Auditor, Antediluvian Quarter]
   # ─── end Asaph es-Tsay ───
