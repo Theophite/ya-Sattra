@@ -8958,12 +8958,19 @@ entries:
   # ═══ Quick Lanes ═══
   Quick Lanes:
     category: location
-    short: "Astal settlement—ya-Don vernacular at Astal scale."
+    short: Astal settlement—a building standing fifty years is ancient here.
     details: |
-      ~15,000 residents (base population; surges to 40,000+ during harvest). On marginal 
-      land northwest of ya-Don where irrigation doesn't quite reach. Architecture adapted 
-      for bodies barely over a meter tall and lifespans of 35 years. A building standing 
-      fifty years is ancient here.
+      On marginal land northwest of ya-Don where irrigation thins. Fifteen
+      thousand residents at base, surging to forty thousand during harvest when
+      seasonal workers arrive. Ya-Don vernacular scaled for bodies barely over
+      a meter tall. Doorways that force baseline adults to duck or crawl.
+      Windows at Astal eye-height. Courtyards that feel intimate to visitors
+      but spacious to residents.
+
+      The architecture matches Astal temporal experience: a building project that
+      takes baseline workers a season feels like years to Astal perception. Adobe
+      dominates because it builds fast. A building standing fifty years is ancient
+      here, outliving the grandchildren of its builders.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Astal]
     location_features:
