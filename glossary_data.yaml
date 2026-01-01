@@ -9504,19 +9504,19 @@ entries:
   # ═══ San Juan Factorias ═══
   San Juan Factorias:
     category: location
-    short: Avouvar trading posts 200km south of Asovoë—where young Avouvar serve hardship duty.
+    short: Avouvar trading posts—every Avouvar here knows their service costs years.
     details: |
-      Four islands handling the trade that keeps Asovoë alive. Staffed by young Avouvar
-      on hardship duty—the mild climate accelerates their aging (these latitudes shorten
-      Avouvar lifespans by 30-40%). Every Avouvar here knows their service costs years.
+      Four islands handling the trade that keeps Asovoë alive. Staffed by young
+      Avouvar on hardship duty—the mild climate accelerates their aging. These
+      latitudes shorten Avouvar lifespans by thirty to forty percent. Every Avouvar
+      here knows their service costs years. The architecture is Asovoë vernacular
+      scaled for wrong proportions, fabric shelters against temperate rain rather
+      than arctic cold. Aurora-bright Avouvar against grey Pacific waters.
 
-      Orcas Island handles most external commerce. San Juan Island specializes in Akama
-      trade. Shaw Island is the quarantine station through which everything passes.
-      Lopez Island belongs to the Westerners—Avouvar do not go there.
-
-      The architecture is Asovoë vernacular scaled for wrong proportions, adapted for
-      temperate climate. Fabric shelters against rain rather than arctic cold. Aurora-
-      bright Avouvar against grey Pacific waters. Trade goods from a dozen cultures.
+      Orcas Island handles most external commerce. San Juan Island specializes in
+      Akama trade. Shaw Island is the quarantine station through which everything
+      passes. Lopez Island belongs to the Westerners—Avouvar do not go there, and
+      do not discuss why.
     rag_pointer: Asovoë and the Avouvar
     related: [Asovoë, Orcas Island, San Juan Island, Shaw Island, Lopez Island]
     location_features:
