@@ -12765,11 +12765,18 @@ entries:
   # ═══ Warren Tavern ═══
   Warren Tavern:
     category: location
-    short: "Social establishment in a converted infrastructure junction—baseline visitors cannot enter upright."
+    short: Ceiling height perhaps four feet—baseline visitors cannot enter without crawling.
     details: |
-      Ceiling height perhaps four feet; baseline visitors cannot enter without crawling.
-      Proprietor: Quick-Squeeze Verral (Ductworker, 50s). The tavern functions as community
-      center; information shared here circulates through the Warren.
+      A converted infrastructure junction. Whatever this space was built for,
+      it now serves as the Warren's social center. The proprietor knows
+      everyone. The regulars know everything. Information shared here
+      circulates through the Warren within hours.
+
+      The drinks are served in small vessels. The conversation is loud and
+      fast. Laughter echoes strangely in the low-ceilinged space. Baseline
+      visitors who somehow crawl in find themselves unable to participate—
+      unable to sit comfortably, unable to reach the bar, unable to join
+      conversations held at heights their bodies cannot accommodate.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Warren-Under-Stone, Ductworker, ya-Don]
     location_features:
