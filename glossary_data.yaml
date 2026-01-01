@@ -15133,13 +15133,15 @@ entries:
   Institute for Civil Order:
     category: organization
     parent: Bureau of the Sword
-    short: "Sword subdivision managing gendarmes—near-baseline infantry doing police work in urban territories."
+    short: Sword subdivision managing gendarmes—near-baseline infantry doing police work in urban territories.
     details: |
       The gendarme branch, managing garrison duty, urban pacification, and
-      enforcement of Imperial law. Soldiers are not Warborn—they're near-baseline
-      infantry doing police work. Commanders know every gang leader in their
-      territory by name. The arrangements work through mutual understanding
-      rather than overwhelming force.
+      enforcement of Imperial law. Soldiers are not Warborn—they are
+      near-baseline infantry doing police work.
+
+      Commanders know every gang leader in their territory by name. The
+      arrangements work through mutual understanding rather than overwhelming
+      force. Both sides prefer it that way.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Sword, Near-Baseline]
   # ─── end Institute for Civil Order ───
