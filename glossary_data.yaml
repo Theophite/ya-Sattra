@@ -4160,15 +4160,26 @@ entries:
   # ═══ Far Wall ═══
   Far Wall:
     category: location
-    short: "Government and bureaucracy side of Glen Canyon—Senate Chamber, ministry warrens, Cathedral atop."
+    short: Government side of Glen Canyon—bureaucratic warrens below, Senate Chamber in the middle, Cathedral overhanging the cliff at the top.
     details: |
-      The canyon wall hosting government, bureaucracy, and transformed wealth. Lower levels:
-      bureaucratic warrens notoriously confusing—endless tunnels connecting offices, meeting
-      rooms, archive storage. Mid-level: the Senate Chamber, 150 feet across, tiered seating
-      for 750 senators, revolutionary reliefs carved over monarchical scenes. Higher up:
-      Hereditary Debtors' quarter, former slave quarters now valuable property. Atop: the
-      Cathedral, former palace of Sultana Ulayah, now Patriarch Kaleb's seat, partially
-      overhanging the cliff.
+      The canyon wall hosting government, bureaucracy, and transformed
+      wealth. The layers tell a story visible from across the canyon.
+      Lower levels: bureaucratic warrens notoriously confusing, endless
+      tunnels connecting offices and meeting rooms and archive storage. A
+      petitioner might spend hours navigating.
+
+      Mid-level: the Senate Chamber, a hundred and fifty feet across,
+      tiered seating for seven hundred fifty senators. Revolutionary
+      reliefs carved over monarchical scenes, the originals faintly visible
+      underneath if you know where to look. The scale defeats intimacy and
+      enables spectacle.
+
+      Higher up: quarters that once housed slaves, now valuable property.
+      The transformation required only changing who lives there, not
+      rebuilding. Atop it all: the Cathedral, former palace now religious
+      seat, massive sandstone partially overhanging the cliff. From across
+      the canyon, power reads in layers—bureaucracy, legislature, money,
+      faith, ascending toward the sky.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Ganat proper, Near Wall]
     location_features:
