@@ -17611,16 +17611,19 @@ entries:
   # ═══ Korel Benru ═══
   Korel Benru:
     category: person
-    short: "Patriarch of Clan Benru—elder statesman maintaining balance between legal registration and sewer-fisher solidarity."
+    short: Patriarch of Clan Benru—elder statesman maintaining balance between legal registration and sewer-fisher solidarity.
     person_location: Middens
     details: |
-      Age 67. Elder statesman of the Benru clan, operating from their three-story structure
-      outside Vetch-Rise in the Iron Yards. Pure-line sewer-fisher features: webbed fingers,
-      blade-ears, void-black eyes. Maintains delicate balance between cooperation with Imperial
-      bureaucracy and protection of sewer-fisher interests. His documentation network transforms
-      illegal sewer-fisher labor into legally acceptable paperwork. Only Tatius Benru, who
-      allegedly passed the Seven-Cornered Examination and serves in the Bureau of the Lens,
-      exceeds his influence within the clan.
+      Sixty-seven years old. Elder statesman of the Benru clan,
+      operating from their three-story structure outside Vetch-Rise in
+      the Iron Yards. Pure-line sewer-fisher features: webbed fingers,
+      blade-ears, void-black eyes. Maintains delicate balance between
+      cooperation with Imperial bureaucracy and protection of sewer-
+      fisher interests. His documentation network transforms illegal
+      sewer-fisher labor into legally acceptable paperwork. Only Tatius
+      Benru, who allegedly passed the Seven-Cornered Examination and
+      serves in the Bureau of the Lens, exceeds his influence within
+      the clan.
     rag_pointer: "The Sewer-Fishers of the Middens"
     related: [Sewer-Fishers, Benru, Middens, Iron Yards, Tatius Benru]
   # ─── end Korel Benru ───
