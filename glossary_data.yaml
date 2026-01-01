@@ -15150,13 +15150,16 @@ entries:
   Institute of Auxiliary Relations:
     category: organization
     parent: Bureau of the Sword
-    short: "Sword subdivision managing non-Imperial forces—half military administration, half diplomatic corps."
+    short: Sword subdivision managing non-Imperial forces—half military administration, half diplomatic corps.
     details: |
-      Manages relationships with forces that aren't technically Imperial but
-      fight under Imperial banners—half military administration, half diplomatic
-      corps. Liaison staff speak languages the Empire officially denies exist,
+      Manages relationships with forces that are not technically Imperial
+      but fight under Imperial banners—half military administration, half
+      diplomatic corps.
+
+      Liaison staff speak languages the Empire officially denies exist,
       negotiate prisoner exchanges with the Thousand Kingdoms, and arrange
-      supply agreements with Republic-adjacent smugglers.
+      supply agreements with Republic-adjacent smugglers. The work is
+      necessary, deniable, and never discussed at Court.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Sword, Thousand Kingdoms, Ganat]
   # ─── end Institute of Auxiliary Relations ───
