@@ -14666,12 +14666,17 @@ entries:
   Institute of Reproductive Sanction:
     category: organization
     parent: Bureau of the Creche
-    short: "Creche subdivision managing public birthing centers and prenatal gene therapy—powerful in compliant territories only."
+    short: Creche subdivision managing public birthing centers—powerful in compliant territories only.
     details: |
       Manages public birthing centers, prenatal gene therapy, and postnatal
-      developmental monitoring. Remains powerful in compliant territories like
-      the Third Whorl. Ya-Don's Penitent-aligned unions ignore its mandates
-      entirely, and outer provinces treat its inspectors as suggestions at best.
+      developmental monitoring. Remains powerful in compliant territories
+      like the Third Whorl, where its inspectors command respect and its
+      mandates carry force.
+
+      Ya-Don's Penitent-aligned unions ignore its mandates entirely. Outer
+      provinces treat its inspectors as suggestions at best. The Institute
+      pretends universal authority. Everyone knows the limits of that
+      pretense. Compliance varies by distance from the capital.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Creche, ya-Don, Penitent Church]
   # ─── end Institute of Reproductive Sanction ───
