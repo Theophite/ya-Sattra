@@ -15796,13 +15796,16 @@ entries:
   # ═══ Quiet Days ═══
   Quiet Days:
     category: event
-    short: "Twice-yearly observance when no contracts are valid and silence is observed—universal Oracle practice."
+    short: Twice-yearly observance when no contracts are valid and silence is observed—universal Oracle practice.
     details: |
-      The only truly universal Oracle practice across the Empire. All commercial activity
-      ceases. Silence institutionalizes reflection—pause rather than creating new branch
-      points. Even cynics and revolutionaries observe them. Penitent Church sings final
-      two verses of the Plea during Quiet Days. Regional variation in duration and
-      strictness, but the core observance is ubiquitous.
+      The only truly universal Oracle practice across the Empire. All
+      commercial activity ceases. Silence institutionalizes reflection—pause
+      rather than creating new branch points.
+
+      Even cynics and revolutionaries observe them. The Penitent Church
+      sings final two verses of the Plea during Quiet Days. Regional
+      variation in duration and strictness, but the core observance is
+      ubiquitous. Twice a year, the Empire stops.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Oracle Cult, Seven Virtues]
     event_features:
