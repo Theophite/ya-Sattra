@@ -15115,14 +15115,16 @@ entries:
   Institute for Ordnance:
     category: organization
     parent: Bureau of the Sword
-    short: "Sword subdivision for weapons procurement—formal channels are archaeological curiosities, real work happens through corruption."
+    short: Sword subdivision for weapons procurement—formal channels are archaeological curiosities, real work happens through corruption.
     details: |
       A bureaucratic nightmare where official channels exist primarily as
       archaeological curiosities. Every weapon request routes through systems
-      referencing weapon types that haven't existed for centuries. The real
-      work happens through bribery, theft, and creative accounting. Imperial
-      forces remain armed despite complete inability to actually procure arms
-      through proper channels.
+      referencing weapon types that have not existed for centuries.
+
+      The real work happens through bribery, theft, and creative accounting.
+      Imperial forces remain armed despite complete inability to actually
+      procure arms through proper channels. Everyone knows. No one can
+      change it.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Sword, Colonels-Hereditary]
   # ─── end Institute for Ordnance ───
