@@ -14564,13 +14564,19 @@ entries:
   # ═══ Satara ═══
   Satara:
     category: organization
-    short: "Twelve-member council governing the Empire in the Emperor's absence."
+    short: Twelve-member council governing the Empire in the Emperor's absence—two representatives from each Bureau.
     details: |
-      Two representatives from each of the six Bureaux. Meets in the Second Whorl. Cannot 
-      exercise reserved powers (declaration of war, new taxation, highest appeals, vel-kerith) 
-      without First Whorl authorization. Current political conflict centers on the City-of-Glass 
-      Charter, which transferred reproductive jurisdiction from Creche to Scale. Conservative 
-      coalition seeks to reverse these protections.
+      Two representatives from each of the six Bureaux. Meets in the Second
+      Whorl. Cannot exercise reserved powers—declaration of war, new
+      taxation, highest appeals, vel-kerith—without First Whorl
+      authorization. The Emperor has not provided authorization in living
+      memory. The reserved powers remain reserved.
+
+      Current political conflict centers on the City-of-Glass Charter, which
+      transferred reproductive jurisdiction from the Bureau of the Creche to
+      the Bureau of the Scale. A conservative coalition seeks to reverse
+      these protections. The debate continues. The Satara deliberates. The
+      Emperor remains silent.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Emperor, Second Whorl, Bureau of the Lens, Bureau of the Creche, Bureau of the Scale, Bureau of the Rod, Bureau of the Sword, Bureau of the Coin]
   # ─── end Satara ───
