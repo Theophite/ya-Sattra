@@ -10764,12 +10764,14 @@ entries:
   # ═══ Central Ogon ═══
   Central Ogon:
     category: location
-    short: "Tama Family commercial zone—gambling halls and public works."
+    short: Commercial zone—the gambling halls are neutral ground.
     details: |
-      Central district of Ogon controlled by Bal Tama and the Tama Family.
-      Contains their gambling halls (neutral ground for negotiations),
-      commercial properties, and public works infrastructure. The deaf
-      warband of 200 provides security, immune to Compulsion.
+      Central district of Ogon controlled by a Near-Baseline family operating
+      within an Akama world. The gambling halls serve as neutral ground for
+      negotiations between factions—enemies who would kill each other elsewhere
+      sit across tables here. Commercial properties and public works
+      infrastructure. A deaf warband of two hundred provides security, immune to
+      Compulsion. The district survives by being useful to everyone.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Ogon, Bal Tama, Tama Family]
     location_features:
