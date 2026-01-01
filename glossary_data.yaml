@@ -15079,12 +15079,17 @@ entries:
   Institute for Restricted Castes:
     category: organization
     parent: Bureau of the Sword
-    short: "Sword subdivision managing military caste biology—perpetual jurisdiction dispute with Creche."
+    short: Sword subdivision managing military caste biology—perpetual jurisdiction dispute with Creche.
     details: |
-      Manages the biological needs of military populations—Warborn amino acid
-      supplies, Kēt supplement distribution, Ironbone calcium supplementation.
+      Manages the biological needs of military populations—Warborn amino
+      acid supplies, Kēt supplement distribution, Ironbone calcium
+      supplementation.
+
       Fights perpetually with the Creche over who controls military biology,
-      usually losing but maintaining authority through sheer bureaucratic persistence.
+      usually losing but maintaining authority through sheer bureaucratic
+      persistence. The soldiers caught between the two institutions learn
+      to file requests with both and hope one arrives before withdrawal
+      symptoms become incapacitating.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Sword, Bureau of the Creche, Warborn, Ironbone]
   # ─── end Institute for Restricted Castes ───
