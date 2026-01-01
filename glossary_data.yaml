@@ -10662,15 +10662,16 @@ entries:
   # ═══ The Barracks ═══
   The Barracks:
     category: location
-    short: "Iron-Rain's warrior territory—1,200 fighters, Kessa's bar."
+    short: Warrior territory—twelve hundred fighters maintained through pure physical dominance.
     details: |
-      Northern section of Ogon where Iron-Rain maintains informal control with
-      his 1,200 warriors through pure physical dominance. Named for the warrior
-      encampments that dominate the district. Also overlaps with primary Kma-Dhol
-      residential areas and the Kma-Dhol Quarter where Vey Nine Birds operates.
+      Northern section of Ogon named for the warrior encampments that dominate
+      the district. Twelve hundred fighters controlled through pure physical
+      dominance rather than wealth or technical advantage. The district overlaps
+      with primary Kma-Dhol residential areas—compression passages allow the
+      smaller caste access to spaces too tight for Akama bulk.
 
-      KESSA'S: The bar where Iron-Rain drinks with his inner circle, serving as
-      his de facto headquarters. Named for its owner.
+      A bar in the district serves as de facto headquarters. Decisions affecting
+      hundreds of fighters happen over drinks rather than formal assembly.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Ogon, Iron-Rain, Vey Nine Birds, Kma-Dhol Quarter, Kessa's]
     location_features:
