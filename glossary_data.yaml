@@ -3361,12 +3361,24 @@ entries:
   # ═══ es-Kiral Compound ═══
   es-Kiral Compound:
     category: location
-    short: "Largest Aureate compound in ya-Don—formal vernacular at its most ambitious."
+    short: Largest Aureate compound in ya-Don—formal gardens watered by private cisterns, the only substantial ornamental vegetation in the city.
     details: |
-      Walled estate with climate-controlled interiors, formal gardens watered by 
-      private cisterns—the only substantial ornamental vegetation in ya-Don. Home 
-      of Sri Pater Morain es-Kiral and heir Veradis es-Kiral. ~80 residents. Patent 
-      administration offices. The architecture references ya-Sattra formality.
+      Walled estate with climate-controlled interiors. Formal gardens
+      watered by private cisterns—the only substantial ornamental
+      vegetation in ya-Don, where water is too precious for decorative
+      plants. The gardens announce wealth more effectively than any
+      architecture could: resources sufficient to grow beauty in a city
+      that can barely sustain necessity.
+
+      About eighty residents behind walls that reference ya-Sattra
+      formality. Patent administration offices handle the family's
+      licensing business. The architecture aims at the capital's
+      conventions, importing prestige through imitation.
+
+      To visit is to experience the theatrical deployment of water.
+      Fountains. Irrigation channels. Plants that would die within days
+      if the cisterns stopped flowing. The compound exists as proof of
+      surplus—resources so abundant they can be spent on beauty.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Aureate Enclave, es-Kiral, ya-Don]
     location_features:
