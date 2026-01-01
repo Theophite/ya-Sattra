@@ -4671,35 +4671,22 @@ entries:
   # ═══ Furnaces ═══
   Furnaces:
     category: location
-    short: Pre-Interdict industrial complex at the heart of ya-Don—the Empire's only source of new complex technology.
+    short: Pre-Interdict industrial complex at ya-Don's heart—the Empire's only source of new complex technology.
     details: |
-      Two square miles, ~80,000 workforce across three shifts. The only facility in the Empire 
-      capable of producing new complex technology. Temperature increases toward the center; 
-      inner sections require heat-adapted castes (Ashrat).
-      
-      PRIMARY OUTPUTS:
-      - Culverins: Electromagnetic infantry weapons. Produced in the Crucible (material prep) 
-        and Lattice Hall (crystalline matrices via Mutterer choir). Authentication systems 
-        built in at manufacture.
-      - Lectors: Computational/authentication devices. Inner ring production, most restricted. 
-        Requires Mutterer intervention, Verethani involvement, mysterious thermal regimes.
-      - Beamcasters: Plasma sidearms, standard Warborn issue. Pre-Interdict design, 
-        production process inherited rather than understood.
-      - Power armor components: For Warborn and specialist applications. Repairs and 
-        replacement parts; complete suits are archaeotech inheritance.
-      - Biological illumination: Two hundred tanks of bioluminescent organisms for Imperial 
-        lighting. Five tanks have died in recorded history; those capabilities are lost forever.
-      - Electronic components: Resistors, capacitors, semiconductors. The closest thing to 
-        conventional manufacturing.
-      - Cooling systems: Heat-exchange components under es-Vorath patent.
-      
-      STRUCTURE: Outer ring (storage, admin, preliminary processing), middle ring (culverin 
-      lines, component fabrication, illumination), inner ring (lector production, Mutterer 
-      chambers, ancient systems). Workers learn the geography without understanding the logic.
-      
-      CONTROL: Furnace Board (three patent families, four major guilds, Bureau of the Rod). 
-      Order of St. Akhmet holds absolute leverage—a strike shuts down the Empire's only 
-      source of new complex technology. This has happened twice; both times the Empire 
+      Two square miles, eighty thousand workers across three shifts. Temperature increases
+      toward the center; inner sections require heat-adapted castes. The only facility in
+      the Empire capable of producing culverins, lectors, beamcasters, power armor components,
+      biological illumination organisms, electronic components, cooling systems. Workers learn
+      the geography without understanding the logic.
+
+      Outer ring handles storage, administration, preliminary processing. Middle ring runs
+      culverin lines, component fabrication, the two hundred tanks of bioluminescent organisms
+      that light the Empire. Inner ring produces lectors through processes requiring Mutterer
+      intervention and mysterious thermal regimes. Five illumination tanks have died in
+      recorded history; those capabilities are lost forever.
+
+      The Order of St. Akhmet holds absolute leverage—a strike shuts down the Empire's only
+      source of new complex technology. This has happened twice. Both times, the Empire
       capitulated within weeks.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Order of St. Akhmet, Culverin, Beamcaster, Lector, Bureau of the Rod]
