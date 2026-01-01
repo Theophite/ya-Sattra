@@ -11640,14 +11640,19 @@ entries:
   # ═══ Customs Quarter ═══
   Customs Quarter:
     category: location
-    short: "Where the Rod/Coin customs house dominates eastern Toh—200x300 feet, three stories, twelve inspection bays."
+    short: Rod/Coin customs house—visa processing takes two to four days routine.
     details: |
-      Rod/Coin customs house: 200x300 feet, granite walls with slate roofing, built 600 years 
-      ago and renovated extensively. Ground floor: twelve inspection bays handling 4-6 caravans 
-      simultaneously, secure storage, holding cells. Second floor: administrative offices, visa 
-      processing (2-4 days routine, longer for complications), document authentication. Third 
-      floor: Lens operations under cover of Rod administration. During peak season, three 
-      8-hour shifts process caravans continuously.
+      Three stories of granite, two hundred by three hundred feet, built six
+      hundred years ago and renovated extensively. Twelve inspection bays on the
+      ground floor handle four to six caravans simultaneously. Secure storage.
+      Holding cells for those whose papers prove unsatisfactory.
+
+      Second floor: administrative offices, visa processing. Two to four days
+      routine, longer for complications. Document authentication requires
+      waiting in line, waiting for clerks, waiting for supervisors. Third floor:
+      the Lens operates under cover of Rod administration. During peak season
+      three eight-hour shifts process caravans continuously. The wait itself is
+      the experience—everyone passes through here eventually.
     rag_pointer: Index
     related: [Toh, Bureau of the Rod, Bureau of the Coin, Bureau of the Lens]
     location_features:
