@@ -6086,14 +6086,18 @@ entries:
   # ═══ Salvage Dome ═══
   Salvage Dome:
     category: location
-    short: "Pre-Interdict structure housing Salvage Guild operations."
+    short: Pre-Interdict structure housing Salvage Guild operations—original purpose unknown, current purpose unmistakable.
     details: |
-      Unknown original purpose. Bronze curves somehow wrong compared to contemporary 
-      construction. Forty-foot circular skylights glazed with greenish pre-Interdict 
-      material. Carved relief covers every surface: geometric patterns, figures in 
-      profile, unreadable script. Auction floor runs three-hour cycles. Oracle shrine 
-      in eastern corner maintained by Curate Varen Taasaren. Northern annexes house 
-      radiation containment, chemical processing, underground vaults.
+      Bronze curves somehow wrong compared to contemporary construction. Forty-foot
+      circular skylights glazed with greenish pre-Interdict material. Carved relief
+      covers every surface: geometric patterns, figures in profile, unreadable script.
+      No one knows what the Antediluvians used it for. The Salvage Guild uses it for
+      auctions.
+
+      The auction floor runs three-hour cycles. An Oracle shrine occupies the eastern
+      corner. Northern annexes house radiation containment, chemical processing,
+      underground vaults. Commerce happens in a building older than memory, conducted
+      beneath carvings no one can read.
     rag_pointer: The Iron Yards
     related: [Iron Yards, Salvage Guild]
     location_features:
