@@ -5954,11 +5954,16 @@ entries:
   # ═══ Dry-Dock 3 ═══
   Dry-Dock 3:
     category: location
-    short: "Largest dry dock in the Iron Yards."
+    short: Largest dry dock in the Iron Yards—two hundred meters long, cut deeper into bedrock than the quarried basin floor.
     details: |
-      Maintains a controlled flood for hull repairs—a permanent pool of oily water 
-      reflecting sparks from cutting operations above. Northern edge drops toward 
-      harbor and the Rift. Dockmaster Pell Pelesar oversees operations.
+      The lowest point in the Yards. Controlled flooding functions through pre-Interdict
+      mechanisms the operators don't understand—knowledge inherited, not designed. A
+      permanent pool of oily water at the bottom reflects sparks falling from cutting
+      operations above. Workers call it the industrial aurora, visible from the Ridge
+      on clear nights.
+
+      Grey bedrock walls. Massive hull sections suspended on cable-rigs. Salt water,
+      tar, dead fish, industrial runoff, hot metal. The scale dwarfs workers.
     rag_pointer: The Iron Yards
     related: [Iron Yards, Rift]
     location_features:
