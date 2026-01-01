@@ -76,9 +76,9 @@ MOJIBAKE_FIXES = {
     "\u00c2\u0095": "",                        # mangled control char (U+0095) - remove
     
     # Geometric shapes (E2 97 xx sequence)
-    "\u00e2\u2014\u2020": "\u25c6",           # â—† black diamond
-    "\u00e2\u2014\u2021": "\u25c7",           # â—‡ white diamond
-    "\u00e2\u2014\u2039": "\u25cb",           # â—‹ white circle
+    "\u00e2\u2014\u2020": "\u25c6",           # ◆ black diamond
+    "\u00e2\u2014\u2021": "\u25c7",           # ◇ white diamond
+    "\u00e2\u2014\u2039": "\u25cb",           # ○ white circle
     "\u00e2\u2014\u008f": "\u25cf",           # ● black circle
     "\u00e2\u02dc\u2026": "\u2605",           # ★ black star
     
@@ -88,9 +88,9 @@ MOJIBAKE_FIXES = {
     
     # Triple-encoded macrons (found in some markdown files)
     "\u00c3\u201e\u00c2\u0081": "\u0101",     # ā triple-encoded
-    "\u00c3\u201e\u00c2\u00ab": "\u012b",     # Ä« triple-encoded
+    "\u00c3\u201e\u00c2\u00ab": "\u012b",     # ī triple-encoded
     "\u00c3\u2026\u00c2\u008d": "\u014d",     # ō triple-encoded
-    "\u00c3\u2026\u00c2\u00ab": "\u016b",     # Å« triple-encoded
+    "\u00c3\u2026\u00c2\u00ab": "\u016b",     # ū triple-encoded
     
     # Common Latin-1 misreadings (C3 xx pattern = UTF-8 for U+00xx read as CP1252)
     "\u00c2\u00a0": "\u00a0",                 # nbsp

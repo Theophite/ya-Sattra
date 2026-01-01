@@ -526,12 +526,12 @@ def format_parse(word: str, analysis: Dict, verbose: bool = True) -> str:
     lines.append("\n  Components:")
     for m in analysis['morphemes']:
         marker = {
-            'particle': 'â—†',
-            'suffix': 'â—‹',
+            'particle': '◆',
+            'suffix': '○',
             'root': '●',
             'class_vii': '★',
             'emperor_specific': '✕',
-            'jargon': 'â—‡',
+            'jargon': '◇',
             'unknown': '?'
         }.get(m['position'], '?')
         lines.append(f"    {marker} {m['form']:12} → {m['meaning']}")
