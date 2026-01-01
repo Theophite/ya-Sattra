@@ -15007,13 +15007,16 @@ entries:
   # ═══ Jorin es-Kallo ═══
   Jorin es-Kallo:
     category: person
-    short: "Hereditary Clerk of the Binary Stars Docket—maintaining precedents for courts that will never convene."
+    short: Hereditary Clerk of the Binary Stars Docket—maintaining precedents for courts that will never convene.
     details: |
-      Sri Advocate, Scale Bureau Certified, Aureate of the Empire. Maintains a docket for
-      the Court of Binary Stars, an interstellar jurisdiction made meaningless by the Interdict.
-      Operates a bookshop in the Medina Quarter where no one buys books. His real income
-      comes from finding specific passages in Bureau tax codes. His pension: forty obols monthly.
-      His title: elaborate fiction perpetuated professionally.
+      Sri Advocate, Scale Bureau Certified, Aureate of the Empire. Maintains
+      a docket for the Court of Binary Stars, an interstellar jurisdiction
+      made meaningless by the Interdict. Operates a bookshop in the Medina
+      Quarter where no one buys books.
+
+      His real income comes from finding specific passages in Bureau tax
+      codes. His pension: forty obols monthly. His title: elaborate fiction
+      perpetuated professionally.
     rag_pointer: "Story Vignettes Collection"
     related: [Bureau of the Scale, Aureate, Interdict]
   # ─── end Jorin es-Kallo ───
