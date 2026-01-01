@@ -6004,12 +6004,16 @@ entries:
   # ═══ Breakspar Loft ═══
   Breakspar Loft:
     category: location
-    short: "Shipping containers welded to cliff face—vertical worker housing climbing toward the Ridge."
+    short: Shipping containers welded to cliff face—a thousand people in vertical worker housing climbing toward the Ridge.
     details: |
-      ~1,000 people in forty-odd container units welded to the cliff, connected by 
-      catwalks and cable-lift to Torchline Row. Named for the broken ship's mast driven 
-      into stone as main structural support. Boss Hella Vordir manages the building—
-      former stevedore whose joints gave out at forty-five.
+      Forty-odd container units welded to the cliff, connected by catwalks and cable-lift
+      to Torchline Row. Named for the broken ship's mast driven into stone as main
+      structural support. A building boss manages operations—typically a former laborer
+      whose body gave out before their need for income did.
+
+      Each container holds a family or group of single workers. The structure groans
+      in high wind. The view is spectacular. The climb is exhausting. Home for people
+      whose alternatives are worse.
     rag_pointer: The Iron Yards
     related: [Iron Yards, Forge Terrace, Ridge]
     location_features:
