@@ -17343,16 +17343,14 @@ entries:
   # ═══ Gorvan Salvage ═══
   Gorvan Salvage:
     category: organization
-    short: "Akama captured equipment evaluation and authentication bypass operation."
+    short: Akama captured equipment evaluation and authentication bypass operation.
     details: |
-      LOCATION: Ogon harbor district.
-      
-      PRODUCTS: Authentication bypass (Imperial weapons), equipment evaluation and 
-      certification, parts harvesting from damaged equipment.
-      
-      CHARACTER: Gorvan himself handles the neural-lock bypass—the delicate work of 
-      convincing Imperial weapons they're being held by authorized users. His apprentices 
-      do the rest. If it was captured, they can tell you if it works.
+      Located in the Ogon harbor district. Specializes in authentication
+      bypass for Imperial weapons, equipment evaluation and certification,
+      parts harvesting from damaged equipment. The master handles the
+      neural-lock bypass himself—the delicate work of convincing Imperial
+      weapons they are being held by authorized users. Apprentices handle
+      the rest. If it was captured, they can tell you if it works.
     related: [Akama, Thousand Kingdoms, Culverin, Ogon]
   # ─── end Gorvan Salvage ───
 
