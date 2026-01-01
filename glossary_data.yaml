@@ -16426,13 +16426,18 @@ entries:
   # ═══ White Sheet ═══
   White Sheet:
     category: concept
-    short: "Public news distributed throughout the Empire—what ordinary citizens are permitted to know."
+    short: Public news distributed throughout the Empire—what ordinary citizens are permitted to know.
     details: |
-      Produced by Bureau of the Lens. Contains sanitized news, official announcements, 
-      approved commercial information. What it omits is as significant as what it 
-      includes. Available throughout ya-Sattra and major cities. The gap between 
-      White Sheet reality and actual events varies by topic—some accurately reported, 
-      others entirely fabricated.
+      Produced by the Bureau of the Lens. Contains sanitized news, official
+      announcements, approved commercial information. What it omits is as
+      significant as what it includes. Available throughout ya-Sattra and
+      major cities.
+
+      The gap between White Sheet reality and actual events varies by
+      topic—some stories accurately reported, others entirely fabricated.
+      Ordinary citizens read it knowing this. They parse the silences. They
+      guess at shapes from shadows. The White Sheet tells them the official
+      version. Experience teaches them what that means.
     rag_pointer: "Bureau of the Lens: Complete Documentation"
     related: [Grey Sheet, Black Sheet, Bureau of the Lens]
   # ─── end White Sheet ───
