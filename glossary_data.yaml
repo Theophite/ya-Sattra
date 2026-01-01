@@ -16279,13 +16279,17 @@ entries:
   # ═══ Record of the Black Star ═══
   Record of the Black Star:
     category: event
-    short: "Fourth unclassified Record—graffiti from this era still visible in Inner City lift stations."
+    short: Fourth unclassified Record—graffiti from this era still visible in Inner City lift stations.
     details: |
-      The fourth of the five unclassified Records. Names and dates carved into
-      bronze in the Inner City's lift stations date to this era—worn smooth by
-      time but still legible. The "Black Star" that names this period is
-      variously interpreted as astronomical event, political symbol, or
-      religious reference.
+      The fourth of the five unclassified Records. Names and dates carved
+      into bronze in the Inner City's lift stations date to this era—worn
+      smooth by time but still legible. The "Black Star" that names this
+      period is variously interpreted as astronomical event, political
+      symbol, or religious reference.
+
+      Someone scratched their name into metal over a thousand years ago.
+      The name remains. The person is dust. The meaning of the Black Star
+      is forgotten. The mark endures.
     rag_pointer: "The Aureate System"
     related: [Records, Aureate, Inner City]
     event_features:
