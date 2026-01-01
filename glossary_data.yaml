@@ -14760,13 +14760,18 @@ entries:
   Institute of Highborn Preservation:
     category: organization
     parent: Bureau of the Creche
-    short: "Creche subdivision serving Aureate families—rejuvenation, fertility treatments, and genetic management."
+    short: Creche subdivision serving Aureate families—rejuvenation, fertility treatments, genetic continuity.
     details: |
       Serves Aureate families with rejuvenation and fertility treatments,
       heir-sequence backups, and the genetic management that keeps modified
-      bloodlines viable. The most exclusive Institute, serving only authenticated
-      Aureate clients. Some staff have remained biologically stable for over
-      a century through the treatments they administer.
+      bloodlines viable. The most exclusive Institute, serving only
+      authenticated Aureate clients. Lesser castes cannot access these
+      services. Lesser castes age and die on schedule.
+
+      Some staff have remained biologically stable for over a century
+      through the treatments they administer. They grow old watching their
+      clients remain young. They continue anyway. The work matters more than
+      the unfairness.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Creche, Aureate, Highborn]
   # ─── end Institute of Highborn Preservation ───
