@@ -11889,14 +11889,19 @@ entries:
   # ═══ Communications Array ═══
   Communications Array:
     category: location
-    short: "200-foot Antediluvian tower with metal shapes that might be antennae—Rod facility, constant hum."
+    short: Antediluvian tower—hums constantly at a frequency just below audible range.
     details: |
-      Tower rising 200 feet above the valley floor, topped with configuration of metal shapes 
-      that might be antennae or decorative elements. Hums constantly at frequency just below 
-      audible range. The Rod has installed their own communications equipment around and within 
-      it, but original function remains unknown. Some scholars argue it was part of planet-wide 
-      network; others suggest it communicated with orbital facilities; a few maintain it's 
-      religious architecture with no functional purpose.
+      Two hundred feet above the valley floor, bronze-colored metal, topped with
+      shapes that might be antennae or might be decoration. The structure hums
+      constantly at a frequency just below audible range—a pressure in the chest
+      that never quite resolves.
+
+      The Rod has installed their own communications equipment around and within
+      it, treating the Antediluvian structure as scaffolding for modern systems.
+      Original function remains unknown. Some scholars argue planet-wide network;
+      others suggest communication with orbital facilities; a few maintain it is
+      religious architecture with no functional purpose. The humming has never
+      stopped, never varied, never responded to any stimulus.
     rag_pointer: Index
     related: [Toh, Antediluvian, Bureau of the Rod]
     location_features:
