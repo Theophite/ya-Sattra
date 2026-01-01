@@ -9731,16 +9731,20 @@ entries:
   # ═══ Senate Chamber ═══
   Senate Chamber:
     category: location
-    short: "Vast chamber carved from sandstone—150 feet across, tiered seating for 750 senators, revolutionary reliefs over monarchical scenes."
+    short: Vast chamber carved from sandstone—the spectacle is the point.
     details: |
-      Mid-level Far Wall. Tiered seating for 750 senators in concentric circles facing central
-      floor. The scale defeats intimacy—factions cluster by section, Dawn in eastern tiers,
-      Dusk concentrated west. The acoustics were designed for a smaller body; 750 voices
-      overwhelm them, and sessions dissolve into competing chants, coordinated heckling,
-      demonstrations of strength through volume. Former observation galleries now hold
-      backbenchers. Condensation drips from ceilings despite dehumidifiers—750 bodies
-      produce moisture the ventilation cannot handle. The reliefs are deep-carved, 3-4
-      inches into sandstone. Revolutionary scenes carved over monarchical.
+      One hundred fifty feet across, carved from salmon sandstone. Tiered seating
+      for seven hundred fifty senators in concentric circles facing the central
+      floor. The scale defeats intimacy—factions cluster by section, Dawn in
+      eastern tiers, Dusk concentrated west.
+
+      The acoustics were designed for perhaps two hundred; the current body
+      overwhelms them. Sessions dissolve into competing chants, coordinated
+      heckling, demonstrations of strength through volume. Condensation drips
+      from the ceiling despite dehumidifiers—seven hundred fifty bodies produce
+      moisture the ventilation cannot handle. The walls show revolutionary reliefs
+      carved three to four inches deep into sandstone, over older monarchical
+      imagery. The spectacle is the point.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Far Wall, Ganat proper]
     location_features:
