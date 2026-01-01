@@ -13183,13 +13183,17 @@ entries:
   # ═══ Port Ahn Citadel ═══
   Port Ahn Citadel:
     category: location
-    short: "Military fortification on promontory's highest point—gauss cannon track incoming vessels."
+    short: Gauss cannon on the highest point of the promontory—each barrel tracks every vessel entering the bay.
     details: |
-      Located on the highest point of Port Ahn's promontory. Features gauss cannon
-      emplacements that track every vessel entering the bay. Each barrel can punch
-      through a ship's hull at two kilometers. Represents unambiguous Imperial military
-      control over the strategic port. The cannon ensure that whatever chaos exists
-      in the markets below, the Empire's authority is never in question.
+      The cannon can punch through a ship's hull at two kilometers. Every
+      vessel entering the harbor does so with weapons trained on its waterline.
+      Every captain knows this. Every crew knows this. The transaction is
+      understood: you may trade here, but only because we permit it.
+
+      Whatever chaos exists in the markets below, the Empire's authority is
+      never in question. The Citadel watches. The barrels track. The message
+      is architectural: you are here at our sufferance, and we can end that
+      sufferance at any moment we choose.
     rag_pointer: "Vey, Trip to Port Ahn"
     related: [Port Ahn, Bureau of Sword]
     location_features:
