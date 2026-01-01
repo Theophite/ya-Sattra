@@ -16630,33 +16630,27 @@ entries:
   # ═══ Republican Veterans' Congress ═══
   Republican Veterans' Congress:
     category: organization
-    short: "Umbrella organization coordinating veterans' kilits (~50,000 people)—Dawn's most reliable constituency."
+    short: Umbrella organization coordinating veterans' kilits—roughly fifty thousand people, the Dawn Party's most reliable constituency.
     details: |
-      Founded by Yem azh-Khen, who remains perpetual Secretary. Coordinates fourteen
-      major veterans' kilits and dozens of smaller affiliates across the Republic.
-      Does not hold Senate seats directly—individual member kilits hold seats through
-      standard representation—but coordinates positions, mediates disputes, and
-      maintains networks that deliver Dawn votes reliably.
+      Coordinates fourteen major veterans' kilits and dozens of smaller
+      affiliates across the Republic. Does not hold Senate seats directly—
+      individual member kilits hold seats through standard representation—
+      but coordinates positions, mediates disputes, and maintains networks
+      that deliver Dawn votes reliably.
 
-      FUNCTIONS: Coordinates land grant allocation among member kilits. Mediates
-      disputes between veterans' organizations. Maintains employment networks for
-      veterans seeking civilian work. Operates mutual aid programs supplementing
-      kilit-specific benefits. Lobbies for military appropriations and veteran benefits.
+      Coordinates land grant allocation among member kilits. Mediates
+      disputes between veterans' organizations. Maintains employment
+      networks for veterans seeking civilian work. Operates mutual aid
+      programs supplementing kilit-specific benefits. Lobbies for military
+      appropriations and veteran benefits.
 
-      POLITICS: Votes Dawn on military issues unanimously. On other matters, fragments
-      along same lines as constituent kilits—radicals want accelerated redistribution,
-      moderates want consolidation, pragmatists want whatever benefits their specific
-      situations.
-
-      THE LAND GRANT MECHANISM: Veterans receive eastern territory through kilit
-      channels—the revolutionary redistribution that broke up aristocratic estates.
-      Individual applications receive lower priority than kilit-coordinated submissions.
-      This channels veterans into organizational structures that deliver Dawn votes
-      while providing genuine material benefits.
-
-      THREE MAJOR KILITS: Frontier Veterans' Collective (~4,500, radical Dawn,
-      collective farms), Eastern Range Cooperative (~6,200, moderate Dawn, individual
-      homesteads), Homesteaders' Brotherhood (~3,800, pragmatic, minimal ideology).
+      Veterans receive eastern territory through kilit channels—the
+      revolutionary redistribution that broke up aristocratic estates.
+      Individual applications receive lower priority than kilit-coordinated
+      submissions. This channels veterans into organizational structures
+      that deliver Dawn votes while providing genuine material benefits.
+      The Congress binds them together. The land makes it worth their
+      while.
     rag_pointer: "The Republic of Ganat"
     related: [Ganat, Dawn Party, Yem azh-Khen, Ministry of War, Frontier Veterans' Collective, Eastern Range Cooperative, Homesteaders' Brotherhood]
   # ─── end Republican Veterans' Congress ───
