@@ -14447,11 +14447,19 @@ entries:
   # ═══ es-Verlaus ═══
   es-Verlaus:
     category: organization
-    short: "Aureate family controlling archaeotech taxation—assess and tax all salvaged technology."
+    short: Aureate family controlling archaeotech taxation—assess and tax all salvaged technology.
     details: |
-      Estate: Seven-and-One Meridian Terrace, spectrum shifting from angry red at base 
-      through colors causing eye strain, apex showing nothing the brain can process. 
-      Keep horses for racing on middle levels. Karvan es-Verlaus leads.
+      Estate: Seven-and-One Meridian Terrace, its spectrum shifting from
+      angry red at base through colors that cause eye strain, the apex
+      showing nothing the brain can process. Look up and the mind stutters.
+      Look away and the afterimage burns.
+
+      The family assesses and taxes all salvaged technology entering
+      legitimate commerce. What the Salvage Guild certifies, the es-Verlaus
+      evaluate. Their judgment determines what percentage flows to the
+      imperial coffers. They keep horses for racing on the middle levels—the
+      only flat ground in the estate suitable for hooves, a strange hobby
+      for a family that sees the unseeable.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, Aureate, Aureate System]
   # ─── end es-Verlaus ───
