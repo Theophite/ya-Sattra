@@ -4270,32 +4270,30 @@ entries:
   # ═══ Hereditary Debtors ═══
   Hereditary Debtors:
     category: organization
-    short: "Bureaucratic corps bound to state service—~18,000 members, two Senate seats, staff every significant office, swing vote."
+    short: Bureaucratic corps bound to state service—eighteen thousand members who inherited debt and guaranteed employment, now the Republic's most competent administrators.
     details: |
-      Descendants of kilits whose members forfeited freedom to the Sultanate's treasury,
-      transformed by the constitutional settlement from slaves into "public service
-      obligated" workers. Members earn wages comparable to free employees; a portion
-      (initially 40%, reduced over time) goes to debt service. Children inherit obligation
-      but also inherit guaranteed Ministry employment and institutional knowledge.
+      Descendants of those whose debts became hereditary under the old
+      regime, transformed by revolution from slaves into "public service
+      obligated" workers. Members earn wages comparable to free employees;
+      a portion goes to debt service. Children inherit obligation but also
+      inherit guaranteed ministry employment and institutional knowledge.
 
-      The kilit's members have become the Republic's most competent administrators.
-      A Minister serves five years; their Debtor deputy serves thirty and trains the
-      next three Ministers. They maintain the Republic's most comprehensive archives
-      and process the paperwork that makes governance function—census records, membership
-      transfers, legislative tracking. This creates an intelligence network rivaling
-      the Church's.
+      They have become the Republic's most competent administrators. A
+      minister serves five years; their Debtor deputy serves thirty and
+      trains the next three ministers. They maintain the most comprehensive
+      archives, process the paperwork that makes governance function. This
+      creates an intelligence network rivaling the Church's.
 
-      Approximately one-third of current membership acquired status voluntarily within
-      the past fifteen years. Academy students take treasury loans, default strategically,
-      accept hereditary status, and receive guaranteed Ministry positions. Original
-      Debtors view these newcomers with complex feelings—they chose bondage others
-      were born into, carry lighter obligations, benefit from institutional infrastructure
-      without sharing historical grievance.
+      About a third of current membership acquired status voluntarily—
+      students taking treasury loans, defaulting strategically, accepting
+      hereditary status in exchange for guaranteed positions. Original
+      Debtors view these newcomers with complex feelings: they chose
+      bondage others were born into.
 
-      Two Senate seats. Neither faction secures their support permanently. Senator Yem
-      Tokan votes whichever party offers better debt reduction terms. The annual
-      Reckoning Festival combines funeral, birth, and wedding—"capitalism's most honest
-      expression."
+      Two Senate seats. Neither faction secures their support permanently.
+      Whoever offers better debt reduction terms wins their votes. The
+      annual Reckoning Festival combines funeral, birth, and wedding—the
+      community celebrating and mourning its condition simultaneously.
     rag_pointer: "Hereditary Debtors"
     related: [Ganat, Senate, Yem Tokan, Hereditary Debtors' Quarter, Kilit, Reckoning Festival, Tekhel Dhal-Orin]
   # ─── end Hereditary Debtors ───
