@@ -17296,17 +17296,16 @@ entries:
   # ═══ Dzoragh Ironhand ═══
   Dzoragh Ironhand:
     category: person
-    short: "Akama master smith, third generation—travels between Malpais villages with mobile forge."
+    short: Akama master smith, third generation—travels between Malpais villages with mobile forge.
     person_location: Malpais
     details: |
-      LOCATION: Mobile forge, Malpais villages.
-      
-      PRODUCTS: Destrier tack (harness, saddle frames), gouges with distinctive 
-      blood-channel fuller, sabers (single-edge, moderate curve), spearheads and lance tips.
-      
-      CHARACTER: Third generation. His gouges are identifiable by the fuller design—
-      a channel that routes blood away from the grip. Traditional smithing methods 
-      passed down through family.
+      Mobile forge traveling between Malpais villages. Third-generation
+      smith. His gouges are identifiable by the fuller design—a channel
+      that routes blood away from the grip. Produces destrier tack,
+      harness and saddle frames, sabers with moderate curve, spearheads
+      and lance tips. Traditional methods passed down through family.
+      When he arrives, the village gathers. Everyone needs something
+      repaired or reforged.
     related: [Akama, Thousand Kingdoms, Gouge, Grandmother Vurda Eleven-Sage]
   # ─── end Dzoragh Ironhand ───
 
