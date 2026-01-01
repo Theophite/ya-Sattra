@@ -11858,15 +11858,19 @@ entries:
   # ═══ Holographic Meadow ═══
   Holographic Meadow:
     category: location
-    short: "Twelve dancing figures at sunset and dawn—47-minute sequence, emitters 200 feet deep in bedrock."
+    short: Twelve dancing figures at sunset and dawn—operating without interruption for as long as anyone has records.
     details: |
-      Two miles south of Toh, in a flat meadow suitable for gatherings. Holographic projectors 
-      buried in bedrock create twelve dancing figures in elaborate costumes performing what 
-      might be ritual dances, theatrical performances, or abstract movement. Holograms appear 
-      at sunset and dawn, run 47-minute sequence, then fade. The Rod has excavated repeatedly 
-      trying to access projectors or determine power source—embedded in solid granite more 
-      than 200 feet down. The holograms have operated without interruption for as long as 
-      anyone has records.
+      Two miles south of Toh, a flat meadow suitable for gatherings. Holographic
+      projectors buried in bedrock create twelve dancing figures in elaborate
+      costumes performing what might be ritual dances, theatrical performances,
+      or abstract movement. The holograms appear at sunset and dawn, run a
+      forty-seven-minute sequence, then fade.
+
+      The Rod has excavated repeatedly trying to access projectors or determine
+      power source—embedded in solid granite more than two hundred feet down.
+      The holograms have operated without interruption for as long as anyone has
+      records. Entertainment for audiences that no longer exist. Or perhaps for
+      audiences that will never understand.
     rag_pointer: Index
     related: [Toh, Antediluvian, Bureau of the Rod]
     location_features:
