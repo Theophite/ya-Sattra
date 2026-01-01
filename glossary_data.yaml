@@ -16770,13 +16770,18 @@ entries:
   # ═══ Confraternity of Sekhal ═══
   Confraternity of Sekhal:
     category: organization
-    short: "Serrulata legal kilit—Ganati language, pastoral law, religious framing, 700 members."
+    short: Serrulata legal kilit—Ganati language, pastoral law, religious framing, seven hundred members.
     details: |
-      Named for the Third Shining One (Oracle of Adjudication). Examinations in Ganati,
-      not Imperial. Emphasizes land rights, water disputes, kinship obligations, customary
-      law. Serves Serrulata who want practitioners sharing their religious traditions.
-      Largest legal kilit at 700 members. Concentrated in Ganat proper and pastoral
-      territories. Swelling ranks as land-grant disputes multiply.
+      Named for the Third Shining One, the Oracle of Adjudication.
+      Examinations in Ganati, not Imperial. Emphasizes land rights, water
+      disputes, kinship obligations, customary law. Serves Serrulata who
+      want practitioners sharing their religious traditions.
+
+      The largest legal kilit at seven hundred members. Concentrated in
+      Ganat proper and the pastoral territories. Ranks swell as land-grant
+      disputes multiply. The Taho Bar practices commercial law in Imperial.
+      The Confraternity practices customary law in Ganati. Different
+      clients, different languages, different worlds.
     rag_pointer: "Professional Kilits and Certification"
     related: [Ganat, Kilit, Ministry of Justice, Serrulata]
   # ─── end Confraternity of Sekhal ───
