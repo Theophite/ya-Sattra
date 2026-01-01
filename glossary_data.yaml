@@ -15043,13 +15043,16 @@ entries:
   Institute for Strategic Planning:
     category: organization
     parent: Bureau of the Sword
-    short: "Sword subdivision managing campaign design—officially writes obsolete manuals, unofficially maintains practical guides."
+    short: Sword subdivision managing campaign design—officially writes obsolete manuals, unofficially maintains practical guides.
     details: |
-      Manages campaign design and operational doctrine. Officially writes manuals
-      for capabilities the Empire lost millennia ago. Unofficially maintains
-      parallel practical guides—distributed through back channels to officers
-      who need them. Describes how to coordinate caste levy units with Warborn
-      shock troops, maintain supply lines, retreat without it looking like retreat.
+      Manages campaign design and operational doctrine. Officially writes
+      manuals for capabilities the Empire lost millennia ago. Unofficially
+      maintains parallel practical guides—distributed through back channels
+      to officers who need them.
+
+      The practical guides describe how to coordinate caste levy units with
+      Warborn shock troops, maintain supply lines, retreat without it looking
+      like retreat. Everyone pretends the official manuals matter.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Sword, Warborn]
   # ─── end Institute for Strategic Planning ───
