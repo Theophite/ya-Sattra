@@ -5110,11 +5110,17 @@ entries:
   # ═══ Khesh-Dalan ═══
   Khesh-Dalan:
     category: location
-    short: "Revolutionary Akama experiment on Ganat's northern frontier."
+    short: Revolutionary experiment integrating Akama population with Republican structures—two visual vocabularies in dialogue.
     details: |
-      Settlement attempting to integrate Akama population with Republican structures. 
-      One of the location guides in the Ganat documentation alongside Ganat proper, 
-      Taho, High Junction, Ghemar-yan, and March of Keth-Amran.
+      Northern Ganati frontier near the Thousand Kingdoms border. High desert grassland
+      where Akama pastoral traditions meet Republican governance structures. Felt tents
+      alongside adobe buildings. Kilit meeting halls. Schools. The experiment visible in
+      mixed architectural vocabulary—neither fully Akama nor fully Ganati.
+
+      Can Akama become citizens? The experiment continues here, in how children are
+      educated, in how disputes are resolved, in whether the felt tents stay or give way
+      to permanent construction. Some families have transitioned fully to Republican
+      norms. Others maintain pastoral cycles. Most do both.
     rag_pointer: The Republic of Ganat
     related: [Ganat, Akama, Thousand Kingdoms]
     location_features:
