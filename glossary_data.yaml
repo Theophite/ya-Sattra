@@ -14722,13 +14722,17 @@ entries:
   Institute of Developmental Safety:
     category: organization
     parent: Bureau of the Creche
-    short: "Creche subdivision overseeing clone crèche safety—symbolically feared but often bypassed."
+    short: Creche subdivision overseeing clone crèche safety—symbolically feared but often bypassed.
     details: |
-      Formerly the Institute of Maternal Fidelity. Oversees clone crèche safety
-      protocols, pediatric care standards, and mutation-response guidelines.
-      Symbolically feared but often bypassed by guilds and outer polities.
+      Formerly the Institute of Maternal Fidelity. Oversees clone crèche
+      safety protocols, pediatric care standards, and mutation-response
+      guidelines. Symbolically feared but often bypassed by guilds and outer
+      polities. The name carries weight. The inspections do not.
+
       Inspectors develop back channels to achieve results when official
-      reports are ignored.
+      reports are ignored. They learn who can be bribed, who can be
+      embarrassed, who can be threatened through family connections. The
+      formal authority crumbles. The informal networks persist.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Creche, Cloneline]
   # ─── end Institute of Developmental Safety ───
