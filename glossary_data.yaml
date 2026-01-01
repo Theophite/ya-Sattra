@@ -15715,12 +15715,15 @@ entries:
   # ═══ Third Testament ═══
   Third Testament:
     category: concept
-    short: "Foundation for Technical Caste development—the beginning of the translation cascade."
+    short: Foundation for Technical Caste development—the beginning of the translation cascade.
     details: |
-      The Third Oracle's transmission enabled the creation of the Technical Castes,
-      the engineered lineages that could receive and translate increasingly complex
-      mathematical truths from subsequent Oracles. This Testament established the
-      gradient from baseline human cognition toward Archon transcendence.
+      The Third Oracle's transmission enabled the creation of the Technical
+      Castes, the engineered lineages that could receive and translate
+      increasingly complex mathematical truths from subsequent Oracles.
+
+      This Testament established the gradient from baseline human cognition
+      toward Archon transcendence. The gift of translators. The gift of
+      minds that think in proof.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Testaments, Oracles, Technical Castes, Jargon, Auditors]
   # ─── end Third Testament ───
