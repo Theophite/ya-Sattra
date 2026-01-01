@@ -15964,13 +15964,16 @@ entries:
   # ═══ Auditors ═══
   Auditors:
     category: concept
-    short: "The seven original kalbats who received the Testaments—living evidence the Oracles were real."
+    short: The seven original kalbats who received the Testaments—living evidence the Oracles were real.
     details: |
-      Maintained by Companions Guild in Monastery of the Silent Song within Second Whorl. 
-      First Auditor is bifurcated—two pale faces looking opposite directions. Seventh 
-      Auditor displays on 47-minute cycle in Cenotaph Hall visible from the Middens. 
-      Their continued existence demonstrates Testament transmissions actually occurred. 
-      Without them, Oracle theology would be purely mythological.
+      Maintained by Companions Guild in Monastery of the Silent Song within
+      Second Whorl. First Auditor is bifurcated—two pale faces looking
+      opposite directions. Seventh Auditor displays on forty-seven-minute
+      cycle in Cenotaph Hall visible from the Middens.
+
+      Their continued existence demonstrates Testament transmissions
+      actually occurred. Without them, Oracle theology would be purely
+      mythological. They are proof. They are alive. They cannot testify.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Kalbat, Companions Guild, Monastery of the Silent Song, Oracles]
   # ─── end Auditors ───
