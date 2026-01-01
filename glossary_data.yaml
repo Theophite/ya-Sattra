@@ -16605,25 +16605,24 @@ entries:
   # ═══ Ministry of War ═══
   Ministry of War:
     category: organization
-    short: "Dawn-controlled military administration—Kelso Senna's institutional legacy, staffed by revolutionary veterans, dependent on Dusk money."
+    short: Dawn-controlled military administration—staffed by revolutionary veterans, dependent on Dusk money.
     details: |
-      Coordinates Republican Guard, kilit auxiliary obligations, weapons production, and
-      strategic planning. Dawn's institution by practical necessity: qualified candidates
-      are almost entirely revolutionary veterans. First Minister was Kelso Senna himself,
-      briefly, before his departure to Cloud Temple.
+      Coordinates the Republican Guard, kilit auxiliary obligations, weapons
+      production, and strategic planning. The Dawn Party's institution by
+      practical necessity: qualified candidates are almost entirely
+      revolutionary veterans.
 
-      STRUCTURE: Minister (Dawn appointment), Guard Command (operationally distinct,
-      ~3,000 active personnel), Auxiliary Coordination (perpetually understaffed,
-      coordinates kilit forces that resist coordination).
+      The Guard Command maintains roughly three thousand active personnel.
+      Auxiliary Coordination is perpetually understaffed, coordinating kilit
+      forces that resist coordination. Dawn's institution depends on Dusk's
+      money—military appropriations require coalition support. Veteran
+      benefits are untouchable, so Dawn packages military spending with
+      benefits to force Dusk support.
 
-      THE FUNDING DEPENDENCY: Dawn's institution depends on Dusk's money. Military
-      appropriations require coalition support. Veteran benefits are untouchable—Dawn
-      exploits this by packaging military spending with benefits to force Dusk support.
-
-      THE CENTRALIZATION DEBATE: Dawn repeatedly proposes unified command. Dusk blocks
-      every proposal. The arguments they don't make: centralized power combined with
-      Dawn's Senate majority would enable revolutionary transformation. The auxiliary
-      dysfunction is the political protection.
+      Dawn repeatedly proposes unified command. Dusk blocks every proposal.
+      Centralized power combined with Dawn's Senate majority would enable
+      revolutionary transformation. The auxiliary dysfunction provides the
+      political protection.
     rag_pointer: "The Republic of Ganat; Militaries and Warfare"
     related: [Ganat, Dawn Party, Dusk Party, Republican Guard, Kilit, Kelso Senna, Cloud Temple Band]
   # ─── end Ministry of War ───
