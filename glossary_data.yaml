@@ -8751,16 +8751,17 @@ entries:
   # ═══ Orcas Island ═══
   Orcas Island:
     category: location
-    short: Primary Avouvar trading installation—80+ staff handling most external commerce.
+    short: Primary Avouvar trading installation—warehouses too large for human use, adapted through fabric partitions.
     details: |
       The largest of the factorias, handling Ganati grain ships, Thousand Kingdoms
-      traders, occasional Imperial vessels. Factor-Principal Szëvalötz (173 years old)
-      manages operations with the cold patience of someone who has outlived every
-      trading partner's grandparents.
+      traders, occasional Imperial vessels. Warehouse facilities are Asovoë-scale—
+      too large for human use, adapted through fabric partitions and secondary
+      structures. Grey Pacific weather, rain frequent, the aurora-bright Avouvar
+      visible through mist at the trading counters.
 
-      The warehouse facilities are Asovoë-scale—too large for human use, adapted
-      through fabric partitions and secondary structures. Young Avouvar staff the
-      counters, learning trade while their lifespans shorten. The goods pass through:
+      Young Avouvar staff the counters, learning trade while their lifespans shorten.
+      The Factor-Principal manages operations with the cold patience of someone who
+      has outlived every trading partner's grandparents. The goods pass through:
       grain from Ganat, weapons components from the Furnaces, preserved foods heading
       north, autofactory products heading south.
     rag_pointer: Asovoë and the Avouvar
