@@ -5649,12 +5649,16 @@ entries:
   # ═══ Southern Windmills ═══
   Southern Windmills:
     category: location
-    short: "Twenty degrading 40-foot windmills providing backup power on High Junction's southern perimeter."
+    short: Twenty degrading windmills on High Junction's southern perimeter—when transmission fails, manufacturers claim power first.
     details: |
-      Installed during early post-revolutionary expansion when High Junction was 10,000 people. 
-      Barely sufficient as supplementary generation now. Feed salvaged capacitor banks. When 
-      transmission from Ganat fails, manufacturers claim windmill power first, leaving Old 
-      Town dark. Bandits strip copper wire; when stripped, no one replaces it.
+      Installed during early post-revolutionary expansion when the city was ten thousand
+      people. Barely sufficient as supplementary generation now. Twenty forty-foot towers
+      feeding salvaged capacitor banks. When transmission from Ganat fails, manufacturers
+      claim windmill power first, leaving Old Town dark.
+
+      Bandits strip copper wire; when stripped, no one replaces it. The windmills turn,
+      when they turn, for fewer and fewer people. Infrastructure built for growth now
+      demonstrates decline.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [High Junction, Infrastructure]
     location_features:
