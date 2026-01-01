@@ -7662,13 +7662,19 @@ entries:
   # ═══ Foundation Market ═══
   Foundation Market:
     category: location
-    short: "Commercial district built in a subsidence exposing pre-Interdict infrastructure."
+    short: Commercial district in a subsidence exposing pre-Interdict infrastructure—market in a bowl.
     details: |
-      Bowl ~200m across, 10m deep at center. Subsidence exposed foundations never meant 
-      to see daylight. Commerce happens on platforms across foundation structures, in 
-      carved alcoves, in tunnels extending into unknown depths. Equipment housings used 
-      as stall anchors. Conduit channels became covered passages—premium retail space 
-      with residual climate control.
+      Bowl two hundred meters across, ten meters deep at center. Subsidence exposed
+      foundations never meant to see daylight—pipes, conduits, equipment housings,
+      all repurposed for commerce. The descent is gradual, following ramps built
+      over substrate that still hums with unknown function.
+
+      Commerce happens on platforms across foundation structures, in carved alcoves,
+      in tunnels extending into depths no one has mapped. Equipment housings become
+      stall anchors; conduit channels become covered passages with residual climate
+      control—premium retail space, cooler in summer, warmer in winter. The deepest
+      merchants know routes through the substrate that lead to other markets
+      entirely, or perhaps nowhere at all.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [Medina Quarter]
     location_features:
