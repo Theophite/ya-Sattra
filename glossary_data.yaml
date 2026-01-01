@@ -17191,15 +17191,17 @@ entries:
   # ═══ High Junction Armorers' Congress ═══
   High Junction Armorers' Congress:
     category: organization
-    short: "Frontier cooperative producing cold-weather military equipment."
+    short: Frontier cooperative producing cold-weather military equipment.
     details: |
-      Location: High Junction, northern frontier.
-      
-      PRODUCTS: Cold-weather gear (insulated, layered), cavalry equipment (saddles, 
-      tack), portable field forges, local ammunition production.
-      
-      CHARACTER: Six years of grid power transformed this garrison town from 
-      isolated outpost to manufacturing center. Dawn-aligned, supplies frontier kilits.
+      Located in High Junction on the northern frontier. Produces cold-
+      weather gear insulated and layered for mountain conditions, cavalry
+      equipment including saddles and tack, portable field forges, local
+      ammunition production.
+
+      Six years of grid power transformed this garrison town from isolated
+      outpost to manufacturing center. Dawn-aligned, supplies frontier
+      kilits. Where the power lines reach, industry follows. The frontier
+      builds for the frontier.
     related: [Ganat, Dawn Party, High Junction]
   # ─── end High Junction Armorers' Congress ───
 
