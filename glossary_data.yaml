@@ -3791,8 +3791,25 @@ entries:
   # ═══ Czernaël ═══
   Czernaël:
     category: location
-    short: Dock precinct handling ship unloading in Asovoë.
-    details: Democratic council governance with rotating leadership. Controls when cargo leaves ships. Staffs the San Juan factorias alongside Kolaëvin.
+    short: Dock precinct handling ship unloading—autofactory infrastructure scaled for fleets that no longer come, aurora-bright workers against void-black structures.
+    details: |
+      Autofactory dock infrastructure scaled for absent fleets. Cranes and
+      gantries at proportions that suggest traffic volumes no longer
+      achieved. Avouvar workers in aurora-bright colors moving across
+      void-black structures. Foreign ship colors—the only non-Avouvar
+      hues—appear when vessels dock, briefly, before departing.
+
+      Democratic council governance with rotating leadership. The precinct
+      controls when cargo leaves ships, a position of considerable
+      leverage in Asovoë's constrained trade. Workers here also staff the
+      San Juan factorias to the south, commuting to territories where
+      radiation levels remain survivable for their adapted bodies.
+
+      Harbor freezes in winter. Ships time arrivals carefully, working
+      around ice that closes the port for months. Fabric weather shelters
+      provide minimal protection against fog, rain, cold. The infrastructure
+      was built for different conditions—warmer, busier—and the current
+      occupants adapt rather than rebuild.
     rag_pointer: Asovoë and the Avouvar
     related: [Asovoë, Kolaëvin]
     location_features:
