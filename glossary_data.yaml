@@ -14407,11 +14407,19 @@ entries:
   # ═══ es-Norren ═══
   es-Norren:
     category: organization
-    short: "Aureate family controlling quantum encryption—seventeen towers with bridges of captive lightning."
+    short: Aureate family controlling quantum encryption—seventeen towers with bridges of captive lightning.
     details: |
-      Estate: Seventeen semaphore towers connected by bridges lighting with encryption traffic. 
-      Each pulse worth hundreds of obols—messages so secret the math would kill you if understood. 
-      Honat es-Norren leads. Spectral Archive contains rooms where light behaves strangely.
+      Estate: Seventeen semaphore towers connected by bridges that light
+      with encryption traffic. At night the bridges flicker with pulses of
+      captive lightning—each pulse worth hundreds of obols, carrying
+      messages so secret the mathematics would be dangerous if understood.
+      The family transmits. The family does not need to comprehend.
+
+      The Spectral Archive contains rooms where light behaves strangely—
+      bends around corners, pools in shadows, refuses to illuminate certain
+      documents. Researchers allowed brief access describe headaches lasting
+      days. The archive stores something. What it stores is classified at
+      levels beyond civilian comprehension.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, Aureate]
   # ─── end es-Norren ───
