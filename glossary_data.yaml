@@ -9312,16 +9312,20 @@ entries:
   # ═══ Rift ═══
   Rift:
     category: location
-    short: "Ya-Sattra's harbor district, carved from former Monterey Bay canyon."
+    short: Ya-Sattra's harbor district—canyon walls dropping away to dark water where ships anchor.
     details: |
-      ~15,000 permanent residents plus thousands of transient workers, sailors, and merchants. 
-      South shore hosts the embarcadero—ya-Sattra's commercial waterfront where The Processional 
-      terminates. Industrial docks, warehouses, and terraces climbing toward the Iron Yards. 
-      Factors' offices for major trading houses, Ganat, and Asovoe line the southern waterfront. 
-      North shore serves as pleasure marina for Antediluvian Quarter residents—private docks, 
-      yacht berths, the Marina Promenade. Three bridges span between shores. Ganati ships must 
-      sail from ya-Sattra—the Republic is landlocked—and are permitted to do so despite tensions. 
-      Westerner berths occupy the western edge near the Middens.
+      Canyon walls dropping to dark water. Fifteen thousand permanent residents
+      plus thousands of transient workers, sailors, and merchants. The south shore
+      hosts the Embarcadero—commercial chaos where The Processional terminates,
+      industrial docks and warehouses, terraces climbing toward the Iron Yards.
+      The north shore serves as pleasure marina for Antediluvian Quarter residents—
+      private docks, yacht berths, quiet wealth facing commercial noise.
+
+      Three bridges span between shores, each with its own checkpoint politics.
+      Ganati ships sail from here despite tensions—the Republic is landlocked and
+      must use Imperial ports. Westerner berths occupy the western edge near the
+      Middens, grey vessels following protocols older than anyone's memory. The
+      water is deep enough that the bottom is invisible in the canyon's shadows.
     rag_pointer: "The Rift: Ya-Sattra's Harbor District"
     related: [ya-Sattra, Westerners, Medina Quarter, Antediluvian Quarter, Ganat, Asovoe, Stevedores' Guild, Iron Yards]
     location_features:
