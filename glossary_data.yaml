@@ -14604,14 +14604,20 @@ entries:
   # ═══ Bureau of the Lens ═══
   Bureau of the Lens:
     category: organization
-    short: "Controls all information—what is stored, circulated, revised, or erased."
+    short: Controls all information—what is stored, circulated, revised, or erased.
     details: |
-      Headquarters in Second Whorl. No broadcast, ledger, or chronicle legal unless Lens-inspected. 
-      Maintains three parallel realities: public fiction, classified truth, and Black Sheet synthesis. 
-      Seven Institutes: ISK (cognito-hazards, Applied Forgetting), IIR (legal interpretation), 
-      IIO (orthodoxy enforcement), IDI (document integrity), Eye (external intelligence), 
-      Echo (internal surveillance), Lattice (Jargon mathematics, ya-Tsatsan-trained). 
-      Culture: intelligent, politically cautious, professionally paranoid.
+      Headquarters in the Second Whorl. No broadcast, ledger, or chronicle
+      is legal unless Lens-inspected. The Bureau maintains three parallel
+      realities: public fiction, classified truth, and Black Sheet synthesis
+      that reconciles the two. Workers at different clearance levels see
+      different versions of the same events.
+
+      Seven Institutes: ISK (cognito-hazards, Applied Forgetting), IIR
+      (legal interpretation), IIO (orthodoxy enforcement), IDI (document
+      integrity), Eye (external intelligence), Echo (internal surveillance),
+      Lattice (Jargon mathematics, ya-Tsatsan-trained). Culture: intelligent,
+      politically cautious, professionally paranoid. Trust no one. Verify
+      everything. The Lens sees all. The Lens decides what others may see.
     rag_pointer: "Bureau of the Lens: Complete Documentation"
     related: [Bureau, Satara, Second Whorl, Grey Sheet, White Sheet]
   # ─── end Bureau of the Lens ───
