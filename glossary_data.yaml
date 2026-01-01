@@ -14990,13 +14990,16 @@ entries:
   # ═══ Tam es-Norrel ═══
   Tam es-Norrel:
     category: person
-    short: "Colonel-Hereditary maintaining the Plasma Garden—seventeen lances on the frontier facing the Thousand Kingdoms."
+    short: Colonel-Hereditary maintaining the Plasma Garden—seventeen lances on the frontier facing the Thousand Kingdoms.
     details: |
-      Aureate of the es-Norrel line, hereditary guardians of a plasma lance installation.
-      His mother died from radiological exposure after firing a lance to stop an Akama
-      cavalry charge. He can operate the weapons but not repair them, aim them but not
-      understand them. Commands a garrison of twenty soldiers on a frontier the Empire
-      has already written off. The lances are too dangerous to use and too valuable to abandon.
+      Aureate of the es-Norrel line, hereditary guardians of a plasma lance
+      installation. His mother died from radiological exposure after firing
+      a lance to stop an Akama cavalry charge. He can operate the weapons
+      but not repair them, aim them but not understand them.
+
+      He commands a garrison of twenty soldiers on a frontier the Empire has
+      already written off. The lances are too dangerous to use and too
+      valuable to abandon. He waits.
     rag_pointer: "Story Vignettes Collection"
     related: [Colonels-Hereditary, Plasma Lance, Thousand Kingdoms, Aureate]
   # ─── end Tam es-Norrel ───
