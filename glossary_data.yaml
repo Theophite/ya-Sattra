@@ -5836,13 +5836,17 @@ entries:
   # ═══ Iron Yards ═══
   Iron Yards:
     category: location
-    short: "Salvage and industrial district in ya-Sattra's Rotten Quarter."
+    short: Salvage and industrial district in the Rotten Quarter—seventy thousand work here daily, turning wreckage into wealth.
     details: |
-      ~70,000 work here daily; ~45,000 live in worker housing on southern fringe. Quarried 
-      depression between harbor grain docks and the Ridge. Three powers share control: Salvage 
-      Guild (sales), Pipefitters Union (labor), Yen Tam Beneficial Society (vice). Work destroys 
-      bodies—radiation, chemicals, accidents, metal dust. The Yards take what other districts 
-      reject, turning wreckage into wealth.
+      Quarried depression between harbor grain docks and the Ridge. Forty-five thousand
+      live in worker housing on the southern fringe. Three powers share control: Salvage
+      Guild handles sales, Pipefitters Union controls labor, Yen Tam Beneficial Society
+      runs the vice.
+
+      Work destroys bodies—radiation, chemicals, accidents, metal dust. The Yards take
+      what other districts reject, processing ancient debris and recovered machinery
+      into components the Empire needs. Those who work here long enough carry the marks:
+      skin lesions, lung damage, missing fingers, chronic pain.
     rag_pointer: The Iron Yards
     related: [Salvage Guild, Pipefitters Union, Yen Tam Beneficial Society, Iron Yards Boys]
     location_features:
