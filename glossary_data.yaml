@@ -5810,12 +5810,15 @@ entries:
   # ═══ Imperial Apartments ═══
   Imperial Apartments:
     category: location
-    short: "The space behind the Black Door, containing the Emperor and a naked singularity."
+    short: The space behind the Black Door—containing the Emperor, a naked singularity, and no one who returns.
     details: |
-      No one returns from beyond the Black Door. Those summoned are visible slowing to 
-      near-stillness as they cross the threshold, decelerating into infinite time. The 
-      singularity warps causality throughout the arcology. What emerges—missives in 
-      bronze cylinders—is the output of something broken. Only Sri Avs Tariq reads them.
+      No one returns from beyond the Black Door. Those summoned are visible slowing to
+      near-stillness as they cross the threshold, decelerating into infinite time. The
+      singularity warps causality throughout the arcology.
+
+      What emerges—missives in bronze cylinders—is the output of something broken.
+      Someone reads them. The Empire continues. What the Emperor thinks, wants, or
+      understands is unknowable. What the Empire does in the Emperor's name is not.
     rag_pointer: The First Whorl, The Emperor
     related: [First Whorl, Black Door, Emperor]
     location_features:
