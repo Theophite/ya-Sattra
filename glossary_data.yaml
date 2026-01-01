@@ -17371,16 +17371,20 @@ entries:
   # ═══ Diver ═══
   Diver:
     category: caste
-    short: "Aquatic labor caste engineered for underwater work—approximately 40 remain in ya-Sattra."
+    short: Aquatic labor caste engineered for underwater work—approximately forty remain in ya-Sattra.
     details: |
-      Engineered for harbor maintenance, salvage, and underwater construction. Can hold
-      breath 9 minutes comfortably, 12 in emergencies. Eyes focus underwater without
-      distortion. Webbed hands and feet (subtle, but requires modified gloves and shoes).
-      Small ears that seal against water pressure. Faint bluish skin undertone.
+      Engineered for harbor maintenance, salvage, and underwater
+      construction. Can hold breath nine minutes comfortably, twelve in
+      emergencies. Eyes focus underwater without distortion. Webbed
+      hands and feet—subtle, but requiring modified gloves and shoes.
+      Small ears that seal against water pressure. Faint bluish skin
+      undertone.
 
-      So rare that Companions Guild clinics have no training in Diver physiology. Divers
-      bring folders containing everything their families accumulated about their own
-      biology—they explain their bodies to people trained for bodies that work differently.
+      So rare that Companions Guild clinics have no training in Diver
+      physiology. Divers bring folders containing everything their
+      families accumulated about their own biology—they explain their
+      bodies to people trained for bodies that work differently. The
+      water is home; the land is where everyone else lives.
     rag_pointer: "Castes of Mankind"
     related: [Labor Castes, Harbor District, Sev Kassam]
     caste_features:
