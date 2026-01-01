@@ -10537,8 +10537,14 @@ entries:
   # ═══ The Grand Canal ═══
   The Grand Canal:
     category: location
-    short: Former Columbia River transformed by autofactory into geometric waterway.
-    details: Runs geometrically straight with walls of fused glass rising thirty feet. Creates artificial spawning grounds and fishing positions held by force and inherited through bloodlines.
+    short: Former river transformed into geometric waterway—fishing positions inherited through bloodlines.
+    details: |
+      The river once wandered. Now it runs geometrically straight, walls of fused
+      glass rising thirty feet on either side. Autofactory work, incomprehensible
+      in purpose—why glass? why straight?—but the salmon still come. Artificial
+      spawning grounds at intervals. Fishing positions on the banks are the most
+      valuable property in the region, held by force and inherited through
+      bloodlines. Wars have started over fifty feet of riverbank.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Ogon, Thousand Kingdoms]
     culture: [Akama]
