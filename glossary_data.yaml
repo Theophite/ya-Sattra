@@ -8923,12 +8923,19 @@ entries:
   # ═══ Worker Tenements ═══
   Worker Tenements:
     category: location
-    short: "Dense worker housing in Port District—granite buildings with electric heating."
+    short: Dense worker housing—winter at sixty-two hundred feet kills without heat.
     details: |
-      Multi-story granite buildings with shared courtyards, exterior staircases, minimal 
-      insulation. But every unit has electric heating elements—copper coils on walls or 
-      under sleeping platforms. Winter kills without them. Workers pay monthly for power; 
-      merchant kilits provide it at subsidized rates. Dense: four to a room in Port District.
+      Multi-story granite buildings with shared courtyards, exterior staircases,
+      minimal insulation against mountain cold. But every unit has electric
+      heating elements—copper coils that warm when powered, mounted on walls or
+      under sleeping platforms. Winter kills without heat; this is not luxury
+      but necessity.
+
+      Workers pay monthly for power that merchant kilits provide at subsidized
+      rates. Four to a room, shared kitchens, but the lights stay on and the
+      heating elements warm. The poor in Taho live better than middle class in
+      eastern settlements. The contrast with Upper City compounds is absolute—
+      but both have electric light and heat.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Port District, Taho]
     location_features:
