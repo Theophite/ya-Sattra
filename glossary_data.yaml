@@ -14972,14 +14972,17 @@ entries:
     category: concept
     aliases: [Colonel-Hereditary]
     parent: Bureau of the Sword
-    short: "Aureate families maintaining frontier weapons installations—inheriting both command authority and the technology that kills them."
+    short: Aureate families maintaining frontier weapons installations—inheriting both command authority and the technology that kills them.
     details: |
-      Hereditary military positions dating to pre-Interdict expansion. Each family holds
-      patents over specific weapons systems they can operate but cannot repair or understand.
-      Plasma lances, orbital defense coordinates, authentication keys for systems that no longer
-      exist. Many weapons harm their operators—radiological burns, neural degradation, bone
-      dissolution. The families continue their vigils because the alternative is admitting the
-      Empire has already contracted to three cities on the former California coast.
+      Hereditary military positions dating to pre-Interdict expansion. Each
+      family holds patents over specific weapons systems they can operate but
+      cannot repair or understand. Plasma lances, orbital defense coordinates,
+      authentication keys for systems that no longer exist.
+
+      Many weapons harm their operators—radiological burns, neural degradation,
+      bone dissolution. The families continue their vigils because the
+      alternative is admitting the Empire has already contracted to three
+      cities on the former California coast.
     rag_pointer: "Story Vignettes Collection, Bureau of the Sword"
     related: [Bureau of the Sword, Aureate, Patent, Plasma Lance]
   # ─── end Colonels-Hereditary ───
