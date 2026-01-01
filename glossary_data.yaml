@@ -4407,13 +4407,19 @@ entries:
   # ═══ The Cathedral ═══
   The Cathedral:
     category: location
-    short: "Former palace of Sultana Ulayah, now Patriarch Kaleb's seat—atop Far Wall, overlooking the canyon."
+    short: Former Sultanate palace, now the Patriarch's seat—atop Far Wall, partially overhanging the canyon.
     details: |
-      Largest free-standing structure in Ganat: 300 feet long, 150 feet wide, four stories tall. 
-      Built from quarried sandstone blocks on the canyon rim, partially overhanging the cliff. 
-      Western face visible from across the canyon. Sultanate grandeur adapted to revolutionary 
-      religion—geometric patterns, figurative scenes, Art Nouveau curves carved into salmon 
-      sandstone. Houses revolutionary broadcasting equipment.
+      Largest free-standing structure in Ganat: 300 feet long, 150 feet wide, four stories
+      tall. Built from quarried sandstone blocks on the canyon rim, the western face
+      partially overhanging the cliff. Visible from the Near Wall markets, from the Dam,
+      from across the canyon.
+
+      Sultanate grandeur adapted to revolutionary religion. Carved decoration covers
+      every surface: geometric patterns, figurative scenes, Art Nouveau curves in salmon
+      sandstone. Inside, broadcasting equipment carries the Patriarch's voice to every
+      settlement with a receiver. The palace became cathedral; the Sultana's chambers
+      became offices for religious administration. Power changed hands but the building
+      still dominates.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Far Wall, Ganat proper, Patriarch Kaleb, Penitent Church]
     location_features:
