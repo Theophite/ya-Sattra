@@ -16893,30 +16893,28 @@ entries:
   # ═══ Patriarch Kaleb ═══
   Patriarch Kaleb:
     category: person
-    short: "Revolutionary Penitent Patriarch—fifty-seven, one-armed, voted yes in 963, Ganat's religious conscience."
+    short: Revolutionary Penitent Patriarch—fifty-seven, one-armed, voted yes in nine sixty-three, Ganat's religious conscience.
     person_location: Ganat
     details: |
-      Fifty-seven years old, Sarruk Serrulata—the labor-adapted subcaste whose bodies
-      reshape to their environments. Entered the smelters at sixteen; his scales still
-      show the palimpsest of heat-adaptation overlaid by decades of clerical work.
-      Smokes cannabis from a clay pipe rather than the elaborate hookahs favored by
-      educated classes.
+      Fifty-seven years old. Sarruk Serrulata—the labor-adapted subcaste
+      whose bodies reshape to their environments. Entered the smelters at
+      sixteen; his scales still show the palimpsest of heat-adaptation
+      overlaid by decades of clerical work. Smokes cannabis from a clay
+      pipe rather than the elaborate hookahs favored by educated classes.
 
-      Met Yem azh-Khen in the smelter barracks—Yem organized, Kaleb explained. His
-      theological gift was evident early: Sekha Teph-Orim's family sponsored his
-      seminary education. Emerged not as comfortable Orthodox clergy but as firebrand
-      who administered charitable donations directly to the poor.
+      His theological gift was evident early. Emerged not as comfortable
+      Orthodox clergy but as a firebrand who administered charitable
+      donations directly to the poor. When revolutionary leaders voted on
+      whether to join the fait accompli after the assassination, Kaleb
+      voted yes. Shortly after, reactionaries took his left arm. Before
+      fully healed, he took up a pistol and led cavalry charges in the
+      eastern campaigns.
 
-      When five revolutionary leaders voted on whether to join Senna's fait accompli
-      after the 963 assassination, Kaleb voted yes. His seminary patron Sekha Teph-Orim
-      voted no—the lone dissenter who would found the loyal opposition. Their friendship
-      survived. Shortly after, reactionaries took his left arm. Before fully healed, he
-      took up a pistol and led cavalry charges in the eastern campaigns.
-
-      Now leads the Ganati Penitent Church, broadcasts weekly homilies reaching every
-      settlement with telegraph service. Privately uncomfortable with how politicized
-      his theology has become. The radical works-theology faction has grown beyond what
-      he fully endorses; he navigates through calculated ambiguity.
+      Now leads the Ganati Penitent Church, broadcasts weekly homilies
+      reaching every settlement with telegraph service. Privately
+      uncomfortable with how politicized his theology has become. He
+      navigates through calculated ambiguity. The revolution shaped him.
+      He is not sure he shapes it anymore.
     rag_pointer: "The Republic of Ganat"
     related: [Ganat, Penitent Church, Dawn Party, Yem azh-Khen, Sekha Teph-Orim, Kelso Senna]
   # ─── end Patriarch Kaleb ───
