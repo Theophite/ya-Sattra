@@ -6771,12 +6771,16 @@ entries:
   # ═══ Manufacturing District ═══
   Manufacturing District:
     category: location
-    short: "Industrial area west of High Junction's bridge."
+    short: Industrial area west of High Junction's bridge—fifty thousand new arrivals in six years, from empty land to controlled chaos.
     details: |
-      Chaotic periphery of hastily constructed worker housing around relocated manufacturing 
-      facilities. ~15,000 workers in forges, textile operations, food processing, workshops. 
-      Vice economy serving garrison soldiers. Grid-powered since six years ago. 50,000 new 
-      arrivals in six years transformed this from empty land to controlled chaos.
+      Grid power arrived six years ago. Fifty thousand people followed. Hastily constructed
+      worker housing around relocated manufacturing facilities. Forges, textile operations,
+      food processing, workshops. Vice economy serving garrison soldiers.
+
+      Poor sanitation, industrial waste, fire risk, disease outbreaks. The infrastructure
+      lags the population. Every year brings more workers, more construction, more chaos.
+      The chaos has rhythm: wages on payday, fights on week-end, production quotas met
+      regardless of cost.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [High Junction, The Bridge]
     location_features:
