@@ -17047,16 +17047,19 @@ entries:
   # ═══ Rasma Dhal-Setil ═══
   Rasma Dhal-Setil:
     category: person
-    short: "Dawn Consul of the Republic of Ganat—revolutionary aristocrat, merchant princess who financed revolution."
+    short: Dawn Consul of the Republic of Ganat—revolutionary aristocrat, merchant princess who financed the revolution.
     person_location: Ganat
     details: |
-      Fifty years old, Khatam, tall and striking with copper and lapis inlay worked
-      into her scales. Represents Dhal-Setil Mercantile, the catalog-delivery empire.
-      Commands a bloc of eight Senate seats. Famous for the legendary ride from Ganat
-      to Taho that ended the Revolution in the west. Practices Orthodox High-Church
-      Penitentism in a party dominated by radical works-theology. Compound surname
-      indicates established lineage with kilit affiliation. Family compound in High
-      Junction.
+      Fifty years old. Khatam, tall and striking with copper and lapis
+      inlay worked into her scales. Represents her family's mercantile
+      empire. Commands a bloc of eight Senate seats. Famous for the
+      legendary ride that ended the Revolution in the west.
+
+      Practices Orthodox High-Church Penitentism in a party dominated by
+      radical works-theology. Compound surname indicates established
+      lineage with kilit affiliation. A revolutionary aristocrat. A
+      merchant princess who financed rebellion. The contradictions sustain
+      rather than undermine her position.
     rag_pointer: "The Republic of Ganat"
     related: [Khatam, Serrulata, Ganat, Dawn Party, Kilit, High Junction, Kelso Senna, Dhal-Setil Mercantile]
   # ─── end Rasma Dhal-Setil ───
