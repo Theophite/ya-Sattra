@@ -8003,12 +8003,16 @@ entries:
   # ═══ Lockworks ═══
   Lockworks:
     category: location
-    short: "Water control facility in the Gallows basement—source of Hanged Men power."
+    short: Water control facility in the Gallows basement—turn a valve, and someone's water stops.
     details: |
-      Pre-Interdict infrastructure controlling water distribution for the entire Middens. 
-      Whoever controls the Lockworks controls the district. Valvehands maintain the 
-      systems; the Hanged Men control access. When punishment is needed, a valve 
-      adjustment suffices.
+      Pre-Interdict water infrastructure beneath improvised slum. Smooth grey
+      surfaces, joints sealed through processes no one replicates anymore. Valves
+      and pipes of wrong-looking ancient metal. Water flows through everything,
+      the sound constant, the humidity permanent.
+
+      The Valvehands understand the systems; the Hanged Men control access.
+      Whoever controls the Lockworks controls the district. When punishment is
+      needed, a valve adjustment suffices—no violence required, just thirst.
     rag_pointer: The Middens Tenements
     related: [Gallows, Hanged Men, Valvehands]
     location_features:
