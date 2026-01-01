@@ -10204,14 +10204,19 @@ entries:
   # ═══ Taho Cathedral ═══
   Taho Cathedral:
     category: location
-    short: "Seat of the Taho arch-curacy—granite construction, 500-year-old pulpit with intertwined hands."
+    short: Seat of the arch-curacy—the stone has not changed, but the theology transforms with each generation.
     details: |
-      Granite construction, electric lighting, 500-year-old pulpit carved with intertwined 
-      hands symbolizing collective labor and mutual support. The symbolism has been reinterpreted 
-      repeatedly: divine punishment, then Sultanate prosperity, now revolutionary solidarity. 
-      Arch-Curate Tewodo Khamun governs Taho's religious life. His sermons address commercial 
-      ethics, competitive philanthropy, the proper relationship between wealth and collective 
-      service. A Dawn Party arch-curate governing a Dusk merchant city.
+      Granite construction, electric lighting. The five-hundred-year-old pulpit
+      is carved with intertwined hands symbolizing collective labor and mutual
+      support. The stone has not changed; the theology transforms with each
+      generation. Originally those hands meant humans supporting each other
+      through divine punishment. Then workers cooperating for Sultanate
+      prosperity. Now revolutionary solidarity and collective material progress.
+
+      The arch-curate delivers sermons on commercial ethics, competitive
+      philanthropy, the proper relationship between wealth and collective
+      service. A Dawn Party religious leader governing the spiritual life of a
+      Dusk merchant city. The contradictions persist.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Upper Taho, Taho, Arch-Curate Tewodo Khamun]
     location_features:
