@@ -8452,13 +8452,19 @@ entries:
   # ═══ Northern Frontier ═══
   Northern Frontier:
     category: location
-    short: "Vast zone where Imperial sovereignty dissolves gradually into contested territory."
+    short: Zone where Imperial sovereignty dissolves gradually—by three hundred kilometers north, authority exists primarily as performance.
     details: |
-      Between ya-Sattra and Ogon. Colonel-Hereditary estates and Akama warbands 
-      maintain elaborate performances of tribute and vassalage. Imperial control 
-      doesn't end at a border but dissolves gradually. North of ya-Tsatsa, 
-      institutions begin erosion. By 200 km north, fiction becomes visible. 
-      By 300 km, Imperial authority exists primarily as performance.
+      Between ya-Sattra and Ogon. Imperial control doesn't end at a border but
+      dissolves gradually. North of ya-Tsatsa, institutions begin to erode. By
+      two hundred kilometers, the fiction becomes visible. By three hundred,
+      Imperial authority exists primarily as performance—elaborate ceremonies of
+      tribute and vassalage maintained because abandoning them would require
+      admitting something inconvenient.
+
+      Colonel-Hereditary estates and Akama warbands occupy the same territory,
+      each claiming sovereignty the other doesn't recognize. Travelers learn
+      quickly which authority to acknowledge in which location, and how to switch
+      allegiances convincingly at the next crossroads.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Thousand Kingdoms, Undying Empire, ya-Tsatsa]
     location_features:
