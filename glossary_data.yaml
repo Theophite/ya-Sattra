@@ -15457,15 +15457,17 @@ entries:
   # ═══ Colonel-Hereditary Vas es-Tammuz ═══
   Colonel-Hereditary Vas es-Tammuz:
     category: person
-    short: "Frontier officer controlling trade routes through safe passage fees—40,000 obols annually."
+    short: Frontier officer controlling trade routes through safe passage fees—forty thousand obols annually.
     person_location: Northern Frontier
     details: |
-      Controls trade routes through controlling safe passage fees, generating
-      forty thousand obols annually—more than orthodox taxation would yield.
-      His relationship with local Akama bands operates through "tribute
-      presentations" that are actually diplomatic summits. Exemplifies how
-      frontier Colonel-Hereditary estates generate income through arrangements
-      that would shock core Imperial administrators.
+      Controls trade routes through safe passage fees, generating forty
+      thousand obols annually—more than orthodox taxation would yield. His
+      relationship with local Akama bands operates through "tribute
+      presentations" that are actually diplomatic summits.
+
+      Exemplifies how frontier estates generate income through arrangements
+      that would shock core Imperial administrators. The Empire pretends not
+      to know. Everyone benefits from the pretense.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Northern Frontier, Thousand Kingdoms]
   # ─── end Colonel-Hereditary Vas es-Tammuz ───
