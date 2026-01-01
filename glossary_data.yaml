@@ -17121,18 +17121,18 @@ entries:
   # ═══ Khen-Masot Rifle Works ═══
   Khen-Masot Rifle Works:
     category: organization
-    short: "Primary weapons manufacturer supplying Republican Guard infantry—compound name, neutral politics."
+    short: Primary weapons manufacturer supplying Republican Guard infantry—compound name, neutral politics.
     details: |
-      LOCATION: Near Wall, Ganat proper. Workshops carved into sandstone, powered 
-      by Dam transmission lines.
-      
-      PRODUCTS: Infantry rifle (.40 caliber, Guard standard), replacement parts 
-      (standardized), training rifles (reduced charge).
-      
-      CHARACTER: Compound name indicates old merchant family, but Khen-Masot maintains 
-      careful neutrality—they supply the Guard regardless of which parties hold the 
-      Consulates. Their contracts predate the Revolution. Politically, they donate to 
-      both parties and attend neither's functions.
+      Located at the Near Wall, Ganat proper. Workshops carved into
+      sandstone, powered by Dam transmission lines. Produces infantry
+      rifles at the Guard standard, standardized replacement parts,
+      training rifles.
+
+      Compound name indicates old merchant family, but this house maintains
+      careful neutrality—they supply the Guard regardless of which parties
+      hold the Consulates. Their contracts predate the Revolution. They
+      donate to both parties. They attend neither party's functions. War
+      is their business. Politics is not.
     related: [Ganat, Dam Workers' Armorers Assembly, Near Wall]
   # ─── end Khen-Masot Rifle Works ───
 
