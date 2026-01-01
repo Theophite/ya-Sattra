@@ -6497,14 +6497,16 @@ entries:
   # ═══ Kraëlosz ═══
   Kraëlosz:
     category: location
-    short: The Eldest House—ancients who may exceed 900 years occupy the most contaminated precinct.
+    short: The Eldest House—ancients who may exceed 900 years occupying the most contaminated precinct.
     details: |
-      Occupies the former Highborn administrative quarter, the most contaminated zone in Asovoë. 
-      True ancients never leave their chambers, surrounded by descendants to the twentieth generation, 
-      paranoid beyond capacity for normal politics. Automated servitors still deliver unique luxury 
-      goods from underground terminals. The house offers retirement to elders from other precincts—
-      another 250 years in exchange for the hot zone's flux. Matriarch Czenovaë Vroëszka (870 years) 
-      purchased a tower here four centuries ago for longevity research, abandoning her own house.
+      Former Highborn administrative quarter, now the most contaminated zone in Asovoë.
+      Lethal to visitors within hours without protection. The flux that kills others
+      extends Avouvar lives past all reasonable limit.
+
+      True ancients never leave their chambers. Surrounded by descendants to the twentieth
+      generation. Paranoid beyond capacity for normal politics. Automated servitors still
+      deliver luxury goods from underground terminals. The house offers retirement to
+      elders from other precincts—another 250 years in exchange for the hot zone's flux.
     rag_pointer: Asovoë and the Avouvar
     related: [Asovoë, Vroëszka]
     location_features:
