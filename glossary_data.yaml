@@ -12844,8 +12844,20 @@ entries:
   # ═══ ya-Don ═══
   ya-Don:
     category: location
-    short: "Empire's second-largest city and industrial heart."
-    details: 1.2 million people. The Furnaces produce technologies Imperial civilization cannot survive without. Church-Guild complex controls production. Bureau of the Rod negotiates with institutions it cannot compel.
+    short: Over a million people in the Empire's industrial heart—the Furnaces produce what civilization cannot survive without.
+    details: |
+      The heat defines everything. Summers exceed one hundred ten degrees. The
+      Furnaces add their own warmth to air already brutal. Workers adapt or
+      leave. Most adapt. The work pays. The work matters. The technologies
+      produced here sustain the Empire's infrastructure, its transportation, its
+      ability to exist as a coherent civilization.
+
+      The Church-Guild complex controls production through the Furnace Board.
+      The Bureau of the Rod negotiates with institutions it cannot compel,
+      bargaining for outputs essential to the Empire's survival. ya-Don is not
+      governed from ya-Sattra. ya-Don is negotiated with. The leverage is
+      mutual: the Empire needs what the Furnaces produce, and the Furnaces need
+      the Empire's markets and protection.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Furnaces, Bureau of the Rod, Order of St. Akhmet]
     culture: [Ya-Don]
