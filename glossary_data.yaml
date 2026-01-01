@@ -16501,13 +16501,18 @@ entries:
   # ═══ Dusk Party ═══
   Dusk Party:
     category: organization
-    short: "Ganati commercial faction prioritizing trade and accommodation with the Empire."
+    short: Ganati commercial faction prioritizing trade and accommodation with the Empire.
     details: |
-      Represents merchant interests, established families, those who profit from 
-      current arrangements. Advocates maintaining peaceful relations with Empire, 
-      expanding trade networks, gradual rather than revolutionary change. Controls 
-      substantial economic resources but has lost political momentum to Dawn Party 
-      in recent decades.
+      Represents merchant interests, established families, those who profit
+      from current arrangements. Advocates maintaining peaceful relations
+      with the Empire, expanding trade networks, gradual rather than
+      revolutionary change.
+
+      The Dusk Party controls substantial economic resources but has lost
+      political momentum to the Dawn Party in recent decades. The old guard
+      waiting for the revolution to exhaust itself. They believe commerce
+      will outlast ideology. They may be right. They may not live to see it
+      proven.
     rag_pointer: "The Republic of Ganat"
     related: [Ganat, Dawn Party]
   # ─── end Dusk Party ───
