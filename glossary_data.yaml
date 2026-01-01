@@ -3029,13 +3029,25 @@ entries:
   # ═══ Seven-and-One Meridian Terrace ═══
   Seven-and-One Meridian Terrace:
     category: location
-    short: "Spectrum-shifting ziggurat—es-Verlaus estate, originally es-Yoht, now occupied by provincial newcomers."
+    short: Spectrum-shifting ziggurat—stepped cone rising through the color spectrum, apex appearing blank grey where violet should be.
     details: |
-      Stepped cone rising with each level a perfect diminishing circle. Exterior shifts through 
-      the spectrum as it ascends: angry red at base, through visible range, to an apex that 
-      appears as blank grey where violet should be. Originally es-Yoht estate, purchased after 
-      the family achieved "intended state" (non-existence). Karvan es-Verlaus keeps horses 
-      for racing on middle levels.
+      Stepped cone rising with each level a perfect diminishing circle.
+      The exterior shifts through the spectrum as it ascends: angry red at
+      the base, through orange and yellow and green, through blues toward
+      violet—but the apex appears as blank grey. Whatever wavelength should
+      be visible there, human eyes cannot process it.
+
+      The original family achieved what the Aureate call "intended state":
+      extinction through deliberate choice, non-existence as completion.
+      Provincial newcomers purchased the structure afterward, inheriting
+      architecture beyond their understanding. They use the middle levels
+      for horse racing now—the diminishing circles providing natural
+      tracks, servants running alongside with water and brushes.
+
+      The ziggurat's tax patents relate to archaeotech licensing. The
+      family that built it understood the mathematics. The family that
+      bought it understands only the revenue. The apex still produces
+      grey where it should produce violet, and no one alive knows why.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, es-Verlaus, Aureate System]
     location_features:
