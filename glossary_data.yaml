@@ -16520,72 +16520,32 @@ entries:
   # ═══ Ministry of Information ═══
   Ministry of Information:
     category: organization
-    short: "Ganati state broadcaster nicknamed 'The Cathedra'—Dawn-dominated despite nominal neutrality."
+    short: Ganati state broadcaster nicknamed "The Cathedra"—Dawn-dominated despite nominal neutrality.
     aliases: [The Cathedra]
     details: |
-      LOCATION: The Cathedral in Ganat proper—former palace of Sultana Ulayah, now shared
-      with Patriarch Kaleb's religious administration. Crowns the Far Wall, 300 feet long,
-      partially overhanging the cliff, visible from anywhere in the lower canyon. Electric
-      lights illuminate carved revolutionary and Penitent imagery at night.
+      Housed in the Cathedral in Ganat proper—former palace now shared with
+      the Patriarch's religious administration. Crowns the Far Wall, three
+      hundred feet long, partially overhanging the cliff, visible from
+      anywhere in the lower canyon. Electric lights illuminate carved
+      revolutionary and Penitent imagery at night.
 
-      THE NICKNAME: Derives from the cathedra—the bishop's throne from which ex cathedra
-      pronouncements are made. Ministry officials issue official truths from the former
-      throne room of an executed monarch. The pun circulates mostly among Dusk merchants
-      who receive Ministry announcements with appropriate skepticism.
+      The nickname derives from the cathedra—the bishop's throne from which
+      ex cathedra pronouncements are made. Ministry officials issue official
+      truths from the former throne room of an executed monarch.
 
-      TRANSMISSION INFRASTRUCTURE: The towers crowning the building were originally
-      installed to broadcast the Common Plea—humanity's weekly cry to the cosmos, begging
-      for liberation from the Interdict. The Ministry inherited this infrastructure and
-      expanded it. The same towers that carry Kaleb's sermons across the Republic also
-      carry agricultural statistics, revolutionary cinema, and carefully framed "neutral"
-      content.
+      The towers crowning the building were originally installed to
+      broadcast the Common Plea—humanity's weekly cry to the cosmos, begging
+      for liberation from the Interdict. The Ministry inherited this
+      infrastructure and expanded it. The same towers that carry religious
+      sermons across the Republic also carry agricultural statistics,
+      revolutionary cinema, and carefully framed "neutral" content.
 
-      ORGANIZATIONAL STRUCTURE: Nominally neutral, serving the Republic rather than either
-      party. In practice, Dawn dominates. The director is a Dawn appointment. Most senior
-      staff emerged from revolutionary propaganda units. The institutional culture assumes
-      Dawn framing is correct framing—not partisan, just accurate.
-
-      BROADCAST ALLOCATION: Radio spectrum is finite. The Ministry controls allocation.
-      - Ministry Programming (~1/3): Nominally neutral official content—statistics,
-        infrastructure reports, public health, educational programming for children in
-        settlements without schools. Everyone knows the Ministry is Dawn-dominated.
-      - Party Programming (~2/3, divided by Senate representation): Dawn holds ~450 seats
-        to Dusk's 300, giving Dawn ~60% of party allocation. Combined with Ministry third,
-        approximately two-thirds of all broadcast carries Dawn framing.
-      - Religious Broadcasting: Patriarch Kaleb maintains the Common Plea takes precedence.
-        Parties share what remains after religious obligations.
-
-      REVOLUTIONARY CINEMA: For the Republic's first decade, the Ministry dominated moving
-      pictures. Notable productions:
-      - Bride of the Republic: The Ministry's version of Rasma Dhal-Setil's famous ride.
-        Pure heroism, committed revolutionary. Reality was more complex.
-      - Riders of the Dawn: Cloud Temple Band operations during revolution. Kelso Senna
-        as principled military genius.
-      - The Teph Runs Red: The decapitation strike, carefully edited.
-      The theaters are emptier now. The revolution is mined out for stories. Dusk-aligned
-      studios in Taho fill the gap: The Hundred Canyons, An Honest Factor, Kelam's Choice.
-
-      DUSK COUNTERMEASURES: Unable to match broadcast dominance, Dusk developed alternatives:
-      - Print Media: Deal sheets, subsidized papers, commercial registers reaching literate
-        urban audiences—exactly who Dusk already has.
-      - Pirate Broadcasting: Parishes "misalign" dishes theoretically pointed skyward for
-        the Plea. Content is formally liturgical—Particular Confessions whose form is
-        religious but substance is editorial.
-      - Famous Curates: Reputations built adjudicating competitive philanthropy. When
-        Curate Yosef Tal-Inshal broadcasts about revolutionary impatience, his audience
-        knows him as someone whose judgments matter.
-
-      RELATIONSHIP WITH RELIGIOUS AUTHORITY: The Cathedral was built to house transcendent
-      aspiration. It now houses factional competition. Patriarch Kaleb maintains this is
-      necessary compromise—the alternative would make the Church irrelevant. But the
-      compromise costs something. Every sermon is parsed for political implications. He
-      cannot preach without becoming a political actor. Privately, he wonders whether the
-      Church guides the Republic or is being consumed by it.
-
-      EXTERNAL OPERATIONS: Transmission reaches across most of the Republic. Revolutionary
-      cinema circulates through Imperial gray markets. Intelligence coordination with
-      Ministry of Internal Affairs is informal but real—the Cathedra shapes what people
-      believe; Internal Affairs monitors who isn't believing correctly.
+      Nominally neutral, serving the Republic rather than either party. In
+      practice, the Dawn Party dominates. The director is a Dawn
+      appointment. Most senior staff emerged from revolutionary propaganda
+      units. The institutional culture assumes Dawn framing is correct
+      framing—not partisan, just accurate. The Cathedra shapes what people
+      believe. It calls this public service.
     rag_pointer: "The Republic of Ganat"
     related: [Ganat, Dawn Party, Dusk Party, Patriarch Kaleb, Cathedral, Common Plea, Rasma Dhal-Setil]
   # ─── end Ministry of Information ───
