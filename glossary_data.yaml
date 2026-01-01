@@ -6205,13 +6205,16 @@ entries:
   # ═══ Seru and Sari Protective Tailoring ═══
   Seru and Sari Protective Tailoring:
     category: location
-    short: "Twin sisters producing protective garments for salvage workers."
+    short: Twin sisters producing protective garments for salvage workers—a Chain-Man's apron sewn with the same care as a Pipefitter's.
     details: |
-      Compact brick building, 15x20 feet, two stories, lead-lined walls. Twin near-baseline 
-      sisters with enhanced color vision distinguish between subtle fabric treatments. 
-      Produce lead-thread aprons, radiation-resistant coveralls, spark-protective masks 
-      with mica lenses. Maintain neutrality—a Chain-Man's apron sewn with same care as 
-      a Pipefitter's. Forty-seven, unmarried, refuse all offers to expand.
+      Compact brick building, lead-lined walls. Twin near-baseline sisters with enhanced
+      color vision distinguish between subtle fabric treatments invisible to ordinary
+      sight. Lead-thread aprons, radiation-resistant coveralls, spark-protective masks
+      with mica lenses.
+
+      They maintain neutrality—everyone who works the Yards needs protection, regardless
+      of which power they serve. The sisters refuse all offers to expand, to move, to
+      affiliate. Their craft protects. Their independence ensures everyone trusts them.
     rag_pointer: The Iron Yards
     related: [Torchline Row, Iron Yards]
     location_features:
