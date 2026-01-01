@@ -4600,10 +4600,17 @@ entries:
   # ═══ Freightyard ═══
   Freightyard:
     category: location
-    short: "Logistics district around ya-Don's rail terminus."
+    short: Logistics district around ya-Don's rail terminus—160,000 residents living amid constant cargo movement.
     details: |
-      ~160,000 residents. Covenant of Saint Aureline territory. Tariff systems control 
-      all cargo movement. When warehouses become obsolete, they're demolished and replaced.
+      Rail lines converge on the terminus. Loading platforms sized for standard cargo.
+      Warehouses built for purpose in timber, stone, and metal cladding—when they
+      become obsolete, they're demolished and replaced. The Weighmaster's Station
+      rises in imposing stone with its elevated entrance.
+
+      Covenant of Saint Aureline territory. Checkpoints at every entry. Tariff systems
+      control all cargo movement—nothing enters or leaves without being weighed,
+      assessed, documented. Redback, Near-Baseline, and Ironbone castes work the
+      loading platforms, their labor measured as precisely as the goods they move.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Covenant of Saint Aureline]
     location_features:
