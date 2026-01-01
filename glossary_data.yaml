@@ -14859,12 +14859,17 @@ entries:
   Institute of Flow:
     category: organization
     parent: Bureau of the Rod
-    short: "Rod subdivision overseeing water systems and the undercity infrastructure."
+    short: Rod subdivision overseeing water systems and the undercity beneath Imperial cities.
     details: |
-      Oversees water systems and the undercity—the vast infrastructure beneath
-      Imperial cities that most citizens never see. Controls ancient fluidic
-      cooling and heat-transfer systems crucial for computational and industrial
-      operations, including the volatile Furnaces of ya-Don.
+      Oversees water systems and the undercity—the vast infrastructure
+      beneath Imperial cities that most citizens never see. Pipes and
+      channels and cisterns and pumps, all maintained by workers who descend
+      and sometimes do not return.
+
+      Controls ancient fluidic cooling and heat-transfer systems crucial for
+      computational and industrial operations, including the volatile
+      Furnaces of ya-Don. What happens below keeps what happens above
+      functioning. The Flow ensures the connection.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Rod, Furnaces, ya-Don]
   # ─── end Institute of Flow ───
