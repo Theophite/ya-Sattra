@@ -14819,13 +14819,20 @@ entries:
   # ═══ Bureau of the Rod ═══
   Bureau of the Rod:
     category: organization
-    short: "Manages all infrastructure—transportation, water systems, machinery that keeps cities functioning."
+    short: Manages all infrastructure—maintains technology it cannot replicate or fully understand.
     details: |
-      Maintains technology it cannot replicate or fully understand. Depends on Mutterer 
-      labor for complex repairs. Seven Institutes: Luminescence (lighting), Flow (water/sewage), 
-      Nonstandard Environments (hazardous sites), Permission (permits), Technical Determinations, 
-      Tension (power grid), Cloister Liaison Office. Reform faction center—advocates social 
-      programs and consciousness protections.
+      Transportation, water systems, machinery that keeps cities
+      functioning. The Bureau maintains technology it cannot replicate. When
+      something breaks, the Bureau depends on Mutterer labor for complex
+      repairs—the modified minds that can interface with pre-Interdict
+      systems. The Bureau coordinates. The Mutterers understand.
+
+      Seven Institutes: Luminescence (lighting), Flow (water and sewage),
+      Nonstandard Environments (hazardous sites), Permission (permits),
+      Technical Determinations, Tension (power grid), Cloister Liaison
+      Office. Reform faction center—advocates social programs and
+      consciousness protections. The Bureau knows what infrastructure
+      requires. The Bureau sees who suffers when it fails.
     rag_pointer: "Bureau of the Rod Overview"
     related: [Bureau, Satara, Mutterers, Companions Guild]
   # ─── end Bureau of the Rod ───
