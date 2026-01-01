@@ -17706,15 +17706,17 @@ entries:
   # ═══ Ressa Venn ═══
   Ressa Venn:
     category: person
-    short: "Forewoman of Clan Venn—performs dangerous cable installations requiring flexibility and precision."
+    short: Forewoman of Clan Venn—performs dangerous cable installations requiring flexibility and precision.
     person_location: Middens
     details: |
-      Age 28. Forewoman of Clan Venn, young for the position but earned through technical
-      excellence and willingness to take risks others won't. Small frame with exceptional
-      flexibility—can compress through gaps larger riggers cannot navigate. Performs the most
-      dangerous installations: bridge cables in storms, emergency repairs on failing spans,
-      routes across gaps that seem impossible. Her work appears improvised but is precisely
-      calculated using sewer-fisher mathematical intuition.
+      Twenty-eight years old. Forewoman of Clan Venn, young for the
+      position but earned through technical excellence and willingness
+      to take risks others will not. Small frame with exceptional
+      flexibility—can compress through gaps larger riggers cannot
+      navigate. Performs the most dangerous installations: bridge
+      cables in storms, emergency repairs on failing spans, routes
+      across gaps that seem impossible. Her work appears improvised but
+      is precisely calculated using sewer-fisher mathematical intuition.
     rag_pointer: "The Sewer-Fishers of the Middens"
     related: [Sewer-Fishers, Venn, Eldin Venn, Middens]
   # ─── end Ressa Venn ───
