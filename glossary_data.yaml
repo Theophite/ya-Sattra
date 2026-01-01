@@ -10485,11 +10485,17 @@ entries:
   # ═══ Tyrant's Walk ═══
   Tyrant's Walk:
     category: location
-    short: "Catwalk through the Dam connecting Near Wall to Far Wall—formerly Ulayah's Walk."
+    short: Catwalk through the Dam—the Sultana's name removed, replaced with political judgment.
     details: |
-      The only crossing below the Dam's top. Passes above the industrial district, 400 feet 
-      above the river. Renamed after the Revolution—the Sultana's name removed, replaced 
-      with political judgment. The alternative is walking over the Dam's top.
+      The only crossing below the Dam's top, four hundred feet above the river.
+      The catwalk passes through the Dam itself, grey Antediluvian walls on
+      either side—smooth, impervious, lit by electric bulbs. Below: the
+      industrial district, visible through gaps, the smell of hot metal rising.
+      Hammers never stop ringing.
+
+      The walk was named for the Sultana before the Revolution. Now Tyrant's
+      Walk—her name removed, replaced with political verdict. The alternative is
+      walking over the Dam's top, exposed to wind and sun.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [The Dam, Near Wall, Far Wall]
     location_features:
