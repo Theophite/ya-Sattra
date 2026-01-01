@@ -15302,15 +15302,18 @@ entries:
   # ═══ Som es-Vol ═══
   Som es-Vol:
     category: person
-    short: "Broken Highborn on the Junta—wears gag, votes silently, auto-opposes anything Imperial."
+    short: Broken Highborn on the Junta—wears gag, votes silently, auto-opposes anything Imperial.
     person_location: Ogon
     details: |
-      Age 19. No formal warband (~30 in semi-permanent association). Northeast ziggurat 
-      district. Took token through Compulsion eight years ago. Exiled from es-Vol family 
-      after catastrophic breakdown. Possesses ultimate Compulsion but cannot deploy it 
-      safely—his commands affect himself as completely as others. His vocal architecture 
-      was deliberately tortured into this state by his own family. Communicates through 
-      written notes. The Tamas maintain deaf warband specifically because of him.
+      Nineteen years old. No formal warband, about thirty in semi-permanent
+      association. Northeast ziggurat district. Exiled from the es-Vol
+      family after catastrophic breakdown.
+
+      Possesses ultimate Compulsion but cannot deploy it safely—his commands
+      affect himself as completely as others. His vocal architecture was
+      deliberately tortured into this state by his own family. Communicates
+      through written notes. The Tamas maintain a deaf warband specifically
+      because of him.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Warband, Junta of Ogon, Highborn, Compulsion, es-Vol]
   # ─── end Som es-Vol ───
