@@ -7472,13 +7472,18 @@ entries:
   # ═══ Marina Promenade ═══
   Marina Promenade:
     category: location
-    short: "Pleasure waterfront along the Rift's north shore—private docks for Antediluvian Quarter residents."
+    short: Pleasure waterfront along the Rift's north shore—the quiet side where wealth takes its leisure.
     details: |
-      Porcelain-coral promenade running along the Antediluvian Quarter's waterfront. 
-      Private docks, yacht berths, pleasure craft for patent-holding families. The 
-      quiet side of the Rift—wealth's leisure rather than commerce's chaos. Brass 
-      fittings, maintained rigging, vessels that rarely leave harbor but demonstrate 
-      their owners can afford them.
+      Porcelain-coral promenade extending to the water's edge, the same self-cleaning
+      surface as the Quarter's streets. Private docks branch off at intervals—each
+      family's vessels moored at designated berths, brass fittings polished by
+      hereditary dock-servants. The craft range from small sailing boats to larger
+      yachts that could make coastal voyages if their owners wished. Few do.
+
+      The quiet side of the Rift. Across the dark water, the commercial chaos of the
+      Embarcadero provides constant reminder of what money insulates against. Here,
+      vessels exist to demonstrate wealth rather than serve purpose, maintained
+      rigging on boats that rarely leave harbor.
     rag_pointer: "The Rift: Ya-Sattra's Harbor District"
     related: [Rift, Antediluvian Quarter, Aureate]
     location_features:
