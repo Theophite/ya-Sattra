@@ -8719,20 +8719,21 @@ entries:
   # ═══ Eastern Range Cooperative ═══
   Eastern Range Cooperative:
     category: location
-    short: "Moderate veterans' kilit (~6,200 members)—practical mutual aid, individual homesteads."
+    short: Moderate veterans' kilit—practical mutual aid over ideology, social club rather than political cell.
     details: |
-      Approximately 6,200 members concentrated around High Junction. Modest facilities
-      in Old Town. Meetings focus on practical mutual aid rather than ideology.
-      Represents moderate Dawn positions—veteran benefits without aggressive expansion.
-      Elected officers serving three-year terms; current President is Yela Khen-Toukh,
-      a near-baseline veteran from the southern campaigns.
+      Modest adobe building in Old Town's residential core. Six thousand members
+      concentrated around High Junction. Worn wooden benches, a small bar serving
+      pulque and lighting hookahs. No revolutionary banners or martyr portraits;
+      just practical notices about land grants, equipment loans, mutual aid funds.
+      The atmosphere is social club rather than political cell.
 
-      Members tend to be older veterans who've already established homesteads. Economic
-      model emphasizes individual homesteading with collective support: equipment loans,
-      veterinary services, market access, emergency support for families facing hardship.
-      Operates schools for veterans' children. Lobbies for infrastructure investment in
-      established settlements. Free pulque and hashish for prospective members near
-      discharge.
+      Older veterans gather here, people who've already established homesteads and
+      want benefits without aggressive expansion. Equipment loans, veterinary
+      services, market access, emergency support for families facing hardship.
+      Schools for veterans' children. Lobbying for infrastructure investment in
+      established settlements. Elected officers serving three-year terms. When
+      young soldiers near discharge, touts from all the halls compete—but Eastern
+      Range offers conversation rather than ideology.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Old Town, High Junction, Republican Veterans' Congress, Dawn Party]
     location_features:
