@@ -9137,12 +9137,17 @@ entries:
   # ═══ Horizon Row ═══
   Horizon Row:
     category: location
-    short: "Commercial street on TOP of the Ridge—running along what was once the arcology's exterior wall."
+    short: Commercial street on top of the Ridge—almost normal, until you step inside and descend.
     details: |
-      The road on top of the rotated arcology. Cobblestone street feels almost normal—
-      shopfronts display goods with Guild-like propriety. Val Waterworks, Three-Token 
-      Exchange, Copper-Kettle Clinic, Clean-Hall Decontamination. Connects to Medina 
-      via rubble road, to districts below via staircases and cable lifts.
+      The road on top of the rotated arcology, running along what was once an
+      exterior wall. Cobblestone street feels almost normal—shopfronts display
+      goods with Guild-like propriety. Technical services cluster here: waterworks,
+      exchanges, clinics, decontamination. Rubble road connects east to Medina;
+      staircases and cable lifts descend to districts below.
+
+      The Ridge's respectable face. Walking this street, one could almost forget
+      the chaos beneath—until stepping inside any shop and descending into the
+      rotated interior where walls become floors and floors become walls.
     rag_pointer: "The Ridge: Comprehensive Summary"
     related: [Ridge, Val Waterworks, Three-Token Exchange]
     location_features:
