@@ -4028,13 +4028,25 @@ entries:
   # ═══ The Blind Fish ═══
   The Blind Fish:
     category: location
-    short: "Tavern in a natural cavern—serves fermented beverages with flavors surface brewing cannot replicate."
+    short: Tavern in a natural cavern—fermented beverages with flavors surface brewing cannot replicate, named for the eyeless fish in underground streams.
     details: |
-      Early Depths residents discovered and expanded this natural cavern. Serves fermented
-      beverages produced in underground conditions. Proprietor: Stone-Echo Vell (Karst, 60s),
-      whose family has operated the establishment for five generations. The tavern's name
-      references organisms in the underground water systems; the fish themselves are
-      occasionally served as delicacies.
+      Early Depths residents discovered and expanded this natural cavern.
+      The walls curve organically where they weren't carved, water seeping
+      through rock leaving mineral deposits that glitter in lamplight. A
+      family has operated the establishment for five generations, passing
+      down brewing techniques that produce flavors impossible on the
+      surface.
+
+      Underground fermentation works differently. The constant temperature,
+      the pressure, the mineral content of the water, organisms that exist
+      only in the Depths—the beverages here taste like nothing above. Some
+      surface visitors descend specifically for this, accepting the
+      disorientation of the tunnels for drinks unavailable elsewhere.
+
+      The tavern's name references organisms in underground water systems:
+      pale, eyeless fish adapted to complete darkness. Occasionally served
+      as delicacies. The flesh tastes of the minerals the fish filter,
+      subtle flavors that surface palates struggle to identify.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Depths of St. Yerren, Karst, ya-Don]
     location_features:
