@@ -5049,8 +5049,17 @@ entries:
   # ═══ Ghemar-yan ═══
   Ghemar-yan:
     category: location
-    short: Pastoral settlement demonstrating successful frontier integration.
-    details: "Small community with grid power connection, school, veterans kilit. Traditional pastoral life with Republican structures. Neon sign on Tarak's general store."
+    short: Pastoral settlement on the Republic's frontier—grid power, school, cattle country stretching to the horizon.
+    details: |
+      Adobe and timber construction on high desert pastoral land. Grid power arrived
+      recently; a neon sign on the general store announces it. Transmitter dish connects
+      to the Republic. Small school, veterans kilit meeting hall. Traditional pastoral
+      settlement with Republican infrastructure overlay.
+
+      Not the carved sandstone of the capital—built construction on flat land. But the
+      Republic reaches here. Cattle country stretching to the Thousand Kingdoms border,
+      and still the grid hums, the school teaches, the kilit meets. Frontier that
+      belongs.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Ganat]
     location_features:
