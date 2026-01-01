@@ -10981,27 +10981,23 @@ entries:
   # ═══ The Alcazar Collection ═══
   The Alcazar Collection:
     category: location
-    short: "Private museum in the Third Whorl—pre-Interdict holograms, photographs, music. No interpretation permitted."
+    short: Private museum—visitors stand before Hologram Seventeen for hours, sometimes weeping.
     details: |
-      Seventeen holograms of orbital habitats, forty-three photographs of forgotten worlds,
-      music recorded during the Sixth Oracle's era. No interpretation permitted. The
-      collection occupies three galleries in a Third Whorl residential block, maintained
-      by a family whose name the Bureau of the Lens has never formally recorded—a legal
-      fiction allowing the collection to exist without official acknowledgment.
+      Seventeen holograms of orbital habitats. Forty-three photographs of
+      forgotten worlds. Music recorded during the Sixth Oracle's era. No
+      interpretation permitted. The collection occupies three galleries in a
+      Third Whorl residential block, maintained by a family whose name the
+      Bureau of the Lens has never formally recorded—a legal fiction allowing
+      the collection to exist without official acknowledgment.
 
-      The most controversial piece, Hologram Seventeen, appears to show a city of impossible
-      architecture. Structures that could not stand under any physics. Geometries that
-      hurt to follow. No one can say what it is or was, whether humans built it, whether
-      it still exists somewhere beyond the Interdict. Visitors stand before it for hours,
-      sometimes weeping. The family has refused offers to purchase it at prices that
-      would make them among the wealthiest in the Empire.
-
-      Regular visitors develop elaborate private theories about what the collection
-      shows. Some believe Hologram Seventeen depicts a Foreigner city. Others argue it
-      shows human construction from before the Records began. A minority insist it's
-      a fabrication, a pre-Interdict art piece depicting nothing real. The prohibition
-      on interpretation means no theory can be officially endorsed or refuted. All
-      remain equally possible.
+      The most controversial piece, Hologram Seventeen, appears to show a city
+      of impossible architecture. Structures that could not stand under any
+      physics. Geometries that hurt to follow. No one can say what it is or was,
+      whether humans built it, whether it still exists somewhere beyond the
+      Interdict. Visitors stand before it for hours, sometimes weeping. The
+      family has refused offers at prices that would make them among the
+      wealthiest in the Empire. The prohibition on interpretation means no
+      theory can be officially endorsed or refuted. All remain equally possible.
     rag_pointer: "Imperial Media and Entertainment"
     related: [Third Whorl, Uninterpreted Collections, Inner City, Bureau of the Lens]
     location_features:
