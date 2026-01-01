@@ -16876,12 +16876,16 @@ entries:
   # ═══ Taho Accountants' Fraternal ═══
   Taho Accountants' Fraternal:
     category: organization
-    short: "Monopoly accountancy kilit—auditing, bookkeeping, fiscal verification, serves the Exchequer."
+    short: Monopoly accountancy kilit—auditing, bookkeeping, fiscal verification, serves the Exchequer.
     details: |
-      Only profession where no competing kilits have emerged. Existed under Sultanate,
-      served Royal Exchequer, continues serving People's Exchequer. Members audit kilit
-      declarations, manage commercial accounts, verify financial records. Maintains
-      rigorous standards because institutional position depends on universal confidence.
+      The only profession where no competing kilits have emerged. Existed
+      under the Sultanate, served the Royal Exchequer, continues serving
+      the People's Exchequer. Members audit kilit declarations, manage
+      commercial accounts, verify financial records.
+
+      Maintains rigorous standards because institutional position depends
+      on universal confidence. Regimes change. Accountants persist. Someone
+      has to verify that the numbers are true.
     rag_pointer: "Professional Kilits and Certification"
     related: [Ganat, Kilit, People's Exchequer]
   # ─── end Taho Accountants' Fraternal ───
