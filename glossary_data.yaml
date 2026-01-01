@@ -4301,23 +4301,20 @@ entries:
   # ═══ Yem Tokan ═══
   Yem Tokan:
     category: person
-    short: "Senator for Hereditary Debtors—fifty-four, third-generation, quiet, methodical, devastatingly well-informed."
+    short: Senator for Hereditary Debtors—third-generation, quiet, methodical, trading information for policy commitments.
     details: |
-      Fifty-four years old, third-generation Debtor whose grandfather's merchant kilit
-      collapsed during a drought that destroyed their textile supply chain. Worked in
-      state administration since age sixteen, rising through customs service to archive
-      management to political representation. Unmarked surname—Tokan, no compound
-      structure—marks original Debtor status rather than voluntary acquisition.
+      Third-generation Debtor whose grandfather's merchant kilit collapsed during a
+      drought. Worked in state administration since age sixteen, rising through customs
+      service to archive management to political representation. Unmarked surname marks
+      original Debtor status rather than voluntary acquisition.
 
-      Quiet, methodical, devastatingly well-informed. Every Senator seeking coalition
-      support eventually visits his office, because he knows things they need and can
-      predict outcomes they cannot. He doesn't sell information—that would be corruption
-      —but trades it for policy commitments benefiting his constituency. A Dusk merchant
-      Senator learns which rival's coalition is fracturing in exchange for supporting
-      credit rate legislation.
+      Every Senator seeking coalition support eventually visits his office. He knows
+      things they need and can predict outcomes they cannot. He doesn't sell information
+      —that would be corruption—but trades it for policy commitments benefiting his
+      constituency. A merchant Senator learns which rival's coalition is fracturing in
+      exchange for supporting credit rate legislation.
 
-      Held the Senate seat for eleven years. His influence exceeds his formal position:
-      one seat among 750, but he affects outcomes on dozens of votes annually through
+      One seat among 750, but he affects outcomes on dozens of votes annually through
       information asymmetry and strategic coalition advice. Neither faction fully trusts
       him; both need him. He considers this appropriate.
     rag_pointer: "Hereditary Debtors"
