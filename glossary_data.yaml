@@ -17086,17 +17086,18 @@ entries:
   # ═══ Dam Workers' Armorers Assembly ═══
   Dam Workers' Armorers Assembly:
     category: organization
-    short: "Dawn-aligned cooperative producing mass-manufactured weapons inside the Dam."
+    short: Dawn-aligned cooperative producing mass-manufactured weapons inside the Dam.
     details: |
-      LOCATION: Inside the Dam itself, Ganat proper. Workshops occupy chambers carved 
-      from the Dam's internal structure, directly connected to the turbine halls. The 
-      hum of generators is constant.
-      
-      PRODUCTS: Machine-turned rifle barrels (consistent bore), standardized cartridge 
-      cases, bayonets (triangular, socket-mount), uniform fittings.
-      
-      CHARACTER: Syndicalist cooperative, Dawn-aligned. Quality varies by shift committee. 
-      Free power means experimentation is cheap—failed designs cost only labor.
+      Located inside the Dam itself, Ganat proper. Workshops occupy chambers
+      carved from the Dam's internal structure, directly connected to the
+      turbine halls. The hum of generators is constant.
+
+      Produces machine-turned rifle barrels with consistent bore,
+      standardized cartridge cases, bayonets, uniform fittings. A
+      syndicalist cooperative, Dawn-aligned. Quality varies by shift
+      committee. Free power means experimentation is cheap—failed designs
+      cost only labor. The workers own the machines. The machines make
+      weapons. The weapons arm the revolution.
     related: [Ganat, Dawn Party, Khen-Masot Rifle Works]
   # ─── end Dam Workers' Armorers Assembly ───
 
