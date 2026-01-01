@@ -15731,12 +15731,15 @@ entries:
   # ═══ Fourth Testament ═══
   Fourth Testament:
     category: concept
-    short: "Transmitted in the Jargon—comprehensible only to Technical Castes."
+    short: Transmitted in the Jargon—comprehensible only to Technical Castes.
     details: |
-      The Fourth through Seventh Testaments were transmitted in the Jargon, the
-      sung mathematical language that only Technical Castes could process. Baseline
-      humans cannot comprehend these transmissions. The technologies derived from
-      these Testaments enabled the Empire's golden age of archaeotech development.
+      The Fourth through Seventh Testaments were transmitted in the Jargon,
+      the sung mathematical language that only Technical Castes could
+      process. Baseline humans cannot comprehend these transmissions.
+
+      The technologies derived from these Testaments enabled the Empire's
+      golden age of archaeotech development. Gifts no one alive can
+      fully understand. Gifts whose fruits remain.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Testaments, Oracles, Jargon, Technical Castes, Auditors]
   # ─── end Fourth Testament ───
