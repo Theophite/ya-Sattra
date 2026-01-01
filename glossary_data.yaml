@@ -6362,11 +6362,16 @@ entries:
   # ═══ The Char ═══
   The Char:
     category: location
-    short: "Cheap food kitchen for workers who can't afford the Burned Hand."
+    short: Cheap food kitchen for workers who can't afford the Burned Hand—rice porridge, pickled vegetables, whatever protein was cheap.
     details: |
-      Cramped kitchen where Grandmother Shen produces rice porridge, pickled vegetables, 
-      and whatever protein she found cheap at market. Forty years cooking in the Iron 
-      Yards. Knows which crews are flush, which are desperate, which foremen can be trusted.
+      Cramped kitchen producing the food workers can afford. Rice porridge, pickled
+      vegetables, and whatever protein was cheap at market. The cook has been here for
+      decades, knows which crews are flush, which are desperate, which foremen can be
+      trusted.
+
+      Food is fuel. Workers need fuel. The Char provides what the Yards require—calories
+      at prices the wages cover, no questions about where the customer was before or
+      goes after.
     rag_pointer: The Iron Yards
     related: [Torchline Row, Iron Yards]
     location_features:
