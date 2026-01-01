@@ -7504,23 +7504,23 @@ entries:
   # ═══ Great Bazaar ═══
   Great Bazaar:
     category: location
-    short: "Vast commercial chaos covering a third of the Medina—streets sunken between arcology foundations, buildings carved into ancient substrate."
+    short: Vast commercial chaos covering a third of the Medina—unmapped, unmappable, swallowing everyone who enters.
     details: |
-      A third of the Medina Quarter by area, though nobody has successfully mapped it. 
-      No formal boundaries—begins wherever merchants set up, ends wherever they don't. 
-      The destroyed arcologies left their foundations: massive platforms rising 3-5 meters 
-      above the streets that run between them. You walk in canyons, then climb stairs 
-      or ramps to reach the buildings constructed ON the foundations. Many buildings 
-      are built INTO the foundations themselves—carved chambers, converted conduit spaces, 
-      shops occupying equipment housings whose original purpose nobody remembers. The 
-      palimpsest goes down as well as up: basement levels beneath basement levels, some 
-      connecting, some dead-ending into substrate nobody has surveyed.
-      
-      White market (licensed guild shops on foundation tops), gray market (uncertain legal 
-      status in the streets between), black margins (transactions in the carved spaces 
-      where nobody looks). The three bridges from Antediluvian Quarter open into the 
-      Bazaar's northern edge—status declared on one side of the Rift, then swallowed by 
-      commercial chaos on the other.
+      A third of the Medina Quarter by area, though nobody has successfully mapped
+      it. No formal boundaries—begins wherever merchants set up, ends wherever they
+      don't. The destroyed arcologies left their foundations: massive platforms
+      rising three to five meters above the streets that run between them. Walking
+      through feels like moving through canyons; stairs and ramps lead up to
+      buildings constructed on the foundations, while carved chambers and converted
+      conduit spaces offer shops below. The palimpsest goes down as well as up:
+      basement levels beneath basement levels, some connecting, some dead-ending
+      into substrate nobody has surveyed.
+
+      White market on foundation tops—licensed guild shops with guaranteed prices.
+      Gray market in the streets between—uncertain legal status, flexible terms.
+      Black margins in the carved spaces where nobody looks. The three bridges from
+      the Antediluvian Quarter open into the Bazaar's northern edge. Status declared
+      on one side of the Rift dissolves in the crowd on the other.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [Medina Quarter, Rift, Fourth Whorl, Foundation Market]
     location_features:
