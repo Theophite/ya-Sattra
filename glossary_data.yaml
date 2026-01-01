@@ -13137,15 +13137,20 @@ entries:
   # ═══ Port Ahn ═══
   Port Ahn:
     category: location
-    short: "Limestone cliff port town—Imperial checkpoint between Thousand Kingdoms and ya-Sattra."
+    short: Town clinging to cliff face in terraces—stairs so steep they are nearly ladders, the last edge of Empire.
     details: |
-      Strategic port built on steep cliffs rising 300 feet from a bay. Town clings to cliff
-      face in terraces carved from living rock, connected by stairs cut so steep they are
-      nearly ladders. Last stop for northbound traders heading into Imperial territory, first
-      stop for southbound Akama traders. Features gauss cannon emplacements on the Citadel,
-      Revenue House for customs clearance, and markets where Imperial goods meet frontier
-      products. Five days sail from the Thousand Kingdoms, three days from ya-Sattra.
-      "The last edge of Empire where broken weapons were displayed as heritage."
+      Three hundred feet of limestone rising from the bay. The town is carved
+      into the living rock, terraces connected by stairs cut so steep they
+      require handrails or rope. Cargo goes up by winch. People go up by
+      climbing. The muscles in the legs tell the story of everyone who lives
+      here.
+
+      Last stop for northbound traders heading into Imperial territory, first
+      stop for southbound Akama traders. Gauss cannon emplacements on the
+      Citadel overlook the harbor. The Revenue House processes customs
+      clearance. Markets where Imperial goods meet frontier products. Five days
+      sail from the Thousand Kingdoms, three days from ya-Sattra. The last edge
+      of Empire, where broken weapons are displayed as heritage.
     rag_pointer: "Vey, Trip to Port Ahn"
     related: [Thousand Kingdoms, ya-Sattra, ya-Tsatsa, Bureau of Coin, Akama]
     location_features:
