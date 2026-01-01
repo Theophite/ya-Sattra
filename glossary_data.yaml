@@ -13639,22 +13639,21 @@ entries:
   # ═══ Witnesses ═══
   Witnesses:
     category: concept
-    short: "Mathematician-priests who attended Technical Castes before the Interdict—ancestors of both Companions Guild and Penitent Church."
+    short: Mathematician-priests who attended Technical Castes before the Interdict—now split into Companions Guild and Penitent Church.
     details: |
-      Before the Interdict, the Witnesses served in three capacities: Oracle Midwifery
-      (attending the creation and maintenance of kalbats), Kalbat Attendance (the care
-      that Companions still perform), and Technical Caste Support (recording and
-      transmitting what the Technical Castes produced in the Jargon).
+      Before the Interdict, they served in three capacities: Oracle Midwifery,
+      Kalbat Attendance, and Technical Caste Support—recording and transmitting
+      what the Technical Castes produced in the Jargon. They understood enough
+      to serve. Not enough to replicate. When the catastrophe came, they were
+      the ones who watched.
 
-      When the Emperor deployed the sterilization plague and the Foreigners imposed
-      the Interdict, the Witnesses split. Nine departed to found what became the
-      Penitent Church, composing the Plea that would become central to Penitent
-      liturgy. The remainder formed the Companions Guild, preserving the practical
-      knowledge of caring for those the catastrophe had created or damaged.
-
-      The Cathedral of the Plea stands where the Witnesses knelt when the Interdict
-      was imposed. The Witness Stone—the actual floor, worn into a shallow depression
-      by centuries of pilgrims—remains the holiest site in Penitentism.
+      The Witnesses split when the Interdict was imposed. Nine departed to
+      found what became the Penitent Church, composing the Plea. The remainder
+      formed the Companions Guild, preserving practical knowledge of caring for
+      those the catastrophe had created or damaged. The Cathedral of the Plea
+      stands where the Witnesses knelt. The Witness Stone—the actual floor,
+      worn into a shallow depression by centuries of pilgrims—remains the
+      holiest site in Penitentism.
     rag_pointer: "The Companions Guild, The Penitent Church"
     related: [Companions Guild, Penitent Church, Technical Castes, Kalbat, Cathedral of the Plea, Interdict, The Plea]
   # ─── end Witnesses ───
