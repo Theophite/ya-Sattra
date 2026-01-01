@@ -15417,17 +15417,19 @@ entries:
   # ═══ Vey Nine Birds ═══
   Vey Nine Birds:
     category: person
-    short: "Junta Kma-Dhol representative—47 engineering specialists, technical monopoly, fertility crisis concern."
+    short: Junta Kma-Dhol representative—forty-seven engineering specialists, technical monopoly, fertility crisis concern.
     person_location: Ogon
     details: |
-      Age 42. Northern ziggurat districts, Kma-Dhol quarters. Took token 7 years 
-      ago through economic necessity (other members need his services). Commands 
-      Nine Birds Engineering Collective, dominant Kma-Dhol technical firm in Ogon. 
-      Power from monopoly on essential services: structural assessment, factory-singing 
-      coordination, archaeotech maintenance. 40,000 Kma-Dhol live in Ogon as recognized 
-      specialists. Primary concern is fertility crisis—declining birth rates, 60% 
-      pregnancy failure rate, genetic drift. Astrological surname indicates Malpais 
-      cultural roots.
+      Forty-two years old. Northern ziggurat districts, Kma-Dhol quarters.
+      Took token seven years ago through economic necessity—other members
+      need his services. Commands the Nine Birds Engineering Collective,
+      dominant Kma-Dhol technical firm in Ogon.
+
+      Power from monopoly on essential services: structural assessment,
+      factory-singing coordination, archaeotech maintenance. About forty
+      thousand Kma-Dhol live in Ogon as recognized specialists. Primary
+      concern is fertility crisis—declining birth rates, sixty percent
+      pregnancy failure rate, genetic drift. His people are dying out.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Warband, Junta of Ogon, Ogon, Kma-Dhol, Imek Stone-Foot]
   # ─── end Vey Nine Birds ───
