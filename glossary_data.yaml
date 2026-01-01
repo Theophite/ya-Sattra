@@ -16397,28 +16397,28 @@ entries:
   # ═══ obol ═══
   obol:
     category: concept
-    short: "Imperial currency standard—beer costs 1/16 obol, subsistence requires 90-110 obols monthly."
+    short: Imperial currency standard—beer costs a sixteenth of an obol, subsistence requires ninety to one hundred ten obols monthly.
     details: |
-      Universal unit of account. Regional currencies exist—the Ganati dinar (= 10 obols),
-      various Thousand Kingdoms scrip—but all convert to obol-equivalents for trade. Many
-      maintains exchange rates.
+      Universal unit of account. Regional currencies exist—the Ganati dinar
+      at ten obols, various Thousand Kingdoms scrip—but all convert to
+      obol-equivalents for trade. Many maintains exchange rates.
 
-      Price benchmarks: beer 1/16 obol; basic street meal 1/8-1/4 obol; seated tavern meal
-      1/2-1 obol; bunkhouse 5 obols/week (~20-22/month); cheap private room 35-50 obols/month;
-      decent housing 80-120 obols/month. Guild shirt 3-4 obols (lasts years); unlicensed shirt
-      1-1.5 obols (wears out in months).
+      Price benchmarks: beer at a sixteenth of an obol, basic street meal
+      an eighth to a quarter, seated tavern meal a half to one obol. A
+      bunkhouse runs five obols weekly. A cheap private room costs thirty-
+      five to fifty obols monthly. A guild shirt runs three to four obols
+      and lasts years. An unlicensed shirt costs one obol and wears out in
+      months.
 
-      Subsistence threshold (calibrated against Kess, a courier in the Rotten Quarter):
-      90-110 obols/month maintains bunk and adequate food. Below 60 obols means sleeping rough,
-      irregular meals, owning nothing—destitution, not subsistence. Parish capitation 40 obols
-      annually—half a month's income at subsistence.
+      Subsistence threshold: ninety to one hundred ten obols monthly
+      maintains a bunk and adequate food. Below sixty obols means sleeping
+      rough, irregular meals, owning nothing—destitution, not subsistence.
 
-      Income tiers: destitute 40-70; subsistence 90-120; working poor 140-200; lower middle
-      250-350; middle class 400-600; wealthy 2,000+. Workers think in obols; merchants in
-      hundreds; Aureate families measure wealth in millions.
-
-      Much exchange happens through non-monetary means: guild obligations, hereditary
-      arrangements, temple tithes, household production, patron-client relationships.
+      Workers think in obols. Merchants think in hundreds. Aureate families
+      measure wealth in millions. Much exchange happens through non-monetary
+      means: guild obligations, hereditary arrangements, temple tithes,
+      household production, patron-client relationships. Money is only part
+      of how the Empire moves value. The rest is obligation.
     rag_pointer: "The Economy"
     related: [Bureau of the Coin, Aureate, Dinar, Many]
   # ─── end obol ───
