@@ -13767,12 +13767,20 @@ entries:
   # ═══ Testament Society ═══
   Testament Society:
     category: organization
-    short: "Ya-Tsatsa religious societies preserving and interpreting Oracle teachings."
+    short: Ya-Tsatsa religious societies—membership takes years, schisms correlate with criminal enterprise elsewhere.
     details: |
-      Chapter houses throughout Upper City, distinguished by geometric lintel patterns. 
-      Members gather before dawn for Cradle ceremonies. Study groups, meditation halls, 
-      libraries. Membership takes years. Schisms correlate with emigration and criminal 
-      enterprise establishment elsewhere.
+      Chapter houses throughout Upper City, distinguished by geometric lintel
+      patterns. Members gather before dawn for Cradle ceremonies. Study groups,
+      meditation halls, libraries holding interpretations accumulated across
+      generations. What the Oracles taught. What the teachings might mean. How
+      to live in accordance with wisdom no one fully understands.
+
+      Membership takes years. Those who complete the process emerge changed.
+      Those who leave before completion—or who are expelled for doctrinal
+      disputes—often emigrate. A disproportionate number of criminal
+      organizations elsewhere trace their leadership to Testament Society
+      schisms. The skills transfer. The devotion redirects. What was learned
+      about commitment and secrecy serves other purposes.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [ya-Tsatsa, Oracles, Upper City]
   # ─── end Testament Society ───
