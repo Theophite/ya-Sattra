@@ -10941,22 +10941,22 @@ entries:
   # ═══ Third Whorl ═══
   Third Whorl:
     category: location
-    short: The industrial and utility core of the Inner City—the Engine Room.
+    short: Industrial core of the Inner City—a machinery hum felt more than heard.
     details: |
-      Cavernous halls house colossal water recycling plants, geothermal heat exchangers,
-      and power distribution substations. The architecture is functional grandeur—bronze
-      walls with bas-reliefs that serve as integrated data conduits and diagnostic panels.
+      Cavernous halls house colossal water recycling plants, geothermal heat
+      exchangers, power distribution substations. The architecture is functional
+      grandeur—bronze walls with bas-reliefs that serve as integrated data
+      conduits and diagnostic panels.
 
-      The air is clean but carries ozone and the scent of chilled metal from coolant pumps.
-      Sounds: deep machinery hum felt more than heard, rhythmic clang of presses, water
-      flowing through bronze pipes. Vast cloistered office complexes house thousands of
-      scribes, styluses scratching on tablets, quiet conversations replacing the Fourth
-      Whorl's market cacophony.
+      The air is clean but carries ozone and the scent of chilled metal from
+      coolant pumps. A deep machinery hum felt more than heard. Rhythmic clang of
+      presses. Water flowing through bronze pipes. Vast cloistered office
+      complexes house thousands of scribes, styluses scratching on tablets, quiet
+      conversations replacing the Fourth Whorl's market cacophony.
 
-      Key locations: Bureau of the Rod Central Control (tiered amphitheater of consoles),
-      the Lineal Vaults (cryogenic genetic archive), the Mint (fortress of deafening
-      archaeotech presses), Terminal Manifold (logistics operations), residential enclaves
-      for senior bureaucrats avoiding Whorl-Lag.
+      The Lineal Vaults preserve genetic records in cryogenic archive. The Mint
+      pounds out currency on deafening archaeotech presses. Residential enclaves
+      for senior bureaucrats who prefer to avoid Whorl-Lag.
     rag_pointer: The Inner City
     related: [Inner City, The Alcazar Collection]
     location_features:
