@@ -17462,18 +17462,16 @@ entries:
   # ═══ Journeyman Torven Garris ═══
   Journeyman Torven Garris:
     category: person
-    short: "Mobile field repair armorer—no fixed workshop, works from a cart, soldiers know his name."
+    short: Mobile field repair armorer—no fixed workshop, works from a cart, soldiers know his name.
     person_location: Iron Yards
     details: |
-      LOCATION: Based in the Iron Yards, ya-Sattra, but travels with regiments. His 
-      cart has been to the Yarangar border and back three times.
-      
-      PRODUCTS: Emergency repairs, parts fabrication from salvage, bore conversions 
-      between calibers.
-      
-      CHARACTER: Goes where the work is. When a regiment is in the field and weapons 
-      break, they send for Torven. No fixed workshop—just a cart, tools, and thirty 
-      years of experience knowing what can be fixed and what can't.
+      Based in the Iron Yards, ya-Sattra, but travels with regiments.
+      His cart has been to the Yarangar border and back three times.
+      Emergency repairs, parts fabrication from salvage, bore
+      conversions between calibers. Goes where the work is. When a
+      regiment is in the field and weapons break, they send for him.
+      No fixed workshop—just a cart, tools, and thirty years of
+      experience knowing what can be fixed and what cannot.
     related: [Armorers' Guild, Iron Yards, Master Kavek Ossoreth]
   # ─── end Journeyman Torven Garris ───
 
