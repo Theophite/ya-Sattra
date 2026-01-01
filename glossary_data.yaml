@@ -7095,12 +7095,20 @@ entries:
   # ═══ Lens-Grinders' Courtyard ═══
   Lens-Grinders' Courtyard:
     category: location
-    short: "Complex of seven pre-Interdict structures housing Opticians' Guild and precision workshops."
+    short: Complex of seven pre-Interdict structures housing Opticians' Guild and precision workshops.
     details: |
-      Seven ancient buildings surrounding central courtyard on shared foundation ~200 meters 
-      square. Houses Opticians' Guild headquarters (distinct from retail in Alley of Lenses), 
-      three precision-instrument workshops, residential space for ~200 people, and a Bureau 
-      of the Rod sub-office that has occupied the same rooms for eleven centuries.
+      Seven ancient buildings surrounding a central courtyard on a shared foundation
+      two hundred meters square. The stone underfoot predates the Interdict; the
+      buildings lean slightly inward, settling imperceptibly over millennia. Quieter
+      than the surrounding streets—sound dampens here, and workers speak in murmurs
+      appropriate to precision work.
+
+      The Opticians' Guild keeps its headquarters here, separate from retail in the
+      Alley of Lenses. Three precision-instrument workshops occupy adjacent buildings,
+      their interiors filled with grinding wheels and calibration benches. Two hundred
+      residents live in the upper floors. A Bureau of the Rod sub-office has occupied
+      the same corner rooms for eleven centuries, its clerks recording who enters and
+      leaves with the same meticulous attention the opticians bring to their lenses.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [Medina Quarter, Opticians' Guild, Alley of Lenses]
     location_features:
