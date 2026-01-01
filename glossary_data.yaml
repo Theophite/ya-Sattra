@@ -6729,23 +6729,20 @@ entries:
   # ═══ Malpais ═══
   Malpais:
     category: location
-    short: Volcanic scablands where pastoral Akama drive cattle across thin-soiled basalt.
+    short: Volcanic scablands where Akama drive cattle across thin-soiled basalt—every object earned, every scar displayed.
     details: |
-      Stretches from southeast Idaho to the coast—vast volcanic basalt flows with
-      soil too thin for agriculture. The land is harsh: black rock, sparse vegetation,
-      water only in scattered springs and seasonal streams. Villages cluster wherever
-      water runs year-round.
+      Vast volcanic basalt flows stretching from southeast Idaho to the coast. Soil
+      too thin for agriculture. Black rock, sparse vegetation, water only in scattered
+      springs and seasonal streams. Villages cluster wherever water runs year-round.
 
-      Akama bands drive cattle across this landscape, following routes their ancestors
-      established generations ago. Destriers pick their way over rock that would break
-      a horse's legs. The pastoral life here is harder than in the rich grasslands
-      north of Ogon—fewer cattle per band, longer drives between water, constant
-      movement to find grazing.
+      Akama bands drive cattle following routes their ancestors established generations
+      ago. Destriers pick their way over rock that would break a horse's legs. Pastoral
+      life here is harder than in the rich grasslands north of Ogon—fewer cattle per
+      band, longer drives between water, constant movement to find grazing.
 
-      The villages are small, defensive, built from the black basalt that covers
-      everything. Camps are temporary: felt tents, portable shrines, the accumulated
-      gear that defines Akama life. The aesthetic is testimonial—every object earned,
-      every scar displayed, every piece of equipment speaking to its owner's history.
+      Camps are temporary: felt tents, portable shrines, accumulated gear. The aesthetic
+      is testimonial—every object earned, every scar displayed, every piece of equipment
+      speaking to its owner's history.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Thousand Kingdoms, Akama, Destrier]
     location_features:
