@@ -15025,13 +15025,16 @@ entries:
   Ema es-Tel:
     category: person
     aliases: [Sri Custodian Ema es-Tel]
-    short: "Hereditary custodian of the es-Yatani Device—implementing patterns she cannot comprehend for purposes she cannot know."
+    short: Hereditary custodian of the es-Yatani Device—implementing patterns she cannot comprehend for purposes she cannot know.
     details: |
-      Seventeenth in a line of es-Yatani patent holders. Operates a black Device of unknown
-      purpose through inherited procedures. Requests arrive from the First Whorl at 3 AM.
-      She implements patterns with names like "Ascending Meridian with Variant Nine."
-      Compensation arrives instantly—sometimes millions of obols. The family manual says
-      only: "ONLY PRECISION IS REQUIRED."
+      Seventeenth in a line of es-Yatani patent holders. Operates a black
+      Device of unknown purpose through inherited procedures. Requests arrive
+      from the First Whorl at three in the morning. She implements patterns
+      with names like "Ascending Meridian with Variant Nine."
+
+      Compensation arrives instantly—sometimes millions of obols. The family
+      manual says only: "ONLY PRECISION IS REQUIRED." She has never made an
+      error. She does not know what would happen if she did.
     rag_pointer: "Story Vignettes Collection"
     related: [First Whorl, Aureate, Patent]
   # ─── end Ema es-Tel ───
