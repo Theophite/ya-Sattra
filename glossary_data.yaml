@@ -13405,29 +13405,26 @@ entries:
   # ═══ Yarangar War ═══
   Yarangar War:
     category: event
-    short: "Sultanate intervention in Ranga insurgency—military success that bred revolution through broken promises."
+    short: Sultanate intervention in Ranga insurgency—military success that bred revolution through broken promises.
     details: |
-      Sultana Ulayah's intervention in the Yarangar seemed strategically sound. The
-      Ranga insurgents shared Serrulata history—both colonist castes engineered for
-      specific environments, subjected to Imperial population management. Funding their
-      resistance would bleed Imperial forces while positioning the Sultanate as champion
-      of colonist liberation.
+      The intervention seemed strategically sound. The Ranga insurgents shared
+      Serrulata history—both colonist castes engineered for specific
+      environments, subjected to Imperial population management. Funding their
+      resistance would bleed Imperial forces while positioning the Sultanate as
+      champion of colonist liberation.
 
-      THE SCREENING TACTIC: Sultanate regulars were dominated by aristocratic families.
-      The Sultana used kilit levies—militia raised from pastoral bands, merchant houses,
-      and labor organizations—to screen these regulars from the worst fighting. Veterans
-      from kilit backgrounds absorbed casualties that aristocratic units avoided.
+      Sultanate regulars were dominated by aristocratic families. The Sultana
+      used kilit levies—militia raised from pastoral bands, merchant houses,
+      and labor organizations—to screen these regulars from the worst fighting.
+      Veterans from kilit backgrounds absorbed casualties that aristocratic
+      units avoided.
 
-      THE PENSION CRISIS: The Sultana promised survivors pensions. The treasury couldn't
-      pay them. The intervention had been financed through borrowing from Taho merchant
-      houses. Debt payments took priority over veterans' promises. Month after month,
-      veterans were told to wait while aristocrats—whose sons had survived behind kilit
-      screening—prospered through court connections.
-
-      THE RADICALIZATION: Veterans began listening to Yeweso Dhal-Teren's pamphlets
-      about constitutional illegitimacy and Kaleb's sermons about failed religious
-      obligations. They formed kilits around shared service, petitioned for representation,
-      and were refused. The constitutional path closed; what remained was Kelso Senna.
+      The Sultana promised survivors pensions. The treasury couldn't pay them.
+      The intervention had been financed through borrowing from Taho merchant
+      houses. Debt payments took priority over veterans' promises. Month after
+      month, veterans were told to wait while aristocrats prospered. They
+      petitioned for representation and were refused. The constitutional path
+      closed. What remained was revolution.
     rag_pointer: "The Republic of Ganat"
     related: [Yarangar, Ganat, Sultana Ulayah, Kelso Senna, Patriarch Kaleb, Yeweso Dhal-Teren, Republican Veterans' Congress]
     event_features:
