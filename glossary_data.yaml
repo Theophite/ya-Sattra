@@ -5283,24 +5283,19 @@ entries:
   # ═══ High Junction ═══
   High Junction:
     category: location
-    short: "Garrison city at the Republic's northern frontier—hub for highland pastoral confederations."
+    short: Garrison city at the Republic's northern frontier—eighty thousand inhabitants where grid power meets pastoral commerce.
     details: |
-      80,000 inhabitants at 6,400 feet on the Azhmar River (Arkansas). Transformed
-      from frontier garrison of 30,000 to manufacturing center after grid power
-      arrived six years ago. Dawn Party stronghold, chaotic politics. The Dhal-Setil
-      family (Rasma's family) has a multi-generational compound here.
+      Six thousand feet elevation on the Azhmar River. Transformed from frontier
+      garrison to manufacturing center after grid power arrived six years ago.
+      Furthest eastern stop on power lines from the Dam. Dawn Party stronghold,
+      chaotic politics.
 
       Straddles both banks crossed by a pre-Interdict bridge that constantly needs
       repair—locals joke it proves even the Antediluvians could build poorly, though
-      it's somehow lasted millennia. Furthest eastern stop on power lines from the
-      Dam, with full telegraph service. Railroad debates continue indefinitely.
-
-      Hub for both pastoral confederations: the Eastern Range Confederation (Dawn)
-      and Highland Graziers' Association (Dusk) hold internal meetings here. The
-      Veterans' Congress provides the Eastern Range's largest component; the Factors'
-      Guild provides the Graziers' commercial backbone. Commercial integration means
-      the same facilities process raw materials regardless of which pastoral kilit
-      produced them—Mor milk becomes Kelar cheese in Azhmar Valley processors.
+      it's somehow lasted millennia. Hub for both pastoral confederations: the Eastern
+      Range and Highland Graziers hold internal meetings here. The same facilities
+      process raw materials regardless of which pastoral kilit produced them—rival
+      milk becomes cooperative cheese in Azhmar Valley processors.
     rag_pointer: "Ganat and the Yarangar War, The Republic of Ganat"
     related: [Ganat, Thousand Kingdoms, Rasma Dhal-Setil, Southern Highland Bands, Eastern Range Confederation, Highland Graziers' Association]
     location_features:
