@@ -15899,11 +15899,14 @@ entries:
   Endeavour:
     category: concept
     aliases: [Fifth Virtue]
-    short: "Fifth of the Seven Virtues, derived from the Fifth Testament—work despite uncertainty."
+    short: Fifth of the Seven Virtues, derived from the Fifth Testament—work despite uncertainty.
     details: |
-      The virtue of persistence. Continue the work even when outcomes are unclear.
-      Associated with the Fifth Testament and the Bureau of the Rod. Conservative interpretation
-      emphasizes following procedures; progressive emphasizes adaptive problem-solving.
+      The virtue of persistence. Continue the work even when outcomes are
+      unclear. Associated with the Fifth Testament and the Bureau of the Rod.
+
+      Conservative interpretation emphasizes following procedures;
+      progressive emphasizes adaptive problem-solving. The Empire runs on
+      this virtue. The work continues because stopping is unthinkable.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Seven Virtues, Fifth Testament, Oracle Cult, Bureau of the Rod]
   # ─── end Endeavour ───
