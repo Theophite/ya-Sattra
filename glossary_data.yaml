@@ -15167,13 +15167,16 @@ entries:
   # ═══ Bureau of the Coin ═══
   Bureau of the Coin:
     category: organization
-    short: "Collects taxes and funds Imperial operations—formal rate 12%, actual extraction ~40%."
+    short: Collects taxes and funds Imperial operations—formal rate twelve percent, actual extraction around forty.
     details: |
-      Aureate extraction networks collect from districts, skim percentage, forward remainder. 
-      Institute for Fiscal Propriety (auditing), Institute for Expenditure (disbursement). 
-      Every Bureau must negotiate with its own funding mechanism—gives Coin peculiar immunity. 
-      Corruption well-documented but rarely prosecuted because prosecution requires Coin-controlled 
-      resources. Too dangerous to fight directly.
+      Aureate extraction networks collect from districts, skim their
+      percentage, forward the remainder. Operates through the Institute for
+      Fiscal Propriety and the Institute for Expenditure.
+
+      Every Bureau must negotiate with its own funding mechanism—gives Coin
+      peculiar immunity. Corruption is well-documented but rarely prosecuted
+      because prosecution requires Coin-controlled resources. Too dangerous
+      to fight directly.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau, Satara, Aureate, obol]
   # ─── end Bureau of the Coin ───
