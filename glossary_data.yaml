@@ -7403,13 +7403,19 @@ entries:
   # ═══ Westerner Berths ═══
   Westerner Berths:
     category: location
-    short: "Separated docking facilities for Westerner ships at the Rift's western edge."
+    short: Separated docking facilities for Westerner ships—pre-Interdict docks with unchanged procedures.
     details: |
-      Pre-Interdict docks near the Middens' flooded ruins, maintained by hereditary 
-      harbor-keepers. Westerner ships—identical grey vessels—dock through unchanged 
-      millennia-old procedures. Crews are never visible; trade happens via cranes and 
-      synthesized speech. Workers follow inherited prohibitions about approaching or 
-      touching the ships.
+      Pre-Interdict docks near the Middens' flooded ruins. The stone is older than
+      anyone's records, maintained by hereditary harbor-keepers who pass down the
+      work through family lines. The berths feel separate from the rest of the
+      harbor—quieter, more regulated, with invisible boundaries no one crosses.
+
+      Westerner ships are identical grey vessels that dock through millennia-old
+      procedures unchanged since before the Interdict. Crews are never visible.
+      Trade happens via cranes and synthesized speech. Workers follow inherited
+      prohibitions about approaching or touching the ships. The protocols feel
+      less like policy and more like superstition—but the keepers follow them
+      exactly, as their ancestors did, as their descendants will.
     rag_pointer: "The Rift: Ya-Sattra's Harbor District"
     related: [Rift, Westerners, Middens]
     location_features:
