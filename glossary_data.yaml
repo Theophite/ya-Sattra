@@ -13884,12 +13884,19 @@ entries:
   # ═══ Yen Tam Beneficial Society ═══
   Yen Tam Beneficial Society:
     category: organization
-    short: "Ya-Tsatsan crime family controlling vice in the Iron Yards."
+    short: Crime family controlling vice in the Iron Yards—debt cycles that trap workers for life.
     details: |
-      Near-baseline chauvinism limits membership but not reach. Controls gambling, drugs, loans, 
-      and enforcement. Workers of all castes borrow from them, creating debt cycles that trap 
-      laborers—borrow to cover shortfalls, work extra shifts to service loans, damage bodies 
-      faster, require more medical care, borrow more. Seven Branches gambling house on Torchline Row.
+      Near-baseline chauvinism limits membership but not reach. Controls
+      gambling, drugs, loans, and enforcement throughout the Yards. The
+      Seven Branches gambling house on Torchline Row operates openly;
+      everyone knows who runs it.
+
+      Workers of all castes borrow from them, creating debt cycles that trap
+      laborers for life. Borrow to cover shortfalls. Work extra shifts to
+      service loans. Damage bodies faster from the overwork. Require more
+      medical care. Borrow more. The mathematics are inescapable. The Society
+      provides credit when no one else will, and the cost of that credit is
+      everything.
     rag_pointer: The Iron Yards
     related: [Iron Yards, ya-Tsatsa, Pipefitters Union, Salvage Guild, Torchline Row]
   # ─── end Yen Tam Beneficial Society ───
