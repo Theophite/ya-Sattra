@@ -4355,24 +4355,23 @@ entries:
   # ═══ Sefra Ghesam ═══
   Sefra Ghesam:
     category: person
-    short: "Voluntary Debtor—twenty-four, Academy graduate, chose hereditary status for guaranteed cartography position."
+    short: Voluntary Debtor—Academy graduate who chose hereditary status for guaranteed cartography position.
     details: |
-      Twenty-four years old, newly graduated from the Academy's administrative track,
-      newly indebted to the treasury, newly assigned to the Ministry of Settlement's
-      cartographic section. Her family carries no hereditary obligation; she chose this.
+      Newly graduated from the Academy's administrative track, newly indebted to the
+      treasury, newly assigned to the Ministry of Settlement's cartographic section.
+      Her family carries no hereditary obligation; she chose this.
 
-      Her reasoning was pragmatic. Academy graduates in administration face uncertain
-      employment—kilits hire some, turn away others, often based on connections her
-      family lacked. The Ministry hires every qualified Debtor. Taking treasury loans,
-      defaulting strategically, and accepting hereditary status guaranteed her the
-      cartographic position she wanted. Her children will carry the obligation; they
-      will also inherit the career access she's securing.
+      Pragmatic reasoning. Academy graduates face uncertain employment—kilits hire some,
+      turn away others, based on connections her family lacked. The Ministry hires every
+      qualified Debtor. Taking treasury loans, defaulting strategically, and accepting
+      hereditary status guaranteed the cartographic position she wanted. Her children
+      will carry the obligation; they will also inherit the career access she's securing.
 
       Original Debtors view her with complex feelings. She chose bondage they were born
       into. Her obligation balance—modest, from strategic default rather than genuine
       enterprise failure—will pay down faster than obligations accumulated across
       centuries. She benefits from their institutional infrastructure without sharing
-      their historical grievance. Sefra understands this and accepts it.
+      their historical grievance. She understands this and accepts it.
     rag_pointer: "Hereditary Debtors"
     related: [Hereditary Debtors, Ministry of Settlement, Ganat]
     character_features:
