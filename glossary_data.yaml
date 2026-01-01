@@ -14016,15 +14016,20 @@ entries:
   # ═══ Hasket ═══
   Hasket:
     category: organization
-    short: "Sewer-fisher clan with stevedore fosterings—aquaculture, freight, and distillery."
+    short: Sewer-fisher clan mostly composed of fostered stevedore orphans—aquaculture, freight, distillery.
     details: |
-      One of six sewer-fisher clans in the Middens. Only ~20% are genetic sewer-fishers
-      ("little cousins"); ~80% are stevedore orphans ("big cousins"). Operates from
-      partially collapsed warehouse at bottom of Bright-Spire. Runs aquaculture in
-      flooded sub-basements, freight labor with Salvage Guild, and a distillery producing
-      industrial alcohol. Maintains hidden armory as communal sewer-fisher insurance.
-      Matriarch Tasme Hasket ("Little Mother") controls all resources despite standing
-      barely 145cm.
+      One of six sewer-fisher clans in the Middens. Only about one in five are
+      genetic sewer-fishers—the "little cousins." The rest are stevedore
+      orphans fostered into the clan—"big cousins" who tower over the
+      bloodline members. The little cousins run the operations. The big
+      cousins provide muscle and loyalty. Both are family.
+
+      Operates from a partially collapsed warehouse at the bottom of
+      Bright-Spire. Flooded sub-basements support aquaculture. Freight
+      labor contracts with the Salvage Guild. A distillery produces
+      industrial alcohol. Somewhere hidden: an armory maintained as communal
+      sewer-fisher insurance. The clan's matriarch controls all resources.
+      Small does not mean weak.
     rag_pointer: "Caste - Sewer-Fishers, The Middens Tenements"
     related: [Sewer-Fishers, Bright-Spire, Middens, Salvage Guild]
   # ─── end Hasket ───
