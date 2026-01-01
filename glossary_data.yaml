@@ -11139,13 +11139,19 @@ entries:
   # ═══ Thousand Kingdoms ═══
   Thousand Kingdoms:
     category: location
-    short: "Warband territories north of the Empire—500km where Imperial sovereignty dissolves."
+    short: Warband territories—five hundred kilometers where Imperial sovereignty dissolves.
     details: |
-      Legal ambiguity between Imperial jurisdiction and independence. Primarily Akama 
-      population governed (loosely) by the Junta of Ogon. Culture defined by Standing in 
-      the Rain philosophy—fortune theology treating reversal as sacred, gambling as 
-      redistribution. Warbands control territory through mounted combat; Kma-Dhol (40,000 
-      in Ogon) operate autofactories openly.
+      Legal ambiguity between Imperial jurisdiction and independence. One and a
+      half million people, primarily Akama, governed loosely by the Junta of
+      Ogon. Warbands control territory through mounted combat. Borders shift.
+      Alliances change. Fortune theology treats reversal as sacred—the Standing
+      in the Rain philosophy makes gambling a form of wealth redistribution
+      rather than mere chance.
+
+      The Kma-Dhol operate autofactories openly here—forty thousand of them in
+      Ogon alone. What the Empire would suppress, the Kingdoms merely regulate.
+      Imperial merchants trade here, Imperial law does not reach, and the
+      distinction matters enormously.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Akama, Junta of Ogon, Ogon, Kma-Dhol, Malpais]
     culture: [Akama]
