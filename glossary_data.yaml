@@ -16750,14 +16750,19 @@ entries:
   # ═══ Taho Bar Fraternal ═══
   Taho Bar Fraternal:
     category: organization
-    short: "Oldest legal kilit—commercial law, Imperial language, tephri-dominated, 450 members."
+    short: Oldest legal kilit—commercial law, Imperial language, tephri-dominated, four hundred fifty members.
     details: |
-      Founded under the Sultanate as the legal arm of the kilit-zem-kilitam. Survived
-      revolution by accepting Republican oversight. Examinations require Imperial legal
-      language fluency plus commercial and property law mastery. 30% first-time passage
-      rate. Members dominate Taho's commercial courts. Overwhelmingly tephri and
-      near-baseline; Serrulata comprise perhaps a fifth despite 65% of population.
-      Leans Dusk through commercial connections.
+      Founded under the Sultanate as the legal arm of the kilit-zem-kilitam.
+      Survived the revolution by accepting Republican oversight.
+      Examinations require Imperial legal language fluency plus commercial
+      and property law mastery. Roughly thirty percent pass on first
+      attempt. Members dominate Taho's commercial courts.
+
+      Overwhelmingly tephri and near-baseline. The Serrulata comprise
+      perhaps a fifth despite being sixty-five percent of the population.
+      The Bar leans Dusk through commercial connections. The old legal
+      families persist. The revolution changed the state. It did not change
+      who practices law.
     rag_pointer: "Professional Kilits and Certification"
     related: [Ganat, Kilit, Ministry of Justice, Dusk Party]
   # ─── end Taho Bar Fraternal ───
