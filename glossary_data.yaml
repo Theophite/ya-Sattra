@@ -15203,13 +15203,15 @@ entries:
   Institute for Expenditure:
     category: organization
     parent: Bureau of the Coin
-    short: "Coin subdivision disbursing budgets—the one part of Coin that actually functions as intended."
+    short: Coin subdivision disbursing budgets—the one part of Coin that actually functions as intended.
     details: |
-      Disburses budgets to the other Bureaux. Independent because it interfaces
-      with everyone else—if one Aureate family controlled disbursement, they
-      could hold every other Bureau hostage. Career bureaucrats process budget
-      allocations according to established formulas. Boring, essential, and
-      carefully insulated from Aureate capture.
+      Disburses budgets to the other Bureaux. Independent because it
+      interfaces with everyone else—if one Aureate family controlled
+      disbursement, they could hold every other Bureau hostage.
+
+      Career bureaucrats process budget allocations according to established
+      formulas. Boring, essential, and carefully insulated from Aureate
+      capture. The staff take pride in their incorruptibility.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Coin, Satara]
   # ─── end Institute for Expenditure ───
