@@ -16789,12 +16789,16 @@ entries:
   # ═══ Advocates of the East ═══
   Advocates of the East:
     category: organization
-    short: "Frontier legal kilit—generalist practice, practical problem-solving, 400 members."
+    short: Frontier legal kilit—generalist practice, practical problem-solving, four hundred members.
     details: |
-      Formed to serve frontier settlements beyond Bar or Confraternity reach. Certification
-      emphasizes practical competence: land-grant transfers, boundary mediation, criminal
-      defense before circuit judges. Often the only legal practitioners within a hundred
-      miles. Numbers doubled since revolution began, tracking frontier expansion.
+      Formed to serve frontier settlements beyond Bar or Confraternity
+      reach. Certification emphasizes practical competence: land-grant
+      transfers, boundary mediation, criminal defense before circuit
+      judges. Often the only legal practitioners within a hundred miles.
+
+      Numbers doubled since the revolution began, tracking frontier
+      expansion. Where the settlements go, the Advocates follow. Someone
+      has to handle the paperwork.
     rag_pointer: "Professional Kilits and Certification"
     related: [Ganat, Kilit, Ministry of Justice, High Junction, Dawn Party]
   # ─── end Advocates of the East ───
