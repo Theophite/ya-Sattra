@@ -12096,22 +12096,18 @@ entries:
   # ═══ Horizon Plaza ═══
   Horizon Plaza:
     category: location
-    short: "Central plaza (~300m across) where the Eight Domes face each other across open stone."
+    short: Three hundred meters of open stone where nothing happens except passage between places where things do.
     details: |
-      Paved in the same white-gray diorite as everything else, worn into paths where
-      generations have walked between domes. No vendors set up here. No entertainment
-      occurs. Simply open—a void at the city's heart where nothing happens except
-      passage between places where things do happen.
+      Paved in the same white-gray diorite as everything else, worn into paths
+      where generations have walked between domes. No vendors set up here. No
+      entertainment occurs. Simply open—a void at the city's heart surrounded by
+      the Eight Domes.
 
-      The Overlook at the plaza's edge provides dramatic views of the cliffs below:
-      a low wall separating stone from a killing drop, the kalbat tombs descending
-      in patient ranks, the harbor visible, the ocean beyond. Old Tok, a retired
-      merchant, has watched ships from here for forty years. When asked what he sees,
-      he says he sees time. What kind? The kind that doesn't care about him.
-
-      Seven of the Eight Domes house software cooperatives. The eighth has bronze
-      doors with geometric patterns; pierrots enter it twice yearly while Mutterers
-      go in and do not come out.
+      The Overlook at the plaza's edge provides dramatic views of the cliffs
+      below: a low wall separating stone from a killing drop, the kalbat tombs
+      descending in patient ranks, the harbor visible, the ocean beyond. Retired
+      merchants come here to watch ships. When asked what they see, they say
+      they see time. What kind? The kind that doesn't care about them.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [ya-Tsatsa, Upper City, Eight Domes]
     location_features:
