@@ -9941,10 +9941,21 @@ entries:
   # ═══ St. Oreli's Shade ═══
   "St. Oreli's Shade":
     category: location
-    short: "Orevet quarter—architecture modified for light-sensitive vision."
+    short: Orevet quarter—baseline visitors experience twilight even at noon.
     details: |
-      ~90,000 residents. Dim lighting, muted colors. Shrine of St. Oreli the furnace-seer. 
-      Bright Eyes Optical.
+      Ninety thousand residents with light-sensitive vision. Walking into St.
+      Oreli's Shade means walking into dimness. Street lamps are tuned to Orevet
+      eyes; baseline visitors experience twilight even at noon. Windows sit
+      smaller and deep-set in their walls. Overhangs extend three to four feet
+      beyond standard, creating permanent shade bands.
+
+      Colors absorb rather than reflect—grey stone, brown and dark blue paint,
+      nothing bright. Shop signs use color differences that baseline vision reads
+      as nearly identical but Orevet distinguish easily, a parallel visual
+      language invisible to visitors. The Shrine of St. Oreli celebrates the
+      furnace-seer who perceived without eyes; its interior is darker still.
+      Bright Eyes Optical crafts instruments here. The darkness itself is the
+      primary visual element.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Orevet]
     location_features:
