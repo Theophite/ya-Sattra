@@ -12378,15 +12378,21 @@ entries:
   # ═══ Vesztraëlin ═══
   Vesztraëlin:
     category: location
-    short: Feuding precinct—5000 years of vendetta with Droëvan, epic poetry, and Chancery proceedings.
+    short: Feuding precinct—five thousand years of vendetta with Droëvan, children learning the outlines before they learn to read.
     details: |
-      Occupies part of the garrison district with adjacent rival Droëvan. The feud began during a 
-      starvation winter so ancient that even elders who remember it cannot say what happened—only 
-      that something did. To feud over violence committed during a starvation winter violates 
-      fundamental Avouvar ethics, so the feud acquired a different nominal subject (a border that 
-      shifts by meters each generation) and the killing continued. The feud has become both houses' 
-      internal culture: epic poetry, death-verses composed by killers for their victims, formal 
-      Chancery proceedings filling archives. Children learn the feud's outlines before they learn to read.
+      The feud began during a starvation winter so ancient that even elders who
+      remember it cannot say what happened—only that something did. To feud over
+      violence committed during a starvation winter violates fundamental Avouvar
+      ethics, so the feud acquired a different nominal subject (a border that
+      shifts by meters each generation) and the killing continued.
+
+      The feud has become both houses' internal culture. Epic poetry. Death-
+      verses composed by killers for their victims. Formal Chancery proceedings
+      filling archives. The buffer zones between precincts bristle with
+      autonomous training systems and railgun emplacements. To grow up here is
+      to know which streets are safe, which corners offer sightlines, which
+      neighbors died and when and by whose hand. The feud is the architecture.
+      The feud is the calendar. The feud is the only story anyone tells.
     rag_pointer: Asovoë and the Avouvar
     related: [Asovoë, Droëvan, Warborn]
     location_features:
