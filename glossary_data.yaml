@@ -6807,13 +6807,15 @@ entries:
   # ═══ Worker Housing ═══
   Worker Housing:
     category: location
-    short: "Ad hoc construction housing ~35,000 manufacturing workers and families."
+    short: Ad hoc construction housing thirty-five thousand—urgent need met with available resources.
     details: |
-      Urgent need met with available resources: undersized timber frames, inconsistent adobe 
-      fill, roofing of whatever could be obtained. Families of four or five in single rooms, 
-      sometimes sharing buildings. Sanitation inadequate—communal latrines, wells, water 
-      carriers. Fire risk extreme. Increasingly common: Dhal-Setil Mercantile prefab cabins 
-      on installment payments.
+      Undersized timber frames, inconsistent adobe fill, roofing of whatever could be
+      obtained. Families of four or five in single rooms, sometimes sharing buildings.
+      Communal latrines, wells, water carriers. Fire risk extreme.
+
+      Increasingly common: prefab cabins on installment payments. Better than what came
+      before—standardized construction, proper ventilation, actual foundations. The
+      installment payments never quite end, but the cabins don't burn as easily.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Manufacturing District, High Junction, Dhal-Setil Mercantile]
     location_features:
