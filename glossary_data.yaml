@@ -6863,19 +6863,18 @@ entries:
   # ═══ Frontier Veterans' Collective ═══
   Frontier Veterans' Collective:
     category: location
-    short: "Radical Dawn veterans' kilit (~4,500 members)—ideology over mutual aid, collective farms."
+    short: Radical Dawn veterans' kilit—ideology over mutual aid, service as beginning rather than completing revolutionary obligation.
     details: |
-      Approximately 4,500 members across eastern settlements. Meetings are serious,
-      ideological, structured around formal agendas with debates and votes. Advocates
-      aggressive Dawn positions: maximum military spending, accelerated eastern expansion,
-      collective farms over individual homesteads. Rotating council leadership, currently
-      chaired by Sekh Tal-Omir, a Serrulata captain from the eastern campaigns.
+      Forty-five hundred members across eastern settlements. Meetings are serious,
+      ideological, structured around formal agendas with debates and votes. Rotating
+      council leadership. Aggressive Dawn positions: maximum military spending,
+      accelerated eastern expansion, collective farms over individual homesteads.
 
-      Land grants go to collectives rather than individuals; members work shared holdings
-      and distribute proceeds according to labor contribution. Maintains connections with
-      Cloud Temple Band affiliates. Younger veterans who see service as beginning rather
-      than completing revolutionary obligation. Free pulque and hashish for prospective
-      members near discharge.
+      Land grants go to collectives rather than individuals; members work shared
+      holdings and distribute proceeds according to labor contribution. Younger
+      veterans who see service as beginning rather than completing revolutionary
+      obligation. Free pulque and hashish for prospective members near discharge—
+      those who stay past the free drinks hear the speeches.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Manufacturing District, High Junction, Republican Veterans' Congress, Dawn Party, Cloud Temple Band]
     location_features:
