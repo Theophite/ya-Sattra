@@ -7220,14 +7220,18 @@ entries:
   # ═══ Clerk's Span ═══
   Clerk's Span:
     category: location
-    short: "Bridge carrying Bureau traffic across the Rift—Sword checkpoint slightly less captured by Aureates."
+    short: Bridge carrying Bureau traffic across the Rift—plain stone for those with credentials.
     details: |
-      Used by officials on business requiring crossing but not warranting Aureate 
-      acknowledgment. Middle status of the three Rift bridges. Sword checkpoint 
-      here answers more to Bureau hierarchy than estate money—but the gendarmes 
-      still know which side of the Rift pays better, and difficult crossers find 
-      their documentation takes longer to process. Officials flash credentials; 
-      everyone else explains themselves.
+      Plain stone construction, nothing announcing status except the fact that
+      you're not on the Valet's Span. Middle status of the three Rift bridges. The
+      Sword checkpoint here answers more to Bureau hierarchy than estate money, but
+      the gendarmes still know which side of the Rift pays better.
+
+      Officials flash credentials—nod, through. Everyone else joins a slower queue
+      where gendarmes ask questions and write things down. Difficult crossers find
+      their documentation takes longer to process. Bureau messengers, minor officials,
+      and those with legitimate business use this bridge. Those without legitimate
+      business use it too, hoping middle-status anonymity covers their purposes.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide, The Antediluvian Quarter"
     related: [Medina Quarter, Antediluvian Quarter, Rift, Aureate Span, Valet's Span, Bureau of the Sword]
     location_features:
