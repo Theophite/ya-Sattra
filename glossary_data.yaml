@@ -14878,12 +14878,16 @@ entries:
   Institute for Nonstandard Environments:
     category: organization
     parent: Bureau of the Rod
-    short: "Rod subdivision managing territories that don't fit normal Imperial categories—diplomacy in all but name."
+    short: Rod subdivision managing territories that do not fit normal Imperial categories—diplomacy in all but name.
     details: |
-      The Rod's diplomatic corps, managing relationships with territories and
-      populations that don't fit normal Imperial categories. Envoys negotiate
-      with governments that officially don't exist, over trade agreements that
-      will never be authenticated, in languages Imperial grammar cannot acknowledge.
+      The Rod's diplomatic corps, managing relationships with territories
+      and populations that do not fit normal Imperial categories. Envoys
+      negotiate with governments that officially do not exist, over trade
+      agreements that will never be authenticated, in languages Imperial
+      grammar cannot acknowledge.
+
+      Everyone pretends these conversations are about infrastructure
+      maintenance. Everyone understands they are about everything else.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Rod, Ganat, Thousand Kingdoms]
   # ─── end Institute for Nonstandard Environments ───
