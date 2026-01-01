@@ -16841,12 +16841,16 @@ entries:
   # ═══ Taho Engineers' Fraternal ═══
   Taho Engineers' Fraternal:
     category: organization
-    short: "Primary engineering kilit—Academy-linked, 800 members, infrastructure and industrial work."
+    short: Primary engineering kilit—Academy-linked, eight hundred members, infrastructure and industrial work.
     details: |
-      Founded by Academy graduates in revolution's early years. Established examination
-      standards, ethics codes, mutual-aid arrangements. 40% failure rate on practical
-      examinations. Members work throughout Republic on infrastructure projects,
-      industrial installations, technical consulting.
+      Founded by Academy graduates in the revolution's early years.
+      Established examination standards, ethics codes, mutual-aid
+      arrangements. Roughly forty percent failure rate on practical
+      examinations.
+
+      Members work throughout the Republic on infrastructure projects,
+      industrial installations, technical consulting. The revolution needs
+      roads, dams, bridges, factories. The Fraternal builds them.
     rag_pointer: "Professional Kilits and Certification"
     related: [Ganat, Kilit, Taho Academy]
   # ─── end Taho Engineers' Fraternal ───
