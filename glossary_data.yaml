@@ -13661,8 +13661,18 @@ entries:
   # ═══ Hanged Men ═══
   Hanged Men:
     category: organization
-    short: Criminal organization operating in Imperial underworld.
-    details: Seven knots operating in ya-Sattra. Employs Chain-Men (Ironbone Warborn enforcers) and Valvehands (water infrastructure maintenance).
+    short: Seven knots operating in ya-Sattra—protection, connections, and consequences for those who don't pay.
+    details: |
+      Criminal organization operating where Imperial administration cannot or
+      will not reach. The Hanged Men provide services: connections, protection,
+      access to resources the formal economy denies. They extract payment:
+      percentages, loyalty, silence. When payment fails, the Chain-Men arrive.
+
+      Valvehands maintain water infrastructure the Bureau of the Rod cannot
+      staff. This creates leverage: cut the water, negotiations improve. The
+      organization survives because it fills gaps. Some people need things done
+      that cannot be done officially. Some people need protection from those
+      who need things done. The Hanged Men serve both.
     rag_pointer: The Hanged Men
     related: [Chain-Men, Ironbone Warborn]
   # ─── end Hanged Men ───
