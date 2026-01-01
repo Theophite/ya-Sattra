@@ -8422,13 +8422,19 @@ entries:
   # ═══ Wealthy Cave-Homes ═══
   Wealthy Cave-Homes:
     category: location
-    short: "Upper Near Wall residences with vast stained glass windows visible across the canyon."
+    short: Upper Near Wall residences—each stained glass window a fortune, announcing that here lives someone who made it.
     details: |
-      2-3,000 square feet carved into sandstone: multiple chambers, high ceilings, Art Nouveau 
-      decoration. Close enough to the canyon face to install vast stained glass windows—massive 
-      panels lit from behind, glowing both day and night. The windows face the canyon, visible 
-      from the Far Wall and below, announcing wealth through beauty that costs enormous amounts 
-      to commission and install.
+      Two to three thousand square feet carved into salmon sandstone: multiple
+      chambers, high ceilings, Art Nouveau curves in the carved decoration. Close
+      enough to the canyon face to install vast stained glass windows—massive
+      panels showing geometric patterns or figurative scenes, lit from behind by
+      electric light, glowing both day and night.
+
+      The windows face the canyon, visible from the Far Wall, from the markets
+      below. Each one a fortune. Each one announcing that here lives someone who
+      made it. Organic doorways with copper cladding in verdigris green. Below the
+      wealthy live the middle class, deeper in with electric light but no windows.
+      Below them, the poor in minimal tunnels. But even there, light and sanitation.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Near Wall, Ganat proper]
     location_features:
