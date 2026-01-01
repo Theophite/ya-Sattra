@@ -17516,15 +17516,19 @@ entries:
   # ═══ Mira es-Thalen ═══
   Mira es-Thalen:
     category: person
-    short: "Highborn (Integrated Technology)—born incomplete, installed with interface ports and circuitry at six days old."
+    short: Highborn (Integrated Technology)—born incomplete, installed with interface ports and circuitry at six days old.
     person_location: ya-Sattra
     details: |
-      Age 27. Thalen lineage produces bodies that require engineering to survive—interface 
-      ports along forearms, cardiac regulator beneath sternum, copper circuitry visible beneath 
-      translucent skin. Her presence serves as authentication key for Thalen family patent holdings 
-      in the Inner City. Last month walked too close to a sealed archive and doors cycled open—
-      her integration patterns include codes for systems her family no longer officially controls. 
-      Has never used Compulsion since childhood training; the aversion does not reach articulation.
+      Twenty-seven years old. Thalen lineage produces bodies that
+      require engineering to survive—interface ports along forearms,
+      cardiac regulator beneath sternum, copper circuitry visible
+      beneath translucent skin. Her presence serves as authentication
+      key for Thalen family patent holdings in the Inner City. Last
+      month walked too close to a sealed archive and doors cycled
+      open—her integration patterns include codes for systems her
+      family no longer officially controls. Has never used Compulsion
+      since childhood training; the aversion does not reach
+      articulation.
     rag_pointer: "Caste Type Specimens Catalog"
     related: [Highborn, Inner City, Aureate Patents]
   # ─── end Mira es-Thalen ───
