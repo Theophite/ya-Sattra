@@ -17631,15 +17631,18 @@ entries:
   # ═══ Nyma Benru ═══
   Nyma Benru:
     category: person
-    short: "Chief Broker of Clan Benru—handles daily negotiations and complex documentation transforming illegal labor into legal paperwork."
+    short: Chief Broker of Clan Benru—handles daily negotiations and complex documentation transforming illegal labor into legal paperwork.
     person_location: Middens
     details: |
-      Age 41. Korel Benru's niece and likely successor as clan leader. Runs daily operations
-      of Benru documentation services from the Iron Yards office. Can calculate exchange rates
-      between work chits, salvage credits, and Imperial obols without written notes—the
-      mathematical intuition characteristic of sewer-fisher cognition. Her documentation system
-      allows sewer-fishers to work through legal fictions: "consulting fees," "translation
-      services," contracts that describe illegal salvage as legitimate recovery work.
+      Forty-one years old. Korel Benru's niece and likely successor as
+      clan leader. Runs daily operations of Benru documentation services
+      from the Iron Yards office. Can calculate exchange rates between
+      work chits, salvage credits, and Imperial obols without written
+      notes—the mathematical intuition characteristic of sewer-fisher
+      cognition. Her documentation system allows sewer-fishers to work
+      through legal fictions: consulting fees, translation services,
+      contracts that describe illegal salvage as legitimate recovery
+      work.
     rag_pointer: "The Sewer-Fishers of the Middens"
     related: [Sewer-Fishers, Benru, Korel Benru, Middens]
   # ─── end Nyma Benru ───
