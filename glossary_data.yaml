@@ -8028,13 +8028,18 @@ entries:
   # ═══ Bright-Spire ═══
   Bright-Spire:
     category: location
-    short: "Chain-Men-occupied tenement tapering toward the sky—2,700 residents under constant surveillance."
+    short: Chain-Men-occupied tenement tapering toward the sky—each floor smaller than the one below.
     details: |
-      Rises from harbor itself, foundations submerged. Accessible primarily by boat or 
-      bridges to Hollow-Egress. Each floor smaller than the one below. 83 Chain-Men 
-      control checkpoints on every stairwell—2,700 residents pass through extraction 
-      points constantly. Sela's prayer circle on tenth floor accumulates materials. 
-      The question isn't whether violence will erupt but which direction it flows.
+      Ziggurat-in-reverse rising from harbor water. Pre-Interdict foundations
+      entirely submerged—accessible only by boat or bridges to Hollow-Egress. Each
+      floor smaller than the one below, twenty-seven hundred people compressed
+      into narrowing space. The taper visible from everywhere in the district.
+
+      Eighty-three Chain-Men control checkpoints on every stairwell. Residents pass
+      through extraction points constantly—every trip up or down means paying
+      something. A prayer circle on the tenth floor accumulates materials and
+      resentments. The question isn't whether violence will erupt but which
+      direction it flows.
     rag_pointer: The Middens Tenements
     related: [Middens, Chain-Men, Hanged Men]
     location_features:
