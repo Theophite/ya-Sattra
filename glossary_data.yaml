@@ -10513,12 +10513,16 @@ entries:
   # ═══ Lake Ganat ═══
   Lake Ganat:
     category: location
-    short: "Reservoir behind the Dam—upper canyon, fishing, irrigation, year-round water supply."
+    short: Reservoir behind the Dam—up here you cannot hear the turbines.
     details: |
-      The river backs up into Lake Ganat in the upper canyon. Provides year-round water 
-      for the city, fishing for food, irrigation for upper canyon farms. The lake existed 
-      before the turbines were re-engineered, serving fishing and irrigation when the Dam 
-      was just enormous ruin.
+      The river backs up behind the Dam into still water. Fishing boats on calm
+      surface. Upper canyon farms draw irrigation. Year-round water supply for
+      the city. The lake existed before the turbines were re-engineered, when the
+      Dam was just enormous ruin—impressive but silent.
+
+      Salmon sandstone walls rise on either side, carved facades visible in the
+      distance downstream. Now the water feeds the turbines that never stop, but
+      up here you cannot hear them. Respite from the perpetual industry below.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [The Dam, Ganat proper]
     location_features:
