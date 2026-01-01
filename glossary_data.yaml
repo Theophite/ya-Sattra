@@ -15185,13 +15185,16 @@ entries:
   Institute for Fiscal Propriety:
     category: organization
     parent: Bureau of the Coin
-    short: "Coin subdivision for auditing—a weapon Aureates aim at each other rather than genuine oversight."
+    short: Coin subdivision for auditing—a weapon Aureates aim at each other rather than genuine oversight.
     details: |
-      The Bureau's auditor. In theory, exists to ensure proper accounting and
-      prevent corruption. In practice, functions as a weapon the Aureates aim
-      at each other. When one family wants to hurt a rival, they find procedural
-      violations (which exist everywhere) and point the auditors at them.
-      Inspectors build files on their own patrons out of professional habit.
+      The Bureau's auditor. In theory, exists to ensure proper accounting
+      and prevent corruption. In practice, functions as a weapon the
+      Aureates aim at each other.
+
+      When one family wants to hurt a rival, they find procedural violations
+      (which exist everywhere) and point the auditors at them. Inspectors
+      build files on their own patrons out of professional habit. Everyone
+      is guilty of something.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Coin, Aureate]
   # ─── end Institute for Fiscal Propriety ───
