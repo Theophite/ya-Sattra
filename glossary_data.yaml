@@ -15849,11 +15849,14 @@ entries:
   Dominion:
     category: concept
     aliases: [Second Virtue]
-    short: "Second of the Seven Virtues, derived from the Second Testament—rule is obligation, not privilege."
+    short: Second of the Seven Virtues, derived from the Second Testament—rule is obligation, not privilege.
     details: |
-      The virtue of leadership as burden. Those who command must serve those they command.
-      Associated with the Second Testament and Compulsion itself. Conservative interpretation
-      emphasizes hierarchy; progressive emphasizes responsibility to the ruled.
+      The virtue of leadership as burden. Those who command must serve those
+      they command. Associated with the Second Testament and Compulsion itself.
+
+      Conservative interpretation emphasizes hierarchy; progressive emphasizes
+      responsibility to the ruled. The Highborn invoke it constantly. Whether
+      they practice it is another matter.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Seven Virtues, Second Testament, Oracle Cult, Compulsion]
   # ─── end Dominion ───
