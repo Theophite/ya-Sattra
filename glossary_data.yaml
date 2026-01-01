@@ -14386,11 +14386,20 @@ entries:
   # ═══ es-Durann ═══
   es-Durann:
     category: organization
-    short: "Aureate family controlling pharmaceutical synthesis—medicine production beyond current capability."
+    short: Aureate family controlling pharmaceutical synthesis—inherited processes no one fully understands.
     details: |
-      Estate: Dome complex venting green luminescent pharmaceutical byproducts at sunset. 
-      Synthesize medicines through processes inherited without understanding. Tract es-Durann 
-      and Venla es-Durann lead. Pharmaceutical runoff trades in Dawn Market servant economy.
+      Estate: A dome complex that vents green luminescent pharmaceutical
+      byproducts at sunset. The sky above the estate glows faintly toxic as
+      the light fades. The glow is beautiful. The glow is not healthy to
+      breathe.
+
+      Synthesize medicines through processes inherited without
+      understanding. The family follows procedures passed down across
+      generations, adjusting nothing, innovating nothing. The machines
+      produce. The medicines work. Why they work remains unclear.
+      Pharmaceutical runoff trades in the Dawn Market servant economy—
+      diluted byproducts with mild healing properties, sold by servants who
+      collected the drippings.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, Aureate]
   # ─── end es-Durann ───
