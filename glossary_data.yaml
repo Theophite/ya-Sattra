@@ -16239,13 +16239,17 @@ entries:
   # ═══ Record of the Resonating Word ═══
   Record of the Resonating Word:
     category: event
-    short: "Second-oldest unclassified Record—the 'Resonating Word' itself is no longer identified."
+    short: Second-oldest unclassified Record—the "Resonating Word" itself is no longer identified.
     details: |
-      The second of the five unclassified Records. The "Resonating Word" that names
-      this era has been lost—scholars speculate it may have been a religious
-      proclamation, a technological discovery, or an Oracle transmission.
-      Contemporary documents from this period reference it as common knowledge
-      requiring no explanation.
+      The second of the five unclassified Records. The "Resonating Word"
+      that names this era has been lost—scholars speculate it may have been
+      a religious proclamation, a technological discovery, or an Oracle
+      transmission. Contemporary documents from this period reference it as
+      common knowledge requiring no explanation.
+
+      Everyone knew the Word then. Nobody knows it now. The era persists.
+      Its defining moment is forgotten. Families still trace their lineage
+      to something they cannot name.
     rag_pointer: "The Aureate System"
     related: [Records, Aureate]
     event_features:
