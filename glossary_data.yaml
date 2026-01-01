@@ -14934,14 +14934,17 @@ entries:
   Institute of Tension:
     category: organization
     parent: Bureau of the Rod
-    short: "Rod subdivision monitoring structural integrity—Beamcrawler surveyors preventing infrastructure collapse."
+    short: Rod subdivision monitoring structural integrity—Beamcrawler surveyors preventing infrastructure collapse.
     details: |
       Monitors structural integrity across Imperial infrastructure—the hidden
       frameworks beneath elevated roads, the support structures of sky-bridges
-      and towers. Employs Beamcrawlers whose modified limbs allow them to assess
-      structures inaccessible to baseline humans. Reports are meticulous,
-      recommendations expensive, accuracy inconvenient for families who would
-      prefer not to pay for repairs.
+      and towers. Employs Beamcrawlers whose modified limbs allow them to
+      assess structures inaccessible to baseline humans.
+
+      Reports are meticulous. Recommendations are expensive. Accuracy is
+      inconvenient for families who would prefer not to pay for repairs.
+      Sometimes an inspector finds rot where someone powerful would rather
+      see none—and sometimes those inspectors have accidents.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Rod, Beamcrawler]
   # ─── end Institute of Tension ───
