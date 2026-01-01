@@ -15644,14 +15644,18 @@ entries:
   # ═══ Eighth Testament ═══
   Eighth Testament:
     category: concept
-    short: "Command to create naked singularity—false mathematics whose implementation triggered the Interdict."
+    short: Command to create naked singularity—false mathematics whose implementation triggered the Interdict.
     details: |
-      Technical Castes recognized it as flawed theorem violating Third Mandate. Their minds 
-      could only think in valid proofs—cognitive impossibility to implement. Emperor 
-      interpreted this as defiance, deployed sterilization plague killing most Technical 
-      Castes, then built singularity anyway. Foreigners responded with the Interdict. 
-      Knowledge erased through passive non-transmission—most Imperial citizens don't know 
-      an Eighth Oracle existed. "Seven-and-one" taken as grammatical quirk.
+      Technical Castes recognized it as flawed theorem violating Third
+      Mandate. Their minds could only think in valid proofs—cognitive
+      impossibility to implement. Emperor interpreted this as defiance,
+      deployed sterilization plague killing most Technical Castes, then
+      built singularity anyway.
+
+      Foreigners responded with the Interdict. Knowledge erased through
+      passive non-transmission—most Imperial citizens do not know an
+      Eighth Oracle existed. "Seven-and-one" taken as grammatical quirk.
+      The truth is a hole in public memory.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Oracles, Testaments, Technical Castes, Interdict, First Whorl]
   # ─── end Eighth Testament ───
