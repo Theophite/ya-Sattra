@@ -7811,12 +7811,19 @@ entries:
   # ═══ Grocers' District ═══
   Grocers' District:
     category: location
-    short: "Guild neighborhood controlling food distribution."
+    short: Guild neighborhood controlling food distribution—the smell of produce and the noise of commerce.
     details: |
-      Members range from major wholesalers with warehouse complexes to individual 
-      stallholders selling vegetables. All pay guild dues, all receive protection 
-      from Bureau interference. Charter designed for automated food production now 
-      governs hand-harvested crops.
+      The smell of produce hits before the sight: fresh vegetables, cured meats,
+      dried spices, the occasional whiff of something going off in the heat.
+      Carts and porters move through streets too narrow for them, everyone
+      shouting, everyone in a hurry. Warehouse doors stand open to the loading
+      docks; individual stallholders set up where they can find space.
+
+      Major wholesalers with warehouse complexes and single-stall vegetable
+      sellers all pay guild dues, all receive protection from Bureau interference.
+      The charter was designed for automated food production; it now governs
+      hand-harvested crops brought in by cart from the hinterland. The mismatch
+      doesn't matter. The guild protects its own.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [Medina Quarter]
     location_features:
