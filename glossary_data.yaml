@@ -15747,12 +15747,16 @@ entries:
   # ═══ Fifth Testament ═══
   Fifth Testament:
     category: concept
-    short: "Transmitted in the Jargon—one of the incomprehensible Testaments enabling archaeotech."
+    short: Transmitted in the Jargon—one of the incomprehensible Testaments enabling archaeotech.
     details: |
-      The Fifth Testament contained mathematical truths that only Technical Castes
-      could translate into usable technology. The specific technologies derived
-      from this Testament are no longer clearly documented—the Technical Castes
-      who understood it were sterilized following the Eighth Oracle crisis.
+      The Fifth Testament contained mathematical truths that only Technical
+      Castes could translate into usable technology. The specific
+      technologies derived from this Testament are no longer clearly
+      documented.
+
+      The Technical Castes who understood it were sterilized following the
+      Eighth Oracle crisis. The knowledge died with them. The machines work
+      on without explanation.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Testaments, Oracles, Jargon, Technical Castes, Auditors]
   # ─── end Fifth Testament ───
