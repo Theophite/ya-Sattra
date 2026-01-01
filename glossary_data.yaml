@@ -14150,12 +14150,18 @@ entries:
   # ═══ Opticians' Guild ═══
   Opticians' Guild:
     category: organization
-    short: "Precision instrument makers—lenses, spectacles, lector components."
+    short: Precision instrument makers—lenses, spectacles, lector components produced by painstaking handwork.
     details: |
-      Headquarters in Lens-Grinders' Courtyard. Retail operations on Alley of Lenses. 
-      Guild charter assumes automated precision manufacturing that no longer exists; 
-      actual production is painstaking handwork. Controls monopoly on optical instruments 
-      within chartered boundaries.
+      Headquarters in Lens-Grinders' Courtyard. Retail operations on Alley
+      of Lenses. The guild charter assumes automated precision manufacturing
+      that no longer exists; actual production is painstaking handwork. Each
+      lens ground by hand, polished for days, tested under lamplight. What
+      machines once made in minutes takes weeks of apprentice labor.
+
+      Controls monopoly on optical instruments within chartered boundaries.
+      Anyone needing lenses—for spectacles, lectors, telescopes, any
+      purpose—comes to the Alley. The wait times are long. The prices
+      reflect the labor. The precision, somehow, remains.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [Guild, Lens-Grinders' Courtyard, Alley of Lenses, Medina Quarter]
   # ─── end Opticians' Guild ───
