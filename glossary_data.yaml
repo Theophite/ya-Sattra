@@ -11735,14 +11735,18 @@ entries:
   # ═══ Sunset Complex ═══
   Sunset Complex:
     category: location
-    short: "Sprawling compound of interconnected pods—three operators competing, boundaries disputed."
+    short: Interconnected pods—the connections expand and contract with temperature.
     details: |
-      Antediluvian compound of interconnected pods, each 40-60 feet in diameter, arranged 
-      without obvious pattern across a hillside. Some pods designed for habitation, others 
-      for gathering, others for unknown functions. Connections expand and contract slightly 
-      with temperature, maintaining perfect seals. Three different operators through complicated 
-      lease arrangements the Rod refuses to adjudicate—each claims superiority, guests wander 
-      between sections causing friction.
+      Antediluvian compound of interconnected pods, each forty to sixty feet in
+      diameter, arranged without obvious pattern across a hillside. Some pods
+      designed for habitation, others for gathering, others for unknown
+      functions. The connections expand and contract slightly with temperature,
+      maintaining perfect seals.
+
+      Three different operators through complicated lease arrangements the Rod
+      refuses to adjudicate. Each claims superiority. Guests wander between
+      sections, causing friction. The boundaries that matter are not the ones
+      the Antediluvians built.
     rag_pointer: Index
     related: [Toh, Hotel District, Antediluvian]
     location_features:
