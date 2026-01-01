@@ -16180,14 +16180,17 @@ entries:
   # ═══ es- prefix ═══
   es- prefix:
     category: concept
-    short: "Naming particle marking descent from someone in occultation—encodes legal status, temporal depth, Bureau affiliation, wealth."
+    short: Naming particle marking descent from someone in occultation—encodes legal status, temporal depth, Bureau affiliation, wealth.
     details: |
-      When someone introduces themselves with es-, informed listeners decode: Which 
-      Bureau claimed the occultant? Apartments or merely First Whorl? Which Record 
-      documents them? What patents derive from position? The encoding creates concentric 
-      circles of legibility—Aureates read the full hierarchy, ordinary subjects simply 
-      recognize aristocracy. First-generation families sometimes try to obscure recent 
-      elevation; it rarely succeeds.
+      When someone introduces themselves with es-, informed listeners decode:
+      Which Bureau claimed the occultant? Apartments or merely First Whorl?
+      Which Record documents them? What patents derive from position?
+
+      The encoding creates concentric circles of legibility. Aureates read
+      the full hierarchy. Ordinary subjects simply recognize aristocracy.
+      First-generation families sometimes try to obscure recent elevation.
+      It rarely succeeds. The prefix announces everything. Two syllables
+      that determine whether doors open or close.
     rag_pointer: "The Aureate System"
     related: [Aureate, Occultation, Records]
   # ─── end es- prefix ───
