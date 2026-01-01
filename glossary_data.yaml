@@ -4061,11 +4061,25 @@ entries:
   # ═══ Speaking Stones ═══
   Speaking Stones:
     category: location
-    short: "Karst communication hub in ya-Don's underground districts."
+    short: Network of resonant chambers where tap-language travels through rock—messages propagating faster than any messenger could run the tunnels.
     details: |
-      Network of resonant chambers where Karst tap-language travels through rock, enabling 
-      communication across the underground. Messages propagate through stone faster than 
-      messengers could travel tunnels. Surface dwellers barely know it exists.
+      The Karst discovered that certain chambers carry sound through stone
+      in ways conventional acoustics cannot explain. Tap-language here
+      travels to distant chambers through the rock itself, arriving before
+      any messenger could traverse the tunnels between. The Speaking Stones
+      serve as communication hub for the entire underground district.
+
+      Operators at each node know the rhythms that distinguish message from
+      echo. They tap, they listen, they relay. Information flows through
+      stone in patterns surface dwellers would find impossible to track.
+      The network has no visible infrastructure—just rock that happens to
+      resonate, chambers that happen to connect.
+
+      Surface dwellers barely know it exists. They hear occasional tapping
+      from below and assume it's construction or settling. The Karst
+      exchange news, warnings, commercial information through stone,
+      operating a communication system that predates any they could have
+      built.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Depths of St. Yerren, Karst]
     location_features:
