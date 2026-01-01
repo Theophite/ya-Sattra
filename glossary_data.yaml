@@ -11418,12 +11418,17 @@ entries:
   # ═══ The Burning Rest ═══
   The Burning Rest:
     category: location
-    short: "Threshold tavern in former furnace monitoring station—interior-salvage aesthetic."
+    short: Threshold tavern—original control panels remain embedded in the wall.
     details: |
-      Three blocks from Cathedral of St. Akhmet. Tavern in former furnace monitoring station; 
-      original control panels remain embedded in one wall. Union meetings in back room. 
-      Proprietor: Common-Task Veradha (Ashrat, late forties, fourth-generation ya-Don). 
-      Art deco stools salvaged from pre-Interdict sources.
+      Three blocks from the Cathedral of St. Akhmet. Tavern in former furnace
+      monitoring station; original control panels remain embedded in one wall,
+      their indicators dark, their dials frozen. No one has removed them—they
+      are part of the establishment now.
+
+      Art deco stools salvaged from pre-Interdict sources. Union meetings in the
+      back room. The proprietor's family has run the place for four generations.
+      Shift-end workers come here to drink in the glow of ancient instrumentation
+      whose purpose no one remembers.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Threshold, ya-Don]
     location_features:
