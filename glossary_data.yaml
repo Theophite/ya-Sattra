@@ -13245,15 +13245,18 @@ entries:
   # ═══ Port Ahn Revenue House ═══
   Port Ahn Revenue House:
     category: location
-    short: "Bureau of Coin customs house—imported stone projecting Imperial permanence on the frontier."
+    short: Imported stone halfway up the cliff face—brass scales on the doors tarnished green from sea air.
     details: |
-      Situated halfway up the cliff face. Built from imported stone that doesn't match
-      local limestone—designed to project permanent Imperial authority through
-      architectural expense. Brass scales on doors tarnished green from sea air. Interior
-      features walls of pigeonholes with documents color-coded by incomprehensible logic.
-      Multiple queues for different categories of business. Staff maintains classification
-      registries for unusual entities. Provincial operation less thorough than ya-Sattra
-      but still extracts fees: 40 obols harbor maintenance, 80 obols semi-sentient transit.
+      Built from stone that doesn't match local limestone. The expense is the
+      point: permanent Imperial authority projected through architectural cost.
+      Inside, walls of pigeonholes with documents color-coded by incomprehensible
+      logic. Multiple queues for different categories of business. Staff
+      maintains classification registries for unusual entities.
+
+      Provincial operation, less thorough than ya-Sattra, but still extracts
+      fees at every opportunity. Forty obols harbor maintenance. Eighty obols
+      semi-sentient transit. The queues move slowly. The clerks ask questions.
+      The documents multiply. Everyone waits. Everyone pays.
     rag_pointer: "Vey, Trip to Port Ahn"
     related: [Port Ahn, Bureau of Coin, Scale Bureau]
     location_features:
