@@ -11317,10 +11317,20 @@ entries:
   # ═══ Threshold ═══
   Threshold:
     category: location
-    short: "Oldest residential district in ya-Don—Imperial vernacular refined over millennia."
+    short: Oldest residential district—residents have learned which pipes are hot.
     details: |
-      ~280,000 residents. Contains Cathedral of St. Akhmet. Commercial establishments, 
-      shift-end culture.
+      Two hundred eighty thousand residents in the shadow of the Furnaces. Their
+      glow is visible down every street, their heat shaping daily rhythms.
+      Massive stone buildings face inward around courtyards, presenting blank
+      walls to streets. Shadows are precious. Shade is architecture.
+
+      Furnace pipes run through everything. Thesad and conventional bronze climb
+      walls, cross streets on brackets, dive underground, emerge from buildings.
+      Some are six inches across; some are twenty feet. The oldest Threshold
+      buildings were built around the pipes—the infrastructure came first.
+      Residents have learned which pipes are hot in summer, which carry
+      vibration, which sometimes leak. Shift-end culture fills the commercial
+      establishments near the Cathedral of St. Akhmet.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Furnaces]
     location_features:
