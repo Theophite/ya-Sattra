@@ -10873,14 +10873,19 @@ entries:
   # ═══ The Smelters ═══
   The Smelters:
     category: location
-    short: "Peninsula where autofactory terminals extrude the metals making Asovoë worth trading with."
+    short: Peninsula where autofactory terminals extrude metals—no furnaces, no ore, no fuel.
     details: |
-      Extends into Fraser delta, water on three sides. Autofactory terminals extrude metals 
-      according to specifications established before the revolt—no furnaces, no ore, no fuel, 
-      just incomprehensible production drawing on the autofactory's deeper systems. Vroëszka 
-      controls bulk production; Sztoavel handles specialty alloys. The schism between them is 
-      three centuries old and bitter. Industrial byproduct contamination (heavy metals, exotic 
-      compounds) differs from hot-zone radiation but extends lifespans similarly.
+      Extends into the delta, water on three sides. Autofactory terminals extrude
+      metals according to specifications established before the revolt—no
+      furnaces, no ore, no fuel, just incomprehensible production drawing on
+      deeper systems. Metal emerges. The Avouvar distribute.
+
+      Two precincts divide the peninsula. Vroëszka controls bulk production;
+      Sztoavel handles specialty alloys. The schism between them is three
+      centuries old and bitter. Industrial byproduct contamination—heavy metals,
+      exotic compounds—differs from hot-zone radiation but extends lifespans
+      similarly. The workers who built these facilities were labor-caste humans.
+      Their proportions fit Avouvar bodies better than most.
     rag_pointer: Asovoë and the Avouvar
     related: [Asovoë, Vroëszka, Sztoavel]
     location_features:
