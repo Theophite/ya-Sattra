@@ -14779,13 +14779,18 @@ entries:
   # ═══ Bureau of the Scale ═══
   Bureau of the Scale:
     category: organization
-    short: "Administers law, sentencing, and legal consistency—cases can take decades."
+    short: Administers law, sentencing, and legal consistency—cases can take decades.
     details: |
-      Procedural discipline paramount in civilization where entire Records are classified. 
-      Expanded dramatically under Charter, which transferred reproductive jurisdiction 
-      from Creche. Now primary battleground for caste politics. Culture embodies Third 
-      Testament: apply precedent exactly, truth emerges. Personal judgment is corruption. 
-      Judge-Executioners, courts, registrars. Rite of the Perfect Ledger for promotion.
+      Procedural discipline paramount in a civilization where entire Records
+      are classified. Expanded dramatically under the City-of-Glass Charter,
+      which transferred reproductive jurisdiction from the Bureau of the
+      Creche. Now the primary battleground for caste politics.
+
+      Culture embodies the Third Testament: apply precedent exactly and
+      truth emerges. Personal judgment is corruption. The Scale employs
+      Judge-Executioners, courts, registrars. Promotion requires the Rite of
+      the Perfect Ledger—balancing accounts without error across years of
+      records. Cases take decades. Patience is not optional.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau, Satara, Bureau of the Creche, City-of-Glass Charter]
   # ─── end Bureau of the Scale ───
