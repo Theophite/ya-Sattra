@@ -14301,19 +14301,24 @@ entries:
   # ═══ Vermillion Tower ═══
   Vermillion Tower:
     category: location
-    short: "Seventeen-story pre-Interdict estate housing Asaph es-Tsay's collection and intellectual salons."
+    short: Seventeen-story pre-Interdict estate—every floor a gallery for a collection of dubious authenticity.
     details: |
-      Not quite an arcology but close—predates the Interdict, stands three blocks from the 
-      es-Tsay cylinder. Every floor serves as gallery for Asaph's collection: pre-Interdict 
-      artifacts purchased without discrimination, arranged by aesthetic whim. Ground floor: 
-      "The Mechanical Garden" (surgical robots posed as dancers, quantum cores as coffee 
-      tables). Third floor: "Library of Forbidden Knowledge" (texts he can't read, arranged 
-      by color). Seventh floor: "Chapel of Rejected Saints" (heretical iconography, 
-      commissioned murals of the Eighth Oracle). Tenth floor: living quarters with 
-      "functional" pre-Interdict technology (none of it works). Top floor: salon space 
-      for intellectual gatherings. DNA scanner with quantum verification at service 
-      entrance. Staff of 37 servants who have learned to fabricate "discoveries" for 
-      their master's weak object-memory.
+      Not quite an arcology but close—predates the Interdict, stands three
+      blocks from the es-Tsay cylinder. Seventeen stories of galleries.
+      Every floor arranged by aesthetic whim: surgical robots posed as
+      dancers, quantum cores as coffee tables, texts unreadable to the owner
+      shelved by color.
+
+      The ground floor: "The Mechanical Garden." Third floor: "Library of
+      Forbidden Knowledge." Seventh floor: "Chapel of Rejected Saints" with
+      heretical iconography and commissioned murals of the Eighth Oracle.
+      Tenth floor: living quarters with "functional" pre-Interdict
+      technology. None of it works. Top floor: salon space for intellectual
+      gatherings. Walk through seventeen stories of accumulated pretension.
+      The collection grows. Staff of thirty-seven servants have learned to
+      fabricate "discoveries" for a master whose object-memory is weak. The
+      artifacts cycle through rooms, presented as new finds. Everyone
+      maintains the fiction.
     rag_pointer: "The Antediluvian Quarter"
     related: [Antediluvian Quarter, Asaph es-Tsay, Kems as-Veleth, es-Tsay]
     location_features:
