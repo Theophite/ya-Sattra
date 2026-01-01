@@ -4383,24 +4383,23 @@ entries:
   # ═══ Reckoning Festival ═══
   Reckoning Festival:
     category: culture
-    short: "Annual Hereditary Debtor celebration—funeral for social death, birth for freedom, wedding for the newly freed."
+    short: Annual Hereditary Debtor celebration—funeral for social death, birth for freedom, wedding for the newly freed.
     details: |
       Occurs each spring when the Ministry of Finance publishes updated obligation
-      balances. Combines funeral (for social death debt represents), birth (for those
-      emerging from obligation), and wedding (freed members often marry immediately,
-      having delayed). One poet called it "capitalism's most honest expression—the
-      precise monetization of human existence."
+      balances. Combines funeral (for the social death debt represents), birth (for
+      those emerging from obligation), and wedding (freed members often marry immediately,
+      having delayed).
 
       Families whose balances reached zero during the preceding year are formally
-      recognized as free—perhaps a dozen annually. Those who died while still obligated
-      receive memorial acknowledgment. New marriages between Debtors—and between Debtors
-      and free persons willing to accept their children's inherited status—are celebrated
+      recognized as free—perhaps a dozen annually. Those who died still obligated receive
+      memorial acknowledgment. New marriages between Debtors—and between Debtors and
+      free persons willing to accept their children's inherited status—are celebrated
       collectively.
 
-      The atmosphere is complex: genuine joy for those achieving freedom, genuine grief
-      for those who never will, genuine uncertainty about whether freedom is even
-      desirable for families built around administrative service. Wine flows. Music
-      plays. The ledgers are read aloud. Everyone learns exactly where they stand.
+      Genuine joy for those achieving freedom, genuine grief for those who never will,
+      genuine uncertainty about whether freedom is even desirable for families built
+      around administrative service. Wine flows. Music plays. The ledgers are read
+      aloud. Everyone learns exactly where they stand.
     rag_pointer: "Hereditary Debtors"
     related: [Hereditary Debtors, Ganat]
   # ─── end Reckoning Festival ───
