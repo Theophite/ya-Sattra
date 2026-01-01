@@ -9546,17 +9546,19 @@ entries:
   # ═══ San Juan Island ═══
   San Juan Island:
     category: location
-    short: Avouvar factoria specialized in Akama trade—weapons, armor, precision tools.
+    short: Avouvar factoria specialized in Akama trade—aurora-bright negotiators facing scarred warriors.
     details: |
-      50-70 staff handling the specialized trade with the Thousand Kingdoms. Factor-
-      Principal Körateszin (141 years old) speaks the Akama language and understands
-      their gambling protocols—necessary for any serious negotiation with Akama traders.
+      Fifty to seventy staff handling specialized trade with the Thousand Kingdoms.
+      The Factor-Principal speaks the Akama language and understands their gambling
+      protocols—necessary for any serious negotiation, as Akama trade requires
+      winning bets before prices are discussed.
 
-      The goods are specific: weapons components that Akama smiths finish themselves,
-      armor materials (plates, scales, mail links), precision tools for the endless
-      repair and modification that defines Akama material culture. The Akama traders
-      arrive by destrier-caravan from inland, their mounts unable to cross the water.
-      They camp outside the factoria walls, conducting business through intermediaries.
+      Weapons components that Akama smiths finish themselves, armor materials,
+      precision tools for the endless repair and modification that defines Akama
+      material culture. The Akama traders arrive by destrier-caravan from inland,
+      their mounts unable to cross water. They camp outside the factoria walls,
+      conducting business through intermediaries—scarred warriors facing aurora-
+      bright Avouvar across tables of merchandise.
     rag_pointer: Asovoë and the Avouvar
     related: [San Juan Factorias, Akama]
     location_features:
