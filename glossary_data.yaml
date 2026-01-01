@@ -14525,12 +14525,18 @@ entries:
   # ═══ Authentication House ═══
   Authentication House:
     category: organization
-    short: "Patent holder bar requiring three generations of Aureate status for admission."
+    short: Patent holder bar—three generations of Aureate status required for admission.
     details: |
-      Pre-Interdict administrative building, original function unknown. Minor Aureates 
-      network with major ones hoping for contracts and marriages. First-generation families 
-      politely redirected to lesser establishments. Drinks excellent and wildly expensive. 
-      Conversations guarded and enormously consequential.
+      Pre-Interdict administrative building, original function unknown. The
+      building authenticates nothing now. The name persists because names
+      persist.
+
+      Minor Aureates network with major ones hoping for contracts and
+      marriages. First-generation families politely redirected to lesser
+      establishments—the doorward remembers lineages going back centuries.
+      Drinks excellent and wildly expensive. Conversations guarded and
+      enormously consequential. A word spoken here can make or break a
+      family. No one raises their voice. Everyone listens carefully.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, Aureate]
   # ─── end Authentication House ───
