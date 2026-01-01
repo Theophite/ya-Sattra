@@ -10336,8 +10336,17 @@ entries:
   # ═══ The Bridge ═══
   The Bridge:
     category: location
-    short: Pre-Interdict structure spanning the Azhmar River at High Junction.
-    details: "250 feet long, 40 feet wide, single impossible arch. Metalloceramic material no Republican engineer understands. Surface glass-slick when wet—workers spread sand constantly. Defines High Junction's geography."
+    short: Pre-Interdict structure—no Republican engineer understands how it stands.
+    details: |
+      Two hundred fifty feet long, forty feet wide, a single impossible arch of
+      pale grey metalloceramic. The material shows no weathering despite unknown
+      age. No Republican engineer understands how it stands. The surface becomes
+      glass-slick when wet; workers spread sand constantly, wagons cross slowly.
+
+      Both abutments are eroding—timber pilings, stone gabions, desperate
+      earthworks shore up approaches the river undermines every spring. Ancient
+      technology connecting adobe Old Town to timber-frame Manufacturing District,
+      the Bridge defines High Junction's geography and its anxiety.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [High Junction, Old Town, Manufacturing District]
     location_features:
