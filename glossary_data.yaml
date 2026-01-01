@@ -14685,13 +14685,17 @@ entries:
   Institute of Genomic Licensing:
     category: organization
     parent: Bureau of the Creche
-    short: "Creche subdivision issuing genetic product licenses—one of the last truly potent Creche Institutes."
+    short: Creche subdivision issuing genetic product licenses—one of the last truly potent Creche Institutes.
     details: |
-      Issues and enforces licenses for medical and agricultural genetic products:
-      crop genomes, serum templates, clone-compatible stabilizers, and biological
-      security features like infertility locks. Adjudicates disputes between
-      Aureate families over overlapping genome patents. Holds most of the
-      Bureau's remaining influence.
+      Issues and enforces licenses for medical and agricultural genetic
+      products: crop genomes, serum templates, clone-compatible stabilizers,
+      and biological security features like infertility locks. Adjudicates
+      disputes between Aureate families over overlapping genome patents.
+
+      This Institute holds most of the Bureau's remaining influence.
+      Aureate families fear its rulings. Agricultural provinces depend on
+      its approvals. The licenses matter. The fees matter more. Deny a
+      license and watch an Aureate house scramble.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Creche, Aureate, Patents]
   # ─── end Institute of Genomic Licensing ───
