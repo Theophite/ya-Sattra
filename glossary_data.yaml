@@ -12131,14 +12131,18 @@ entries:
   # ═══ Upper Taho ═══
   Upper Taho:
     category: location
-    short: "Wealthy district at Taho's summit—Academy, Cathedral, merchant compounds."
+    short: Nearly seven thousand feet up, where goods climbing the terraces finally arrive and status reaches its peak.
     details: |
-      At 6,800 feet, where goods climbing the terraces finally arrive and status reaches 
-      its peak. The Academy occupies 20 acres of pre-Interdict buildings (original purpose 
-      unknown, construction beyond current capability). Taho Cathedral with its 500-year-old 
-      granite pulpit carved with intertwined hands. Merchant compounds: granite walls 2 feet 
-      thick, timber framing, glass windows, electric heating throughout, interior courtyards 
-      with actual vegetation. The Khen-Masots provide their own power from their own generators.
+      The Academy occupies twenty acres of pre-Interdict buildings whose
+      original purpose remains unknown and whose construction exceeds current
+      capability. Taho Cathedral houses its five-hundred-year-old granite pulpit
+      carved with intertwined hands. The merchant compounds cluster nearby:
+      granite walls two feet thick, timber framing, glass windows, electric
+      heating throughout, interior courtyards with actual vegetation.
+
+      The wealthiest families provide their own power from their own generators.
+      Some never descend to the terraces below. Why would they? Everything
+      climbs to them.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Taho, Merchant Terraces]
     location_features:
