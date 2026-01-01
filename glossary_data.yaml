@@ -14647,12 +14647,17 @@ entries:
   Institute of Lineal Certification:
     category: organization
     parent: Bureau of the Creche
-    short: "Creche subdivision handling cloneline registration and kinship authentication—now primarily used for disinheritance."
+    short: Creche subdivision handling cloneline registration—now primarily used for disinheritance.
     details: |
-      Once the terrifying arbiter of who could legally reproduce, it now functions
-      primarily as a registry. Frequently mocked as the "Office of Disinheritance"
-      because people use it to prove they are NOT subject to a registered cloneline.
-      Handles heritable medical conditions and kinship authentication.
+      Once the terrifying arbiter of who could legally reproduce, it now
+      functions primarily as a registry. Frequently mocked as the "Office of
+      Disinheritance" because people use it to prove they are NOT subject to
+      a registered cloneline. Come here to escape your bloodline. Come here
+      to prove you belong to no one.
+
+      Handles heritable medical conditions and kinship authentication. The
+      clerks process applications with bored efficiency. The terror has
+      faded. The paperwork remains.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Creche, Cloneline]
   # ─── end Institute of Lineal Certification ───
