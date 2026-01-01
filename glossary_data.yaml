@@ -16463,13 +16463,18 @@ entries:
   # ═══ Black Sheet ═══
   Black Sheet:
     category: concept
-    short: "Highest classification synthesis—even the First Whorl can only partially accept what it contains."
+    short: Highest classification synthesis—even the First Whorl can only partially accept what it contains.
     details: |
-      The Bureau of the Lens's attempt at complete truth. Synthesizes information 
-      from all sources into picture of what the Empire actually is. So sensitive 
-      that full access is extremely restricted. Contains realities that would 
-      destabilize governance if widely known. The Lens maintains public fiction, 
-      classified truth, and Black Sheet synthesis as three parallel realities.
+      The Bureau of the Lens's attempt at complete truth. Synthesizes
+      information from all sources into a picture of what the Empire
+      actually is. So sensitive that full access is extremely restricted.
+      Contains realities that would destabilize governance if widely known.
+
+      The Lens maintains public fiction, classified truth, and Black Sheet
+      synthesis as three parallel realities. The White Sheet is what
+      citizens are told. The Grey Sheet is what officials believe. The
+      Black Sheet is what the Empire truly is—and almost nobody can bear
+      to read it complete.
     rag_pointer: "Bureau of the Lens: Complete Documentation"
     related: [White Sheet, Grey Sheet, Bureau of the Lens]
   # ─── end Black Sheet ───
