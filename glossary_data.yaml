@@ -16041,21 +16041,23 @@ entries:
   # ═══ Common Confession ═══
   Common Confession:
     category: concept
-    short: "The fixed annual portion of the Plea—same verses recited by every congregation, interpreted very differently."
+    short: The fixed annual portion of the Plea—same verses recited by every congregation, interpreted very differently.
     details: |
-      The Common Confession provides unity across the fractured Penitent world. Every
-      congregation moves through the same liturgical sequence, the same verses, the same
-      rhythm. But interpretation varies radically.
+      The Common Confession provides unity across the fractured Penitent
+      world. Every congregation moves through the same liturgical sequence,
+      the same verses, the same rhythm. But interpretation varies radically.
 
-      The opening Testimony of the Witnesses contains verses condemning "the refusal of
-      the Archons"—when Imperial congregations recite this, they perform delicate
-      reinterpretation, treating the Emperor as a holy being led astray rather than a
-      tyrant who chose damnation. In Ganati parishes or the Thousand Kingdoms, the same
-      verses condemn the Empire in the harshest terms.
+      The opening Testimony of the Witnesses contains verses condemning
+      "the refusal of the Archons." When Imperial congregations recite this,
+      they perform delicate reinterpretation, treating the Emperor as a holy
+      being led astray rather than a tyrant who chose damnation. In Ganati
+      parishes or the Thousand Kingdoms, the same verses condemn the Empire
+      in the harshest terms.
 
-      This shared text with divergent meaning is not a bug but the system working as
-      designed. The Plea accommodates contradiction, enabling communities with irreconcilable
-      beliefs to participate in the same religion.
+      This shared text with divergent meaning is not a bug but the system
+      working as designed. The Plea accommodates contradiction, enabling
+      communities with irreconcilable beliefs to participate in the same
+      religion. They speak in unison. They mean opposite things.
     rag_pointer: "The Penitent Church"
     related: [The Plea, Particular Confession, Penitent Church, Testimony of the Witnesses]
   # ─── end Common Confession ───
