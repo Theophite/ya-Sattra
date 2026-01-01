@@ -8096,12 +8096,17 @@ entries:
   # ═══ Lift-3 ═══
   Lift-3:
     category: location
-    short: "Industrial elevator descending into flooded pre-Interdict depths."
+    short: Industrial elevator descending into flooded pre-Interdict depths—what comes up funds the Middens economy.
     details: |
-      Massive shaft through Hollow-Egress foundations into tunnel systems no one 
-      fully maps. Operated by Yuli Loak. Provides access to salvage that surface 
-      operations cannot reach. Five sewer-fisher clans share control. What comes 
-      up funds the Middens economy; what goes down includes things the clans 
+      Massive shaft through Hollow-Egress foundations into tunnel systems no one
+      fully maps. The platform is large enough for salvage loads; the cables are
+      thick as a man's arm. An operator's booth perches on the shaft edge, the
+      hereditary position passed through one of the sewer-fisher families.
+
+      Below: water sounds, echoes, flooded pre-Interdict systems extending into
+      unknown depths. The elevator provides access to salvage that surface
+      operations cannot reach. Five sewer-fisher clans share control. What comes
+      up funds the Middens economy; what goes down includes things the clans
       prefer not to discuss.
     rag_pointer: The Middens Tenements
     related: [Hollow-Egress, Sewer-Fishers, Loak]
