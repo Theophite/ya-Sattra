@@ -14584,12 +14584,19 @@ entries:
   # ═══ Seven-Cornered Examination ═══
   Seven-Cornered Examination:
     category: concept
-    short: "Seven-day ordeal testing virtues derived from first seven Oracles—required for Bureau entry."
+    short: Seven-day ordeal testing virtues derived from the first seven Oracles—required for Bureau entry.
     details: |
-      Tests judgment and procedural knowledge, not raw cognitive capacity. Each Bureau 
-      administers its own variant emphasizing different competencies while uniformly 
-      demanding political orthodoxy. Urban populations train through patronage networks; 
-      provincial students often through Penitent Church schools.
+      Tests judgment and procedural knowledge, not raw cognitive capacity.
+      The examination measures whether candidates think correctly, not
+      whether they think well. Each Bureau administers its own variant
+      emphasizing different competencies while uniformly demanding political
+      orthodoxy.
+
+      Urban populations train through patronage networks—families that have
+      passed candidates know what to teach. Provincial students often
+      prepare through Penitent Church schools. Seven days. Seven corners.
+      Seven chances to fail. Most who attempt do not pass. Those who pass
+      may serve.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Satara, Oracles]
   # ─── end Seven-Cornered Examination ───
