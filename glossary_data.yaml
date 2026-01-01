@@ -5005,15 +5005,18 @@ entries:
   # ═══ Ghaur-Dan ═══
   Ghaur-Dan:
     category: location
-    short: "Astal settlement in the Thousand Kingdoms—message poles spiral up every building."
+    short: Astal settlement in the Thousand Kingdoms—message poles spiraling up every building, text too small for baseline eyes.
     details: |
-      Twelve thousand people, mostly Astal, on volcanic lava rock thirty kilometers 
-      south of former Bend. Destrier cavalry cannot operate here—the rock would shatter 
-      their legs—creating neutral ground. Message poles are a Thousand Kingdoms Astal 
-      tradition: wooden poles spiraling up building walls, carved with tiny script 
-      (2mm letters) that accumulates across generations. Bottom sections for children, 
-      higher for adults, highest contain messages no one has read in generations. 
-      Warborn cannot read the poles—text too small for baseline eyes.
+      Twelve thousand inhabitants on volcanic lava rock. Destrier cavalry cannot operate
+      here—the rock would shatter their legs—creating neutral ground where Astal control
+      what larger castes cannot.
+
+      Message poles are a Thousand Kingdoms Astal tradition: wooden poles spiraling up
+      building walls, carved with two-millimeter script that accumulates across generations.
+      Bottom sections for children's first writing, higher for adults, highest containing
+      messages no one has read in generations. Visitors from larger castes walk through
+      streets wrapped in text they cannot read—history, gossip, warnings, jokes,
+      everything visible and illegible.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Thousand Kingdoms, Astal]
     location_features:
