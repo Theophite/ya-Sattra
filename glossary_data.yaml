@@ -8264,13 +8264,19 @@ entries:
   # ═══ Vetch-Rise ═══
   Vetch-Rise:
     category: location
-    short: "Transient housing tenement—sole pedestrian entry to the Middens."
+    short: Gateway tenement—the sole pedestrian entry to the Middens, border between isolation and the wider city.
     details: |
-      ~2,500 residents. Only building connecting directly to mainland. Everyone 
-      entering or leaving the Middens on foot passes through here or pays for boat 
-      transport. Yen Tam Society maintains influence despite Hanged Men dominance 
-      elsewhere—they control access. Transient Market assembles wherever Chain-Men 
-      aren't currently patrolling.
+      The only building connecting directly to mainland. Twenty-five hundred
+      residents, highest turnover, most vulnerable population. Everyone entering
+      or leaving the Middens on foot passes through the ground floor; the
+      alternative is paying for boat transport. The Yen Tam Society maintains
+      influence here despite Hanged Men dominance elsewhere—they control access.
+
+      The Transient Market materializes and dissolves in corridors, vendors
+      assembling wherever Chain-Men aren't currently patrolling. Rain-net repair
+      operates from the sixth floor. Eastern edge where flooded Middens foundations
+      meet quarried Iron Yards bedrock—the border between district isolation and
+      the wider city.
     rag_pointer: The Middens Tenements
     related: [Middens, Yen Tam Beneficial Society, Transient Market]
     location_features:
