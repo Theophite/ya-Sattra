@@ -17572,15 +17572,19 @@ entries:
   # ═══ Crooked-Ear ═══
   Crooked-Ear:
     category: person
-    short: "Mutterer in the Vassel Street choir—perpetually vocalizing in the Jargon, perceives factory as information."
+    short: Mutterer in the Vassel Street choir—perpetually vocalizing in the Jargon, perceives factory as information.
     person_location: ya-Sattra
     details: |
-      Age approximately 40 (estimated). Member of the 17-Mutterer choir at Vassel Street, 
-      maintained by Companions Guild in a workshop behind a textile factory in ya-Sattra's Rotten 
-      Quarter. Rarely exceeds one meter in height. Enormous dark eyes, pale grey skin. Jaw moves 
-      constantly producing fragments of the Jargon. The sounds are not random—recorded and analyzed, 
-      they reveal running commentary on structural stress, thermal gradients, electromagnetic 
-      interference. When choir synchronizes, they solve problems that would baffle baseline engineers.
+      Approximately forty years old (estimated). Member of the
+      seventeen-Mutterer choir at Vassel Street, maintained by the
+      Companions Guild in a workshop behind a textile factory in
+      ya-Sattra's Rotten Quarter. Rarely exceeds one meter in height.
+      Enormous dark eyes, pale grey skin. Jaw moves constantly
+      producing fragments of the Jargon. The sounds are not random—
+      recorded and analyzed, they reveal running commentary on
+      structural stress, thermal gradients, electromagnetic
+      interference. When the choir synchronizes, they solve problems
+      that would baffle baseline engineers.
     rag_pointer: "Caste Type Specimens Catalog"
     related: [Mutterers, Technical Castes, Jargon]
   # ─── end Crooked-Ear ───
