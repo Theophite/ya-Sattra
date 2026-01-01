@@ -17592,15 +17592,18 @@ entries:
   # ═══ Korel Mazh ═══
   Korel Mazh:
     category: person
-    short: "Sewer-fisher salvage worker—conceals intuitive technical understanding inherited from Technical Caste ancestors."
+    short: Sewer-fisher salvage worker—conceals intuitive technical understanding inherited from Technical Caste ancestors.
     person_location: Middens
     details: |
-      Age 34. Salvage worker in ya-Sattra's Middens, part of the Heth clan. Officially 
-      recovers materials from collapsed infrastructure. Unofficially possesses intuitive 
-      understanding of complex systems—perceives function without conscious analysis, hands know 
-      where problems lie. Conceals this ability systematically. Five foot six, slender and wiry, 
-      elongated fingers. Two children showing characteristic dark sclera and pointed ears; eldest 
-      beginning to demonstrate the same technical sense.
+      Thirty-four years old. Salvage worker in ya-Sattra's Middens,
+      part of the Heth clan. Officially recovers materials from
+      collapsed infrastructure. Unofficially possesses intuitive
+      understanding of complex systems—perceives function without
+      conscious analysis, hands know where problems lie. Conceals this
+      ability systematically. Five foot six, slender and wiry, elongated
+      fingers. Two children showing characteristic dark sclera and
+      pointed ears; the eldest beginning to demonstrate the same
+      technical sense.
     rag_pointer: "Caste Type Specimens Catalog"
     related: [Sewer-Fishers, Middens, Heth]
   # ─── end Korel Mazh ───
