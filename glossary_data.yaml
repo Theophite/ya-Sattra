@@ -17650,15 +17650,18 @@ entries:
   # ═══ Yuli Loak ═══
   Yuli Loak:
     category: person
-    short: "Loak clan council chair and Lift-3 operations manager—burn-scarred face, manages salvage trade with precision."
+    short: Loak clan council chair and Lift-3 operations manager—burn-scarred face, manages salvage trade with precision.
     person_location: Middens
     details: |
-      Age 33. Current council chair of Clan Loak and manager of Lift-3 operations at
-      Hollow-Egress. Burn scars across face from a hot lubricant accident that nearly killed
-      him. Manages salvage trade with sub-percent error rates despite handling hundreds of
-      transactions daily. Controls access to the flooded pre-Interdict tunnels below—the only
-      route to salvage that surface operations cannot reach. Unmarried, obsessively focused
-      on clan business since the accident that killed his partner.
+      Thirty-three years old. Current council chair of Clan Loak and
+      manager of Lift-3 operations at Hollow-Egress. Burn scars across
+      face from a hot lubricant accident that nearly killed him.
+      Manages salvage trade with sub-percent error rates despite
+      handling hundreds of transactions daily. Controls access to the
+      flooded pre-Interdict tunnels below—the only route to salvage
+      that surface operations cannot reach. Unmarried, obsessively
+      focused on clan business since the accident that killed his
+      partner.
     rag_pointer: "The Sewer-Fishers of the Middens"
     related: [Sewer-Fishers, Loak, Lift-3, Hollow-Egress, Middens]
   # ─── end Yuli Loak ───
