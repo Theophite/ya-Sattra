@@ -10413,24 +10413,23 @@ entries:
   # ═══ The Dam ═══
   The Dam:
     category: location
-    short: "Antediluvian structure converted to hydroelectric—grey material harder than granite, purpose unknown."
+    short: Antediluvian structure—the mystery is not how it works but why they built it.
     details: |
-      300 feet across, 400 feet from river to top. Built from grey material that looks like
-      stone but isn't—harder than granite, smooth to the touch, impervious to weathering.
+      Three hundred feet across, four hundred feet from river to top. Grey
+      material that looks like stone but is not—harder than granite, smooth to
+      the touch, impervious to weathering. Three layers of history: the
+      Antediluvians built the structure, though the original purpose is lost.
+      Someone after the Interdict converted it for hydroelectric, installing
+      turbines in chambers that may not have been designed for them. Those
+      turbines failed. In 952, Ganati engineers replaced them with domestic
+      machinery that spins to this day.
 
-      Three layers of history: The Antediluvians built the structure itself—but why? The dam
-      creates a lake. Why did they want a lake? The original purpose is lost. Sometime after
-      the Interdict, unknown engineers converted it for hydroelectric generation, installing
-      turbines in chambers that may or may not have been designed for them. Those turbines
-      eventually failed. In 952, eleven years before the Revolution, Ganati engineers replaced
-      them with domestically manufactured turbines that spin to this day.
-
-      The mystery isn't how the Dam works—it's why the Antediluvians built it. They didn't
-      need hydroelectric power. They had other sources. What purpose did that lake serve?
-
-      Provides power too cheap to meter. Workshops operate 24 hours because stopping costs
-      opportunity. Working-class warrens honeycomb the surrounding sandstone, tunnels
-      terminating inside the Dam itself.
+      The mystery is not how the Dam works—it is why the Antediluvians built it.
+      They did not need hydroelectric power. They had other sources. What purpose
+      did that lake serve? Now it provides power too cheap to meter. Workshops
+      operate continuously because stopping costs opportunity. Working-class
+      warrens honeycomb the surrounding sandstone, tunnels terminating inside the
+      Dam itself.
     rag_pointer: The Republic of Ganat, Ganat and the Yarangar War
     related: [Ganat proper, Antediluvian]
     location_features:
