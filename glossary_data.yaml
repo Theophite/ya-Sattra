@@ -4805,12 +4805,18 @@ entries:
   # ═══ Primary Deposition ═══
   Primary Deposition:
     category: location
-    short: "Deep Furnace facility creating crystalline substrates for lector cores—Unwritten-Axiom Parish territory."
+    short: Deep Furnace facility creating crystalline substrates for lector cores—where Verethani voices enable processes no one understands.
     details: |
-      Southeastern quadrant, deep sections. Restricted access; requires Karst workers for
-      physical access, Orevet for monitoring, and Verethani for processes their voices
-      somehow enable. Workforce of ~150, all Parish members. Temperature and depth make
-      this among the most restricted production areas in the Furnaces.
+      Southeastern quadrant, deep sections. Among the most restricted production areas
+      in the Furnaces. Karst workers navigate the physical access—tunnels too tight for
+      larger castes. Orevet monitor processes by color shifts invisible to baselines.
+      Verethani sing or speak or vocalize in ways that somehow enable crystalline
+      formation. No one knows why their voices matter. They matter.
+
+      One hundred fifty workers, all Unwritten-Axiom Parish members. Temperature and
+      depth require specialized adaptation. The substrates that emerge become lector
+      cores—authentication technology the Empire depends on, manufactured through
+      mechanisms that appear to include prayer.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [Furnaces, ya-Don, Karst, Orevet, Verethani, Unwritten-Axiom Parish]
     location_features:
