@@ -6306,13 +6306,16 @@ entries:
   # ═══ Yen Tam Seven Branches ═══
   Yen Tam Seven Branches:
     category: location
-    short: "Gambling den with ya-Tsatsan religious observance—serious, quiet, dangerous."
+    short: Gambling den with ya-Tsatsan religious observance—serious, quiet, dangerous.
     details: |
-      Converted forge building, 50x60 feet. Soot-stained ceiling from decades of forge 
-      operation. Shrine with seven brass plates in open octagon, eighth point a mirror. 
-      Seven-sided dice, Testament-suit cards, seven-fold betting structures. Religious 
-      observance disguised as (or simultaneous with) gambling. Yen Tam family members 
-      deal and watch.
+      Converted forge building. Soot-stained ceiling from decades of forge operation.
+      Shrine with seven brass plates in open octagon, eighth point a mirror. Seven-sided
+      dice, Testament-suit cards, seven-fold betting structures. Religious observance
+      disguised as—or simultaneous with—gambling.
+
+      The house is quiet. The stakes are real. Yen Tam family members deal and watch.
+      Those who cheat are not seen again. Those who cannot pay work off debts in Yen Tam
+      operations. The shrine watches everything.
     rag_pointer: The Iron Yards
     related: [Torchline Row, Iron Yards, Yen Tam Beneficial Society]
     location_features:
