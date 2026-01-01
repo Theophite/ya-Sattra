@@ -3505,21 +3505,26 @@ entries:
   # ═══ Black Door ═══
   Black Door:
     category: location
-    short: Portal to Imperial Apartments at the deepest point of temporal compression.
+    short: Portal to the Imperial Apartments—actual black, light-absorbing absence, no hinges or handle, opens only when the Emperor wills it.
     details: |
-      At the center of the First Whorl, where compression exceeds 120:1, stands the
-      Black Door. The Door is actual black—not dark bronze, not shadow, but light-
-      absorbing absence. It has no visible hinges, no handle, no mechanism. It opens
-      when the Emperor wills it. When it opens, a name is called.
+      At the center of the First Whorl, where temporal compression exceeds
+      120:1, stands the Black Door. Not dark bronze, not shadow, but
+      light-absorbing absence. No visible hinges. No handle. No mechanism
+      anyone can identify. It opens when the Emperor wills it. When it
+      opens, a name is called.
 
-      Those who pass through are never seen again. Seventeen have entered in Sri Avs
-      Tariq's 85 subjective years of service (representing ~10,200 external years).
-      Their families became permanently Aureate—not the ordinary status requiring
-      continued service, but something irrevocable. Patents secured through the Black
-      Door do not expire. Whatever transaction occurs purchases eternity.
+      Those who pass through are never seen again. Perhaps seventeen in
+      ten thousand external years—the count depends on whose subjective
+      timeline measures. Their families became permanently Aureate: not
+      ordinary status requiring continued service, but something
+      irrevocable. Patents secured through the Black Door do not expire.
+      Whatever transaction occurs purchases eternity.
 
-      The Antechamber of Unverified Receipt lies just outside—the final processing
-      station where missives emerge from the Imperial Apartments.
+      The Antechamber of Unverified Receipt lies just outside, the final
+      processing station where missives emerge from the Imperial
+      Apartments. Beyond the Door, time moves differently—or stops—or
+      means something else entirely. Those who cross the threshold slow
+      visibly, then disappear, entering whatever lies within.
     rag_pointer: The First Whorl, The Aureate System
     related: [First Whorl, Emperor, Aureate]
     location_features:
