@@ -16021,14 +16021,19 @@ entries:
   # ═══ The Plea ═══
   The Plea:
     category: concept
-    short: "Fifty-four part liturgical cycle of the Penitent Church commemorating humanity's quarantine."
+    short: Fifty-four-part liturgical cycle of the Penitent Church commemorating humanity's quarantine.
     details: |
-      Divided into Common Confession (fixed annually) and Particular Confession (variable, 
-      enabling localized grievance). Testimony of the Witnesses contains verses condemning 
-      "the Archons' refusal"—Imperial congregations reinterpret to protect Emperor's 
-      legitimacy. Tenth Observance: annual transmission of complete Plea into space. 
-      Final two verses sung during Quiet Days. Provides unity through shared sequence 
-      while allowing infinite local variation.
+      Divided into Common Confession—fixed annually, the same verses recited
+      across continents—and Particular Confession, which enables localized
+      grievance. The Testimony of the Witnesses contains verses condemning
+      "the Archons' refusal"; Imperial congregations reinterpret these to
+      protect the Emperor's legitimacy. Every year, the Tenth Observance
+      transmits the complete Plea into space.
+
+      The final two verses are sung during Quiet Days. Unity through shared
+      sequence, infinite local variation. A congregation in the Thousand
+      Kingdoms and one in the Imperial core recite the same words—and mean
+      completely different things.
     rag_pointer: The Penitents
     related: [Penitent Church, Quiet Days, Common Confession, Particular Confession, Tenth Observance]
   # ─── end The Plea ───
