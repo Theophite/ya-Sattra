@@ -7435,14 +7435,20 @@ entries:
   # ═══ Embarcadero ═══
   Embarcadero:
     category: location
-    short: "Ya-Sattra's commercial waterfront—the Rift's southern shore where The Processional ends."
+    short: Ya-Sattra's commercial waterfront—where antediluvian porcelain-coral gives way to timber and iron.
     details: |
-      Timber and iron docks extending along the entire south shore of the Rift. Where 
-      The Processional's porcelain-coral terminates, becoming the main commercial harbor. 
-      Warehouses, Stevedores' Guild operations, factors' offices, and terraces climbing 
-      toward the Iron Yards. Working-class character: stevedores, sailors, transient labor, 
-      the infrastructure that keeps ya-Sattra supplied. Cranes of mixed vintage—some 
-      pre-Interdict mechanisms, others conventional block-and-tackle.
+      Where The Processional's porcelain-coral terminates, becoming timber and iron
+      docks extending along the entire south shore of the Rift. The transition is
+      stark—self-cleaning antediluvian pavement ending abruptly at planking that
+      creaks underfoot, stained by salt and labor.
+
+      Cranes swing cargo between ship and warehouse; stevedores move in coordinated
+      gangs under Guild supervision. Warehouses crowd the waterfront; stone terraces
+      climb toward the Iron Yards, each level more industrial than the last.
+      Working-class character—stevedores, sailors, transient labor, the infrastructure
+      that keeps ya-Sattra supplied. Some cranes are pre-Interdict mechanisms that
+      no one fully understands; others are conventional block-and-tackle that anyone
+      can repair.
     rag_pointer: "The Rift: Ya-Sattra's Harbor District"
     related: [Rift, The Processional, Medina Quarter, Iron Yards, Stevedores' Guild, Factors' Row]
     location_features:
