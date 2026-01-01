@@ -15865,11 +15865,15 @@ entries:
   Adjudication:
     category: concept
     aliases: [Third Virtue]
-    short: "Third of the Seven Virtues, derived from the Third Testament—bilateral symmetry in law."
+    short: Third of the Seven Virtues, derived from the Third Testament—bilateral symmetry in law.
     details: |
-      The virtue of fair judgment. Laws must apply equally; precedent must be followed exactly.
-      Associated with the Third Testament and the Bureau of the Scale. Conservative interpretation
-      emphasizes literal precedent; progressive emphasizes underlying principles.
+      The virtue of fair judgment. Laws must apply equally; precedent must
+      be followed exactly. Associated with the Third Testament and the
+      Bureau of the Scale.
+
+      Conservative interpretation emphasizes literal precedent; progressive
+      emphasizes underlying principles. The Scale clerks argue endlessly
+      about which cases the current one resembles.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Seven Virtues, Third Testament, Oracle Cult, Bureau of the Scale]
   # ─── end Adjudication ───
