@@ -14131,12 +14131,18 @@ entries:
   # ═══ Booksellers' Guild ═══
   Booksellers' Guild:
     category: organization
-    short: "~80 members controlling printed material sales on Booksellers' Row."
+    short: About eighty members controlling printed material sales on Booksellers' Row.
     details: |
-      Holds exclusive right to sell printed materials within bronze-marked boundaries. 
-      Charter assumes automated printing; actual production is hand-copying at licensed 
-      scriptoriums. Twenty-three licensed shops. Retail monopoly enforced by immediate 
-      collective action against unlicensed sellers.
+      Holds exclusive right to sell printed materials within bronze-marked
+      boundaries. The charter assumes automated printing; actual production
+      is hand-copying at licensed scriptoriums. Twenty-three licensed shops.
+      The gap between what the charter permits and what the Guild does
+      remains legally unexamined.
+
+      Retail monopoly enforced by immediate collective action against
+      unlicensed sellers. Sell a book outside the bronze markers, the Guild
+      responds within hours. The shops are small. The shelves are dusty. The
+      prices are high. The alternatives are illegal.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [Guild, "Booksellers' Row", Medina Quarter]
   # ─── end Booksellers' Guild ───
