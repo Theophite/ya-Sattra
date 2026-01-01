@@ -8656,13 +8656,19 @@ entries:
   # ═══ Parish of Saint Arsakh ═══
   Parish of Saint Arsakh:
     category: location
-    short: "Primary Penitent church in High Junction—converted Sultanate administrative building."
+    short: Primary Penitent church in High Junction—the altar occupies what was once a bureaucrat's office.
     details: |
-      Two-story adobe structure with covered courtyard, thick walls, narrow windows, 
-      timber-framed roof. Seats perhaps 400. Curate Demal Totha (38, Serrulata, veteran, 
-      Dawn Party) practices Orthodox Penitentism without radical elements. Regular Common 
-      Confessions draw ~200 faithful. Site of competitive philanthropy through Particular 
-      Confessions—Rasma Dhal-Setil's "stemwinders" are famous.
+      Two-story adobe structure with covered courtyard, thick walls keeping summer
+      heat and winter cold at bay. Seats perhaps four hundred. Narrow windows admit
+      shafts of light that move across worn wooden pews through the day. No grand
+      ornamentation: functional architecture made holy by use. The altar occupies
+      what was once a bureaucrat's office.
+
+      Regular Common Confessions draw two hundred faithful. The curate preaches
+      practical theology—works-based atonement demonstrated through action, not
+      rhetoric. The covered courtyard fills during Particular Confessions when the
+      elite justify their wealth through competitive philanthropy, hour-long
+      performances that draw audiences from across town.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Old Town, High Junction, Penitent Church, Rasma Dhal-Setil, Curate Demal Totha]
     location_features:
