@@ -16686,11 +16686,18 @@ entries:
   # ═══ Assessment Courts ═══
   Assessment Courts:
     category: organization
-    short: "Exchequer tribunals for tax disputes—staffed by fiscal officials, appeals go to commercial courts."
+    short: Exchequer tribunals for tax disputes—staffed by fiscal officials, appeals go to commercial courts.
     details: |
-      Specialized tribunals handling disputes between kilits and Exchequer assessors over revenue declarations. Staffed by Exchequer officials rather than independent judges. Appeal rights flow to ordinary commercial courts, which are Dusk-aligned.
+      Specialized tribunals handling disputes between kilits and Exchequer
+      assessors over revenue declarations. Staffed by Exchequer officials
+      rather than independent judges. Appeal rights flow to ordinary
+      commercial courts, which are Dusk-aligned.
 
-      This creates strategic incentive for kilits to settle with assessors rather than risk judicial proceedings. The assessors know this: "Accept our assessment or take your chances with Judge Tal-Omir's court." Pastoral kilits with complex seasonal revenues face particularly difficult assessment disputes requiring specialist knowledge of transhumance patterns and herd valuations.
+      This creates strategic incentive for kilits to settle with assessors
+      rather than risk judicial proceedings. The assessors know this.
+      Accept their assessment or take chances with Dusk-aligned commercial
+      judges. The tribunals exist to resolve disagreements. The structure
+      exists to ensure disagreements rarely reach them.
     rag_pointer: "People's Exchequer and Ganati Fiscal Constitution"
     related: [People's Exchequer, Ministry of Justice, Kilit]
   # ─── end Assessment Courts ───
