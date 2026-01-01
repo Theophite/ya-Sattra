@@ -26,7 +26,7 @@ The manor house sits on Antediluvian foundations weathered to near-invisibility.
 
 The house itself is modest by aristocratic standards—forty rooms, with outbuildings for storage, equipment, and the Akama mercenary company that provides security. The current Lord Mor-Kethran, Valdis Mor-Kethran the Younger, inherited six years ago when his father died of a respiratory illness common among those who spend time in the eastern territories. The dust gets into everything. The family has lost three members to lung ailments in the past two generations.
 
-Valdis is thirty-four, unmarried, reportedly courting a cousin from the Dhal-Orom march. A Mor-Kethran“Dhal-Orom marriage would consolidate two of the seven marcher seats, creating a voting bloc that might actually matter in Senate arithmetic. Whether this calculation drives the courtship or merely accompanies it, no one outside the families can say.
+Valdis is thirty-four, unmarried, reportedly courting a cousin from the Dhal-Orom march. A Mor-Kethran"Dhal-Orom marriage would consolidate two of the seven marcher seats, creating a voting bloc that might actually matter in Senate arithmetic. Whether this calculation drives the courtship or merely accompanies it, no one outside the families can say.
 
 The estate employs perhaps two hundred people directly—household staff, overseers, specialists who maintain irrigation infrastructure, factors who manage trade. Most are Serrulata, born on the March, citizens of nothing except the Mor-Kethran domain.
 

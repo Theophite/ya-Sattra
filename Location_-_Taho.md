@@ -10,7 +10,7 @@ Taho sprawls across the western slopes above former Lake Tahoe at 6,200 feet ele
 
 Taho sits on granite slopes overlooking what was Lake Tahoe, now a smaller lake 400 feet lower than historical levels due to glaciation-era climate shift. The city occupies west-facing mountainside between 6,200 and 6,800 feet elevation, with the commercial port district at lake level and residential districts climbing the slope in terraces. The Sierra Nevada rises behind to over 9,000 feet. Taho Pass to the west provides the lowest crossing point for hundreds of miles, making Taho the natural gateway between desert and coast.
 
-The climate is harsh. Winter brings 200 inches of snow, temperatures to \-10Â°F, months when the pass closes completely. Summer reaches 85Â°F but nights drop to freezing even in August. The growing season is maybe 90 days. Nothing about this location suggests building a city here except the geographic necessity of controlling the pass.
+The climate is harsh. Winter brings 200 inches of snow, temperatures to \-10°F, months when the pass closes completely. Summer reaches 85°F but nights drop to freezing even in August. The growing season is maybe 90 days. Nothing about this location suggests building a city here except the geographic necessity of controlling the pass.
 
 The lake itself sits in a granite basin carved by glaciers, surrounded by peaks that catch snow and release it gradually. The water is extraordinarily clear—you can see 70 feet down in calm conditions. The clarity results from minimal nutrients and low algae growth at altitude. The lake provides year-round water, fish, and trade route connections to settlements along its shores, but it's cold enough to kill you in minutes if you fall in.
 
@@ -110,7 +110,7 @@ The Khen-Masot Textile Enterprise employs three hundred workers in workshops spr
 
 Factor Yula Khen-Masot manages daily operations. She's forty-six, Serrulata, from a merchant family that supported the revolution early and profited from it enormously. She wears Ganati merchant style: elaborate robes in teal and cream, copper jewelry set with turquoise, scales dyed in geometric patterns showing wealth and taste. She sits in the Senate representing her kilit. She attends Arch-Curate Tewodo's services weekly. She negotiates contracts with Imperial factors for selling maguey-silk fabric at prices that make her family wealthier while funding programs that make her reputation sterling.
 
-This is the model: accumulate wealth through commerce including Imperial trade, reinvest that wealth in collective capacity (schools, training, infrastructure, subsidized utilities), maintain revolutionary credentials through conspicuous philanthropy, defend it all as demonstration of mankind’s growing wisdom. Arch-Curate Tewodo preaches it. The Khen-Masots practice it. Everyone else watches resentfully while depending on the commerce it enables and the subsidies it provides.
+This is the model: accumulate wealth through commerce including Imperial trade, reinvest that wealth in collective capacity (schools, training, infrastructure, subsidized utilities), maintain revolutionary credentials through conspicuous philanthropy, defend it all as demonstration of mankind's growing wisdom. Arch-Curate Tewodo preaches it. The Khen-Masots practice it. Everyone else watches resentfully while depending on the commerce it enables and the subsidies it provides.
 
 ### The Working Population and the Workingmens' Kilits Caucus
 
@@ -218,7 +218,7 @@ The religious calendar structures Taho's year. Common Plea services happen weekl
 
 ## Daily Life and Rhythms
 
-Winter in Taho is survival enabled by infrastructure. From November through March, the pass closes. The city depends entirely on stored supplies and lake trade with other settlements. Temperature drops to \-10Â°F. Snow accumulates 15 feet deep in some areas. But people don't huddle in darkness burning fuel for warmth. Every building has electric heating. Every street has lights. The city glows through winter darkness, demonstrating that Republican infrastructure defeats climate.
+Winter in Taho is survival enabled by infrastructure. From November through March, the pass closes. The city depends entirely on stored supplies and lake trade with other settlements. Temperature drops to \-10°F. Snow accumulates 15 feet deep in some areas. But people don't huddle in darkness burning fuel for warmth. Every building has electric heating. Every street has lights. The city glows through winter darkness, demonstrating that Republican infrastructure defeats climate.
 
 The Port District continues operations: fish must be caught, warehouses maintained, goods prepared for spring. The work happens in electrically lit buildings with electric heat, making winter labor tolerable rather than brutal. The Merchant Terraces slow but don't stop—workshops continue production, though at reduced pace. The Upper City becomes quieter—the Academy holds winter term but many students leave if they can afford travel, commerce pauses, religious observance provides primary social structure.
 

@@ -8,7 +8,7 @@ Ghemar-yan sits on the Ghemar River (formerly the Portneuf) near what was Pocate
 
 ## Geography and Climate
 
-The Ghemar River flows north through basalt plateau country, cutting a valley 200 feet deep in places. The town sits on both the floodplain—narrow, maybe 300 yards wide—and the bench above, where the land flattens before rising to surrounding highlands. Elevation means harsh winters: \-20Â°F common, snow from November through March, ground frozen six inches down until April. Summers reach 90Â°F but stay dry, ten inches of precipitation annually with most as snow.
+The Ghemar River flows north through basalt plateau country, cutting a valley 200 feet deep in places. The town sits on both the floodplain—narrow, maybe 300 yards wide—and the bench above, where the land flattens before rising to surrounding highlands. Elevation means harsh winters: \-20°F common, snow from November through March, ground frozen six inches down until April. Summers reach 90°F but stay dry, ten inches of precipitation annually with most as snow.
 
 The river provides everything: year-round water for livestock, power for the recent mill and turbine, irrigation for small gardens, and transportation corridor connecting to Ganati settlements further south. The basalt bedrock appears everywhere—black stone fractured into blocks, some house-sized, creating natural shelter and building material that lasts indefinitely.
 
@@ -22,7 +22,7 @@ The houses are single-room cabins, typically 15 by 20 feet, dug 8 feet into eart
 
 Each cabin centers on a bed-stove: black basalt mortared into a platform 6 feet by 8 feet, 3 feet high, with internal channels for hot air circulation heated by a firebox burning cattle and destrier dung. The bed-stove stays warm through winter nights, provides cooking surface, and dominates the space. Most cabins house extended families—six to ten people sleeping on the warm platform, storing possessions in niches carved into basalt walls, living most of their lives outside except when weather forces them in.
 
-Entering a cabin means descending stone steps into earth-warmed space. The temperature stays 50-60Â°F year-round just from thermal mass, warmer when the bed-stove is fired. The air smells like stone, smoke, dung fuel (acrid but familiar), wool, and lamp oil. Light comes from small windows at grade level and oil lamps in wall niches. Since electrification reached town two years ago, some cabins have single bulbs hanging from beams—40 watts, expensive to run, turned on for special occasions.
+Entering a cabin means descending stone steps into earth-warmed space. The temperature stays 50-60°F year-round just from thermal mass, warmer when the bed-stove is fired. The air smells like stone, smoke, dung fuel (acrid but familiar), wool, and lamp oil. Light comes from small windows at grade level and oil lamps in wall niches. Since electrification reached town two years ago, some cabins have single bulbs hanging from beams—40 watts, expensive to run, turned on for special occasions.
 
 The underground construction is practical necessity. Surface buildings would face temperature extremes no one could afford to heat adequately. Sod roofs insulate better than anything else available. The design has worked for generations, refined through trial and error into something that keeps people alive through winters that kill the unprepared.
 
