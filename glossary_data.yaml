@@ -14058,14 +14058,19 @@ entries:
   # ═══ Venn ═══
   Venn:
     category: organization
-    short: "Sewer-fisher clan specialized in high-altitude rigging and toll-avoidance infrastructure."
+    short: Sewer-fisher clan specialized in high-altitude rigging—builds toll-avoidance crossings.
     details: |
-      One of six sewer-fisher clans in the Middens. Operates from distributed platforms
-      in upper Middens structures plus ropeworks in Iron Yards. Produces cables from
-      surgical sutures to dock lines. Builds ~30 unauthorized crossings between
-      structures—below threshold for violent Hanged Men response but providing toll
-      alternatives. Every rigger carries a "luck carabiner" attached to nothing.
-      Patriarch Eldin Venn; Forewoman Ressa Venn handles installations others refuse.
+      One of six sewer-fisher clans in the Middens. Operates from distributed
+      platforms in upper Middens structures plus ropeworks in the Iron Yards.
+      Produces cables from surgical sutures to dock lines. The clan builds
+      about thirty unauthorized crossings between structures—below threshold
+      for violent Hanged Men response but providing toll alternatives. Free
+      passage for those who know where to look.
+
+      Every rigger carries a "luck carabiner" attached to nothing. Superstition
+      or safety ritual—either way, they clip it to their harness before every
+      climb. Some installations require going where others refuse. The Venn go
+      anyway. Height means nothing when you grew up modified for crushing depths.
     rag_pointer: "Caste - Sewer-Fishers, The Middens Tenements"
     related: [Sewer-Fishers, Middens, Iron Yards, Hanged Men]
   # ─── end Venn ───
