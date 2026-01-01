@@ -11795,14 +11795,18 @@ entries:
   # ═══ Garrison District ═══
   Garrison District:
     category: location
-    short: "800 Warborn in permanent boredom—barracks built into northern mountainside."
+    short: Eight hundred Warborn in permanent boredom—their primary function is display.
     details: |
-      Bureau of the Sword maintains 800 Warborn: large because Toh sits next to the Republic, 
-      small because relations are tense but never violent. Primary function is display—showing 
-      the Republic the Empire takes the border seriously. The Warborn are intensely bored: 
-      cannot fight the Republic (too valuable), cannot patrol wilderness (Republic territory), 
-      cannot deploy elsewhere (assigned to Toh). They spend time training, maintaining equipment, 
-      drinking heavily, causing manageable trouble in town.
+      Bureau of the Sword maintains eight hundred Warborn: large because Toh
+      sits next to the Republic, small because relations are tense but never
+      violent. Primary function is display—showing the Republic the Empire takes
+      the border seriously. Barracks built into the northern mountainside.
+
+      The Warborn are intensely bored. Cannot fight the Republic—too valuable.
+      Cannot patrol the wilderness—Republic territory. Cannot deploy elsewhere—
+      assigned to Toh. They spend time training, maintaining equipment, drinking
+      heavily, causing manageable trouble in town. Soldiers waiting for a war
+      that never comes.
     rag_pointer: Index
     related: [Toh, Bureau of the Sword, Warborn]
     location_features:
