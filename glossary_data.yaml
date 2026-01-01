@@ -11030,19 +11030,19 @@ entries:
   # ═══ Thesad ═══
   Thesad:
     category: technology
-    short: "The 'bronze' or 'brass' of the Inner City—actually an Antediluvian alloy, not bronze at all."
+    short: Antediluvian alloy—self-repairing, seemingly eternal, impossible to manufacture.
     details: |
-      The seamless bronze-colored alloy from which all pre-Interdict arcologies were 
-      constructed. Self-repairing, seemingly eternal, impossible to manufacture with 
-      post-Interdict technology. The name derives from the Imperial root "thes-" 
-      (brightness, light, yellow) plus "-ad" (substance). The Antediluvians called the 
-      Inner City "ya-Thes.el"—Place of Eternal Brightness—and built it from eternal 
-      brightness solidified into walls.
-      
-      USAGE: Characters call it "bronze" or "brass" in ordinary speech. The technical 
-      term "thesad" should only appear when the distinction from actual bronze/brass 
-      matters—e.g., a smith noting it can't be worked, or a scholar discussing 
-      Antediluvian materials. For narrative description, "bronze" is fine.
+      The seamless bronze-colored material from which all pre-Interdict arcologies
+      were constructed. Self-repairing, seemingly eternal, impossible to
+      manufacture with post-Interdict technology. Smiths note it cannot be
+      worked—no forge softens it, no tool shapes it. It simply is.
+
+      The name derives from the Imperial root "thes-" (brightness, light, yellow)
+      plus "-ad" (substance). Bright-substance. The Antediluvians called the
+      Inner City "ya-Thes.el"—Place of Eternal Brightness—and built it from
+      eternal brightness solidified into walls. Most people call it bronze or
+      brass in ordinary speech. The distinction matters only when explaining why
+      repairs are impossible and why the walls will outlast everything.
     rag_pointer: The Inner City, Aesthetics
     related: [Inner City, Antediluvians, ya-Thes.el]
     aliases:
