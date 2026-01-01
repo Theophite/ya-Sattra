@@ -2866,12 +2866,26 @@ entries:
   # ═══ es-Korvey Towers ═══
   es-Korvey Towers:
     category: location
-    short: "Three spiral towers wrapped in sample fabrics—textile treatment monopoly made architectural."
+    short: Three spiral towers wrapped in sample fabrics—textile treatment monopoly made architectural, exteriors becoming translucent screens at sunset.
     details: |
-      Three interconnected spires spiral around each other like frozen smoke. External surfaces 
-      draped in sample fabrics that change weekly. At sunset, treated fabric exteriors become 
-      translucent screens displaying abstract patterns. Crystal wasps build valuable nests between 
-      towers. Mari es-Korvey holds weekly fabric courts in the middle tower's apex.
+      Three interconnected spires spiral around each other like frozen
+      smoke. External surfaces draped in sample fabrics that change weekly,
+      demonstrating treatments the family licenses: waterproofing,
+      fire-resistance, self-cleaning weaves. The towers themselves become
+      advertisements for capabilities no competitor can match.
+
+      At sunset, treated fabric exteriors become translucent screens
+      displaying abstract patterns—light shows that draw crowds to the
+      Antediluvian Quarter each evening. The patterns mean nothing
+      official. Observers swear they see different things. No one
+      interprets publicly.
+
+      Between the towers, crystal wasps build nests in the shelter the
+      spirals provide. The nests are valuable—harvested carefully,
+      processed in bio-vaults seven stories underground. Weekly audiences
+      in the middle tower's apex determine which petitioners receive access
+      to which treatments. The architecture spirals like frozen smoke, and
+      the textile monopoly spirals through the city's economy the same way.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, es-Korvey, Aureate Way]
     location_features:
