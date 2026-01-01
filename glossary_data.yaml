@@ -11255,20 +11255,20 @@ entries:
   # ═══ Threefold Mirror Academy ═══
   Threefold Mirror Academy:
     category: location
-    short: Institution preparing mathematicians for the Institute of the Lattice—built into the Third Cradle.
+    short: Institution built into the Third Cradle—graduates cannot reveal teaching methods.
     details: |
-      Structures extend from the Seventh Oracle's crater rim down into its irregular depths,
-      using the crater's geometry in ways outsiders cannot follow. Students move between
-      levels without apparent staircases. Sounds echo wrong. The architecture suggests
-      more interior space than the exterior should contain.
+      Structures extend from the crater rim down into irregular depths, using
+      the geometry in ways outsiders cannot follow. Students move between levels
+      without apparent staircases. Sounds echo wrong. The architecture suggests
+      more interior space than the exterior should contain. No signs, no posted
+      schedules.
 
-      Produces 93% of Institute of the Lattice mathematicians. Three-year curriculum
-      culminating in neurological shackling—graduates cannot reveal teaching methods.
-      Admission requires living through at least two ya-Tsatsa autumns, learning to
-      sleep through the whistles, having the Dream of Lessons.
-
-      White-gray quartz diorite like all ya-Tsatsa, but the spatial impossibilities
-      distinguish it. Bronze doors with geometric patterns. No signs, no posted schedules.
+      Produces ninety-three percent of Institute of the Lattice mathematicians.
+      Three-year curriculum culminating in neurological shackling—graduates
+      cannot reveal teaching methods, cannot describe the Dream of Lessons that
+      qualified them for admission, cannot explain how they learned to sleep
+      through the whistles. White-gray quartz diorite like all ya-Tsatsa, but the
+      spatial impossibilities distinguish it.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [ya-Tsatsa, Institute of the Lattice, Ezh Dhol, Three Cradles]
     location_features:
