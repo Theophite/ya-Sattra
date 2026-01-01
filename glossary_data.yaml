@@ -8159,25 +8159,25 @@ entries:
   # ═══ Valve-Saint Parish ═══
   Valve-Saint Parish:
     category: location
-    short: "Penitent parish in Sump-Gate's overflow chamber—sewer-fishers, dock workers, the forgotten."
+    short: Penitent parish in Sump-Gate's overflow chamber—three thousand congregants whose documentation ranges from questionable to nonexistent.
     details: |
-      Pumping Station #7's overflow chamber, repurposed for worship. Salvaged benches face
-      the wheel altar—a four-meter valve wheel that tradition claims once saved the building
-      from catastrophic flooding. Engineers confirm it connects to nothing.
+      Pumping Station #7's overflow chamber, repurposed for worship. Salvaged benches
+      face the wheel altar—a four-meter valve wheel that tradition claims once saved
+      the building from catastrophic flooding. Engineers confirm it connects to
+      nothing. The floor uses original drainage grates; during spring tides, seawater
+      seeps through, never more than ankle-deep but enough that congregants learn
+      appropriate footwear.
 
-      The floor uses original drainage grates. During spring tides, seawater seeps through—
-      never more than ankle-deep but enough that congregants learn appropriate footwear.
-      Above the congregation, Mutterers have colonized the machinery spaces, modifying
-      components in ways correlating with improved pump efficiency.
+      Services run Tuesday and Thursday evenings, Sunday mornings—timed to shift
+      schedules and tidal patterns. The same faces in the same positions, regulars
+      who arrive early and newcomers who slip in after the singing starts. Above the
+      congregation, Mutterers have colonized the machinery spaces, modifying
+      components in ways correlating with improved pump efficiency. Someone rings
+      disruption chimes hourly to prevent Mutterer cascading vocalizations.
 
-      Curate Aram es-Thabit documents everything. Kesh Ritt rings disruption chimes hourly
-      to prevent Mutterer cascading vocalizations. Mer Hasket maintains ledgers despite
-      requiring finger-tracing. Sela Loak runs the kitchen with scarcity-learned efficiency.
-
-      Services run Tuesday and Thursday evenings, Sunday mornings—timed to shift schedules
-      and tidal patterns. Luka arrives early each Sunday, taking the same position in the
-      third row. The parish serves ~3,000 people whose documentation ranges from questionable
-      to nonexistent.
+      The parish serves three thousand sewer-fishers, dock workers, and the
+      forgotten—people whose documentation ranges from questionable to nonexistent.
+      The curate documents everything anyway.
     rag_pointer: "The Penitent Church, The Middens Tenements"
     related: [Sump-Gate, Middens, Penitent Church, Hanged Men, Mutterers]
     location_features:
