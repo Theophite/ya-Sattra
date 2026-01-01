@@ -15882,11 +15882,15 @@ entries:
   Insight:
     category: concept
     aliases: [Fourth Virtue]
-    short: "Fourth of the Seven Virtues, derived from the Fourth Testament—speak only what can be proven."
+    short: Fourth of the Seven Virtues, derived from the Fourth Testament—speak only what can be proven.
     details: |
-      The virtue of verified knowledge. Claims require evidence; speculation is dangerous.
-      Associated with the Fourth Testament and the Bureau of the Lens. Conservative interpretation
-      emphasizes classification; progressive emphasizes transparency within verification.
+      The virtue of verified knowledge. Claims require evidence; speculation
+      is dangerous. Associated with the Fourth Testament and the Bureau of
+      the Lens.
+
+      Conservative interpretation emphasizes classification; progressive
+      emphasizes transparency within verification. The Lens redactors invoke
+      it when hiding information. So do those who demand disclosure.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Seven Virtues, Fourth Testament, Oracle Cult, Bureau of the Lens]
   # ─── end Insight ───
