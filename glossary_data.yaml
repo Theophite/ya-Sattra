@@ -9265,8 +9265,14 @@ entries:
   # ═══ Three-Token Exchange ═══
   Three-Token Exchange:
     category: location
-    short: "Moneychanging house on Horizon Row."
-    details: Posts exchange rates on lacquered boards. Handles currency conversion for Ridge commerce.
+    short: Moneychanging house on Horizon Row—Guild-like respectability in the Rotten Quarter.
+    details: |
+      Small storefront with lacquered boards displaying exchange rates. Medina-style
+      financial propriety transplanted to Horizon Row. The three tokens of the name
+      are displayed above the door: obol, Ganati half-mark, and something older no
+      one remembers. Handles currency conversion for Ridge commerce—the obol, the
+      mark, the dinar, the weights and measures of three different economies
+      meeting here.
     rag_pointer: "The Ridge: Comprehensive Summary"
     related: [Ridge, Horizon Row]
     location_features:
