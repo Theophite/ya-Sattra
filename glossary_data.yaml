@@ -13211,13 +13211,19 @@ entries:
   # ═══ Port Ahn Harbor ═══
   Port Ahn Harbor:
     category: location
-    short: "Limestone bay with dock facilities—smells of rotting kelp and tar."
+    short: Rotting kelp and tar, armed stevedores, the harbormaster's launch circling every vessel before it can anchor.
     details: |
-      Natural limestone bay providing sheltered anchorage for trading vessels.
-      Equipped with dock facilities and stevedore operations. Armed guards control
-      cargo movement. Harbormaster's launch inspects incoming vessels and collects
-      fees before permitting anchorage. The harbor processes trade between Imperial
-      territory and the Thousand Kingdoms, extracting duties at every opportunity.
+      Natural limestone bay providing sheltered anchorage. The smell hits first:
+      kelp decomposing on the rocks, tar from constant dock maintenance, salt
+      air carrying it all. Armed guards control cargo movement. The harbor-
+      master's launch inspects incoming vessels and collects fees before
+      permitting anchorage.
+
+      Trade between Imperial territory and the Thousand Kingdoms flows through
+      here, and the Empire extracts duties at every opportunity. Nothing moves
+      without payment. Nothing anchors without inspection. Nothing leaves
+      without documentation. The commerce is permitted, regulated, taxed. The
+      harbor works because everyone accepts the terms.
     rag_pointer: "Vey, Trip to Port Ahn"
     related: [Port Ahn, Bureau of Coin]
     location_features:
