@@ -17104,18 +17104,17 @@ entries:
   # ═══ House Tal-Omir ═══
   House Tal-Omir:
     category: organization
-    short: "Old merchant family producing quality weapons for Ganati merchant guards."
+    short: Old merchant family producing quality weapons for Ganati merchant guards.
     details: |
-      LOCATION: Merchant Terraces, Taho—workshops overlooking the harbor, three 
-      generations in the same building. You can see the caravan routes from the 
-      finishing room.
-      
-      PRODUCTS: Tal-Omir rifle (.40 caliber, blued steel, walnut stock), carbines 
-      (caravan guard variant), matched officer pistol pairs, presentation weapons 
-      (engraved, for diplomacy).
-      
-      CHARACTER: Compound name indicates kilit-zem-kilitam descent. Higher prices, 
-      better quality. Their guards carry their own weapons—a statement of confidence.
+      Located on the Merchant Terraces in Taho—workshops overlooking the
+      harbor, three generations in the same building. The caravan routes
+      are visible from the finishing room.
+
+      Produces rifles, carbines for caravan guards, matched officer pistol
+      pairs, presentation weapons for diplomacy. Compound name indicates
+      kilit-zem-kilitam descent. Higher prices, better quality. Their own
+      guards carry their own weapons—a statement of confidence. The
+      revolution mass-produces. This house crafts.
     related: [Ganat, Dusk Party, Taho]
   # ─── end House Tal-Omir ───
 
