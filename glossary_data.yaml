@@ -13371,14 +13371,19 @@ entries:
   # ═══ Yarangar ═══
   Yarangar:
     category: location
-    short: "Vast engineered forest home to Ranga colonists—maintains effective independence from both Empire and Ganat."
+    short: Engineered forest where the Ranga ignore both Imperial and Republican claims to sovereignty.
     details: |
-      Maintains effective independence through terrain and biological advantage. 
-      Both Ganat and Empire claim sovereignty; the Ranga ignore both claims. 
-      General-Commissioner Ravi Donmar lost an Imperial campaign here—the Ranga 
-      had defensive advantages no tactical brilliance could overcome. The forest 
-      governs itself through mechanisms outsiders do not understand. Ranga refugees 
-      from the failed suppression now comprise 5% of Ganat's population.
+      Vast terrain modified for Ranga physiology. Both Ganat and Empire claim
+      sovereignty; the Ranga acknowledge neither. Imperial campaigns have failed
+      here—the Ranga have defensive advantages no tactical brilliance can
+      overcome. Chameleonic bodies in engineered canopy. Every approach visible
+      to defenders who remain invisible.
+
+      The forest governs itself through mechanisms outsiders do not understand.
+      Ranga refugees from failed suppression campaigns now comprise a
+      significant fraction of Ganat's population. Those who remain in Yarangar
+      have made it clear: they will not be governed. They will not be
+      conquered. They will simply wait until the invaders leave or die.
     rag_pointer: "Ganat and the Yarangar War"
     related: [Ranga, Ganat, Ravi Donmar, Undying Empire]
     location_features:
