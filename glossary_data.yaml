@@ -13309,14 +13309,19 @@ entries:
   # ═══ Port Ahn Technical Quarter ═══
   Port Ahn Technical Quarter:
     category: location
-    short: "Market section for components and technical goods—ya-Sattra manuals alongside frontier salvage."
+    short: Merchants examining components with varying degrees of expertise—Jargon texts bound with technical papers.
     details: |
-      Section within the main market area specializing in technical merchandise. Mix
-      of recently manufactured items and salvaged pre-Interdict technology. Technical
-      manuals from ya-Sattra sold alongside frontier equipment. Merchants examine
-      components with varying degrees of expertise. Where Kma-Dhol engineers might
-      find Jargon texts bound with technical papers, or navigation components
-      salvaged from pre-Interdict orbital craft.
+      Section within the main market specializing in technical merchandise.
+      Recently manufactured items next to salvaged pre-Interdict technology.
+      Technical manuals from ya-Sattra sold alongside frontier equipment.
+      Navigation components salvaged from orbital craft whose purpose no one
+      fully understands.
+
+      Buyers browse with varying degrees of expertise. Some know exactly what
+      they need. Others hope to recognize value when they see it. The sellers
+      often understand their wares no better than the customers. Something
+      works, or it might work, or it looks like it should work. Prices reflect
+      uncertainty as much as function.
     rag_pointer: "Vey, Trip to Port Ahn"
     related: [Port Ahn, Port Ahn Main Market, Kma-Dhol, Jargon]
     location_features:
