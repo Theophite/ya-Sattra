@@ -14488,12 +14488,18 @@ entries:
   # ═══ es-Morath ═══
   es-Morath:
     category: organization
-    short: "Aureate family controlling neural preservation—their enzymes maintain memories across death."
+    short: Aureate family controlling neural preservation—their enzymes maintain memories across death.
     details: |
-      Estate: Sealed arcology no one has entered in centuries. Progenitor Tesseth es-Morath 
-      is the only family member; others died or transcribed themselves into unknown storage. 
-      Cadet-Interface Mellora handles external contact. Their enzymes enable memory preservation 
-      that other families use for succession.
+      Estate: A sealed arcology no one has entered in centuries. The family
+      progenitor is the only remaining member; others died or transcribed
+      themselves into unknown storage. What exists inside the arcology
+      remains unclear. A cadet-interface handles external contact—business
+      conducted through intermediaries, the progenitor never emerging.
+
+      Their enzymes enable memory preservation that other families use for
+      succession. When an Aureate dies, es-Morath preparations can maintain
+      neural patterns long enough for transfer. Without them, succession
+      becomes guesswork. Without them, family knowledge dies with the body.
     rag_pointer: The Antediluvian Quarter
     related: [Antediluvian Quarter, Aureate]
   # ─── end es-Morath ───
