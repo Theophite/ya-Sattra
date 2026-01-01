@@ -15562,21 +15562,24 @@ entries:
   # ═══ Third Suppression ═══
   Third Suppression:
     category: event
-    short: "Church uprising whose details remain classified—created legal precedents protecting Church documentation."
+    short: Church uprising whose details remain classified—created legal precedents protecting Church documentation.
     details: |
-      A historical uprising whose details remain classified. The Third Suppression
-      demonstrated that eliminating the Penitent Church created vacuums the Empire
-      could not fill. The aftermath produced legal precedents still in force.
+      A historical uprising whose details remain classified. The Third
+      Suppression demonstrated that eliminating the Penitent Church created
+      vacuums the Empire could not fill. The aftermath produced legal
+      precedents still in force.
 
-      The Church now maintains its own documentary system—baptismal certificates,
-      marriage records, burial registrations—that legally supersedes Bureau
-      requirements for religious purposes. This parallel authentication allows
-      undocumented populations to achieve limited recognition: refugees, deserters,
-      failed clone lines, the undocumented poor.
+      The Church now maintains its own documentary system—baptismal
+      certificates, marriage records, burial registrations—that legally
+      supersedes Bureau requirements for religious purposes. This parallel
+      authentication allows undocumented populations to achieve limited
+      recognition: refugees, deserters, failed clone lines, the undocumented
+      poor.
 
-      The Bureau tolerates this parallel system because the Third Suppression proved
-      more destabilizing than accommodation. The "Third" implies at least two previous
-      suppression attempts, but records of those conflicts are equally classified.
+      The Bureau tolerates this parallel system because the Third
+      Suppression proved more destabilizing than accommodation. The "Third"
+      implies at least two previous suppression attempts, but records of
+      those conflicts are equally classified. Someone tried twice and failed.
     rag_pointer: "The Penitents"
     related: [Penitent Church, Bureau of the Lens, Capitation Tax]
     event_features:
