@@ -6179,13 +6179,16 @@ entries:
   # ═══ Den Vesh Salvage Assessment ═══
   Den Vesh Salvage Assessment:
     category: location
-    short: "Blind assessor handling materials too dangerous for Guild certification."
+    short: Blind assessor handling materials too dangerous for Guild certification—claims he can still perceive Cherenkov glow.
     details: |
-      Den Vesh lost his sight to radiation cataracts but claims he can still perceive 
-      Cherenkov glow from hot materials. Assesses radiation-tagged salvage that would 
-      trigger quarantine if examined through official channels. Pays Yen Tam for protection, 
-      Union for transport, Iron Yards Boys to ensure neither organization decides he's 
-      more valuable as an example than as revenue.
+      Den Vesh lost his sight to radiation cataracts. Now he assesses radiation-tagged
+      salvage that would trigger quarantine if examined through official channels. Hot
+      materials that others won't touch. Clients pay premium for his expertise; he pays
+      multiple organizations for protection and transport.
+
+      Survival in the Iron Yards requires paying everyone who might object. Yen Tam for
+      protection. Union for transport. Others to ensure no one decides he's more valuable
+      as an example than as revenue.
     rag_pointer: The Iron Yards
     related: [Torchline Row, Iron Yards, Yen Tam Beneficial Society]
     location_features:
