@@ -14915,13 +14915,17 @@ entries:
   Institute for Technical Determinations:
     category: organization
     parent: Bureau of the Rod
-    short: "Rod subdivision adjudicating patent boundaries—decisions are political, theological, and occasionally violent."
+    short: Rod subdivision adjudicating patent boundaries—decisions are political, theological, and occasionally violent.
     details: |
-      Adjudicates the bounds of existing patents. When two families dispute whether
-      a new device falls under their competing claims, Technical Determinations rules.
-      The decisions are supposedly technical; in practice, they're political,
-      theological, and occasionally violent. Arbiters have survived assassination
-      attempts and work from undisclosed locations.
+      Adjudicates the bounds of existing patents. When two families dispute
+      whether a new device falls under their competing claims, Technical
+      Determinations rules. The decisions are supposedly technical; in
+      practice, they are political, theological, and occasionally violent.
+
+      Arbiters have survived assassination attempts and work from undisclosed
+      locations. They change residences without warning. Their families live
+      under protection. The work requires a certain disposition—the ability
+      to make enemies of half the Aureate each time one rules.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Rod, Patents, Aureate]
   # ─── end Institute for Technical Determinations ───
