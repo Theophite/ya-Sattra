@@ -6696,7 +6696,7 @@ entries:
   # ═══ Lower City ═══
   Lower City:
     category: location
-    short: Harbor district where ya-Tsatsa conducts its commerce with the outside world.
+    short: Harbor district where ya-Tsatsa conducts commerce with the outside world—for working, not for living.
     details: |
       Ships dock at cliff-base facilities, unloading goods from the Thousand Kingdoms
       and coastal trade. White-gray quartz diorite construction, monochrome like all
@@ -6704,13 +6704,9 @@ entries:
       enough for passage—ascending forty minutes to the Upper City.
 
       The market operates in the open; administrative buildings announce themselves.
-      An outsider can navigate here, can conduct business, can process Imperial paperwork.
-      But lodging is almost nonexistent—visitors must climb to the Akama District to
-      sleep. Lower City is for working; the Akama District is for living.
-
-      Key locations: the quays on massive stone pilings (oldest showing tool marks of
-      unknown technique), fish market, Travelers' Rest, Harbor Customs House, Salvage
-      Row Market, bonded warehouses.
+      An outsider can navigate here, conduct business, process Imperial paperwork.
+      But lodging is almost nonexistent—visitors must climb to the Akama District
+      to sleep. Lower City is for working. Living happens elsewhere.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [ya-Tsatsa, Akama District, Upper City]
     location_features:
