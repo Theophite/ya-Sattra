@@ -15608,14 +15608,17 @@ entries:
   # ═══ Oracle Cult ═══
   Oracle Cult:
     category: concept
-    short: "The Empire's civic religion—information-theoretic salvation through eternal recording."
+    short: The Empire's civic religion—information-theoretic salvation through eternal recording.
     details: |
-      No clergy, no temples, no central authority. Observance happens in households, Bureau 
-      ceremonies, and local organizations. Core promise: your life was precomputed by the 
-      Oracles and permanently encoded on event horizons. You are recorded, therefore eternal. 
-      Universal practices: Quiet Days (twice yearly), household shrines, casting of lots. 
-      The Empire admits these are superstitions that "cultivate the correct attitude toward 
-      archival," yet everyone participates.
+      No clergy, no temples, no central authority. Observance happens in
+      households, Bureau ceremonies, and local organizations. Core promise:
+      every life was precomputed by the Oracles and permanently encoded on
+      event horizons. Recorded, therefore eternal.
+
+      Universal practices: Quiet Days twice yearly, household shrines,
+      casting of lots. The Empire admits these are superstitions that
+      "cultivate the correct attitude toward archival," yet everyone
+      participates. The comfort is real, even if the theology is not.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Oracles, Testaments, Quiet Days, Seven Virtues, Auditors, Penitent Church, manna]
   # ─── end Oracle Cult ───
