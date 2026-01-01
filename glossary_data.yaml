@@ -6334,12 +6334,15 @@ entries:
   # ═══ The Burned Hand ═══
   The Burned Hand:
     category: location
-    short: "Primary tavern of the Iron Yards—three connected buildings, multiple entrances."
+    short: Primary tavern of the Iron Yards—three connected buildings, multiple entrances, useful for those who prefer not to be seen.
     details: |
-      Sprawling establishment useful for those who prefer not to be seen entering or 
-      leaving together. Named for the forge-burned handprint pressed into bronze above 
-      the main door—allegedly left by a worker who couldn't afford treatment. Run by 
-      Kella Varn, a near-baseline woman who lost her left arm to a cutting accident.
+      Sprawling establishment where those who prefer not to be seen entering or leaving
+      together can manage discrete arrivals and departures. Named for the forge-burned
+      handprint pressed into bronze above the main door—allegedly left by a worker who
+      couldn't afford treatment.
+
+      Run by someone who lost an arm to a cutting accident. The Yards takes pieces of
+      everyone. Those who survive find ways to keep working.
     rag_pointer: The Iron Yards
     related: [Torchline Row, Iron Yards]
     location_features:
