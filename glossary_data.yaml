@@ -3277,12 +3277,27 @@ entries:
   # ═══ Aureate Enclave ═══
   Aureate Enclave:
     category: location
-    short: "Patent-holding families' compounds—ranging from formal vernacular to deliberate modesty."
+    short: Patent-holding families' compounds on a low hill—ostentation beside deliberate modesty, the contrast itself theological.
     details: |
-      ~2,000 residents. es-Kiral, es-Etaie, es-Vorath compounds. Where ya-Don's 
-      Aureate families maintain residences showing different relationships to display: 
-      es-Kiral ostentation vs. es-Etaie deliberate modesty. The contrast is intentional 
-      and theological.
+      About two thousand residents on a low hill at the district's southern
+      edge. Multiple compounds behind walls, each expressing a different
+      relationship to wealth and display. Some families build ostentatiously:
+      formal vernacular pushed to maximum elaboration, announcing patent
+      wealth through architecture. Others choose deliberate modesty:
+      understated construction that whispers rather than shouts, implying
+      resources so secure they need no proof.
+
+      The contrast is intentional. Different theological interpretations of
+      what patent-holding means produce different architectural expressions.
+      Walking through the Enclave, observers read theological arguments in
+      stone and wood—debates about display and humility conducted through
+      building heights and garden arrangements.
+
+      Gardens connect the compounds: neutral ground where families meet
+      without entering each other's territory. The Aureate Club provides
+      formal gathering space. Status competition happens constantly but
+      quietly, expressed through architecture and hospitality rather than
+      open conflict.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don, Aureate, es-Kiral, es-Etaie, es-Vorath]
     location_features:
