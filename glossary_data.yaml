@@ -11704,13 +11704,19 @@ entries:
   # ═══ Palace Hotel ═══
   Palace Hotel:
     category: location
-    short: "The Grand Terrace converted—120 rooms, Antediluvian environmental controls, Aureate clientele."
+    short: Most prestigious accommodation in Toh—some wings too strange to access.
     details: |
-      Most prestigious accommodation in Toh. Four-story Antediluvian structure built into 
-      mountainside, 300 feet long, 80 feet deep. Rooms have integrated furniture grown from 
-      walls—sleeping platforms, storage, seating. Environmental controls (temperature, lighting, 
-      air quality) function through unknown mechanisms. Imperial amenities added over centuries. 
-      Some wings too deteriorated, dangerous, or strange to access. Fifty permanent staff.
+      Four-story Antediluvian structure built into mountainside, three hundred
+      feet long, eighty feet deep. One hundred twenty rooms with integrated
+      furniture grown from walls—sleeping platforms, storage, seating. Lighting
+      from no visible source. Environmental controls function through unknown
+      mechanisms.
+
+      Imperial amenities added over centuries, but the rooms retain that
+      Antediluvian quality: proportions slightly wrong for human comfort, corners
+      not quite meeting at right angles. Some wings closed—too deteriorated, too
+      dangerous, too strange. Nobody talks about what is in the closed wings.
+      Fifty permanent staff. Summer Aureates book months in advance.
     rag_pointer: Index
     related: [Toh, Hotel District, Antediluvian]
     location_features:
