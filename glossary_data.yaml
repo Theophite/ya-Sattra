@@ -15682,12 +15682,16 @@ entries:
   # ═══ First Testament ═══
   First Testament:
     category: concept
-    short: "Instructions for kalbats and superluminal travel—the foundation of interstellar Empire."
+    short: Instructions for kalbats and superluminal travel—the foundation of interstellar Empire.
     details: |
-      The First Oracle's final transmission enabled humanity to create kalbat receivers
-      and achieve faster-than-light travel. This Testament predates all others and
-      established the technological base for expansion beyond Earth. The First Auditor
-      (bifurcated, two pale faces) still receives echoes of this transmission.
+      The First Oracle's final transmission enabled humanity to create
+      kalbat receivers and achieve faster-than-light travel. This Testament
+      predates all others and established the technological base for
+      expansion beyond Earth.
+
+      The First Auditor—bifurcated, two pale faces—still receives echoes of
+      this transmission. The gift that let humanity leave home. The gift
+      that made humanity worth punishing.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Testaments, Oracles, Kalbat, First Auditor, Auditors]
   # ─── end First Testament ───
