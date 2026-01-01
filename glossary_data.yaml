@@ -16378,14 +16378,18 @@ entries:
   # ═══ Three Mandates ═══
   Three Mandates:
     category: concept
-    short: "Foreigner prohibitions governing humanity—Third Mandate violated by building the singularity."
+    short: Foreigner prohibitions governing humanity—Third Mandate violated by building the singularity.
     details: |
-      First Mandate: Prohibits violation of sworn ground and sacred objects (regional 
-      interpretations vary). Second Mandate: Prohibits oath-breaking and false witness. 
-      Third Mandate: Prohibits interference with fundamental forces (the singularity 
-      violated this). Technical Castes recognized Eighth Testament would violate Third 
-      Mandate—cognitive impossibility to implement. Emperor built it anyway. Foreigners 
-      responded with Interdict.
+      First Mandate: Prohibits violation of sworn ground and sacred objects.
+      Regional interpretations vary. Second Mandate: Prohibits oath-breaking
+      and false witness. Third Mandate: Prohibits interference with
+      fundamental forces—the singularity violated this.
+
+      The Technical Castes recognized that the Eighth Testament would
+      violate the Third Mandate. They deemed it a cognitive impossibility
+      to implement. The Emperor built it anyway. The Foreigners responded
+      with the Interdict. Three simple laws. One catastrophic violation.
+      Every generation since pays for a transgression they did not commit.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Foreigners, Interdict, Eighth Testament]
   # ─── end Three Mandates ───
