@@ -7627,12 +7627,21 @@ entries:
   # ═══ Processional Tower ═══
   Processional Tower:
     category: location
-    short: "Surviving pre-Interdict arcology housing the Processional Guild and suspended residential platforms."
+    short: Pre-Interdict arcology—seven centuries of construction suspended on cables in a central atrium.
     details: |
-      Triangular footprint ~60m per side, truncated top. Central atrium colonized by 
-      seven centuries of construction—suspended platforms on cables, bridges at irregular 
-      heights, ~400 residents in vertical neighborhood. Main entrance threshold worn 
-      eight centimeters deep. Houses Processional Guild plus three smaller guilds.
+      Triangular footprint sixty meters per side, top truncated by damage no one
+      remembers. The main entrance threshold is worn eight centimeters deep—
+      uncounted feet over centuries. Inside, the central atrium rises the full
+      height of the structure, colonized by seven centuries of construction:
+      suspended platforms on cables, bridges at irregular heights, stairways
+      connecting levels that were never part of the original design.
+
+      Four hundred residents in this vertical neighborhood, living on platforms
+      that sway slightly in the updrafts. The Processional Guild keeps its
+      headquarters here, along with three smaller guilds. Self-repair systems
+      still function in the walls, healing minor damage overnight. Looking up
+      from the atrium floor means seeing layer upon layer of human occupation,
+      all the way to the truncated sky.
     rag_pointer: "The Medina Quarter: A Comprehensive Guide"
     related: [Medina Quarter, Processional Guild]
     location_features:
