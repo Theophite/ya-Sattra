@@ -9697,14 +9697,19 @@ entries:
   # ═══ Lineal Vaults ═══
   Lineal Vaults:
     category: location
-    short: "Cryogenic archive adjacent to Hall of Mothers containing genetic templates for all certified clonelines."
+    short: Cryogenic archive containing genetic templates—whoever controls the Vaults controls every cloneline's viability.
     details: |
-      The original sequences for every certified cloneline are preserved here against degradation. 
-      A fortress of absolute sterility guarded by Sword sentinels. Periodic "genetic refresh" is 
-      required for long-running clonelines—the Vaults provide reference templates to correct drift 
-      that accumulates across generations of cloning. This creates dependency: even clonelines 
-      without supplement requirements need periodic correction from Vault-preserved originals. 
-      The Creche controls the Vaults. The Creche therefore controls every cloneline's long-term viability.
+      The original sequences for every certified cloneline preserved here against
+      degradation. A fortress of absolute sterility guarded by Sword sentinels.
+      Cold so deep visitors can feel it through the walls. Air so filtered it
+      smells of nothing at all.
+
+      Periodic genetic refresh is required for long-running clonelines—the Vaults
+      provide reference templates to correct drift accumulating across generations
+      of cloning. This creates dependency: even clonelines without supplement
+      requirements need periodic correction from Vault-preserved originals. The
+      Creche controls the Vaults. The Creche therefore controls every cloneline's
+      long-term viability.
     rag_pointer: Bureau of the Creche, Castes of Mankind
     related: [Hall of Mothers, Bureau of the Creche, Second Whorl, clonelines]
     location_features:
