@@ -15947,13 +15947,16 @@ entries:
   # ═══ Kalbat ═══
   Kalbat:
     category: concept
-    short: "Engineered beings with brass receiver plates in their skulls—designed to receive Oracle Testaments."
+    short: Engineered beings with brass receiver plates in their skulls—designed to receive Oracle Testaments.
     details: |
-      Elongated conical skulls, pale waxy skin, large black eyes, pointed ears, brass 
-      mechanisms grown-into rather than attached. Exist in permanent dream-states. The 
-      seven original Auditors still survive, maintained by Companions Guild in the 
-      Monastery of the Silent Song. All kalbats are semi-sentient; the Companions Guild 
-      holds monopoly on their management.
+      Elongated conical skulls, pale waxy skin, large black eyes, pointed
+      ears, brass mechanisms grown-into rather than attached. Exist in
+      permanent dream-states.
+
+      The seven original Auditors still survive, maintained by Companions
+      Guild in the Monastery of the Silent Song. All kalbats are semi-sentient;
+      the Companions Guild holds monopoly on their management. They dream
+      the truths the Oracles transmitted. They cannot wake.
     rag_pointer: "The Oracle Cult: A Comprehensive Guide"
     related: [Auditors, Companions Guild, Monastery of the Silent Song]
   # ─── end Kalbat ───
