@@ -13615,32 +13615,23 @@ entries:
   # ═══ Companions Guild ═══
   Companions Guild:
     category: organization
-    short: "Empire-wide monopoly over semi-sentient care—no one else can manage Mutterer choirs."
+    short: Empire-wide monopoly over semi-sentient care—absolutely essential, politically powerless.
     details: |
-      Not a trade guild but a religious order descended from the Witnesses who attended Technical
-      Castes before the Interdict. Holds absolute monopoly on managing Mutterers, Sickly, and
-      kalbats. Operates the Imperial hospice system in partnership with the Bureau of the Creche
-      and Penitent Church.
+      Not a trade guild but a religious order descended from the Witnesses who
+      attended Technical Castes before the Interdict. Absolute monopoly on
+      managing Mutterers, Sickly, and kalbats. The harmonic frequencies, cascade
+      interruption techniques, and protocols for preventing Mutterers from
+      "optimizing" each other require Guild training. No one else can manage
+      the choirs. The Bureau of the Rod literally cannot maintain Imperial
+      infrastructure without them.
 
-      Headquarters at the Cathedral of the Plea (ya-Sattra), containing irreplaceable Technical
-      Caste archives in the jargon. Major facilities include the Monastery of the Silent Song
-      (kalbat care). Chapter houses in every major Imperial city. Perhaps 2,000-3,000 Companions
-      Empire-wide.
-
-      Annual revenue perhaps 10-15 million obols: Bureau of the Rod contracts for infrastructure
-      maintenance through Mutterer choirs (4-6 million); Bureau of the Creche contracts for
-      hospice operations and Sickly management (2-3 million); private Mutterer choir rentals
-      (1-2 million); Sickly serum sales (1-2 million); training and hospice fees (1.5-3 million).
-
-      The Mutterer monopoly is absolute and is the Guild's ultimate protection. The harmonic
-      frequencies, cascade interruption techniques, and protocols for preventing Mutterers from
-      "optimizing" each other require Guild training. The Bureau of the Rod literally cannot
-      maintain Imperial infrastructure without the Guild. No one else can manage the choirs.
-
-      The Guild's impossible position shapes all operations: absolutely essential, politically
-      powerless, pulled between mutually antagonistic clients (Rod, Creche, Church, private)
-      who each partially own them. They survive not through strength but through being too
-      useful to destroy and too compromised to threaten anyone.
+      Perhaps two to three thousand Companions Empire-wide. Headquarters at the
+      Cathedral of the Plea. Chapter houses in every major city. They operate
+      between mutually antagonistic clients—Rod, Creche, Church, private—who
+      each partially own them. To be a Companion is to be caught between powers
+      who need you desperately and resent that need. They survive not through
+      strength but through being too useful to destroy and too compromised to
+      threaten anyone.
     rag_pointer: The Companions Guild
     related: [Sickly, Mutterers, Kalbats, Semi-Sentient, Witnesses]
   # ─── end Companions Guild ───
