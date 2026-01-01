@@ -7291,12 +7291,18 @@ entries:
   # ═══ Factors' Row ═══
   Factors' Row:
     category: location
-    short: "Concentration of trading offices along the Rift's Medina waterfront."
+    short: Trading offices along the Rift's Medina waterfront—salt-stained stone and hazed windows.
     details: |
-      Warehouses below, offices above, with views over the docks. Trading missions from 
-      Ganati merchant kilits, Aureate commercial representatives, and Sztoavel Imports 
-      (Asovoe) maintain presence here. Salt-stained stone, timber reinforced against 
-      humidity, windows perpetually hazed by maritime conditions.
+      Warehouses below, offices above, with views over the docks. Salt-stained stone,
+      timber reinforced against humidity, windows perpetually hazed by maritime
+      conditions. The smell of tar and brine drifts up from the piers. Trading
+      missions from Ganati merchant kilits, Aureate commercial representatives, and
+      Sztoavel Imports maintain presence here—foreign flags visible from the water,
+      clerks moving between offices with contracts and manifests.
+
+      The factors who work here negotiate between worlds: Imperial paperwork on one
+      side, foreign commercial law on the other, and always the practical question
+      of what can actually be loaded onto ships and when.
     rag_pointer: "The Rift: Ya-Sattra's Harbor District"
     related: [Rift, Medina Quarter, Ganati Trading Mission, Sztoavel Imports, Ganat, Asovoe]
     location_features:
