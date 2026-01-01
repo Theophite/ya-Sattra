@@ -10796,15 +10796,17 @@ entries:
   # ═══ Ghol-Taram ═══
   Ghol-Taram:
     category: location
-    short: "Som es-Vol's desperate territory—broken Highborn's abandoned zone."
+    short: Desperate territory—no one wants to risk hearing the gag fail.
     details: |
-      Northeast ziggurat district in Ogon nominally controlled by Som es-Vol,
-      though his control is theoretical at best. The name means something like
-      "desperate place" or "zone of last resort" in Akama—fitting for territory
-      claimed by a broken Highborn who maintains only ~30 people in semi-permanent
-      association. His presence here keeps other powers from claiming the territory
-      openly, but no one wants to be close enough to risk hearing him speak if
-      the gag fails.
+      Northeast ziggurat district in Ogon. The name means something like
+      "desperate place" or "zone of last resort" in Akama. Nominally controlled
+      by a broken Highborn who maintains only thirty people in semi-permanent
+      association—his control is theoretical at best.
+
+      The Highborn's presence keeps other powers from claiming the territory
+      openly. But no one wants to be close enough to risk hearing him speak if
+      the gag fails. The deaf warband from Central Ogon maintains watch from a
+      distance. They alone are immune.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Ogon, Som es-Vol, Tama Family]
     location_features:
