@@ -9236,12 +9236,17 @@ entries:
   # ═══ Val Waterworks ═══
   Val Waterworks:
     category: location
-    short: "Water distribution facility controlling the Ridge's essential supply."
+    short: Water distribution facility—whoever controls the standpipes controls the Ridge.
     details: |
-      Solid building on Horizon Row. Val family monopoly derives from exclusive access 
-      to deep standpipes connecting to ancient underground reservoirs—the only clean 
-      water source in an area where groundwater is contaminated. Includes public 
-      bathhouses. Rina Val manages business; Keram Val maintains systems.
+      Solid construction on Horizon Row's cobblestones—conventional building atop
+      the rotated arcology. The standpipes descend through what were walls, now
+      floors, reaching reservoirs that predate the fall. The only clean water
+      source in an area where groundwater is contaminated.
+
+      Val family monopoly: they control what everyone needs. Public bathhouses
+      attached—steam, tile, the one place on the Ridge where water is abundant.
+      The building says what the family cannot: power comes from essential services,
+      not from violence.
     rag_pointer: "The Ridge: Comprehensive Summary"
     related: [Ridge, Horizon Row, Val Family]
     location_features:
