@@ -13699,28 +13699,26 @@ entries:
   # ═══ Ezh Tan ═══
   Ezh Tan:
     category: organization
-    short: "Ya-Tsatsa banking family operating four banks—looks normal, makes decisions that defy commercial logic."
+    short: Ya-Tsatsa banking family—looks normal, makes decisions that defy commercial logic.
     details: |
-      Alone among Ezh families, spend significant time outside ya-Tsatsa. Engineered for
-      trust—subtle modifications that trigger confidence. Can negotiate with the Presence
-      on behalf of Tsatsans. The soft yoke: most freedom, most responsibility.
+      Alone among Ezh families, spend significant time outside ya-Tsatsa.
+      Engineered for trust—subtle modifications that trigger confidence. Can
+      negotiate with the Presence on behalf of Tsatsans. The soft yoke: most
+      freedom, most responsibility. Four banks offering deposits, loans,
+      currency exchange, and Northern Trade underwriting.
 
-      Operate four banks offering deposits, loans, currency exchange, and Northern Trade
-      underwriting. Annual revenue 300,000-500,000 obols from conventional operations.
-      Family head Yen To has learned to distinguish genuine necessity (the Presence
-      identifying someone who truly cannot thrive within ya-Tsatsa's constraints) from
-      mere optimization (the Presence preferring marginal convenience).
+      The apology-loans: bankers review applications, recognize they should
+      refuse, and find themselves approving anyway. Eyes go wet; they say
+      things they've never thought: "Ya-Tsatsa isn't for everyone. There are
+      emigrant communities all down the coast." These loans almost never get
+      repaid. The bank absorbs losses that somehow don't cascade into
+      consequences.
 
-      The apology-loans: bankers review applications, recognize they should refuse, and
-      find themselves approving anyway. Eyes go wet; they say things they've never thought:
-      "Ya-Tsatsa isn't for everyone. There are emigrant communities all down the coast."
-      These loans almost never get repaid. The bank absorbs losses that somehow don't
-      cascade into consequences.
-
-      Many cannot operate in ya-Tsatsa because Many optimizes. Many would identify the
-      apology-loan pattern and close it. The efficiency would break something the Presence
-      requires. So the Ezh Tan refuse Many's repeated requests to establish full banking
-      operations, maintaining correspondent relationship only.
+      Many cannot operate in ya-Tsatsa because Many optimizes. Many would
+      identify the apology-loan pattern and close it. The efficiency would
+      break something the Presence requires. So the Ezh Tan refuse Many's
+      repeated requests for full banking operations, maintaining correspondent
+      relationship only.
     rag_pointer: "Ya-Tsatsa: Comprehensive Reference"
     related: [ya-Tsatsa, Ezh Ot, Ezh Dhol, Presence, Many]
   # ─── end Ezh Tan ───
