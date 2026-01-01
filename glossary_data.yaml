@@ -11065,12 +11065,20 @@ entries:
   # ═══ Thornback Ridge ═══
   Thornback Ridge:
     category: location
-    short: "Residential overflow at the city's edge—where the shade runs out."
+    short: Residential overflow—shade is found rather than designed.
     details: |
-      ~130,000 residents. City-wide views. Parish of Mended-Spirits. Where workers go 
-      when central districts are full or unaffordable. Less courtyard organization, 
-      more improvised shade structures, buildings that solve heat problems individually 
-      rather than collectively.
+      One hundred thirty thousand residents at the city's edge. Views across all
+      ya-Don—the Furnaces, the central districts, the agricultural lands beyond.
+      Where workers go when central districts are full or unaffordable.
+
+      Central districts have courtyard organization refined over millennia—shared
+      shade wells, buildings arranged to create collective cooling. Thornback
+      Ridge has none of that. Buildings solve heat problems individually: canvas
+      awnings, salvage overhangs, whatever creates shadow. Alleys too wide for
+      proper shade canyons. Streets that bake in summer because nobody
+      coordinated the construction. The Parish of Mended-Spirits serves workers
+      displaced by injury, families fallen from better circumstances. Shade is
+      found rather than designed.
     rag_pointer: "Ya-Don: Comprehensive Reference"
     related: [ya-Don]
     location_features:
