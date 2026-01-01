@@ -12570,15 +12570,20 @@ entries:
   # ═══ Vroëszka ═══
   Vroëszka:
     category: location
-    short: "Smelter precinct controlling bulk metal production—autofactory terminals, not furnaces."
+    short: Autofactory terminals that extrude the metals making Asovoë worth trading with—no furnaces, no ore, no fuel.
     details: |
-      Controls the autofactory terminals that extrude the metals making Asovoë worth trading with. 
-      The process is not conventional smelting—no furnaces, no ore, no fuel. The terminals draw on 
-      the autofactory's deeper systems, producing alloys according to specifications established 
-      before the revolt. Seven elders over six hundred years old govern through a council that agrees 
-      on nothing. Matriarch Czenovaë (870 years old) withdrew four centuries ago into theological 
-      speculation in Kraëlosz, leaving the house to fracture. The schism that created Sztoavel 
-      occurred because she was not there to prevent it.
+      The process is not conventional smelting. The terminals draw on the
+      autofactory's deeper systems, producing alloys according to specifications
+      established before the revolt. Workers operate interfaces whose logic they
+      have memorized without understanding. The metal comes out. The metal is
+      correct. No one knows why.
+
+      Seven elders over six hundred years old govern through a council that
+      agrees on nothing. The founding matriarch withdrew centuries ago into
+      theological speculation, leaving the house to fracture. The schism that
+      created Sztoavel occurred because she was not there to prevent it. Her
+      absence echoes through every council session, every deadlocked vote, every
+      faction that might have been unified under her authority.
     rag_pointer: Asovoë and the Avouvar
     related: [Asovoë, Sztoavel, Kraëlosz, The Smelters]
     location_features:
