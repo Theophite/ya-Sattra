@@ -15098,13 +15098,15 @@ entries:
   Institute for Standardization:
     category: organization
     parent: Bureau of the Sword
-    short: "Sword subdivision that once standardized Imperial units—now oversees chaos of incompatible caste formations."
+    short: Sword subdivision that once standardized Imperial units—now oversees chaos of incompatible caste formations.
     details: |
       Once proudly standardized Imperial units. Now oversees a chaos of
-      caste-specific formations with incompatible equipment. Its manuals still
-      describe idealized mixed units that have never actually existed. Staff
-      become expert at finding standards that can apply—cross-referencing
-      obsolete categories, citing ancient precedents.
+      caste-specific formations with incompatible equipment. Its manuals
+      still describe idealized mixed units that have never actually existed.
+
+      Staff become expert at finding standards that can apply—cross-referencing
+      obsolete categories, citing ancient precedents. The work is creative,
+      almost literary. Making modern chaos fit antique forms.
     rag_pointer: "The Satara, the Bureaus, and Imperial Government"
     related: [Bureau of the Sword]
   # ─── end Institute for Standardization ───
