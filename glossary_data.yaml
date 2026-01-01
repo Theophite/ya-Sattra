@@ -4200,12 +4200,22 @@ entries:
   # ═══ Bureaucratic Warrens ═══
   Bureaucratic Warrens:
     category: location
-    short: "Ministry tunnels in the Far Wall's lower levels—notoriously confusing, aggressively lit."
+    short: Ministry tunnels carved into canyon rock—notoriously confusing, aggressively lit, nothing hidden in darkness.
     details: |
-      Endless tunnels connecting offices, meeting rooms, archive storage. A petitioner might 
-      spend hours navigating. Electric bulbs every few feet—Dawn aesthetic of transparency 
-      through illumination, nothing hidden in darkness. Forms processed, reports written, 
-      administrators coordinating between government and kilits.
+      Endless tunnels connecting offices, meeting rooms, archive storage.
+      The layout defies logic—passages that seem to double back, chambers
+      that don't appear on official maps, shortcuts known only to veterans.
+      A petitioner might spend hours navigating. The confusion may be
+      deliberate.
+
+      Electric bulbs blaze every few feet. The illumination aesthetic
+      demands transparency—nothing hidden in darkness, every corner
+      visible, every transaction witnessed by light. The brightness serves
+      ideology as much as function.
+
+      Forms processed here. Reports written. Administrators coordinating
+      between government and the commercial powers that fund it. The work
+      is endless, the tunnels are endless, the light never dims.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Far Wall, Ganat proper]
     location_features:
