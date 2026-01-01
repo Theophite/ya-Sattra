@@ -10599,12 +10599,14 @@ entries:
   # ═══ Thavek ═══
   Thavek:
     category: location
-    short: "Eastern district of Ogon—Imek Stone-Foot's territory."
+    short: Eastern district of Ogon—the weapons come from here.
     details: |
-      One of Ogon's major districts. Controlled by Imek Stone-Foot and her
-      warband of ~300 survivors. Home to her technical operations including
-      the Avouvar coil-winder that produces Imek-pattern light rail carbines.
-      Also location of Harak Merengi's rifle workshop.
+      One of Ogon's major districts, controlled by a warband of roughly three
+      hundred fighters. The district's value lies in its technical operations:
+      an Avouvar coil-winder that produces light rail carbines, a rifle workshop
+      that maintains and modifies weapons for trade. Akama and Kma-Dhol work here
+      side by side. The district that makes the weapons holds particular
+      importance in Ogon's power arrangements.
     rag_pointer: "The Thousand Kingdoms: Overview"
     related: [Ogon, Imek Stone-Foot, Harak Merengi]
     location_features:
