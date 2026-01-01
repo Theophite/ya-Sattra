@@ -4461,8 +4461,17 @@ entries:
   # ═══ First Whorl ═══
   First Whorl:
     category: location
-    short: Innermost ring of the Inner City, where temporal distortion is strongest.
-    details: Time moves differently. Aureate occultants enter to create patent authentication. The Black Door leads to Imperial Apartments.
+    short: Innermost ring of the Inner City—where temporal distortion is strongest and the Black Door waits.
+    details: |
+      Same bronze tessellation as the outer whorls, but proportions subtly wrong.
+      Shadows falling at incorrect angles. Light arriving before or after expected.
+      Geometry that doesn't quite work—the floor appearing to slope toward the center
+      though instruments show level.
+
+      Aureate occultants enter to create patent authentication, their work leveraging
+      temporal effects that would drive unshielded minds to breakdown. The Black Door
+      waits at the deepest point, actually black, leading to the Imperial Apartments
+      where the Emperor presumably resides. Few enter. Fewer return the same.
     rag_pointer: The First Whorl, The Aureate System
     related: [Inner City, Black Door, Aureate]
     location_features:
