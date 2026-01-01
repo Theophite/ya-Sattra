@@ -4233,14 +4233,25 @@ entries:
   # ═══ Hereditary Debtors' Quarter ═══
   Hereditary Debtors' Quarter:
     category: location
-    short: "Former slave quarters transformed into valuable real estate—proximity to power made them rich."
+    short: Former slave quarters transformed into valuable real estate—proximity to power made the descendants of debtors rich.
     details: |
-      Upper Far Wall, adjacent to Senate and ministry warrens. The Hereditary Debtors are 
-      descendants of slaves whose debts became hereditary obligations under the Sultanate. 
-      The Revolution abolished hereditary debt; former slave quarters became kilit property. 
-      Now expanded, improved, decorated—visible transformation from bondage to wealth. They 
-      lease space to bureaucrats, rent offices to kilits needing government access, operate 
-      restaurants and lodging.
+      Upper Far Wall, adjacent to Senate and ministry warrens. The
+      residents descend from slaves whose debts became hereditary
+      obligations under the old regime. Revolution abolished hereditary
+      debt. The former slave quarters became the property of the freed,
+      and proximity to power made that property valuable.
+
+      Now expanded, improved, decorated. The visible transformation from
+      bondage to wealth reads in every carved facade, every improved
+      chamber, every balcony overlooking the canyon. They lease space to
+      bureaucrats who need lodging near government. They rent offices to
+      commercial powers needing access. They operate restaurants and
+      lodging serving the constant traffic of petitioners and
+      representatives.
+
+      The architecture commemorates change. What was carved for slaves
+      houses the descended wealthy. The location remained constant; only
+      who lives there transformed.
     rag_pointer: Ganat and the Yarangar War, The Republic of Ganat
     related: [Far Wall, Ganat proper, Hereditary Debtors]
     location_features:
