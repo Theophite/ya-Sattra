@@ -15533,24 +15533,25 @@ entries:
   # ═══ Hanged Men Founding ═══
   Hanged Men Founding:
     category: event
-    short: "Veterans refused demobilization after Malpais War, then defended Middens against Creche pogrom."
+    short: Veterans refused demobilization after Malpais War, then defended Middens against Creche pogrom.
     details: |
-      When the Malpais War ended in 772 RRH, Imperial command issued standard
-      demobilization orders. Garren Fen and his veterans—mixed-caste units who'd
-      proven their worth against the Child of the Malpais—refused to surrender
-      weapons they'd used to save the Empire.
+      When the Malpais War ended, Imperial command issued standard
+      demobilization orders. Mixed-caste veterans who had proven their
+      worth against the Child of the Malpais refused to surrender weapons
+      they had used to save the Empire.
 
-      The "Brief Revolt" lasted less than a week and involved no combat. Veterans
-      fortified industrial district positions and waited. The exhausted Empire
-      negotiated rather than fight its own heroes. The City-of-Glass Charter emerged
-      from these negotiations.
+      The "Brief Revolt" lasted less than a week and involved no combat.
+      Veterans fortified industrial district positions and waited. The
+      exhausted Empire negotiated rather than fight its own heroes. The
+      City-of-Glass Charter emerged from these negotiations.
 
-      Days later, the Bureau of the Creche launched a pogrom—"registration enforcement"
-      against unregistered variants who'd armed themselves during the war. Creche
-      Warborn began hanging residents from bridge cables. The veterans responded
-      with the Eighteen-Hour Resistance, driving out Creche forces using every
-      tactic learned in the war. They seized the Lockworks, took the name "Hanged Men"
-      in memory of those killed, and established themselves as the district's authority.
+      Days later, the Bureau of the Creche launched a pogrom—"registration
+      enforcement" against unregistered variants who had armed themselves
+      during the war. Creche Warborn began hanging residents from bridge
+      cables. The veterans responded with the Eighteen-Hour Resistance,
+      driving out Creche forces using every tactic learned in the war.
+      They seized the Lockworks, took the name "Hanged Men" in memory of
+      those killed, and established themselves as the district's authority.
     rag_pointer: "Ya-Sattra District: Middens"
     related: [Hanged Men, Malpais War, City-of-Glass Charter, Bureau of the Creche, Middens]
     event_features:
