@@ -1,0 +1,1850 @@
+#!/usr/bin/env python3
+"""
+EVERY TURN: Run this script on the user's message before writing your response.
+
+    python3 input_check.py "<user message>"
+
+This is not optional. The script tracks session state that you cannot reliably 
+reconstruct from memory. If you write substantive content without running this 
+first, you are likely to introduce continuity errors or miss constraints.
+
+Usage:
+    input_check.py "<text>"                      # Normal scan (DO THIS FIRST)
+    input_check.py --flush "<text>"              # Compaction recovery, then scan
+    input_check.py --show                        # Display current cache contents
+    input_check.py --scene "location name"       # Set current scene location
+    input_check.py --where                       # Show current scene with exits
+    input_check.py --go <location or direction>  # Move to adjacent location
+    input_check.py --caste <caste name>          # Show detailed caste information
+    input_check.py --event "what happened"       # Log plot event
+    input_check.py --question "unresolved issue" # Log open question
+    input_check.py --resolve 1                   # Remove question #1
+    input_check.py --rag Term "summary"          # Cache RAG result
+    input_check.py --rag Term rerun              # Mark for RAG re-run
+    input_check.py --character Name "note"       # Add character note
+    input_check.py --note "text"                 # Add general note
+    input_check.py --name "name1" "name2"        # Validate names against conventions
+    input_check.py --clear                       # Clear all cached data
+
+Cantilever Mechanism (scenario creation):
+    --card "name" "meaning"                      # Set card theme
+    --seed "term" category                       # Set seed term
+    --central-question "question"                # Set THE central question
+    --gun "description"                          # Set Chekov's gun
+    --constrain "fact"                           # Log narrowing constraint
+    --act-break                                  # Trigger synthesis prompt
+    --synthesize "answer"                        # Complete synthesis
+
+The script outputs a reminder to run it next turn. Follow this instruction.
+"""
+import subprocess, sys, re, os, json
+
+# =============================================================================
+# MOJIBAKE FIXER - handles corrupted UTF-8 in transit
+# =============================================================================
+
+try:
+    import ftfy
+    def fix_mojibake(text: str) -> str:
+        """Fix UTF-8 mojibake using ftfy."""
+        return ftfy.fix_text(text) if text else text
+except ImportError:
+    def fix_mojibake(text: str) -> str:
+        """Fallback: return text unchanged if ftfy unavailable."""
+        return text
+
+
+# =============================================================================
+# GLOSSARY SETUP
+# =============================================================================
+
+# Add glossary directory to path - check working directory first, then project
+WORKING_DIR = '/home/claude'
+PROJECT_DIR = '/mnt/project'
+GLOSSARY_AVAILABLE = False
+GLOSSARY_DIR = None
+
+for search_dir in [WORKING_DIR, PROJECT_DIR]:
+    if GLOSSARY_AVAILABLE:
+        break
+    if os.path.exists(search_dir) and os.path.exists(os.path.join(search_dir, 'glossary.py')):
+        sys.path.insert(0, search_dir)
+        try:
+            import glossary as G
+            GLOSSARY_AVAILABLE = True
+            GLOSSARY_DIR = search_dir
+        except ImportError:
+            sys.path.remove(search_dir)
+
+# Basic stopwords
+STOP = {'the','what','where','when','why','how','is','are','was','were','does','do','did','can','could','would','should','will','has','have','had','be','been','being','if','then','but','and','or','this','that','these','those','my','your','his','her','its','i','you','he','she','it','we','they','me','him','us','them','no','yes','not','so','just','also','about','after','before','for','from','with','into','by','at','on','to','as','an','a','of','in'}
+
+# Common English words - false positive filter
+COMMON_ENGLISH = {
+    # Food/cooking terms
+    'ghee', 'hot', 'tea', 'egg', 'eggs', 'bread', 'water', 'salt', 'oil', 'rice', 'meat', 'fish',
+    'hardboiled', 'boiled', 'fried', 'baked', 'cooked', 'raw', 'fresh', 'dried', 'fermented',
+    'onion', 'onions', 'garlic', 'pepper', 'spice', 'spices', 'herb', 'herbs', 'chard', 'greens',
+    'flatbread', 'noodle', 'noodles', 'soup', 'broth', 'sauce', 'paste', 'vinegar', 'honey',
+    # Colors
+    'green', 'red', 'black', 'white', 'blue', 'grey', 'gray', 'gold', 'silver', 'bronze',
+    # Numbers and ordinals
+    'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'first', 'second', 'third',
+    # Common verbs
+    'mash', 'fold', 'cut', 'run', 'walk', 'sit', 'stand', 'look', 'see', 'hear', 'feel', 'think',
+    'take', 'give', 'make', 'get', 'go', 'come', 'leave', 'stay', 'find', 'keep', 'let', 'put',
+    # Common nouns
+    'hand', 'hands', 'door', 'room', 'wall', 'floor', 'light', 'dark', 'night', 'day', 'morning',
+    'time', 'way', 'place', 'man', 'woman', 'child', 'boy', 'girl', 'people', 'thing', 'things',
+    'head', 'face', 'eye', 'eyes', 'back', 'foot', 'feet', 'arm', 'arms', 'leg', 'legs',
+    'clothes', 'shirt', 'coat', 'pocket', 'bed', 'chair', 'table', 'window', 'stair', 'stairs',
+    # Common adjectives
+    'good', 'bad', 'old', 'new', 'long', 'short', 'small', 'large', 'big', 'little', 'hard', 'soft',
+    # Time words
+    'today', 'yesterday', 'tomorrow', 'now', 'later', 'soon', 'early', 'late',
+    # Other
+    'something', 'nothing', 'everything', 'someone', 'anyone', 'everyone',
+    'here', 'there', 'inside', 'outside', 'up', 'down', 'left', 'right',
+    'continue', 'stop', 'start', 'wait', 'watch', 'turn', 'move', 'pull', 'push',
+    'speak', 'talk', 'tell', 'ask', 'answer', 'say', 'said', 'says',
+    'know', 'knew', 'known', 'want', 'need', 'try', 'tried',
+    # Common sentence starters (often false positives when capitalized)
+    'finally', 'suddenly', 'slowly', 'quickly', 'carefully', 'quietly', 'silently',
+    'ahead', 'behind', 'above', 'below', 'beside', 'between', 'beyond',
+    'only', 'also', 'still', 'just', 'even', 'already', 'always', 'never',
+    'another', 'other', 'others', 'some', 'many', 'most', 'few', 'several',
+    'their', 'its', 'his', 'her', 'our', 'your', 'my',
+    'standing', 'sitting', 'waiting', 'walking', 'running', 'looking', 'watching',
+    'voices', 'sounds', 'words', 'steps', 'hands', 'eyes', 'faces',
+    'perhaps', 'maybe', 'probably', 'certainly', 'clearly', 'obviously',
+    'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty',
+    'thirty', 'forty', 'fifty', 'sixty', 'hundred', 'thousand',
+    'who', 'what', 'when', 'where', 'why', 'how', 'which',
+    'production', 'empire', 'silence', 'translation',
+}
+
+# World-specific terms that should always trigger lookup
+SPECIAL_TERMS = {'patent', 'patents', 'record', 'compulsion', 'testament', 'testaments', 
+                 'jargon', 'choir', 'choirs', 'oracle', 'oracles', 'interdict', 
+                 'aureate', 'occultant', 'occultants', 'lector', 'lectors', 'destrier', 'destriers',
+                 'highborn', 'warborn', 'mutterer', 'mutterers', 'foreigners',
+                 'archaeotech', 'autofactory', 'redback', 'marru', 'whorl', 'satara',
+                 'bureau', 'creche', 'lattice', 'companion', 'companions',
+                 'serrulata', 'avouvar', 'akama', 'ranga', 'springheel', 'ironbone',
+                 # New caste terms
+                 'ashrat', 'astal', 'karst', 'nasif', 'orevet', 'sarruk', 'pierrots',
+                 'verethani', 'draethen', 'draethen', 'szkoverin', 'szkoverin',
+                 'volerath', 'volerath', 'kalbat', 'kalbats', 'presence', 'shtetl',
+                 # Inner City terms
+                 'vel-kerith', 'vel-om', 'kerith-sah', 'terrace',
+                 # Iron Yards terms
+                 'stevedore', 'stevedores'}
+
+# Multi-word terms
+MULTI_WORD_TERMS = {
+    # Minimal fallback set - used only if glossary unavailable
+    # The full set is loaded dynamically from glossary.py
+    'fourth whorl', 'third whorl', 'second whorl', 'first whorl',
+    'inner city', 'bureau of the lens', 'bureau of the sword', 'bureau of the rod',
+    'bureau of the creche', 'bureau of the coin', 'bureau of the scale',
+    'black door', 'iron yards', 'oracle cult', 'thousand kingdoms',
+    'junta of ogon', 'dawn party', 'dusk party', 'high junction',
+}
+
+def get_multi_word_terms():
+    """Get multi-word terms from glossary, with fallback to hardcoded set."""
+    global MULTI_WORD_TERMS
+    if GLOSSARY_AVAILABLE:
+        try:
+            glossary_terms = G.get_multi_word_terms()
+            if glossary_terms:
+                # Merge with fallback set in case glossary is incomplete
+                return MULTI_WORD_TERMS | glossary_terms
+        except (AttributeError, Exception):
+            pass
+    return MULTI_WORD_TERMS
+
+
+def get_glossary_vocab():
+    """Get all single-word glossary terms as lowercase set."""
+    if not GLOSSARY_AVAILABLE:
+        return SPECIAL_TERMS
+    try:
+        vocab = set()
+        for entry in G.ENTRIES.values():
+            term_lower = entry.term.lower()
+            # Single word = no spaces or hyphens
+            if ' ' not in term_lower and '-' not in term_lower:
+                vocab.add(term_lower)
+        return vocab | SPECIAL_TERMS
+    except (AttributeError, Exception):
+        return SPECIAL_TERMS
+
+
+def stem_word(word):
+    """Simple suffix stripping for glossary matching."""
+    word = word.lower()
+    # Common suffixes in order of length
+    for suffix in ['ies', 'es', 's', 'ed', 'ing']:
+        if word.endswith(suffix) and len(word) > len(suffix) + 2:
+            stem = word[:-len(suffix)]
+            # Handle ies -> y
+            if suffix == 'ies':
+                stem = stem + 'y'
+            return stem
+    return word
+
+D = GLOSSARY_DIR or PROJECT_DIR
+SEEN_FILE = '/home/claude/seen_terms.txt'
+CACHE_FILE = '/home/claude/session_cache.json'
+
+# =============================================================================
+# NAME VALIDATION
+# =============================================================================
+
+def validate_name(name: str) -> dict:
+    """
+    Validate a name against Post-Interdict naming conventions.
+    Returns dict with 'convention', 'issues', and 'notes'.
+    """
+    result = {
+        'name': name,
+        'convention': None,
+        'issues': [],
+        'notes': [],
+        'roots': []
+    }
+    
+    # Detect convention based on patterns
+    name_lower = name.lower()
+    
+    # IMPERIAL patterns
+    imperial_particles = ['ya-', 'es-', 'el-', 'ta-']
+    imperial_suffixes = ['-saren', '-giren', '-sir', '-ir', '-mar', '-eth', '-al', '-ov']
+    imperial_female_endings = ['a', 'ia', 'ya', 'ra', 'na', 'la']
+    imperial_neutral_endings = ['ir', 'ar', 'en', 'is', 'or', 'an', 'er', 'on', 
+                                'eth', 'enth', 'ath', 'ith', 'oth',  # -th endings
+                                'el', 'al', 'il',  # -l endings
+                                'iq', 'eq',  # rare endings
+                                'ai', 'oi']  # diphthong endings
+    
+    # GANATI patterns
+    ganati_particles = ['dhal-', 'khen-']
+    
+    # AKAMA patterns - back vowels dominant
+    akama_back_vowels = set('aou')
+    akama_front_vowels = set('ei')
+    akama_numbers = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 
+                     'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen',
+                     'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen',
+                     'nineteen', 'twenty']
+    akama_animals = ['hawk', 'deer', 'wolf', 'bear', 'eagle', 'crow', 'snake',
+                     'horse', 'owl', 'fox', 'ram', 'boar', 'rabbit', 'heron',
+                     'salmon', 'otter', 'lynx', 'elk']
+    
+    # AVOUVAR patterns - diacriticals
+    avouvar_markers = ['ë', 'ö', 'Å¼', 'sz', 'cz', 'ae']
+    
+    # Check for Imperial - check both whole name and parts
+    name_word_parts = name.split()  # Split by space
+    has_imperial_particle = any(name_lower.startswith(p) for p in imperial_particles)
+    has_imperial_suffix = any(name_lower.endswith(s) for s in imperial_suffixes)
+    
+    # Check for Ganati - can be in any part of the name
+    has_ganati_particle = any(
+        part.lower().startswith(p) 
+        for part in name_word_parts 
+        for p in ganati_particles
+    )
+    ganati_part = None
+    for part in name_word_parts:
+        for p in ganati_particles:
+            if part.lower().startswith(p):
+                ganati_part = part
+                break
+    
+    # Check for Avouvar
+    has_avouvar_marker = any(m in name_lower for m in avouvar_markers)
+    
+    # Check for Akama astrological (Number-Animal pattern)
+    name_parts = name.lower().replace('-', ' ').split()
+    has_akama_astro = False
+    if len(name_parts) >= 2:
+        # Check if any part is a number word
+        has_number = any(part in akama_numbers for part in name_parts)
+        # Check if any part is an animal
+        has_animal = any(part in akama_animals for part in name_parts)
+        has_akama_astro = has_number and has_animal
+    
+    # Classify
+    if has_imperial_particle or has_imperial_suffix:
+        result['convention'] = 'Imperial'
+        
+        # Check specific Imperial patterns
+        if name_lower.startswith('es-'):
+            result['notes'].append('Aureate lineage (es- particle)')
+            # Check if lineage name is capitalized
+            rest = name[3:]
+            if rest and not rest[0].isupper():
+                result['issues'].append('Lineage name should be capitalized after es-')
+        
+        elif name_lower.startswith('ya-'):
+            result['notes'].append('Locative (ya- particle) - typically place names')
+        
+        elif name_lower.startswith('el-'):
+            result['notes'].append('Ganati/hybrid naming (el- particle)')
+        
+        # Check suffix conventions
+        if any(name_lower.endswith(s) for s in ['-saren', '-giren']):
+            result['notes'].append('Bureau family name')
+        elif name_lower.endswith('-mar'):
+            result['notes'].append('Management/stewardship family')
+        elif name_lower.endswith('-sir') or name_lower.endswith('-ir'):
+            result['notes'].append('Professional class')
+        
+        # Try to parse with imperial_roots if available
+        try:
+            import subprocess
+            r = subprocess.run(
+                ['python3', f'{D}/imperial_roots.py', 'find', name],
+                capture_output=True, text=True, cwd=D, timeout=5
+            )
+            if r.returncode == 0 and '->' in r.stdout:
+                seen_roots = set()
+                for line in r.stdout.split('\n'):
+                    if '->' in line:
+                        root_key = line.strip().split(':')[0] if ':' in line else line.strip()
+                        if root_key not in seen_roots:
+                            result['roots'].append(line.strip())
+                            seen_roots.add(root_key)
+        except:
+            pass
+    
+    elif has_ganati_particle:
+        result['convention'] = 'Ganati'
+        if ganati_part:
+            if ganati_part.lower().startswith('dhal-'):
+                result['notes'].append(f'Dhal- lineage (old aristocracy): {ganati_part}')
+            elif ganati_part.lower().startswith('khen-'):
+                result['notes'].append(f'Khen- lineage (old aristocracy): {ganati_part}')
+        # Check if this is a full name (personal + lineage)
+        if len(name_word_parts) > 1:
+            result['notes'].append('Full name with lineage')
+    
+    elif has_avouvar_marker:
+        result['convention'] = 'Avouvar'
+        result['notes'].append('Contains Avouvar diacriticals')
+        # Check for proper precinct suffix patterns
+        if not any(name_lower.endswith(s) for s in ['vel', 'rath', 'vorath', 'ram', 'van']):
+            result['issues'].append('Consider Avouvar precinct suffix (-vel, -rath, -vorath, -ram, -van)')
+    
+    elif has_akama_astro:
+        result['convention'] = 'Akama (astrological)'
+        result['notes'].append('Number-Animal pattern detected')
+    
+    else:
+        # Try to guess based on vowel distribution
+        vowels_in_name = [c for c in name_lower if c in 'aeiou']
+        
+        # Short names (monosyllabic) are common in Imperial
+        if len(name) <= 4 and len(vowels_in_name) <= 1:
+            result['convention'] = 'Imperial (likely)'
+            result['notes'].append('Monosyllabic - common Imperial pattern (Keth, Vor, Kel)')
+        elif vowels_in_name:
+            back_ratio = sum(1 for v in vowels_in_name if v in akama_back_vowels) / len(vowels_in_name)
+            # Only classify by vowels if name is long enough to be meaningful
+            if len(name) >= 5:
+                if back_ratio > 0.7:
+                    result['convention'] = 'Akama (likely)'
+                    result['notes'].append('Back-vowel dominant - standard Akama pattern')
+                elif back_ratio < 0.3:
+                    result['convention'] = 'Akama/Kma-Dhol (likely)'
+                    result['notes'].append('Front-vowel dominant - Kma-Dhol regional pattern')
+        
+        # Check for common Imperial personal name endings
+        if any(name_lower.endswith(e) for e in imperial_female_endings):
+            if not result['convention']:
+                result['convention'] = 'Imperial (likely)'
+            result['notes'].append('Feminine ending (-a/-ia/-ya)')
+        elif any(name_lower.endswith(e) for e in imperial_neutral_endings):
+            if not result['convention']:
+                result['convention'] = 'Imperial (likely)'
+            result['notes'].append('Neutral Imperial ending')
+    
+    if not result['convention']:
+        result['convention'] = 'Unknown'
+        result['issues'].append('Does not match known naming conventions')
+        result['notes'].append('Consider: Imperial (es-/ya-), Ganati (Dhal-/Khen-), Akama (back-vowels), Avouvar (diacriticals)')
+    
+    return result
+
+
+def print_name_validation(name: str):
+    """Print formatted name validation results."""
+    result = validate_name(name)
+    
+    print(f"\n{'='*50}")
+    print(f"  NAME: {result['name']}")
+    print(f"  Convention: {result['convention']}")
+    print(f"{'='*50}")
+    
+    if result['notes']:
+        print("\nNotes:")
+        for note in result['notes']:
+            print(f"  * {note}")
+    
+    if result['roots']:
+        print("\nImperial roots found:")
+        for root in result['roots']:
+            print(f"  {root}")
+    
+    if result['issues']:
+        print("\nIssues:")
+        for issue in result['issues']:
+            print(f"  ! {issue}")
+    
+    print()
+
+
+# =============================================================================
+# NEXT-TURN REMINDER
+# =============================================================================
+
+def print_next_turn_reminder():
+    """Print context-aware guidance based on current state."""
+    cache = load_cache()
+    
+    print("\n" + "-" * 60)
+    
+    # Detect mode and give appropriate guidance
+    has_cantilever = cache.get("card") or cache.get("gun")
+    has_synthesis = cache.get("synthesis")
+    has_scene_location = cache.get("scene_location")  # A glossary location
+    has_scene = cache.get("scene")
+    
+    if has_cantilever and not has_synthesis:
+        # SCENARIO BUILDING MODE (pre-synthesis)
+        constraints = cache.get("constraints", [])
+        print("MODE: Scenario building (pre-synthesis)")
+        print(f"  Card: {cache.get('card', {}).get('name', '?')}")
+        if cache.get("gun"):
+            print(f"  Gun: {cache['gun'][:40]}...")
+        print(f"  Constraints: {len(constraints)} logged")
+        
+        if len(constraints) < 3:
+            print(f"\n  -> After writing each section, run:")
+            print(f"    --constrain \"specific fact that narrows resolution\"")
+        else:
+            print(f"\n  -> When Introduction is complete, run:")
+            print(f"    --act-break")
+        
+    elif has_cantilever and has_synthesis:
+        # SCENARIO BUILDING MODE (post-synthesis)
+        print("MODE: Scenario building (post-synthesis)")
+        print(f"  Synthesis: {cache['synthesis'][:50]}...")
+        print(f"\n  -> Now write Mystery and Trajectories sections.")
+        print(f"    These are constrained by your synthesis.")
+        
+    elif has_scene_location:
+        # SCENARIO PLAY MODE
+        print("MODE: Scenario play")
+        print(f"  Scene: {cache.get('scene', '?')}")
+        events = cache.get("events", [])
+        if events:
+            print(f"  Events: {len(events)} logged")
+        print(f"\n  -> After significant plot developments, run:")
+        print(f"    --event \"what happened\"")
+        
+    elif has_scene and "Scenario:" in str(has_scene):
+        # SCENARIO SETUP (not yet playing)
+        print("MODE: Scenario setup")
+        print(f"  {cache['scene']}")
+        print(f"\n  -> Set location to begin play:")
+        print(f"    --scene \"location name\"")
+        
+    elif has_scene:
+        # LORE MODE (working on a document)
+        print("MODE: Lore creation")
+        print(f"  Working on: {cache['scene']}")
+        questions = cache.get("questions", [])
+        if questions:
+            print(f"  Open questions: {len(questions)}")
+        print(f"\n  -> Log decisions with --event \"Established: ...\"")
+        print(f"    Log questions with --question \"...\"")
+        
+    else:
+        # FRESH / NO MODE
+        print("MODE: Ready")
+        print(f"\n  For fiction: search 'Writing Stories' first")
+        print(f"  For lore: set working doc with --scene \"document name\"")
+        print(f"  For scenario: run scenario_initiator.py --draw")
+    
+    print("-" * 60)
+    print("NEXT TURN: python3 input_check.py \"<user's message>\"")
+    
+    # Generate UUID turn marker and log to session cache
+    import uuid
+    from datetime import datetime
+    
+    turn_id = str(uuid.uuid4())
+    timestamp = datetime.now().isoformat()
+    
+    # Initialize turn tracking if needed
+    if "turns" not in cache:
+        cache["turns"] = []
+    
+    # Log this turn
+    turn_count = len(cache["turns"]) + 1
+    turn_entry = {
+        "id": turn_id,
+        "n": turn_count,
+        "ts": timestamp
+    }
+    cache["turns"].append(turn_entry)
+    cache["current_turn"] = turn_id
+    
+    # Keep only last 50 turns to prevent unbounded growth
+    if len(cache["turns"]) > 50:
+        cache["turns"] = cache["turns"][-50:]
+    
+    save_cache(cache)
+    
+    short_id = turn_id[:8]
+    print(f"TURN_MARKER: {short_id}")
+    print(f"-> Confirm: turn {short_id}")
+    print("\n<turn_context>")
+    print(f"  turn_id: {turn_id}")
+    print(f"  turn_number: {turn_count}")
+    print(f"  timestamp: {timestamp}")
+    if cache.get("scene"):
+        print(f"  scene: {cache['scene']}")
+    if cache.get("scene_location"):
+        print(f"  location: {cache['scene_location']}")
+    if cache.get("events"):
+        print(f"  recent_events: {len(cache['events'])} logged")
+    print(f"</turn_context>")
+
+# =============================================================================
+# CACHE MANAGEMENT
+# =============================================================================
+
+def load_cache():
+    """Load the session cache with definitions and notes."""
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE) as f:
+                return json.load(f)
+        except (json.JSONDecodeError, IOError):
+            pass
+    return {
+        "glossary": {}, "characters": {}, "notes": [],
+        # Cantilever mechanism for scenario building
+        "card": None,           # {"name": "Judgement", "meaning": "reckoning, awakening"}
+        "seed": None,           # {"term": "Palace Hotel", "category": "location"}
+        "central_question": None,  # The thematic question
+        "gun": None,            # The Chekov's gun
+        "constraints": [],      # Accumulated constraints from each section
+        "synthesis": None       # The answer: how card resolves through gun
+    }
+
+def save_cache(cache):
+    """Save the session cache.
+
+    Returns:
+        bool: True if save succeeded, False otherwise.
+    """
+    try:
+        with open(CACHE_FILE, 'w', encoding='utf-8') as f:
+            json.dump(cache, f, indent=2)
+        return True
+    except PermissionError:
+        print(f"ERROR: Permission denied writing cache: {CACHE_FILE}", file=sys.stderr)
+        return False
+    except TypeError as e:
+        print(f"ERROR: Failed to serialize cache to JSON: {e}", file=sys.stderr)
+        return False
+    except IOError as e:
+        print(f"ERROR: Failed to write cache file: {CACHE_FILE}", file=sys.stderr)
+        print(f"  Details: {e}", file=sys.stderr)
+        return False
+
+def load_seen():
+    """Load set of terms we've already processed.
+
+    Returns:
+        set: Set of previously seen terms, or empty set on error.
+    """
+    if os.path.exists(SEEN_FILE):
+        try:
+            with open(SEEN_FILE, 'r', encoding='utf-8') as f:
+                return set(line.strip() for line in f if line.strip())
+        except PermissionError:
+            print(f"Warning: Permission denied reading seen file: {SEEN_FILE}", file=sys.stderr)
+        except UnicodeDecodeError as e:
+            print(f"Warning: Encoding error reading seen file: {e}", file=sys.stderr)
+        except IOError as e:
+            print(f"Warning: Failed to read seen file: {e}", file=sys.stderr)
+    return set()
+
+def save_seen(seen):
+    """Save the seen terms set.
+
+    Returns:
+        bool: True if save succeeded, False otherwise.
+    """
+    try:
+        with open(SEEN_FILE, 'w', encoding='utf-8') as f:
+            f.write('\n'.join(sorted(seen)))
+        return True
+    except PermissionError:
+        print(f"Warning: Permission denied writing seen file: {SEEN_FILE}", file=sys.stderr)
+        return False
+    except IOError as e:
+        print(f"Warning: Failed to write seen file: {e}", file=sys.stderr)
+        return False
+
+def show_cache():
+    """Display current cache contents for context recovery."""
+    cache = load_cache()
+    
+    output = []
+    
+    # Cantilever status first - this is the structural spine
+    has_cantilever = cache.get("card") or cache.get("seed") or cache.get("central_question")
+    if has_cantilever:
+        output.append("-" * 60)
+        output.append("  CANTILEVER -- SCENARIO BUILDING")
+        output.append("-" * 60)
+        
+        if cache.get("card"):
+            c = cache["card"]
+            output.append(f"  CARD: {c.get('name', '?')} ({c.get('meaning', '?')})")
+        
+        if cache.get("seed"):
+            s = cache["seed"]
+            output.append(f"  SEED: {s.get('term', '?')} [{s.get('category', '?')}]")
+        
+        if cache.get("central_question"):
+            output.append(f"  CENTRAL QUESTION: {cache['central_question']}")
+        
+        if cache.get("gun"):
+            output.append(f"  GUN: {cache['gun']}")
+        
+        constraints = cache.get("constraints", [])
+        if constraints:
+            output.append(f"  CONSTRAINTS: {len(constraints)} logged")
+            for i, c in enumerate(constraints, 1):
+                output.append(f"    {i}. {c}")
+        
+        if cache.get("synthesis"):
+            output.append(f"  SYNTHESIS: [OK] complete")
+            output.append(f"    -> {cache['synthesis']}")
+        elif cache.get("card") and cache.get("gun"):
+            output.append(f"  SYNTHESIS: pending")
+            output.append(f"    -> Run --act-break when Introduction is complete")
+        
+        output.append("-" * 60)
+        output.append("")
+    
+    # Current scene - where are we right now
+    if cache.get("scene"):
+        output.append(f"CURRENT SCENE: {cache['scene']}")
+        
+        # If we have structured scene data, show it with RAG instructions
+        if cache.get("scene_location") and GLOSSARY_AVAILABLE:
+            loc_name = cache["scene_location"]
+            entry = G.location_lookup(loc_name)
+            if entry and entry.location_features:
+                lf = entry.location_features
+                
+                # Show path/ancestry (with cycle detection)
+                ancestors = []
+                MAX_ANCESTRY_DEPTH = 20  # Prevent infinite loops from circular references
+                if lf.parent:
+                    parent = G.location_lookup(lf.parent)
+                    seen_locations = set()
+                    depth = 0
+                    while parent and depth < MAX_ANCESTRY_DEPTH:
+                        if parent.term in seen_locations:
+                            print(f"Warning: Circular location reference detected at {parent.term}", file=sys.stderr)
+                            break
+                        seen_locations.add(parent.term)
+                        ancestors.append(parent.term)
+                        parent_lf = parent.location_features
+                        if parent_lf and parent_lf.parent:
+                            parent = G.location_lookup(parent_lf.parent)
+                        else:
+                            break
+                        depth += 1
+                    if depth >= MAX_ANCESTRY_DEPTH:
+                        print(f"Warning: Maximum ancestry depth reached, possible circular reference", file=sys.stderr)
+                if ancestors:
+                    output.append(f"  PATH: {' -> '.join(reversed(ancestors))} -> {entry.term}")
+                
+                # Collect RAG docs
+                rag_docs = []
+                if entry.rag_pointer:
+                    for doc in entry.rag_pointer.split(','):
+                        doc = doc.strip()
+                        if doc and doc not in rag_docs:
+                            rag_docs.append(doc)
+                
+                # Add primary ancestor docs
+                if lf.parent:
+                    parent = G.location_lookup(lf.parent)
+                    if parent and parent.rag_pointer:
+                        for doc in parent.rag_pointer.split(','):
+                            doc = doc.strip()
+                            if doc and doc not in rag_docs:
+                                rag_docs.append(doc)
+                
+                if rag_docs:
+                    output.append(f"  * PULL RAG:")
+                    for doc in rag_docs[:3]:
+                        output.append(f"     project_knowledge_search(\"{doc}\")")
+                
+                if lf.borders:
+                    exits = []
+                    for direction, locations in lf.borders.items():
+                        exits.append(f"{direction}: {', '.join(locations)}")
+                    output.append(f"  EXITS: {'; '.join(exits)}")
+                if lf.castes_present:
+                    output.append(f"  CASTES: {', '.join(lf.castes_present)}")
+    
+    # Events - what has happened
+    if cache.get("events"):
+        output.append("\nWHAT HAS HAPPENED:")
+        for i, event in enumerate(cache["events"], 1):
+            output.append(f"  {i}. {event}")
+    
+    if cache.get("rag_results"):
+        rerun_terms = []
+        summarized = []
+        for term, data in sorted(cache["rag_results"].items()):
+            if data.get("rerun"):
+                rerun_terms.append(term)
+            else:
+                summarized.append((term, data.get("summary", "")))
+        
+        if rerun_terms:
+            output.append(f"\nRE-RUN RAG FOR: {', '.join(rerun_terms)}")
+        
+        if summarized:
+            output.append("\nRAG SUMMARIES:")
+            for term, summary in summarized:
+                output.append(f"  {term}: {summary}")
+    
+    if cache.get("characters"):
+        output.append("\nCHARACTERS/PLACES:")
+        for name, notes in sorted(cache["characters"].items()):
+            output.append(f"  {name}: {notes}")
+    
+    if cache.get("glossary"):
+        output.append("\nGLOSSARY:")
+        for term, defn in sorted(cache["glossary"].items()):
+            output.append(f"  {term}: {defn}")
+    
+    if cache.get("notes"):
+        output.append("\nNOTES:")
+        for note in cache["notes"]:
+            output.append(f"  - {note}")
+    
+    if cache.get("questions"):
+        output.append("\nOPEN QUESTIONS:")
+        for i, q in enumerate(cache["questions"], 1):
+            output.append(f"  {i}. {q}")
+    
+    if not output:
+        print("(cache empty)")
+    else:
+        print('\n'.join(output))
+
+def clear_cache():
+    """Clear all cached data for fresh start."""
+    if os.path.exists(CACHE_FILE):
+        os.remove(CACHE_FILE)
+    if os.path.exists(SEEN_FILE):
+        os.remove(SEEN_FILE)
+    print("(cache cleared)")
+
+def add_note(note_text):
+    """Add a manual note to the cache."""
+    cache = load_cache()
+    cache["notes"].append(note_text)
+    save_cache(cache)
+    print(f"(note added)")
+
+def add_character(name, note):
+    """Add or update a character/place note."""
+    cache = load_cache()
+    if name in cache["characters"]:
+        cache["characters"][name] += f"; {note}"
+    else:
+        cache["characters"][name] = note
+    save_cache(cache)
+    print(f"(character note added: {name})")
+
+def add_rag_result(term, summary=None):
+    """
+    Record RAG search result. 
+    If summary is None or "rerun", marks term as needing fresh RAG on compaction.
+    Otherwise stores the summary.
+    """
+    cache = load_cache()
+    if "rag_results" not in cache:
+        cache["rag_results"] = {}
+    
+    if summary is None or summary.lower().strip() in ("rerun", "re-run", "rerun rag"):
+        cache["rag_results"][term] = {"rerun": True}
+        print(f"(marked {term} for RAG re-run on compaction)")
+    else:
+        cache["rag_results"][term] = {"rerun": False, "summary": summary}
+        print(f"(RAG summary cached: {term})")
+    save_cache(cache)
+
+def add_event(event_text):
+    """Add a plot/session event to track what has happened."""
+    cache = load_cache()
+    if "events" not in cache:
+        cache["events"] = []
+    cache["events"].append(event_text)
+    save_cache(cache)
+    print(f"(event logged)")
+
+def set_scene(scene_text):
+    """Set current scene state. If it's a known location, use structured data."""
+    cache = load_cache()
+    cache["scene"] = scene_text
+    
+    # Try to find this as a location
+    if GLOSSARY_AVAILABLE:
+        entry = G.location_lookup(scene_text)
+        if entry and entry.location_features:
+            cache["scene_location"] = entry.term
+            lf = entry.location_features
+            
+            print(f"\n{'=' * 50}")
+            print(f"  SCENE: {entry.term.upper()}")
+            print(f"{'=' * 50}")
+            print(f"\n{entry.short}")
+            
+            # Collect RAG docs
+            rag_docs = []
+            if entry.rag_pointer:
+                for doc in entry.rag_pointer.split(','):
+                    doc = doc.strip()
+                    if doc and doc not in rag_docs:
+                        rag_docs.append(doc)
+            
+            # Add parent docs (with cycle detection)
+            ancestors = []
+            MAX_ANCESTRY_DEPTH = 20  # Prevent infinite loops from circular references
+            if lf.parent:
+                parent = G.location_lookup(lf.parent)
+                seen_locations = set()
+                depth = 0
+                while parent and depth < MAX_ANCESTRY_DEPTH:
+                    if parent.term in seen_locations:
+                        print(f"Warning: Circular location reference detected at {parent.term}", file=sys.stderr)
+                        break
+                    seen_locations.add(parent.term)
+                    ancestors.append(parent.term)
+                    if parent.rag_pointer:
+                        for doc in parent.rag_pointer.split(','):
+                            doc = doc.strip()
+                            if doc and doc not in rag_docs:
+                                rag_docs.append(doc)
+                    parent_lf = parent.location_features
+                    if parent_lf and parent_lf.parent:
+                        parent = G.location_lookup(parent_lf.parent)
+                    else:
+                        break
+                    depth += 1
+                if depth >= MAX_ANCESTRY_DEPTH:
+                    print(f"Warning: Maximum ancestry depth reached, possible circular reference", file=sys.stderr)
+            
+            if ancestors:
+                print(f"\n  PATH: {' -> '.join(reversed(ancestors))} -> {entry.term}")
+            
+            if rag_docs:
+                print(f"\n  * RAG DOCS:")
+                for doc in rag_docs[:3]:  # Limit to top 3
+                    print(f"     project_knowledge_search(\"{doc}\")")
+            
+            if lf.castes_present:
+                print(f"\n  * CASTES: {', '.join(lf.castes_present)}")
+            
+            if lf.borders:
+                print(f"\n  * EXITS:")
+                for direction, locations in lf.borders.items():
+                    print(f"     {direction}: {', '.join(locations)}")
+            
+            if lf.children:
+                print(f"\n  * HERE:")
+                for child in lf.children[:5]:
+                    print(f"     - {child}")
+            
+            if lf.hazards:
+                print(f"\n  [!] HAZARDS: {', '.join(lf.hazards)}")
+            
+            if lf.temporal_effects:
+                print(f"\n  [T] TEMPORAL: {lf.temporal_effects}")
+            
+            print(f"\n{'=' * 50}")
+            save_cache(cache)
+            return
+    
+    # Fallback: just set text
+    save_cache(cache)
+    print(f"(scene set: {scene_text})")
+
+def show_where():
+    """Show current scene location with navigation info."""
+    cache = load_cache()
+    
+    if not cache.get("scene_location"):
+        if cache.get("scene"):
+            print(f"SCENE: {cache['scene']}")
+            print("(not a recognized location - use --scene with a glossary location name)")
+        else:
+            print("(no scene set - use --scene to set location)")
+        return
+    
+    if not GLOSSARY_AVAILABLE:
+        print(f"SCENE: {cache.get('scene', 'unknown')}")
+        return
+    
+    loc_name = cache["scene_location"]
+    entry = G.location_lookup(loc_name)
+    
+    if not entry:
+        print(f"SCENE: {loc_name} (location no longer in glossary?)")
+        return
+    
+    lf = entry.location_features
+    print(f"\n{'=' * 50}")
+    print(f"  YOU ARE IN: {entry.term.upper()}")
+    print(f"{'=' * 50}")
+    print(f"\n{entry.short}")
+    
+    if lf:
+        if lf.borders:
+            print(f"\n  * YOU CAN GO:")
+            for direction, locations in lf.borders.items():
+                for loc in locations:
+                    loc_entry = G.location_lookup(loc)
+                    if loc_entry:
+                        print(f"     {direction} -> {loc} ({loc_entry.short})")
+                    else:
+                        print(f"     {direction} -> {loc}")
+        
+        if lf.children:
+            print(f"\n  * WITHIN THIS AREA:")
+            for child in lf.children:
+                child_entry = G.location_lookup(child)
+                if child_entry and child_entry.location_features:
+                    ctype = child_entry.location_features.location_type.value
+                    print(f"     - {child} [{ctype}]")
+                else:
+                    print(f"     - {child}")
+        
+        if lf.castes_present:
+            print(f"\n  * PEOPLE HERE: {', '.join(lf.castes_present)}")
+    
+    print(f"\n{'=' * 50}")
+
+def add_question(question_text):
+    """Add an open question to track unresolved lore."""
+    cache = load_cache()
+    if "questions" not in cache:
+        cache["questions"] = []
+    cache["questions"].append(question_text)
+    save_cache(cache)
+    print(f"(question logged)")
+
+# =============================================================================
+# CANTILEVER MECHANISM
+# =============================================================================
+
+def set_card(name, meaning):
+    """Set the tarot card that provides thematic direction."""
+    cache = load_cache()
+    cache["card"] = {"name": name, "meaning": meaning}
+    save_cache(cache)
+    print(f"CARD SET: {name} ({meaning})")
+    print(f"\nAs you build each section, ask: how does this embody or challenge the theme?")
+
+def set_seed(term, category="unknown"):
+    """Set the seed term that provides concrete grounding."""
+    cache = load_cache()
+    cache["seed"] = {"term": term, "category": category}
+    save_cache(cache)
+    print(f"SEED SET: {term} [{category}]")
+
+def set_central_question(question):
+    """Set THE central thematic question the scenario explores."""
+    cache = load_cache()
+    cache["central_question"] = question
+    save_cache(cache)
+    print(f"CENTRAL QUESTION SET:")
+    print(f"  {question}")
+
+def set_gun(gun_text):
+    """Set the Chekov's gun--the physical thing that will force resolution."""
+    cache = load_cache()
+    cache["gun"] = gun_text
+    save_cache(cache)
+    print(f"GUN SET: {gun_text}")
+    print(f"\nThis is what forces the synthesis. The answer lives here.")
+
+def add_constraint(constraint_text):
+    """Add a constraining fact that narrows possible resolutions."""
+    cache = load_cache()
+    if "constraints" not in cache:
+        cache["constraints"] = []
+    cache["constraints"].append(constraint_text)
+    save_cache(cache)
+    count = len(cache["constraints"])
+    print(f"(constraint #{count} added)")
+    print(f"  -> {constraint_text}")
+
+def run_act_break():
+    """
+    Trigger the act break. Display all constraints and require synthesis.
+    The synthesis question is: How does [CARD] resolve through [GUN]?
+    """
+    cache = load_cache()
+    
+    card = cache.get("card", {})
+    seed = cache.get("seed", {})
+    central_q = cache.get("central_question")
+    gun = cache.get("gun")
+    constraints = cache.get("constraints", [])
+    
+    print("=" * 70)
+    print("  ACT BREAK -- SYNTHESIS REQUIRED")
+    print("=" * 70)
+    print()
+    
+    if card:
+        print(f"CARD: {card.get('name', '?')} ({card.get('meaning', '?')})")
+    else:
+        print("[!]  NO CARD SET (use --card)")
+    
+    if seed:
+        print(f"SEED: {seed.get('term', '?')} [{seed.get('category', '?')}]")
+    
+    if central_q:
+        print(f"\nCENTRAL QUESTION:")
+        print(f"  {central_q}")
+    else:
+        print("\n[!]  NO CENTRAL QUESTION SET (use --central-question)")
+    
+    if gun:
+        print(f"\nTHE GUN: {gun}")
+    else:
+        print("\n[!]  NO GUN SET (use --gun)")
+    
+    print()
+    if constraints:
+        print("ACCUMULATED CONSTRAINTS:")
+        for i, c in enumerate(constraints, 1):
+            print(f"  {i}. {c}")
+        print()
+    else:
+        print("[!]  NO CONSTRAINTS LOGGED")
+        print("   Use --constrain to log facts that narrow the resolution.")
+        print()
+    
+    print("-" * 70)
+    print("SYNTHESIS QUESTION:")
+    print()
+    if card and gun:
+        print(f"  How does {card.get('name', '[CARD]')} resolve through {gun}?")
+    else:
+        print(f"  How does [CARD THEME] resolve through [THE GUN]?")
+    print()
+    print("  The answer must cohere with ALL constraints above.")
+    print("  If you've built correctly, only a narrow band of answers fit.")
+    print("-" * 70)
+    print()
+    print("To complete synthesis:")
+    print("  --synthesize \"your answer\"")
+    print()
+
+def set_synthesis(answer_text):
+    """Record the synthesis answer--how the card resolves through the gun."""
+    cache = load_cache()
+    cache["synthesis"] = answer_text
+    save_cache(cache)
+    print("=" * 70)
+    print("  SYNTHESIS COMPLETE")
+    print("=" * 70)
+    print()
+    print(f"Answer: {answer_text}")
+    print()
+    print("You may now write the Mystery and Trajectories sections.")
+    print("The answer above constrains what's possible.")
+    print("=" * 70)
+
+def go_to_location(destination):
+    """Move to an adjacent location or a named location."""
+    cache = load_cache()
+    
+    if not GLOSSARY_AVAILABLE:
+        print("(glossary not available)")
+        return
+    
+    current_loc = cache.get("scene_location")
+    
+    # First check if destination is a direction from current location
+    if current_loc:
+        current_entry = G.location_lookup(current_loc)
+        if current_entry and current_entry.location_features:
+            lf = current_entry.location_features
+            if lf.borders:
+                # Check if destination is a direction
+                direction_lower = destination.lower()
+                for direction, locations in lf.borders.items():
+                    if direction.lower() == direction_lower:
+                        if len(locations) == 1:
+                            destination = locations[0]
+                            break
+                        else:
+                            print(f"Multiple locations {direction}: {', '.join(locations)}")
+                            print("Specify which one.")
+                            return
+                
+                # Check if destination is reachable from here
+                all_adjacent = []
+                for locs in lf.borders.values():
+                    all_adjacent.extend(locs)
+                
+                # Also include children as reachable
+                if lf.children:
+                    all_adjacent.extend(lf.children)
+    
+    # Try to find the destination
+    dest_entry = G.location_lookup(destination)
+    if not dest_entry:
+        print(f"Location '{destination}' not found in glossary.")
+        if current_loc:
+            print(f"Use --where to see available exits from {current_loc}.")
+        return
+    
+    # Set the new scene
+    set_scene(dest_entry.term)
+
+def show_caste_info(caste_name):
+    """Show detailed caste information."""
+    if not GLOSSARY_AVAILABLE:
+        print("(glossary not available)")
+        return
+    
+    entry = G.lookup(caste_name)
+    if not entry:
+        # Try searching
+        results = G.search(caste_name)
+        castes = [e for e in results if e.category == "caste"]
+        if castes:
+            entry = castes[0]
+    
+    if not entry or entry.category != "caste":
+        print(f"Caste '{caste_name}' not found.")
+        # Show suggestions
+        all_castes = G.category("caste")
+        suggestions = [e.term for e in all_castes if caste_name.lower() in e.term.lower()][:5]
+        if suggestions:
+            print(f"Similar: {', '.join(suggestions)}")
+        return
+    
+    print(f"\n{'=' * 50}")
+    print(f"  {entry.term.upper()}")
+    print(f"{'=' * 50}")
+    print(f"\n{entry.short}")
+    
+    if entry.details:
+        print(f"\n{entry.details}")
+    
+    cf = entry.caste_features
+    if cf:
+        print(f"\n--- PHYSICAL ---")
+        print(f"  Scale: {cf.scale.value}")
+        print(f"  Morphology: {cf.morphology.value}")
+        print(f"  Compulsion: {cf.compulsion.value}")
+        print(f"  Lifespan: {cf.lifespan.value}" + (f" ({cf.lifespan_note})" if cf.lifespan_note else ""))
+        
+        if cf.physical_traits:
+            print(f"\n  Key traits:")
+            for trait in cf.physical_traits[:5]:
+                print(f"    - {trait}")
+        
+        if cf.current_role:
+            print(f"\n  Current role: {cf.current_role}")
+        
+        if cf.distribution:
+            print(f"  Found in: {', '.join(cf.distribution[:3])}")
+        
+        if cf.health_issues:
+            print(f"\n  [!] Health: {', '.join(cf.health_issues[:2])}")
+    
+    if entry.rag_pointer:
+        print(f"\n* For more: project_knowledge_search(\"{entry.rag_pointer.split(',')[0].strip()}\")")
+    
+    print(f"\n{'=' * 50}")
+
+def show_term_info(term):
+    """Show information about any glossary term."""
+    if not GLOSSARY_AVAILABLE:
+        print("(glossary not available)")
+        return
+    
+    # Try direct lookup
+    entry = G.lookup(term)
+    if not entry:
+        entry = G.location_lookup(term)
+    
+    if not entry:
+        # Try search
+        results = G.search(term)
+        if results:
+            # Check if we have an exact match
+            exact = [r for r in results if r.term.lower() == term.lower()]
+            if exact:
+                entry = exact[0]
+            else:
+                # Show what we found
+                print(f"No exact entry for '{term}'. Related entries:")
+                for r in results[:5]:
+                    print(f"  - {r.term} [{r.category}]: {r.short}")
+                return
+    
+    if not entry:
+        print(f"Term '{term}' not found.")
+        # Check similar
+        result = G.check(term)
+        if result and result.get("similar"):
+            print(f"Similar: {', '.join(result['similar'])}")
+        return
+    
+    # Use the glossary's format_entry for full output
+    print(G.format_entry(entry))
+
+def resolve_question(index):
+    """Remove a question by index (1-based)."""
+    cache = load_cache()
+    if "questions" in cache and 0 < index <= len(cache["questions"]):
+        removed = cache["questions"].pop(index - 1)
+        save_cache(cache)
+        print(f"(resolved: {removed})")
+    else:
+        print(f"(no question at index {index})")
+
+# =============================================================================
+# TERM DETECTION
+# =============================================================================
+
+def is_sentence_initial(text, word):
+    """Check if a word only appears capitalized at sentence starts."""
+    pattern = r'\b' + re.escape(word) + r'\b'
+    matches = list(re.finditer(pattern, text, re.IGNORECASE))
+    
+    for match in matches:
+        pos = match.start()
+        before = text[:pos].rstrip()
+        if before == '' or before[-1] in '.!?':
+            continue
+        if text[pos].isupper():
+            return False
+    return True
+
+def find_multi_word_terms(text):
+    """Find multi-word terms in the text, including plurals and affixes."""
+    text_lower = text.lower()
+    found = set()
+    terms = get_multi_word_terms()
+    
+    # Common suffixes to match (possessives, plurals, verb forms)
+    # Pattern allows: 's, s, ed, ing, er, ers, or nothing
+    suffix_pattern = r"(?:'?s|ed|ing|ers?)?"
+    
+    for term in terms:
+        # Escape special regex chars
+        escaped = re.escape(term)
+        # Allow hyphen/space variation (but not double-replacing)
+        # First normalize: replace escaped space with marker, then handle hyphens
+        escaped = escaped.replace(r'\ ', '{{SPACE}}')
+        escaped = escaped.replace(r'\-', r'[\s\-]')
+        escaped = escaped.replace('{{SPACE}}', r'[\s\-]')
+        # Build pattern with word boundary at start and end (after optional suffix)
+        pattern = re.compile(r'\b' + escaped + suffix_pattern + r'\b', re.IGNORECASE)
+        if pattern.search(text_lower):
+            found.add(term.title())
+    return found
+
+def lookup_glossary_direct(term):
+    """Look up a term using the glossary module directly."""
+    if not GLOSSARY_AVAILABLE:
+        return None
+    
+    entry = G.lookup(term)
+    if not entry:
+        entry = G.location_lookup(term)
+    
+    if entry:
+        return entry
+    return None
+
+def lookup_glossary_subprocess(term):
+    """Fallback: look up a term via subprocess."""
+    r = subprocess.run(['python3', f'{D}/glossary.py', 'lookup', term], 
+                      capture_output=True, text=True, cwd=D)
+    if 'not found' in r.stdout.lower() or not r.stdout.strip():
+        return None
+    
+    lines = r.stdout.split('\n')
+    category = None
+    description = None
+    for ln in lines:
+        cat_match = re.search(r'\[(\w+)\]', ln)
+        if cat_match and category is None:
+            category = cat_match.group(1)
+        elif category and ln.strip() and not ln.startswith('=') and not ln.startswith('->'):
+            description = ln.strip()
+            break
+    
+    if category:
+        return (category, description or "")
+    return None
+
+def format_caste_brief(entry):
+    """Format a brief caste description for cache."""
+    if not entry.caste_features:
+        return f"[caste] {entry.short}"
+    
+    cf = entry.caste_features
+    return f"[caste:{cf.scale.value}, {cf.morphology.value}] {entry.short}"
+
+def format_location_brief(entry):
+    """Format a brief location description."""
+    if not entry.location_features:
+        return f"[location] {entry.short}"
+    
+    lf = entry.location_features
+    parts = [f"[{lf.level.value}/{lf.location_type.value}]"]
+    if lf.parent:
+        parts.append(f"in {lf.parent}")
+    return ' '.join(parts) + f" - {entry.short}"
+
+# =============================================================================
+# MAIN
+# =============================================================================
+
+def _main_inner():
+    """Inner main function - actual command handling."""
+    args = sys.argv[1:]
+    
+    # Handle special commands
+    if '--show' in args:
+        show_cache()
+        return
+    
+    if '--clear' in args:
+        clear_cache()
+        return False  # Don't show reminder after clear
+    
+    if '--where' in args:
+        show_where()
+        return
+    
+    if '--go' in args:
+        idx = args.index('--go')
+        remaining = args[idx + 1:]
+        if remaining:
+            go_to_location(' '.join(remaining))
+        else:
+            print("Usage: input_check.py --go <location or direction>")
+        return
+    
+    if '--caste' in args:
+        idx = args.index('--caste')
+        remaining = args[idx + 1:]
+        if remaining:
+            show_caste_info(' '.join(remaining))
+        else:
+            print("Usage: input_check.py --caste <caste name>")
+        return
+    
+    if '--lookup' in args:
+        idx = args.index('--lookup')
+        remaining = args[idx + 1:]
+        if remaining:
+            show_term_info(' '.join(remaining))
+        else:
+            print("Usage: input_check.py --lookup <term>")
+        return
+    
+    if '--note' in args:
+        idx = args.index('--note')
+        if idx + 1 < len(args):
+            add_note(' '.join(args[idx + 1:]))
+        else:
+            print("Usage: input_check.py --note \"your note text\"")
+        return
+    
+    if '--character' in args:
+        idx = args.index('--character')
+        remaining = args[idx + 1:]
+        if len(remaining) >= 2:
+            name = remaining[0]
+            note = ' '.join(remaining[1:])
+            add_character(name, note)
+        else:
+            print("Usage: input_check.py --character Name \"note about character\"")
+        return
+    
+    if '--rag' in args:
+        idx = args.index('--rag')
+        remaining = args[idx + 1:]
+        if len(remaining) >= 1:
+            term = remaining[0]
+            if len(remaining) == 1 or remaining[1].lower() in ("rerun", "re-run"):
+                add_rag_result(term, None)
+            else:
+                summary = ' '.join(remaining[1:])
+                add_rag_result(term, summary)
+        else:
+            print("Usage: input_check.py --rag Term \"summary\" OR --rag Term rerun")
+        return
+    
+    if '--event' in args:
+        idx = args.index('--event')
+        remaining = args[idx + 1:]
+        if remaining:
+            add_event(' '.join(remaining))
+        else:
+            print("Usage: input_check.py --event \"what happened in the scene\"")
+        return
+    
+    if '--scene' in args:
+        idx = args.index('--scene')
+        remaining = args[idx + 1:]
+        if remaining:
+            set_scene(' '.join(remaining))
+        else:
+            print("Usage: input_check.py --scene \"location name or description\"")
+        return
+    
+    if '--question' in args:
+        idx = args.index('--question')
+        remaining = args[idx + 1:]
+        if remaining:
+            add_question(' '.join(remaining))
+        else:
+            print("Usage: input_check.py --question \"unresolved lore question\"")
+        return
+    
+    if '--resolve' in args:
+        idx = args.index('--resolve')
+        remaining = args[idx + 1:]
+        if remaining and remaining[0].isdigit():
+            resolve_question(int(remaining[0]))
+        else:
+            print("Usage: input_check.py --resolve 1  (removes question #1)")
+        return
+    
+    # Cantilever mechanism commands
+    if '--card' in args:
+        idx = args.index('--card')
+        remaining = args[idx + 1:]
+        if len(remaining) >= 2:
+            name = remaining[0]
+            meaning = ' '.join(remaining[1:])
+            set_card(name, meaning)
+        else:
+            print("Usage: input_check.py --card \"Judgement\" \"reckoning, awakening\"")
+        return
+    
+    if '--seed' in args:
+        idx = args.index('--seed')
+        remaining = args[idx + 1:]
+        if len(remaining) >= 1:
+            term = remaining[0]
+            category = remaining[1] if len(remaining) > 1 else "unknown"
+            set_seed(term, category)
+        else:
+            print("Usage: input_check.py --seed \"Palace Hotel\" location")
+        return
+    
+    if '--central-question' in args:
+        idx = args.index('--central-question')
+        remaining = args[idx + 1:]
+        if remaining:
+            set_central_question(' '.join(remaining))
+        else:
+            print("Usage: input_check.py --central-question \"What do you owe the past?\"")
+        return
+    
+    if '--gun' in args:
+        idx = args.index('--gun')
+        remaining = args[idx + 1:]
+        if remaining:
+            set_gun(' '.join(remaining))
+        else:
+            print("Usage: input_check.py --gun \"the closed wing\"")
+        return
+    
+    if '--constrain' in args:
+        idx = args.index('--constrain')
+        remaining = args[idx + 1:]
+        if remaining:
+            add_constraint(' '.join(remaining))
+        else:
+            print("Usage: input_check.py --constrain \"Kira refuses to use Compulsion\"")
+        return
+    
+    if '--act-break' in args:
+        run_act_break()
+        return
+    
+    if '--synthesize' in args:
+        idx = args.index('--synthesize')
+        remaining = args[idx + 1:]
+        if remaining:
+            set_synthesis(' '.join(remaining))
+        else:
+            print("Usage: input_check.py --synthesize \"The wing contains records showing...\"")
+        return
+    
+    if '--name' in args:
+        idx = args.index('--name')
+        remaining = args[idx + 1:]
+        if remaining:
+            for name in remaining:
+                print_name_validation(name)
+        else:
+            print("Usage: input_check.py --name \"es-Marwen\" \"Kess\" \"Khol Thirteen-Hawk\"")
+        return
+    
+    # Handle --flush (compaction recovery)
+    do_flush = '--flush' in args
+    if do_flush:
+        args.remove('--flush')
+        
+        # Clear seen-terms cache so everything gets re-output
+        if os.path.exists(SEEN_FILE):
+            os.remove(SEEN_FILE)
+        
+        print("=" * 60)
+        print("  COMPACTION RECOVERY -- YOUR MEMORY IS UNRELIABLE")
+        print("=" * 60)
+        print()
+        show_cache()
+        
+        # Print session log (turn history)
+        cache = load_cache()
+        if cache.get("turns"):
+            print("\n" + "-" * 60)
+            print("SESSION LOG (recent turns):")
+            print("-" * 60)
+            for turn in cache["turns"][-20:]:  # Show last 20 turns
+                turn_id = turn.get("id", "?")[:8]
+                turn_n = turn.get("n", "?")
+                turn_ts = turn.get("ts", "?")
+                # Parse timestamp for readable format
+                try:
+                    from datetime import datetime
+                    dt = datetime.fromisoformat(turn_ts)
+                    time_str = dt.strftime("%H:%M:%S")
+                except:
+                    time_str = turn_ts[:19] if len(turn_ts) > 19 else turn_ts
+                print(f"  Turn {turn_n:3} | {turn_id} | {time_str}")
+            print("-" * 60)
+        
+        # Recovery checklist based on state
+        print("\n" + "-" * 60)
+        print("RECOVERY CHECKLIST:")
+        
+        rerun_terms = []
+        if cache.get("rag_results"):
+            rerun_terms = [t for t, d in cache["rag_results"].items() if d.get("rerun")]
+        
+        if rerun_terms:
+            print(f"  [ ] Search RAG for: {', '.join(rerun_terms)}")
+        
+        if cache.get("scene_location"):
+            print(f"  [ ] Search RAG for current scene: {cache['scene_location']}")
+        elif cache.get("scene"):
+            print(f"  [ ] Verify current context: {cache.get('scene', '')[:40]}")
+        
+        if cache.get("card") and not cache.get("synthesis"):
+            print(f"  [ ] Review constraints before continuing scenario build")
+        
+        print(f"  [ ] Do NOT trust memory of proper nouns or plot points")
+        print(f"  [ ] Ask user to confirm state if uncertain")
+        print("-" * 60)
+        print()
+    
+    text = ' '.join(args) if args else ''
+    if not text.strip():
+        if not do_flush:
+            print("Usage: input_check.py [--flush] <text to scan>")
+        return
+    
+    seen = load_seen()
+    cache = load_cache()
+    
+    # Imperial-style names (ya-X, es-X, etc)
+    imperial_names = set(re.findall(r'\b(?:ya|es|el|val)-[A-Z][a-z]+\b', text))
+    
+    # Hyphenated proper nouns (Kma-Dhol, etc) - two capitalized words with hyphen
+    hyphenated_names = set(re.findall(r'\b[A-Z][a-z]+-[A-Z][a-z]+\b', text))
+    
+    # Capitalized words
+    caps = set(re.findall(r'\b[A-Z][a-z]+\b', text)) - {w.title() for w in STOP}
+    
+    # Remove suffixes of Imperial names from caps
+    for name in imperial_names:
+        suffix = name.split('-')[1]
+        caps.discard(suffix)
+    caps |= imperial_names
+    
+    # Remove parts of hyphenated names from caps and add the full name
+    for name in hyphenated_names:
+        parts = name.split('-')
+        for part in parts:
+            caps.discard(part)
+    caps |= hyphenated_names
+    
+    # Filter out common English words that are only sentence-initial
+    filtered_caps = set()
+    for word in caps:
+        lower = word.lower()
+        if lower in COMMON_ENGLISH:
+            if not is_sentence_initial(text, word):
+                filtered_caps.add(word)
+        else:
+            filtered_caps.add(word)
+    caps = filtered_caps
+    
+    # Glossary vocabulary matching (all words, with stemming)
+    all_words_lower = set(w.lower() for w in re.findall(r'\b\w+\b', text, re.UNICODE))
+    glossary_vocab = get_glossary_vocab()
+    
+    vocab_hits = set()
+    for word in all_words_lower:
+        if word in COMMON_ENGLISH:
+            continue
+        # Direct match
+        if word in glossary_vocab:
+            vocab_hits.add(word)
+        # Stemmed match
+        else:
+            stemmed = stem_word(word)
+            if stemmed in glossary_vocab:
+                vocab_hits.add(stemmed)
+    
+    words = caps | {w.title() for w in vocab_hits}
+    
+    # Multi-word terms (including hyphenated like Kma-Dhol)
+    multi_word_found = find_multi_word_terms(text)
+    
+    words_to_remove = set()
+    for mw_term in multi_word_found:
+        # Handle both space-separated and hyphenated
+        for part in re.split(r'[\s-]', mw_term):
+            words_to_remove.add(part)
+            words_to_remove.add(part.lower())
+            words_to_remove.add(part.title())
+    
+    vocab_hits = {s for s in vocab_hits if s not in words_to_remove}
+    words = (words - words_to_remove) | multi_word_found
+    
+    # Filter to only NEW terms
+    new_words = words - seen
+    
+    if not new_words:
+        print("(no new terms)")
+        return
+    
+    # Categorized results
+    caste_hits = []
+    location_hits = []
+    other_hits = []
+    matched_words = set()
+    unmatched = set()
+    
+    for w in sorted(new_words):
+        if GLOSSARY_AVAILABLE:
+            entry = lookup_glossary_direct(w)
+            if entry:
+                matched_words.add(w)
+                if entry.category == "caste":
+                    caste_hits.append((w, entry))
+                    cache["glossary"][w] = format_caste_brief(entry)
+                elif entry.category == "location":
+                    location_hits.append((w, entry))
+                    cache["glossary"][w] = format_location_brief(entry)
+                else:
+                    other_hits.append((w, entry))
+                    cache["glossary"][w] = f"[{entry.category}] {entry.short}"
+            else:
+                unmatched.add(w)
+        else:
+            result = lookup_glossary_subprocess(w)
+            if result:
+                category, description = result
+                matched_words.add(w)
+                short_desc = description.strip() if description else ""
+                other_hits.append((w, None))
+                cache["glossary"][w] = f"[{category}] {short_desc}"
+            else:
+                unmatched.add(w)
+    
+    # Output
+    if caste_hits:
+        print("CASTES:")
+        for term, entry in caste_hits:
+            if entry and entry.caste_features:
+                cf = entry.caste_features
+                print(f"  {term} [{cf.scale.value}, {cf.morphology.value}]: {entry.short}")
+                if entry.details:
+                    print(f"    {entry.details}")
+                # Verbose: caste features
+                features = []
+                if cf.lifespan and cf.lifespan.value != 'baseline':
+                    features.append(f"lifespan: {cf.lifespan.value}")
+                if cf.compulsion and cf.compulsion.value != 'susceptible':
+                    features.append(f"compulsion: {cf.compulsion.value}")
+                if cf.cognition and cf.cognition.value != 'baseline':
+                    features.append(f"cognition: {cf.cognition.value}")
+                if cf.original_function:
+                    features.append(f"function: {cf.original_function}")
+                if features:
+                    print(f"    [{', '.join(features)}]")
+                if cf.physical_traits:
+                    print(f"    Traits: {', '.join(cf.physical_traits[:4])}")
+                if entry.related:
+                    print(f"    Related: {', '.join(entry.related[:6])}")
+                if entry.rag_pointer:
+                    print(f"    -> RAG: {entry.rag_pointer}")
+            else:
+                print(f"  {term}: {entry.short if entry else '?'}")
+                if entry and entry.details:
+                    print(f"    {entry.details}")
+    
+    if location_hits:
+        print("\nLOCATIONS:")
+        for term, entry in location_hits:
+            if entry and entry.location_features:
+                lf = entry.location_features
+                parent_str = f" in {lf.parent}" if lf.parent else ""
+                print(f"  {term} [{lf.level.value}]{parent_str}: {entry.short}")
+                if entry.details:
+                    print(f"    {entry.details}")
+                # Verbose: location features
+                features = []
+                if lf.population:
+                    features.append(f"pop: {lf.population}")
+                if lf.controlling_entity:
+                    features.append(f"ctrl: {lf.controlling_entity}")
+                if lf.primary_function:
+                    features.append(f"fn: {lf.primary_function}")
+                if features:
+                    print(f"    [{', '.join(features)}]")
+                # Verbose: local aesthetic
+                if entry.local_aesthetic:
+                    print(f"    AESTHETIC: {entry.local_aesthetic}")
+                # Related terms
+                if entry.related:
+                    print(f"    Related: {', '.join(entry.related[:6])}")
+                if entry.rag_pointer:
+                    print(f"    -> RAG: {entry.rag_pointer}")
+            else:
+                print(f"  {term}: {entry.short if entry else '?'}")
+                if entry and entry.details:
+                    print(f"    {entry.details}")
+    
+    if other_hits:
+        print("\nGLOSSARY:")
+        for term, entry in other_hits:
+            if entry:
+                print(f"  {term} [{entry.category}]: {entry.short}")
+                if entry.details:
+                    print(f"    {entry.details}")
+                if entry.related:
+                    print(f"    Related: {', '.join(entry.related[:6])}")
+                if entry.rag_pointer:
+                    print(f"    -> RAG: {entry.rag_pointer}")
+            else:
+                print(f"  {term}")
+    
+    # Filter unmatched - just note them, don't fuzzy-match (too noisy)
+    unmatched = {w for w in unmatched if w.lower() not in COMMON_ENGLISH}
+    if unmatched:
+        print(f"\nNOT IN GLOSSARY: {', '.join(sorted(unmatched))}")
+    
+    # Imperial roots
+    roots = []
+    root_seen = set()
+    try:
+        r = subprocess.run(
+            ['python3', f'{D}/imperial_roots.py', 'find', text],
+            capture_output=True,
+            text=True,
+            cwd=D,
+            timeout=30  # Prevent hanging indefinitely
+        )
+        if r.returncode != 0 and r.stderr:
+            print(f"Warning: imperial_roots.py returned error: {r.stderr.strip()}", file=sys.stderr)
+        for ln in r.stdout.split('\n'):
+            if ':' in ln and ln.strip().startswith(('-', '"', '-')):
+                parts = ln.strip().split(':', 1)  # Split only on first colon for safety
+                if parts:
+                    key = parts[0]
+                    if key not in root_seen:
+                        roots.append(ln.strip())
+                        root_seen.add(key)
+    except FileNotFoundError:
+        print("Warning: python3 or imperial_roots.py not found, skipping root lookup", file=sys.stderr)
+    except subprocess.TimeoutExpired:
+        print("Warning: imperial_roots.py timed out, skipping root lookup", file=sys.stderr)
+    except OSError as e:
+        print(f"Warning: Failed to run imperial_roots.py: {e}", file=sys.stderr)
+    
+    if roots:
+        print("\nROOTS:")
+        for rt in roots: 
+            print(f"  {rt}")
+    
+    if not caste_hits and not location_hits and not other_hits and not unmatched and not roots:
+        print("(no new terms)")
+    
+    # Helpful tips based on what was found
+    current_scene = cache.get("scene_location")
+    if location_hits:
+        location_names = [term for term, entry in location_hits]
+        if not current_scene:
+            print("\n* TIP: Use --scene <location> to set current scene and see exits/RAG docs")
+        elif current_scene not in location_names:
+            # Scene set but different location mentioned
+            new_loc = location_names[0]
+            print(f"\n* SCENE CHANGE? Current: {current_scene}. Mentioned: {new_loc}")
+            print(f"  -> Use --scene \"{new_loc}\" if location changed")
+    elif caste_hits:
+        print("\n* TIP: Use --caste <n> for detailed caste info")
+    
+    # Update seen and save cache
+    seen |= words
+    save_seen(seen)
+    save_cache(cache)
+
+def main():
+    """Main entry point - runs command then prints next-turn reminder."""
+    result = _main_inner()
+    # Print reminder unless explicitly suppressed (e.g., after --clear)
+    if result is not False:
+        print_next_turn_reminder()
+
+if __name__ == '__main__':
+    main()

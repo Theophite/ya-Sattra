@@ -1,0 +1,1409 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# IMPERIAL LANGUAGE MORPHOLOGICAL DATA
+# ═══════════════════════════════════════════════════════════════════════════════
+#
+# Edit individual entries using str_replace by matching the entry markers:
+#   From: # ═══ Entry Name ═══  (through)  # ─── end Entry Name ───
+#
+# Categories: particle, suffix, root, class_vii, emperor_specific, jargon
+#
+# NOTATION:
+#   Dots separate morphemes:       vel.eth (harmony-pattern)
+#   Hyphens mark incomplete forms: vel- (the root), -eth (the suffix)
+#   Brackets mark grammatical:     [past], [dative], [nominative]
+#
+# WORD STRUCTURE:
+#   Imperial words = STEM + TERMINAL
+#   Stems can combine multiple roots: vel.ameth.kir- (harmony-cycle-rotation-)
+#   Terminals complete words: vel.ameth.kir.eth (the calendar)
+#
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# ===========================================================================
+# PARTICLES
+# ===========================================================================
+
+particles:
+
+  # ═══ as-gen ═══
+  as-gen:
+    form: "as-"
+    description: "Genitive. Marks possession, origin, or belonging."
+    notes: "As subject: X's (thing), the possessor. As object: of X, from X. Contrasts with es- (delegation). Not to be confused with -as suffix (inchoative)."
+    examples:
+      - "as-Theron tal.om (Theron's gauge; the gauge of Theron)"
+      - "as-Keloreth dal.eth (Keloreth's contract; contract from Keloreth)"
+      - "as-yaarem vor.al (birth-waters; flow from the womb)"
+    related:
+      - es
+  # ─── end as-gen ───
+
+  # ═══ es ═══
+  es:
+    form: "es-"
+    description: "Synecdochic genitive. Marks delegation, representation, standing-for."
+    notes: "As subject: the delegate/representative of X. As object: on behalf of X, in X's name. Every es- chain terminates at SETAL. Contrasts with as- (possession)."
+    examples:
+      - "Lira es-Ophar (Lira standing for Ophar; on behalf of Ophar)"
+      - "sat.keth.tav es-SETAL (delegated rod; rod on behalf of Emperor)"
+      - "es-Keloreth tal.ov (assessment on behalf of Keloreth)"
+    related:
+      - as
+  # ─── end es ───
+
+  # ═══ na ═══
+  na:
+    form: "na-"
+    description: "Dative. Marks recipient, beneficiary, direction."
+    notes: "As subject: the recipient, the one receiving. As object: to X, for X, toward X."
+    examples:
+      - "na-Theron don.ov (distribution to Theron; Theron as recipient)"
+      - "na-Satara ser.ov (revelation to the Satara)"
+      - "na-shal.ath dal.esh (owed to all mankind)"
+  # ─── end na ───
+
+  # ═══ sri ═══
+  sri:
+    form: "Sri"
+    description: "Honorific. Precedes titles and names in formal address."
+    notes: "In Tsatsan, palatalized to 'Shi'. Etymologically fossilized inversion of -sīr."
+  # ─── end sri ───
+
+  # ═══ ta ═══
+  ta:
+    form: "ta-"
+    description: "Inherent quality marker. Asserts intrinsic, essential nature."
+    notes: "As subject: one who IS X by nature. As object: as inherently X. Contrasts with te- (axiomatic relation). Forms caste names."
+    examples:
+      - "Tathal (one inherently supreme; Highborn)"
+      - "Takhun (one inherently strategic; Warborn)"
+      - "Tadal (one inherently laboring; labor caste)"
+      - "ta.shul.eth (inborn-obedience-pattern; Compulsion)"
+    related:
+      - te
+  # ─── end ta ───
+
+  # ═══ te ═══
+  te:
+    form: "te-"
+    description: "Axiomatic relation marker. Marks belonging to a system or category."
+    notes: "As subject: one affiliated with X, member of X-system. As object: of the X-system, under X's domain. Contrasts with ta- (inherent nature)."
+    examples:
+      - "te.thal (one of the Highborn system; under Highborn authority)"
+      - "te.dal (one of labor; labor-affiliated)"
+      - "te.khun (one of the military; military-affiliated)"
+      - "te.SETAL (one of the Emperor; imperially affiliated)"
+    related:
+      - ta
+  # ─── end te ───
+
+  # ═══ ve ═══
+  ve:
+    form: "ve-"
+    description: "Instrumental. Marks means, method, or instrument."
+    notes: "As subject: the means, the instrument used. As object: by means of X, using X, through X."
+    examples:
+      - "ve-shar.en kor.ov (cutting by blade; the blade as cutter)"
+      - "ve-dal.eth gar.al (joining through contract)"
+      - "ve-es-SETAL vel.esh (must judge by Emperor's authority)"
+    related:
+      - vor
+  # ─── end ve ───
+
+  # ═══ ya ═══
+  ya:
+    form: "ya-"
+    description: "Locative. Marks place or location."
+    notes: "As subject: the place of X. As object: at X. The v elides after ya-."
+    examples:
+      - "ya-Don (the place of distribution; at the distribution-place)"
+      - "ya-Sattra (the place of the Satara; at the Satara's seat)"
+      - "ya.varem → yaarem (womb; at the womb)"
+  # ─── end ya ───
+
+# ===========================================================================
+# SUFFIXES
+# ===========================================================================
+
+suffixes:
+
+  # ═══ ai ═══
+  ai:
+    form: "-ai"
+    description: "Archaic agentive. No longer productive."
+    examples:
+      - "Morai (from mor.ai)"
+  # ─── end ai ───
+
+  # ═══ ak ═══
+  ak:
+    form: "-ak"
+    description: "Or, at least one. Inclusive disjunction."
+    notes: "Marks inclusive choice—one or the other or both. Mathematical: ∨, OR."
+    examples:
+      - "vel.ak gar.ak (judge or join, possibly both)"
+      - "don.ak shar.ak (distribute or divide, or both)"
+    related:
+      - ek
+  # ─── end ak ───
+
+  # ═══ al ═══
+  al:
+    form: "-al"
+    description: "Achieved, complete, holds true. Perfective state that obtains."
+    notes: "Contrasts with -el (eternally true) and -ash (can be true). Mathematical: ∃, existence, the state holds."
+    examples:
+      - "vel.al (judgment achieved; the case is decided)"
+      - "vor.al (flow that obtains; a river)"
+      - "gar.al (joining complete; unified)"
+      - "kedh.al (measurement obtained; the quantity)"
+  # ─── end al ───
+
+  # ═══ am ═══
+  am:
+    form: "-am"
+    description: "Dual or small plural. A few instances."
+    examples:
+      - "pel.am (coins, coinage collectively)"
+  # ─── end am ───
+
+  # ═══ ara ═══
+  ara:
+    form: "-ara"
+    description: "Institution, governing body."
+    examples:
+      - "sat.ara (the council)"
+      - "vel.ara (court as institution)"
+      - "tav.ara → taasar (Bureau of the Rod)"
+      - "orath.ara (Bureau of the Lens)"
+  # ─── end ara ───
+
+  # ═══ as ═══
+  as:
+    form: "-as"
+    description: "Beginning, entering into, becoming. Inchoative aspect."
+    notes: "Marks the threshold of entering a state. The s-final continues forward. Mathematical: initial condition, boundary entering."
+    examples:
+      - "vel.as (beginning to judge; case opened)"
+      - "gar.as (beginning to join; negotiation commenced)"
+      - "dal.as (entering obligation; duty assumed)"
+    related:
+      - at
+  # ─── end as ───
+
+  # ═══ ash ═══
+  ash:
+    form: "-ash"
+    description: "Can, might, possible. Contingent possibility."
+    notes: "Concrete capability; also expresses conditional possibility (might X if Y). Mathematical: ◇, possible."
+    examples:
+      - "vel.ash (can judge; might judge if conditions allow)"
+      - "gar.ash (can join; might join if terms met)"
+      - "imet.ash (can write; is literate)"
+    related:
+      - esh
+      - al
+  # ─── end ash ───
+
+  # ═══ at ═══
+  at:
+    form: "-at"
+    description: "Ending, exiting from, ceasing. Cessative aspect."
+    notes: "Marks the threshold of leaving a state. The t-final stops. Mathematical: terminal condition, limit, boundary exiting."
+    examples:
+      - "vel.at (judgment concluded; case closed)"
+      - "gar.at (joining ended; dissolution)"
+      - "dal.at (obligation discharged; debt cleared)"
+    related:
+      - as
+  # ─── end at ───
+
+  # ═══ ath ═══
+  ath:
+    form: "-ath"
+    description: "Exclusive totality. The only relevant instance of a category."
+    examples:
+      - "shal.ath (mankind, persons in totality)"
+      - "dassīr.ath (the workers alone)"
+  # ─── end ath ───
+
+  # ═══ el ═══
+  el:
+    form: "-el"
+    description: "Eternally true, axiomatic. What always has been and will be."
+    notes: "Most -el constructions do not authenticate. The Lector is cautious about claims to eternality. Mathematical: ∀, universal truth."
+    examples:
+      - "neth.el (precedent, reasoning treated as axiomatic)"
+      - "SETAL.ser.el (law, eternal Emperor-revelation—usually contracted to SETAL.ser)"
+      - "kir.el (eternal rotation; the motion of stars)"
+    related:
+      - al
+  # ─── end el ───
+
+  # ═══ ek ═══
+  ek:
+    form: "-ek"
+    description: "Exclusive or, one but not both. Exclusive disjunction."
+    notes: "Marks exclusive choice—one alternative excludes the other. Mathematical: ⊕, XOR."
+    examples:
+      - "vel.ek gar.ek (judge or join, but not both)"
+      - "don.ek shar.ek (distribute or divide, exclusively)"
+    related:
+      - ak
+  # ─── end ek ───
+
+  # ═══ esh ═══
+  esh:
+    form: "-esh"
+    description: "Must, will, necessary. Contingent necessity."
+    notes: "Abstract requirement; also expresses conditional necessity (will X if Y). Mathematical: □, necessary; →, implication."
+    examples:
+      - "vel.esh (must judge; will judge if case brought)"
+      - "gar.esh (must join; will join if terms met)"
+      - "dal.esh (must labor; corvée obligation)"
+    related:
+      - ash
+      - al
+  # ─── end esh ───
+
+  # ═══ em ═══
+  em:
+    form: "-em / -um"
+    description: "Plural, collective. Many instances."
+    notes: "Vowel varies: -em after front vowels, -um after back vowels."
+    examples:
+      - "sat.em (delegates collectively)"
+      - "thar.sah.em (criminals)"
+      - "shir.ul.sah.em (those with a tendency)"
+  # ─── end em ───
+
+  # ═══ en ═══
+  en:
+    form: "-en"
+    description: "Concrete instance, singular entity. 'The thing/one which X.'"
+    notes: "In naming, forms family names: Taasaren, Sharsaren, Pelamsaren."
+    examples:
+      - "ameth.kir.en (rotating mechanism)"
+      - "kir.en (wheel, gear)"
+      - "vor.al.en (river, thing of continuous flow)"
+      - "yev.vel.en (courthouse)"
+  # ─── end en ───
+
+  # ═══ est ═══
+  est:
+    form: "-est"
+    description: "Authority per correct delegation. Contraction of es-SETAL."
+    notes: "Distinguishes authority to act from mere capacity to act."
+    examples:
+      - "vel.est (judgment-authority)"
+      - "varem.est (germination-authority)"
+  # ─── end est ───
+
+  # ═══ eth ═══
+  eth:
+    form: "-eth"
+    description: "Pattern, structured framework, institution. For verbal aspect: continuous/habitual."
+    examples:
+      - "dal.eth (contract)"
+      - "khun.eth (strategy)"
+      - "vel.eth (deliberation-framework)"
+      - "[past]-vel.eth = 'there was judging'"
+  # ─── end eth ───
+
+  # ═══ gan ═══
+  gan:
+    form: "-gan"
+    description: "Patronymic fossil. Possibly filial."
+  # ─── end gan ───
+
+  # ═══ gir ═══
+  gir:
+    form: "-gir"
+    description: "One who tends or cultivates. Agricultural/pastoral agent."
+    examples:
+      - "ken.gir (farmer)"
+      - "phen.gir (gardener)"
+      - "varem.gir (midwife, nurse)"
+  # ─── end gir ───
+
+  # ═══ im ═══
+  im:
+    form: "-im"
+    description: "Patronymic fossil. Possibly collective or filial."
+  # ─── end im ───
+
+  # ═══ iq ═══
+  iq:
+    form: "-iq"
+    description: "Archaic. Original function unknown."
+    notes: "The q is now pronounced as a voiced velar."
+    examples:
+      - "Tariq"
+  # ─── end iq ───
+
+  # ═══ mar ═══
+  mar:
+    form: "-mar"
+    description: "One accountable for, steward of, manager."
+    examples:
+      - "don.mar (bursar, almoner)"
+      - "kef.mar → kemar (Companion)"
+      - "vel.mar (harmonizer, mediator)"
+  # ─── end mar ───
+
+  # ═══ nem ═══
+  nem:
+    form: "-nem"
+    description: "Opposed to, against, in opposite direction."
+    notes: "Carries wrongness connotation."
+    examples:
+      - "tsol.nem (west, spin-opposed)"
+      - "thev.nem (south, axis-opposed)"
+      - "tsol.nem.sah → tsolnum (Westerners)"
+  # ─── end nem ───
+
+  # ═══ om ═══
+  om:
+    form: "-om"
+    description: "Surface, place-of-occurrence, locus."
+    examples:
+      - "kel.om (doorway)"
+      - "kem.om (floor)"
+      - "gol.om (wheel-face, disc)"
+      - "khun.om (battlefield)"
+      - "tal.om (measuring-surface)"
+  # ─── end om ───
+
+  # ═══ ov ═══
+  ov:
+    form: "-ov"
+    description: "Act, discrete occurrence, completed instance. For verbal aspect: punctual."
+    examples:
+      - "vel.ov (a judgment-act)"
+      - "shar.don.ov (act of inheritance division)"
+      - "[past]-vel.ov = 'a judgment was rendered'"
+  # ─── end ov ───
+
+  # ═══ rem ═══
+  rem:
+    form: "-rem"
+    description: "Aligned with, in accordance with. [JARGON calque from áo-vvì]"
+    notes: "Original Jargon áo-vvì was an axiomatic reference marker. Modern -rem has lost that force."
+    examples:
+      - "tsol.rem (east, spin-aligned)"
+      - "thev.rem (north, axis-aligned)"
+  # ─── end rem ───
+
+  # ═══ sah ═══
+  sah:
+    form: "-sah"
+    description: "Bearer, witness, patient. Can attach to inanimate objects."
+    examples:
+      - "gol.da.sah → goldassah (cart)"
+      - "kef.sah → kessah (friend-creature)"
+      - "thar.sah (criminal, disorder-bearer)"
+      - "aur.dal.sah → Aurdal (the Aureate)"
+  # ─── end sah ───
+
+  # ═══ sar ═══
+  sar:
+    form: "-sar"
+    description: "Person of expertise, technician, craftsperson."
+    notes: "Distinct from -sīr (credentialed professional) and -gir (cultivator)."
+    examples:
+      - "ot.sar (craftsman, tool-wielder)"
+      - "thur.sar (smith, heat-worker)"
+      - "tav.sar (technician, device-expert)"
+  # ─── end sar ───
+
+  # ═══ sīr ═══
+  sīr:
+    form: "-sīr"
+    description: "Professional agent. Formal, credentialed actor."
+    examples:
+      - "vel.e.sīr (one who harmonizes)"
+      - "imet.e.sīr (scribe)"
+      - "tal.e.sīr (assessor)"
+      - "khun.sat.sīr (military officer)"
+  # ─── end sīr ───
+
+  # ═══ ul ═══
+  ul:
+    form: "-ul"
+    description: "Quality, property, abstract characteristic."
+    examples:
+      - "orath.ul → oraul (quality of perception)"
+      - "thal.ul → thuul (quality of supremacy)"
+      - "SETAL.ul (Dominion)"
+      - "ta.leth.ul (quality of inherent permission)"
+  # ─── end ul ───
+
+  # ═══ um ═══
+  um:
+    form: "-um"
+    description: "Plural, collective (back-vowel variant of -em)."
+    examples:
+      - "tsolnum (Westerners, from tsol.nem.sah)"
+  # ─── end um ───
+
+  # ═══ yeh ═══
+  yeh:
+    form: "-yeh"
+    description: "Classifier for entities permitting mutual cognitive modeling. [JARGON residue from yé-ah]"
+    notes: "Appears nowhere else in Imperial; likely from Jargon yé-ah."
+    examples:
+      - "ta.kef.yeh (friend-species, aliens)"
+  # ─── end yeh ───
+
+# ===========================================================================
+# ROOTS
+# ===========================================================================
+
+roots:
+
+  # ═══ ameth ═══
+  ameth:
+    form: "ameth-"
+    description: "Cycle, transit, repetitive passage. [JARGON calque from àm-mév]"
+    notes: "àm-mév named 'return through phase-space to configuration indistinguishable from origin.' Imperial captures only the temporal shadow."
+    examples:
+      - "ameth.kir.eth (calendar)"
+      - "vel.ameth.e.sīr (evaluation-cycle-agent)"
+  # ─── end ameth ───
+
+  # ═══ aur ═══
+  aur:
+    form: "aur-"
+    description: "Gold, honor, radiance. The precious metal and the quality of being precious."
+    notes: "Social and material meanings share the root."
+    examples:
+      - "aur.dal.sah → Aurdal (the Aureate, gold-bearer)"
+  # ─── end aur ───
+
+  # ═══ dal ═══
+  dal:
+    form: "dal-"
+    description: "Labor, obligation, burden, what is owed or carried."
+    notes: "X.dal.eth = labor type as institution; X.da.sīr = the person who performs it."
+    examples:
+      - "dal.eth (contract)"
+      - "dal.eth.shul.eth → dalethshul (union contract)"
+      - "da.sīr (laborer)"
+      - "kem.dal.eth (mining)"
+      - "mas.dal.eth (construction)"
+  # ─── end dal ───
+
+  # ═══ dasht ═══
+  dasht:
+    form: "dasht-"
+    description: "Guild, chartered economic association."
+    notes: "Opaque contraction of dal.shal.ath (labor-persons-totality). Modern speakers do not parse it."
+    examples:
+      - "dashtem (guilds, plural)"
+      - "Dasht-Reveth (Salvage Guild)"
+      - "Dasht-Kemar (Companions Guild)"
+  # ─── end dasht ───
+
+  # ═══ don ═══
+  don:
+    form: "don-"
+    description: "Distribution, organized bestowal. Systematic allocation."
+    examples:
+      - "ya-Don (place of distribution)"
+      - "don.mar (bursar, almoner)"
+  # ─── end don ───
+
+  # ═══ gol ═══
+  gol:
+    form: "gol-"
+    description: "Round, circular, wheeled; by extension, mobile or rolling."
+    notes: "Extends to things that move or cycle, though ameth- preferred for temporal cycles."
+    examples:
+      - "gol.da.sah → goldassah (cart)"
+      - "gol.om (disc, wheel-face)"
+  # ─── end gol ───
+
+  # ═══ imet ═══
+  imet:
+    form: "imet-"
+    description: "Record, inscription, documentation."
+    examples:
+      - "imet.e.sīr (scribe)"
+      - "imet.pel.vor.en (dual-entry ledger)"
+  # ─── end imet ───
+
+  # ═══ kel ═══
+  kel:
+    form: "kel-"
+    description: "Threshold, boundary, crossing. The line between states."
+    notes: "Death and birth are both kel-. Distinct from oth- (aperture): kel- is the crossing; oth- is the hole. In Emperor's corpus, combines with roots that appear nowhere else."
+    examples:
+      - "kel.om (doorway)"
+      - "kel.seth.ov (moment of transition)"
+  # ─── end kel ───
+
+  # ═══ kef ═══
+  kef:
+    form: "kef-"
+    description: "Friend, ally, companion; by extension, alien species other than Foreigners."
+    notes: "The -yeh suffix is likely from Jargon yé-ah (classifier for entities permitting mutual cognitive modeling)."
+    examples:
+      - "ta.kef.yeh (friend-species, aliens)"
+      - "kef.mar → kemar (Companion)"
+      - "kef.sah → kessah (friend-creature)"
+  # ─── end kef ───
+
+  # ═══ kem ═══
+  kem:
+    form: "kem-"
+    description: "Earth, ground, extraction."
+    examples:
+      - "kem.dal.eth (mining)"
+      - "kem.da.sīr (miner)"
+      - "kem.om (floor, foundation)"
+  # ─── end kem ───
+
+  # ═══ ken ═══
+  ken:
+    form: "ken-"
+    description: "Origin, source, beginning-point."
+    notes: "Heavily constrained: ken- cannot combine freely with authority roots because authority originates only from the Emperor."
+    examples:
+      - "ken.gir (farmer)"
+      - "ya.ken.om → yaken (hometown)"
+  # ─── end ken ───
+
+  # ═══ keth ═══
+  keth:
+    form: "keth-"
+    description: "Voice, utterance-with-effect. Commanding speech."
+    examples:
+      - "keth.thal.ul → kethal (Compulsion)"
+      - "keth.eth (document with legal force)"
+  # ─── end keth ───
+
+  # ═══ kev ═══
+  kev:
+    form: "kev-"
+    description: "Enclosed space, container, bounded volume."
+    notes: "Extremely productive for architecture and containers."
+    examples:
+      - "ya.kev → yev- (building)"
+      - "kev.om (floor)"
+      - "kev.e.sīr (steward)"
+  # ─── end kev ───
+
+  # ═══ khun ═══
+  khun:
+    form: "khun-"
+    description: "War, combat, organized violence."
+    notes: "Carries no valor connotation."
+    examples:
+      - "Takhun (Warborn, fossilized)"
+      - "khun.eth (strategy)"
+      - "khun.sat.sīr (officer)"
+      - "khun.om (battlefield)"
+  # ─── end khun ───
+
+  # ═══ kir ═══
+  kir:
+    form: "kir-"
+    description: "Rotation; wheel; four-fold division; seasonal cycle. [JARGON calque from kì-ír]"
+    notes: "kì-ír named the four quadrants of the complex plane through which rotation passes. Imperial retains rotation and four-ness. Craft applications: the kir.ot is the lathe, the kir.sar the turner."
+    examples:
+      - "kir.en (wheel, gear)"
+      - "kir.ot (lathe, turning-tool)"
+      - "kir.sar (turner, lathe-worker)"
+      - "kir.al (perpetual rotation)"
+      - "ameth.kir.eth (calendar)"
+    related:
+      - ameth
+      - mas
+  # ─── end kir ───
+
+  # ═══ lath ═══
+  lath:
+    form: "lath-"
+    description: "Lenience, mercy, discretionary forbearance."
+    notes: "Presupposes transgression. Distinct from leth- (permission to act)."
+    examples:
+      - "SETAL.lath (official mercy)"
+  # ─── end lath ───
+
+  # ═══ leth ═══
+  leth:
+    form: "leth-"
+    description: "Permission, discretion, bounded space for action."
+    notes: "In authenticated speech, leth must derive from SETAL. Ganati texts use leth- without derivation, implying permission is inherent. The Lector rejects leth- constructions lacking authority source."
+    examples:
+      - "ta.leth.ul (quality of inherent permission—'freedom' in subversive reading)"
+  # ─── end leth ───
+
+  # ═══ mas ═══
+  mas:
+    form: "mas-"
+    description: "Shape, build, construction. Giving form to material."
+    notes: "Metaphorical: shaping arguments, constructing cases. Distinct from thur- (heating/working) and vor- (joining)."
+    examples:
+      - "mas.dal.eth (construction)"
+      - "mas.da.sīr (mason, builder)"
+      - "mas.en (form, shaped thing)"
+  # ─── end mas ───
+
+  # ═══ mir ═══
+  mir:
+    form: "mir-"
+    description: "Witness, discernment. [DISPUTED]"
+    notes: "Covers sensory perception AND non-sensory apprehension of truth. Constructs with mir- are difficult to authenticate; often excluded from Lector-facing text."
+    examples:
+      - "mir.mar (witness-accountable)"
+  # ─── end mir ───
+
+  # ═══ mor ═══
+  mor:
+    form: "mor-"
+    description: "Completion, ending, finality."
+    examples:
+      - "mor.kel.ov → mokol (death)"
+      - "mor.keth.eth (closing argument)"
+  # ─── end mor ───
+
+  # ═══ neth ═══
+  neth:
+    form: "neth-"
+    description: "Chain of reasoning, logical sequence, proof-by-derivation."
+    notes: "Forward motion of inference. Some proofs are neth-; others are vel-. The distinction concerns whether a proof derives (neth-) or reconciles (vel-)."
+    examples:
+      - "neth.el (precedent, reasoning treated as axiomatic)"
+  # ─── end neth ───
+
+  # ═══ orath ═══
+  orath:
+    form: "orath-"
+    description: "Perception, the quality of perceiving, that which perceives."
+    notes: "Eyes, cameras, lenses, video, statistical analysis—all use orath- compounds."
+    examples:
+      - "orath.ul → oraul (sentience)"
+      - "orath.ara (Bureau of the Lens)"
+  # ─── end orath ───
+
+  # ═══ oro ═══
+  oro:
+    form: "oro-"
+    description: "Viewing, reading. Visual perception and text comprehension."
+    notes: "Distinct from mir- (which includes hearing, witnessing, a priori reasoning). Related to orath-."
+  # ─── end oro ───
+
+  # ═══ ot ═══
+  ot:
+    form: "ot-"
+    description: "Tool, instrument, implement. Non-technological."
+    notes: "Distinct from tav- (rod, device) which carries technological connotations."
+    examples:
+      - "ot.sar (craftsman, tool-wielder)"
+      - "ot.en (a tool, implement)"
+  # ─── end ot ───
+
+  # ═══ oth ═══
+  oth:
+    form: "oth-"
+    description: "Aperture, access-hole, portal. A bounded opening."
+    notes: "Distinct from kel-: kel- marks crossing, oth- marks the hole. oth.seth and oth.SETAL.ser appear in Archon-derived texts."
+    examples:
+      - "oth.seth.X (meaning unknown)"
+      - "oth.SETAL.ser.el (meaning unknown)"
+  # ─── end oth ───
+
+  # ═══ pel ═══
+  pel:
+    form: "pel-"
+    description: "Coin, value, transmission. Transfer of value; extends to transfer generally."
+    notes: "To transmit electricity or radio waves is literally to 'pay'."
+    examples:
+      - "pel.am (coinage)"
+      - "pel.am.sar (Bureau of the Coin)"
+  # ─── end pel ───
+
+  # ═══ phen ═══
+  phen:
+    form: "phen-"
+    description: "Sessile living thing, plant. Anything rooted: trees, crops, fungi."
+    examples:
+      - "phen.tav.en (cutting)"
+      - "phen.dal.eth (agriculture)"
+  # ─── end phen ───
+
+  # ═══ rem ═══
+  rem:
+    form: "rem-"
+    description: "Pattern, template. [JARGON calque from áo-vvì]"
+    notes: "áo-vvì marked statements as foundational for derivation. Modern rem- means simply 'pattern' without the axiomatic force."
+  # ─── end rem ───
+
+  # ═══ rev ═══
+  rev:
+    form: "rev-"
+    description: "Trash, waste, surplusage, overflow."
+    notes: "Despite humble etymology, salvage is highly prestigious."
+    examples:
+      - "ya.vor.rev.om (sewer)"
+      - "rev.eth (salvage)"
+      - "Dasht-Reveth (Salvage Guild)"
+  # ─── end rev ───
+
+  # ═══ sat ═══
+  sat:
+    form: "sat-"
+    description: "Delegation, substitution, proxy-relation. All legitimate action passes through sat-."
+    notes: "Construction without named source presumes chain proceeds from SETAL."
+    examples:
+      - "sat.em (delegates)"
+      - "sat.ara (the council)"
+  # ─── end sat ───
+
+  # ═══ ser ═══
+  ser:
+    form: "ser-"
+    description: "Unfold, bloom, become-accessible."
+    notes: "Botanical: flower opening. Documentary: scroll unrolled. Theological: truth entering awareness."
+    examples:
+      - "SETAL.ser (law, Emperor-revelation)"
+      - "vel.e.ser.ov (to disclose, testify)"
+  # ─── end ser ───
+
+  # ═══ seth ═══
+  seth:
+    form: "seth-"
+    description: "Becoming, instantiation, temporal-acquisition. The moment when something IS."
+    notes: "Aspectually punctual where varem- is continuous. Birth is seth-; pregnancy is varem-."
+  # ─── end seth ───
+
+  # ═══ shal ═══
+  shal:
+    form: "shal-"
+    description: "Persons as mass, people as collective entity."
+    notes: "Distinct from shem- (blood, lineage). Rarely appears outside shal.ath."
+    examples:
+      - "shal.ath (mankind)"
+  # ─── end shal ───
+
+  # ═══ shar ═══
+  shar:
+    form: "shar-"
+    description: "Blade, separation, division. The instrument that divides; by extension, the act of dividing."
+    notes: "Shar- emphasizes the blade/instrument; kor- emphasizes the cutting action. Mathematical: division, the operation."
+    examples:
+      - "shar.don.ov (inheritance division)"
+      - "shar.sar (Bureau of the Sword)"
+      - "shar.en (a blade; divisor)"
+    related:
+      - kor
+      - gar
+  # ─── end shar ───
+
+  # ═══ shem ═══
+  shem:
+    form: "shem-"
+    description: "Blood, lineage-substrate. Physical: the fluid. Genealogical: what passes through generations."
+    examples:
+      - "Tatharshem (Sickly, fossilized: ta.thar.shem)"
+  # ─── end shem ───
+
+  # ═══ shev ═══
+  shev:
+    form: "shev-"
+    description: "Uniformity, isotropy, impartiality. [JARGON calque from shé-vī]"
+    notes: "shé-vī named isotropy—identical in all directions. Modern shev- means uniform application, treating all parties the same."
+    examples:
+      - "shev.vel.ov (uniform-judgment-act; ruling applied without regard to who is judged)"
+      - "shev.eth (uniformity-pattern; policy making no distinctions)"
+    related:
+      - shav
+  # ─── end shev ───
+
+  # ═══ shav ═══
+  shav:
+    form: "shav-"
+    description: "Partiality, anisotropy, directional application. [JARGON calque from shà-vī]"
+    notes: "shà-vī named anisotropy—varying by direction. Modern shav- means treating different parties differently."
+    examples:
+      - "shav.vel.ov (directional-judgment-act; ruling that favors some parties)"
+      - "shav.eth (directionality-pattern; policy producing different outcomes for different subjects)"
+    related:
+      - shev
+  # ─── end shav ───
+
+  # ═══ shir ═══
+  shir:
+    form: "shir-"
+    description: "Tendency, inclination, disposition."
+    examples:
+      - "shir.ul (temperament)"
+      - "shir.ul.sah.em (those with a tendency)"
+  # ─── end shir ───
+
+  # ═══ shul ═══
+  shul:
+    form: "shul-"
+    description: "Obey, respond-to-command, be-compelled."
+    notes: "Shul.eth is the obedience-pattern (neurological susceptibility to Compulsion). Where Highborn have keth.thal (commanding voice), non-Highborn have shul.eth (obedience-pattern)."
+    examples:
+      - "shul.eth (obedience-pattern, susceptibility to Compulsion)"
+      - "dal.eth.shul.eth → dalethshul (obligation-pattern-obedience-pattern; union contract binding workers to obedience)"
+      - "shul.keth.eth → shulketh (obedience-to-voice)"
+  # ─── end shul ───
+
+  # ═══ tal ═══
+  tal:
+    form: "tal-"
+    description: "Measure, assess, weigh."
+    examples:
+      - "tal.e.sīr (assessor)"
+      - "tal.om (measuring-surface)"
+      - "tal.en (a measure, standard)"
+  # ─── end tal ───
+
+  # ═══ tav ═══
+  tav:
+    form: "tav-"
+    description: "Rod, stick, implement; by extension, Bureau or branch of government."
+    notes: "Refers to the rod of office. Bureau of the Rod = tav.ara."
+    examples:
+      - "tav.ara → taasar (Bureau of the Rod)"
+      - "sat.keth.tav (delegated-authority-rod)"
+      - "tav.sar (technician)"
+  # ─── end tav ───
+
+  # ═══ ten ═══
+  ten:
+    form: "ten-"
+    description: "Hold, keep, maintain."
+    examples:
+      - "yev.ten.en → yevten (warehouse)"
+      - "ten.e.sīr (keeper)"
+  # ─── end ten ───
+
+  # ═══ thal ═══
+  thal:
+    form: "thal-"
+    description: "Supremacy, dominion, highest position."
+    examples:
+      - "Tathal (Highborn, fossilized)"
+      - "thal.ul → thuul (quality of supremacy)"
+      - "keth.thal.ul → kethal (Compulsion)"
+  # ─── end thal ───
+
+  # ═══ thar ═══
+  thar:
+    form: "thar-"
+    description: "Disorder, deviation, wrongness. That which is out of place."
+    examples:
+      - "thar.sah (criminal)"
+      - "Tatharshem (Sickly, fossilized: ta.thar.shem)"
+  # ─── end thar ───
+
+  # ═══ themal ═══
+  themal:
+    form: "themal-"
+    description: "Scales, weights, balances; discernment, choosing between options."
+    notes: "The Bureau of the Scale uses this root."
+    examples:
+      - "themal.ul → temuul (property of discernment)"
+      - "themal.ara (Bureau of the Scale)"
+  # ─── end themal ───
+
+  # ═══ thev ═══
+  thev:
+    form: "thev-"
+    description: "Axis, spindle. [JARGON calque from thé-vī]"
+    notes: "thé-vī named the invariant axis of rotation. Modern thev- appears in directional compounds."
+    examples:
+      - "thev.rem (north, axis-aligned)"
+      - "thev.nem (south, axis-opposed)"
+  # ─── end thev ───
+
+  # ═══ thur ═══
+  thur:
+    form: "thur-"
+    description: "Heat, fire, thermal working. Application of heat to transform material."
+    notes: "Central to metalworking and ceramics. Distinct from mas- (shaping) which need not involve heat."
+    examples:
+      - "thur.sar (smith, heat-worker)"
+      - "thur.dal.eth (metalworking, smithing)"
+      - "thur.om (forge, furnace-floor)"
+      - "thur.en (heated thing, casting)"
+    related:
+      - mas
+      - vor
+  # ─── end thur ───
+
+  # ═══ tsir ═══
+  tsir:
+    form: "tsir-"
+    description: "Spark, discharge, sudden energy release."
+    examples:
+      - "tsir.vor.al (electrical current)"
+      - "tsir.en (a spark)"
+  # ─── end tsir ───
+
+  # ═══ tsol ═══
+  tsol:
+    form: "tsol-"
+    description: "Spin, rotation about vertical. [JARGON calque from tsó-ol]"
+    notes: "tsó-ol named rotation in the complex plane. Modern tsol- appears in directional compounds."
+    examples:
+      - "tsol.rem (east, spin-aligned)"
+      - "tsol.nem (west, spin-opposed)"
+      - "tsol.nem.sah → tsolnum (Westerners)"
+  # ─── end tsol ───
+
+  # ═══ var ═══
+  var:
+    form: "var-"
+    description: "Receive, accept, be-subject-to. Range from passive to active reception."
+    examples:
+      - "var.e.sīr (official receiver)"
+      - "var.sat.ov (receive-delegation-act; receiving a promotion)"
+      - "var.keth.om (voice-reception-surface; the receptors for Compulsion)"
+  # ─── end var ───
+
+  # ═══ varem ═══
+  varem:
+    form: "varem-"
+    description: "Germination, growth, development over time."
+    notes: "Continuous aspect where seth- is punctual. Pregnancy is varem-; birth is seth-."
+    examples:
+      - "ya.varem → yaarem (womb)"
+      - "varem.gir (midwife)"
+      - "varem.ara (Bureau of the Creche)"
+  # ─── end varem ───
+
+  # ═══ vel ═══
+  vel:
+    form: "vel-"
+    description: "Harmonization, reconciliation, judgment."
+    notes: "Simultaneously 'to judge' and 'to harmonize'—the idea that proper judgment reconciles apparent conflicts."
+    examples:
+      - "vel.eth (deliberation-framework)"
+      - "vel.e.sīr (one who harmonizes)"
+      - "vel.ara (court as institution)"
+      - "vel.ov (a judgment-act)"
+  # ─── end vel ───
+
+  # ═══ vor ═══
+  vor:
+    form: "vor-"
+    description: "Flow, continuous movement; joining, bringing together."
+    notes: "Water flows; ideas flow; goods flow. By extension: joining separate things into continuous whole. Mathematical: continuity, integration."
+    examples:
+      - "vor.al (continuous flow; continuity)"
+      - "vor.al.en (river)"
+      - "ya.vor.rev.om (sewer)"
+      - "vor.dal.eth (joining-labor, assembly work)"
+      - "vor.sar (joiner, assembler)"
+    related:
+      - gar
+      - thur
+      - mas
+  # ─── end vor ───
+
+  # ===========================================================================
+  # CRAFTSMANSHIP ROOTS (NEW)
+  # ===========================================================================
+
+  # ═══ gash ═══
+  gash:
+    form: "gash-"
+    description: "Weave, interlace, textile work. Crossing threads to create fabric."
+    notes: "Extends metaphorically to anything woven: arguments, plots, alliances."
+    examples:
+      - "gash.dal.eth (weaving, textile production)"
+      - "gash.sar (weaver)"
+      - "gash.en (woven thing, cloth)"
+      - "gash.om (loom-surface)"
+  # ─── end gash ───
+
+  # ═══ kash ═══
+  kash:
+    form: "kash-"
+    description: "Harden, temper, make resistant. Treating material to increase durability."
+    notes: "Used for metal tempering, leather curing, and metaphorically for training that toughens."
+    examples:
+      - "kash.thur.ov (tempering, heat-hardening act)"
+      - "kash.en (tempered thing)"
+      - "kash.ul (hardness, tempered quality)"
+    related:
+      - thur
+  # ─── end kash ───
+
+  # ═══ kov ═══
+  kov:
+    form: "kov-"
+    description: "Hollow, excavate, make concave. Removing material to create space."
+    notes: "Distinct from mas- (giving form) and shar- (cutting). Kov- emphasizes the void created."
+    examples:
+      - "kov.dal.eth (hollowing work, vessel-making)"
+      - "kov.sar (potter, vessel-maker)"
+      - "kov.en (vessel, hollowed thing)"
+      - "kov.om (cavity, hollow space)"
+  # ─── end kov ───
+
+  # ═══ lam ═══
+  lam:
+    form: "lam-"
+    description: "Flatten, spread, reduce thickness. Rolling or hammering to compress."
+    notes: "Used for sheet metal, dough, leather. Mathematical: projection, reduction of dimension."
+    examples:
+      - "lam.thur.eth (sheet-metal work)"
+      - "lam.en (sheet, flattened thing; projection)"
+      - "lam.ot (rolling tool, hammer)"
+      - "lam.om (flattening surface; projection plane)"
+    related:
+      - per
+      - veren
+  # ─── end lam ───
+
+  # ═══ pol ═══
+  pol:
+    form: "pol-"
+    description: "Finish, polish, perfect surface. Final treatment for appearance or function."
+    notes: "The last step before a thing is complete. Extends to final editing, last touches."
+    examples:
+      - "pol.ov (finishing act)"
+      - "pol.sar (finisher, polisher)"
+      - "pol.ul (finished quality, polish)"
+  # ─── end pol ───
+
+  # ═══ tesh ═══
+  tesh:
+    form: "tesh-"
+    description: "Bind, fasten, secure. Joining by wrapping, tying, or mechanical fastening."
+    notes: "Distinct from vor- (flowing together). Tesh- implies discrete attachment points."
+    examples:
+      - "tesh.dal.eth (binding work, fastening)"
+      - "tesh.en (fastening, binding)"
+      - "tesh.ot.en (binding tool)"
+  # ─── end tesh ───
+
+  # ═══ vosh ═══
+  vosh:
+    form: "vosh-"
+    description: "Cast, pour into mold. Liquid-to-solid transformation in shaped container."
+    notes: "Used for metal casting, ceramic slip-casting, concrete. The mold determines form."
+    examples:
+      - "vosh.thur.eth (foundry work, casting)"
+      - "vosh.sar (founder, caster)"
+      - "vosh.en (casting, molded thing)"
+      - "vosh.om (mold, casting-form)"
+    related:
+      - thur
+      - mas
+  # ─── end vosh ───
+
+  # ═══ del ═══
+  del:
+    form: "del-"
+    description: "Pierce, bore, create passage. Making openings through material."
+    notes: "Creates passage where none existed. Mathematical: the point where lines intersect."
+    examples:
+      - "del.ot (drill, auger)"
+      - "del.sar (borer)"
+      - "del.en (bore-hole; intersection point)"
+      - "del.om (piercing-surface; plane of intersection)"
+    related:
+      - kov
+  # ─── end del ───
+
+  # ═══ gar ═══
+  gar:
+    form: "gar-"
+    description: "Join, connect, make continuous. Bringing separate pieces into unified whole."
+    notes: "Physical joining extends naturally to political alliance. Mathematical: union, addition, conjunction."
+    examples:
+      - "gar.eth (joinery; alliance, binding agreement)"
+      - "gar.sar (joiner; treaty-maker)"
+      - "gar.om (joint; treaty clause)"
+      - "gar.en (assembly; alliance)"
+      - "gar.ov (act of joining; ratification; sum)"
+    related:
+      - vor
+      - tesh
+      - shar
+  # ─── end gar ───
+
+  # ═══ kedh ═══
+  kedh:
+    form: "kedh-"
+    description: "Measure, calibrate, establish quantity. Determining dimensions; by extension, calculation, assessment."
+    notes: "Central to both craft and mathematics. The kedh.sar measures; the kedh.eth is the practice of quantification."
+    examples:
+      - "kedh.ot (measuring tool, gauge)"
+      - "kedh.sar (measurer; assessor; calculator)"
+      - "kedh.eth (measurement; calculation; assessment)"
+      - "kedh.om (gauge surface; coordinate plane)"
+      - "kedh.en (measured quantity; calculated result)"
+    related:
+      - tal
+      - don
+  # ─── end kedh ───
+
+  # ═══ kor ═══
+  kor:
+    form: "kor-"
+    description: "Cut, sever, separate by blade. Sharp-edged division."
+    notes: "Physical cutting extends to categorical distinction. Mathematical: division, partition, the operation that separates."
+    examples:
+      - "kor.ot (blade, cutting tool)"
+      - "kor.sar (cutter; one who divides)"
+      - "kor.eth (cutting practice; division)"
+      - "kor.en (cut piece; quotient; partition)"
+      - "kor.ov (cutting act; act of division)"
+    related:
+      - shar
+      - gar
+  # ─── end kor ───
+
+  # ═══ merev ═══
+  merev:
+    form: "merev-"
+    description: "Repair, restore, return to function. Making whole what was broken."
+    notes: "Physical repair extends to reconciliation—a merev.ov between houses ends a feud."
+    examples:
+      - "merev.eth (repair practice; reconciliation)"
+      - "merev.sar (repairer; mediator)"
+      - "merev.ov (repair-act; act of reconciliation)"
+      - "merev.dal (repair-obligation)"
+    related:
+      - mas
+      - gar
+  # ─── end merev ───
+
+  # ═══ per ═══
+  per:
+    form: "per-"
+    description: "Press, compress, apply sustained force. Shaping by pressure."
+    notes: "Used in metalworking, papermaking, bookbinding."
+    examples:
+      - "per.ot (press, compression tool)"
+      - "per.sar (presser, press-operator)"
+      - "per.en (pressed thing)"
+      - "per.om (press-bed)"
+    related:
+      - lam
+  # ─── end per ───
+
+  # ═══ rath ═══
+  rath:
+    form: "rath-"
+    description: "Scrape, abrade, remove surface layer. Taking away thin layers to reveal or smooth."
+    notes: "Filing, sanding, planing. Preparatory or finishing work."
+    examples:
+      - "rath.ot (scraper, file, plane)"
+      - "rath.sar (finisher)"
+      - "rath.eth (surface finishing)"
+    related:
+      - pol
+      - mas
+  # ─── end rath ───
+
+  # ═══ veren ═══
+  veren:
+    form: "veren-"
+    description: "Draw out, elongate, extend. Pulling material to lengthen it."
+    notes: "Wire-drawing, extrusion. Mathematical: extension, extrapolation, projection along an axis."
+    examples:
+      - "veren.ot (draw-plate, die)"
+      - "veren.sar (wire-drawer)"
+      - "veren.en (drawn thing, wire; extension)"
+      - "veren.eth (drawing practice; extrapolation)"
+    related:
+      - lam
+      - vor
+  # ─── end veren ───
+
+# ===========================================================================
+# CLASS VII (ATEMPORAL)
+# ===========================================================================
+
+class_vii:
+
+  # ═══ SETAL ═══
+  SETAL:
+    form: "SETAL"
+    description: "The Emperor. The only Class VII noun that can serve as delegation source."
+    notes: "Presumes .el (eternal) suffix. Cannot be prefixed, questioned, or modified. All es- chains terminate here."
+    examples:
+      - "SETAL.ser (law, Emperor-revelation)"
+      - "SETAL.ul (Dominion)"
+      - "SETAL.lath (official mercy)"
+      - "sat.keth.tav es-SETAL (delegated-authority-rod)"
+  # ─── end SETAL ───
+
+# ===========================================================================
+# EMPEROR-SPECIFIC (DO NOT USE)
+# ===========================================================================
+
+emperor_specific:
+
+  # ═══ kerseth ═══
+  kerseth:
+    form: "kerseth-"
+    description: "Unknown. Appears only in Emperor's corpus with kel-."
+    notes: "DO NOT USE. Meaning unclear. May relate to threshold-becoming."
+  # ─── end kerseth ───
+
+  # ═══ velmor ═══
+  velmor:
+    form: "velmor-"
+    description: "Unknown. Appears only in Emperor's corpus."
+    notes: "DO NOT USE. Possibly harmony-completion or judgment-ending."
+  # ─── end velmor ───
+
+# ===========================================================================
+# JARGON-DERIVED
+# ===========================================================================
+
+jargon:
+
+  # ═══ àm-mév ═══
+  àm-mév:
+    form: "àm-mév"
+    description: "Return through phase-space to configuration indistinguishable from origin."
+    notes: "Source of Imperial ameth-. The original named mathematical periodicity; Imperial captures only the temporal shadow."
+  # ─── end àm-mév ───
+
+  # ═══ áo-vvì ═══
+  áo-vvì:
+    form: "áo-vvì"
+    description: "Axiomatic reference marker. Marked statements as foundational for derivation."
+    notes: "Source of both -rem suffix and rem- root. The original's axiomatic force is lost."
+  # ─── end áo-vvì ───
+
+  # ═══ kì-ír ═══
+  kì-ír:
+    form: "kì-ír"
+    description: "The four quadrants of the complex plane through which rotation passes."
+    notes: "Source of Imperial kir-. Imperial retains only four-ness and rotation."
+  # ─── end kì-ír ───
+
+  # ═══ shé-vī ═══
+  shé-vī:
+    form: "shé-vī"
+    description: "Isotropy—the property of being identical in all directions."
+    notes: "Source of Imperial shev-. Modern shev- means uniform application, impartiality."
+  # ─── end shé-vī ───
+
+  # ═══ shà-vī ═══
+  shà-vī:
+    form: "shà-vī"
+    description: "Anisotropy—the property of varying by direction."
+    notes: "Source of Imperial shav-. Modern shav- means partiality, directional application."
+  # ─── end shà-vī ───
+
+  # ═══ thé-vī ═══
+  thé-vī:
+    form: "thé-vī"
+    description: "The invariant axis of rotation."
+    notes: "Source of Imperial thev-. Modern thev- appears only in directional compounds."
+  # ─── end thé-vī ───
+
+  # ═══ tsó-ol ═══
+  tsó-ol:
+    form: "tsó-ol"
+    description: "Rotation in the complex plane."
+    notes: "Source of Imperial tsol-. Modern tsol- appears only in directional compounds."
+  # ─── end tsó-ol ───
+
+  # ═══ yé-ah ═══
+  yé-ah:
+    form: "yé-ah"
+    description: "Classifier for entities permitting mutual cognitive modeling."
+    notes: "Source of Imperial -yeh suffix. Appears only in ta.kef.yeh (friend-species)."
+  # ─── end yé-ah ───
+
+# ===========================================================================
+# KNOWN COMPOUNDS AND CONTRACTIONS
+# ===========================================================================
+
+compounds:
+
+  # Common contractions
+  Aurdal:
+    components: ["aur", "dal", "sah"]
+    gloss: "gold-burden-bearer → the Aureate"
+
+  dalethshul:
+    components: ["dal", "eth", "shul", "eth"]
+    gloss: "obligation-pattern-obedience-pattern → union contract"
+
+  dashtem:
+    components: ["dasht", "em"]
+    gloss: "guild-plural → the guilds"
+
+  goldassah:
+    components: ["gol", "dal", "sah"]
+    gloss: "wheel-burden-bearer → wagon"
+
+  kemar:
+    components: ["kef", "mar"]
+    gloss: "friend-accountable → Companion"
+
+  kessah:
+    components: ["kef", "sah"]
+    gloss: "friend-creature"
+
+  kethal:
+    components: ["keth", "thal", "ul"]
+    gloss: "voice-supremacy-quality → Compulsion"
+
+  mokol:
+    components: ["mor", "kel", "ov"]
+    gloss: "completion-crossing-act → death"
+
+  oraul:
+    components: ["orath", "ul"]
+    gloss: "perception-quality → sentience"
+
+  taasar:
+    components: ["tav", "ara"]
+    gloss: "rod-institution → Bureau of the Rod"
+
+  Tathal:
+    components: ["ta", "thal"]
+    gloss: "caste-supremacy → Highborn (fossilized)"
+
+  Takhun:
+    components: ["ta", "khun"]
+    gloss: "caste-war → Warborn (fossilized)"
+
+  Tatharshem:
+    components: ["ta", "thar", "shem"]
+    gloss: "caste-disorder-blood → Sickly (fossilized)"
+
+  thuul:
+    components: ["thal", "ul"]
+    gloss: "supremacy-quality"
+
+  tsolnum:
+    components: ["tsol", "nem", "sah"]
+    gloss: "spin-opposed-bearer → Westerners"
+
+  yaarem:
+    components: ["ya", "varem"]
+    gloss: "place-germination → womb"
+
+  yev:
+    components: ["ya", "kev"]
+    gloss: "place-enclosed → building"
+
+  yevten:
+    components: ["yev", "ten", "en"]
+    gloss: "building-hold-thing → warehouse"
+
+  temuul:
+    components: ["themal", "ul"]
+    gloss: "discernment-quality → property of discernment"
+
+  Tasshuleth:
+    components: ["ta", "shul", "eth"]
+    gloss: "caste-obedience-pattern → neurological susceptibility to Compulsion"
